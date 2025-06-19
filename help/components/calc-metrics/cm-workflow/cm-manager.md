@@ -3,10 +3,10 @@ description: Il gestore delle metriche calcolate consente di condividere, filtra
 title: Gestore metriche calcolate
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 31%
+source-wordcount: '855'
+ht-degree: 30%
 
 ---
 
@@ -23,18 +23,18 @@ ht-degree: 31%
 Il gestore delle metriche calcolate dispone dei seguenti elementi dell’interfaccia:
 
 
-![Interfaccia filtri](assets/calculated-metrics-manager.png)
+![Interfaccia del gestore delle metriche calcolate](assets/calculated-metrics-manager.png)
 
-### Elenco filtri
+### Elenco delle metriche calcolate
 
-Nell&#39;elenco filtri ➊ vengono visualizzate tutte le metriche calcolate di tua proprietà o che sono state condivise con te. L’elenco dispone delle seguenti colonne:
+Nell&#39;elenco delle metriche calcolate ➊ vengono visualizzate tutte le metriche calcolate di tua proprietà o che sono state condivise con te. L’elenco dispone delle seguenti colonne:
 
 <!-- I think this table incorrectly talks about quick calculated metrics -->
 
 | Colonna | Descrizione |
 | --- | --- | 
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o sfavorire ![StarOutline](/help/assets/icons/StarOutline.svg) una metrica calcolata. Vedi [Segna la metrica calcolata come preferita](/help/components/segments/seg-favorite.md) |
-| **[!UICONTROL Title and description]** | Per modificare la metrica calcolata, selezionare il collegamento del titolo, che apre il generatore di metriche calcolate [&#128279;](cm-build-metrics.md). Una metrica calcolata condivisa è indicata con ![Condividi](/help/assets/icons/ShareAlt.svg). |
+| **[!UICONTROL Title and description]** | Per modificare la metrica calcolata, selezionare il collegamento del titolo, che apre il generatore di metriche calcolate [](cm-build-metrics.md). Una metrica calcolata condivisa è indicata con ![Condividi](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Data view]** | Le visualizzazioni dati a cui si applica questa metrica calcolata. |
 | **[!UICONTROL Owner]** | Proprietario della metrica calcolata. In quanto utente, puoi visualizzare solo le annotazioni che possiedi o quelle che sono state condivise con te. |
 | **[!UICONTROL Tags]** | Elenca i tag per questa metrica calcolata. |
@@ -53,7 +53,7 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 
 | Icona | Azione | Descrizione |
 |:---:|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Aggiungere un&#39;altra metrica calcolata utilizzando il generatore di metriche calcolate [&#128279;](cm-build-metrics.md). |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Aggiungere un&#39;altra metrica calcolata utilizzando il generatore di metriche calcolate [](cm-build-metrics.md). |
 | ![Ricerca](/help/assets/icons/Search.svg) | [!UICONTROL *Ricerca per titolo*] | Se nell’elenco non è selezionata alcuna metrica calcolata, cerca i filtri utilizzando questo campo di ricerca. |
 | ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Assegna tag alle metriche calcolate selezionate. Nella finestra di dialogo **[!UICONTROL Tag Calculated metric]**, seleziona o deseleziona i tag per la metrica calcolata selezionata. Selezionare **[!UICONTROL Save]** per salvare i tag per le metriche calcolate selezionate. Per ulteriori informazioni, vedere [Assegnare tag alle metriche calcolate](cm-tagging.md). |
 | ![Condividi](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Share]** | Condividi le metriche calcolate selezionate. Nella finestra di dialogo **[!UICONTROL Share Calculated metrics]**, puoi effettuare una ![Ricerca](/help/assets/icons/Search.svg) *Ricerca di singoli utenti o gruppi* oppure puoi selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per le metriche calcolate selezionate. Per ulteriori informazioni, vedere [Condividi metriche calcolate](cm-sharing.md). |

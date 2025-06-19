@@ -3,7 +3,7 @@ description: Con il generatore di metriche calcolate, chiunque può creare una m
 title: Metrica di partecipazione
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -23,7 +23,7 @@ I passaggi seguenti mostrano come qualsiasi utente con l&#39;autorizzazione [Cre
 1. [Creare una metrica calcolata](cm-workflow.md) e nel [Generatore di metriche calcolate](cm-build-metrics.md), denominare la metrica `Participation` o una metrica simile.
 1. Trascinare una metrica contenente un evento di successo, ad esempio [!DNL Orders], nell&#39;area [!UICONTROL **[!UICONTROL Definition]**].
 1. Selezionare ![Ingranaggio](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) per la metrica.
-1. Nel popup visualizzato, selezionare **[!UICONTROL Use a non-default attribution model]** per definire il [modello di attribuzione](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) dell&#39;evento a **[!UICONTROL Participation]** e selezionare **[!UICONTROL Session]** per [!UICONTROL Lookback window]. Selezionare **[!UICONTROL Apply]** per confermare.
+1. Nel popup visualizzato, selezionare **[!UICONTROL Use a non-default attribution model]** per definire il [modello di attribuzione](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) dell&#39;evento a **[!UICONTROL Participation]** e selezionare **[!UICONTROL Session]** per [!UICONTROL Container]. Selezionare **[!UICONTROL Apply]** per confermare.
 
 
    ![Menu a comparsa del modello di attribuzione colonna che mostra la partecipazione selezionata come modello e la sessione selezionata per l&#39;intervallo di lookback.](assets/participation-setup.png)

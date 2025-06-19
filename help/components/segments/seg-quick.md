@@ -4,7 +4,7 @@ title: Segmenti rapidi
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 23%
@@ -19,7 +19,7 @@ I segmenti rapidi consentono di esplorare rapidamente i dati all&#39;interno di 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi in Analysis Workspace](https://video.tv.adobe.com/v/345338/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi in Analysis Workspace](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -107,6 +107,6 @@ I segmenti rapidi sono esattamente ciò che sono denominati. Puoi creare e modif
 I segmenti presentano i seguenti vantaggi rispetto ai segmenti rapidi.
 
 * I segmenti possono essere resi disponibili in tutti i tuoi progetti Workspace
-* I segmenti supportano una maggiore complessità utilizzando contenitori nidificati e gerarchici e sequenze (utilizzando segmenti di sequenza).
+* I segmenti supportano una maggiore complessità utilizzando [contenitori](seg-builder.md#containers) nidificati e gerarchici e sequenze (utilizzando [segmenti sequenziali](seg-sequential-build.md)).
 
 

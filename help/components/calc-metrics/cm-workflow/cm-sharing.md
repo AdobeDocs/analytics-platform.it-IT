@@ -3,10 +3,10 @@ description: A seconda delle autorizzazioni, puoi condividere le metriche con l�
 title: Condividere le metriche calcolate
 feature: Calculated Metrics
 exl-id: b2a3e4e3-f0aa-4505-b3f5-7d9f14dc1640
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 6%
 In [Gestione metriche calcolate](cm-manager.md) è possibile condividere le metriche calcolate. A seconda delle autorizzazioni, puoi condividere le metriche calcolate con l’intera organizzazione, i gruppi o i singoli utenti:
 
 * **Amministratori**: gli amministratori possono condividere le metriche calcolate con l&#39;intera organizzazione, con i gruppi all&#39;interno di un&#39;organizzazione e con i singoli utenti. Consulta la [documentazione di Admin Console](https://helpx.adobe.com/it/enterprise/using/manage-products.html) per maggiori informazioni.
-* **Non amministratori**: i non amministratori possono condividere solo la metrica calcolata creata e solo con singoli utenti. |
+* **Non amministratori**: i non amministratori possono condividere solo la metrica calcolata creata e solo con singoli utenti.
 
 Per condividere una o più metriche calcolate:
 
@@ -29,7 +29,7 @@ Per condividere una o più metriche calcolate:
 
    1. Selezionare una o più opzioni dalla sezione **[!UICONTROL Organization]** o **[!UICONTROL Groups]** oppure cercare e selezionare uno o più utenti. Le opzioni disponibili dipendono dal ruolo.
 
-   1. Selezionare **[!UICONTROL Save]** per condividere le metriche calcolate. Selezionare **[!UICONTROL Cancel]** per annullare.
+   1. Selezionare **[!UICONTROL Save]** per condividere le metriche calcolate. Seleziona **[!UICONTROL Cancel]** per annullare.
 
 ## Best practice
 
