@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: 68f2fe684f6eb9590ab047e893fb04b1cbe1a8cd
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1469'
 ht-degree: 2%
 
 ---
@@ -98,7 +98,7 @@ Esempio di connessione basata su account in Customer Journey Analytics B2B editi
 Customer Journey Analytics B2B edition offre l&#39;interfaccia [Connection Map](/help/connections/create-connection.md#connection-map) per fornire una panoramica delle relazioni tra i set di dati presenti nella connessione.
 
 
-Analogamente a Customer Journey Analytics, i dati delle serie temporali basate su eventi sono alla base di Customer Journey Analytics B2B edition. La differenza principale per una connessione basata sull’account è che è necessario un ID account su ogni record nel set di dati dell’evento invece di un ID persona.
+Analogamente a Customer Journey Analytics, i dati delle serie temporali basate su eventi sono alla base di Customer Journey Analytics B2B edition. La differenza principale per una connessione basata sull’account è che hai bisogno di un ID account su ogni record nel set di dati dell’evento invece di un ID persona.
 
 Quando configuri [impostazioni set di dati](/help/connections/create-connection.md#dataset-settings) per la connessione basata sull&#39;account in Customer Journey Analytics B2B edition, le opzioni disponibili per alcune impostazioni dipendono dal [tipo di set di dati](/help/connections/create-connection.md#dataset-types). Ad esempio, devi:
 
@@ -121,5 +121,5 @@ Se un set di dati record utilizza una corrispondenza per campo, nell’interfacc
 
 ## Rapporto sui dati basati su persone e account
 
-Se desideri creare rapporti sui contenitori basati su persone (e sulle identità di persona) e sui contenitori basati su account (e sulle identità di account), imposta due connessioni separate in Customer Journey Analytics. Una connessione in cui si seleziona Persona come ID primario e una connessione in cui si seleziona Account come ID primario. Customer Journey Analytics non supporta la generazione di rapporti basati su persone e account da una singola gerarchia di contenitori.
+Se desideri creare rapporti sui contenitori basati su persone (e sulle identità di persona) e sui contenitori basati su account (e sulle identità di account), imposta due connessioni separate in Customer Journey Analytics. Una connessione in cui si seleziona Persona come ID principale e una connessione in cui si seleziona Account come ID principale. Customer Journey Analytics non supporta la generazione di rapporti basati su persone e account da una singola gerarchia di contenitori.
 
