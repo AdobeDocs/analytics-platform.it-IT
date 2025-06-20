@@ -53,7 +53,7 @@ Utilizza l’[estensione Adobe Content Analytics](https://experienceleague.adobe
 
   Puoi abilitare o disabilitare le esperienze e modificare le combinazioni di espressioni regolari e parametri di query per determinare come riprodurre i contenuti sul tuo sito web.
 
-* [Segmentazione eventi](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
+* [Segmentazione eventi](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
 
   Puoi modificare le espressioni regolari per modificare il modo in cui segmentate pagine e risorse.
 
@@ -97,7 +97,7 @@ Content Analytics gestisce le identità nel modo seguente:
 * L’unione basata sui campi non è supportata perché lo schema è di proprietà del sistema. Pertanto, non è possibile aggiungere un altro campo allo schema per supportare l’unione basata sui campi
 
 
-Per garantire che i dati di identità di Content Analytics e i dati di identità di Adobe Experience Platform Web SDK siano uniti correttamente a livello di campo, è necessario apportare modifiche al SDK Web [prima del callback dell&#39;evento](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"}.
+Per garantire che i dati di identità di Content Analytics e i dati di identità di Adobe Experience Platform Web SDK siano uniti correttamente a livello di campo, è necessario apportare modifiche al SDK Web [prima del callback dell&#39;evento](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"}.
 
 1. Passa alla proprietà **[!UICONTROL Tags]** contenente l&#39;estensione Adobe Experience Platform Web SDK e l&#39;estensione Adobe Content Analytics.
 1. Selezionare ![Plug](/help/assets/icons/Plug.svg) **[!UICONTROL Extensions]**.
