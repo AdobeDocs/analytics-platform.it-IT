@@ -4,7 +4,7 @@ title: Generare segmenti
 feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 53%
@@ -12,8 +12,6 @@ ht-degree: 53%
 ---
 
 # Generare segmenti {#build-segments}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -24,7 +22,6 @@ ht-degree: 53%
 >id="components_filters_datapreview"
 >title="Anteprima dati"
 >abstract="Confronta i dati di questo segmento con i dati della visualizzazione dati. La percentuale di anteprima è basata sul numero totale della visualizzazione dati a partire dagli **ultimi 90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
-
 
 La finestra di dialogo **[!UICONTROL Segment builder]** viene utilizzata per creare nuovi segmenti o modificare quelli esistenti. La finestra di dialogo si chiama **[!UICONTROL New segment]** o **[!UICONTROL Edit segment]** per i segmenti creati o gestiti dal gestore [[!UICONTROL Segment]](/help/components/segments/seg-manage.md).
 
@@ -202,5 +199,3 @@ La tabella seguente spiega, per ogni modello di attribuzione, quali eventi in ar
 Un esempio di rapporto sugli eventi che utilizzano i tre segmenti è simile al seguente:
 
 ![Risultati modello di attribuzione segmento](assets/filter-dimension-attribution-results.png)
-
-<!-- markdownlint-enable MD034 -->
