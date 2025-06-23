@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
+source-git-commit: 995a2a9250f4ef929890b781b8d55263a04d38a3
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 93%
+source-wordcount: '1263'
+ht-degree: 92%
 
 ---
 
@@ -398,10 +398,11 @@ ht-degree: 93%
    + [Utilizzare i segmenti](../report-builder/work-with-filters.md)
    + [Filtra dimensioni](../report-builder/filter-dimensions.md)
    + [Gestire i blocchi di dati](../report-builder/manage-reportbuilder.md)
-   + [Pianificare le cartelle di lavoro](../report-builder/schedule-reportbuilder.md)
+   + [Pianificazione delle cartelle di lavoro per l&#39;e-mail](../report-builder/schedule-reportbuilder.md)
+   + [Pianificare le cartelle di lavoro per le esportazioni cloud](../report-builder/report-builder-export.md)
+   + [Gestisci pianificazioni cartelle di lavoro](/help/report-builder/manage-schedules-reportbuilder.md)
    + [Etichette per limitazioni](../report-builder/restricted-labels.md)
    + [Impostazioni Report Builder](../report-builder/report-builder-settings.md)
-   + [Esporta dati](../report-builder/report-builder-export.md)
 
 
 + Reporting Activity Manager {#reporting-activity-manager}

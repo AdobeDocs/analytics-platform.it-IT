@@ -1,20 +1,20 @@
 ---
-description: Configura il percorso di esportazione cloud in cui possono essere inviati i dati del Customer Journey Analytics
+description: Configura il percorso di esportazione cloud in cui possono essere inviati i dati di Customer Journey Analytics
 keywords: Analysis Workspace
 title: Configurare le posizioni di esportazione cloud
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: ec8f6c3c8cc1c0b12821e3b61fbef9f5fe875258
+source-git-commit: 882e280da3f65e297abccd475d381832fd236843
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1911'
 ht-degree: 20%
 
 ---
 
 # Configurare le posizioni di esportazione cloud
 
-Prima di esportare i report di Customer Journey Analytics in una destinazione cloud come descritto in [Esporta report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), è necessario aggiungere e configurare il percorso in cui si desidera inviare i dati.
+Prima di poter esportare i report di Customer Journey Analytics in una destinazione cloud (da Analysis Workspace, come descritto in [Esportare i report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md) o da Report Builder, come descritto in [Esportare i report da Report Builder](/help/report-builder/report-builder-export.md)) come descritto in [Esportare i report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), è necessario aggiungere e configurare il percorso in cui si desidera inviare i dati.
 
 Questo processo consiste nell&#39;aggiungere e configurare l&#39;account (ad esempio Amazon S3, Google Cloud Platform e così via) come descritto in [Configurare gli account di esportazione cloud](/help/components/exports/cloud-export-accounts.md), quindi aggiungere e configurare il percorso all&#39;interno dell&#39;account (ad esempio una cartella all&#39;interno dell&#39;account) come descritto in questo articolo.
 
@@ -51,18 +51,18 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 
    Continua con la sezione seguente che corrisponde al tipo di account selezionato nel campo [!UICONTROL **Account località**].
 
-   * [Area di destinazione dati AEP](#aep-data-landing-zone)
+   * [Area di destinazione dati di AEP](#aep-data-landing-zone)
    * [Amazon S3 con ruolo ARN](#amazon-s3-role-arn)
    * [Google Cloud Platform](#google-cloud-platform)
    * [Azure SAS](#azure-sas)
    * [Azure RBAC](#azure-rbac)
    * [Snowflake](#snowflake)
 
-### Area di destinazione dati AEP
+### Area di destinazione dati di AEP
 
 >[!IMPORTANT]
 >
->Quando esporti i rapporti sul Customer Journey Analytics nella Adobe Experience Platform Data Landing Zone, accertati di scaricare i dati entro 7 giorni, quindi eliminarli dalla AEP Data Landing Zone. Dopo 7 giorni, i dati vengono eliminati automaticamente dalla zona di destinazione dati di AEP.
+>Quando esporti i rapporti di Customer Journey Analytics nella Adobe Experience Platform Data Landing Zone, accertati di scaricare i dati entro 7 giorni, quindi eliminarli dalla AEP Data Landing Zone. Dopo 7 giorni, i dati vengono eliminati automaticamente dalla Data Landing Zone di AEP.
 
 1. Inizia a creare un percorso di esportazione cloud in uno dei seguenti modi:
 
@@ -194,14 +194,14 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 
    * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
-1. Nella sezione [!UICONTROL **Proprietà posizione**] della finestra di dialogo [!UICONTROL **Aggiungi posizione**], specificare le informazioni seguenti per configurare una posizione di Snowflake:
+1. Nella sezione [!UICONTROL **Proprietà posizione**] della finestra di dialogo [!UICONTROL **Aggiungi posizione**], specificare le informazioni seguenti per configurare un percorso Snowflake:
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **DB**] | Il database specificato deve essere esistente. Il ruolo creato deve disporre dei privilegi necessari per accedere al database.<p>Database associato al nome dell&#39;area di visualizzazione.</p><p>È possibile concedere privilegi di ruolo al database nel Snowflake utilizzando il comando seguente: `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>Per ulteriori informazioni, vedere la pagina [Database, Schema e Comandi di condivisione nella documentazione del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
-   | [!UICONTROL **Schema**] | Lo schema specificato deve essere uno schema esistente. Il ruolo creato deve disporre dei privilegi necessari per accedere a questo schema.<p>Schema associato al nome dell&#39;area di visualizzazione.<p>È possibile concedere i privilegi per il ruolo creato allo schema nel Snowflake utilizzando il comando seguente: `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>Per ulteriori informazioni, vedere la pagina [Database, Schema e Comandi di condivisione nella documentazione del Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
-   | [!UICONTROL **Nome fase**] | Il nome della fase interna in cui i file di dati vengono memorizzati nel Snowflake.<p>Verificare che il ruolo specificato nell&#39;account disponga dell&#39;accesso in lettura e scrittura al nome della fase. Poiché si concede l&#39;accesso in lettura e scrittura, si consiglia di utilizzare una fase utilizzata solo da Adobe.<p>È possibile concedere l&#39;accesso in lettura e scrittura al nome dell&#39;area di visualizzazione nel Snowflake utilizzando il comando seguente: `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>Per informazioni sulla concessione di privilegi a un ruolo, vedere [Concedere privilegi nella documentazione del Snowflake](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>Per ulteriori informazioni sul nome dell&#39;area di visualizzazione, vedere la pagina [Scelta di un&#39;area di visualizzazione interna per i file locali nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
-   | [!UICONTROL **Percorso fase**] | Percorso del percorso in cui sono memorizzati i file di dati nel Snowflake. <p>Per ulteriori informazioni, vedere la pagina [Scelta di una fase interna per i file locali nella documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
+   | [!UICONTROL **DB**] | Il database specificato deve essere esistente. Il ruolo creato deve disporre dei privilegi necessari per accedere al database.<p>Database associato al nome dell&#39;area di visualizzazione.</p><p>È possibile concedere privilegi di ruolo al database in Snowflake utilizzando il comando seguente: `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>Per ulteriori informazioni, vedere la pagina [Database, Schema e Comandi di condivisione nella documentazione di Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Schema**] | Lo schema specificato deve essere uno schema esistente. Il ruolo creato deve disporre dei privilegi necessari per accedere a questo schema.<p>Schema associato al nome dell&#39;area di visualizzazione.<p>È possibile concedere i privilegi per il ruolo creato allo schema in Snowflake utilizzando il comando seguente: `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>Per ulteriori informazioni, vedere la pagina [Database, Schema e Comandi di condivisione nella documentazione di Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Nome fase**] | Il nome della fase interna in cui i file di dati vengono memorizzati in Snowflake.<p>Verificare che il ruolo specificato nell&#39;account disponga dell&#39;accesso in lettura e scrittura al nome della fase. Poiché si concede l&#39;accesso in lettura e scrittura, si consiglia di utilizzare una fase utilizzata solo da Adobe.<p>È possibile concedere l&#39;accesso in lettura e scrittura al nome della fase in Snowflake utilizzando il comando seguente: `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>Per informazioni sulla concessione di privilegi a un ruolo, vedere [Concedere privilegi nella documentazione di Snowflake](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>Per ulteriori informazioni sul nome dell&#39;area di visualizzazione, vedere la pagina [Scelta di un&#39;area di visualizzazione interna per i file locali nella documentazione di Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
+   | [!UICONTROL **Percorso fase**] | Percorso del percorso in cui sono memorizzati i file di dati in Snowflake. <p>Per ulteriori informazioni, vedere la pagina [Scelta di una fase interna per i file locali nella documentazione di Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}
 

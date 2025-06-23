@@ -6,14 +6,14 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
+source-git-commit: 9505f21748b3d94b2398f898e5399d095ccec260
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 14%
+source-wordcount: '718'
+ht-degree: 17%
 
 ---
 
-# Pianificare le cartelle di lavoro
+# Pianificare le cartelle di lavoro condividendo tramite e-mail
 
 Dopo aver salvato la cartella di lavoro e completato l&#39;analisi, è possibile condividerla con altri utenti del team utilizzando la funzionalità di pianificazione. La funzione di pianificazione consente di creare una pianificazione che aggiorna automaticamente i dati nella cartella di lavoro. E invia tramite e-mail il file della cartella di lavoro di Excel come allegato al pubblico specificato in una data e un’ora specifiche. L’impostazione di una pianificazione fornisce automaticamente ai destinatari aggiornamenti regolari. Puoi anche utilizzare la funzione di pianificazione per inviare la cartella di lavoro una volta senza pianificare gli aggiornamenti automatici.
 
@@ -24,7 +24,7 @@ La funzione di pianificazione consente inoltre di impostare la protezione tramit
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica cartelle di lavoro](https://video.tv.adobe.com/v/3417505/?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica cartelle di lavoro](https://video.tv.adobe.com/v/3413079/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -129,54 +129,7 @@ In entrambi i casi, nella parte inferiore dell’hub Report Builder viene visual
 
 Per annullare l&#39;invio della cartella di lavoro, selezionare **[!UICONTROL Cancel]**.
 
+## Gestire le cartelle di lavoro pianificate
 
-## Visualizzare e gestire cartelle di lavoro pianificate
+Per informazioni sulla gestione delle cartelle di lavoro già pianificate, vedere [Gestione delle cartelle di lavoro pianificate](/help/report-builder/manage-schedules-reportbuilder.md).
 
-È possibile visualizzare e gestire tutte le cartelle di lavoro pianificate nella scheda **[!UICONTROL Workbooks]**.
-
-1. Seleziona **[!UICONTROL Schedule]** nell&#39;hub Report Builder
-
-1. Seleziona la scheda **[!UICONTROL Workbooks]**. Viene visualizzato un elenco di tutte le cartelle di lavoro pianificate.
-
-   ![Cartella di lavoro pianificata](assets/scheduled-workbooks.png){zoomable="yes"}
-
-   Passa il cursore del mouse sull’icona per visualizzare lo stato di una cartella di lavoro pianificata.
-
-   Utilizza ![Ricerca](/help/assets/icons/Search.svg) per cercare specifiche cartelle di lavoro pianificate.
-Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le colonne da visualizzare.
-
-1. Selezionare una o più cartelle di lavoro.
-
-   ![Pianifica cartelle di lavoro selezionate](assets/scheduled-workbooks-selected.png){zoomable="yes"}
-
-   Sono disponibili le seguenti opzioni:
-
-   | Opzione | Descrizione |
-   |---|---|
-   | ![Modifica](/help/assets/icons/Edit.svg) | Modifica la pianificazione per una cartella di lavoro selezionata. |
-   | ![Cronologia](/help/assets/icons/History.svg) | Mostra la cronologia delle cartelle di lavoro selezionate. |
-   | ![Pausa](/help/assets/icons/Pause.svg) | Sospende la pianificazione delle cartelle di lavoro selezionate. |
-   | ![Riproduci](/help/assets/icons/Play.svg) | Riprendere la pianificazione delle cartelle di lavoro selezionate. |
-   | ![Scarica](/help/assets/icons/Download.svg) | Scarica la cartella di lavoro selezionata in una nuova cartella di lavoro. |
-   | ![Elimina](/help/assets/icons/Delete.svg) | Elimina la pianificazione delle cartelle di lavoro selezionate. |
-
-
-## Cronologia e stato delle cartelle di lavoro pianificate
-
-È possibile visualizzare la cronologia e lo stato delle cartelle di lavoro pianificate nella scheda **[!UICONTROL History]**.
-
-1. Selezionare **[!UICONTROL Schedule]** nell&#39;hub Report Builder.
-
-1. Seleziona la scheda **[!UICONTROL History]**. Viene visualizzato un elenco di tutte le cartelle di lavoro pianificate.
-
-   ![Cronologia pianificata](assets/scheduled-workbooks-history.png){zoomable="yes"}
-
-   Utilizzare ![Cerca](/help/assets/icons/Search.svg) per cercare cartelle di lavoro specifiche nell&#39;elenco.
-Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le colonne da visualizzare.
-
-   La scheda **[!UICONTROL History]** consente di rivedere lo stato di ogni attività pianificata. Una riga separata documenta la modifica dello stato per ogni attività pianificata.
-
-   * Un ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) indica che la cartella di lavoro è stata inviata correttamente.
-   * Un ![AlertRed](/help/assets/icons/AlertRed.svg) indica che si è verificato un errore.
-
-In alternativa, è possibile selezionare ![Cronologia](/help/assets/icons/History.svg) per una o più cartelle di lavoro selezionate nella scheda **[!UICONTROL Workbooks]**. Questa azione mostra la scheda **[!UICONTROL History]** con un elenco filtrato in base alla selezione. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un filtro.
