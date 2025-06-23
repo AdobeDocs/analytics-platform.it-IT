@@ -5,10 +5,10 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 9505f21748b3d94b2398f898e5399d095ccec260
+source-git-commit: e653cbe7c1955d04830b9ed9ff6399973036ab64
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 41%
+source-wordcount: '1247'
+ht-degree: 39%
 
 ---
 
@@ -119,12 +119,6 @@ Assicurati che i blocchi di dati, l’ambiente e le autorizzazioni soddisfino i 
 * **Blocchi di dati:** tutti i blocchi di dati devono includere almeno un componente in una colonna, riga o valore.
 
 * **Ambiente:** verificare che gli [indirizzi IP](/help/technotes/ip-addresses.md) e i [domini](/help/technotes/domains.md) utilizzati da Customer Journey Analytics siano consentiti tramite il firewall dell’organizzazione.
-
-* **Autorizzazioni:** in Adobe Admin Console, agli utenti deve essere assegnato un profilo di prodotto con l’autorizzazione [!UICONTROL **Esportazione tabella completa**] per esportare le tabelle complete. Per informazioni sull’assegnazione di un’autorizzazione a un profilo di prodotto in Admin Console, consulta [Autorizzazione Customer Journey Analytics in Admin Console](/help/technotes/access-control.md).
-
-  >[!NOTE]
-  >
-  >  Gli utenti a cui è assegnato il ruolo di [amministratore prodotto](/help/technotes/access-control.md#product-admin-role) hanno sempre accesso all&#39;esportazione di report da Report Builder. **(Applicabile a Report Builder???)**
 
 
 
