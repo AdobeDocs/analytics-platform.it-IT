@@ -5,9 +5,9 @@ exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Se disponi dei diritti di accesso [Visualizzazione pubblico](/help/technotes/acc
 
 ## Visualizzare tipi di pubblico nellʼelenco Tipi di pubblico
 
-L&#39;elenco dei tipi di pubblico ➊ mostra i tipi di pubblico esistenti.
+L’elenco dei tipi di pubblico ➊ mostra i tipi di pubblico esistenti.
 
 ![Gestione dei tipi di pubblico](assets/audiences-manager.png)
 
@@ -80,9 +80,9 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati: Puo
 
 | Icona | Azione | Descrizione |
 |:---:|---|---|
-| ![Etichette](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Assegna tag ai tipi di pubblico selezionati. Nella finestra di dialogo **[!UICONTROL Update tags: *nome pubblico *]**, seleziona i tag dal menu a discesa o digita uno o più nuovi tag. Seleziona **[!UICONTROL Save]**&#x200B;per salvare. |
+| ![Etichette](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Assegna tag ai tipi di pubblico selezionati. Nella finestra di dialogo **[!UICONTROL Update tags: *Nome del pubblico *]**, seleziona i tag dal menu a discesa oppure digita uno o più nuovi tag. Seleziona **[!UICONTROL Save]**per salvare. |
 | ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina i tipi di pubblico selezionati. |
-| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinomina il tipo di pubblico selezionato. Utilizza la finestra di dialogo **[!UICONTROL Rename: *nome tipo di pubblico *]**&#x200B;per rinominare il tipo di pubblico e selezionare **[!UICONTROL Save]**&#x200B;per salvare. |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinomina il tipo di pubblico selezionato. Utilizza la finestra di dialogo **[!UICONTROL Rename: *nome tipo di pubblico *]**per rinominare il tipo di pubblico e selezionare **[!UICONTROL Save]**per salvare. |
 
 Quando selezioni uno o più progetti pianificati, nella barra blu delle azioni sono disponibili le azioni seguenti.
 
@@ -94,7 +94,7 @@ Quando selezioni uno o più progetti pianificati, nella barra blu delle azioni s
 
 ## Filtrare l’elenco del pubblico
 
-Puoi filtrare l&#39;[elenco Tipi di pubblico](#audiences-list) utilizzando il pannello dei filtri ➋. Per mostrare o nascondere il pannello dei filtri, utilizza l’icona ![Filtro](/help/assets/icons/Filter.svg).
+Puoi filtrare l’[elenco Tipi di pubblico](#audiences-list) utilizzando il pannello dei filtri ➋. Per mostrare o nascondere il pannello dei filtri, utilizza l’icona ![Filtro](/help/assets/icons/Filter.svg).
 
 ![Gestione dei tipi di pubblico](assets/audiences-manager.png)
 

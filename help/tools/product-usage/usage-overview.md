@@ -3,9 +3,9 @@ title: Panoramica di utilizzo del prodotto
 description: Visualizza approfondimenti e rapporti sull’utilizzo di Customer Journey Analytics da parte della tua organizzazione.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
 source-git-commit: a4615907f61b4d63393a9481fdd7b45b7b9b6262
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -129,8 +129,8 @@ L’utilizzo del prodotto non tiene traccia dei singoli componenti del progetto 
 
 ## Modello disponibile
 
-È disponibile un [modello Adobe](/help/analysis-workspace/templates/use-templates.md) che utilizza i componenti generati automaticamente da questa funzionalità.
+È disponibile un [modello Adobe](/help/analysis-workspace/templates/use-templates.md) che utilizza i componenti generati automaticamente da questa funzione.
 
 **[!UICONTROL Adobe templates]** > **[!UICONTROL Other]** > **[!UICONTROL Product usage overview]**
 
-Selezionare la visualizzazione dati creata automaticamente dall&#39;utilizzo del prodotto nel selettore della visualizzazione dati, quindi selezionare il modello **[!UICONTROL Product usage overview]**. Seleziona **[!UICONTROL Preview]** per vedere quali pannelli utilizza il modello e quali sono i casi d&#39;uso ideali, oppure seleziona **[!UICONTROL Use template]** per aprirlo in Analysis Workspace.
+Seleziona la visualizzazione dati creata automaticamente dall’utilizzo del prodotto nel selettore della visualizzazione dati, quindi seleziona il modello **[!UICONTROL Product usage overview]**. Seleziona **[!UICONTROL Preview]** per vedere quali pannelli vengono utilizzati dal modello e quali sono i casi d’uso ideali, oppure seleziona **[!UICONTROL Use template]** per aprirlo in Analysis Workspace.

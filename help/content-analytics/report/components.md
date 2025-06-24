@@ -1,123 +1,123 @@
 ---
-title: Componenti Content Analytics
+title: Componenti di Content Analytics
 description: Dettagli sui componenti specifici di Content Analytics, come dimensioni, metriche (calcolate) e campi derivati
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
 source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-# Componenti Content Analytics
+# Componenti di Content Analytics
 
-Analytics per contenuto aggiunge le seguenti categorie di componenti (dimensioni, metriche (calcolate) e campi derivati) ai componenti già disponibili in Customer Journey Analytics:
+Content Analytics aggiunge le seguenti categorie di componenti (dimensioni, metriche (calcolate) e campi derivati) ai componenti già disponibili in Customer Journey Analytics:
 
-* [Metadati dell’esperienza](#experience-metadata)
-* [Attributi esperienza](#experience-attributes)
-* [Eventi esperienza](#experience-events)
-* [Metadati risorsa](#asset-metadata)
-* [Attributi risorsa](#asset-attributes)
-* [Eventi Assets](#asset-events)
+* [Metadati per esperienze](#experience-metadata)
+* [Attributi per esperienze](#experience-attributes)
+* [Eventi per esperienze](#experience-events)
+* [Metadati per risorse](#asset-metadata)
+* [Attributi delle risorse](#asset-attributes)
+* [Eventi per risorse](#asset-events)
 * [Metriche calcolate](#calculated-metrics)
 
-Nelle tabelle seguenti, ![IA generata](/help/assets/icons/AI.svg) indica una coppia attributo/valore generato da IA/ML.
+Nelle tabelle seguenti, ![Generato dall’IA](/help/assets/icons/AI.svg) indica una coppia attributo/valore generata mediante IA/ML.
 
-## Metadati dell’esperienza
+## Metadati per esperienze
 
 | Titolo | Descrizione | Tipo |
 |---|---|---|
 | Canale esperienza | Canale per l’esperienza. | Dimensione |
-| ID esperienza | ID univoco dell’esperienza. | Dimensione |
+| ID esperienza | ID univoco per l’esperienza. | Dimensione |
 | URL miniatura esperienza | URL per la miniatura dell’esperienza. | Dimensione |
-| Profondità percentuale orizzontale esperienza | Valore quantificabile della profondità percentuale orizzontale dell’esperienza. | Campo derivato da Dimension<br/> |
-| Profondità percentuale verticale esperienza | Valore quantificabile della profondità percentuale verticale dell’esperienza. | Campo derivato da Dimension<br/> |
+| Profondità orizzontale dell’esperienza in percentuale | Valore quantificabile della profondità orizzontale dell’esperienza in percentuale. | Dimensione<br/>Campo derivato |
+| Profondità verticale dell’esperienza in percentuale | Valore quantificabile della profondità verticale dell’esperienza in percentuale. | Dimensione<br/>Campo derivato |
 
 {style="table-layout:fixed"}
 
 
 
-## Attributi esperienza
+## Attributi per esperienze
 
 | Titolo | Descrizione | Tipo |
 |---|---|---|
-| Attributi esperienza | ![IA generata](/help/assets/icons/AI.svg) Elenco completo di tutti i nomi e i valori degli attributi esperienza | Campo derivato da Dimension<br> |
-| Punteggio di leggibilità dell’esperienza | ![IA generata](/help/assets/icons/AI.svg) Punteggio di leggibilità dell&#39;esperienza | Dimensione |
-| Parole chiave dell’esperienza | ![AI ha generato](/help/assets/icons/AI.svg) parole chiave per l&#39;esperienza. | Campo derivato da Dimension<br> |
-| Strategie di persuasione dell’esperienza | ![IA ha generato](/help/assets/icons/AI.svg) strategie di persuasione presenti nell&#39;esperienza specificata. I valori possibili sono: Identità sociale, Prova sociale, Autorità, Concretezza, Piede nella porta, Reazione superata, Reciprocità, Ancoraggio e confronto, Impatto sociale, Scarsità e Antropomorfismo. | Campo derivato da Dimension<br/> |
-| Narrative dell’esperienza | ![AI ha generato](/help/assets/icons/AI.svg) narrazioni che l&#39;esperienza sta creando in base alla rilevanza dal punto di vista di un addetto marketing. | Campo derivato da Dimension<br/> |
-| Toni esperienza | ![IA ha generato](/help/assets/icons/AI.svg) toni che l&#39;esperienza sta creando in base alla rilevanza dal punto di vista di un addetto marketing | Campo derivato da Dimension<br/> |
-| Emozioni di Experience Marketing | ![IA generata](/help/assets/icons/AI.svg) L&#39;emozione invocata dal lettore durante la lettura del testo utilizzato come parte dell&#39;esperienza: Urgenza, Esclusività, Incoraggiamento, Sfida, Curiosità, Risultato, Fiducia, Semplicità e Fascinazione. | Campo derivato da Dimension<br/> |
-| Conteggio emoticon esperienza | ![IA ha generato](/help/assets/icons/AI.svg) numero di emoticon per l&#39;esperienza. | Metrica |
-| Conteggio hashtag esperienza | ![IA ha generato](/help/assets/icons/AI.svg) numero di hashtag per l&#39;esperienza. | Metrica |
-| Conteggio frasi esperienza | ![IA ha generato](/help/assets/icons/AI.svg) il numero di frasi per l&#39;esperienza. | Metrica |
-| Rapporto parole arresto esperienza | ![IA ha generato](/help/assets/icons/AI.svg) numero di parole non significative per l&#39;esperienza. | Metrica |
-| Conteggio delle virgolette di testo esperienza | ![IA generata](/help/assets/icons/AI.svg) Numero di virgolette di testo per l&#39;esperienza. | Metrica |
-| Conteggio parole esperienza | ![IA ha generato](/help/assets/icons/AI.svg) Numero di parole per l&#39;esperienza. | Metrica |
-| Conteggio parole esperienza per frase | ![IA ha generato](/help/assets/icons/AI.svg) Numero di parole per frase per l&#39;esperienza. | Metrica |
+| Attributi per esperienze | ![Generato dall’IA](/help/assets/icons/AI.svg) Elenco completo di tutti i nomi e i valori degli attributi dell’esperienza | Dimensione<br>Campo derivato |
+| Punteggio di leggibilità dell’esperienza | ![Generato dall’IA](/help/assets/icons/AI.svg) Punteggio di leggibilità per l’esperienza | Dimensione |
+| Parole chiave dell’esperienza | ![Generate dall’IA](/help/assets/icons/AI.svg) Parole chiave per l’esperienza. | Dimensione<br>Campo derivato |
+| Strategie di persuasione dell’esperienza | ![Generate dall’IA](/help/assets/icons/AI.svg) Strategie di persuasione presenti nell’esperienza specificata. I valori possibili sono: Identità sociale, Prova sociale, Autorevolezza, Concretezza, Fare il primo passo, Superare la reattanza, Reciprocità, Ancoraggio e confronto, Impatto sociale, Scarsità e Antropomorfismo. | Dimensione<br/>Campo derivato |
+| Narrazioni dell’esperienza | ![Generate dall’IA](/help/assets/icons/AI.svg) Narrazioni create dall’esperienza in base alla rilevanza dal punto di vista di un marketer. | Dimensione<br/>Campo derivato |
+| Toni dell’esperienza | ![Generati dall’IA](/help/assets/icons/AI.svg) Toni creati dall’esperienza in base alla rilevanza dal punto di vista di un marketer | Dimensione<br/>Campo derivato |
+| Emozioni marketing dell’esperienzia | ![Generate dall’IA](/help/assets/icons/AI.svg) Le emozioni suscitate nel lettore durante la lettura del testo che fa parte dell’esperienza: Urgenza, Esclusività, Incoraggiamento, Sfida, Curiosità, Risultato, Fiducia, Semplicità e Fascinazione. | Dimensione<br/>Campo derivato |
+| Conteggio emoji dell’esperienza | ![Generato dall’IA](/help/assets/icons/AI.svg) Numero di emoji per l’esperienza. | Metrica |
+| Conteggio hashtag dell’esperienza | ![Generato dall’IA](/help/assets/icons/AI.svg) Numero di hashtag per l’esperienza. | Metrica |
+| Conteggio frasi dell’esperienza | ![Generato dall’IA](/help/assets/icons/AI.svg) Numero di frasi per l’esperienza. | Metrica |
+| Proporzione parole vuote dell’esperienza | ![Generato dall’IA](/help/assets/icons/AI.svg) Numero di parole vuote per l’esperienza. | Metrica |
+| Conteggio virgolette nel testo dell’esperienza | ![Generato dall’IA](/help/assets/icons/AI.svg) Numero di virgolette nel testo per l’esperienza. | Metrica |
+| Conteggio parole dell’esperienza | ![Generato dall’IA](/help/assets/icons/AI.svg) Numero di parole per l’esperienza. | Metrica |
+| Conteggio parole per frase dell’esperienza | ![Generato dall’IA](/help/assets/icons/AI.svg) Numero di parole per frase per l’esperienza. | Metrica |
 
 {style="table-layout:fixed"}
 
 
-## Eventi esperienza
+## Eventi per esperienze
 
 | Titolo | Descrizione | Tipo |
 |---|---|---|
-| Visualizzazioni esperienza | Misurazione quantificabile del numero di visualizzazioni dell’esperienza. | Metrica |
-| Clic sull’esperienza | Misurazione quantificabile del numero di clic dell’esperienza. | Metrica |
+| Visualizzazioni dell’esperienza | Misurazione quantificabile del numero di visualizzazioni dell’esperienza. | Metrica |
+| Clic dell’esperienza | Misurazione quantificabile del numero di clic dell’esperienza. | Metrica |
 
 {style="table-layout:fixed"}
 
 
-## Metadati risorsa
+## Metadati per risorse
 
 | Titolo | Descrizione | Tipo |
 |---|---|---|
-| ID risorsa | Identificatore univoco della risorsa. Il binario della risorsa determina l’univocità. Se il binario della risorsa cambia, l’ID cambia. L’ID univoco può essere l’URL, ma può anche essere creato un hash. | Dimensione |
-| Percorso Asset HTML | Percorso HTML concatenato per la risorsa. | Dimensione |
-| URL collegamento risorsa | Ancoraggio pagina più vicino per la risorsa. | Dimensione |
-| Larghezza visualizzazione risorsa | Larghezza di visualizzazione delle risorse di contenuto. | Dimensione |
-| Altezza di visualizzazione risorsa | Altezza di visualizzazione delle risorse di contenuto. | Dimensione |
-| Risorsa Assoluta a sinistra | Risorsa di contenuto a sinistra assoluta. | Dimensione |
-| Assoluto risorsa superiore | La risorsa del contenuto è in cima. | Dimensione |
+| ID risorsa | Identificatore univoco della risorsa. I dati binari della risorsa ne determinano l’univocità. Se i dati binari della risorsa cambiano, cambia anche il suo ID. L’ID univoco può essere l’URL, ma può anche essere un valore hash creato. | Dimensione |
+| Percorso HTML della risorsa | Percorso HTML concatenato per la risorsa. | Dimensione |
+| URL collegamento della risorsa | Ancoraggio pagina più vicino per la risorsa. | Dimensione |
+| Larghezza visualizzazione della risorsa | Larghezza di visualizzazione della risorsa di contenuto. | Dimensione |
+| Altezza visualizzazione della risorsa | Altezza di visualizzazione della risorsa di contenuto. | Dimensione |
+| Posizione assoluta sinistra della risorsa | Posizione assoluta sinistra della risorsa di contenuto. | Dimensione |
+| Posizione assoluta in alto della risorsa | Posizione assoluta in alto della risorsa di contenuto. | Dimensione |
 
 {style="table-layout:fixed"}
 
 
-## Attributi risorsa
+## Attributi delle risorse
 
 | Titolo | Descrizione | Tipo |
 |---|---|---|
-| Attributi risorsa | ![IA generata](/help/assets/icons/AI.svg) Elenco completo di tutti i nomi e i valori degli attributi delle risorse | Campo derivato da Dimension<br> |
-| Orientamento risorsa | ![IA generata](/help/assets/icons/AI.svg) Orientamento della risorsa. | Campo derivato da Dimension<br/> |
-| Tono generale risorsa | ![IA generata](/help/assets/icons/AI.svg) Tono generale della risorsa. | Campo derivato da Dimension<br/> |
-| Colori primo piano risorse | ![IA ha generato](/help/assets/icons/AI.svg) colori di primo piano della risorsa. | Campo derivato da Dimension<br/> |
-| Colori di sfondo risorsa | ![IA ha generato](/help/assets/icons/AI.svg) colori di sfondo della risorsa. | Campo derivato da Dimension<br/> |
-| Tag risorsa | ![IA ha generato](/help/assets/icons/AI.svg) tag per la risorsa. | Campo derivato da Dimension<br/> |
-| Scene risorse | ![AI ha generato](/help/assets/icons/AI.svg) scene per la risorsa. | Campo derivato da Dimension<br/> |
-| Oggetti risorsa | ![IA ha generato](/help/assets/icons/AI.svg) oggetti della risorsa. | Campo derivato da Dimension<br/> |
-| Stili fotografia risorsa | ![IA ha generato](/help/assets/icons/AI.svg) stili di fotografia della risorsa. | Campo derivato da Dimension<br/> |
-| Tipo di immagine risorsa | ![IA generato](/help/assets/icons/AI.svg) Tipo di immagine della risorsa. I valori possibili sono: fotografia, schizzo, pittura, digital_cartoon, infografica, graphic_design, collage e software_screenshot. | Campo derivato da Dimension<br/> |
-| Posizioni delle videocamere | ![AI generata](/help/assets/icons/AI.svg) posizioni fotocamera della risorsa. | Campo derivato da Dimension<br/> |
-| Prossimità fotocamera risorsa | ![AI generata](/help/assets/icons/AI.svg) Prossimità fotocamera della risorsa. | Campo derivato da Dimension<br/> |
-| Categorie di persone risorsa | ![IA ha generato](/help/assets/icons/AI.svg) categorie di persone per la risorsa. I valori possibili sono: persona, uomo, donna, gruppo sociale, folla, persone, ragazzo, ragazza e bambino. | Campo derivato da Dimension<br/> |
-| Densità contenuto visivo risorsa | ![IA ha generato](/help/assets/icons/AI.svg) la densità del contenuto visivo della risorsa. I valori possibili sono: basso, medio o alto. Una bassa densità di contenuto implica una piccola quantità di informazioni per unità di area dell&#39;immagine. | Dimensione |
-| Distribuzione attenzione visiva risorsa | ![IA generata](/help/assets/icons/AI.svg) Distribuzione attenzione visiva della risorsa. I valori possibili sono: basso, medio o alto. L&#39;attenzione diffusa si riferisce al grado in cui l&#39;attenzione di un osservatore è divisa tra le diverse parti di un&#39;immagine. | Campo derivato da Dimension<br/> |
-| Condizione di illuminazione risorse | ![IA generata](/help/assets/icons/AI.svg) Condizione di illuminazione della risorsa. I valori possibili sono: ora dorata, ora blu, mezzogiorno, overcast, notte, chiave alta, chiave bassa, illuminazione diurna, incandescente, fluorescente, colorato e studio. | Campo derivato da Dimension<br/> |
-| Impostazioni videocamera risorse | ![AI generata](/help/assets/icons/AI.svg) impostazione fotocamera della risorsa. I valori possibili sono: velocità dell&#39;otturatore elevata, esposizione prolungata. sfocatura bokeh, sfocatura movimento, sfocatura tilt-shift, flash, grandangolo, bianco e nero, surreale, doppia esposizione, macro e modalità normale. | Campo derivato da Dimension<br/> |
+| Attributi delle risorse | ![Generato dall’IA](/help/assets/icons/AI.svg) Elenco completo di tutti i nomi e i valori degli attributi della risorsa. | Dimensione<br>Campo derivato |
+| Orientamento della risorsa | ![Generato dall’IA](/help/assets/icons/AI.svg) Orientamento della risorsa. | Dimensione<br/>Campo derivato |
+| Tono complessivo della risorsa | ![Generato dall’IA](/help/assets/icons/AI.svg) Tono complessivo della risorsa. | Dimensione<br/>Campo derivato |
+| Colori di primo piano della risorsa | ![Generati dall’IA](/help/assets/icons/AI.svg) Colori di primo piano della risorsa. | Dimensione<br/>Campo derivato |
+| Colori di sfondo della risorsa | ![Generati dall’IA](/help/assets/icons/AI.svg) Colori di sfondo della risorsa. | Dimensione<br/>Campo derivato |
+| Tag della risorsa | ![Generati dall’IA](/help/assets/icons/AI.svg) Tag per la risorsa. | Dimensione<br/>Campo derivato |
+| Scene della risorsa | ![Generate dall’IA](/help/assets/icons/AI.svg) Scene per la risorsa. | Dimensione<br/>Campo derivato |
+| Oggetti della risorsa | ![Generati dall’IA](/help/assets/icons/AI.svg) Oggetti della risorsa. | Dimensione<br/>Campo derivato |
+| Stili fotografici della risorsa | ![Generati dall’IA](/help/assets/icons/AI.svg) Stili fotografici della risorsa. | Dimensione<br/>Campo derivato |
+| Tipo di immagine della risorsa | ![Generato dall’IA](/help/assets/icons/AI.svg) Tipo di immagine della risorsa. I valori possibili sono: photograph, sketch, painting, digital_cartoon, infographics, graphic_design, collage e software_screenshot. | Dimensione<br/>Campo derivato |
+| Posizioni fotocamera della risorsa | ![Generate dall’IA](/help/assets/icons/AI.svg) Posizioni fotocamera della risorsa. | Dimensione<br/>Campo derivato |
+| Prossimità fotocamera della risorsa | ![Generate dall’IA](/help/assets/icons/AI.svg) Prossimità fotocamera della risorsa. | Dimensione<br/>Campo derivato |
+| Categorie di persone della risorsa | ![Generate dall’IA](/help/assets/icons/AI.svg) Categorie di persone per la risorsa. I valori possibili sono: persona, uomo, donna, gruppo sociale, folla, persone, ragazzo, ragazza e bambino. | Dimensione<br/>Campo derivato |
+| Densità contenuto visivo della risorsa | ![Generata dall’IA](/help/assets/icons/AI.svg) Densità del contenuto visivo della risorsa. I valori possibili sono: bassa, media o alta. Una bassa densità di contenuto implica la presenza di una piccola quantità di informazioni per unità di area dell’immagine. | Dimensione |
+| Distribuzione attenzione visiva della risorsa | ![Generata dall’IA](/help/assets/icons/AI.svg) Distribuzione dell’attenzione visiva della risorsa. I valori possibili sono: bassa, media o alta. Per “attenzione distribuita” si intende quanto l’attenzione di chi visualizza i contenuti sia divisa tra le diverse parti di un’immagine. | Dimensione<br/>Campo derivato |
+| Condizione di illuminazione della risorsa | ![Generata dall’IA](/help/assets/icons/AI.svg) Condizione di illuminazione della risorsa. I valori possibili sono: ora d’oro, ora blu, mezzogiorno, cielo coperto, notte, high key, low key, luce diurna, incandescente, fluorescente, colorata e da studio. | Dimensione<br/>Campo derivato |
+| Impostazioni fotocamera della risorsa | ![Generate dall’IA](/help/assets/icons/AI.svg) Impostazioni della fotocamera per la risorsa. I valori possibili sono: tempo di scatto rapido, esposizione prolungata. sfocatura bokeh, effetto movimento, effetto scostamento inclinazione, flash, grandangolo, bianco e nero, surreale, doppia esposizione, macro e modalità normale. | Dimensione<br/>Campo derivato |
 
 {style="table-layout:fixed"}
 
 
-## Eventi risorsa
+## Eventi per risorse
 
 | Titolo | Descrizione | Tipo |
 |---|---|---|
-| Visualizzazioni risorse | Misurazione quantificabile del numero di visualizzazioni della risorsa. | Metrica |
-| Clic su risorsa | Misurazione quantificabile del numero di clic del cespite. | Metrica |
+| Visualizzazioni risorsa | Misurazione quantificabile del numero di visualizzazioni della risorsa. | Metrica |
+| Clic su risorsa | Misurazione quantificabile del numero di clic sulla risorsa. | Metrica |
 
 {style="table-layout:fixed"}
 
@@ -139,8 +139,8 @@ Nelle tabelle seguenti, ![IA generata](/help/assets/icons/AI.svg) indica una cop
 
 | Titolo | Descrizione | Tipo |
 |---|---|---|
-| Percentuale di click-through risorsa | Clic su risorsa/Visualizzazioni risorse | Metrica calcolata |
-| Percentuale di click-through esperienza | Clic su esperienza/Visualizzazioni esperienza | Metrica calcolata |
+| Click-through rate della risorsa | Clic su risorsa per Visualizzazioni risorsa | Metrica calcolata |
+| Click-through rate dell’esperienza | Clic su esperienza per Visualizzazioni esperienza | Metrica calcolata |
 
 {style="table-layout:fixed"}
 

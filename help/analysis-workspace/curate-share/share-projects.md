@@ -6,9 +6,9 @@ feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
 source-git-commit: 1474a29dc9063ea65a78d34b3a2eb9861a71ee4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1991'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Qualsiasi [cura](curate.md) applichi prima della condivisione, viene visualizzat
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condivisione dei progetti in Analysis Workspace](https://video.tv.adobe.com/v/40037/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condivisione dei progetti in Analysis Workspace](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -100,7 +100,7 @@ In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il pr
 
 1. (Condizionale) Se condividi un singolo progetto, scegli se abilitare le seguenti opzioni durante la condivisione di tale progetto:
 
-   * **Condividi componenti di progetto incorporati:** condividi segmenti, metriche calcolate e intervalli di date con tutti i destinatari. Una volta condivisi, tali componenti vengono visualizzati nel menu a discesa Components del Workspace del destinatario. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
+   * **Condividi componenti di progetto incorporati:** condividi segmenti, metriche calcolate e intervalli di date con tutti i destinatari. Una volta condivisi, tali componenti sono disponibili nel menu a discesa Componenti nell’interfaccia Workspace del destinatario. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
 
    * **Imposta come pagina di destinazione per i destinatari:** imposta questa pagina come pagina di destinazione per i destinatari. Questa impostazione non è persistente: è una singola azione da eseguire al momento della condivisione.
 
@@ -160,7 +160,7 @@ Puoi consentire l’[accesso di sola lettura](/help/analysis-workspace/curate-sh
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere con chiunque](https://video.tv.adobe.com/v/3452466/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere con chiunque](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -215,7 +215,7 @@ Puoi condividere i componenti incorporati che fanno parte del progetto.
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere componenti incorporati in Analysis Workspace](https://video.tv.adobe.com/v/329425/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere componenti incorporati in Analysis Workspace](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 

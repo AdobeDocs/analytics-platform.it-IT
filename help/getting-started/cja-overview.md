@@ -6,15 +6,15 @@ solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
 source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Panoramica di Customer Journey Analytics
 
-Customer Journey Analytics è la soluzione di analisi di prossima generazione di Adobe che consente di sfruttare l’efficacia di Analysis Workspace insieme ai dati di Adobe Experience Platform. Può suddividere, segmentare, eseguire query e visualizzare anni di dati ed è combinato con la capacità di Platform di contenere tutti i tipi di schemi e di tipi di dati. Utilizzando **Experience Data Model (XDM)**, i dati possono essere rappresentati e organizzati in modo uniforme, per poi eseguirne la combinazione e l’esplorazione. Il **servizio query di Adobe Experience Platform** consente di utilizzare strumenti e infrastrutture compatibili con SQL al fine di eseguire query e manipolazioni di tutti i dati.
+Customer Journey Analytics è la soluzione di analisi di prossima generazione di Adobe che consente di sfruttare l’efficacia di Analysis Workspace insieme ai dati di Adobe Experience Platform. Può raggruppare, segmentare, eseguire query e visualizzare dati riferiti a diversi anni e si affianca alla capacità di Platform di contenere tutte le tipologie di schemi di dati e tipi. Utilizzando **Experience Data Model (XDM)**, i dati possono essere rappresentati e organizzati in modo uniforme, pronti per essere combinati ed esaminati. Il **servizio query di Adobe Experience Platform** consente di utilizzare strumenti e infrastrutture compatibili con SQL al fine di eseguire query e manipolazioni di tutti i dati.
 
 L’architettura di alto livello di Customer Journey Analytics è mostrata qui:
 
@@ -23,7 +23,7 @@ L’architettura di alto livello di Customer Journey Analytics è mostrata qui:
 
 >[!BEGINSHADEBOX]
 
-Per un video introduttivo su Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analysis: Analytics per Experience Business](https://video.tv.adobe.com/v/36335/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video introduttivo su Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analysis: Analytics per Experience Business](https://video.tv.adobe.com/v/30090/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -93,13 +93,13 @@ Dall’acquisizione dei dati all’accesso diretto a SQL, numerosi componenti di
 
 >[!BEGINSHADEBOX]
 
-Per un video introduttivo su come utilizzare i dati in Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dei dati in Customer Journey Analytics](https://video.tv.adobe.com/v/36167/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video introduttivo su come utilizzare i dati in Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dei dati in Customer Journey Analytics](https://video.tv.adobe.com/v/32112/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Per un video introduttivo sull’architettura e l’integrazione di Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Architettura e integrazione](https://video.tv.adobe.com/v/330416/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video introduttivo sull’architettura e l’integrazione di Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Architettura e integrazione](https://video.tv.adobe.com/v/32483/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

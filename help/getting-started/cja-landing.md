@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -15,30 +15,30 @@ ht-degree: 80%
 
 Questa guida alla documentazione tecnica fornisce supporto autonomo per Customer Journey Analytics. Customer Journey Analytics consente di importare in Adobe Experience Platform i dati del cliente da qualsiasi canale (online e offline). Puoi quindi analizzarli così come faresti con i dati digitali esistenti utilizzando Analysis Workspace.
 
-Customer Journey Analytics consente di controllare come collegare i dati online e offline in Analysis Workspace su qualsiasi ID cliente comune, consentendoti di eseguire attività di attribuzione, segmenti, flusso, abbandono, ecc. tra i dati cliente.
+Con Customer Journey Analytics puoi definire come collegare i dati online e offline in Analysis Workspace per qualsiasi ID cliente comune per poter poi eseguire attività di attribuzione, segmenti, flusso, fallout, e così via, tra i dati cliente.
 
 ## Novità
 
-Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Customer Journey Analytics. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](../release-notes/latest.md) dettagliate. Visita la [pagina aggiornamenti documentazione](../release-notes/doc-changes.md) per rimanere aggiornato sugli ultimi aggiornamenti della documentazione.
+Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Customer Journey Analytics. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](../release-notes/latest.md) dettagliate. Per informazioni sempre aggiornate, visita la [pagina sugli aggiornamenti alla documentazione](../release-notes/doc-changes.md).
 
 >[!BEGINTABS]
 
 >[!TAB Content Analytics]
 
-Content Analytics consente di analizzare in modo rapido e semplice grandi volumi di dati sui contenuti per scoprire tendenze, individuare anomalie, identificare il sovraccarico di contenuti e ottenere informazioni approfondite dall’esposizione dei contenuti.
+Content Analytics consente di analizzare in modo rapido e semplice grandi volumi di dati sui contenuti per scoprire tendenze, individuare anomalie, identificare il sovraccarico di contenuti e ottenere insight dall’esposizione ai contenuti.
 
 [![immagine](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
 
 >[!TAB Profondità evento]
 
-Profondità evento è una nuova dimensione standard che offre nuovi modi per misurare e comprendere meglio come gli eventi sono posizionati all’interno delle sessioni dei clienti. La dimensione Profondità evento consente il tracciamento e l’analisi dettagliata di dove si verificano eventi specifici nel flusso sequenziale di interazioni dell’utente all’interno di una sessione.
+Profondità evento è una nuova dimensione standard che offre nuovi modi per misurare e comprendere meglio come gli eventi si collocano all’interno delle sessioni dei clienti. La dimensione Profondità evento consente di tracciare e analizzare nel dettaglio il punto in cui si verificano eventi specifici nel flusso sequenziale di interazioni dell’utente nell’ambito di una sessione.
 
 [![immagine](assets/learn-more-button.svg)](/help/components/dimensions/overview.md#standard-dimensions)
 
 
 >[!TAB Metriche e dimensioni condivise]
 
-Le metriche e le dimensioni condivise forniscono una posizione centrale per gestire dimensioni e metriche che possono essere utilizzate in un qualsiasi numero di visualizzazioni dati. Questi componenti sono particolarmente utili per le organizzazioni che utilizzano più visualizzazioni dati, soprattutto se tali visualizzazioni dati condividono le stesse impostazioni dei componenti.
+La funzione Metriche e dimensioni condivise fornisce una posizione centrale per gestire dimensioni e metriche che possono essere utilizzate in più visualizzazioni dati. Questi componenti sono particolarmente utili per le organizzazioni che utilizzano più visualizzazioni dati, soprattutto se queste condividono le stesse impostazioni dei componenti.
 
 [![immagine](assets/learn-more-button.svg)](/help/data-views/shared-metrics-dimensions/smd-overview.md)
 

@@ -5,9 +5,9 @@ exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
 source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ Ora puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Ana
 La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agire sulle informazioni presenti all’interno di Customer Journey Analytics. Tali azioni possono includere:
 
 * Utilizzo del pubblico per un percorso in Adobe Journey Optimizer.
-Per ulteriori informazioni sull&#39;utilizzo dei tipi di pubblico pubblicati in Experience Platform, vedere [Introduzione ai tipi di pubblico](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) nella documentazione di Journey Optimizer.
+Per ulteriori informazioni sull’utilizzo dei tipi di pubblico che sono stati pubblicati in Experience Platform, consulta [Introduzione ai tipi di pubblico](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) nella documentazione di Journey Optimizer.
 * Esportazione del pubblico a terzi tramite una destinazione di Experience Platform.
 * Arricchimento del profilo cliente in tempo reale con attributi utili derivati dai dati basati su eventi in Customer Journey Analytics.
-* Latenza minima dopo la pubblicazione del pubblico.
+* Tutto questo con una latenza minima dopo la pubblicazione del pubblico.
 Per ulteriori informazioni, consulta [Considerazioni sulla latenza](/help/components/audiences/publish.md#latency-considerations) in [Creare e pubblicare tipi di pubblico](/help/components/audiences/publish.md).
 * Pubblicazione di tipi di pubblico una tantum o ricorrenti
 

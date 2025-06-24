@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
 source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1648'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Puoi utilizzare Customer Journey Analytics per fare delle richieste utilizzando 
 
 Customer Journey Analytics utilizza un’architettura proprietaria potente che distribuisce l’analisi su centinaia o persino migliaia di server per visualizzare i dati in Analysis Workspace in pochi secondi. Alcune proprietà di rilievo di questa architettura di elaborazione includono:
 
-* **Ottimizzato per query relative a singoli clienti**: tecnicamente, Customer Journey Analytics memorizza i dati in un motore di reporting distribuito che utilizza in modo esteso la memorizzazione in cache. Tale motore è ottimizzato per le query dinamiche sui dati di evento a livello individuale e, come tale, è perfettamente ottimizzato per le query relative al cliente. Il motore di reporting memorizza i dati in indici bitmap orientati su colonne che consentono un rapido calcolo immediato delle metriche aggregate. Dispone di un ampio motore di segmentazione che consente una potente analisi di segmentazione/pubblico. Inoltre, ha una comprensione essenziale della sequenza tra i punti di dati che è utile per analizzare il comportamento tra questi punti di dati (l’ordine in cui si sono verificate le cose) e per assegnare l’attribuzione utilizzando modelli vari e complessi.
+* **Ottimizzato per query relative a singoli clienti**: tecnicamente, Customer Journey Analytics memorizza i dati in un motore di reporting distribuito che utilizza in modo esteso la memorizzazione in cache. Tale motore è ottimizzato per le query dinamiche sui dati di evento a livello individuale e, come tale, è perfettamente ottimizzato per le query relative al cliente. Il motore di reporting memorizza i dati in indici bitmap orientati su colonne che consentono un rapido calcolo immediato delle metriche aggregate. Il suo motore per segmentazioni estese consente una potente segmentazione e analisi del pubblico. Inoltre, la sua capacità di comprendere la sequenza tra i vari punti di dati è utile sia per analizzare il comportamento tra tali punti di dati (l’ordine in cui si verificano gli eventi), sia per assegnare l’attribuzione utilizzando diversi modelli complessi.
 
 * **Applicazione rapida di percorsi e segmenti complessi**: il motore di reporting funziona su set di dati gerarchici parzialmente ordinati (ad esempio, persona -> sessioni -> eventi). Tutti i dati di un oggetto di primo livello (profili individuali) si trovano su un singolo nodo di elaborazione per ottenere risultati precisi. Questo partizionamento consente di applicare rapidamente percorsi e segmenti complessi. Le operazioni complesse, come la creazione di sessioni, l’attribuzione, la persistenza dello stato degli attributi di dati e le opzioni di manipolazione dei dati complesse, vengono eseguite su larga scala con tempi di reporting rapidi. Nelle soluzioni BI, questo tipo di operazioni in genere richiede la creazione di nuovi cubi OLAP per ogni caso d’uso. Il motore di reporting di Customer Journey Analytics consente l’accesso illimitato all’intero set di dati su ogni query, con conseguenti dati completamente correlati senza bisogno di alcun cubing in anticipo.
 
@@ -50,13 +50,13 @@ Customer Journey Analytics utilizza un’architettura proprietaria potente che d
 
 * **Progettato per rispondere rapidamente a query di grandi dimensioni**: il motore di reporting non ha lo stesso scopo generale dei sistemi di Big Data tradizionali. Tuttavia, è progettato specificamente per rispondere a query che si estendono su milioni o persino miliardi di record (dati evento / eventi di esperienza), generalmente in meno di un secondo. A differenza di altri sistemi di Big Data, non lo fa campionando i dati o precompilando le risposte a tutte le domande che si potrebbero fare. Al contrario, è in grado di calcolare le risposte abbastanza rapidamente da supportare i casi d’uso di query interattive. Questo design specifico del motore di reporting di Customer Journey Analytics facilita la disponibilità dei dati e l’analisi e l’esplorazione continue ad alta velocità, consentendoti quindi di acquisire progressivamente approfondimenti e informazioni sui percorsi dei clienti.
 
-* **Funge da soluzione di BI headless**: definisci dimensioni, metriche e segmenti in un&#39;unica posizione, in modo che qualsiasi client Customer Journey Analytics (inclusa la nostra API Customer Journey Analytics pubblica) possa accedere a tali componenti. In questo modo le query complesse vengono sottratte agli utenti finali e si garantisce che i risultati siano gli stessi, indipendentemente dal client di reporting o di visualizzazione utilizzato.
+* **Agisce come una soluzione BI headless**: puoi definire le dimensioni, le metriche, i segmenti in un’unica posizione e in seguito qualsiasi client Customer Journey Analytics (incluse le API pubbliche di Customer Journey Analytics) può accedere a tali componenti. In questo modo le query complesse vengono sottratte agli utenti finali e si garantisce che i risultati siano gli stessi, indipendentemente dal client di reporting o di visualizzazione utilizzato.
 
 ## Funzionalità di visualizzazione uniche di Customer Journey Analytics
 
 Il motore di reporting è fondamentale per Customer Journey Analytics per consentirti di interagire e di agire progressivamente su tutti i dati del percorso cliente all’interno del motore. Customer Journey Analytics viene fornito con un ampio set di componenti che ti consentono di eseguire questa operazione visivamente e tramite trascinamento. Gli strumenti di visualizzazione BI ti consentono di esplorare i contenuti entro i limiti dei dati preparati da SQL (come definiti da IT). Customer Journey Analytics consente di analizzare nel dettaglio il più possibile, senza dover tornare all’IT per creare un’altra vista SQL.
 
-&quot;Progressivamente&quot; è un concetto chiave in questo caso: a differenza della maggior parte delle visualizzazioni negli strumenti di business intelligence, l’interfaccia utente visiva con trascinamento della selezione in Customer Journey Analytics consente di suddividere continuamente i dati in base alle esigenze specifiche: puoi creare query visive in modo interattivo utilizzando metriche, dimensioni, segmenti, calcoli, linee temporali, annotazioni e altri valori di analisi rilevanti.
+“Progressivamente” è qui un concetto chiave: contrariamente alla maggior parte delle visualizzazioni negli strumenti BI, l’interfaccia utente visiva con trascinamento di Customer Journey Analytics consente di suddividere continuamente i dati in base alle proprie esigenze specifiche. Puoi creare query visive in modo interattivo utilizzando metriche, dimensioni, segmenti, calcoli, linee temporali, annotazioni e altri valori di analisi rilevanti.
 
 In questi componenti di visualizzazione sono incorporate funzionalità avanzate come:
 

@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
 source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Gli avvisi permettono di:
 
 Il seguente video tutorial fornisce una panoramica di base degli avvisi: [Avvisi](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=it) (5:34)
 
-## Differenze tra gli avvisi
+## Informazioni sulle differenze tra gli avvisi
 
 Il processo di utilizzo degli avvisi in Customer Journey Analytics è quasi identico a quello degli avvisi in Adobe Analytics. Tuttavia, esistono differenze importanti.
 
