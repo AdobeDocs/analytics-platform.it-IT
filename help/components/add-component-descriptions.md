@@ -4,7 +4,7 @@ title: Aggiungere descrizioni dei componenti
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 3%
@@ -32,5 +32,5 @@ Per informazioni generali sul dizionario dati, vedere la [Panoramica del diziona
 >[!MORELIKETHIS]
 >
 >[Impostazioni del componente Visualizzazione dati](/help/data-views/component-settings/overview.md)
->[Voci del componente del dizionario dati](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[Voci del componente del dizionario dati](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

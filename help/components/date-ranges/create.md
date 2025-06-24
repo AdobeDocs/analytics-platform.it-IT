@@ -4,10 +4,10 @@ description: Crea un intervallo di date per l’utilizzo nella reportistica.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ Chiunque può creare un intervallo di date personalizzato. Puoi creare un interv
 * **E**: in un progetto Workspace, dal pannello Componenti a sinistra, seleziona ![Aggiungi](/help/assets/icons/Add.svg) in ![Calendario](/help/assets/icons/Calendar.svg) **Intervalli di date**.
 * **F**: in una visualizzazione supportata, come ad esempio una visualizzazione a linee, dal menu di scelta rapida di un punto dati, seleziona **[!UICONTROL Annotate Selection]**.
 
-Per definire l’annotazione, utilizza [[!UICONTROL Date range builder]](#annotation-builder):
+Per definire l&#39;annotazione, utilizzare [[!UICONTROL Date range builder]](#annotation-builder).
 
 <!-- Should we really mention API here. If so, we can do it all over the place in the docs...
 | **Use the [Customer Journey Analytics Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | The Customer Journey Analytics Annotations APIs allow you to create, update, or retrieve annotations programmatically through Adobe Developer. These APIs use the same data and methods that Adobe uses inside the product UI. |
@@ -55,7 +55,7 @@ Le finestre di dialogo **[!UICONTROL New date range]** o **[!UICONTROL Edit date
 1. Facoltativamente, specificare una **[!UICONTROL Description]**.
 1. Organizzare il segmento creando o applicando uno o più **[!UICONTROL Tags]**. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL ENTER]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
 1. Seleziona un **[!UICONTROL Date Range]** selezionando prima la data di inizio e quindi la data di fine.
-In alternativa, è possibile selezionare **[!UICONTROL Preset]** dal menu a discesa [!UICONTROL *Seleziona un predefinito*].
+In alternativa, puoi selezionare **[!UICONTROL Preset]** dal menu a discesa [!UICONTROL *Seleziona un predefinito*].
 
 1. Facoltativamente, seleziona **[!UICONTROL Show advanced settings]** per:
 

@@ -6,10 +6,10 @@ feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 50%
+source-wordcount: '543'
+ht-degree: 49%
 
 ---
 
@@ -21,7 +21,7 @@ Puoi suddividere i dati in modalità illimitata in base alle tue esigenze specif
 
    ![Risultato passaggio che mostra l&#39;avviso di creazione dalla selezione selezionata.](assets/breakdown.png)
 
-1. Dal sottomenu selezionare **[!UICONTROL Dimensions]**, **[!UICONTROL Metrics]**, **[!UICONTROL Segments]** o **[!UICONTROL Date ranges]** e quindi selezionare un elemento.
+1. Dal sottomenu selezionare **[!UICONTROL Dimensions]**, **[!UICONTROL Metrics]**, **[!UICONTROL Segments]** o **[!UICONTROL Date ranges]** e quindi selezionare un elemento. Oppure cerca semplicemente un componente nel campo **[!UICONTROL *Cerca *]**.
 
 Puoi analizzare metriche per elementi dimensionali o segmenti di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
 
@@ -53,7 +53,7 @@ Questo è il comportamento previsto quando si applicano modelli di attribuzione 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension in Analysis Workspace](https://video.tv.adobe.com/v/329873?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension in Analysis Workspace](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -71,7 +71,7 @@ Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheck
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di dimensioni e metriche](https://video.tv.adobe.com/v/35905?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di dimensioni e metriche](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 {{videoaa}}
 
@@ -80,7 +80,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo delle dimensioni in una tabella a forma libera](https://video.tv.adobe.com/v/328588?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo delle dimensioni in una tabella a forma libera](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 

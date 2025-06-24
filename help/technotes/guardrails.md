@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 91ac84764a186d81f3270bb3ec9673d93b11bd38
+source-git-commit: 94d1bcdb2419f8c2e27bd77bb2e35b04cd30d632
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1881'
 ht-degree: 8%
 
 ---
 
 # Guardrail Customer Journey Analytics
 
-Questo documento definisce i limiti per i vari componenti di Customer Journey Analytics. Per i guardrail, i parametri di ambito e i diritti, vedere la [descrizione del prodotto per Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html) o la [descrizione del prodotto per il componente aggiuntivo Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html).
+Questo documento definisce i limiti per i vari componenti di Customer Journey Analytics. Per i guardrail, i parametri di ambito e i diritti, vedere la [descrizione del prodotto per Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html), la [descrizione del prodotto per il componente aggiuntivo Adobe Analytics: Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html) o la [descrizione del prodotto per Customer Journey Analytics B2B edition](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html).
 
 ## Tipi di limite
 
@@ -53,7 +53,7 @@ Alcune delle funzioni e il valore associato per il limite dipendono dal pacchett
 | Pannelli per progetto | 15 | Guardrail imposto dal sistema | Numero massimo di [pannelli](../analysis-workspace/home.md#panels) per progetto. |
 | Visualizzazioni per pannello | 25 | Guardrail imposto dal sistema | Numero massimo di [visualizzazioni](../analysis-workspace/home.md#visualizations) per pannello. |
 | Campi derivati per tabella a forma libera | 5 | Guardrail imposto dal sistema | Numero massimo di campi derivati diversi in una singola tabella a forma libera. |
-| Commenti per progetto <p>**Nota:** la possibilità di aggiungere commenti ai progetti si trova nella fase di test limitato della versione e potrebbe non essere ancora disponibile nell&#39;ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio di Customer Journey Analytics, vedere [Versioni delle funzionalità di Customer Journey Analytics](/help/release-notes/releases.md).</p> | 1.000 | Guardrail imposto dal sistema | Numero massimo di commenti per progetto. |
+| Commenti per progetto <p>**Nota:** la possibilità di aggiungere commenti ai progetti si trova nella fase di test limitato della versione e potrebbe non essere ancora disponibile nell&#39;ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Customer Journey Analytics, consulta [Rilascio delle funzioni di Customer Journey Analytics](/help/release-notes/releases.md).</p> | 1.000 | Guardrail imposto dal sistema | Numero massimo di commenti per progetto. |
 
 {style="table-layout:auto"}
 
@@ -139,7 +139,7 @@ Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Esportazione dei dati delle destinazioni
@@ -151,7 +151,7 @@ Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](h
 
 {style="table-layout:auto"}
 
-Vedi anche Experience Platform [Guide di esportazione set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/guardrails#dataset-exports)
+Vedi anche Experience Platform [Guide di esportazione set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Zona di destinazione dati
@@ -252,7 +252,7 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 
 >[!NOTE]
 >
->I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+>I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 | Flusso di dati | Latenza prevista |
 |---|---|

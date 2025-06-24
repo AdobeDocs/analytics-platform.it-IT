@@ -6,10 +6,10 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
-source-git-commit: a2aea32eb14462ee2041405394afa6bd0c484e8d
+source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 98%
+source-wordcount: '472'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 98%
 
 Adobe Analytics è nato come strumento di analisi web e digitale per i marketer, mentre Customer Journey Analytics ha ampliato l’ambito per includere dati multicanale, offline e multipiattaforma.  Entrambi gli strumenti aiutano le aziende B2C (Business to Consumer) ad analizzare e ottimizzare le proprie attività di marketing e le esperienze della clientela. Inoltre, sono incentrati sul **reporting e l’analisi basati su persona**: comprendono il percorso cliente, ovvero la persona che interagisce con il tuo brand su più canali.
 
-Customer Journey Analytics B2B Edition aggiunge **l’analisi e il reporting basati su account**. Nelle vendite B2B (business-to-business), il percorso di acquisto coinvolge più parti, punti di contatto, online e offline, e fasi chiave prima della conclusione di un’affare. Le aziende B2B hanno bisogno di tracciare tutte queste interazioni in un percorso unificato, così da analizzare e ottimizzare in modo efficace le attività di marketing e le esperienze degli account.
+![Immagine protagonista B2B](assets/b2b-image.png)
+Customer Journey Analytics B2B edition aggiunge **analisi e reporting basati sull&#39;account**. Nelle vendite B2B (business-to-business), il percorso di acquisto coinvolge più parti, punti di contatto, online e offline, e fasi chiave prima della conclusione di un’affare. Le aziende B2B hanno bisogno di tracciare tutte queste interazioni in un percorso unificato, così da analizzare e ottimizzare in modo efficace le attività di marketing e le esperienze degli account.
 
 Le caratteristiche tipiche della vendita B2B sono:
 
@@ -43,7 +44,7 @@ Customer Journey Analytics B2B Edition aiuta le aziende B2B ad allineare i team 
 >[!MORELIKETHIS]
 >
 >[Concetti e funzioni B2B](cja-b2b-concepts-features.md)
->&#x200B;>[Guida rapida B2B](cja-b2b-quick-start-guide.md)
->&#x200B;>[Guida alla transizione B2B](cja-b2b-transition.md)
->&#x200B;>[Casi d&#39;uso B2B](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
+>>[Guida rapida B2B](cja-b2b-quick-start-guide.md)
+>>[Guida alla transizione B2B](cja-b2b-transition.md)
+>>[Casi d&#39;uso B2B](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
 >
