@@ -7,7 +7,7 @@ exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -34,15 +34,15 @@ Dopo aver creato un progetto Workspace vuoto, assicurati di avere familiarità c
 * Aggiungi dei [pannelli](/help/analysis-workspace/c-panels/panels.md) al progetto. Ad esempio, **[!DNL Example Panel]** ➊.
 
 * Aggiungi [visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ai pannelli. Ad esempio:
-   * **[!DNL Line Graph]** [Riga](/help/analysis-workspace/visualizations/line.md) visualizzazione ➋
-   * **[!DNL Countries]** [Visualizzazione tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) ➌
+   * **[!DNL Line Graph]** Visualizzazione [a linee](/help/analysis-workspace/visualizations/line.md) ➋
+   * **[!DNL Countries]** Visualizzazione [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) ➌
 * Aggiungi [componenti](/help/components/overview.md) alle visualizzazioni. Ad esempio:
-   * **[!DNL Store Country]** [dimensione](/help/components/dimensions/overview.md) ➍
-   * **[!DNL People]** [metrica](/help/components/apply-create-metrics.md) ➎
-   * **[!DNL Avg Order Value]** [metrica calcolata](/help/components/calc-metrics/calc-metr-overview.md) ➏
-   * **[!DNL Mobile App Sessions]** [segmento](/help/components/segments/seg-overview.md) ➐
-   * **[!DNL Last Month]** [intervallo di date](/help/components/date-ranges/overview.md) ➑
-   * **[!DNL Example]** [annotazione](/help/components/annotations/overview.md) ➒
+   * **[!DNL Store Country]** [Dimensione](/help/components/dimensions/overview.md) ➍
+   * **[!DNL People]** [Metrica](/help/components/apply-create-metrics.md) ➎
+   * **[!DNL Avg Order Value]** [Metrica calcolata](/help/components/calc-metrics/calc-metr-overview.md) ➏
+   * **[!DNL Mobile App Sessions]** [Segmento](/help/components/segments/seg-overview.md) ➐
+   * **[!DNL Last Month]** [Intervallo di date](/help/components/date-ranges/overview.md) ➑
+   * **[!DNL Example]** [Annotazione](/help/components/annotations/overview.md) ➒
 
 
 ## Informazioni e impostazioni progetto {#project-info-settings}
@@ -81,7 +81,7 @@ Le impostazioni includono:
 | Mostra annotazioni | Specifica se le annotazioni per questo progetto sono visualizzate o meno. |
 | [Palette dei colori del progetto](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Per cambiare la palette di colori utilizzata per le categorie in Workspace, puoi scegliere una delle palette predefinite ottimizzate per il daltonismo o specificarne una personalizzata. Questa funzione interessa numerosi elementi in Workspace, compresa la maggior parte delle visualizzazioni. |
 | [Densità di visualizzazione](/help/analysis-workspace/build-workspace-project/view-density.md) | Consente di visualizzare più dati nella schermata riducendo la spaziatura verticale del pannello a sinistra, delle tabelle a forma libera e delle tabelle a coorte. |
-| Consenti commenti | **Nota:** questa funzionalità si trova nella fase di test limitato della versione e potrebbe non essere ancora disponibile nell&#39;ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio di Customer Journey Analytics, vedere [Versioni delle funzionalità di Customer Journey Analytics](/help/release-notes/releases.md). <p>Quando questa opzione è abilitata, nella barra a destra del progetto in Analysis Workspace è disponibile un’area commenti. Per ulteriori informazioni, vedere [Aggiungere e gestire commenti nei progetti](/help/analysis-workspace/build-workspace-project/comment-projects.md).</p> |
+| Consenti commenti | **Nota:** questa funzionalità è in fase di test limitato e potrebbe non essere ancora disponibile nel tuo ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Customer Journey Analytics, consulta [Rilascio delle funzioni di Customer Journey Analytics](/help/release-notes/releases.md). <p>Quando questa opzione è abilitata, nella barra a destra del progetto in Analysis Workspace è disponibile un’area commenti. Per ulteriori informazioni, consulta [Aggiungere e gestire i commenti nei progetti](/help/analysis-workspace/build-workspace-project/comment-projects.md).</p> |
 
 
 

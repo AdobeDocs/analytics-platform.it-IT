@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 995a2a9250f4ef929890b781b8d55263a04d38a3
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 92%
    + [Impostazioni di sessione](../data-views/session-settings.md)
    + Impostazioni dei componenti {#component-settings}
       + [Panoramica delle impostazioni dei componenti](../data-views/component-settings/overview.md)
-      + [Attribution](../data-views/component-settings/attribution.md)
+      + [Attribuzione](../data-views/component-settings/attribution.md)
       + [Comportamento](../data-views/component-settings/behavior.md)
       + [Formato](../data-views/component-settings/format.md)
       + [Includere valori di esclusione](../data-views/component-settings/include-exclude-values.md)
@@ -171,7 +171,7 @@ ht-degree: 92%
       + [Panoramica](../analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Creare progetti](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [Aprire i progetti](/help/analysis-workspace/build-workspace-project/open-projects.md)
-      + [Commento sui progetti](/help/analysis-workspace/build-workspace-project/comment-projects.md)
+      + [Aggiungere commenti nei progetti](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [Salvare i progetti](../analysis-workspace/build-workspace-project/save-projects.md)
       + Cartelle in Workspace {#workspace-folders}
          + [Informazioni sulle cartelle](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
@@ -201,7 +201,7 @@ ht-degree: 92%
          + [Panoramica](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurare](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Casi d’uso](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
-      + Abbandono {#fallout}
+      + Fallout {#fallout}
          + [Panoramica](../analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurare](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Abbandono interdimensionale](../analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
@@ -233,7 +233,7 @@ ht-degree: 92%
    + Pannelli {#panels}
       + [Panoramica](../analysis-workspace/c-panels/panels.md)
       + [Pannello vuoto](../analysis-workspace/c-panels/blank-panel.md)
-      + [Attribution](../analysis-workspace/c-panels/attribution.md)
+      + [Attribuzione](../analysis-workspace/c-panels/attribution.md)
       + [Sperimentazione](../analysis-workspace/c-panels/experimentation.md)
       + [A forma libera](../analysis-workspace/c-panels/freeform-panel.md)
       + [Pubblico medio per minuto del file multimediale](/help/analysis-workspace/c-panels/average-minute-audience-panel.md)
@@ -328,17 +328,17 @@ ht-degree: 92%
    + [Metriche](../components/apply-create-metrics.md)
    + Segmenti {#segments}
       + [Panoramica](/help/components/segments/seg-overview.md)
-      + [Creare un segmento](/help/components/segments/seg-create.md)
-      + [Generare segmenti](/help/components/segments/seg-builder.md)
+      + [Creare i segmenti](/help/components/segments/seg-create.md)
+      + [Generare i segmenti](/help/components/segments/seg-builder.md)
       + [Segmenti rapidi](/help/components/segments/seg-quick.md)
       + [Segmenti sequenziali](/help/components/segments/seg-sequential-build.md)
-      + [Condividere segmenti](/help/components/segments/seg-share.md)
+      + [Condividere i segmenti](/help/components/segments/seg-share.md)
       + [Assegnare tag ai segmenti](/help/components/segments/seg-tag.md)
       + [Filtrare l’elenco dei segmenti](/help/components/segments/seg-filter.md)
       + [Contrassegnare i segmenti come preferiti](/help/components/segments/seg-favorite.md)
-      + [Approvare segmenti](/help/components/segments/seg-approve.md)
+      + [Approvare i segmenti](/help/components/segments/seg-approve.md)
       + [Copiare segmenti](/help/components/segments/seg-copy.md)
-      + [Gestire segmenti](/help/components/segments/seg-manage.md)
+      + [Gestire i segmenti](/help/components/segments/seg-manage.md)
       + [Operatori](/help/components/segments/seg-operators.md)
       + [Utilizzare i segmenti](/help/components/segments/seg-use.md)
    + Metriche calcolate {#cja-calcmetrics}
@@ -390,19 +390,19 @@ ht-degree: 92%
 
 + Report Builder {#cja-reportbuilder}
    + [Panoramica](../report-builder/rb-overview.md)
-   + [Configurazione Report Builder](../report-builder/report-builder-setup.md)
+   + [Configurazione di Report Builder](../report-builder/report-builder-setup.md)
    + [Creare un blocco di dati](../report-builder/create-a-data-block.md)
    + [Hub Report Builder](../report-builder/report-builder-hub.md)
    + [Selezionare una visualizzazione dati](../report-builder/select-data-view.md)
-   + [Seleziona un intervallo di date](../report-builder/select-date-range.md)
+   + [Selezionare un intervallo di date](../report-builder/select-date-range.md)
    + [Utilizzare i segmenti](../report-builder/work-with-filters.md)
-   + [Filtra dimensioni](../report-builder/filter-dimensions.md)
+   + [Filtrare le dimensioni](../report-builder/filter-dimensions.md)
    + [Gestire i blocchi di dati](../report-builder/manage-reportbuilder.md)
    + [Pianificazione delle cartelle di lavoro per l&#39;e-mail](../report-builder/schedule-reportbuilder.md)
    + [Pianificare le cartelle di lavoro per le esportazioni cloud](../report-builder/report-builder-export.md)
    + [Gestisci pianificazioni cartelle di lavoro](/help/report-builder/manage-schedules-reportbuilder.md)
-   + [Etichette per limitazioni](../report-builder/restricted-labels.md)
-   + [Impostazioni Report Builder](../report-builder/report-builder-settings.md)
+   + [Etichette limitate](../report-builder/restricted-labels.md)
+   + [Impostazioni di Report Builder](../report-builder/report-builder-settings.md)
 
 
 + Reporting Activity Manager {#reporting-activity-manager}
@@ -415,8 +415,8 @@ ht-degree: 92%
    + [Unione basata su campi](/help/stitching/fbs.md)
    + [Unione basata su grafico](/help/stitching/gbs.md)
    + [Utilizzare l’unione](/help/stitching/use-stitching.md)
-   + [Creare e gestire i set di dati uniti](/help/stitching/stitching-ui.md)
-   + [Convalidare l’unione](/help/stitching/validate.md)
+   + [Creare e gestire i set di dati con unione delle identità](/help/stitching/stitching-ui.md)
+   + [Convalidare l’unione delle identità](/help/stitching/validate.md)
    + [Domande frequenti](/help/stitching/faq.md)
 
 + Integrazioni Adobe {#integrations}
@@ -439,11 +439,11 @@ ht-degree: 92%
       + [Combinare suite di rapporti con schemi diversi](../use-cases/aa-data/combine-report-suites.md)
    + B2B {#b2b}
       + [Un esempio di progetto B2B basato su persona](../use-cases/b2b/example.md)
-      + B2B edition {#b2b-edition}
+      + B2B Edition {#b2b-edition}
          + [Panoramica dei casi d’uso](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
          + [Configurazione](/help/use-cases/b2b/b2b-edition/setup.md)
-         + [Ottimizzare il marketing dell’account](/help/use-cases/b2b/b2b-edition/optimize-account-marketing.md)
-         + [Crescita account chiave](/help/use-cases/b2b/b2b-edition/grow-key-accounts.md)
+         + [Ottimizzare il marketing per account](/help/use-cases/b2b/b2b-edition/optimize-account-marketing.md)
+         + [Far crescere gli account chiave](/help/use-cases/b2b/b2b-edition/grow-key-accounts.md)
          + [Creare valore di prodotto](/help/use-cases/b2b/b2b-edition/build-product-value.md)
    + Dati complessi {#complex-data}
       + [Utilizzare gli array di oggetti](../use-cases/object-arrays.md)

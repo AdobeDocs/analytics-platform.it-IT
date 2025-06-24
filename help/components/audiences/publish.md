@@ -7,7 +7,7 @@ role: User
 source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '2277'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Consulta questa [panoramica](/help/components/audiences/audiences-overview.md) p
    | --- | --- |
    | Dall’interfaccia **[!UICONTROL Audiences]**. | Seleziona **[!UICONTROL Components]** > **[!UICONTROL Audiences]** dal menu principale di Customer Journey Analytics. Viene visualizzata l’interfaccia Tipi di pubblico. Seleziona **[!UICONTROL Create audience]** per aprire [!UICONTROL Audience builder]. |
    | Da una visualizzazione in Analysis Workspace | Molte visualizzazioni in Analysis Workspace consentono di creare un pubblico utilizzando il menu di scelta rapida. Ad esempio, puoi selezionare **[!UICONTROL Create audience]** dal menu di scelta rapida di un elemento in una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o un nodo nell’[Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>L’utilizzo di questo metodo precompila il segmento in Audience builder con la dimensione o l’elemento dimensione selezionato.</p><p>Le seguenti visualizzazioni ti consentono di creare un pubblico utilizzando il menu di scelta rapida:</p><ul><li>[Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** i tipi di pubblico non possono includere metriche calcolate. Se tenti di creare un pubblico che contiene una metrica calcolata, questa non viene inclusa nella definizione del pubblico.</p> |
-   | Dall’interfaccia utente di creazione/modifica del segmento | Seleziona la casella con la dicitura **[!UICONTROL Create an audience from this segment]**. Usando questo metodo il segmento viene precompilato. Per ulteriori informazioni, consulta [Creare segmenti](/help/components/segments/seg-create.md). |
+   | Dall’interfaccia utente di creazione/modifica del segmento | Seleziona la casella con la dicitura **[!UICONTROL Create an audience from this segment]**. Usando questo metodo il segmento viene precompilato. Per ulteriori informazioni, consulta [Creare i segmenti](/help/components/segments/seg-create.md). |
 
    {style="table-layout:auto"}
 
@@ -122,13 +122,13 @@ Il pannello Anteprima dati fornisce le seguenti informazioni.
 
 ## Cosa succede dopo la creazione e la pubblicazione di un pubblico? {#after-audience-created}
 
-Dopo aver creato e pubblicato un pubblico in Customer Journey Analytics, il pubblico è disponibile in Experience Platform e può essere visualizzato nel [portale del pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal). Con il pubblico disponibile in Experience Platform, può essere utilizzato in altre applicazioni Experience Platform, come Adobe Journey Optimizer.
+Dopo aver creato e pubblicato un pubblico in Customer Journey Analytics, questo è disponibile in Experience Platform e può essere visualizzato nel [portale dei tipi di pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal). Se il pubblico è disponibile in Experience Platform, può essere utilizzato in altre applicazioni Experience Platform, come Adobe Journey Optimizer.
 
-Un segmentodi Adobe Experience Platform in streaming verrà creato solo se l’organizzazione è configurata per la segmentazione in streaming.
+Un segmento di Adobe Experience Platform in streaming verrà creato solo se l’organizzazione è configurata per la segmentazione in streaming.
 
-Quando si lavora con tipi di pubblico pubblicati da Customer Journey Analytics ad Experience Platform, considera quanto segue:
+Quando si utilizzano tipi di pubblico pubblicati da Customer Journey Analytics ad Experience Platform, considera quanto segue:
 
-* Il pubblico di Experience Platform condivide lo stesso nome e la stessa descrizione del pubblico di Customer Journey Analytics. Al nome viene aggiunto l’ID del pubblico di Customer Journey Analytics per garantire che il pubblico sia univoco.
+* Il pubblico in Experience Platform condivide lo stesso nome e la stessa descrizione del pubblico in Customer Journey Analytics. Al nome viene aggiunto l’ID del pubblico di Customer Journey Analytics per garantire che il pubblico sia univoco.
 * Eventuali modifiche apportate al nome o alla descrizione del pubblico in Customer Journey Analytics vengono riportate in Experience Platform.
 * Un pubblico che viene eliminato in Customer Journey Analytics continua a essere disponibile in Experience Platform fino alla scadenza dell’iscrizione al profilo del pubblico. L’iscrizione al profilo scade dopo 420 giorni per i tipi di pubblico una tantum e dopo 16 giorni per i tipi di pubblico ricorrenti.
 

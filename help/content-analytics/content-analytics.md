@@ -8,7 +8,7 @@ exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 source-git-commit: dd4adc5acd05aecf0a67072df6688a344e1ce5c9
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ Content Analytics utilizza i seguenti termini chiave:
 
 ## Come funziona
 
-Content Analytics utilizza i dati di visualizzazione dell&#39;immagine Web nei set di dati evento in Experience Platform per [raccogliere i dati dell&#39;evento contenuto](config/datacollection.md). E combina tale raccolta di dati sui contenuti con l’implementazione di raccolta dati (esistente) dei dati comportamentali.
+Content Analytics utilizza i dati di visualizzazione dell’immagine web nei set di dati evento in Experience Platform per [raccogliere i dati dell’evento contenuto](config/datacollection.md). E combina tale raccolta di dati sui contenuti con l’implementazione della raccolta dati (esistente) dei dati comportamentali.
 
 ![Content Analytics: come funziona](assets/aca-overview.gif)
 
@@ -67,7 +67,7 @@ Content Analytics utilizza i dati di visualizzazione dell&#39;immagine Web nei s
 >[!MORELIKETHIS]
 >
 >[Reporting di Content Analytics](report/report.md)
->[Configurare Content Analytics](config/configuration.md)
->[Calcolo dei mancati recapiti e della frequenza di rimbalzo in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
+>>[Configurare Content Analytics](config/configuration.md)
+>>[Calcolo dei mancati recapiti e del tasso di mancato recapito in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
