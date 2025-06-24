@@ -5,13 +5,13 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: e653cbe7c1955d04830b9ed9ff6399973036ab64
+exl-id: 1d5d87d8-1920-406b-8cce-41b89b7ae70b
+source-git-commit: 5a0cb6fa221282b70df5efb58362855ff58f76b8
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 39%
 
 ---
-
 
 # Pianificare le cartelle di lavoro esportandole in destinazioni cloud
 
@@ -35,7 +35,7 @@ Per esportare le cartelle di lavoro da Report Builder nel cloud, attenersi alla 
 
 ![Processo di esportazione descritto nei passaggi da 1 a 4.](assets/report-builder-export-process.png)
 
-## Esportare un rapporto da Report Builder {#export-from-report-builder}
+## Esportare un rapporto da Report Builder
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Per esportare rapporti da Report Builder:
 
 Dopo l’esportazione dei dati da Analysis Workspace, puoi modificare, riesportare, duplicare, assegnare tag o eliminare le esportazioni esistenti, come descritto in [Gestire le esportazioni](/help/components/exports/manage-exports.md).
 
-## Vantaggi dell’esportazione nel cloud {#advantages}
+## Vantaggi dell’esportazione nel cloud
 
 L’esportazione di dati di Customer Journey Analytics nel cloud consente di:
 
@@ -119,6 +119,3 @@ Assicurati che i blocchi di dati, l’ambiente e le autorizzazioni soddisfino i 
 * **Blocchi di dati:** tutti i blocchi di dati devono includere almeno un componente in una colonna, riga o valore.
 
 * **Ambiente:** verificare che gli [indirizzi IP](/help/technotes/ip-addresses.md) e i [domini](/help/technotes/domains.md) utilizzati da Customer Journey Analytics siano consentiti tramite il firewall dell’organizzazione.
-
-
-
