@@ -4,14 +4,20 @@ title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 746e03bc94fe3ad83ea5487a6cd3da2089695017
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2016'
+ht-degree: 99%
 
 ---
 
-# Panoramica dei pannelli
+# Panoramica dei pannelli {#panels-overview}
+
+>[!CONTEXTUALHELP]
+>id="workspace_panel_realtime_refresh"
+>title="Aggiornamento in tempo reale"
+>abstract="Abilita questa opzione per aggiornare dati e visualizzazioni in questo pannello in tempo reale."
+
 
 Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi accedere ai pannelli dall’icona in alto a sinistra in Workspace o da un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md). I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, viste dati o casi di utilizzo di analisi.
 
@@ -77,7 +83,7 @@ Puoi:
 
 ## Visualizzazione dati
 
-Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md), identificata dal ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**&#x200B;nel menu a discesa in alto a destra del pannello.
+Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md), identificata dal ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**nel menu a discesa in alto a destra del pannello.
 
 Quando crei un progetto Workspace vuoto, la visualizzazione dati predefinita per il pannello iniziale è l’ultima visualizzazione dati su cui hai lavorato in Customer Journey Analytics.
 
@@ -155,7 +161,7 @@ Per ulteriori informazioni, consulta [Segmenti rapidi](/help/components/segments
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/329414?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
