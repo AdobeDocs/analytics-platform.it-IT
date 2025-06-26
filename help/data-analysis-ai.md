@@ -246,7 +246,7 @@ Di seguito sono riportate le best practice per la configurazione di Customer Jou
 >[!MORELIKETHIS]
 >
 >[: impostazioni del componente](/help/data-views/component-settings/overview.md)
->>[Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)
->>[Approva metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->>[Condividi segmenti](/help/components/segments/seg-share.md)
+>&#x200B;>[Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)
+>&#x200B;>[Approva metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>&#x200B;>[Condividi segmenti](/help/components/segments/seg-share.md)
 >
