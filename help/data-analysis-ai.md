@@ -5,14 +5,14 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 029a7ebb10ac9daf4c4b121efa85042d6da22316
+source-git-commit: 7bf74e02db581bdf11b7efe31b62f018320c7f22
 workflow-type: tm+mt
-source-wordcount: '1911'
-ht-degree: 90%
+source-wordcount: '2286'
+ht-degree: 75%
 
 ---
 
-# Visualizzare i dati con l’agente Data Insights in Customer Journey Analytics
+# Visualizzare i dati con Data Insights Agent
 
 >[!AVAILABILITY]
 >
@@ -39,7 +39,7 @@ L’utilizzo dell’agente Data Insights per rispondere a domande incentrate sui
 | **Meccanismi di feedback** | <ul><li>Pollice in su</li><li>Pollice in giù</li><li>Segnalazione</li></ul> |  |
 
 
-## Gestire l’accesso all’agente Data Insights in Customer Journey Analytics
+## Gestire l’accesso a Data Insights Agent
 
 I seguenti parametri regolano l’accesso all’agente Data Insights in Customer Journey Analytics:
 
@@ -49,7 +49,7 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
 * **Autorizzazioni**: per consentire agli utenti di accedere all’agente Data Insights, è necessario concedere le autorizzazioni necessarie in [!UICONTROL Adobe Admin Console].
 
-  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
+  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
    1. In **[!UICONTROL Admin Console]**, seleziona la scheda **[!UICONTROL Products]** per visualizzare la pagina **[!UICONTROL All products and services]**.
    1. Seleziona **[!UICONTROL Customer Journey Analytics]**.
    1. Nella scheda **[!UICONTROL Product Profiles]**, seleziona il titolo del profilo di prodotto per il quale desideri fornire accesso a [!UICONTROL AI Assistant: Product Knowledge].
@@ -229,3 +229,24 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 -->
 
+
+## Best practice di configurazione
+
+Di seguito sono riportate le best practice per la configurazione di Customer Journey Analytics (visualizzazione dati, metriche calcolate, segmenti e altro ancora) affinché Data Insights Agent possa individuare i componenti corretti e restituire risposte più chiare senza dover richiedere ulteriori informazioni.
+
+* **Bilanciare i componenti necessari**. Non aggiungere tutti i campi dei set di dati come metriche o componenti dimensione alla visualizzazione dati. In particolare, quelli che certamente non utilizzerai nell’analisi. D’altra parte, non limitarti strettamente ai campi che ritieni necessari per l’analisi. Una visualizzazione dati troppo limitata limita la flessibilità dell’analisi e la funzionalità dell’agente di Data Insight.
+* **Utilizza sempre nomi descrittivi**. Assicurati che tutti i campi definiti nella visualizzazione dati, come metriche o componenti dimensione, abbiano un nome di componente descrittivo. Il processo di ridenominazione dei campi con un nome descrittivo è particolarmente importante per i campi dei set di dati del connettore di origine di Adobe Analytics. Questi campi hanno spesso nomi non descrittivi non identificabili come `eVar41` o `prop25`.
+* **Usare nomi distinti**. I nomi distinti sono particolarmente rilevanti quando utilizzi un campo sia come metrica che come componente dimensione nella visualizzazione dati. Oppure quando utilizzi un campo in più componenti, ciascuno con impostazioni diverse.
+* **Utilizzare una convenzione per la denominazione dei componenti**. È possibile utilizzare una convenzione di denominazione dei componenti per raggruppare i componenti. Ad esempio, **[!UICONTROL Orders | Product]** e **[!UICONTROL Orders | Customer]** per distinguere tra diverse metriche dell&#39;ordine che potrebbero esistere nei tuoi dati.
+* **Utilizza il dizionario dati**. Aggiungi una descrizione e altri dati rilevanti per i componenti nel dizionario dati. L’agente di Data Insight attualmente non utilizza i tag description e. ma potrebbe utilizzare in futuro la descrizione del dizionario dati e i tag.
+* **Utilizzare le metriche calcolate approvate**. Concordare un processo per utilizzare solo metriche calcolate approvate come componenti nella visualizzazione dati ed evitare di utilizzare metriche calcolate sperimentali.
+* **Condividi i segmenti richiesti**. Assicurati di condividere e rendere visibili i segmenti necessari per le richieste dell’agente di Data Insights.
+* **Standardizzare i nomi dei componenti nelle visualizzazioni dati**. Se utilizzi gli stessi campi come componente in più visualizzazioni dati, assicurati di utilizzare un singolo nome descrittivo e un singolo identificatore per quel componente. Un singolo nome e identificatore consente all’agente di Data Insights di cambiare visualizzazione dati senza perdere contesto.
+
+>[!MORELIKETHIS]
+>
+>[: impostazioni del componente](/help/data-views/component-settings/overview.md)
+>>[Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Approva metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Condividi segmenti](/help/components/segments/seg-share.md)
+>
