@@ -5,10 +5,10 @@ title: Condividere progetti
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 1474a29dc9063ea65a78d34b3a2eb9861a71ee4e
-workflow-type: ht
-source-wordcount: '1991'
-ht-degree: 100%
+source-git-commit: a462e736ddcdf1a5ea84a85eea2c2ce0b8a34fb0
+workflow-type: tm+mt
+source-wordcount: '1992'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Qualsiasi [cura](curate.md) applichi prima della condivisione, viene visualizzat
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condivisione dei progetti in Analysis Workspace](https://video.tv.adobe.com/v/40037/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condivisione dei progetti in Analysis Workspace](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -110,13 +110,14 @@ In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il pr
 
    Fai clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. (Se il progetto è già stato condiviso, seleziona **[!UICONTROL Curate & Update]**). Ulteriori informazioni su [cura del progetto](curate.md).
 
+
 ## Condividere un collegamento a un progetto
 
 Quando condividi un collegamento come descritto in questa sezione, prendi in considerazione quanto segue:
 
 * Gli utenti che utilizzano un collegamento devono accedere a Customer Journey Analytics prima di poter accedere al progetto.
 
-* Se a un destinatario non viene assegnato un ruolo e riceve un [collegamento](/help/analysis-workspace/curate-share/shareable-links.md) al progetto, (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita gli verrà assegnato un ruolo. Gli amministratori ricevono **[!UICONTROL Edit original]** e i non amministratori **[!UICONTROL Edit copy]**.
+* Se a un destinatario non viene assegnato un ruolo e riceve un [collegamento condivisibile](/help/analysis-workspace/curate-share/shareable-links.md) al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita gli viene assegnato un ruolo. Gli amministratori ricevono **[!UICONTROL Edit original]** e i non amministratori **[!UICONTROL Edit copy]**.
 
 Per condividere il collegamento del progetto con gli utenti dell’organizzazione:
 
@@ -160,7 +161,7 @@ Puoi consentire l’[accesso di sola lettura](/help/analysis-workspace/curate-sh
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere con chiunque](https://video.tv.adobe.com/v/3452466/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere con chiunque](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -215,7 +216,7 @@ Puoi condividere i componenti incorporati che fanno parte del progetto.
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere componenti incorporati in Analysis Workspace](https://video.tv.adobe.com/v/329425/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere componenti incorporati in Analysis Workspace](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 

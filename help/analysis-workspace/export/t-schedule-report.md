@@ -6,10 +6,10 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
-source-wordcount: '967'
-ht-degree: 100%
+source-git-commit: a462e736ddcdf1a5ea84a85eea2c2ce0b8a34fb0
+workflow-type: tm+mt
+source-wordcount: '652'
+ht-degree: 69%
 
 ---
 
@@ -21,69 +21,52 @@ Tutti i tag applicati al progetto vengono applicati automaticamente all’esport
 
 Sono disponibili anche altri metodi di esportazione dei dati di Customer Journey Analytics, come descritto in [Panoramica sull’esportazione](/help/analysis-workspace/export/export-project-overview.md).
 
-## Invia subito file {#now}
+![Invia file](assets/send-file.png)
 
-Per inviare immediatamente un file ai destinatari per e-mail:
+## Invia file
 
-1. Fai clic su **[!UICONTROL Share]>[!UICONTROL Export file]**.
+Per inviare un file ai destinatari tramite e-mail:
+
+1. Seleziona **[!UICONTROL Share]>[!UICONTROL Send file]**.
 1. Specifica il tipo di file:
    * [!UICONTROL **CSV**]: scegli questa opzione se desideri utilizzare dati in formato testo normale.
    * [!UICONTROL **PDF**]: scegli questa opzione se vuoi che il file scaricato contenga tutte le tabelle e le visualizzazioni mostrate (visibili) nel progetto.
-1. (Facoltativo) Aggiungi una descrizione del file che verrà inclusa nell’e-mail.
-1. Aggiungi destinatari o gruppi. È inoltre possibile inserire gli indirizzi e-mail.
-1. (Solo per i clienti Healthcare Shield) Fornisci una password. Consulta la sezione Proteggere un rapporto pianificato tramite password.
-1. (Facoltativo) Fai clic su **[!UICONTROL Show scheduling options]** per specificare la programmazione della consegna.
-1. Fai clic su **[!UICONTROL Send Now]**.
+1. (Facoltativo) Utilizzare **[!UICONTROL Description]** per aggiungere una descrizione da includere nell&#39;e-mail.
+1. Aggiungi destinatari o gruppi. Puoi anche immettere indirizzi e-mail.
+1. (Solo per i clienti Healthcare Shield) Fornisci una password per [proteggere con password un report pianificato](#password-protect-a-new-scheduled-project).
+1. (Facoltativo) Selezionare **[!UICONTROL Show scheduling options]** per [pianificare un&#39;esportazione di file](#schedule-file-export).
+1. Fai clic su **[!UICONTROL Send Now]**. Seleziona **[!UICONTROL Cancel]** per annullare.
 
-![Finestra Invia file e pulsante Invia ora.](assets/send-file-no-scheduling-options.JPG)
 
-## Invia file secondo pianificazione {#schedule}
+## Pianificare l’esportazione di file {#schedule}
 
-Per inviare un file per e-mail secondo una pianificazione ricorrente:
+Per inviare un file in base a una pianificazione ai destinatari tramite e-mail
 
-1. Fai clic su **[!UICONTROL Share]>[!UICONTROL Schedule file export]**.
-1. Specifica il tipo di file (CSV o PDF).
-1. (Facoltativo) Aggiungi una descrizione del file che verrà inclusa nell’e-mail.
-1. Aggiungi destinatari o gruppi. È inoltre possibile inserire gli indirizzi e-mail.
-1. (Solo per i clienti Healthcare Shield) Fornisci una password. Consulta la sezione Proteggere un rapporto pianificato tramite password.
-1. Specifica l’intervallo per il quale la pianificazione deve essere consegnata modificando l’opzione Inizia e Termina negli input. La data di fine deve essere compresa entro un anno dal giorno in cui la pianificazione viene creata o modificata.
-1. Specifica la frequenza di consegna. Ogni frequenza consente diverse personalizzazioni.
-1. Fai clic su **[!UICONTROL Send on schedule]**.
+1. Seleziona **[!UICONTROL Share]>[!UICONTROL Schedule file export]**.
+1. Specifica il tipo di file:
+   * [!UICONTROL **CSV**]: scegli questa opzione se desideri utilizzare dati in formato testo normale.
+   * [!UICONTROL **PDF**]: scegli questa opzione se vuoi che il file scaricato contenga tutte le tabelle e le visualizzazioni mostrate (visibili) nel progetto.
+1. (Facoltativo) Utilizzare **[!UICONTROL Description]** per aggiungere una descrizione da includere nell&#39;e-mail.
+1. Aggiungi destinatari o gruppi. Puoi anche immettere indirizzi e-mail.
+1. (Solo per i clienti Healthcare Shield) Fornisci una password per [proteggere con password un report pianificato](#password-protect-a-new-scheduled-project).
+1. Assicurarsi che **[!UICONTROL Show scheduling options]** sia selezionato.
+1. Seleziona una **[!UICONTROL Frequency]**. Puoi scegliere tra:
 
-![La finestra Invia file e le opzioni di pianificazione vengono visualizzate per mostrare le impostazioni Data di inizio, di fine e Frequenza giornaliera.](assets/send-file.JPG)
+   | Frequenza | Opzioni |
+   |---|---|
+   | **[!UICONTROL Send hourly]** | Immettere un valore per **[!UICONTROL Send every number of hours]**. |
+   | **[!UICONTROL Send daily]** | Selezionare un **[!UICONTROL Daily frequency]**: **[!UICONTROL Send every day]**, **[!UICONTROL Send every weekday]** o **[!UICONTROL Custom frequency]**.<br/>Se si seleziona **[!UICONTROL Custom frequency]**, immettere un valore per **[!UICONTROL Send every number of days]**. |
+   | **[!UICONTROL Send weekly]** | Immettere un valore per **[!UICONTROL Send every number of weeks]**. E seleziona un **[!UICONTROL Day of week]**. |
+   | **[!UICONTROL Send monthly by day of the week]** | Selezionare **[!UICONTROL Day of week]** e **[!UICONTROL Week of month]**. |
+   | **[!UICONTROL Send monthly by day of the month]** | Selezionare un valore da **[!UICONTROL Send on this day of the month]**. |
+   | **[!UICONTROL Send yearly by day of the month]** | Selezionare un **[!UICONTROL Day of week]**, selezionare un **[!UICONTROL Week of month]** e selezionare un **[!UICONTROL Monthly of year]**. |
+   | **[!UICONTROL Send yearly by specific date]** | Selezionare un **[!UICONTROL Month of year]** e un valore da **[!UICONTROL Send on this day of the month]**. |
 
-## Gestione progetti programmati {#manager}
+1. Immettere una data di inizio in **[!UICONTROL Starting on]**. In alternativa, selezionare ![Calendario](/help/assets/icons/Calendar.svg) per scegliere una data di inizio dal calendario.
 
-I progetti Analysis Workspace pianificati possono essere gestiti in **[!UICONTROL Analytics]> [!UICONTROL Components] >[!UICONTROL Scheduled Projects]**.
+1. Immettere una data di fine in **[!UICONTROL Ending on]**. In alternativa, selezionare ![Calendario](/help/assets/icons/Calendar.svg) per scegliere una data di fine dal calendario.
+1. Seleziona **[!UICONTROL Send on schedule]**. Seleziona **[!UICONTROL Cancel]** per annullare.
 
-In Gestione progetti programmati, puoi modificare ed eliminare pianificazioni ricorrenti di progetti. Cerca una pianificazione nella barra di ricerca o utilizzando le opzioni filtro nel pannello a sinistra. Puoi filtrare per tag, pianificazioni approvate, proprietari e altro ancora.
-
-| Campo | Descrizione |
-| --- | --- |
-| [!UICONTROL Favorites] | Selezionando l’icona a forma di stella, questa pianificazione diventa la preferita. |
-| [!UICONTROL Schedule ID] | Questo ID viene utilizzato principalmente a scopo di debug. |
-| [!UICONTROL Title and Description] | Titolo e descrizione di questo progetto. |
-| [!UICONTROL Owner] | La persona che ha creato ed è proprietaria del progetto. |
-| [!UICONTROL Tags] | (facoltativo) Assegnare tag è un modo efficace per organizzare progetti. Tutti gli utenti possono creare tag e applicarne uno o più a un progetto. Tuttavia, puoi visualizzare solo i tag dei progetti di tua proprietà o che sono stati condivisi con te. |
-| [!UICONTROL Delivered To] | Il/i destinatario/i del progetto programmato. |
-| [!UICONTROL Expiration Date] | Puoi impostare la data di scadenza massima fino a un anno, indipendentemente dalla frequenza di pianificazione. |
-| [!UICONTROL Frequency] | Con quale frequenza desideri che questo progetto programmato venga inviato ai destinatari. |
-| [!UICONTROL Execution Time] | A che ora del giorno viene inviato questo progetto programmato. |
-| [!UICONTROL Number of Queries] | Il numero di query su questo progetto. |
-
-Di seguito sono riportate le azioni comuni di Gestione progetti programmati:
-
-| Azione | Descrizione |
-|---|---|
-| **[!UICONTROL Edit schedule]** | Fai clic sul titolo della pianificazione per aggiornare le impostazioni di consegna. |
-| **[!UICONTROL Delete schedule]** | Seleziona il progetto programmato nell’elenco, quindi fai clic su Elimina dal menu. In questo modo verrà eliminata la pianificazione selezionata per il progetto, mentre il progetto stesso non verrà eliminato. |
-| **[!UICONTROL Add tags]** | Seleziona il progetto programmato nell’elenco, quindi scegli “Assegna tag” o “Approva” per organizzare le pianificazioni e semplificarne la ricerca. |
-| **[!UICONTROL View failed schedules]** | Passa al pannello a sinistra > Altri filtri > Non riuscite per visualizzare le pianificazioni non riuscite. |
-| **[!UICONTROL View expired schedules]** | Passa al pannello a sinistra > Altri filtri > Scadute per visualizzare le pianificazioni scadute. Fai clic sul titolo della pianificazione per impostare una nuova programmazione di consegna. |
-| **[!UICONTROL View schedule ID]** | Passa alle opzioni della colonna in alto a destra e aggiungi la colonna ID pianificazione alla tabella. L’ID pianificazione è spesso utile per il debug. |
-
-Lo strumento di gestione dei progetti programmati mostra gli elementi creati da uno specifico utente. Se l’account utente è disabilitato nell’applicazione, tutte le consegne programmate vengono interrotte.
-Per ulteriori informazioni, consulta [Progetti pianificati](/help/components/scheduled-projects-manager.md).
 
 ## Proteggere un progetto pianificato tramite password {#password}
 
@@ -109,8 +92,6 @@ Dopo che la tua azienda ha acquistato lo SKU Healthcare Shield ed è stata abili
 
 * Quando un progetto pianificato esistente sta per essere inviato. Il progetto attualmente pianificato verrà disattivato fino a quando non sarà attiva la protezione tramite password. Il proprietario del progetto pianificato riceve un messaggio e-mail con informazioni su questo requisito.
 
-![La finestra Modifica progetto pianificato e la notifica di crittografia della password indicano che l’organizzazione richiede la crittografia della password.](assets/password.png)
-
 ### Requisiti per la password
 
 I requisiti relativi alla password sono conformi agli standard Adobe che richiede un minimo di 8 caratteri con almeno un numero e un carattere speciale.
@@ -122,7 +103,7 @@ I requisiti relativi alla password sono conformi agli standard Adobe che richied
 
 ### Proteggere un progetto pianificato esistente tramite password
 
-Prima di pianificare un progetto, il proprietario del progetto riceve un messaggio e-mail simile al seguente:
+Quando proteggi con password un progetto pianificato esistente, il proprietario del progetto riceve un’e-mail simile alla seguente:
 
 ![La notifica e-mail di Customer Journey Analytics indicante che la crittografia della password è obbligatoria per l’organizzazione.](assets/email-password.png)
 
@@ -130,3 +111,9 @@ Prima di pianificare un progetto, il proprietario del progetto riceve un messagg
 1. Seleziona **[!UICONTROL View Scheduled Project]**.
 1. Nella finestra di dialogo **[!UICONTROL Edit scheduled project]**, immetti e reimmetti una password.
 1. Consenti ai destinatari del progetto pianificato di conoscere la password. Non distribuire la password a persone che non sono destinatari del progetto pianificato.
+
+
+
+## Gestione progetti programmati {#manager}
+
+I progetti Analysis Workspace pianificati possono essere gestiti dall&#39;interfaccia principale, utilizzando **[!UICONTROL Components]** > **[!UICONTROL Scheduled Projects]**. Per ulteriori informazioni, consulta [Progetti pianificati](/help/components/scheduled-projects-manager.md).

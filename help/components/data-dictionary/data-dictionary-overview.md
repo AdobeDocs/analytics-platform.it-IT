@@ -1,13 +1,13 @@
 ---
-description: Il dizionario dei dati in Analysis Workspace consente agli utenti di catalogare e tenere traccia dei vari componenti in Analysis Workspace, incluso l’uso previsto, quali sono approvati, quali sono duplicati e così via.
+description: Il dizionario dati in Analysis Workspace consente agli utenti di catalogare e tenere traccia dei vari componenti in Analysis Workspace, compreso l’uso previsto, che viene approvato, che sono duplicati e così via.
 title: Panoramica del dizionario dati
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="Dizionario dei dati"
->abstract="Il dizionario dei dati consente sia agli utenti che agli amministratori di tenere traccia e comprendere meglio i componenti nell’ambiente Analytics. <br/>Gli amministratori di Analytics sono responsabili della cura delle informazioni su ciascun componente nel dizionario dei dati per gli utenti."
+>abstract="Il dizionario dati consente sia agli utenti che agli amministratori di tenere traccia dei componenti del proprio ambiente Customer Journey Analytics e di comprenderli meglio. <br/>Gli amministratori di Customer Journey Analytics sono responsabili della cura delle informazioni su ciascun componente nel dizionario dati."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,7 +30,7 @@ Gli amministratori di Analytics sono responsabili della cura delle informazioni 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dati in Analysis Workspace](https://video.tv.adobe.com/v/3422283/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dati per Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -58,7 +58,7 @@ Per informazioni su come accedere al dizionario dei dati e per informazioni dett
 
 Il dizionario dei dati aiuta gli amministratori di sistema a tenere traccia e a curare i componenti nel loro ambiente Analytics.
 
-Di seguito sono riportati alcuni dei modi in cui gli amministratori di Analytics possono utilizzare il dizionario dei dati:
+Gli amministratori di Analytics possono utilizzare il dizionario dati per i seguenti scopi:
 
 * Identificare i componenti duplicati che devono essere consolidati.
 
@@ -103,10 +103,10 @@ Puoi modificare la finestra del dizionario dei dati in uno dei seguenti modi:
 
   Se chiudi e riapri Analysis Workspace, la finestra del dizionario dei dati rimane nel punto in cui l’hai spostata l’ultima volta. <!--True?-->
 
-* Riduci a icona
+* Riduci a icona la finestra.
 
   Se ridotto a icona, il dizionario dei dati viene visualizzato come una scheda blu nell’angolo inferiore destro di Analysis Workspace.
 
   Quando selezioni la scheda blu, viene aperto il dizionario dei dati del componente visualizzato più di recente.
 
-* Chiuderlo
+* Chiudete la finestra.

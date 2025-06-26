@@ -4,7 +4,7 @@ title: Panoramica sulla condivisione
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 53%
@@ -21,6 +21,6 @@ Puoi curare, condividere e pianificare progetti come file PDF o CSV per i destin
 |---|---|
 | **[!UICONTROL Share with Workspace users]** | Rendi un progetto disponibile ad altri utenti di Analysis Workspace all’interno dell’organizzazione. Condividi con utenti specifici o crea un collegamento condivisibile per accedere rapidamente a un progetto. Gli utenti devono effettuare l’accesso. [Ulteriori informazioni](/help/analysis-workspace/curate-share/share-projects.md) |
 | **[!UICONTROL Share with anyone]** | Concedi l’accesso in sola lettura ai progetti Analysis Workspace alle persone che non hanno accesso a Customer Journey Analytics. [Ulteriori informazioni](/help/analysis-workspace/curate-share/share-projects.md) |
-| **[!UICONTROL Export file]** | Invia subito un progetto come CSV o PDF ai destinatari specificati. [Ulteriori informazioni](/help/analysis-workspace/export/t-schedule-report.md) |
+| **[!UICONTROL Send file]** | Invia subito un progetto come CSV o PDF ai destinatari specificati. [Ulteriori informazioni](/help/analysis-workspace/export/t-schedule-report.md) |
 | **[!UICONTROL Schedule file export]** | Invia un progetto come CSV o PDF secondo un programma a destinatari specifici. [Ulteriori informazioni](/help/analysis-workspace/export/t-schedule-report.md) |
 | **[!UICONTROL Curate project data]** | Limita i componenti (dimensioni, metriche, segmenti, intervalli di date) disponibili in un progetto. [Ulteriori informazioni](/help/analysis-workspace/curate-share/curate.md) |
