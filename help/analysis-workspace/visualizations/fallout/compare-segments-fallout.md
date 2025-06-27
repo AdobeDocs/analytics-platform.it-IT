@@ -24,7 +24,7 @@ Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di 
 >* Utilizzo di un segmento basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in contesto di sessione.
 >* Utilizzo di un segmento basato su sessione come punto di contatto all’interno di una visualizzazione Abbandono in contesto di sessione.
 <!-- Should we add B2B context here?
-* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
 * -->
 
 ## Creare un segmento da un punto di contatto
