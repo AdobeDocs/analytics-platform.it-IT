@@ -1,19 +1,19 @@
 ---
-title: Elementi dimensionali dinamici e statici
-description: Interagire con elementi dimensionali dinamici e statici nelle tabelle
+title: Elementi Dimension Dinamici E Statici
+description: Scopri come utilizzare gli elementi dimensionali dinamici e statici nelle tabelle a forma libera in Analysis Workspace.
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 44%
+source-wordcount: '538'
+ht-degree: 39%
 
 ---
 
 # Elementi dimensionali dinamici e statici
 
-Le righe e le colonne nelle tabelle a forma libera possono contenere diversi valori dei componenti. Questi valori possono essere dinamici (cambiare nel tempo) o statici (non cambiare nel tempo), a seconda dell’analisi che desideri generare.
+Nelle tabelle a forma libera, le righe e le colonne possono contenere vari valori dei componenti. Questi valori possono essere dinamici (cambiare nel tempo) o statici (non cambiare nel tempo), a seconda dell’analisi che desideri generare.
 
 ## Elementi dimensionali dinamici
 

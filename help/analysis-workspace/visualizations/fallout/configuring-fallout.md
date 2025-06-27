@@ -1,13 +1,13 @@
 ---
-description: Scopri come specificare i punti di contatto per creare una sequenza di abbandono multidimensionale.
-title: Configurare una visualizzazione dell’abbandono
+description: Scopri come configurare e specificare i punti di contatto per creare una sequenza di abbandono multidimensionale.
+title: Configurare Una Visualizzazione Abbandono
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 42%
+source-wordcount: '697'
+ht-degree: 39%
 
 ---
 
@@ -87,7 +87,7 @@ Come parte della visualizzazione, sono disponibili opzioni di menu di scelta rap
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

@@ -1,21 +1,21 @@
 ---
-description: Scopri come gestire le cartelle in Workspace
+description: Scopri come gestire le cartelle in Analysis Workspace.
 keywords: Analysis Workspace
-title: Gestire le cartelle in Workspace
+title: Gestione cartelle
 feature: Workspace Basics
 exl-id: dcc78e0e-49d6-40bf-a606-9a7f3f19911c
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 92%
+source-wordcount: '400'
+ht-degree: 87%
 
 ---
 
 
 # Gestire le cartelle
 
-In Workspace è possibile gestire le cartelle in due modi. Dall’interno della cartella o da una o più cartelle selezionate nell’elenco dei progetti. La gestione delle cartelle include la possibilità di rinominare, spostare o eliminare le cartelle.
+In Workspace è possibile gestire le cartelle in due modi. Dall’interno della cartella o da una o più cartelle selezionate nell’elenco dei progetti. Le opzioni di gestione delle cartelle includono rinominare, spostare o eliminare le cartelle.
 
 ## Rinominare le cartelle
 
@@ -32,7 +32,7 @@ Per rinominare le cartelle in Workspace:
 
    1. Seleziona **[!UICONTROL Rename folder]** da ![Altro](/help/assets/icons/More.svg) nell’[area Titolo](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Nella finestra di dialogo **[!UICONTROL Rename: *nome cartella *]**&#x200B;immetti un nuovo nome e seleziona **[!UICONTROL Save]**.
+   1. Nella finestra di dialogo **[!UICONTROL Rename: *nome cartella *]**immetti un nuovo nome e seleziona **[!UICONTROL Save]**.
 
 
 ## Spostare le cartelle

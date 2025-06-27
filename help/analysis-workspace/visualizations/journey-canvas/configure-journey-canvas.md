@@ -1,12 +1,12 @@
 ---
-description: Configurare una visualizzazione area di lavoro del percorso
-title: Area di lavoro del percorso
+description: Scopri come configurare una visualizzazione area di lavoro di percorso.
+title: Configurare Una Visualizzazione Area Di Lavoro Percorso
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6213'
 ht-degree: 1%
 
 ---

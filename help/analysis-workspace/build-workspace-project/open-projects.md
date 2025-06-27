@@ -1,13 +1,13 @@
 ---
-description: Scopri le opzioni per aprire i progetti.
-title: Aprire i progetti
+description: Scopri come aprire progetti in Analysis Workspace.
+title: Progetti aperti
 feature: Workspace Basics
 role: User
 exl-id: 5ef235e2-50d8-4202-bad7-06090102cf73
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
-workflow-type: ht
-source-wordcount: '339'
-ht-degree: 100%
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 97%
 
 ---
 

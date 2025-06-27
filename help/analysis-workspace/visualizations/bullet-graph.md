@@ -1,13 +1,13 @@
 ---
-description: Mostra come un valore desiderato si confronta con altre gamme di prestazioni (obiettivi).
-title: Grafico bullet
+description: Scopri come utilizzare la visualizzazione punto elenco in Analysis Workspace. La visualizzazione bullet consente di confrontare o misurare altre gamme di prestazioni (obiettivi).
+title: Bullet
 feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 89%
 
 ---
 
@@ -45,7 +45,7 @@ Il grafico bullet presenta una singola misura primaria (ad esempio le entrate an
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione del grafico bullet](https://video.tv.adobe.com/v/329424/?quality=12/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione del grafico bullet](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -63,7 +63,7 @@ Puoi definire impostazioni specifiche per una visualizzazione [!UICONTROL Bullet
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

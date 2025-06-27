@@ -1,13 +1,13 @@
 ---
-description: Scopri come regolare la densità di visualizzazione in Analysis Workspace.
+description: Scopri come regolare la densità di visualizzazione del progetto in Analysis Workspace.
 title: Densità di visualizzazione
 feature: Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
 role: User
-source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 91%
+source-wordcount: '104'
+ht-degree: 78%
 
 ---
 

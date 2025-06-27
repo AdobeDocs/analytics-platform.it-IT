@@ -1,13 +1,13 @@
 ---
-description: Aggiunge testo definito dall’utente a Workspace.
+description: Scopri come aggiungere testo definito dall’utente al progetto Analysis Workspace.
 title: Testo
 feature: Visualizations
 exl-id: 51cb6b57-682f-4475-b829-75def725be43
 role: User
-source-git-commit: 75d45cd6a2149bb44949ec6e0f3808ea4a6995f5
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 87%
+source-wordcount: '283'
+ht-degree: 83%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione Testo in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Testo](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/text) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione Testo in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Testo](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/text) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

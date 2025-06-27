@@ -1,13 +1,13 @@
 ---
-description: Scopri i rapporti e le visualizzazioni di abbandono.
-title: Rapporti e visualizzazioni di abbandono
+description: Scopri come utilizzare la visualizzazione Abbandono in Analysis Workspace.
+title: Panoramica sull’abbandono
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 

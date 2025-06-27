@@ -5,22 +5,22 @@ title: Casi di utilizzo dell’analisi per coorte
 feature: Visualizations
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 52%
+source-wordcount: '954'
+ht-degree: 51%
 
 ---
 
-# Casi di utilizzo dell’[!UICONTROL Cohort analysis]
+# Casi di utilizzo dell’analisi per coorte
 
-Questo articolo descrive alcuni esempi di casi d&#39;uso per [!UICONTROL Cohort Analysis].
+Questo articolo descrive alcuni esempi di casi d’uso per l’analisi per coorte.
 
 ## Caso di utilizzo per il livello di engagement generato da un’app
 
 Immagina di voler analizzare in che modo gli utenti che installano la tua app si comportano nel tempo. La installano ma poi non la usano? La usano solo per un po’? O la usano con continuità nel tempo?
 
-Puoi creare una [!UICONTROL Cohort Analysis] di sei mesi:
+Puoi creare un’analisi per coorte di sei mesi.
 
 **Unità**: mensile, da gennaio 2015 a giugno 2015
 

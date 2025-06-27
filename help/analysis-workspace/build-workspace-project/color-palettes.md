@@ -1,10 +1,10 @@
 ---
 description: Come modificare la palette di colori di visualizzazione o specificare una propria palette di colori personalizzata.
-title: Visualizzazione palette di colori
+title: Palette di colori di visualizzazione
 feature: Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 93%

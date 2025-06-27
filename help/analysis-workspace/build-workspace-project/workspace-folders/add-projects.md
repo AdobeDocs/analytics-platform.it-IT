@@ -1,14 +1,14 @@
 ---
-description: Scopri come aggiungere o spostare le cartelle in Workspace
+description: Scopri come aggiungere o spostare progetti nelle cartelle in Analysis Workspace.
 keywords: Analysis Workspace
-title: Aggiungere o spostare progetti nelle cartelle
+title: Aggiungere O Spostare Progetti Nelle Cartelle
 feature: Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
 role: User
-source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 93%
+source-wordcount: '256'
+ht-degree: 86%
 
 ---
 

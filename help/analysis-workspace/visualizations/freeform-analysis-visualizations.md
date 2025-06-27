@@ -1,14 +1,14 @@
 ---
-description: Rappresenta visivamente i dati in Analysis Workspace.
+description: Scopri come rappresentare visivamente i dati con le visualizzazioni disponibili in Analysis Workspace.
 keywords: Analysis Workspace
 title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 99%
+source-wordcount: '1535'
+ht-degree: 98%
 
 ---
 

@@ -1,12 +1,12 @@
 ---
-description: Panoramica sull’utilizzo dei modelli predefiniti in Analysis Workspace.
+description: Scopri come utilizzare i modelli in Analysis Workspace.
 title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 49e0327b2c67ed12fa316f74f6d6a8ce39e3c87a
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '19787'
+source-wordcount: '19784'
 ht-degree: 99%
 
 ---

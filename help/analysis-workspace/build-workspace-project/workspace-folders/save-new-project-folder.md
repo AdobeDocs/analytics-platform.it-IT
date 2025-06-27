@@ -1,32 +1,36 @@
 ---
-description: Scopri come salvare i progetti nelle cartelle in Workspace
+description: Scopri come salvare un nuovo progetto in una cartella in Analysis Workspace.
 keywords: Analysis Workspace
-title: Salvataggio dei progetti nelle cartelle
+title: Salvare Un Nuovo Progetto In Una Cartella
 feature: Workspace Basics
 exl-id: d08a558b-a2bb-4002-b179-437e1885c6c4
 role: User
-source-git-commit: 6cf6fa977a2c5dee28dcfe6f9446d294a9d9fd0f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 100%
+source-wordcount: '35'
+ht-degree: 5%
 
 ---
 
-# Salvare un nuovo progetto in una cartella
+# Salvare un nuovo progetto in un polder
 
-<!-- Is this article still needed -->
+Consulta [Salva progetti](../save-projects.md#save) per ulteriori informazioni.
+
+<!-- Is this article still needed; removed from TOC
 
 
-Per salvare un nuovo progetto in una cartella specifica, seleziona il nome della cartella nella finestra di dialogo Salva progetto.
+To save a new project to a specific folder, select the folder name in the Save project dialogue window.
 
-1. In Workspace, crea un nuovo progetto.
+1. In Workspace, create a new project.
 
-   ![Finestra della tabella a forma libera in cui è possibile creare un nuovo progetto.](/help/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
+    ![The Freeform table window where you can create a new project.](/help/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
 
-1. Nella finestra di dialogo **Progetto** > **Salva**, seleziona un nome della cartella utilizzando il menu a discesa Cartella.
+1. In the **Project** > **Save** dialogue, select a folder name from the Folder drop-down menu.
 
-   ![Finestra Salva in cui salvare il nuovo progetto in una cartella.](/help/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
+    ![The Save window where you save your new project to a folder.](/help/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
 
-1. Fai clic su **Salva**.
+1. Click **Save**.
 
-   Il progetto viene salvato nella cartella selezionata.
+    The project is saved in the selected folder.
+
+-->

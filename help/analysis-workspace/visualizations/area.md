@@ -1,13 +1,13 @@
 ---
-description: La visualizzazione Area è simile a un grafico a linee, ma la superficie al sotto di ogni linea è colorata.
-title: Superfici e superfici sovrapposte
+description: Scopri la visualizzazione Superfici e Superfici sovrapposte.
+title: Superfici (sovrapposte)
 feature: Visualizations
 exl-id: d9662b29-fc41-4074-8cf6-031202994ece
 role: User
-source-git-commit: 0859a35bb0f34800b970ff256bc9b740ffe424c9
-workflow-type: ht
-source-wordcount: '198'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 94%
 
 ---
 
@@ -64,6 +64,6 @@ Utilizza l’opzione **[!UICONTROL 100% stacked]** in ![Setting](/help/assets/ic
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazzione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

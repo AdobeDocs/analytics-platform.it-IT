@@ -1,22 +1,22 @@
 ---
-description: Scopri le cartelle in Workspace
+description: Scopri come organizzare i progetti in cartelle in Analysis Workspace.
 keywords: Analysis Workspace
 title: Panoramica cartelle
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 97%
 
 ---
 
 # Panoramica cartelle
 
-Le cartelle in Customer Journey Analytics sono disponibili nella pagina di destinazione di Workspace se hai selezionato [Mostra cartelle e progetti](../freeform-overview.md#show-selector).
-
 Le cartelle in Workspace ti aiutano a organizzare e classificare i progetti. Con la funzionalità delle cartelle, puoi creare cartelle e sottocartelle per gestire i progetti.
+
+Le cartelle in Customer Journey Analytics sono disponibili nella pagina di destinazione di Workspace se hai selezionato [Mostra cartelle e progetti](../freeform-overview.md#show-selector).
 
 In Workspace sono disponibili due tipi di cartelle: la cartella aziendale e le cartelle personali. Inoltre, una cartella aziendale condivisa consente agli amministratori di creare e condividere i contenuti con tutti gli utenti di Workspace.
 

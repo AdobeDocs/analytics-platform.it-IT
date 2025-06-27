@@ -1,13 +1,13 @@
 ---
-description: Panoramica sull’utilizzo dei modelli predefiniti in Analysis Workspace.
-title: Utilizzare i modelli
+description: Scopri come creare e gestire i modelli in Analysis Workspace.
+title: Creare E Gestire I Modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
-workflow-type: ht
-source-wordcount: '1688'
-ht-degree: 100%
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+workflow-type: tm+mt
+source-wordcount: '1689'
+ht-degree: 99%
 
 ---
 

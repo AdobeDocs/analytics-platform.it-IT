@@ -1,16 +1,17 @@
 ---
-description: Esempi durante la configurazione di una visualizzazione area di lavoro Percorso
-title: Esempi di area di lavoro percorso
+description: Scopri come risolvere i problemi durante la configurazione di una visualizzazione area di lavoro di percorso.
+title: Risoluzione dei problemi di Area di lavoro percorso
 feature: Visualizations
 role: User
-source-git-commit: 820251833eae9fed1574a0010f726b0ba6e12cd1
+exl-id: f0ac3752-9244-4d9e-807b-e6471e6aa55b
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1267'
 ht-degree: 0%
 
 ---
 
-# Risoluzione dei problemi di area di lavoro del percorso
+# Risoluzione dei problemi dell’area di lavoro del percorso
 
 La visualizzazione area di lavoro Percorso consente di analizzare e ottenere informazioni approfondite sui percorsi forniti a utenti e clienti.
 

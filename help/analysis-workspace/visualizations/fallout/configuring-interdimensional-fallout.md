@@ -1,12 +1,12 @@
 ---
-description: Il fallout in Analysis Workspace consente di combinare dimensioni e metriche come punti di contatto in funnel e flussi di lavoro. I fallout offrono maggiore flessibilità nella definizione dei passaggi utente che si desidera esaminare.
+description: Scopri come la visualizzazione dell’abbandono in Analysis Workspace consente di combinare dimensioni e metriche come punti di contatto in funnel e flussi di lavoro. Scopri in che modo questo offre maggiore flessibilità nella definizione dei passaggi utente che desideri esaminare.
 title: Abbandono interdimensionale
 feature: Visualizations
 exl-id: 7975324c-4efc-4c36-bc83-dcde85d2febc
 role: User
-source-git-commit: 37158b4e614435724205c505f322c1d7a434c35d
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '226'
 ht-degree: 7%
 
 ---

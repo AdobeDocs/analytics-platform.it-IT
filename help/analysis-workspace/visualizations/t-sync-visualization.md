@@ -1,49 +1,36 @@
 ---
-description: La sincronizzazione delle visualizzazioni consente di controllare la tabella dati o l’origine dati corrispondente a una visualizzazione.
+description: Scopri come sincronizzare una tabella a forma libera o un’origine dati con la visualizzazione corrispondente.
 keywords: Analysis Workspace, sincronizzazione di una visualizzazione con un’origine dati
-title: Gestione delle origini dati
+title: Gestire le origini dati
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
 role: User
-source-git-commit: 8f9c03607130bdeaf6cb7a32d8dd465712a47ea5
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 92%
+source-wordcount: '421'
+ht-degree: 85%
 
 ---
 
 # Gestione delle origini dati {#manage-data-sources}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection"
 >title="Blocca selezione"
 >abstract="Abilita questa impostazione per bloccare la visualizzazione nelle posizioni o gli elementi selezionati nell’origine dati."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection_showtable"
 >title="Mostra tabella"
 >abstract="Selezionando **[!UICONTROL Show table]** verrà generata una nuova origine dati per la visualizzazione corrente, separata dall’origine dati originale."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_showtable"
 >title="Mostra tabella"
 >abstract="Seleziona **[!UICONTROL Show table]** per generare una nuova origine dati per la visualizzazione corrente, separata dall&#39;origine dati originale."
 
-<!-- markdownlint-enable MD034 -->
 
-
-
-La sincronizzazione delle visualizzazioni consente di controllare la tabella dati o l’origine dati corrispondente a una visualizzazione.
+La sincronizzazione delle visualizzazioni consente di controllare quale tabella a forma libera o origine dati corrisponde a una visualizzazione.
 
 >[!TIP]
 >

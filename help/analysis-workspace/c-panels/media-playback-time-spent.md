@@ -1,13 +1,13 @@
 ---
 title: Pannello Tempo trascorso su contenuti multimediali
-description: Come utilizzare e interpretare il pannello Tempo trascorso su contenuti multimediali in Analysis Workspace.
+description: Scopri come utilizzare e interpretare il pannello Tempo di riproduzione multimediale trascorso in Analysis Workspace.
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: ht
-source-wordcount: '1061'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '1062'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ _Questo articolo descrive il pannello Tempo trascorso su contenuti multimediali 
 >[!NOTE]
 >
 >Il pannello Pubblico medio per minuto è disponibile solo per i clienti che hanno acquistato il componente aggiuntivo Streaming Media Collection per Customer Journey Analytics.
->Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
+>>Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
 >
 
 Il pannello **[!UICONTROL Media playback time spent]** consente di analizzare le riproduzioni nel tempo, con dettagli sul picco di concorrenza e la possibilità di suddividere e confrontare i dati.
@@ -60,7 +60,7 @@ Il Tempo di riproduzione trascorso può aiutarti a comprendere:
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/3446708?captions=ita){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/338699){target="_blank"} per un video demo.
 
 {{videoaa}}
 
@@ -129,6 +129,6 @@ L’unica metrica che può essere utilizzata in questo pannello è Playback Time
 >[!MORELIKETHIS]
 >
 >[Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Pannello Pubblico medio per minuto di contenuti multimediale](average-minute-audience-panel.md)
->[Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md)
+>>[Pannello Pubblico medio per minuto di contenuti multimediale](average-minute-audience-panel.md)
+>>[Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md)
 >

@@ -1,13 +1,13 @@
 ---
-title: Panoramica della tabella a forma libera
-description: Le tabelle a forma libera sono alla base dell’analisi dei dati in Workspace
+title: Panoramica delle tabelle a forma libera
+description: Scopri come utilizzare le tabelle a forma libera, che sono la base per l’analisi dei dati in Analysis Workspace.
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 100%
+source-wordcount: '723'
+ht-degree: 97%
 
 ---
 

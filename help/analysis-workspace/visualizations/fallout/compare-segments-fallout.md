@@ -1,14 +1,14 @@
 ---
-description: Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di contatto e confrontare flussi di lavoro chiave tra vari segmenti in Analysis Workspace.
-keywords: abbandono e segmenti;segmenti nell’analisi dell’abbandono;confrontare segmenti nell’abbandono
-title: Applicare i segmenti nell’analisi dell’abbandono
+description: Scopri come creare segmenti da un punto di contatto, aggiungere segmenti come punto di contatto e confrontare flussi di lavoro chiave tra vari segmenti in un’analisi di abbandono in Analysis Workspace.
+keywords: abbandono e segmentazione, segmenti nell’analisi dell’abbandono, confronta i segmenti nell’abbandono
+title: Applicare I Segmenti Nell’Analisi Dell’Abbandono
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 39%
+source-wordcount: '461'
+ht-degree: 35%
 
 ---
 
@@ -18,11 +18,14 @@ Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di 
 
 >[!IMPORTANT]
 >
->I segmenti utilizzati come punti di controllo in Abbandono devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Abbandono. Con Fallout in contesto persona, i segmenti utilizzati come punti di controllo devono essere segmenti basati su sessione o eventi. Con Fallout in contesto di sessione, i segmenti utilizzati come punto di controllo devono essere segmenti basati su eventi. Se utilizzi una combinazione non valida, l’abbandono è del 100%. Quando aggiungi un segmento incompatibile come punto di contatto, viene visualizzato un avviso per la visualizzazione Abbandono. Alcune combinazioni di contenitori di segmenti non valide generano diagrammi di fallout non validi, ad esempio:
+>I segmenti utilizzati come punti di controllo in Abbandono devono utilizzare un contenitore di livello inferiore rispetto al contesto generale della visualizzazione Abbandono. Con Fallout in contesto persona, i segmenti utilizzati come punti di controllo devono essere segmenti basati su sessione o eventi. Con Fallout in contesto di sessione, i segmenti utilizzati come punto di controllo devono essere segmenti basati su eventi. Se utilizzi una combinazione non valida, l’abbandono è del 100%. Quando aggiungi un segmento incompatibile come punto di contatto, nella visualizzazione Abbandono viene visualizzato un avviso. Alcune combinazioni di contenitori di segmenti non valide generano diagrammi di fallout non validi, ad esempio:
 >
->* Utilizzo di un segmento basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in un contesto persona
->* Utilizzo di un segmento basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in contesto di sessione
->* Utilizzo di un segmento basato su sessione come punto di contatto all’interno di una visualizzazione Abbandono in contesto di sessione
+>* Utilizzo di un segmento basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in un contesto persona.
+>* Utilizzo di un segmento basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in contesto di sessione.
+>* Utilizzo di un segmento basato su sessione come punto di contatto all’interno di una visualizzazione Abbandono in contesto di sessione.
+<!-- Should we add B2B context here?
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* -->
 
 ## Creare un segmento da un punto di contatto
 

@@ -1,13 +1,13 @@
 ---
-title: Pannello Pubblico medio per minuto
-description: Come utilizzare e interpretare il pannello Pubblico medio per minuto del file multimediale in Analysis Workspace.
+title: Pannello Pubblico medio per minuto del file multimediale
+description: Scopri come utilizzare e interpretare il pannello Pubblico medio per minuto in Analysis Workspace.
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 94%
+source-wordcount: '1637'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive il pannello Pubblico medio per minuto del file multimediale in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulta [Pannello Pubblico medio per minuto del file multimediale](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive il pannello Pubblico medio per minuto del file multimediale in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta [Pannello Pubblico medio per minuto del file multimediale](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -187,6 +187,6 @@ Il pannello Pubblico medio per minuto del file multimediale utilizza solo la met
 >[!MORELIKETHIS]
 >
 > [Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
-> [Pannello Visualizzatori simultanei di file multimediali](media-concurrent-viewers.md)
-> [Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
+> > [Pannello Visualizzatori simultanei di file multimediali](media-concurrent-viewers.md)
+> > [Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
 >

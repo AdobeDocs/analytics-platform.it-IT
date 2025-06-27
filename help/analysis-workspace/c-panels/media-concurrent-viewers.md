@@ -1,13 +1,13 @@
 ---
 title: Pannello Visualizzatori simultanei di contenuti multimediali
-description: Come utilizzare e interpretare il pannello Visualizzatori simultanei di file multimediali in Analysis Workspace.
+description: Scopri come utilizzare e interpretare il pannello Visualizzatori simultanei di contenuti multimediali in Analysis Workspace.
 feature: Panels
 exl-id: a442fb9c-165f-4136-95e2-ce92b9280c25
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: ht
-source-wordcount: '1129'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ In Analysis Workspace, la metrica Visualizzatori simultanei rappresenta il numer
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://video.tv.adobe.com/v/328248/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -130,6 +130,6 @@ In questa visualizzazione non è disponibile una tabella a forma libera.  Per vi
 >[!MORELIKETHIS]
 >
 >[Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
->[Pannello Pubblico medio per minuto del file multimediale](average-minute-audience-panel.md)
+>>[Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
+>>[Pannello Pubblico medio per minuto del file multimediale](average-minute-audience-panel.md)
 >

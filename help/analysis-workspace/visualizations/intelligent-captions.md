@@ -1,19 +1,17 @@
 ---
-description: Utilizza i sottotitoli intelligenti per generare informazioni in linguaggio naturale e fare emergere le tendenze all’interno delle visualizzazioni.
+description: Scopri come utilizzare i sottotitoli intelligenti per generare informazioni in linguaggio naturale per far emergere le tendenze nelle visualizzazioni.
 title: Didascalie intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: af8d4f07498211931e9549cadd4746eebb9f56f4
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 100%
+source-wordcount: '708'
+ht-degree: 97%
 
 ---
 
 # Didascalie intelligenti {#intelligent-captions}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions"
@@ -30,7 +28,7 @@ Le didascalie intelligenti sono destinate a:
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Didascalie intelligenti](https://video.tv.adobe.com/v/3443146/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Didascalie intelligenti](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
