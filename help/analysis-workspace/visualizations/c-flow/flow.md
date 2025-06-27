@@ -1,17 +1,17 @@
 ---
-description: Informazioni sulla funzione Flusso che mostrano i percorsi dei clienti nei siti web e nelle app.
+description: Scopri come utilizzare la visualizzazione Flusso in un Analysis Workspace.
 title: Panoramica del flusso
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
-workflow-type: ht
-source-wordcount: '325'
-ht-degree: 100%
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 95%
 
 ---
 
-# Flusso {#flow}
+# Panoramica del flusso {#flow}
 
 <!-- markdownlint-disable MD034 -->
 
