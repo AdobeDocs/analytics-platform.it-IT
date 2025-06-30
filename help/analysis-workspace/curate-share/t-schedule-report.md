@@ -6,14 +6,14 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
+source-git-commit: 6cbf18496585fc973414b79b5957f918a16c0459
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '654'
 ht-degree: 59%
 
 ---
 
-# Invio e pianificazione
+# Inviare e pianificare progetti
 
 Puoi inviare progetti Customer Journey Analytics come file a utenti selezionati tramite e-mail. Puoi inviare file ad hoc oppure configurare i progetti da inviare in base a una pianificazione. I progetti possono essere inviati in formato CSV o PDF.
 
