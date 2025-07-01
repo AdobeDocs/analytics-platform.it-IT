@@ -1,14 +1,14 @@
 ---
-description: Condivisione e ruoli dei progetti in Workspace
+description: Scopri come condividere i progetti in Analysis Workspace.
 keywords: Condivisione di Analysis Workspace
-title: Condividere progetti
+title: Condividi progetti
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: a462e736ddcdf1a5ea84a85eea2c2ce0b8a34fb0
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 98%
+source-wordcount: '1989'
+ht-degree: 97%
 
 ---
 
@@ -40,16 +40,16 @@ Qualsiasi [cura](curate.md) applichi prima della condivisione, viene visualizzat
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condivisione dei progetti in Analysis Workspace](https://video.tv.adobe.com/v/40037/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condivisione dei progetti in Analysis Workspace](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
 >[!ENDSHADEBOX]
 
 
-## Condividere con gli utenti e i gruppi di Customer Journey Analytics dell’organizzazione {#Add}
+## Condividi con utenti e gruppi della tua organizzazione {#Add}
 
-Puoi condividere un progetto con gli utenti o i gruppi di Customer Journey Analytics esistenti nella tua organizzazione. Quando condividi un progetto, come descritto in questa sezione, gli utenti con cui effettui la condivisione devono già disporre di un account Customer Journey Analytics.
+Puoi condividere un progetto con utenti o gruppi di Analysis Workspace esistenti nella tua organizzazione. Quando condividi un progetto, come descritto in questa sezione, gli utenti con cui effettui la condivisione devono già disporre di un account Customer Journey Analytics.
 
 Puoi condividere un ruolo specifico con utenti o gruppi, oppure un collegamento.
 
@@ -161,7 +161,7 @@ Puoi consentire l’[accesso di sola lettura](/help/analysis-workspace/curate-sh
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere con chiunque](https://video.tv.adobe.com/v/3452466/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere con chiunque](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -216,7 +216,7 @@ Puoi condividere i componenti incorporati che fanno parte del progetto.
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere componenti incorporati in Analysis Workspace](https://video.tv.adobe.com/v/329425/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere componenti incorporati in Analysis Workspace](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 

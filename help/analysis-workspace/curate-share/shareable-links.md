@@ -1,14 +1,14 @@
 ---
-description: Scopri come creare collegamenti condivisibili a progetti o visualizzazioni
+description: Scopri come creare collegamenti condivisibili a progetti o visualizzazioni.
 keywords: Condivisione di Analysis Workspace
-title: Creare collegamenti condivisibili
+title: Crea collegamenti condivisibili
 exl-id: 6cfb5161-08e1-4583-ae79-4600b5531929
 feature: Curate and Share
 role: User
-source-git-commit: 9cdfa94ad04d3d1ce43e591fa9219146152862dc
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 62%
+ht-degree: 56%
 
 ---
 

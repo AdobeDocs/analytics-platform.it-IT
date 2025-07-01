@@ -5,10 +5,10 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 9c05319ceacb7287af7f15cfe56b8048a718559d
 workflow-type: tm+mt
 source-wordcount: '1535'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -139,11 +139,11 @@ Utilizza il menu di scelta rapida (disponibile tramite selezione alternativa, ad
 | Opzione | Descrizione |
 | --- | --- |
 | **[!UICONTROL Insert copied visualization]** | Incolla (inserisci) una visualizzazione copiata altrove nello stesso progetto o in un altro progetto. |
-| **[!UICONTROL Copy data to clipboard]** | Copia i dati dalla visualizzazione negli appunti. |
-| **[!UICONTROL Copy selection to clipboard]** | Copia la selezione dalla visualizzazione negli appunti. |
-| Nome dimensione **[!UICONTROL Download items as CSV (**)]** | Scarica gli elementi dimensionali (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Un massimo di 50.000 elementi dimensionali per la dimensione selezionata. |
+| **[!UICONTROL Copy data to clipboard]** | [Copia dati](/help/analysis-workspace/export/download-send.md#copy-to-clipboard) dalla visualizzazione negli Appunti. |
+| **[!UICONTROL Copy selection to clipboard]** | [Copia la selezione](/help/analysis-workspace/export/download-send.md#copy-to-clipboard) dalla visualizzazione negli Appunti. |
+| **[!UICONTROL Download items as CSV (*nome dimensione *)]** | [Scarica gli elementi dimensionali](/help/analysis-workspace/export/download-send.md#download-items-as-csv) (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Un massimo di 50.000 elementi dimensionali per la dimensione selezionata. |
 | **[!UICONTROL Copy visualization]** | Copia la visualizzazione, in modo da poterla inserire in un’altra posizione all’interno del progetto o in un progetto diverso. |
-| **[!UICONTROL Download data CSV]** | Scarica i dati visualizzati della visualizzazione sul dispositivo locale. |
+| **[!UICONTROL Download data CSV]** | [Scarica i dati visualizzati](/help/analysis-workspace/export/download-send.md#download-as-csv) della visualizzazione sul tuo dispositivo locale. |
 | **[!UICONTROL Export full table]** | Esporta la tabella completa in posizioni cloud designate. Consulta [Esporta i rapporti di Customer Journey Analytics nel cloud](../export/export-cloud.md) |
 | **[!UICONTROL Duplicate visualization]** | Crea un duplicato esatto della visualizzazione. |
 | **[!UICONTROL Edit description]** | Aggiungi (o modifica) una descrizione di testo per la visualizzazione. Consulta [Testo](text.md). |

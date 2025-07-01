@@ -1,14 +1,14 @@
 ---
-description: La cura ti permette di limitare i componenti prima di condividere un progetto.
+description: Scopri come curare i progetti in Analysis Workspace. La cura limita l’accesso ai componenti prima di condividere un progetto.
 keywords: Cura di Analysis Workspace
-title: Curare progetti
+title: Cura progetti
 feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
 role: User
-source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 59%
+source-wordcount: '476'
+ht-degree: 55%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 59%
 La cura ti consente di limitare i componenti (dimensioni, metriche, segmenti, intervalli di date) prima di condividere un progetto. Quando un destinatario apre il progetto, visualizza un set limitato di componenti che hai curato per lui. La cura è un passaggio facoltativo ma consigliato prima di condividere un progetto.
 
 >[!NOTE]
-> I profili di prodotto sono il meccanismo principale per determinare quali componenti può vedere un utente. Vengono gestiti tramite [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/admin-tool-experience-cloud). La cura è un segmento secondario.
+> I profili di prodotto sono il meccanismo principale per determinare quali componenti può vedere un utente. Vengono gestiti tramite [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-tool-experience-cloud). La cura è un segmento secondario.
 
 ## Applicare la cura del progetto
 

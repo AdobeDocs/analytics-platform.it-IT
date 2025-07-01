@@ -5,10 +5,10 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '898'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Puoi gestire i seguenti componenti:
 * [Intervalli di date](date-ranges/create.md): personalizza e perfeziona gli intervalli di date che offre Analysis Workspace.
 * [Annotazioni](/help/components/annotations/overview.md): comunica alla tua organizzazione informazioni e dettagli contestuali sui dati.
 * [Avvisi intelligenti](/help/components/c-intelligent-alerts/intelligent-alerts.md): consentono di ricevere notifiche in base a percentuali di cambiamento o a punti dati specifici.
-* [Progetti pianificati](/help/analysis-workspace/export/t-schedule-report.md#scheduled-projects-manager): gestisci i progetti pianificati.
+* [Progetti pianificati](/help/analysis-workspace/curate-share/t-schedule-report.md#scheduled-projects-manager): gestisci i progetti pianificati.
 * [Preferenze](/help/analysis-workspace/user-preferences.md): gestisci le preferenze di Analysis Workspace.
 * [Tipi di pubblico](/help/components/audiences/audiences-overview.md): crea e pubblica i tipi di pubblico da Customer Journey Analytics a [Real-Time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/home) in Experience Platform per la personalizzazione e il targeting.
 * [Esportazioni](/help/components/exports/manage-export-locations.md): gestisci l’account e le posizioni di esportazione.

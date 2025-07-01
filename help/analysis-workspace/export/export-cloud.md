@@ -5,10 +5,10 @@ title: Esportare i rapporti di Customer Journey Analytics nel cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 0891aa2bed446e704b0222eff992c5f5bc200f82
+source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
 workflow-type: tm+mt
-source-wordcount: '2340'
-ht-degree: 95%
+source-wordcount: '2360'
+ht-degree: 94%
 
 ---
 
@@ -81,7 +81,7 @@ Per esportare tabelle complete da Analysis Workspace:
    | Nome campo: | Funzione |
    |---------|----------|
    | Nome | Specifica un nome per l’esportazione. Questo nome viene visualizzato nell’elenco delle esportazioni. |
-   | Tag | Puoi applicare un tag esistente all’esportazione oppure creare un nuovo tag e applicarlo. <p>Per applicare un tag esistente all’esportazione, seleziona un tag qualsiasi dal menu a discesa. Tutti i tag dell’azienda sono disponibili per l’applicazione<!-- double-check this -->.</p> <p>Per creare un nuovo tag, digitane il nome, quindi premi Invio.</p><p>Durante l’applicazione di tag a un’esportazione, tieni presente quanto segue: <ul><li>I tag applicati possono essere filtrati o cercati nella tabella delle esportazioni.</li> <li>I tag applicati a un progetto non vengono applicati automaticamente durante l’esportazione di una tabella completa, come descritto in “Configurare le colonne nella pagina di esportazione” in [Gestire le esportazioni](/help/components/exports/manage-exports.md). (In alternativa, durante la [pianificazione di un progetto completo per l’esportazione](/help/analysis-workspace/export/t-schedule-report.md), tutti i tag applicati al progetto vengono automaticamente applicati all’esportazione.)  <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
+   | Tag | Puoi applicare un tag esistente all’esportazione oppure creare un nuovo tag e applicarlo. <p>Per applicare un tag esistente all’esportazione, seleziona un tag qualsiasi dal menu a discesa. Tutti i tag dell’azienda sono disponibili per l’applicazione<!-- double-check this -->.</p> <p>Per creare un nuovo tag, digitane il nome, quindi premi Invio.</p><p>Durante l’applicazione di tag a un’esportazione, tieni presente quanto segue: <ul><li>I tag applicati possono essere filtrati o cercati nella tabella delle esportazioni.</li> <li>I tag applicati a un progetto non vengono applicati automaticamente durante l’esportazione di una tabella completa, come descritto in “Configurare le colonne nella pagina di esportazione” in [Gestire le esportazioni](/help/components/exports/manage-exports.md). (In alternativa, durante la [pianificazione di un progetto completo per l’esportazione](/help/analysis-workspace/curate-share/t-schedule-report.md), tutti i tag applicati al progetto vengono automaticamente applicati all’esportazione.)  <!-- Right now we don't have a column for them on the exports table, so this isn't true. Jaden is adding the column. --></li></ul> |
    | Descrizione | Aggiungi una descrizione all’esportazione. Puoi scegliere di visualizzare le descrizioni come colonna nella [pagina Esportazioni](/help/components/exports/manage-exports.md) durante la visualizzazione delle esportazioni. |
    | Visualizzazione dati | Seleziona la visualizzazione dati che contiene i componenti da includere nell’esportazione. Il menu a discesa Visualizzazione dati si trova nell’angolo superiore sinistro della finestra di dialogo e può essere identificato dall’icona della visualizzazione dati![icona della visualizzazione dati](assets/data-view-icon.png).  <p>**Nota:** se si sceglie una visualizzazione dati in cui mancano componenti già inclusi nella tabella dati, verrà richiesto di cancellare la tabella dati e di ricrearla utilizzando i componenti inclusi nella visualizzazione dati selezionata. </p> |
    | Intervallo di lookback | Seleziona l’intervallo di tempo di reporting da includere in ciascun file di esportazione. Le opzioni includono [!UICONTROL **Oggi**], [!UICONTROL **Ieri**], [!UICONTROL **Ultimi 7 giorni**], [!UICONTROL **Ultimi 30 giorni**], [!UICONTROL **Questa settimana**] e [!UICONTROL **Questo mese**]. <p>Questa opzione non viene visualizzata se la [!UICONTROL **frequenza di esportazione**] è impostata su [!UICONTROL **Invia ora (una tantum)**]. |
@@ -129,7 +129,9 @@ L’esportazione di dati di Customer Journey Analytics nel cloud consente di:
 
 * Esportare le tabelle che includono più dimensioni.
 
-## Requisiti per l’esportazione {#export-requirements}
+## Requisiti e funzioni non supportate {#export-requirements}
+
+Questa sezione descrive i requisiti minimi e le funzioni non supportate di cui tenere conto durante l’esportazione dei dati.
 
 ### Requisiti minimi
 

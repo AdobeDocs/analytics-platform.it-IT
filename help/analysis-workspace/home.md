@@ -6,7 +6,7 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 9056b8b172ae7a2267bf12de4b2355d1a1364b32
 workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 96%
@@ -19,7 +19,7 @@ Analysis Workspace consente di realizzare rapidamente le analisi per raccogliere
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://video.tv.adobe.com/v/328627/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -113,7 +113,7 @@ Per una panoramica dei menu disponibili, consulta le seguenti tabelle.
 | **[!UICONTROL Create date range...]** | **[!UICONTROL *Maiusc+Comando+d *]** | **[!UICONTROL *Maiusc+Ctrl+d *]** | Crea un nuovo [intervallo di date](/help/components/date-ranges/overview.md). |
 | **[!UICONTROL Create annotation...]** | **[!UICONTROL *Maiusc+Comando+o *]** | **[!UICONTROL *Maiusc+Ctrl+o *]** | Crea una nuova [annotazione](/help/components/annotations/overview.md). |
 | **[!UICONTROL Create audience...]** | **[!UICONTROL *Maiusc+Comando+u *]** | **[!UICONTROL *Maiusc+Ctrl+u *]** | Crea un nuovo [pubblico](/help/components/audiences/audiences-overview.md). |
-| **[!UICONTROL Refewsh components]** | **[!UICONTROL *Opzione+Maiusc+r *]** | **[!UICONTROL *Alt+Maiusc+r *]** | Aggiorna i componenti nel progetto. |
+| **[!UICONTROL Refresh components]** | **[!UICONTROL *Opzione+Maiusc+r *]** | **[!UICONTROL *Alt+Maiusc+r *]** | Aggiorna i componenti nel progetto. |
 
 | **[!UICONTROL Share]** | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows | Descrizione |
 |---|---|---|---|

@@ -1,14 +1,14 @@
 ---
-description: Progetti di sola lettura in Workspace
+description: Comprendere l’esperienza dei progetti di sola lettura in Analysis Workspace.
 keywords: Progetti di sola lettura
 title: Progetti di sola lettura
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 role: User
-source-git-commit: a462e736ddcdf1a5ea84a85eea2c2ce0b8a34fb0
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 37%
+source-wordcount: '301'
+ht-degree: 36%
 
 ---
 
@@ -43,10 +43,10 @@ Alcune delle interazioni abilitate più rilevanti in un progetto di sola visuali
 
 | Area | Interazioni abilitate |
 | --- | --- |
-| Tabella a forma libera | <ul><li>Impaginazione e ordinamento</li><li>Passaggio del mouse</li><li>Selezioni di celle che aggiornano le visualizzazioni collegate</li><li>Dal menu di scelta rapida > Ottieni collegamento visualizzazione</li><li>Dal menu di scelta rapida > Copia negli Appunti</li></ul> |
-| Visualizzazioni | <ul><li>Clic per attivare/disattivare la legenda</li><li>Passaggio del mouse</li><li>Dal menu di scelta rapida > Ottieni collegamento visualizzazione</li><li>Comprimi/espandi</li><li>Flow (espandi nodi Flow)</li><li>Map (zoom)</li></ul> |
-| Pannelli | <ul><li>Segmenti a discesa interattivi</li><li>Dal menu di scelta rapida > Ottieni collegamento pannello</li><li>Comprimi/espandi</li></ul> |
-| Progetto | <ul><li>Analisi di tutte le icone delle informazioni</li><li>Menu Progetto (Nuovo, Apri, Imposta come pagina di destinazione, Aggiorna, Scarica CSV/PDF, Informazioni e impostazioni progetto limitate)</li><li>Menu Share (Get project link, Send file now)</li><li>Menu Help (tutte le azioni tranne le opzioni Tips e Debugger)</li></ul> |
+| **Tabelle a forma libera** | <li>Impaginazione e ordinamento</li><li>Passaggio del mouse</li><li>Selezioni di celle che aggiornano le visualizzazioni collegate</li><li>Dal menu di scelta rapida > Ottieni collegamento visualizzazione</li><li>Dal menu di scelta rapida > Copia negli Appunti</li> |
+| **Visualizzazioni** | <li>Clic per attivare/disattivare la legenda</li><li>Passaggio del mouse</li><li>Dal menu di scelta rapida > Ottieni collegamento visualizzazione</li><li>Comprimi/espandi</li><li>Flow (espandi nodi Flow)</li><li>Map (zoom)</li></ul> |
+| **Pannelli** | <li>Segmenti a discesa interattivi</li><li>Dal menu di scelta rapida > Ottieni collegamento pannello</li><li>Comprimi/espandi</li> |
+| **Progetto** | <li>Analisi di tutte le icone delle informazioni</li><li>Menu Progetto (Nuovo, Apri, Imposta come pagina di destinazione, Aggiorna, Scarica CSV/PDF, Informazioni e impostazioni progetto limitate)</li><li>Menu Share (Get project link, Send file now)</li><li>Menu Help (tutte le azioni tranne le opzioni Tips e Debugger)</li> |
 
 
 ## Condividi con chiunque
