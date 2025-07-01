@@ -7,7 +7,7 @@ feature: Release Notes
 source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
 workflow-type: tm+mt
 source-wordcount: '5235'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -20,9 +20,9 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Giugno 2025** | |
-| Nuove azioni di scelta rapida | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [spostare i pannelli di Workspace](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) in alto e in basso in un progetto. |
+| Nuove azioni di scelta rapida da tastiera | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [spostare i pannelli di Workspace](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) in alto e in basso in un progetto. |
 | **Maggio 2025** | |
-| Customer Journey Analytics [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Bozza della documentazione sul prossimo Customer Journey Analytics B2B edition, tra cui: <ul><li>nuovi articoli di [panoramica](/help/getting-started/cja-b2b-edition.md), [concetti e funzionalità](/help/getting-started/cja-b2b-concepts-features.md), [guida rapida](/help/getting-started/cja-b2b-quick-start-guide.md), [guida di transizione](/help/getting-started/cja-b2b-transition.md) e [casi d&#39;uso](/help/use-cases/b2b/b2b-edition/use-cases-overview.md) e</li><li>numerosi aggiornamenti alla documentazione esistente.</li></ul>La documentazione, gli articoli e le funzionalità del Percorso di clienti B2B edition sono etichettati con un distintivo [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. |
+| Customer Journey Analytics [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Bozza della documentazione sulla prossima versione di Customer Journey Analytics B2B edition, tra cui: <ul><li>nuovi articoli di [panoramica](/help/getting-started/cja-b2b-edition.md), [concetti e funzioni](/help/getting-started/cja-b2b-concepts-features.md), [guida rapida](/help/getting-started/cja-b2b-quick-start-guide.md), [guida alla transizione](/help/getting-started/cja-b2b-transition.md) e [casi d’uso](/help/use-cases/b2b/b2b-edition/use-cases-overview.md) e</li><li>numerosi aggiornamenti alla documentazione esistente.</li></ul>La documentazione, gli articoli e le funzioni di Customer Journey B2B Edition sono etichettati con un badge [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. |
 | Convalidare l’unione delle identità | È stata aggiunta la documentazione sulla [convalida](/help/stitching/validate.md) del modo in cui l’unione delle identità influisce sui tassi di successo dell’autenticazione e sulle prestazioni complessive di identificazione delle persone. |
 | Dimensione Profondità evento | Documentazione per la nuova dimensione Profondità evento, come parte delle [dimensioni standard](/help/components/dimensions/overview.md#standard-dimensions) per una visualizzazione dati. |
 | **Aprile 2025** | |
@@ -214,7 +214,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Dicembre 2022** |  |
 | 16 dicembre 2022 | Nuovo argomento sulla [gestione dell’utilizzo dei dati di Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Ottobre 2022** | |
-| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
+| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Chiavi gestite dal cliente](/help/privacy/cmk.md). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Registro di controllo di Customer Journey Analytics](/help/privacy/audit-log.md). |
 | Ottobre 2022 | Nuovo argomento sulla visualizzazione del [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=it). |

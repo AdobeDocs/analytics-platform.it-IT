@@ -2,7 +2,7 @@
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '4824'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 # Snippet
@@ -124,20 +124,20 @@ Un modello di attribuzione determina quali elementi dimensionali ricevono credit
 
 {style="table-layout:auto"}
 
-## Contenitore di attribuzione {#attribution-container}
+## Contenitore attribuzione {#attribution-container}
 
-Un contenitore di attribuzione definisce l’ambito desiderato per l’attribuzione. Le opzioni possibili sono:
+Un contenitore attribuzione definisce l’ambito desiderato per l’attribuzione. Le opzioni possibili sono:
 
 * **Sessione:** esamina fino all’inizio di una sessione che ha generato una conversione. Gli intervalli di lookback delle sessioni rispettano il [timeout della sessione](/help/data-views/create-dataview.md#session-settings) modificato in una visualizzazione dati.
-* **Persona**: esamina le conversioni dall&#39;ambito del contenitore persona.
-* **Account globale** [!BADGE B2B edition]{type=Informative}: esamina le conversioni dall&#39;ambito del contenitore degli account globali.
-* **Account** [!BADGE B2B edition]{type=Informative}: esamina le conversioni dall&#39;ambito del contenitore persona.
-* **Opportunità** [!BADGE B2B edition]{type=Informative}: esamina le conversioni dall&#39;ambito del contenitore opportunità.
-* **Gruppo di acquisto** [!BADGE B2B edition]{type=Informative}: esamina le conversioni dall&#39;ambito del contenitore del gruppo di acquisto.
+* **Persona**: esamina le conversioni nell’ambito del contenitore Persona.
+* **Account globale** [!BADGE B2B edition]{type=Informative}: esamina le conversioni nell’ambito del contenitore degli account globali.
+* **Account** [!BADGE B2B edition]{type=Informative}: esamina le conversioni nell’ambito del contenitore Persona.
+* **Opportunità** [!BADGE B2B edition]{type=Informative}: esamina le conversioni nell’ambito del contenitore Opportunità.
+* **Gruppo acquisti** [!BADGE B2B edition]{type=Informative}: esamina le conversioni nell’ambito del contenitore Gruppo acquisti.
 
-## Finestra di lookback di attribuzione {#attribution-lookback-window}
+## Intervallo di lookback di attribuzione {#attribution-lookback-window}
 
-Un intervallo di lookback di attribuzione è la quantità di tempo che una conversione deve recuperare per includere i punti di contatto. Se un elemento dimensionale è impostato all’esterno dell’intervallo di lookback, il valore non viene incluso in alcun calcolo di attribuzione.
+Per intervallo di lookback di attribuzione si intende la quantità di tempo che una conversione deve esaminare in retrospettiva per includere i punti di contatto. Se un elemento dimensionale è impostato all’esterno dell’intervallo di lookback, il valore non viene incluso in alcun calcolo di attribuzione.
 
 * **14 giorni**: esamina fino a 14 giorni precedenti dal momento in cui si è verificata la conversione.
 * **30 giorni**: esamina fino a 30 giorni precedenti dal momento in cui si è verificata la conversione.
@@ -154,20 +154,20 @@ Prendi in considerazione l’esempio seguente:
 1. Il 18 settembre, il visitatore ritorna sul tuo sito tramite un collegamento social media ricevuto da un amico. Aggiunge diversi articoli al carrello, ma non acquista nulla.
 1. Il 24 settembre, il team marketing gli invia un’e-mail con un coupon da utilizzare su alcuni degli elementi nel carrello. Applica il coupon, ma visita diversi altri siti per vedere se sono disponibili altri coupon. Ne trova un altro tramite un annuncio pubblicitario, quindi completa un acquisto dal valore di 50 $.
 
-A seconda del modello di attribuzione, a contenitore e canali viene assegnato un credito diverso. Per esempi, consulta la tabella seguente:
+A seconda del modello di attribuzione, il contenitore e i canali ricevono un credito diverso. Consulta la tabella seguente per gli esempi:
 
 | Modello | Contenitore | Intervallo di lookback | Spiegazione |
 |---|---|---|---|
-| Primo contatto | Sessione | 30 giorni | Attribution considera solo la terza visita. Tra e-mail e visualizzazione, e-mail è avvenuta prima, quindi e-mail ottiene il 100% di credito per l’acquisto di 50 €. |
-| Primo contatto | Persona | 30 giorni | Attribution esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $. |
-| Lineare | Sessione | 30 giorni | Il credito è diviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $. |
-| Lineare | Persona | 30 giorni | Il credito è diviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto. |
-| A forma di J | Persona | 30 giorni | Il credito è diviso tra ricerca a pagamento, social, e-mail e visualizzazione.<ul><li>Il 60% di credito è assegnato alla visualizzazione, per un valore di 30 $.</li><li>Il 20% di credito è assegnato alla ricerca a pagamento, per un valore di 10 $.</li><li>Il restante 20% è suddiviso tra social e e-mail, ovvero 5 $ ciascuno.</li></ul> |
+| Primo contatto | Sessione | 30 giorni | L’attribuzione esamina solo la terza visita. Tra e-mail e visualizzazione, l’e-mail è avvenuta prima, quindi l’e-mail ottiene il 100% di credito per l’acquisto di 50 $. |
+| Primo contatto | Persona | 30 giorni | L’attribuzione esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $. |
+| Lineare | Sessione | 30 giorni | Il credito è suddiviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $. |
+| Lineare | Persona | 30 giorni | Il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto. |
+| A forma di J | Persona | 30 giorni | Il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione.<ul><li>Il 60% di credito è assegnato alla visualizzazione, per un valore di 30 $.</li><li>Il 20% di credito è assegnato alla ricerca a pagamento, per un valore di 10 $.</li><li>Il restante 20% è suddiviso tra social e e-mail, ovvero 5 $ ciascuno.</li></ul> |
 | Decadimento nel tempo | Persona | 30 giorni | <ul><li>Intervallo di 0 giorni tra il punto di contatto visualizzazione e la conversione. `2^(-0/7) = 1`</li><li>Intervallo di 0 giorni tra il punto di contatto e-mail e la conversione. `2^(-0/7) = 1`</li><li>Intervallo di 6 giorni tra il punto di contatto social e la conversione. `2^(-6/7) = 0.552`</li><li>Intervallo di 9 giorni tra il punto di contatto ricerca a pagamento e la conversione. `2^(-9/7) = 0.41`</li>La normalizzazione di questi valori determina quanto segue:<ul><li>Visualizzazione: 33,8%, ovvero 16,88 $</li><li>E-mail: 33,8% ovvero 16,88 $</li><li>Social: 18,6%, ovvero 9,32 $</li><li>Ricerca a pagamento: 13,8%, ovvero 6,92 $</li></ul></li></ul> |
 
 Gli eventi di conversione che in genere hanno numeri interi vengono suddivisi se il credito appartiene a più di un canale. Ad esempio, se due canali contribuiscono a un ordine utilizzando un modello di attribuzione lineare, entrambi i canali ottengono lo 0,5 di tale ordine. Queste metriche parziali vengono sommate tra tutte le persone, quindi arrotondate al numero intero più vicino per la generazione del rapporto.
 
-[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Utilizza contenitori B2B specifici, come Account o Opportunità, e intervalli di lookback più appropriati (fino a 13 mesi) per applicare modelli di attribuzione superiori in scenari B2B tipici.
+[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} utilizza contenitori B2B specifici, come Account o Opportunità, e intervalli di lookback più appropriati (fino a 13 mesi) per applicare i modelli di attribuzione precedenti in scenari B2B tipici.
 
 ## Visualizzazioni dei percorsi a confronto {#journey-visualization-comparisons}
 
@@ -236,7 +236,7 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 | Impostazione | Descrizione |
 |---|---|
 | **[!UICONTROL Import new data]** | Attiva questa opzione se desideri stabilire una connessione continua. Con una connessione continua, i nuovi batch di dati aggiunti ai set di dati sono disponibili automaticamente in Workspace. |
-| **[!UICONTROL Dataset backfill]** | Abilita **[!UICONTROL Backfill all existing data]** per garantire la retrocompilazione di tutti i dati esistenti.<br/><br/>Seleziona **[!UICONTROL Request backfill]** per eseguire la retrocompilazione dei dati storici per un periodo specifico. Puoi definire fino a 10 periodi di retrocompilazione dei set di dati.<ol><li>Definisci il periodo immettendo i dati di inizio e fine o selezionando le date utilizzando il ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>Seleziona **[!UICONTROL Queue backfill]** per aggiungere la retrocompilazione all’elenco, oppure **[!UICONTROL Cancel]** per annullare.</li></ol>Per ogni voce, seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) per modificare il periodo oppure ![Elimina](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) per eliminare la voce.<br/><br/>Informazioni sulle retrocompilazioni:<ul><li>È possibile eseguire la retrocompilazione di ogni set di dati singolarmente.</li><li>Dai priorità ai nuovi dati aggiunti a un set di dati nella connessione in modo che questi dati abbiano la latenza più bassa.</li><li>Eventuali dati di retrocompilazione (storici) vengono importati a una velocità più bassa. La quantità di dati storici influenza la latenza.</li><li>Il connettore origine di Analytics importa fino a 13 mesi di dati (indipendentemente dalle dimensioni) per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a 3 mesi.</li><li>Per le sandbox di produzione, se hai concesso in licenza lo SKU aggiuntivo che ti autorizza a importare più di 13 mesi di dati di backfill storici, contatta Adobe per richiedere la backfill estesa.</li></ul> |
+| **[!UICONTROL Dataset backfill]** | Abilita **[!UICONTROL Backfill all existing data]** per garantire la retrocompilazione di tutti i dati esistenti.<br/><br/>Seleziona **[!UICONTROL Request backfill]** per eseguire la retrocompilazione dei dati storici per un periodo specifico. Puoi definire fino a 10 periodi di retrocompilazione dei set di dati.<ol><li>Definisci il periodo immettendo i dati di inizio e fine o selezionando le date utilizzando il ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>Seleziona **[!UICONTROL Queue backfill]** per aggiungere la retrocompilazione all’elenco, oppure **[!UICONTROL Cancel]** per annullare.</li></ol>Per ogni voce, seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) per modificare il periodo oppure ![Elimina](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) per eliminare la voce.<br/><br/>Informazioni sulle retrocompilazioni:<ul><li>È possibile eseguire la retrocompilazione di ogni set di dati singolarmente.</li><li>Dai priorità ai nuovi dati aggiunti a un set di dati nella connessione in modo che questi dati abbiano la latenza più bassa.</li><li>Eventuali dati di retrocompilazione (storici) vengono importati a una velocità più bassa. La quantità di dati storici influenza la latenza.</li><li>Il connettore origine di Analytics importa fino a 13 mesi di dati (indipendentemente dalle dimensioni) per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a 3 mesi.</li><li>Per le sandbox di produzione, se disponi della licenza SKU aggiuntiva che ti autorizza a importare più di 13 mesi di dati storici di retrocompilazione, contatta Adobe per richiedere la retrocompilazione estesa.</li></ul> |
 | **[!UICONTROL Batch status]** | Gli indicatori di stato possibili sono:<ul><li>Success (Operazione riuscita)</li><li>X backfill(s) processing (Elaborazione di X retrocompilazioni)</li><li>Off</li></ul> |
 | **[!UICONTROL Dataset ID]** | Questo ID viene generato automaticamente. |
 | **[!UICONTROL Description]** | Descrizione fornita per questo set di dati al momento della sua creazione. |

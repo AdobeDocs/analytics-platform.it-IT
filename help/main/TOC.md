@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: a3442e4cbb949228213a606b87ff65c8c562895b
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 + [Guida di Adobe Customer Journey Analytics](../getting-started/cja-landing.md)
 
 + Note sulla versione {#releases}
-   + [Ultima versione di Customer Journey Analytics](../release-notes/latest.md)
+   + [Note sulla versione più recente di Customer Journey Analytics](../release-notes/latest.md)
    + [Note pre-release di Customer Journey Analytics](../release-notes/pre-release-notes.md)
    + [Versioni del 2025](../release-notes/2025.md)
    + [Versioni del 2024](../release-notes/2024.md)
@@ -398,9 +398,9 @@ ht-degree: 96%
    + [Utilizzare i segmenti](../report-builder/work-with-filters.md)
    + [Filtrare le dimensioni](../report-builder/filter-dimensions.md)
    + [Gestire i blocchi di dati](../report-builder/manage-reportbuilder.md)
-   + [Pianificazione delle cartelle di lavoro per l&#39;e-mail](../report-builder/schedule-reportbuilder.md)
+   + [Pianificare le cartelle di lavoro per l’e-mail](../report-builder/schedule-reportbuilder.md)
    + [Pianificare le cartelle di lavoro per le esportazioni cloud](../report-builder/report-builder-export.md)
-   + [Gestisci pianificazioni cartelle di lavoro](/help/report-builder/manage-schedules-reportbuilder.md)
+   + [Gestire le pianificazioni delle cartelle di lavoro](/help/report-builder/manage-schedules-reportbuilder.md)
    + [Etichette limitate](../report-builder/restricted-labels.md)
    + [Impostazioni di Report Builder](../report-builder/report-builder-settings.md)
 
