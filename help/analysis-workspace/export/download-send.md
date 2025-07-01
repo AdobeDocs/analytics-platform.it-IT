@@ -39,7 +39,7 @@ Per scaricare un progetto come file PDF:
 Viene visualizzata una barra verde con il messaggio ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Your download has been requested. Please wait.]**.
 
 1. Non appena il download è pronto, una barra verde con il messaggio ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *Nome del progetto *PDF è pronta.]**.
-Selezionare**[!UICONTROL Download]**per scaricare il PDF. Il modo in cui PDF viene presentato o scaricato dipende dalla configurazione del browser in uso per la gestione dei documenti PDF.
+Selezionare&#x200B;**[!UICONTROL Download]**&#x200B;per scaricare il PDF. Il modo in cui PDF viene presentato o scaricato dipende dalla configurazione del browser in uso per la gestione dei documenti PDF.
 
 
 Per scaricare un progetto come file CSV:
@@ -107,8 +107,8 @@ Al file scaricato vengono applicate le seguenti funzioni di una tabella a forma 
 
 Durante il download del file vengono visualizzate le notifiche seguenti:
 
-* È stato richiesto un **[!UICONTROL _nome tabella _blu -_Dimension _.csv._x _% completato]**che indica l&#39;avanzamento. Per annullare il download, selezionare **[!UICONTROL Cancel download]**. Selezionare ![CrossSize100](/help/assets/icons/CrossSize100.svg) se si desidera chiudere il messaggio senza annullare il download.
-* Una notifica di completamento verde **[!UICONTROL _Nome tabella _-_Dimension _.csv è stato scaricato]**una volta completato il download del file. Il file viene scaricato nella cartella dei download configurata per il browser.
+* È stato richiesto un **[!UICONTROL _nome tabella _blu -_Dimension _.csv._x _% completato]**&#x200B;che indica l&#39;avanzamento. Per annullare il download, selezionare **[!UICONTROL Cancel download]**. Selezionare ![CrossSize100](/help/assets/icons/CrossSize100.svg) se si desidera chiudere il messaggio senza annullare il download.
+* Una notifica di completamento verde **[!UICONTROL _Nome tabella _-_Dimension _.csv è stato scaricato]**&#x200B;una volta completato il download del file. Il file viene scaricato nella cartella dei download configurata per il browser.
 
 Se richiedi più di un download alla volta, ricevi una notifica che indica che ogni download aggiuntivo è in coda fino al completamento del download precedente.
 
