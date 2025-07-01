@@ -4,7 +4,7 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
+source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
 workflow-type: tm+mt
 source-wordcount: '5235'
 ht-degree: 98%
@@ -148,7 +148,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Agosto 2023** | |
 | Pannello Tempo trascorso su contenuti multimediali | Il contenuto sul  [pannello Tempo trascorso su contenuti multimediali](/help/analysis-workspace/c-panels/media-playback-time-spent.md) è stato aggiornato al fine di migliorarne la leggibilità. |
 | Miglioramenti a Report Builder | È stato aggiornato il contenuto di [Pianificare le cartelle di lavoro](/help/report-builder/schedule-reportbuilder.md) che ora fornisce informazioni per il download delle attività pianificate. È stato aggiornato il contenuto di [Creare un blocco di dati](/help/report-builder/create-a-data-block.md) che ora fornisce informazioni sull’utilizzo della data di inizio come dimensione. |
-| Contenuti spostati riguardanti la gestione di progetti pianificati | È stato creato un nuovo articolo nella Guida ai componenti di Analytics denominato [Progetti pianificati](/help/components/scheduled-projects-manager.md). Questo contenuto si trovava in precedenza nell’articolo [Pianificare i progetti](/help/analysis-workspace/curate-share/t-schedule-report.md) nella Guida agli strumenti di Analytics. |
+| Contenuti spostati riguardanti la gestione di progetti pianificati | È stato creato un nuovo articolo nella Guida ai componenti di Analytics denominato [Progetti pianificati](/help/components/scheduled-projects-manager.md). Questo contenuto si trovava in precedenza nell’articolo [Pianificare i progetti](/help/analysis-workspace/export/t-schedule-report.md) nella Guida agli strumenti di Analytics. |
 | Supporto delle funzioni di Adobe Customer Journey Analytics | Sono state aggiunte ulteriori informazioni nella tabella *Supportato in un nuovo modo* sulle funzionalità di sessionizzazione in Customer Journey Analytics rispetto ad Adobe Analytics. [Ulteriori informazioni](../getting-started/aa-vs-cja/cja-aa.md#supported-in-a-new-way) |
 | Evoluzione da Adobe Analytics | Aggiornamento della sezione *(Ri-)Classificazione dei canali di marketing* con un riferimento al modello di funzione Campi derivati nei canali di marketing. [Ulteriori informazioni](../getting-started/aa-to-cja.md#3-reconfigure-your-marketing-channels) |
 | Guide rapide all’acquisizione dei dati per applicazioni mobili e altre piattaforme | Sono state aggiunte ulteriori guide introduttive sull’acquisizione dei dati che descrivono come acquisire e utilizzare in Customer Journey Analytics i dati provenienti da applicazioni mobili o altre piattaforme (come applicazioni desktop, giochi su console, applicazioni su set top box e dispositivi IoT). [Ulteriori informazioni](../data-ingestion/data-ingestion.md) |
@@ -214,7 +214,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Dicembre 2022** |  |
 | 16 dicembre 2022 | Nuovo argomento sulla [gestione dell’utilizzo dei dati di Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Ottobre 2022** | |
-| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=it#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
+| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Chiavi gestite dal cliente](/help/privacy/cmk.md). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Registro di controllo di Customer Journey Analytics](/help/privacy/audit-log.md). |
 | Ottobre 2022 | Nuovo argomento sulla visualizzazione del [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=it). |
@@ -293,7 +293,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Aprile 2021 | Nuova documentazione sul supporto dei progetti pianificati in Workspace. |
 | Aprile 2021 | Nuovi argomenti sull’[esperienza Visualizzazione dati migliorata](/help/data-views/data-views.md). |
 | Aprile 2021 | Nuovi argomenti relativi all’[acquisizione di dati Google Analytics](/help/use-cases/third-party/ga/overview.md) e all’[analisi di tali dati](/help/use-cases/third-party/ga/report.md). |
-| Aprile 2021 | È stato aggiunto un argomento sui [rapporti pianificati](/help/analysis-workspace/curate-share/t-schedule-report.md) in Workspace. |
+| Aprile 2021 | È stato aggiunto un argomento sui [rapporti pianificati](/help/analysis-workspace/export/t-schedule-report.md) in Workspace. |
 | Aprile 2021 | Nuovo argomento sulle [dimensioni a cardinalità elevata in Customer Journey Analytics](/help/components/dimensions/high-cardinality.md). |
 | **Marzo 2021** | |
 | Marzo 2021 | È stato aggiunto un argomento sul supporto per i [dashboard di Analytics](/help/mobile-app/home.md) (app mobile). |

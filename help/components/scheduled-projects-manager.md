@@ -4,7 +4,7 @@ title: Metriche
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
+source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 39%
@@ -44,7 +44,7 @@ Nell&#39;elenco Progetti pianificati ➊ sono visualizzate le colonne per:
 
 Cerca un progetto pianificato utilizzando ![Ricerca](/help/assets/icons/Search.svg). Puoi anche vedere se sono stati applicati filtri dal pannello Filtri. Per rimuovere un filtro, selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per un filtro. Per rimuovere tutti i filtri, selezionare **[!UICONTROL Clear all]**.
 
-Per modificare un progetto pianificato, seleziona il titolo del progetto. Utilizza la finestra di dialogo **[!UICONTROL Edit scheduled project]** per aggiornare i dettagli della pianificazione. Vedi [Invia file ad altri](../analysis-workspace/curate-share/t-schedule-report.md) per ulteriori dettagli.
+Per modificare un progetto pianificato, seleziona il titolo del progetto. Utilizza la finestra di dialogo **[!UICONTROL Edit scheduled project]** per aggiornare i dettagli della pianificazione. Vedi [Invia file ad altri](../analysis-workspace/export/t-schedule-report.md) per ulteriori dettagli.
 
 ![Modifica progetto pianificato](assets/edit-scheduled-project.png)
 
