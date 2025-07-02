@@ -7,7 +7,7 @@ exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
 source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 82%
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="Dizionario dei dati"
->abstract="Il dizionario dati consente sia agli utenti che agli amministratori di tenere traccia dei componenti del proprio ambiente Customer Journey Analytics e di comprenderli meglio. <br/>Gli amministratori di Customer Journey Analytics sono responsabili della cura delle informazioni su ciascun componente nel dizionario dati."
+>abstract="Il Dizionario dei dati aiuta utenti e amministratori a comprendere meglio i componenti nell’ambiente di Customer Journey Analytics e a tenerne traccia. <br/>Gli amministratori di Customer Journey Analytics sono responsabili della cura delle informazioni su ciascun componente nel dizionario dei dati."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,7 +30,7 @@ Gli amministratori di Analytics sono responsabili della cura delle informazioni 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dati per Analysis Workspace](https://video.tv.adobe.com/v/3422283/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dati per Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
