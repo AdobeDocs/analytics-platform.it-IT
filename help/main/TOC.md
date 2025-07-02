@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: a3442e4cbb949228213a606b87ff65c8c562895b
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 98%
+source-wordcount: '1248'
+ht-degree: 97%
 
 ---
 
@@ -248,10 +248,10 @@ ht-degree: 98%
       + [Condividere progetti](../analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](../analysis-workspace/curate-share/shareable-links.md)
       + [Progetti di sola lettura](../analysis-workspace/curate-share/view-only-projects.md)
-      + [Invio e pianificazione](../analysis-workspace/export/t-schedule-report.md)
    + Esportare {#export}
       + [Panoramica](../analysis-workspace/export/export-project-overview.md)
       + [Scaricare](../analysis-workspace/export/download-send.md)
+      + [Invio e pianificazione](../analysis-workspace/export/t-schedule-report.md)
       + [Esportare nel cloud](../analysis-workspace/export/export-cloud.md)
    + Rilevamento delle anomalie {#anomaly-detection}
       + [Panoramica](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
@@ -264,7 +264,8 @@ ht-degree: 98%
    + [Preferenze utente](../analysis-workspace/user-preferences.md)
    + Domande frequenti su Workspace e altro {#workspace-faq}
       + [Domande frequenti](../analysis-workspace/workspace-faq/faq.md)
-      + [Messaggi di errore](../analysis-workspace/workspace-faq/error-messages.md)
+      + [Ottimizzare le prestazioni](../analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [Errore e risoluzione dei problemi](../analysis-workspace/workspace-faq/error-messages.md)
       + [Limitazioni](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisiti di amministrazione](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accessibilità](../analysis-workspace/workspace-faq/aw-accessibility.md)
@@ -306,21 +307,20 @@ ht-degree: 98%
 
 + Componenti {#cja-components}
    + [Panoramica](../components/overview.md)
-   + [Utilizzare i componenti in Analysis Workspace](../components/use-components-in-workspace.md)
+   + [Utilizzare i componenti](../components/use-components-in-workspace.md)
    + [Aggiungere descrizioni dei componenti](../components/add-component-descriptions.md)
    + Annotazioni {#annotations}
-      + [Panoramica sulle annotazioni](../components/annotations/overview.md)
+      + [Panoramica](../components/annotations/overview.md)
       + [Creare annotazioni](../components/annotations/create-annotations.md)
       + [Gestire le annotazioni](../components/annotations/manage-annotations.md)
       + [Visualizzare le annotazioni](../components/annotations/view-annotations.md)
-      + [Annotazioni per dispositivi mobili](../components/annotations/mobile-annotations.md)
-   + [Progetti pianificati](../components/scheduled-projects-manager.md)
+      + [Annotazioni delle scorecard per dispositivi mobili](../components/annotations/mobile-annotations.md)
    + Tipi di pubblico {#audiences}
       + [Panoramica dei tipi di pubblico](../components/audiences/audiences-overview.md)
       + [Creare e pubblicare tipi di pubblico](../components/audiences/publish.md)
       + [Gestire i tipi di pubblico](../components/audiences/manage.md)
    + Dimensioni {#dimensions}
-      + [Panoramica delle dimensioni](../components/dimensions/overview.md)
+      + [Panoramica](../components/dimensions/overview.md)
       + [Anteprima dimensioni](../components/dimensions/view-dimensions.md)
       + [Suddividere dimensioni](../components/dimensions/t-breakdown-fa.md)
       + [Suddividere le dimensioni in base al tempo](../components/dimensions/time-parting-dimensions.md)
@@ -343,7 +343,7 @@ ht-degree: 98%
       + [Utilizzare i segmenti](/help/components/segments/seg-use.md)
    + Metriche calcolate {#cja-calcmetrics}
       + [Panoramica](../components/calc-metrics/calc-metr-overview.md)
-      + Flusso di lavoro per le metriche calcolate {#cm-workflow}
+      + Flusso di lavoro {#cm-workflow}
          + [Creare metriche calcolate](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [Generare metriche calcolate](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Trovare metriche](../components/calc-metrics/cm-workflow/cm-finding.md)
@@ -387,6 +387,7 @@ ht-degree: 98%
       + [Visualizzare le informazioni sui componenti nel dizionario dati](../components/data-dictionary/view-data-dictionary.md)
       + [Modificare le voci dei componenti nel dizionario dati](../components/data-dictionary/edit-entries-data-dictionary.md)
       + [Monitorare l’integrità del dizionario dati](../components/data-dictionary/monitor-data-dictionary-health.md)
+   + [Progetti pianificati](../components/scheduled-projects-manager.md)
 
 + Report Builder {#cja-reportbuilder}
    + [Panoramica](../report-builder/rb-overview.md)

@@ -1,13 +1,13 @@
 ---
-description: Funzioni di supporto per l’accessibilità in Analysis Workspace
-title: Accessibilità di Analysis Workspace
+description: Scopri le funzioni di supporto per l’accessibilità di Analysis Workspace.
+title: Accessibilità In Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
-source-git-commit: dca8b99dad97e939e8021a681cb21ab14ca1ff87
+source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Per accessibilità si intendono i prodotti utilizzabili da persone affette da di
 La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il basso e da sinistra a destra. I seguenti elementi di navigazione facilitano l’accessibilità:
 
 * Il tasto **[!UICONTROL Tab]** consente di utilizzare scelte rapide per punti di riferimento e di spostarsi tra sezioni più grandi all’interno di Workspace. Nel pannello a sinistra, **[!UICONTROL Tab]** consente anche di passare da un’opzione trascinabile alla successiva.
-* Le ◀︎ e ▶︎ consentono di spostarsi tra i singoli elementi dopo che il tasto **[!UICONTROL Tab]** ha evidenziato un elemento.
+* ◀︎ e ▶︎ spostano tra i singoli elementi dopo che la chiave **[!UICONTROL Tab]** ha evidenziato un elemento.
 * Il tasto **[!UICONTROL F6]** consente di passare al primo pannello del progetto e di spostarsi tra le visualizzazioni all’interno di tale pannello. Quindi, consente di passare al pannello successivo del progetto e così via.
 * Gli indicatori di attivazione vengono applicati in modo che gli utenti vedenti che utilizzano la tastiera abbiano un’indicazione chiara dell’elemento dell’interfaccia utente attualmente attivo. L’indicatore è un bordo blu per il pannello attivo. E lo sfondo grigio per la funzionalità selezionata di recente e la selezione all’interno della funzionalità. Nell’esempio, i [!UICONTROL Components] e la dimensione Pagina sono stati selezionati di recente.
 
@@ -74,4 +74,4 @@ Quando crei un componente, una visualizzazione o un pannello, i campi obbligator
 
 ## Supporto per le funzioni di accessibilità del sistema operativo
 
-Analysis Workspace supporta funzioni integrate di accessibilità di Windows e macOS come modalità ad alto contrasto, tasti permanenti e tasti lenti o filtro tasti. Fornisce inoltre informazioni sull’interfaccia utente del sistema operativo per consentire l’interazione con le tecnologie di assistenza, compresi gli assistenti vocali come VoiceOver per macOS e NVDA su Windows.
+Analysis Workspace supporta funzioni incorporate di accessibilità di Windows e macOS come modalità ad alto contrasto, tasti permanenti e tasti lenti o filtro tasti. Fornisce inoltre informazioni sull’interfaccia utente del sistema operativo per consentire l’interazione con le tecnologie di assistenza, compresi gli assistenti vocali come VoiceOver per macOS e NVDA su Windows.

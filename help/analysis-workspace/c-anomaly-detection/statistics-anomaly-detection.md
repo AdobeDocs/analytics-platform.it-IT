@@ -1,17 +1,17 @@
 ---
-description: Il rilevamento delle anomalie in Analysis Workspace utilizza una serie di tecniche di statistica avanzate per determinare se un’osservazione debba essere considerata come anomalia o meno.
-title: Tecniche di statistica utilizzate nel rilevamento delle anomalie
+description: Scopri come identificare le anomalie statistiche con le tecniche di rilevamento delle anomalie.
+title: Tecniche Di Statistica Utilizzate Nel Rilevamento Delle Anomalie
 feature: Anomaly Detection
 exl-id: 7165e7a1-a04f-450e-bffd-e329adac6903
 role: User
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+source-git-commit: f3c9a000ae5baa19cb5a6cf0e0343de3a9685b56
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 92%
+source-wordcount: '800'
+ht-degree: 67%
 
 ---
 
-# Tecniche di statistica utilizzate nel rilevamento delle anomalie
+# Tecniche statistiche
 
 Il rilevamento delle anomalie in Analysis Workspace utilizza una serie di tecniche di statistica avanzate per determinare se un’osservazione debba essere considerata come anomalia o meno.
 
@@ -19,9 +19,9 @@ A seconda della granularità della data applicata al rapporto, vengono usate 3 d
 
 ## Rilevamento delle anomalie con granularità giornaliera
 
-Per i report con granularità giornaliera, l’algoritmo considera diversi fattori importanti per fornire risultati quanto più precisi possibile. Innanzitutto, l’algoritmo determina il tipo di modello da applicare in base ai dati disponibili di cui selezioniamo una delle due classi: un modello basato su serie temporali o un modello di rilevamento di valori aberranti (segmentazione funzionale).
+Per i report con granularità giornaliera, l’algoritmo considera diversi fattori importanti per fornire risultati quanto più precisi possibile. In primo luogo, l’algoritmo determina il tipo di modello da applicare in base ai dati disponibili di cui seleziona una delle due classi: un modello basato su serie temporali o un modello di rilevamento di valori aberranti (segmentazione funzionale).
 
-Il primo si basa sulle seguenti combinazioni per tipo di errore, tendenza e stagionalità (ETS) come descritto da [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). Nello specifico, l’algoritmo prova le seguenti combinazioni:
+Il primo si basa sulle seguenti combinazioni per tipo di errore, tendenza e stagionalità (ETS) come descritto da [Hyndman et al. (2008)](https://idp.springer.com/authorize?response_type=cookie&client_id=springerlink&redirect_uri=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-540-71918-2). Nello specifico, l’algoritmo prova le seguenti combinazioni:
 
 1. ANA (errore additivo, nessuna tendenza, stagionalità additiva)
 1. AAA (errore additivo, tendenza additiva, stagionalità additiva)
@@ -29,7 +29,7 @@ Il primo si basa sulle seguenti combinazioni per tipo di errore, tendenza e stag
 1. MNA (errore moltiplicativo, nessuna tendenza, stagionalità additiva)
 1. AAN (errore additivo, tendenza additiva, nessuna stagionalità)
 
-L’algoritmo verifica quale di queste combinazioni è la più adatta selezionando quella con il miglior valore di errore medio assoluto percentuale (MAPE, Mean Absolute Percentage Error). Tuttavia, se il MAPE del modello di serie temporali migliore è superiore al 15%, viene applicata la segmentazione funzionale. Solitamente, per i dati altamente ripetitivi (ad esempio, di settimana in settima o di mese in mese) risulta più adatto il modello di serie temporale.
+L’algoritmo verifica l’idoneità di ciascuna di queste combinazioni selezionando quella con il miglior errore percentuale assoluto medio (MAPE). Tuttavia, se il MAPE del modello di serie temporali migliore è superiore al 15%, viene applicata la segmentazione funzionale. In genere, i dati con un elevato grado di ripetizione (ad esempio, settimana su settimana o mese su mese) sono i più adatti a un modello di serie temporali.
 
 Dopo la selezione del modello, l’algoritmo regola i risultati in base a festività e stagionalità anno su anno. Per le festività, l’algoritmo verifica la presenza delle seguenti festività nell’intervallo di date del rapporto:
 
@@ -42,11 +42,11 @@ Dopo la selezione del modello, l’algoritmo regola i risultati in base a festiv
 * Gennaio 1
 * Dicembre 31
 
-Queste festività sono state scelte da un’estesa analisi statistica su numerosi punti di dati di clienti, per individuare le ricorrenze più significative per la maggior parte delle tendenze relative ai clienti. Non è certo un elenco completo per tutti i clienti o cicli di business, ma l’applicazione di queste festività migliora notevolmente le prestazioni complessive dell’algoritmo per quasi tutti i set di dati dei clienti.
+Queste festività sono state scelte da un’estesa analisi statistica su numerosi punti di dati di clienti, per individuare le ricorrenze più significative per la maggior parte delle tendenze relative ai clienti. Anche se l’elenco non è certamente esaustivo per tutti i clienti o cicli di business, l’applicazione delle festività migliora notevolmente le prestazioni complessive dell’algoritmo per quasi tutti i set di dati dei clienti.
 
 Dopo aver selezionato il modello e individuato le festività nell’intervallo di date del rapporto, l’algoritmo procede come descritto di seguito:
 
-1. Genera il periodo di riferimento per le anomalie. Questo comprende fino a 35 giorni prima dell’intervallo di date del rapporto e un intervallo corrispondente di 1 anno prima (tenendo conto di eventuali anni bisestili e delle festività applicabili cadute in giorni diversi).
+1. Costruire il periodo di riferimento delle anomalie. Questo periodo di riferimento per le anomalie include fino a 35 giorni prima dell’intervallo di date del rapporto e un intervallo corrispondente di 1 anno prima. Conto per i giorni bisestili quando necessario e comprensivo di eventuali festività applicabili che possono essersi verificate in un giorno di calendario diverso nell’anno precedente.
 1. Verifica se le festività nel periodo corrente (escludendo l’anno precedente) sono anomale in base ai dati più recenti.
 1. Se la festività nell’intervallo di date corrente è anomala, regola il valore previsto e l’intervallo di affidabilità della festività corrente data la festività corrispondente dell’anno prima (considerando 2 giorni prima e dopo). La correzione per la festività corrente si basa sul valore MAPE più basso di:
 
@@ -66,9 +66,9 @@ Le finestre di formazione per le tendenze orarie si basano su una finestra di lo
 
 ## Rilevamento delle anomalie con granularità settimanale e mensile
 
-Le tendenze settimanali e mensili non presentano le stesse tendenze settimanali o giornaliere riscontrate con granularità giornaliera o oraria; per questo motivo viene utilizzato un algoritmo distinto. Per la granularità settimanale e mensile, viene usato un approccio di rilevamento dati aberranti in due fasi: il test Generalized Extreme Studentized Deviate (GESD). Questo test considera il numero massimo di anomalie previste combinato con l’approccio di tipo diagramma a scatola regolato (metodo non parametrico per il rilevamento di dati aberranti) per determinare il numero massimo di dati aberranti. Le due fasi sono:
+Le tendenze settimanali e mensili non presentano le stesse tendenze settimanali o giornaliere riscontrate con granularità giornaliera o oraria; per questo motivo viene utilizzato un algoritmo distinto. Ogni settimana e ogni mese, un approccio di rilevamento dei valori anomali in due fasi è noto come test GESD (Generalized Extreme Studentized Deviate). Questo test considera il numero massimo di anomalie previste combinato con l’approccio di tipo diagramma a scatola regolato (metodo non parametrico per il rilevamento di dati aberranti) per determinare il numero massimo di dati aberranti. Le due fasi sono:
 
 1. Funzione box-plot ponderata: determina il numero massimo di anomalie per i dati di input.
 1. Funzione GESD: applicata ai dati di input con il risultato della prima fase.
 
-La fase di rilevamento delle anomalie stagionali per festività e anno su anno quindi sottrae i dati dell’anno precedente da quelli correnti. Applica quindi ai dati il processo in due fasi descritto qui sopra per verificare che le anomalie sono appropriate in base alla stagionalità. Ognuna di queste granularità di date usa un periodo di lookback di 15 mesi o settimane che comprende l’intervallo di date selezionato per il rapporto e un intervallo di date corrispondente di un anno prima, a scopo di formazione.
+La fase di rilevamento delle anomalie stagionali per festività e anno su anno quindi sottrae i dati dell’anno scorso da quelli di quest’anno. Quindi esegue di nuovo l’iterazione dei dati utilizzando il processo in due fasi descritto sopra per verificare che le anomalie siano appropriate in base alla stagionalità. Ognuna di queste granularità di date usa un periodo di lookback di 15 mesi o settimane che comprende l’intervallo di date selezionato per il rapporto e un intervallo di date corrispondente di un anno prima, a scopo di formazione.

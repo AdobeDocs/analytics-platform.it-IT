@@ -1,13 +1,13 @@
 ---
-description: Gli avvisi consentono un controllo granulare sulle notifiche e un’integrazione con il rilevamento delle anomalie.
-title: Panoramica sugli avvisi
+description: Scopri come utilizzare gli avvisi per consentire un controllo granulare sulle notifiche e l’integrazione con il rilevamento delle anomalie.
+title: Panoramica degli avvisi
 feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
-source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
-workflow-type: ht
-source-wordcount: '352'
-ht-degree: 100%
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 94%
 
 ---
 

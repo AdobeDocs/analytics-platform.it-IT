@@ -1,13 +1,13 @@
 ---
-title: Panoramica degli intervalli di date
-description: Scopri cosa sono gli intervalli di date e come utilizzarli nel reporting.
+description: Utilizza il calendario e gli intervalli di dati per specificare intervalli di date in Analysis Workspace.
+title: Panoramica sugli intervalli di date
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
-source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
-workflow-type: ht
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ I componenti intervallo di date consentono di definire e sovrascrivere le impost
 
 +++ View a video illustrating use of calendar and date ranges
 
->[!VIDEO](https://video.tv.adobe.com/v/329388?format=jpeg&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/24136?format=jpeg)
 
 {{videoaa}}
 +++

@@ -1,21 +1,21 @@
 ---
-description: È possibile suddividere dimensioni ed elementi dimensionali in Analysis Workspace.
+description: Scopri come suddividere dimensioni ed elementi dimensionali in Analysis Workspace.
 keywords: Analysis Workspace
 title: Suddividere dimensioni
 feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 49%
+source-wordcount: '547'
+ht-degree: 46%
 
 ---
 
-# Suddividere dimensioni in Workspace
+# Suddividere dimensioni
 
-Puoi suddividere i dati in modalità illimitata in base alle tue esigenze specifiche; puoi creare query utilizzando metriche, dimensioni, segmenti, linee temporali e altri valori di suddivisione dell’analisi pertinenti.
+Puoi suddividere i dati in Analysis Workspace in modo illimitato in base alle tue esigenze specifiche; puoi creare query utilizzando metriche, dimensioni, segmenti, linee temporali e altri valori di suddivisione dell’analisi pertinenti.
 
 1. In una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) selezionare **[!UICONTROL Breakdown]** ![ChevronRight](/help/assets/icons/ChevronRight.svg) dal menu di scelta rapida di una o più righe selezionate.
 
@@ -53,7 +53,7 @@ Questo è il comportamento previsto quando si applicano modelli di attribuzione 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension in Analysis Workspace](https://video.tv.adobe.com/v/329873?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension in Analysis Workspace](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -71,7 +71,7 @@ Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheck
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di dimensioni e metriche](https://video.tv.adobe.com/v/35905?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di dimensioni e metriche](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 {{videoaa}}
 
@@ -80,7 +80,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo delle dimensioni in una tabella a forma libera](https://video.tv.adobe.com/v/328588?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo delle dimensioni in una tabella a forma libera](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 

@@ -1,13 +1,13 @@
 ---
-description: Scopri i messaggi di errore e come risolvere i problemi in Adobe Analysis Workspace
-title: Errori comuni e risoluzione dei problemi in Analysis Workspace
+description: Scopri gli errori e la risoluzione dei problemi di Analysis Workspace.
+title: Errori Nella Risoluzione Dei Problemi In Analysis Workspace
 feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
-workflow-type: ht
-source-wordcount: '506'
-ht-degree: 100%
+source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 97%
 
 ---
 
