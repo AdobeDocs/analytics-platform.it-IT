@@ -32,7 +32,7 @@ Nei set di dati come Adobe Analytics, è possibile che un’identità non esista
 
 ### Allineare le variabili
 
-Il metodo più semplice per trasformare i dati da Adobe Analytics a Customer Journey Analytics consiste nell’acquisire una [suite di rapporti globale](https://experienceleague.adobe.com/en/docs/analytics/implementation/prepare/global-rs) in Experience Platform utilizzando il [connettore di origine di Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). Questo connettore mappa le variabili di Adobe Analytics direttamente su un set di dati e uno schema XDM in Experience Platform, che a sua volta può essere facilmente connesso a Customer Journey Analytics.
+Il metodo più semplice per trasformare i dati da Adobe Analytics a Customer Journey Analytics consiste nell’acquisire una [suite di rapporti globale](https://experienceleague.adobe.com/it/docs/analytics/implementation/prepare/global-rs) in Experience Platform utilizzando il [connettore di origine di Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). Questo connettore mappa le variabili di Adobe Analytics direttamente su un set di dati e uno schema XDM in Experience Platform, che a sua volta può essere facilmente connesso a Customer Journey Analytics.
 
 A seconda dell’implementazione, l’utilizzo di una suite di rapporti globale completa potrebbe non essere sempre fattibile. Se intendi portare in Customer Journey Analytics più suite di rapporti, puoi scegliere tra 2 approcci:
 
@@ -52,7 +52,7 @@ Le impostazioni tradizionali del canale di marketing Adobe Analytics non funzion
 
 * la natura di Customer Journey Analytics in termini di momento del rapporto
 
-Adobe ha pubblicato [best practice aggiornate per l’implementazione del canale di marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/mchannel-best-practices). Questi consigli aggiornati consentono di sfruttare al massimo le funzionalità già presenti in Adobe Analytics con funzioni di attribuzione avanzate. I consigli consentono inoltre di svolgere con successo la transizione a Customer Journey Analytics.
+Adobe ha pubblicato [best practice aggiornate per l’implementazione del canale di marketing](https://experienceleague.adobe.com/it/docs/analytics/components/marketing-channels/mchannel-best-practices). Questi consigli aggiornati consentono di sfruttare al massimo le funzionalità già presenti in Adobe Analytics con funzioni di attribuzione avanzate. I consigli consentono inoltre di svolgere con successo la transizione a Customer Journey Analytics.
 
 Con l’introduzione dei [Campi derivati](../data-views/derived-fields/derived-fields.md) come parte delle visualizzazioni dati di Customer Journey Analytics, i canali di marketing sono supportati anche in modo non irreversibile e retroattivo grazie all’utilizzo del [modello di funzione Canale di marketing](../data-views/derived-fields/derived-fields.md#function-templates).
 
@@ -66,7 +66,7 @@ Il reporting in Adobe Analytics si basa su una quantità significativa di pre-el
 
 [!UICONTROL Report time processing] apre la possibilità di applicare impostazioni retroattive e creare più versioni di persistenza delle variabili senza dover modificare la modalità di raccolta dei dati sottostanti.
 
-Questo cambiamento comporta alcune differenze nel modo in cui i dati vengono segnalati, in particolare per tutte le variabili che possono avere una lunga finestra di scadenza. Puoi iniziare valutando in che modo l’elaborazione al momento della generazione del rapporto può influire sui rapporti utilizzando una [suite di rapporti virtuale](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-report-time-processing).
+Questo cambiamento comporta alcune differenze nel modo in cui i dati vengono segnalati, in particolare per tutte le variabili che possono avere una lunga finestra di scadenza. Puoi iniziare valutando in che modo l’elaborazione al momento della generazione del rapporto può influire sui rapporti utilizzando una [suite di rapporti virtuale](https://experienceleague.adobe.com/it/docs/analytics/components/virtual-report-suites/vrs-report-time-processing).
 
 ### Identificare i segmenti e le metriche calcolate più importanti {#segments-calcmetrics}
 
@@ -82,9 +82,9 @@ Per rendere la transizione il più semplice possibile per gli utenti che passano
 
 Ecco un paio di video per guidarti:
 
-* [Spostare i segmenti di Adobe Analytics in Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
+* [Spostare i segmenti di Adobe Analytics in Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=it)
 
-* [Spostare le metriche calcolate da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics)
+* [Spostare le metriche calcolate da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics)
 
 ### Altre considerazioni
 
