@@ -60,7 +60,7 @@ In precedenza, i numeri interi venivano trattati automaticamente come metriche i
 
 ## Utilizzare dimensioni numeriche come metriche nei diagrammi di flusso {#numeric}
 
-È possibile utilizzare una dimensione numerica per inserire metriche nella visualizzazione [!UICONTROL  Flow].
+È possibile utilizzare una dimensione numerica per inserire metriche nella visualizzazione [!UICONTROL &#x200B; Flow].
 
 1. Nella scheda [Components](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) (Componenti) delle visualizzazioni dati, trascina il campo schema [!UICONTROL Marketing Channels] nell’area [!UICONTROL Metrics] in [!UICONTROL Included components].
 2. Nei rapporti di Workspace, questo flusso mostra come [!UICONTROL Marketing Channels] scorre in [!UICONTROL Orders]:
