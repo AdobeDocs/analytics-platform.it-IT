@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: Debugger progetto
 role: User
-source-git-commit: 4d902bab01c1c795cb7d852066128f6b9db0823a
+source-git-commit: ae8c1fb127accae53ab9363a8cceedd5221a245b
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Il debugger del progetto consente a te e al Supporto Adobe di risolvere i proble
 
 >[!NOTE]
 >
->Per utilizzare il debugger, è necessario avere accesso **Modifica** o **Copia** [al progetto](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-25744).
+>Per utilizzare il debugger, è necessario avere accesso **Modifica** o **Copia** [al progetto](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25744).
 >
 
 
@@ -55,7 +55,7 @@ Per utilizzare il debugger per una visualizzazione specifica:
 
    * **[!UICONTROL Request timestamp]**
    * **[!UICONTROL Response timestamp]**
-   * **[!UICONTROL &#x200B; Request time]**
+   * **[!UICONTROL Request time]**
    * **[!UICONTROL Queue time]**
    * **[!UICONTROL Server processing time]**
    * **[!UICONTROL Lookup time]**
@@ -75,7 +75,7 @@ Per utilizzare il debugger per una visualizzazione specifica:
    * JSON (risposta)
    * Richiesta curl
 
-1. Utilizza ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]**&#x200B;d sotto **[!UICONTROL cURL Request]** per copiare la richiesta negli Appunti.
+1. Utilizza ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]** sotto **[!UICONTROL cURL Request]** per copiare la richiesta negli Appunti.
 1. Passa il puntatore del mouse su una delle **[!UICONTROL Request]** o **[!UICONTROL Response]** aree di testo per visualizzare e selezionare ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]** per copiare il contenuto di tale area di testo (XML o JSON) negli Appunti.
 
 1. Scambia le informazioni copiate e richieste dal supporto Adobe per la risoluzione dei problemi relativi alle visualizzazioni nel progetto Analysis Workspace.
