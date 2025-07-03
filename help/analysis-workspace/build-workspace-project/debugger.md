@@ -55,7 +55,7 @@ Per utilizzare il debugger per una visualizzazione specifica:
 
    * **[!UICONTROL Request timestamp]**
    * **[!UICONTROL Response timestamp]**
-   * **[!UICONTROL  Request time]**
+   * **[!UICONTROL &#x200B; Request time]**
    * **[!UICONTROL Queue time]**
    * **[!UICONTROL Server processing time]**
    * **[!UICONTROL Lookup time]**
@@ -75,7 +75,7 @@ Per utilizzare il debugger per una visualizzazione specifica:
    * JSON (risposta)
    * Richiesta curl
 
-1. Utilizza ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]**d sotto **[!UICONTROL cURL Request]** per copiare la richiesta negli Appunti.
+1. Utilizza ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]**&#x200B;d sotto **[!UICONTROL cURL Request]** per copiare la richiesta negli Appunti.
 1. Passa il puntatore del mouse su una delle **[!UICONTROL Request]** o **[!UICONTROL Response]** aree di testo per visualizzare e selezionare ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]** per copiare il contenuto di tale area di testo (XML o JSON) negli Appunti.
 
 1. Scambia le informazioni copiate e richieste dal supporto Adobe per la risoluzione dei problemi relativi alle visualizzazioni nel progetto Analysis Workspace.
