@@ -1,12 +1,12 @@
 ---
-title: Creare Collegamenti Ipertestuali Per Le Dimensioni In Una Tabella A Forma Libera
+title: Creare collegamenti ipertestuali
 description: Scopri come creare collegamenti ipertestuali per gli elementi dimensionali in una tabella a forma libera in Analysis Workspace.
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1587'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,7 @@ Questa funzionalità è particolarmente utile quando si creano collegamenti iper
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta, ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare collegamenti ipertestuali in una tabella a forma libera](https://video.tv.adobe.com/v/3445793/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta, ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare collegamenti ipertestuali in una tabella a forma libera](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

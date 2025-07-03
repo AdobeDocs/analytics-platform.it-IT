@@ -4,10 +4,10 @@ title: Riepilogo delle metriche chiave
 feature: Visualizations
 exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 100%
+source-wordcount: '863'
+ht-degree: 96%
 
 ---
 
@@ -141,13 +141,11 @@ Come parte delle impostazioni di visualizzazione, sono disponibili impostazioni 
 
 ## Visualizzazione Modifica
 
-Dopo aver creato la visualizzazione, puoi comunque modificare la configurazione originale.
+Dopo aver generato la visualizzazione, puoi modificare la configurazione originale.
 
-1. Fai clic sull’icona a forma di matita nell’angolo in alto a destra della visualizzazione (accanto all’icona a forma di ingranaggio delle impostazioni).
+1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) nell&#39;angolo superiore destro della visualizzazione.
 
-   ![Icona modifica visualizzazione](assets/edit-icon.png)
-
-   Ora ritorni alla visualizzazione di configurazione originale.
+   Ora ritorni alla [visualizzazione di configurazione](#configure) originale.
 
 1. Modifica la metrica, l’intervallo di date primario, l’intervallo di date del confronto o il segmento come preferisci.
 

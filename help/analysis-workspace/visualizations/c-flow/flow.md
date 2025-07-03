@@ -1,13 +1,13 @@
 ---
-description: Scopri come utilizzare la visualizzazione Flusso in un Analysis Workspace.
+description: Scopri come utilizzare la visualizzazione Flusso in Analysis Workspace.
 title: Panoramica del flusso
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 95%
+source-wordcount: '323'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione del Flusso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Flusso](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione del Flusso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Flusso](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

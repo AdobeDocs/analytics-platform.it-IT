@@ -5,17 +5,17 @@ solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 92%
+source-wordcount: '296'
+ht-degree: 88%
 
 ---
 
 
 # Annotazioni delle scorecard per dispositivi mobili
 
-Puoi visualizzare le annotazioni create in Workspace nelle scorecard per dispositivi mobili. Le annotazioni nelle scorecard per dispositivi mobili consentono di condividere dettagli sui dati contestuali e informazioni approfondite sull’organizzazione e sulle campagne.
+Puoi visualizzare le annotazioni create in Analysis Workspace nelle scorecard per dispositivi mobili. Le annotazioni nelle scorecard per dispositivi mobili consentono di condividere dettagli sui dati contestuali e informazioni approfondite sull’organizzazione e sulle campagne.
 
 
 ## Visualizzare le annotazioni nelle scorecard per dispositivi mobili

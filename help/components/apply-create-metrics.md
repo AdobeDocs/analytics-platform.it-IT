@@ -1,13 +1,13 @@
 ---
-description: Scopri cosa sono le metriche e come utilizzarle in Adobe Analytics.
+description: Scopri cosa sono le metriche e come utilizzarle in Analysis Workspace.
 title: Metriche
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: f3c9a000ae5baa19cb5a6cf0e0343de3a9685b56
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 6%
+source-wordcount: '861'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ Le metriche consentono di quantificare i punti di dati in Analysis Workspace. So
 
 ## Utilizzare le metriche in Analysis Workspace
 
-Le metriche sono flessibili per quanto riguarda il loro utilizzo in Analysis Workspace. Trascina una metrica in una tabella a forma libera vuota per visualizzare la tendenza della metrica nel periodo della data del progetto. Puoi anche trascinare una metrica quando è presente una dimensione per vedere in che modo tale metrica si confronta con ciascun elemento dimensione. Trascinare una metrica sopra un’intestazione di metrica esistente sostituisce la metrica esistente, e trascinare una metrica accanto a un’intestazione consente di vedere entrambe le metriche una accanto all’altra.
+Le metriche sono flessibili per quanto riguarda il loro utilizzo in Analysis Workspace. Trascina una metrica in una tabella a forma libera vuota per visualizzare la tendenza della metrica nel periodo della data del progetto. Puoi anche trascinare una metrica quando è presente una dimensione per visualizzarla rispetto a ciascun elemento dimensione. Trascinare una metrica sopra un’intestazione di metrica esistente la sostituisce e trascinare una metrica accanto a un’intestazione consente di vedere entrambe le metriche una accanto all’altra.
 
 Per informazioni su come aggiungere metriche e altri tipi di componenti ad Analysis Workspace, vedi [Utilizzare componenti in Analysis Workspace](/help/components/use-components-in-workspace.md).
 
@@ -27,11 +27,17 @@ Per informazioni su come aggiungere metriche e altri tipi di componenti ad Analy
 Adobe offre diversi tipi di metriche da utilizzare in Analysis Workspace:
 
 
-* **Metriche standard**: esempi di metriche standard sono Persone, Sessioni, Eventi, [!BADGE Account B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}.
+* **Metriche standard**: esempio di metriche standard: persone, sessioni, eventi.
 
-  A differenza di Adobe Analytics, Customer Journey Analytics consente di definire le metriche standard in modo flessibile all’interno dell’ambito di una connessione e di una visualizzazione dati.  Per l&#39;elenco completo delle metriche standard, vedere [Metriche standard](#standard-metrics).
+  A differenza di Adobe Analytics, Customer Journey Analytics consente di definire le metriche standard in modo flessibile all’interno dell’ambito di una connessione e di una visualizzazione dati.
 
-* **Metriche calcolate** ![Calcolatore](/help/assets/icons/Calculator.svg): [Metriche definite dall&#39;utente](/help/components/calc-metrics/calc-metr-overview.md) basate su metriche standard, numeri statici o funzioni algoritmiche.
+   * **Persone**: la metrica Persone in Customer Journey Analytics è il conteggio distinto degli ID persona. A seconda di quello che scegli come ID persona quando configuri i set di dati nella connessione, la metrica Persone può significare cose diverse.
+   * **Sessioni**: la metrica Sessioni in Customer Journey Analytics è ciò che si definisce come parte della configurazione delle Impostazioni sessioni nella visualizzazione dati. Vedere [Impostazioni sessione](/help/data-views/session-settings.md).
+   * **Eventi**: la metrica Eventi in Customer Journey Analytics è costituita dagli eventi che fanno parte di qualsiasi set di dati evento configurato come parte della connessione.
+
+  Per l&#39;elenco completo delle metriche standard, vedere [Metriche standard](#standard-metrics).
+
+* **Metriche calcolate** ![Calcolatore](/help/assets/icons/Calculator.svg): metriche definite dall&#39;utente basate su metriche standard, numeri statici o funzioni algoritmiche.
 
 * **Modelli di metriche calcolate** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg): metriche definite da Adobe che si comportano in modo simile alle metriche calcolate. Puoi utilizzarli così come sono nei progetti Workspace o salvarne una copia per personalizzare la logica. Vedi [Metriche calcolate predefinite](calc-metrics/cm-workflow/../default-calcmetrics.md).
 
@@ -46,7 +52,7 @@ L’elenco completo delle metriche standard in Customer Journey Analytics:
 
 ## Creare metriche calcolate
 
-Le metriche calcolate consentono di configurare il modo in cui le metriche si relazionano tra loro, utilizzando semplici operatori o funzioni statistiche. Per ulteriori informazioni, vedere [Panoramica delle metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md).
+Le metriche calcolate consentono di configurare facilmente il modo in cui le metriche si relazionano tra loro, utilizzando semplici operatori o funzioni statistiche. Per ulteriori informazioni, vedere [Panoramica delle metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md).
 
 Esistono diversi modi per creare metriche calcolate. Il metodo scelto determina se la metrica calcolata è disponibile nell’elenco dei componenti in tutti i progetti o solo nel progetto in cui è stata creata.
 
@@ -76,15 +82,15 @@ Per creare una metrica calcolata per un singolo progetto:
 
    Quando è selezionata una singola colonna, sono disponibili le seguenti opzioni:
 
-   * [!UICONTROL **Media**]: crea una nuova colonna che mostra il valore medio nel set di elementi dimensionali della colonna. Il valore di questa colonna utilizza la funzione [Media](/help/components/calc-metrics/cm-functions.md#mean).
+   * [!UICONTROL **Media**]: crea una nuova colonna che mostra il valore medio nel set di elementi dimensionali della colonna. Questa opzione utilizza la funzione [Media](/help/components/calc-metrics/cm-functions.md#mean).
 
-   * [!UICONTROL **Mediana**]: crea una nuova colonna che mostra il valore mediano nel set di elementi dimensionali della colonna. Il valore di questa colonna utilizza la funzione [Mediana](/help/components/calc-metrics/cm-functions.md#median).
+   * [!UICONTROL **Mediana**]: crea una nuova colonna che mostra il valore mediano nel set di elementi dimensionali della colonna. Questa opzione utilizza la funzione [Mediana](/help/components/calc-metrics/cm-functions.md#median).
 
-   * [!UICONTROL **Colonna max**]: crea una nuova colonna che mostra il valore più grande nel set di elementi dimensionali della colonna. Il valore di questa colonna utilizza la funzione [Column Maximum](/help/components/calc-metrics/cm-functions.md#column-maximum).
+   * [!UICONTROL **Colonna max**]: crea una nuova colonna che mostra il valore più grande nel set di elementi dimensionali della colonna. Questa opzione utilizza la funzione [Column Maximum](/help/components/calc-metrics/cm-functions.md#column-maximum).
 
-   * [!UICONTROL **Colonna min**]: crea una nuova colonna che mostra il valore più piccolo nel set di elementi dimensionali della colonna. Il valore di questa colonna utilizza la funzione [Column Minimum](/help/components/calc-metrics/cm-functions.md#column-minimum).
+   * [!UICONTROL **Colonna min**]: crea una nuova colonna che mostra il valore più piccolo nel set di elementi dimensionali della colonna. Questa opzione utilizza la funzione [Column Minimum](/help/components/calc-metrics/cm-functions.md#column-minimum).
 
-   * [!UICONTROL **Somma colonna**]: crea una nuova colonna che aggiunge tutti i valori numerici per una metrica all&#39;interno di una colonna (negli elementi di una dimensione). Il valore di questa colonna utilizza la funzione [Somma colonna](/help/components/calc-metrics/cm-functions.md#column-sum).
+   * [!UICONTROL **Somma colonna**]:crea una nuova colonna che aggiunge tutti i valori numerici per una metrica all&#39;interno di una colonna (negli elementi di una dimensione). Questa opzione utilizza la funzione [Somma colonne](/help/components/calc-metrics/cm-functions.md#column-sum).
 
    Quando sono selezionate due colonne, sono disponibili le seguenti opzioni:
 

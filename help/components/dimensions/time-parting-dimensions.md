@@ -1,13 +1,13 @@
 ---
-description: Scopri come le dimensioni suddivise in base al tempo prendono il timestamp degli eventi raccolti e lo suddividono in dimensioni più significative, come Ora del giorno o Giorno della settimana.
+description: Scopri in che modo le dimensioni suddivise in base al tempo prendono il timestamp degli eventi raccolti e suddividono questi eventi in dimensioni più significative, come Ora del giorno o Giorno della settimana.
 title: Suddividere le dimensioni in base al tempo
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 49%
+source-wordcount: '176'
+ht-degree: 48%
 
 ---
 

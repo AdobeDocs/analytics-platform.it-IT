@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+source-git-commit: 4d902bab01c1c795cb7d852066128f6b9db0823a
 workflow-type: tm+mt
-source-wordcount: '5235'
+source-wordcount: '5253'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Luglio 2025** | |
+| Debugger | Nuovo articolo su come abilitare, utilizzare e disabilitare il debugger del progetto in Analysis Workspace. |
 | **Giugno 2025** | |
 | Nuove azioni di scelta rapida da tastiera | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [spostare i pannelli di Workspace](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) in alto e in basso in un progetto. |
 | **Maggio 2025** | |

@@ -1,14 +1,14 @@
 ---
-title: Dimensioni a cardinalità elevata
-description: Spiega come Customer Journey Analytics gestisce le dimensioni con molti valori univoci
+title: Grandi dimensioni di cardinalità
+description: Spiega come Customer Journey Analytics gestisce le dimensioni con molti valori univoci.
 feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '535'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 

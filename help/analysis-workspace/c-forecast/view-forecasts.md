@@ -4,9 +4,9 @@ title: Come visualizzare le previsioni in Analysis Workspace
 feature: Visualizations
 role: User
 exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
-source-git-commit: fea1b12a594a820ab2e55f850ca95c5a373184f0
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '353'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Le previsioni sono indicate nella tabella come segue:
 ![Mostra previsione nella tabella](assets/show-forecast-table.png)
 
 * Il valore di previsione e la percentuale per ogni cella vengono visualizzati in **grigio scuro**.
-* Per indicare un valore di previsione, un simbolo di previsione <img src="./assets/forecast.svg" alt="Simbolo previsione" width="20" /> viene visualizzato nell&#39;angolo superiore destro della cella.
+* Per indicare un valore di previsione, nell&#39;angolo superiore destro della cella viene visualizzato il simbolo di previsione ![ForecastAnalytics](/help/assets/icons/ForecastAnalytics.svg).
 
 
 ## Visualizza previsioni in un grafico a linee
