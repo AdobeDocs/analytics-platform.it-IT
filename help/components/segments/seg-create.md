@@ -4,14 +4,14 @@ description: Interfaccia utente per la creazione di segmenti.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters, Segments
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 17%
 
 ---
 
-# Creare un segmento
+# Creare i segmenti
 
 In Customer Journey Analytics puoi creare diversi tipi di segmenti.  Il tipo selezionato dipende dalla complessità dei segmenti e dall’applicabilità dei segmenti solo al progetto Workspace corrente o a tutti i progetti. Puoi creare segmenti direttamente nell’interfaccia principale di Customer Journey Analytics o quando lavori in un progetto Workspace.
 

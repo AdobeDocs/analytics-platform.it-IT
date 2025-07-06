@@ -1,17 +1,17 @@
 ---
-description: Il Generatore di segmenti fornisce un’area di lavoro per trascinare e rilasciare dimensioni di metrica, segmenti ed eventi per segmentare le persone in base alla logica gerarchica del contenitore, alle regole e agli operatori. Questo strumento di sviluppo integrato ti consente di creare e salvare segmenti semplici o complessi che identificano gli attributi e le azioni delle persone in visite ed eventi.
-title: Generare segmenti
+description: Scopri in che modo il Generatore di segmenti fornisce un’area di lavoro per trascinare e rilasciare metriche, dimensioni, segmenti ed eventi per segmentare i visitatori in base alla logica gerarchica dei contenitori, alle regole e agli operatori. Scopri come creare e salvare segmenti semplici o complessi che identificano gli attributi e le azioni dei visitatori in visite e hit pagina.
+title: Creare segmenti
 feature: Filters, Segments
 role: User
 exl-id: 160021f1-6942-4682-9114-d375307d9912
-source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 53%
+source-wordcount: '1466'
+ht-degree: 52%
 
 ---
 
-# Generare segmenti {#build-segments}
+# Generare i segmenti {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"

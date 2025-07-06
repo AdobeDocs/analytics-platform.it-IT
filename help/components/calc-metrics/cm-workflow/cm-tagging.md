@@ -1,11 +1,11 @@
 ---
-description: In Gestione metriche calcolate, l’assegnazione di tag ai segmenti ti consente di organizzarli.
+description: Scopri come assegnare tag alle metriche calcolate per organizzarle.
 title: Assegnare tag alle metriche calcolate
 feature: Calculated Metrics
 exl-id: 25c9299b-34ae-475f-8e7f-5cc8540dab8a
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '162'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Per assegnare tag a una o più metriche calcolate:
       * seleziona uno o più tag esistenti dall’elenco, oppure
       * immettere un nuovo tag e premere **[!UICONTROL ENTER]**. Ripeti l’operazione per aggiungere più di un nuovo tag.
 
-1. Selezionare **[!UICONTROL Save]** per salvare i tag per le metriche calcolate. Selezionare **[!UICONTROL Cancel]** per annullare.
+1. Selezionare **[!UICONTROL Save]** per salvare i tag per le metriche calcolate. Seleziona **[!UICONTROL Cancel]** per annullare.
 
 Una volta salvati, i tag sono elencati nel campo [!UICONTROL Tag] per la metrica calcolata selezionata nel [Generatore di metriche calcolate](cm-tagging.md).
 

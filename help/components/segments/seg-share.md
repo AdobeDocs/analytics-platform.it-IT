@@ -1,17 +1,17 @@
 ---
-description: A seconda delle autorizzazioni, puoi condividere i segmenti con l’intera organizzazione, i gruppi o i singoli utenti.
-title: Condividere segmenti
+description: Scopri come condividere i segmenti con l’intera organizzazione, i gruppi o i singoli utenti.
+title: Condividi segmenti
 feature: Filters, Segments
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 12%
+source-wordcount: '288'
+ht-degree: 7%
 
 ---
 
-# Condividere segmenti
+# Condividere i segmenti
 
 Nel [Gestore segmenti](seg-manage.md), puoi condividere segmenti. A seconda delle autorizzazioni, puoi condividere i segmenti con l’intera organizzazione, i gruppi o i singoli utenti:
 

@@ -1,17 +1,17 @@
 ---
+description: Scopri come utilizzare il gestore segmenti per gestire i segmenti, ad esempio condividere, filtrare, assegnare tag, approvare, copiare, eliminare segmenti e contrassegnare i segmenti come preferiti.
 title: Gestire segmenti
-description: Scopri come gestire i segmenti in Customer Journey Analytics
 exl-id: b8869560-0cf1-4e5d-a03c-dfca85d05e66
 feature: Filters, Segments
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 34%
+source-wordcount: '888'
+ht-degree: 32%
 
 ---
 
-# Gestire segmenti
+# Gestire i segmenti
 
 
 Puoi [condividere](seg-share.md), [segmento](seg-filter.md), [tag](seg-tag.md), [approvare](seg-approve.md), rinominare, [copiare](seg-copy.md), eliminare, esportare segmenti e contrassegnarli come [preferiti](seg-favorite.md) da un&#39;interfaccia di gestione [!UICONTROL Segment] centrale. Per gestire i segmenti:
@@ -58,7 +58,7 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 | ![Ricerca](/help/assets/icons/Search.svg) [!UICONTROL *Ricerca per titolo*] | Se nell’elenco non è selezionato alcun segmento, cerca i segmenti utilizzando questo campo di ricerca. |
 | ![Etichetta](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Assegna tag ai segmenti selezionati. Nella finestra di dialogo **[!UICONTROL Tag Segment]**, seleziona o deseleziona i tag per i segmenti selezionati. Selezionare **[!UICONTROL Save]** per salvare i tag per i segmenti selezionati. Per ulteriori informazioni, consulta [Segmenti di tag](/help/components/segments/seg-tag.md). |
 | ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Condividi i segmenti selezionati. Nella finestra di dialogo **[!UICONTROL Share Segment]**, puoi effettuare una ![Ricerca](/help/assets/icons/Search.svg) *Ricerca di singoli utenti o gruppi* oppure puoi selezionare **[!UICONTROL Organization]** o **[!UICONTROL Groups]**. Selezionare **[!UICONTROL Save]** per salvare i dettagli di condivisione per i segmenti selezionati. Consulta [Condividi segmenti](seg-share.md) per ulteriori informazioni. |
-| ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Elimina i segmenti selezionati. Viene richiesta una conferma. |
+| ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Elimina i segmenti selezionati. Viene richiesta una conferma. <br/>Quando elimini un segmento, tieni presente che: <ul><li>I rapporti e i progetti programmati a cui è applicato questo segmento continuano a funzionare normalmente.</li><li> I rapporti pianificati non vengono aggiornati quando si modifica un segmento con lo stesso nome.</li> </ul> |
 | ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** | Rinomina un singolo segmento selezionato. Se questa opzione è selezionata, è possibile rinominare il segmento in linea. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Approva i segmenti selezionati. Per ulteriori informazioni, consulta [Approvare segmenti](seg-approve.md). |
 | ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Copia il segmento selezionato. I nuovi segmenti vengono creati con lo stesso nome e suffisso `(Copy)`. |

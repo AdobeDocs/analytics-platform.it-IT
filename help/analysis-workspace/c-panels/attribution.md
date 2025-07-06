@@ -4,10 +4,10 @@ description: Scopri come utilizzare e interpretare il pannello Attribuzione in A
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 97%
+source-wordcount: '655'
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive il pannello Attribuzione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulta il [pannello Attribuzione](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/attribution) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive il pannello Attribuzione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta il [pannello Attribuzione](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/attribution) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ Puoi configurare il pannello Attribuzione utilizzando le seguenti impostazioni d
 
    ![La finestra del pannello Attribuzione mostra diverse dimensioni e metriche selezionate.](assets/attribution-panel.png)
 
-1. Seleziona uno o più [modelli di attribuzione](#attribution-models) da **[!UICONTROL Included models]** e un [intervallo di lookback](#lookback-window) da **[!UICONTROL Lookback window]** che desideri utilizzare per il confronto.
+1. Selezionare uno o più [modelli di attribuzione](#attribution-models) da **[!UICONTROL Included models]**, il [contenitore](#container) da **[!UICONTROL Container]** e un [intervallo di lookback](#lookback-window) da **[!UICONTROL Lookback window]** che si desidera utilizzare per il confronto.
 
 1. Seleziona **[!UICONTROL Build]** per creare le visualizzazioni nel pannello.
 
@@ -88,7 +88,7 @@ La visualizzazione seguente fa parte dell’output del pannello.
 * **Prestazioni con tendenze**: mostra la tendenza delle conversioni attribuite per l’elemento della dimensione superiore. Quando si selezionano altre righe nella tabella a forma libera adiacente, la visualizzazione viene aggiornata per riflettere la selezione.
 * **Flusso**: consente di visualizzare con quali canali si interagisce più comunemente e in quale ordine nel percorso di una persona.
 
-## Modelli di attribuzione
+## Modello di attribuzione
 
 {{attribution-models-details}}
 

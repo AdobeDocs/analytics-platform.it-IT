@@ -1,11 +1,11 @@
 ---
-description: La segmentazione di singole metriche consente di effettuare confronti di metriche all’interno dello stesso rapporto.
+description: Scopri come segmentare singole metriche per effettuare confronti di metriche all’interno della stessa visualizzazione.
 title: Metriche segmentate
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '483'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Ripeti i passaggi precedenti per la versione internazionale della metrica calcol
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza una metrica calcolata segmentata come metrica senza implementazione](https://video.tv.adobe.com/v/41662?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza una metrica calcolata segmentata come metrica senza implementazione](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 {{videoaa}}
 

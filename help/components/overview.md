@@ -1,14 +1,14 @@
 ---
 title: Panoramica dei componenti
-description: Scopri quali componenti offre Customer Journey Analytics e come puoi utilizzarli nella generazione di rapporti.
+description: Scopri i componenti offerti da Adobe Analytics e come utilizzarli in Analysis Workspace.
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 

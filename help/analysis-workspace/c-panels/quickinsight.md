@@ -1,13 +1,13 @@
 ---
-description: Scopri come utilizzare il pannello Quick Insights per guidarti nella creazione di tabelle e visualizzazioni di dati in Analysis Workspace.
+description: Scopri come utilizzare il pannello Quick Insights per guidarti nella creazione di tabelle e visualizzazioni a forma libera in Analysis Workspace.
 title: Pannello Quick Insights
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
 source-wordcount: '1074'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive il pannello Quick Insights in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulta [Pannello Quick Insights](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/quickinsight) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive il pannello Quick Insights in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta [Pannello Quick Insights](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/quickinsight) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Quando inizi a utilizzare [!UICONTROL Analysis Workspace], potresti chiederti:
 * dove creare un segmento,
 * e altro ancora.
 
-Per rispondere queste domande, [!UICONTROL Quick insights] sfrutta un algoritmo che ti presenta le dimensioni, le metriche, i segmenti e gli intervalli di date più popolari utilizzati dalla tua azienda. Questo algoritmo si basa sull’utilizzo dei componenti dei dati in [!UICONTROL Analysis Workspace] da parte della tua azienda. Nel menu a discesa sono infatti presenti dimensioni, metriche e segmenti con tag [!UICONTROL POPULAR], come illustrato di seguito:
+Per risolvere queste domande, [!UICONTROL Quick insights] utilizza un algoritmo che ti presenta le dimensioni, le metriche, i segmenti e gli intervalli di date più comuni utilizzati dalla tua azienda. Questo algoritmo si basa sull’utilizzo dei componenti dei dati in [!UICONTROL Analysis Workspace] da parte della tua azienda. Nel menu a discesa sono infatti presenti dimensioni, metriche e segmenti con tag [!UICONTROL POPULAR], come illustrato di seguito:
 
 ![Pannello Quick Insights.](assets/popular-tag.png)
 
@@ -94,7 +94,7 @@ Puoi specificare i blocchi in tre modi:
 
 * Trascina i componenti dal pannello a sinistra.
 * Inizia a digitare in uno dei campi del blocco. Quando viene trovato un input, il campo del blocco viene compilato automaticamente con i valori possibili.
-* Specificare un menu a discesa del blocco predefinito (ad esempio `Country` in **[!UICONTROL Analyze]**) e cercare nell&#39;elenco dei possibili valori (utilizzando ![ChevronRight](/help/assets/icons/ChevronRight.svg)) il valore che si desidera utilizzare (ad esempio **[!UICONTROL Country code]**).
+* Specificare un menu a discesa del blocco predefinito (ad esempio Paese in **[!UICONTROL Analyze]**) e **[!UICONTROL search]** l&#39;elenco dei possibili valori (utilizzando ![ChevronRight](/help/assets/icons/ChevronRight.svg)) per il valore che si desidera utilizzare (ad esempio, **[!UICONTROL Country code]**).
 
 Seleziona **[!UICONTROL Clear]** per cancellare tutti i campi di input.
 

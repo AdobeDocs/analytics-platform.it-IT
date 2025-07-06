@@ -1,17 +1,17 @@
 ---
 description: Scopri le limitazioni note in Adobe Analysis Workspace e i relativi componenti
-title: Limitazioni Note In Analysis Workspace
-feature: FAQ
+title: Limitazioni note
+feature: Workspace Basics
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
-source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 98%
+source-wordcount: '271'
+ht-degree: 100%
 
 ---
 
-# Limitazioni note in Analysis Workspace
+# Limitazioni note
 
 Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 

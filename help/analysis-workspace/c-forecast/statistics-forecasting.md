@@ -1,17 +1,17 @@
 ---
-description: La previsione in Analysis Workspace utilizza una serie di tecniche statistiche avanzate per determinare i valori della previsione.
-title: Tecniche di statistica utilizzate nelle previsioni
+description: Scopri come la previsione in Analysis Workspace utilizza una serie di tecniche statistiche avanzate per determinare i valori della previsione.
+title: Tecniche di statistica
 feature: Visualizations
 role: User
 exl-id: f042a6dd-6af5-4bdd-afc9-07546d8ded6e
-source-git-commit: accd7300c2dd6224e4d154cb6e3889f564e07a1a
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '545'
 ht-degree: 6%
 
 ---
 
-# Tecniche di statistica utilizzate nel servizio di previsione
+# Tecniche statistiche
 
 Il servizio di previsione attualmente supporta Prophet ed è stato dimostrato che funziona in modo efficiente e affidabile per la maggior parte dei dati. Profeta è un pacchetto di previsioni open source ampiamente utilizzato sviluppato da Meta. Scompone i dati in componenti per tendenze, stagionalità ed eventi. Il modello Profeta è efficiente e si adatta bene a molte applicazioni di previsione. Inoltre, il modello funziona in modo affidabile contro valori anomali e dati mancanti.
 

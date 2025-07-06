@@ -1,11 +1,11 @@
 ---
-description: Il Generatore di metriche calcolate fornisce un’area di lavoro per trascinare dimensioni, metriche, segmenti e funzioni e creare metriche personalizzate in base alla logica gerarchica del contenitore, alle regole e agli operatori. Questo strumento di sviluppo integrato consente di generare e salvare metriche calcolate semplici o metriche calcolate avanzate complesse.
-title: Generare metriche calcolate
+description: Scopri il generatore di metriche calcolate, che fornisce un’area di lavoro per trascinare dimensioni, metriche, segmenti e funzioni e creare metriche personalizzate in base alla logica gerarchica dei contenitori, alle regole e agli operatori.
+title: Creare metriche
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1451'
 ht-degree: 93%
 
 ---
@@ -200,5 +200,5 @@ Per eliminare un contenitore, seleziona ![Close](/help/assets/icons/Close.svg) a
 >[!MORELIKETHIS]
 >
 >[Usare le funzioni](cm-using-functions.md)
->&#x200B;>[Segmenti](/help/components/segments/seg-overview.md)
+>>[Segmenti](/help/components/segments/seg-overview.md)
 >

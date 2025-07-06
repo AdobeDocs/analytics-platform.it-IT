@@ -1,13 +1,13 @@
 ---
-description: Consente di filtrare per tag, proprietari e altri filtri (Mostra tutto, Personali, Condivisi con me, Preferiti e Approvati).
-title: Filtrare l’elenco dei segmenti
+description: Scopri come filtrare i segmenti per tag, proprietari e altri filtri.
+title: Filtrare segmenti
 feature: Filters, Segments
 exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 25%
+source-wordcount: '168'
+ht-degree: 29%
 
 ---
 

@@ -1,9 +1,9 @@
 ---
-description: I segmenti sequenziali sono segmenti che utilizzano l’operatore THEN per definire la sequenza di condizioni del segmento.
-title: Segmenti sequenziali
+description: Scopri i segmenti sequenziali che utilizzano l’operatore THEN per definire una sequenza di condizioni di segmento.
+title: SequentialSsegments
 feature: Filters, Segments
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 8e10818efa7da54b0802c56e5388e6c7ef7fd8b6
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione sequenziale](https://video.tv.adobe.com/v/41653/?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione sequenziale](https://video.tv.adobe.com/v/25405/?quality=12&learn=on){target="_blank"} per un video demo.
 
 {{videoaa}}
 
@@ -91,7 +91,7 @@ Per applicare vincoli di tempo all&#39;operatore **[!UICONTROL Then]**:
 1. Seleziona ![Orologio](/help/assets/icons/Clock.svg).
 1. Selezionare **[!UICONTROL Within]** o **[!UICONTROL After]** dal menu di scelta rapida.
 1. Specificare un periodo di tempo (**[!UICONTROL Minute]**, **[!UICONTROL Hour]**, fino a **[!UICONTROL Years]**).
-1. Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;per aprire un popup che consente di digitare o specificare un numero utilizzando **[!UICONTROL -]**&#x200B;o **[!UICONTROL +]**.
+1. Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**per aprire un popup che consente di digitare o specificare un numero utilizzando **[!UICONTROL -]**o **[!UICONTROL +]**.
 
 Per rimuovere un vincolo di tempo, utilizzare ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -255,7 +255,7 @@ Identifica le persone che hanno visitato una pagina ma non altre pagine. Ad esem
 >
 >Un [!UICONTROL Logic Group] può essere definito solo in un segmento sequenziale, il che significa che l&#39;operatore [!UICONTROL Then] è utilizzato all&#39;interno del contenitore.
 
-Gruppo logico consente di raggruppare le condizioni in un singolo punto di controllo del segmento sequenziale. Come parte della sequenza, la logica definita nel contenitore identificato come Gruppo logico viene valutata dopo qualsiasi punto di controllo sequenziale precedente e prima di qualsiasi punto di controllo sequenziale successivo.
+Il Gruppo logico consente di raggruppare le condizioni in un singolo punto di controllo del segmento sequenziale. Come parte della sequenza, la logica definita nel contenitore identificato come Gruppo logico viene valutata dopo qualsiasi punto di controllo sequenziale precedente e prima di qualsiasi punto di controllo sequenziale successivo.
 
 Le condizioni all’interno del Gruppo logico stesso possono essere soddisfatte in qualsiasi ordine. Al contrario, i contenitori non sequenziali (evento, sessione, persona) non richiedono che le loro condizioni siano soddisfatte all’interno della sequenza complessiva, generando possibili risultati non intuitivi se utilizzati con un operatore Then.
 
@@ -296,7 +296,7 @@ Identifica le persone che hanno visitato una pagina e poi esplicitamente non han
 
 #### [!UICONTROL Exclude] [!UICONTROL Or]
 
-Identifica le persone che hanno visitato una pagina e poi esplicitamente non hanno visitato nessuna pagina di un set di pagine, ma hanno visitato un’altra pagina. Ad esempio, le persone che hanno visitato la home page non hanno visitato la pagina Uomini e donne, ma la pagina Bambini.
+Identifica le persone che hanno visitato una pagina e poi esplicitamente non hanno visitato nessuna pagina di un set di pagine, ma hanno visitato un’altra pagina. Ad esempio, le persone che hanno visitato la home page e non hanno visitato la pagina Uomini e donne, ma hanno visitato la pagina Bambini.
 
 ![Gruppo logico escludere e](assets/logicgroup-exclude-or.png)
 

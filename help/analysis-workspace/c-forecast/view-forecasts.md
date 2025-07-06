@@ -1,17 +1,17 @@
 ---
 description: Scopri come visualizzare le previsioni in una tabella o in un grafico a linee.
-title: Come visualizzare le previsioni in Analysis Workspace
+title: Visualizza previsioni
 feature: Visualizations
 role: User
 exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 3%
+source-wordcount: '345'
+ht-degree: 2%
 
 ---
 
-# Visualizzare previsioni in Analysis Workspace
+# Visualizzare le previsioni
 
 È possibile visualizzare le previsioni in una tabella a forma libera o in un grafico a linee.
 

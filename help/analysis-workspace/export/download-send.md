@@ -1,12 +1,12 @@
 ---
 description: Scopri le varie possibilità di scaricare dati dal progetto Analysis Workspace.
-title: Scaricare Progetti E Dati Di Analysis Workspace
+title: Scarica Progetti E Dati
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1149'
 ht-degree: 25%
 
 ---
@@ -39,7 +39,7 @@ Per scaricare un progetto come file PDF:
 Viene visualizzata una barra verde con il messaggio ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Your download has been requested. Please wait.]**.
 
 1. Non appena il download è pronto, una barra verde con il messaggio ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *Nome del progetto *PDF è pronta.]**.
-Selezionare&#x200B;**[!UICONTROL Download]**&#x200B;per scaricare il PDF. Il modo in cui PDF viene presentato o scaricato dipende dalla configurazione del browser in uso per la gestione dei documenti PDF.
+Selezionare**[!UICONTROL Download]**per scaricare il PDF. Il modo in cui PDF viene presentato o scaricato dipende dalla configurazione del browser in uso per la gestione dei documenti PDF.
 
 
 Per scaricare un progetto come file CSV:
@@ -107,8 +107,8 @@ Al file scaricato vengono applicate le seguenti funzioni di una tabella a forma 
 
 Durante il download del file vengono visualizzate le notifiche seguenti:
 
-* È stato richiesto un **[!UICONTROL _nome tabella _blu -_Dimension _.csv._x _% completato]**&#x200B;che indica l&#39;avanzamento. Per annullare il download, selezionare **[!UICONTROL Cancel download]**. Selezionare ![CrossSize100](/help/assets/icons/CrossSize100.svg) se si desidera chiudere il messaggio senza annullare il download.
-* Una notifica di completamento verde **[!UICONTROL _Nome tabella _-_Dimension _.csv è stato scaricato]**&#x200B;una volta completato il download del file. Il file viene scaricato nella cartella dei download configurata per il browser.
+* È stato richiesto un **[!UICONTROL _nome tabella _blu -_Dimension _.csv._x _% completato]**che indica l&#39;avanzamento. Per annullare il download, selezionare **[!UICONTROL Cancel download]**. Selezionare ![CrossSize100](/help/assets/icons/CrossSize100.svg) se si desidera chiudere il messaggio senza annullare il download.
+* Una notifica di completamento verde **[!UICONTROL _Nome tabella _-_Dimension _.csv è stato scaricato]**una volta completato il download del file. Il file viene scaricato nella cartella dei download configurata per il browser.
 
 Se richiedi più di un download alla volta, ricevi una notifica che indica che ogni download aggiuntivo è in coda fino al completamento del download precedente.
 

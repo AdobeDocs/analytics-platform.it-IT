@@ -1,12 +1,12 @@
 ---
-description: Mostra come impilare e sostituire i segmenti nel Generatore di metriche calcolate.
-title: Sovrapponi e sostituisci segmenti
+description: Scopri come impilare e sostituire i segmenti nel generatore di metriche calcolate.
+title: Sovrapponi E Sostituisci Segmenti
 feature: Calculated Metrics
 exl-id: a396599c-2033-40a7-90b5-f9c84106c328
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 

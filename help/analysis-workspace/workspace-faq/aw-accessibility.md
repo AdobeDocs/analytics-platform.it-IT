@@ -1,13 +1,13 @@
 ---
 description: Scopri le funzioni di supporto per l’accessibilità di Analysis Workspace.
 title: Accessibilità In Analysis Workspace
-feature: FAQ
+feature: Workspace Basics
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
-source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 94%
+source-wordcount: '522'
+ht-degree: 92%
 
 ---
 
@@ -54,7 +54,7 @@ La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il b
 
 ### Scelte rapide da tastiera
 
-[!UICONTROL Analysis Workspace] offre un set completo di [scelte rapide da tastiera](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) per un flusso di lavoro più semplice.
+[!UICONTROL Analysis Workspace] offre un set completo di [scelte rapide da tastiera (tasti di scelta rapida)](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) per un flusso di lavoro più semplice.
 
 ## Supporto per assistenti vocali e lenti di ingrandimento dello schermo
 

@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 97%
+source-wordcount: '1269'
+ht-degree: 95%
 
 ---
 
@@ -234,7 +234,7 @@ ht-degree: 97%
       + [Venn](../analysis-workspace/visualizations/venn.md)
    + Pannelli {#panels}
       + [Panoramica](../analysis-workspace/c-panels/panels.md)
-      + [Vuoto](../analysis-workspace/c-panels/blank-panel.md)
+      + [Pannello vuoto](../analysis-workspace/c-panels/blank-panel.md)
       + [Attribuzione](../analysis-workspace/c-panels/attribution.md)
       + [Sperimentazione](../analysis-workspace/c-panels/experimentation.md)
       + [A forma libera](../analysis-workspace/c-panels/freeform-panel.md)
@@ -254,6 +254,12 @@ ht-degree: 97%
       + [Scaricare](../analysis-workspace/export/download-send.md)
       + [Invio e pianificazione](../analysis-workspace/export/t-schedule-report.md)
       + [Esportare nel cloud](../analysis-workspace/export/export-cloud.md)
+   + Attribution {#attribution}
+      + [Panoramica su Attribution](../analysis-workspace/attribution/overview.md)
+      + [Modello, contenitore e intervallo di lookback](../analysis-workspace/attribution/models.md)
+      + [Attribuzione algoritmica](../analysis-workspace/attribution/algorithmic.md)
+      + [Best practice](../analysis-workspace/attribution/best-practices.md)
+      + [Domande frequenti](../analysis-workspace/attribution/faq.md)
    + Rilevamento delle anomalie {#anomaly-detection}
       + [Panoramica](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [Visualizzare le anomalie](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
@@ -268,7 +274,7 @@ ht-degree: 97%
       + [Ottimizzare le prestazioni](../analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Errore e risoluzione dei problemi](../analysis-workspace/workspace-faq/error-messages.md)
       + [Limitazioni](../analysis-workspace/workspace-faq/aw-limitations.md)
-      + [Requisiti di amministrazione](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [Requisiti](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accessibilità](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + Content Analytics {#content-analytics}
@@ -346,10 +352,12 @@ ht-degree: 97%
       + [Panoramica](../components/calc-metrics/calc-metr-overview.md)
       + Flusso di lavoro {#cm-workflow}
          + [Creare metriche calcolate](../components/calc-metrics/cm-workflow/cm-workflow.md)
-         + [Generare metriche calcolate](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Trovare metriche](../components/calc-metrics/cm-workflow/cm-finding.md)
+         + [Generare metriche calcolate](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
+         + [Un semplice esempio](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Un esempio più complesso](../components/calc-metrics/cm-workflow/cm-orders-participation.md)
          + [Tipo di metrica e attribuzione](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [Creare una metrica di partecipazione](../components/calc-metrics/cm-workflow/participation-metric.md)
+         + [Metriche di partecipazione](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [Metriche segmentate](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Sovrapponi e sostituisci segmenti](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Filtrare le metriche calcolate](../components/calc-metrics/cm-workflow/cm-filter.md)

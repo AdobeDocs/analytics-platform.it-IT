@@ -1,12 +1,12 @@
 ---
-description: Scopri il tipo di metrica e l’attribuzione
-title: Tipo di metrica e attribuzione
+description: Scopri il tipo di metrica e l’attribuzione.
+title: Tipo Di Metrica E Attribuzione
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 304b8d85767d89ee60a6fb37a128194f60ca89d4
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -163,6 +163,6 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >[!MORELIKETHIS]
 >
 >[Impostazioni dei componenti di attribuzione](/help/data-views/component-settings/attribution.md)
->&#x200B;>[Metrica di partecipazione](participation-metric.md)
+>>[Metrica di partecipazione](participation-metric.md)
 >
 

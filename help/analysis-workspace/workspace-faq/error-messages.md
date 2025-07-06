@@ -1,12 +1,12 @@
 ---
 description: Scopri gli errori e la risoluzione dei problemi di Analysis Workspace.
-title: Errori Nella Risoluzione Dei Problemi In Analysis Workspace
-feature: FAQ
+title: Errori E Risoluzione Dei Problemi
+feature: Workspace Basics
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
-source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '497'
 ht-degree: 97%
 
 ---
