@@ -4,10 +4,10 @@ title: Creare avvisi
 feature: Workspace Basics
 role: User, Admin
 exl-id: 5b4b2e2b-0a73-48df-a40c-98d2c47f94c8
-source-git-commit: 0e9dc47b80db142801a94dcbf31470d99a610949
+source-git-commit: 9e07dfc84bc06aef987d99c225cefb4e0406f552
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 67%
+source-wordcount: '969'
+ht-degree: 64%
 
 ---
 
@@ -37,9 +37,9 @@ Per creare un avviso:
 
 1. In Customer Journey Analytics, selezionare **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. In [Gestione avvisi](alert-manager.md), seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** per creare un nuovo avviso oppure seleziona uno degli avvisi elencati per modificarne uno esistente.
 
-   Viene visualizzata l’interfaccia del [Generatore di avvisi](#alert-builder).
+1. In Analysis Workspace, seleziona uno o più elementi riga in una tabella a forma libera, quindi seleziona **[!UICONTROL Create alert from selection]** dal menu di scelta rapida. Questa azione precompila immediatamente il generatore di avvisi per creare un avviso con le metriche e i segmenti corretti.
 
-1. Seleziona **[!UICONTROL Save]** per salvare l’avviso. Seleziona **[!UICONTROL Save as]** per salvare una copia dell’avviso.
+Viene visualizzata l’interfaccia del [Generatore di avvisi](#alert-builder).
 
 
 ## Generatore di avvisi

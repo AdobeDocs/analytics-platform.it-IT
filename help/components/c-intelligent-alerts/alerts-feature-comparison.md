@@ -4,10 +4,10 @@ title: Confronto delle funzioni degli avvisi tra Customer Journey Analytics e Ad
 feature: Workspace Basics
 role: User, Admin
 exl-id: 04e819c4-9fb5-4459-9f8b-40d78385ed90
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 9e07dfc84bc06aef987d99c225cefb4e0406f552
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 21%
+source-wordcount: '487'
+ht-degree: 24%
 
 ---
 
@@ -45,16 +45,8 @@ Per ulteriori informazioni su come regolare il ritardo e sui fattori da consider
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
-## Creazione di un avviso da Analysis Workspace non disponibile
+## Creare un avviso
 
-In Analysis Workspace in Adobe Analytics, puoi creare avvisi da Analysis Workspace in uno dei modi descritti di seguito. In Customer Journey Analytics, le opzioni per la creazione di avvisi da Analysis Workspace non sono ancora disponibili. Accedere al Generatore di avvisi come descritto in [Creare avvisi](/help/components/c-intelligent-alerts/alert-builder.md).
+In Analysis Workspace in Adobe Analytics, puoi [creare avvisi da Analysis Workspace in più modi](https://experienceleague.adobe.com/en/docs/analytics/components/alerts/alert-builder). In Customer Journey Analytics, è possibile [creare un avviso](alert-builder.md) in Analysis Workspace solo da una selezione in una tabella a forma libera.
 
-In Adobe Analytics sono disponibili le seguenti opzioni:
-
-* Selezionare uno o più elementi in una tabella a forma libera, quindi fare clic con il pulsante destro del mouse e selezionare **[!UICONTROL Create alert from selection]**.
-
-  Questo precompila immediatamente il generatore di avvisi per creare un avviso con le metriche e i segmenti corretti.
-
-* Apri un progetto in Analysis Workspace, quindi seleziona **[!UICONTROL Components]** > **[!UICONTROL Create alert]**.
-
-* Apri un progetto in Analysis Workspace, quindi utilizza il seguente collegamento: **[!UICONTROL *ctrl *]**+**[!UICONTROL * shift *]** + **[!UICONTROL *a *]**(Windows) o&#x200B;**[!UICONTROL * cmd *]** + **[!UICONTROL *shift *]**+**[!UICONTROL * a *]** (macOS).
+Sia Adobe Analytics che Customer Journey Analytics supportano la creazione di avvisi tramite [Gestione avvisi](alert-manager.md)
