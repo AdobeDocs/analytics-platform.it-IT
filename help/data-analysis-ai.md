@@ -12,7 +12,7 @@ ht-degree: 82%
 
 ---
 
-# Visualizzare i dati con Data Insights Agent
+# Visualizzare i dati con l’agente Data Insights
 
 >[!AVAILABILITY]
 >
@@ -39,7 +39,7 @@ L’utilizzo dell’agente Data Insights per rispondere a domande incentrate sui
 | **Meccanismi di feedback** | <ul><li>Pollice in su</li><li>Pollice in giù</li><li>Segnalazione</li></ul> |  |
 
 
-## Gestire l’accesso a Data Insights Agent
+## Gestire l’accesso all’agente Data Insights
 
 I seguenti parametri regolano l’accesso all’agente Data Insights in Customer Journey Analytics:
 
@@ -49,7 +49,7 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
 * **Autorizzazioni**: per consentire agli utenti di accedere all’agente Data Insights, è necessario concedere le autorizzazioni necessarie in [!UICONTROL Adobe Admin Console].
 
-  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
+  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
    1. In **[!UICONTROL Admin Console]**, seleziona la scheda **[!UICONTROL Products]** per visualizzare la pagina **[!UICONTROL All products and services]**.
    1. Seleziona **[!UICONTROL Customer Journey Analytics]**.
    1. Nella scheda **[!UICONTROL Product Profiles]**, seleziona il titolo del profilo di prodotto per il quale desideri fornire accesso a [!UICONTROL AI Assistant: Product Knowledge].
@@ -246,7 +246,7 @@ Di seguito sono riportate le best practice per la configurazione di Customer Jou
 >[!MORELIKETHIS]
 >
 >[: impostazioni del componente](/help/data-views/component-settings/overview.md)
->&#x200B;>[Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[Approva metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[Condividi segmenti](/help/components/segments/seg-share.md)
+>>[Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Approva metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Condividi segmenti](/help/components/segments/seg-share.md)
 >

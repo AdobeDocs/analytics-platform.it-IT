@@ -8,13 +8,13 @@ role: User
 source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 55%
+ht-degree: 98%
 
 ---
 
 # Panoramica sull’esportazione
 
-Puoi esportare (parte di) progetti Customer Journey Analytics da Analysis Workspace. Potrebbe essere utile esportare i rapporti di Customer Journey Analytics per una serie di motivi, ad esempio per utilizzarli in strumenti di terze parti o combinarli con dati esterni.
+Puoi esportare i progetti di Customer Journey Analytics (o una parte di essi) da Analysis Workspace. Puoi avere necessità di esportare i rapporti di Customer Journey Analytics per diversi motivi, ad esempio per utilizzarli in strumenti di terze parti o combinarli con dati esterni.
 
 Nelle sezioni seguenti vengono descritti i tipi di file supportati, i vari metodi disponibili per l’esportazione e i vantaggi di ciascun metodo.
 
@@ -30,12 +30,12 @@ Puoi esportare i rapporti di Customer Journey Analytics come file PDF, CSV o JSO
 
 ## Metodi di esportazione
 
-Esistono diversi metodi per esportare da Analysis Workspace. Quando scegli un metodo di esportazione, considera cosa desideri esportare e chi deve accedervi.
+Sono disponibili diversi metodi per l’esportazione da Analysis Workspace. Quando scegli un metodo di esportazione, valuta cosa desideri esportare e chi dovrà accedervi.
 
-| Metodo di esportazione | Utilizza questo metodo se desideri... |
+| Metodo di esportazione | Utilizza questo metodo per: |
 |---------|----------|
-| [Download sulla tua workstation](/help/analysis-workspace/export/download-send.md) | <li>Scaricare i progetti sulla tua workstation personale.</li><li>Scarica solo dati ad hoc (non pianificato).</li> <li>Scarica un massimo di 50.000 righe.</li> <!--true? Are there 2 different options to download to your workstation?--> <!-- is this emailing it? --> |
-| [Invio ad altri utenti](/help/analysis-workspace/export/t-schedule-report.md) | <li>Inviare via e-mail ad altri utenti dell’organizzazione i dati Customer Journey Analytics esportati.</li><li>Invia l’e-mail ad hoc o secondo una pianificazione.</li> <li>Includi un massimo di 50.000 righe nell’e-mail.</li> <!--true?--> |
-| [Esporta in una posizione cloud](/help/analysis-workspace/export/export-cloud.md) | <li>Esporta in una posizione cloud, ad esempio <ul><li>Zona di destinazione dei dati di Adobe Experience Platform</li><li>Google Cloud Platform</li><li>Microsoft Azure</li><li>Amazon S3</li><li>Snowflake</li></ul></li><li>Esporta dati ad hoc o secondo una pianificazione.</li><li>Memorizzare quantità maggiori di dati Customer Journey Analytics.</li><li>Esportare tabelle complete contenenti migliaia o milioni di righe.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
+| [Download sulla tua workstation](/help/analysis-workspace/export/download-send.md) | <li>Scaricare i progetti sulla tua workstation personale.</li><li>Scaricare solo dati ad hoc (senza pianificazione).</li> <li>Scaricare un massimo di 50.000 righe.</li> <!--true? Are there 2 different options to download to your workstation?--> <!-- is this emailing it? --> |
+| [Invio ad altri utenti](/help/analysis-workspace/export/t-schedule-report.md) | <li>Inviare via e-mail ad altri utenti dell’organizzazione i dati Customer Journey Analytics esportati.</li><li>Inviare l’e-mail ad hoc o con pianificazione.</li> <li>Includere un massimo di 50.000 righe nell’e-mail.</li> <!--true?--> |
+| [Esporta in una posizione cloud](/help/analysis-workspace/export/export-cloud.md) | <li>Esportare in una posizione cloud, ad esempio <ul><li>Adobe Experience Platform Data Landing Zone</li><li>Google Cloud Platform</li><li>Microsoft Azure</li><li>Amazon S3</li><li>Snowflake</li></ul></li><li>Esportare dati ad hoc o con pianificazione.</li><li>Memorizzare quantità maggiori di dati Customer Journey Analytics.</li><li>Esportare tabelle complete contenenti migliaia o milioni di righe.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
 
 {style="table-layout:auto"}

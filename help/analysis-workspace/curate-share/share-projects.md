@@ -1,14 +1,14 @@
 ---
 description: Scopri come condividere i progetti in Analysis Workspace.
 keywords: Condivisione di Analysis Workspace
-title: Condividi progetti
+title: Condividere progetti
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
 source-git-commit: 8e10818efa7da54b0802c56e5388e6c7ef7fd8b6
 workflow-type: tm+mt
 source-wordcount: '1989'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
@@ -40,14 +40,14 @@ Qualsiasi [cura](curate.md) applichi prima della condivisione, viene visualizzat
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condivisione dei progetti in Analysis Workspace](https://video.tv.adobe.com/v/40037/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condivisione dei progetti in Analysis Workspace](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
 >[!ENDSHADEBOX]
 
 
-## Condividi con utenti e gruppi della tua organizzazione {#Add}
+## Condividere con utenti e gruppi nella tua organizzazione {#Add}
 
 Puoi condividere un progetto con utenti o gruppi di Analysis Workspace esistenti nella tua organizzazione. Quando condividi un progetto come descritto in questa sezione, gli utenti con cui condividi devono già disporre di un account Customer Journey Analytics.
 
@@ -61,9 +61,9 @@ Puoi condividere un ruolo specifico con utenti o gruppi, oppure un collegamento.
 
 Quando condividi un ruolo di progetto specifico con utenti e gruppi dell’organizzazione, considera quanto segue:
 
-* I ruoli di progetto  (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]**, e **[!UICONTROL Read only]**) sono legati all’ID dell’utente e del progetto specifico. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite in [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/admin-getting-started).
+* I ruoli di progetto  (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]**, e **[!UICONTROL Read only]**) sono legati all’ID dell’utente e del progetto specifico. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite in [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started).
 
-* In Customer Journey Analytics, i gruppi sono definiti dai profili di prodotto in [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/admin-getting-started). Gli amministratori possono condividere con qualsiasi gruppo, compresi *Tutti*. Gli utenti non amministratori possono condividere con qualsiasi gruppo di cui sono membri, ad eccezione di *Tutti*.
+* In Customer Journey Analytics, i gruppi sono definiti dai profili di prodotto in [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started). Gli amministratori possono condividere con qualsiasi gruppo, compresi *Tutti*. Gli utenti non amministratori possono condividere con qualsiasi gruppo di cui sono membri, ad eccezione di *Tutti*.
 
 * Un destinatario posizionato in più ruoli, avrà sempre l’esperienza di livello più elevato. Questo scenario può verificarsi se un utente viene aggiunto sia come singolo utente che come parte di un gruppo. Ad esempio, se a un utente viene assegnato il ruolo **[!UICONTROL Edit original]** come singolo utente e il ruolo **[!UICONTROL Read only]** come membro di un gruppo, l&#39;utente riceve un&#39;esperienza di progetto **[!UICONTROL Edit original]**.
 
@@ -117,7 +117,7 @@ Quando condividi un collegamento come descritto in questa sezione, prendi in con
 
 * Gli utenti che utilizzano un collegamento devono accedere a Customer Journey Analytics prima di poter accedere al progetto.
 
-* Se a un destinatario non viene assegnato un ruolo e riceve un [collegamento condivisibile](/help/analysis-workspace/curate-share/shareable-links.md) al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**), per impostazione predefinita gli viene assegnato un ruolo. Gli amministratori ricevono **[!UICONTROL Edit original]** e i non amministratori **[!UICONTROL Edit copy]**.
+* Se a un destinatario non è stato assegnato un ruolo, per impostazione predefinita gliene verrà assegnato uno quando riceve un [collegamento condivisibile](/help/analysis-workspace/curate-share/shareable-links.md) al progetto (**[!UICONTROL Share]>[!UICONTROL Get project link]**). Gli amministratori ricevono **[!UICONTROL Edit original]** e i non amministratori **[!UICONTROL Edit copy]**.
 
 Per condividere il collegamento del progetto con gli utenti dell’organizzazione:
 
@@ -161,7 +161,7 @@ Puoi consentire l’[accesso di sola lettura](/help/analysis-workspace/curate-sh
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere con chiunque](https://video.tv.adobe.com/v/3452466/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere con chiunque](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -216,7 +216,7 @@ Puoi condividere i componenti incorporati che fanno parte del progetto.
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere componenti incorporati in Analysis Workspace](https://video.tv.adobe.com/v/329425/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividere componenti incorporati in Analysis Workspace](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 

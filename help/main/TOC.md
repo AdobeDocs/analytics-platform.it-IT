@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 95%
       + [Guida rapida](/help/getting-started/cja-b2b-quick-start-guide.md)
       + [Guida alla transizione](/help/getting-started/cja-b2b-transition.md)
 
-+ Aggiorna e confronta {#compare-aa-cja}
++ Aggiornamento e confronto {#compare-aa-cja}
    + Aggiornamento a Customer Journey Analytics {#upgrade-to-cja}
       + [Introduzione](/help/getting-started/cja-upgrade/cja-upgrade-getstarted.md)
       + [Scegliere il percorso di aggiornamento](/help/getting-started/cja-upgrade/cja-upgrade-path.md)
@@ -97,7 +97,7 @@ ht-degree: 95%
          + [Opzioni di implementazione di Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-websdk-implementation.md)
          + [Configurazione di Adobe Analytics Web SDK per Platform](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md)
          + [Utilizzare la personalizzazione con Adobe Journey Optimizer](/help/getting-started/cja-upgrade/cja-upgrade-personalization-journeyoptimizer.md)
-   + Confronta con Adobe Analytics {#cja-aa-comparison}
+   + Confronto con Adobe Analytics {#cja-aa-comparison}
       + [Panoramica](../getting-started/aa-vs-cja/overview.md)
       + [Utilizzare i dati di Adobe Analytics](../getting-started/aa-vs-cja/aa-data-in-cja.md)
       + [Funzionalità supportate](../getting-started/aa-vs-cja/cja-aa.md)
@@ -168,7 +168,7 @@ ht-degree: 95%
    + [Eseguire analisi avanzate](../analysis-workspace/perform-adv-analysis.md)
    + Progetti {#build-workspace-project}
       + [Panoramica](../analysis-workspace/build-workspace-project/freeform-overview.md)
-      + [Avvia rapidamente i progetti](/help/analysis-workspace/build-workspace-project/starter-projects.md)
+      + [Avviare rapidamente i progetti](/help/analysis-workspace/build-workspace-project/starter-projects.md)
       + [Creare progetti](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [Aprire i progetti](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [Aggiungere commenti nei progetti](/help/analysis-workspace/build-workspace-project/comment-projects.md)
@@ -176,9 +176,9 @@ ht-degree: 95%
       + [Sommario](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Cartelle in Workspace {#workspace-folders}
          + [Panoramica](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Creare cartelle](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Creare le cartelle](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Gestire le cartelle](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [Aggiungere o spostare progetti](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Aggiungere o spostare i progetti](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [Tasti di scelta rapida](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Palette di colori](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [Densità di visualizzazione](../analysis-workspace/build-workspace-project/view-density.md)
