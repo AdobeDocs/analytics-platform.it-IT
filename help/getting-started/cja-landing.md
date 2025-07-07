@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 94d1bcdb2419f8c2e27bd77bb2e35b04cd30d632
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '795'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!TAB B2B Edition]
 
-Customer Journey Analytics B2B Edition aiuta le aziende B2B ad allineare i team di marketing, vendita e prodotto fornendo insight sugli account da utilizzare per stimolare la crescita dei ricavi. Con l’account posizionato al centro del modello dati, tutte le analisi si concentrano sul percorso dell’account.
+Customer Journey Analytics B2B Edition aiuta le aziende B2B ad allineare i team di marketing, vendita e prodotto fornendo insight sugli account da utilizzare per stimolare la crescita dei ricavi. Collocando l’account al centro del modello dati, tutte le analisi si concentrano sul suo percorso.
 
 [![immagine](assets/learn-more-button.svg)](/help/getting-started/cja-b2b-edition.md)
 
@@ -150,7 +150,7 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
   <tr style="border: 0;">
     <td>
       <img src="./assets/analytics.svg" width="35px"><br/>
-      <strong>Confronta con Adobe Analytics</strong><br/><a href="/help/getting-started/aa-vs-cja/overview.md">Panoramica</a> - <a href="/help/getting-started/aa-to-cja.md">Evoluzione</a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md">Utilizza dati Adobe Analytics</a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md">Supporto delle funzionalità</a> - <a href="/help/getting-started/aa-vs-cja/terminology.md">Terminologia</a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md">Elaborazione dati</a> - <a href="/help/getting-started/cja-b2b-edition.md">Customer Journey Analytics B2B edition</a>
+       <strong>Confronto con Adobe Analytics</strong><br/><a href="/help/getting-started/aa-vs-cja/overview.md">Panoramica</a> - <a href="/help/getting-started/aa-to-cja.md">Evoluzione</a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md">Utilizzo dei dati di Adobe Analytics</a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md">Funzionalità supportate</a> - <a href="/help/getting-started/aa-vs-cja/terminology.md">Terminologia</a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md">Elaborazione dati</a> - <a href="/help/getting-started/cja-b2b-edition.md">Customer Journey Analytics B2B Edition</a>
     </td>
     <td>
       <img src="./assets/connections.svg" width="35px"><br/>
@@ -180,7 +180,7 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Customer Journey Analytics</strong><br/>
-<a href="https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">Tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Descrizione del prodotto Customer Journey Analytics</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Descrizione del prodotto Adobe Analytics (componente aggiuntivo Customer Journey Analytics)</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics-b2b.html" target="_blank">Descrizione del prodotto Customer Journey Analytics B2B edition</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">API Customer Journey Analytics</a> - <a href="/help/ai-assistant.md">Assistente AI</a>
+<a href="https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">Tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Descrizione del prodotto Customer Journey Analytics</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Descrizione del prodotto Adobe Analytics (componente aggiuntivo per Customer Journey Analytics)</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics-b2b.html" target="_blank">Descrizione del prodotto Customer Journey Analytics B2B Edition</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">API di Customer Journey Analytics</a> - <a href="/help/ai-assistant.md">Assistente IA</a>
 </td>
 <td><strong>Acquisizione dei dati</strong><br/><a href="/help/data-ingestion/data-ingestion.md">Panoramica</a> - <a href="/help/data-ingestion/analytics.md">Analytics</a> - <a href="/help/data-ingestion/aepwebsdk.md">Web SDK</a> - <a href="/help/data-ingestion/aepmobilesdk.md">Mobile SDK</a> - <a href="/help/data-ingestion/batch.md">Batch</a> - <a href="/help/data-ingestion/streaming.md">Streaming</a> - <a href="/help/data-ingestion/sources.md">Origini</a> - <a href="/help/data-ingestion/serverapi.md">API server</a>
 </td>

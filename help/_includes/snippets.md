@@ -1,8 +1,8 @@
 ---
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4824'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # Snippet
@@ -57,7 +57,7 @@ Le opzioni di confronto temporale disponibili includono il periodo precedente, 1
 
 ## Dimostrazione video Adobe Analytics {#videoaa}
 
-Questo video illustra la funzionalità utilizzata con Adobe Analytics. Tuttavia, questa funzionalità è disponibile anche in Customer Journey Analytics. Tieni presente le differenze terminologiche tra Adobe Analytics e Customer Journey Analytics (ad esempio *visite* rispetto a *sessioni*).
+Questo video illustra la funzionalità utilizzata con Adobe Analytics. Tuttavia, questa funzionalità è disponibile anche in Customer Journey Analytics. Presta attenzione alle differenze di terminologia tra Adobe Analytics e Customer Journey Analytics (ad esempio *visite* e *sessioni*).
 
 
 ## Sezione filtro per tag {#tagfiltersection}
