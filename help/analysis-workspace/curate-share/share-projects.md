@@ -61,9 +61,9 @@ Puoi condividere un ruolo specifico con utenti o gruppi, oppure un collegamento.
 
 Quando condividi un ruolo di progetto specifico con utenti e gruppi dell’organizzazione, considera quanto segue:
 
-* I ruoli di progetto  (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]**, e **[!UICONTROL Read only]**) sono legati all’ID dell’utente e del progetto specifico. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite in [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started).
+* I ruoli di progetto  (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]**, e **[!UICONTROL Read only]**) sono legati all’ID dell’utente e del progetto specifico. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite in [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/admin-getting-started).
 
-* In Customer Journey Analytics, i gruppi sono definiti dai profili di prodotto in [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started). Gli amministratori possono condividere con qualsiasi gruppo, compresi *Tutti*. Gli utenti non amministratori possono condividere con qualsiasi gruppo di cui sono membri, ad eccezione di *Tutti*.
+* In Customer Journey Analytics, i gruppi sono definiti dai profili di prodotto in [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/admin-getting-started). Gli amministratori possono condividere con qualsiasi gruppo, compresi *Tutti*. Gli utenti non amministratori possono condividere con qualsiasi gruppo di cui sono membri, ad eccezione di *Tutti*.
 
 * Un destinatario posizionato in più ruoli, avrà sempre l’esperienza di livello più elevato. Questo scenario può verificarsi se un utente viene aggiunto sia come singolo utente che come parte di un gruppo. Ad esempio, se a un utente viene assegnato il ruolo **[!UICONTROL Edit original]** come singolo utente e il ruolo **[!UICONTROL Read only]** come membro di un gruppo, l&#39;utente riceve un&#39;esperienza di progetto **[!UICONTROL Edit original]**.
 
