@@ -4,11 +4,11 @@ description: Concetti e funzionalità per B2B edition di Customer Journey Analyt
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-badgePremium: label="B2B edition"
+badgePremium: label="B2B Edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 68f2fe684f6eb9590ab047e893fb04b1cbe1a8cd
+source-git-commit: a9c22cfd7077fd9e1ac4b9ea4ec0e016e9d2425b
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1468'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Customer Journey Analytics si basa sul concetto di tre contenitori: Persona, Ses
 ![B2C](assets/b2c-containers.svg){zoomable="yes"}
 
 
-### contenitori B2B
+### Contenitori B2B
 
 In Customer Journey Analytics B2B edition, all’elenco dei contenitori generati viene aggiunto un contenitore Account. Inoltre puoi configurare la generazione di contenitori aggiuntivi, come Account globale, Gruppo di acquisto e Opportunità.
 
@@ -87,7 +87,7 @@ Il B2B di Customer Journey Analytics distingue tra i seguenti tipi di dati e set
 | Tipo di dati | Serie temporali | Record contenitore | Record di campo |
 |---|---|---|---|
 | **Set di dati** | **Set di dati evento**<br/> Ad esempio:<ul><li>Analisi digitale</li><li>Eventi CRM</li><li>Eventi di persona</li><li>Dati del call center</li></ul> | **Set di dati profilo**<br/> Ad esempio:<ul><li>Record CRM</li><li>Record B2B di AJO</li><li>Record CDP</li><ul> | **Classificazioni**<br/> Ad esempio:<ul><li>Record campagna</li><li>Record elenco marketing</li><li>Metadati del contenuto</li><li>Record di prodotto</li></ul> |
-| Requisiti | **Timestamp**<br> Per ogni record è necessario:<ul><li>ID account</li><li>ID account globale</li><li>ID persona</li></ul> | **I record ID account**<br> richiedono un ID contenitore, ad esempio:<ul><li>Account</li><li>Persona</li><li>Opportunità</li><li>Gruppo acquisti</li></ul> | **La chiave corrispondente**<br> I record richiedono un ID contenuto in un contenitore o in un set di dati evento, ad esempio:<ul><li>ID campagna</li><li>ID contenuto</li><li>ID prodotto</li></ul> |
+| Requisiti | **Timestamp**<br> Per ogni record è necessario:<ul><li>ID account</li><li>ID account globale (facoltativo)</li></ul> | **I record ID account**<br> richiedono un ID contenitore, ad esempio:<ul><li>Account</li><li>Persona</li><li>Opportunità</li><li>Gruppo acquisti</li></ul> | **La chiave corrispondente**<br> I record richiedono un ID contenuto in un contenitore o in un set di dati evento, ad esempio:<ul><li>ID campagna</li><li>ID contenuto</li><li>ID prodotto</li></ul> |
 
 {style="table-layout:fixed"}
 
