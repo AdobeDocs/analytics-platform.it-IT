@@ -51,7 +51,7 @@ Utilizza il seguente processo durante l’esportare tabelle complete nel cloud:
 
 ![Processo di esportazione della tabella completa descritto nei passaggi da 1 a 4.](assets/export-full-table-process.png)
 
-## Esporta tabelle complete  {#export-from-workspace}
+## Esportare tabelle complete  {#export-from-workspace}
 
 <!-- markdownlint-disable MD034 -->
 
