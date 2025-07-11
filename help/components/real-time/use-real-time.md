@@ -26,7 +26,7 @@ Per utilizzare la generazione rapporti in tempo reale, abilita **[!UICONTROL Rea
 * [Pannello a forma libera](/help/analysis-workspace/c-panels/freeform-panel.md)
 * ...
 
-Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL  *Ultimo aggiornamento alle 19:55*].
+Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL &#x200B; *Ultimo aggiornamento alle 19:55*].
 
 Dal menu a discesa, seleziona il periodo in tempo reale su cui desideri creare un rapporto. Le opzioni disponibili sono:
 
