@@ -4,9 +4,9 @@ title: Creare progetti
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
-workflow-type: ht
-source-wordcount: '496'
+source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
+workflow-type: tm+mt
+source-wordcount: '450'
 ht-degree: 100%
 
 ---
@@ -81,7 +81,7 @@ Le impostazioni includono:
 | Mostra annotazioni | Specifica se le annotazioni per questo progetto sono visualizzate o meno. |
 | [Palette dei colori del progetto](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Per cambiare la palette di colori utilizzata per le categorie in Workspace, puoi scegliere una delle palette predefinite ottimizzate per il daltonismo o specificarne una personalizzata. Questa funzione interessa numerosi elementi in Workspace, compresa la maggior parte delle visualizzazioni. |
 | [Densità di visualizzazione](/help/analysis-workspace/build-workspace-project/view-density.md) | Consente di visualizzare più dati nella schermata riducendo la spaziatura verticale del pannello a sinistra, delle tabelle a forma libera e delle tabelle a coorte. |
-| Consenti commenti | **Nota:** questa funzionalità è in fase di test limitato e potrebbe non essere ancora disponibile nel tuo ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Customer Journey Analytics, consulta [Rilascio delle funzioni di Customer Journey Analytics](/help/release-notes/releases.md). <p>Quando questa opzione è abilitata, nella barra a destra del progetto in Analysis Workspace è disponibile un’area commenti. Per ulteriori informazioni, consulta [Aggiungere e gestire i commenti nei progetti](/help/analysis-workspace/build-workspace-project/comment-projects.md).</p> |
+| Consenti commenti | Quando questa opzione è abilitata, nella barra a destra del progetto in Analysis Workspace è disponibile un’area commenti. Per ulteriori informazioni, consulta [Aggiungere e gestire i commenti nei progetti](/help/analysis-workspace/build-workspace-project/comment-projects.md). |
 
 
 

@@ -4,7 +4,7 @@ title: Aggiungere E Gestire Commenti Nei Progetti
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -12,8 +12,6 @@ ht-degree: 0%
 ---
 
 # Aggiungere e gestire commenti nei progetti {#comment-on-projects}
-
-{{release-limited-testing}}
 
 I commenti in Analysis Workspace consentono di condividere informazioni approfondite e porre domande nel contesto di un progetto Analysis Workspace. Questo può semplificare le discussioni sui dati, mantenendo le conversazioni all’interno del contesto dei dati che vengono discussi.
 
@@ -151,9 +149,9 @@ Per includere un&#39;altra persona nel commento:
 
 ## Ricevi notifiche sui commenti
 
-I proprietari del progetto e [le persone specifiche menzionate](#include-others-in-a-comment) ricevono le notifiche in base alle impostazioni di notifica di Adobe Experience Cloud. Per impostazione predefinita, ricevono una notifica in-app, visibile dall&#39;[icona di notifica Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#view-notifications) ![icona di notifica Experience Cloud](assets/experience-cloud-notification.svg) in Customer Journey Analytics.
+I proprietari del progetto e [le persone specifiche menzionate](#include-others-in-a-comment) ricevono le notifiche in base alle impostazioni di notifica di Adobe Experience Cloud. Per impostazione predefinita, ricevono una notifica in-app, visibile dall&#39;[icona di notifica Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) ![icona di notifica Experience Cloud](assets/experience-cloud-notification.svg) in Customer Journey Analytics.
 
-Inoltre, gli utenti possono configurare le proprie impostazioni di notifica di Experience Cloud per ricevere notifiche e-mail e notifiche Slack [abbonandosi alle notifiche e-mail](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) e [abbonandosi alle notifiche Slack](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#slack).
+Inoltre, gli utenti possono configurare le proprie impostazioni di notifica di Experience Cloud per ricevere notifiche e-mail e notifiche Slack [abbonandosi alle notifiche e-mail](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) e [abbonandosi alle notifiche Slack](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
 
 ## Inserisci un badge per un commento esistente
 
