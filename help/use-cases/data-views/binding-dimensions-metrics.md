@@ -1,10 +1,10 @@
 ---
-title: Utilizzare dimensioni e metriche di binding nel Customer Journey Analytics
+title: Utilizzare dimensioni e metriche di binding in Customer Journey Analytics
 description: Scopri come attribuire dimensioni ad array di oggetti per complesse analisi di persistenza.
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 role: User
-source-git-commit: 1590b7fbdedfacf4665d191220156c887f9c562a
+source-git-commit: db47e3414046a2222c2cb95588c4e3cc6988e6be
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 70%
@@ -16,7 +16,7 @@ ht-degree: 70%
 
 Customer Journey Analytics offre diversi modi per mantenere i valori delle dimensioni oltre l’hit su cui sono impostati. Uno dei metodi di persistenza offerti da Adobe è noto come “binding”. Nelle versioni precedenti di Adobe Analytics, questo concetto era noto come “merchandising”.
 
-Anche se è possibile utilizzare dimensioni di binding con dati evento di livello principale, questo concetto è più indicato per l’utilizzo con [array di oggetti](/help/use-cases/object-arrays.md). È possibile attribuire una dimensione a una parte di un array di oggetti senza applicare la dimensione a tutti gli attributi di un dato evento. Ad esempio, puoi attribuire un termine di ricerca a un prodotto nell’array dell’oggetto carrello senza associare tale termine all’intero evento.
+Anche se è possibile utilizzare dimensioni di binding con dati evento di livello principale, questo concetto è più indicato per l’utilizzo con [array di oggetti](/help/use-cases/object-arrays.md). È possibile attribuire una dimensione a una parte di un array di oggetti senza applicare la dimensione a tutti gli attributi in un dato evento. Ad esempio, puoi attribuire un termine di ricerca a un prodotto nell’array dell’oggetto carrello senza associare tale termine all’intero evento.
 
 ## Esempio 1: utilizzare dimensioni di binding per attribuire altri attributi di prodotto a un acquisto
 
@@ -83,7 +83,7 @@ Vai in **[!UICONTROL Data views]** e associa la dimensione [!DNL Product Color] 
 
 ![Dimensione di binding](../assets/binding-dimension.png)
 
-Quando imposti questo modello di persistenza, il Customer Journey Analytics prende nota del nome del prodotto ogni volta che viene impostato il colore del prodotto. Quando riconosce lo stesso nome di prodotto in un evento successivo per questa persona, viene riportato anche il colore del prodotto. Ecco come si presentano gli stessi dati quando si associa il colore del prodotto al nome del prodotto:
+Quando imposti questo modello di persistenza, Customer Journey Analytics prende nota del nome del prodotto ogni volta che viene impostato il colore del prodotto. Quando riconosce lo stesso nome di prodotto in un evento successivo per questa persona, viene riportato anche il colore del prodotto. Ecco come si presentano gli stessi dati quando si associa il colore del prodotto al nome del prodotto:
 
 | product.color | ricavi |
 | --- | --- |
@@ -264,7 +264,7 @@ In Analysis Workspace, il rapporto risultante sarà simile al seguente:
 | racchetta da tennis | $ 34,99 |
 | scarpe | $ 79,99 |
 
-Il Customer Journey Analytics rileva automaticamente la relazione tra la dimensione selezionata e la dimensione di binding. Se la dimensione di binding si trova in un array di oggetti mentre la dimensione selezionata si trova a un livello superiore, è necessaria una metrica di binding. Una metrica di binding funge da trigger per una dimensione di binding: si associa solo agli eventi in cui è presente la metrica di binding. Nell’esempio precedente, la pagina dei risultati della ricerca include sempre una dimensione Termine di ricerca e una metrica Ricerche.
+Customer Journey Analytics rileva automaticamente la relazione tra la dimensione selezionata e la dimensione di binding. Se la dimensione di binding si trova in un array di oggetti mentre la dimensione selezionata si trova a un livello superiore, è necessaria una metrica di binding. Una metrica di binding funge da trigger per una dimensione di binding: si associa solo agli eventi in cui è presente la metrica di binding. Nell’esempio precedente, la pagina dei risultati della ricerca include sempre una dimensione Termine di ricerca e una metrica Ricerche.
 
 L’impostazione della dimensione Termine di ricerca su questo modello di persistenza esegue la logica seguente:
 
@@ -354,7 +354,7 @@ Analysis Workspace attribuisce il secondo episodio di Orangey al termine di rice
 
 ## Esempio 4: valutare il comportamento di navigazione e di ricerca in ambito retail
 
-È possibile associare valori alle dimensioni impostate negli eventi precedenti. Quando imposti una variabile con una dimensione di binding, il Customer Journey Analytics tiene conto del valore persistente. Se questo comportamento non è desiderato, è possibile regolare le impostazioni di persistenza della dimensione di binding. Considera l’esempio seguente in cui `product_finding_method` è impostato su un evento, quindi associato alla metrica Aggiunte al carrello nell’evento seguente.
+È possibile associare valori alle dimensioni impostate negli eventi precedenti. Quando imposti una variabile con una dimensione di binding, Customer Journey Analytics tiene conto del valore persistente. Se questo comportamento non è desiderato, è possibile regolare le impostazioni di persistenza della dimensione di binding. Considera l’esempio seguente in cui `product_finding_method` è impostato su un evento, quindi associato alla metrica Aggiunte al carrello nell’evento seguente.
 
 1. Un visitatore cerca il termine `camera`. Su questa pagina non è impostato alcun prodotto.
 
@@ -440,4 +440,4 @@ Se invece si associa `product_finding_method` alla metrica Aggiunte al carrello,
 
 >[!MORELIKETHIS]
 >
->Esercitazione [Dimension di binding nelle visualizzazioni dati](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=it).
+>Esercitazione [Dimensioni di binding nelle visualizzazioni dati](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html).
