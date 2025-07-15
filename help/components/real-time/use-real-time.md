@@ -1,18 +1,18 @@
 ---
 description: Scopri come utilizzare il reporting in tempo reale in Analysis Workspace.
 title: Usa reporting in tempo reale
-feature: Filters, Segments
+feature: Real-time Reporting
 hide: true
 hidefromtoc: true
 role: User
 badgePremium: label="Beta"
-source-git-commit: 24834f6a1424a885c6f7b3dcf0ad84375e21b462
+exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
+source-git-commit: 82aefce30834d6400d338896dc1968e37596393e
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 6%
+source-wordcount: '132'
+ht-degree: 10%
 
 ---
-
 
 # Utilizzare rapporti in tempo reale
 
@@ -23,10 +23,12 @@ Per utilizzare la generazione rapporti in tempo reale, abilita **[!UICONTROL Rea
 
 
 * [Pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md)
-* [Pannello a forma libera](/help/analysis-workspace/c-panels/freeform-panel.md)
-* ...
+* [A forma libera](/help/analysis-workspace/c-panels/freeform-panel.md)
+* [Attribuzione](/help/analysis-workspace/c-panels/attribution.md)
+* [Elemento successivo o precedente](/help/analysis-workspace/c-panels/next-previous.md)
+* [Quick Insights](/help/analysis-workspace/c-panels/quickinsight.md)
 
-Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL &#x200B; *Ultimo aggiornamento alle 19:55*].
+Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL  *Ultimo aggiornamento alle 19:55*].
 
 Dal menu a discesa, seleziona il periodo in tempo reale su cui desideri creare un rapporto. Le opzioni disponibili sono:
 
@@ -36,7 +38,7 @@ Dal menu a discesa, seleziona il periodo in tempo reale su cui desideri creare u
 * [!UICONTROL Last 8 hours]
 * [!UICONTROL Last 24 hours]
 
-Ora tutte le visualizzazioni vengono aggiornate ogni minuto per un massimo di 30 minuti, mentre è attiva la scheda del browser con il pannello con aggiornamento in tempo reale abilitato.
+Tutte le visualizzazioni nel pannello ora vengono aggiornate ogni minuto per un massimo di 30 minuti mentre è attiva la scheda del browser con il pannello con aggiornamento in tempo reale abilitato.
 
 ![Aggiornamento in tempo reale](assets/real-time-refresh.gif)
 
