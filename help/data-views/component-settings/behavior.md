@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 50599b36d333cae3735c6d4fd1b0af6fcabe9177
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_behavior"
 >title="Comportamento"
->abstract="Applicabile ai componenti dimensione e metrica. Determina il modo in cui gli elementi riga per questa metrica vengono aggregati. Specifica se i valori stringa per questa dimensione devono essere minuscoli."
+>abstract="Applicabile ai componenti dimensione e metrica. Determina il modo in cui gli elementi riga in questa dimensione vengono aggregati. Specifica se i valori stringa per questa dimensione devono essere minuscoli."
 
 <!-- markdownlint-enable MD034 -->
 
