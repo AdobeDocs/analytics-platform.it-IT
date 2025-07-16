@@ -12,7 +12,7 @@ breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 24834f6a1424a885c6f7b3dcf0ad84375e21b462
 workflow-type: tm+mt
 source-wordcount: '1275'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -272,7 +272,7 @@ ht-degree: 97%
    + Domande frequenti su Workspace e altro {#workspace-faq}
       + [Domande frequenti](../analysis-workspace/workspace-faq/faq.md)
       + [Ottimizzare le prestazioni](../analysis-workspace/workspace-faq/optimizing-performance.md)
-      + [Errore e risoluzione dei problemi](../analysis-workspace/workspace-faq/error-messages.md)
+      + [Errori e risoluzione dei problemi](../analysis-workspace/workspace-faq/error-messages.md)
       + [Limitazioni](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisiti](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accessibilità](../analysis-workspace/workspace-faq/aw-accessibility.md)
@@ -354,10 +354,10 @@ ht-degree: 97%
          + [Creare metriche calcolate](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [Trovare metriche](../components/calc-metrics/cm-workflow/cm-finding.md)
          + [Generare metriche calcolate](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
-         + [Un semplice esempio](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Un esempio semplice](../components/calc-metrics/cm-workflow/cm-pvv.md)
          + [Un esempio più complesso](../components/calc-metrics/cm-workflow/cm-orders-participation.md)
          + [Tipo di metrica e attribuzione](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [Metriche di partecipazione](../components/calc-metrics/cm-workflow/participation-metric.md)
+         + [Metriche di partecipazione.](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [Metriche segmentate](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Sovrapponi e sostituisci segmenti](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Filtrare le metriche calcolate](../components/calc-metrics/cm-workflow/cm-filter.md)
