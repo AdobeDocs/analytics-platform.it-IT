@@ -4,7 +4,7 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: 5464ad539fc1f753941297c3d7634f20506f719b
 workflow-type: tm+mt
 source-wordcount: '19791'
 ht-degree: 99%
@@ -538,7 +538,7 @@ Per accedere a tutti i modelli predfiniti disponibili:
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="Scopri quali sono i contenuti e gli attributi di contenuto con le migliori prestazioni."
->abstract="**Questo può aiutarti** a comprendere le prestazioni del contenuto a un livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici. Content Analytics utilizza l’intelligenza artificiale per generare automaticamente gli attributi e assegnarli ai contenuti tramite tag. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/content-analytics)<br/>**In base a ciò che hai appreso, potresti** fare diverse cose, ad esempio promuovere risorse ad alte prestazioni nella tua pagina Home, personalizzare il contenuto per segmenti specifici in modo da includere attributi ad alte prestazioni o sostituire il contenuto che ha iniziato a diventare obsoleto."
+>abstract="**Questo può aiutarti** a comprendere le prestazioni del contenuto a un livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici. Content Analytics utilizza l’intelligenza artificiale per generare automaticamente gli attributi e assegnare loro i tag ai contenuti.<a href="https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/content-analytics" target="_blank">Ulteriori informazioni</a> <br/>**In base a ciò che hai appreso, potresti** fare diverse cose, come promuovere risorse ad alte prestazioni nella tua pagina Home, personalizzare il contenuto per segmenti specifici in modo da includere attributi ad alte prestazioni o sostituire il contenuto che ha iniziato a diventare obsoleto."
 
 <!-- markdownlint-enable MD034 -->
 
