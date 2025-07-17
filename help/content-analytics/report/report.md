@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: c86da649c23ca06c3404b6e5db0b9970e8817a72
+source-git-commit: 51b3d533ef7b42ff03823f2dffcb2ccfbb9c4bbe
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 100%
@@ -31,7 +31,7 @@ In base alle dimensioni specifiche di Content Analytics utilizzate nel progetto,
 
 Per impostazione predefinita, le miniature vengono visualizzate per le dimensioni Content Analytics pertinenti. Per configurare la visualizzazione delle miniature per una dimensione Content Analytics:
 
-* Passa il puntatore su una riga di intestazione per una dimensione Content Analytics. Ad esempio, **[!UICONTROL Asset Id]** o **[!UICONTROL Experience IDs]**.
+* Passa il puntatore su una riga di intestazione per una dimensione Content Analytics. Ad esempio, **[!UICONTROL Asset IDs]** o **[!UICONTROL Experience IDs]**.
 * Seleziona ![Impostazione](/help/assets/icons/Setting.svg).
 * Nel menu a comparsa **[!UICONTROL Row setting]**, sotto a **[!UICONTROL Settings]**, seleziona o deseleziona **[!UICONTROL Show Thumbnails]**.
 
