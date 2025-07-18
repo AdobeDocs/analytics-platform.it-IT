@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 016bf917e3737f00364c531760722d9b0d6ec785
+source-git-commit: c2e62afc0db4ebca8401d2de97120f98bc692419
 workflow-type: tm+mt
-source-wordcount: '5276'
-ht-degree: 99%
+source-wordcount: '5307'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Luglio 2025** | |
 | Debugger | Nuovo articolo su come abilitare, utilizzare e disabilitare il debugger del progetto in Analysis Workspace. |
 | Consigli sulle prestazioni della visualizzazione Flusso | Sono state aggiunte informazioni che indicano che lasciare più di 10 nodi espansi in una singola visualizzazione di flusso può influire sul tempo di reporting. |
+| Metodo alternativo per concedere all’app Adobe Azure l’accesso alla chiave | Sono state aggiunte informazioni sulla concessione di autorizzazioni tramite il consenso di autorizzazione durante la [configurazione delle chiavi gestite dal cliente](/help/privacy/cmk.md#set-up-customer-managed-keys-for-customer-journey-analytics-on-azure) per Customer Journey Analytics in Azure. |
 | **Giugno 2025** | |
 | Nuove azioni di scelta rapida da tastiera | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [spostare i pannelli di Workspace](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) in alto e in basso in un progetto. |
 | **Maggio 2025** | |
@@ -217,7 +218,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Dicembre 2022** |  |
 | 16 dicembre 2022 | Nuovo argomento sulla [gestione dell’utilizzo dei dati di Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Ottobre 2022** | |
-| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
+| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Chiavi gestite dal cliente](/help/privacy/cmk.md). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Registro di controllo di Customer Journey Analytics](/help/privacy/audit-log.md). |
 | Ottobre 2022 | Nuovo argomento sulla visualizzazione del [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=it). |
