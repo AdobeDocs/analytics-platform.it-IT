@@ -1,22 +1,20 @@
 ---
-description: Esempio di intervalli di date personalizzati in Analysis Workspace.
+description: Scopri come definire intervalli di date personalizzati in Analysis Workspace.
 keywords: Analysis Workspace
-title: Esempi di intervalli di date personalizzati
+title: Esempio di intervalli di date personalizzati
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 2a152e09d4ff62a02182fc6ac085d4143105a665
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 3%
+source-wordcount: '113'
+ht-degree: 4%
 
 ---
 
 # Esempi di intervalli di date personalizzati
 
-Questo articolo mostra ulteriori esempi di intervalli di date personalizzati
-
-
+Questo articolo mostra ulteriori esempi di intervalli di date personalizzati.
 
 ## Ultimi due mesi fa
 
