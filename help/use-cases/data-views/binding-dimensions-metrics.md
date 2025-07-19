@@ -440,4 +440,4 @@ Se invece si associa `product_finding_method` alla metrica Aggiunte al carrello,
 
 >[!MORELIKETHIS]
 >
->Esercitazione [Dimensioni di binding nelle visualizzazioni dati](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html).
+>Esercitazione [Dimensioni di binding nelle visualizzazioni dati](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=it).
