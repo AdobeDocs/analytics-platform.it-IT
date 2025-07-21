@@ -9,7 +9,7 @@ exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 source-git-commit: 4163228b2ffb08a04e386e6ca31151c7143aed5c
 workflow-type: tm+mt
 source-wordcount: '2156'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 9%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -129,14 +129,14 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 | Creare una tendenza da una selezione | Crea una visualizzazione con grafico a linee di tendenza in base a un’area specifica selezionata nella visualizzazione Mappa. <p>Per ulteriori informazioni, vedere [Creare un grafico a linee con tendenze dalla visualizzazione mappa](#create-a-trended-line-chart-from-the-map-visualization). <!-- is this correct? --> | Impossibile creare una tendenza dalla visualizzazione mappa. |
 | Aggiungere un raggruppamento da una selezione | Suddividi un elemento dimensione, una metrica, un segmento o un intervallo di date specifico all’interno di un’area specifica selezionata nella visualizzazione Mappa. <p>Per ulteriori informazioni, consulta [Aggiungere un raggruppamento dalla visualizzazione mappa](#add-a-breakdown-from-the-map-visualization). | Impossibile aggiungere un raggruppamento dalla visualizzazione mappa. |
 
-## Inizia a creare una visualizzazione mappa {#begin-building-map}
+## Iniziare a creare una visualizzazione mappa {#begin-building-map}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_map_panel"
 >title="Configurare la visualizzazione mappa"
->abstract="Scegli la metrica o la metrica calcolata utilizzata come base per la visualizzazione della mappa. Puoi anche aggiungere un segmento se desideri concentrarti su un sottoinsieme specifico di dati.<p>Puoi aggiornare queste informazioni in qualsiasi momento dopo il rendering della visualizzazione.</p>"
+>abstract="Scegli la metrica o la metrica calcolata utilizzata come base per la visualizzazione mappa. Puoi anche aggiungere un segmento se desideri concentrarti su un sottoinsieme specifico di dati.<p>Puoi aggiornare queste informazioni in qualsiasi momento dopo il rendering della visualizzazione.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
