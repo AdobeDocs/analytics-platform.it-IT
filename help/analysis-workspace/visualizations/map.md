@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 4163228b2ffb08a04e386e6ca31151c7143aed5c
+source-git-commit: c5d550d92a7bf201d3b9f62243540d9c4e063fc8
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2166'
 ht-degree: 11%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,9 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
       * Mostra numeri negativi.
 
         Ad esempio, per rappresentare una metrica annuale, la mappa può visualizzare -33% per New York.
+
       * Con metriche di tipo *percent*, il clustering calcola la media delle percentuali insieme.
+
       * Una combinazione di colori verde e rosso indica positivo e negativo.
 
    * **Altre impostazioni di visualizzazione**: seleziona l&#39;icona Impostazioni ![Impostazioni](/help/assets/icons/Setting.svg) nell&#39;intestazione della visualizzazione per visualizzare le impostazioni aggiuntive per la visualizzazione mappa. Per ulteriori informazioni, consulta [Configurare le impostazioni di visualizzazione](#configure-visualization-settings).
@@ -238,7 +240,7 @@ Per configurare le impostazioni per la visualizzazione mappa:
    | **[!UICONTROL Styles]** | | |
    | | **[!UICONTROL Color theme]** | Mostra lo schema di colori utilizzato per la mappa di calore e le bolle. Puoi scegliere tra Corallo, Rossi, Verdi e Blu. L&#39;impostazione predefinita è Coral. |
    | | **[!UICONTROL Map style]** | È possibile scegliere tra Basic, Streets, Bright, Light, Dark e Satellite. |
-   | | **[!UICONTROL Cluster radius]** | Raggruppa i dati che si trovano entro un certo numero di pixel. Il valore predefinito è 50. |
+   | | **[!UICONTROL Cluster radius]** | Raggruppa i dati che si trovano entro un certo numero di pixel. Il valore predefinito è 50.<p>Questa opzione è disponibile solo quando **[!UICONTROL Bubbles]** è selezionato come **[!UICONTROL Map type]**.</p> |
    | | **[!UICONTROL Custom max value]** | Consente di modificare la soglia per il valore massimo per la mappa. Regolando questo valore si regola la scala per le bolle o i valori della mappa di calore (colore e dimensione) rispetto al valore massimo personalizzato impostato. |
    | | **[!UICONTROL Show annotations]** | Mostra le annotazioni effettuate per questa visualizzazione. |
    | | **[!UICONTROL Hide title]** | Nasconde il titolo della visualizzazione. |
@@ -263,15 +265,15 @@ Se disponi di set di dati personalizzati con precisione profonda, puoi configura
 
    1. Nel campo **[!UICONTROL Decimal places]**, modificare il numero di decimali per riflettere il livello di precisione desiderato:
 
-      * **0:** Preciso rispetto al livello di area geografica o paese nella visualizzazione mappa. Mostra 0 posizioni decimali nei report di Workspace.
+      * **0:** Preciso rispetto al livello di area geografica o paese nella visualizzazione mappa. Mostra 0 posizioni decimali nei rapporti di Workspace.
 
-      * **1:** Preciso al livello di regione o città grande nella visualizzazione mappa.  Mostra 1 posizione decimale nei report di Workspace.
+      * **1:** Preciso al livello di regione o città grande nella visualizzazione mappa.  Mostra 1 cifra decimale nei rapporti di Workspace.
 
-      * **2:** Preciso al livello di città o codice postale nella visualizzazione mappa. Mostra 2 posizioni decimali nei report di Workspace.
+      * **2:** Preciso al livello di città o codice postale nella visualizzazione mappa. Mostra 2 posizioni decimali nei rapporti di Workspace.
 
         Questa è la selezione predefinita.
 
-      * **3:** Preciso al livello di città o quartiere molto piccolo nella visualizzazione mappa. Mostra 3 posizioni decimali nei report di Workspace.
+      * **3:** Preciso al livello di città o quartiere molto piccolo nella visualizzazione mappa. Mostra 3 posizioni decimali nei rapporti di Workspace.
 
       * **4:** Preciso rispetto a una specifica particella di terreno o livello di edificio nella visualizzazione mappa. Mostra 4 posizioni decimali nei rapporti di Workspace.
 
