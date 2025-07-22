@@ -4,9 +4,9 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 0b2cc64bd6134ea7a843499af4461b33147f4e41
+source-git-commit: 807b61dd8e212eb013e1f7c6d714b07a5ca9188a
 workflow-type: tm+mt
-source-wordcount: '19793'
+source-wordcount: '19795'
 ht-degree: 99%
 
 ---
@@ -538,7 +538,7 @@ Per accedere a tutti i modelli predfiniti disponibili:
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="Scopri quali sono i contenuti e gli attributi di contenuto con le migliori prestazioni."
->abstract="**Questo può aiutarti** a comprendere le prestazioni del contenuto a un livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici. [Content Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/content-analytics){target="_blank"} utilizza l&#39;intelligenza artificiale per generare automaticamente attributi e assegnare tag al contenuto.<br/>**In base a ciò che hai appreso, potresti** fare diverse cose, come promuovere risorse ad alte prestazioni nella tua pagina Home, personalizzare il contenuto per segmenti specifici in modo da includere attributi ad alte prestazioni o sostituire il contenuto che ha iniziato a diventare obsoleto."
+>abstract="**Questo può aiutarti** a comprendere le prestazioni del contenuto a un livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici. Content Analytics utilizza l’intelligenza artificiale per generare automaticamente gli attributi e assegnarli ai contenuti tramite tag. <a href="https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/content-analytics" target="_blank">Ulteriori informazioni</a>.<br/>**In base a ciò che hai appreso, potresti** fare diverse cose, come promuovere risorse ad alte prestazioni nella tua pagina Home, personalizzare il contenuto per segmenti specifici in modo da includere attributi ad alte prestazioni o sostituire il contenuto che ha iniziato a diventare obsoleto."
 
 <!-- markdownlint-enable MD034 -->
 
