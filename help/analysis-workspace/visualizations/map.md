@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: c5d550d92a7bf201d3b9f62243540d9c4e063fc8
+source-git-commit: f0ef310f120e278685893308315902e32c54e35e
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2254'
 ht-degree: 11%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -287,11 +287,13 @@ Puoi creare un segmento basato su un’area specifica selezionata nella visualiz
 
 Per creare un segmento dalla visualizzazione mappa:
 
-1. (Facoltativo) Ingrandisci l’area specifica della mappa che contiene i dati da utilizzare per il segmento.
+1. Ingrandisce o trascina l’area della mappa contenente i dati che desideri utilizzare per il segmento.
 
-1. Fai clic sull&#39;icona dello strumento di selezione ![mappa selezione](assets/map-selection-icon.png), quindi trascina il mouse per selezionare l&#39;area desiderata.
+1. Esegui una delle operazioni seguenti:
 
-1. Selezionare **[!UICONTROL Create segment from selection]** dal menu a discesa visualizzato.
+   * **Per creare un segmento da tutti gli elementi attualmente visualizzati nella mappa:** Fare clic con il pulsante destro del mouse in un punto qualsiasi della mappa, quindi selezionare **[!UICONTROL Create segment from current view]**.
+
+   * **Per creare un segmento per un&#39;area più specifica della mappa:** Fai clic sullo strumento di selezione ![icona di selezione mappa](assets/map-selection-icon.png), trascina il mouse per selezionare l&#39;area desiderata, quindi seleziona **[!UICONTROL Create segment from selection]**.
 
 1. Utilizza il Generatore di segmenti per definire il nuovo segmento. Per ulteriori informazioni, consulta [Generatore di segmenti](/help/components/segments/seg-builder.md).
 
@@ -301,11 +303,13 @@ Puoi creare un pubblico in base a un’area specifica selezionata nella visualiz
 
 Per creare un pubblico dalla visualizzazione mappa:
 
-1. (Facoltativo) Ingrandisci l’area specifica della mappa contenente i dati che desideri utilizzare per il pubblico.
+1. Ingrandisce o trascina l&#39;area della mappa contenente i dati che si desidera utilizzare per il pubblico.
 
-1. Fai clic sull&#39;icona dello strumento di selezione ![mappa selezione](assets/map-selection-icon.png), quindi trascina il mouse per selezionare l&#39;area desiderata.
+1. Esegui una delle operazioni seguenti:
 
-1. Selezionare **[!UICONTROL Create audience from selection]** dal menu a discesa visualizzato.
+   * **Per creare un pubblico da tutto ciò che è visualizzato nella mappa:** Fare clic con il pulsante destro del mouse in un punto qualsiasi della mappa, quindi selezionare **[!UICONTROL Create audience from current view]**.
+
+   * **Per creare un pubblico per un&#39;area più specifica della mappa:** Fai clic sullo strumento di selezione ![icona di selezione mappa](assets/map-selection-icon.png), trascina il mouse per selezionare l&#39;area desiderata, quindi seleziona **[!UICONTROL Create audience from selection]**.
 
 1. Utilizza il generatore di tipi di pubblico per definire il nuovo pubblico. Per ulteriori informazioni, consulta [Generatore di pubblico](/help/components/audiences/publish.md#audience-builder) in [Creare e pubblicare tipi di pubblico](/help/components/audiences/publish.md)
 
@@ -315,11 +319,13 @@ Puoi creare una visualizzazione con grafico a linee di tendenza per i dati all�
 
 Per creare un grafico a linee con tendenze dalla visualizzazione mappa:
 
-1. (Facoltativo) Ingrandire l&#39;area specifica della mappa contenente i dati che si desidera utilizzare per il grafico a linee con tendenze.
+1. Esegue lo zoom o il panning dell&#39;area della mappa contenente i dati che si desidera utilizzare per il grafico a linee con tendenze.
 
-1. Fai clic sull&#39;icona dello strumento di selezione ![mappa selezione](assets/map-selection-icon.png), quindi trascina il mouse per selezionare l&#39;area desiderata.
+1. Esegui una delle operazioni seguenti:
 
-1. Selezionare **[!UICONTROL Trend]** dal menu a discesa visualizzato.
+   * **Per creare un grafico a linee con tendenze da tutto ciò che è visualizzato nella mappa:** Fare clic con il pulsante destro del mouse in un punto qualsiasi della mappa, quindi selezionare **[!UICONTROL Trend from current view]**.
+
+   * **Per creare un grafico a linee di tendenza per un&#39;area più specifica della mappa:** Fare clic sullo strumento di selezione ![icona di selezione mappa](assets/map-selection-icon.png), trascinare il mouse per selezionare l&#39;area desiderata, quindi selezionare **[!UICONTROL Trend]**.
 
    Viene creata una visualizzazione delle linee che include una linea di tendenza. Per ulteriori informazioni su questa visualizzazione, vedi [Riga](/help/analysis-workspace/visualizations/line.md).
 
