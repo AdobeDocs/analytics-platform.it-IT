@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 2d4e8c51111427564c761a16deb27223e98cd2ec
+source-git-commit: c9560f8b11ff055040611e208f09ee3e2d7bb5da
 workflow-type: tm+mt
-source-wordcount: '8570'
+source-wordcount: '8502'
 ht-degree: 99%
 
 ---
@@ -19,27 +19,6 @@ ht-degree: 99%
 >title="Campi derivati"
 >abstract="Un campo derivato consente di definire all’istante le manipolazioni dati, tramite un generatore di regole personalizzabile. Puoi quindi utilizzare tale campo derivato come componente (metrica o dimensione) in Workspace o definirlo ulteriormente come componente nella Vista dati."
 
-<!-- BEGIN
-     Temporarily have these entries at the top; once functions are documented
-     move them to appropriate function section
--->
-
->[!CONTEXTUALHELP]
->id="dataview_derivedfields_datemath"
->title="Matematica della data"
->abstract="Questa funzione consente di restituire la differenza tra due campi data o data-ora."
-
->[!CONTEXTUALHELP]
->id="dataview_derivedfields_typecast"
->title="Typecast"
->abstract="Questa funzione consente di modificare istantaneamente il tipo di campo, al fine di renderlo disponibile per ulteriori trasformazioni in Customer Journey Analytics."
-
->[!CONTEXTUALHELP]
->id="dataview_derivedfields_depth"
->title="Profondità"
->abstract="Questa funzione consente di restituire la profondità di qualsiasi campo, in modo analogo alla funzionalità del componente standard relativo alla profondità di un evento."
-
-<!-- END -->
 
 I campi derivati sono un aspetto importante della funzionalità di reporting in tempo reale in Adobe Customer Journey Analytics. Un campo derivato consente di definire al volo manipolazioni (spesso complesse) dei dati tramite un generatore di regole personalizzabile. Puoi quindi utilizzare tale campo derivato come componente (metrica o dimensione) in [Workspace](../../analysis-workspace/home.md) o definirlo ulteriormente come componente nella [Visualizzazione dati](../data-views.md).
 
@@ -65,8 +44,8 @@ Quando crei o modifichi un campo derivato, utilizzi l’interfaccia del campo de
 |---------|----------|--------|
 | 1 | **Selettore** | Utilizza l’area del selettore per selezionare e trascinare la funzione, il modello di funzione, il campo schema o il campo standard nel generatore di regole. <br/>Utilizza l’elenco a discesa per selezionare tra: <br/>![Funzione](assets/Smock_Function_18_N.svg) [!UICONTROL Functions], elenca le [funzioni](#function-reference) disponibili, </br>![icona Modello funzione](assets/Smock_FileTemplate_18_N.svg) [!UICONTROL Function templates], elenca [modelli di funzione](#function-templates) disponibili, <br/>![icona Campo schema](assets/Smock_Folder_18_N.svg) [!UICONTROL Schema fields], elenca campi disponibili da categorie di set di dati (evento, profilo, ricerca) e campi derivati definiti in precedenza e <br/>![icona Campo standard](assets/Smock_DragHandle_18_N.svg) [!UICONTROL Standard fields], campi disponibili standard (come ID set di dati piattaforma). Nel selettore vengono visualizzati solo i campi standard stringa e numerici. Se la funzione supporta altri tipi di dati, è possibile selezionare campi standard con questi altri tipi di dati per valori o campi all’interno dell’interfaccia della regola.<br/>È possibile cercare funzioni, modelli di funzione, schemi e campi standard utilizzando la casella di ricerca ![icona Ricerca](assets/Smock_Search_18_N.svg). <br/>È possibile filtrare l’elenco di oggetti selezionato selezionando ![icona Filtro](assets/Smock_Filter_18_N.svg) Filtro e specificando i filtri nella finestra di dialogo [!UICONTROL Filter fields by]. Puoi rimuovere facilmente i filtri utilizzando ![icona Chiudi](assets/CrossSize75.svg) per ogni filtro. |
 | 2 | **Generatore di regole** | Puoi creare il campo derivato in sequenza utilizzando una o più regole. Una regola è un’implementazione specifica di una funzione ed è quindi sempre associata a una sola funzione. Per creare una regola, trascina e rilascia una funzione nel generatore di regole. Il tipo di funzione determina l’interfaccia della regola.<br/>Consulta [Interfaccia regola](#rule-interface) per ulteriori informazioni. <br/>È possibile inserire una funzione all’inizio, alla fine o tra le regole già disponibili nel generatore di regole. L’ultima regola nel generatore di regole determina l’output finale del campo derivato. |
-| 3 | **[!UICONTROL **&#x200B; Impostazioni campo &#x200B;**]** | È possibile denominare e descrivere il campo derivato e verificarne il tipo. |
-| 4 | **[!UICONTROL **&#x200B; Output finale &#x200B;**]** | Questa area mostra un’anteprima immediata aggiornata dei valori di output, in base ai dati degli ultimi 30 giorni e alle modifiche apportate al campo derivato nel generatore di regole. |
+| 3 | **[!UICONTROL ** Impostazioni campo **]** | È possibile denominare e descrivere il campo derivato e verificarne il tipo. |
+| 4 | **[!UICONTROL ** Output finale **]** | Questa area mostra un’anteprima immediata aggiornata dei valori di output, in base ai dati degli ultimi 30 giorni e alle modifiche apportate al campo derivato nel generatore di regole. |
 
 {style="table-layout:auto"}
 
@@ -75,7 +54,7 @@ Quando crei o modifichi un campo derivato, utilizzi l’interfaccia del campo de
 Quando accedi all’interfaccia del campo derivato per la prima volta, viene visualizzata la procedura guidata [!UICONTROL Start with a field template].
 
 1. Seleziona il modello che descrive meglio il tipo di campo che stai tentando di creare.
-2. Seleziona il pulsante **[!UICONTROL **&#x200B; Seleziona &#x200B;**]** per continuare.
+2. Seleziona il pulsante **[!UICONTROL ** Seleziona **]** per continuare.
 
 La finestra di dialogo del campo derivato viene compilata con regole (e funzioni) necessarie o utili per il tipo di campo selezionato. Per ulteriori informazioni sui modelli disponibili, consulta [Modelli di funzione](#function-templates).
 
@@ -89,7 +68,7 @@ Quando definisci una regola nel generatore di regole, utilizzi l’interfaccia r
 |---------|----------|--------|
 | A | **Nome regola** | Per impostazione predefinita, il nome della regola è **Regola X** (X fa riferimento a un numero di sequenza). Per modificare il nome di una regola, selezionane il nome e digita quello nuovo nome, ad esempio `Query Parameter`. |
 | B | **Nome funzione** | Il nome della funzione selezionato per la regola, ad esempio [!UICONTROL URL PARSE]. Quando la funzione è l’ultima nella sequenza di funzioni e determina i valori di output finali, il nome della funzione è seguito da [!UICONTROL - FINAL OUTPUT], ad esempio [!UICONTROL URL PARSE - FINAL OUTPUT]. <br/>Per visualizzare un pop-up con ulteriori informazioni sulla funzione, seleziona l’![icona Guida](assets/Smock_HelpOutline_18_N.svg). |
-| C | **Descrizione regola** | Facoltativamente, puoi aggiungere una descrizione a una regola.<br/>Seleziona l’![icona Altro](assets/More.svg), quindi seleziona **[!UICONTROL ** Aggiungi descrizione **]** per aggiungere una descrizione o **[!UICONTROL **&#x200B; Modifica descrizione &#x200B;**]** per modificare una descrizione esistente.<br/>Utilizzare l’editor per immettere una descrizione. È possibile utilizzare la barra degli strumenti per formattare il testo (utilizzando selettore di stile, grassetto, corsivo, sottolineato, a destra, a sinistra, centrato, colore, elenco numerato, elenco puntato) e aggiungendo collegamenti a informazioni esterne. <br/>Per completare la modifica della descrizione, fai clic all’esterno dell’editor. |
+| C | **Descrizione regola** | Facoltativamente, puoi aggiungere una descrizione a una regola.<br/>Seleziona l’![icona Altro](assets/More.svg), quindi seleziona **[!UICONTROL ** Aggiungi descrizione **]** per aggiungere una descrizione o **[!UICONTROL ** Modifica descrizione **]** per modificare una descrizione esistente.<br/>Utilizzare l’editor per immettere una descrizione. È possibile utilizzare la barra degli strumenti per formattare il testo (utilizzando selettore di stile, grassetto, corsivo, sottolineato, a destra, a sinistra, centrato, colore, elenco numerato, elenco puntato) e aggiungendo collegamenti a informazioni esterne. <br/>Per completare la modifica della descrizione, fai clic all’esterno dell’editor. |
 | D | **Area funzione** | Definisce la logica della funzione. L’interfaccia dipende dal tipo di funzione. Il menu a discesa per [!UICONTROL Field] o [!UICONTROL Value] mostra tutte le categorie di campi (regole, campi standard, campi) disponibili, in base al tipo di input previsto dalla funzione. In alternativa, puoi trascinare e rilasciare un campo dal selettore dei campi Schema e Standard su un Campo o un Valore. Quando il campo trascinato proviene da un set di dati di ricerca, viene inserita automaticamente una funzione di ricerca prima della funzione definita. <br/>Per informazioni dettagliate su ciascuna delle funzioni supportate, vedere [Riferimento funzione](#function-reference). |
 
 {style="table-layout:auto"}
@@ -98,36 +77,36 @@ Quando definisci una regola nel generatore di regole, utilizzi l’interfaccia r
 
 1. Seleziona una visualizzazione dati esistente o creane una. Per ulteriori informazioni, consulta [Visualizzazioni dati](../data-views.md).
 
-2. Seleziona la scheda **[!UICONTROL **&#x200B; Componenti &#x200B;**]** della visualizzazione dati.
+2. Seleziona la scheda **[!UICONTROL ** Componenti **]** della visualizzazione dati.
 
-3. Seleziona **[!UICONTROL **&#x200B; Crea campo derivato &#x200B;**]** dalla barra a sinistra.
+3. Seleziona **[!UICONTROL ** Crea campo derivato **]** dalla barra a sinistra.
 
 4. Per definire il campo derivato, utilizza l’interfaccia [!UICONTROL Create derived field]. Consulta [Interfaccia campo derivato](#derived-field-interface).
 
-   Per salvare il nuovo campo derivato, seleziona **[!UICONTROL **&#x200B; Salva &#x200B;**]**.
+   Per salvare il nuovo campo derivato, seleziona **[!UICONTROL ** Salva **]**.
 
-5. Il nuovo campo derivato viene aggiunto al contenitore [!UICONTROL Derived fields >], come parte dei **[!UICONTROL **&#x200B; campi Schema &#x200B;**]** nella barra a sinistra della visualizzazione dati.
+5. Il nuovo campo derivato viene aggiunto al contenitore [!UICONTROL Derived fields >], come parte dei **[!UICONTROL ** campi Schema **]** nella barra a sinistra della visualizzazione dati.
 
 
 ## Modificare un campo derivato {#edit}
 
 1. Seleziona una visualizzazione dati esistente. Per ulteriori informazioni, consulta [Visualizzazione dati](../data-views.md).
 
-2. Seleziona la scheda **[!UICONTROL **&#x200B; Componenti &#x200B;**]** della visualizzazione dati.
+2. Seleziona la scheda **[!UICONTROL ** Componenti **]** della visualizzazione dati.
 
-3. Seleziona la scheda **[!UICONTROL **&#x200B; Campi schema &#x200B;**]** nel riquadro [!UICONTROL Connection] a sinistra.
+3. Seleziona la scheda **[!UICONTROL ** Campi schema **]** nel riquadro [!UICONTROL Connection] a sinistra.
 
-4. Seleziona **[!UICONTROL **&#x200B; Campi derivati >**]** contenitore.
+4. Seleziona **[!UICONTROL ** Campi derivati >**]** contenitore.
 
 5. Passa il puntatore sul campo derivato che desideri modificare e seleziona ![icona Modifica](assets/Smock_Edit_18_N.svg).
 
 6. Per modificare il campo derivato, utilizza l’interfaccia [!UICONTROL Edit derived field]. Vedi [Interfaccia campo derivato](#derived-field-interface).
 
-   - Seleziona **[!UICONTROL **&#x200B; Salva &#x200B;**]** per salvare il campo derivato aggiornato.
+   - Seleziona **[!UICONTROL ** Salva **]** per salvare il campo derivato aggiornato.
 
-   - Seleziona **[!UICONTROL **&#x200B; Annulla &#x200B;**]** per annullare eventuali modifiche apportate al campo derivato.
+   - Seleziona **[!UICONTROL ** Annulla **]** per annullare eventuali modifiche apportate al campo derivato.
 
-   - Seleziona **[!UICONTROL **&#x200B; Salva con nome &#x200B;**]** per salvare il campo derivato come nuovo campo derivato. Il nuovo campo derivato ha lo stesso nome del campo derivato originale modificato con in fondo `(copy)`.
+   - Seleziona **[!UICONTROL ** Salva con nome **]** per salvare il campo derivato come nuovo campo derivato. Il nuovo campo derivato ha lo stesso nome del campo derivato originale modificato con in fondo `(copy)`.
 
 In alternativa, se hai utilizzato un campo derivato come componente per dimensioni o metriche nella visualizzazione dati:
 
@@ -137,11 +116,11 @@ In alternativa, se hai utilizzato un campo derivato come componente per dimensio
 
 1. Per modificare il campo derivato, utilizza l’interfaccia [!UICONTROL Edit derived field]. Vedi [Interfaccia campo derivato](#derived-field-interface).
 
-   - Seleziona **[!UICONTROL **&#x200B; Salva &#x200B;**]** per salvare il campo derivato aggiornato.
+   - Seleziona **[!UICONTROL ** Salva **]** per salvare il campo derivato aggiornato.
 
-   - Seleziona **[!UICONTROL **&#x200B; Annulla &#x200B;**]** per annullare eventuali modifiche apportate al campo derivato.
+   - Seleziona **[!UICONTROL ** Annulla **]** per annullare eventuali modifiche apportate al campo derivato.
 
-   - Seleziona **[!UICONTROL **&#x200B; Salva con nome &#x200B;**]** per salvare il campo derivato come nuovo campo derivato. Il nuovo campo derivato ha lo stesso nome del campo derivato originale modificato con in fondo `(copy)`.
+   - Seleziona **[!UICONTROL ** Salva con nome **]** per salvare il campo derivato come nuovo campo derivato. Il nuovo campo derivato ha lo stesso nome del campo derivato originale modificato con in fondo `(copy)`.
 
 
 
@@ -149,11 +128,11 @@ In alternativa, se hai utilizzato un campo derivato come componente per dimensio
 
 1. Seleziona una visualizzazione dati esistente. Per ulteriori informazioni, consulta [Visualizzazione dati](../data-views.md).
 
-2. Seleziona la scheda **[!UICONTROL **&#x200B; Componenti &#x200B;**]** della visualizzazione dati.
+2. Seleziona la scheda **[!UICONTROL ** Componenti **]** della visualizzazione dati.
 
-3. Seleziona la scheda **[!UICONTROL **&#x200B; Campi schema &#x200B;**]** nel riquadro [!UICONTROL Connection].
+3. Seleziona la scheda **[!UICONTROL ** Campi schema **]** nel riquadro [!UICONTROL Connection].
 
-4. Seleziona **[!UICONTROL **&#x200B; Campi derivati >**]** contenitore.
+4. Seleziona **[!UICONTROL ** Campi derivati >**]** contenitore.
 
 5. Passa il puntatore sul campo derivato che desideri eliminare e seleziona l’![icona Modifica](assets/Smock_Edit_18_N.svg).
 
@@ -161,7 +140,7 @@ In alternativa, se hai utilizzato un campo derivato come componente per dimensio
 
    Una finestra di dialogo [!UICONTROL Delete component] richiede di confermare l’eliminazione. Considera eventuali riferimenti esterni al campo derivato che potrebbero esistere all’esterno della visualizzazione dati.
 
-   - Seleziona **[!UICONTROL **&#x200B; Continua &#x200B;**]** per eliminare il campo derivato.
+   - Seleziona **[!UICONTROL ** Continua **]** per eliminare il campo derivato.
 
 In alternativa, se hai utilizzato un campo derivato come componente per dimensioni o metriche nella visualizzazione dati:
 
@@ -173,7 +152,7 @@ In alternativa, se hai utilizzato un campo derivato come componente per dimensio
 
    Una finestra di dialogo [!UICONTROL Delete component] richiede di confermare l’eliminazione. Considera eventuali riferimenti esterni al campo derivato che potrebbero esistere all’esterno della visualizzazione dati.
 
-   - Seleziona **[!UICONTROL **&#x200B; Continua &#x200B;**]** per eliminare il campo derivato.
+   - Seleziona **[!UICONTROL ** Continua **]** per eliminare il campo derivato.
 
 >[!NOTE]
 >
@@ -444,14 +423,10 @@ Per ciascuna funzione supportata, di seguito trovi i dettagli su:
 
 ### Caso When {#casewhen}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_casewhen"
 >title="Caso When"
 >abstract="Questa funzione consente di applicare condizionali basati su criteri definiti da uno o più campi. Tali criteri vengono quindi utilizzati per definire i valori nel nuovo campo derivato, in base alla sequenza delle condizioni."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Applica i condizionali, in base a criteri definiti da uno o più campi. Tali criteri vengono quindi utilizzati per definire i valori in un nuovo campo derivato, in base alla sequenza delle condizioni.
@@ -684,14 +659,10 @@ I seguenti vincoli si applicano e vanno rispettati quando *si selezionano* e *si
 
 ### Classifica {#classify}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_classify"
 >title="Classifica"
 >abstract="Questa funzione consente di definire un insieme di valori che vengono sostituiti dai valori corrispondenti tramite l’immissione di testo."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Definisce un insieme di valori che vengono sostituiti dai valori corrispondenti in un nuovo campo derivato.
@@ -913,17 +884,14 @@ Definisci un campo derivato `Origin - Destination`. Utilizzi la funzione [!UICON
 
 +++
 
+<!-- DEDUPLICATE -->
 
 ### Deduplica {#dedup}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_deduplicate"
 >title="Deduplica"
 >abstract="Questa funzione consente di configurare un campo in modo da contare solo i valori che non si ripetono a livello di sessione o di persona. Inoltre, è possibile utilizzare un ID di deduplica per garantire che, in base a un determinato ID (ad esempio un ID acquisto), venga utilizzato un solo valore (o la prima o l’ultima istanza)."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Impedisce di contare un valore più volte.
@@ -1007,6 +975,7 @@ Definisci un nuovo campo derivato `Tracking Code (deduplicated)`. Utilizzi la fu
 +++
 
 
+
 <!-- FIND AND REPLACE -->
 
 ### Trova e sostituisci {#find-and-replace}
@@ -1017,8 +986,6 @@ Definisci un nuovo campo derivato `Tracking Code (deduplicated)`. Utilizzi la fu
 >id="dataview_derivedfields_findandreplace"
 >title="Trova e sostituisci"
 >abstract="Questa funzione consente di trovare tutti i valori in un campo selezionato e sostituirli con un valore diverso in un nuovo campo derivato."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Trova tutti i valori in un campo selezionato e li sostituisce con un valore diverso in un nuovo campo derivato.
@@ -1091,14 +1058,10 @@ Definisci un campo derivato `Email Marketing (updated)`. Utilizzi la funzione [!
 
 ### Ricerca {#lookup}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_lookup"
 >title="Ricerca"
 >abstract="Questa funzione consente di utilizzare i campi di un set di dati di ricerca utilizzando una chiave di corrispondenza tra i set di dati."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Cerca i valori utilizzando un campo da un set di dati di ricerca e restituisce un valore in un nuovo campo derivato o per un’ulteriore elaborazione delle regole.
@@ -1152,14 +1115,10 @@ Puoi inserire rapidamente una funzione [!UICONTROL Lookup] nel generatore di reg
 
 ### In minuscolo {#lowercase}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_lowercase"
 >title="In minuscolo"
 >abstract="Questa funzione converte l’intero testo della stringa in valori minuscoli."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Converte i valori da un campo in minuscolo e li memorizza in un nuovo campo derivato.
@@ -1213,14 +1172,10 @@ Definisci un campo derivato `Product Names`. Utilizzi la funzione [!UICONTROL LO
 
 ### Matematica {#math}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_math"
 >title="Matematica"
 >abstract="Questa funzione consente di eseguire operazioni matematiche su un campo. La funzione può essere utilizzata per eseguire operazioni aritmetiche di base, quali addizione, sottrazione, moltiplicazione e divisione."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Utilizza gli operatori matematici di base (addizione, sottrazione, moltiplicazione, divisione ed elevamento a potenza) nei campi numerici.
@@ -1277,7 +1232,7 @@ Per creare una formula:
 
 1. Aggiungi l’operando (ad esempio `*` per moltiplicare) seguito da un altro campo o da un valore statico. Puoi utilizzare le parentesi per definire formule più complesse.
 
-1. Per inserire un valore statico (ad esempio `1.05`), digita il valore e seleziona **[!UICONTROL Add *x *come valore statico]**&#x200B;o **[!UICONTROL Add -*x* come valore statico negativo]** dal menu a comparsa.
+1. Per inserire un valore statico (ad esempio `1.05`), digita il valore e seleziona **[!UICONTROL Add *x *come valore statico]**o **[!UICONTROL Add -*x* come valore statico negativo]** dal menu a comparsa.
    ![Matematica: Ulteriori informazioni 2](assets/math-more-info-2.png)
 
 1. Un segno di spunta verde ![Segno di spunta](./assets/checkmark.svg)</span> indica se la formula matematica è valida, altrimenti verrà visualizzato un avviso ![Avviso](./assets/alert.svg) e il messaggio [!UICONTROL Invalid formula expression].
@@ -1290,11 +1245,9 @@ Durante l’utilizzo di numeri statici nella funzione [!UICONTROL MATH] è neces
 - Se stai utilizzando più valori statici in una formula, questi devono essere raggruppati utilizzando le parentesi affinché la formula sia valida. Ad esempio:
 
    - Questa formula restituisce un errore.
-
      ![Matematica: Ulteriori informazioni 4](assets/math-more-info-4.png)
 
    - Questa formula è valida.
-
      ![Matematica: Ulteriori informazioni 5](assets/math-more-info-5.png)
 
 Utilizza la funzione Matematica per i calcoli basati a livello di hit. Utilizza la funzione [Riepilogo](#summarize) per i calcoli basati su eventi, sessioni o persone.
@@ -1306,14 +1259,10 @@ Utilizza la funzione Matematica per i calcoli basati a livello di hit. Utilizza 
 
 ### Unisci campi {#merge}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_mergefields"
 >title="Unisci campi"
 >abstract="Questa funzione consente di prendere valori da due campi diversi e includerne i rispettivi valori in una singola dimensione. La regola verifica innanzitutto se è impostato il primo valore. In caso contrario, utilizzerà il secondo valore e così via."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Unisce i valori di due campi diversi in un nuovo campo derivato.
@@ -1382,14 +1331,10 @@ Devi selezionare lo stesso tipo di campi in una regola Unisci campi. Se, ad esem
 
 ### Successivo o Precedente {#next-previous}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_nextprevious"
 >title="Successivo o Precedente"
 >abstract="Questa funzione consente di esaminare il valore successivo o precedente raccolto per un determinato campo."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Accetta un campo come input e risolve il valore successivo o precedente per tale campo nell’ambito della sessione o dell’utilizzo. Ciò si applica solo ai campi della tabella Visita ed Evento.
@@ -1464,14 +1409,10 @@ Puoi selezionare solo i campi che appartengono alla tabella Visita o Evento.
 
 ### Sostituzione Regex {#regex-replace}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_regexreplace"
 >title="Sostituzione Regex"
 >abstract="Questa funzione consente di estrarre parti di una stringa utilizzando espressioni regolari."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Sostituisce un valore di un campo utilizzando un’espressione regolare in un nuovo campo derivato.
@@ -1571,14 +1512,10 @@ Customer Journey Analytics utilizza un sottoinsieme della sintassi delle regex i
 
 ### Suddivisione {#split}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_split"
 >title="Suddivisione"
 >abstract="Questa funzione consente di suddividere un campo in più campi in base a un delimitatore."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Divide un valore da un campo in un nuovo campo derivato.
@@ -1673,14 +1610,10 @@ Crea un campo derivato `Second Response` per prendere l&#39;ultimo valore dal ca
 
 ### Riepilogo {#summarize}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_summarize"
 >title="Riepilogo"
 >abstract="Questa funzione consente di aggregare i valori a livello di evento, sessione o persona. A seconda del tipo di campo, per il campo selezionato saranno disponibili opzioni diverse."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Consente di applicare funzioni di tipo aggregazione a metriche o dimensioni a livelli di evento, sessione e utente.
@@ -1751,14 +1684,10 @@ Utilizza la funzione Riepilogo per i calcoli basati sull’ambito evento, sessio
 
 ### Taglia {#trim}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_trim"
 >title="Taglia"
 >abstract="Questa funzione consente di rimuovere spazi o caratteri speciali dall’inizio o dalla fine di una stringa. Inoltre, consente di specificare il numero di caratteri da utilizzare per il valore restituito, sia nella parte anteriore sia alla fine della stringa."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Taglia spazi vuoti, caratteri speciali o il numero di caratteri dall’inizio o dalla fine dei valori di campo in un nuovo campo derivato.
@@ -1868,19 +1797,14 @@ Crei un campo derivato `Store Identifier`. Utilizzi la funzione [!UICONTROL TRIM
 {style="table-layout:auto"}
 +++
 
-
 <!-- URL PARSE -->
 
 ### Analisi URL {#urlparse}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_urlparse"
 >title="Analisi URL"
 >abstract="Questa funzione consente di analizzare diverse parti di un URL, inclusi l’host, il percorso o i parametri di query."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Analizza diverse parti di un URL, inclusi i parametri di protocollo, host, percorso o query.
