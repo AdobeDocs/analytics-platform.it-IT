@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 82aefce30834d6400d338896dc1968e37596393e
+source-git-commit: fedb1337b32e44fc00989bace6a4d1788043f55f
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 14%
+source-wordcount: '1059'
+ht-degree: 13%
 
 ---
 
@@ -29,17 +29,17 @@ Vedi [confronto dei rapporti](#reporting-comparison) per ulteriori dettagli.
 >
 
 
-Per creare un rapporto sulla data Marketo Engage in Customer Journey Analytics:
+Per creare rapporti sui dati Marketo Engage in Customer Journey Analytics:
 
 +++ &#x200B;1. Mappa i campi dati di origine di Marketo ai relativi target XDM
 
-Mappa gli oggetti [Persons](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Persone) e [Activities](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Attività) ai rispettivi campi di destinazione dello schema XDM.
+Mappa gli oggetti [Persons](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Persone) e [Activities](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Attività) ai rispettivi campi di destinazione dello schema XDM.
 
 +++
 
 +++ &#x200B;2. Inserire dati Marketo in Adobe Experience Platform
 
-Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni connesse a Platform.
+Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni connesse a Platform.
 
 +++
 
@@ -137,3 +137,6 @@ Di seguito è riportata una tabella di confronto rapido sulle funzioni di report
 | **Reporting personalizzato e flessibilità** | Advanced BI (componente aggiuntivo) per approfondimenti su programmi e account. | Estremamente flessibile nella modalità di creazione di aree di lavoro, dashboard o report personalizzati utilizzando tutti i dati disponibili. |
 | **Analisi del pubblico** | Filtra e segmenta elenchi di programmi, coinvolgimento ed elenchi avanzati. | Visualizzazioni personalizzate e di percorso, percorsi del pubblico e analisi di sovrapposizione dei segmenti. |
 | **Utenti previsti** | Addetti al marketing, operatori di marketing, addetti alla generazione della domanda, funzionari addetti alle entrate. | Analisti, data scientist, esperti di marketing, professionisti dell’esperienza del cliente. |
+| **Deduplica delle metriche** | Per i rapporti sulle prestazioni delle e-mail, le metriche vengono deduplicate automaticamente per ID lead, ID campagna e ID risorsa e-mail. Se più e-mail vengono create dalla stessa risorsa e-mail e inviate allo stesso lead dallo stesso programma, queste e-mail verranno conteggiate come una sola. | Senza l&#39;applicazione di ulteriori filtri e metriche, i dati di reporting e-mail vengono riportati come conteggio totale delle prestazioni e-mail senza [deduplicazione metrica](/help/data-views/component-settings/metric-deduplication.md). |
+
+{style="table-layout:fixed"}

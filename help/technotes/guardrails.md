@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
+source-git-commit: fedb1337b32e44fc00989bace6a4d1788043f55f
 workflow-type: tm+mt
 source-wordcount: '1831'
 ht-degree: 7%
@@ -94,7 +94,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/guardrails/overview).
+Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview).
 
 
 ## Scadenza set di dati automatizzato
@@ -139,7 +139,7 @@ Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Esportazione dei dati delle destinazioni
@@ -151,7 +151,7 @@ Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](h
 
 {style="table-layout:auto"}
 
-Vedi anche Experience Platform [Guide di esportazione set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/guardrails#dataset-exports)
+Vedi anche Experience Platform [Guide di esportazione set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Zona di destinazione dati
@@ -179,8 +179,8 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
-| Set di dati uniti | 10 — 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
-| Lunghezza retrocompilazione | 13 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di backfill. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Set di dati uniti | 15 — 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Lunghezza retrocompilazione | 6 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di backfill. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 | Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 
@@ -194,7 +194,7 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 | Contenitori nidificati per segmento | 10 | Guardrail imposto dal sistema | Numero massimo di contenitori nidificati per segmento. |
 | Regole per segmento | 100 | Guardrail imposto dal sistema | Numero massimo di regole per segmento. |
 | Confronti di stringhe per Dimension per segmento | 100 | Guardrail imposto dal sistema | Numero massimo di confronti di stringhe per dimensione per segmento. |
-| Metriche calcolate  | 6.000 | Guardrail imposto dal sistema | Numero massimo di metriche calcolate per un’organizzazione. |
+| Metriche calcolate | 6.000 | Guardrail imposto dal sistema | Numero massimo di metriche calcolate per un’organizzazione. |
 | Segmenti | 50.000 | Guardrail imposto dal sistema | Numero massimo di segmenti che è possibile definire per un’organizzazione. |
 | Chiamate API | 120 | Guardrail imposto dal sistema | Richieste API al minuto (12 richieste ogni 6 secondi). |
 
@@ -252,7 +252,7 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 
 >[!NOTE]
 >
->I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+>I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 | Flusso di dati | Latenza prevista |
 |---|---|
