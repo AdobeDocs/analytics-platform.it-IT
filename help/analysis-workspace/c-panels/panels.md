@@ -4,20 +4,14 @@ title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
-workflow-type: ht
-source-wordcount: '2017'
+source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
+workflow-type: tm+mt
+source-wordcount: '2004'
 ht-degree: 100%
 
 ---
 
 # Panoramica dei pannelli {#panels-overview}
-
->[!CONTEXTUALHELP]
->id="workspace_panel_realtime_refresh"
->title="Aggiornamento in tempo reale"
->abstract="Abilita questa opzione per aggiornare dati e visualizzazioni nel pannello in tempo reale."
-
 
 Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi accedere ai pannelli dall’icona in alto a sinistra in Workspace o da un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md). I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, viste dati o casi di utilizzo di analisi.
 
@@ -161,7 +155,7 @@ Per ulteriori informazioni, consulta [Segmenti rapidi](/help/components/segments
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/329414?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 

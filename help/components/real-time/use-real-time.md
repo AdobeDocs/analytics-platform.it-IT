@@ -7,20 +7,23 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
-source-git-commit: 82aefce30834d6400d338896dc1968e37596393e
+source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 10%
+source-wordcount: '171'
+ht-degree: 15%
 
 ---
 
-# Utilizzare rapporti in tempo reale
+# Utilizzare rapporti in tempo reale {#use-real-time-reporting}
+
+>[!CONTEXTUALHELP]
+>id="workspace_panel_realtime_refresh"
+>title="Aggiornamento in tempo reale"
+>abstract="Abilita questa opzione per aggiornare dati e visualizzazioni nel pannello in tempo reale."
 
 {{release-limited-testing}}
 
 Per utilizzare la generazione rapporti in tempo reale, abilita **[!UICONTROL Real-time refresh]** in uno dei seguenti pannelli del progetto Workspace:
-
-
 
 * [Pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md)
 * [A forma libera](/help/analysis-workspace/c-panels/freeform-panel.md)
@@ -28,7 +31,7 @@ Per utilizzare la generazione rapporti in tempo reale, abilita **[!UICONTROL Rea
 * [Elemento successivo o precedente](/help/analysis-workspace/c-panels/next-previous.md)
 * [Quick Insights](/help/analysis-workspace/c-panels/quickinsight.md)
 
-Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL &#x200B; *Ultimo aggiornamento alle 19:55*].
+Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL  *Ultimo aggiornamento alle 17:01:00:55.*]
 
 Dal menu a discesa, seleziona il periodo in tempo reale su cui desideri creare un rapporto. Le opzioni disponibili sono:
 
@@ -39,6 +42,8 @@ Dal menu a discesa, seleziona il periodo in tempo reale su cui desideri creare u
 * [!UICONTROL Last 24 hours]
 
 Tutte le visualizzazioni nel pannello ora vengono aggiornate ogni minuto per un massimo di 30 minuti mentre è attiva la scheda del browser con il pannello con aggiornamento in tempo reale abilitato.
+
+Ad esempio, vedere di seguito uno snapshot di un **[!UICONTROL Real-time reporting panel]** che aggiorna la visualizzazione a barre di **[!UICONTROL Total Revenue / Hour]** e la tabella a forma libera di **[!UICONTROL Total Revenue / Hour]** mentre il tempo si sposta da **[!UICONTROL *06:26pm*]** a **[!UICONTROL *06:27 pm *]**.
 
 ![Aggiornamento in tempo reale](assets/real-time-refresh.gif)
 
