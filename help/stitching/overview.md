@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
 source-git-commit: 50599b36d333cae3735c6d4fd1b0af6fcabe9177
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Per trarre vantaggio dall’analisi cross-channel, è necessario combinare uno o
 >[!IMPORTANT]
 >
 >
->- Applica le modifiche apportate allo schema del set di dati dell’evento di origine anche al nuovo schema del set di dati uniti.
+>- Applica eventuali modifiche apportate allo schema del set di dati evento di origine anche al nuovo schema del set di dati con unione delle identità.
 >
 >- Se rimuovi il set di dati di origine, il set di dati con unione delle identità non può più essere elaborato e viene rimosso dal sistema.
 >
@@ -72,8 +72,8 @@ Assicurati di non confondere l’unione delle identità con:
 >[!MORELIKETHIS]
 >
 >[Unione delle identità basata sui campi](fbs.md)
->&#x200B;>[Unione delle identità basata sui grafi](gbs.md)
->&#x200B;>[Utilizzare l’unione delle identità](use-stitching.md)
->&#x200B;>[Convalidare l’unione delle identità](validate.md)
->&#x200B;>[Domande frequenti sull’unione delle identità](faq.md)
+>>[Unione delle identità basata sui grafi](gbs.md)
+>>[Utilizzare l’unione delle identità](use-stitching.md)
+>>[Convalidare l’unione delle identità](validate.md)
+>>[Domande frequenti sull’unione delle identità](faq.md)
 
