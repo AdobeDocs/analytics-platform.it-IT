@@ -4,10 +4,10 @@ description: Pagina di destinazione di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 94d1bcdb2419f8c2e27bd77bb2e35b04cd30d632
-workflow-type: ht
-source-wordcount: '795'
-ht-degree: 100%
+source-git-commit: 830e8312b4be2ffac907baca282ce71029e6ecc5
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 98%
 
 ---
 
@@ -28,6 +28,12 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 Customer Journey Analytics B2B Edition aiuta le aziende B2B ad allineare i team di marketing, vendita e prodotto fornendo insight sugli account da utilizzare per stimolare la crescita dei ricavi. Collocando l’account al centro del modello dati, tutte le analisi si concentrano sul suo percorso.
 
 [![immagine](assets/learn-more-button.svg)](/help/getting-started/cja-b2b-edition.md)
+
+>[!TAB Funzioni campo derivato]
+
+Nuove funzioni di campo derivato: [Data Math](/help/data-views/derived-fields/derived-fields.md#date-math), [Depth](/help/data-views/derived-fields/derived-fields.md#depth) e [Typecast](/help/data-views/derived-fields/derived-fields.md#typecast).
+
+[![immagine](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB Content Analytics]
 

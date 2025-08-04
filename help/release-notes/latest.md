@@ -3,10 +3,10 @@ title: Note sulla versione di Customer Journey Analytics
 description: Visualizza le note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 144caa157e1a7161595e2b4fc0da60cd63de50bd
+source-git-commit: 71974e607b0924796c4413a4d092f7afd643d32f
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 81%
 
 ---
 
@@ -23,9 +23,9 @@ Queste note sulla versione coprono il periodo di rilascio compreso tra l’11 lu
 | ----------- | ---------- | ------- | ---- |
 | **Aggiungere e visualizzare commenti nei progetti Analysis Workspace** | Una nuova [funzione di commenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects) in Analysis Workspace consente di condividere informazioni e porre domande nel contesto di un progetto Analysis Workspace. Questo può semplificare le discussioni sui dati, mantenendo le conversazioni nell’ambito del contesto dei dati che vengono discussi. È possibile eseguire le seguenti azioni: <ul><li>Commentare qualsiasi progetto Analysis Workspace a cui hai accesso</li><li>Commentare un punto specifico di una visualizzazione o in generale un progetto</li><li>Menzionare altri utenti per informarli dei tuoi commenti</li><li>Gestire i commenti esistenti (modificare, fissare, risolvere e così via)</li></ul>Gli amministratori di Customer Journey Analytics possono [disabilitare i commenti a livello di organizzazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/user-preferences#ims-organization-preferences). I proprietari dei progetti possono [disabilitare i commenti a livello di progetto](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects). | 25 giugno 2025 | mercoledì 22 luglio 2025 <p>(precedentemente 29 maggio 2025)</p> |
 | **I progetti scaricati come file PDF vengono scaricati nella workstation** | Durante il download di un progetto come file PDF, il PDF viene scaricato nella cartella dei download sulla workstation. In precedenza, il download di un progetto come file PDF avviava il PDF in una nuova scheda del browser con un URL univoco. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/export/download-send) | | Da definire |
-| **Campi derivati - Funzione conversione di tipo** | La funzione conversione di tipo del campo derivato consente di modificare istantaneamente l tipo di campo, al fine di renderlo disponibile per ulteriori trasformazioni in Customer Journey Analytics. | . | 30 luglio 2025 |
-| **Campi derivati - Funzione di calcolo della data** | La funzione di calcolo della data del campo derivato consente di restituire la differenza tra due campi Data o Data-ora. | | 30 luglio 2025 |
-| **Ares: funzione profondità dei campi derivati** | La funzione di profondità dei campi derivati consente di restituire la profondità di un campo, in modo simile a quanto è possibile fare con la dimensione predefinita Profondità evento. |  | Luglio 30,2025 |
+| **Campi derivati - Funzione di calcolo della data** | La funzione di campo derivato [Date Math](/help/data-views/derived-fields/derived-fields.md#date-math) consente di restituire la differenza tra due campi Data o Data-ora. | martedì 4 agosto 2025 | sabato 8 agosto 2025 |
+| **Campi derivati - Funzione di profondità** | La funzione di campo derivato [Depth](/help/data-views/derived-fields/derived-fields.md#depth) consente di restituire la profondità di un campo, in modo simile a quanto è possibile fare con la dimensione predefinita Profondità evento standard. | martedì 4 agosto 2025 | sabato 8 agosto 2025 |
+| **Campi derivati - Funzione conversione di tipo** | La funzione di campo derivato [Typecast](/help/data-views/derived-fields/derived-fields.md#typecast) consente di modificare rapidamente un tipo di campo e di renderlo disponibile per ulteriori trasformazioni in Customer Journey Analytics. | martedì 4 agosto 2025 | sabato 8 agosto 2025 |
 
 ## Correzioni in Customer Journey Analytics
 
