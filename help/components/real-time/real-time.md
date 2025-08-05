@@ -7,9 +7,9 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: e7a7a297e303a410c73598f373219644e50ede74
+source-git-commit: 34dfbc98acecf1ca953434a7d1f0547ff45139a8
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '471'
 ht-degree: 1%
 
 ---
@@ -54,5 +54,8 @@ Tieni presente le seguenti limitazioni per la generazione di rapporti in tempo r
 * La generazione rapporti in tempo reale segnala solo i dati disponibili in un periodo continuo di 24 ore. I dati che attraversano questo periodo continuo di 24 ore non sono disponibili.
 * Attribuzione, segmentazione, metriche calcolate e altro ancora funzionano solo sui dati disponibili entro il periodo continuo di 24 ore.
 * Il reporting in tempo reale funziona meglio sui dati a livello di evento e di sessione ed è necessario prestare attenzione quando si utilizza il reporting in tempo reale per i dati a livello di persona. <!--Need to explain this a bit better --> Poiché solo gli eventi del periodo continuo di 24 ore sono disponibili per i report in tempo reale, anche la cronologia degli eventi di una persona è limitata a questa finestra. Quando selezioni le metriche delle dimensioni, (calcolate) considera la preferenza per i dati a livello di evento e di sessione. E quando utilizzi funzionalità quali raggruppamenti, successivo o precedente e altro nel pannello con aggiornamento in tempo reale abilitato.
-* Non è possibile combinare l’unione con il reporting in tempo reale. <!-- Do we need to explain this in more detail, why? --> Come accennato in precedenza, il reporting in tempo reale riguarda i dati a livello di evento e di sessione e non tanto i dati basati su persone.
+* Non è possibile combinare l’unione con il reporting in tempo reale. <!-- Do we need to explain this in more detail, why? --> Il reporting in tempo reale riguarda i dati a livello di evento e di sessione e meno rilevanti per i dati basati su persona.
 * Non sono disponibili metriche per elementi multimediali raccolti con heartbeat, ad eccezione delle metriche di avvio e chiusura dei contenuti multimediali. In questo modo puoi comunque utilizzare la reportistica in tempo reale per abilitare un caso di utilizzo dei contenuti multimediali.
+* Quando utilizzi le [opzioni di download o esportazione](/help/analysis-workspace/export/download-send.md) per scaricare un progetto o esportare dati da una tabella a forma libera, considera quanto segue:
+   * Un progetto CSV scaricato o un file CSV esportato contiene i dati in tempo reale disponibili al momento del download o dell’esportazione.
+   * Un progetto PDF scaricato contiene dati non in tempo reale, simili a quelli visualizzati quando l’aggiornamento in tempo reale è disattivato.

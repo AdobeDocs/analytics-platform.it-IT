@@ -7,10 +7,10 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
-source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
+source-git-commit: 8f19ed6b4214c434dd4ca2dbb5e311c62da109c0
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 17%
+source-wordcount: '169'
+ht-degree: 16%
 
 ---
 
@@ -29,9 +29,8 @@ Per utilizzare la generazione rapporti in tempo reale, abilita **[!UICONTROL Rea
 * [A forma libera](/help/analysis-workspace/c-panels/freeform-panel.md)
 * [Attribuzione](/help/analysis-workspace/c-panels/attribution.md)
 * [Elemento successivo o precedente](/help/analysis-workspace/c-panels/next-previous.md)
-* [Quick Insights](/help/analysis-workspace/c-panels/quickinsight.md)
 
-Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL &#x200B; *Ultimo aggiornamento alle 17:01:00:55.*]
+Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL  *Ultimo aggiornamento alle 17:01:00:55.*]
 
 Dal menu a discesa, seleziona il periodo in tempo reale su cui desideri creare un rapporto. Le opzioni disponibili sono:
 
