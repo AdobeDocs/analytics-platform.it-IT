@@ -942,7 +942,7 @@ Per accedere a tutti i modelli predfiniti disponibili:
 | **Mese dell’anno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per mese dell’anno. Ad esempio, se disponi di un rapporto che copre più anni, ogni mese viene raggruppato nello stesso elemento della dimensione.<p>**Questo può aiutarti** a comprendere meglio in quali mesi il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei mesi con traffico elevato, ad esempio durante le vacanze.</p><p>Questo modello utilizza la dimensione Mese dell’anno.</p> |
 | **Trimestre dell’anno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per trimestre dell’anno. Ad esempio, se disponi di un rapporto che copre più anni, ogni trimestre viene raggruppato nello stesso elemento della dimensione.<p>**Questo può aiutarti** a comprendere meglio quali sono i trimestri in cui il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio programmare il lancio dei prodotti in modo da potenziare i trimestri storicamente a basso traffico.</p><p>Questo modello utilizza la dimensione Trimestre dell’anno.</p> |
 
-### Cross-Channel {#cross-channel}
+### Cross-channel {#cross-channel}
 
 <!--CJA only-->
 
