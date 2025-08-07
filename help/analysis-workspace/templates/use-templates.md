@@ -4,7 +4,7 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 1b52969f178a31ef90f1969f3a1637258a480c57
+source-git-commit: df069a7a67c65db9eb70900869495202f63abd05
 workflow-type: tm+mt
 source-wordcount: '20234'
 ht-degree: 97%
@@ -1071,7 +1071,7 @@ Per accedere a tutti i modelli predfiniti disponibili:
 >abstract="**Questo può aiutarti** a capire meglio se il coinvolgimento a livello di account sta aumentando o diminuendo, a confrontare le attività tra gli account e a decidere dove concentrare le attività di conservazione o acquisizione.<br/>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come rifocalizzare l&#39;attenzione su quegli account che sono meno coinvolti ma richiedono più attenzione a causa dell&#39;importanza dell&#39;account."
 
 >[!CONTEXTUALHELP]
->id="cja-template--b2b-opportunity-enagement"
+>id="cja-template--b2b-opportunity-engagement"
 >title="Tieni traccia del coinvolgimento a livello di opportunità e degli accordi di superficie che acquisiscono o perdono trazione."
 >abstract="**Questo può aiutarti** a prevedere la progressione dell&#39;offerta in modo più preciso e a focalizzare l&#39;abilitazione dove il coinvolgimento picca o si arresta.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio fare qualche sforzo aggiuntivo su offerte quasi chiuse e cercare il motivo per cui altre offerte stanno perdendo la trazione."
 
