@@ -6,7 +6,7 @@ feature: Release Notes
 source-git-commit: 379cf7af9bf6722fd483a9c0639fc6b294c398a4
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Queste note sulla versione coprono il periodo di rilascio compreso tra l’11 lu
 | ----------- | ---------- | ------- | ---- |
 | **Aggiungere e visualizzare commenti nei progetti Analysis Workspace** | Una nuova [funzione di commenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects) in Analysis Workspace consente di condividere informazioni e porre domande nel contesto di un progetto Analysis Workspace. Questo può semplificare le discussioni sui dati, mantenendo le conversazioni nell’ambito del contesto dei dati che vengono discussi. È possibile eseguire le seguenti azioni: <ul><li>Commentare qualsiasi progetto Analysis Workspace a cui hai accesso</li><li>Commentare un punto specifico di una visualizzazione o in generale un progetto</li><li>Menzionare altri utenti per informarli dei tuoi commenti</li><li>Gestire i commenti esistenti (modificare, fissare, risolvere e così via)</li></ul>Gli amministratori di Customer Journey Analytics possono [disabilitare i commenti a livello di organizzazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/user-preferences#ims-organization-preferences). I proprietari dei progetti possono [disabilitare i commenti a livello di progetto](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects). | 25 giugno 2025 | 22 luglio 2025 <p>(precedentemente 29 maggio 2025)</p> |
 | **I progetti scaricati come file PDF vengono scaricati nella workstation** | Durante il download di un progetto come file PDF, il PDF viene scaricato nella cartella dei download sulla workstation. In precedenza, il download di un progetto come file PDF avviava il PDF in una nuova scheda del browser con un URL univoco. Il link alla documentazione seguirà a breve. | | martedì 25 agosto 2025 |
-| **Campi derivati - Funzione di calcolo della data** | La funzione di campo derivato [Date Math](/help/data-views/derived-fields/derived-fields.md#date-math) consente di restituire la differenza tra due campi Data o Data-ora. | martedì 4 agosto 2025 | sabato 8 agosto 2025 |
-| **Campi derivati - Funzione di profondità** | La funzione di campo derivato [Depth](/help/data-views/derived-fields/derived-fields.md#depth) consente di restituire la profondità di un campo, in modo simile a quanto è possibile fare con la dimensione predefinita Profondità evento standard. | martedì 4 agosto 2025 | sabato 8 agosto 2025 |
-| **Campi derivati - Funzione conversione di tipo** | La funzione di campo derivato [Typecast](/help/data-views/derived-fields/derived-fields.md#typecast) consente di modificare rapidamente un tipo di campo e di renderlo disponibile per ulteriori trasformazioni in Customer Journey Analytics. | martedì 4 agosto 2025 | sabato 8 agosto 2025 |
+| **Campi derivati - Funzione di calcolo della data** | La funzione di [calcolo della data](/help/data-views/derived-fields/derived-fields.md#date-math) del campo derivato consente di restituire la differenza tra due campi Data o Data-ora. | 4 agosto 2025 | 8 agosto 2025 |
+| **Campi derivati - Funzione Profondità** | La funzione [Profondità](/help/data-views/derived-fields/derived-fields.md#depth) del campo derivato consente di restituire la profondità di un campo, in modo simile a quanto è possibile fare con la dimensione standard predefinita Profondità evento. | 4 agosto 2025 | 8 agosto 2025 |
+| **Campi derivati - Funzione conversione di tipo** | La funzione [Conversione di tipo](/help/data-views/derived-fields/derived-fields.md#typecast) del campo derivato consente di modificare istantaneamente il tipo di campo, al fine di renderlo disponibile per ulteriori trasformazioni in Customer Journey Analytics. | 4 agosto 2025 | 8 agosto 2025 |
 
 ## Correzioni in Customer Journey Analytics
 
