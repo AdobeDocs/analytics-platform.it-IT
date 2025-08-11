@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: 830e8312b4be2ffac907baca282ce71029e6ecc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Customer Journey Analytics B2B Edition aiuta le aziende B2B ad allineare i team 
 
 [![immagine](assets/learn-more-button.svg)](/help/getting-started/cja-b2b-edition.md)
 
->[!TAB Funzioni campo derivato]
+>[!TAB Funzioni del campo derivato]
 
-Nuove funzioni di campo derivato: [Data Math](/help/data-views/derived-fields/derived-fields.md#date-math), [Depth](/help/data-views/derived-fields/derived-fields.md#depth) e [Typecast](/help/data-views/derived-fields/derived-fields.md#typecast).
+Nuove funzioni del campo derivato: [Calcolo della data](/help/data-views/derived-fields/derived-fields.md#date-math), [Profondità](/help/data-views/derived-fields/derived-fields.md#depth) e [Conversione di tipo](/help/data-views/derived-fields/derived-fields.md#typecast).
 
 [![immagine](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
