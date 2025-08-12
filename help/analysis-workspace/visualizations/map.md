@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: f0ef310f120e278685893308315902e32c54e35e
+source-git-commit: bee6c3420511dc944c74e9818d77f6424fcb9cc8
 workflow-type: tm+mt
-source-wordcount: '2254'
-ht-degree: 11%
+source-wordcount: '2621'
+ht-degree: 10%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ La visualizzazione ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** i
 
 Nelle impostazioni delle visualizzazioni dati di Customer Journey Analytics, gli amministratori possono aggiungere [etichette di contesto](/help/data-views/component-settings/overview.md) a una dimensione o a una metrica e i servizi Customer Journey Analytics come la visualizzazione [!UICONTROL map] possono utilizzare queste etichette per i loro scopi.
 
-#### Etichette di contesto richieste per la visualizzazione mappa
+#### Etichette di contesto richieste per latitudine e longitudine nella visualizzazione mappa
 
 Le etichette di contesto sono necessarie per il funzionamento della visualizzazione mappa. Se non sono presenti le seguenti etichette di contesto, la visualizzazione mappa non funziona, perché non vi sono dati di latitudine e longitudine con cui lavorare.
 
@@ -72,13 +72,27 @@ Per aggiungere queste etichette di contesto:
 
 1. Nella pagina Visualizzazioni dati, seleziona la visualizzazione dati che contiene i dati da analizzare nella visualizzazione mappa.
 
-1. Selezionare la scheda **[!UICONTROL Components]**, quindi selezionare la dimensione contenente i dati di longitudine.
+1. Seleziona la scheda **[!UICONTROL Components]**.
 
-1. Nella sezione **[!UICONTROL Component settings]** della barra a destra, nel campo **[!UICONTROL Context labels]**, inizia a digitare `Longitude`, quindi selezionalo dal menu a discesa.
+1. (Condizionale) Se utilizzi il Web SDK e hai configurato la latitudine e la longitudine per essere popolata nel flusso di dati, o se utilizzi il connettore Source di Analytics per popolare i dati evento, i campi latitudine e longitudine dovrebbero essere già disponibili nello schema e compilati con le etichette di contesto corrette.
 
-   ![Etichette di contesto di latitudine e longitudine](assets/map-context-labels-lat-long.png)
+   Individua questi campi dello schema **[!UICONTROL Latitude]** e **[!UICONTROL Longitude]** (in **[!UICONTROL Event datasets]** > **[!UICONTROL placeContext]** > **[!UICONTROL geo]** > **[!UICONTROL _schema]**) e trascinali nella visualizzazione dati come dimensioni, se non sono già presenti.
 
-1. Ripetere questo processo per aggiungere l&#39;etichetta di contesto **[!UICONTROL Latitude]** alla dimensione che contiene i dati di latitudine.
+   Quando questi campi schema esistono come dimensioni nella visualizzazione dati, le relative etichette di contesto vengono applicate automaticamente e la visualizzazione mappa li utilizza senza alcuna configurazione aggiuntiva.
+
+   ![Aggiungere campi dello schema di latitudine e longitudine alla visualizzazione dati](assets/dataview-lat-long-default.png)
+
+1. (Condizionale) Se disponi di dimensioni personalizzate da utilizzare per i dati di latitudine e longitudine, puoi configurare le etichette di contesto nei campi personalizzati:
+
+   1. Nella sezione **[!UICONTROL Dimensions]** selezionare la dimensione contenente i dati di longitudine.
+
+   1. Nella sezione **[!UICONTROL Component settings]** della barra a destra, nel campo **[!UICONTROL Context labels]**, inizia a digitare `Longitude`, quindi selezionalo dal menu a discesa.
+
+      ![Etichette di contesto di latitudine e longitudine](assets/map-context-labels-lat-long.png)
+
+   1. Ripetere questo processo per aggiungere l&#39;etichetta di contesto **[!UICONTROL Latitude]** alla dimensione che contiene i dati di latitudine.
+
+   1. (Facoltativo) Per impostazione predefinita, queste dimensioni sono precise al livello della città o del codice postale nella visualizzazione delle mappe e mostrano 2 posizioni decimali nei rapporti di Workspace. Puoi regolarli per essere precisi all’interno di un singolo metro nella visualizzazione mappa e per visualizzare 5 posizioni decimali nei rapporti di Workspace. Per ulteriori informazioni su come regolare il livello di precisione, vedere [Configurare posizioni precise per le dimensioni](#configure-precise-locations-for-dimensions).
 
 1. Seleziona **[!UICONTROL Save and continue]** > **[!UICONTROL Save and finish]**.
 
@@ -102,13 +116,25 @@ Per aggiungere queste etichette di contesto:
 
 1. Nella pagina Visualizzazioni dati, seleziona la visualizzazione dati che contiene i dati da analizzare con modelli predefiniti che utilizzano la visualizzazione mappa. In questa visualizzazione dati verranno scelte cinque dimensioni, una con i dati del paese, una con i dati dell&#39;area geografica, una con i dati della città, una con i dati dello stato e una con i dati DMA. Quindi etichetterai tali dimensioni con l’etichetta di contesto corrispondente.
 
-1. Selezionare la scheda **[!UICONTROL Components]**, quindi selezionare la dimensione che contiene i dati del paese.
+1. Seleziona la scheda **[!UICONTROL Components]**.
 
-1. Nella sezione **[!UICONTROL Component settings]** della barra a destra, nel campo **[!UICONTROL Context labels]**, inizia a digitare `Geo Country`, quindi selezionalo dal menu a discesa.
+1. (Facoltativo) Se utilizzi il Web SDK e hai configurato i campi geografici da compilare nel flusso di dati o se utilizzi il connettore Source di Analytics per compilare i dati evento, i campi geografici dovrebbero già essere disponibili nello schema e compilati con le etichette di contesto corrette.
 
-   ![Etichette di contesto dei modelli](assets/map-context-labels-templates.png)
+   Individua i campi dello schema appropriati, ad esempio **[!UICONTROL City]**, **[!UICONTROL Postal code]**, **[!UICONTROL State or province]** (in **[!UICONTROL Event datasets]** > **[!UICONTROL placeContext]** > **[!UICONTROL geo]**) e trascinali nella visualizzazione dati come dimensioni, se non sono già presenti.
 
-1. Ripetere questo processo per aggiungere l&#39;etichetta di contesto **[!UICONTROL Geo: Geo Region]**, **[!UICONTROL Geo: Geo City]**, **[!UICONTROL Geo: Geo State]** e **[!UICONTROL Geo: Dma]** a ogni dimensione che contiene i dati corrispondenti.
+   Quando questi campi schema esistono come dimensioni nella visualizzazione dati, le relative etichette di contesto vengono applicate automaticamente e i modelli geografici li utilizzano senza alcuna configurazione aggiuntiva.
+
+   ![Aggiungi campi schema geografico alla visualizzazione dati](assets/dataview-geo-default.png)
+
+1. (Condizionale) Se disponi di dimensioni personalizzate da utilizzare per i dati geografici, puoi configurare le etichette di contesto nei campi personalizzati:
+
+   1. Seleziona la dimensione che contiene i dati del paese.
+
+   1. Nella sezione **[!UICONTROL Component settings]** della barra a destra, nel campo **[!UICONTROL Context labels]**, inizia a digitare `Geo Country`, quindi selezionalo dal menu a discesa.
+
+      ![Etichette di contesto dei modelli](assets/map-context-labels-templates.png)
+
+   1. Ripetere questo processo per aggiungere l&#39;etichetta di contesto **[!UICONTROL Geo: Geo Region]**, **[!UICONTROL Geo: Geo City]**, **[!UICONTROL Geo: Geo State]** e **[!UICONTROL Geo: Dma]** a ogni dimensione che contiene i dati corrispondenti.
 
 1. Seleziona **[!UICONTROL Save and continue]** > **[!UICONTROL Save and finish]**.
 
@@ -255,7 +281,7 @@ Se disponi di set di dati personalizzati con precisione profonda, puoi configura
 
 1. Nella visualizzazione dati, seleziona la scheda **[!UICONTROL Components]**.
 
-1. Seleziona la dimensione da configurare.
+1. Seleziona le dimensioni che utilizzi per la latitudine e la longitudine da configurare. Per ulteriori informazioni sulle dimensioni in uso, consulta [Etichette di contesto richieste per latitudine e longitudine nella visualizzazione mappa](#required-context-labels-for-latitude-and-longitude-in-the-map-visualization).
 
 1. Configura il livello di precisione per la dimensione:
 
