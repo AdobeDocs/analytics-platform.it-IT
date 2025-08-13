@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: 20b578a6269aeaf54f6296b1f4337937887ecf05
-workflow-type: ht
-source-wordcount: '570'
-ht-degree: 100%
+source-git-commit: 82b36895fe5186f0133c128d434470ea7f875677
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 96%
 
 ---
 
@@ -33,13 +33,17 @@ L’Assistente IA per Customer Journey Analytics è disponibile per tutti i live
 
 ## Conoscenza prodotto {#knowledge}
 
-Il modello di recupero delle conoscenze sul prodotto è addestrato su Customer Journey Analytics. Altre funzionalità, come l’analisi dei dati, verranno introdotte in seguito.
-
 | Conoscenza prodotto | Esempi |
 | --- | --- |
 | Apprendimento mirato | <ul><li>Qual è la differenza tra Adobe Analytics e Customer Journey Analytics?</li><li>Come posso creare una metrica calcolata?</li></ul> |
 | Individuazione aperta | <ul><li>Come posso esportare un progetto Workspace?</li><li>Come posso trovare componenti Workspace duplicati?</li></ul> |
 | Risoluzione dei problemi | <ul><li>Quanto tempo è necessario perché i dati arrivino in CJA?</li><li>Quanti campi derivati posso avere in una connessione Customer Journey Analytics?</li></ul> |
+
+## Analisi dei dati
+
+L’agente Data Insights, accessibile dall’Assistente IA in Customer Journey Analytics, è un agente per conversazioni basate sull’IA generativa che risponde in modo rapido ed efficiente alle domande sui tuoi dati. Crea visualizzazioni pertinenti in Analysis Workspace utilizzando i componenti della visualizzazione dati e i tuoi dati effettivi.
+
+Per ulteriori informazioni sull&#39;utilizzo di Data Insights Agent nell&#39;Assistente AI, vedere [Visualizzare i dati con Data Insights Agent](/help/data-analysis-ai.md).
 
 ## Accesso alla funzione
 
@@ -49,7 +53,7 @@ I seguenti parametri regolano l’accesso alla funzione dell’Assistente IA:
 
 * **Accesso contrattuale**: se non puoi utilizzare l’Assistente IA, contatta l’amministratore della tua organizzazione o il rappresentante dell’account Adobe. Prima che la tua organizzazione possa utilizzare l’Assistente IA, è necessario accettare alcuni termini legali relativi a GenAI.
 
-* **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l’autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Product Knowledge]** determina l’accesso a questo strumento. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console]:
+* **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l’autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Product Knowledge]** determina l’accesso a questo strumento. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console]:
    1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**.
    1. Seleziona il titolo del profilo di prodotto per il quale desideri fornire l’accesso all’[!UICONTROL AI Assistant: Product Knowledge].
    1. Nel profilo di prodotto specifico, seleziona **[!UICONTROL Permissions]**.
