@@ -3,40 +3,47 @@ title: Note sulla versione di Customer Journey Analytics
 description: Visualizza le note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 379cf7af9bf6722fd483a9c0639fc6b294c398a4
+source-git-commit: 0d0494587c9472e23e6fa948043a1ad2057818df
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '987'
+ht-degree: 20%
 
 ---
 
-# Note sulla versione corrente di Adobe Customer Journey Analytics (luglio 2025)
+# Note sulla versione corrente di Adobe Customer Journey Analytics (agosto 2025)
 
-**Ultimo aggiornamento**: 22 luglio 2025
+**Ultimo aggiornamento**: giovedì 13 agosto 2025
 
 
-Queste note sulla versione coprono il periodo di rilascio compreso tra l’11 luglio 2025 e il 15 agosto 2025. I rilasci di Adobe Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
+Queste note sulla versione coprono il periodo dal 13 agosto al 16 settembre 2025. I rilasci di Adobe Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
 ## Funzioni nuove o aggiornate
 
 | Funzione | Descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Aggiungere e visualizzare commenti nei progetti Analysis Workspace** | Una nuova [funzione di commenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/build-workspace-project/comment-projects) in Analysis Workspace consente di condividere informazioni e porre domande nel contesto di un progetto Analysis Workspace. Questo può semplificare le discussioni sui dati, mantenendo le conversazioni nell’ambito del contesto dei dati che vengono discussi. È possibile eseguire le seguenti azioni: <ul><li>Commentare qualsiasi progetto Analysis Workspace a cui hai accesso</li><li>Commentare un punto specifico di una visualizzazione o in generale un progetto</li><li>Menzionare altri utenti per informarli dei tuoi commenti</li><li>Gestire i commenti esistenti (modificare, fissare, risolvere e così via)</li></ul>Gli amministratori di Customer Journey Analytics possono [disabilitare i commenti a livello di organizzazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/user-preferences#ims-organization-preferences). I proprietari dei progetti possono [disabilitare i commenti a livello di progetto](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects). | 25 giugno 2025 | 22 luglio 2025 <p>(precedentemente 29 maggio 2025)</p> |
-| **I progetti scaricati come file PDF vengono scaricati nella workstation** | Durante il download di un progetto come file PDF, il PDF viene scaricato nella cartella dei download sulla workstation. In precedenza, il download di un progetto come file PDF avviava il PDF in una nuova scheda del browser con un URL univoco. Il link alla documentazione seguirà a breve. | | martedì 25 agosto 2025 |
-| **Campi derivati - Funzione di calcolo della data** | La funzione di [calcolo della data](/help/data-views/derived-fields/derived-fields.md#date-math) del campo derivato consente di restituire la differenza tra due campi Data o Data-ora. | 4 agosto 2025 | 8 agosto 2025 |
-| **Campi derivati - Funzione Profondità** | La funzione [Profondità](/help/data-views/derived-fields/derived-fields.md#depth) del campo derivato consente di restituire la profondità di un campo, in modo simile a quanto è possibile fare con la dimensione standard predefinita Profondità evento. | 4 agosto 2025 | 8 agosto 2025 |
-| **Campi derivati - Funzione conversione di tipo** | La funzione [Conversione di tipo](/help/data-views/derived-fields/derived-fields.md#typecast) del campo derivato consente di modificare istantaneamente il tipo di campo, al fine di renderlo disponibile per ulteriori trasformazioni in Customer Journey Analytics. | 4 agosto 2025 | 8 agosto 2025 |
+| **Visualizzazione mappa** | La visualizzazione mappa in Analysis Workspace consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate). È utile per identificare e confrontare i dati delle metriche tra diverse aree geografiche.<p>In precedenza, la visualizzazione mappa era disponibile solo in Adobe Analytics.</p><p>La visualizzazione mappa in Customer Journey Analytics contiene i seguenti miglioramenti dalla visualizzazione mappa in Adobe Analytics:</p><ul><li>Utilizza qualsiasi segmento della visualizzazione dati come origine dati.</li><li>Precisione fino a un singolo metro configurando la dimensione nella visualizzazione dati.</li><li>Un nuovo strumento di selezione consente di creare un segmento, un pubblico, una tendenza o un raggruppamento da qualsiasi area selezionata nella visualizzazione.</li></ul><p>Per ulteriori informazioni, vedere [Mappa](/help/analysis-workspace/visualizations/map.md).</p> | giovedì 13 agosto 2025 | martedì 25 agosto 2025 |
+| **Reporting in tempo reale** | Il reporting in tempo reale in Customer Journey Analytics mostra e aggiorna dati e visualizzazioni in uno o più pannelli in Analysis Workspace in tempo reale. | | sabato 15 agosto 2025 |
+| **Modelli B2B** | Se utilizzi in licenza Customer Journey Analytics B2B edition, i seguenti modelli B2B aggiuntivi sono ora disponibili dall’interfaccia utente dei modelli di Adobe: <ul><li>Panoramica sul coinvolgimento dell’account B2B</li><li>Panoramica del coinvolgimento dell’opportunità B2B</li><li>Attività del gruppo di acquisto B2B</li></ul><p>(Il link alla documentazione seguirà a breve.)</p> |  | sabato 15 agosto 2025 |
+| **I progetti scaricati come file PDF vengono scaricati nella workstation** | Quando si scarica un progetto come PDF, il PDF viene scaricato nella cartella dei download sulla workstation. <p>In precedenza, il download di un progetto come PDF avviava PDF in una nuova scheda del browser con un URL univoco.</p><p>Per ulteriori informazioni, vedere [Scaricare progetti e dati](/help/analysis-workspace/export/download-send.md).</p> |  | martedì 25 agosto 2025 |
+| **Supporto per schemi ad hoc** | [Gli schemi ad hoc](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc) vengono utilizzati in vari flussi di lavoro di acquisizione dati per Experience Platform, inclusa l&#39;acquisizione di file CSV e la creazione di alcuni tipi di connessioni di origine. <p>Questa funzione abilita il supporto per l’utilizzo di schemi ad hoc in Customer Journey Analytics. Come parte della definizione di una connessione, ora puoi selezionare un set di dati basato su uno schema ad hoc e utilizzare i dati nei progetti di visualizzazione dati e area di lavoro.</p> <p>(Il link alla documentazione seguirà a breve.)</p> |  | venerdì 28 agosto 2025 |
+| **Unione nelle connessioni** | Semplifica la combinazione di Customer Journey Analytics. Invece di duplicare un set di dati e applicare l’unione al set di dati duplicato, l’unione viene ora eseguita al momento dell’acquisizione dei dati in Customer Journey Analytics, eliminando il requisito di set di dati e schemi duplicati. <p>Inoltre, invece di dover richiedere l’unione tramite l’assistenza clienti, ora puoi iniziare a eseguire l’unione da un’interfaccia utente Connessioni aggiornata.</p><p>(Il link alla documentazione seguirà a breve.)</p> |  | sabato 29 agosto 2025 |
+| **Estensione del limite delle chiavi di ricerca** | A seconda del pacchetto Customer Journey Analytics, ora puoi avere fino a un massimo di 1 miliardo di chiavi univoche in un set di dati di ricerca. <p>Per ulteriori informazioni, vedere [Limiti di trasferimento dei dati](/help/technotes/guardrails.md#data-transfer-limits) nella documentazione di Customer Journey Analytics [Guardrail](/help/technotes/guardrails.md).</p> |  | sabato 29 agosto 2025 |
+| **Creare metriche e dimensioni in base ai campi mappa definiti dall&#39;utente dallo schema di Platform** | I campi mappa definiti dall’utente che definisci nello schema di Experience Platform ora possono essere utilizzati in Customer Journey Analytics.<p>Durante la creazione di metriche e dimensioni in Customer Journey Analytics, puoi utilizzare i seguenti campi mappa:</p><ul><li>Stringa a stringa</li><li>Stringa a numero intero</li></ul><p>(Il link alla documentazione seguirà a breve.)</p><p>Per ulteriori informazioni sui campi mappa in Experience Platform, vedi [Definire i campi mappa nell&#39;interfaccia utente](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/map).</p> |  | Fine di agosto 2025 |
+| **I progetti eliminati non sono immediatamente disponibili tramite URL e vengono eliminati dalle consegne pianificate** | I progetti eliminati vengono eliminati immediatamente dalle consegne pianificate e non sono più accessibili dal relativo URL.<p>In precedenza, i progetti venivano inclusi nelle consegne pianificate e potevano essere accessibili con il loro URL per 60 giorni dopo l’eliminazione.</p><p>Per ulteriori informazioni sull&#39;eliminazione dei progetti, vedere [Panoramica progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md).</p> | | Fine di agosto 2025 |
+| **Streaming Media: sono stati aggiornati i campi XDM per la raccolta dei dati di Streaming Media in Adobe Experience Platform** | Durante la raccolta di dati di contenuti in streaming in Adobe Experience Platform, i percorsi dei campi XDM mostrati sotto l’intestazione “Percorso dei campi XDM” nella documentazione sui parametri per contenuti in streaming non devono più essere utilizzati. Al contrario, i clienti che hanno implementato il connettore di origine di Analytics per raccogliere i dati di Streaming Media in Platform prima del 9 maggio 2025 devono migrare le configurazioni esistenti ai percorsi dei campi mediaReporting, come mostrato nell’intestazione &quot;Percorso campo XDM per reporting&quot; della documentazione sui parametri di Streaming Media.<p> I percorsi dei campi sono disponibili nelle pagine seguenti e sono contrassegnati come &quot;Obsoleti&quot;: [Parametri audio e video](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/variables/audio-video-parameters), [Parametri annuncio](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/variables/ad-parameters), [Parametri capitolo](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/variables/chapter-parameters), [Parametri stato lettore](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/variables/player-state-parameters) e [Parametri qualità](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/variables/quality-parameters). (Non è richiesta alcuna azione per i clienti che implementano il connettore di origine di Analytics dopo il 9 maggio 2025 e utilizzano già solo i percorsi XDM mediaReporting).</p><p>L’acquisizione dei dati sui percorsi dei campi XDM obsoleti continuerà fino alla fine di ottobre 2025. Dopo tale periodo, i percorsi dei campi obsoleti verranno completamente rimossi e non saranno più visibili nell’interfaccia utente dello schema di Adobe Experience Platform e i dati verranno inviati solo utilizzando i percorsi dei campi mediaReporting.</p><p>Per ulteriori informazioni, consulta [Migrare un&#39;implementazione del connettore Source di Analytics ai campi XDM Streaming Media aggiornati](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-use-cases/xdm-updates/updated-xdm-fields).</p><p>Contatta i servizi Adobe Consulting o il team dell’account per il supporto alla migrazione. </p> |  | 2025 ottobre |
 
 ## Correzioni in Customer Journey Analytics
 
-**Analysis Workspace**: AN-387014; AN-387500
-**Componenti**: AN-387293
-**Content Analytics**: AN-387595
-**Analisi guidata**: AN-382273
-**Report Builder**: AN-382775
-**Reporting**: AN-382020; AN-387827
-**Segmentazione**: AN-382102
-**Metriche e dimensioni condivise**: AN-378451
+**Analysis Workspace**: AN-389683; AN-389534; AN-389207; AN-389066; AN-388687; AN-388478; AN-387089; AN-384865; AN-384560; AN-383486; AN-365768; AN-351639
+**Componenti**:
+**Content Analytics**:
+**Analisi guidata**: AN-384426
+**Piattaforma**: AN-384410
+**Report Builder**: AN-389336; AN-382775
+**Generazione rapporti**:
+**Segmentazione**:
+**Metriche e dimensioni condivise**:
+**Altro**: AN-388222; AN-384898; AN-387169
 
 
 ## Avvisi importanti per gli amministratori di Customer Journey Analytics
