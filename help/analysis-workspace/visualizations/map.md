@@ -4,9 +4,9 @@ title: Mappa
 feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 0aac2739e03044c03a2561535846f1355054f45f
+source-git-commit: 71d5326f5d80f196504178855dacdf01f60fb81c
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2612'
 ht-degree: 10%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -96,7 +96,7 @@ Per aggiungere queste etichette di contesto:
 
 #### Etichette di contesto richieste per i modelli geografici
 
-Adobe fornisce diversi [modelli predefiniti](/help/analysis-workspace/templates/use-templates.md#web-audience) che utilizzano la visualizzazione mappa. Per utilizzare ogni modello, è necessario aggiungere l’etichetta di contesto corrispondente a una dimensione nella visualizzazione dati.
+Adobe fornisce diversi [modelli predefiniti](/help/analysis-workspace/templates/use-templates.md#web-audience) che utilizzano la visualizzazione mappa. Per utilizzare ciascun modello, è necessario aggiungere l’etichetta di contesto corrispondente a una dimensione nella visualizzazione dati.
 
 Di seguito sono riportati i modelli e l’etichetta di contesto richiesta. Se queste etichette non sono presenti, i modelli non funzionano, perché non vi sono dati geografici con cui lavorare.
 
@@ -112,13 +112,13 @@ Per aggiungere queste etichette di contesto:
 
 1. In Customer Journey Analytics, seleziona **[!UICONTROL Data Management]** > **[!UICONTROL Data views]**.
 
-1. Nella pagina Visualizzazioni dati, seleziona la visualizzazione dati che contiene i dati da analizzare con modelli predefiniti che utilizzano la visualizzazione mappa. In questa visualizzazione dati verranno scelte cinque dimensioni, una con i dati del paese, una con i dati dell&#39;area geografica, una con i dati della città, una con i dati dello stato e una con i dati DMA. Quindi etichetterai tali dimensioni con l’etichetta di contesto corrispondente.
+1. Nella pagina Visualizzazioni dati, seleziona la visualizzazione dati che contiene i dati da analizzare con modelli predefiniti che utilizzano la visualizzazione mappa. In questa visualizzazione dati, scegli cinque dimensioni: una con i dati del paese, una con i dati della regione, una con i dati della città, una con i dati dello stato e una con i dati DMA. Quindi, assegna a tali dimensioni l’etichetta di contesto corrispondente.
 
 1. Seleziona la scheda **[!UICONTROL Components]**.
 
 1. (Facoltativo) Se utilizzi il Web SDK e hai configurato i campi geografici da compilare nel flusso di dati o se utilizzi il connettore Source di Analytics per compilare i dati evento, i campi geografici dovrebbero già essere disponibili nello schema e compilati con le etichette di contesto corrette.
 
-   Individua i campi dello schema appropriati, ad esempio **[!UICONTROL City]**, **[!UICONTROL Postal code]**, **[!UICONTROL State or province]** (in **[!UICONTROL Event datasets]** > **[!UICONTROL placeContext]** > **[!UICONTROL geo]**) e trascinali nella visualizzazione dati come dimensioni, se non sono già presenti.
+   Individua i campi dello schema appropriati, ad esempio **[!UICONTROL City]**, **[!UICONTROL Postal code]**, **[!UICONTROL State or province]** (in **[!UICONTROL Event datasets]** > **[!UICONTROL placeContext]** > **[!UICONTROL geo]**), quindi trascinali nella visualizzazione dati come dimensioni, se non sono già presenti.
 
    Quando questi campi schema esistono come dimensioni nella visualizzazione dati, le relative etichette di contesto vengono applicate automaticamente e i modelli geografici li utilizzano senza alcuna configurazione aggiuntiva.
 
@@ -153,7 +153,7 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 | Creare una tendenza da una selezione | Crea una visualizzazione con grafico a linee di tendenza in base a un’area specifica selezionata nella visualizzazione Mappa. <p>Per ulteriori informazioni, vedere [Creare un grafico a linee con tendenze dalla visualizzazione mappa](#create-a-trended-line-chart-from-the-map-visualization). <!-- is this correct? --> | Impossibile creare una tendenza dalla visualizzazione mappa. |
 | Aggiungere un raggruppamento da una selezione | Suddividi un elemento dimensione, una metrica, un segmento o un intervallo di date specifico all’interno di un’area specifica selezionata nella visualizzazione Mappa. <p>Per ulteriori informazioni, consulta [Aggiungere un raggruppamento dalla visualizzazione mappa](#add-a-breakdown-from-the-map-visualization). | Impossibile aggiungere un raggruppamento dalla visualizzazione mappa. |
 
-## Iniziare a creare una visualizzazione mappa {#begin-building-map}
+## Creare una visualizzazione mappa {#begin-building-map}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -185,7 +185,7 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 
    * **[!UICONTROL Add segment]**: (facoltativo) nell&#39;elenco a discesa dei segmenti selezionare un segmento. Oppure trascina un segmento dall’elenco dei segmenti.
 
-   Puoi aggiornare queste informazioni dopo aver creato la visualizzazione selezionando l&#39;icona di modifica ![Modifica](/help/assets/icons/Edit.svg) nell&#39;intestazione della visualizzazione.
+   Puoi aggiornare queste informazioni dopo aver creato la visualizzazione selezionando l&#39;icona Modifica ![Modifica](/help/assets/icons/Edit.svg) nell&#39;intestazione della visualizzazione.
 
 1. Seleziona **[!UICONTROL Build]**.
 
@@ -197,7 +197,7 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 
 ## Visualizzare una mappa
 
-1. Se non lo hai già fatto, crea una visualizzazione mappa come descritto in [Inizia a creare una visualizzazione mappa](#begin-building-a-map-visualization).
+1. Se non lo hai già fatto, crea una visualizzazione mappa come descritto in [Crea una visualizzazione mappa](#begin-building-a-map-visualization).
 
 1. Nella visualizzazione mappa di Analysis Workspace, effettua una delle seguenti operazioni:
 
@@ -250,7 +250,7 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 
 Per configurare le impostazioni per la visualizzazione mappa:
 
-1. In Analysis Workspace, apri una visualizzazione mappa esistente oppure [creane una nuova](#begin-building-a-map-visualization).
+1. In Analysis Workspace, apri una visualizzazione mappa esistente o [creane una nuova](#begin-building-a-map-visualization).
 
 1. Passa il puntatore del mouse sulla visualizzazione mappa, quindi seleziona l&#39;icona Impostazioni ![Impostazione](/help/assets/icons/Setting.svg) nell&#39;intestazione della visualizzazione.
 
