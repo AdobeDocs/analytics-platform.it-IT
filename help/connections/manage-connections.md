@@ -6,10 +6,10 @@ exl-id: 0a87518c-3608-44ad-b5e3-976f97560433
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: f966f8e87af7ac5e1db93307452ffe16bf87fbc9
+source-git-commit: cac5582cd43aa9bc935fadf8a3ba0dab11e7b095
 workflow-type: tm+mt
-source-wordcount: '4294'
-ht-degree: 63%
+source-wordcount: '4389'
+ht-degree: 62%
 
 ---
 
@@ -74,13 +74,13 @@ Nella tabella sono disponibili le colonne o le icone seguenti.
 | ![Visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | Per [creare una visualizzazione dati](#create-a-data-view) per la connessione, seleziona ![Visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg). Questa icona viene visualizzata solo se alla connessione non è già associata alcuna visualizzazione dati. |
 | ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) per aprire un menu di scelta rapida. È possibile selezionare: <p>![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Edit]** per [modificare](#edit-a-connection) una connessione.<p>![Elimina](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Delete]** per [eliminare](#delete-a-connection) una connessione.<p>![Visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL Create new data view]** per [creare una nuova visualizzazione dati](#create-a-data-view) per la connessione.<p>![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Connection map]** per visualizzare una [mappa di connessione](#map-a-connection) per la connessione. |
 | [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Connection type]** | Tipo di connessione: connessione basata su **[!UICONTROL Person]** o basata su **[!UICONTROL Account]**. |
-| **[!UICONTROL Datasets]** | Uno o più collegamenti ai set di dati che fanno parte della connessione. Puoi selezionare il collegamento ipertestuale del set di dati per visualizzare il set di dati nella connessione. Se della connessione selezionata fanno parte più set di dati, seleziona **[!UICONTROL +*x *più]**&#x200B;per visualizzare un pannello **[!UICONTROL Datasets included]**. Questo pannello mostra i collegamenti a tutti i set di dati e un&#39;opzione per ![cercare](/help/assets/icons/Search.svg) set di dati specifici che fanno parte della connessione.<p>![Set di dati inclusi](assets/datasets-included.png)<p>Seleziona un nome per il set di dati per aprirlo nell’interfaccia di Experience Platform in una nuova scheda. |
+| **[!UICONTROL Datasets]** | Uno o più collegamenti ai set di dati che fanno parte della connessione. Puoi selezionare il collegamento ipertestuale del set di dati per visualizzare il set di dati nella connessione. Se della connessione selezionata fanno parte più set di dati, seleziona **[!UICONTROL +*x *più]**per visualizzare un pannello **[!UICONTROL Datasets included]**. Questo pannello mostra i collegamenti a tutti i set di dati e un&#39;opzione per ![cercare](/help/assets/icons/Search.svg) set di dati specifici che fanno parte della connessione.<p>![Set di dati inclusi](assets/datasets-included.png)<p>Seleziona un nome per il set di dati per aprirlo nell’interfaccia di Experience Platform in una nuova scheda. |
 | **[!UICONTROL Sandbox]** | La [sandbox di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) da cui questa connessione attinge i relativi set di dati. Seleziona questa sandbox al momento della creazione della connessione. Una volta salvata una connessione, non è possibile modificare la sandbox. |
 | **[!UICONTROL Owner]** | Persona che ha creato la connessione. |
-| **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per i set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Il]**&#x200B;per i set di dati configurati per l&#39;importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** per i set di dati non configurati per l’importazione di nuovi dati. |
+| **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per i set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Il]**per i set di dati configurati per l&#39;importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** per i set di dati non configurati per l’importazione di nuovi dati. |
 | **[!UICONTROL Date created]** | Marca temporale della prima creazione della connessione. |
 | **[!UICONTROL Last modified]** | Marca temporale dell’ultimo aggiornamento della connessione. |
-| **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione tra set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite tra set di dati,<p>![Stato arancione](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione tra set di dati,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate per i set di dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui non siano definite retrocompilazioni per i set di dati nella connessione. |
+| **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione tra set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite tra set di dati,<p>![Stato arancione](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione tra set di dati,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate per i set di dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui non siano definite retrocompilazioni per i set di dati nella connessione. |
 | **[!UICONTROL Integrations]** | Mostra tutte le applicazioni Experience Platform abilitate con la connessione. |
 | **[!UICONTROL Use in CJA]** | Indica se la connessione è stata abilitata per l&#39;utilizzo con Customer Journey Analytics. |
 
@@ -155,7 +155,7 @@ Per ulteriori informazioni, consulta [Creare o modificare una visualizzazione da
 
 * Eseguire analisi approfondite dei dati Journey Optimizer in Customer Journey Analytics (utilizzando il pulsante **[!UICONTROL Analyze in CJA]** in Journey Optimizer).
 
-  Per ulteriori informazioni, vedere [Analizzare in Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template) nella documentazione di Journey Optimizer.
+  Per ulteriori informazioni, vedere [Analizzare in Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template) nella documentazione di Journey Optimizer.
 
 * Modifica la connessione Journey Optimizer e le visualizzazioni dati associate.
 
@@ -171,11 +171,15 @@ Dopo aver effettuato l&#39;accesso a Customer Journey Analytics, è necessario c
 
    1. Nella sezione **[!UICONTROL Use in CJA]**, seleziona **[!UICONTROL Off]**.
 
-      Verranno visualizzate tutte le connessioni attualmente non configurate per l&#39;utilizzo in Customer Journey Analytics.
+      Vengono visualizzate tutte le connessioni Journey Optimizer attualmente non configurate per l&#39;utilizzo in Customer Journey Analytics.
 
-   1. Seleziona la connessione Journey Optimizer da utilizzare in Customer Journey Analytics.
+      ![Filtro per mostrare le connessioni non abilitate per AJO](assets/remove-ajo-connection.png)
 
-1. Nella connessione Journey Optimizer, selezionare **[!UICONTROL Use in CJA]**.
+1. Per visualizzare la connessione, selezionare il nome della connessione Journey Optimizer da utilizzare in Customer Journey Analytics.
+
+1. Quando si visualizza la connessione Journey Optimizer, selezionare **[!UICONTROL Use in CJA]**.
+
+   ![Pulsante Usa in CJA](assets/connection-use-in-cja.png)
 
    Viene visualizzata la seguente finestra di dialogo **[!UICONTROL Use this connection in Customer Journey Analytics]**:
 
@@ -204,7 +208,21 @@ Dopo aver effettuato l&#39;accesso a Customer Journey Analytics, è necessario c
 
 Per rimuovere la connessione da Customer Journey Analytics:
 
-1. Durante la modifica di una connessione Journey Optimizer, selezionare **[!UICONTROL Remove from CJA]**.
+1. Individuare la connessione Journey Optimizer da rimuovere da Customer Journey Analytics.
+
+   1. Selezionare l&#39;icona Filtro nella scheda **[!UICONTROL Connections]**.
+
+   1. Nella sezione **[!UICONTROL Use in CJA]**, seleziona **[!UICONTROL On]**.
+
+      Vengono visualizzate tutte le connessioni Journey Optimizer attualmente configurate per l&#39;utilizzo in Customer Journey Analytics.
+
+      ![Filtro per visualizzare le connessioni abilitate per AJO](assets/enabled-ajo-connection.png)
+
+1. Per visualizzare la connessione, selezionare il nome della connessione Journey Optimizer da rimuovere da Customer Journey Analytics.
+
+1. Quando si visualizza la connessione Journey Optimizer, selezionare **[!UICONTROL Remove from CJA]**.
+
+   ![Pulsante Rimuovi da CJA](assets/connection-remove-from-cja.png)
 
    Viene visualizzata la seguente finestra di dialogo **[!UICONTROL Remove this connection from Customer Journey Analytics]**:
 
@@ -260,9 +278,9 @@ La tabella dei set di dati visualizza le colonne seguenti per ogni set di dati:
 | **[!UICONTROL Data source type]** | Tipo di origine. Puoi definire il tipo di origine quando aggiungi un set di dati a una connessione. |
 | **[!UICONTROL Dataset type]** | Il tipo di [set di dati](create-connection.md#dataset-types). Il tipo può essere [!UICONTROL Event], [!UICONTROL Profile], [!UICONTROL Lookup] o [!UICONTROL Summary]. |
 | **[!UICONTROL Schema]** | Schema Adobe Experience Platform su cui si basa il set di dati. |
-| **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati non è configurato per l’importazione di nuovi dati. |
-| **[!UICONTROL Transform data]** | Stato di trasformazione dei set di dati di ricerca B2B applicabili. Per ulteriori informazioni, consulta [Trasformare i set di dati per le ricerche B2B](transform-datasets-b2b-lookups.md).<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;per i set di dati applicabili abilitati per la trasformazione, <p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** per i set di dati applicabili non abilitati per la trasformazione e<p>**[!UICONTROL N/A]** per tutti gli altri set di dati, non applicabili per la trasformazione. |
-| **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui le retrocompilazioni non siano configurate. |
+| **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati non è configurato per l’importazione di nuovi dati. |
+| **[!UICONTROL Transform data]** | Stato di trasformazione dei set di dati di ricerca B2B applicabili. Per ulteriori informazioni, consulta [Trasformare i set di dati per le ricerche B2B](transform-datasets-b2b-lookups.md).<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**per i set di dati applicabili abilitati per la trasformazione, <p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** per i set di dati applicabili non abilitati per la trasformazione e<p>**[!UICONTROL N/A]** per tutti gli altri set di dati, non applicabili per la trasformazione. |
+| **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui le retrocompilazioni non siano configurate. |
 
 >[!IMPORTANT]
 >
@@ -286,9 +304,9 @@ Quando nella tabella dei set di dati non è selezionato alcun singolo set di dat
 | [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Primary ID type]** | Tipo di ID primario per la connessione: **[!UICONTROL Person]** per una connessione basata su persona, **[!UICONTROL Account]** per una connessione basata su account. |
 | [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Containers]** | I contenitori configurati per la connessione. |
 | **[!UICONTROL Data views using connection]** | Visualizzazioni dati che utilizzano questa connessione. |
-| **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per i set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;per il numero di set di dati configurati per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** per il numero di set di dati per il quale viene disattivata l’importazione di nuovi dati. |
-| **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per i set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite tra set di dati,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione tra set di dati,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate per i set di dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui non siano definite retrocompilazioni per i set di dati nella connessione. |
-| **[!UICONTROL Transform data]** | Stato di trasformazione dei set di dati di ricerca B2B applicabili. Per ulteriori informazioni, consulta [Trasformare i set di dati per le ricerche B2B](transform-datasets-b2b-lookups.md).<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;per il numero di set di dati abilitati per la trasformazione. |
+| **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per i set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**per il numero di set di dati configurati per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** per il numero di set di dati per il quale viene disattivata l’importazione di nuovi dati. |
+| **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per i set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite tra set di dati,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione tra set di dati,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate per i set di dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui non siano definite retrocompilazioni per i set di dati nella connessione. |
+| **[!UICONTROL Transform data]** | Stato di trasformazione dei set di dati di ricerca B2B applicabili. Per ulteriori informazioni, consulta [Trasformare i set di dati per le ricerche B2B](transform-datasets-b2b-lookups.md).<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**per il numero di set di dati abilitati per la trasformazione. |
 | **[!UICONTROL Created by]** | Nome della persona che ha creato la connessione. |
 | **[!UICONTROL Last modified]** | Marca temporale dell’ultima modifica apportata alla connessione. |
 | **[!UICONTROL Last modified by]** | Nome dell&#39;ultima persona che ha modificato la connessione. |
@@ -305,14 +323,14 @@ Quando una riga di set di dati viene selezionata nella tabella dei set di dati, 
 | **[!UICONTROL Key]** | Chiave specificata per un set di dati di ricerca. |
 | **[!UICONTROL Matching Key]** | Chiave corrispondente specificata per un set di dati di ricerca. |
 | **[!UICONTROL Timestamp]** | Marca temporale definita per un set di dati evento. |
-| **[!UICONTROL Records available]** | Numero totale di righe acquisite per questo set di dati, per il particolare periodo di tempo selezionato nel calendario. Non esiste alcuna latenza in termini di visualizzazione dei dati nel reporting, una volta aggiunti. Tuttavia, quando crei una nuova connessione, si verifica una [latenza](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq). |
+| **[!UICONTROL Records available]** | Numero totale di righe acquisite per questo set di dati, per il particolare periodo di tempo selezionato nel calendario. Non esiste alcuna latenza in termini di visualizzazione dei dati nel reporting, una volta aggiunti. Tuttavia, quando crei una nuova connessione, si verifica una [latenza](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq). |
 | **[!UICONTROL Records added]** | Il numero di record di set di dati (righe) aggiunti a una connessione durante l’intervallo di date selezionato. |
 | **[!UICONTROL Records skipped]** | Il numero di record di set di dati (righe) ignorati durante il trasferimento di dati per una connessione durante l’intervallo di date selezionato. |
 | **[!UICONTROL Batches added]** | Il numero di batch aggiunti a una connessione. |
 | **[!UICONTROL Records deleted]** | Il numero di record di set di dati (righe) rimossi da una connessione durante l’intervallo di date selezionato. |
 | **[!UICONTROL Last added]** | La marca temporale dell’ultimo batch aggiunto a una connessione. |
-| **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
-| **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione.<p>Per visualizzare una finestra di dialogo con una panoramica delle precedenti retrocompilazioni relative al set di dati, selezionare <img src="./assets/pastbackfill.svg" alt="Retrocompilazioni precedenti" width="15"/> **[!UICONTROL Past backfills]**. |
+| **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
+| **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione.<p>Per visualizzare una finestra di dialogo con una panoramica delle precedenti retrocompilazioni relative al set di dati, selezionare <img src="./assets/pastbackfill.svg" alt="Retrocompilazioni precedenti" width="15"/> **[!UICONTROL Past backfills]**. |
 | **[!UICONTROL Data source type]** | Tipo di origine dati definito al momento dell’aggiunta del set di dati alla connessione. |
 | **[!UICONTROL Dataset type]** | Il tipo di [set di dati](create-connection.md#dataset-types). |
 | **[!UICONTROL Schema]** | Schema Adobe Experience Platform su cui si basa questo set di dati. |
@@ -437,7 +455,7 @@ L’interfaccia Utilizzo è costituita da due pannelli:
 
 * Un pannello combinato che mostra tre pannelli secondari per:
 
-+++ Righe acquisite
+  +++ Righe acquisite
 
   Il pannello secondario **[!UICONTROL Ingested rows]** misura il numero totale di record aggiunti al sistema ogni mese, per fornire informazioni approfondite sulla crescita dei dati e sui tassi di acquisizione. Il pannello secondario fornisce un riepilogo del totale delle righe acquisite di questo mese e della modifica rispetto al mese precedente.
 
@@ -445,9 +463,9 @@ L’interfaccia Utilizzo è costituita da due pannelli:
 
   Puoi passare il puntatore sui punti dati nella visualizzazione per visualizzare una finestra a comparsa con ulteriori dettagli.
 
-+++
+  +++
 
-+++ Righe segnalabili
+  +++ Righe segnalabili
 
   La visualizzazione **[!UICONTROL Reportable rows]** tiene traccia del numero di righe disponibili per il reporting sottraendo le righe saltate ed eliminate dalle righe acquisite, fungendo da metrica chiave per la fatturazione e l&#39;utilizzo dei dati. Il pannello secondario fornisce due riepiloghi:
 
@@ -458,9 +476,9 @@ L’interfaccia Utilizzo è costituita da due pannelli:
 
   Puoi passare il puntatore sui punti dati nelle visualizzazioni per visualizzare un pop-up con ulteriori dettagli.
 
-+++
+  +++
 
-+++ Raggruppamento in dettaglio.
+  +++ Raggruppamento in dettaglio.
 
   È possibile utilizzare la tabella **[!UICONTROL Detail breakdown]** per visualizzare metriche dettagliate per connessione, set di dati, sandbox e tag. I set di dati vengono indicati utilizzando ID anziché nomi, in quanto i nomi dei set di dati possono essere modificati nel corso di un periodo di reporting. Le connessioni o i set di dati sconosciuti vengono indicati utilizzando i relativi ID.
 
@@ -477,12 +495,12 @@ L’interfaccia Utilizzo è costituita da due pannelli:
 
   ![Raggruppamento in dettaglio](assets/usage-detail-breakdown.png)
 
-+++
+  +++
 
   Puoi definire un **[!UICONTROL Time range]** in mesi per il quale generare il rapporto. Utilizza ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l’intervallo di tempo.
 
 >[!MORELIKETHIS]
 >
 >Tutorial: [Visualizzare, risolvere i problemi e modificare le impostazioni di connessione](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja).
->&#x200B;>[Gestire l’utilizzo di Customer Journey Analytics](/help/technotes/estimate-usage.md)
+>>[Gestire l’utilizzo di Customer Journey Analytics](/help/technotes/estimate-usage.md)
 >
