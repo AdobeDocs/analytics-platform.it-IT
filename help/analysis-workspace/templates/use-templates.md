@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
 source-git-commit: df069a7a67c65db9eb70900869495202f63abd05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '20234'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1068,22 +1068,22 @@ Per accedere a tutti i modelli predfiniti disponibili:
 >[!CONTEXTUALHELP]
 >id="cja-template--b2b-account-engagement"
 >title="Scopri quanto sono attivi i tuoi account tra eventi, persone e opportunità."
->abstract="**Questo può aiutarti** a comprendere meglio se il coinvolgimento a livello di account sta aumentando o diminuendo, a confrontare le attività tra gli account e a decidere dove concentrare le attività di conservazione o acquisizione.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come concentrare nuovamente l’attenzione sugli account meno coinvolti ma che richiedono maggiore attenzione a causa della loro importanza."
+>abstract="**Questo può aiutarti** a capire meglio se il coinvolgimento a livello di account sta aumentando o diminuendo, a confrontare le attività tra gli account e a decidere dove concentrare le attività di conservazione o acquisizione.<br/>**In base a quanto appreso, potresti** fare diverse cose, come concentrare nuovamente l’attenzione sugli account meno coinvolti ma che richiedono più attenzione a causa dell’importanza dell’account."
 
 >[!CONTEXTUALHELP]
 >id="cja-template--b2b-opportunity-engagement"
 >title="Tieni traccia del coinvolgimento a livello di opportunità e degli accordi di superficie che acquisiscono o perdono interesse."
->abstract="**Questo può aiutarti** a prevedere la progressione dell’offerta in modo più preciso e a incentrare l’abilitazione dove il coinvolgimento aumenta o si arresta.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio dedicare ulteriori attività ad accordi quasi conclusi e cercare il motivo per cui invece altri stanno perdendo interesse."
+>abstract="**Questo può aiutarti** a prevedere la progressione dell’accordo in modo più preciso e a concentrare l’abilitazione dove il coinvolgimento aumenta o si arresta.<br/>**In base a quanto appreso, potresti** fare diverse cose, ad esempio dedicare ulteriori sforzi agli accordi quasi conclusi e cercare il motivo per cui invece altri stanno perdendo interesse."
 
 >[!CONTEXTUALHELP]
 >id="cja-template--b2b-buying-group-activity"
->title="Visualizza l’attività del gruppo acquisti all’interno di ogni account per guidare le azioni di marketing relative all’account e al gruppo acquisti."
->abstract="**Questo può aiutarti** a visualizzare quali gruppi acquisti e quali persone all’interno di tali gruppi sono più coinvolti, evidenziando le lacune nella partecipazione al gruppo.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio cercare di coinvolgere maggiormente le persone nei gruppi acquisti che non sembrano essere coinvolte."
+>title="Visualizza l’attività del gruppo acquisti all’interno di ogni account per informare sulle azioni di marketing relative a gruppi acquisti ed account."
+>abstract="**Questo può aiutarti** a visualizzare i gruppi acquisti e le persone più coinvolte all’interno di tali gruppi, evidenziando le lacune nella partecipazione al gruppo.<br/>**In base a quanto appreso, potresti** fare diverse cose, ad esempio cercare di coinvolgere maggiormente le persone di gruppi acquisti che non sembrano essere coinvolte."
 
  Sono disponibili i modelli seguenti:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Panoramica sul coinvolgimento dell&#39;account B2B**] | Scopri quanto sono attivi i tuoi account tra eventi, persone e opportunità.<p>**Questo può aiutarti** a comprendere meglio se il coinvolgimento a livello di account sta aumentando o diminuendo, a confrontare le attività tra gli account e a decidere dove concentrare le attività di conservazione o acquisizione.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come concentrare nuovamente l’attenzione sugli account meno coinvolti ma che richiedono maggiore attenzione a causa della loro importanza.</p> |
-| [!UICONTROL **Panoramica del coinvolgimento dell&#39;opportunità B2B**] | Tieni traccia del coinvolgimento a livello di opportunità e degli accordi di superficie che acquisiscono o perdono interesse.<p>**Questo può aiutarti** a prevedere la progressione dell’offerta in modo più preciso e a incentrare l’abilitazione dove il coinvolgimento aumenta o si arresta.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio dedicare ulteriori attività ad accordi quasi conclusi e cercare il motivo per cui invece altri stanno perdendo interesse.</p> |
-| [!UICONTROL **Attività del gruppo di acquisto B2B**] | Visualizza l’attività del gruppo acquisti all’interno di ogni account per guidare le azioni di marketing relative all’account e al gruppo acquisti.<p>**Questo può aiutarti** a visualizzare quali gruppi acquisti e quali persone all’interno di tali gruppi sono più coinvolti, evidenziando le lacune nella partecipazione al gruppo.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio cercare di coinvolgere maggiormente le persone nei gruppi acquisti che non sembrano essere coinvolte.</p> |
+| [!UICONTROL **Panoramica sul coinvolgimento dell’account B2B**] | Scopri quanto sono attivi i tuoi account tra eventi, persone e opportunità.<p>**Questo può aiutarti** a capire meglio se il coinvolgimento a livello di account sta aumentando o diminuendo, a confrontare le attività tra gli account e a decidere dove concentrare le attività di conservazione o acquisizione.</p><p>**In base a quanto appreso, potresti** fare diverse cose, come concentrare nuovamente l’attenzione sugli account meno coinvolti ma che richiedono più attenzione a causa dell’importanza dell’account.</p> |
+| [!UICONTROL **Panoramica sul coinvolgimento dell’opportunità B2B**] | Tieni traccia del coinvolgimento a livello di opportunità e degli accordi di superficie che acquisiscono o perdono interesse.<p>**Questo può aiutarti** a prevedere la progressione dell’accordo in modo più preciso e a concentrare l’abilitazione dove il coinvolgimento aumenta o si arresta.</p><p>**In base a quanto appreso, potresti** fare diverse cose, ad esempio dedicare ulteriori sforzi agli accordi quasi conclusi e cercare il motivo per cui invece altri stanno perdendo interesse.</p> |
+| [!UICONTROL **Attività del gruppo acquisti B2B**] | Visualizza l’attività del gruppo acquisti all’interno di ogni account per informare sulle azioni di marketing relative a gruppi acquisti ed account.<p>**Questo può aiutarti** a visualizzare i gruppi acquisti e le persone più coinvolte all’interno di tali gruppi, evidenziando le lacune nella partecipazione al gruppo.</p><p>**In base a ciò che hai appreso, potresti** fare diverse cose, ad esempio cercare di coinvolgere maggiormente le persone di gruppi acquisti che non sembrano essere coinvolte.</p> |
