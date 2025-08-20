@@ -7,9 +7,9 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: 804668db5e104d1a1de7d5d9ce0c92a9bb1980dc
+source-git-commit: 2dd78dc120fc2bf48d3a59e28631e4ddf605b0c3
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Non considerare la generazione di rapporti in tempo reale per i casi di utilizzo
 
 ## Latenze
 
-La modalità di raccolta dei dati determina la latenza in tempo reale dei rapporti in tempo reale per Customer Journey Analytics. L’illustrazione e la tabella seguente mostrano le latenze approssimative per vari scenari di raccolta dati quando si utilizzano rapporti standard e in tempo reale.
+La modalità di raccolta dei dati determina la latenza del reporting in tempo reale in Customer Journey Analytics. L’illustrazione e la tabella seguente mostrano le latenze approssimative per vari scenari di raccolta dati quando si utilizzano rapporti standard in tempo reale e (per confronto).
 
 Nell&#39;illustrazione viene inoltre sottolineato che il reporting in tempo reale utilizza un set di dati consolidato completamente separato dal [set di dati consolidato (combinato)](/help/connections/combined-dataset.md) utilizzato per il reporting standard. Utilizza l&#39;[interruttore di aggiornamento in tempo reale](use-real-time.md) per passare da:
 
@@ -56,10 +56,11 @@ Nell&#39;illustrazione viene inoltre sottolineato che il reporting in tempo real
 
 | | Raccolta dati | Latenza di reporting in tempo reale | Latenza di reporting standard |
 |:---:|---|--:|--:|
-| 1 | SDK/API di Edge Network in Edge Network | &approx; &lt; 00h:06m:30s | &approx; &lt; 01h:35m:00s |
-| 2 | Connettori di streaming | &approx; &lt; 00h:16m:30s | &approx; &lt; 01h:45m:00s |
-| 3 | Connettore sorgente Adobe Analytics | &approx; &lt; 00h:16m:30s | &approx; &lt; 01h:45m:00s |
+| 1 | SDK/API di Edge Network in Edge Network | &amp;approx; &lt; 00h:06m:30s | &amp;approx; &lt; 01h:35m:00s |
+| 2 | Connettori di streaming | &amp;approx; &lt; 00h:16m:30s | &amp;approx; &lt; 01h:45m:00s |
+| 3 | Connettore sorgente Adobe Analytics | &amp;approx; &lt; 00h:16m:30s | &amp;approx; &lt; 01h:45m:00s |
 | 4 | Altri connettori di origine nei connettori di origine (inclusi i dati batch) | &amp;ca.; &lt; 24h:01m:30s | &amp;ca.; &lt; 25h:30m:00s |
+
 
 ## Limitazioni
 
@@ -67,8 +68,8 @@ Tieni presente le seguenti limitazioni per la generazione di rapporti in tempo r
 
 * La generazione rapporti in tempo reale segnala solo i dati disponibili in un periodo continuo di 24 ore. Dati superiori a   24 ore non è disponibile per la generazione di rapporti in tempo reale. Quando l&#39;[aggiornamento in tempo reale](use-real-time.md) per un report è disattivato o disattivato automaticamente, tutti i dati rilevanti sono disponibili una volta di più dal [set di dati consolidato](/help/connections/combined-dataset.md) utilizzato in genere per il reporting in Customer Journey Analytics.
 * Attribuzione, segmentazione, metriche calcolate e altro ancora funzionano solo sui dati disponibili entro il periodo continuo di 24 ore. Ad esempio, un segmento *Visitatori ripetuti* include pochissime persone in un rapporto in tempo reale perché il rapporto include solo le persone che hanno visitato più volte nelle ultime 24 ore. Una limitazione simile si applica quando si crea un rapporto in tempo reale su persone che in precedenza hanno fatto clic su una campagna non più attiva.
-* Il reporting in tempo reale funziona meglio sui dati a livello di evento e di sessione ed è necessario prestare attenzione quando si utilizza il reporting in tempo reale per i dati a livello di persona. <!--Need to explain this a bit better --> Poiché solo gli eventi del periodo continuo di 24 ore sono disponibili per i report in tempo reale, anche la cronologia degli eventi di una persona è limitata a questa finestra. Quando selezioni una dimensione e metriche (calcolate), considera la preferenza per i dati a livello di evento e di sessione. E quando utilizzi funzionalità quali raggruppamenti, successivo o precedente e altro nel pannello con aggiornamento in tempo reale abilitato.
-* Non è possibile combinare l’unione con il reporting in tempo reale. <!-- Do we need to explain this in more detail, why? --> Il reporting in tempo reale riguarda i dati a livello di evento e di sessione ed è meno rilevante per i dati basati su persona.
+* Il reporting in tempo reale funziona meglio sui dati a livello di evento e di sessione ed è necessario prestare attenzione quando si utilizza il reporting in tempo reale per i dati a livello di persona. Poiché per i rapporti in tempo reale sono disponibili solo gli eventi del periodo continuo di 24 ore, anche la cronologia degli eventi di una persona è limitata a questa finestra. Quando selezioni una dimensione e metriche (calcolate), considera la preferenza per i dati a livello di evento e di sessione. E quando utilizzi funzionalità quali raggruppamenti, successivo o precedente e altro nel pannello con aggiornamento in tempo reale abilitato.
+* Non è possibile combinare l’unione con il reporting in tempo reale. Il reporting in tempo reale riguarda i dati a livello di evento e di sessione ed è meno rilevante per i dati basati su persone.
 * Non sono disponibili metriche per elementi multimediali raccolti con heartbeat, ad eccezione delle metriche di avvio e chiusura dei contenuti multimediali. Pertanto, puoi comunque utilizzare la reportistica in tempo reale per abilitare un caso d’uso dei contenuti multimediali.
 * Quando utilizzi le [opzioni di download o esportazione](/help/analysis-workspace/export/download-send.md) per scaricare un progetto o esportare dati da una tabella a forma libera, considera quanto segue:
    * Un progetto CSV scaricato o un file CSV esportato contiene i dati in tempo reale disponibili al momento del download o dell’esportazione.
