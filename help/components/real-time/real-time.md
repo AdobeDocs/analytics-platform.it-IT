@@ -7,7 +7,7 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: d0067d8271b7628f0d174d1fa647ba1b4558ffb4
+source-git-commit: 804668db5e104d1a1de7d5d9ce0c92a9bb1980dc
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 2%
@@ -45,7 +45,7 @@ Non considerare la generazione di rapporti in tempo reale per i casi di utilizzo
 
 ## Latenze
 
-La modalità di raccolta dei dati determina la latenza in tempo reale del reporting in tempo reale per Customer Journey Analytics. L’illustrazione e la tabella seguente mostrano le latenze approssimative per vari scenari di raccolta dati quando si utilizzano rapporti standard e in tempo reale.
+La modalità di raccolta dei dati determina la latenza in tempo reale dei rapporti in tempo reale per Customer Journey Analytics. L’illustrazione e la tabella seguente mostrano le latenze approssimative per vari scenari di raccolta dati quando si utilizzano rapporti standard e in tempo reale.
 
 Nell&#39;illustrazione viene inoltre sottolineato che il reporting in tempo reale utilizza un set di dati consolidato completamente separato dal [set di dati consolidato (combinato)](/help/connections/combined-dataset.md) utilizzato per il reporting standard. Utilizza l&#39;[interruttore di aggiornamento in tempo reale](use-real-time.md) per passare da:
 
@@ -56,9 +56,9 @@ Nell&#39;illustrazione viene inoltre sottolineato che il reporting in tempo real
 
 | | Raccolta dati | Latenza di reporting in tempo reale | Latenza di reporting standard |
 |:---:|---|--:|--:|
-| 1 | SDK/API di Edge Network in Edge Network | &approx; &lt; 00h:06m:30s | &approx; &lt; 01h:35m:00s |
-| 2 | Connettori di streaming | &approx; &lt; 00h:16m:30s | &approx; &lt; 01h:45m:00s |
-| 3 | Connettore sorgente Adobe Analytics | &approx; &lt; 00h:16m:30s | &approx; &lt; 01h:45m:00s |
+| 1 | SDK/API di Edge Network in Edge Network | &amp;approx; &lt; 00h:06m:30s | &amp;approx; &lt; 01h:35m:00s |
+| 2 | Connettori di streaming | &amp;approx; &lt; 00h:16m:30s | &amp;approx; &lt; 01h:45m:00s |
+| 3 | Connettore sorgente Adobe Analytics | &amp;approx; &lt; 00h:16m:30s | &amp;approx; &lt; 01h:45m:00s |
 | 4 | Altri connettori di origine nei connettori di origine (inclusi i dati batch) | &amp;ca.; &lt; 24h:01m:30s | &amp;ca.; &lt; 25h:30m:00s |
 
 ## Limitazioni
