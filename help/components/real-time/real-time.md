@@ -56,9 +56,9 @@ Nell&#39;illustrazione viene inoltre sottolineato che il reporting in tempo real
 
 | | Raccolta dati | Latenza di reporting in tempo reale | Latenza di reporting standard |
 |:---:|---|--:|--:|
-| 1 | SDK/API di Edge Network in Edge Network | &amp;approx; &lt; 00h:06m:30s | &amp;approx; &lt; 01h:35m:00s |
-| 2 | Connettori di streaming | &amp;approx; &lt; 00h:16m:30s | &amp;approx; &lt; 01h:45m:00s |
-| 3 | Connettore sorgente Adobe Analytics | &amp;approx; &lt; 00h:16m:30s | &amp;approx; &lt; 01h:45m:00s |
+| 1 | SDK/API di Edge Network in Edge Network | &approx; &lt; 00h:06m:30s | &approx; &lt; 01h:35m:00s |
+| 2 | Connettori di streaming | &approx; &lt; 00h:16m:30s | &approx; &lt; 01h:45m:00s |
+| 3 | Connettore sorgente Adobe Analytics | &approx; &lt; 00h:16m:30s | &approx; &lt; 01h:45m:00s |
 | 4 | Altri connettori di origine nei connettori di origine (inclusi i dati batch) | &amp;ca.; &lt; 24h:01m:30s | &amp;ca.; &lt; 25h:30m:00s |
 
 ## Limitazioni
