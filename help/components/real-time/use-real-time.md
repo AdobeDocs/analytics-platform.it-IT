@@ -30,7 +30,7 @@ Per utilizzare la generazione rapporti in tempo reale, abilita **[!UICONTROL Rea
 * [Attribuzione](/help/analysis-workspace/c-panels/attribution.md)
 * [Elemento successivo o precedente](/help/analysis-workspace/c-panels/next-previous.md)
 
-Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL  *Ultimo aggiornamento alle 17:01:00:55.*]
+Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL &#x200B; *Ultimo aggiornamento alle 17:01:00:55.*]
 
 Dal menu a discesa, seleziona il periodo in tempo reale su cui desideri creare un rapporto. Le opzioni disponibili sono:
 
