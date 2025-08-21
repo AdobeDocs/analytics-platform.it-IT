@@ -7,10 +7,10 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: b34cf8d95080cb333cd497450f5881f0418b8ae9
+source-git-commit: 2461804f788b7a1417c4d7faa1d7133d8808cad5
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -42,17 +42,18 @@ Desideri convalidare, ad esempio:
 
 Non considerare la generazione di rapporti in tempo reale per i casi di utilizzo relativi al monitoraggio delle operazioni. Ad esempio, per rispondere alla domanda se un sito funziona correttamente. Poiché l&#39;[aggiornamento in tempo reale](use-real-time.md) viene disattivato automaticamente dopo 30 minuti e il report in tempo reale non viene più aggiornato, non utilizzare un report in tempo reale come origine affidabile per questi casi d&#39;uso.
 
+## Come funziona
 
-## Latenze
-
-La modalità di raccolta dei dati determina la latenza del reporting in tempo reale in Customer Journey Analytics. L’illustrazione e la tabella seguente mostrano le latenze approssimative per vari scenari di raccolta dati quando si utilizzano rapporti standard in tempo reale e (per confronto).
-
-Nell&#39;illustrazione viene inoltre sottolineato che il reporting in tempo reale utilizza un set di dati consolidato completamente separato dal [set di dati consolidato (combinato)](/help/connections/combined-dataset.md) utilizzato per il reporting standard. Utilizza l&#39;[interruttore di aggiornamento in tempo reale](use-real-time.md) per passare da:
+Il reporting in tempo reale utilizza un set di dati consolidato completamente separato dal [set di dati consolidato (combinato)](/help/connections/combined-dataset.md) utilizzato per il reporting standard. Utilizza l&#39;[interruttore di aggiornamento in tempo reale](use-real-time.md) per passare da:
 
 * Generazione di rapporti in tempo reale su un set di dati consolidato contenente fino a 24 ore di dati continui.
 * Generazione di rapporti standard sul set di dati consolidato che contiene fino a 13 mesi di dati continui (o più nel caso in cui sia stata concessa la licenza per il componente aggiuntivo Capacità dati estesa).
 
 ![Reporting in tempo reale](assets/real-time-reporting-latencies.svg){zoomable="yes"}
+
+### Latenze
+
+La modalità di raccolta dei dati determina la latenza del reporting in tempo reale in Customer Journey Analytics. L’illustrazione precedente e la tabella seguente mostrano le latenze approssimative per vari scenari di raccolta dati quando si utilizzano rapporti standard in tempo reale e (per confronto).
 
 | | Raccolta dati | Latenza reportistica in tempo reale <br/> (circa minore di) | Latenza di reporting standard <br/> (circa minore di) |
 |:---:|---|--:|--:|

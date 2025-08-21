@@ -7,10 +7,10 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
-source-git-commit: b833914e7066fa660f856737d6b8a6392aae2feb
+source-git-commit: 2461804f788b7a1417c4d7faa1d7133d8808cad5
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 16%
+source-wordcount: '198'
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ Per utilizzare la generazione rapporti in tempo reale, abilita **[!UICONTROL Rea
 * [Attribuzione](/help/analysis-workspace/c-panels/attribution.md)
 * [Elemento successivo o precedente](/help/analysis-workspace/c-panels/next-previous.md)
 
-Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL &#x200B; *Ultimo aggiornamento alle 17:01:00:55.*]
+Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL  *Ultimo aggiornamento alle 17:01:00:55.*]
 
 Dal menu a discesa, seleziona il periodo in tempo reale su cui desideri creare un rapporto. Le opzioni disponibili sono:
 
@@ -47,3 +47,5 @@ Ad esempio, vedere di seguito uno snapshot di un **[!UICONTROL Real-time reporti
 ![Aggiornamento in tempo reale](assets/real-time-refresh.gif)
 
 Dopo 30 minuti o quando la scheda del browser diventa inattiva, l&#39;interruttore **[!UICONTROL Real-time refresh]** viene disattivato automaticamente e gli aggiornamenti in tempo reale vengono interrotti.
+
+Non appena l&#39;opzione di aggiornamento in tempo reale è disattivata, il pannello (e tutte le visualizzazioni in ) tornano a [utilizzare i dati e le funzionalità standard di reporting di Customer Journey Analytics](real-time.md#how-it-works).
