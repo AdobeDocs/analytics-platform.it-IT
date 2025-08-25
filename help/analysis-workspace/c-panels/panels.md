@@ -4,10 +4,10 @@ title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
-workflow-type: ht
-source-wordcount: '2004'
-ht-degree: 100%
+source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
+workflow-type: tm+mt
+source-wordcount: '2065'
+ht-degree: 97%
 
 ---
 
@@ -73,6 +73,18 @@ Puoi:
   | ![Grafico ad albero](/help/assets/icons/GraphTree.svg) | [Mappa ad albero](/help/analysis-workspace/visualizations/treemap.md) |
 
 * Seleziona ![Aggiungi cerchio](/help/assets/icons/AddCircle.svg) **all&#39;esterno** dell’ultimo pannello nell’area di lavoro per aggiungere un altro [pannello vuoto](blank-panel.md).
+
+
+## Gestire un pannello
+
+Puoi gestire un pannello nei seguenti modi:
+
+![Gestisci pannello](assets/manage-panel.png)
+
+* Per comprimere un pannello, selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg).
+* Per visualizzare un pannello compresso, selezionare ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
+* Per eliminare un pannello, selezionare ![CrossSize400](/help/assets/icons/CrossSize200.svg). Per annullare, selezionare **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
+* Per spostare un pannello, trascina e rilascia il pannello ogni volta che è visibile un elemento ![Sposta](/help/assets/icons/Move.svg) (in genere quando passi il cursore del mouse sull&#39;intestazione).
 
 
 ## Visualizzazione dati
@@ -155,7 +167,7 @@ Per ulteriori informazioni, consulta [Segmenti rapidi](/help/components/segments
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/329414?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 

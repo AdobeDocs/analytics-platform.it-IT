@@ -5,10 +5,10 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 9c05319ceacb7287af7f15cfe56b8048a718559d
+source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 95%
+source-wordcount: '1649'
+ht-degree: 88%
 
 ---
 
@@ -67,6 +67,22 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
    * Utilizza il menu **[!UICONTROL Insert]** di Workspace per inserire una visualizzazione.
 
    * Dal menu di scelta rapida di una tabella a forma libera, seleziona **[!UICONTROL Visualize]**. Seleziona quindi la visualizzazione dal sottomenu. In base alla selezione corrente nella tabella, Workspace determina la visualizzazione da offrire e interpreta i dati per generare la visualizzazione richiesta.
+
+Quando aggiungi una visualizzazione semplice, ad esempio una [Linea](line.md) di [Barra](bar.md), la visualizzazione utilizza la tabella a forma libera più vicina come origine di dati. Puoi sempre modificare l&#39;[origine dati](#data-source) delle tue visualizzazioni.
+
+
+## Gestire le visualizzazioni
+
+Puoi gestire una visualizzazione quando passi il cursore del mouse su di essa o selezionala.
+
+![Gestisci visualizzazione](assets/manage-visualization.png)
+
+* Per comprimere una visualizzazione, selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg).
+* Per visualizzare una visualizzazione compressa, selezionare ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
+* Per eliminare una visualizzazione, selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg). Per annullare, selezionare **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
+* Per ripristinare l&#39;altezza predefinita di una visualizzazione, selezionare ![Ridimensiona immagine](/help/assets/icons/Resize.svg).
+* Per spostare una visualizzazione all&#39;interno di un pannello, trascina e rilascia la visualizzazione ogni volta che è visibile un elemento ![Sposta](/help/assets/icons/Move.svg) (in genere quando passi il cursore del mouse sull&#39;intestazione).
+
 
 
 ## Legend (Legenda)
