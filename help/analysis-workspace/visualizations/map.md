@@ -4,7 +4,7 @@ title: Mappa
 feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 71d5326f5d80f196504178855dacdf01f60fb81c
+source-git-commit: ab0e6f0578cbc6f856c2b0a46b1231cce145b84c
 workflow-type: tm+mt
 source-wordcount: '2612'
 ht-degree: 10%
@@ -40,12 +40,9 @@ ht-degree: 10%
 
 <!-- markdownlint-enable MD034 -->
 
-
-{{release-limited-testing}}
-
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
