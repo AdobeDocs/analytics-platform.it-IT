@@ -149,7 +149,7 @@ Per ulteriori informazioni, consulta [Creare o modificare una visualizzazione da
 
 * Eseguire analisi approfondite dei dati Journey Optimizer in Customer Journey Analytics (utilizzando il pulsante **[!UICONTROL Analyze in CJA]** in Journey Optimizer).
 
-  Per ulteriori informazioni, vedere [Analizzare in Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template) nella documentazione di Journey Optimizer.
+  Per ulteriori informazioni, vedere [Analizzare in Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template) nella documentazione di Journey Optimizer.
 
 * Modifica la connessione Journey Optimizer e le visualizzazioni dati associate.
 
@@ -322,7 +322,7 @@ Quando una riga di set di dati viene selezionata nella tabella dei set di dati, 
 | **[!UICONTROL Key]** | Chiave specificata per un set di dati di ricerca. |
 | **[!UICONTROL Matching Key]** | Chiave corrispondente specificata per un set di dati di ricerca. |
 | **[!UICONTROL Timestamp]** | Marca temporale definita per un set di dati evento. |
-| **[!UICONTROL Records available]** | Numero totale di righe acquisite per questo set di dati, per il particolare periodo di tempo selezionato nel calendario. Non esiste alcuna latenza in termini di visualizzazione dei dati nel reporting, una volta aggiunti. Tuttavia, quando crei una nuova connessione, si verifica una [latenza](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq). |
+| **[!UICONTROL Records available]** | Numero totale di righe acquisite per questo set di dati, per il particolare periodo di tempo selezionato nel calendario. Non esiste alcuna latenza in termini di visualizzazione dei dati nel reporting, una volta aggiunti. Tuttavia, quando crei una nuova connessione, si verifica una [latenza](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-faq). |
 | **[!UICONTROL Records added]** | Il numero di record di set di dati (righe) aggiunti a una connessione durante l’intervallo di date selezionato. |
 | **[!UICONTROL Records skipped]** | Il numero di record di set di dati (righe) ignorati durante il trasferimento di dati per una connessione durante l’intervallo di date selezionato. |
 | **[!UICONTROL Batches added]** | Il numero di batch aggiunti a una connessione. |
