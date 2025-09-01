@@ -5,9 +5,9 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 9e263d638d483194424a492b0494672ef0f62e71
+source-git-commit: aa635d52007a3032d8c3f90a779d1b70213dee9e
 workflow-type: tm+mt
-source-wordcount: '3702'
+source-wordcount: '3701'
 ht-degree: 37%
 
 ---
@@ -90,7 +90,7 @@ I vantaggi delle etichette di contesto sono:
 * **Coerenza**: tutti gli utenti dell&#39;organizzazione che lavorano su uno o più progetti basati su una visualizzazione dati che utilizza le etichette di contesto ottengono lo stesso comportamento.
 * **Visibilità delle funzionalità e dei modelli**: alcune visualizzazioni e funzionalità vengono visualizzate solo quando viene assegnata l&#39;etichetta di contesto appropriata. Ad esempio:
 
-   * Una visualizzazione [Mappa](/help/analysis-workspace/visualizations/map.md) viene visualizzata correttamente solo se Customer Journey Analytics sa quali campi rappresentano latitudine e longitudine.
+   * Una visualizzazione [Mappa](/help/analysis-workspace/visualizations/map.md) viene visualizzata correttamente solo se Customer Journey Analytics conosce i componenti che rappresentano latitudine e longitudine.
    * I [modelli](/help/analysis-workspace/templates/use-templates.md) specifici sono visibili solo quando vengono applicate le etichette di contesto corrette e i componenti associati diventano disponibili.
 
 Le etichette di contesto possono essere necessarie nelle seguenti situazioni:
@@ -105,7 +105,7 @@ Le etichette di contesto possono essere necessarie nelle seguenti situazioni:
 
   **Nota**: la visualizzazione Mappa si trova nella fase Test limitati del rilascio e potrebbe non essere ancora disponibile nell&#39;ambiente.
 
-* Quando si utilizzano [modelli forniti da Adobe](/help/analysis-workspace/templates/use-templates.md). Alcuni modelli forniti da Adobe potrebbero non funzionare perché alcuni componenti non sono presenti nella visualizzazione dati.
+* Per visualizzare [modelli forniti da Adobe](/help/analysis-workspace/templates/use-templates.md). Alcuni modelli forniti da Adobe potrebbero non funzionare perché alcuni componenti non sono presenti nella visualizzazione dati.
 
   Per ogni componente mancante, nella visualizzazione dati è disponibile un’etichetta di contesto corrispondente. È necessario aggiungere l’etichetta di contesto corrispondente a un componente già presente nella visualizzazione dati. In alternativa, è necessario aggiungere un nuovo componente alla visualizzazione dati e aggiungere l’etichetta di contesto al componente (se non è già stata fornita automaticamente).
 

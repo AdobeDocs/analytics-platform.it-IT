@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1718379e1ea6baffef8f4da045662e95a47e1480
+source-git-commit: aa635d52007a3032d8c3f90a779d1b70213dee9e
 workflow-type: tm+mt
-source-wordcount: '5337'
+source-wordcount: '5357'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Settembre 2025** | |
+| Etichette di contesto | Sono state aggiunte ulteriori informazioni sull&#39;utilizzo e lo scopo di [etichette di contesto](/help/data-views/component-settings/overview.md#context-labels) nei componenti della visualizzazione dati. |
 | **Agosto 2025** | |
 | Nuova integrazione con Adobe Advertising | Sono state aggiunte informazioni sull&#39;integrazione di [con Adobe Advertising](/help/integrations/advertising.md). |
 | Nuove funzioni del campo derivato | Documentazione per le nuove funzioni del campo derivato: [Calcolo della data](/help/data-views/derived-fields/derived-fields.md#date-math), [Profondità](/help/data-views/derived-fields/derived-fields.md#depth) e [Conversione di tipo](/help/data-views/derived-fields/derived-fields.md#typecast). |
@@ -198,8 +200,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Condivisione dei collegamenti per i progetti (accesso non richiesto) | <p>È stata aggiornata la documentazione esistente per spiegare come condividere un collegamento di sola lettura di un progetto con persone che non hanno accesso ad Analysis Workspace.</p> <p>La documentazione utente aggiornata include [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md) e [Creare collegamenti condivisibili](/help/analysis-workspace/curate-share/shareable-links.md).</p> <p>Nella sezione [Preferenze](/help/analysis-workspace/user-preferences.md) sono state aggiunte le opzioni per gli amministratori.</p> |
 | **Febbraio 2023** | |
 | Confronto tra Customer Journey Analytics e soluzioni BI | Nuovo documento su un [confronto](../getting-started/cja-vs-bi.md) di Customer Journey Analytics rispetto alle soluzioni BI tipiche. |
-| Aggiornamento della documentazione di Audiences | Nuova sezione sulle [considerazioni sulla latenza](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=it#latency). |
-| Aggiornamento della documentazione di Audiences | Dopo aver creato un pubblico, Adobe crea un [segmento Experience Platform in streaming per ogni nuovo pubblico Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=it#after-audience-created). |
+| Aggiornamento della documentazione sul pubblico | Nuova sezione sulle [considerazioni sulla latenza](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=it#latency). |
+| Aggiornamento della documentazione sul pubblico | Dopo aver creato un pubblico, Adobe crea un [segmento Experience Platform in streaming per ogni nuovo pubblico Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=it#after-audience-created). |
 | Calendario e intervalli di date in Workspace | Contenuto aggiornato per descrivere intervalli di date relativi, aggiornamenti del calcolo delle formule e modifiche all’interfaccia utente degli elementi calendario. Vedi [Informazioni sugli intervalli di date relativi al pannello](/help/components/date-ranges/overview.md#custom-date-ranges). |
 | Scorecard per dispositivi mobili | Nuova sezione della documentazione per descrivere come mostrare e nascondere gli intervalli di date di confronto. Consulta [Mostrare intervalli date di confronto](/help/mobile-app/create-scorecard.md#show-comparison-dates) in Customer Journey Analytics. |
 | **Gennaio 2023** | |
@@ -221,7 +223,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Dicembre 2022** |  |
 | 16 dicembre 2022 | Nuovo argomento sulla [gestione dell’utilizzo dei dati di Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Ottobre 2022** | |
-| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
+| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Chiavi gestite dal cliente](/help/privacy/cmk.md). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Registro di controllo di Customer Journey Analytics](/help/privacy/audit-log.md). |
 | Ottobre 2022 | Nuovo argomento sulla visualizzazione del [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=it). |
