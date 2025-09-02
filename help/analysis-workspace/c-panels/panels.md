@@ -5,9 +5,9 @@ feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
 source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2065'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,19 +77,19 @@ Puoi:
 
 ## Gestire un pannello
 
-Puoi gestire un pannello nei seguenti modi:
+Puoi gestire un pannello nei modi seguenti:
 
-![Gestisci pannello](assets/manage-panel.png)
+![Gestire un pannello](assets/manage-panel.png)
 
-* Per comprimere un pannello, selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg).
-* Per visualizzare un pannello compresso, selezionare ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
-* Per eliminare un pannello, selezionare ![CrossSize400](/help/assets/icons/CrossSize200.svg). Per annullare, selezionare **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
-* Per spostare un pannello, trascina e rilascia il pannello ogni volta che è visibile un elemento ![Sposta](/help/assets/icons/Move.svg) (in genere quando passi il cursore del mouse sull&#39;intestazione).
+* Per comprimere un pannello, seleziona ![ChevronDown](/help/assets/icons/ChevronDown.svg).
+* Per visualizzare un pannello compresso, seleziona ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
+* Per eliminare un pannello, seleziona ![CrossSize400](/help/assets/icons/CrossSize200.svg). Per annullare, seleziona **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *Comando+Z *]**|**[!UICONTROL * CTRL+Z *]**).
+* Per spostare un pannello, trascinalo ogni volta che è visibile un elemento ![Sposta](/help/assets/icons/Move.svg). In genere quando passi il puntatore sull’intestazione.
 
 
 ## Visualizzazione dati
 
-Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md), identificata dal ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**&#x200B;nel menu a discesa in alto a destra del pannello.
+Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md), identificata dal ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**nel menu a discesa in alto a destra del pannello.
 
 Quando crei un progetto Workspace vuoto, la visualizzazione dati predefinita per il pannello iniziale è l’ultima visualizzazione dati su cui hai lavorato in Customer Journey Analytics.
 
@@ -167,7 +167,7 @@ Per ulteriori informazioni, consulta [Segmenti rapidi](/help/components/segments
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/329414?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
