@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 50599b36d333cae3735c6d4fd1b0af6fcabe9177
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: 9774e0e3af024823a03dbcd8d6766877f55e95d8
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 93%
 
 ---
 
@@ -68,6 +68,20 @@ Assicurati di non confondere l’unione delle identità con:
 - L’unione di due o più set di dati. L’unione delle identità si applica a un solo set di dati. L’unione di più set di dati si verifica in seguito alla configurazione di una connessione Customer Journey Analytics e alla selezione dello stesso ID persona nei set di dati selezionati nella connessione.
 
 - L’unione di due set di dati. L’unione di due set di dati viene spesso utilizzata per ricerche o classificazioni in Analysis Workspace. L’unione delle identità utilizzi questa stessa funzionalità, ma con un processo che va oltre la semplice unione.
+
+
+## Set di dati di Journey Optimizer
+
+L’unione supporta i seguenti set di dati di Journey Optimizer generati automaticamente:
+
+- Eventi dei passaggi del Percorso di AJO
+- Set di dati evento attività in entrata AJO
+- Set di dati superfici AJO
+- Set di dati evento feedback messaggi AJO* Tracciamento push AJO Set di dati evento esperienza
+- Set di dati evento esperienza di tracciamento e-mail AJO
+- Set di dati evento feedback Ccn AJO
+- Set di dati evento feedback attività AJO Live
+- Set di dati evento decisione ExD AJO
 
 >[!MORELIKETHIS]
 >
