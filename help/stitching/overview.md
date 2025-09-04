@@ -86,8 +86,8 @@ L’unione supporta i seguenti set di dati di Journey Optimizer generati automat
 >[!MORELIKETHIS]
 >
 >[Unione delle identità basata sui campi](fbs.md)
->>[Unione delle identità basata sui grafi](gbs.md)
->>[Utilizzare l’unione delle identità](use-stitching.md)
->>[Convalidare l’unione delle identità](validate.md)
->>[Domande frequenti sull’unione delle identità](faq.md)
+>&#x200B;>[Unione delle identità basata sui grafi](gbs.md)
+>&#x200B;>[Utilizzare l’unione delle identità](use-stitching.md)
+>&#x200B;>[Convalidare l’unione delle identità](validate.md)
+>&#x200B;>[Domande frequenti sull’unione delle identità](faq.md)
 
