@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 1a003b38ef26eb811b19cd091c6e089f33ddb6f6
+source-git-commit: c4aea74807be15af56413522d9e6fbf5f18a37a0
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 27%
+source-wordcount: '2041'
+ht-degree: 26%
 
 ---
 
@@ -23,8 +23,8 @@ Di seguito sono riportate alcune domande frequenti sull’unione:
 Puoi utilizzare una visualizzazione Flusso con la dimensione ID set di dati.
 
 1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e crea un progetto Workspace vuoto.
-2. Seleziona la scheda **[!UICONTROL ** Visualizzazioni **]** a sinistra e trascina una visualizzazione **[!UICONTROL **&#x200B; Flusso &#x200B;**]** nell&#39;area di lavoro a destra.
-3. Seleziona la scheda **[!UICONTROL ** Componenti **]** a sinistra e trascina la dimensione **[!UICONTROL ** ID set di dati **]** nella posizione centrale con etichetta **[!UICONTROL **&#x200B; Dimension o elemento &#x200B;**]**.
+2. Seleziona la scheda **[!UICONTROL ** Visualizzazioni **]** a sinistra e trascina una visualizzazione **[!UICONTROL ** Flusso **]** nell&#39;area di lavoro a destra.
+3. Seleziona la scheda **[!UICONTROL ** Componenti **]** a sinistra e trascina la dimensione **[!UICONTROL ** ID set di dati **]** nella posizione centrale con etichetta **[!UICONTROL ** Dimension o elemento **]**.
 4. Questo rapporto di flusso è interattivo. Per espandere i flussi alle pagine successive o precedenti, selezionare uno qualsiasi dei valori. Utilizza il menu di scelta rapida per espandere o comprimere le colonne. Possono essere utilizzate anche dimensioni diverse all’interno dello stesso rapporto di flusso.
 
 Se desideri rinominare gli elementi dimensione ID set di dati, puoi utilizzare un set di dati di ricerca.
@@ -107,7 +107,7 @@ Per illustrare, immagina i seguenti dati per le identità, gli eventi prima e do
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Set di dati uniti | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio | ID unione | Spazio dei nomi unito |
+| Set di dati unito | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio | ID unito | Spazio dei nomi unito |
 |---|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | Bob | CustId |
 | | 2 | ts1 | 123 | ecid | Bob | CustId | Bob | CustId |
@@ -131,7 +131,7 @@ Quando viene ricevuta una richiesta di accesso a dati personali per un cliente c
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Set di dati uniti | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio | ID unione | Spazio dei nomi unito |
+| Set di dati unito | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio | ID unito | Spazio dei nomi unito |
 |:---:|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | **Alex** | CustId |
 | ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ | ~~Bob~~ | ~~IDCust~~ |
@@ -155,7 +155,7 @@ Quando viene ricevuta una richiesta di accesso a dati personali per un cliente c
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Set di dati uniti | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio | ID unione | Spazio dei nomi unito |
+| Set di dati unito | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio | ID unito | Spazio dei nomi unito |
 |:---:|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | **123** | ecid |
 | ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ | ~~Bob~~ | ~~IDCust~~ |
@@ -183,16 +183,16 @@ Presta attenzione alla &quot;compressione della persona&quot; che si verifica qu
 
 | Evento | Marca temporale | ID persistente (ID cookie) | ID transitorio (ID accesso) | ID unione (dopo la riproduzione) |
 |---|---|---|---|---|
-| 1 | 2023-05-12 12:01 | 123 | - | **Cory** |
-| 2 | 2023-05-12 12:02 | 123 | Cory | **Cory** |
-| 3 | 2023-05-12 12:03 | 456 | Non definito | **Non definito** |
-| 4 | 2023-05-12 12:04 | 456 | - | **Non definito** |
-| 5 | 2023-05-12 12:05 | 789 | Non definito | **Non definito** |
-| 6 | 2023-05-12 12:06 | 012 | Non definito | **Non definito** |
-| 7 | 2023-05-12 12:07 | 012 | - | **Non definito** |
-| 8 | 2023-05-12 12:03 | 789 | Non definito | **Non definito** |
-| 9 | 2023-05-12 12:09 | 456 | - | **Non definito** |
-| 10 | 2023-05-12 12:02 | 123 | - | **Cory** |
+| 1 | 12/05/2023:01 | 123 | - | **Cory** |
+| 2 | 12/05/2023:02 | 123 | Cory | **Cory** |
+| 3 | 12/05/2023:03 | 456 | Non definito | **Non definito** |
+| 4 | 12/05/2023:04 | 456 | - | **Non definito** |
+| 5 | 12/05/2023:05 | 789 | Non definito | **Non definito** |
+| 6 | 12/05/2023:06 | 012 | Non definito | **Non definito** |
+| 7 | 12/05/2023:07 | 012 | - | **Non definito** |
+| 8 | 12/05/2023:03 | 789 | Non definito | **Non definito** |
+| 9 | 12/05/2023:09 | 456 | - | **Non definito** |
+| 10 | 12/05/2023:02 | 123 | - | **Cory** |
 | | | **4 dispositivi** | **2 persone**:<br/>Eventi 1, 4, 7, 9, 10 eliminati | **2 persone**:<br/>Cory, non autenticato (compresso a una persona) |
 
 +++
@@ -205,7 +205,7 @@ Alcune metriche in Customer Journey Analytics sono simili alle metriche nella ve
 
 | **Dati uniti di Customer Journey Analytics** | **Dati non uniti di Customer Journey Analytics** | **Adobe Analytics** | **Analytics Ultimate con CDA** |
 | ----- | ----- | ----- | ----- |
-| **Persone** = numero di ID persona distinti in cui l&#39;ID unione viene scelto come ID persona. **Persone** può essere superiore o inferiore a **Visitatori unici** in Adobe Analytics tradizionale, a seconda del risultato del processo di unione. | **Persone** = numero di ID persona distinti in base alla colonna selezionata come ID persona. **Persone** nei set di dati del connettore di origine di Analytics è simile a **Visitatori univoci** in Adobe Analytics tradizionale se `endUserIDs._experience.aaid.id` viene utilizzato come ID persona in Customer Journey Analytics. | **Visitatori unici** = numero di ID visitatore distinti. **Visitatori unici** potrebbe non essere lo stesso del conteggio di valori univoci **ECID**. | Consulta [Persone](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=it). |
+| **Persone** = numero di ID persona distinti in cui l&#39;ID unione viene scelto come ID persona. **Persone** può essere superiore o inferiore a **Visitatori univoci** in Adobe Analytics tradizionale, a seconda del risultato del processo di unione delle identità. | **Persone** = numero di ID persona distinti in base alla colonna selezionata come ID persona. **Persone** nei set di dati del connettore di origine di Analytics è simile a **Visitatori univoci** in Adobe Analytics tradizionale se `endUserIDs._experience.aaid.id` viene utilizzato come ID persona in Customer Journey Analytics. | **Visitatori univoci** = numero di ID visitatore distinti. Il numero di **Visitatori univoci** potrebbe essere diverso dal conteggio di valori **ECID** distinti. | Consulta [Persone](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=it). |
 | **Sessioni**: definite in base alle impostazioni di sessione nella visualizzazione dati di Customer Journey Analytics. Il processo di unione può combinare sessioni singole da più dispositivi in una singola sessione. | **Sessioni**: definite in base alle impostazioni di sessione specificate nella visualizzazione dati di Customer Journey Analytics. | **Visite**: consulta [Visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it). | **Visite**: definito in base alle impostazioni di sessione specificate nella [suite di rapporti virtuali CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=it). |
 | **Eventi** = numero di righe nei dati uniti in Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Nota, tuttavia, le domande frequenti sopra relative alle righe con un ID persistente vuoto. | **Eventi** = numero di righe nei dati non uniti in Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Tuttavia, se uno qualsiasi degli eventi dispone di un ID persona vuoto nei dati non uniti nel data lake di Experience Platform, questi eventi non vengono inclusi in Customer Journey Analytics. | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it). | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=it). |
 
@@ -242,4 +242,37 @@ No, se segui i passaggi descritti in precedenza. In caso contrario, chiedi suppo
 
 +++
 
+## Abilitare un set di dati per il servizio Identity
 
++++ Come abilitare un set di dati solo per il servizio Identity? 
+
+Assicurati che un set di dati sia abilitato affinché il servizio Identity possa utilizzarlo nell’unione basata su grafico.
+
+Non è necessario disporre della licenza per Real-Time Customer Data Platform per utilizzare l’unione basata su grafico. L’unione basata su grafici si basa su un grafico delle identità disponibile e non sui profili cliente in tempo reale.
+
+Per abilitare un set di dati solo per Identity Service, utilizzare una richiesta `POST` all&#39;endpoint `/datasets` che utilizza solo il tag `unifiedIdentity`. Ad esempio:
+
+```shell
+curl -X POST \
+  https://platform.adobe.io/data/foundation/catalog/dataSets \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {ORG_ID}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}' \
+  -d '{
+    "schemaRef": {
+        "id": "https://ns.adobe.com/{TENANT_ID}/schemas/31670881463308a46f7d2cb09762715",
+        "contentType": "application/vnd.adobe.xed-full-notext+json; version=1"
+    },
+    "tags": {
+       "unifiedIdentity": ["enabled:true"]
+    }
+  }'
+```
+
+Qualsiasi utilizzo del tag `unifiedProfile` nella richiesta, anche se non disponi della licenza per Real-Time Customer Data Profile, restituisce un errore.
+
+Per ulteriori informazioni, vedere [Creare un set di dati abilitato per Profilo e identità](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity).
+
++++ 

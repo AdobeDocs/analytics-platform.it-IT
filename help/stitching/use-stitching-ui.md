@@ -7,10 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 4bca14492374939cd1ea6508c774720db61a6283
+source-git-commit: c4aea74807be15af56413522d9e6fbf5f18a37a0
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 5%
+source-wordcount: '325'
+ht-degree: 4%
 
 ---
 
@@ -44,9 +44,19 @@ Per abilitare l&#39;unione, nella sezione del set di dati evento della finestra 
    * Consenti a **[!UICONTROL Use primary identity namespace]** di utilizzare lo spazio dei nomi dell&#39;identità primaria.
    * Selezionare uno spazio dei nomi dal menu a discesa **[!UICONTROL Namespace]**.
 
-   Se selezioni **[!UICONTROL Identity Graph]** per l&#39;ID persona, devi selezionare uno spazio dei nomi. In precedenza, veniva visualizzata una finestra di dialogo **[!UICONTROL Change to identity graph]** per verificare di aver completato la configurazione del grafo delle identità prima di utilizzare il grafo delle identità per l&#39;unione. Seleziona **[!UICONTROL Continue]** (Avanti) per continuare.
+
+   Se selezioni **[!UICONTROL Identity Graph]** per l&#39;ID persona, devi selezionare uno spazio dei nomi.
+
+   >[!NOTE]
+   >
+   >Devi essere autorizzato a utilizzare il grafo delle identità.
+   >
+
+   Prima di ciò, viene visualizzata una finestra di dialogo **[!UICONTROL Change to identity graph]** per verificare che [ abbia completato la configurazione del grafico delle identità per il set di dati](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) prima di utilizzare il grafico delle identità per l&#39;unione. Seleziona **[!UICONTROL Continue]** (Avanti) per continuare.
 
    * Selezionare uno spazio dei nomi dal menu a discesa **[!UICONTROL Namespace]**.
 
 
-1. Selezionare un intervallo di lookback dal menu a discesa **[!UICONTROL Lookback window]**. Le opzioni sono **[!UICONTROL 1 day]**, **[!UICONTROL 7 days]**, **[!UICONTROL 14 days]** o **[!UICONTROL 30 days]**.
+1. Selezionare un intervallo di lookback dal menu a discesa **[!UICONTROL Lookback window]**. Le opzioni disponibili dipendono dal pacchetto Customer Journey Analytics a cui hai diritto.
+
+Dopo aver salvato una connessione contenente set di dati abilitati per l’unione di identità, il processo di unione per ciascun set di dati inizia all’avvio dell’acquisizione dei dati per tale set di dati.
