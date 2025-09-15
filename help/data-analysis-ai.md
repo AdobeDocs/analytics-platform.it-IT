@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
 source-git-commit: c8d9eddd1ce11975dec16f715a5f5888cd4d6ffa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2243'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
 * **Autorizzazioni**: per consentire agli utenti di accedere all’agente Data Insights, è necessario concedere le autorizzazioni necessarie in [!UICONTROL Adobe Admin Console].
 
-  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
+  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
    1. In **[!UICONTROL Admin Console]**, seleziona la scheda **[!UICONTROL Products]** per visualizzare la pagina **[!UICONTROL All products and services]**.
    1. Seleziona **[!UICONTROL Customer Journey Analytics]**.
    1. Nella scheda **[!UICONTROL Product Profiles]**, seleziona il titolo del profilo di prodotto per il quale desideri fornire accesso a [!UICONTROL AI Assistant: Product Knowledge].
@@ -70,7 +70,7 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
       >[!IMPORTANT]
       >
-      >Quando abiliti questa opzione, prendi in considerazione quanto segue:
+      >Quando abiliti le visualizzazioni dati, prendi in considerazione quanto segue:
       >* Puoi abilitare un massimo di 50 visualizzazioni dati per organizzazione IMS. Se abiliti più di 50 visualizzazioni dati in tutti i profili di prodotto per una determinata organizzazione, l’agente Data Insights utilizzerà le 50 visualizzazioni dati più utilizzate.
       >* L’agente Data Insights può fare riferimento alle visualizzazioni dati incluse nel corso dello stesso giorno in cui vengono abilitate in Admin Console.
 
