@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
 source-git-commit: 9774e0e3af024823a03dbcd8d6766877f55e95d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -74,20 +74,20 @@ Assicurati di non confondere l’unione delle identità con:
 
 L’unione supporta i seguenti set di dati di Journey Optimizer generati automaticamente:
 
-- Eventi dei passaggi del Percorso di AJO
-- Set di dati evento attività in entrata AJO
-- Set di dati superfici AJO
-- Set di dati evento feedback messaggi AJO* Tracciamento push AJO Set di dati evento esperienza
+- Eventi passaggio percorso AJO
+- Set di dati evento di attività in entrata AJO
+- Set di dati di superfici AJO
+- Set di dati evento di feedback messaggi di AJO* Set di dati evento esperienza di tracciamento push di AJO
 - Set di dati evento esperienza di tracciamento e-mail AJO
-- Set di dati evento feedback Ccn AJO
-- Set di dati evento feedback attività AJO Live
-- Set di dati evento decisione ExD AJO
+- Set di dati evento di feedback BBC di AJO
+- Set di dati evento di feedback attività live di AJO
+- Set di dati evento di decisione ExD di AJO
 
 >[!MORELIKETHIS]
 >
 >[Unione delle identità basata sui campi](fbs.md)
->&#x200B;>[Unione delle identità basata sui grafi](gbs.md)
->&#x200B;>[Utilizzare l’unione delle identità](use-stitching.md)
->&#x200B;>[Convalidare l’unione delle identità](validate.md)
->&#x200B;>[Domande frequenti sull’unione delle identità](faq.md)
+>>[Unione delle identità basata sui grafi](gbs.md)
+>>[Utilizzare l’unione delle identità](use-stitching.md)
+>>[Convalidare l’unione delle identità](validate.md)
+>>[Domande frequenti sull’unione delle identità](faq.md)
 
