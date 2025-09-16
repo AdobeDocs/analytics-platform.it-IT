@@ -5,10 +5,10 @@ title: Esportare Tabelle Complete Nel Cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: c16fc1a239c9ce1b701b3d03539bc9696f1c6489
+source-git-commit: e3037b3981ce128f67165d6caca0b4dc5df04773
 workflow-type: tm+mt
-source-wordcount: '2229'
-ht-degree: 72%
+source-wordcount: '2381'
+ht-degree: 68%
 
 ---
 
@@ -59,6 +59,43 @@ Utilizza il seguente processo durante l’esportare tabelle complete nel cloud:
 >id="export-manifest"
 >title="File manifesto"
 >abstract="Se è abilitato, un file manifesto viene incluso in tutte le consegne esportate riuscite. Il file manifesto ti consente di confermare che tutti i file sono stati consegnati correttamente."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-details"
+>title="Dettagli"
+>abstract="Specifica un nome per l’esportazione. Puoi anche aggiungere una descrizione ed eventuali tag. Queste informazioni sono utili per identificare l’esportazione nella tabella delle esportazioni e nelle notifiche e-mail."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-data-structure"
+>title="Struttura dei dati"
+>abstract="Tabella a forma libera da esportare. Puoi modificare la struttura dati trascinando i componenti dal pannello di sinistra alla tabella. Puoi applicare un filtro trascinando un componente nell’area del filtro. Il progetto viene aggiornato dinamicamente quando si aggiungono componenti all’area di lavoro."
+
+<!-- markdownlint-enable MD034 -->ß
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-schedule"
+>title="Pianificazione"
+>abstract="Seleziona la frequenza con cui deve avvenire l’esportazione. Scegliere Invia ora (una tantum) per avviare immediatamente l&#39;esportazione. Le esportazioni programmate vengono avviate alla data e all&#39;ora specificate. "
+
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-destination"
+>title="Destinazione"
+>abstract="Seleziona l’account cloud e il percorso in cui desideri inviare i dati. Puoi scegliere un account e una posizione esistenti o selezionare &quot;Aggiungi nuovo&quot; per crearli. Specifica gli utenti e i gruppi a cui inviare le notifiche relative alle esportazioni non riuscite o in scadenza."
 
 <!-- markdownlint-enable MD034 -->
 
