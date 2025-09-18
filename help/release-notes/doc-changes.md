@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 7c285d6ed154c5d865c96a7c1b3cc697e73bf456
-workflow-type: ht
-source-wordcount: '5385'
-ht-degree: 100%
+source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
+workflow-type: tm+mt
+source-wordcount: '5396'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Settembre 2025** | |
+| Reporting in tempo reale | È stata aggiunta la documentazione sul [reporting in tempo reale](/help/components/real-time/real-time.md) in Customer Journey Analytics. |
 | Interfaccia di utilizzo | È stata aggiunta la documentazione per l’[interfaccia di utilizzo](/help/connections/manage-connections.md#usage) aggiornata in Connessioni. |
 | Unione dei set di dati di Journey Optimizer | È stato documentato l’[elenco di set di dati di Journey Optimzer generati automaticamente](/help/stitching/overview.md#journey-optimizer-datasets) che possono essere utilizzati nell’unione. |
 | Etichette di contesto | Sono state aggiunte ulteriori informazioni di base sull’utilizzo e lo scopo di [etichette di contesto](/help/data-views/component-settings/overview.md#context-labels) nei componenti della visualizzazione dati. |
@@ -225,7 +226,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Dicembre 2022** |  |
 | 16 dicembre 2022 | Nuovo argomento sulla [gestione dell’utilizzo dei dati di Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Ottobre 2022** | |
-| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
+| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Chiavi gestite dal cliente](/help/privacy/cmk.md). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Registro di controllo di Customer Journey Analytics](/help/privacy/audit-log.md). |
 | Ottobre 2022 | Nuovo argomento sulla visualizzazione del [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=it). |

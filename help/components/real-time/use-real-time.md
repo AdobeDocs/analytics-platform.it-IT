@@ -2,15 +2,12 @@
 description: Scopri come utilizzare il reporting in tempo reale in Analysis Workspace.
 title: Usa reporting in tempo reale
 feature: Real-time Reporting
-hide: true
-hidefromtoc: true
 role: User
-badgePremium: label="Beta"
 exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
-source-git-commit: 2461804f788b7a1417c4d7faa1d7133d8808cad5
+source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 14%
+source-wordcount: '197'
+ht-degree: 13%
 
 ---
 
@@ -30,7 +27,7 @@ Per utilizzare la generazione rapporti in tempo reale, abilita **[!UICONTROL Rea
 * [Attribuzione](/help/analysis-workspace/c-panels/attribution.md)
 * [Elemento successivo o precedente](/help/analysis-workspace/c-panels/next-previous.md)
 
-Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL &#x200B; *Ultimo aggiornamento alle 17:01:00:55.*]
+Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL  *Ultimo aggiornamento alle 17:01:00:55.*]
 
 Dal menu a discesa, seleziona il periodo in tempo reale su cui desideri creare un rapporto. Le opzioni disponibili sono:
 

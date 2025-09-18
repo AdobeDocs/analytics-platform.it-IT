@@ -2,21 +2,18 @@
 description: Comprendere le funzionalità di reporting in tempo reale in Customer Journey Analytics.
 title: Panoramica reportistica in tempo reale
 feature: Real-time Reporting
-hide: true
-hidefromtoc: true
 role: User
-badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: 2461804f788b7a1417c4d7faa1d7133d8808cad5
+source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 4%
+source-wordcount: '722'
+ht-degree: 7%
 
 ---
 
 # Panoramica reportistica in tempo reale
 
-Il reporting in tempo reale in Customer Journey Analytics mostra e aggiorna dati e visualizzazioni in uno o più pannelli in Analysis Workspace in tempo reale.
+Il reporting in tempo reale in Customer Journey Analytics mostra e aggiorna dati e visualizzazioni in uno o più pannelli di Analysis Workspace in tempo reale.
 
 {{release-limited-testing}}
 
