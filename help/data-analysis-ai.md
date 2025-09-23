@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 8eb57617cc089dee0df73171feb1118f35d4c960
+source-git-commit: cd92bde10b9cb473c4df791e91296a2a43b2ad84
 workflow-type: tm+mt
-source-wordcount: '2308'
-ht-degree: 97%
+source-wordcount: '2390'
+ht-degree: 94%
 
 ---
 
@@ -54,7 +54,7 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
 * **Autorizzazioni**: per consentire agli utenti di accedere all’agente Data Insights, è necessario concedere le autorizzazioni necessarie in [!UICONTROL Adobe Admin Console].
 
-  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
+  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
    1. In **[!UICONTROL Admin Console]**, seleziona la scheda **[!UICONTROL Products]** per visualizzare la pagina **[!UICONTROL All products and services]**.
    1. Seleziona **[!UICONTROL Customer Journey Analytics]**.
    1. Nella scheda **[!UICONTROL Product Profiles]**, seleziona il titolo del profilo di prodotto per il quale desideri fornire accesso a [!UICONTROL AI Assistant: Product Knowledge].
@@ -163,6 +163,14 @@ Infine, esaminiamo entrate per categoria di prodotto.
 
 ![Anello](/help/assets/ai-asst-result3.png)
 
+## Accedere a Data Insights Agent nelle applicazioni Experience Cloud
+
+Adobe Experience Platform Agent Orchestrator consente di accedere alle funzionalità di Data Insights Agent in più applicazioni Adobe Experience Cloud, ad esempio Adobe Journey Optimizer e Real-Time CDP.
+
+Agent Orchestrator interpreta la richiesta, determina quali agenti specializzati sono necessari e li orchestra per fornire la risposta giusta. Tiene traccia del contesto nelle interazioni a più turni, in modo da poter sfruttare naturalmente le query precedenti.
+
+Per ulteriori informazioni, vedere [Adobe Experience Platform Agent Orchestrator](http://www.adobe.com/go/agent-orchestrator-home).
+
 ## Esempi di prompt per le visualizzazioni dati
 
 Di seguito sono riportati alcuni esempi di prompt comuni e di visualizzazioni utilizzate dall’agente Data Insights per rispondere a tali prompt.
@@ -251,7 +259,7 @@ Di seguito sono riportate le best practice per la configurazione di Customer Jou
 >[!MORELIKETHIS]
 >
 >[Impostazioni dei componenti](/help/data-views/component-settings/overview.md)
->&#x200B;>[Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[Approvare la metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[Condividere i segmenti](/help/components/segments/seg-share.md)
+>>[Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Approvare la metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Condividere i segmenti](/help/components/segments/seg-share.md)
 >
