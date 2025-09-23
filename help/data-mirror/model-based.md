@@ -180,7 +180,7 @@ Definisci uno schema che modella questi dati. Per configurare lo schema:
 
      ![Descrittore della persona](assets/platform-schema-personid.png)
 
-   * Il campo **[!UICONTROL timestamp]** è configurato insieme al campo **[!UICONTROL personid]** come **[!UICONTROL Primary ke]**y. Anche il campo **[!UICONTROL timestamp]** è configurato come **[!UICONTROL Timestamp descriptor]**. È sufficiente definire un campo come **[!UICONTROL Timestamp descriptor]** per i dati basati su modello della serie temporale.
+   * Il campo **[!UICONTROL timestamp]** è configurato insieme al campo **[!UICONTROL personid]** come **[!UICONTROL Primary ke]**&#x200B;y. Anche il campo **[!UICONTROL timestamp]** è configurato come **[!UICONTROL Timestamp descriptor]**. È sufficiente definire un campo come **[!UICONTROL Timestamp descriptor]** per i dati basati su modello della serie temporale.
 
      ![Descrittore marca temporale](assets/platform-schema-timestamp.png)
 
