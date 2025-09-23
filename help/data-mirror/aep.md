@@ -52,9 +52,9 @@ Per impostare il connettore di origine sulle soluzioni native di data warehouse 
 
 Per l&#39;autenticazione rispetto alla soluzione nativa data warehouse supportata, consulta la documentazione Experience Platform pertinente:
 
-* [Database di Azure](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Database di Azure](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### Selezionare i dati
