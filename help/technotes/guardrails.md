@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 88956946aabb74d94cd84a8b4ef30d9eb1044ebd
+source-git-commit: 1af81040d144ab1717b9453756d0d5b92d489d56
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1933'
 ht-degree: 7%
 
 ---
@@ -94,7 +94,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/guardrails/overview).
+Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview).
 
 
 ## Scadenza set di dati automatizzato
@@ -139,7 +139,7 @@ Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Esportazione dei dati delle destinazioni
@@ -151,7 +151,7 @@ Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](h
 
 {style="table-layout:auto"}
 
-Vedi anche Experience Platform [Guide di esportazione set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/guardrails#dataset-exports)
+Vedi anche Experience Platform [Guide di esportazione set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Zona di destinazione dati
@@ -258,7 +258,7 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 
 >[!NOTE]
 >
->I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+>I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 | Flusso di dati | Latenza prevista |
 |---|---|
@@ -272,5 +272,12 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 | Backfill del connettore Source di Adobe Analytics di meno di 10 miliardi di eventi (massimo 13 mesi di dati storici) | &lt; 4 settimane |
 | Pubblicazione di tipi di pubblico su Real-time Customer Profile, inclusa la creazione automatica del segmento di streaming e la possibilità per il segmento di essere pronto a ricevere i dati. | ≈ 60 minuti |
 | Frequenza di aggiornamento per i tipi di pubblico | Aggiornamento unico: latenza inferiore a 5 minuti.<br/>Aggiorna ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza è associata alla frequenza di aggiornamento). |
+
+| Latenze di reporting in tempo reale | Latenza prevista |
+|---|---|
+| SDK/API di Edge Network in Edge Network | &lt; 7 minuti |
+| Connettori di streaming | &lt; 17 minuti |
+| Connettore sorgente Adobe Analytics | &lt; 17 minuti |
+| Altri connettori di origine (inclusi i dati batch) | &lt; 25 ore |
 
 {style="table-layout:auto"}
