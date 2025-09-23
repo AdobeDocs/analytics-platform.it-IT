@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 1718379e1ea6baffef8f4da045662e95a47e1480
-workflow-type: ht
-source-wordcount: '1280'
-ht-degree: 100%
+source-git-commit: 06c5a73e5c0c900782bb284ffef9f88c387ba9cc
+workflow-type: tm+mt
+source-wordcount: '1299'
+ht-degree: 98%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 100%
    + [Guida per utenti di Adobe Analytics](../getting-started/aa-to-cja-user.md)
 
 + Acquisizione di dati {#cja-data-ingestion}
-   + [Panoramica sull’acquisizione di dati](../data-ingestion/data-ingestion.md)
+   + [Panoramica](../data-ingestion/data-ingestion.md)
    + Guide rapide per l’acquisizione e l’utilizzo{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + Experience Platform Edge Network {#edge-network}
@@ -120,6 +120,15 @@ ht-degree: 100%
       + [Dati batch](../data-ingestion/batch.md)
       + [Dati in streaming](../data-ingestion/streaming.md)
       + [Connettori di origine](../data-ingestion/sources.md)
+      + [Dati ad hoc](/help/data-ingestion/adhoc.md)
+
++ Mirroring dati {#cja-data-mirror}
+   + [Panoramica](/help/data-mirror/data-mirror.md)
+   + Configurare {#configure}
+      + [Soluzioni native per data warehouse](/help/data-mirror/datawarehouse.md)
+      + [Experience Platform](/help/data-mirror/aep.md)
+      + [Customer Journey Analytics](/help/data-mirror/cja.md)
+   + [Guida rapida di Data Mirror](/help/data-mirror/model-based.md)
 
 + Connessioni {#cja-connections}
    + [Panoramica sulle connessioni](../connections/overview.md)

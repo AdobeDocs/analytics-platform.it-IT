@@ -7,17 +7,15 @@ role: Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
-exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: a6cdade9790ef4bc222eb5979b7370f7403b5ad5
+source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2008'
 ht-degree: 16%
 
 ---
 
-# Eseguire il mirroring e utilizzare dati basati su modelli
 
-{{release-limited-testing}}
+# Eseguire il mirroring e utilizzare dati basati su modelli
 
 Questa guida rapida spiega come utilizzare la funzionalità [Experience Platform Data Mirror for Customer Journey Analytics](data-mirror.md) per eseguire il mirroring dei dati basati su modelli da una soluzione nativa di data warehouse in Adobe Experience Platform. E poi usate quei dati in Customer Journey Analytics.
 
@@ -182,7 +180,7 @@ Definisci uno schema che modella questi dati. Per configurare lo schema:
 
      ![Descrittore della persona](assets/platform-schema-personid.png)
 
-   * Il campo **[!UICONTROL timestamp]** è configurato insieme al campo **[!UICONTROL personid]** come **[!UICONTROL Primary key]**. Anche il campo **[!UICONTROL timestamp]** è configurato come **[!UICONTROL Timestamp descriptor]**. È sufficiente definire un campo come **[!UICONTROL Timestamp descriptor]** per i dati basati su modello della serie temporale.
+   * Il campo **[!UICONTROL timestamp]** è configurato insieme al campo **[!UICONTROL personid]** come **[!UICONTROL Primary ke]**y. Anche il campo **[!UICONTROL timestamp]** è configurato come **[!UICONTROL Timestamp descriptor]**. È sufficiente definire un campo come **[!UICONTROL Timestamp descriptor]** per i dati basati su modello della serie temporale.
 
      ![Descrittore marca temporale](assets/platform-schema-timestamp.png)
 
@@ -220,7 +218,7 @@ Nel passaggio **[!UICONTROL Authentication]**, seleziona:
 
    1. Seleziona **[!UICONTROL Next]**.
 
-  Consulta la documentazione di Experience Platform per informazioni dettagliate su come connettersi e autenticare quando utilizzi il connettore [Azure Databricks](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake).
+  Consulta la documentazione di Experience Platform per informazioni dettagliate su come connettersi e autenticare quando utilizzi il connettore [Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake).
 
 
 ### Selezionare i dati
