@@ -5,10 +5,10 @@ title: Esportare Tabelle Complete Nel Cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: e3037b3981ce128f67165d6caca0b4dc5df04773
+source-git-commit: 0b6afd5639234f6305c99267d3b1624279c97368
 workflow-type: tm+mt
-source-wordcount: '2381'
-ht-degree: 68%
+source-wordcount: '2414'
+ht-degree: 67%
 
 ---
 
@@ -56,15 +56,6 @@ Utilizza il seguente processo durante l’esportare tabelle complete nel cloud:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="export-manifest"
->title="File manifesto"
->abstract="Se è abilitato, un file manifesto viene incluso in tutte le consegne esportate riuscite. Il file manifesto ti consente di confermare che tutti i file sono stati consegnati correttamente."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
 >id="cja-export-details"
 >title="Dettagli"
 >abstract="Specifica un nome per l’esportazione. Puoi anche aggiungere una descrizione ed eventuali tag. Queste informazioni sono utili per identificare l’esportazione nella tabella delle esportazioni e nelle notifiche e-mail."
@@ -78,7 +69,16 @@ Utilizza il seguente processo durante l’esportare tabelle complete nel cloud:
 >title="Struttura dei dati"
 >abstract="Tabella a forma libera da esportare. Puoi modificare la struttura dati trascinando i componenti dal pannello di sinistra alla tabella. Puoi applicare un filtro trascinando un componente nell’area del filtro. Il progetto viene aggiornato dinamicamente quando si aggiungono componenti all’area di lavoro."
 
-<!-- markdownlint-enable MD034 -->ß
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="export-manifest"
+>title="File manifesto"
+>abstract="Se questa opzione è selezionata, un file manifesto viene incluso in tutte le consegne di esportazione riuscite. Il file manifesto ti consente di confermare che tutti i file sono stati consegnati correttamente."
+
+<!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
 
@@ -96,6 +96,15 @@ Utilizza il seguente processo durante l’esportare tabelle complete nel cloud:
 >id="cja-export-destination"
 >title="Destinazione"
 >abstract="Seleziona l’account cloud e il percorso in cui desideri inviare i dati. Puoi scegliere un account e una posizione esistenti o selezionare &quot;Aggiungi nuovo&quot; per crearli. Specifica gli utenti e i gruppi a cui inviare le notifiche relative alle esportazioni non riuscite o in scadenza."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-file-format"
+>title="Formato file"
+>abstract="Quando si sceglie il formato di file Parquet, alcuni caratteri speciali inclusi nei nomi dei componenti vengono sostituiti da un carattere di sottolineatura (_). Consulta il collegamento seguente per un elenco completo dei caratteri sostituiti."
 
 <!-- markdownlint-enable MD034 -->
 
