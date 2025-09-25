@@ -4,11 +4,9 @@ description: Come configurare soluzioni native per data warehouse per Experience
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-hide: true
-hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: 92cffcc5-d7a7-47f5-869d-1fc665594bf4
-source-git-commit: b585187f112c2081a8e51bd84d9f95e75ceebdc3
+source-git-commit: edf7bdac87d9bed48244ad80521bbbf83c48f7b6
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -56,8 +54,8 @@ Per ulteriori informazioni, leggere la [[!DNL Azure Databricks] guida sull&#39;a
 
 Per i passaggi su come abilitare l&#39;acquisizione dei dati di modifica per la connessione di origine [!DNL Azure Databricks], leggere la seguente documentazione:
 
-* [Crea una [!DNL Azure Databricks] connessione di base](https://experienceleague.adobe.com/it/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
-* [Creare una connessione di origine per un database](https://experienceleague.adobe.com/it/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [Crea una [!DNL Azure Databricks] connessione di base](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
+* [Creare una connessione di origine per un database](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Google BigQuery]
 
@@ -67,8 +65,8 @@ Per ulteriori informazioni, leggere la guida sulle [istruzioni del linguaggio di
 
 Per i passaggi su come abilitare l&#39;acquisizione dei dati di modifica per la connessione di origine [!DNL Google BigQuery], leggere la seguente documentazione:
 
-* [Crea una [!DNL Google BigQuery] connessione di base](https://experienceleague.adobe.com/it/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
-* [Creare una connessione di origine per un database](https://experienceleague.adobe.com/it/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [Crea una [!DNL Google BigQuery] connessione di base](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
+* [Creare una connessione di origine per un database](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Snowflake]
 
@@ -84,8 +82,8 @@ Per ulteriori informazioni, leggere la [[!DNL Snowflake] guida sull&#39;utilizzo
 
 Per i passaggi su come abilitare l&#39;acquisizione dei dati di modifica per la connessione di origine [!DNL Snowflake], leggere la seguente documentazione:
 
-* [Crea una [!DNL Snowflake] connessione di base](https://experienceleague.adobe.com/it/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
-* [Creare una connessione di origine per un database](https://experienceleague.adobe.com/it/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [Crea una [!DNL Snowflake] connessione di base](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
+* [Creare una connessione di origine per un database](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 
 >[!MORELIKETHIS]

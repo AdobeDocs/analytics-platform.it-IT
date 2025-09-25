@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
-source-git-commit: 8071e8d5e1ab7e9cfc5037d710361a4d10285704
-workflow-type: ht
-source-wordcount: '957'
-ht-degree: 100%
+source-git-commit: ec56bc657961b2e4e8318ab14cd676288398462f
+workflow-type: tm+mt
+source-wordcount: '1089'
+ht-degree: 85%
 
 ---
 
@@ -20,23 +20,30 @@ Esistono diverse opzioni per acquisire dati in Customer Journey Analytics. Alcun
 >
 >In tutti gli scenari, i dati che desideri _usare_ in Customer Journey Analytics vengono effettivamente _inseriti_ in Adobe Experience Platform.
 
-Esamina l’architettura di Customer Journey Analytics di alto livello mostrata in precedenza nella sezione [Panoramica](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it):
 
-![In questa sezione viene descritta l’architettura di Customer Journey Analytics](./assets/cja-architecture.png)
+L’architettura di alto livello di Customer Journey Analytics è mostrata qui:
 
-Il set di dati nell’architettura di cui sopra può provenire da varie origini:
+![Architettura di Customer Journey Analytics](/help/getting-started/assets/cja-overview.svg)
 
-- dati batch,
+Questa architettura illustra come Customer Percorsi Analytics consente di:
 
-- dati in streaming,
+* Combina più set di dati ![Dati](/help/assets/icons/Data.svg) in una [connessione](/help/connections/overview.md).
+* Definisci e configura le dimensioni ![Dimensioni](/help/assets/icons/Dimensions.svg) e le metriche ![Evento](/help/assets/icons/Event.svg) in una [visualizzazione dati](/help/data-views/data-views.md), in base ai campi disponibili nei set di dati definiti nella connessione.
+* Crea rapporti ![VisualizzaTabella](/help/assets/icons/ViewTable.svg) e visualizzazioni (come riga ![Riga](/help/assets/icons/GraphTrend.svg) e area ![Area](/help/assets/icons/GraphAreaStacked.svg)) in [progetti](/help/analysis-workspace/home.md) in base alle dimensioni e alle metriche delle visualizzazioni dati.
 
-- dati provenienti da una distribuzione di Adobe Analytics corrente,
+I set di dati nell’architettura possono avere origine da varie origini:
 
-- dati provenienti dal tracciamento del sito web o dell’app per dispositivi mobili tramite Adobe Experience Platform Web/Mobile SDK,
+* dati batch,
 
-- dati provenienti dal tracciamento di un’applicazione desktop, un gioco da console, un set top box o un dispositivo IoT utilizzando Adobe Experience Platform Edge Network Server API, oppure
+* dati in streaming,
 
-- dati provenienti da un provider di dati di terze parti per il quale Adobe fornisce un connettore di origine.
+* dati provenienti da una distribuzione di Adobe Analytics corrente,
+
+* dati provenienti dal tracciamento del sito web o dell’app per dispositivi mobili tramite Adobe Experience Platform Web/Mobile SDK,
+
+* dati provenienti dal tracciamento di un’applicazione desktop, un gioco da console, un set top box o un dispositivo IoT utilizzando Adobe Experience Platform Edge Network Server API, oppure
+
+* dati provenienti da un provider di dati di terze parti per il quale Adobe fornisce un connettore di origine.
 
 È possibile avere molti set di dati come questi.
 
@@ -48,11 +55,11 @@ Puoi acquisire i dati degli eventi in Customer Journey Analytics entro 90 minuti
 
 Tieni presente che questa funzionalità varia in base al pacchetto SKU acquistato dalla tua azienda:
 
-- Priorità di acquisizione di base: elaborazione SLT di dati di 24 ore entro 90 minuti (disponibile per **CJA Foundation** e **CJA Select**)
+* Priorità di acquisizione di base: elaborazione SLT di dati di 24 ore entro 90 minuti (disponibile per **CJA Foundation** e **CJA Select**)
 
-- Priorità di acquisizione intermedia: elaborazione SLT di dati di 72 ore entro 90 minuti (disponibile per **CJA Prime**)
+* Priorità di acquisizione intermedia: elaborazione SLT di dati di 72 ore entro 90 minuti (disponibile per **CJA Prime**)
 
-- Priorità di acquisizione avanzata: elaborazione SLT di dati di 1 settimana entro 90 minuti (disponibile per **CJA Ultimate**)
+* Priorità di acquisizione avanzata: elaborazione SLT di dati di 1 settimana entro 90 minuti (disponibile per **CJA Ultimate**)
 
 ## Inserire e usare i dati dalla versione tradizionale di Adobe Analytics
 
@@ -98,6 +105,12 @@ Per ulteriori informazioni, consulta la sezione [Inserire e utilizzare dati in s
 Immagina di avere a disposizione dei dati da un’origine supportata da un connettore di origine. I connettori di origine sono configurazioni configurabili che consentono di inserire dati da applicazioni di Adobe, prime e terze parti in Adobe Experience Platform. Per una panoramica dei connettori di origine disponibili, consulta la sezione [Panoramica dei connettori di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it). Utilizzando il connettore di origine è possibile inserire facilmente i dati provenienti dall’origine in Adobe Experience Platform e quindi utilizzarli, combinarli e analizzarli con i dati di altri canali e origini dati in Customer Journey Analytics.
 
 Per ulteriori informazioni, consulta la sezione [Inserire e utilizzare i dati tramite i connettori di origine](./sources.md).
+
+## Acquisire e utilizzare dati ad hoc
+
+Sono disponibili dati ad hoc che richiedono un solo set di dati in Experience Platform e non richiedono la configurazione di uno schema Experience Data Model (XDM). Questo scenario è denominato schema ad hoc. Gli schemi ad hoc vengono utilizzati in vari flussi di lavoro di acquisizione dati per Experience Platform, tra cui l’acquisizione di file CSV e la creazione di alcuni tipi di connessioni sorgente.
+
+Vedi [Acquisire e utilizzare dati ad hoc](./adhoc.md)
 
 >[!MORELIKETHIS]
 >
