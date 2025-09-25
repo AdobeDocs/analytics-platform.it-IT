@@ -29,7 +29,7 @@ Questa architettura illustra come Customer Percorsi Analytics consente di:
 
 >[!BEGINSHADEBOX]
 
-Per un video introduttivo su Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analysis: Analytics per Experience Business](https://video.tv.adobe.com/v/30090/?quality=12&learn=on){target="_blank"}.
+Per un video introduttivo su Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analysis: Analytics per Experience Business](https://video.tv.adobe.com/v/36335/?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -99,13 +99,13 @@ Dall’acquisizione dei dati all’accesso diretto a SQL, numerosi componenti di
 
 >[!BEGINSHADEBOX]
 
-Per un video introduttivo su come utilizzare i dati in Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dei dati in Customer Journey Analytics](https://video.tv.adobe.com/v/32112/?quality=12&learn=on){target="_blank"}.
+Per un video introduttivo su come utilizzare i dati in Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dei dati in Customer Journey Analytics](https://video.tv.adobe.com/v/36167/?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Per un video introduttivo sull’architettura e l’integrazione di Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Architettura e integrazione](https://video.tv.adobe.com/v/32483/?quality=12&learn=on){target="_blank"}.
+Per un video introduttivo sull’architettura e l’integrazione di Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Architettura e integrazione](https://video.tv.adobe.com/v/330416/?quality=12&learn=on&captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
