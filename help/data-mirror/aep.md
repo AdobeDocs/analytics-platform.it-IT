@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
-source-git-commit: 8946f1bc57cc856adeac4ee0a96799040f7e698c
+source-git-commit: 578e19d8a8205bdfa034900c45d7d4a2d8f6a797
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Di seguito sono riportati i dettagli da tenere in considerazione per la configur
 
 ## Schema
 
-È necessario creare uno schema basato su modello che modella la tabella nativa del data warehouse di cui si desidera eseguire il mirroring. Quando crei lo schema basato su modello, assicurati che siano soddisfatti i seguenti requisiti:
+È necessario creare uno [schema basato su modello](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based){target="_blank"} che modella la tabella nativa del data warehouse di cui si desidera eseguire il mirroring. Quando crei lo schema basato su modello, assicurati che siano soddisfatti i seguenti requisiti:
 
 * Quando viene richiesto il tipo di schema basato su modello, accertati di selezionare l’opzione manuale.
 * Seleziona lo schema appropriato per il tipo di dati. Tieni presente che Experience Platform Data Mirror viene utilizzato principalmente per i dati delle serie temporali (ad esempio, i dati evento).
@@ -55,9 +55,9 @@ Per impostare il connettore di origine sulle soluzioni native di data warehouse 
 
 Per l&#39;autenticazione rispetto alla soluzione nativa data warehouse supportata, consulta la documentazione Experience Platform pertinente:
 
-* [Database di Azure](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Database di Azure](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### Selezionare i dati
@@ -93,4 +93,5 @@ Una volta completata l’impostazione del connettore di origine, viene creato un
 >[!MORELIKETHIS]
 >
 >[Guida rapida di Data Mirror: simulare e utilizzare dati basati su modelli](model-based.md)
->
+>>[Data Mirror (documentazione Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>>[Schemi basati su modelli (documentazione di Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
