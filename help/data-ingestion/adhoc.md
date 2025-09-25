@@ -6,27 +6,25 @@ feature: Basics
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: 17b5842f-dc81-481f-8b21-dc90a133adcf
+source-git-commit: e5975a7bb60f4a2386997024c4615f95be648363
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 27%
+source-wordcount: '1435'
+ht-degree: 23%
 
 ---
 
-
 # Acquisire e utilizzare dati ad hoc
 
-Questa guida rapida spiega come acquisire dati ad hoc in Adobe Experience Platform e quindi utilizzarli in Customer Journey Analytics.
+Questa guida rapida spiega come acquisire dati ad hoc in Experience Platform e quindi utilizzarli in Customer Journey Analytics.
 
 A questo scopo, è necessario:
 
-- **Crea un set di dati con un file CSV** in Experience Platform per definire il modello (schema) dei dati che desideri raccogliere e dove raccogliere i dati (set di dati).
+- **Crea un set di dati con un file CSV** in Experience Platform. Questo flusso di lavoro definisce il modello (schema) dei dati che desideri raccogliere e dove raccogliere i dati (set di dati).
 
-- **Utilizza un connettore di origine** in Experience Platform per inserire i dati nel set di dati configurato.
+- **Impostare una connessione** in Customer Journey Analytics. Questa connessione deve (almeno) includere il set di dati ad hoc di Experience Platform.
 
-- **Impostare una connessione** in Customer Journey Analytics. Questa connessione deve includere almeno il set di dati di Adobe Experience Platform.
-
-- **Configurare una visualizzazione dati** in Customer Journey Analytics per definire le metriche e le dimensioni da utilizzare in Analysis Workspace.
+- **Configura una visualizzazione dati** in Customer Journey Analytics per definire metriche e dimensioni dai campi dei dati ad hoc che desideri utilizzare in Analysis Workspace.
 
 - **Configurare un progetto** in Customer Journey Analytics per generare rapporti e visualizzazioni.
 
@@ -34,7 +32,7 @@ A questo scopo, è necessario:
 
 >[!NOTE]
 >
->Questa guida rapida è una guida semplificata su come acquisire dati ad hoc in Adobe Experience Platform e utilizzarli in Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
+>Questa guida rapida è una guida semplificata su come acquisire dati ad hoc in Experience Platform e utilizzarli in Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
 
 
 ## Creare un set di dati con un file CSV
@@ -53,14 +51,14 @@ Per questo avvio rapido, desideri utilizzare un file CSV che rappresenti i dati 
 >
 >Utilizza set di dati e schemi ad hoc per dati basati su record (ricerca, profilo). I set di dati e gli schemi ad hoc sono meno adatti e non devono essere considerati per i dati di serie temporali (evento, riepilogo).
 
-Non è necessario creare uno schema XDM per dati ad hoc. Adobe Experience Platform supporta un flusso di lavoro che, in base ai dati contenuti nel file CSV:
+Non è necessario creare uno schema XDM per dati ad hoc. Experience Platform supporta un flusso di lavoro che, in base ai dati contenuti nel file CSV:
 
-1. Crea uno schema ad hoc conforme alle colonne del file CSV.
-1. Crea un set di dati basato sullo schema ad hoc che contiene i dati del file CSV.
+1. Crea automaticamente uno schema ad hoc. Tale schema è conforme alle colonne del file CSV.
+1. Crea un set di dati contenente i dati del file CSV.
 
 Per avviare il flusso di lavoro:
 
-1. Nell&#39;interfaccia utente di Adobe Experience Platform, nella barra a sinistra, selezionare **[!UICONTROL Workflows]**.
+1. Nell&#39;interfaccia di Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Workflows]**.
 1. Selezionare ![DataAdd](/help/assets/icons/DataAdd.svg) **[!UICONTROL Create dataset from CSV file]**.
 1. Selezionare **[!UICONTROL Launch]** dal riquadro di destra.
 1. Nella procedura guidata **[!UICONTROL Workflows]** > **[!UICONTROL Create dataset from CSV file]**:
@@ -71,7 +69,7 @@ Per avviare il flusso di lavoro:
 
          ![Configura set di dati ad hoc configurato](assets/adhoc-dataset-configure.png)
 
-      1. Seleziona **[!UICONTROL Next]** (Salva e continua).
+      1. Seleziona **[!UICONTROL Next]** (Crea nuova visualizzazione dati).
    1. Nel passaggio **[!UICONTROL Add data]** (Configura):
       1. Seleziona **[!UICONTROL Choose Files]** per selezionare il file CSV dal computer o dalla rete. In alternativa, trascinare e rilasciare il file dal percorso del computer o della rete in **[!UICONTROL Drag and drop files]**. Il file è stato caricato e **[!UICONTROL Sample data]** è visualizzato.
       1. Attiva o disattiva **[!UICONTROL Error diagnostics]** e **[!UICONTROL Enable partial ingestion]** in base alle tue preferenze. Quando **[!UICONTROL Enable Partial ingestion]**, puoi definire un **[!UICONTROL Error threshold %]**.
@@ -80,15 +78,15 @@ Per avviare il flusso di lavoro:
 
       1. Seleziona **[!UICONTROL Finish]**.
 
-I dati vengono preparati e caricati. Una volta caricati i dati, verrai reindirizzato a **[!UICONTROL Datasets]** nell&#39;interfaccia utente di Adobe Experience Platform.<br/> **[!UICONTROL Dataset activity]** per il set di dati **[!UICONTROL Sample Data from CSV]** con stato ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Processing]**.
+Una volta preparati e caricati correttamente i dati, sei reindirizzato a **[!UICONTROL Datasets]** nell&#39;interfaccia di Experience Platform.<br/> **[!UICONTROL Dataset activity]** per il set di dati **[!UICONTROL Sample Data from CSV]** con stato ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Processing]**.
 
 ![Attività set di dati per dati ad hoc](assets/datasets-dataset-activity.png)
 
 Per esaminare i dati ad hoc:
 
-1. Nell&#39;interfaccia utente di Adobe Experience Platform, nella barra a sinistra, selezionare **[!UICONTROL Datasets]**.
+1. Nell&#39;interfaccia di Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Datasets]**.
 1. Selezionare la scheda **[!UICONTROL Browse]** in **[!UICONTROL Datasets]**. Dovresti visualizzare il set di dati elencato.
-1. Selezionare il nome dello schema dalla colonna **[!UICONTROL Schema]**. Ad esempio: **[!UICONTROL Sample Data From CSV…]**.
+1. Selezionare il nome dello schema dalla colonna **[!UICONTROL Schema]**. Ad esempio: **[!UICONTROL Sample Data From CSV…]**
 
    ![Seleziona schema per set di dati ad hoc](assets/adhoc-schema-selection.png)
 
@@ -100,13 +98,19 @@ Nell&#39;interfaccia **[!UICONTROL Schemas]** > **[!UICONTROL Sample Data From C
 
   ![Schema ad hoc](dataset/../assets/adhoc-schema.png)
 
+  >[!NOTE]
+  >
+  >Il flusso di lavoro definisce tutti i campi dello schema come di tipo String. Non è possibile modificare questo tipo in una fase successiva. Se hai bisogno di maggiore flessibilità nella definizione di uno schema ad hoc, prendi in considerazione [l&#39;utilizzo dell&#39;API per creare uno schema ad hoc](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/ad-hoc) e quindi utilizza il [Crea set di dati dallo schema](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema) flusso di lavoro.
+  > 
+
+
 
 
 ## Configurare una connessione
 
-Per utilizzare il set di dati di Adobe Experience Platform in Customer Journey Analytics, crea una connessione che include i dati ad hoc risultanti dal flusso di lavoro.
+Per utilizzare il set di dati di Experience Platform in Customer Journey Analytics, crea una connessione che include il set di dati ad hoc risultante dal [flusso di lavoro](#create-a-dataset-with-a-csv-file)
 
-Una connessione consente di integrare set di dati da Adobe Experience Platform in Workspace. Per creare rapporti su questi set di dati, devi prima stabilire una connessione tra i set di dati in Adobe Experience Platform e Workspace.
+Una connessione consente di integrare i set di dati da Experience Platform a Workspace. Per creare rapporti su questi set di dati, devi prima stabilire una connessione tra i set di dati in Experience Platform e Workspace.
 
 Per creare la connessione:
 
@@ -126,7 +130,7 @@ Per creare la connessione:
 
 1. Nel passaggio **[!UICONTROL Select datasets]** (Seleziona set di dati) in **[!UICONTROL Add datasets]** (Aggiungi set di dati):
 
-   1. Selezionare il set di dati creato in precedenza, ad esempio **[!UICONTROL Sample Data From CSV]**, e qualsiasi altro set di dati da includere nella connessione.
+   1. Selezionare il set di dati creato in precedenza, ad esempio **[!UICONTROL Sample Data From CSV]**, e qualsiasi altro set di dati da includere nella connessione. I set di dati ad hoc hanno **[!UICONTROL Adhoc]** [!UICONTROL Dataset type].
 
       ![Aggiungere set di dati](./assets/cja-connections-adhoc-2.png)
 
@@ -153,7 +157,7 @@ Consulta [Impostazioni set di dati ad hoc](/help/connections/create-connection.m
 
 >[!IMPORTANT]
 >
->Oltre al consiglio generale di non utilizzare set di dati e schemi ad hoc per i dati della serie temporale, è necessario **non** utilizzare il flusso di lavoro **[!UICONTROL Create dataset from CSV]** per i dati della serie temporale. Il flusso di lavoro che genera lo schema ad hoc definisce tutti i campi come di tipo String che non puoi modificare successivamente. Quando si aggiunge un set di dati basato su serie temporali (evento o riepilogo) a una connessione, questo tipo di set di dati richiede la definizione di almeno un campo di tipo DateTime. <br/>Se hai bisogno di utilizzare dati di serie temporali ad hoc, è consigliabile [utilizzare l&#39;API per creare uno schema ad hoc](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) e quindi utilizzare il [Crea set di dati dal flusso di lavoro dello schema](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#schema).
+>Oltre al consiglio generale di non utilizzare set di dati e schemi ad hoc per i dati delle serie temporali, non è possibile utilizzare il flusso di lavoro **[!UICONTROL Create dataset from CSV]** per i dati delle serie temporali. Questo flusso di lavoro definisce tutti i campi come di tipo String che non è possibile modificare successivamente. Quando si aggiunge un set di dati basato su serie temporali (evento o riepilogo) a una connessione, questo tipo di set di dati richiede la definizione di almeno un campo di tipo DateTime.<br/>Se è necessario utilizzare dati di serie temporali ad hoc, valutare l&#39;opportunità di [utilizzare l&#39;API per creare uno schema ad hoc](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) e quindi utilizzare il [Crea set di dati dal flusso di lavoro dello schema](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema).
 
 
 Dopo aver creato una [connessione](/help/connections/overview.md), è possibile eseguire varie attività di gestione, ad esempio [selezionare e combinare i set di dati](/help/connections/combined-dataset.md), [controllare lo stato dei set di dati di una connessione e lo stato dell&#39;acquisizione dei dati](/help/connections/manage-connections.md) e altro ancora.
@@ -180,7 +184,17 @@ Per creare la visualizzazione dati:
 
 1. Nel passaggio **[!UICONTROL Components]** (Configura):
 
-   1. Aggiungere qualsiasi campo di schema ad hoc e/o componente standard che si desidera includere nelle caselle dei componenti **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**.
+   1. Aggiungere qualsiasi campo schema e/o componente standard che si desidera includere nelle caselle del componente **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**. Assicurati di aggiungere campi rilevanti dal set di dati che contiene i dati ad hoc. Per accedere a questi campi:
+
+      1. Seleziona **[!UICONTROL Event datasets]** (Aggiungi set di dati).
+      1. Seleziona **[!UICONTROL Adhoc & Model-based fields]** (Salva).
+
+         ![Visualizzazione dati - componenti ad hoc](assets/cja-dataview-components-adhoc.png)
+
+      1. Trascinare i campi dagli schemi ad hoc su **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**.
+
+
+
    1. Facoltativamente, utilizzare [campi derivati](/help/data-views/derived-fields/derived-fields.md) per modificare qualsiasi campo ad hoc dal tipo e formato di stringa predefiniti a un altro tipo o formato.
 
    1. Seleziona **[!UICONTROL Save and continue]** (Crea nuova visualizzazione dati).
@@ -208,7 +222,7 @@ Per creare il progetto:
 
 1. Seleziona la [visualizzazione dati](#set-up-a-data-view) dall&#39;elenco.
 
-1. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche su [!UICONTROL Freeform table] in [!UICONTROL Panel]. Includere tali metriche o dimensioni in base ai dati ad hoc.
+1. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche su [!UICONTROL Freeform table] in [!UICONTROL Panel]. Inclusione di metriche o dimensioni basate su dati ad hoc.
 
 Per ulteriori informazioni su come creare progetti e generare analisi utilizzando componenti, visualizzazioni e pannelli, consulta la sezione [Panoramica di Analysis Workspace](../analysis-workspace/home.md).
 

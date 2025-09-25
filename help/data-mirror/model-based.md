@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: a6cdade9790ef4bc222eb5979b7370f7403b5ad5
+source-git-commit: e5975a7bb60f4a2386997024c4615f95be648363
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2004'
 ht-degree: 16%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 16%
 
 {{release-limited-testing}}
 
-Questa guida rapida spiega come utilizzare la funzionalità [Experience Platform Data Mirror for Customer Journey Analytics](data-mirror.md) per eseguire il mirroring dei dati basati su modelli da una soluzione nativa di data warehouse in Adobe Experience Platform. E poi usate quei dati in Customer Journey Analytics.
+Questa guida rapida spiega come utilizzare [Experience Platform Data Mirror per Customer Journey Analytics](data-mirror.md) per eseguire il mirroring dei dati basati su modelli da una soluzione nativa di data warehouse in Adobe Experience Platform. E poi usate quei dati in Customer Journey Analytics.
 
 Per eseguire questo caso d’uso, è necessario:
 
@@ -117,12 +117,12 @@ In Experience Platform Data Mirror per Customer Journey Analytics, le tabelle ne
    SET OPTIONS (enable_change_history = TRUE);
    ```
 
-I dati nella tabella nella soluzione nativa del data warehouse sono pronti per la funzionalità Experience Platform Data Mirror for Customer Journey Analytics.
+I dati nella tabella nella soluzione nativa del data warehouse sono pronti per Experience Platform Data Mirror per Customer Journey Analytics.
 
 
 ## Configurare uno schema
 
-Per eseguire il mirroring dei dati in Experience Platform, devi innanzitutto definire lo schema per i dati. Tutti i dati di cui desideri eseguire il mirroring in Experience Platform e che utilizzano la funzionalità Experience Platform Data Mirror for Customer Journey Analytics devono essere conformi a uno schema basato su modello.
+Per eseguire il mirroring dei dati in Experience Platform, devi innanzitutto definire lo schema per i dati. Tutti i dati di cui desideri eseguire il mirroring in Experience Platform e che utilizzano Experience Platform Data Mirror for Customer Journey Analytics devono essere conformi a uno schema basato su modello.
 
 Definisci uno schema che modella questi dati. Per configurare lo schema:
 
@@ -141,7 +141,7 @@ Definisci uno schema che modella questi dati. Per configurare lo schema:
    1. Immetti **[!UICONTROL Description]**. Ad esempio: `Sample event feed schema for a model-based schema`.
    1. Seleziona **[!UICONTROL Time series]** (Schema predefinito) come **[!UICONTROL Schema behavior]** (Schema di destinazione). Selezionare **[!UICONTROL Time series]** per i dati basati su serie temporali e **[!UICONTROL Record]** per i dati basati su record. Il comportamento definisce la struttura dello schema e le proprietà incluse.
 
-      La funzionalità Experience Platform Data Mirror for Customer Journey Analytics viene utilizzata principalmente per i dati di serie temporali (ad esempio, i dati evento).
+      Experience Platform Data Mirror per Customer Journey Analytics viene utilizzato principalmente per i dati delle serie temporali (ad esempio, i dati degli eventi).
 
       ![Configurazione schema](assets/model-based-create-schema.png)
 
@@ -220,7 +220,7 @@ Nel passaggio **[!UICONTROL Authentication]**, seleziona:
 
    1. Seleziona **[!UICONTROL Next]**.
 
-  Consulta la documentazione di Experience Platform per informazioni dettagliate su come connettersi e autenticare quando utilizzi il connettore [Azure Databricks](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake).
+  Consulta la documentazione di Experience Platform per informazioni dettagliate su come connettersi e autenticare quando utilizzi il connettore [Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake).
 
 
 ### Selezionare i dati
@@ -351,6 +351,8 @@ Per creare la visualizzazione dati:
       1. Seleziona **[!UICONTROL Event datasets]** (Aggiungi set di dati).
       1. Seleziona **[!UICONTROL Adhoc & Model-based fields]** (Salva).
       1. Trascinare i campi dagli schemi basati su modelli in **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**.
+
+         ![Aggiungi campo basato su modello come componenti](assets/cja-add-dataset-folder-dv.png)
 
    1. Definire i campi derivati per i campi che non hanno il tipo corretto, non sono nel formato corretto o che si desidera modificare per altri motivi. Ad esempio, per **[!UICONTROL Revenue Amount]**.
 
