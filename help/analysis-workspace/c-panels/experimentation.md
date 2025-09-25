@@ -4,32 +4,24 @@ title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 7e32ae7aa757a8ca47732416f0f883033611ea94
-workflow-type: ht
-source-wordcount: '2129'
-ht-degree: 100%
+source-git-commit: b013518d8f1782219dd2cf9e5b5a89b877e3b92d
+workflow-type: tm+mt
+source-wordcount: '2125'
+ht-degree: 99%
 
 ---
 
 # Pannello Sperimentazione {#experimentation-panel}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_button"
 >title="Sperimentazione"
 >abstract="Crea un pannello per confrontare diverse esperienze utente, varianti di marketing o di messaggistica. E per determinare quale variazione è meglio per guidare un risultato specifico."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_panel"
 >title="Sperimentazione"
 >abstract="Confronta diverse varianti di esperienza utente, marketing o messaggistica per determinare la variante migliore per raggiungere un risultato specifico. Specifica l’esperimento, la variante di controllo per il confronto, la metrica di successo e la metrica di normalizzazione. Facoltativamente, imposta i limiti superiore e inferiore per l’affidabilità."
-
-<!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
@@ -102,7 +94,7 @@ Per utilizzare il pannello Sperimentazione:
    | Impostazione | Definizione |
    | --- | --- |
    | **[!UICONTROL Date Range]** | L’intervallo di date del pannello Sperimentazione viene impostato automaticamente in base al primo evento ricevuto in Customer Journey Analytics per l’esperimento selezionato. Se necessario, puoi limitare o espandere l’intervallo di date a un arco temporale più specifico. |
-   | **[!UICONTROL Experiment]** | Un set di varianti di un’esperienza che sono state esposte agli utenti finali per determinare quale è meglio mantenere. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Experiment]** nelle visualizzazioni dati e i dati relativi alla sperimentazione degli ultimi 3 mesi. |
+   | **[!UICONTROL Experiment]** | Un set di varianti di un’esperienza che sono state esposte agli utenti finali per determinare quale è meglio mantenere. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Experiment]** nelle visualizzazioni dati e i dati relativi alla sperimentazione degli ultimi 6 mesi. |
    | **[!UICONTROL Control variant]** | Una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. Una variante deve essere selezionata come controllo; una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati delle varianti associati all’esperimento. |
    | **[!UICONTROL Success metrics]** ➊ | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (più alto o più basso) è indicata come la *variante con le prestazioni migliori* di un esperimento. Puoi aggiungere fino a 5 metriche. |
    | **[!UICONTROL Normalizing metric]** ➋ | La base (**[!UICONTROL Global Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Account]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Opportunity]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Buying Group]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL People]**, **[!UICONTROL Sessions]** o **[!UICONTROL Events]**) sulla quale viene eseguito un test. Ad esempio, un test può mettere a confronto i tassi di conversione di diverse varianti in cui **[!UICONTROL Conversion rate]** è calcolato come visualizzazione di pagina. |
@@ -132,7 +124,7 @@ Per ogni metrica di successo selezionata, vengono mostrate una visualizzazione [
 
 2. **Variante con prestazioni migliori**: quando un esperimento è dichiarato conclusivo, la variante con il tasso di conversione più alto è etichettata come la “variante con le prestazioni migliori”. Tieni presente che questa variante deve essere la variante di controllo o linea di base oppure una delle varianti che supera la soglia del 95% di affidabilità valida *per qualsiasi momento* (con correzioni Benjamini-Hochberg).
 
-3. **Tasso di conversione**: il tasso di conversione mostrato è un rapporto tra il valore della metrica di successo ➊ e il valore della metrica di normalizzazione ➋. Tieni presente che a volte questo valore può essere maggiore di 1, se la metrica non è binaria (1 o 0 per ogni unità nell’esperimento)
+3. **Tasso di conversione**: il tasso di conversione visualizzato è un rapporto tra il valore della metrica di successo ➊ e il valore della metrica di normalizzazione ➋. Tieni presente che a volte questo valore può essere maggiore di 1, se la metrica non è binaria (1 o 0 per ogni unità nell’esperimento)
 
 4. **Incremento**: il riepilogo del rapporto Esperimento mostra l’incremento rispetto alla linea di base, che è una misura del miglioramento percentuale del tasso di conversione di una determinata variante rispetto alla linea di base. Più precisamente, rappresenta la differenza di prestazioni tra una determinata variante e la linea di base, divisa per le prestazioni della linea di base, espressa in percentuale.
 
