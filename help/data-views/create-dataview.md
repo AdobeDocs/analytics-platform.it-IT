@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 3193ee46dc0fc794b9adebab916ac178322ff650
+source-git-commit: 017bf3cb720ed153476d17db92e0eeca156e6b61
 workflow-type: tm+mt
 source-wordcount: '2369'
 ht-degree: 84%
@@ -19,7 +19,7 @@ Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli e
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/345556/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -177,7 +177,6 @@ Puoi filtrare i campi schema ![icona Filtro](https://spectrum.adobe.com/static/i
 
 
 ### Componenti inclusi {#included-components}
-
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_custom"

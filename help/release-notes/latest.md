@@ -3,14 +3,14 @@ title: Note sulla versione di Customer Journey Analytics
 description: Visualizza le note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 3131a16f6f80b039e026ef2a291bbfd15a42ac19
+source-git-commit: 017bf3cb720ed153476d17db92e0eeca156e6b61
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 92%
+source-wordcount: '886'
+ht-degree: 91%
 
 ---
 
-# Note sulla versione corrente di Adobe Customer Journey Analytics (settembre 2025)
+# Note sulla versione corrente di Customer Journey Analytics (settembre 2025)
 
 **Ultimo aggiornamento**: mercoledì 23 settembre 2025
 

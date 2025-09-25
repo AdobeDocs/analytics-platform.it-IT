@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+source-git-commit: c1d0775ad7fc1c340a70e57e0f805349d21c639c
 workflow-type: tm+mt
-source-wordcount: '7478'
-ht-degree: 60%
+source-wordcount: '7526'
+ht-degree: 59%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 60%
 >title="Cambiare ID persistente"
 >abstract="Una modifica dell’ID persistente elimina tutti i dati esistenti nella connessione e riacquisisce tutti quelli dal set di dati in base al nuovo ID persistente. Questa azione può avere implicazioni in termini di costi. <br/><br/>Quando si seleziona **[!UICONTROL Continue]**, è possibile che il reporting venga posticipato fino al completamento del processo."
 
-L’esperienza del flusso di lavoro di creazione e modifica delle connessioni porta tutte le impostazioni di configurazione del set di dati e della connessione al centro della schermata con un flusso di lavoro facilitato. Fornisce un’esperienza dettagliata di selezione, configurazione e revisione del set di dati. Consente inoltre di specificare informazioni critiche come tipo di set di dati [1&rbrace;, dimensioni, schema, ID set di dati, stato batch, stato backfill, identità e molto altro, per ridurre il rischio di configurazione errata della connessione. ](#dataset-types) Di seguito una panoramica delle nuove funzionalità:
+L’esperienza del flusso di lavoro di creazione e modifica delle connessioni porta tutte le impostazioni di configurazione del set di dati e della connessione al centro della schermata con un flusso di lavoro facilitato. Fornisce un’esperienza dettagliata di selezione, configurazione e revisione del set di dati. Consente inoltre di specificare informazioni critiche come tipo di set di dati [1}, dimensioni, schema, ID set di dati, stato batch, stato backfill, identità e molto altro, per ridurre il rischio di configurazione errata della connessione. ](#dataset-types) Di seguito una panoramica delle nuove funzionalità:
 
 * Quando si crea la connessione è possibile abilitare una finestra continua di conservazione dei dati.
 * È possibile aggiungere e rimuovere i set di dati da una connessione. Quando si rimuove un set di dati, questo viene rimosso dalla connessione e influisce su tutte le visualizzazioni dati associate e sui progetti Analysis Workspace sottostanti.
@@ -115,7 +115,7 @@ L’esperienza del flusso di lavoro di creazione e modifica delle connessioni po
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare e modificare una connessione](https://video.tv.adobe.com/v/3409300/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare e modificare una connessione](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -182,8 +182,8 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della conness
    | **[!UICONTROL Person ID]** | ID persona utilizzato per supportare la generazione di rapporti basati su persone per il set di dati. |
    | **[!UICONTROL Key]** | Chiave utilizzata per un set di dati di ricerca. |
    | **[!UICONTROL Matching Key]** | Chiave corrispondente utilizzata per un set di dati di ricerca. |
-   | **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
-   | **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione. |
+   | **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
+   | **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione. |
 
    Puoi cercare un set di dati specifico utilizzando il campo ![Ricerca](/help/assets/icons/Search.svg).
 
@@ -228,14 +228,18 @@ Nella schermata **[!UICONTROL Connections]** > **[!UICONTROL *Nome della conness
    | **[!UICONTROL Person ID]** | ID persona utilizzato per supportare la generazione di rapporti basati su persone per il set di dati. |
    | **[!UICONTROL Key]** | Chiave utilizzata per un set di dati di ricerca. |
    | **[!UICONTROL Matching Key]** | Chiave corrispondente utilizzata per un set di dati di ricerca. |
-   | **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
-   | **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione. |
+   | **[!UICONTROL Import new data]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
+   | **[!UICONTROL Backfill data]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione. |
 
    Puoi cercare un set di dati specifico utilizzando il campo ![Ricerca](/help/assets/icons/Search.svg).
 
 ## Set di dati {#datasets}
 
 [aggiungere uno o più set di dati](#add-datasets) o [modificare i set di dati esistenti](#edit-a-dataset) come parte del flusso di lavoro della connessione.
+
+>[!NOTE]
+>
+>I valori precedenti all’anno 1900 per i campi Data e Data-ora in una riga in qualsiasi tipo di set di dati vengono sostituiti con il valore `null` prima dell’acquisizione della riga.<br/>Le righe in un set di dati evento o di riepilogo con un valore di marca temporale prima dell’anno 1900 vengono eliminate dall’acquisizione.
 
 
 >[!CONTEXTUALHELP]
@@ -435,7 +439,7 @@ In alternativa, i tipi di set di dati elencati sopra possono essere basati su un
 
 | Tipo di set di dati | Descrizione | Marca temporale | Schema | ID persona |
 |---|---|---|---|---|
-| **[!UICONTROL Adhoc]** | Dati ad hoc basati su uno [schema ad hoc](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/api/ad-hoc) con campi a cui viene assegnato un namespace per l&#39;utilizzo solo da un singolo set di dati. | Dipende dal tipo di set di dati selezionato per il set di dati ad hoc. | Qualsiasi schema ad hoc basato su una classe basata sul comportamento *ad hoc* | Dipende dal tipo di set di dati selezionato per il set di dati ad hoc. |
+| **[!UICONTROL Adhoc]** | Dati ad hoc basati su uno [schema ad hoc](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/api/ad-hoc) con campi a cui viene assegnato un namespace per l&#39;utilizzo solo da un singolo set di dati. | Dipende dal tipo di set di dati selezionato per il set di dati ad hoc. | Qualsiasi schema ad hoc basato su una classe basata sul comportamento *ad hoc* | Dipende dal tipo di set di dati selezionato per il set di dati ad hoc. |
 | **[!UICONTROL Model]** | Dati basati su modello basati su uno schema basato su modello. | Dipende dal tipo di set di dati selezionato per il set di dati basato su modello. | Qualsiasi schema basato su modello. | Dipende dal tipo di set di dati selezionato per il set di dati basato su modello. |
 
 
