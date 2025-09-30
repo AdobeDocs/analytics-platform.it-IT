@@ -8,7 +8,7 @@ exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
 source-git-commit: cd92bde10b9cb473c4df791e91296a2a43b2ad84
 workflow-type: tm+mt
 source-wordcount: '2390'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -41,8 +41,8 @@ L’utilizzo dell’agente Data Insights per rispondere a domande incentrate sui
 
 >[!CONTEXTUALHELP]
 >id="cja-enable-data-insights-data-view"
->title="Abilita per Data Insights Agent"
->abstract="Questa opzione abilita la visualizzazione dati per l’utilizzo con Data Insights Agent. Data Insights Agent è un agente di conversazione di intelligenza artificiale generativo accessibile dall’Assistente di intelligenza artificiale in Customer Journey Analytics. Consente di analizzare rapidamente i dati con messaggi di testo. Crea visualizzazioni pertinenti in Analysis Workspace utilizzando i componenti della visualizzazione dati e i tuoi dati effettivi."
+>title="Abilita per Agente Data Insights"
+>abstract="Questa opzione abilita la visualizzazione dati per l’utilizzo con Agente Data Insights. Agente Data Insights è un agente per conversazioni basate sull’IA generativa accessibile dall’Assistente IA in Customer Journey Analytics. Consente di analizzare rapidamente i dati con prompt di testo. Crea visualizzazioni pertinenti in Analysis Workspace utilizzando i componenti della visualizzazione dati e i tuoi dati effettivi."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -54,7 +54,7 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
 * **Autorizzazioni**: per consentire agli utenti di accedere all’agente Data Insights, è necessario concedere le autorizzazioni necessarie in [!UICONTROL Adobe Admin Console].
 
-  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
+  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
    1. In **[!UICONTROL Admin Console]**, seleziona la scheda **[!UICONTROL Products]** per visualizzare la pagina **[!UICONTROL All products and services]**.
    1. Seleziona **[!UICONTROL Customer Journey Analytics]**.
    1. Nella scheda **[!UICONTROL Product Profiles]**, seleziona il titolo del profilo di prodotto per il quale desideri fornire accesso a [!UICONTROL AI Assistant: Product Knowledge].
@@ -259,7 +259,7 @@ Di seguito sono riportate le best practice per la configurazione di Customer Jou
 >[!MORELIKETHIS]
 >
 >[Impostazioni dei componenti](/help/data-views/component-settings/overview.md)
->&#x200B;>[Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[Approvare la metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[Condividere i segmenti](/help/components/segments/seg-share.md)
+>>[Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Approvare la metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Condividere i segmenti](/help/components/segments/seg-share.md)
 >
