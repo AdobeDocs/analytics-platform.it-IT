@@ -4,9 +4,9 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: f41162d1c4c44f79c59585d1311cd2e431725103
-workflow-type: ht
-source-wordcount: '20234'
+source-git-commit: cae339ebc5d2609a7a93e63e874c4e7d611f2cad
+workflow-type: tm+mt
+source-wordcount: '20382'
 ht-degree: 100%
 
 ---
@@ -108,7 +108,7 @@ Per personalizzare un modello e salvarlo come progetto:
    * Visualizza il modello.
    * Puoi trascinare uno o più segmenti nella zona di rilascio Segmento, nella parte superiore. Ad esempio, trascina il segmento [!UICONTROL **Clienti mobile**] e visualizza i risultati.
    * Modifica l’intervallo di date andando sul calendario in alto a destra.
-   * Aggiungi raggruppamenti di dimensioni, trascina altre metriche e personalizza il modello a livello generale in base alle tue esigenze.
+   * Aggiungi raggruppamenti per dimensione, trascina altre metriche e personalizza il modello a livello generale in base alle tue esigenze.
 
 1. (Facoltativo) Salva il modello come progetto selezionando [!UICONTROL **Progetto**] > [!UICONTROL **Salva**].
 
@@ -477,7 +477,7 @@ Per accedere a tutti i modelli predfiniti disponibili:
 | **Aggiunte al carrello** | Visualizza il numero di volte in cui le persone hanno aggiunto qualcosa al carrello. <p>**Questo può aiutarti** a comprendere meglio la parte del funnel di conversione in cui l’interesse della clientela per un prodotto è abbastanza alto da spingerla ad aggiungerlo al carrello.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare i consigli sui prodotti per tutta la clientela. Questo può essere fatto analizzando quali prodotti vengono aggiunti frequentemente agli stessi carrelli e suggerendo prodotti correlati in base agli articoli già presenti nel carrello. |
 | **Rimozioni dal carrello** | Visualizza il numero di volte in cui le persone hanno rimosso qualcosa dal carrello.<p>**Questo può aiutarti** a comprendere meglio la parte del funnel di conversione in cui la clientela non è più interessata a un prodotto, oppure può aiutarti a capire dove potrebbero esserci problemi nel processo di pagamento.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio rimuovere eventuali barriere esistenti nel processo di pagamento, ad esempio un’esperienza utente complicata.</p><p>Questo modello utilizza la metrica Rimozioni carrello. |
 | **Funnel conversione dell’acquisto** | Visualizza la conversione dell’acquisto in una visualizzazione funnel che mostra sessioni, carrelli e ordini. È inoltre possibile visualizzare le percentuali di conversione e le medie dei ricavi, delle unità e degli ordini.<p>**Questo può aiutarti** a comprendere meglio come le persone procedono e abbandonano durante il processo di conversione.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare il tuo sito web per facilitare un processo di pagamento più fluido.</p> |
-| **Ricavi** | <!--duplicated in Most popular section-->Visualizza l’importo monetario dei prodotti acquistati in tutti gli ordini.<p>**Questo può aiutarti** a comprendere meglio quali elementi dimensionali hanno contribuito ai ricavi, combinando la metrica Ricavi con qualsiasi dimensione. Ad esempio, puoi visualizzare le campagne principali (utilizzando la dimensione Codice di tracciamento) che hanno contribuito ai ricavi. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio regolare le campagne che non soddisfano gli obiettivi di ricavo previsti.</p><p>Questo modello utilizza la metrica Entrate. |
+| **Ricavi** | <!--duplicated in Most popular section-->Visualizza l’importo monetario dei prodotti acquistati in tutti gli ordini.<p>**Questo può aiutarti** a comprendere meglio quali elementi dimensionali hanno contribuito ai ricavi, combinando la metrica Ricavi con qualsiasi dimensione. Ad esempio, puoi visualizzare le campagne principali (utilizzando la dimensione Codice di tracciamento) che hanno contribuito ai ricavi. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio regolare le campagne che non soddisfano il target di entrate previsto.</p><p>Questo modello utilizza la metrica Entrate. |
 | **Ordini** | <!--duplicated in Most popular section-->Visualizza il numero totale di eventi di acquisto effettuati sul sito. <p>**Questo può aiutarti** a capire meglio quali elementi dimensionali hanno contribuito a un ordine, combinando la metrica Ordini con qualsiasi dimensione. Ad esempio, puoi vedere le campagne principali (utilizzando la dimensione Codice di tracciamento) che hanno contribuito agli acquisti.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio regolare le campagne che non soddisfano i target di acquisto previsti. </p><p>Questo modello utilizza la metrica Ordini. |
 
 ### Web: pubblico {#web-audience}
@@ -502,7 +502,7 @@ Per accedere a tutti i modelli predfiniti disponibili:
 >[!CONTEXTUALHELP]
 >id="template--personid"
 >title="Visualizza il comportamento di singoli utenti su vari canali."
->abstract="**Questo può aiutarti** a comprendere meglio il percorso cliente completo e le interazioni tra più punti di contatto.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come personalizzare le attività di marketing per indirizzare meglio le preferenze degli utenti."
+>abstract="**Questo può aiutarti** a comprendere meglio il percorso cliente completo e le interazioni tra più punti di contatto.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come personalizzare le attività di marketing in base alle preferenze degli utenti."
 
 >[!CONTEXTUALHELP]
 >id="aa-template--timeZoneRankedReport"
@@ -517,12 +517,12 @@ Per accedere a tutti i modelli predfiniti disponibili:
 >[!CONTEXTUALHELP]
 >id="aa-template--domainRankedReport"
 >title="Visualizza i domini principali dei visitatori che accedono al tuo sito."
->abstract="**Questo può aiutarti** a comprendere meglio da quali organizzazioni provengono i tuoi visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio indirizzare i contenuti verso la clientela maggiore."
+>abstract="**Questo può aiutarti** a comprendere meglio da quali organizzazioni provengono i tuoi visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio indirizzare i contenuti ai clienti migliori."
 
 >[!CONTEXTUALHELP]
 >id="aa-template--topLevelDomainRankedReport"
 >title="Visualizza i domini principali dei visitatori che accedono al tuo sito."
->abstract="**Questo può aiutarti** a comprendere meglio da quali organizzazioni provengono i tuoi visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio indirizzare i contenuti verso la clientela maggiore."
+>abstract="**Questo può aiutarti** a comprendere meglio da quali organizzazioni provengono i tuoi visitatori.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio indirizzare i contenuti ai clienti migliori."
 
 >[!CONTEXTUALHELP]
 >id="aa-template--browserWidthRankedReport"
@@ -593,6 +593,16 @@ Per accedere a tutti i modelli predfiniti disponibili:
 <!--Both AA and CJA-->
 
 >[!CONTEXTUALHELP]
+>id="template--audienceOverview"
+>title="Visualizzare il Paese da cui provengono le persone che visitano il sito."
+>abstract="**Questo può aiutarti** a capire meglio quali sono i Paesi più popolari da cui provengono i visitatori del tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in questi Paesi, oppure assicurarti che l’esperienza sul tuo sito sia ottimale in Paesi con lingue principali diverse.<br/>Questo modello utilizza la dimensione Paesi."
+
+>[!CONTEXTUALHELP]
+>id="template--consentPolicyOverview"
+>title="Visualizzare il Paese da cui provengono le persone che visitano il sito."
+>abstract="**Questo può aiutarti** a capire meglio quali sono i Paesi più popolari da cui provengono i visitatori del tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in questi Paesi, oppure assicurarti che l’esperienza sul tuo sito sia ottimale in Paesi con lingue principali diverse.<br/>Questo modello utilizza la dimensione Paesi."
+
+>[!CONTEXTUALHELP]
 >id="template--countryGeoReport"
 >title="Visualizzare il Paese da cui provengono le persone che visitano il sito."
 >abstract="**Questo può aiutarti** a capire meglio quali sono i Paesi più popolari da cui provengono i visitatori del tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in questi Paesi, oppure assicurarti che l’esperienza sul tuo sito sia ottimale in Paesi con lingue principali diverse.<br/>Questo modello utilizza la dimensione Paesi."
@@ -643,7 +653,7 @@ Per accedere a tutti i modelli predfiniti disponibili:
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
 | [!UICONTROL **Visitatori nuovi e ripetuti**] | Visualizza un confronto tra visitatori nuovi e visitatori ripetuti. <p>**Questo può aiutarti** a comprendere meglio l’efficacia del tuo sito nel mantenere la fedeltà della clientela oppure la velocità con cui ne acquisisci di nuova.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio offrire ai nuovi visitatori degli incentivi per acquisti futuri, così da invogliarli a ritornare.</p><!-- This template uses the --> |
-| **ID persona** | Visualizza il comportamento di singoli utenti su vari canali.<p>**Questo può aiutarti** a comprendere meglio il percorso cliente completo e le interazioni tra più punti di contatto.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come personalizzare le attività di marketing per indirizzare meglio le preferenze degli utenti.</p><!-- This template uses the --> |
+| **ID persona** | Visualizza il comportamento di singoli utenti su vari canali.<p>**Questo può aiutarti** a comprendere meglio il percorso cliente completo e le interazioni tra più punti di contatto.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come personalizzare le attività di marketing in base alle preferenze degli utenti.</p><!-- This template uses the --> |
 | **Paesi** | Visualizzare il Paese da cui provengono le persone che visitano il sito.<p>**Questo può aiutarti** a capire meglio quali sono i Paesi più popolari da cui provengono i visitatori del tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in questi Paesi, oppure assicurarti che l’esperienza sul tuo sito sia ottimale in Paesi con lingue principali diverse.</p><p>Questo modello utilizza la dimensione Paesi. </p> |
 | **Stati Uniti** | Visualizza lo stato (negli Stati Uniti) da cui provengono le persone che visitano il sito. È simile al modello Aree geografiche, ma è specifico per gli Stati Uniti.<p>**Questo può aiutarti** a comprendere meglio quali sono gli Stati Uniti più popolari da cui provengono i visitatori del tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in questi Stati.</p><p>Questo modello utilizza la dimensione Stati Uniti. </p> |
 | **Aree geografiche** | Visualizza l’area geografica da cui provengono le persone che visitano il sito. Un’area è un’area geografica più piccola di un Paese ma più grande di una città. In alcuni Paesi, un’area geografica è uno stato, una provincia o una prefettura. In altre aree, è un Paese costituente, un dipartimento o un’area metropolitana. <p>**Questo può aiutarti** a comprendere meglio le aree geografiche più popolari da cui provengono i visitatori del tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività relative al marketing in queste aree geografiche oppure assicurarti che l’esperienza del tuo sito sia ottimale nelle aree geografiche con lingue principali diverse. </p><p>Questo modello utilizza le dimensioni ID(variabili/paese geografico) e Aree geografiche. </p> |
@@ -1011,7 +1021,7 @@ Per accedere a tutti i modelli predfiniti disponibili:
 | [!UICONTROL **Dashboard del call center**] | Visualizza i dati del call center, includendo il motivo per cui la clientela ha chiamato e il numero di volte. <p>**Questo può aiutarti** a comprendere meglio dove si verificano problemi con la clientela e dove vengono spese le risorse relative al call center.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio risolvere problemi relativi a un prodotto che determinano un aumento del traffico del call center, migliorando in ultima analisi la redditività del prodotto.</p> |
 | **Punto vendita** | Visualizza i dati sulle transazioni POS (Point of Sale), inclusi i ricavi ottenuti, gli ordini effettuati e le unità vendute. Questo modello include anche visualizzazioni che mostrano informazioni sui principali negozi, prodotti e categorie di prodotti, nonché sulle vendite online e non in linea. <p>**Questo può aiutarti** a capire meglio quali sono i tuoi prodotti più venduti nei vari punti vendita e online.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse di marketing ai prodotti e i canali con le migliori prestazioni.</p><p>Questo modello utilizza le metriche Utenti, Entrate e Ordini.</p> |
 | **Analisi e-mail di Journey Optimizer** | Visualizza in che modo le e-mail progettate e inviate tramite Adobe Journey Optimizer generano nuove iscrizioni, membri fedeltà e opportunità di cross-selling. <p>**Questo può aiutarti** a comprendere meglio l’efficacia delle e-mail progettate e inviate tramite Adobe Journey Optimizer.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare la tua strategia e-mail per una determinata campagna e-mail.</p> |
-| **Sondaggio** | Visualizza il coinvolgimento dell’utente nei sondaggi. Visualizza il numero di avvii e completamenti, domande e risposte principali e numero di partecipanti nuovi rispetto a quelli ripetuti.<p>**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento e il tasso di successo dei tuoi sondaggi.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare i sondaggi futuri per ottenere una migliore partecipazione.</p><p>Questo modello utilizza le metriche Utenti, Eventi, Avvii sondaggio, Completamento sondaggio e Percentuale di completamento sondaggio.</p> |
+| **Sondaggio** | Visualizza il coinvolgimento dell’utente nei sondaggi. Visualizza il numero di avvii e completamenti, domande e risposte principali e numero di partecipanti nuovi rispetto a quelli ripetuti.<p>**Questo può aiutarti** a comprendere meglio i livelli di coinvolgimento e il tasso di successo dei tuoi sondaggi.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare i sondaggi futuri per ottenere una migliore partecipazione.</p><p>Questo modello utilizza le metriche Utenti, Eventi, Avvii sondaggio, Completamento sondaggio e Tasso di completamento sondaggio.</p> |
 | **Panoramica di utilizzo del prodotto** | Visualizza come la tua organizzazione utilizza Customer Journey Analytics.<p>**Questo può aiutarti** a comprendere meglio quante persone utilizzano Customer Journey Analytics, con quale frequenza e le tendenze di utilizzo nel tempo. Puoi anche visualizzare il numero di progetti creati e i dettagli su tali progetti. Scopri quali componenti, visualizzazioni e pannelli sono più comunemente utilizzati, tra le altre statistiche di utilizzo. [Ulteriori informazioni](/help/tools/product-usage/usage-overview.md)</p><p>**In base a ciò che hai appreso, potresti** fare diverse cose, ad esempio eliminare i progetti o i componenti inutilizzati o fornire agli utenti corsi di formazione sulle funzioni più comuni.</p> |
 
 ### Journey Optimizer {#AJO-templates}
