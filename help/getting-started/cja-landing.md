@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
 source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,17 @@ Con Customer Journey Analytics puoi definire come collegare i dati online e offl
 
 ## Novità
 
-Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Customer Journey Analytics. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consultare le [note sulla versione](../release-notes/latest.md) dettagliate. Per informazioni sempre aggiornate, visita la [pagina sugli aggiornamenti alla documentazione](../release-notes/doc-changes.md).
+Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Customer Journey Analytics. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](../release-notes/latest.md) dettagliate. Per informazioni sempre aggiornate, visita la [pagina sugli aggiornamenti alla documentazione](../release-notes/doc-changes.md).
 
 >[!BEGINTABS]
 
->[!TAB Rapporti in tempo reale*]
+>[!TAB Reporting in tempo reale*]
 
 Il reporting in tempo reale in Customer Journey Analytics mostra e aggiorna dati e visualizzazioni in uno o più pannelli di Analysis Workspace in tempo reale.
 
 [![immagine](assets/learn-more-button.svg)](/help/components/real-time/real-time.md)
 
-*_È necessario disporre del pacchetto Ultimate per il reporting in tempo reale._*
+*_Per il reporting in tempo reale è necessario disporre del pacchetto Ultimate._*
 
 >[!TAB B2B Edition]
 
