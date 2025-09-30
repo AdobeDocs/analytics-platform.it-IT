@@ -4,10 +4,10 @@ description: Scopri come visualizzare e gestire i registri di audit di Customer 
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 9ed7b541ebb1a89b286040c4ea96025b08029499
-workflow-type: ht
-source-wordcount: '893'
-ht-degree: 100%
+source-git-commit: 2ef96ad194f8c7acec35bd7635c650af4370531a
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 98%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 100%
 Per aumentare la trasparenza e la visibilità delle attività eseguite nel sistema, Customer Journey Analytics ti consente di verificare le attività degli utenti per vari servizi e funzionalità, mediante i “registri di audit”. Questi rappresentano una traccia di audit (o audit trail) che risulta utile per risolvere eventuali problemi, nonché per rispettare i criteri aziendali relativi alla gestione dei dati e i requisiti normativi, come l’Health Insurance Portability and Accountability Act (HIPAA).
 
 In un certo senso, un registro di audit comunica **chi** ha eseguito **quale** azione, e **quando** l’a eseguita. Ogni azione registrata contiene metadati che indicano il tipo di azione, la data e l’ora, l’ID e-mail dell’utente che l’ha eseguita ed eventuali attributi aggiuntivi relativi al tipo di azione.
+
+I registri di audit vengono conservati per 90 giorni. Successivamente, i registri di audit vengono eliminati automaticamente.
 
 Questo argomento tratta i registri di audit di Customer Journey Analytics, e spiega come visualizzarli e gestirli nell’interfaccia utente.
 
@@ -83,7 +85,7 @@ Vengono visualizzati i seguenti elementi:
 * **[!UICONTROL Component Name]**: il componente su cui l’utente ha eseguito un’azione.
 * **[!UICONTROL Component Type]**: tipo di componente. I valori possibili includono:
    * ANNOTATION
-   * AUDIENCE
+   * PUBBLICO
    * CALCULATED_METRIC
    * CONNECTION
    * DATA_GROUP

@@ -4,10 +4,10 @@ title: Configurare Una Visualizzazione Abbandono
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: d91e6aaebd14bc02f53b28820dd6013350e36d36
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 39%
+source-wordcount: '781'
+ht-degree: 33%
 
 ---
 
@@ -80,14 +80,14 @@ Come parte della visualizzazione, sono disponibili opzioni di menu di scelta rap
 | **[!UICONTROL Trend touchpoint]** | I dati di tendenza di un punto di contatto sono rappresentati in un grafico a linee, con alcuni dati di rilevamento anomalie pregenerati. |
 | **[!UICONTROL Trend touchpoint (%)]** | Visualizza la tendenza della percentuale di abbandono totale. |
 | **[!UICONTROL Trend all touchpoints (%)]** | Genera tendenze su tutte le percentuali dei punti di contatto nell&#39;abbandono (tranne **[!UICONTROL All People]**, se incluso) nello stesso grafico. |
-| **[!UICONTROL Break down fallthrough at this touchpoint]** | Puoi vedere cosa hanno fatto le persone tra due punti di contatto (questo e quello successivo) se hanno continuato fino al punto di contatto successivo. Viene creata una tabella a forma libera in cui sono riportate le dimensioni. Puoi sostituire le dimensioni e altri elementi della tabella. |
-| **[!UICONTROL Break down fallout at this touchpoint]** | Puoi vedere cosa hanno fatto, immediatamente dopo il passaggio selezionato, i visitatori che hanno abbandonato. |
+| **[!UICONTROL Break down fallthrough at this touchpoint]** | Puoi vedere cosa hanno fatto le persone tra due punti di contatto (questo e quello successivo) se hanno continuato fino al punto di contatto successivo. Viene creata una tabella a forma libera in cui sono riportate le dimensioni. Potete sostituire le quote e altri elementi della tabella. Ad esempio, una tabella etichettata **[!UICONTROL Fallthrough: All People > Page equals any of home]** e contenente **[!UICONTROL Page]** come dimensione e **[!UICONTROL People]** segmentata dal [segmento rapido solo progetto](/help/components/segments/seg-quick.md) **[!UICONTROL Fallthrough: All People > Page equals any of home]** come metrica. Ispeziona il segmento per capire come viene determinato il segmento di fallthrough. |
+| **[!UICONTROL Break down fallout at this touchpoint]** | Puoi vedere cosa hanno fatto, immediatamente dopo il passaggio selezionato, gli utenti che non hanno partecipato al passaggio in funnel. Viene creata una tabella a forma libera in cui sono riportate le dimensioni. Potete sostituire le quote e altri elementi della tabella. Ad esempio, una tabella etichettata **[!UICONTROL Fallout: People > Page equals any of home]** e contenente **[!UICONTROL Page]** come dimensione e **[!UICONTROL People]** segmentata dal segmento rapido [solo progetto](/help/components/segments/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** come metrica. Ispeziona il segmento per capire come viene determinato il segmento di abbandono. |
 | **[!UICONTROL Create segment from touchpoint]** | Crea un nuovo segmento dal punto di contatto selezionato. |
 
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
