@@ -5,14 +5,32 @@ title: Configurare le posizioni di esportazione cloud
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 882e280da3f65e297abccd475d381832fd236843
+source-git-commit: 5adcab1df932f5c8af1f140fb6707f2d56726ae3
 workflow-type: tm+mt
-source-wordcount: '1911'
-ht-degree: 20%
+source-wordcount: '2026'
+ht-degree: 19%
 
 ---
 
-# Configurare le posizioni di esportazione cloud
+# Configurare le posizioni di esportazione cloud {#configure-cloud-export-locations}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-prefix"
+>title="Prefisso"
+>abstract="La cartella principale all’interno del contenitore in cui desideri inserire i dati. Specifica un nome di cartella statico, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/`"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-file-name"
+>title="Nome e percorso del file"
+>abstract="Specificare un nome di file personalizzato dinamico da utilizzare per le esportazioni automatizzate inviate a questo percorso. È inoltre possibile anteporre al nome del file un percorso personalizzato dinamico. &lt;br\>Utilizza le variabili nel nome e nel percorso del file per renderle dinamiche. &lt;br\>Ad esempio, se specifichi `${yyyy}/${mm}/${dd}/my-report-${instance_id}-${idx}`, un&#39;esportazione inviata automaticamente a questa destinazione il 15 gennaio 2026 avrà il percorso e il nome file seguenti: `[prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv` &lt;br\>Fai clic sul collegamento seguente per un elenco delle variabili disponibili."
+
+<!-- markdownlint-enable MD034 -->
 
 Prima di poter esportare i report di Customer Journey Analytics in una destinazione cloud (da Analysis Workspace, come descritto in [Esportare i report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md) o da Report Builder, come descritto in [Esportare i report da Report Builder](/help/report-builder/report-builder-export.md)) come descritto in [Esportare i report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), è necessario aggiungere e configurare il percorso in cui si desidera inviare i dati.
 
