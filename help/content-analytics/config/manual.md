@@ -65,7 +65,7 @@ Dopo aver apportato modifiche all’estensione Adobe Content Analytics, assicura
 >[!MORELIKETHIS]
 >
 >[Configurazione guidata](guided.md)
->>[Panoramica sulla pubblicazione dei tag di raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview)
+>&#x200B;>[Panoramica sulla pubblicazione dei tag di raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview)
 >
 
 

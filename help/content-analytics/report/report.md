@@ -51,7 +51,7 @@ Per aprire l’anteprima con i dettagli seguenti:
   | **[!UICONTROL Impressions (all time)]**: numero di impression per l’esperienza. | **[!UICONTROL Impressions (all times)]**: numero di impression per la risorsa. |
   | **[!UICONTROL Assets]**: numero di risorse contenute in questa esperienza. <br/>Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** per ispezionare le risorse. | **[!UICONTROL Experiences]**: numero di esperienze in cui questa risorsa viene visualizzata. <br/>Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** per ispezionare le risorse. |
   | **[!UICONTROL First impression]**: data della prima impression dell’esperienza. | **[!UICONTROL First impression]**: data della prima impression della risorsa. |
-  | **[!UICONTROL  Most recent impression]**: data dell’impression più recente dell’esperienza. | **[!UICONTROL Most recent impression]**: data dell’impression più recente della risorsa. |
+  | **[!UICONTROL &#x200B; Most recent impression]**: data dell’impression più recente dell’esperienza. | **[!UICONTROL Most recent impression]**: data dell’impression più recente della risorsa. |
   | **[!UICONTROL Experience attributes]**: [attributi](/help/content-analytics/report/components.md#experience-attributes) dell’esperienza. | **[!UICONTROL Asset attributes]**: [attributi](/help/content-analytics/report/components.md#asset-attributes) della risorsa. |
 
 
@@ -155,5 +155,5 @@ Puoi suddividere qualsiasi risorsa per dimensioni per capire meglio dove viene v
 >[!MORELIKETHIS]
 >
 >[Componenti di Content Analytics](components.md)
->>[Utilizzare i modelli](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>&#x200B;>[Utilizzare i modelli](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >
