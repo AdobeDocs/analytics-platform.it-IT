@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 51b3d533ef7b42ff03823f2dffcb2ccfbb9c4bbe
-workflow-type: ht
+source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+workflow-type: tm+mt
 source-wordcount: '1216'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Per iniziare a generare rapporti da zero con Content Analytics:
 1. [Crea un nuovo progetto](/help/analysis-workspace/build-workspace-project/create-projects.md) o [apri un progetto esistente](/help/analysis-workspace/build-workspace-project/open-projects.md) in Workspace.
 1. Assicurati di [selezionare una visualizzazione dati](/help/analysis-workspace/c-panels/panels.md#data-view) per la generazione di rapporti con Content Analytics. La funzione di reporting di Content Analytics è disponibile solo per le visualizzazioni dati [configurate](/help/content-analytics/config/configuration.md) per Content Analytics.
 1. Trascina una visualizzazione ![Tabella](/help/assets/icons/Table.svg) [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) nell’area di lavoro.
-1. Utilizza [componenti specifici di Content Analytics](components.md) e altri [componenti](/help/components/overview.md) generici (come segmenti, intervalli di date, annotazioni) per generare insight dall’analisi dei contenuti.
+1. Utilizza [componenti specifici di Content Analytics](components.md) e altri [componenti](/help/components/overview.md) generici (come segmenti, intervalli di date, annotazioni) per creare le tue informazioni di Content Analytics.
 
 ## Miniature
 
@@ -57,7 +57,7 @@ Per aprire l’anteprima con i dettagli seguenti:
 
 ## Modello
 
-Un [modello](/help/analysis-workspace/templates/use-templates.md) di Content Analytics consente di individuare i contenuti e gli attributi di contenuto con prestazioni migliori. Il modello fa parte del [caso d’uso Canale web e coinvolgimento](/help/analysis-workspace/templates/use-templates.md#web-engagement) e descrive le prestazioni dei contenuti a livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici.
+È disponibile un [modello](/help/analysis-workspace/templates/use-templates.md) di Content Analytics che consente di individuare gli attributi di contenuto e contenuto con prestazioni ottimali. Il modello fa parte del [caso d’uso Canale web e coinvolgimento](/help/analysis-workspace/templates/use-templates.md#web-engagement) e descrive le prestazioni dei contenuti a livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici.
 
 In base ai risultati, potresti fare diverse cose. Ad esempio, promuovere le risorse ad alte prestazioni nella pagina Home; personalizzare i contenuti per segmenti specifici in modo da includere attributi ad alte prestazioni; o sostituire i contenuti che iniziano a perdere la loro attrattiva.
 
@@ -65,7 +65,7 @@ Per utilizzare il modello:
 
 1. Seleziona **[!UICONTROL Workspace]** dal menu principale.
 1. Assicurati di selezionare una visualizzazione dati configurata per Content Analytics.
-1. Cerca o utilizza dei segmenti (**[!UICONTROL Web]** per **[!UICONTROL Channel]** e **[!UICONTROL Engagement]** per **[!UICONTROL Use Case]**) per trovare e selezionare il modello **[!UICONTROL Content analytics]**.
+1. Cerca o utilizza dei segmenti (**[!UICONTROL Web]** per **[!UICONTROL Channel]** e **[!UICONTROL Engagement]** per **[!UICONTROL Use Case]**) per trovare e selezionare il modello **[!UICONTROL Content Analytics]**.
 1. Seleziona **[!UICONTROL Use template]**.
 1. Nella finestra di dialogo **[!UICONTROL Set up your template]**, seleziona una metrica da **[!UICONTROL Select a conversion metric]**. Ad esempio: **[!UICONTROL Asset CTR]**.
 1. Seleziona **[!UICONTROL Continue]**.

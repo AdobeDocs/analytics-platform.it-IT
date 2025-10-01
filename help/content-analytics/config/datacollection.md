@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 7909388273af4c19d2dfda671c2af8eac470fff9
+source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 78%
+ht-degree: 76%
 
 ---
 
@@ -56,7 +56,7 @@ Gli eventi di Content Analytics vengono raccolti come sequenza di:
 1. [Una visualizzazione o un clic registrato](#recorded-view-or-click).
 1. [Un trigger per inviare un evento Content Analytics](#trigger-to-send-a-content-analytics-event).
 
-Content Analytics raccoglie i dati in questo modo per riflettere tale sequenza, invece di raccogliere visualizzazioni o clic separatamente rispetto alla raccolta dell’evento immediatamente successivo alla visualizzazione o clic. Questo modo di raccogliere i dati di Content Analytics riduce anche la quantità di dati raccolti.
+Content Analytics raccoglie i dati in questo modo per riflettere tale sequenza, invece di raccogliere visualizzazioni o clic separatamente rispetto alla raccolta dell’evento immediatamente successivo alla visualizzazione o clic. Questo modo di raccogliere i dati Content Analytics riduce anche la quantità di dati raccolti.
 
 ### Visualizzazione o clic registrato
 
