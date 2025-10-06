@@ -6,9 +6,9 @@ feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
 source-git-commit: ec56bc657961b2e4e8318ab14cd676288398462f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1089'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ L’architettura di alto livello di Customer Journey Analytics è mostrata qui:
 
 ![Architettura di Customer Journey Analytics](/help/getting-started/assets/cja-overview.svg)
 
-Questa architettura illustra come Customer Percorsi Analytics consente di:
+Questa architettura illustra come Customer Journey Analytics consente di:
 
-* Combina più set di dati ![Dati](/help/assets/icons/Data.svg) in una [connessione](/help/connections/overview.md).
-* Definisci e configura le dimensioni ![Dimensioni](/help/assets/icons/Dimensions.svg) e le metriche ![Evento](/help/assets/icons/Event.svg) in una [visualizzazione dati](/help/data-views/data-views.md), in base ai campi disponibili nei set di dati definiti nella connessione.
-* Crea rapporti ![VisualizzaTabella](/help/assets/icons/ViewTable.svg) e visualizzazioni (come riga ![Riga](/help/assets/icons/GraphTrend.svg) e area ![Area](/help/assets/icons/GraphAreaStacked.svg)) in [progetti](/help/analysis-workspace/home.md) in base alle dimensioni e alle metriche delle visualizzazioni dati.
+* Combinare più set di dati ![Dati](/help/assets/icons/Data.svg) in una [connessione](/help/connections/overview.md).
+* Definire e configurare le dimensioni ![Dimensioni](/help/assets/icons/Dimensions.svg) e le metriche ![Evento](/help/assets/icons/Event.svg) in una [visualizzazione dati](/help/data-views/data-views.md), in base ai campi disponibili nei set di dati definiti nella connessione.
+* Creare rapporti ![VisualizzaTabella](/help/assets/icons/ViewTable.svg) e visualizzazioni (come riga ![Riga](/help/assets/icons/GraphTrend.svg) e area ![Area](/help/assets/icons/GraphAreaStacked.svg)) nei [progetti](/help/analysis-workspace/home.md), in base alle dimensioni e alle metriche delle visualizzazioni dati.
 
-I set di dati nell’architettura possono avere origine da varie origini:
+I set di dati nell’architettura precedenti possono provenire da varie origini:
 
 * dati batch,
 
@@ -106,11 +106,11 @@ Immagina di avere a disposizione dei dati da un’origine supportata da un conne
 
 Per ulteriori informazioni, consulta la sezione [Inserire e utilizzare i dati tramite i connettori di origine](./sources.md).
 
-## Acquisire e utilizzare dati ad hoc
+## Acquisire e utilizzare i dati ad hoc
 
-Sono disponibili dati ad hoc che richiedono un solo set di dati in Experience Platform e non richiedono la configurazione di uno schema Experience Data Model (XDM). Questo scenario è denominato schema ad hoc. Gli schemi ad hoc vengono utilizzati in vari flussi di lavoro di acquisizione dati per Experience Platform, tra cui l’acquisizione di file CSV e la creazione di alcuni tipi di connessioni sorgente.
+Sono disponibili dati ad hoc che richiedono un solo set di dati in Experience Platform e non necessitano della configurazione di uno schema Experience Data Model (XDM). Questo scenario è denominato schema ad hoc. Gli schemi ad hoc vengono utilizzati in vari flussi di lavoro di acquisizione dati per Experience Platform, inclusa l’acquisizione di file CSV e la creazione di alcuni tipi di connessioni di origine.
 
-Vedi [Acquisire e utilizzare dati ad hoc](./adhoc.md)
+Consulta [Acquisire e utilizzare dati ad hoc](./adhoc.md)
 
 >[!MORELIKETHIS]
 >

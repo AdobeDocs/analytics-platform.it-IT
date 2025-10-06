@@ -6,9 +6,9 @@ feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
 source-git-commit: a3d974733eef42050b0ba8dcce4ebcccf649faa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -53,9 +53,9 @@ Utilizza l’[estensione Adobe Content Analytics](https://experienceleague.adobe
 
   Puoi abilitare o disabilitare le esperienze e modificare le combinazioni di espressioni regolari e parametri di query per determinare come riprodurre i contenuti sul tuo sito web.
 
-* [Segmentazione eventi](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
+* [Segmentazione degli eventi](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting){target="_blank"}
 
-  Puoi modificare le espressioni regolari per modificare il modo in cui segmentate pagine e risorse.
+  Puoi modificare le espressioni regolari per specificare come segmentare pagine e risorse.
 
 
 Dopo aver apportato modifiche all’estensione Adobe Content Analytics, assicurati di utilizzare il [flusso di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview){target="_blank"} per avviare la raccolta dati in base alle modifiche apportate.
@@ -65,7 +65,7 @@ Dopo aver apportato modifiche all’estensione Adobe Content Analytics, assicura
 >[!MORELIKETHIS]
 >
 >[Configurazione guidata](guided.md)
->&#x200B;>[Panoramica sulla pubblicazione dei tag di raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview)
+>>[Panoramica sulla pubblicazione dei tag di raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview)
 >
 
 
@@ -93,19 +93,19 @@ window.adobe.getContentExperienceVersion = () => {
 Content Analytics gestisce le identità nel modo seguente:
 
 * ECID viene popolato automaticamente nella porzione `identityMap` dello schema Content Analytics.
-* Se sono necessari altri valori di identità in `identityMap`, è necessario impostare questi valori nel callback `onBeforeEventSend` all&#39;interno dell&#39;estensione Web SDK.
-* L’unione basata sui campi non è supportata perché lo schema è di proprietà del sistema. Pertanto, non è possibile aggiungere un altro campo allo schema per supportare l’unione basata sui campi
+* Se sono necessari altri valori di identità in `identityMap`, è necessario impostare questi valori nel callback `onBeforeEventSend` all’interno dell’estensione Web SDK.
+* L’unione identità basata sui campi non è supportata perché lo schema è di proprietà del sistema. Pertanto, non è possibile aggiungere un altro campo allo schema per supportare l’unione identità basata sui campi
 
 
-Per garantire che i dati di identità di Content Analytics e i dati di identità di Adobe Experience Platform Web SDK siano uniti correttamente a livello di campo, è necessario apportare modifiche al SDK Web [prima del callback dell&#39;evento](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"}.
+Per garantire che i dati di identità di Content Analytics e di Adobe Experience Platform Web SDK siano uniti correttamente a livello di campo, è necessario apportare modifiche al callback di Web SDK [prima dell’invio dell’evento](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/onbeforeeventsend){target="_blank"}.
 
-1. Passa alla proprietà **[!UICONTROL Tags]** contenente l&#39;estensione Adobe Experience Platform Web SDK e l&#39;estensione Adobe Content Analytics.
-1. Selezionare ![Plug](/help/assets/icons/Plug.svg) **[!UICONTROL Extensions]**.
-1. Seleziona l&#39;estensione **[!UICONTROL Adobe Experience Platform Web SDK]**.
+1. Passa alla proprietà **[!UICONTROL Tags]** che contiene le estensioni Adobe Experience Platform Web SDK e Adobe Content Analytics.
+1. Seleziona ![ il plug-in **[!UICONTROL Extensions]** ](/help/assets/icons/Plug.svg).
+1. Seleziona l’estensione **[!UICONTROL Adobe Experience Platform Web SDK]**.
 1. Seleziona **[!UICONTROL Configure]**.
 1. Nella sezione **[!UICONTROL SDK instances]**, scorri verso il basso fino a **[!UICONTROL Data collection]** - **[!UICONTROL On before event send callback]**.
 
-   ![Il prima del callback di invio dell&#39;evento](/help/content-analytics/assets/onbeforeeventsendcallback.png)
+   ![Callback prima dell’invio dell’evento](/help/content-analytics/assets/onbeforeeventsendcallback.png)
 
 1. Seleziona **[!UICONTROL </> Provide on before event send callback code]**.
 1. Aggiungi il seguente codice:
@@ -119,11 +119,11 @@ Per garantire che i dati di identità di Content Analytics e i dati di identità
    }
    ```
 
-   ![Il prima del callback di invio dell&#39;evento](/help/content-analytics/assets/onbeforeeventsendcallbackcode.png)
+   ![Callback prima dell’invio dell’evento](/help/content-analytics/assets/onbeforeeventsendcallbackcode.png)
 
-1. Selezionare **[!UICONTROL Save]** per salvare il codice.
-1. Selezionare **[!UICONTROL Save]** per salvare l&#39;estensione.
-1. [Pubblica](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview) gli aggiornamenti per la proprietà Tags.
+1. Seleziona **[!UICONTROL Save]** per salvare il codice.
+1. Seleziona **[!UICONTROL Save]** per salvare l’estensione.
+1. [Pubblica](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview) gli aggiornamenti per la proprietà Tag.
 
 
 

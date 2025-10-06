@@ -6,9 +6,9 @@ feature: Content Analytics
 role: Admin
 exl-id: 3ea46223-c7d0-4b1f-bc84-4f35494f13a0
 source-git-commit: f149a2bd7f184f4e8f6e67979649e2d9f609d603
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 85%
 
 Questo articolo illustra, ad alto livello, come configurare Content Analytics.
 
-Prima di configurare Content Analytics, è necessario verificare che i [prerequisiti](#prerequisites) siano soddisfatti, che si disponga del [controllo di accesso](#access-control) richiesto e che si conoscano le [limitazioni](#limitations).
+Prima di configurare Content Analytics, è necessario verificare che i [prerequisiti](#prerequisites) siano soddisfatti, che di disporre del [controllo degli accessi](#access-control) richiesto e conoscendone le [limitazioni](#limitations).
 
 
 Passaggi di alto livello
@@ -68,10 +68,10 @@ Questo accesso implica:
 
 ## Limitazioni
 
-Lo schema utilizzato per i dati dell’evento Content Analytics è di proprietà del sistema. Non è possibile modificare uno schema di proprietà del sistema, il che implica:
+Lo schema utilizzato per i dati dell’evento di Content Analytics è di proprietà del sistema. Non è possibile modificare uno schema di proprietà del sistema, il che implica:
 
-* Non è possibile includere gruppi di campi per il supporto di funzionalità quali geolocalizzazione, rilevamento di bot o ricerca di dispositivi.
-* Impossibile aggiungere un identificatore specifico per supportare [unione basata sui campi](/help/stitching/fbs.md).
+* Non è possibile includere gruppi di campi per il supporto di funzionalità quali geolocalizzazione, rilevamento di bot o ricerca per dispositivi.
+* Impossibile aggiungere un identificatore specifico per supportare l’[unione delle identità basata sui campi](/help/stitching/fbs.md).
 
 >[!MORELIKETHIS]
 >
