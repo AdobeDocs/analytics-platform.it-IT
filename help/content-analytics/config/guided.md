@@ -8,7 +8,7 @@ exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '2572'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -140,7 +140,7 @@ La configurazione richiede la selezione di una [Visualizzazione dati](/help/data
    Puoi eseguire le seguenti azioni:
 
    * Per cercare una visualizzazione dati specifica, utilizza il campo ![Ricerca](/help/assets/icons/Search.svg).
-   * Per filtrare l&#39;elenco delle visualizzazioni dati disponibili, selezionare ![Mostra filtro](/help/assets/icons/Filter.svg). È possibile filtrare l’elenco per [!UICONTROL Connection], [!UICONTROL Owner] e [!UICONTROL Sandbox].<br/>Utilizza ![Nascondi](/help/assets/icons/Filter.svg) **[!UICONTROL Hide segments]** per nascondere il riquadro dei segmenti.
+   * Per filtrare l’elenco delle visualizzazioni dati disponibili, seleziona ![Mostra filtri](/help/assets/icons/Filter.svg). È possibile filtrare l’elenco per [!UICONTROL Connection], [!UICONTROL Owner] e [!UICONTROL Sandbox].<br/>Utilizza ![Nascondi](/help/assets/icons/Filter.svg) **[!UICONTROL Hide segments]** per nascondere il riquadro dei segmenti.
    * Per definire le colonne da visualizzare nella tabella, seleziona ![Impostazioni colonna](/help/assets/icons/ColumnSetting.svg). Seleziona le colonne da visualizzare nella finestra di dialogo **[!UICONTROL Customize table]** e seleziona **[!UICONTROL Apply]** per applicare le modifiche.
 
 1. Seleziona ![SelectBox](/help/assets/icons/SelectBox.svg) la visualizzazione dati che desideri utilizzare.
@@ -296,7 +296,7 @@ In una nuova configurazione, è necessario definire se desideri utilizzare una p
   ![Tag esistente nella raccolta dati di analisi dei contenuti](../assets/aca-configuration-datacollection-existingtag.png)
 
    1. Seleziona **[!UICONTROL Choose existing]**.
-   2. Selezionare una proprietà esistente dal menu a discesa **[!UICONTROL Tags property]**. Puoi iniziare a digitare per cercare e limitare le opzioni disponibili. Non puoi selezionare una proprietà dei tag già utilizzata da un’altra configurazione di Content Analytics implementata.
+   2. Seleziona una proprietà esistente dal menu a discesa **[!UICONTROL Tags property]**. Puoi iniziare a digitare per cercare e limitare le opzioni disponibili. Non puoi selezionare una proprietà dei tag già utilizzata da un’altra configurazione di Content Analytics implementata.
 
 
 * Per creare una nuova proprietà dei tag:
@@ -313,7 +313,7 @@ In una nuova configurazione, è necessario definire se desideri utilizzare una p
 
 * Indica quali risorse devono essere incluse o escluse durante la raccolta dati per Content Analytics.
 
-  Specifica una stringa di espressione regolare per **[!UICONTROL Assets to include / exclude]**. <br/>Ad esempio: `^(?!.*(logo\.jpg)).*$` per escludere da Content Analytics tutte le immagini JPEG con logo.
+  Specifica una stringa di espressione regolare per **[!UICONTROL Assets to include / exclude]**. <br/>Ad esempio: `^(?!.*(logo\.jpg)).*$` per escludere tutte le immagini JPEG con logo da Content Analytics.
 
 >[!IMPORTANT]
 >
@@ -324,7 +324,7 @@ In una nuova configurazione, è necessario definire se desideri utilizzare una p
 
 #### Configurazione esistente {#existing-configuration}
 
-In una configurazione esistente non puoi modificare la proprietà dei tag. Per gli aggiornamenti a una proprietà Tags associata a una configurazione esistente, utilizzare la [configurazione dell&#39;estensione tag Content Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview).
+In una configurazione esistente non puoi modificare la proprietà dei tag. Per gli aggiornamenti a una proprietà Tag associata a una configurazione esistente, utilizza la [configurazione dell’estensione tag di Content Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview).
 
 Tuttavia, puoi modificare le pagine e le risorse da includere o escludere.
 

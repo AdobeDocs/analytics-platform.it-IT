@@ -8,7 +8,7 @@ exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 76%
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Nel contesto del presente articolo sono utilizzate le definizioni seguenti:
 
 ## Funzionalità
 
-Content Analytics richiede Experience Platform Edge Network Web SDK per raccogliere i dati dell&#39;evento contenuto. Tale raccolta di dati evento è combinata con la raccolta di dati di eventi comportamentali (esistente) tramite meccanismi come Experience Platform Edge Network (Web SDK, Server API) o il connettore di origine di Analytics (ad esempio, utilizzando AppMeasurement).
+Content Analytics richiede la rete Edge Web SDK di Experience Platform per raccogliere i dati evento relativi ai contenuti. Tale raccolta di dati evento è combinata con la raccolta di dati evento comportamentali (esistenti) tramite meccanismi come la rete Edge di Experience Platform (Web SDK, server API) o il connettore di origine di Analytics (ad esempio, utilizzando AppMeasurement).
 
 La libreria Content Analytics raccoglie dati quando:
 
@@ -54,7 +54,7 @@ Un evento di Content Analytics è costituito da:
 Gli eventi di Content Analytics vengono raccolti come sequenza di:
 
 1. [Una visualizzazione o un clic registrato](#recorded-view-or-click).
-1. [Un trigger per inviare un evento Content Analytics](#trigger-to-send-a-content-analytics-event).
+1. [Un trigger per inviare un evento di Content Analytics](#trigger-to-send-a-content-analytics-event).
 
 Content Analytics raccoglie i dati in questo modo per riflettere tale sequenza, invece di raccogliere visualizzazioni o clic separatamente rispetto alla raccolta dell’evento immediatamente successivo alla visualizzazione o clic. Questo modo di raccogliere i dati Content Analytics riduce anche la quantità di dati raccolti.
 
@@ -81,9 +81,9 @@ Un clic sull’esperienza viene registrato quando:
 * Qualsiasi clic si verifica su un collegamento nella pagina per il quale sono abilitate le esperienze.
 
 
-### Attivare per inviare un evento Content Analytics
+### Trigger per inviare un evento Content Analytics
 
-Per ridurre il numero di chiamate che lasciano la pagina, Content Analytics raccoglie le informazioni ma non le invia immediatamente. Le informazioni sull’interazione del contenuto vengono raccolte e un evento contenente tali informazioni viene inviato solo quando si verifica uno dei seguenti trigger:
+Per ridurre il numero di chiamate che lasciano la pagina, Content Analytics raccoglie le informazioni ma non le invia immediatamente. Le informazioni relative all’interazione con i contenuti vengono raccolte e un evento contenente tali informazioni viene inviato solo quando si verifica uno dei seguenti trigger:
 
 * Web SDK o AppMeasurement invia un evento.
 * La visibilità viene cambiata in nascosta, ad esempio:
@@ -97,7 +97,7 @@ Per ridurre il numero di chiamate che lasciano la pagina, Content Analytics racc
 
 >[!NOTE]
 >
->Gli eventi Content Analytics aggiuntivi influiscono molto probabilmente su qualsiasi definizione del tasso di mancato recapito basata sul numero di eventi in una sessione o in una pagina.
+>Gli eventi aggiuntivi di Content Analytics probabilmente influiscono su qualsiasi definizione di tasso di mancato recapito basata sul numero di eventi in una sessione o in una pagina.
 >
 
 
