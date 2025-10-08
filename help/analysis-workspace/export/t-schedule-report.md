@@ -6,18 +6,22 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+source-git-commit: 973e999b611d578da12018e60becf48efd7a76f8
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 59%
+source-wordcount: '660'
+ht-degree: 60%
 
 ---
 
 # Inviare e pianificare progetti
 
-Puoi inviare progetti Customer Journey Analytics come file a utenti selezionati tramite e-mail. Puoi inviare file ad hoc oppure configurare i progetti da inviare in base a una pianificazione. I progetti possono essere inviati in formato CSV o PDF.
+Puoi inviare progetti Customer Journey Analytics come file a utenti selezionati tramite e-mail. Puoi inviare file ad hoc oppure configurare i progetti da inviare in base a una pianificazione.
 
-Tutti i tag applicati al progetto vengono applicati automaticamente all’esportazione.
+Quando invii dei file, tieni presente quanto segue:
+
+* I file possono essere inviati in formato CSV o PDF.
+
+* Tutti i tag applicati al progetto vengono applicati automaticamente all’esportazione.
 
 Sono disponibili anche altri metodi di esportazione dei dati di Customer Journey Analytics, come descritto in [Panoramica sull’esportazione](/help/analysis-workspace/export/export-project-overview.md).
 
@@ -40,7 +44,7 @@ Per inviare un file ai destinatari tramite e-mail:
 
 ## Pianificare l’esportazione di file {#schedule}
 
-Per inviare un file in base a una pianificazione ai destinatari tramite e-mail
+Per inviare un file ai destinatari in base a una pianificazione tramite e-mail:
 
 1. Seleziona **[!UICONTROL Share]>[!UICONTROL Schedule file export]**.
 1. Specifica il tipo di file:
@@ -99,7 +103,7 @@ I requisiti relativi alla password sono conformi agli standard Adobe che richied
 ### Proteggere un nuovo progetto pianificato tramite password
 
 1. Dopo aver salvato il progetto, passa a **[!UICONTROL Share]** > **[!UICONTROL Send file now]** oppure **[!UICONTROL Share]** > **[!UICONTROL Send file on schedule]**.
-1. Segui le istruzioni precedenti, in [Invia il file ora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#now) o [Invia il file secondo pianificazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#schedule).
+1. Segui le istruzioni precedenti, in [Invia il file ora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now) o [Invia il file secondo pianificazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule).
 
 ### Proteggere un progetto pianificato esistente tramite password
 
