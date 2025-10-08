@@ -103,7 +103,7 @@ I requisiti relativi alla password sono conformi agli standard Adobe che richied
 ### Proteggere un nuovo progetto pianificato tramite password
 
 1. Dopo aver salvato il progetto, passa a **[!UICONTROL Share]** > **[!UICONTROL Send file now]** oppure **[!UICONTROL Share]** > **[!UICONTROL Send file on schedule]**.
-1. Segui le istruzioni precedenti, in [Invia il file ora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now) o [Invia il file secondo pianificazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule).
+1. Segui le istruzioni precedenti, in [Invia il file ora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#now) o [Invia il file secondo pianificazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#schedule).
 
 ### Proteggere un progetto pianificato esistente tramite password
 
