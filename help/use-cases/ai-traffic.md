@@ -6,9 +6,9 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 1cf0d957d62d60979982320f45b4fdadcc7458b8
+source-git-commit: 38be574621e4fc384f9fdeac94fc071f0cdd132b
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ La tabella seguente illustra come i metodi di rilevamento possono essere utilizz
 
 | Scenario | Identificazione dell’agente utente | Classificazione referrer | Rilevamento dei parametri di query |
 |---|---|---|---|
-| **Formazione di un modello** | L&#39;agente (`GPTBot`, `ClaudeBot` e altro) può essere identificato quando viene implementata la registrazione lato server. | Non è possibile alcuna classificazione. I crawler basati su IA non generano referrer durante l’apprendimento. | Rilevamento impossibile. I crawler basati su IA non aggiungono parametri durante l’apprendimento. |
+| **Apprendimento di un modello** | L&#39;agente (`GPTBot`, `ClaudeBot` e altro) può essere identificato quando viene implementata la registrazione lato server. | Non è possibile alcuna classificazione. I crawler basati su IA non generano referrer durante l’apprendimento. | Rilevamento impossibile. I crawler basati su IA non aggiungono parametri durante l’apprendimento. |
 | **Esplorazione agente** | L&#39;agente (`ChatGPT-User`, `claude-web`) può essere identificato quando la registrazione lato server acquisisce le intestazioni. | La classificazione è possibile se l’agente passa da un’interfaccia IA con conservazione del referente. | Il rilevamento è talvolta possibile se il servizio AI aggiunge parametri di tracciamento. |
-| **Generazione aumentata di recupero (RAG) per rispondere alla query** | L&#39;agente (`OAI-SearchBot`, `PerplexityBot`) può essere identificato con la registrazione lato server. | In genere non è possibile effettuare alcuna classificazione, in quanto le operazioni RAG spesso ignorano i meccanismi di riferimento. | Il rilevamento è raramente possibile se non specificamente implementato dal provider di IA. |
-| **Accesso utente** | Impossibile identificare l&#39;agente. L’agente di IA viene visualizzato come un normale agente utente. | La classificazione è possibile quando gli utenti fanno clic sui collegamenti dalle interfacce di intelligenza artificiale ([chatgpt.com](https://chatgpt.com), [claude.ai](https://claude.ai) e altro). | Il rilevamento è possibile quando i servizi di intelligenza artificiale aggiungono parametri UTM ai collegamenti in uscita. |
+| **Recupero della generazione aumentata (RAG) per rispondere alla query** | L&#39;agente (`OAI-SearchBot`, `PerplexityBot`) può essere identificato con la registrazione lato server. | In genere non è possibile effettuare alcuna classificazione, in quanto le operazioni RAG spesso ignorano i meccanismi di riferimento. | Il rilevamento è raramente possibile se non specificamente implementato dal provider di IA. |
+| **L&#39;utente fa clic su** | Impossibile identificare l&#39;agente. L’agente di IA viene visualizzato come un normale agente utente. | La classificazione è possibile quando gli utenti fanno clic sui collegamenti dalle interfacce di intelligenza artificiale ([chatgpt.com](https://chatgpt.com), [claude.ai](https://claude.ai) e altro). | Il rilevamento è possibile quando i servizi di intelligenza artificiale aggiungono parametri UTM ai collegamenti in uscita. |
 | **Condizioni di visibilità del traffico** | Richiedi integrazione di registrazione lato server con Customer Journey Analytics o assegnazione di tag lato server per l’identificazione dell’agente. | La classificazione dipende dai criteri del referente della piattaforma di intelligenza artificiale e dalla corretta trasmissione delle intestazioni HTTP. | Il rilevamento richiede la conservazione dei parametri tramite reindirizzamenti e la corretta raccolta di parametri URL. |
 
 ### Sfide
@@ -293,6 +293,6 @@ Utilizza i campi e i segmenti derivati per generare rapporti e analisi sul traff
 
 >[!MORELIKETHIS]
 >
->Questo articolo del caso d&#39;uso si basa sull&#39;articolo del blog di Brian Au: [Tracciamento e analisi del traffico generato da LLM e AI in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967)
+>Questo articolo del caso d&#39;uso si basa sull&#39;articolo del blog [Tracciamento e analisi del traffico generato da LLM e AI in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967).
 >
 >
