@@ -6,9 +6,9 @@ feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2572'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -82,17 +82,17 @@ Ogni configurazione richiede un nome univoco. Ad esempio, `Example Content Analy
 >[!CONTEXTUALHELP]
 >id="ac_onboarding_dataview_button"
 >title="Visualizzazione dati"
->abstract="Per la configurazione di Content Analytics è necessario selezionare una visualizzazione dati esistente. In questo modo è possibile unire i dati di Content Analytics con altri dati."
+>abstract="Per la configurazione di Content Analytics è necessario selezionare una visualizzazione dati esistente. In questo modo, puoi unire i dati di Content Analytics con altri dati."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="Visualizzazione dati"
->abstract="Seleziona una visualizzazione dati esistente da Customer Journey Analytics con cui desideri unire i dati di Content Analytics."
+>abstract="Seleziona una visualizzazione dati esistente di Customer Journey Analytics con cui desideri unire i dati di Content Analytics."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
 >title="Visualizzazione dati"
->abstract="Selezionare una visualizzazione dati esistente da Customer Journey Analytics con cui si desidera unire i dati di Content Analytics.<br/>"
+>abstract="Seleziona una visualizzazione dati esistente da Customer Journey Analytics con cui vuoi unire i dati di Content Analytics.<br/>"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_change_dialog"
@@ -236,7 +236,7 @@ Per modificare esperienze esistenti o includerne di nuove in una configurazione 
 
 ### Raccolta dati {#onboarding-data-collection}
 
-In questa sezione puoi configurare la modalità di raccolta dei dati Content Analytics.
+In questa sezione, puoi configurare il modo in cui raccogliere i dati di Content Analytics.
 
 <!-- markdownlint-disable MD034 -->
 
