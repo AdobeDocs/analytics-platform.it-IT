@@ -4,11 +4,9 @@ description: Scopri come utilizzare i campi derivati come base per creare rappor
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-hide: true
-hidefromtoc: true
-source-git-commit: 38be574621e4fc384f9fdeac94fc071f0cdd132b
+source-git-commit: 8862bfdf873c4c3c5e795f3b299040b3dc253647
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
@@ -17,6 +15,11 @@ ht-degree: 0%
 # Rapporto sul traffico generato da LLM e AI
 
 Questo articolo del caso d’uso illustra come utilizzare la funzionalità dei campi derivati da Customer Journey Analytics come base per creare rapporti sul traffico generato da LLM (Large Language Model) e AI.
+
+>[!NOTE]
+>
+>L&#39;efficacia dei [metodi di rilevamento](#detection-methods), delle [firme di rilevamento](#detection-signatures) e delle [strategie di implementazione](#implementation) dipende dal metodo di raccolta dati specifico, dalla copertura del set di dati di Experience Platform e dall&#39;implementazione di Customer Journey Analytics. I risultati possono variare in base all’ambiente tecnico, alle politiche di governance dei dati e all’approccio di implementazione. Quando utilizzi Experience Edge, devi scegliere se registrare la stringa non elaborata dell’agente utente o raccogliere le informazioni sul dispositivo.
+>
 
 ## Metodi di rilevamento
 
@@ -30,6 +33,7 @@ Tre metodi comuni di rilevamento di base per identificare e monitorare il traffi
 * **Identificazione dell&#39;agente utente**: quando viene effettuata una richiesta al server, l&#39;intestazione dell&#39;agente utente HTTP viene estratta e analizzata in base ai pattern noti dell&#39;agente e del crawler di IA. Questo metodo lato server richiede l’accesso alle intestazioni HTTP ed è più efficace se implementato a livello di raccolta dati.
 * **Classificazione del referente**: l&#39;intestazione del referente HTTP contiene l&#39;URL della pagina Web precedente collegata alla richiesta corrente. Questa intestazione mostra quando gli utenti fanno clic sul tuo sito da interfacce web come ChatGPT o Perplexity.
 * **Rilevamento parametri di query**: i servizi di IA possono aggiungere parametri URL (in particolare parametri UTM) ai collegamenti. Questi parametri persistono nell’URL e possono essere rilevati tramite implementazioni di analisi standard, rendendo questi parametri URL indicatori preziosi anche in scenari di tracciamento lato client.
+
 
 La tabella seguente illustra come i metodi di rilevamento possono essere utilizzati in diversi scenari di interazione LLM e AI.
 
@@ -248,12 +252,12 @@ A partire da agosto 2025, per ciascuno dei metodi di rilevamento possono essere 
 
 ## Implementazione
 
-Puoi creare rapporti sul traffico generato da LLM e AI all&#39;interno di una tipica configurazione di Customer Journey Analytics (connessione, visualizzazione dati, progetto Workspace) tramite la configurazione specifica di [campi derivati](#derived-fields), [segmenti](#segments) e [progetti Workspace](#workspace-project).
+È possibile creare rapporti sul traffico generato da LLM e AI all&#39;interno di una tipica configurazione di Customer Journey Analytics ([connessione](/help/connections/overview.md), [visualizzazioni dati](/help/data-views/data-views.md) e [progetti Workspace](/help/analysis-workspace/home.md)) tramite la configurazione specifica di [campi derivati](#derived-fields), [segmenti](#segments) e [progetti Workspace](#workspace-project).
 
 
 ### Campi derivati
 
-Per configurare i metodi di rilevamento e i segnali di rilevamento, utilizza i campi derivati come base. Ad esempio, definisci i campi derivati per l’identificazione dell’agente utente, il rilevamento dei parametri della query e la classificazione del referente.
+Per configurare i metodi di rilevamento e i segnali di rilevamento, utilizza i campi derivati come base. Ad esempio, definisci i campi derivati per [identificazione agente utente](#user-agent-identification), [rilevamento parametri query](#query-parameter-detection) e [classificazione referrer](#referrer-classification).
 
 #### Identificazione dell’agente utente LLM/AI
 
@@ -264,16 +268,412 @@ Utilizza le funzioni di campo derivato [Case When](/help/data-views/derived-fiel
 
 #### Rilevamento parametri query LLM/AI
 
-Utilizza le funzioni di campo derivato [URL Parse](/help/data-views/derived-fields/derived-fields.md#url-parse) e [Classify](/help/data-views/derived-fields/derived-fields.md#classify) per definire un campo derivato che rileva il rilevamento dei parametri UTM.
+Utilizza le funzioni di campo derivato [URL Parse](/help/data-views/derived-fields/derived-fields.md#url-parse) e [Classify](/help/data-views/derived-fields/derived-fields.md#classify) per definire un campo derivato che rileva i parametri di query.
 
 ![Rilevamento parametri LLM/AI UTM](assets/aitraffic-utmparams.png){zoomable="yes"}
 
 
 #### Classificazione del referente LLM/AI
 
-Utilizzare le funzioni URL Parse e Classify derivated field per definire un campo derivato che classifica i referenti.
+Utilizza le funzioni di campo derivato [URL Parse](/help/data-views/derived-fields/derived-fields.md#url-parse) e [Classify](/help/data-views/derived-fields/derived-fields.md#classify) per definire un campo derivato che classifica i referenti.
 
-![LLM/Classificazione referrer AI](assets/aitraffic-utmparams.png){zoomable="yes"}
+(assets/aitraffic-referrers.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+){zoomable="yes"}
 
 
 ### Segmenti
