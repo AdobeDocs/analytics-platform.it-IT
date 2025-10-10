@@ -34,7 +34,7 @@ La definizione di un mancato recapito è oggetto di un&#39;altra discussione, ma
 
 ### Campi derivati
 
-In alternativa, è possibile definire un tasso di mancato recapito [ utilizzando campi derivati](/help/data-views/derived-fields/derived-fields.md#bounces).
+In alternativa, è possibile definire un tasso di mancato recapito [&#x200B; utilizzando campi derivati](/help/data-views/derived-fields/derived-fields.md#bounces).
 
 I campi derivati fanno parte di una visualizzazione dati che presenta il vantaggio che non tutti gli utenti possono ignorare o modificare la definizione di una metrica del tasso di mancato recapito. Anche tale vantaggio ha introdotto una limitazione. Gli utenti che non hanno accesso a una visualizzazione dati non possono utilizzare campi derivati e devono ricorrere a segmenti e metriche calcolate per definire un tasso di mancato recapito.
 

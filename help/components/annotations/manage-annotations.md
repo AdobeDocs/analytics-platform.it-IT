@@ -99,7 +99,7 @@ Puoi modificare un’annotazione in due modi:
 
 * In un progetto Workspace, utilizza l’icona [Informazioni componenti](/help/components/use-components-in-workspace.md#component-info).
 
-* Nell’elenco [[!UICONTROL Annotations] ](#annotations-list), seleziona il titolo dell’annotazione.
+* Nell’elenco [[!UICONTROL Annotations] &#x200B;](#annotations-list), seleziona il titolo dell’annotazione.
 
 Per modificare l’annotazione utilizza il [Generatore di annotazioni](/help/components/annotations/create-annotations.md#annotation-builder).
 

@@ -15,7 +15,7 @@ ht-degree: 37%
 
 >[!TIP]
 >
->Utilizza l&#39;interfaccia [**[!UICONTROL Usage]**](/help/connections/manage-connections.md#usage) per** visualizzare **l&#39;utilizzo delle righe acquisite e segnalabili in tutte le connessioni in Customer Journey Analytics.
+>Utilizza l&#39;interfaccia [**[!UICONTROL Usage]**](/help/connections/manage-connections.md#usage) per **&#x200B; visualizzare &#x200B;** l&#39;utilizzo delle righe acquisite e segnalabili in tutte le connessioni in Customer Journey Analytics.
 
 
 
