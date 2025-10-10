@@ -7,7 +7,7 @@ role: Admin
 source-git-commit: 40706e3118cbaf7582d8625d307358b16f1836ac
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Questa integrazione consente di gestire più facilmente la conformità. Gli ammi
 
 [Ulteriori informazioni](/help/data-views/data-governance.md)
 
-## Richieste di accesso a dati personali
+## Richieste di privacy
 
-Adobe gestisce le richieste di accesso ai dati personali in conformità alle leggi locali e internazionali applicabili.
+Adobe gestisce le richieste di privacy in conformità alle leggi locali e internazionali applicabili.
 
-Poiché Customer Journey Analytics utilizza i dati disponibili in Adobe Experience Platform, Adobe offre a [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) di inviare richieste di accesso e cancellazione dei dati. Le richieste si applicano sia ai set di dati originali che a quelli reimpostati.
+Poiché Customer Journey Analytics utilizza i dati disponibili in Adobe Experience Platform, Adobe offre [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) per inviare richieste di accesso ed eliminazione dei dati. Le richieste si applicano sia ai set di dati originali che a quelli reimpostati.
 
 ## GDPR
 

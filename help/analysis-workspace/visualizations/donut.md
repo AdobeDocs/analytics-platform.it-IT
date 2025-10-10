@@ -25,7 +25,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione ad anello in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Anello](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/donut) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione ad anello in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Anello](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/donut) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ Simile a un grafico a torta, la visualizzazione ![GraphDonut](/help/assets/icons
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere una visualizzazione ad anello](https://video.tv.adobe.com/v/3416625/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere una visualizzazione ad anello](https://video.tv.adobe.com/v/334309/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -47,7 +47,7 @@ Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

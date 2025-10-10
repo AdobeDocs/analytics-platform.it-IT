@@ -5,7 +5,7 @@ feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
 source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Gli amministratori di Analytics sono responsabili della cura delle informazioni 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dei dati in Analysis Workspace](https://video.tv.adobe.com/v/3422283/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dei dati in Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 

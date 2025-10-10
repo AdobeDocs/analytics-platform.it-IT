@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Per creare un set di dati:
 
 1. Seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
 
-   Viene richiesto di abilitare il set di dati per il profilo. Una volta attivato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati inseriti.
+   Viene richiesto di abilitare il set di dati per il profilo. Una volta abilitato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati inseriti.
 
    >[!IMPORTANT]
    >

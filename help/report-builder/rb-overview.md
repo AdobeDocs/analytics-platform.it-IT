@@ -48,8 +48,8 @@ Report Builder per Customer Journey Analytics è un componente aggiuntivo di Mic
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder per Customer Journey Analytics](https://video.tv.adobe.com/v/3452588?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder per Customer Journey Analytics](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
-È possibile scaricare Report Builder per Customer Journey Analytics da [Microsoft Store](https://appsource.microsoft.com/en-us/product/Office365/WA200003101).
+È possibile scaricare Report Builder per Customer Journey Analytics da [Microsoft Store](https://appsource.microsoft.com/it-it/product/Office365/WA200003101).

@@ -6,7 +6,7 @@ feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2572'
 ht-degree: 100%
 
@@ -293,7 +293,7 @@ In una nuova configurazione, è necessario definire se desideri utilizzare una p
 
 * Per utilizzare una proprietà dei tag esistente:
 
-  ![Tag esistente nella raccolta dati di analisi dei contenuti](../assets/aca-configuration-datacollection-existingtag.png)
+  ![Tag esistente nella raccolta dati di Content Analytics](../assets/aca-configuration-datacollection-existingtag.png)
 
    1. Seleziona **[!UICONTROL Choose existing]**.
    2. Seleziona una proprietà esistente dal menu a discesa **[!UICONTROL Tags property]**. Puoi iniziare a digitare per cercare e limitare le opzioni disponibili. Non puoi selezionare una proprietà dei tag già utilizzata da un’altra configurazione di Content Analytics implementata.
@@ -301,7 +301,7 @@ In una nuova configurazione, è necessario definire se desideri utilizzare una p
 
 * Per creare una nuova proprietà dei tag:
 
-  ![Nuovo Tag per la raccolta dati di analisi dei contenuti](../assets/aca-configuration-datacollection-newtag.png)
+  ![Nuovo Tag per la raccolta dati di Content Analytics](../assets/aca-configuration-datacollection-newtag.png)
 
    1. Seleziona **[!UICONTROL Create new]**.
    1. Specifica un **[!UICONTROL Tags name]**, ad esempio `ACA Test for Documentation`.
@@ -336,11 +336,11 @@ Tuttavia, puoi modificare le pagine e le risorse da includere o escludere.
 
 Dopo aver fornito tutti i dettagli necessari, un riepilogo raccoglie i dettagli sugli artefatti creati o modificati.
 
-* Quando implementi una nuova configurazione, visualizzi un **[!UICONTROL You're almost ready to implement _nome configurazione _per il riepilogo di analisi dei contenuti]**.
+* Quando implementi una nuova configurazione, visualizzi un **[!UICONTROL You're almost ready to implement _nome configurazione _per il riepilogo di Content Analytics]**.
 
-* Per le configurazioni implementate esistenti, visualizzi un **[!UICONTROL You have implemented _nome configurazione _per il riepilogo di analisi dei contenuti]**.
+* Per le configurazioni implementate esistenti, visualizzi un **[!UICONTROL You have implemented _nome configurazione _per il riepilogo di Content Analytics]**.
 
-![Riepilogo configurazione analisi dei contenuti](../assets/aca-configuration-summary.png)
+![Riepilogo configurazione di Content Analytics](../assets/aca-configuration-summary.png)
 
 ### Azioni {#actions}
 
@@ -349,7 +349,7 @@ Dopo aver fornito tutti i dettagli necessari, un riepilogo raccoglie i dettagli 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_implementation_warning_dialog"
 >title="Conferma dell’implementazione"
->abstract="Se si seleziona **[!UICONTROL Implement]**, l’analisi dei contenuti verrà configurata in base all’input fornito in questo flusso di lavoro. Per impostazione predefinita, vengono scelte diverse impostazioni in base a ciò che è generalmente utile per Content Analytics, ma (in qualità di titolare del trattamento dei dati) devi rivedere le impostazioni di ciascun artefatto per confermare che le impostazioni siano implementate in conformità all’informativa sulla privacy, ai diritti e agli obblighi contrattuali e ai requisiti di consenso secondo la legge applicabile.<br/><br/>Nessun dato verrà raccolto finché la libreria Tag associata a questa configurazione non verrà pubblicata manualmente.<br/><br/>Per derivare gli attributi di immagini e testo, Adobe recupera gli attributi utilizzando:<ol><li>l’URL della pagina acquisito al momento della visita del sito da parte degli utenti, in base alle impostazioni di raccolta dati configurate, e</li><li>l’URL in cui è ospitata l’immagine.</li></ol>Non devi assegnare tag alle immagini ospitate su siti di terze parti."
+>abstract="Se si seleziona **[!UICONTROL Implement]**, Content Analytics verrà configurato in base all’input fornito in questo flusso di lavoro. Per impostazione predefinita, vengono scelte diverse impostazioni in base a ciò che è generalmente utile per Content Analytics, ma (in qualità di titolare del trattamento dei dati) devi rivedere le impostazioni di ciascun artefatto per confermare che le impostazioni siano implementate in conformità all’informativa sulla privacy, ai diritti e agli obblighi contrattuali e ai requisiti di consenso secondo la legge applicabile.<br/><br/>Nessun dato verrà raccolto finché la libreria Tag associata a questa configurazione non verrà pubblicata manualmente.<br/><br/>Per derivare gli attributi di immagini e testo, Adobe recupera gli attributi utilizzando:<ol><li>l’URL della pagina acquisito al momento della visita del sito da parte degli utenti, in base alle impostazioni di raccolta dati configurate, e</li><li>l’URL in cui è ospitata l’immagine.</li></ol>Non devi assegnare tag alle immagini ospitate su siti di terze parti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -366,16 +366,16 @@ Quando crei o modifichi una configurazione, disponi delle seguenti opzioni:
 
 
    * configurazione di **[!UICONTROL Adobe Experience Platform]**:
-      * La creazione di schemi per modellare eventi di analisi dei contenuti, attributi di risorse e (se configurati) attributi di esperienza.
-      * La creazione di set di dati per raccogliere eventi di analisi dei contenuti, attributi delle risorse e (se configurati) attributi di esperienza.
-      * La creazione di un flusso di dati che utilizza il servizio di funzionalità per generare e aggiornare gli attributi di contenuto dagli eventi di analisi dei contenuti.
+      * Creazione di schemi per modellare eventi, attributi di risorse e (se configurati) attributi di esperienza di Content Analytics.
+      * Creazione di set di dati per raccogliere eventi, attributi delle risorse e (se configurati) attributi di esperienza di Content Analytics.
+      * Creazione di un flusso di dati che utilizza il servizio di funzionalità per generare e aggiornare gli attributi di contenuto dagli eventi di Content Analytics.
 
 
    * Configurazione di **[!UICONTROL Data collection]**:
       * La proprietà dei tag nuova o esistente è configurata per supportare la raccolta dati di Content Analytics. Questa configurazione implica l’inclusione dell’estensione Adobe Content Analytics per i tag.
-      * Viene creato uno stream di dati per gli eventi di analisi dei contenuti.
+      * Viene creato uno stream di dati per gli eventi di Content Analytics.
       * L’estensione Adobe Content Analytics è configurata per garantire che gli eventi di analisi dei contenuti vengano inviati allo stream di dati per analisi dei contenuti.
-      * Se il Web SDK non è configurato per la proprietà Tag, viene creata una nuova configurazione Web SDK al fine di inviare solo eventi di analisi dei contenuti.
+      * Se il Web SDK non è configurato per la proprietà Tag, viene creata una nuova configurazione Web SDK al fine di inviare solo eventi di Content Analytics.
       * Se il Web SDK è configurato per questa proprietà dei tag, non viene apportata alcuna modifica alla configurazione del Web SDK esistente.
 
 

@@ -47,7 +47,7 @@ Per ulteriori informazioni su come calcolare i mancati recapiti e il relativo ta
 
 Desideri definire una metrica calcolata che calcoli solo le visualizzazioni di pagina per le pagine visitate in oltre 100 sessioni.
 
-+++ Dettagli
++++ Dettagli 
 
 ![Visualizzazioni pagina condizionali](assets/conditional-page-views.png)
 

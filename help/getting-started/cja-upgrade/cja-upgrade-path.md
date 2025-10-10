@@ -8,15 +8,15 @@ hide: true
 hidefromtoc: true
 exl-id: 9559ba10-cbaf-4243-9c85-a0a5f6e3bbff
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2975'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Passaggio 2: scegli il percorso di aggiornamento
 
-+++Espandi questa sezione per vedere dove si inseriscono le informazioni di questa pagina nel processo di aggiornamento più ampio. Assicurati che tutti i passaggi di aggiornamento precedenti siano stati completati.
++++Espandi questa sezione per vedere dove le informazioni su questa pagina si inseriscono nel processo di aggiornamento più ampio. Assicurati che tutti i passaggi di aggiornamento precedenti siano stati completati.
 
 Prima di continuare con questa sezione, assicurati in primo luogo di aver completato tutte le attività di aggiornamento precedenti.
 
@@ -36,7 +36,7 @@ Le informazioni in questa pagina descrivono il passaggio 2 del processo di aggio
 
 >[!AVAILABILITY]
 >
->Le informazioni contenute in questa pagina verranno sostituite dalle seguenti informazioni di aggiornamento più complete: <ul><li>**Passaggi di aggiornamento consigliati**<p>Per informazioni dettagliate, consulta il [Percorso consigliato durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).</p></li><li>**Guida per l’aggiornamento di Customer Journey Analytics**<p>È disponibile una nuova guida per l’aggiornamento che genera in modo dinamico passaggi di aggiornamento personalizzati per la situazione specifica della tua organizzazione.</p><p>Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Upgrade to Customer Journey Analytics]** nel pannello a sinistra. Segui le istruzioni visualizzate sullo schermo.</p></li></ul>
+>Le informazioni contenute in questa pagina verranno sostituite dalle seguenti informazioni di aggiornamento più complete: <ul><li>**Passaggi di aggiornamento consigliati**<p>Per informazioni dettagliate, consulta [Percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).</p></li><li>**Guida per l’aggiornamento di Customer Journey Analytics**<p>È disponibile una nuova guida per l’aggiornamento che genera in modo dinamico passaggi di aggiornamento personalizzati per la situazione specifica della tua organizzazione.</p><p>Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Upgrade to Customer Journey Analytics]** nel pannello a sinistra. Segui le istruzioni visualizzate sullo schermo.</p></li></ul>
 
 
 Dopo aver deciso di eseguire l’aggiornamento a Customer Journey Analytics, devi determinare il percorso di aggiornamento ottimale per l’organizzazione.
@@ -122,7 +122,7 @@ Di seguito sono riportati i percorsi di aggiornamento disponibili per le organiz
 
 +++
 
-   Migrare Adobe Analytics a Experience Platform Web SDK
++++Migrazione da Adobe Analytics ad Experience Platform Web SDK
 
 | Vantaggi | Svantaggi |
 |----------|---------|
@@ -150,7 +150,7 @@ Quando si sceglie questo percorso di aggiornamento, è necessario scegliere anch
 
 #### Percorso di aggiornamento
 
-+++Configurare l’implementazione di Adobe Analytics Web SDK per inviare i dati a Platform
++++Configurare l’implementazione di Adobe Analytics Web SDK per inviare dati a Platform
 
 | Vantaggi | Svantaggi |
 |----------|---------|
@@ -166,7 +166,7 @@ Se hai scelto il percorso di aggiornamento che consente di configurare l’imple
 
 Puoi scegliere se utilizzare lo schema di Adobe Analytics esistente oppure aggiornare lo schema XDM per allinearlo meglio alle esigenze dell’organizzazione quando inizi a utilizzare altri servizi di Platform.
 
-+++Utilizzare lo schema di Adobe Analytics con l’implementazione di Adobe Analytics Web SDK
++++Utilizzare lo schema Adobe Analytics con l’implementazione di Adobe Analytics Web SDK
 
 | Vantaggi | Svantaggi |
 |----------|---------|
@@ -174,7 +174,7 @@ Puoi scegliere se utilizzare lo schema di Adobe Analytics esistente oppure aggio
 
 +++
 
-+++Utilizzare il proprio schema XDM con l’implementazione di Adobe Analytics Web SDK
++++Utilizza il tuo schema XDM con l’implementazione di Adobe Analytics Web SDK
 
 | Vantaggi | Svantaggi |
 |----------|---------|

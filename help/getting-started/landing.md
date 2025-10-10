@@ -5,7 +5,7 @@ role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
 source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ La pagina di destinazione di Customer Journey Analytics mette in evidenza [!DNL 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pagina di destinazione in Analysis Workspace](https://video.tv.adobe.com/v/346464/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pagina di destinazione in Analysis Workspace](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -93,7 +93,7 @@ The available columns are:
 | [!UICONTROL Create new] | Opens the project modal where you can create a Workspace project or a Mobile scorecard or open a company template.  |
 | [!UICONTROL Show less<br> Show more] | Toggles between not showing and showing the banner: ![Top banner](assets/top-banner.png) |
 | [!UICONTROL Workspace project] | Creates a blank [Workspace project](/help/analysis-workspace/home.md) for you to  design and build. |
-| [!UICONTROL Mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=it) for you to design and build. |
+| [!UICONTROL Mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) for you to design and build. |
 | [!UICONTROL Open Training Tutorial] | Opens the Workspace training tutorial that guides you through the process of building a new starter project in a step-by-step tutorial.|
 | [!UICONTROL Open release notes] | Opens the Adobe Analytics section of the latest Adobe Experience Cloud release notes. |
 | Filter icon | Filters by tags, report suites, owners, types, and other filters (Mine, Shared with me, Favorites, and Approved)  |

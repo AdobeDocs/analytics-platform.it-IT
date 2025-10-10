@@ -4,16 +4,16 @@ description: Scopri come incrementare gli account chiave utilizzando Customer Jo
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-badgePremium: label="B2B edition"
+badgePremium: label="B2B Edition"
 exl-id: f5294af8-b8dc-4239-b0f7-5c20d39007ee
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Crescita account chiave
+# Far crescere gli account chiave
 
 La crescita e la conservazione dei key account sono una priorità importante per le aziende B2B. Per garantire che i negoziati progrediscano, è necessario comunicare al momento giusto con le principali parti interessate nei tuoi account di destinazione.
 

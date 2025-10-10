@@ -128,7 +128,7 @@ Per configurare lo schema:
 
 1. Seleziona **[!UICONTROL Save]** (Salva) per salvare lo schema.
 
-Hai creato uno schema minimo che modella i dati di fidelizzazione che puoi inserire in Adobe Experience Platform. Lo schema consente l’identificazione dei profili tramite l’indirizzo e-mail. Attivando lo schema per il profilo, garantisci che i dati del tuo file batch vengano aggiunti a Real-Time Customer Profile.
+Hai creato uno schema minimo che modella i dati di fidelizzazione che puoi inserire in Adobe Experience Platform. Lo schema consente l’identificazione dei profili tramite l’indirizzo e-mail. Abilitando lo schema per il profilo, garantisci che i dati del tuo file batch vengano aggiunti a Real-Time Customer Profile.
 
 Per ulteriori informazioni sull’aggiunta e la rimozione di gruppi di campi e singoli campi a uno schema, consulta la sezione [Creare e modificare schemi nell’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=it).
 
@@ -158,7 +158,7 @@ Per configurare il set di dati:
 
 7. Seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
 
-   Viene richiesto di abilitare il set di dati per il profilo. Una volta attivato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati inseriti.
+   Viene richiesto di abilitare il set di dati per il profilo. Una volta abilitato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati inseriti.
 
    >[!IMPORTANT]
    >

@@ -6,7 +6,7 @@ feature: Basics
 exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
 role: Admin
 source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1478'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Puoi annullare tutte le richieste associate a uno o più utenti. Quando annulli 
       | [!UICONTROL **Utente e progetto**] | Agli utenti selezionati verrà temporaneamente impedito di effettuare qualsiasi richiesta di reporting per i progetti associati. <p>Questa è l’opzione meno restrittiva.</p> |
       | [!UICONTROL **Utente**] | Agli utenti selezionati verrà temporaneamente impedito di effettuare qualsiasi richiesta di reporting. |
       | [!UICONTROL **Progetto**] | I progetti associati agli utenti selezionati saranno esclusi da qualsiasi richiesta di reporting effettuata da qualsiasi utente. |
-      | [!UICONTROL **Limitato per**] | Scegli per quanto tempo le richieste saranno limitate. È possibile scegliere tra 1 minuto (impostazione predefinita), 5 minuti, 10 minuti, 15 minuti o 30 minuti. <!--double-check this--> <p>Non puoi rimuovere una restrizione subito dopo averla impostata.</p> |
+      | [!UICONTROL **Limitato per**] | Scegli per quanto tempo le richieste saranno limitate. Puoi scegliere 1 minuto (impostazione predefinita), 5 minuti, 10 minuti, 15 minuti o 30 minuti. <!--double-check this--> <p>Non puoi rimuovere una restrizione subito dopo averla impostata.</p> |
 
       {style="table-layout:auto"}
 

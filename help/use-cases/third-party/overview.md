@@ -1,7 +1,8 @@
 ---
 title: Casi d’uso di terze parti in Customer Journey Analytics
 description: Scopri come integrare i dati raccolti in Customer Journey Analytics con i dati raccolti da prodotti esterni ad Adobe.
-source-git-commit: 6ddc0f1e2afa73a6925f1940c08c4fecfc3de383
+exl-id: 3de5ccaf-7a65-448e-b886-fab56bc2a73b
+source-git-commit: 0387a1f88cc46706eb36effda1c3c1c64fff45d9
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

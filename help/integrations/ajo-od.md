@@ -5,7 +5,7 @@ exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
 source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Puoi importare i dati generati dalla gestione delle decisioni per eseguire anali
 
 ## Inviare dati dalla gestione delle decisioni ad Adobe Experience Platform
 
-Adobe Experience Platform funge da origine dati centrale e da collegamento tra la gestione delle decisioni e Customer Journey Analytics. I dati provenienti dalla gestione delle decisioni sono raccolti in Experience Platform **automaticamente** o come parte di **eventi di esperienza inviati in modo esplicito** (ad esempio impression o clic). Per ulteriori informazioni, consulta la [Guida introduttiva sulla raccolta dati](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=it).
+Adobe Experience Platform funge da origine dati centrale e da collegamento tra la gestione delle decisioni e Customer Journey Analytics. I dati provenienti dalla gestione delle decisioni sono raccolti in Experience Platform **automaticamente** o come parte di **eventi esperienza inviati in modo esplicito** (ad esempio impression o clic). Per ulteriori informazioni, consulta la [Guida introduttiva sulla raccolta dati](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html?lang=it).
 
 ## Creare una connessione
 

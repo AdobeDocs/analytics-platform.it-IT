@@ -18,7 +18,7 @@ Il [modello di attribuzione](models.md) algoritmica in Analysis Workspace è div
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribuzione algoritmica](https://video.tv.adobe.com/v/40053?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribuzione algoritmica](https://video.tv.adobe.com/v/36205?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

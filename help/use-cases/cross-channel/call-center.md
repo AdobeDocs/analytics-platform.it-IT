@@ -20,7 +20,7 @@ Customer Journey Analytics offre la preziosa e solida capacità di combinare in 
 
 * Il componente più importante per combinare questi due set di dati è un identificatore comune tra ciascuna origine dati. Gli esempi includono un ID cliente, un’e-mail con hash, nome utente di accesso o numero di telefono.
 * Accedere ad Adobe Experience Platform e Customer Journey Analytics
-* Se il set di dati include i registri di un sistema di risposta vocale interattivo, Adobe consiglia di elaborare i dati in modo da includere solo interazioni immediate prima di importarli in Platform.
+* Se il set di dati include i registri di un sistema di risposta vocale interattivo, Adobe consiglia di elaborare i dati in modo da includere solo le interazioni relative alle richieste prima di importarli in Platform.
 * Se il set di dati include i registri di chiamata, Adobe consiglia di includere le colonne seguenti:
    * Data/ora di inizio della chiamata
    * Motivo della chiamata

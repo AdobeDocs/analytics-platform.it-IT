@@ -3,7 +3,7 @@ title: Panoramica di utilizzo del prodotto
 description: Visualizza approfondimenti e rapporti sull’utilizzo di Customer Journey Analytics da parte della tua organizzazione.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
 source-git-commit: a4615907f61b4d63393a9481fdd7b45b7b9b6262
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 

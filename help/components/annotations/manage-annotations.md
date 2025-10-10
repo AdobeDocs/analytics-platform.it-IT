@@ -69,7 +69,7 @@ La barra dei filtri ➌ mostra i filtri attivi (se presenti). Puoi rimuovere rap
 
 ### Pannello dei filtri
 
-È possibile filtrare le annotazioni utilizzando il pannello sinistro **[!UICONTROL Filter]** di ➍. Nel pannello dei filtri viene visualizzato il tipo di filtro e il numero di annotazioni che lo rispettano. Seleziona ![Filtro](/help/assets/icons/Filter.svg) per attivare/disattivare la visualizzazione del pannello dei filtri.
+È possibile filtrare le annotazioni utilizzando il pannello sinistro **[!UICONTROL Filter]** di ➍. Nel pannello dei filtri viene visualizzato il tipo di filtro e il numero di annotazioni che lo rispettano. Seleziona ![Filtro](/help/assets/icons/Filter.svg) per attivare o disattivare la visualizzazione del pannello dei filtri.
 
 Per filtrare l’elenco dei filtri:
 

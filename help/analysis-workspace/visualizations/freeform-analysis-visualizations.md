@@ -8,7 +8,7 @@ role: User
 source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
 workflow-type: tm+mt
 source-wordcount: '1649'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -79,7 +79,7 @@ Puoi gestire una visualizzazione quando passi il cursore del mouse su di essa o 
 
 * Per comprimere una visualizzazione, selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg).
 * Per visualizzare una visualizzazione compressa, selezionare ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
-* Per eliminare una visualizzazione, selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg). Per annullare, selezionare **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
+* Per eliminare una visualizzazione, selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg). Per annullare, seleziona **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *Comando+Z *]**|**[!UICONTROL * CTRL+Z *]**).
 * Per ripristinare l&#39;altezza predefinita di una visualizzazione, selezionare ![Ridimensiona immagine](/help/assets/icons/Resize.svg).
 * Per spostare una visualizzazione all&#39;interno di un pannello, trascina e rilascia la visualizzazione ogni volta che è visibile un elemento ![Sposta](/help/assets/icons/Move.svg) (in genere quando passi il cursore del mouse sull&#39;intestazione).
 
@@ -131,7 +131,7 @@ Le impostazioni di visualizzazione disponibili dipendono dal tipo di visualizzaz
 | **[!UICONTROL Limit max items]** | Consente di limitare il numero di elementi presentati in una visualizzazione. Se questa opzione è selezionata, definisci il numero massimo di elementi. |
 | **[!UICONTROL Show annotations]** | Mostra le annotazioni effettuate per questa visualizzazione. |
 | **[!UICONTROL Hide title]** | Nascondi il titolo della visualizzazione. |
-| **[!UICONTROL Anchor y-axis at zero]** | Forza la parte inferiore dell’asse y a zero. Se tutti i valori tracciati sul grafico sono notevolmente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà non zero. Se si attiva questa opzione, l’asse y viene forzato a zero (e il grafico viene ridisegnato). |
+| **[!UICONTROL Anchor y-axis at zero]** | Forza la parte inferiore dell’asse y a zero. Se tutti i valori tracciati sul grafico sono notevolmente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà non zero. Se abiliti questa opzione, l’asse y viene forzato a zero (e il grafico viene ridisegnato). |
 | **[!UICONTROL Display dual axis]** | Visualizza gli assi y a sinistra e a destra per due metriche diverse. Questa opzione è applicabile solo se si dispone di due metriche. I doppi assi sono utili quando le metriche tracciate hanno dimensioni diverse. |
 | **[!UICONTROL Show x-axis]** | Mostra l’asse x nella visualizzazione. |
 | **[!UICONTROL Show y-axis]** | Mostra l’asse y nella visualizzazione. |

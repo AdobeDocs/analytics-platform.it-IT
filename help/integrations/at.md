@@ -13,9 +13,9 @@ ht-degree: 41%
 
 # Generazione rapporti di Target
 
-Il reporting di Target nel Customer Journey Analytics consente di misurare e creare rapporti sulle attività di Adobe Target direttamente nel Customer Journey Analytics. Questa funzionalità è paragonabile a quella eseguita in Adobe Analytics (AA) tramite Analytics for Target (A4T), ma con la connettività a Adobe Experience Platform (AEP).
+La funzione di reporting di Target in Customer Journey Analytics consente di misurare e creare rapporti sulle attività di Adobe Target direttamente in Customer Journey Analytics. Questa funzionalità è paragonabile a quella eseguita in Adobe Analytics (AA) tramite Analytics for Target (A4T), ma con la connettività a Adobe Experience Platform (AEP).
 
-Aggiungendo il set di dati di ricerca della classificazione di Target (disponibile per impostazione predefinita in Experience Platform) in una connessione di Customer Journey Analytics, gli utenti ora dispongono della corretta esposizione agli strumenti di reporting di Target, all’attribuzione dell’ordine di Target e ad altre funzioni. Con solo alcune preparazioni e modifiche minori effettuate all’interno della visualizzazione dati del Customer Journey Analytics, queste attività possono essere rese immediatamente disponibili per qualsiasi utente che desideri inviare i dati di Target direttamente in CJA.
+Aggiungendo il set di dati di ricerca di Classificazione di Target (disponibile per impostazione predefinita in Experience Platform) in una connessione Customer Journey Analytics, gli utenti ora dispongono della corretta esposizione agli strumenti di reporting di Target, all’attribuzione dell’ordine di Target e ad altre funzioni. Con solo alcune lievi preparazioni e modifiche effettuate all’interno della visualizzazione dati di Customer Journey Analytics, queste attività possono essere rese immediatamente disponibili per qualsiasi utente che desideri inviare i dati di Target direttamente in CJA.
 
 ## Vantaggi principali
 
@@ -25,7 +25,7 @@ Aggiungendo il set di dati di ricerca della classificazione di Target (disponibi
 
 ## Note e considerazioni
 
-Una volta aggiunto il set di dati dell’evento di classificazione di Target a una connessione CJA, è necessario apportare alcune modifiche minori alla visualizzazione dati di CJA dopo aver aggiunto questi componenti come dimensioni, tra cui:
+Una volta aggiunto il set di dati dell’evento di classificazione di Target a una connessione CJA, è necessario apportare alcune modifiche minori alla visualizzazione dati di CJA dopo l’aggiunta di questi componenti come dimensioni, tra cui:
 
 * Impostare la persistenza in modo che sia simile a come viene tracciata in Target (rivolgiti a un consulente di Target o al cliente per verificare le impostazioni corrette).
 

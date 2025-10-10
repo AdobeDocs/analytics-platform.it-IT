@@ -1,5 +1,5 @@
 ---
-title: Panoramica delle annotazioni
+title: Panoramica sulle annotazioni
 description: Scopri come utilizzare le annotazioni in Analysis Workspace.
 solution: Customer Journey Analytics
 feature: Components
@@ -8,7 +8,7 @@ role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

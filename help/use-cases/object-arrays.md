@@ -1,6 +1,6 @@
 ---
 title: Utilizzare gli array di oggetti
-description: Scopri come il Customer Journey Analytics genera rapporti sulle gerarchie di dati.
+description: Scopri come Customer Journey Analytics genera rapporti sulle gerarchie di dati.
 exl-id: 59318da7-5408-4a9d-82aa-8bcbec7f7364
 solution: Customer Journey Analytics
 feature: Use Cases
@@ -144,7 +144,7 @@ Se desideri creare un rapporto solo sui ricavi della garanzia, il tuo progetto a
 | `extended` | `50` |
 | `Total` | `250` |
 
-Il Customer Journey Analytics esamina queste parti dell’evento per generare il rapporto:
+Customer Journey Analytics esamina queste parti dell’evento per generare il rapporto:
 
 ```diff
 {
@@ -246,7 +246,7 @@ Prendi nota degli ordini ai quali non è associato un nome. Si tratta degli ordi
 
 ### Combinazione di metriche
 
-Il Customer Journey Analytics non combina in modo nativo metriche con nomi simili se si trovano su livelli di oggetto diversi.
+Customer Journey Analytics non combina in modo nativo metriche con nomi simili se si trovano su livelli di oggetto diversi.
 
 | `product : category` | `product : revenue` | `product : warranty : revenue` |
 | --- | --- | --- |
@@ -270,5 +270,5 @@ L’applicazione di questa metrica calcolata mostra i risultati desiderati:
 
 ## Limitazioni
 
-Le limitazioni si applicano agli array nei dati utilizzati dal Customer Journey Analytics e modellati come parte di uno schema in Experience Platform. Consulta [Limiti del modello dati](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails#data-model-limits) e [Limiti dimensioni dati](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails#data-size-limits) in [Guardrail predefiniti per dati e segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails).
+Le limitazioni si applicano agli array nei dati utilizzati da Customer Journey Analytics e modellati come parte di uno schema in Experience Platform. Consulta [Limiti del modello dati](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-model-limits) e [Limiti dimensioni dati](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-size-limits) in [Guardrail predefiniti per dati e segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails).
 

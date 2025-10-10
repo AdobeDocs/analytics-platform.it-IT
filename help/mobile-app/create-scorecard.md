@@ -29,7 +29,7 @@ Le informazioni seguenti spiegano ai curatori di dati di Customer Journey Analyt
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3409730?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -88,7 +88,7 @@ Per implementare il modello della scorecard:
 
 Per aggiungere una dimensione correlata a una metrica, trascina una dimensione dal pannello di sinistra e rilasciala su una tessera.
 
-Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Channel]**, in questo esempio) alla metrica **[!UICONTROL Unique Visitors]** trascinandola e rilasciandola sulla sezione. Le suddivisioni delle singole dimensioni vengono visualizzate nell’area [!UICONTROL Drill Ins] (Approfondimenti) delle **[!UICONTROL Properties]** della sezione. Puoi aggiungere più dimensioni a ogni sezione.
+Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Channel]**, in questo esempio) alla metrica **[!UICONTROL Unique Visitors]** trascinandola e rilasciandola sulla sezione. I raggruppamenti delle singole dimensioni vengono visualizzati nell’area [!UICONTROL Drill Ins] (Approfondimenti) delle **[!UICONTROL Properties]** della specifica sezione. Puoi aggiungere più dimensioni a ogni sezione.
 
 ![Finestra Nuova scorecard per dispositivi mobili con una freccia che dall’elenco delle dimensioni punta al riquadro scorecard.](assets/layer_dimensions.png)
 
@@ -212,7 +212,7 @@ Le diapositive di dettaglio personalizzate consentono di essere ancora più mira
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dei dettagli personalizzate.](https://video.tv.adobe.com/v/3413788?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dei dettagli personalizzate.](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -257,7 +257,7 @@ Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Presentazioni di dati per un progetto di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3420561/?quality=12&learn=on&captions=ita){target="_blank"} .
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Presentazioni di dati per un progetto di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} .
 
 {{videoaa}}
 

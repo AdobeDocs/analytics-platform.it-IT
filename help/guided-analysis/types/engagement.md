@@ -6,7 +6,7 @@ keywords: product analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
 source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Le funzioni che si posizionano nella parte superiore di questa visualizzazione i
 * Le funzioni in basso a sinistra della matrice sono le funzioni a **basso impatto**; non sono ampiamente adottate, né utilizzate di frequente.
 * Le funzioni nella parte inferiore destra della matrice sono le funzioni **una tantum**; sono ampiamente adottate, ma non utilizzate di frequente.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447475?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
 
 
 ## Casi d’uso
@@ -48,7 +48,7 @@ I casi d’uso per questa analisi includono:
 
 ## Interfaccia
 
-Per una panoramica dell’interfaccia di analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
+Per una panoramica dell’interfaccia dell’analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
 
 ### Barra delle query
 

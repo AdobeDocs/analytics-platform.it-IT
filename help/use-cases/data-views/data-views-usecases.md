@@ -8,7 +8,7 @@ role: User
 source-git-commit: 0e9dc47b80db142801a94dcbf31470d99a610949
 workflow-type: tm+mt
 source-wordcount: '1235'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -60,9 +60,9 @@ In precedenza, i numeri interi venivano trattati automaticamente come metriche i
 
 ## Utilizzare dimensioni numeriche come metriche nei diagrammi di flusso {#numeric}
 
-È possibile utilizzare una dimensione numerica per inserire metriche nella visualizzazione [!UICONTROL &#x200B; Flow].
+È possibile utilizzare una dimensione numerica per inserire metriche nella visualizzazione [!UICONTROL  Flow].
 
-1. Nella scheda [Components](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/create-dataview) (Componenti) delle visualizzazioni dati, trascina il campo schema [!UICONTROL Marketing Channels] nell’area [!UICONTROL Metrics] in [!UICONTROL Included components].
+1. Nella scheda [Components](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) (Componenti) delle visualizzazioni dati, trascina il campo schema [!UICONTROL Marketing Channels] nell’area [!UICONTROL Metrics] in [!UICONTROL Included components].
 2. Nei rapporti di Workspace, questo flusso mostra come [!UICONTROL Marketing Channels] scorre in [!UICONTROL Orders]:
 
 ![Flusso canale di marketing dalle e-mail a Uscita/ordini.](../assets/flow.png)
@@ -73,7 +73,7 @@ Questa funzionalità è specifica per i campi basati su array. La funzionalità 
 
 Ad esempio, utilizza la funzionalità di inclusione/esclusione nelle visualizzazioni dati per concentrarti solo sui prodotti che hanno generato vendite superiori a 50 $. Pertanto, se un ordine include un acquisto di prodotti da 50 $ e un acquisto di prodotti da 25 $, la funzionalità di inclusione/esclusione rimuove l’acquisto di prodotti da 25 $ e non l’intero ordine.
 
-1. Nella scheda [Components](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/create-dataview) (Componenti) delle visualizzazioni dati, trascina il campo schema **[!UICONTROL Revenue]** nell’area **[!UICONTROL Metrics]** in [!UICONTROL Included components].
+1. Nella scheda [Components](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) (Componenti) delle visualizzazioni dati, trascina il campo schema **[!UICONTROL Revenue]** nell’area **[!UICONTROL Metrics]** in [!UICONTROL Included components].
 1. Seleziona la metrica e configura quanto segue a destra:
 a. Per **[!UICONTROL Format]**, seleziona **[!UICONTROL Currency]**.
 b. In **[!UICONTROL Currency]**, selezionare **[!UICONTROL USD]**.
@@ -112,11 +112,11 @@ Puoi determinare se una sessione è effettivamente la prima sessione in assoluto
 
 Una dimensione e due metriche facilitano questo reporting:
 
-* [Tipo di sessione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-reference) - Questa dimensione ha due valori: [!UICONTROL New] e [!UICONTROL Returning]. L&#39;elemento riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nell’elemento riga [!UICONTROL Returning] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket “Non applicabile” per questa dimensione.
+* [Tipo di sessione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) - Questa dimensione ha due valori: [!UICONTROL New] e [!UICONTROL Returning]. L&#39;elemento riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nell’elemento riga [!UICONTROL Returning] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket “Non applicabile” per questa dimensione.
 
-* [Prime sessioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-reference). La metrica Prime sessioni è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting.
+* [Prime sessioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference). La metrica Prime sessioni è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting.
 
-* [Sessioni di ritorno](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-reference) La metrica Sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di un utente.—>
+* [Sessioni di ritorno](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) La metrica Sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di un utente.—>
 
 Per accedere ai componenti:
 
@@ -135,7 +135,7 @@ Gli schemi in Adobe Experience Platform contengono campi [!UICONTROL Date] e [!U
 
 * Per il formato Data, se selezioni **[!UICONTROL Day]** con il formato **[!UICONTROL Month, Day, Year]**, l’output in un rapporto potrebbe presentarsi simile al seguente: Agosto 23, 2022.
 
-* Per il formato data-ora, se selezioni **[!UICONTROL Minute of Day]** con il formato **[!UICONTROL Hour:Minute]**, l’output potrebbe essere simile al seguente: 20:20.
+* Per il formato data-ora, se si seleziona **[!UICONTROL Minute of Day]** con il formato **[!UICONTROL Hour:Minute]**, l&#39;output potrebbe essere simile al seguente: 20:20.
 
 Sono supportate le date successive al 1° gennaio 1900 (con la singola eccezione del 1° gennaio 1970) e i valori data-ora successivi al 1° gennaio 2000 00:00:00.
 

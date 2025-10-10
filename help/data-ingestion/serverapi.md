@@ -189,7 +189,7 @@ Per configurare il set di dati:
 
 7. Seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
 
-   Viene richiesto di abilitare il set di dati per il profilo. Una volta attivato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati inseriti.
+   Viene richiesto di abilitare il set di dati per il profilo. Una volta abilitato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati inseriti.
 
    >[!IMPORTANT]
    >
@@ -272,7 +272,7 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 
 Nell&#39;esempio di richiesta POST, `{DATASTREAM_ID}` punta all&#39;identificatore dello stream di dati di esempio configurato in precedenza. `{sandbox}` è il nome univoco della sandbox che identifica il percorso del gruppo di campi Luce accecante personalizzato.
 
-Per ulteriori informazioni sull&#39;utilizzo dell&#39;API server di Edge Network, vedere [Raccolta dati interattiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=it) e [Raccolta dati non interattiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=it).
+Per ulteriori informazioni sull&#39;utilizzo dell&#39;API server di Edge Network, vedere [Raccolta dati interattiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=it) e [Raccolta dati non interattiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html).
 
 ## Configurare una connessione
 

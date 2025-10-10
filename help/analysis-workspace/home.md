@@ -7,7 +7,7 @@ exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
 source-git-commit: 9056b8b172ae7a2267bf12de4b2355d1a1364b32
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Analysis Workspace consente di realizzare rapidamente le analisi per raccogliere
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://video.tv.adobe.com/v/328627/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -58,7 +58,7 @@ La maggior parte delle funzionalità di Analysis Workspace è disponibile tramit
 
 La funzionalità è anche disponibile tramite il menu di Workspace e i tasti di scelta rapida. I tasti di scelta rapida variano a seconda del sistema operativo su cui è in esecuzione il browser. Per una panoramica, consulta le seguenti tabelle.
 
-Tenere presente che sulla tastiera possono essere utilizzati i seguenti simboli:
+Sulla tastiera possono essere utilizzati i seguenti simboli:
 
 - **⇧** per **[!UICONTROL *Maiusc *]**.
 - **⌘** per **[!UICONTROL *Comando *]**(comando).

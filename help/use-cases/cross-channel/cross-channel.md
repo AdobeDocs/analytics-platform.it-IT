@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Use Cases, Cross-Channel Analysis
 role: User
 source-git-commit: 5e80e68c6b5d3dca19dae21c6719b040b28afaf9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ L’analisi cross-channel abilita un’unica vista consolidata del comportamento
    3. Dati di ricerca ![ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (ad esempio nome prodotto, categoria da un sistema di informazioni sul prodotto).
 
 1. Utilizza un ID con uno spazio dei nomi comune nei diversi set di dati. Utilizza [Unione](../../stitching/overview.md) per elevare qualsiasi set di dati basato su eventi ![aggiornamento di dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) rispetto alla fornitura dell’ID comune su ciascuna riga. Al momento, Customer Journey Analytics non utilizza i servizi Profile o Identity di Experience Platform per l’unione.
-1. Esegui qualsiasi preparazione dei dati personalizzati per garantire una chiave comune tra i set di dati delle serie temporali da inserire in Customer Journey Analytics.
+1. Esegui le attività di preparazione necessarie dei dati personalizzati affinché tutti i set di dati delle serie temporali abbiano una chiave comune da inserire in Customer Journey Analytics.
 1. Attribuisci ai dati di ricerca un ID primario che possa unirsi a un campo nei dati dell’evento. Conta come righe nella licenza.
 1. Imposta lo stesso ID primario per i dati di profilo come ID primario dei dati dell’evento.
 1. [Crea una connessione](../../connections/overview.md) per acquisire i set di dati rilevanti da Experience Platform in Customer Journey Analytics.

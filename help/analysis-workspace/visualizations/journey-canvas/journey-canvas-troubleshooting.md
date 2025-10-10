@@ -7,7 +7,7 @@ exl-id: f0ac3752-9244-4d9e-807b-e6471e6aa55b
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
 source-wordcount: '1267'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Le seguenti informazioni possono essere utili per risolvere eventuali problemi n
 
 Nell’area di lavoro del Percorso, i nodi che si trovano in una fase successiva del percorso possono mostrare un conteggio percentuale o numerico più elevato rispetto ai nodi che si trovano in una fase precedente del percorso.
 
-In altre parole, a differenza delle visualizzazioni Abbandono, che sono sempre a forma di funnel (con una partecipazione che diminuisce con ogni passaggio), le visualizzazioni dell’area di lavoro del Percorso possono avere una partecipazione più elevata nei passaggi successivi del percorso rispetto ai passaggi precedenti.
+In altre parole, a differenza delle visualizzazioni Abbandono, che sono sempre a forma di funnel (con una partecipazione che diminuisce con ogni passaggio), le visualizzazioni Area di lavoro Percorso possono avere una partecipazione più elevata nei passaggi successivi del percorso rispetto ai passaggi precedenti.
 
 Ciò può verificarsi nei seguenti scenari:
 
@@ -115,7 +115,7 @@ I nodi di questo percorso contengono le statistiche seguenti quando il campo **[
 
 +++
 
-+++Percentuale totale
++++Percentuale del totale
 
 I nodi di questo percorso contengono le statistiche seguenti quando il campo **[!UICONTROL Percentage value]** è impostato su **[!UICONTROL Percent of total]**:
 

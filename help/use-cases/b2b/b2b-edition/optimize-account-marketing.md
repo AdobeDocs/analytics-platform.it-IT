@@ -4,7 +4,7 @@ description: Scopri come ottimizzare il marketing degli account utilizzando Cust
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-badgePremium: label="B2B edition"
+badgePremium: label="B2B Edition"
 exl-id: d5e44546-ea82-42eb-98df-19d51c71e9be
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ---
 
-# Ottimizzare il marketing dell’account
+# Ottimizzare il marketing per account
 
 Un marketing efficace basato sull’account richiede una profonda comprensione del percorso di acquisto a livello di account. Quindi, puoi determinare le attività di marketing di maggior impatto da concludere.
 

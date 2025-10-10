@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1637'
-ht-degree: 93%
+source-wordcount: '1639'
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive il pannello Pubblico medio per minuto del file multimediale in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulta [Pannello Pubblico medio per minuto del file multimediale](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive il pannello Pubblico medio per minuto del file multimediale in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta [Pannello Pubblico medio per minuto del file multimediale](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ Utilizza le impostazioni di input descritte in questa sezione per configurare il
 
    | Opzioni | Descrizione |
    |---------|------------|
-   | **[!UICONTROL Granularity]** | La granularità predefinita è [!UICONTROL **5 minuti**], ma è possibile scegliere una qualsiasi delle granularità utilizzate come denominatore per la serie temporale all’interno del periodo di tempo selezionato. Ad esempio, selezionando dalle 12:00 alle 12:30 con una granularità di cinque minuti, verrà restituito il pubblico medio per minuto nell’intera mezz’ora, così come sei righe contenenti il pubblico medio per minuto per ogni periodo di cinque minuti. Queste righe vengono utilizzate come punti dati per il grafico delle serie temporali. |
+   | **[!UICONTROL Granularity]** | La granularità predefinita è [!UICONTROL **5 minuti**], ma è possibile scegliere una qualsiasi delle granularità utilizzate come denominatore per la serie temporale all’interno del periodo di tempo selezionato. Ad esempio, selezionando dalle 12:00 alle 12:30 con una granularità di 5 minuti, viene restituito il pubblico medio per minuto nell&#39;intera mezz&#39;ora, nonché sei righe contenenti il pubblico medio per minuto per ogni periodo di 5 minuti. Queste righe vengono utilizzate come punti dati per il grafico delle serie temporali. |
    | [!UICONTROL **Filtra il contenuto per (facoltativo)**] | Puoi filtrare il contenuto specifico in base alla visualizzazione desiderata o alla struttura dei dati. <ul>[!UICONTROL **Spettacolo, stagione, episodio**]: visualizza gli spettacoli disponibili nel menu a discesa, che puoi filtrare utilizzando una ricerca (oppure trascinando e rilasciando il nome dello spettacolo dalla colonna di sinistra). Puoi terminare la selezione per visualizzare tutte le stagioni dello spettacolo oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a spettacoli, stagioni o episodi per il periodo di tempo selezionato.</li><li>[!UICONTROL **Dimensione personalizzata**]: se il nome dello spettacolo si trova in una dimensione personalizzata, puoi trovarlo eseguendo una ricerca nel menu della dimensione (facoltativo) o utilizzando la ricerca nella colonna sinistra. L’elemento dimensionale si popola automaticamente in base a tale selezione e viene trattato come un episodio.</li><li>[!UICONTROL **Nessuno**]: mostra tutti i nomi dei video con dati del pubblico medio per minuto per la selezione scelta. (Questa opzione è selezionata per impostazione predefinita.)</li></ul> |
 
 1. Continua con [Impostazioni avanzate del periodo di tempo personalizzato](#custom-time-period-advanced-settings) per configurare le impostazioni avanzate.
@@ -187,6 +187,6 @@ Il pannello Pubblico medio per minuto del file multimediale utilizza solo la met
 >[!MORELIKETHIS]
 >
 > [Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [Pannello Visualizzatori simultanei di file multimediali](media-concurrent-viewers.md)
-> &#x200B;> [Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
+> > [Pannello Visualizzatori simultanei di file multimediali](media-concurrent-viewers.md)
+> > [Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
 >

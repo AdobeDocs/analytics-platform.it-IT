@@ -4,10 +4,11 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: Debugger progetto
 role: User
-source-git-commit: ae8c1fb127accae53ab9363a8cceedd5221a245b
+exl-id: 1335ec1f-5597-4e23-8228-3d477534de43
+source-git-commit: 695d5f686d10fc39b1b3d717a19fd6e874d81b33
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -17,7 +18,7 @@ Il debugger del progetto consente a te e al Supporto Adobe di risolvere i proble
 
 >[!NOTE]
 >
->Per utilizzare il debugger, è necessario avere accesso **Modifica** o **Copia** [al progetto](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-25744).
+>Per utilizzare il debugger, è necessario avere accesso **Modifica** o **Copia** [al progetto](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25744).
 >
 
 
@@ -96,6 +97,3 @@ Per disattivare il debugger:
 1. Selezionare **[!UICONTROL Help]** > **[!UICONTROL Disable debugger]** dal menu del progetto Analysis Workspace.
 1. Selezionare **[!UICONTROL OK]** nella finestra di dialogo **[!UICONTROL Disable debugger]**.
 1. Conferma quando il browser richiede di ricaricare la pagina o il sito.
-
-
-

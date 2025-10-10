@@ -6,7 +6,7 @@ keywords: product analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 L’analisi ![Frequenza](/help/assets/icons/Histogram.svg) **[!UICONTROL Frequency]** raggruppa i dati evento in base alla frequenza con cui si verificano gli eventi nel prodotto. L’asse verticale di questa analisi contiene bucket che rappresentano la frequenza dell’evento. L’asse orizzontale misura il numero di utenti o sessioni per ciascun bucket.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435810/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3428089/?quality=12&learn=on)
 
 ## Casi d’uso
 
@@ -51,9 +51,9 @@ La barra delle query consente di configurare i seguenti componenti:
 
 ### Impostazioni del grafico
 
-L’analisi [!UICONTROL Frequency] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu posizionato sopra di esso:
+L’analisi della[!UICONTROL Frequency] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
-* **[!UICONTROL Chart type]**: il tipo divisualizzazione che desideri usare. Le opzioni includono [!UICONTROL Horizontal bar] e [!UICONTROL Stacked bar].
+* **[!UICONTROL Chart type]**: il tipo divisualizzazione che vuoi usare. Le opzioni includono [!UICONTROL Horizontal bar] e [!UICONTROL Stacked bar].
 
 ### Impostazioni del bucket
 

@@ -8,7 +8,7 @@ exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
 source-git-commit: f45a457d251767634e28984d7c75158dac6e51e8
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -24,11 +24,11 @@ Quando due persone utilizzano lo stesso dispositivo ed entrambe effettuano un ac
 
 | Evento | Marca temporale | Nome pagina | ID dispositivo | E-mail |
 |--:|---|---|---|---|
-| 1 | 2023-05-12 12:01 | Pagina Home | `1234` | |
-| 2 | 2023-05-12 12:02 | Pagina prodotto | `1234` | |
-| 3 | 2023-05-12 12:03 | Ordine completato | `1234` | `ryan@a.com` |
-| 4 | 2023-05-12 12:07 | Pagina prodotto | `1234` | |
-| 5 | 2023-05-12 12:08 | Ordine completato | `1234` | `cassidy@a.com` |
+| 1 | 12/05/2023:01 | Pagina Home | `1234` | |
+| 2 | 12/05/2023:02 | Pagina di prodotto | `1234` | |
+| 3 | 12/05/2023:03 | Ordine completato | `1234` | `ryan@a.com` |
+| 4 | 12/05/2023:07 | Pagina di prodotto | `1234` | |
+| 5 | 12/05/2023:08 | Ordine completato | `1234` | `cassidy@a.com` |
 
 Come puoi vedere da questa tabella, una volta che l’autenticazione si verifica sugli eventi 3 e 5, inizia a formarsi un collegamento tra un ID dispositivo e un ID persona. Per comprendere l’impatto di qualsiasi attività di marketing a livello di persona, questi eventi non autenticati devono essere attribuiti alla persona giusta.
 
@@ -49,18 +49,18 @@ Con l’unione è possibile attribuire i dati dei dispositivi condivisi utilizza
 
 ### Attribuzione ultima autenticazione
 
-Ultima autenticazione attribuisce tutte le attività sconosciute da un dispositivo condiviso all’ultimo utente autenticato. Il servizio Experience Platform Identity crea il grafico in base all’attribuzione dell’ultima autenticazione e, come tale, viene utilizzato nell’unione basata su grafico. Per ulteriori informazioni, vedere [Regole di collegamento del grafico delle identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details).
+Ultima autenticazione attribuisce tutte le attività sconosciute da un dispositivo condiviso all’ultimo utente autenticato. Il servizio Experience Platform Identity crea il grafico in base all’attribuzione dell’ultima autenticazione e, come tale, viene utilizzato nell’unione basata su grafico. Per ulteriori informazioni, vedere [Regole di collegamento del grafico delle identità](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details).
 
 Quando nell’unione viene utilizzata l’attribuzione last-auth, gli ID uniti vengono risolti come mostrato nella tabella seguente.
 
-| Marca temporale | Nome pagina | ID dispositivo | E-mail | ID unione |
+| Marca temporale | Nome pagina | ID dispositivo | E-mail | ID unito |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Pagina Home | `1234` | | `cassidy@a.com` |
-| 2023-05-12 12:02 | Pagina prodotto | `1234` | | `cassidy@a.com` |
-| 2023-05-12 12:03 | Ordine completato | `1234` | `ryan@a.com` | `cassidy@a.com` |
-| 2023-05-12 12:07 | Pagina prodotto | `1234` | | `cassidy@a.com` |
-| 2023-05-12 12:08 | Ordine completato | `1234` | `cassidy@a.com` | `cassidy@a.com` |
-| 2023-05-13 11:08 | Pagina Home | `1234` | | `cassidy@a.com` |
+| 12/05/2023:01 | Pagina Home | `1234` | | `cassidy@a.com` |
+| 12/05/2023:02 | Pagina di prodotto | `1234` | | `cassidy@a.com` |
+| 12/05/2023:03 | Ordine completato | `1234` | `ryan@a.com` | `cassidy@a.com` |
+| 12/05/2023:07 | Pagina di prodotto | `1234` | | `cassidy@a.com` |
+| 12/05/2023:08 | Ordine completato | `1234` | `cassidy@a.com` | `cassidy@a.com` |
+| 11/05/2023:08 | Pagina Home | `1234` | | `cassidy@a.com` |
 
 
 ### Device-split
@@ -69,14 +69,14 @@ L’attività anonima degli attributi di suddivisione del dispositivo da un disp
 
 Quando nell’unione viene utilizzata l’attribuzione device-split, gli ID uniti vengono risolti come mostrato nella tabella seguente.
 
-| Marca temporale | Nome pagina | ID dispositivo | E-mail | ID unione |
+| Marca temporale | Nome pagina | ID dispositivo | E-mail | ID unito |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Pagina Home | `1234` | | `ryan@a.com` |
-| 2023-05-12 12:02 | Pagina prodotto | `1234` | | `ryan@a.com` |
-| 2023-05-12 12:03 | Ordine completato | `1234` | `ryan@a.com` | `ryan@a.com` |
-| 2023-05-12 12:07 | Pagina prodotto | `1234` | | `ryan@a.com` |
-| 2023-05-12 12:08 | Ordine completato | `1234` | `cassidy@a.com` | `cassidy@a.com` |
-| 2023-05-13 11:08 | Pagina Home | `1234` | | `cassidy@a.com` |
+| 12/05/2023:01 | Pagina Home | `1234` | | `ryan@a.com` |
+| 12/05/2023:02 | Pagina di prodotto | `1234` | | `ryan@a.com` |
+| 12/05/2023:03 | Ordine completato | `1234` | `ryan@a.com` | `ryan@a.com` |
+| 12/05/2023:07 | Pagina di prodotto | `1234` | | `ryan@a.com` |
+| 12/05/2023:08 | Ordine completato | `1234` | `cassidy@a.com` | `cassidy@a.com` |
+| 11/05/2023:08 | Pagina Home | `1234` | | `cassidy@a.com` |
 
 
 <!--
@@ -123,7 +123,7 @@ Per comprendere l’esposizione del dispositivo condiviso, puoi considerare l’
 
 2. **Attribuzione di eventi a dispositivi condivisi**
 
-   Per i dispositivi condivisi identificati, determina quanti eventi sul totale possono essere attribuiti a questi dispositivi. Questa attribuzione fornisce informazioni sull’impatto che i dispositivi condivisi hanno sui tuoi dati e sulle implicazioni per l’analisi.
+   Per i dispositivi condivisi identificati, determina quanti eventi sul totale possono essere attribuiti a questi dispositivi. Questa attribuzione fornisce ad insight l’impatto che i dispositivi condivisi hanno sui tuoi dati e le implicazioni per l’analisi.
 
    ```sql
    SELECT COUNT(*) AS total_events,

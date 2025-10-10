@@ -1,5 +1,5 @@
 ---
-description: Scopri i requisiti di Analysis Workspace.
+description: Scopri i requisiti per Analysis Workspace.
 keywords: Analysis Workspace
 title: Requisiti
 feature: Workspace Basics
@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 

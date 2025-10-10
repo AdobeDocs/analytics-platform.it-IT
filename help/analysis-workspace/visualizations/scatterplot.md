@@ -25,7 +25,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione A dispersione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [A diesperione](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione A dispersione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [A diesperione](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +43,7 @@ La visualizzazione ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICO
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico a dispersione](https://video.tv.adobe.com/v/3416861/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico a dispersione](https://video.tv.adobe.com/v/334459/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -51,6 +51,6 @@ Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoChe
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

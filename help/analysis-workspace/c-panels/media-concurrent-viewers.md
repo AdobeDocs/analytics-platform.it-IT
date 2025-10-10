@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive il pannello Visualizzatori simultanei di file multimediali in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulta [Pannello Visualizzatori simultanei di file multimediali](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive il pannello Visualizzatori simultanei di file multimediali in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta [Pannello Visualizzatori simultanei di file multimediali](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ In Analysis Workspace, la metrica Visualizzatori simultanei rappresenta il numer
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://video.tv.adobe.com/v/328248/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -116,8 +116,8 @@ In questa visualizzazione non è disponibile una tabella a forma libera.  Per vi
 |---|---|
 | Dov’è la tabella a forma libera? Come posso visualizzare l’origine dati? | La tabella a forma libera non è disponibile in questa vista. È possibile scaricare l’origine dati dal menu di scelta rapida del grafico a linee e seleziona **[!UICONTROL Download data as CSV]**. |
 | Perché la granularità è cambiata? | Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto). Se una combinazione di intervallo di date e granularità genera più di 1440 righe, la granularità viene aggiornata automaticamente per adattarsi all’intero intervallo di date.<br><br>Quando modifchi un intervallo di date più ampio in uno più ridotto, la granularità viene aggiornata al dettaglio minimo consentito una volta che l’intervallo di date è stato modificato. Per visualizzare una granularità maggiore, modifica il pannello e crealo nuovamente. |
-| Come posso confrontare nomi video, segmenti, tipi di contenuto e altro? | Per confrontare questi elementi in una singola visualizzazione, trascina segmenti, dimensioni o elementi dimensionali specifici nel segmento di raggruppamento di serie.<br><br>La visualizzazione è limitata a 10 raggruppamenti.  Per visualizzarne più di 10, è necessario utilizzare più pannelli. |
-| Come si confrontano gli intervalli di date? | Per confrontare intervalli di date diversi in una singola visualizzazione, utilizza i raggruppamenti di serie trascinando 2 o più intervalli di date.  Gli intervalli di date sovrascriveranno l’intervallo del pannello. |
+| Come posso confrontare nomi video, segmenti, tipi di contenuto e altro? | Per confrontare questi elementi in una singola visualizzazione, trascina segmenti, dimensioni o elementi dimensionali specifici nel segmento di raggruppamento di serie.<br><br>La visualizzazione è limitata a 10 raggruppamenti. Per visualizzarne più di 10, è necessario utilizzare più pannelli. |
+| Come si confrontano gli intervalli di date? | Per confrontare intervalli di date diversi in una singola visualizzazione, utilizza i raggruppamenti di serie trascinando 2 o più intervalli di date. Gli intervalli di date sovrascriveranno l’intervallo del pannello. |
 | Come posso modificare il tipo di visualizzazione? | Questo pannello consente solo la visualizzazione a linee per le serie temporali. |
 | Posso eseguire il rilevamento delle anomalie? | No.  Il rilevamento delle anomalie non è disponibile per questo pannello. |
 | Perché utilizzare le persone univoche invece di sessioni attive? | L’utilizzo di persone univoche consente di rimuovere i picchi indesiderati in corrispondenza dei confini di visualizzazione (dove le sessioni terminano e iniziano allo stesso momento). |
@@ -130,6 +130,6 @@ In questa visualizzazione non è disponibile una tabella a forma libera.  Per vi
 >[!MORELIKETHIS]
 >
 >[Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
->&#x200B;>[Pannello Pubblico medio per minuto del file multimediale](average-minute-audience-panel.md)
+>>[Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
+>>[Pannello Pubblico medio per minuto del file multimediale](average-minute-audience-panel.md)
 >

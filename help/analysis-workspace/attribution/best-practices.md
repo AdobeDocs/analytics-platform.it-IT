@@ -53,7 +53,7 @@ In questo caso, per testare questa ipotesi si utilizza il [modello di attribuzio
 
 Supponiamo che l&#39;ipotesi sia: *&quot;In un settore specifico (ad esempio, il settore dei viaggi), la finestra di attribuzione è di 60 o 90 giorni, non di 30 giorni, perché i clienti effettuano molte ricerche prima di acquistare un prodotto.*&quot;
 
-In questo caso, è necessario cambiare l’[intervallo di lookback](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/attribution/models) impostandolo su 90 giorni.
+In questo caso, è necessario cambiare l’[intervallo di lookback](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models) impostandolo su 90 giorni.
 
 ## Utilizzare l’attribuzione algoritmica
 
@@ -63,4 +63,4 @@ Se non disponi ancora di un modello di attribuzione che fornisca risposte soddis
 
 * Potrebbe essere necessario avvalersi anche di un data scientist, invece di affidarsi solo ad Analysis Workspace.
 * Puoi fare affidamento sui dati non elaborati, come nei feed di dati di Adobe.
-* È consigliabile utilizzare [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), ad esempio, se si desidera considerare i dati relativi alle impression.
+* È consigliabile utilizzare [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), ad esempio, se si desidera considerare i dati relativi alle impression.

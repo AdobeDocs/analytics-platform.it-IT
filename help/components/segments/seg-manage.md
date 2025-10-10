@@ -24,7 +24,7 @@ Puoi [condividere](seg-share.md), [segmento](seg-filter.md), [tag](seg-tag.md), 
 >I segmenti rapidi creati all&#39;interno di un progetto Workspace specifico non vengono visualizzati nel gestore [!UICONTROL Segment], a meno che il segmento non sia stato reso disponibile per tutti i progetti.
 >
 
-## Gestore segmenti
+## Gestione segmenti
 
 Il Gestore segmenti dispone dei seguenti elementi dell’interfaccia:
 

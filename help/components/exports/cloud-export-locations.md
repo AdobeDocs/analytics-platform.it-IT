@@ -69,14 +69,14 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 
    Continua con la sezione seguente che corrisponde al tipo di account selezionato nel campo [!UICONTROL **Account località**].
 
-   * [Area di destinazione dati di AEP](#aep-data-landing-zone)
+   * [Zona di destinazione dei dati di AEP](#aep-data-landing-zone)
    * [Amazon S3 con ruolo ARN](#amazon-s3-role-arn)
    * [Google Cloud Platform](#google-cloud-platform)
    * [Azure SAS](#azure-sas)
    * [Azure RBAC](#azure-rbac)
    * [Snowflake](#snowflake)
 
-### Area di destinazione dati di AEP
+### Zona di destinazione dei dati di AEP
 
 >[!IMPORTANT]
 >

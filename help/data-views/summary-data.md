@@ -8,7 +8,7 @@ exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Questi dati di riepilogo possono quindi essere utilizzati per presentare indicat
 >[!NOTE]
 >
 >I dati di riepilogo sono dati di serie temporali provenienti da un set di dati di riepilogo. Tale set di dati di riepilogo è basato su uno schema che utilizza la classe Metriche di riepilogo XDM come classe base.
->Sono supportati solo i dati di serie temporali basate su ore o su giorni.
+>>Sono supportati solo i dati di serie temporali basate su ore o su giorni.
 
 >[!TIP]
 >

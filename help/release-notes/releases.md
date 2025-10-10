@@ -4,7 +4,7 @@ title: Strategia di rilascio delle funzionalità di Customer Journey Analytics
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
 source-git-commit: 39e4c17336d3648cbf20cace535668d14510186f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ I rilasci di Customer Journey Analytics funzionano su un modello di distribuzion
 
 ## Strategia di rilascio
 
-[!UICONTROL Analysis Workspace] utilizza i flag di funzione (noti anche come “interruttori”) per controllare la visibilità delle nuove funzioni, consentendo test su scala controllati prima del rilascio completo. Questa strategia di rilascio include le seguenti fasi:
+[!UICONTROL Analysis Workspace] utilizza i flag di funzione (noti anche come “pulsanti di attivazione”) per controllare la visibilità delle nuove funzioni, consentendo test su scala controllati prima del rilascio completo. Questa strategia di rilascio include le seguenti fasi:
 
 * **Test limitati**: un rilascio graduale inizia con il test da parte di utenti Adobe interni. Viene quindi reso disponibile a un piccolo gruppo di account cliente per garantire che la funzione soddisfi le loro esigenze e aspettative.
 

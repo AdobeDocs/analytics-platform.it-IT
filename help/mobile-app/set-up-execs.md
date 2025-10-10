@@ -1,6 +1,6 @@
 ---
 description: Come configurare gli utenti per l’utilizzo dell’app mobile per dashboard di Adobe Analytics
-title: Preparare gli utenti direzionali a utilizzare le scorecard
+title: Preparare il management a utilizzare le dashboard
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 647f192a-e317-4011-92bc-a8bb8494a3c7

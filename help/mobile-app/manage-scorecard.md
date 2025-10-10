@@ -8,7 +8,7 @@ exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1782'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -42,7 +42,7 @@ Le diapositive di dettaglio personalizzate consentono di essere ancora più mira
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dei dettagli personalizzate.](https://video.tv.adobe.com/v/3413788?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dei dettagli personalizzate.](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -71,7 +71,7 @@ Per aggiungere testo a una diapositiva di dettaglio, seleziona un layout che mos
 
 ## Rimuovere i componenti {#remove}
 
-Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic sulla scorecard al di fuori delle sezioni, quindi rimuovilo facendo clic sulla **x** che compare quando passi il cursore sul componente, come mostrato di seguito per **Nuovi visitatori**:
+Allo stesso modo, per rimuovere un componente applicato all’intera scorecard, fai clic sulla scorecard al di fuori delle sezioni, quindi fai clic sulla **x** che compare quando passi il puntatore sul componente, come mostrato di seguito per **Nuovi visitatori**:
 
 ![Rimuovere_componenti](assets/new_remove.png)
 
@@ -86,7 +86,7 @@ Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Storie di dati per progetti di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3420561/?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Storie di dati per progetti di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -100,7 +100,7 @@ Crea la presentazione di dati aggiungendo più diapositive di dettaglio a una se
    ![Creare una presentazione di dati](assets/data-story1.png)
    ![Creare icone della presentazione di dati](assets/create-data-story.png){width=".50%"}
 1. Aggiungi le diapositive per creare una presentazione di dati personale. La prima diapositiva viene generata per impostazione predefinita.
-Per aggiungere nuove diapositive, passa il cursore del mouse oppure fai clic su una diapositiva, quindi seleziona una delle opzioni disponibili:
+Per aggiungere nuove diapositive, passa il puntatore oppure fai clic su una diapositiva, quindi seleziona una delle opzioni disponibili:
    * Tocca il segno + per creare una nuova diapositiva.
    * Tocca l’icona Duplica per duplicare la diapositiva esistente.
 1. Se crei una diapositiva vuota, trascina i componenti dalla barra a sinistra oppure scegli un layout per popolare automaticamente la diapositiva con i dati della sezione.
@@ -109,7 +109,7 @@ Per eliminare una diapositiva, tocca l’icona del cestino.
 
 ### Personalizzare una presentazione di dati {#customize-data-story}
 
-Le presentazioni di dati sono interamente personalizzabili, per condividere le informazioni che desideri ed escludere tutto quello che non ti serve. È possibile personalizzare sezioni e singole diapositive per aggiungere segmenti, visualizzare raggruppamenti, modificare il layout e modificare le visualizzazioni.
+Le presentazioni di dati sono interamente personalizzabili, per condividere le informazioni che desideri ed escludere tutto quello che non ti serve. Puoi personalizzare le sezioni e le singole diapositive per aggiungere segmenti, mostrare raggruppamenti, modificare il layout e cambiare le visualizzazioni.
 
 **Personalizzazione delle sezioni**
 

@@ -29,4 +29,4 @@ L&#39;esportazione di dati tramite [!DNL Customer Journey Analytics Full Table E
 
 Puoi esportare direttamente il contenuto completo di qualsiasi tabella a forma libera creata in Analysis Workspace in destinazioni cloud designate, utilizzando la funzionalità Esporta tabella completa.
 
-Per ulteriori informazioni, consulta la documentazione dettagliata su [Esportare i report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).
+Per ulteriori informazioni, consulta la documentazione dettagliata su [Esportare i rapporti di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).

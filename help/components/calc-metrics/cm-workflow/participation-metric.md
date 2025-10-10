@@ -6,11 +6,11 @@ exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Metriche di partecipazione
+# Metriche di partecipazione.
 
 Le metriche di partecipazione vengono utilizzate per quantificare il modo in cui i singoli valori di una dimensione (come Visualizzazioni di pagina) contribuiscono o partecipano a sessioni che contengono una metrica specifica (come Ordini).
 

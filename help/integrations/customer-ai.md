@@ -20,7 +20,7 @@ ht-degree: 97%
 
 Con l’aiuto di fattori di influenza, IA per l’analisi dei clienti può dirti cosa potrebbe fare un cliente e perché. Inoltre, gli esperti marketing possono trarre vantaggio dalle previsioni e dalle informazioni di IA per l’analisi dei clienti per personalizzare le customer experience fornendo le offerte e i messaggi più appropriati.
 
-IA per l’analisi dei clienti si basa su dati comportamentali individuali e dati di profilo per il punteggio di tendenza. IA per l’analisi dei clienti è flessibile in quanto può accogliere più origini di dati, tra cui Adobe Analytics, Adobe Audience Manager, dati di Consumer Experience Event e di Experience Event. Se utilizzi il connettore di origine di Experience Platform per inserire i dati di Adobe Audience Manager e Adobe Analytics, il modello raccoglie automaticamente i tipi di evento standard per addestrare e valutare il modello. Se inserisci un set di dati di Experience Event senza tipi di evento standard, tutti i campi pertinenti dovranno essere mappati come eventi personalizzati o attributi di profilo se desideri utilizzarlo nel modello. Questo può essere fatto nel passaggio di configurazione di IA per l’analisi dei clienti in Experience Platform.
+IA per l’analisi dei clienti si basa su dati comportamentali individuali e dati di profilo per il punteggio di tendenza. IA per l’analisi dei clienti è flessibile in quanto può accogliere più origini di dati, tra cui Adobe Analytics, Adobe Audience Manager, nonché dati Evento esperienza consumer ed Evento esperienza. Se utilizzi il connettore di origine di Experience Platform per inserire i dati di Adobe Audience Manager e Adobe Analytics, il modello raccoglie automaticamente i tipi di evento standard per addestrare e valutare il modello. Se inserisci un set di dati di Evento esperienza senza tipi di evento standard, tutti i campi pertinenti dovranno essere mappati come eventi personalizzati o attributi di profilo se desideri utilizzarlo nel modello. Questo può essere fatto nel passaggio di configurazione di IA per l’analisi dei clienti in Experience Platform.
 
 IA per l’analisi dei clienti si integra con Customer Journey Analytics nella misura in cui i set di dati abilitati di IA per l’analisi dei clienti possono essere utilizzati nelle visualizzazioni dati e nel reporting in Customer Journey Analytics. È possibile:
 
@@ -57,7 +57,7 @@ In Customer Journey Analytics, ora puoi [creare una o più connessioni](/help/co
 
 >[!IMPORTANT]
 >
->Ogni istanza di IA per l’analisi dei clienti dispone di due set di dati di output se l’interruttore è attivato per l’abilitazione dei punteggi per Customer Journey Analytics durante la configurazione nel passaggio 1. Un set di dati di output viene visualizzato in formato XDM di Profilo e uno in formato XDM di Experience Event.
+>Ogni istanza di IA per l’analisi dei clienti dispone di due set di dati di output se il pulsante di attivazione è attivato per l’abilitazione dei punteggi per Customer Journey Analytics durante la configurazione nel passaggio 1. Un set di dati di output viene visualizzato in formato XDM di Profilo e uno in formato XDM di Evento esperienza.
 
 ![Punteggi IA per l’analisi dei clienti](assets/cai-scores.png)
 
@@ -67,7 +67,7 @@ Di seguito è riportato un esempio di schema XDM che Customer Journey Analytics 
 
 ![Schema IA per l’analisi dei clienti](assets/cai-schema.png)
 
-(L’esempio è un set di dati del profilo; lo stesso set di oggetti di schema farebbe parte di un set di dati evento di Experience che Customer Journey Analytics acquisirebbe. Il set di dati di Experience Event includerebbe marche temporali come data di punteggio. Ogni cliente valutato in questo modello avrebbe un punteggio, una data di punteggio e così via. a lui associati.
+(L’esempio è un set di dati del profilo; lo stesso set di oggetti di schema farebbe parte di un set di dati Evento esperienza che Customer Journey Analytics acquisirebbe. Il set di dati di Experience Event includerebbe marche temporali come data di punteggio. Ogni cliente valutato in questo modello avrebbe un punteggio, una data di punteggio e così via. a lui associati.
 
 ## Passaggio 3: creare visualizzazioni dati in base a queste connessioni
 

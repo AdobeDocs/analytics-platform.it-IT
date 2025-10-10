@@ -9,11 +9,11 @@ solution: Customer Journey Analytics
 source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Impostazioni Report Builder
+# Impostazioni di Report Builder
 
 Utilizza il riquadro **Impostazioni** per configurare le impostazioni a livello di applicazione, ad esempio la lingua visualizzata dall&#39;interfaccia utente o se utilizzare o meno la modalità offline. Le impostazioni vengono applicate immediatamente e vengono impostate per tutte le sessioni future fino a quando non vengono modificate.
 

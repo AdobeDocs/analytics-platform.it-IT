@@ -31,7 +31,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive il pannello Attribuzione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulta il [pannello Attribuzione](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/attribution) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive il pannello Attribuzione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta il [pannello Attribuzione](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/attribution) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +62,7 @@ Per usare un pannello **[!UICONTROL Attribution]**:
 
 Puoi configurare il pannello Attribuzione utilizzando le seguenti impostazioni di input:
 
-1. Aggiungi **[!UICONTROL Success metric]** e una dimensione da **[!UICONTROL Channel]** per l’attribuzione. Alcuni esempi includono Marketing Channels o dimensioni personalizzate, ad esempio promozioni interne.
+1. Aggiungi **[!UICONTROL Success metric]** e una dimensione da **[!UICONTROL Channel]** per l’attribuzione. Alcuni esempi includono canali marketing o dimensioni personalizzate, ad esempio promozioni interne.
 
    ![La finestra del pannello Attribuzione mostra diverse dimensioni e metriche selezionate.](assets/attribution-panel.png)
 

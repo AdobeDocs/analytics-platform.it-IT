@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 6cabedc5ed58dac450577fc3505be5f95b7a959d
 workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 88%
+ht-degree: 91%
 
 ---
 
@@ -47,7 +47,7 @@ Componenti standard opzionali disponibili in **[!UICONTROL Data views]** > **[!U
 | [!UICONTROL Day of Week] | Dimensione suddivisa in base al tempo | Lunedì, martedì, mercoledì, giovedì, venerdì, sabato |
 | [!UICONTROL Day of Year] | Dimensione suddivisa in base al tempo | 1-366 |
 | [!UICONTROL Hour of Day] | Dimensione suddivisa in base al tempo | 0-23 |
-| [!UICONTROL &#x200B; Month of Year] | Dimensione suddivisa in base al tempo | Gennaio - Dicembre |
+| [!UICONTROL  Month of Year] | Dimensione suddivisa in base al tempo | Gennaio - Dicembre |
 | [!UICONTROL First-time Sessions] | Metrica | Prima sessione definita da una persona all&#39;interno dell&#39;intervallo di reporting. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) |
 | [!UICONTROL Return Sessions] | Metrica | Il numero di sessioni che non sono state le prime sessioni di una persona. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) |
 | [!UICONTROL Person ID] | Dimensione | Ogni schema di set di dati definito in Experience Platform può avere un proprio set di una o più identità definite e associate a uno Spazio dei nomi identità. Ognuna di queste identità può essere utilizzata come ID persona. Alcuni esempi includono ID cookie, ID unione, ID utente, Codice di tracciamento, ecc. La dimensione [!UICONTROL Person ID] è la base per combinare i set di dati e identificare persone univoche in Customer Journey Analytics.<p>Eventuali casi d’uso includono:<ul><li>Crea un segmento su un valore ID persona specifico per segmentare tutto in base al comportamento dell’utente.</li><li>Debug: accertati che siano presenti i dati per un ID cookie specifico (o un ID cliente specifico).</li><li>Identificazione degli utenti che hanno effettuato l&#39;accesso a un call center.</li></ul> |
@@ -69,5 +69,5 @@ Componenti standard opzionali disponibili in **[!UICONTROL Data views]** > **[!U
 
 >[!MORELIKETHIS]
 >
->[Scopri approfondimenti sul cliente con la funzione Profondità evento](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
+>[Insight più approfonditi sulla clientela con la funzione Profondità evento](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
 >

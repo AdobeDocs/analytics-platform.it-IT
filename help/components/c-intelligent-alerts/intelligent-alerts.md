@@ -1,13 +1,13 @@
 ---
-description: Scopri come utilizzare gli avvisi per consentire un controllo granulare sulle notifiche e l’integrazione con il rilevamento delle anomalie.
-title: Panoramica degli avvisi
+description: Informazioni su come utilizzare gli avvisi per consentire un controllo granulare sulle notifiche e un’integrazione con il rilevamento di anomalie.
+title: Panoramica sugli avvisi
 feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
 source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Gli avvisi permettono di:
 * Creare avvisi “impilati” in grado di acquisire più metriche in un singolo avviso
 * Creare avvisi basati su anomalie (soglie del 90%, 95%, 99%, 99,75% e 99,9%; modifica della percentuale; superiore/inferiore) (Disponibile solo per i clienti Customer Journey Analytics con un pacchetto Select, Prime o Ultimate)
 
-Il seguente video tutorial fornisce una panoramica di base degli avvisi: [Avvisi](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=it) (5:34)
+Il seguente tutorial video fornisce una panoramica di base degli avvisi: [Avvisi](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=it) (5:34)
 
 ## Informazioni sulle differenze tra gli avvisi
 

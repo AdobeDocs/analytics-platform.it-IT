@@ -7,7 +7,7 @@ exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 source-git-commit: ab0e6f0578cbc6f856c2b0a46b1231cce145b84c
 workflow-type: tm+mt
 source-wordcount: '2612'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
-La visualizzazione ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** in Analysis Workspace consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate). È utile per identificare e confrontare i dati delle metriche tra diverse aree geografiche.
+La visualizzazione ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** in Analysis Workspace consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate). È utile per identificare e confrontare dati di metriche di diverse aree geografiche.
 
 ## Prerequisiti
 
@@ -99,11 +99,11 @@ Di seguito sono riportati i modelli e l’etichetta di contesto richiesta. Se qu
 
 | Nome modello | Etichetta di contesto richiesta |
 |---------|----------|
-| Paesi geografici | [!UICONTROL Geo: Geo Country] |
+| Paesi per area geografica | [!UICONTROL Geo: Geo Country] |
 | Aree geografiche | [!UICONTROL Geo: Geo Region] |
-| Città geografiche | [!UICONTROL Geo: Geo City] |
-| Stati Geo US | [!UICONTROL Geo: Geo State] |
-| DMA Geo US | [!UICONTROL Geo: Geo Dma] |
+| Città per area geografica | [!UICONTROL Geo: Geo City] |
+| Area geografica Stati Uniti | [!UICONTROL Geo: Geo State] |
+| Geo DMA USA | [!UICONTROL Geo: Geo Dma] |
 
 Per aggiungere queste etichette di contesto:
 
@@ -143,7 +143,7 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 
 | Funzione | Customer Journey Analytics | Adobe Analytics |
 |---------|----------|---------|
-| Origine dati | Utilizza qualsiasi segmento disponibile nella visualizzazione dati come origine dati. | Fornisce le seguenti opzioni: <ul><li>Mobile lat/long</li><li>Dimension geografico<br/>Rappresenta i dati di segmentazione geografica sulla posizione del visitatore in base all&#39;indirizzo IP del visitatore. </li></ul> |
+| Origine dati | Utilizza qualsiasi segmento disponibile nella visualizzazione dati come origine dati. | Fornisce le seguenti opzioni: <ul><li>Latitudine/longitudine dispositivo mobile</li><li>Dimension geografico<br/>Rappresenta i dati di segmentazione geografica sulla posizione del visitatore in base all&#39;indirizzo IP del visitatore. </li></ul> |
 | Precisione | Per i set di dati con precisione profonda, puoi configurare le dimensioni nella visualizzazione dati in modo da visualizzare fino a 5 posizioni decimali. Questo consente di ottenere una visualizzazione accurata della mappa in un singolo metro. <p>Per ulteriori informazioni, vedere [Configurare posizioni precise per le dimensioni](#configure-precise-locations-for-dimensions).</p> | I dati sono precisi al livello [!UICONTROL Country], [!UICONTROL Region] e [!UICONTROL City]. (Non viene spostato a livello di DMA o CAP). |
 | Creare un segmento da una selezione | Crea un segmento basato su un’area specifica selezionata nella visualizzazione mappa. <p>Per ulteriori informazioni, consulta [Creare un segmento dalla visualizzazione mappa](#create-a-segment-from-the-map-visualization).</p> | Crea un segmento in base ai dati riportati nella visualizzazione mappa in generale. |
 | Creare un pubblico da una selezione | Crea un pubblico in base a un’area specifica selezionata nella visualizzazione mappa. <p>Per ulteriori informazioni, consulta [Creare un pubblico dalla visualizzazione mappa](#create-an-audience-from-the-map-visualization). | Impossibile creare un pubblico dalla visualizzazione mappa. |

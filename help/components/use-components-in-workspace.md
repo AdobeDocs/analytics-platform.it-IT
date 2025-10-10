@@ -1,17 +1,17 @@
 ---
-description: Scopri come utilizzare i componenti di un progetto in Analysis Workspace
-title: Utilizzare Componenti In Un Progetto
+description: Scopri come usare i componenti in un progetto in Analysis Workspace
+title: Usare i componenti in un progetto
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Utilizzare componenti in un progetto
+# Usare i componenti in un progetto
 
 I componenti costituiscono i dati effettivi di ogni progetto in Analysis Workspace. I componenti sono costituiti da dimensioni, metriche, segmenti e intervalli di date. Puoi aggiungere componenti a un progetto trascinandoli nelle visualizzazioni o nei pannelli.
 

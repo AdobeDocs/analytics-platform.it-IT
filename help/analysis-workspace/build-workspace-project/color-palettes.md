@@ -7,7 +7,7 @@ role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ Puoi modificare la palette di colori di visualizzazione utilizzata in Workspace.
 
 >[!NOTE]
 >
->Il supporto per la palette di colori non è attivato per Internet Explorer 11.
+>Il supporto per la palette di colori non è abilitato per Internet Explorer 11.
 
 ![Finestra Informazioni e impostazioni progetto.](assets/color-palettes.png)
 

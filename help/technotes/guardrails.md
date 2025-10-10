@@ -94,7 +94,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/guardrails/overview).
+Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview).
 
 
 ## Scadenza set di dati automatizzato
@@ -139,7 +139,7 @@ Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Esportazione dei dati delle destinazioni
@@ -151,7 +151,7 @@ Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](h
 
 {style="table-layout:auto"}
 
-Vedi anche Experience Platform [Guide di esportazione set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/guardrails#dataset-exports)
+Vedi anche Experience Platform [Guide di esportazione set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Zona di destinazione dati
@@ -258,7 +258,7 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 
 >[!NOTE]
 >
->I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+>I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 | Flusso di dati | Latenza prevista |
 |---|---|

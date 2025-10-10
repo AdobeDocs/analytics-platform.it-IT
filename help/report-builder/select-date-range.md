@@ -9,11 +9,11 @@ solution: Customer Journey Analytics
 source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
-# Seleziona un intervallo di date
+# Selezionare un intervallo di date
 
 Per modificare l’intervallo di date di un blocco di dati esistente:
 

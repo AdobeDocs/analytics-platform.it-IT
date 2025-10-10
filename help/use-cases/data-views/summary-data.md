@@ -7,8 +7,8 @@ role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '4618'
-ht-degree: 16%
+source-wordcount: '4440'
+ht-degree: 17%
 
 ---
 
@@ -278,7 +278,7 @@ I dati di ricerca sono disponibili nel set di dati di ricerca di esempio. I dati
 | 17 | def321 | def-adgroup | Campagna 321 |
 | 18 | ghi321 | ghi-adgroup | Campagna 321 |
 
-[![DataDownload](/help/assets/icons/DataDownload.svg) Scarica i dati di ricerca di esempio](./assets/lookup-data.csv)
+[![Download dati](/help/assets/icons/DataDownload.svg)](./assets/lookup-data.csv)
 +++
 
 >[!INFO]
@@ -376,7 +376,7 @@ Per caricare i dati di esempio in questo set di dati:
    1. Facoltativamente, è possibile selezionare ![Anteprima](/help/assets/icons/Preview.svg) **[!UICONTROL Preview data]** per aprire una finestra di dialogo con un&#39;anteprima dei dati una volta caricati nel set di dati.
    1. Seleziona **[!UICONTROL Finish]**.
 
-In **[!UICONTROL Sources]** > **[!UICONTROL Dataflow - XX/XX/XXXX, XX:XX XX]**, viene visualizzato lo stato del caricamento. Aggiorna per visualizzare gli aggiornamenti del caricamento. In caso di esito positivo, i dati di esempio vengono caricati in Experience Platform.
+In **[!UICONTROL Sources]** > **[!UICONTROL Dataflow - XX/XX/XXXX, XX:XXXX]**, viene visualizzato lo stato del caricamento. Aggiorna per visualizzare gli aggiornamenti del caricamento. In caso di esito positivo, i dati di esempio vengono caricati in Experience Platform.
 
 
 
@@ -603,4 +603,4 @@ Il progetto finale deve essere simile a quello mostrato di seguito.
 >[!MORELIKETHIS]
 >
 >[Dati di riepilogo](/help/data-views/summary-data.md)
->[Impostazioni componente gruppo di dati di riepilogo](/help/data-views/component-settings/summary-data-group.md)
+>>[Impostazioni componente gruppo di dati di riepilogo](/help/data-views/component-settings/summary-data-group.md)

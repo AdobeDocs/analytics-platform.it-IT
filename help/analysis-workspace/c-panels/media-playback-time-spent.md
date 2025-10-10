@@ -6,8 +6,8 @@ exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
 source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 98%
+source-wordcount: '1064'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive il pannello Tempo trascorso su contenuti multimediali in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulta [Pannello Tempo trascorso su contenuti multimediali](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive il pannello Tempo trascorso su contenuti multimediali in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta [Pannello Tempo trascorso su contenuti multimediali](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _Questo articolo descrive il pannello Tempo trascorso su contenuti multimediali 
 >[!NOTE]
 >
 >Il pannello Pubblico medio per minuto è disponibile solo per i clienti che hanno acquistato il componente aggiuntivo Streaming Media Collection per Customer Journey Analytics.
->&#x200B;>Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
+>>Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
 >
 
 Il pannello **[!UICONTROL Media playback time spent]** consente di analizzare le riproduzioni nel tempo, con dettagli sul picco di concorrenza e la possibilità di suddividere e confrontare i dati.
@@ -60,7 +60,7 @@ Il Tempo di riproduzione trascorso può aiutarti a comprendere:
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/3446708?captions=ita){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/338699){target="_blank"} per un video demo.
 
 {{videoaa}}
 
@@ -91,7 +91,7 @@ Puoi configurare il pannello Media Playback Time Spent (Tempo di riproduzione de
 | Panel summary numbers (Numeri di riepilogo del pannello) | Per visualizzare i dettagli di data o ora per il tempo di riproduzione trascorso, è disponibile un numero di riepilogo. Il valore Maximum (Massimo) mostra i dettagli del picco di concorrenza. Il valore Minimum (Minimo) mostra i dettagli del valore più basso. Somma effettua la somma del tempo totale di riproduzione trascorso per la selezione. Per impostazione predefinita, il pannello mostra solo il valore Maximum (Massimo), ma puoi impostarlo su Minimum (Minimo), Sum (Somma) o qualsiasi combinazione dei tre.<br>Se utilizzi i raggruppamenti, per ciascuno viene visualizzato un numero di riepilogo. |
 | Raggruppamento per serie | Facoltativamente, puoi suddividere la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date.<p>- È possibile visualizzare fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello.</p><p>- Quando viene trascinata una dimensione, gli elementi dimensionali principali vengono selezionati automaticamente in base all’intervallo di date del pannello selezionato.</p>- Per confrontare intervalli di date, trascina 2 o più intervalli di date nel segmento di raggruppamento di serie. |
 | Formato ora | È possibile visualizzare il tempo di riproduzione trascorso in `Hours:Minutes:Seconds` (impostazione predefinita) o in `Minutes` (visualizzati in numeri interi, arrotondati a 0,5). |
-| Visualizzazione della sequenza di date | Se hai inserito almeno due segmenti di intervallo di date come raggruppamenti di serie, visualizzerai l’opzione per selezionare tra sovrapposizione, (predefinita) o sequenziale. La sovrapposizione mostra le linee con un inizio comune dell’asse X, in modo che siano parallele, mentre la sequenziale mostra le linee con il proprio inizio specifico dell’asse X. Se i dati sono allineati (ad esempio, il segmento 1 termina alle 20:44 e il segmento 2 inizia alle 20:45), le linee vengono visualizzate in sequenza. |
+| Visualizzazione della sequenza di date | Se hai inserito almeno due segmenti di intervallo di date come raggruppamenti di serie, visualizzerai l’opzione per selezionare tra sovrapposizione, (predefinita) o sequenziale. La sovrapposizione mostra le linee con un inizio comune dell’asse X, in modo che siano parallele, mentre la sequenziale mostra le linee con il proprio inizio specifico dell’asse X. Se i dati sono allineati (ad esempio, il segmento 1 termina alle 20:44 e il segmento 2 inizia alle 20:45), le righe vengono visualizzate in sequenza. |
 
 
 ![Visualizzazione predefinita del tempo trascorso sul playbook dei contenuti multimediali.](assets/mpts_default_view.png)
@@ -129,6 +129,6 @@ L’unica metrica che può essere utilizzata in questo pannello è Playback Time
 >[!MORELIKETHIS]
 >
 >[Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Pannello Pubblico medio per minuto di contenuti multimediale](average-minute-audience-panel.md)
->&#x200B;>[Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md)
+>>[Pannello Pubblico medio per minuto di contenuti multimediale](average-minute-audience-panel.md)
+>>[Pannello Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md)
 >

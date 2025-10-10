@@ -6,7 +6,7 @@ keywords: product analytics
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 L’analisi delle ![tendenze di conversione](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Conversion trends]** fornisce una visualizzazione con le tendenze dei tassi di conversione nel tempo. L’asse orizzontale è un intervallo di tempo, mentre l’asse verticale rappresenta il tasso di conversione.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423488/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3421662/?quality=12&learn=on)
 
 
 ## Casi d’uso
@@ -53,7 +53,7 @@ La barra delle query consente di configurare i seguenti componenti:
 
 ### Impostazioni del grafico
 
-L’analisi [!UICONTROL Conversion trends] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra di esso:
+L’analisi della[!UICONTROL Conversion trends] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
 * **[!UICONTROL Chart type]**: il tipo di visualizzazione che desideri utilizzare. Le opzioni includono [!UICONTROL Line].
 * **[!UICONTROL Conversion from]**: determina il calcolo della percentuale da un passaggio all’altro. Le opzioni includono il calcolo della conversione da [!UICONTROL First step] o [!UICONTROL Previous step].
@@ -71,7 +71,7 @@ L’analisi [!UICONTROL Conversion trends] offre le seguenti impostazioni del gr
 
 L’intervallo di date desiderato per l’analisi. Questa impostazione è costituita da due componenti:
 
-* **[!UICONTROL Interval]**: granularità della data in base alla quale desideri visualizzare i dati di tendenza. Le opzioni valide includono: Oraria, Giornaliera, Settimanale, Mensile e Trimestrale. Lo stesso intervallo di date può avere una granularità diversa, da cui dipende il numero di punti dati nel grafico e il numero di colonne nella tabella. Nella visualizzazione di un’analisi di tre giorni con granularità giornaliera, ad esempio, saranno presenti solo tre punti dati, mentre in quella di un’analisi di tre giorni con granularità oraria ne saranno presenti 72.
+* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati con tendenze. Le opzioni valide includono: Oraria, Giornaliera, Settimanale, Mensile e Trimestrale. Lo stesso intervallo di date può avere una granularità diversa, da cui dipende il numero di punti dati nel grafico e il numero di colonne nella tabella. Nella visualizzazione di un’analisi di tre giorni con granularità giornaliera, ad esempio, saranno presenti solo tre punti dati, mentre in quella di un’analisi di tre giorni con granularità oraria ne saranno presenti 72.
 * **[!UICONTROL Date]**: la data di inizio e di fine. Per comodità, sono disponibili intervalli di date continui predefiniti e intervalli personalizzati salvati in precedenza; in alternativa, puoi utilizzare il selettore del calendario per scegliere un intervallo di date fisso.
 
 <!--

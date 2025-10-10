@@ -8,7 +8,7 @@ role: User
 source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,6 +36,6 @@ Sono disponibili diversi metodi per l’esportazione da Analysis Workspace. Quan
 |---------|----------|
 | [Download sulla tua workstation](/help/analysis-workspace/export/download-send.md) | <li>Scaricare i progetti sulla tua workstation personale.</li><li>Scaricare solo dati ad hoc (senza pianificazione).</li> <li>Scaricare un massimo di 50.000 righe.</li> <!--true? Are there 2 different options to download to your workstation?--> <!-- is this emailing it? --> |
 | [Invio ad altri utenti](/help/analysis-workspace/export/t-schedule-report.md) | <li>Inviare via e-mail ad altri utenti dell’organizzazione i dati Customer Journey Analytics esportati.</li><li>Inviare l’e-mail ad hoc o con pianificazione.</li> <li>Includere un massimo di 50.000 righe nell’e-mail.</li> <!--true?--> |
-| [Esporta in una posizione cloud](/help/analysis-workspace/export/export-cloud.md) | <li>Esportare in una posizione cloud, ad esempio <ul><li>Adobe Experience Platform Data Landing Zone</li><li>Google Cloud Platform</li><li>Microsoft Azure</li><li>Amazon S3</li><li>Snowflake</li></ul></li><li>Esportare dati ad hoc o con pianificazione.</li><li>Memorizzare quantità maggiori di dati Customer Journey Analytics.</li><li>Esportare tabelle complete contenenti migliaia o milioni di righe.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
+| [Esportare in una posizione cloud](/help/analysis-workspace/export/export-cloud.md) | <li>Esportare in una posizione cloud, ad esempio <ul><li>Adobe Experience Platform Data Landing Zone</li><li>Google Cloud Platform</li><li>Microsoft Azure</li><li>Amazon S3</li><li>Snowflake</li></ul></li><li>Esportare dati ad hoc o con pianificazione.</li><li>Memorizzare quantità maggiori di dati Customer Journey Analytics.</li><li>Esportare tabelle complete contenenti migliaia o milioni di righe.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
 
 {style="table-layout:auto"}

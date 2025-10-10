@@ -55,9 +55,9 @@ La finestra di dialogo **[!UICONTROL Calculated metric builder]** viene utilizza
    | **[!UICONTROL External ID]** ![Obbligatorio](/help/assets/icons/Required.svg) | Il nome della metrica calcolata quando si utilizza uno strumento BI esterno e l’estensione BI. Il valore viene automaticamente definito come `undefined_xxx` a meno che non venga ignorato. |
    | **[!UICONTROL Description]** | Fornisci una descrizione per il segmento, ad esempio `Calculated metric to define the conversion rate.` Non è necessario descrivere la formula per la metrica calcolata in quanto la formula è già disponibile automaticamente in [!UICONTROL Summary]. |
    | **[!UICONTROL Format]** | Seleziona un formato per la metrica calcolata: puoi selezionare tra **[!UICONTROL Decimal]**, **[!UICONTROL Time]**, **[!UICONTROL Percent]** e **[!UICONTROL Currency]**. |
-   | **[!UICONTROL Decimal places]** | Specifica il numero di posizioni decimali per il formato selezionato. La scelta è possibile solo se il formato selezionato è Decimale, Valuta e Percentuale. |
+   | **[!UICONTROL Decimal places]** | Specifica il numero di posizioni decimali per il formato selezionato. Questa opzione è abilitata solo se il formato selezionato è Decimale, Valuta e Percentuale. |
    | **[!UICONTROL Show upward trend as]** | Specificare se una tendenza verso l&#39;alto della metrica calcolata viene visualizzata come ▲ **[!UICONTROL Good (Green)]** o come ▼ **[!UICONTROL Bad (Red)]**. |
-   | **[!UICONTROL Currency]** | Specifica la valuta della metrica calcolata. La scelta è possibile solo se il formato selezionato è Valuta. |
+   | **[!UICONTROL Currency]** | Specifica la valuta della metrica calcolata. Questa opzione è abilitata solo se il formato selezionato è Valuta. |
    | **[!UICONTROL Tags]** | Organizza la metrica calcolata creando o applicando uno o più tag. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL ENTER]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
    | **[!UICONTROL Preview]** | L’anteprima copre gli ultimi 90 giorni ed è un modo per verificare se la metrica è stata definita correttamente. |
    | **[!UICONTROL Summary]** | Visualizza un riepilogo della definizione della metrica calcolata. <br/>Ad esempio: ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Total Orders]** ![Dividi](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]**. |
@@ -200,5 +200,5 @@ Per eliminare un contenitore, seleziona ![Close](/help/assets/icons/Close.svg) a
 >[!MORELIKETHIS]
 >
 >[Usare le funzioni](cm-using-functions.md)
->&#x200B;>[Segmenti](/help/components/segments/seg-overview.md)
+>>[Segmenti](/help/components/segments/seg-overview.md)
 >

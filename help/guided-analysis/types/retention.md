@@ -6,9 +6,9 @@ keywords: product analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
-source-wordcount: '1200'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1202'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ L’analisi ![Fidelizzazione](/help/assets/icons/Retention.svg) **[!UICONTROL Re
 
 In questa analisi, l’asse x del grafico rappresenta il tempo trascorso dall’evento iniziale di un utente e l’asse y rappresenta la percentuale di utenti che interagiscono con uno o più eventi di ritorno. È possibile visualizzare sia la fidelizzazione che l’abbandono tra le diverse durate, e le durate visualizzate possono essere personalizzate tramite le impostazioni della query. Sotto il grafico, una tabella fornisce dati aggregati con l’opzione di mostrare le singole coorti, che sono un gruppo di persone che hanno attivato l’evento iniziale nella stessa data.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435786/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3430503/?quality=12&learn=on)
 
 
 ## Casi d’uso
@@ -38,13 +38,13 @@ In questa analisi, l’asse x del grafico rappresenta il tempo trascorso dall’
 I casi d’uso per questa analisi includono:
 
 * **Analisi per coorte**: raggruppa gli utenti in coorti in base alle azioni da loro intraprese, ad esempio iscrizioni o acquisti. Puoi confrontare il livello di conservazione di questi gruppi e determinare come affrontare il miglioramento dell’esperienza utente di ciascun gruppo.
-* **Adattabilità del prodotto al mercato**: misura l’utilizzo regolare del prodotto e visualizza curve di fidelizzazione. Una maggiore fidelizzazione significa una maggiore adattabilità del prodotto al mercato e la posizione in cui la curva si appiattisce indica quanto tempo è necessario per raggiungerla. Puoi visualizzare questa analisi a livello generale o suddividerla per singole funzioni del prodotto, per ottenere informazioni più approfondite.
+* **Adattabilità del prodotto al mercato**: misura l’utilizzo regolare del prodotto e visualizza curve di fidelizzazione. Una maggiore fidelizzazione significa una maggiore adattabilità del prodotto al mercato e la posizione in cui la curva si appiattisce indica quanto tempo è necessario per raggiungerla. Puoi visualizzare questa analisi a livello generale o raggrupparla per singole funzioni del prodotto, per ottenere informazioni più approfondite.
 * **Analisi del servizio in abbonamento**: se il prodotto utilizza un abbonamento o un altro tipo di modello di ricavi ricorrenti, puoi vedere la percentuale di utenti che lo stanno utilizzando al meglio. Puoi identificare alcune qualità e comportamenti che accomunano questi utenti.
 * **Coinvolgimento utente**: valuta il modo in cui alcuni tipi di utenti interagiscono con il tuo prodotto e confrontalo con la frequenza con cui ritornano. Un dato segmento con una fidelizzazione inferiore rispetto ad altri può fornirti informazioni sul miglioramento di potenziali esperienze secondarie per gli utenti.
 
 ## Interfaccia
 
-Per una panoramica dell’interfaccia di analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
+Per una panoramica dell’interfaccia dell’analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
 
 ### Barra delle query
 
@@ -60,16 +60,16 @@ La barra delle query consente di configurare i seguenti componenti:
    * **[!UICONTROL Each]**: periodo di tempo desiderato per ogni bucket di durata. Le opzioni includono:
       * **[!UICONTROL Day/Week/Month]**: le opzioni disponibili dipendono dall’intervallo di date selezionato. Queste opzioni sono identiche all’impostazione **[!UICONTROL Interval]** quando si seleziona l’intervallo di date e si aggiorna automaticamente tale impostazione.
       * **[!UICONTROL Custom brackets]**: questa opzione è disponibile solo per l’impostazione “Su ogni”. Consente di contare gli utenti in un arco temporale più ampio, ad esempio Giorno 7-10, anziché solo Giorno 7.
-   * **[!UICONTROL Duration settings]**: consente di controllare i bucket di durata visualizzati nel grafico e nella tabella. Una durata è il periodo di tempo successivo all’evento di inizio in cui si è verificato l’evento di ritorno. Nota: gli utenti idonei per i bucket di durata si basano sul tempo trascorso e non sui giorni del calendario. Ad esempio, se un utente si qualifica per un evento alle 23:55 del 6 settembre e poi per un evento di ritorno alle 00:05 del 7 settembre, non verrà visualizzato nel bucket di durata di 1 giorno. Devono trascorrere 24 ore prima che l’utente possa qualificarsi per il bucket di durata di 1 giorno. I bucket di durata disponibili dipendono dall’intervallo di date impostato.
+   * **[!UICONTROL Duration settings]**: consente di controllare i bucket di durata visualizzati nel grafico e nella tabella. Una durata è il periodo di tempo successivo all’evento di inizio in cui si è verificato l’evento di ritorno. Nota: gli utenti idonei per i bucket di durata si basano sul tempo trascorso e non sui giorni del calendario. Ad esempio, se un utente è idoneo per un evento alle 23:00 del 6 settembre e poi per un evento di ritorno alle 00:00 del 7 settembre, non verrà visualizzato nel bucket di durata di 1 giorno. :55:05 Devono trascorrere 24 ore prima che l’utente possa qualificarsi per il bucket di durata di 1 giorno. I bucket di durata disponibili dipendono dall’intervallo di date impostato.
       * **[!UICONTROL Auto durations]** definisce automaticamente i bucket di durata in base alla lunghezza dell’intervallo di date e alla vicinanza al giorno corrente dell’intervallo di date.
       * **[!UICONTROL Custom durations]** consente di personalizzare i quattro bucket di durata visualizzati nel grafico e nella tabella.
 * **[!UICONTROL Segments]**: segmenti che desideri misurare. Ogni segmento selezionato aggiunge una riga alla tabella coorte. Puoi includere fino a tre segmenti.
 
 ### Impostazioni del grafico
 
-L’analisi [!UICONTROL Retention] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
+L’analisi della[!UICONTROL Retention] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
-* **[!UICONTROL Chart type]**: tipo di visualizzazione che desideri utilizzare. Le opzioni includono [!UICONTROL Bar] e [!UICONTROL Line].
+* **[!UICONTROL Chart type]**: il tipo divisualizzazione che vuoi usare. Le opzioni includono [!UICONTROL Bar] e [!UICONTROL Line].
 
 ### Intervallo date
 

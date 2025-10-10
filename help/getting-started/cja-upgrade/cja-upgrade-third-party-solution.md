@@ -6,7 +6,7 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: bc79ba1a-1153-4fe8-b265-9703a323c977
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
 
@@ -18,8 +18,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-third-party"
->title="Prodotto di analisi non Adobe"
->abstract="Un’ implementazione che raccoglie dati per un prodotto di analisi di terze parti, ad esempio Google Analytics. Selezionando questa opzione verranno disabilitate diverse opzioni della guida all’aggiornamento che non vengono applicate durante l’aggiornamento a Customer Journey Analytics da un prodotto di analisi diverso da Adobe."
+>title="Prodotto diverso da Adobe Analytics"
+>abstract="Un’ implementazione che raccoglie dati per un prodotto diverso da Adobe Analytics, ad esempio Google Analytics. Selezionando questa opzione verranno disabilitate diverse opzioni della guida all’aggiornamento che non vengono applicate durante l’aggiornamento a Customer Journey Analytics da un prodotto di analisi diverso da Adobe."
 
 <!-- markdownlint-enable MD034 -->
 

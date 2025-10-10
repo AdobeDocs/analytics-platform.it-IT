@@ -9,7 +9,7 @@ solution: Customer Journey Analytics
 source-git-commit: 7d3300336a955facc230f335d1452096700ea98b
 workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -114,7 +114,7 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 >[!MORELIKETHIS]
 >
 >[Selezionare una visualizzazione dati](select-data-view.md)
->[Seleziona un intervallo di date](select-date-range.md)
->[Filtra dimensioni](filter-dimensions.md)
->[Operazioni con i segmenti](work-with-filters.md)
+>>[Seleziona un intervallo di date](select-date-range.md)
+>>[Filtra dimensioni](filter-dimensions.md)
+>>[Operazioni con i segmenti](work-with-filters.md)
 >

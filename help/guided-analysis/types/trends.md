@@ -8,7 +8,7 @@ role: User
 source-git-commit: e42f04eaa06a761803e76b64a5a16674fb4af57d
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 L’analisi delle ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** fornisce informazioni utili sulle prestazioni del prodotto o sul comportamento degli utenti nel tempo. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli eventi desiderati.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423441/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3421666/?quality=12&learn=on)
 
 ## Casi d’uso
 
@@ -47,7 +47,7 @@ La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL View]**: passa da questa analisi a [Frequenza](frequency.md).
 * **[!UICONTROL Events & Metrics]**: gli eventi o le metriche che desideri misurare. Ogni selezione è rappresentata da una serie di grafici e da una riga di tabella. Non è possibile combinare eventi e metriche nella query. Dopo aver effettuato la prima selezione, le altre selezioni delle query devono essere dello stesso tipo. Puoi includere fino a cinque selezioni.
-* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. <ul><li>**[!UICONTROL Options]** include [!UICONTROL Users], [!UICONTROL Events], [!UICONTROL Sessions], [!UICONTROL Percentage of users], [!UICONTROL Events per session] e [!UICONTROL Events per user].</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} Ulteriori **[!UICONTROL B2B options]** sono disponibili per Customer Journey Analytics B2B edition: [!UICONTROL Global accounts], [!UICONTROL Accounts], [!UICONTROL Buying groups], [!UICONTROL Opportunities], [!UICONTROL Percentage of global accounts], [!UICONTROL Percentage of accounts], [!UICONTROL Percentage of buying groups], [!UICONTROL Percentage of opportunities], [!UICONTROL Events per global account], [!UICONTROL Events per account], [!UICONTROL Events per buying group] e [!UICONTROL Events per opportunity].</li></ul>Conteggiati come opzioni, sono applicabili solo alle query evento e vengono rimossi per le query metriche.
+* **[!UICONTROL Counted as]**: metodo di conteggio da applicare agli eventi selezionati. <ul><li>**[!UICONTROL Options]** include [!UICONTROL Users], [!UICONTROL Events], [!UICONTROL Sessions], [!UICONTROL Percentage of users], [!UICONTROL Events per session] e [!UICONTROL Events per user].</li><li>[!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Ulteriori **[!UICONTROL B2B options]** sono disponibili per Customer Journey Analytics B2B edition: [!UICONTROL Global accounts], [!UICONTROL Accounts], [!UICONTROL Buying groups], [!UICONTROL Opportunities], [!UICONTROL Percentage of global accounts], [!UICONTROL Percentage of accounts], [!UICONTROL Percentage of buying groups], [!UICONTROL Percentage of opportunities], [!UICONTROL Events per global account], [!UICONTROL Events per account], [!UICONTROL Events per buying group] e [!UICONTROL Events per opportunity].</li></ul>Conteggiati come opzioni, sono applicabili solo alle query evento e vengono rimossi per le query metriche.
 * **[!UICONTROL Segments]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero delle serie di grafici e delle righe di tabella. Puoi includere fino a cinque segmenti.
 * **[!UICONTROL Breakdown property]**: suddivide le serie dei grafici e le righe di tabella per i valori della proprietà selezionata. È supportata una singola proprietà di raggruppamento. Nella tabella vengono visualizzati i primi 20 valori e nel grafico è possibile visualizzare fino a dieci valori. Puoi nascondere o esporre una riga nel grafico attivando l’icona ![Show hide icon](../assets/hide-in-chart.png).
 
@@ -61,7 +61,7 @@ L’analisi della[!UICONTROL Trends] offre le seguenti impostazioni del grafico,
 
 Aggiungi altri dati al grafico. Quando sul grafico sono visibili più serie, le sovrapposizioni vengono visualizzate solo al passaggio del mouse.
 
-* **[!UICONTROL Anomaly detection]**: esegue [il rilevamento delle anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) nell’analisi con tendenze. I valori anomali vengono visualizzati sotto forma di punti su cui è possibile passare il cursore del mouse per ottenere ulteriori informazioni.
+* **[!UICONTROL Anomaly detection]**: esegue [il rilevamento delle anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) nell’analisi con tendenze. I valori anomali vengono visualizzati sotto forma di punti su cui è possibile passare il puntatore per ottenere ulteriori informazioni.
 * **[!UICONTROL Trendline overlay]**: aggiunge una linea di tendenza al grafico che aiuta a rappresentare un pattern più chiaro nei dati.
    * [!UICONTROL Linear]: crea una retta di regressione. Consigliata per dati lineari semplici che aumentano o diminuiscono a un tasso costante. Equazione: `y = a + b * x`
    * [!UICONTROL Logarithmic]: crea una curva di regressione. Consigliata per i dati che aumentano o diminuiscono rapidamente, quindi si livellano. Equazione: `y = a + b * log(x)`

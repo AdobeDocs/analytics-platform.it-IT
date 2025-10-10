@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: c5ed81ea-1d55-4193-9bb1-a2a93ebde91f
 source-git-commit: 3e521cb4ef532d57b9f408fc12dcf138f130f059
-workflow-type: ht
-source-wordcount: '817'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '816'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Il trasferimento delle risorse richiede l’autorizzazione dell’amministratore
 
    >[!IMPORTANT]
    >
-   >È possibile effettuare solo un trasferimento 1:1, da un utente all’altro. I trasferimenti uno-a-molti o molti-a-uno non sono supportati.
+   >È possibile eseguire solo un trasferimento 1:1 da un utente a un altro. I trasferimenti uno-a-molti o molti-a-uno non sono supportati.
 
 
 1. Dopo aver selezionato un utente, nella parte inferiore della schermata viene visualizzata l’opzione Transfer assets (Trasferisci risorse).

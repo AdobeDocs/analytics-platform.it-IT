@@ -4,12 +4,12 @@ description: Scopri come impostare Customer Journey Analytics B2B edition per i 
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-badgePremium: label="B2B edition"
+badgePremium: label="B2B Edition"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 11%
 
 Questo articolo descrive una configurazione tipica di Customer Journey Analytics B2B edition per supportare i seguenti casi d’uso:
 
-* [Ottimizzare il marketing dell’account](optimize-account-marketing.md)
-* [Crescita account chiave](grow-key-accounts.md)
+* [Ottimizzare il marketing per account](optimize-account-marketing.md)
+* [Far crescere gli account chiave](grow-key-accounts.md)
 * [Creare valore di prodotto](build-product-value.md)
 
 
@@ -82,7 +82,7 @@ Un esempio di riferimento di progettazione della soluzione potrebbe essere:
 | Creazione account: completata | Contatore |
 | Creazione account: inizio | Contatore |
 | Costo chiamata | Valuta |
-| Lunghezza chiamata | Contatore |
+| Durata della chiamata | Contatore |
 | Punteggio di soddisfazione chiamata | Numerici |
 | Indagini telefoniche completate | Contatore |
 | Chiamate | Contatore |

@@ -9,7 +9,7 @@ solution: Customer Journey Analytics
 source-git-commit: 065cf61d80ceb3c921ea666ba299e56fb044335b
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -70,6 +70,6 @@ Il collegamento **Segmenti** visualizza un elenco di riepilogo dei segmenti util
 >[!MORELIKETHIS]
 >
 >[Selezionare una visualizzazione dati](select-data-view.md)
->[Seleziona un intervallo di date](select-date-range.md)
->[Utilizzare i filtri](work-with-filters.md)
+>>[Seleziona un intervallo di date](select-date-range.md)
+>>[Utilizzare i filtri](work-with-filters.md)
 >

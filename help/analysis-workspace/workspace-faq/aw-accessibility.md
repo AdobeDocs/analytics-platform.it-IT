@@ -1,13 +1,13 @@
 ---
-description: Scopri le funzioni di supporto per l’accessibilità di Analysis Workspace.
-title: Accessibilità In Analysis Workspace
+description: Scopri le funzioni di supporto per l’accessibilità in Analysis Workspace.
+title: Accessibilità di Analysis Workspace
 feature: Workspace Basics
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Per accessibilità si intendono i prodotti utilizzabili da persone affette da di
 La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il basso e da sinistra a destra. I seguenti elementi di navigazione facilitano l’accessibilità:
 
 * Il tasto **[!UICONTROL Tab]** consente di utilizzare scelte rapide per punti di riferimento e di spostarsi tra sezioni più grandi all’interno di Workspace. Nel pannello a sinistra, **[!UICONTROL Tab]** consente anche di passare da un’opzione trascinabile alla successiva.
-* ◀︎ e ▶︎ spostano tra i singoli elementi dopo che la chiave **[!UICONTROL Tab]** ha evidenziato un elemento.
+* Le ◀ e ▶ consentono di spostarsi tra i singoli elementi dopo che il tasto **[!UICONTROL Tab]** ha evidenziato un elemento.
 * Il tasto **[!UICONTROL F6]** consente di passare al primo pannello del progetto e di spostarsi tra le visualizzazioni all’interno di tale pannello. Quindi, consente di passare al pannello successivo del progetto e così via.
 * Gli indicatori di attivazione vengono applicati in modo che gli utenti vedenti che utilizzano la tastiera abbiano un’indicazione chiara dell’elemento dell’interfaccia utente attualmente attivo. L’indicatore è un bordo blu per il pannello attivo. E lo sfondo grigio per la funzionalità selezionata di recente e la selezione all’interno della funzionalità. Nell’esempio, i [!UICONTROL Components] e la dimensione Pagina sono stati selezionati di recente.
 

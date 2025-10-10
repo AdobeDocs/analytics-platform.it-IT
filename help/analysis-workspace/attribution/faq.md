@@ -78,7 +78,7 @@ Attribution models are available outside of virtual report suites. While they us
 -->
 
 
-+++## Quali dimensioni e metriche sono supportate?
++++## Quali sono le dimensioni e le metriche supportate?
 
 L’attribuzione è supportata su tutte le metriche non standard definite nella visualizzazione dati.
 
@@ -86,7 +86,7 @@ L’attribuzione è supportata su tutte le metriche non standard definite nella 
 
 
 
-+++## L’attribuzione funziona con i dati di ricerca?
++++## L&#39;attribuzione funziona con i dati di ricerca?
 
 Sì, le dimensioni dei dati di ricerca sono completamente supportate.
 

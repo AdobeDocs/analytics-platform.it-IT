@@ -8,13 +8,13 @@ role: User
 source-git-commit: 6f8a43acfba23d6faeff078873742315f1506699
 workflow-type: tm+mt
 source-wordcount: '977'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 # Gestire le esportazioni
 
-Dopo aver esportato una tabella completa come descritto in [Esporta report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), le esportazioni sono disponibili nella scheda [!UICONTROL Exports] della pagina [!UICONTROL Exports].
+Dopo aver esportato una tabella completa come descritto in [Esporta report Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), le esportazioni sono disponibili nella scheda [!UICONTROL Exports] della pagina [!UICONTROL Exports].
 
 Puoi visualizzare solo le esportazioni create.
 
@@ -36,7 +36,7 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle esportazi
 
    | Filtro | Descrizione |
    |---------|----------|
-   | [!UICONTROL **Tipo di account**] | Il tipo di account a cui è associata l’esportazione. Sono disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **Area di destinazione dati AEP**]</li><li>[!UICONTROL **ARN per ruolo Amazon S3**]</li><li>[!UICONTROL **SAS di Azure**]</li><li>[!UICONTROL **RBAC di Azure**]</li><li>[!UICONTROL **Piattaforma cloud Google**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
+   | [!UICONTROL **Tipo di account**] | Il tipo di account a cui è associata l’esportazione. Sono disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **AEP Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
    | [!UICONTROL **Stato**] | Stato dell’esportazione. Sono disponibili i seguenti stati: <ul><li>[!UICONTROL **Attivo**]: indica che un&#39;esportazione pianificata non è ancora scaduta o che un&#39;esportazione una tantum non è ancora stata completata. </li><li>[!UICONTROL **Completato**]: indica che un&#39;esportazione è stata esportata correttamente. Per le esportazioni programmate, ciò indica che la pianificazione è scaduta.</li><li>[!UICONTROL **Non riuscito**]<p>Le situazioni seguenti possono causare un’esportazione non riuscita. Passa il cursore del mouse sullo stato [!UICONTROL **Non riuscito**] per visualizzare i dettagli dell&#39;errore. <ul><li>Scadenza esportazione pianificata</li><li>Limite di righe raggiunto per l’esportazione pianificata </li></ul> </p></li></ul> |
    | [!UICONTROL **Frequenza**] | La frequenza con cui si verifica l’esportazione. Sono disponibili le seguenti frequenze: <ul><li>[!UICONTROL **Una tantum**]</li><li>[!UICONTROL **Giornaliero**]</li><li>[!UICONTROL **Settimanale**]</li><li>[!UICONTROL **Mensile**]</li><li>[!UICONTROL **Annuale**]</li></ul> |
 
@@ -64,7 +64,7 @@ Puoi modificare le proprietà, il formato, la pianificazione e le informazioni s
 
    Viene visualizzata la finestra di dialogo [!UICONTROL **Esporta tabella completa**].
 
-1. Aggiorna una qualsiasi delle opzioni disponibili. Per informazioni su ciascuna opzione, vedere [Esportare tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace) in [Esportare report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).
+1. Aggiorna una qualsiasi delle opzioni disponibili. Per informazioni su ciascuna opzione, vedere [Esportare tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace) in [Esportare report Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
 ## Duplicare un’esportazione
 
@@ -78,7 +78,7 @@ Puoi duplicare un’esportazione esistente.
 
 1. Seleziona [!UICONTROL **Duplica**].
 
-   Viene creato un duplicato dell’esportazione. Il nome della nuova esportazione corrisponde al nome dell&#39;esportazione originale, con _[!UICONTROL - Copy]_&#x200B;aggiunto al nome del file.
+   Viene creato un duplicato dell’esportazione. Il nome della nuova esportazione corrisponde al nome dell&#39;esportazione originale, con _[!UICONTROL - Copy]_aggiunto al nome del file.
 
 1. (Facoltativo) [Modifica la nuova esportazione](#edit-an-export), incluso il nome del file e tutte le altre proprietà che desideri modificare.
 
@@ -134,12 +134,12 @@ Seleziona un’intestazione di colonna per ordinare le esportazioni in base a ta
 
    | Colonna disponibile | Descrizione |
    |---------|----------|
-   | Nome | Nome dell’esportazione. Gli utenti assegnano un nome alle esportazioni al momento della creazione, come descritto in [Esporta report Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md). |
+   | Nome | Nome dell’esportazione. Gli utenti assegnano un nome alle esportazioni al momento della creazione, come descritto in [Esportare i report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md). |
    | ID | L’ID assegnato automaticamente all’esportazione al momento della creazione. <!-- True? --> |
-   | Nome delle visualizzazioni dati | Nome della visualizzazione dati associata all’esportazione. Gli utenti possono selezionare la visualizzazione dati al momento della creazione dell&#39;esportazione, come descritto in [Esporta report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md). |
+   | Nome delle visualizzazioni dati | Nome della visualizzazione dati associata all’esportazione. Gli utenti possono selezionare la visualizzazione dati al momento della creazione dell&#39;esportazione, come descritto in [Esporta report Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md). |
    | Stato | Stato dell’esportazione. Gli stati disponibili sono [!UICONTROL Active], [!UICONTROL Completed] e [!UICONTROL Failed].<p> **Nota:** Per informazioni sulla risoluzione dei problemi relativi alle esportazioni non riuscite, vedere [Risoluzione dei problemi relativi alle esportazioni non riuscite](/help/components/exports/troubleshoot-exports.md).</p> |
    | Tag | Visualizza tutti i tag applicati all&#39;esportazione. Per informazioni su come applicare tag a un&#39;esportazione, vedere [Assegnare tag a un&#39;esportazione](#tag-an-export). |
-   | Dimensione tabella (ultimo invio) | Dimensione dell&#39;esportazione l&#39;ultima volta che è stata inviata. |
+   | Dimensioni tabella (ultimo invio) | Dimensione dell&#39;esportazione l&#39;ultima volta che è stata inviata. |
    | Creato da | Utente che ha creato l’esportazione. |
    | Creato | La data e l’ora in cui è stata creata l’esportazione. <!-- true? --> |
    | Posizione | Posizione dell&#39;account in cui sono stati esportati i dati. |

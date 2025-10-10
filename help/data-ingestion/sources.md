@@ -77,7 +77,7 @@ Per configurare lo schema:
 
 1. Nella scheda Struttura dello schema di esempio:
 
-   1. Seleziona **[!UICONTROL + Add]** (Aggiungi) in [!UICONTROL Field groups] (Gruppi di campi).
+   1. Seleziona **[!UICONTROL + Add]** in [!UICONTROL Field groups].
 
       ![Finestra Crea schema che mostra il gruppo di campi Aggiungi](./assets/add-field-group-button.png)
 
@@ -129,7 +129,7 @@ Per configurare lo schema:
 
 1. Seleziona **[!UICONTROL Save]** (Salva) per salvare lo schema.
 
-Hai creato uno schema minimo che modella i dati di fidelizzazione che puoi inserire in Adobe Experience Platform. Lo schema consente l’identificazione dei profili tramite l’indirizzo e-mail. Attivando lo schema per il profilo, garantisci che i dati della tua origine di streaming vengano aggiunti a Real-Time Customer Profile.
+Hai creato uno schema minimo che modella i dati di fidelizzazione che puoi inserire in Adobe Experience Platform. Lo schema consente l’identificazione dei profili tramite l’indirizzo e-mail. Abilitando lo schema per il profilo, garantisci che i dati della tua origine di streaming vengano aggiunti a Real-Time Customer Profile.
 
 Per ulteriori informazioni sull’aggiunta e la rimozione di gruppi di campi e singoli campi a uno schema, consulta la sezione [Creare e modificare schemi nell’interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=it).
 
@@ -159,7 +159,7 @@ Per configurare il set di dati:
 
 7. Seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
 
-   Viene richiesto di abilitare il set di dati per il profilo. Una volta attivato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati inseriti.
+   Viene richiesto di abilitare il set di dati per il profilo. Una volta abilitato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati inseriti.
 
    >[!IMPORTANT]
    >
@@ -176,11 +176,11 @@ A seconda della fonte da cui ricevi i dati di fidelizzazione, scegli il connetto
 
 Puoi acquisire dati da diverse origini. Di seguito sono riportate solo alcune delle numerose fonti disponibili:
 
-- Applicazioni Adobe (i connettori di origine includono [Adobe Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) e altri)
+- Applicazioni Adobe (i connettori di origine includono [Adobe Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) e altri)
 
-- Archiviazione cloud (i connettori di origine includono [Amazon S3](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/blob) e altri)
+- Archiviazione cloud (i connettori di origine includono [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob) e altri)
 
-- Database (i connettori di origine includono [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/sql-server) e altri)
+- Database (i connettori di origine includono [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server) e altri)
 
 Per configurare un connettore di origine:
 
@@ -198,7 +198,7 @@ Per configurare un connettore di origine:
 
    1. **[!UICONTROL Mapping]** (Mappatura): puoi mappare i campi dei dati di origine in arrivo agli attributi dello schema associato al set di dati selezionato.
 
-   1. **[!UICONTROL Scheduling]** (Pianificazione): se disponibile, puoi pianificare l’inserimento dei dati.
+   1. **[!UICONTROL Scheduling]**: se disponibile, puoi pianificare l’acquisizione dei dati.
 
    1. **[!UICONTROL Review]** (Revisione): viene visualizzata una revisione della definizione del connettore di origine.
 
@@ -214,7 +214,7 @@ Per informazioni sull&#39;utilizzo del connettore di origine di Adobe Analytics,
 
 Per informazioni sull&#39;utilizzo del connettore di origine API HTTP, vedere [Acquisire e utilizzare dati in streaming](./streaming.md).
 
-Consulta la sezione [Panoramica dei connettori di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it#terms-and-conditions) per una panoramica dei connettori di origine, compresi i collegamenti a ulteriori informazioni per ciascun connettore.
+Consulta la sezione [Panoramica dei connettori di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions) per una panoramica dei connettori di origine, compresi i collegamenti a ulteriori informazioni per ciascun connettore.
 
 
 ## Configurare una connessione

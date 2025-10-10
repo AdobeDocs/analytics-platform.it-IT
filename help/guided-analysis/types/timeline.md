@@ -6,7 +6,7 @@ keywords: product analytics
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
 
@@ -29,12 +29,12 @@ L’analisi della ![Timeline](/help/assets/icons/Timeline.svg) **[!UICONTROL Tim
 >[!NOTE]
 >
 >L’analisi [!UICONTROL Timeline] richiede che il componente standard **[!UICONTROL Person ID]** sia disponibile nella [visualizzazione dati](/help/data-views/component-reference.md#optional). L’inclusione dell’ID persona in una visualizzazione dati viene gestita dall’amministratore di Customer Journey Analytics, consentendo all’organizzazione di controllare completamente la privacy degli utenti che possono accedere a tali dati.
-><br/>Se a una visualizzazione dati non è stato aggiunto il componente [!UICONTROL Person ID], viene visualizzato il seguente messaggio:
+>><br/>Se a una visualizzazione dati non è stato aggiunto il componente [!UICONTROL Person ID], viene visualizzato il seguente messaggio:
 >
 >* **Amministratori**: *per questa analisi è necessaria la proprietà PersonID. Aggiungi l’ID persona alla visualizzazione dati.*
 >* **Non amministratori**: *per questa analisi è necessaria la proprietà PersonID. Collabora con l’amministratore di Customer Journey Analytics per aggiungere l’ID persona alla visualizzazione dati.*
 
->[!VIDEO](https://video.tv.adobe.com/v/3435775/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3427810/?quality=12&learn=on)
 
 
 
@@ -48,7 +48,7 @@ I casi d’uso per questa analisi includono:
 
 ## Interfaccia
 
-Per una panoramica dell’interfaccia di analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
+Per una panoramica dell’interfaccia dell’analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
 
 ### Barra delle query
 

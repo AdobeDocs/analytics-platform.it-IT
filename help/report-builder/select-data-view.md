@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ---
 
-# Seleziona una visualizzazione dati
+# Selezionare una visualizzazione dati
 
 Puoi selezionare una visualizzazione dati dal menu a discesa o selezionare una visualizzazione dati da una cella e aggiornare automaticamente il blocco dati con una nuova visualizzazione dati.
 

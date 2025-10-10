@@ -9,11 +9,11 @@ solution: Customer Journey Analytics
 source-git-commit: 065cf61d80ceb3c921ea666ba299e56fb044335b
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Configurazione Report Builder
+# Configurazione di Report Builder
 
 Questo articolo illustra i requisiti per utilizzare Report Builder for Customer Journey Analytics in Microsoft Excel. Come installare e configurare il componente aggiuntivo.
 

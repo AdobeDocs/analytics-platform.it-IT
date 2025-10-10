@@ -6,7 +6,7 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: product analytics
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 L’analisi ![ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Funnel]**fornisce una rappresentazione visiva di un percorso utente critico nel prodotto. L’asse orizzontale rappresenta ogni passaggio che un utente deve attraversare. L’asse verticale rappresenta la percentuale di utenti o sessioni in ogni passaggio. Tutti i passaggi devono essere eseguiti in ordine finale, ma possono avvenire in qualsiasi momento all’interno dell’intervallo di reporting.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431274/?quality=12&learn=on&captions=ita){width="90%"}
+>[!VIDEO](https://video.tv.adobe.com/v/3421663/?quality=12&learn=on){width="90%"}
 
 ## Casi d’uso
 
@@ -39,7 +39,7 @@ I casi d’uso per questa analisi includono:
 
 ## Interfaccia
 
-Per una panoramica dell’interfaccia di analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
+Per una panoramica dell’interfaccia dell’analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
 
 ### Barra delle query
 
@@ -55,7 +55,7 @@ La barra delle query consente di configurare i seguenti componenti:
 
 ### Impostazioni del grafico
 
-L’analisi del [!UICONTROL Funnel] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
+L’analisi della[!UICONTROL Funnel] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
 * **[!UICONTROL Chart type]**: il tipo di visualizzazione che desideri utilizzare. Le opzioni includono [!UICONTROL Steps].
 * **[!UICONTROL Conversion from]**: determina il calcolo della percentuale da un passaggio all’altro. Le opzioni includono il calcolo della conversione dal [!UICONTROL First step] o dal [!UICONTROL Previous step].

@@ -4,12 +4,12 @@ description: Scopri i casi d’uso tipici di Customer Journey Analytics B2B edit
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User, Admin
-badgePremium: label="B2B edition"
+badgePremium: label="B2B Edition"
 exl-id: 7c16cc62-5032-44a2-92e4-4a1c320f17aa
 source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ Gli utenti chiave che possono trarre vantaggio dall&#39;analisi fornita da Custo
 
 In base ai suddetti utenti tipo e alle loro esigenze, sono identificati i seguenti casi d’uso:
 
-### Ottimizzare il marketing dell’account
+### Ottimizzare il marketing per account
 
 Analizzare ed esplorare l’impatto del marketing:
 
@@ -46,7 +46,7 @@ Analizzare ed esplorare l’impatto del marketing:
 
 L&#39;[articolo dettagliato sul caso d&#39;uso](optimize-account-marketing.md) illustra come Customer Journey Analytics B2B edition può aiutare a ottimizzare il marketing degli account.
 
-### Crescita account chiave
+### Far crescere gli account chiave
 
 Identifica punti di contatto di alto valore tra i gruppi di acquisto all’interno dei key account per informare le migliori azioni di marketing e vendita successive e stimolare la crescita dei ricavi. Calcola e monitora il valore del ciclo di vita del cliente a livello di account.
 

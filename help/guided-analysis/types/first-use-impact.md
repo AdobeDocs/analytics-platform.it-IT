@@ -6,7 +6,7 @@ keywords: product analytics
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
 source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 L’analisi ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL First use impact]** mostra un confronto tra le prestazioni degli indicatori chiave prima e dopo che un utente utilizza una funzionalità di prodotto per la prima volta. L’asse orizzontale di questo rapporto è un intervallo di tempo relativo prima e dopo l’evento, mentre l’asse verticale misura gli indicatori chiave desiderati. Una barra verticale al centro del grafico rappresenta il giorno 0 del primo utilizzo di una caratteristica da parte di un utente specifico. Poiché gli utenti non adottano sempre le funzioni nello stesso giorno e i rollout possono potenzialmente verificarsi in più giorni, il giorno 0 può avere un significato diverso per ogni singolo utente.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423497/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3421661/?quality=12&learn=on)
 
 
 ## Casi d’uso
@@ -44,7 +44,7 @@ I casi d’uso per questa analisi includono:
 
 ## Interfaccia
 
-Per una panoramica dell’interfaccia di analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
+Per una panoramica dell’interfaccia dell’analisi guidata, consulta [Interfaccia](../overview.md#interface). Le seguenti impostazioni sono specifiche per questa analisi:
 
 ### Barra delle query
 
@@ -60,7 +60,7 @@ La barra delle query consente di configurare i seguenti componenti:
 
 ### Impostazioni del grafico
 
-L’analisi [!UICONTROL First use impact] offre le seguenti impostazioni di grafico, che possono essere regolate nel menu sopra di esso:
+L’analisi della[!UICONTROL First use impact] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
 * **[!UICONTROL Chart type]**: tipo dio visualizzazione che desideri usare. Le opzioni includono Linea.
 
@@ -68,7 +68,7 @@ L’analisi [!UICONTROL First use impact] offre le seguenti impostazioni di graf
 
 Le selezioni di date nell’analisi [!UICONTROL First use impact] funzionano in modo diverso rispetto ad altre analisi, in quanto questa analisi ruota attorno alla data specificata nella barra delle query. Sono disponibili le seguenti opzioni:
 
-* **[!UICONTROL Interval]**: granularità della data in base alla quale desideri visualizzare i dati con tendenze. Le opzioni valide includono [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly] e [!UICONTROL Quarterly]. La modifica dell’intervallo influisce sulle opzioni disponibili per il periodo Prima e Dopo.
+* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati con tendenze. Le opzioni valide includono [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly] e [!UICONTROL Quarterly]. La modifica dell’intervallo influisce sulle opzioni disponibili per il periodo Prima e Dopo.
 * **[!UICONTROL Before and after period]**: quantità di tempo da analizzare prima e dopo l’evento di primo utilizzo specificato nella barra delle query. Le opzioni disponibili dipendono dalla selezione dell’[!UICONTROL Interval].
 
 <!--

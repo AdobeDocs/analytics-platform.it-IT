@@ -144,4 +144,4 @@ Questa pagina include gli indirizzi IP da aggiungere al inserisco nell&#39;elenc
 >
 >[Domini utilizzati da Customer Journey Analytics](domains.md)
 >
->[Indirizzi IP utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/ip-addresses)
+>[Indirizzi IP utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)

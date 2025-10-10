@@ -33,13 +33,13 @@ Per creare rapporti sui dati Marketo Engage in Customer Journey Analytics:
 
 +++ &#x200B;1. Mappa i campi dati di origine di Marketo ai relativi target XDM
 
-Mappa gli oggetti [Persons](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Persone) e [Activities](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Attività) ai rispettivi campi di destinazione dello schema XDM.
+Mappa gli oggetti [Persons](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Persone) e [Activities](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Attività) ai rispettivi campi di destinazione dello schema XDM.
 
 +++
 
 +++ &#x200B;2. Inserire dati Marketo in Adobe Experience Platform
 
-Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni connesse a Platform.
+Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni connesse a Platform.
 
 +++
 
@@ -54,7 +54,7 @@ Per creare rapporti sui set di dati di Experience Platform devi prima stabilire 
 
 Una [visualizzazione dati](/help/data-views/data-views.md) è un contenitore specifico di Customer Journey Analytics che consente di determinare come interpretare i dati di una connessione. Specifica tutte le dimensioni e le metriche disponibili in Analysis Workspace; in questo caso, si tratta delle metriche e dimensioni specifiche di Marketo. Inoltre, specifica le colonne dalle quali le dimensioni e le metriche ottengono i loro dati. Le visualizzazioni dati sono definite in preparazione alle attività di reporting in Analysis Workspace.
 
-+++
++++ 
 
 +++ &#x200B;5. Rapporto in Analysis Workspace
 
@@ -115,7 +115,7 @@ Marketo Engage offre reporting in-app incentrato su KPI di automazione marketing
 * **Analisi avanzata di BI (componente aggiuntivo)**: trascinamento della selezione, creazione report personalizzata point-and-click per l&#39;analisi dei dati di programma/account/lead (vedere la panoramica recente di Analytics avanzata di BI).
 * **Dashboard predefiniti**: per le prestazioni della campagna, l&#39;efficacia del canale, il contributo pipeline/ricavi.
 * **Analisi del programma e del canale**: attribuzione e ROI specifici dei percorsi gestiti da Marketo.
-* **Incentrato sul marketing**: si concentra sugli utenti che necessitano di trasparenza nel funnel di marketing: stati e-mail, moduli, campagne intelligenti e impatto sui ricavi.
+* **Incentrato sul marketing**: si concentra sugli utenti che necessitano di trasparenza nel funnel di marketing: statistiche e-mail, moduli, campagne intelligenti e impatto sui ricavi.
 
 
 #### Casi d’uso tipici di Marketo Engage

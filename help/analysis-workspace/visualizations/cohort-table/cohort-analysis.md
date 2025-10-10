@@ -34,7 +34,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la tabella coorte in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Tabelle coorte](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la tabella coorte in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Tabelle coorte](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ Esempi di cosa è possibile fare con una [!UICONTROL Cohort table]:
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi per coorte in Analysis Workspace](https://video.tv.adobe.com/v/3430074/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi per coorte in Analysis Workspace](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -92,7 +92,7 @@ Puoi calcolare il livello di fidelizzazione o abbandono in base alla colonna pre
 
 ![Un rapporto di fidelizzazione per coorte che mostra i calcoli basati su una colonna di dati precedenti.](assets/retention-report-rolling.png)
 
-### Tabella di latenza
+### Tabella latenza
 
 Una tabella di latenza misura il tempo trascorso prima e dopo il verificarsi dell’evento di inclusione. La misura della latenza è un ottimo strumento di analisi pre/post. La colonna **[!UICONTROL Included]** è al centro della tabella ed è preceduta e seguita dai periodi di tempo precedenti e successivi all’evento di inclusione.
 

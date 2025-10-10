@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # Tecniche statistiche
 
-Il servizio di previsione attualmente supporta Prophet ed è stato dimostrato che funziona in modo efficiente e affidabile per la maggior parte dei dati. Profeta è un pacchetto di previsioni open source ampiamente utilizzato sviluppato da Meta. Scompone i dati in componenti per tendenze, stagionalità ed eventi. Il modello Profeta è efficiente e si adatta bene a molte applicazioni di previsione. Inoltre, il modello funziona in modo affidabile contro valori anomali e dati mancanti.
+Il servizio di previsione attualmente supporta Prophet ed è stato dimostrato che funziona in modo efficiente e affidabile per la maggior parte dei dati. Prophet è un pacchetto di previsione open-source ampiamente utilizzato sviluppato da Meta. Scompone i dati in componenti per tendenze, stagionalità ed eventi. Il modello Profeta è efficiente e si adatta bene a molte applicazioni di previsione. Inoltre, il modello funziona in modo affidabile contro valori anomali e dati mancanti.
 
 In futuro, si prevede di selezionare modelli basati sull&#39;euristica, ad esempio scegliere Online Approximate Gaussian Process per i dati in streaming, o NeuralProphet quando gli utenti specificano la migliore precisione di previsione e possono tollerare tempi di attesa più lunghi.
 
@@ -55,5 +55,5 @@ Il servizio non fa alcuna supposizione sui dati utente. Ad esempio, il servizio 
 ## Riferimenti
 
 1. Taylor, Sean J. e Benjamin Letham: *Previsione su larga scala.* Statistico americano 72.1 (2018): 37-45.
-1. Triebe, Oskar, et al.: *Neuralprophet: previsione spiegabile su scala.* prestampa arXiv arXiv:2111.15397(2021).
+1. Triebe, Oskar, et al.: *Neuralprophet: previsione spiegabile su scala.* pre-stampa arXiv arXiv:2111.15397(2021).
 1. Zhang e Arbor: *Rilevamento anomalie della serie temporale.* domanda di brevetto USA #18/057883.

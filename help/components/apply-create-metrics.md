@@ -6,7 +6,7 @@ exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '860'
 ht-degree: 5%
 
 ---
@@ -90,7 +90,7 @@ Per creare una metrica calcolata per un singolo progetto:
 
    * [!UICONTROL **Colonna min**]: crea una nuova colonna che mostra il valore più piccolo nel set di elementi dimensionali della colonna. Questa opzione utilizza la funzione [Column Minimum](/help/components/calc-metrics/cm-functions.md#column-minimum).
 
-   * [!UICONTROL **Somma colonna**]:crea una nuova colonna che aggiunge tutti i valori numerici per una metrica all&#39;interno di una colonna (negli elementi di una dimensione). Questa opzione utilizza la funzione [Somma colonne](/help/components/calc-metrics/cm-functions.md#column-sum).
+   * [!UICONTROL **Somma colonna**]:Creates una nuova colonna che aggiunge tutti i valori numerici per una metrica all&#39;interno di una colonna (negli elementi di una dimensione). Questa opzione utilizza la funzione [Somma colonne](/help/components/calc-metrics/cm-functions.md#column-sum).
 
    Quando sono selezionate due colonne, sono disponibili le seguenti opzioni:
 

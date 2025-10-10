@@ -1,6 +1,6 @@
 ---
 title: Configurare i dati in streaming di Google Analytics
-description: Scopri come configurare la tua implementazione per inviare un livello di dati Google ad Adobe Experience Platform
+description: Scopri come configurare la tua implementazione per inviare un livello dati Google ad Adobe Experience Platform
 exl-id: 58854f4b-ae28-424e-a2cf-0e76219cb802
 feature: Use Cases
 role: Admin

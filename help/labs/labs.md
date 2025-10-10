@@ -17,7 +17,7 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->Customer Journey Analytics Labs non è un servizio compatibile con HIPAA e non può essere utilizzato per elaborare dati personali sensibili, inclusi i dati sanitari consentiti (come informazioni sanitarie personali o PHI) che la tua organizzazione potrebbe altrimenti utilizzare nel Customer Journey Analytics.
+>Customer Journey Analytics Labs non è un servizio compatibile con HIPAA e non può essere utilizzato per elaborare dati personali riservati, inclusi i dati sanitari consentiti (come informazioni sanitarie personali o PHI) che l’organizzazione potrebbe altrimenti utilizzare in Customer Journey Analytics.
 
 ## Requisiti
 
