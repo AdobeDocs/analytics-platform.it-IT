@@ -20,7 +20,7 @@ Collegando le ripetizioni della sessione della metrica quantistica ai dati di CJ
 
 Questi passaggi presuppongono l’utilizzo di tag in Raccolta dati di Adobe Experience Platform. Puoi adattare questi metodi di raccolta dati a un’implementazione manuale di Web SDK se la tua organizzazione non utilizza i tag.
 
-Per ulteriori informazioni, consulta la documentazione dell&#39;estensione tag [Quantum Metric](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric).
+Per ulteriori informazioni, consulta la documentazione dell&#39;estensione tag [Quantum Metric](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/analytics/quantum-metric).
 
 ## Passaggio 1: creare un campo schema per l’ID sessione della metrica quantistica
 
