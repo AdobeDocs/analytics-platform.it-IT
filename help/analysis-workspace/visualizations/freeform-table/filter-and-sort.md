@@ -4,10 +4,10 @@ title: Filtra E Ordina
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: a16043f1bb15deba1332ed39438214597647b9b4
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 97%
+source-wordcount: '1103'
+ht-degree: 71%
 
 ---
 
@@ -29,9 +29,9 @@ I filtri in Analysis Workspace ti aiutano a far emergere le informazioni più im
 
 Sono disponibili vari metodi per filtrare le righe da una tabella a forma libera.
 
-- Escludere righe specifiche da una tabella
-- Applicare filtri a una tabella
-- Utilizzare segmenti di pubblico
+* Escludere righe specifiche da una tabella
+* Applicare filtri a una tabella
+* Utilizzare segmenti di pubblico
 
 Assicurati di leggere in che misura ogni metodo influisce sui [totali delle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
@@ -93,6 +93,38 @@ Per filtrare i dati nelle tabelle a forma libera:
    | [!UICONTROL **Escludi sempre gli elementi**] | Specifica il nome degli elementi da escludere dai dati filtrati. |
 
 1. Seleziona **[!UICONTROL Apply]** per filtrare i dati. Seleziona **[!UICONTROL Clear]** per cancellare l’intero input. Seleziona **[!UICONTROL Cancel]** per annullare e chiudere la finestra di dialogo. <br/>Un’icona ![Filtro](/help/assets/icons/FilterColored.svg) **Filtro** colorata indica e visualizza i dettagli quando viene applicato un filtro alla tabella.
+
+### Includere criteri di filtro nei dati con tendenze nelle visualizzazioni grafici a linee sparkline e a linee {#include-filter-criteria}
+
+Qualsiasi criterio di filtro di ricerca applicato alla dimensione tabella in una tabella a forma libera è sempre incluso nei grafici sparkline.
+
+Oltre ai grafici sparkline, puoi configurare i criteri di filtro da includere nelle visualizzazioni delle linee connesse. Per impostazione predefinita, i criteri di filtro non sono inclusi nelle visualizzazioni a linee. Le visualizzazioni a linee visualizzano i dati per la riga selezionata nella tabella connessa. Se non è selezionata alcuna riga, vengono visualizzati solo i dati per la prima dimensione della tabella collegata.)
+
+Per ulteriori informazioni sugli sparkline e sulle visualizzazioni a linee, consulta [Visualizzare i dati con tendenze per una tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md).
+
+#### Configurare le visualizzazioni a linee per includere i criteri di filtro
+
+1. Seleziona il grafico sparkline nell’intestazione della colonna della metrica.
+
+   Quando la cella sparkline è selezionata, viene visualizzata in grigio scuro. Questo indica che i criteri di filtro sono inclusi nella visualizzazione della linea connessa. I criteri di filtro vengono applicati come segmento nella colonna. <!--show how to see it? Show what the segment looks like when it's applied? -->
+
+   ![sparkline selezionato](assets/table-sparkline-selected.png)
+
+#### Comprendere quando i totali delle colonne potrebbero non essere accurati
+
+I totali delle colonne potrebbero non essere esatti nei seguenti scenari:
+
+* Quando si utilizzano componenti statici nella colonna sinistra e [i totali di colonna vengono calcolati come somma delle righe](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+
+  Se gli elementi riga contengono dati sovrapposti in questo scenario, i totali delle colonne non saranno accurati.
+
+  Ad esempio, se aggiungi segmenti statici alla colonna sinistra e quindi aggiungi Utenti come metrica nella colonna destra, alcuni di questi utenti potrebbero far parte di più di un segmento statico. In questo caso, Workspace non deduplica gli utenti per ciascun segmento statico. Questo può comportare un numero più elevato di utenti totali, perché alcuni utenti potrebbero essere conteggiati più di una volta.
+
+* Quando si utilizzano dimensioni multivalore
+
+>[!NOTE]
+>
+>I grafici sparkline e line riflettono ancora i totali accurati in questi scenari.
 
 ### Utilizzare segmenti di pubblico
 

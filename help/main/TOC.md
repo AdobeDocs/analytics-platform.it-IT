@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 04d3de450a9efc12637a3c4272bf3c43b0fbbe0a
+source-git-commit: a16043f1bb15deba1332ed39438214597647b9b4
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1306'
 ht-degree: 99%
 
 ---
@@ -202,12 +202,13 @@ ht-degree: 99%
       + Tabella a forma libera {#freeform-table}
          + [Panoramica](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Creare collegamenti ipertestuali](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [Visualizza dati con tendenze](/help/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [Filtrare e ordinare](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Totali](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + Impostazioni colonna e riga {#column-row-settings}
             + [Impostazioni colonna](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Impostazioni riga](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Elementi statici e dinamici](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Filtrare e ordinare](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totali](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabella coorte {#cohort-table}
          + [Panoramica](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurare](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
