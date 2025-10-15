@@ -8,7 +8,7 @@ role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 35%
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di 
 >* Utilizzo di un segmento basato su sessione come punto di contatto all’interno di una visualizzazione Abbandono in contesto di sessione.
 
 <!-- Should we add B2B context here?
-* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
 * -->
 
 ## Creare un segmento da un punto di contatto
@@ -44,7 +44,7 @@ Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di 
 
 ## Aggiungere un segmento come punto di contatto
 
-Per vedere ad esempio come gli utenti USA influenzano le metriche di abbandono, trascina il segmento degli utenti USA nella sezione Abbandono:
+Per vedere, ad esempio, come gli utenti USA influenzano l’abbandono, trascina il segmento degli utenti USA nell’abbandono:
 
 ![Il segmento Utenti USA selezionato ed evidenziato da trascinare nell&#39;abbandono.](assets/fallout-addfilter.png)
 

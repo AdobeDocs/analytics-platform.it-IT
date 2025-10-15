@@ -195,7 +195,7 @@ Un esempio di riferimento di progettazione della soluzione potrebbe essere:
 | Livello CLTV società | Dimensione |
 | Punteggio CLTV società | Metrica |
 | Paese dell’azienda | Dimensione |
-| Nome società | Dimensione |
+| Nome dell’azienda | Dimensione |
 | Telefono società | Dimensione |
 | CAP società | Dimensione |
 | Propensione aziendale al livello di acquisto | Dimensione |

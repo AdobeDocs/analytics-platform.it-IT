@@ -7,7 +7,7 @@ exl-id: f042a6dd-6af5-4bdd-afc9-07546d8ded6e
 source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -23,9 +23,9 @@ Gli effetti festivi vengono considerati quando sono disponibili dati di più ann
 
 * Martin Luther King Day
 * Festa dei presidenti
-* Memorial Day
+* Giorno della memoria
 * 4 luglio
-* Giorno del Ringraziamento
+* Ringraziamento
 * Black Friday
 * Cyber Monday
 * Natale

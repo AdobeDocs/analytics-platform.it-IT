@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 23%
+ht-degree: 12%
 
 ---
 
@@ -28,7 +28,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
    >
    >Questa opzione del menu di scelta rapida è disabilitata per le righe di metrica, di intervallo di date e di dimensione temporale.
 
-1. A seconda di come hai impostato l’intervallo di date della tabella, hai a disposizione queste opzioni per il confronto:
+1. A seconda di come è stato impostato l’intervallo di date della tabella, sono disponibili le seguenti opzioni per il confronto:
 
    | Opzione | Descrizione |
    |---|---|
@@ -40,7 +40,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
    >
    >Quando selezioni un numero di giorni personalizzato, ad esempio 7 ottobre - 20 ottobre (un intervallo di 14 giorni) avrai a disposizione solo 2 opzioni: **[!UICONTROL Prior 14 days before this date range]** (14 giorni precedenti a questo intervallo di dati) e **[!UICONTROL Custom date range to this date range]** (Seleziona intervallo).
 
-1. Il confronto risultante è simile a questo:
+1. Il confronto risultante sarà simile al seguente:
 
    ![Tabella a forma libera che mostra un confronto tra intervalli di date e variazioni percentuali.](assets/compare-time-result.png)
 
@@ -54,11 +54,11 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
    ![](assets/add-time-period-column.png)
 
-1. A seconda di come hai impostato l’intervallo di date della tabella, hai a disposizione queste opzioni per il confronto:
+1. A seconda di come è stato impostato l’intervallo di date della tabella, sono disponibili le seguenti opzioni per il confronto:
 
    | Opzione | Descrizione |
    |---|---|
-   | **[!UICONTROL Prior *x *settimane/mesi/trimestri/anni a questo intervallo di date]** | Aggiungi una colonna con settimana/mese/ecc. subito precedente a questo intervallo di date. |
+   | **[!UICONTROL Prior *x *settimane/mesi/trimestri/anni a questo intervallo di date]** | Aggiungi una colonna con settimana/mese/ecc. immediatamente prima di questo intervallo di date. |
    | **[!UICONTROL These *x *settimane/mesi/trimestri/anni ultimo anno a questo intervallo di date]** | Aggiungi lo stesso intervallo di date un anno fa. |
    | **[!UICONTROL Custom date range to this date range]** | Consentono di creare un intervallo di date personalizzato. |
 
@@ -70,7 +70,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
    ![Tabella a forma libera che mostra le occorrenze per il periodo di calendario corrente e il mese di calendario precedente.](assets/add-time-period-column2.png)
 
-1. Puoi aggiungere tutte le colonne di tempo che desideri, oltre ad abbinare intervalli di date diversi:
+1. Puoi aggiungere tutte le colonne di tempo desiderate, nonché combinare e abbinare diversi intervalli di date:
 
 1. Inoltre, è possibile ordinare in base a ciascuna colonna, cambiando l&#39;ordine dei giorni a seconda della colonna in cui si esegue l&#39;ordinamento.
 

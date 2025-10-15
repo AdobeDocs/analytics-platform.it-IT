@@ -8,7 +8,7 @@ role: User
 source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
 workflow-type: tm+mt
 source-wordcount: '3889'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -141,11 +141,11 @@ Seleziona i titoli della sezione collegata per ulteriori informazioni e contesto
 | | Dimensioni della tabella predefinita | Scegli tra Minuto, Ora, Giorno, Settimana, Mese, Trimestre o Anno. |
 | | Allinea date | Seleziona questa opzione per allineare le date di ogni colonna affinché inizino tutte sulla stessa riga. |
 | **[Colonna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
-| | Testo a capo nelle intestazioni | Consente di mandare automaticamente a capo il testo delle intestazioni nelle tabelle a forma libera, per agevolare la lettura delle intestazioni e la condivisione delle tabelle. Questa opzione è utile per la creazione di file PDF e per le metriche con nomi lunghi. È attivata per impostazione predefinita. |
+| | Testo a capo nelle intestazioni | Consente di mandare automaticamente a capo il testo delle intestazioni nelle tabelle a forma libera, per agevolare la lettura delle intestazioni e la condivisione delle tabelle. Questa opzione è utile per il rendering .pdf e per le metriche con nomi lunghi. Abilitato per impostazione predefinita. |
 | | Mostra totali | Questo numero relativo ai totali è in genere uguale o un sottoinsieme del [!UICONTROL Grand Total]. Riflette eventuali segmenti di tabella applicati all’interno della tabella a forma libera, inclusa l’opzione [!UICONTROL Include None]. |
 | | Mostra totali complessivi | Questi totali rappresentano tutti gli eventi che sono stati raccolti, talvolta denominati *totale della visualizzazione dati*. Quando un segmento viene applicato a livello di pannello o nella tabella a forma libera, il totale viene regolato in modo da riflettere tutti gli eventi che corrispondono ai criteri del segmento. Il totale complessivo non è supportato per tabelle o raggruppamenti con [righe statiche](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | | Mostra sparkline | Mostra o nascondi i grafici a linee nella parte inferiore del grafico. Quando è nascosta, la legenda non fa più riferimento visivamente alle linee. |
-| | Numero | Determina se mostrare/nascondere il valore numerico di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni di pagina, il valore numerico corrisponde al numero di visualizzazioni di pagina per l’elemento riga. |
+| | Numero | Determina se mostrare/nascondere il valore numerico di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni pagina, il valore numerico corrisponde al numero di visualizzazioni di pagina per l’elemento riga. |
 | | Percentuale | Determina se mostrare o nascondere il valore percentuale di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni pagina, il valore percentuale corrisponde al numero di visualizzazioni pagina per l’elemento della riga, diviso per il totale di visualizzazioni pagina per la colonna.  Nota: per garantire una maggiore precisione, è possibile visualizzare percentuali superiori al 100%. Inoltre, abbiamo spostato il limite superiore al 1000% per assicurare che le colonne possano crescere anche in larghezza. |
 | | Mostra anomalie <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> | Determina se eseguire il rilevamento delle anomalie sui valori di questa colonna. |
 | | Mostra previsione | Determina se i valori di previsione vengono visualizzati automaticamente per la prima colonna di metriche in qualsiasi tabella a forma libera con serie temporale creata. |

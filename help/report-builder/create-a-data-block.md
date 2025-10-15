@@ -114,7 +114,7 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 >[!MORELIKETHIS]
 >
 >[Selezionare una visualizzazione dati](select-data-view.md)
->&#x200B;>[Seleziona un intervallo di date](select-date-range.md)
->&#x200B;>[Filtra dimensioni](filter-dimensions.md)
->&#x200B;>[Operazioni con i segmenti](work-with-filters.md)
+>>[Seleziona un intervallo di date](select-date-range.md)
+>>[Filtra dimensioni](filter-dimensions.md)
+>>[Operazioni con i segmenti](work-with-filters.md)
 >

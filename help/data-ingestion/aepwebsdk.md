@@ -278,7 +278,7 @@ Per creare e configurare l’estensione Adobe Experience Platform Web SDK:
 
    Seleziona **[!UICONTROL Save]** (Salva).
 
-Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=it).
+Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html).
 
 Web SDK include [!UICONTROL Adobe Experience Cloud ID Service] in modo nativo e, pertanto, non è necessario aggiungere al tag l’estensione del servizio ID.
 
@@ -446,7 +446,7 @@ Per generare e pubblicare il tag:
 
    Il tag viene salvato e quindi creato per il tuo ambiente di sviluppo. Un punto verde indica la corretta compilazione del tag nell’ambiente di sviluppo.
 
-4. È possibile selezionare **[!UICONTROL ...]** per ricreare la libreria o spostarla in un ambiente di gestione temporanea o produzione.
+4. È possibile selezionare **[!UICONTROL ...]** per ricreare la libreria o spostarla in un ambiente di staging o di produzione.
 
    ![Pubblica - Libreria di compilazione](./assets/build-library.png)
 
@@ -483,7 +483,7 @@ Per ulteriori informazioni, consulta la sezione [Ambienti](https://experiencelea
 
 Ora puoi distribuire il codice nella versione di sviluppo del tuo sito Web all’interno del tag `<head>`. Una volta implementato, il sito Web inizia a raccogliere dati in Adobe Experience Platform.
 
-Convalida l’implementazione, correggila laddove necessario e una volta corretta, distribuiscila nel tuo ambiente di gestione temporanea e produzione utilizzando la funzione di flusso di lavoro di pubblicazione dei tag.
+Convalida l’implementazione, correggila laddove necessario e una volta corretta, implementala nell’ambiente di staging e di produzione utilizzando la funzione di flusso di lavoro di pubblicazione dei tag.
 
 ## Configurare una connessione
 

@@ -8,7 +8,7 @@ role: User
 source-git-commit: 45bbab4f7b292d653036fde11243ce7dcec50279
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 35%
+ht-degree: 33%
 
 ---
 
@@ -25,7 +25,7 @@ Per creare e configurare una [!UICONTROL Cohort table]:
    | Elemento | Descrizione |
    |--- |--- |
    | **[!UICONTROL Inclusion criteria]** | Puoi applicare fino a 10 segmenti di inclusione e fino a 3 metriche di inclusione. La metrica specifica a quale coorte appartiene un utente. Ad esempio, se la metrica di inclusione è Ordini, nella coorte iniziale vengono inclusi solo gli utenti che hanno effettuato un ordine durante l’intervallo di tempo dell’analisi della coorte.<br>L’operatore predefinito tra più metriche è AND, ma è possibile cambiarlo in OR. Inoltre, puoi aggiungere la segmentazione numerica a queste metriche. Esempio: `Sessions >= 1`.</br> |
-   | **[!UICONTROL Return criteria]** | Puoi applicare fino a 10 segmenti di ritorno e fino a 3 metriche di ritorno. Questa metrica indica se l’utente è stato mantenuto (Retention, fidelizzazione) o meno (Churn, abbandono). Ad esempio, se la metrica di ritorno è Visualizzazioni video, vengono considerati fidelizzati solo gli utenti che hanno visualizzato un video durante i periodi successivi (dopo il periodo in cui sono stati aggiunti a una coorte). Un’altra metrica che quantifica la conservazione è Sessioni. |
+   | **[!UICONTROL Return criteria]** | Puoi applicare fino a 10 segmenti di ritorno e fino a 3 metriche di ritorno. La metrica indica se l’utente è stato mantenuto (mantenimento) o meno (abbandono). Ad esempio, se la metrica di ritorno è Visualizzazioni video, vengono considerati fidelizzati solo gli utenti che hanno visualizzato un video durante i periodi successivi (dopo il periodo in cui sono stati aggiunti a una coorte). Un’altra metrica che quantifica la conservazione è Sessioni. |
    | [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Container]** | Per impostazione predefinita, l’analisi per coorte è associata al contenitore Persona. Se dalla connessione basata sull&#39;account che supporta il progetto Workspace sono disponibili altri contenitori oltre a Persona, è possibile selezionare un altro contenitore per l&#39;analisi per coorte dal menu a discesa **[!UICONTROL Container]**. |
    | **[!UICONTROL Granularity]** | Granularità temporale per Day, Week, Month, Quarter, o Year (Giorno, Settimana, Mese, Trimestre, Anno). |
    | **[!UICONTROL Type]** | **[!UICONTROL Retention]** (impostazione predefinita): una coorte di **[!UICONTROL Retention]** misura se le coorti delle persone ritornano a visitare la proprietà digitale nel tempo. Una coorte di fidelizzazione è la coorte standard e indica il comportamento degli utenti in merito a ritorno e ripetizione. Un colore verde indica una coorte [!UICONTROL Retention] nella tabella.<br>**[!UICONTROL Churn]**: una coorte **[!UICONTROL Churn]**(nota anche come perdita o attrito) misura il modo in cui le coorti di persone abbandonano la proprietà digitale nel tempo. Churn è l&#39;opposto di Retention: `Churn = 1 - Retention`. [!UICONTROL Churn] è utile per misurare la fedeltà e le opportunità, in quanto mostra con quale frequenza i clienti non ritornano. Con churn è possibile analizzare e individuare specifiche aree su cui concentrarsi, ovvero i segmenti di coorte che richiedono maggiore attenzione. Un colore rosso indica una coorte [!UICONTROL Churn] nella tabella (simile all&#39;abbandono nella visualizzazione **[!UICONTROL Flow]**).</br> |
@@ -60,7 +60,7 @@ Per creare e configurare una [!UICONTROL Cohort table]:
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

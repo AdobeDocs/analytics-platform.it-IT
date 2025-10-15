@@ -7,7 +7,7 @@ role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Ad esempio, oltre a una dimensione Pagina, puoi aggiungere a una visualizzazione
 
 ![La vista Tutte le visite mostra più dimensioni come punti di contatto.](assets/fallout-otherdimension.png)
 
-I dati di abbandono vengono automaticamente aggiornati e li puoi vedere per più dimensioni.
+L’abbandono viene aggiornato in modo dinamico e consente di visualizzare l’abbandono in più dimensioni.
 
 Puoi anche aggiungere metriche. Ad esempio, puoi aggiungere la metrica Chiamata per mostrare solo i percorsi per gli utenti per i quali esistono chiamate e che hanno contattato il call center:
 

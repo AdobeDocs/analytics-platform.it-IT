@@ -78,7 +78,7 @@ Puoi duplicare un’esportazione esistente.
 
 1. Seleziona [!UICONTROL **Duplica**].
 
-   Viene creato un duplicato dell’esportazione. Il nome della nuova esportazione corrisponde al nome dell&#39;esportazione originale, con _[!UICONTROL - Copy]_&#x200B;aggiunto al nome del file.
+   Viene creato un duplicato dell’esportazione. Il nome della nuova esportazione corrisponde al nome dell&#39;esportazione originale, con _[!UICONTROL - Copy]_aggiunto al nome del file.
 
 1. (Facoltativo) [Modifica la nuova esportazione](#edit-an-export), incluso il nome del file e tutte le altre proprietà che desideri modificare.
 

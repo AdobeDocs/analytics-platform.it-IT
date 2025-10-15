@@ -293,7 +293,7 @@ Per generare e pubblicare il tag:
 
    Il tag viene salvato e quindi creato per il tuo ambiente di sviluppo. Un punto verde indica la corretta compilazione del tag nell’ambiente di sviluppo.
 
-1. È possibile selezionare **[!UICONTROL ...]** per ricreare la libreria o spostarla in un ambiente di gestione temporanea o produzione.
+1. È possibile selezionare **[!UICONTROL ...]** per ricreare la libreria o spostarla in un ambiente di staging o di produzione.
 
    ![Pubblica - Libreria di compilazione](assets/build-library.png)
 

@@ -7,12 +7,12 @@ role: User
 source-git-commit: 39b3e0eb43e69c81c12e56fc7605e5746c2d650c
 workflow-type: tm+mt
 source-wordcount: '1277'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Rapporto sul traffico generato da LLM e AI
+# Rapporto su LLM e traffico generato da IA
 
 Questo articolo del caso d’uso illustra come utilizzare la funzionalità dei campi derivati da Customer Journey Analytics come base per creare rapporti sul traffico generato da LLM (Large Language Model) e AI.
 

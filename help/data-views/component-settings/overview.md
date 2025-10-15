@@ -59,7 +59,7 @@ Le informazioni seguenti descrivono le impostazioni utilizzate da un componente 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://video.tv.adobe.com/v/3412936/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -307,7 +307,7 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 | Dominio di riferimento originale | Dominio di riferimento originale. |
 | Ricariche | Ricarica. |
 | Visite a pagina singola | Visite a pagina singola. |
-| Sezione sito | Sezioni del sito. |
+| Sezioni sito | Sezioni del sito. |
 
 +++
 

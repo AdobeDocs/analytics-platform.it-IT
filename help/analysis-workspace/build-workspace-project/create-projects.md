@@ -7,7 +7,7 @@ exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -72,11 +72,11 @@ Le impostazioni includono:
 
 | Impostazione | Descrizione |
 |---|---|
-| Nome progetto | Nome assegnato al progetto. Puoi fare doppio clic sul nome per modificarlo. |
+| Nome progetto | Nome assegnato al progetto. È possibile fare doppio clic sul nome per modificarlo. |
 | Proprietario | Nome del proprietario del progetto. |
-| Ultima modifica | Data dell’ultima modifica apportata al progetto. |
-| Tag | Elenca eventuali tag applicati a un progetto per facilitarne la categorizzazione. |
-| Descrizione | La descrizione è utile per chiarire lo scopo di un progetto. Puoi fare doppio clic sulla descrizione per modificarla. |
+| Ultima modifica | Data dell’ultima modifica al progetto. |
+| Tag | Elenca tutti i tag applicati a un progetto per facilitarne la classificazione. |
+| Descrizione | Una descrizione è utile per chiarire lo scopo di un progetto. Puoi fare doppio clic sulla descrizione per modificarla. |
 | Conta istanze ripetute | Specifica se le istanze ripetute sono conteggiate o meno nei rapporti. Nota: questa impostazione non si applica alle visualizzazioni Flusso o Abbandono. |
 | Mostra annotazioni | Specifica se le annotazioni per questo progetto sono visualizzate o meno. |
 | [Palette dei colori del progetto](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Per cambiare la palette di colori utilizzata per le categorie in Workspace, puoi scegliere una delle palette predefinite ottimizzate per il daltonismo o specificarne una personalizzata. Questa funzione interessa numerosi elementi in Workspace, compresa la maggior parte delle visualizzazioni. |

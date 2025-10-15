@@ -21,7 +21,7 @@ I componenti intervallo di date consentono di definire e sovrascrivere le impost
 
 +++ View a video illustrating use of calendar and date ranges
 
->[!VIDEO](https://video.tv.adobe.com/v/329388?format=jpeg&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/24136?format=jpeg)
 
 {{videoaa}}
 +++

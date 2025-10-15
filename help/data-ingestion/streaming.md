@@ -238,7 +238,7 @@ Per creare un connettore di origine API HTTP:
 
 Puoi copiare l’URL dell’endpoint di streaming e usarlo per configurare la tua applicazione di fidelizzazione per lo streaming dei dati nel set di dati di fidelizzazione di Adobe Experience Platform.
 
-Consulta [Creare una connessione streaming API HTTP utilizzando l&#39;interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=it) per un tutorial molto più completo che spiega:
+Consulta [Creare una connessione streaming API HTTP utilizzando l&#39;interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html) per un tutorial molto più completo che spiega:
 
 - come utilizzare l’autenticazione,
 - come mappare i dati quando i dati in arrivo non sono compatibili con lo schema XDM e

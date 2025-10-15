@@ -8,7 +8,7 @@ hide-from-toc: true
 source-git-commit: 39f9ef07088eb9595e5057d21008ecd2f5ea44fe
 workflow-type: tm+mt
 source-wordcount: '1954'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 In questa tabella sono elencate tutte le icone di Spectrum disponibili tramite la configurazione di snippet di icone di Spectrum. Utilizza il nome per aggiungere lo snippet al markdown e visualizzare l’icona Spettro.
 
-Guarda la [pagina Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation) per eventuali aggiornamenti.
+Guarda la [pagina Wiki](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation) per eventuali aggiornamenti.
 
 ![](https://reportbuilder.an.adobe.com/assets/AdobeAnalyticsLogo-80.png)
 
@@ -142,7 +142,7 @@ Guarda la [pagina Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spe
 | Bug | `![Bug](/help/assets/icons/Bug.svg)` | ![Bug](/help/assets/icons/Bug.svg) |
 | Generazione | `![Building](/help/assets/icons/Building.svg)` | ![Generazione](/help/assets/icons/Building.svg) |
 | BulkEditUser | `![BulkEditUser](/help/assets/icons/BulkEditUser.svg)` | ![BulkEditUser](/help/assets/icons/BulkEditUser.svg) |
-| Pulsante | `![Button](/help/assets/icons/Button.svg)` | ![Button](/help/assets/icons/Button.svg) |
+| Pulsante | `![Button](/help/assets/icons/Button.svg)` | ![Pulsante](/help/assets/icons/Button.svg) |
 | Libreria CCL | `![CCLibrary](/help/assets/icons/CCLibrary.svg)` | ![Libreria CCL](/help/assets/icons/CCLibrary.svg) |
 | Calcolatrice | `![Calculator](/help/assets/icons/Calculator.svg)` | ![Calcolatore](/help/assets/icons/Calculator.svg) |
 | Calendario | `![Calendar](/help/assets/icons/Calendar.svg)` | ![Calendario](/help/assets/icons/Calendar.svg) |
@@ -162,7 +162,7 @@ Guarda la [pagina Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spe
 | Capitale | `![Capital](/help/assets/icons/Capital.svg)` | ![Capitale](/help/assets/icons/Capital.svg) |
 | Captcha | `![Captcha](/help/assets/icons/Captcha.svg)` | ![Captcha](/help/assets/icons/Captcha.svg) |
 | Auto | `![Car](/help/assets/icons/Car.svg)` | ![Auto](/help/assets/icons/Car.svg) |
-| scheda | `![Card](/help/assets/icons/Card.svg)` | ![Scheda](/help/assets/icons/Card.svg) |
+| Scheda | `![Card](/help/assets/icons/Card.svg)` | ![Scheda](/help/assets/icons/Card.svg) |
 | Canale | `![Channel](/help/assets/icons/Channel.svg)` | ![Canale](/help/assets/icons/Channel.svg) |
 | Chat | `![Chat](/help/assets/icons/Chat.svg)` | ![Chat](/help/assets/icons/Chat.svg) |
 | ChatAdd | `![ChatAdd](/help/assets/icons/ChatAdd.svg)` | ![ChatAdd](/help/assets/icons/ChatAdd.svg) |
@@ -182,7 +182,7 @@ Guarda la [pagina Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spe
 | Orologio | `![Clock](/help/assets/icons/Clock.svg)` | ![Orologio](/help/assets/icons/Clock.svg) |
 | ClockCheck | `![ClockCheck](/help/assets/icons/ClockCheck.svg)` | ![ControlloOrologio](/help/assets/icons/ClockCheck.svg) |
 | CloneStamp | `![CloneStamp](/help/assets/icons/CloneStamp.svg)` | ![TimbroClone](/help/assets/icons/CloneStamp.svg) |
-| Close | `![Close](/help/assets/icons/Close.svg)` | ![Chiudi](/help/assets/icons/Close.svg) |
+| Chiudi | `![Close](/help/assets/icons/Close.svg)` | ![Chiudi](/help/assets/icons/Close.svg) |
 | CloseCaption | `![CloseCaption](/help/assets/icons/CloseCaption.svg)` | ![Sottotitolo](/help/assets/icons/CloseCaption.svg) |
 | CloseCircle | `![CloseCircle](/help/assets/icons/CloseCircle.svg)` | ![ChiudiCerchio](/help/assets/icons/CloseCircle.svg) |
 | Cloud | `![Cloud](/help/assets/icons/Cloud.svg)` | ![Cloud](/help/assets/icons/Cloud.svg) |
@@ -476,7 +476,7 @@ Guarda la [pagina Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spe
 | Mano4 | `![Hand4](/help/assets/icons/Hand4.svg)` | ![Mano4](/help/assets/icons/Hand4.svg) |
 | Guarire | `![Heal](/help/assets/icons/Heal.svg)` | ![Guarisci](/help/assets/icons/Heal.svg) |
 | Cuore | `![Heart](/help/assets/icons/Heart.svg)` | ![Cuore](/help/assets/icons/Heart.svg) |
-| Aiuto | `![Help](/help/assets/icons/Help.svg)` | ![Aiuto](/help/assets/icons/Help.svg) |
+| Aiuto | `![Help](/help/assets/icons/Help.svg)` | ![Guida](/help/assets/icons/Help.svg) |
 | GuidaStruttura | `![HelpOutline](/help/assets/icons/HelpOutline.svg)` | ![Guida](/help/assets/icons/HelpOutline.svg) |
 | Istogramma | `![Histogram](/help/assets/icons/Histogram.svg)` | ![Istogramma](/help/assets/icons/Histogram.svg) |
 | Cronologia | `![History](/help/assets/icons/History.svg)` | ![Cronologia](/help/assets/icons/History.svg) |
@@ -786,7 +786,7 @@ Guarda la [pagina Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spe
 | SortOrderUp | `![SortOrderUp](/help/assets/icons/SortOrderUp.svg)` | ![OrdinamentoSuperiore](/help/assets/icons/SortOrderUp.svg) |
 | Spam | `![Spam](/help/assets/icons/Spam.svg)` | ![Spam](/help/assets/icons/Spam.svg) |
 | Controllo ortografia | `![Spellcheck](/help/assets/icons/Spellcheck.svg)` | ![Controllo ortografia](/help/assets/icons/Spellcheck.svg) |
-| Set a 360 gradi | `![Spin](/help/assets/icons/Spin.svg)` | ![Rotazione](/help/assets/icons/Spin.svg) |
+| Rotazione | `![Spin](/help/assets/icons/Spin.svg)` | ![Rotazione](/help/assets/icons/Spin.svg) |
 | SplitView | `![SplitView](/help/assets/icons/SplitView.svg)` | ![SplitView](/help/assets/icons/SplitView.svg) |
 | SpotHeal | `![SpotHeal](/help/assets/icons/SpotHeal.svg)` | ![CorrezionePunta](/help/assets/icons/SpotHeal.svg) |
 | Stadio | `![Stadium](/help/assets/icons/Stadium.svg)` | ![Stadio](/help/assets/icons/Stadium.svg) |
@@ -804,7 +804,7 @@ Guarda la [pagina Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spe
 | StepBackwardCircle | `![StepBackwardCircle](/help/assets/icons/StepBackwardCircle.svg)` | ![CerchioIndietroPassaggio](/help/assets/icons/StepBackwardCircle.svg) |
 | AvantiPasso | `![StepForward](/help/assets/icons/StepForward.svg)` | ![Avanti](/help/assets/icons/StepForward.svg) |
 | StepForwardCircle | `![StepForwardCircle](/help/assets/icons/StepForwardCircle.svg)` | ![CerchioAvantiPassaggio](/help/assets/icons/StepForwardCircle.svg) |
-| Stop | `![Stop](/help/assets/icons/Stop.svg)` | ![Interrompi](/help/assets/icons/Stop.svg) |
+| Interrompi | `![Stop](/help/assets/icons/Stop.svg)` | ![Interrompi](/help/assets/icons/Stop.svg) |
 | StopCircle | `![StopCircle](/help/assets/icons/StopCircle.svg)` | ![InterrompiCerchio](/help/assets/icons/StopCircle.svg) |
 | Cronometro | `![Stopwatch](/help/assets/icons/Stopwatch.svg)` | ![Cronometro](/help/assets/icons/Stopwatch.svg) |
 | Raddrizza | `![Straighten](/help/assets/icons/Straighten.svg)` | ![Raddrizza](/help/assets/icons/Straighten.svg) |
@@ -909,7 +909,7 @@ Guarda la [pagina Wiki] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spe
 | Trofeo | `![Trophy](/help/assets/icons/Trophy.svg)` | ![Trofeo](/help/assets/icons/Trophy.svg) |
 | Due punti | `![TwoDots](/help/assets/icons/TwoDots.svg)` | ![Due punti](/help/assets/icons/TwoDots.svg) |
 | Tipo | `![Type](/help/assets/icons/Type.svg)` | ![Tipo](/help/assets/icons/Type.svg) |
-| USA | `![USA](/help/assets/icons/USA.svg)` | ![STATI UNITI](/help/assets/icons/USA.svg) |
+| U.S.A. | `![USA](/help/assets/icons/USA.svg)` | ![STATI UNITI](/help/assets/icons/USA.svg) |
 | Sottolinea | `![Underline](/help/assets/icons/Underline.svg)` | ![Sottolineato](/help/assets/icons/Underline.svg) |
 | Annulla | `![Undo](/help/assets/icons/Undo.svg)` | ![Annulla](/help/assets/icons/Undo.svg) |
 | Separa | `![Ungroup](/help/assets/icons/Ungroup.svg)` | ![Separa](/help/assets/icons/Ungroup.svg) |

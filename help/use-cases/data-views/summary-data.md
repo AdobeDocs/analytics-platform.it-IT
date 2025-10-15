@@ -323,7 +323,7 @@ Per aggiungere un gruppo di campi contenente i campi per i dati di esempio:
    | `ad_group` | `ad_group` | Stringa | Esempio di dati di riepilogo |
    | `campaign_name` | `campaign_name` | Stringa | Esempio di dati di riepilogo |
    | `cost` | `cost` | Doppio | Esempio di dati di riepilogo |
-   | `impression` | `impression` | Intero | Esempio di dati di riepilogo |
+   | `impression` | `impression` | Numero intero | Esempio di dati di riepilogo |
    | `network` | `network` | Stringa | Esempio di dati di riepilogo |
 
 1. Per salvare il gruppo di campi **[!UICONTROL Example Summary Data]** come parte dello schema, seleziona **[!UICONTROL Save]**. Viene visualizzata una conferma quando lo schema viene salvato correttamente.
@@ -459,8 +459,8 @@ Per poter creare rapporti sui dati corretti in Workspace, devi creare una visual
          | Nome componente | Set di dati | Tipo di dati dello schema | Percorso dello schema |
          |---|---|---|---|
          | Costo | Esempio di set di dati di riepilogo | Doppio | *_tenant*.cost |
-         | Impression | Esempio di set di dati di riepilogo | Intero | *_tenant*.impression |
-         | Ordini | Esempio di set di dati di dati evento | Intero | *_tenant*.orders |
+         | Impression | Esempio di set di dati di riepilogo | Numero intero | *_tenant*.impression |
+         | Ordini | Esempio di set di dati di dati evento | Numero intero | *_tenant*.orders |
          | Ricavi | Esempio di set di dati di dati evento | Doppio | *_tenant*.revenue_amount |
 
          **Dimensioni**
@@ -603,4 +603,4 @@ Il progetto finale deve essere simile a quello mostrato di seguito.
 >[!MORELIKETHIS]
 >
 >[Dati di riepilogo](/help/data-views/summary-data.md)
->&#x200B;>[Impostazioni componente gruppo di dati di riepilogo](/help/data-views/component-settings/summary-data-group.md)
+>>[Impostazioni componente gruppo di dati di riepilogo](/help/data-views/component-settings/summary-data-group.md)

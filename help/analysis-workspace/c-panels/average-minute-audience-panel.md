@@ -33,7 +33,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive il pannello Pubblico medio per minuto del file multimediale in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulta [Pannello Pubblico medio per minuto del file multimediale](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive il pannello Pubblico medio per minuto del file multimediale in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta [Pannello Pubblico medio per minuto del file multimediale](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -187,6 +187,6 @@ Il pannello Pubblico medio per minuto del file multimediale utilizza solo la met
 >[!MORELIKETHIS]
 >
 > [Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [Pannello Visualizzatori simultanei di file multimediali](media-concurrent-viewers.md)
-> &#x200B;> [Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
+> > [Pannello Visualizzatori simultanei di file multimediali](media-concurrent-viewers.md)
+> > [Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
 >

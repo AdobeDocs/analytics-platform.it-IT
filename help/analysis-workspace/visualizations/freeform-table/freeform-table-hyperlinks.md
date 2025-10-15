@@ -26,7 +26,7 @@ Questa funzionalità è particolarmente utile quando si creano collegamenti iper
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta, ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare collegamenti ipertestuali in una tabella a forma libera](https://video.tv.adobe.com/v/3445793/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta, ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare collegamenti ipertestuali in una tabella a forma libera](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

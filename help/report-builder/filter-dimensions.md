@@ -121,7 +121,7 @@ Per impostare i criteri di filtro:
 
 Puoi includere fino a 10 elementi di criteri.
 
-### **[!UICONTROL &#x200B; Specific]**
+### **[!UICONTROL  Specific]**
 
 L&#39;opzione **[!UICONTROL Specific]** consente di creare un elenco fisso di elementi dimensionali per ogni dimensione. Utilizza il tipo di filtro **[!UICONTROL Specific]** per specificare gli elementi dimensionali esatti da includere nel filtro. Puoi selezionare gli elementi da un elenco o da un intervallo di celle.
 

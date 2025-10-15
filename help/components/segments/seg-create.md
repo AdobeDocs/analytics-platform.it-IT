@@ -1,5 +1,5 @@
 ---
-title: Creare un segmento
+title: Creare segmenti
 description: Interfaccia utente per la creazione di segmenti.
 exl-id: b6a921d5-7dd3-4230-88b8-5f1cd313b791
 feature: Filters, Segments

@@ -7,7 +7,7 @@ role: User
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 31%
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ Le [!UICONTROL Column settings] consentono di configurare la formattazione delle
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://video.tv.adobe.com/v/328590/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -37,11 +37,11 @@ Per accedere a [!UICONTROL Column settings], selezionare ![Impostazioni colonna]
 | **[!UICONTROL Show total]** | Mostra una somma lato client della colonna. Questo totale **non** deduplica metriche quali sessioni o persone. |
 | **[!UICONTROL Show grand total]** | Mostra una somma lato server della colonna. Il totale complessivo deduplica metriche quali sessioni o persone. |
 | **[!UICONTROL Show sparkline]** | Mostra un grafico a linee nell’intestazione della colonna. |
-| **[!UICONTROL Number]** | Determina se mostrare/nascondere il valore numerico di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni di pagina, il valore numerico corrisponde al numero di visualizzazioni di pagina per l’elemento riga. |
+| **[!UICONTROL Number]** | Determina se mostrare/nascondere il valore numerico di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni pagina, il valore numerico corrisponde al numero di visualizzazioni di pagina per l’elemento riga. |
 | **[!UICONTROL Percent]** | Determina se mostrare/nascondere il valore percentuale di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni pagina, il valore percentuale corrisponde al numero di visualizzazioni di pagina per l’elemento riga, diviso per il totale delle visualizzazioni di pagina per la colonna.  Nota: per garantire la precisione, è possibile usare percentuali superiori al 100%. Il limite superiore può essere spostato a 1.000% per evitare che la larghezza delle colonne diventi troppo grande. |
 | **[!UICONTROL Show anomalies]** | Determina se eseguire il rilevamento delle anomalie sui valori di questa colonna. |
 | **[!UICONTROL Show forecast]** | Determina se i valori di previsione sono visualizzati in questa colonna. |
-| **[!UICONTROL Wrap header text]** | Racchiudi il testo dell’intestazione nelle tabelle a forma libera per rendere le intestazioni più leggibili e le tabelle più condivisibili. Il wrapping è utile per il rendering PDF e per le metriche con nomi lunghi. È attivata per impostazione predefinita. |
+| **[!UICONTROL Wrap header text]** | Racchiudi il testo dell’intestazione nelle tabelle a forma libera per rendere le intestazioni più leggibili e le tabelle più condivisibili. Il wrapping è utile per il rendering PDF e per le metriche con nomi lunghi. Abilitato per impostazione predefinita. |
 | **[!UICONTROL Interpret zero as no value]** | Per le celle con un valore 0, determinare se visualizzare una cella vuota o 0. Questa interpretazione è utile quando si esaminano i dati per ogni giorno di un mese e alcuni giorni sono futuri.  Invece di visualizzare valori 0 per le date future, vengono visualizzate celle vuote. I grafici rispettano anche questa impostazione, ovvero non visualizzano una linea o una barra con valori pari a 0. |
 | **[!UICONTROL Background]** | Determina se mostrare o nascondere tutta la formattazione della cella, inclusi il grafico a barre e la formattazione condizionale. |
 | **[!UICONTROL Bar Graph]** | Mostra un grafico a barre orizzontale che rappresenta il valore della cella rispetto al totale della colonna. |
@@ -58,7 +58,7 @@ La formattazione condizionale applica la formattazione ai limiti superiori e inf
 | Opzioni di formattazione condizionale | Descrizione |
 | --- | --- |
 | **[!UICONTROL Use percent limits]** | Modifica l’intervallo di limiti in modo che sia basato su percentuali anziché su valori assoluti. L’intervallo dei limiti di percentuale funziona per metriche basate esclusivamente sulle percentuali (come Bounce Rate, o Percentuale non recapitate) e per metriche basate su conteggio e percentuale (come Visualizzazioni di pagina). |
-| **[!UICONTROL Auto-generated]** | Calcola automaticamente i limiti superiori/medi/inferiori in base ai dati. Il limite superiore corrisponde al valore massimo nella colonna. Il limite inferiore corrisponde a quello minimo e il punto intermedio è la media fra il limite superiore e quello inferiore. |
+| **[!UICONTROL Auto-generated]** | Calcola automaticamente i limiti superiori/medi/inferiori in base ai dati. Il limite superiore è il valore più grande di questa colonna. Il limite inferiore è il più basso e il punto intermedio è la media dei limiti superiore e inferiore. |
 | **[!UICONTROL Custom]** | Assegna manualmente **[!UICONTROL Upper limit]**, **[!UICONTROL Midpoint]** e **[!UICONTROL Lower limit]**. I limiti forniscono la flessibilità necessaria per determinare quando un valore di colonna diventa buono, medio o scarso. |
 | **[!UICONTROL Conditional formatting palette]** | Applica un set di colori preconfigurato alle celle. A seconda delle quattro combinazioni di colori selezionate, a valori alti, intermedi e bassi vengono assegnati colori diversi. <br> La sostituzione di una dimensione nella tabella ridefinisce i limiti della formattazione condizionale. La sostituzione di un dato ricalcola i limiti per la colonna (dove il dato si trova sull’asse X e la dimensione sull’asse Y). |
 

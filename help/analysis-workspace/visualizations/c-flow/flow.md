@@ -7,7 +7,7 @@ role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 96%
+ht-degree: 82%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione del Flusso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Flusso](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione del Flusso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Flusso](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -55,9 +55,9 @@ Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.
 
 ## Flussi interdimensionali
 
-Ora puoi visualizzare il [flusso tra dimensioni](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Ad esempio, puoi combinare pagine e reparti in un unico diagramma. In questo caso, il flusso potrebbe andare dalla home page alla pagina Uomo e quindi al reparto Scarpe.
+Ora puoi visualizzare il [flusso tra dimensioni](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Ad esempio, puoi combinare pagine e reparti in un unico diagramma. In questo caso, il flusso potrebbe passare dalla home page alla pagina Uomini e quindi al reparto Scarpe.
 
-Ogni colonna può mostrare una diversa dimensione. Per aggiungere una dimensione al diagramma, trascinala fino ad una zona di rilascio.
+Ogni colonna può mostrare una dimensione diversa. Trascina una dimensione e rilascia una zona di rilascio per aggiungerla al diagramma.
 
 >[!MORELIKETHIS]
 >

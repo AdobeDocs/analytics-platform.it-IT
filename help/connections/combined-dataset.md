@@ -42,7 +42,7 @@ Prendi in considerazione l’esempio seguente. Ci sono due set di dati evento, c
 | --- | --- | --- | --- | ---: |
 | user_847 | 2 gennaio 12:26 PM | Giallo | Cerchio | 8,5 |
 | user_847 | 2 gennaio 1:01 PM | Rosso | | |
-| alternateid_656 | 2 gennaio 20:58 PM | Rosso | Quadrato | 4.2 |
+| alternateid_656 | 2 gennaio 20:58 PM | Rosso | Quadrato | 4,2 |
 | alternateid_656 | 2 Gennaio 9:03 PM | | Triangolo | 3,1 |
 
 Quando crei una connessione utilizzando questi due set di dati evento e hai identificato
@@ -61,7 +61,7 @@ per il reporting viene utilizzato il seguente set di dati combinato.
 | user_847 | 2 gennaio 12:31 PM | | Tartaro | | 4 | |
 | user_847 | 2 gennaio 12:44 PM | | | | 2 | |
 | user_847 | 2 gennaio 1:01 PM | Rosso | | | | |
-| alternateid_656 | 2 gennaio 20:58 PM | Rosso | | Quadrato | | 4.2 |
+| alternateid_656 | 2 gennaio 20:58 PM | Rosso | | Quadrato | | 4,2 |
 | alternateid_656 | 2 Gennaio 9:03 PM | | | Triangolo | | 3,1 |
 
 Per illustrare l’importanza dei percorsi degli schemi, considera questo scenario. Nel primo set di dati, `string_color` è basato sul percorso dello schema `_experience.whatever.string_color` e nel secondo set di dati sul percorso dello schema `_experience.somethingelse.string_color`. In questo scenario, i dati sono **not** uniti in una colonna nel set di dati combinato risultante. Invece, il risultato è due `string_color` colonne nel set di dati combinato:
@@ -75,7 +75,7 @@ Per illustrare l’importanza dei percorsi degli schemi, considera questo scenar
 | user_847 | 2 gennaio 12:31 PM | | | Tartaro |  | 4 | |
 | user_847 | 2 gennaio 12:44 PM | | | | | 2 | |
 | user_847 | 2 gennaio 1:01 PM | | Rosso | | | | |
-| alternateid_656 | 2 gennaio 20:58 PM | | Rosso | | Quadrato | | 4.2 |
+| alternateid_656 | 2 gennaio 20:58 PM | | Rosso | | Quadrato | | 4,2 |
 | alternateid_656 | 2 Gennaio 9:03 PM | | | | Triangolo | | 3,1 |
 
 Questo set di dati evento combinato è ciò che viene utilizzato nel reporting. Non importa da quale set di dati provenga una riga. Customer Journey Analytics tratta tutti i dati come se si trovassero nello stesso set di dati. Se un ID persona corrispondente è presente in entrambi i set di dati, viene considerato la stessa persona univoca. Se un ID persona corrispondente viene visualizzato in entrambi i set di dati con una marca temporale entro 30 minuti, viene considerato parte della stessa sessione. I campi con percorsi di schema identici vengono uniti.

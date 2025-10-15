@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: 0e4ea634a604a65484a57f5af8021badb86a865a
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -144,4 +144,4 @@ Questa pagina include gli indirizzi IP da aggiungere al inserisco nell&#39;elenc
 >
 >[Domini utilizzati da Customer Journey Analytics](domains.md)
 >
->[Indirizzi IP utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/ip-addresses)
+>[Indirizzi IP utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)

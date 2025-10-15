@@ -29,7 +29,7 @@ Ciò è dovuto ai seguenti motivi:
 
 * Capacità di Platform di contenere tutti i tipi di schemi e tipi di dati
 
-  A differenza di Adobe Analytics (che segnala solo i dati web), in Adobe Experience Platform[&#x200B; è possibile acquisire molti tipi diversi di dati da segnalare in Customer Journey Analytics e non tutti i tipi di dati possono essere inviati in sequenza e in tempo reale.](/help/data-ingestion/data-ingestion.md)
+  A differenza di Adobe Analytics (che segnala solo i dati web), in Adobe Experience Platform[ è possibile acquisire molti tipi diversi di dati da segnalare in Customer Journey Analytics e non tutti i tipi di dati possono essere inviati in sequenza e in tempo reale.](/help/data-ingestion/data-ingestion.md)
 
 * Ritardo nella consegna dei dati batch ai set di dati di Platform
 
@@ -47,6 +47,6 @@ Per ulteriori informazioni su come regolare il ritardo e sui fattori da consider
 
 ## Creare un avviso
 
-In Analysis Workspace in Adobe Analytics, puoi [creare avvisi da Analysis Workspace in più modi](https://experienceleague.adobe.com/it/docs/analytics/components/alerts/alert-builder). In Customer Journey Analytics, è possibile [creare un avviso](alert-builder.md) in Analysis Workspace solo da una selezione in una tabella a forma libera.
+In Analysis Workspace in Adobe Analytics, puoi [creare avvisi da Analysis Workspace in più modi](https://experienceleague.adobe.com/en/docs/analytics/components/alerts/alert-builder). In Customer Journey Analytics, è possibile [creare un avviso](alert-builder.md) in Analysis Workspace solo da una selezione in una tabella a forma libera.
 
 Sia Adobe Analytics che Customer Journey Analytics supportano la creazione di avvisi tramite [Gestione avvisi](alert-manager.md)

@@ -7,7 +7,7 @@ exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
 source-git-commit: ab0e6f0578cbc6f856c2b0a46b1231cce145b84c
 workflow-type: tm+mt
 source-wordcount: '2612'
-ht-degree: 11%
+ht-degree: 7%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -232,7 +232,7 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 
       * Mostra numeri negativi.
 
-        Ad esempio, per rappresentare una metrica annuale, la mappa può visualizzare -33% per New York.
+        Ad esempio, per un grafico su base annua, la mappa può mostrare un valore pari a -33% su New York.
 
       * Con metriche di tipo *percent*, il clustering calcola la media delle percentuali insieme.
 
@@ -256,12 +256,12 @@ Per configurare le impostazioni per la visualizzazione mappa:
    | Sezione | Impostazione | Descrizione |
    | --- |--- |--- |
    | **[!UICONTROL Map type]** | | |
-   | | **[!UICONTROL Bubbles]** | Traccia gli eventi tramite una rappresentazione a bolle. Un grafico a bolle è un grafico con più variabili, un incrocio tra un grafico a dispersione e un grafico a superfici proporzionali. Questa è l&#39;impostazione predefinita. |
-   | | **[!UICONTROL Heatmap]** | Traccia gli eventi tramite una mappa di calore. Si tratta di una rappresentazione grafica in cui i singoli valori di una matrice sono rappresentati da colori. |
+   | | **[!UICONTROL Bubbles]** | Traccia gli eventi utilizzando le bolle. Un grafico a bolle è un grafico a più variabili che è un incrocio tra un grafico a dispersione e un grafico ad area proporzionale. Questa è l&#39;impostazione predefinita. |
+   | | **[!UICONTROL Heatmap]** | Traccia gli eventi utilizzando una mappa di calore. Una mappa di calore è una rappresentazione grafica dei dati in cui i singoli valori contenuti in una matrice sono rappresentati come colori. |
    | **[!UICONTROL Styles]** | | |
-   | | **[!UICONTROL Color theme]** | Mostra lo schema di colori utilizzato per la mappa di calore e le bolle. Puoi scegliere tra Corallo, Rossi, Verdi e Blu. L&#39;impostazione predefinita è Coral. |
+   | | **[!UICONTROL Color theme]** | Mostra la combinazione di colori per la mappa di calore e le bolle. Puoi scegliere tra Coral, Reds, Greens o Blues. L&#39;impostazione predefinita è Coral. |
    | | **[!UICONTROL Map style]** | È possibile scegliere tra Basic, Streets, Bright, Light, Dark e Satellite. |
-   | | **[!UICONTROL Cluster radius]** | Raggruppa i dati che si trovano entro un certo numero di pixel. Il valore predefinito è 50.<p>Questa opzione è disponibile solo quando **[!UICONTROL Bubbles]** è selezionato come **[!UICONTROL Map type]**.</p> |
+   | | **[!UICONTROL Cluster radius]** | Raggruppa i punti dati che rientrano nel numero di pixel specificato. Il valore predefinito è 50.<p>Questa opzione è disponibile solo quando **[!UICONTROL Bubbles]** è selezionato come **[!UICONTROL Map type]**.</p> |
    | | **[!UICONTROL Custom max value]** | Consente di modificare la soglia per il valore massimo per la mappa. Regolando questo valore si regola la scala per le bolle o i valori della mappa di calore (colore e dimensione) rispetto al valore massimo personalizzato impostato. |
    | | **[!UICONTROL Show annotations]** | Mostra le annotazioni effettuate per questa visualizzazione. |
    | | **[!UICONTROL Hide title]** | Nasconde il titolo della visualizzazione. |

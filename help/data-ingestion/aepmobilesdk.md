@@ -394,7 +394,7 @@ Per generare e pubblicare il tag:
 
    Il tag viene salvato e quindi creato per il tuo ambiente di sviluppo. Un punto verde indica la corretta compilazione del tag nell’ambiente di sviluppo.
 
-4. È possibile selezionare **[!UICONTROL ...]** per ricreare la libreria o spostarla in un ambiente di gestione temporanea o produzione.
+4. È possibile selezionare **[!UICONTROL ...]** per ricreare la libreria o spostarla in un ambiente di staging o di produzione.
 
 I tag Adobe Experience Platform supportano flussi di lavoro di pubblicazione semplici o complessi che dovrebbero adattarsi alla distribuzione dell’Edge Network di Adobe Experience Platform.
 
@@ -425,7 +425,7 @@ Per ulteriori informazioni, consulta la sezione [Ambienti](https://experiencelea
 
 Ora puoi distribuire il codice all’interno dell’app mobile. Una volta implementata, l’app mobile inizia a raccogliere dati in Adobe Experience Platform.
 
-Convalida l’implementazione, correggila laddove necessario e una volta corretta, distribuiscila nel tuo ambiente di gestione temporanea e produzione utilizzando la funzione di flusso di lavoro di pubblicazione dei tag.
+Convalida l’implementazione, correggila laddove necessario e una volta corretta, implementala nell’ambiente di staging e di produzione utilizzando la funzione di flusso di lavoro di pubblicazione dei tag.
 
 Per informazioni molto più dettagliate, consulta l&#39;[esercitazione sull&#39;implementazione di Adobe Experience Cloud nelle app per dispositivi mobili](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=it).
 

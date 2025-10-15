@@ -93,7 +93,7 @@ I nodi di questo percorso contengono le statistiche seguenti quando il campo **[
 
 ![Percorso con nodi con una percentuale superiore rispetto al nodo precedente](assets/journey-canvas-higher-percentage.png)
 
-| Nodo | Statistics (Statistiche) |
+| Nodo | Statistiche |
 |---------|----------|
 | Nodo 1: &quot;Visita sito&quot; | In questo percorso, c&#39;erano 354.147 eventi sul sito all&#39;interno dell&#39;intervallo di date di reporting, come mostrato nel nodo iniziale del percorso, &quot;Visita sito&quot;. |
 | Nodo 2 - &quot;Visualizza prodotto A&quot; | Del numero totale di eventi visualizzati nel nodo iniziale, il 14% (48.394) corrispondeva ai criteri del secondo nodo del percorso, &quot;Visualizza prodotto A&quot;. |
@@ -107,7 +107,7 @@ I nodi di questo percorso contengono le statistiche seguenti quando il campo **[
 
 ![Percorso con nodi con una percentuale superiore rispetto al nodo precedente](assets/journey-canvas-percentage-previous.png)
 
-| Nodo | Statistics (Statistiche) |
+| Nodo | Statistiche |
 |---------|----------|
 | Nodo 1: &quot;Visita sito&quot; | In questo percorso, c&#39;erano 354.147 eventi sul sito all&#39;interno dell&#39;intervallo di date di reporting, come mostrato nel nodo iniziale del percorso, &quot;Visita sito&quot;. |
 | Nodo 2 - &quot;Visualizza prodotto A&quot; | Del numero totale di eventi visualizzati nel nodo precedente, il 14% (48.394) corrispondeva ai criteri del secondo nodo del percorso, &quot;Visualizza prodotto A&quot;. |
@@ -121,7 +121,7 @@ I nodi di questo percorso contengono le statistiche seguenti quando il campo **[
 
 ![Percorso con nodi con una percentuale superiore rispetto al nodo precedente](assets/journey-canvas-percentage-total.png)
 
-| Nodo | Statistics (Statistiche) |
+| Nodo | Statistiche |
 |---------|----------|
 | Nodo 1: &quot;Visita sito&quot; | In questo percorso, c&#39;erano 354.147 eventi sul sito all&#39;interno dell&#39;intervallo di date di reporting, come mostrato nel nodo iniziale del percorso, &quot;Visita sito&quot;. |
 | Nodo 2 - &quot;Visualizza prodotto A&quot; | Sul numero totale di eventi, meno dell’1% (48.394) corrispondeva ai criteri del secondo nodo del percorso, &quot;Visualizza prodotto A&quot;. |

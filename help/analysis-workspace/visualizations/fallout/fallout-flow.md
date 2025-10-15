@@ -7,7 +7,7 @@ role: User
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 96%
+ht-degree: 87%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione di abbandono in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Abbandono](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione di abbandono in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Abbandono](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,7 @@ Le visualizzazioni Abbandono consentono di:
 
 Il report di abbandono visualizza i tassi di conversione ed abbandono tra ciascun passaggio o punto di contatto in una sequenza.
 
-Ad esempio, puoi tracciare i punti di abbandono di un visitatore durante un processo di acquisto. Per creare un percorso di navigazione nel sito, è sufficiente selezionare un punto di contatto iniziale, uno finale e aggiungere dei punti di contatto intermedi. È inoltre possibile creare visualizzazioni di abbandono con più dimensioni.
+Ad esempio, puoi tracciare i punti di abbandono di un visitatore durante un processo di acquisto. Per creare un percorso di navigazione nel sito, è sufficiente selezionare un punto di contatto iniziale, uno finale e aggiungere dei punti di contatto intermedi. Ma si possono anche eseguire fallout multidimensionali.
 
 ## Scegli tra le visualizzazioni Abbandono, Flusso e Area di lavoro percorso
 
@@ -69,7 +69,7 @@ Entrambe le visualizzazioni Abbandono e [Area di lavoro percorso](/help/analysis
 
 * I tassi di conversione tramite specifici processi sul sito (ad esempio, acquisto o registrazione).
 * Flussi di traffico generali di ambito più ampio: per le persone che hanno visitato la home page, questo flusso mostra quante hanno eseguito una ricerca. E poi quanti di loro alla fine hanno guardato un elemento specifico.
-* Correlazioni tra eventi attivati sul sito. Le correlazioni mostrano la percentuale di persone che, dopo aver letto l’informativa sulla privacy, proseguono con l’acquisto di un prodotto.
+* Correlazioni tra eventi sul sito. Le correlazioni mostrano quale percentuale di persone che hanno guardato la tua informativa sulla privacy è andata avanti per acquistare un prodotto.
 
 Le visualizzazioni Abbandono sono più adatte per:
 

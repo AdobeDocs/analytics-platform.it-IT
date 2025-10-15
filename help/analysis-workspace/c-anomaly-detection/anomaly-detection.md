@@ -7,7 +7,7 @@ role: User
 source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 97%
+ht-degree: 29%
 
 ---
 
@@ -19,18 +19,18 @@ In Analysis Workspace è possibile visualizzare e analizzare le anomalie nei dat
 
 Il rilevamento anomalie fornisce un metodo statistico per determinare il cambiamento di una data metrica in relazione ai dati precedenti.
 
-Consente di separare i “segnali effettivi” da quelli di “disturbo” e quindi di individuare i potenziali fattori che hanno contribuito al verificarsi di tali segnali o anomalie. In altre parole, permette di individuare le fluttuazioni statistiche rilevanti da quelle che non lo sono, e quindi di arrivare alla causa di fondo di una anomalia effettiva. Inoltre, è possibile ottenere previsioni di metriche affidabili (KPI).
+Il rilevamento delle anomalie consente di separare i &quot;segnali effettivi&quot; dal &quot;rumore&quot; e quindi di identificare i fattori potenziali che hanno contribuito a tali segnali o anomalie. In altre parole, consente di identificare quali fluttuazioni statistiche hanno un impatto significativo e quali no. Puoi quindi identificare la causa principale di una vera anomalia. Inoltre, è possibile ottenere previsioni di metriche affidabili (KPI).
 
-Ecco alcuni esempi di anomalie da esaminare:
+Di seguito sono riportati alcuni esempi di anomalie che è possibile analizzare:
 
-* Drastico calo nel valore medio degli ordini
-* Picchi negli ordini con fatturato basso
-* Picchi o calo nelle registrazioni di prova
-* Calo nelle visualizzazioni della pagina di destinazione
-* Picchi negli eventi di buffering video
-* Picchi nei valori più bassi di bitrate video
+* Cali drastici nel valore medio dell’ordine
+* Picchi negli ordini con ricavi bassi
+* Picchi o cadute nelle registrazioni di prova
+* Cadute nelle visualizzazioni della pagina di destinazione
+* Picchi negli eventi del buffer video
+* Picchi di bit rate video ridotti
 
 L’algoritmo di rilevazione delle anomalie di Analysis Workspace include:
 
-* Supporto per la granularità oraria, settimanale e mensile, oltre a quella giornaliera già supportata
-* Supporto per la stagionalità (ad esempio “Black Friday”) e le festività
+* Supporto per granularità oraria, settimanale e mensile, oltre alla granularità giornaliera esistente.
+* Consapevolezza della stagionalità (come il &quot;Black Friday&quot;) e delle festività.
