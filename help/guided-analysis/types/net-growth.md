@@ -41,7 +41,7 @@ Come nell’analisi della crescita [attiva](active-growth.md), gli utenti vengon
 >
 >Gli utenti ripetuti non vengono presi in considerazione in questo calcolo, poiché non appartengono né agli utenti acquisiti né a quelli persi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421664/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423462/?captions=ita&quality=12&learn=on)
 
 
 ## Casi d’uso

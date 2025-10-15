@@ -26,7 +26,7 @@ ht-degree: 100%
 L’analisi ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL First use impact]** mostra un confronto tra le prestazioni degli indicatori chiave prima e dopo che un utente utilizza una funzionalità di prodotto per la prima volta. L’asse orizzontale di questo rapporto è un intervallo di tempo relativo prima e dopo l’evento, mentre l’asse verticale misura gli indicatori chiave desiderati. Una barra verticale al centro del grafico rappresenta il giorno 0 del primo utilizzo di una caratteristica da parte di un utente specifico. Poiché gli utenti non adottano sempre le funzioni nello stesso giorno e i rollout possono potenzialmente verificarsi in più giorni, il giorno 0 può avere un significato diverso per ogni singolo utente.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421661/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423497/?captions=ita&quality=12&learn=on)
 
 
 ## Casi d’uso

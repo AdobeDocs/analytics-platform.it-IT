@@ -26,7 +26,7 @@ ht-degree: 96%
 L’analisi delle ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** fornisce informazioni utili sulle prestazioni del prodotto o sul comportamento degli utenti nel tempo. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli eventi desiderati.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421666/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3423441/?captions=ita&quality=12&learn=on)
 
 ## Casi d’uso
 

@@ -20,7 +20,7 @@ Le metriche calcolate sono metriche personalizzate che puoi creare dalle metrich
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introduzione alle metriche calcolate](https://video.tv.adobe.com/v/31787/?quality=12&learn=on){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introduzione alle metriche calcolate](https://video.tv.adobe.com/v/35866/?captions=ita&quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

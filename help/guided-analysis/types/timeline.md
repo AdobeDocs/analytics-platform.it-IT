@@ -34,7 +34,7 @@ L’analisi della ![Timeline](/help/assets/icons/Timeline.svg) **[!UICONTROL Tim
 >* **Amministratori**: *per questa analisi è necessaria la proprietà PersonID. Aggiungi l’ID persona alla visualizzazione dati.*
 >* **Non amministratori**: *per questa analisi è necessaria la proprietà PersonID. Collabora con l’amministratore di Customer Journey Analytics per aggiungere l’ID persona alla visualizzazione dati.*
 
->[!VIDEO](https://video.tv.adobe.com/v/3427810/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3435775/?captions=ita&quality=12&learn=on)
 
 
 

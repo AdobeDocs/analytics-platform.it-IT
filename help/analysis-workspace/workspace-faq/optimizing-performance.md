@@ -112,6 +112,6 @@ Altri fattori non inclusi in Guida > Prestazioni:
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suggerimenti per aumentare la produttività](https://video.tv.adobe.com/v/31157?quality=12&learn=on){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suggerimenti per aumentare la produttività](https://video.tv.adobe.com/v/35895?captions=ita&quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]

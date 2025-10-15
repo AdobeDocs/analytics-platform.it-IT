@@ -90,7 +90,7 @@ Ripeti i passaggi precedenti per la versione internazionale della metrica calcol
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza una metrica calcolata segmentata come metrica senza implementazione](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza una metrica calcolata segmentata come metrica senza implementazione](https://video.tv.adobe.com/v/41662?captions=ita&quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 {{videoaa}}
 

@@ -30,7 +30,7 @@ L’analisi ![Fidelizzazione](/help/assets/icons/Retention.svg) **[!UICONTROL Re
 
 In questa analisi, l’asse x del grafico rappresenta il tempo trascorso dall’evento iniziale di un utente e l’asse y rappresenta la percentuale di utenti che interagiscono con uno o più eventi di ritorno. È possibile visualizzare sia la fidelizzazione che l’abbandono tra le diverse durate, e le durate visualizzate possono essere personalizzate tramite le impostazioni della query. Sotto il grafico, una tabella fornisce dati aggregati con l’opzione di mostrare le singole coorti, che sono un gruppo di persone che hanno attivato l’evento iniziale nella stessa data.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430503/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3435786/?captions=ita&quality=12&learn=on)
 
 
 ## Casi d’uso
