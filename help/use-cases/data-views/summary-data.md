@@ -603,4 +603,4 @@ Il progetto finale deve essere simile a quello mostrato di seguito.
 >[!MORELIKETHIS]
 >
 >[Dati di riepilogo](/help/data-views/summary-data.md)
->>[Impostazioni componente gruppo di dati di riepilogo](/help/data-views/component-settings/summary-data-group.md)
+>&#x200B;>[Impostazioni componente gruppo di dati di riepilogo](/help/data-views/component-settings/summary-data-group.md)

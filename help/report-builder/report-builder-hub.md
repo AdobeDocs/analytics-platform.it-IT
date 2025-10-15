@@ -70,6 +70,6 @@ Il collegamento **Segmenti** visualizza un elenco di riepilogo dei segmenti util
 >[!MORELIKETHIS]
 >
 >[Selezionare una visualizzazione dati](select-data-view.md)
->>[Seleziona un intervallo di date](select-date-range.md)
->>[Utilizzare i filtri](work-with-filters.md)
+>&#x200B;>[Seleziona un intervallo di date](select-date-range.md)
+>&#x200B;>[Utilizzare i filtri](work-with-filters.md)
 >

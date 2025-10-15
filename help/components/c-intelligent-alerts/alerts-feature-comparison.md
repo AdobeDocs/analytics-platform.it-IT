@@ -29,7 +29,7 @@ Ciò è dovuto ai seguenti motivi:
 
 * Capacità di Platform di contenere tutti i tipi di schemi e tipi di dati
 
-  A differenza di Adobe Analytics (che segnala solo i dati web), in Adobe Experience Platform[ è possibile acquisire molti tipi diversi di dati da segnalare in Customer Journey Analytics e non tutti i tipi di dati possono essere inviati in sequenza e in tempo reale.](/help/data-ingestion/data-ingestion.md)
+  A differenza di Adobe Analytics (che segnala solo i dati web), in Adobe Experience Platform[&#x200B; è possibile acquisire molti tipi diversi di dati da segnalare in Customer Journey Analytics e non tutti i tipi di dati possono essere inviati in sequenza e in tempo reale.](/help/data-ingestion/data-ingestion.md)
 
 * Ritardo nella consegna dei dati batch ai set di dati di Platform
 

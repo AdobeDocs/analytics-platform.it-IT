@@ -52,7 +52,7 @@ In Customer Journey Analytics, passa a **[!UICONTROL Tools]** > **[!UICONTROL Au
 
 Per impostazione predefinita vengono visualizzati i registri di audit relativi alla data odierna e al giorno precedente.
 
-![Registro di audit con evidenziati oggi e ieri. ](assets/audit_ui.png)
+![Registro di audit con evidenziati oggi e ieri. &#x200B;](assets/audit_ui.png)
 
 Per specificare quali colonne devono essere visibili, utilizza il selettore delle colonne in alto a destra.
 
@@ -60,7 +60,7 @@ Per specificare quali colonne devono essere visibili, utilizza il selettore dell
 
 Fai doppio clic sul pulsante Info (i) accanto a una descrizione.
 
-![Registro di audit con evidenziato il pulsante Informazioni. ](assets/info-button-audit.png)
+![Registro di audit con evidenziato il pulsante Informazioni. &#x200B;](assets/info-button-audit.png)
 
 Vengono visualizzati i seguenti elementi:
 

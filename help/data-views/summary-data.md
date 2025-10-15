@@ -21,7 +21,7 @@ Questi dati di riepilogo possono quindi essere utilizzati per presentare indicat
 >[!NOTE]
 >
 >I dati di riepilogo sono dati di serie temporali provenienti da un set di dati di riepilogo. Tale set di dati di riepilogo è basato su uno schema che utilizza la classe Metriche di riepilogo XDM come classe base.
->>Sono supportati solo i dati di serie temporali basate su ore o su giorni.
+>&#x200B;>Sono supportati solo i dati di serie temporali basate su ore o su giorni.
 
 >[!TIP]
 >

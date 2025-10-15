@@ -47,7 +47,7 @@ Prima di utilizzare la funzionalità descritta in questo caso d’uso, assicurat
 
 Experience Platform Query Service consente di eseguire query e unire qualsiasi set di dati nel data lake di Experience Platform come se si trattasse di una tabella di database. Puoi quindi acquisire i risultati come nuovo set di dati da utilizzare ulteriormente nel reporting o per l’esportazione.
 
-È possibile utilizzare l&#39;interfaccia utente di Query Service [1}, un client ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview)connesso tramite il protocollo PostgresQL[ o ](https://experienceleague.adobe.com/it/docs/experience-platform/query/clients/overview)API RESTful[ per creare e pianificare query che raccolgono i dati per il feed di dati.](https://experienceleague.adobe.com/en/docs/experience-platform/query/api/getting-started)
+È possibile utilizzare l&#39;interfaccia utente di Query Service [1&rbrace;, un client &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview)connesso tramite il protocollo PostgresQL[&#x200B; o &#x200B;](https://experienceleague.adobe.com/it/docs/experience-platform/query/clients/overview)API RESTful[&#x200B; per creare e pianificare query che raccolgono i dati per il feed di dati.](https://experienceleague.adobe.com/en/docs/experience-platform/query/api/getting-started)
 
 ### Crea query
 
