@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
 role: Admin
-source-git-commit: 5f17863e1f71917442b4813cc2599eb7ed286e5f
+source-git-commit: 477b9850f923038f399f4399e2cb6c0970964052
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 4%
+source-wordcount: '1444'
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ Questo caso d’uso descrive una soluzione provvisoria per acquisire il pubblico
 ## Prerequisiti
 
 * Accesso a [Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home), in particolare al profilo cliente in tempo reale.
-* Accesso per creare e gestire [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview) di Experience Platform.
+* Accesso per creare e gestire [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) di Experience Platform.
 * Accesso a [Experience Platform Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home) (e possibilità di scrivere codice SQL).
 * Accesso a uno strumento in grado di eseguire alcune trasformazioni di dati.
 * Accesso a Customer Journey Analytics. Devi essere un [amministratore di prodotto Customer Journey Analytics](/help/technotes/access-control.md) per creare e modificare connessioni e visualizzazioni dati di Customer Journey Analytics.
@@ -56,7 +56,7 @@ Nell’interfaccia utente di Experience Platform:
 
 ### Creare un set di dati abilitato per il profilo
 
-È necessario creare un set di dati basato sullo schema **[!UICONTROL XDM Individual Profile]** basato su core. Non è possibile selezionare tale profilo individuale XDM basato su core come schema quando si crea un set di dati nell’interfaccia utente di Experience Platform. Utilizza invece l&#39;API [Catalog Service per creare un set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/create#create-a-dataset) basato sullo schema `_xdm.context.profile__union`.
+È necessario creare un set di dati basato sullo schema **[!UICONTROL XDM Individual Profile]** basato su core. Non è possibile selezionare tale profilo individuale XDM basato su core come schema quando si crea un set di dati nell’interfaccia utente di Experience Platform. Utilizza invece l&#39;API [Catalog Service per creare un set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create#create-a-dataset) basato sullo schema `_xdm.context.profile__union`.
 
 +++ Crea richiesta set di dati
 
@@ -102,7 +102,7 @@ Dove:
 
 ### Esporta tipi di pubblico
 
-Esporta il pubblico selezionato nel set di dati appena creato. Utilizza l&#39;API del servizio di segmentazione [&#x200B; per creare un processo di esportazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/api/export-jobs#create) che invia i tipi di pubblico al set di dati.
+Esporta il pubblico selezionato nel set di dati appena creato. Utilizza l&#39;API del servizio di segmentazione [ per creare un processo di esportazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#create) che invia i tipi di pubblico al set di dati.
 
 +++ Esporta richiesta processo
 
@@ -170,7 +170,7 @@ Dove
 
 +++
 
-Utilizza l&#39;API del servizio di segmentazione [&#x200B; per controllare lo stato del processo di esportazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/api/export-jobs#get).
+Utilizza l&#39;API del servizio di segmentazione [ per controllare lo stato del processo di esportazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#get).
 
 +++ Recuperare una richiesta di processo di esportazione specifica
 
@@ -244,6 +244,7 @@ WHERE value.status = 'realized' AND (key = '{AUDIENCE_ID_1}' OR key = 'AUDIENCE_
 Dove:
 
 * `IDENTITY_TO_USE_AS_PERSON_ID` è uno dei campi definiti come parte del processo di esportazione. Ad esempio: `_demoemea.identification.core.email`.
+* `DATASET_TABLE_NAME` è il nome della tabella del set di dati.
 * `AUDIENCE_ID_x` sono i tipi di pubblico definiti come parte del processo di esportazione. È necessario specificare questi tipi di pubblico ancora una volta, in quanto la specifica nel processo di esportazione è un filtro a livello di riga. Tale filtro a livello di riga restituisce profili per i segmenti specificati con tutte le appartenenze al segmento per ciascuno dei profili.
 
 
@@ -336,7 +337,7 @@ Nell’interfaccia utente di Experience Platform:
    1. (facoltativo) Immettere **[!UICONTROL Description]**.
    1. Seleziona **[!UICONTROL Finish]**.
 1. Impostare lo schema in modo che contenga un gruppo di campi personalizzato, denominato ad esempio **[!UICONTROL Audience Membership]**, contenente due campi denominati **[!UICONTROL audienceMembershipId]** e **[!UICONTROL audienceMembershipName]**.
-1. Assicurarsi che il campo **[!UICONTROL personID]** sia un **[!UICONTROL Identity]**, **[!UICONTROL Primary Identity]** e che abbia **[!UICONTROL Email]** come I&#x200B;**[!UICONTROL dentity namespace]**.
+1. Assicurarsi che il campo **[!UICONTROL personID]** sia un **[!UICONTROL Identity]**, **[!UICONTROL Primary Identity]** e che abbia **[!UICONTROL Email]** come I**[!UICONTROL dentity namespace]**.
 
    ![Segmento per esportazione](assets/segment-for-export.png)
 
@@ -350,7 +351,7 @@ Crea un set di dati e utilizzalo per acquisire i dati JSON trasformati.
 
 Nell’interfaccia utente di Experience Platform:
 
-1. Selezionare **[!UICONTROL Data Management]** > ![Schema](/help/assets/icons2/Schema.svg) **[!UICONTROL Datasets]**.
+1. Selezionare **[!UICONTROL Data Management]** > ![Dati](/help/assets/icons2/Data.svg) **[!UICONTROL Datasets]**.
 1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create dataset]**.
 1. Seleziona **[!UICONTROL Create dataset from schema]**.
 1. Nella procedura guidata **[!UICONTROL Create dataset from schema]**, nel passaggio **[!UICONTROL Select schema]**:
@@ -402,16 +403,17 @@ Configura una visualizzazione dati per la connessione appena creata o modificata
 
 +++
 
-### Rapporto e analisi.
+### Report e analisi
 
-Infine, utilizza Analysis Workspace per creare rapporti sui dati del pubblico di Experience Platform in uno o più pannelli che utilizzano la visualizzazione dati con i componenti di iscrizione al pubblico.
+Infine, utilizza Analysis Workspace per creare rapporti sui dati del pubblico di Experience Platform in uno o più pannelli che utilizzano la visualizzazione dati con i componenti di appartenenza al pubblico come `audienceMembershipId`, `audienceMembershipIdName` e `personID`.
+
 
 
 <!--
 
 ## Step 1: Select audiences in Real-time Customer Profile {#audience}
 
-Experience Platform [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) lets you see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. 
+Experience Platform [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) lets you see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. 
 
 You likely already have audiences in RTCP that may have come from various sources. Select one or more audiences to ingest into Customer Journey Analytics. For example, WKND Fly Platinum and Gold Fly Club Members.
 
@@ -420,19 +422,19 @@ You likely already have audiences in RTCP that may have come from various source
 
 ## Step 2: Create a Profile Union dataset for the export
 
-In order to export the audience to a dataset that you can ingest in Customer Journey Analytics as profiles, create a dataset whose schema is a Profile [Union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it#understanding-union-schemas).
+In order to export the audience to a dataset that you can ingest in Customer Journey Analytics as profiles, create a dataset whose schema is a Profile [Union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
 
 Union schemas are composed of multiple schemas that share the same class and have been enabled for Profile. The union schema enables you to see an amalgamation of all of the fields contained within schemas sharing the same class. Real-time Customer Profile uses the union schema to create a holistic view of each individual customer.
 
 ## Step 3: Export an audience to the Profile Union dataset via API call {#export}
 
-Before you can bring an audience into Customer Journey Analytics, you need to export it to an Adobe Experience Platform dataset. This can only be done using the Segmentation API, and specifically the [Export Jobs API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=it). 
+Before you can bring an audience into Customer Journey Analytics, you need to export it to an Adobe Experience Platform dataset. This can only be done using the Segmentation API, and specifically the [Export Jobs API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html). 
 
 You can create an export job using the audience ID of your choice, and put the results in the Profile Union Adobe Experience Platform dataset you created in Step 2. Although you can export various attributes/events for the audience, you only need to export the specific profile ID field that matches the person ID field used in the Customer Journey Analytics connection you will be leveraging (see below in Step 5).
 
 ## Step 4: Edit the export output 
 
-The results of the export job need to be transformed into a separate Profile dataset in order to be ingested into Customer Journey Analytics.  This transformation can be done with [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it), or another transformation tool of your choice. We only need the Profile ID (that will match the Person ID in Customer Journey Analytics) and one or more audience ID(s) to do the reporting in Customer Journey Analytics.
+The results of the export job need to be transformed into a separate Profile dataset in order to be ingested into Customer Journey Analytics.  This transformation can be done with [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html), or another transformation tool of your choice. We only need the Profile ID (that will match the Person ID in Customer Journey Analytics) and one or more audience ID(s) to do the reporting in Customer Journey Analytics.
 
 The standard export job, however, contains more data and so we need to edit this output to remove extraneous data, as well as move some things around.  Also, you need to create a schema/dataset first before you add the transformed data to it.
 
@@ -472,13 +474,14 @@ Add `audienceMembershipId`, `audienceMembershipIdName` and `personID` to the dat
 
 You can now report on `audienceMembershipId`, `audienceMembershipIdName` and `personID` in Workspace.
 
-## Additional notes
-
-* You should  perform this process on a regular cadence, so that audience data is constantly refreshed within Customer Journey Analytics.
-* You can import multiple audiences within a single Customer Journey Analytics connection. This adds additional complexity to the process, but it is possible. For this to work, you need to make a few modifications to the above process:
-   1. Perform this process for each desired audience in your audience collection within RTCP.
-   1. Customer Journey Analytics supports arrays/object arrays in profile datasets. Using an [array of objects](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=it) for the audienceMembershipId or audienceMembershipIdName is the best option. 
-   1. In your data view, create a new dimension using the Substring transformation on the `audienceMembershipId` field to convert the comma-separated values string to an array. NOTE: there is currently a limit of 10 values in the array.
-   1. You can now report on this new dimension `audienceMembershipIds` within Customer Journey Analytics Workspace.
-
 -->
+
+
+## Note aggiuntive
+
+* Esegui questo processo a cadenza regolare, in modo che i dati del pubblico vengano costantemente aggiornati in Customer Journey Analytics.
+* Puoi importare più tipi di pubblico all’interno di una singola connessione Customer Journey Analytics. Il processo sarà un po’ più complesso, ma è possibile. Dovrai apportare alcune modifiche al processo di cui sopra:
+   1. Esegui questo processo per ogni pubblico desiderato nella raccolta di tipi di pubblico in RTCP.
+   1. Customer Journey Analytics supporta array/array di oggetti nei set di dati profilo. L&#39;utilizzo di un array [di oggetti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=it) per `audienceMembershipId` o `audienceMembershipIdName` è l&#39;opzione migliore.
+   1. Nella visualizzazione dati, crea una nuova dimensione utilizzando la trasformazione Substring (Sottostringa) nel campo `audienceMembershipId` per convertire la stringa di valori separati da virgola in un array. NOTA: attualmente un array può contenere un massimo di 10 valori.
+   1. È ora possibile creare rapporti sulla nuova dimensione `audienceMembershipIds` in Customer Journey Analytics Workspace.
