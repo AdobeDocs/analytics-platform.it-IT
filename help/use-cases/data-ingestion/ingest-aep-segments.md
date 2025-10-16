@@ -102,7 +102,7 @@ Dove:
 
 ### Esporta tipi di pubblico
 
-Esporta il pubblico selezionato nel set di dati appena creato. Utilizza l&#39;API del servizio di segmentazione [ per creare un processo di esportazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#create) che invia i tipi di pubblico al set di dati.
+Esporta il pubblico selezionato nel set di dati appena creato. Utilizza l&#39;API del servizio di segmentazione [&#x200B; per creare un processo di esportazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#create) che invia i tipi di pubblico al set di dati.
 
 +++ Esporta richiesta processo
 
@@ -170,7 +170,7 @@ Dove
 
 +++
 
-Utilizza l&#39;API del servizio di segmentazione [ per controllare lo stato del processo di esportazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#get).
+Utilizza l&#39;API del servizio di segmentazione [&#x200B; per controllare lo stato del processo di esportazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#get).
 
 +++ Recuperare una richiesta di processo di esportazione specifica
 
@@ -336,7 +336,7 @@ Nell’interfaccia utente di Experience Platform:
    1. (facoltativo) Immettere **[!UICONTROL Description]**.
    1. Seleziona **[!UICONTROL Finish]**.
 1. Impostare lo schema in modo che contenga un gruppo di campi personalizzato, denominato ad esempio **[!UICONTROL Audience Membership]**, contenente due campi denominati **[!UICONTROL audienceMembershipId]** e **[!UICONTROL audienceMembershipName]**.
-1. Assicurarsi che il campo **[!UICONTROL personID]** sia un **[!UICONTROL Identity]**, **[!UICONTROL Primary Identity]** e che abbia **[!UICONTROL Email]** come I**[!UICONTROL dentity namespace]**.
+1. Assicurarsi che il campo **[!UICONTROL personID]** sia un **[!UICONTROL Identity]**, **[!UICONTROL Primary Identity]** e che abbia **[!UICONTROL Email]** come I&#x200B;**[!UICONTROL dentity namespace]**.
 
    ![Segmento per esportazione](assets/segment-for-export.png)
 
