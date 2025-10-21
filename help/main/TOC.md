@@ -202,7 +202,7 @@ ht-degree: 99%
       + Tabella a forma libera {#freeform-table}
          + [Panoramica](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Creare collegamenti ipertestuali](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
-         + [Visualizza dati con tendenze](/help/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [Visualizzare dati di tendenza](/help/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
          + [Filtrare e ordinare](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Totali](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + Impostazioni colonna e riga {#column-row-settings}
@@ -265,7 +265,7 @@ ht-degree: 99%
       + [Scaricare](../analysis-workspace/export/download-send.md)
       + [Invio e pianificazione](../analysis-workspace/export/t-schedule-report.md)
       + [Esportare nel cloud](../analysis-workspace/export/export-cloud.md)
-   + Attribution {#attribution}
+   + Attribuzione {#attribution}
       + [Panoramica su Attribution](../analysis-workspace/attribution/overview.md)
       + [Modello, contenitore e intervallo di lookback](../analysis-workspace/attribution/models.md)
       + [Attribuzione algoritmica](../analysis-workspace/attribution/algorithmic.md)
