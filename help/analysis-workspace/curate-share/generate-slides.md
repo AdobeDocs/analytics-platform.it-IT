@@ -6,10 +6,10 @@ feature: Curate and Share
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 9e23382800326440ed2a583e80029c9f27bb2494
+source-git-commit: f6e64e850b8c416817b76697d869c10adb9b544b
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 5%
+source-wordcount: '1123'
+ht-degree: 4%
 
 ---
 
@@ -17,21 +17,27 @@ ht-degree: 5%
 
 Gli utenti con [le autorizzazioni necessarie](#permission-requirements-to-generate-slides) possono generare automaticamente presentazioni con estensione pptx dai progetti Analysis Workspace. Durante la generazione di queste presentazioni di diapositive, Customer Journey Analytics crea automaticamente una storia dai tuoi dati identificando le informazioni chiave e convertendole in diapositive pronte per le parti interessate.
 
-Questa funzionalità riduce il tempo e l’impegno necessari per presentare i risultati dei progetti Workspace e consente di creare rapidamente narrazioni manageriali e comunicare l’impatto aziendale alle parti interessate.
-
-Questa storia di dati generata automaticamente consente agli analisti di concentrarsi sull’esplorazione dei dati, mentre Customer Journey Analytics cura e formatta i risultati dell’analista in base all’utilizzo da parte delle parti interessate.
+Questa storia di dati generata automaticamente riduce il tempo, l’impegno e l’esperienza necessari per far emergere i risultati di un progetto Workspace. Gli analisti possono concentrarsi di più sull’esplorazione dei dati, consentendo al contempo a Customer Journey Analytics di creare e formattare la narrazione esecutiva e comunicare l’impatto aziendale alle parti interessate.
 
 ## Comprendere la storia dei dati nelle presentazioni diapositive
 
-Analysis Workspace utilizza l’intelligenza artificiale generativa per creare storie di dati all’interno di presentazioni di diapositive. Queste storie di dati completano l&#39;analisi di un dato progetto Workspace fornendo ulteriore contesto, evidenziando punti importanti e fornendo idee per i passaggi successivi. richiamare tendenze nascoste, anomalie, fattori contribuenti, fattori chiave
+Analysis Workspace utilizza l’intelligenza artificiale generativa per creare una narrazione basata sui dati di Workspace, in formato di presentazione diapositive.
+
+Le sezioni seguenti descrivono il valore aggiuntivo fornito dalle storie di dati, gli elementi necessari di un progetto che contribuiscono a modellare la narrazione e gli elementi chiave inclusi nell’output di ogni presentazione.
 
 ### Valore aggiuntivo fornito dai data story
+
+Le storie di dati forniscono valore e informazioni approfondite a un progetto Workspace rendendo i dati accessibili agli utenti meno esperti nell’analisi dei dati.
 
 Le storie di dati integrano un&#39;analisi per un dato progetto Workspace in base a:
 
 * Fornire ulteriore contesto
 
 * Evidenziazione di informazioni importanti
+
+* Offrire indicazioni sul fatto che i dati siano buoni o cattivi in un determinato contesto
+
+* Valutare se alcune variabili sono sottovalutate o sopravvalutate.
 
 * Richiamare tendenze nascoste, anomalie e altri fattori contribuenti
 
@@ -155,7 +161,7 @@ Le storie di dati sono costituite da una diapositiva di riepilogo esecutivo, da 
 
 Se necessario, gli amministratori dei profili di prodotto le cui organizzazioni dispongono di licenze per la generazione di diapositive possono disabilitare l’accesso.
 
-In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
+In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
 1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**.
 1. Seleziona il titolo del profilo di prodotto per il quale desideri fornire l’accesso all’[!UICONTROL Data storytelling].
 1. Nel profilo di prodotto specifico, seleziona **[!UICONTROL Permissions]**.
