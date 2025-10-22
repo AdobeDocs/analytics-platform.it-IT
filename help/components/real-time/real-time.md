@@ -4,9 +4,9 @@ title: Panoramica reportistica in tempo reale
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
+source-git-commit: 0e5a64e78e5a471f8b7c9fc32fdbae2b2e70230a
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '780'
 ht-degree: 7%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 7%
 # Panoramica reportistica in tempo reale
 
 Il reporting in tempo reale in Customer Journey Analytics mostra e aggiorna dati e visualizzazioni in uno o più pannelli di Analysis Workspace in tempo reale.
-
-{{release-limited-testing}}
 
 {{ultimate-package}}
 
@@ -59,6 +57,7 @@ La modalità di raccolta dei dati determina la latenza del reporting in tempo re
 | 3 | Connettore sorgente Adobe Analytics | 17 minuti | 105 minuti |
 | 4 | Altri connettori di origine nei connettori di origine (inclusi i dati batch) | 25 ore | 25 ore |
 
+Se si verifica un’interruzione dei servizi per più di mezz’ora, i dati in tempo reale non vengono recuperati con i dati quando i problemi vengono risolti. Il reporting in tempo reale, invece, raccoglie i dati in tempo reale dal momento in cui i servizi ricominciano a funzionare. Durante questo periodo non viene perso alcun dato che rimane comunque disponibile utilizzando le funzioni standard di reporting al di fuori del reporting in tempo reale.
 
 ## Limitazioni
 
