@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Generare presentazioni dai report di Workspace
 feature: Curate and Share
 role: User
-source-git-commit: f13a02c2741cf32c25edd11f969a7644f724b612
+source-git-commit: 62ef107c52a96178fbf9e41fee49db757488525b
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1448'
 ht-degree: 4%
 
 ---
@@ -106,9 +106,10 @@ Le storie di dati sono costituite da una diapositiva titolo, una diapositiva di 
    | **[!UICONTROL Cover title]** | Specificare un titolo per la presentazione. Questo titolo viene visualizzato nella diapositiva titolo della presentazione. |
    | **[!UICONTROL Include presenter name]** | Specifica il nome del relatore. Questo nome viene visualizzato nella diapositiva del titolo della presentazione, sotto il titolo della copertina. |
    | **[!UICONTROL Panels and visualizations to include]** | Scegli i pannelli e la visualizzazione da includere nella presentazione. Puoi includere fino a 50 visualizzazioni.<p>Sono supportati la maggior parte dei pannelli e delle visualizzazioni. Per informazioni sui pannelli e la visualizzazione non supportati, vedere [Elementi e funzionalità del progetto non supportati](#unsupported-project-elements-and-features).</p> |
-   | **[!UICONTROL Panel and visualization descriptions]** | Scegli se includere le descrizioni dei pannelli e delle visualizzazioni nella presentazione di diapositive generata. |
-   | **[!UICONTROL Annotations]** | Scegliere se le annotazioni sono visibili nella presentazione di diapositive generata. Per ulteriori informazioni sulle annotazioni, consulta la sezione [Panoramica delle annotazioni](/help/components/annotations/overview.md). |
    | **[!UICONTROL Emphasize components]** | Scegli le metriche e le dimensioni dalle visualizzazioni che desideri enfatizzare nella presentazione. I componenti scelti vengono classificati più in alto e hanno più peso quando si creano i temi e la narrazione generale della storia dei dati. <p>Quando non viene applicata alcuna enfasi, i componenti vengono visualizzati nelle presentazioni nel modo seguente:<ul><li>**Metriche e dimensioni:** corsivo</li><li>**Elementi Dimension:** virgolette</li></ul></p><p>Quando si applica l’enfasi, i componenti vengono visualizzati nelle presentazioni come segue:</p><ul><li>**Metriche e dimensioni:** corsivo e grassetto</li><li>**Elementi Dimension:** grassetto quando la dimensione corrispondente viene enfatizzata<p>Un colore viene applicato anche all’elemento dimensione quando questo viene evidenziato nel grafico.</p></li></ul> |
+
+   <!-- add this later: - **[!UICONTROL Panel and visualization descriptions]** - Choose whether to include panel and visualization descriptions in your generated slide presentation. - 
+   - **[!UICONTROL Annotations]** - Choose whether annotations are visible in your generated slide presentation. For more information about annotations, see [Annotations overview](/help/components/annotations/overview.md).  -  -->
 
 1. (Condizionale) Selezionare **[!UICONTROL Default theme]** se si desidera generare diapositive in meno passaggi e se non è necessario un tema aziendale per la presentazione diapositive.
 
@@ -184,7 +185,7 @@ La possibilità di generare diapositive è attivata per impostazione predefinita
 
 Se necessario, gli amministratori dei profili di prodotto le cui organizzazioni dispongono di licenze per la generazione di diapositive possono disabilitare l’accesso.
 
-In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
+In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
 1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**.
 1. Seleziona il titolo del profilo di prodotto per il quale desideri fornire l’accesso all’[!UICONTROL Data storytelling].
 1. Nel profilo di prodotto specifico, seleziona **[!UICONTROL Permissions]**.
