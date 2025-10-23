@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Generare presentazioni dai report di Workspace
 feature: Curate and Share
 role: User
-source-git-commit: 3807ad0beac3656c1f3bd886611fbe4470a6e7c5
+source-git-commit: 99adae279a21c827579ebc3b58b336a9f0e3e8a4
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 4%
@@ -12,6 +12,10 @@ ht-degree: 4%
 ---
 
 # Narrazione dei dati: generare presentazioni di diapositive dai rapporti di Workspace {#generate-powerpoint}
+
+{{release-limited-testing}}
+
+<!-- also remove lmited testing note from: /help/technotes/access-control.md -->
 
 Gli utenti con [le autorizzazioni necessarie](#permission-requirements-to-generate-slides) possono generare automaticamente presentazioni con estensione pptx in base ai progetti Analysis Workspace. Durante la generazione di queste presentazioni di diapositive, Customer Journey Analytics crea automaticamente una storia dai tuoi dati identificando le informazioni chiave e convertendole in diapositive pronte per le parti interessate.
 
@@ -178,7 +182,7 @@ La possibilità di generare diapositive è attivata per impostazione predefinita
 
 Se necessario, gli amministratori dei profili di prodotto le cui organizzazioni dispongono di licenze per la generazione di diapositive possono disabilitare l’accesso.
 
-In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
+In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
 1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**.
 1. Seleziona il titolo del profilo di prodotto per il quale desideri fornire l’accesso all’[!UICONTROL Data storytelling].
 1. Nel profilo di prodotto specifico, seleziona **[!UICONTROL Permissions]**.
