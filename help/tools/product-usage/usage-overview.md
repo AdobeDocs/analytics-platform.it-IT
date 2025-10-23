@@ -2,10 +2,10 @@
 title: Panoramica di utilizzo del prodotto
 description: Visualizza approfondimenti e rapporti sull’utilizzo di Customer Journey Analytics da parte della tua organizzazione.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: a4615907f61b4d63393a9481fdd7b45b7b9b6262
+source-git-commit: 5b5d4cb17ee73415dbd77bbf0964fc3d4e513cf0
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 88%
 
 ---
 
@@ -57,6 +57,7 @@ Quando abiliti Utilizzo del prodotto, sono disponibili le seguenti dimensioni. S
    * [!UICONTROL Send file on schedule]
    * [!UICONTROL Share project with anyone]
    * [!UICONTROL Share project with Workspace users]
+   * [!UICONTROL Switch data view]
 * **[!UICONTROL Attribution Model Used]**: tipo di modello di attribuzione utilizzato dal componente. Gli elementi domensionali includono:
    * [!UICONTROL Last touch]
    * [!UICONTROL First touch]
@@ -69,7 +70,8 @@ Quando abiliti Utilizzo del prodotto, sono disponibili le seguenti dimensioni. S
    * [!UICONTROL Time decay]
    * [!UICONTROL Custom]
    * [!UICONTROL Algorithmic]
-* **[!UICONTROL Component Name]**: nome del componente aggiunto, rimosso o modificato.
+* **[!UICONTROL Component ID]**: ID del componente aggiunto, rimosso o modificato.
+* **[!UICONTROL Component Name]**: nome descrittivo del componente aggiunto, rimosso o modificato.
 * **[!UICONTROL Component Type]**: tipo di componente aggiunto, rimosso o modificato. Gli elementi domensionali includono:
    * [!UICONTROL Dimension]
    * [!UICONTROL Metric]
@@ -78,8 +80,10 @@ Quando abiliti Utilizzo del prodotto, sono disponibili le seguenti dimensioni. S
    * [!UICONTROL Date range]
    * [!UICONTROL Annotation]
    * [!UICONTROL Alert]
+* **[!UICONTROL Data View ID]**: ID della visualizzazione dati.
+* **[!UICONTROL Data View Name]**: nome descrittivo della visualizzazione dati.
 * **[!UICONTROL Login User]**: utente che ha eseguito l’azione.
-* **[!UICONTROL Panel Used]**: pannello in cui il componente è stato aggiunto, rimosso o modificato. Gli elementi domensionali includono:
+* **[!UICONTROL Panel Used]**: il pannello aggiunto, rimosso o modificato. Gli elementi domensionali includono:
    * [!UICONTROL Attribution]
    * [!UICONTROL Blank panel]
    * [!UICONTROL Experimentation]
@@ -93,6 +97,7 @@ Quando abiliti Utilizzo del prodotto, sono disponibili le seguenti dimensioni. S
    * [!UICONTROL User stream]
    * [!UICONTROL Retention]
    * [!UICONTROL Feature matrix]
+* **[!UICONTROL Project ID]**: ID del progetto.
 * **[!UICONTROL Project Name]**: nome descrittivo del progetto.
 * **[!UICONTROL Project Type]**: tipo di progetto. Gli elementi domensionali includono:
    * `workspace-projects`
