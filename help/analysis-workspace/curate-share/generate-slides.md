@@ -4,11 +4,9 @@ keywords: Analysis Workspace
 title: Generare presentazioni dai report di Workspace
 feature: Curate and Share
 role: User
-hide: true
-hidefromtoc: true
-source-git-commit: 4d7ecc3eaba93424d43d0f4c312aeec78016395f
+source-git-commit: 3807ad0beac3656c1f3bd886611fbe4470a6e7c5
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1472'
 ht-degree: 4%
 
 ---
@@ -35,8 +33,6 @@ Le storie di dati integrano un&#39;analisi per un dato progetto Workspace in bas
 
 * Evidenziazione di informazioni importanti
 
-* Offrire indicazioni sul fatto che i dati siano buoni o cattivi in un determinato contesto
-
 * Valutare se alcune variabili sono sottovalutate o sopravvalutate
 
 * Richiamare tendenze nascoste, anomalie e altri fattori contribuenti
@@ -54,6 +50,8 @@ Analysis Workspace crea storie di dati considerando i seguenti elementi di proge
 * Nomi assegnati a pannelli, tabelle e visualizzazioni
 
 * Ordine delle metriche in una tabella a forma libera (per determinare la priorità)
+
+* Ordine delle visualizzazioni in un pannello (per determinare la priorità)
 
 * Numeri di riepilogo e testi di riepilogo (per determinare le metriche da evidenziare nei dati)
 
@@ -106,7 +104,7 @@ Le storie di dati sono costituite da una diapositiva titolo, una diapositiva di 
    | **[!UICONTROL Panels and visualizations to include]** | Scegli i pannelli e la visualizzazione da includere nella presentazione. Puoi includere fino a 50 visualizzazioni.<p>Sono supportati la maggior parte dei pannelli e delle visualizzazioni. Per informazioni sui pannelli e la visualizzazione non supportati, vedere [Elementi e funzionalità del progetto non supportati](#unsupported-project-elements-and-features).</p> |
    | **[!UICONTROL Panel and visualization descriptions]** | Scegli se includere le descrizioni dei pannelli e delle visualizzazioni nella presentazione di diapositive generata. |
    | **[!UICONTROL Annotations]** | Scegliere se le annotazioni sono visibili nella presentazione di diapositive generata. Per ulteriori informazioni sulle annotazioni, consulta la sezione [Panoramica delle annotazioni](/help/components/annotations/overview.md). |
-   | **[!UICONTROL Emphasize components]** | Scegli fino a 5 metriche e 5 dimensioni dalle visualizzazioni che desideri enfatizzare nella presentazione. I componenti scelti vengono classificati più in alto e hanno più peso quando si creano i temi e la narrazione generale della storia dei dati. <p>Quando non viene applicata alcuna enfasi, i componenti vengono visualizzati nelle presentazioni nel modo seguente:<ul><li>**Metriche e dimensioni:** corsivo</li><li>**Elementi Dimension:** virgolette</li></ul></p><p>Quando si applica l’enfasi, i componenti vengono visualizzati nelle presentazioni come segue:</p><ul><li>**Metriche e dimensioni:** corsivo e grassetto</li><li>**Elementi Dimension:** grassetto quando la dimensione corrispondente viene enfatizzata<p>Un colore viene applicato anche all’elemento dimensione quando questo viene evidenziato nel grafico.</p></li></ul> |
+   | **[!UICONTROL Emphasize components]** | Scegli le metriche e le dimensioni dalle visualizzazioni che desideri enfatizzare nella presentazione. I componenti scelti vengono classificati più in alto e hanno più peso quando si creano i temi e la narrazione generale della storia dei dati. <p>Quando non viene applicata alcuna enfasi, i componenti vengono visualizzati nelle presentazioni nel modo seguente:<ul><li>**Metriche e dimensioni:** corsivo</li><li>**Elementi Dimension:** virgolette</li></ul></p><p>Quando si applica l’enfasi, i componenti vengono visualizzati nelle presentazioni come segue:</p><ul><li>**Metriche e dimensioni:** corsivo e grassetto</li><li>**Elementi Dimension:** grassetto quando la dimensione corrispondente viene enfatizzata<p>Un colore viene applicato anche all’elemento dimensione quando questo viene evidenziato nel grafico.</p></li></ul> |
 
 1. (Condizionale) Selezionare **[!UICONTROL Default theme]** se si desidera generare diapositive in meno passaggi e se non è necessario un tema aziendale per la presentazione diapositive.
 
@@ -115,6 +113,8 @@ Le storie di dati sono costituite da una diapositiva titolo, una diapositiva di 
    ![Genera diapositive con il tema predefinito](assets/generate-slides-default-theme.png)
 
 1. (Condizionale) Selezionare **[!UICONTROL Upload template]** se la presentazione di diapositive deve corrispondere a un tema aziendale. Questa opzione richiede il caricamento di un modello personalizzato e l’applicazione di stili personalizzati.
+
+   Il modello personalizzato più recente caricato viene memorizzato localmente nella cache del browser ed è disponibile per la generazione di presentazioni diapositive future.
 
    ![Genera diapositive con un modello personalizzato](assets/generate-slides-upload-template.png)
 
@@ -173,12 +173,12 @@ Le storie di dati sono costituite da una diapositiva titolo, una diapositiva di 
 >[!AVAILABILITY]
 >
 >Se la tua organizzazione non ha accesso alla generazione di presentazioni diapositive da un progetto Workspace, contatta il rappresentante del tuo account Adobe per ulteriori informazioni sulle licenze.
->
->Questa funzionalità è attivata per impostazione predefinita per tutti gli utenti delle organizzazioni che dispongono delle licenze necessarie.
+
+La possibilità di generare diapositive è attivata per impostazione predefinita per tutti gli utenti delle organizzazioni che dispongono delle licenze necessarie.
 
 Se necessario, gli amministratori dei profili di prodotto le cui organizzazioni dispongono di licenze per la generazione di diapositive possono disabilitare l’accesso.
 
-In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
+In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
 1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**.
 1. Seleziona il titolo del profilo di prodotto per il quale desideri fornire l’accesso all’[!UICONTROL Data storytelling].
 1. Nel profilo di prodotto specifico, seleziona **[!UICONTROL Permissions]**.
@@ -205,19 +205,27 @@ I seguenti elementi e funzioni di Analysis Workspace utilizzati in un progetto n
 
   La maggior parte delle visualizzazioni può essere inclusa nelle diapositive generate da un progetto Workspace. Tuttavia, le seguenti visualizzazioni non possono essere incluse e vengono visualizzate in grigio quando vengono visualizzate le opzioni di configurazione:
 
-   * Tabella coorte
-
-   * Area di lavoro del percorso
+   * Area
 
    * Bullet
 
+   * Tabella coorte
+
    * Combinato
+
+   * Fallout
+
+   * Flusso
+
+   * Area di lavoro del percorso
 
    * A dispersione
 
    * Mappa ad albero
 
 * Raggruppamenti
+
+  I dati per i raggruppamenti sono inclusi nelle presentazioni generate, ma vengono visualizzati allo stesso livello degli elementi dimensionali.
 
 * Analisi guidate
 
