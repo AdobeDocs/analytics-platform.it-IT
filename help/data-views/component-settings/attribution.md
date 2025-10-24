@@ -5,9 +5,9 @@ exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: 7d354ce65f72838c007d2b9faf02848d86fd7c0f
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '408'
 ht-degree: 93%
 
 ---
@@ -25,8 +25,6 @@ ht-degree: 93%
 
 
 Attribution consente di personalizzare il modo in cui gli elementi dimensionali ricevono credito per gli eventi di successo.
-
-![Finestra Visualizzazioni dati che evidenzia l’opzione Set attribution (Imposta attribuzione)](../assets/attribution-settings.png)
 
 Ad esempio:
 

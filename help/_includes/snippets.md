@@ -1,8 +1,8 @@
 ---
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 7d354ce65f72838c007d2b9faf02848d86fd7c0f
 workflow-type: tm+mt
-source-wordcount: '4824'
-ht-degree: 100%
+source-wordcount: '4862'
+ht-degree: 98%
 
 ---
 # Snippet
@@ -128,7 +128,7 @@ Un modello di attribuzione determina quali elementi dimensionali ricevono credit
 
 Un contenitore attribuzione definisce l’ambito desiderato per l’attribuzione. Le opzioni possibili sono:
 
-* **Sessione:** esamina fino all’inizio di una sessione che ha generato una conversione. Gli intervalli di lookback delle sessioni rispettano il [timeout della sessione](/help/data-views/create-dataview.md#session-settings) modificato in una visualizzazione dati.
+* **Sessione:** esamina fino all’inizio di una sessione che ha generato una conversione. Gli intervalli di lookback della sessione rispettano il [Timeout sessione](/help/data-views/create-dataview.md#session-settings) modificato in una visualizzazione dati. Quando **[!UICONTROL Session]** è selezionato, l&#39;intervallo di lookback [Attribution](#atribution-lookback-window) viene impostato automaticamente su **[!UICONTROL Reporting window]** e non può essere modificato.
 * **Persona**: esamina le conversioni nell’ambito del contenitore Persona.
 * **Account globale** [!BADGE B2B edition]{type=Informative}: esamina le conversioni nell’ambito del contenitore degli account globali.
 * **Account** [!BADGE B2B edition]{type=Informative}: esamina le conversioni nell’ambito del contenitore Persona.
@@ -139,6 +139,7 @@ Un contenitore attribuzione definisce l’ambito desiderato per l’attribuzione
 
 Per intervallo di lookback di attribuzione si intende la quantità di tempo che una conversione deve esaminare in retrospettiva per includere i punti di contatto. Se un elemento dimensionale è impostato all’esterno dell’intervallo di lookback, il valore non viene incluso in alcun calcolo di attribuzione.
 
+* **[!UICONTROL Reporting window]**: considera fino l&#39;inizio dell&#39;intervallo di reporting dal momento in cui si è verificata la conversione.
 * **14 giorni**: esamina fino a 14 giorni precedenti dal momento in cui si è verificata la conversione.
 * **30 giorni**: esamina fino a 30 giorni precedenti dal momento in cui si è verificata la conversione.
 * **60 giorni**: esamina fino a 60 giorni precedenti dal momento in cui si è verificata la conversione.
@@ -154,13 +155,13 @@ Prendi in considerazione l’esempio seguente:
 1. Il 18 settembre, il visitatore ritorna sul tuo sito tramite un collegamento social media ricevuto da un amico. Aggiunge diversi articoli al carrello, ma non acquista nulla.
 1. Il 24 settembre, il team marketing gli invia un’e-mail con un coupon da utilizzare su alcuni degli elementi nel carrello. Applica il coupon, ma visita diversi altri siti per vedere se sono disponibili altri coupon. Ne trova un altro tramite un annuncio pubblicitario, quindi completa un acquisto dal valore di 50 $.
 
-A seconda del modello di attribuzione, il contenitore e i canali ricevono un credito diverso. Consulta la tabella seguente per gli esempi:
+A seconda dell’intervallo di reporting (ad esempio, 10 settembre - 24 settembre), il modello di attribuzione, il contenitore e i canali ricevono crediti diversi. Consulta la tabella seguente per gli esempi:
 
 | Modello | Contenitore | Intervallo di lookback | Spiegazione |
 |---|---|---|---|
-| Primo contatto | Sessione | 30 giorni | L’attribuzione esamina solo la terza visita. Tra e-mail e visualizzazione, l’e-mail è avvenuta prima, quindi l’e-mail ottiene il 100% di credito per l’acquisto di 50 $. |
+| Primo contatto | Sessione | Intervallo di reporting | L’attribuzione esamina solo la terza visita. Tra e-mail e visualizzazione, l’e-mail è avvenuta prima, quindi l’e-mail ottiene il 100% di credito per l’acquisto di 50 $. |
 | Primo contatto | Persona | 30 giorni | L’attribuzione esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $. |
-| Lineare | Sessione | 30 giorni | Il credito è suddiviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $. |
+| Lineare | Sessione | Intervallo di reporting | Il credito è suddiviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $. |
 | Lineare | Persona | 30 giorni | Il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto. |
 | A forma di J | Persona | 30 giorni | Il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione.<ul><li>Il 60% di credito è assegnato alla visualizzazione, per un valore di 30 $.</li><li>Il 20% di credito è assegnato alla ricerca a pagamento, per un valore di 10 $.</li><li>Il restante 20% è suddiviso tra social e e-mail, ovvero 5 $ ciascuno.</li></ul> |
 | Decadimento nel tempo | Persona | 30 giorni | <ul><li>Intervallo di 0 giorni tra il punto di contatto visualizzazione e la conversione. `2^(-0/7) = 1`</li><li>Intervallo di 0 giorni tra il punto di contatto e-mail e la conversione. `2^(-0/7) = 1`</li><li>Intervallo di 6 giorni tra il punto di contatto social e la conversione. `2^(-6/7) = 0.552`</li><li>Intervallo di 9 giorni tra il punto di contatto ricerca a pagamento e la conversione. `2^(-9/7) = 0.41`</li>La normalizzazione di questi valori determina quanto segue:<ul><li>Visualizzazione: 33,8%, ovvero 16,88 $</li><li>E-mail: 33,8% ovvero 16,88 $</li><li>Social: 18,6%, ovvero 9,32 $</li><li>Ricerca a pagamento: 13,8%, ovvero 6,92 $</li></ul></li></ul> |
