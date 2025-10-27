@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: bb44ba8d36a2c21c789f0df6a84ea0432ca20029
+source-git-commit: e4b7f1da451a7ec9171fbb623e0e79e916827fd8
 workflow-type: tm+mt
-source-wordcount: '2388'
-ht-degree: 99%
+source-wordcount: '2411'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->L’agente Data Insights è disponibile per la clientela idonea per un periodo limitato. L’accesso all’agente Data Insights terminerà il 30 novembre 2025. Per continuare a utilizzare Data Insights Agent senza interruzioni, contatta il rappresentante del tuo account Adobe per ulteriori informazioni sulle licenze di Data Insights Agent.
+>L’agente Data Insights è disponibile per la clientela idonea per un periodo limitato. L’accesso all’agente Data Insights terminerà il 30 novembre 2025. Per continuare a utilizzare l’agente Data Insights senza interruzioni, contatta il rappresentante del tuo account Adobe per ulteriori informazioni sulle relative licenze.
 
 L’agente Data Insights, accessibile dall’[Assistente IA](/help/ai-assistant.md) in Customer Journey Analytics, è un agente per conversazioni basate sull’IA generativa che risponde in modo rapido ed efficiente alle domande sui tuoi dati. Crea visualizzazioni pertinenti in Analysis Workspace utilizzando i componenti della visualizzazione dati e i tuoi dati effettivi.
 
@@ -54,7 +54,7 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
 * **Autorizzazioni**: per consentire agli utenti di accedere all’agente Data Insights, è necessario concedere le autorizzazioni necessarie in [!UICONTROL Adobe Admin Console].
 
-  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
+  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
    1. In **[!UICONTROL Admin Console]**, seleziona la scheda **[!UICONTROL Products]** per visualizzare la pagina **[!UICONTROL All products and services]**.
    1. Seleziona **[!UICONTROL Customer Journey Analytics]**.
    1. Nella scheda **[!UICONTROL Product Profiles]**, seleziona il titolo del profilo di prodotto per il quale desideri fornire accesso a [!UICONTROL AI Assistant: Product Knowledge].
@@ -64,34 +64,39 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
    1. Nella riga **[!UICONTROL Reporting Tools]** della tabella fornita, seleziona l’icona di modifica ![Modifica](/help/assets/icons/Edit.svg).
    1. Cerca o scorri fino ad **[!UICONTROL AI Assistant: Product Knowledge]**, quindi seleziona l’icona con il segno più ![AddCircle](/help/assets/icons/AddCircle.svg) accanto a questa autorizzazione.
+   1. Cerca o scorri fino ad **[!UICONTROL Data Insights Agent]**, quindi seleziona l’icona con il segno più ![AddCircle](/help/assets/icons/AddCircle.svg) accanto a questa autorizzazione.
 
-      L’autorizzazione **[!UICONTROL AI Assistant: Product Knowledge]** viene aggiunta alla colonna **[!UICONTROL Included permission items]**.
+      L&#39;autorizzazione **[!UICONTROL AI Assistant: Product Knowledge]** e l&#39;autorizzazione **[!UICONTROL Data Insights Agent]** vengono aggiunte alla colonna **[!UICONTROL Included permission items]**.
 
       ![Aggiungi autorizzazione](assets/ai-assistant-permissions.png).
-
-   1. Seleziona la scheda **[!UICONTROL Data View Tools]**, quindi seleziona l’icona con il segno più ![AddCircle](/help/assets/icons/AddCircle.svg) accanto all’autorizzazione **[!UICONTROL Data Insights Agent]**.
-
-      L’autorizzazione **[!UICONTROL Data Insights Agent]** viene aggiunta alla colonna **[!UICONTROL Included permission items]**.
-
-      ![Aggiungi autorizzazione](assets/ai-assistant-permissions-dataviewtools.png).
-
-   1. Seleziona la scheda **[!UICONTROL Data Views]** per scegliere le visualizzazioni dati che desideri abilitare per l’agente Data Insights.
-
-      >[!IMPORTANT]
-      >
-      >Quando abiliti le visualizzazioni dati, prendi in considerazione quanto segue:
-      >* Puoi abilitare un massimo di 50 visualizzazioni dati per organizzazione IMS. Se abiliti più di 50 visualizzazioni dati in tutti i profili di prodotto per una determinata organizzazione, l’agente Data Insights utilizzerà le 50 visualizzazioni dati più utilizzate.
-      >* L’agente Data Insights può fare riferimento alle visualizzazioni dati incluse nel corso dello stesso giorno in cui vengono abilitate in Admin Console.
-
-   1. Cerca o scorri fino alle visualizzazioni dati che desideri abilitare, quindi seleziona l’icona con il segno più ![AddCircle](/help/assets/icons/AddCircle.svg) accanto al nome di ciascuna visualizzazione dati.
-
-      Ogni visualizzazione dati aggiunta è visibile nella colonna **[!UICONTROL Included permission items]**.
-
-      ![Aggiungi autorizzazione](assets/ai-assistant-permissions-dataviews.png).
 
    1. Seleziona **[!UICONTROL Save]** per salvare le modifiche.
 
   Per ulteriori informazioni sul controllo degli accessi, consulta [Controllo degli accessi](/help/technotes/access-control.md#access-control).
+
+* **Accesso alla visualizzazione dati**: le visualizzazioni dati devono essere abilitate per Data Insights Agent.
+
+  >[!IMPORTANT]
+  >
+  >Quando abiliti le visualizzazioni dati, prendi in considerazione quanto segue:
+  >* Puoi abilitare un massimo di 50 visualizzazioni dati per organizzazione IMS. Se abiliti più di 50 visualizzazioni dati in tutti i profili di prodotto per una determinata organizzazione, l’agente Data Insights utilizzerà le 50 visualizzazioni dati più utilizzate.
+  >* Data Insights Agent può fare riferimento alle visualizzazioni dati incluse nello stesso giorno in cui vengono abilitate.
+
+  Per abilitare le visualizzazioni dati per Data Insights Agent:
+
+   1. In Customer Journey Analytics, seleziona **[!UICONTROL Data Management]** > **[!UICONTROL Data views]**.
+
+   1. Selezionare una o più visualizzazioni dati da abilitare per Data Insights Agent, quindi selezionare **[!UICONTROL Enable for Data Insights Agent]**.
+
+      ![Abilita visualizzazioni dati per Data Insights Agent](assets/data-view-enable-dia.png)
+
+  Per visualizzare il numero di visualizzazioni dati abilitate per Data Insights Agent nell’organizzazione IMS:
+
+   1. In Customer Journey Analytics, seleziona **[!UICONTROL Data Management]** > **[!UICONTROL Data views]**.
+
+   1. Selezionare l&#39;icona delle informazioni nella parte superiore della colonna **[!UICONTROL Data Insights Agent]**.
+
+      ![Icona info Data Insights Agent](assets/data-insights-agent-tooltip.png)
 
 ## Accedere all’agente Data Insights nell’Assistente IA
 
@@ -259,7 +264,7 @@ Di seguito sono riportate le best practice per la configurazione di Customer Jou
 >[!MORELIKETHIS]
 >
 >[Impostazioni dei componenti](/help/data-views/component-settings/overview.md)
->&#x200B;>[Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[Approvare la metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[Condividere i segmenti](/help/components/segments/seg-share.md)
+>>[Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Approvare la metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Condividere i segmenti](/help/components/segments/seg-share.md)
 >
