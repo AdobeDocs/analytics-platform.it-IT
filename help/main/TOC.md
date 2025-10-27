@@ -260,7 +260,7 @@ ht-degree: 99%
       + [Condividere progetti](../analysis-workspace/curate-share/share-projects.md)
       + [Creare collegamenti condivisibili](../analysis-workspace/curate-share/shareable-links.md)
       + [Progetti di sola lettura](../analysis-workspace/curate-share/view-only-projects.md)
-      + [Genera presentazioni diapositive](/help/analysis-workspace/curate-share/generate-slides.md)
+      + [Generare presentazioni con diapositive](/help/analysis-workspace/curate-share/generate-slides.md)
    + Esportare {#export}
       + [Panoramica](../analysis-workspace/export/export-project-overview.md)
       + [Scaricare](../analysis-workspace/export/download-send.md)
