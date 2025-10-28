@@ -67,7 +67,7 @@ Content Analytics utilizza i dati di visualizzazione dell’immagine web nei set
 >[!MORELIKETHIS]
 >
 >[Reporting di Content Analytics](report/report.md)
->>[Configurare Content Analytics](config/configuration.md)
->>[Calcolo dei mancati recapiti e del tasso di mancato recapito in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
+>&#x200B;>[Configurare Content Analytics](config/configuration.md)
+>&#x200B;>[Calcolo dei mancati recapiti e del tasso di mancato recapito in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
