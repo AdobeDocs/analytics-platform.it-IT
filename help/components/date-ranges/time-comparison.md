@@ -4,22 +4,28 @@ title: Confronto delle date
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 5a9cb206076755d5b34a8ec9108ca88a9468bfe3
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 12%
+source-wordcount: '675'
+ht-degree: 11%
 
 ---
 
 # Confronto delle date
 
-Il confronto delle date in Analysis Workspace consente di prendere una qualsiasi colonna contenente un intervallo di date e di creare un confronto tra date comune, ad esempio: anno su anno, trimestre su trimestre, mese su mese, ecc.
+Il confronto delle date in Analysis Workspace consente di prendere una qualsiasi colonna contenente un intervallo di date e di creare un confronto tra date comune, ad esempio: anno su anno, trimestre su trimestre, mese su mese e così via.
 
 ## Confronto tra periodi temporali
 
 L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo di tempo precedente. Ad esempio, la domanda *Quanto stai facendo meglio o peggio rispetto a questo periodo dell&#39;anno scorso?* è fondamentale per comprendere la tua attività. Il confronto delle date include automaticamente una colonna *differenza* che mostra la variazione percentuale rispetto a un periodo di tempo specificato.
 
 1. Crea una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), con tutte le dimensioni e le metriche che desideri confrontare in un periodo di tempo.
+1. Imposta il periodo di tempo sul pannello o sulla colonna per determinare l’intervallo di tempo del confronto e se si tratta di un confronto in tempo continuo o fisso.
+
+   Per creare un confronto continuo dei tempi, impostare l&#39;intervallo di date del pannello o della colonna su un intervallo di date continuo, ad esempio **[!UICONTROL Last 7 days]**, **[!UICONTROL Last 30 days]** e così via.
+
+   Per creare un confronto a tempo fisso, imposta il pannello o l’intervallo di date della colonna su un intervallo di date personalizzato.
+
 1. Aprire il menu di scelta rapida per una riga di tabella e selezionare **[!UICONTROL Compare time periods]**.
 
    ![Riga di tabella con periodi di tempo di confronto selezionati](assets/compare-time.png)
