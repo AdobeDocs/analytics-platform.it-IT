@@ -130,7 +130,7 @@ Per abilitare l&#39;unione, nella sezione del set di dati evento della finestra 
    >Devi essere autorizzato a utilizzare il grafo delle identità.
    >
 
-   Prima di ciò, viene visualizzata una finestra di dialogo **[!UICONTROL Change to identity graph]** per verificare che [ abbia completato la configurazione del grafico delle identità per il set di dati](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) prima di utilizzare il grafico delle identità per l&#39;unione. Seleziona **[!UICONTROL Continue]** (Avanti) per continuare.
+   Prima di ciò, viene visualizzata una finestra di dialogo **[!UICONTROL Change to identity graph]** per verificare che [&#x200B; abbia completato la configurazione del grafico delle identità per il set di dati](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) prima di utilizzare il grafico delle identità per l&#39;unione. Seleziona **[!UICONTROL Continue]** (Avanti) per continuare.
 
    * Selezionare uno spazio dei nomi dal menu a discesa **[!UICONTROL Namespace]**.
 
