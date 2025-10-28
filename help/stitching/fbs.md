@@ -1,27 +1,27 @@
 ---
-title: Unione basata su campi
-description: Spiegazione dell’unione basata sui campi
+title: Unione basata sui campi
+description: Spiegazione del concetto e del funzionamento dell’unione basata sui campi
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: 00f6eeac173ad606885fce5567c82db8a9d107de
+source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 15%
+source-wordcount: '1776'
+ht-degree: 9%
 
 ---
 
-# Unione basata su campi
+# Unione basata sui campi
 
-Nell’unione basata sui campi puoi specificare un set di dati evento, nonché l’ID persistente (cookie) e l’ID transitorio (ID persona) per tale set di dati. L’unione basata sui campi crea una nuova colonna ID unita nel nuovo set di dati uniti e aggiorna questa colonna ID unita in base alle righe che hanno un ID transitorio per quello specifico ID persistente. <br/>È possibile utilizzare l&#39;unione basata sui campi quando si utilizza Customer Journey Analytics come soluzione autonoma (non avendo accesso al servizio Experience Platform Identity e al grafo delle identità associato). Oppure, quando non desideri utilizzare il grafico delle identità disponibile.
+Nell’unione basata sui campi puoi specificare un set di dati evento, nonché l’ID persistente (cookie) e l’ID persona per tale set di dati. L’unione basata sui campi aggiunge una nuova colonna ID unita al set di dati dell’evento e aggiorna questo ID unito in base alle righe che hanno un ID persona per tale ID persistente specifico. <br/>È possibile utilizzare l&#39;unione basata sui campi quando si utilizza Customer Journey Analytics come soluzione autonoma (non avendo accesso al servizio Experience Platform Identity e al grafo delle identità associato). Oppure, quando non desideri utilizzare il grafico delle identità disponibile.
 
 ![Unione basata sui campi](/help/stitching/assets/fbs.png)
 
 
 ## IdentityMap
 
-L&#39;unione basata sui campi supporta l&#39;utilizzo del gruppo di campi [`identityMap`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
+L&#39;unione basata sui campi supporta l&#39;utilizzo del gruppo di campi [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
 
 - Utilizzo dell&#39;identità primaria negli spazi dei nomi `identityMap` per definire l&#39;ID persistente:
    - Se più identità primarie si trovano in spazi dei nomi diversi, le identità negli spazi dei nomi vengono ordinate lessigraficamente e la prima identità viene selezionata.
@@ -56,9 +56,9 @@ L&#39;unione basata sui campi supporta l&#39;utilizzo del gruppo di campi [`iden
   </table>
 
 
-- Utilizzo dello spazio dei nomi `identityMap` per definire persistentID o transientID o entrambi:
-   - Se in uno spazio dei nomi `identityMap` sono presenti più valori per persstentID o transientID, viene utilizzato il primo valore disponibile lessicografico.
-   - Gli spazi dei nomi per persistentID e transientID devono escludersi a vicenda.
+- Utilizzo dello spazio dei nomi `identityMap` per definire l&#39;ID persistente o l&#39;ID persona o entrambi:
+   - Se in uno spazio dei nomi `identityMap` sono presenti più valori per l&#39;ID persistente o l&#39;ID persona, viene utilizzato il primo valore disponibile lessicografico.
+   - Gli spazi dei nomi per l’ID persistente e l’ID persona devono escludersi a vicenda.
 
   Nell’esempio seguente, hai selezionato ECID come namespace da utilizzare. La selezione determina un elenco di identità ordinate e, infine, l’identità selezionata.
 
@@ -92,10 +92,10 @@ L&#39;unione basata sui campi supporta l&#39;utilizzo del gruppo di campi [`iden
 
 L’unione esegue almeno due passaggi sui dati in un determinato set di dati.
 
-- **Unione live**: tenta di unire ogni hit (evento) nel momento in cui arriva. Gli hit da dispositivi che sono &quot;nuovi&quot; al set di dati (non sono mai stati autenticati) in genere non vengono uniti a questo livello. Gli hit da dispositivi già riconosciuti vengono uniti immediatamente.
+- **Unione live**: tenta di unire ogni hit (evento) nel momento in cui arriva. Gli hit da dispositivi che sono *nuovi* per il set di dati (non sono mai stati autenticati) in genere non vengono uniti a questo livello. Gli hit da dispositivi già riconosciuti vengono uniti immediatamente.
 
-- **Unione ripetizioni**: *riproduce* dati in base a identificatori univoci (ID transitori) appresi. In questa fase vengono uniti gli hit da dispositivi precedentemente sconosciuti (ID persistenti) (a ID transitori). La ripetizione è determinata da due parametri: **frequency** e **lookback window**. Adobe offre le seguenti combinazioni di questi parametri:
-   - **Lookback giornaliero su una frequenza giornaliera**: i dati vengono ripetuti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione offre un vantaggio in quanto le ripetizioni sono molto più frequenti, ma i visitatori non autenticati devono autenticarsi lo stesso giorno in cui visitano il sito.
+- **Unione ripetizioni**: *riproduce* dati in base a identificatori univoci (ID persona). In questa fase vengono uniti gli hit da dispositivi precedentemente sconosciuti (ID persistenti) (agli ID persona). La ripetizione è determinata da due parametri: **frequency** e **lookback window**. Adobe offre le seguenti combinazioni di questi parametri:
+   - **Lookback giornaliero su una frequenza giornaliera**: i dati vengono ripetuti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione offre un vantaggio in quanto le ripetizioni sono molto più frequenti, ma i profili non autenticati devono autenticarsi lo stesso giorno in cui visitano il sito.
    - **Lookback settimanale su una frequenza settimanale**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback settimanale (vedi [opzioni](#options)). Questa opzione offre un vantaggio che consente alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di una settimana non vengono rielaborati fino alla successiva riproduzione settimanale.
    - **Lookback bisettimanale con frequenza settimanale**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback bisettimanale (vedi [opzioni](#options)). Questa opzione offre un vantaggio che consente alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di due settimane non vengono rielaborati fino alla successiva riproduzione settimanale.
    - **Lookback mensile su una frequenza settimanale**: i dati vengono ripetuti ogni settimana con un intervallo di lookback mensile (vedi [opzioni](#options)). Questa opzione offre un vantaggio che consente alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di un mese non vengono rielaborati fino alla successiva riproduzione settimanale.
@@ -108,7 +108,7 @@ L’unione esegue almeno due passaggi sui dati in un determinato set di dati.
   > 
 
 
-I dati oltre l’intervallo di lookback non vengono riprodotti. Un visitatore deve effettuare l’autenticazione all’interno di un intervallo di lookback specificato affinché una visita non autenticata e una visita autenticata siano identificate insieme. Una volta riconosciuto, il dispositivo è live stitched da quel momento in poi.
+I dati oltre l’intervallo di lookback non vengono riprodotti. Un profilo deve eseguire l’autenticazione all’interno di un intervallo di lookback specificato affinché una visita non autenticata e una visita autenticata siano identificate insieme. Una volta riconosciuto un dispositivo, quest’ultimo viene unito in tempo reale da quel momento in poi.
 
 ### Passaggio 1: live stitching
 
@@ -120,7 +120,7 @@ Prendi in considerazione l’esempio seguente, in cui Bob registra eventi divers
 
 *Dati visualizzati il giorno in cui vengono raccolti:*
 
-| Evento | Marca temporale | ID persistente (ID cookie) | ID transitorio (ID accesso) | ID unione (dopo unione live) |
+| Evento | Marca temporale | ID persistente (ID cookie) | ID persona | ID unione (dopo unione live) |
 |---|---|---|---|---|
 | 1 | 12/05/2023:01 | `246` ![Freccia a destra](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`246`** |
 | 2 | 12/05/2023:02 | `246` | `Bob` ![Freccia a destra](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` |
@@ -154,7 +154,7 @@ La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra numeri d
 
 *Gli stessi dati dopo la ripetizione:*
 
-| Evento | Marca temporale | ID persistente (ID cookie) | ID transitorio (ID accesso) | ID unione (dopo unione live) | ID unione (dopo la riproduzione) |
+| Evento | Marca temporale | ID persistente (ID cookie) | ID persona | ID unione (dopo unione live) | ID unione (dopo la riproduzione) |
 |---|---|---|---|---|---|
 | 1 | 12/05/2023:01 | `246` | - | `246` | **`Bob`** |
 | 2 | 12/05/2023:02 | `246` | `Bob` ![Freccia a destra](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` ![Freccia Su](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) |
@@ -182,11 +182,11 @@ Quando ricevi una richiesta di accesso a dati personali, l’ID unione viene eli
 
 +++ Dettagli
 
-La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra l’effetto che una richiesta di privacy per Bob ha sui dati dopo l’elaborazione. Le righe in cui Bob è autenticato vengono rimosse (2, 3, 5, 7 e 11) insieme alla rimozione di Bob come ID transitorio per altre righe.
+La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra l’effetto che una richiesta di privacy per Bob ha sui dati dopo l’elaborazione. Le righe in cui Bob è autenticato vengono rimosse (2, 3, 5, 7 e 11) insieme alla rimozione di Bob come ID persona per altre righe.
 
 *Gli stessi dati dopo una richiesta di accesso a dati personali per Bob:*
 
-| Evento | Marca temporale | ID persistente (ID cookie) | ID transitorio (ID accesso) | ID unione (dopo unione live) | ID unione (dopo la riproduzione) | ID transitorio (ID accesso) | ID unione (dopo la richiesta di privacy) |
+| Evento | Marca temporale | ID persistente (ID cookie) | ID persona | ID unione (dopo unione live) | ID unione (dopo la riproduzione) | ID persona | ID unione (dopo la richiesta di privacy) |
 |---|---|---|---|---|---|---|---|
 | 1 | 12/05/2023:01 | `246` | - | `246` | **`Bob`** | - | `246` |
 | 2 | 12/05/2023:02 | `246` | Bob ![Freccia a destra](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` ![Freccia Su](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
@@ -208,13 +208,13 @@ La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra l’effe
 
 I seguenti prerequisiti si applicano in modo specifico all’unione basata sui campi:
 
-- Il set di dati dell’evento in Adobe Experience Platform, a cui desideri applicare l’unione, deve avere due colonne che aiutino a identificare i visitatori:
+- Il set di dati evento in Adobe Experience Platform, a cui desideri applicare l’unione, deve avere due colonne che aiutino a identificare i profili:
 
    - Un **ID persistente**, un identificatore disponibile su ogni riga. Ad esempio, un ID visitatore generato da una libreria AppMeasurement di Adobe Analytics o un ECID generato dal servizio Adobe Experience Platform Identity.
-   - Un **ID transitorio**, un identificatore disponibile solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash quando un visitatore si autentica. Puoi utilizzare virtualmente qualsiasi identificatore che ti piace. L’unione considera questo campo come contenente le informazioni dell’ID persona effettivo. Per risultati di unione migliori, un ID transitorio deve essere inviato all’interno degli eventi del set di dati almeno una volta per ogni ID persistente. Se prevedi di includere questo set di dati all’interno di una connessione Customer Journey Analytics, è preferibile che anche gli altri set di dati abbiano un identificatore comune simile.
+   - Un **ID persona**, un identificatore disponibile solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash una volta che un profilo si autentica. Puoi utilizzare virtualmente qualsiasi identificatore che ti piace. L’unione considera questo campo come contenente le informazioni dell’ID persona effettivo. Per risultati di unione migliori, un ID persona deve essere inviato all’interno degli eventi del set di dati almeno una volta per ogni ID persistente. Se prevedi di includere questo set di dati all’interno di una connessione Customer Journey Analytics, è preferibile che anche gli altri set di dati abbiano un identificatore comune simile.
 
 <!--
-- Both columns (persistent ID and transient ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 
@@ -222,12 +222,12 @@ I seguenti prerequisiti si applicano in modo specifico all’unione basata sui c
 
 Le seguenti limitazioni si applicano in modo specifico all’unione basata sui campi:
 
-- Le attuali funzionalità di rekeying sono limitate a un solo passaggio (ID persistente a ID transitorio). La reimpostazione in più passaggi (ad esempio, ID persistente in un ID transitorio e quindi in un altro ID transitorio) non è supportata.
+- Le attuali funzionalità di rekeying sono limitate a un solo passaggio (ID persistente a ID persona). La reimpostazione in più passaggi (ad esempio, ID persistente in un ID persona e quindi in un altro ID persona) non è supportata.
 - Se un dispositivo è condiviso da più persone e il numero totale di transizioni tra gli utenti supera le 50.000, Customer Journey Analytics non unisce più i dati per tale dispositivo.
 - Le mappe ID personalizzate utilizzate nell’organizzazione non sono supportate.
-- L’unione distingue tra maiuscole e minuscole. Per i set di dati generati tramite il connettore di origine di Analytics, Adobe consiglia di rivedere eventuali regole VISTA o regole di elaborazione applicabili al campo ID transitorio. Questa revisione assicura che nessuna di queste regole introduca nuove forme dello stesso ID. Ad esempio, assicurati che le regole VISTA o di elaborazione non introducano lettere minuscole nel campo ID transitorio solo per una parte degli eventi.
+- L’unione distingue tra maiuscole e minuscole. Per i set di dati generati tramite il connettore di origine di Analytics, Adobe consiglia di rivedere eventuali regole VISTA o regole di elaborazione applicabili al campo ID persona. Questa revisione assicura che nessuna di queste regole introduca nuove forme dello stesso ID. Ad esempio, assicurati che le regole VISTA o di elaborazione non introducano lettere minuscole nel campo ID persona solo per una parte degli eventi.
 - L’unione non combina o concatena i campi.
-- Il campo ID transitorio deve contenere un singolo tipo di ID (ID da un singolo spazio dei nomi). Ad esempio, il campo ID transitorio non deve contenere una combinazione di ID di accesso e ID e-mail.
-- Se si verificano più eventi con la stessa marca temporale per lo stesso ID persistente, ma con valori diversi nel campo ID transitorio, l’unione seleziona l’ID in base all’ordine alfabetico. Quindi, se l’ID persistente A ha due eventi con la stessa marca temporale e uno degli eventi specifica Bob e l’altro specifica Ann, l’unione seleziona Ann.
-- Presta attenzione agli scenari in cui gli ID transitori contengono valori segnaposto, ad esempio `Undefined`. Per ulteriori informazioni, consulta le [domande frequenti](faq.md).
-- Non è possibile utilizzare lo stesso spazio dei nomi sia persistentID che transientID; gli spazi dei nomi devono escludersi a vicenda.
+- Il campo ID persona deve contenere un singolo tipo di ID (ID da un singolo spazio dei nomi). Ad esempio, il campo ID persona non deve contenere una combinazione di ID di accesso e ID e-mail.
+- Se si verificano più eventi con la stessa marca temporale per lo stesso ID persistente, ma con valori diversi nel campo ID persona, l’unione seleziona l’ID in base all’ordine alfabetico. Quindi, se l’ID persistente A ha due eventi con la stessa marca temporale e uno degli eventi specifica Bob e l’altro specifica Ann, l’unione seleziona Ann.
+- Presta attenzione agli scenari in cui gli ID persona contengono valori segnaposto, ad esempio `Undefined`. Per ulteriori informazioni, consulta le [domande frequenti](faq.md).
+- Non puoi utilizzare lo stesso spazio dei nomi sia per l’ID persistente che per l’ID persona; gli spazi dei nomi devono escludersi a vicenda.

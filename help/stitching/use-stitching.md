@@ -1,20 +1,20 @@
 ---
-title: Utilizzare l’unione
-description: Come utilizzare l’unione
+title: Richiedi unione
+description: Come richiedere l’unione
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 1ee282d0bf91c1a2f27073d0755cf404148d4d5b
+source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 9%
+source-wordcount: '460'
+ht-degree: 8%
 
 ---
 
-# Utilizzare l’unione
+# Richiedi unione
 
-Quando l&#39;organizzazione soddisfa tutti i [prerequisiti](overview.md#prerequisites) e comprende le [limitazioni](overview.md#limitations) comuni e le limitazioni specifiche del metodo di unione ([basate sui campi](fbs.md#limitations) e [basate sui grafi](gbs.md#limitations)), puoi seguire questi passaggi per iniziare a utilizzare l&#39;unione in Customer Journey Analytics.
+Una volta che la tua organizzazione soddisfa tutti i [prerequisiti](overview.md#prerequisites) e comprende le [limitazioni](overview.md#limitations) comuni e le limitazioni specifiche del metodo di unione ([basate sui campi](fbs.md#limitations) e [basate sui grafi](gbs.md#limitations)), puoi seguire questi passaggi per richiedere e iniziare a utilizzare l&#39;unione in Customer Journey Analytics.
 
 ## Seleziona opzioni
 
@@ -35,20 +35,19 @@ Il pacchetto Customer Journey Analytics a cui hai diritto determina i metodi di 
    - ID del set di dati per il set di dati da reimpostare.
    - Il nome della colonna (percorso identità e spazio dei nomi) dell’ID persistente per il set di dati desiderato (l’identificatore visualizzato su ogni riga).
    - Se il set di dati supporta `identityMap`:
-      - Per l’unione basata sui campi, specifica lo spazio dei nomi per gli ID persistenti e transitori.
+      - Per l’unione basata sui campi, specifica lo spazio dei nomi per gli ID persistente e persona.
       - Per l’unione basata su grafo, specifica lo spazio dei nomi per l’ID persistente e lo spazio dei nomi delle identità da utilizzare per eseguire query sul grafo delle identità.
    - Se il set di dati non supporta `identityMap`:
-      - Per l’unione basata sui campi, il nome della colonna dell’ID transitorio per il set di dati desiderato (l’identificatore della persona, che funge anche da collegamento tra i set di dati nel contesto di una connessione).
+      - Per l’unione basata sui campi, il nome della colonna dell’ID persona per il set di dati desiderato (l’identificatore della persona, che funge anche da collegamento tra i set di dati nel contesto di una connessione).
       - Per l’unione basata su grafico, lo spazio dei nomi delle identità da utilizzare per eseguire query sul grafo delle identità.
    - Preferenza di intervallo di lookback e frequenza di ripetizione. Consulta il tuo pacchetto Customer Journey Analytics per le [opzioni](#options) disponibili.
    - Nome della sandbox.
 
 
-2. L’Assistenza clienti Adobe collabora con i tecnici Adobe per abilitare l’unione dopo aver ricevuto la richiesta. Una volta abilitato, in Adobe Experience Platform viene visualizzato un nuovo set di dati reimpostato contenente una nuova colonna ID unita. L’Assistenza clienti Adobe può fornire l’ID del nuovo set di dati.
-
+2. L’Assistenza clienti Adobe collabora con i tecnici Adobe per abilitare l’unione dopo aver ricevuto la richiesta. Una volta abilitato, in Adobe Experience Platform viene visualizzato un set di dati reimpostato contenente una colonna ID unita. L’Assistenza clienti Adobe può fornire l’ID del nuovo set di dati.
 3. Quando è attivato per la prima volta, Adobe fornisce la retrocompilazione dei dati uniti. Visualizza il tuo pacchetto Customer Journey Analytics per l&#39;[opzione](#options) disponibile.
 
-4. Se desideri utilizzare il nuovo set di dati uniti in un&#39;analisi cross-channel, devi aggiungere il nuovo set di dati uniti a una [connessione](../connections/overview.md) in Customer Journey Analytics. Quindi aggiungi tutti gli altri set di dati necessari per l’analisi cross-channel e seleziona l’ID persona corretto per ciascun set di dati.
+4. Se desideri utilizzare il set di dati uniti in un&#39;analisi cross-channel, devi aggiungere il set di dati uniti a una [connessione](../connections/overview.md) in Customer Journey Analytics. Quindi aggiungi tutti gli altri set di dati necessari per l’analisi cross-channel e seleziona l’ID persona corretto per ciascun set di dati.
 
 5. [Crea una visualizzazione dati](/help/data-views/create-dataview.md) in base alla connessione.
 

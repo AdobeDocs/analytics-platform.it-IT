@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 4cea79a6ba26a2e4f06bfc9c60fdfc03341a7d60
+source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 25%
+source-wordcount: '2069'
+ht-degree: 23%
 
 ---
 
@@ -23,8 +23,8 @@ Di seguito sono riportate alcune domande frequenti sull’unione:
 Puoi utilizzare una visualizzazione Flusso con la dimensione ID set di dati.
 
 1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e crea un progetto Workspace vuoto.
-2. Seleziona la scheda **[!UICONTROL ** Visualizzazioni **]** a sinistra e trascina una visualizzazione **[!UICONTROL **&#x200B; Flusso &#x200B;**]** nell&#39;area di lavoro a destra.
-3. Seleziona la scheda **[!UICONTROL ** Componenti **]** a sinistra e trascina la dimensione **[!UICONTROL ** ID set di dati **]** nella posizione centrale con etichetta **[!UICONTROL **&#x200B; Dimension o elemento &#x200B;**]**.
+2. Seleziona la scheda **[!UICONTROL ** Visualizzazioni **]** a sinistra e trascina una visualizzazione **[!UICONTROL ** Flusso **]** nell&#39;area di lavoro a destra.
+3. Seleziona la scheda **[!UICONTROL ** Componenti **]** a sinistra e trascina la dimensione **[!UICONTROL ** ID set di dati **]** nella posizione centrale con etichetta **[!UICONTROL ** Dimension o elemento **]**.
 4. Questo rapporto di flusso è interattivo. Per espandere i flussi alle pagine successive o precedenti, selezionare uno qualsiasi dei valori. Utilizza il menu di scelta rapida per espandere o comprimere le colonne. Possono essere utilizzate anche dimensioni diverse all’interno dello stesso rapporto di flusso.
 
 Se desideri rinominare gli elementi dimensione ID set di dati, puoi utilizzare un set di dati di ricerca.
@@ -33,7 +33,7 @@ Se desideri rinominare gli elementi dimensione ID set di dati, puoi utilizzare u
 
 ## Riproduci
 
-+++ Quanto indietro nel tempo va l’unione dei visitatori di ripetizione?
++++ Quanto indietro nel tempo va l’unione dei profili di ripetizione?
 
 L’intervallo di lookback per la rekeying dipende dalla frequenza di dati ripetizione desiderata. Ad esempio, se imposti l’unione per riprodurre i dati una volta alla settimana, l’intervallo di lookback per la reimpostazione delle chiavi è di sette giorni. Se imposti l’unione per riprodurre i dati ogni giorno, l’intervallo di lookback per la reimpostazione delle chiavi è di un giorno.
 
@@ -45,7 +45,7 @@ L’intervallo di lookback per la rekeying dipende dalla frequenza di dati ripet
 
 In alcune situazioni è possibile che più persone accedano dallo stesso dispositivo. Ad esempio, un dispositivo condiviso da casa, PC condivisi in una libreria o un chiosco in un punto vendita.
 
-L’ID transitorio sostituisce l’ID persistente, pertanto i dispositivi condivisi vengono considerati persone separate (anche se provengono dallo stesso dispositivo).
+L’ID persona sostituisce l’ID persistente, pertanto i dispositivi condivisi vengono considerati persone separate (anche se provengono dallo stesso dispositivo).
 
 Per ulteriori dettagli, vedi il caso d&#39;uso [Dispositivi condivisi](/help/use-cases/stitching/shared-devices.md).
 
@@ -57,7 +57,7 @@ Per ulteriori dettagli, vedi il caso d&#39;uso [Dispositivi condivisi](/help/use
 
 In alcune situazioni, un singolo utente può essere associato a più ID persistenti. Un esempio è la cancellazione frequente dei cookie del browser o l’utilizzo della modalità privata/in incognito del browser.
 
-Per l’unione basata sui campi, il numero di ID persistenti è irrilevante a favore dell’ID transitorio. Un singolo utente può appartenere a qualsiasi numero di dispositivi senza influire sulla capacità di Customer Journey Analytics di eseguire unioni tra dispositivi.
+Per l’unione basata sui campi, il numero di ID persistenti è irrilevante a favore dell’ID persona. Un singolo utente può appartenere a qualsiasi numero di dispositivi senza influire sulla capacità di Customer Journey Analytics di eseguire unioni tra dispositivi.
 
 Per l’unione basata su grafico, una singola persona può avere molti ID persistenti nel grafico delle identità. L’unione basata su grafico utilizza l’ID persistente basato sullo spazio dei nomi specificato. Se per lo stesso spazio dei nomi sono presenti più ID persistenti, viene utilizzato il primo ID persistente lessicografico.
 
@@ -94,20 +94,20 @@ Adobe gestisce le richieste di accesso ai dati personali in conformità alle leg
 
 Per illustrare, immagina i seguenti dati per le identità, gli eventi prima e dopo l’unione.
 
-| Mappa delle identità | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio |
+| Mappa delle identità | ID | timestamp | ID persistente | spazio dei nomi persistente | I/O persona | namespace persona |
 |---|---|---|---|---|---|---|
 |  | 1 | ts1 | 123 | ecid | Bob | CustId |
 |  | 2 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Set di dati degli eventi | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio |
+| Set di dati degli eventi | ID | timestamp | ID persistente | spazio dei nomi persistente | ID persona | namespace persona |
 |---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | |
 | | 2 | ts1 | 123 | ecid | Bob | CustId |
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Set di dati unito | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio | ID unito | Spazio dei nomi unito |
+| Set di dati unito | ID | timestamp | ID persistente | spazio dei nomi persistente | ID persona | namespace persona | ID unione | spazio dei nomi unito |
 |---|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | Bob | CustId |
 | | 2 | ts1 | 123 | ecid | Bob | CustId | Bob | CustId |
@@ -118,20 +118,20 @@ Per illustrare, immagina i seguenti dati per le identità, gli eventi prima e do
 
 Quando viene ricevuta una richiesta di accesso a dati personali per un cliente con CustID Bob, le righe contenenti voci barrate vengono eliminate. Altri eventi vengono ripristinati utilizzando la mappa delle identità. Ad esempio, il primo ID unito nel set di dati unito è aggiornato a **Alex**.
 
-| Mappa delle identità | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio |
+| Mappa delle identità | ID | timestamp | ID persistente | spazio dei nomi persistente | ID persona | namespace persona |
 |:---:|---|---|---|---|---|---|
 | ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ |
 |  | 2 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Set di dati degli eventi | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio |
+| Set di dati degli eventi | ID | timestamp | ID persistente | spazio dei nomi persistente | ID persona | namespace persona |
 |:---:|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | |
 | ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ |
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Set di dati unito | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio | ID unito | Spazio dei nomi unito |
+| Set di dati unito | ID | timestamp | ID persistente | spazio dei nomi persistente | ID persona | namespace persona | ID unione | spazio dei nomi unito |
 |:---:|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | **Alex** | CustId |
 | ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ | ~~Bob~~ | ~~IDCust~~ |
@@ -142,20 +142,20 @@ Quando viene ricevuta una richiesta di accesso a dati personali per un cliente c
 
 Quando viene ricevuta una richiesta di accesso a dati personali per un cliente con CustID Bob, le righe contenenti voci barrate vengono eliminate. Altri eventi vengono ricomposti utilizzando l’ID persistente. Ad esempio, il primo ID unito nel set di dati unito è stato aggiornato a **123**.
 
-| Mappa delle identità | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio |
+| Mappa delle identità | ID | timestamp | ID persistente | spazio dei nomi persistente | ID persona | namespace persona |
 |:---:|---|---|---|---|---|---|
 | ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ |
 |  | 2 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Set di dati degli eventi | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio |
+| Set di dati degli eventi | ID | timestamp | ID persistente | spazio dei nomi persistente | ID persona | namespace persona |
 |:---:|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | |
 | ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ |
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
-| Set di dati unito | ID | timestamp | ID persistente | spazio dei nomi persistente | id transitorio | spazio dei nomi transitorio | ID unito | Spazio dei nomi unito |
+| Set di dati unito | ID | timestamp | ID persistente | spazio dei nomi persistente | ID persona | namespace persona | ID unione | spazio dei nomi unito |
 |:---:|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | **123** | ecid |
 | ![EliminaStruttura](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Bob~~ | ~~IDCust~~ | ~~Bob~~ | ~~IDCust~~ |
@@ -167,21 +167,21 @@ Quando viene ricevuta una richiesta di accesso a dati personali per un cliente c
 
 +++ Cosa succede se il campo ID persistente in uno o più eventi è vuoto?
 
-Se il campo ID persistente è vuoto in un evento in un set di dati unito, l’ID unito per tale evento in viene determinato in uno dei due modi seguenti:
+Se il campo ID persistente è vuoto in un evento in un set di dati unito, l’ID unito di tale evento viene determinato in uno dei due modi seguenti:
 
 * Se il campo ID transitorio non è vuoto, Customer Journey Analytics utilizza il valore in ID transitorio come ID unito.
-* Se il campo ID transitorio è vuoto, Customer Journey Analytics lascia vuoto anche il campo ID unico. In questo caso, ID persistente, ID transitorio e ID vincolato sono tutti vuoti durante l’evento. Questi tipi di eventi vengono eliminati da qualsiasi connessione Customer Journey Analytics utilizzando il set di dati unito in cui l’ID unito è stato scelto come ID persona.
+* Se il campo ID transitorio è vuoto, Customer Journey Analytics lascia vuoto anche l’ID unione. In questo caso, l’ID persistente, l’ID transitorio e l’ID unito sono tutti vuoti durante l’evento. Questi tipi di eventi vengono eliminati da qualsiasi connessione Customer Journey Analytics che utilizza il set di dati unito in cui l’ID unito è stato scelto come ID persona.
 
 +++
 
 
-## Valori ID transitori non definiti
+## Valori ID persona non definiti
 
-+++ Cosa succede se il campo ID transitorio in uno o più eventi contiene valori segnaposto, come `Undefined`?
++++ Cosa succede se il campo ID persona in uno o più eventi contiene valori segnaposto, come `Undefined`?
 
 Presta attenzione alla &quot;compressione della persona&quot; che si verifica quando l’unione viene applicata a dati che utilizzano valori segnaposto per ID transitori. Nella tabella di esempio seguente, gli ID persona non definiti provenienti da un set di dati originato da un sistema di gestione delle relazioni con i clienti vengono compilati con il valore &quot;Non definito&quot;, dando luogo a una rappresentazione errata delle persone.
 
-| Evento | Marca temporale | ID persistente (ID cookie) | ID transitorio (ID accesso) | ID unione (dopo la riproduzione) |
+| Evento | Marca temporale | ID persistente (ID cookie) | ID transitorio | ID unione (dopo la riproduzione) |
 |---|---|---|---|---|
 | 1 | 12/05/2023:01 | 123 | - | **Cory** |
 | 2 | 12/05/2023:02 | 123 | Cory | **Cory** |
@@ -217,13 +217,13 @@ Altre metriche possono essere simili in Customer Journey Analytics e Adobe Analy
 
 +++ Customer Journey Analytics può utilizzare i campi di Identity Map?
 
-Sì, Customer Journey Analytics può utilizzare i campi di Identity Map per l&#39;unione di [campi](/help/stitching/fbs.md#identitymap) e [grafi](/help/stitching/gbs.md#identitymap).
+Sì, Customer Journey Analytics può utilizzare i campi di Identity Map per l&#39;unione di [campi](/help/stitching/fbs.md#identitymap) e [grafici](/help/stitching/gbs.md#identitymap).
 
 +++
 
-## Passa all’unione basata su grafico
+## Passare all’unione basata su grafico
 
-+++ Sarà necessario riacquisire i dati per passare dall’unione basata sui campi all’unione basata sui grafici?
++++ Sarà necessario riacquisire i dati per passare dall’unione basata sui campi all’unione basata sui grafi?
 
 Non è necessario riacquisire i dati in Experience Platform, tuttavia dovranno essere riconfigurati in Customer Journey Analytics. Segui questi passaggi:
 
@@ -275,6 +275,6 @@ curl -X POST \
 
 Qualsiasi utilizzo del tag `unifiedProfile` nella richiesta, anche se non disponi della licenza per Real-Time Customer Data Profile, restituisce un errore.
 
-Per ulteriori informazioni, vedere [Creare un set di dati abilitato per Profilo e identità](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity).
+Per ulteriori informazioni, vedere [Creare un set di dati abilitato per Profilo e identità](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity).
 
 +++ 

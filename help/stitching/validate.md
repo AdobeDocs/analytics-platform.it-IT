@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: d9a65774fa5ab8c6b7fdd018f5d345dc7eb9e9de
+source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Per il piano di misurazione della convalida dell’unione, è necessario assicur
 
 Inoltre, devi aggiungere due metriche di unione basate sulla presenza di valori in una dimensione.
 
-1. Utilizza il campo che contiene l’ID persona del set di dati uniti per configurare una metrica che definisce se è impostato un ID persona. Aggiungi questo ID persona anche se utilizzi l’unione basata su grafico, in quanto l’ID persona consente di stabilire una linea di base. Se l’ID persona non è contenuto nel set di dati, la linea di base è 0%.
+1. Utilizza il campo che contiene l’ID persona del set di dati uniti per configurare una metrica che definisca se un ID persona è impostato. Aggiungi questo ID persona anche se utilizzi l’unione basata su grafico, in quanto l’ID persona consente di stabilire una linea di base. Se l’ID della persona non è contenuto nel set di dati, la linea di base è 0%.
 
    Nell&#39;esempio seguente, `personalEmail.address` funge da identità e viene utilizzato per creare la metrica **[!UICONTROL _Email set]**.
    ![Metrica set e-mail](assets/emailset-metric.png)
@@ -62,7 +62,7 @@ Con entrambe queste dimensioni aggiunte alla visualizzazione dati, utilizza [Tab
 
 Nella tabella **[!UICONTROL Stitched Namespace dimension**] vengono in genere visualizzate due righe per ogni set di dati. Una riga che rappresenta quando il processo di unione ha dovuto utilizzare il metodo di fallback (ECID). L’altra riga mostra gli eventi associati allo spazio dei nomi dell’identità (e-mail) desiderato.
 
-Per la tabella **[!UICONTROL Stitched ID dimension**] vengono visualizzati i valori non elaborati provenienti dagli eventi. In questa tabella, puoi vedere che i valori oscillano tra l’ID persistente e l’ID persona desiderato.
+Per la tabella **[!UICONTROL Stitched ID dimension**] vengono visualizzati i valori non elaborati provenienti dagli eventi. In questa tabella puoi vedere che i valori oscillano tra l’ID persistente e l’ID persona desiderato.
 
 ![Controllare le dimensioni unite](assets/check-data-on-stitching.png)
 
@@ -102,7 +102,7 @@ Si desidera misurare le prestazioni di identificazione prima e dopo l&#39;unione
 Se combini tutti i dati in una tabella a forma libera di Analysis Workspace puoi iniziare a visualizzare l’impatto e il valore forniti dall’unione, inclusi:
 
 * Tasso di autenticazione corrente: linea di base del numero di eventi che avevano già l’ID persona corretto sul numero totale di eventi.
-* Tasso di autenticazione unita: il nuovo numero di eventi che presentano l’ID persona corretto sul numero totale di eventi.
+* Tasso di autenticazione unita: il nuovo numero di eventi che hanno l’ID persona corretto sul numero totale di eventi.
 * Aumento percentuale: l’aumento percentuale non elaborato dal tasso di autenticazione unita meno il tasso di autenticazione corrente linea di base.
 * Incremento: variazione percentuale rispetto al tasso di autenticazione corrente previsto.
 
