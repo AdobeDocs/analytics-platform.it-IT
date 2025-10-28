@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+source-git-commit: 58254cab90d907ad9675c30dfc1b835910214b3a
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 100%
+source-wordcount: '853'
+ht-degree: 96%
 
 ---
 
@@ -41,7 +41,7 @@ Content Analytics utilizza i seguenti termini chiave:
 
 ## Come funziona
 
-Content Analytics utilizza i dati di visualizzazione dell’immagine web nei set di dati evento in Experience Platform per [raccogliere i dati dell’evento contenuto](config/datacollection.md). E combina tale raccolta di dati sui contenuti con l’implementazione della raccolta dati (esistente) dei dati comportamentali.
+Content Analytics utilizza i dati di visualizzazione dell’immagine web nei set di dati evento in Experience Platform per [raccogliere i dati dell’evento contenuto](config/datacollection.md). Questi eventi di esperienza dei contenuti richiedono la raccolta dei dati con Experience Platform Edge Network (Web SDK, Server API). I dati comportamentali possono essere raccolti con Web SDK o il connettore Source di Analytics.
 
 ![Content Analytics: come funziona](assets/aca-overview.gif)
 
