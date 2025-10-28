@@ -6,16 +6,16 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 0afe57047e2038f1acd9f88a1e7992da9a2819b1
+source-git-commit: 23b890ec6a3266d1ca0621b09264f1d6a2f82645
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '762'
 ht-degree: 4%
 
 ---
 
 # Utilizzare l’unione
 
-Puoi abilitare l’unione su uno o più set di dati evento configurati come parte della connessione. Il numero di set di dati evento che puoi abilitare per l’unione è determinato dal pacchetto Customer Journey Analytics per il quale hai concesso la licenza.
+Puoi abilitare l’unione su uno o più set di dati evento configurati come parte della connessione. Il pacchetto Customer Journey Analytics per il quale hai concesso la licenza determina il numero di set di dati evento che puoi abilitare per l’unione.
 
 {{release-limited-testing}}
 
@@ -25,7 +25,7 @@ Puoi abilitare l&#39;unione come parte delle [impostazioni del set di dati](/hel
 
 Per abilitare l’unione su un set di dati evento nell’interfaccia utente Connessioni:
 
-* Lo schema su cui si basa il set di dati deve aver definito:
+* Lo schema su cui si basa il set di dati deve avere:
 
    * più campi configurati come identità e che consentono di selezionare valori diversi per un ID persistente e un ID persona.
    * almeno un campo contrassegnato come identità primaria con uno spazio dei nomi associato nel caso in cui si desideri utilizzare Identity Map e lo spazio dei nomi dell’identità primaria per l’ID persistente o l’ID persona.
@@ -64,7 +64,7 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
       * `{END_DATE}` è la data di fine in formato standard. Ad esempio: `2024-01-08 00:00:00`.
 
 
-   * ID persona: esegui la query di 7 giorni di dati in cui il campo ID persona non è nullo e dividi per una query di 7 giorni di dati per tutti gli eventi nel set di dati. Questa percentuale dovrebbe essere superiore al 5%.
+   * ID persona: esegui la query di 7 giorni di dati in cui il campo ID persona non è nullo e dividi per una query di 7 giorni di dati per tutti gli eventi nel set di dati. Tale percentuale dovrebbe essere superiore al 5%.
 
      Esempio di query da utilizzare per la verifica:
 
@@ -127,10 +127,10 @@ Per abilitare l&#39;unione, nella sezione del set di dati evento della finestra 
 
    >[!NOTE]
    >
-   >Devi essere autorizzato a utilizzare il grafo delle identità.
+   >Assicurati di essere autorizzato a utilizzare il grafo delle identità.
    >
 
-   Prima di ciò, viene visualizzata una finestra di dialogo **[!UICONTROL Change to identity graph]** per verificare che [&#x200B; abbia completato la configurazione del grafico delle identità per il set di dati](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) prima di utilizzare il grafico delle identità per l&#39;unione. Seleziona **[!UICONTROL Continue]** (Avanti) per continuare.
+   Prima di ciò, viene visualizzata una finestra di dialogo **[!UICONTROL Change to identity graph]** per verificare che [ abbia completato la configurazione del grafico delle identità per il set di dati](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) prima di utilizzare il grafico delle identità per l&#39;unione. Seleziona **[!UICONTROL Continue]** (Avanti) per continuare.
 
    * Selezionare uno spazio dei nomi dal menu a discesa **[!UICONTROL Namespace]**.
 
@@ -141,7 +141,7 @@ Dopo aver salvato una connessione contenente set di dati abilitati per l’union
 
 ## Limitazioni
 
-Oltre alle [limitazioni dell&#39;unione basata sui campi](/help/stitching/fbs.md#limitations) e alle [limitazioni dell&#39;unione basata sui grafi](/help/stitching/gbs.md#limitations), quando si abilita l&#39;unione nell&#39;interfaccia Connessioni si applicano le seguenti limitazioni:
+Oltre alle [limitazioni relative all&#39;unione basata sui campi](/help/stitching/fbs.md#limitations) e alle [limitazioni relative all&#39;unione basata sui grafi](/help/stitching/gbs.md#limitations), quando si abilita l&#39;unione nell&#39;interfaccia Connessioni vengono applicate le seguenti limitazioni:
 
-* È possibile unire un set di dati evento una sola volta come parte di una singola connessione. Non puoi definire lo stesso set di dati evento più di uno e utilizzare una configurazione di unione separata per ogni istanza. Se desideri applicare diverse configurazioni di unione sullo stesso set di dati, utilizza una connessione separata per ogni configurazione.
+* È possibile unire un set di dati evento una sola volta come parte di una singola connessione. Non è possibile definire lo stesso set di dati evento più di una volta e utilizzare una configurazione di unione separata per ogni istanza. Se desideri applicare diverse configurazioni di unione sullo stesso set di dati, utilizza una connessione separata per ogni configurazione.
 
