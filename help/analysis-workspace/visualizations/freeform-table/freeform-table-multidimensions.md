@@ -5,52 +5,24 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: bff352181392c19b6c4fe70893a016179fb77f06
+source-git-commit: ec07eb5dced013eac3d1088f2f49dcea23894395
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '1014'
 ht-degree: 2%
 
 ---
 
-# Includere più dimensioni in una tabella a forma libera
+# Includere più colonne di dimensione in una tabella a forma libera
 
 {{release-limited-testing}}
 
 Puoi includere fino a 5 colonne di dimensione in una tabella a forma libera, consentendoti di visualizzare più elementi dimensionali uno accanto all’altro. Ogni riga di elementi dimensionali agisce come un singolo elemento concatenato.
 
-Puoi ordinare le colonne di dimensione (insieme alle colonne di metrica) per un’analisi più completa e personalizzata.
+Puoi applicare filtri, ordinamento, raggruppamenti e altro ancora alle tabelle a forma libera con più colonne di dimensioni per creare un’analisi più completa e personalizzata.
 
-## Colonne e raggruppamenti di più dimensioni
+## Aggiungere più colonne di dimensione
 
-Analysis Workspace fornisce i seguenti modi per aggiungere più dimensioni all’interno di una tabella a forma libera:
-
-* Includi più colonne di dimensione (come descritto in questo articolo)
-
-* [Aggiungere suddivisioni](/help/components/dimensions/t-breakdown-fa.md)
-
-Entrambi questi metodi consentono di analizzare le quote rispetto ad altre quote. Tuttavia, esistono differenze importanti ed entrambi i metodi possono essere utilizzati nella stessa tabella per un’analisi ancora più approfondita.
-
-Più colonne di dimensione consentono di:
-
-* Correlare le righe di dati tra più dimensioni e metriche.
-
-* Mostra i dati solo quando si applica a ogni colonna della dimensione nella tabella. A tale scopo, utilizzare il filtro colonne per deselezionare l&#39;impostazione **[!UICONTROL Include "No value"]** in ogni colonna dimensione.
-
-  Per ulteriori informazioni, vedere [Filtrare e ordinare le tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
-
-* Ordinare i dati per più colonne di dimensioni e metriche.
-
-  Per ulteriori informazioni, vedere [Filtrare e ordinare le tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
-
-I raggruppamenti consentono di:
-
-* Mostra elementi dimensionali per un solo elemento
-
-* Mostra gli elementi dimensionali principali per un singolo
-
-## Aggiungere colonne di dimensione
-
-Puoi aggiungere colonne di dimensione una alla volta o in blocco.
+Puoi aggiungere più colonne di dimensione una alla volta o in blocco.
 
 1. In Analysis Workspace, crea una tabella a forma libera.
 
@@ -70,13 +42,15 @@ Puoi aggiungere colonne di dimensione una alla volta o in blocco.
 
 ## Filtrare le tabelle
 
+Puoi applicare filtri a una o più colonne di dimensioni in una tabella a forma libera.
+
 Per informazioni sul filtraggio delle tabelle, vedere [Filtrare le tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables) in [Filtrare e ordinare le tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ## Ordinare le tabelle {#sort-tables}
 
-<!--At GA, move this section into the "Filter and sort tables" article and replace the current "Sort tables" section. Change the "Filter tables" section above to "Filter and sort tables" and link to the other article. Also add row to Guardrails article. -->
+<!--At GA, move this section into the "Filter and sort tables" article and replace the current "Sort tables" section. Change the "Filter tables" section above to "Filter and sort tables" and link to the other article. Also add row to Guardrails -->
 
-Puoi ordinare i dati di una tabella a forma libera in base a qualsiasi colonna in Analysis Workspace che sia una dimensione o una metrica.
+Puoi ordinare i dati di una tabella a forma libera in base a qualsiasi colonna in Analysis Workspace, che si tratti di dimensioni o metriche.
 
 Per impostazione predefinita, le dimensioni sono ordinate in ordine crescente e le metriche in ordine decrescente.
 
@@ -156,9 +130,37 @@ Assegnando una priorità di ordinamento a ciascuna colonna, è possibile control
 
 ![esempio di ordinamento multiplo](assets/dimensions-multiple-sort.png)
 
-## Aggiungere suddivisioni a una tabella con più colonne di dimensione
+## Colonne e raggruppamenti di più dimensioni
 
-Quando aggiungi un raggruppamento a una tabella con più colonne di dimensione, il raggruppamento si estende su tutti gli elementi dimensionali della riga in cui viene aggiunto.
+Analysis Workspace fornisce i seguenti modi per aggiungere più dimensioni all’interno di una tabella a forma libera:
+
+* Includi più colonne di dimensione (come descritto in questo articolo)
+
+* [Aggiungere suddivisioni](/help/components/dimensions/t-breakdown-fa.md)
+
+Entrambi questi metodi consentono di analizzare le quote rispetto ad altre quote. Tuttavia, esistono differenze importanti ed entrambi i metodi possono essere utilizzati nella stessa tabella per un’analisi ancora più approfondita.
+
+### Differenze tra colonne di dimensione e raggruppamenti
+
+Più colonne di dimensione consentono di:
+
+* Concatenare elementi dimensionali in righe di dati distinte su più dimensioni.
+
+* Includi elementi dimensionali nelle righe concatenate solo quando gli elementi dimensionali si applicano a ogni colonna della dimensione nella tabella. A tale scopo, utilizzare il filtro colonne per deselezionare l&#39;impostazione **[!UICONTROL Include "No value"]** in ogni colonna dimensione.
+
+  Per ulteriori informazioni, vedere [Ordinare le tabelle per più colonne (Ordinamento avanzato)](#sort-tables-by-multiple-columns-advanced-sorting).
+
+* Ordina i dati per più colonne di dimensioni e metriche per visualizzare più dati personalizzati.
+
+  Per ulteriori informazioni, vedere [Ordinare le tabelle per più colonne (Ordinamento avanzato)](#sort-tables-by-multiple-columns-advanced-sorting)
+
+I raggruppamenti consentono di:
+
+* Suddividere un elemento dimensione nella tabella a forma libera per una dimensione secondaria. Puoi visualizzare fino a 200 elementi dimensionali per la dimensione secondaria.
+
+### Aggiungere suddivisioni a una tabella con più colonne di dimensione
+
+Quando aggiungi un raggruppamento a una tabella con più colonne di dimensione, il raggruppamento si estende su tutti gli elementi dimensionali della riga in cui lo aggiungi.
 
 È possibile aggiungere un raggruppamento come descritto in [Suddividere dimensioni](/help/components/dimensions/t-breakdown-fa.md).
 
