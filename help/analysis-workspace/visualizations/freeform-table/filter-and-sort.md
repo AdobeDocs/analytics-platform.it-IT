@@ -4,14 +4,14 @@ title: Filtra E Ordina
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: a16043f1bb15deba1332ed39438214597647b9b4
+source-git-commit: 1d760139bd988097486e5c151364f291ad8e243d
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 71%
+source-wordcount: '1104'
+ht-degree: 65%
 
 ---
 
-# Filtrare e ordinare
+# Filtrare e ordinare tabelle
 
 Le tabelle a forma libera in Analysis Workspace sono la base dell’analisi interattiva dei dati. In quanto tali, possono contenere migliaia di righe di informazioni. Filtrare e ordinare i dati può essere fondamentale per far emergere in modo efficace le informazioni più importanti.
 
@@ -33,7 +33,7 @@ Sono disponibili vari metodi per filtrare le righe da una tabella a forma libera
 * Applicare filtri a una tabella
 * Utilizzare segmenti di pubblico
 
-Assicurati di leggere in che misura ogni metodo influisce sui [totali delle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
+Assicurati di leggere l&#39;impatto di ogni metodo sui [totali delle tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### Escludere righe specifiche da una tabella
 
@@ -47,7 +47,7 @@ Per escludere righe specifiche da una tabella a forma libera:
 
 1. Passa il puntatore sulla riga da escludere, quindi seleziona ![Chiudi](/help/assets/icons/Close.svg).
 
-   Tieni premuto il tasto ***Maiusc*** per selezionare un intervallo di righe oppure il tasto ***Cmd*** (in Mac) o il tasto ***Ctrl*** (in Windows) per selezionare più righe.
+   Tenere premuto il tasto ***Maiusc*** per selezionare un intervallo di righe, oppure tenere premuto il tasto ***Comando*** (in Mac) o il tasto ***Ctrl*** (in Windows) per selezionare più righe.
 
 <!--### Right-click > Delete selected rows
 
@@ -75,7 +75,7 @@ Per filtrare i dati nelle tabelle a forma libera:
 
    | Opzione | Funzione |
    |---------|----------|
-   | [!UICONTROL **Includi “Nessun valore”**] | Seleziona questa opzione per visualizzare nella tabella una riga **[!UICONTROL No value]** con i dati che non hanno alcun valore per la dimensione selezionata. Deseleziona questa opzione per nascondere la riga **[!UICONTROL No value]**. |
+   | [!UICONTROL **Includi “Nessun valore”**] | Seleziona questa opzione per visualizzare nella tabella una riga **[!UICONTROL No value]** con i dati che non hanno alcun valore per la dimensione selezionata. Deselezionare questa opzione per nascondere le righe **[!UICONTROL No value]**.<!-- Add at multi dim GA: When tables include multiple dimension columns, you can deselect this option to show data only when it applies to each dimension column in the table.--> |
    | [!UICONTROL **Cerca parola o frase**] | Specifica una parola o una frase in base a cui applicare il filtro. Vengono visualizzate solo le righe contenenti la parola o la frase esatta specificata. |
 
 
@@ -87,7 +87,7 @@ Per filtrare i dati nelle tabelle a forma libera:
 
    | Opzione | Funzione |
    |---------|----------|
-   | [!UICONTROL **Includi “Nessun valore”**] | Seleziona questa opzione per visualizzare nella tabella una riga **[!UICONTROL No value]** con i dati che non hanno alcun valore per la dimensione selezionata. Deseleziona questa opzione per nascondere la riga **[!UICONTROL No value]**. |
+   | [!UICONTROL **Includi “Nessun valore”**] | Seleziona questa opzione per visualizzare nella tabella una riga **[!UICONTROL No value]** con i dati che non hanno alcun valore per la dimensione selezionata. Deselezionare questa opzione per nascondere la riga **[!UICONTROL No value]**. |
    | [!UICONTROL **Corrispondenza**] | Scegli [!UICONTROL **Se sono soddisfatti tutti i criteri**] per mostrare solo i dati che soddisfano tutti i criteri specificati. In genere, questa opzione genera dati più precisi.<br/><br/>Scegli [!UICONTROL **Se sono soddisfatti i criteri**] per mostrare i dati che soddisfano tutti i criteri di filtro specificati. Di solito, questa opzione genera dati meno precisi. |
    | [!UICONTROL **Criteri**] | Seleziona tra le opzioni filtro seguenti:<br/><ul><li>[!UICONTROL **Contiene la frase**] (impostazione predefinita): nei risultati filtrati vengono inclusi solo i dati che contengono la frase esatta specificata. Le parole devono essere nell’ordine specificato nel [!UICONTROL **campo Cerca parola o frase**].</li><li>[!UICONTROL **Contiene qualsiasi termine**]: nei risultati filtrati sono inclusi solo i dati contenenti una o più parole della frase specificata. </li><li>[!UICONTROL **Contiene tutti i termini**]: nei risultati filtrati sono inclusi solo i dati che contengono tutte le parole della frase specificata. Le parole non devono necessariamente essere nell&#39;ordine specificato nel [!UICONTROL **campo Cerca parola o frase**].</li><li>[!UICONTROL **Non contiene alcun termine**]: nei risultati filtrati sono inclusi solo i dati che non contengono le parole della frase specificata. </li><li>[!UICONTROL **Non contiene la frase**]: nei risultati filtrati sono inclusi solo i dati che non contengono la frase esatta specificata. Le parole devono essere nell’ordine specificato nel [!UICONTROL **campo Cerca parola o frase**].</li><li>[!UICONTROL **È uguale a**]: nei risultati filtrati vengono inclusi solo i dati che corrispondono esattamente alla frase specificata. </li><li>[!UICONTROL **Non è uguale a**]: nei risultati filtrati vengono inclusi solo i dati che non corrispondono esattamente alla frase specificata. </li><li>[!UICONTROL **Inizia con**]: nei risultati filtrati sono inclusi solo i dati che iniziano con la parola o la frase esatta specificata. </li><li>[!UICONTROL **Termina con**]: nei risultati filtrati sono inclusi solo i dati che terminano con la parola o la frase esatta specificata. </li></ul>Seleziona ![Aggiungi](/help/assets/icons/Add.svg) [!UICONTROL **Aggiungi riga**] per aggiungere più criteri di filtro. L’opzione selezionata per [!UICONTROL **Corrispondenza**] determina **[!UICONTROL If all criteria are met]** o **[!UICONTROL If any criteria are met]**. |
    | [!UICONTROL **Escludi sempre gli elementi**] | Specifica il nome degli elementi da escludere dai dati filtrati. |

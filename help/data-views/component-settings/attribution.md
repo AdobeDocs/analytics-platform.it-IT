@@ -5,10 +5,10 @@ exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 7d354ce65f72838c007d2b9faf02848d86fd7c0f
+source-git-commit: 2fd79da264d60bb90e1193ead2eee67602404b4c
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 93%
+source-wordcount: '430'
+ht-degree: 63%
 
 ---
 
@@ -33,19 +33,17 @@ Ad esempio:
 
 In alcuni rapporti, potresti desiderare che l’ordine sia attribuito a Ricerca a pagamento. In altri rapporti, potresti desiderare che l’ordine sia attribuito a Social. Attribution ti consente di controllare questo aspetto del reporting.
 
-## Impostare il modello di attribuzione predefinito di un componente
+## Impostare il modello di attribuzione di un componente
 
-Puoi impostare un modello di attribuzione predefinito per una data metrica aggiornando l’impostazione della metrica nella visualizzazione dati. In questo modo si sovrascrive il modello di attribuzione della metrica ogni volta che viene utilizzato in Analysis Workspace.
+Puoi modificare il modello di attribuzione predefinito per un determinato componente aggiornando l’impostazione del componente nella visualizzazione dati. In questo modo si sostituisce il modello di attribuzione del componente ogni volta che viene utilizzato in Analysis Workspace.
 
 >[!NOTE]
 >
->Quando abiliti Attribution su una metrica, tieni presente quanto segue:
+>Quando abiliti un modello di attribuzione non predefinito su una metrica, considera quanto segue:
 >
->* **Quando utilizzi il componente in un report con *una singola dimensione*:** l’attribuzione del componente ignora il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
+>* **Quando si utilizza la metrica in un report con *una singola dimensione*:** L&#39;attribuzione della metrica ha la precedenza sul modello di allocazione impostato sulla dimensione. Ad esempio, una metrica con attribuzione &quot;primo contatto&quot; sostituisce l’allocazione di dimensione &quot;più recente&quot;.
 >
->* **Quando utilizzi il componente in un report con *più dimensioni*:** l’attribuzione del componente mantiene il modello di allocazione quando viene utilizzato un modello di attribuzione non predefinito.
->
->   Più dimensioni sono disponibili solo durante l’[esportazione di dati nel cloud](/help/analysis-workspace/export/export-cloud.md).
+>* **Quando si utilizza la metrica in un report con *più dimensioni*:** L&#39;attribuzione della metrica viene applicata sopra il modello di allocazione per ogni dimensione. Ad esempio, una metrica con attribuzione &quot;primo contatto&quot; viene applicata all’allocazione di una dimensione &quot;più recente&quot;.
 >
 > Per ulteriori informazioni sull’allocazione, consulta [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md).
 
