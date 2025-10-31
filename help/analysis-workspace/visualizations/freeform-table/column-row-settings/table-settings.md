@@ -90,4 +90,4 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 
 ## Modificare l&#39;altezza delle righe
 
-È possibile impostare la densità di visualizzazione [1 di un progetto su ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density), **[!UICONTROL Compact]** e **[!UICONTROL Comfortable]**.**[!UICONTROL Expanded]**
+È possibile impostare la densità di visualizzazione [1 di un progetto su &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density), **[!UICONTROL Compact]** e **[!UICONTROL Comfortable]**.**[!UICONTROL Expanded]**
