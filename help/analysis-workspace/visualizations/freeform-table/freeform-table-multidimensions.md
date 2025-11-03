@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
+source-git-commit: 9314f7d88834a67efb61d0cc0cceef1ccd2fb9cb
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1262'
 ht-degree: 2%
 
 ---
@@ -22,9 +22,9 @@ Puoi applicare filtri, ordinamento, raggruppamenti e altro ancora alle tabelle a
 
 ## Elementi dimensionali concatenati
 
-Quando aggiungi più colonne di dimensione a una tabella a forma libera, ogni riga di elementi dimensionali si comporta come un singolo elemento dimensionale concatenato. Questa funzionalità consente di visualizzare i dati delle metriche per combinazioni specifiche di dimensioni.
+Quando [aggiungi più colonne di dimensione a una tabella a forma libera](#add-multiple-dimension-columns), ogni riga di elementi di dimensione si comporta come un singolo elemento di dimensione concatenato. Questa funzionalità consente di visualizzare i dati delle metriche per combinazioni specifiche di dimensioni.
 
-Consideriamo ad esempio una tabella a forma libera in cui le dimensioni sono _Città_, _Tipo di dispositivo_ e _Giorno del mese_ e la metrica è _Eventi_. I 3 elementi dimensionali nella prima riga della tabella diventano un singolo elemento dimensionale concatenato che mostra che il 30° giorno del mese si sono verificati a Mumbai 2.056 eventi da telefoni cellulari.
+Consideriamo ad esempio una tabella a forma libera in cui le colonne della dimensione sono _Città_, _Tipo di dispositivo_ e _Giorno del mese_ e la metrica è _Eventi_. I 3 elementi dimensionali nella prima riga della tabella diventano un singolo elemento dimensionale concatenato che mostra che il 30° giorno del mese si sono verificati a Mumbai 2.056 eventi da telefoni cellulari.
 
 | Dimension: City | Dimension: tipo di dispositivo | Dimension: giorno del mese | Metrica: Eventi |
 |---------|----------|---------|---------|
@@ -57,13 +57,13 @@ Puoi aggiungere più colonne di dimensione una alla volta o in blocco.
 
      ![Trascina più dimensioni](assets/dimensions-add-multiple.png)
 
-1. Visualizzare ogni riga della tabella come un singolo elemento dimensione. Per ulteriori informazioni, vedere [Visualizzare gli elementi dimensionali concatenati](#view-concatenated-dimension-items).
+1. Visualizzare ogni riga della tabella come un singolo elemento dimensione. Per ulteriori informazioni, vedere [Elementi dimensione concatenati](#view-concatenated-dimension-items).
 
 ## Filtrare le tabelle
 
 Puoi applicare filtri a una o più colonne di dimensioni in una tabella a forma libera.
 
-Per informazioni sul filtraggio delle tabelle, vedere [Filtrare le tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables) in [Filtrare e ordinare le tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Per informazioni sul filtraggio delle tabelle, vedere [Filtrare le tabelle](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables) in [Filtrare e ordinare le tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ## Ordinare le tabelle {#sort-tables}
 
