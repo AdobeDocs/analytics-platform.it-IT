@@ -4,14 +4,14 @@ title: Filtra E Ordina
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 1d760139bd988097486e5c151364f291ad8e243d
+source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1105'
 ht-degree: 65%
 
 ---
 
-# Filtrare e ordinare tabelle
+# Filtra e ordina tabelle a forma libera
 
 Le tabelle a forma libera in Analysis Workspace sono la base dell’analisi interattiva dei dati. In quanto tali, possono contenere migliaia di righe di informazioni. Filtrare e ordinare i dati può essere fondamentale per far emergere in modo efficace le informazioni più importanti.
 

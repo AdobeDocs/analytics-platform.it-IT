@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: ec07eb5dced013eac3d1088f2f49dcea23894395
+source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1260'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,26 @@ ht-degree: 2%
 
 {{release-limited-testing}}
 
-Puoi includere fino a 5 colonne di dimensione in una tabella a forma libera, consentendoti di visualizzare più elementi dimensionali uno accanto all’altro. Ogni riga di elementi dimensionali agisce come un singolo elemento concatenato.
+Puoi includere fino a 5 colonne di dimensione in una tabella a forma libera, consentendoti di visualizzare più elementi dimensionali uno accanto all’altro. Ogni riga di elementi dimensionali si comporta come un singolo elemento dimensionale concatenato.
 
-Puoi applicare filtri, ordinamento, raggruppamenti e altro ancora alle tabelle a forma libera con più colonne di dimensioni per creare un’analisi più completa e personalizzata.
+Puoi applicare filtri, ordinamento, raggruppamenti e altro ancora alle tabelle a forma libera con più colonne di dimensioni per creare un’analisi più approfondita e personalizzata.
+
+## Elementi dimensionali concatenati
+
+Quando aggiungi più colonne di dimensione a una tabella a forma libera, ogni riga di elementi dimensionali si comporta come un singolo elemento dimensionale concatenato. Questa funzionalità consente di visualizzare i dati delle metriche per combinazioni specifiche di dimensioni.
+
+Consideriamo ad esempio una tabella a forma libera in cui le dimensioni sono _Città_, _Tipo di dispositivo_ e _Giorno del mese_ e la metrica è _Eventi_. I 3 elementi dimensionali nella prima riga della tabella diventano un singolo elemento dimensionale concatenato che mostra che il 30° giorno del mese si sono verificati a Mumbai 2.056 eventi da telefoni cellulari.
+
+| Dimension: City | Dimension: tipo di dispositivo | Dimension: giorno del mese | Metrica: Eventi |
+|---------|----------|---------|---------|
+| Mumbai | Telefono cellulare | 30 | 2.056 |
+| New York | Tablet | 31 | 1.761 |
+| Bangalore | Desktop | 1 | 1.666 |
+| Delhi | Telefono cellulare | 14 | 1.396 |
+
+Di seguito è riportato l’aspetto di questa tabella in Analysis Workspace:
+
+![Esempio con più dimensioni](assets/multi-dim-example.png)
 
 ## Aggiungere più colonne di dimensione
 
@@ -39,6 +56,8 @@ Puoi aggiungere più colonne di dimensione una alla volta o in blocco.
      Per selezionare più dimensioni, tenere premuto il tasto ***Comando*** (in Mac) o il tasto ***Ctrl*** (in Windows).
 
      ![Trascina più dimensioni](assets/dimensions-add-multiple.png)
+
+1. Visualizzare ogni riga della tabella come un singolo elemento dimensione. Per ulteriori informazioni, vedere [Visualizzare gli elementi dimensionali concatenati](#view-concatenated-dimension-items).
 
 ## Filtrare le tabelle
 
@@ -160,9 +179,21 @@ I raggruppamenti consentono di:
 
 ### Aggiungere suddivisioni a una tabella con più colonne di dimensione
 
-Quando aggiungi un raggruppamento a una tabella con più colonne di dimensione, il raggruppamento si estende su tutti gli elementi dimensionali della riga in cui lo aggiungi.
+Quando aggiungi un raggruppamento a una tabella con più colonne di dimensione, il raggruppamento si applica all’elemento dimensionale concatenato (in tutte le colonne di dimensione) nella riga in cui lo aggiungi.
 
-È possibile aggiungere un raggruppamento come descritto in [Suddividere dimensioni](/help/components/dimensions/t-breakdown-fa.md).
+Inoltre, puoi aggiungere più colonne di dimensione all’interno di un raggruppamento. Anche ogni riga di elementi dimensionali all’interno del raggruppamento si comporta come un singolo elemento dimensionale concatenato.
+
+<!-- update screenshot to show the breakdown, and include this introductory sentence: "For example, you can break down the first dimension item in this table by a new concatenated dimension item that shows... " -->
+
+![esempio di ordinamento multiplo](assets/dimensions-multiple-sort.png)
+
+Per ulteriori informazioni su come aggiungere un raggruppamento, vedere [Suddividere dimensioni](/help/components/dimensions/t-breakdown-fa.md).
+
+## Creare un segmento basato su un elemento dimensione che si estende su più colonne dimensione
+
+Quando crei un segmento basato su un elemento dimensionale che si estende su più colonne di dimensione, ogni elemento dimensionale viene incluso nella definizione del segmento, con gli operatori And che li uniscono.
+
+Per informazioni sulla creazione di un segmento, vedi [Creare segmenti](/help/components/segments/seg-create.md).
 
 ## Dimensioni non supportate {#unsupported}
 
