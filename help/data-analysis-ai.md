@@ -5,10 +5,10 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 77f350923bb750bf99fe4080e44968f9a52cd7da
+source-git-commit: ad8026237d73784dfe154e7bc0b32a06a3a66eb3
 workflow-type: tm+mt
-source-wordcount: '2411'
-ht-degree: 95%
+source-wordcount: '2413'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 >[!AVAILABILITY]
 >
->L’agente Data Insights è disponibile per la clientela idonea per un periodo limitato. L’accesso all’agente Data Insights terminerà il 30 novembre 2025. Per continuare a utilizzare l’agente Data Insights senza interruzioni, contatta il rappresentante del tuo account Adobe per ulteriori informazioni sulle relative licenze.
+>L’agente Data Insights è disponibile per la clientela idonea per un periodo limitato. L’accesso a Data Insights Agent è disponibile fino al 28 febbraio 2026. Per continuare a utilizzare Data Insights Agent senza interruzioni, contatta il rappresentante del tuo account Adobe per ulteriori informazioni sulle licenze di Adobe Experience Platform Agent Orchestrator.
 
 L’agente Data Insights, accessibile dall’[Assistente IA](/help/ai-assistant.md) in Customer Journey Analytics, è un agente per conversazioni basate sull’IA generativa che risponde in modo rapido ed efficiente alle domande sui tuoi dati. Crea visualizzazioni pertinenti in Analysis Workspace utilizzando i componenti della visualizzazione dati e i tuoi dati effettivi.
 
@@ -54,7 +54,7 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
 * **Autorizzazioni**: per consentire agli utenti di accedere all’agente Data Insights, è necessario concedere le autorizzazioni necessarie in [!UICONTROL Adobe Admin Console].
 
-  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
+  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
    1. In **[!UICONTROL Admin Console]**, seleziona la scheda **[!UICONTROL Products]** per visualizzare la pagina **[!UICONTROL All products and services]**.
    1. Seleziona **[!UICONTROL Customer Journey Analytics]**.
    1. Nella scheda **[!UICONTROL Product Profiles]**, seleziona il titolo del profilo di prodotto per il quale desideri fornire accesso a [!UICONTROL AI Assistant: Product Knowledge].
@@ -264,7 +264,7 @@ Di seguito sono riportate le best practice per la configurazione di Customer Jou
 >[!MORELIKETHIS]
 >
 >[Impostazioni dei componenti](/help/data-views/component-settings/overview.md)
->&#x200B;>[Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[Approvare la metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[Condividere i segmenti](/help/components/segments/seg-share.md)
+>[Dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md)
+>[Approvare la metrica calcolata](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>[Condividere i segmenti](/help/components/segments/seg-share.md)
 >

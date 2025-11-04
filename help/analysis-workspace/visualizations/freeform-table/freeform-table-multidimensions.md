@@ -5,7 +5,7 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: 9314f7d88834a67efb61d0cc0cceef1ccd2fb9cb
+source-git-commit: ad8026237d73784dfe154e7bc0b32a06a3a66eb3
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 2%
@@ -89,7 +89,7 @@ Per ordinare i dati nelle tabelle in base a una singola colonna:
 
 ### Ordinare le tabelle in base a più colonne (ordinamento avanzato)
 
-{{release-limited-testing-section}}
+<!-- add this back in when move this section back to the filter and sort article: {{release-limited-testing-section}} -->
 
 #### Applica ordinamento a più colonne
 
@@ -175,7 +175,7 @@ Più colonne di dimensione consentono di:
 
 I raggruppamenti consentono di:
 
-* Suddividere un elemento dimensione nella tabella a forma libera per una dimensione secondaria. Puoi visualizzare fino a 200 elementi dimensionali per la dimensione secondaria.
+* Suddividere un elemento dimensione nella tabella a forma libera per una dimensione secondaria. Puoi visualizzare fino a 400 elementi dimensionali per la dimensione secondaria.
 
 ### Aggiungere suddivisioni a una tabella con più colonne di dimensione
 
