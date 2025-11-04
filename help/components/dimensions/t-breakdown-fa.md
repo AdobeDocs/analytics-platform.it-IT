@@ -51,7 +51,7 @@ Questo è il comportamento previsto quando si applicano modelli di attribuzione 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension in Analysis Workspace](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension in Analysis Workspace](https://video.tv.adobe.com/v/329873?captions=ita&quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -69,7 +69,7 @@ Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheck
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di dimensioni e metriche](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di dimensioni e metriche](https://video.tv.adobe.com/v/35905?captions=ita&quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 {{videoaa}}
 
@@ -78,7 +78,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo delle dimensioni in una tabella a forma libera](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo delle dimensioni in una tabella a forma libera](https://video.tv.adobe.com/v/328588?captions=ita&quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
