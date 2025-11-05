@@ -437,9 +437,9 @@ ht-degree: 99%
 
 + Unione {#stitching}
    + [Panoramica](/help/stitching/overview.md)
-   + [Unione basata sui campi](/help/stitching/fbs.md)
-   + [Unione basata su grafo](/help/stitching/gbs.md)
-   + [Richiedi unione](/help/stitching/use-stitching.md)
+   + [Unione delle identità basata sui campi](/help/stitching/fbs.md)
+   + [Unione delle identità basata su grafo](/help/stitching/gbs.md)
+   + [Richiedere l’unione delle identità](/help/stitching/use-stitching.md)
    + [Utilizzare l’unione](/help/stitching/use-stitching-ui.md)
    + [Creare e gestire i set di dati con unione delle identità](/help/stitching/stitching-ui.md)
    + [Convalidare l’unione delle identità](/help/stitching/validate.md)
