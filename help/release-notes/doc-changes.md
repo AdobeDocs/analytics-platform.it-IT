@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 8fa78b8a04c516d65f6c6368e8721c9bd324ede8
+source-git-commit: 1df3d61a5721cb98aeb4171683de9154957eab61
 workflow-type: tm+mt
-source-wordcount: '5539'
+source-wordcount: '5568'
 ht-degree: 99%
 
 ---
@@ -19,8 +19,10 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Novembre 2025** | |
+| Guardrail per righe al giorno in una connessione | Sono state aggiunte [informazioni sul guardrail per i limiti di trasferimento dei dati](/help/technotes/guardrails.md) sul numero massimo medio di righe al giorno in una connessione. |
 | **Ottobre 2025** | |
-| Gestire l’accesso a Data Insights Agent | Il [processo e requisiti di autorizzazione per abilitare le visualizzazioni dati](/help/data-analysis-ai.md#manage-access-to-data-insights-agent) è stato aggiornato. |
+| Gestire l’accesso all’agente Data Insights | Il [processo e i requisiti di autorizzazione per abilitare le visualizzazioni dati](/help/data-analysis-ai.md#manage-access-to-data-insights-agent) sono stati aggiornati. |
 | Configurazione dell’attribuzione | Aggiornamenti aggiuntivi per riflettere le nuove opzioni di configurazione dell’attribuzione per modello, contenitore e intervallo di lookback. |
 | Acquisire e utilizzare i tipi di pubblico di Experience Platform | È stato aggiornato l’articolo sul caso d’uso su come [acquisire e utilizzare i tipi di pubblico di Experience Platform](/help/use-cases/data-ingestion/ingest-aep-segments.md). |
 | Preparare l’organizzazione all’aggiornamento a Customer Journey Analytics | Sono state aggiunte informazioni su come [preparare un’organizzazione all’aggiornamento a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md). |
@@ -104,7 +106,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Messaggi di errore comuni aggiornati | Effettuati aggiornamenti minori ai [messaggi di errore comuni](/help/analysis-workspace/workspace-faq/error-messages.md). |
 | **Giugno 2024** | |
 | Nome del prodotto aggiornato che fa riferimento alle funzioni streaming media | Le istanze di “Media Analytics” e “Streaming Media” sono state sostituite con il nome “Componente aggiuntivo Streaming Media Collection” quando si fa riferimento all’insieme di funzioni streaming media che raccolgono dati per contenuti multimediali in streaming e li presentano in Analysis Workspace. <p>Questi aggiornamenti sono disponibili all’interno della documentazione di Customer Journey Analytics e anche nella [Documentazione di Streaming Media Collection](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).</p> |
-| Unione basata su grafo | È stata aggiornata e ristrutturata la [documentazione relativa all’unione](/help/stitching/overview.md) con l’introduzione dell’unione basata su grafico. |
+| Unione delle identità basata su grafo | È stata aggiornata e ristrutturata la [documentazione relativa all’unione](/help/stitching/overview.md) con l’introduzione dell’unione basata su grafico. |
 | Assistente IA | È stata aggiunta la [documentazione](../ai-assistant.md) sull&#39;Assistente IA per Customer Journey Analytics. |
 | Trasformare i set di dati per le ricerche B2B | È stata aggiunta la documentazione su come supportare [ricerche basate su persone sui dati B2B](/help/connections//transform-datasets-b2b-lookups.md) (inclusi account, opportunità, elenchi di marketing e campagne) utilizzando la trasformazione dei set di dati di ricerca B2B. |
 | Funzioni di campo derivate e modelli di funzione | È stata aggiunta la documentazione sulle funzioni aggiuntive dei campi derivati ([Matematica](/help/data-views/derived-fields/derived-fields.md#math), [Successiva o Precedente](/help/data-views/derived-fields/derived-fields.md#next-or-previous) e [Riepiloga](/help/data-views/derived-fields/derived-fields.md#summarize)) e sui [modelli di funzione](/help/data-views/derived-fields/derived-fields.md#function-templates). |
@@ -233,7 +235,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Dicembre 2022** |  |
 | 16 dicembre 2022 | Nuovo argomento sulla [gestione dell’utilizzo dei dati di Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Ottobre 2022** | |
-| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
+| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Chiavi gestite dal cliente](/help/privacy/cmk.md). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Registro di controllo di Customer Journey Analytics](/help/privacy/audit-log.md). |
 | Ottobre 2022 | Nuovo argomento sulla visualizzazione del [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=it). |
