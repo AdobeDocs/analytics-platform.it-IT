@@ -2,9 +2,9 @@
 title: Panoramica di utilizzo del prodotto
 description: Visualizza approfondimenti e rapporti sull’utilizzo di Customer Journey Analytics da parte della tua organizzazione.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: 5b5d4cb17ee73415dbd77bbf0964fc3d4e513cf0
+source-git-commit: 22f3059ffef5df76028f36ffa00da8f98956dee1
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '461'
 ht-degree: 88%
 
 ---
@@ -22,7 +22,9 @@ Una volta abilitate, tutte le raccolte e le impostazioni dei dati vengono config
 
 >[!IMPORTANT]
 >
->Questa funzione conta per i limiti di riga contrattuali in Adobe Experience Platform. Assicurati che la tua organizzazione possa inserire i dati generati da questa funzione prima di abilitarla.
+>Se si abilita l’utilizzo del prodotto, i dati di utilizzo vengono memorizzati nel data lake di Adobe Experience Platform. Assicurati che l’allocazione dell’archiviazione del data lake nell’organizzazione possa contenere i set di dati aggiuntivi generati dall’abilitazione di questa funzione.
+>
+>Questa funzione non viene conteggiata rispetto ai limiti delle righe di reporting di Customer Journey Analytics concessi in licenza o alle adesioni ai dati evento.
 
 ## Abilita Utilizzo del prodotto
 
@@ -34,7 +36,7 @@ Passando a questa sezione dell’interfaccia in Customer Journey Analytics arriv
 
 Quando abiliti Utilizzo del prodotto, sono disponibili le seguenti dimensioni. Se desideri modificare le impostazioni di dimensione, crea una copia della visualizzazione dati di proprietà del sistema e utilizza la visualizzazione dati copiata in Analysis Workspace.
 
-* **[!UICONTROL Action Name]**: tipo di azione eseguita dall’utente. Puoi utilizzare questa dimensione come qualsiasi metrica desiderata creando una copia nelle impostazioni della visualizzazione dati. Gli elementi domensionali includono:
+* **[!UICONTROL Action Name]**: tipo di azione eseguita dall’utente. Puoi utilizzare questa dimensione come qualsiasi metrica desiderata creando una copia nelle impostazioni della visualizzazione dati. Gli elementi dimensionali includono:
    * [!UICONTROL Add attribution]
    * [!UICONTROL Add component]
    * [!UICONTROL Add panel]
@@ -58,7 +60,7 @@ Quando abiliti Utilizzo del prodotto, sono disponibili le seguenti dimensioni. S
    * [!UICONTROL Share project with anyone]
    * [!UICONTROL Share project with Workspace users]
    * [!UICONTROL Switch data view]
-* **[!UICONTROL Attribution Model Used]**: tipo di modello di attribuzione utilizzato dal componente. Gli elementi domensionali includono:
+* **[!UICONTROL Attribution Model Used]**: tipo di modello di attribuzione utilizzato dal componente. Gli elementi dimensionali includono:
    * [!UICONTROL Last touch]
    * [!UICONTROL First touch]
    * [!UICONTROL Linear]
@@ -72,7 +74,7 @@ Quando abiliti Utilizzo del prodotto, sono disponibili le seguenti dimensioni. S
    * [!UICONTROL Algorithmic]
 * **[!UICONTROL Component ID]**: ID del componente aggiunto, rimosso o modificato.
 * **[!UICONTROL Component Name]**: nome descrittivo del componente aggiunto, rimosso o modificato.
-* **[!UICONTROL Component Type]**: tipo di componente aggiunto, rimosso o modificato. Gli elementi domensionali includono:
+* **[!UICONTROL Component Type]**: tipo di componente aggiunto, rimosso o modificato. Gli elementi dimensionali includono:
    * [!UICONTROL Dimension]
    * [!UICONTROL Metric]
    * [!UICONTROL Segment]
@@ -82,8 +84,8 @@ Quando abiliti Utilizzo del prodotto, sono disponibili le seguenti dimensioni. S
    * [!UICONTROL Alert]
 * **[!UICONTROL Data View ID]**: ID della visualizzazione dati.
 * **[!UICONTROL Data View Name]**: nome descrittivo della visualizzazione dati.
-* **[!UICONTROL Login User]**: utente che ha eseguito l’azione.
-* **[!UICONTROL Panel Used]**: il pannello aggiunto, rimosso o modificato. Gli elementi domensionali includono:
+* **[!UICONTROL Login User]**: utente che ha intrapreso l’azione.
+* **[!UICONTROL Panel Used]**: pannello aggiunto, rimosso o modificato. Gli elementi dimensionali includono:
    * [!UICONTROL Attribution]
    * [!UICONTROL Blank panel]
    * [!UICONTROL Experimentation]
@@ -99,11 +101,11 @@ Quando abiliti Utilizzo del prodotto, sono disponibili le seguenti dimensioni. S
    * [!UICONTROL Feature matrix]
 * **[!UICONTROL Project ID]**: ID del progetto.
 * **[!UICONTROL Project Name]**: nome descrittivo del progetto.
-* **[!UICONTROL Project Type]**: tipo di progetto. Gli elementi domensionali includono:
+* **[!UICONTROL Project Type]**: tipo di progetto. Gli elementi dimensionali includono:
    * `workspace-projects`
    * `guided-analysis`
    * `mobile-scorecard-builder`
-* **[!UICONTROL Visualization Used]**: visualizzazione aggiunta, rimossa o modificata. Gli elementi domensionali includono:
+* **[!UICONTROL Visualization Used]**: visualizzazione aggiunta, rimossa o modificata. Gli elementi dimensionali includono:
    * [!UICONTROL Freeform table]
    * [!UICONTROL Cohort table]
    * [!UICONTROL Fallout]
