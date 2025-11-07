@@ -10,9 +10,9 @@ user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
 source-git-commit: 2fd79da264d60bb90e1193ead2eee67602404b4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1311'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -204,7 +204,7 @@ ht-degree: 99%
          + [Panoramica](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Creare collegamenti ipertestuali](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + [Visualizzare dati di tendenza](/help/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
-         + [Includi più dimensioni](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md)
+         + [Includere più dimensioni](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md)
          + [Filtrare e ordinare](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Totali](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + Impostazioni colonna e riga {#column-row-settings}
