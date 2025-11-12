@@ -4,10 +4,10 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+source-git-commit: d6477006dfa8134521516b6e0665ff487236c10a
 workflow-type: tm+mt
-source-wordcount: '20382'
-ht-degree: 100%
+source-wordcount: '20761'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ I modelli (o i modelli aziendali) in Analysis Workspace forniscono informazioni 
 * quanto tempo hanno trascorso a guardare un video
 * quali browser e dispositivi hanno utilizzato per visitare il sito
 
-Le informazioni seguenti descrivono come accedere e utilizzare i modelli della scheda [!UICONTROL Templates] in Analysis Workspace.
+Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla scheda [!UICONTROL Modelli] in Analysis Workspace.
 
 ## Accedere ed eseguire un modello
 
@@ -35,7 +35,7 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli della s
 
 1. Nella sezione [!UICONTROL **Modelli**] seleziona una delle schede seguenti:
 
-   * **[!UICONTROL Adobe templates]**: mostra tutti i modelli forniti da Adobe.
+   * **[!UICONTROL Modelli Adobe]**: mostra tutti i modelli forniti da Adobe.
 
    * **[!UICONTROL _modelli login_company_name _]**: mostra tutti i modelli aziendali creati per la tua organizzazione.
 
@@ -45,7 +45,7 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli della s
 
    * Scegli se visualizzare i modelli in una vista a colonne o in una vista a schede selezionando l’icona della vista a colonne ![ViewColumn](/help/assets/icons/ViewColumn.svg) o della vista a schede ![Card](/help/assets/icons/Card.svg).
 
-   * Quando utilizzi la vista a schede ![Card](/help/assets/icons/Card.svg), scegli uno dei seguenti criteri di ordinamento: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
+   * Quando si utilizza la vista a schede ![Scheda](/help/assets/icons/Card.svg), scegliere uno dei seguenti tipi di ordinamento: **[!UICONTROL Usati più di recente]**, **[!UICONTROL Più popolari]**, **[!UICONTROL Alfabetici]**, **[!UICONTROL Categorici]**.
 
 1. Nel campo di ricerca, inizia a digitare il nome del modello che desideri trovare, quindi selezionalo dall’elenco dei modelli.
 
@@ -69,7 +69,7 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli della s
 
    1. Seleziona l’icona del segmento.
 
-   1. Seleziona **[!UICONTROL Not ready for use]** per visualizzare i modelli che richiedono componenti aggiuntivi.
+   1. Selezionare **[!UICONTROL Non pronto per l&#39;uso]** per visualizzare i modelli che richiedono componenti aggiuntivi.
 
       ![Usa un modello con componenti mancanti](assets/template-not-ready.png)
 
@@ -79,9 +79,9 @@ Le informazioni seguenti descrivono come accedere e utilizzare i modelli della s
 
    Esegui una delle operazioni seguenti:
 
-   * Scegli una visualizzazione dati diversa nel menu a discesa **[!UICONTROL Change data view]**.
+   * Scegliere una visualizzazione dati diversa nel menu a discesa **[!UICONTROL Modifica visualizzazione dati]**.
 
-   * Seleziona **[!UICONTROL Continue anyway]** per visualizzare il modello con i componenti mancanti.
+   * Seleziona **[!UICONTROL Continua comunque]** per visualizzare il modello con i componenti mancanti.
 
 ## Creare un progetto basato su un modello {#use-reports}
 
@@ -128,25 +128,25 @@ Per accedere a tutti i modelli predfiniti disponibili:
 
    Le sezioni seguenti corrispondono alle categorie disponibili e forniscono informazioni su ciascun modello.
 
-   * **[[!UICONTROL Most popular]](#most-popular)**
+   * **[[!UICONTROL Più popolari]](#most-popular)**
 
-   * **[[!UICONTROL Web]** > **[!UICONTROL Engagement]](#engagement)**
+   * **[[!UICONTROL Web]** > **[!UICONTROL Coinvolgimento]](#engagement)**
 
-   * **[[!UICONTROL Web]** > **[!UICONTROL Conversion]](#web-conversion)**
+   * **[[!UICONTROL Web]** > **[!UICONTROL Conversione]](#web-conversion)**
 
-   * **[[!UICONTROL Web]** > **[!UICONTROL Audience]](#web-audience)**
+   * **[[!UICONTROL Web]** > **[!UICONTROL Pubblico]](#web-audience)**
 
-   * **[[!UICONTROL Web]** > **[!UICONTROL Acquisition]](#web-acquisition)**
+   * **[[!UICONTROL Web]** > **[!UICONTROL Acquisizione]](#web-acquisition)**
 
-   * **[[!UICONTROL Mobile]** > **[!UICONTROL Mobile App]](#mobile-mobile-app)**
+   * **[[!UICONTROL Mobile]** > **[!UICONTROL App mobile]](#mobile-mobile-app)**
 
-   * **[[!UICONTROL Mobile]** > **[!UICONTROL Mobile Device Information]](#mobile-mobile-device-information)**
+   * **[[!UICONTROL Mobile]** > **[!UICONTROL Informazioni dispositivo mobile]](#mobile-mobile-device-information)**
 
-   * **[[!UICONTROL Time Parting]](#time-parting)**
+   * **[[!UICONTROL Suddivisione del tempo]](#time-parting)**
 
    * **[[!UICONTROL Cross-Channel]](#cross-channel)**
 
-   * **[[!UICONTROL Other Channels]](#other-channels)**
+   * **[[!UICONTROL Altri canali]](#other-channels)**
 
    * **[[!UICONTROL AJO]](#ajo)**
 
@@ -1063,7 +1063,22 @@ Per accedere a tutti i modelli predfiniti disponibili:
 | **Rapporto di panoramica su Journey Optimizer** | Visualizza un riepilogo completo delle metriche di traffico e coinvolgimento per tutte le campagne e i percorsi all’interno del tuo ambiente.<p>**Questo può aiutarti** a capire meglio l’efficacia di alto livello delle tue campagne e dei tuoi percorsi. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare le campagne e i percorsi in base ai livelli di coinvolgimento del pubblico target.</p> |
 | **Abbonamenti a Journey Optimizer** | Visualizza abbonamenti e annullamenti di abbonamenti dei profili associati a determinati elenchi.<p>**Questo può aiutarti** a comprendere meglio l’efficacia delle diverse campagne di abbonamento e delle iniziative nel promuovere il coinvolgimento e le conversioni.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio modificare le campagne di abbonamento in base ai livelli di coinvolgimento del pubblico target.</p> |
 
+### Brand Concierge {#brand-concierge-templates}
 
+>[!CONTEXTUALHELP]
+>id="template--brand-concierge-b2c"
+>title="Analizza il coinvolgimento degli utenti attraverso i pattern di conversazione, il feedback degli utenti e l’efficacia dei consigli."
+>abstract="**Questo può aiutarti** a identificare pattern di coinvolgimento, valutare la qualità della conversazione, monitorare le tendenze della soddisfazione dei clienti e misurare l&#39;efficacia dei consigli di collegamento.<br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come perfezionare le risposte dell&#39;agente di intelligenza artificiale, sviluppare contenuti mirati per problemi frequenti, migliorare gli algoritmi di consigli o creare percorsi specializzati per diversi segmenti di utenti."
+
+>[!CONTEXTUALHELP]
+>id="template--brand-concierge--concierge"
+>title="Monitorare l’intero ciclo di vita delle richieste di riunioni B2B. Monitora i tassi di conversione, le prestazioni dei consulenti e identifica i canali di generazione di lead più efficaci."
+>abstract="**Questo può aiutarti** a tenere traccia dei tassi di conversione delle riunioni, a identificare i membri del team con prestazioni elevate, a comprendere le tendenze stagionali nel comportamento di prenotazione e a individuare le pagine che generano le convocazioni di riunione più importanti.<br/>**In base alle informazioni acquisite, è possibile** eseguire numerose operazioni, ad esempio ottimizzare il processo di convocazione di riunioni, ridistribuire le risorse in pagine con elevata conversione, sviluppare una formazione mirata per i consulenti con tassi di prenotazione inferiori o implementare nuove strategie per ridurre le riunioni non riuscite."
+
+| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| --- | --- | 
+| [!UICONTROL **Panoramica di Brand Concierge**] | Analizza il coinvolgimento degli utenti attraverso i pattern di conversazione, il feedback degli utenti e l’efficacia dei consigli. <p>**Questo può aiutarti** a identificare pattern di coinvolgimento, valutare la qualità della conversazione, monitorare le tendenze della soddisfazione dei clienti e misurare l&#39;efficacia dei consigli di collegamento.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come perfezionare le risposte dell&#39;agente di intelligenza artificiale, sviluppare contenuti mirati per problemi frequenti, migliorare gli algoritmi di consigli o creare percorsi specializzati per diversi segmenti di utenti.</p> |
+| **Riunioni B2B Brand Concierge** | Monitorare l’intero ciclo di vita delle richieste di riunioni B2B. Monitora i tassi di conversione, valuta le prestazioni di prenotazione dei consulenti e identifica i canali di generazione di lead più efficaci. <p>**Questo può aiutarti** a tenere traccia dei tassi di conversione delle riunioni, identificare i membri del team con prestazioni elevate, capire le tendenze stagionali nel comportamento di prenotazione e individuare le pagine URL che generano le convocazioni di riunione più importanti. </p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come ottimizzare il processo di convocazione di riunione, ridistribuire le risorse in URL di pagina a conversione elevata, sviluppare una formazione mirata per i consulenti con tassi di prenotazione più bassi o implementare nuove strategie per ridurre le riunioni saltate.</p> |
 
 
 ### Modelli B2B {#b2b-templates}
