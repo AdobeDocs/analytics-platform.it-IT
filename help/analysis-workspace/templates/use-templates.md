@@ -4,9 +4,9 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: d6477006dfa8134521516b6e0665ff487236c10a
+source-git-commit: 8b9f45bc68fd90c2b15a91d547256c18d0d7142b
 workflow-type: tm+mt
-source-wordcount: '20761'
+source-wordcount: '20687'
 ht-degree: 97%
 
 ---
@@ -591,11 +591,6 @@ Per accedere a tutti i modelli predfiniti disponibili:
 
 
 <!--Both AA and CJA-->
-
->[!CONTEXTUALHELP]
->id="template--audienceOverview"
->title="Visualizzare il Paese da cui provengono le persone che visitano il sito."
->abstract="**Questo può aiutarti** a capire meglio quali sono i Paesi più popolari da cui provengono i visitatori del tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in questi Paesi, oppure assicurarti che l’esperienza sul tuo sito sia ottimale in Paesi con lingue principali diverse.<br/>Questo modello utilizza la dimensione Paesi."
 
 >[!CONTEXTUALHELP]
 >id="template--consentPolicyOverview"
