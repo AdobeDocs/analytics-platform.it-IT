@@ -4,16 +4,18 @@ description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: be062e350a8c1989be41aeb2774471a3fe1bf524
+source-git-commit: ff301a4c76c547bf52e0dfaef5258fd183411c73
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 85%
 
 ---
 
 # Panoramica sulla pubblicazione del pubblico
 
-Ora puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Analytics su [Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per la personalizzazione e il targeting della clientela.
+Puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Analytics su [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
+
+<!-- add this when Audience Analysis releases: (For information about ingesting audience membership data from Experience Platform Profile datasets into a Customer Journey Analytics connection, see [Audience analysis overview](/help/connections/audience-analysis/audience-analysis-overview.md).) -->
 
 La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agire sulle informazioni presenti all’interno di Customer Journey Analytics. Tali azioni possono includere:
 
@@ -35,11 +37,11 @@ I tipi di pubblico creati in Customer Journey Analytics non devono necessariamen
 
 ## Autorizzazioni
 
-* Agli amministratori viene concessa automaticamente l’autorizzazione per la **[!UICONTROL Audience Publishing]** in Adobe Admin Console.
+* Gli amministratori ricevono automaticamente l&#39;autorizzazione **[!UICONTROL Pubblicazione dei tipi di pubblico]** in Adobe Admin Console.
 
-* Gli amministratori e gli amministratori dei profili di prodotto possono concedere l’autorizzazione per la **[!UICONTROL Audience Creation]** e **[!UICONTROL Audience View]** ai singoli utenti. Per ulteriori informazioni, consulta [Controllo dell’accesso a livello di utente](/help/technotes/access-control.md#user-level-access).
+* Gli amministratori e gli amministratori dei profili di prodotto possono concedere l&#39;autorizzazione **[!UICONTROL Creazione pubblico]** e **[!UICONTROL Visualizzazione pubblico]** ai singoli utenti. Per ulteriori informazioni, consulta [Controllo dell’accesso a livello di utente](/help/technotes/access-control.md#user-level-access).
 
-* Gli amministratori richiedono inoltre l’autorizzazione **[!UICONTROL Manage Profiles]** in Adobe Experience Platform.
+* Gli amministratori devono inoltre disporre dell&#39;autorizzazione **[!UICONTROL Gestione profili]** in Adobe Experience Platform.
 
 ## Governance dei dati e consenso
 

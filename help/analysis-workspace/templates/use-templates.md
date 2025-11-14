@@ -4,9 +4,9 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 8b9f45bc68fd90c2b15a91d547256c18d0d7142b
+source-git-commit: 0e282bc341588032fadee45cc128663cf557b21f
 workflow-type: tm+mt
-source-wordcount: '20687'
+source-wordcount: '20775'
 ht-degree: 97%
 
 ---
@@ -591,6 +591,11 @@ Per accedere a tutti i modelli predfiniti disponibili:
 
 
 <!--Both AA and CJA-->
+
+>[!CONTEXTUALHELP]
+>id="template--audienceOverview"
+>title="Visualizza quali tipi di pubblico sono rappresentati tra le persone che visitano il tuo sito."
+>abstract="**Questo può aiutarti** a comprendere meglio le informazioni generali sui tipi di pubblico, su dove hanno avuto origine i tipi di pubblico (RTCDP, Customer Journey Analytics e così via), sulla sovrapposizione dei tipi di pubblico e altro ancora.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come utilizzare i dati per concentrarti sulle attività di marketing per questi tipi di pubblico specifici, o creare esperienze personalizzate per i clienti che si estendono su più tipi di pubblico.<br/>Questo modello utilizza le dimensioni Nome pubblico, Origine pubblico, Nome pubblico in uscita e Origine pubblico in uscita."
 
 >[!CONTEXTUALHELP]
 >id="template--consentPolicyOverview"

@@ -4,10 +4,10 @@ description: Scopri come pubblicare tipi di pubblico da Customer Journey Analyti
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: f3bd60d6a371a16e606d9af60e3359d8128a3c9f
+source-git-commit: 4717a85b9a3c7dc2cbdd8c625ebb5862cbfccd58
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 100%
+source-wordcount: '2391'
+ht-degree: 85%
 
 ---
 
@@ -71,9 +71,9 @@ Consulta questa [panoramica](/help/components/audiences/audiences-overview.md) p
 
    | Metodo di creazione | Dettagli |
    | --- | --- |
-   | Dall’interfaccia **[!UICONTROL Audiences]**. | Seleziona **[!UICONTROL Components]** > **[!UICONTROL Audiences]** dal menu principale di Customer Journey Analytics. Viene visualizzata l’interfaccia Tipi di pubblico. Seleziona **[!UICONTROL Create audience]** per aprire [!UICONTROL Audience builder]. |
-   | Da una visualizzazione in Analysis Workspace | Molte visualizzazioni in Analysis Workspace consentono di creare un pubblico utilizzando il menu di scelta rapida. Ad esempio, puoi selezionare **[!UICONTROL Create audience]** dal menu di scelta rapida di un elemento in una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o un nodo nell’[Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>L’utilizzo di questo metodo precompila il segmento in Audience Builder con la dimensione o l’elemento dimensione selezionato.</p><p>Le seguenti visualizzazioni ti consentono di creare un pubblico utilizzando il menu di scelta rapida:</p><ul><li>[Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Mappa ](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** questa visualizzazione è in fase di test limitato della versione e potrebbe non essere ancora disponibile nel tuo ambiente.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** i tipi di pubblico non possono includere metriche calcolate. Se tenti di creare un pubblico che contiene una metrica calcolata, questa non viene inclusa nella definizione del pubblico.</p> |
-   | Dall’interfaccia utente di creazione/modifica del segmento | Seleziona la casella con la dicitura **[!UICONTROL Create an audience from this segment]**. Usando questo metodo il segmento viene precompilato. Per ulteriori informazioni, consulta [Creare i segmenti](/help/components/segments/seg-create.md). |
+   | Dall&#39;interfaccia **[!UICONTROL Tipi di pubblico pubblicati]** | Seleziona **[!UICONTROL Componenti]** > **[!UICONTROL Pubblico pubblicato]** dal menu principale di Customer Journey Analytics. Viene visualizzata l’interfaccia Tipi di pubblico. Seleziona **[!UICONTROL Crea pubblico]** e viene aperto [!UICONTROL Generatore di pubblico]. |
+   | Da una visualizzazione in Analysis Workspace | Molte visualizzazioni in Analysis Workspace consentono di creare un pubblico utilizzando il menu di scelta rapida. È ad esempio possibile selezionare **[!UICONTROL Crea pubblico]** dal menu di scelta rapida di un elemento in una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o un nodo nell&#39;[area di lavoro Percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>L’utilizzo di questo metodo precompila il segmento in Audience Builder con la dimensione o l’elemento dimensione selezionato.</p><p>Le seguenti visualizzazioni ti consentono di creare un pubblico utilizzando il menu di scelta rapida:</p><ul><li>[Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Mappa ](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** questa visualizzazione è in fase di test limitato della versione e potrebbe non essere ancora disponibile nel tuo ambiente.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** i tipi di pubblico non possono includere metriche calcolate. Se tenti di creare un pubblico che contiene una metrica calcolata, questa non viene inclusa nella definizione del pubblico.</p> |
+   | Dall’interfaccia utente di creazione/modifica del segmento | Seleziona la casella che riporta **[!UICONTROL Crea un pubblico da questo segmento]**. Usando questo metodo il segmento viene precompilato. Per ulteriori informazioni, consulta [Creare i segmenti](/help/components/segments/seg-create.md). |
 
    {style="table-layout:auto"}
 
@@ -81,12 +81,12 @@ Consulta questa [panoramica](/help/components/audiences/audiences-overview.md) p
 
 1. Interpreta i dati utilizzando il pannello [Anteprima data](#data-preview).
 
-1. Seleziona **[!UICONTROL [!UICONTROL View sample IDs]]** per visualizzare un esempio di ID in questo pubblico. Nella finestra di dialogo **[!UICONTROL Sample IDs]** puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) [!UICONTROL *Ricerca ID di esempio*] per cercare ID di esempio.
+1. Seleziona **[!UICONTROL [!UICONTROL Visualizza ID di esempio]]** per visualizzare un esempio di ID in questo pubblico. Nella finestra di dialogo **[!UICONTROL ID campione]** puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) [!UICONTROL *Cerca ID campione*] per cercare ID campione.
 
-1. Controlla nuovamente la configurazione del pubblico e seleziona **[!UICONTROL Publish]**.
+1. Controlla nuovamente la configurazione del pubblico e seleziona **[!UICONTROL Pubblica]**.
 Ricevi un messaggio di conferma della pubblicazione del pubblico. Ci vogliono solo pochi minuti perché questo pubblico venga visualizzato in Experience Platform.
 
-1. Selezionando **[!UICONTROL View audience in AEP]** all’interno dello stesso messaggio; vieni portato all’[interfaccia utente dei segmenti](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/overview) in Adobe Experience Platform. Per ulteriori informazioni, vedi di seguito.
+1. Seleziona **[!UICONTROL Visualizza pubblico in AEP]** all&#39;interno dello stesso messaggio e accedi all&#39;[interfaccia utente segmento](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/overview) in Adobe Experience Platform. Per ulteriori informazioni, vedi di seguito.
 
 ## Audience Builder
 
@@ -97,12 +97,12 @@ Configura queste impostazioni per definire o aggiornare il pubblico.
 | Impostazione | Descrizione |
 | --- | --- |
 | ![Dati](/help/assets/icons/Data.svg) | Seleziona una visualizzazione dati da utilizzare per la creazione del pubblico. |
-| **[!UICONTROL Name]** | Il nome del pubblico. Ad esempio: `Really Interested in Potential Car Buyers` |
-| **[!UICONTROL Tags]** | Qualsiasi tag che desideri assegnare al pubblico per motivi organizzativi. Puoi selezionare uno o più tag preesistenti o immetterne uno nuovo. |
-| **[!UICONTROL Description]** | Descrizione del pubblico, per distinguerlo dagli altri. Ad esempio: `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL Refresh frequency]** | La frequenza con cui desideri aggiornare il pubblico.<p/>Puoi scegliere tra <ul><li>Pubblico **[!UICONTROL One time]**: un pubblico (predefinito) che non deve essere aggiornato. Ad esempio, potrebbe essere utile per campagne una tantum specifiche.<br/>Devi specificare un **[!UICONTROL One time date range]**. Puoi utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per immettere un intervallo di date.</li><li>Un pubblico che si aggiorna. Puoi scegliere una delle opzioni seguenti:<ul><li>**[!UICONTROL Every 4 hour]**: un pubblico che si aggiorna ogni 4 ore.</li><li>**[!UICONTROL Daily]**: un pubblico che si aggiorna ogni giorno</li><li>**[!UICONTROL Weekly]**: un pubblico che si aggiorna settimanalmente.</li><li>**[!UICONTROL Monthly]**: un pubblico che si aggiorna mensilmente</li></ul></li>Per i tipi di pubblico che si aggiornano, devi specificare:<ul><li>**[!UICONTROL Refresh lookback window]**. Definisci il numero di giorni di lookback a partire da oggi da cui viene valutato un pubblico. Puoi selezionare una delle opzioni o definire un’ora personalizzata. Il massimo è 90 giorni.</li><li>**[!UICONTROL Expiration date]**: definisci quando il pubblico non si aggiorna più. Puoi utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare una data. Il valore predefinito è un anno dalla data di creazione. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza. L’amministratore riceve un’e-mail un mese prima della scadenza del pubblico.</li></ul> Tieni presente che esiste un limite di 75-150 aggiornamenti di pubblico, a seconda della tua adesione a Customer Journey Analytics.</li></ul> |
-| **[!UICONTROL Filter]** | I filtri sono l’input principale per il pubblico. Trascina nell’area Segmento uno o più segmenti dal pannello ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** a sinistra. Per cercare i segmenti, puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) [!UICONTROL *Ricerca segmenti*]. Puoi aggiungere fino a 20 segmenti. I segmenti possono essere uniti con gli operatori **[!UICONTROL And]** o **[!UICONTROL Or]**.<p>Se crei un pubblico da una visualizzazione in Analysis Workspace (ad esempio, da una tabella a forma libera o dall’area di lavoro del percorso), vengono mantenuti tutti i segmenti applicati al pannello o alla colonna. Puoi rimuovere i segmenti applicati in automatico.</p> |
-| **[!UICONTROL Data preview]** | Seleziona ![Informazioni](/help/assets/icons/Info.svg) per mostrare o nascondere l’[Anteprima dati](#data-preview) per l’intervallo date selezionato. |
+| **[!UICONTROL Nome]** | Il nome del pubblico. Ad esempio: `Really Interested in Potential Car Buyers` |
+| **[!UICONTROL Tag]** | Qualsiasi tag che desideri assegnare al pubblico per motivi organizzativi. Puoi selezionare uno o più tag preesistenti o immetterne uno nuovo. |
+| **[!UICONTROL Descrizione]** | Descrizione del pubblico, per distinguerlo dagli altri. Ad esempio: `Build an audience of really interested potential car buyers` |
+| **[!UICONTROL Frequenza di aggiornamento]** | La frequenza con cui desideri aggiornare il pubblico.<p/>Puoi scegliere tra <ul><li>**[!UICONTROL Pubblico occasionale]**: un pubblico (predefinito) che non deve essere aggiornato. Ad esempio, potrebbe essere utile per campagne una tantum specifiche.<br/>È necessario specificare un **[!UICONTROL Intervallo date una tantum]**. Puoi utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per immettere un intervallo di date.</li><li>Un pubblico che si aggiorna. Puoi scegliere una delle opzioni seguenti:<ul><li>**[!UICONTROL Ogni 4 ore]**: un pubblico che si aggiorna ogni 4 ore.</li><li>**[!UICONTROL Giornaliero]**: un pubblico che si aggiorna ogni giorno</li><li>**[!UICONTROL Ogni settimana]**: un pubblico che si aggiorna ogni settimana.</li><li>**[!UICONTROL Mensile]**: un pubblico che si aggiorna mensilmente</li></ul></li>Per i tipi di pubblico che si aggiornano, devi specificare:<ul><li>**[!UICONTROL Aggiorna intervallo di lookback]**. Definisci il numero di giorni di lookback a partire da oggi da cui viene valutato un pubblico. Puoi selezionare una delle opzioni o definire un’ora personalizzata. Il massimo è 90 giorni.</li><li>**[!UICONTROL Data di scadenza]**: definisci quando il pubblico smette di aggiornare. Puoi utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare una data. Il valore predefinito è un anno dalla data di creazione. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza. L’amministratore riceve un’e-mail un mese prima della scadenza del pubblico.</li></ul> Tieni presente che esiste un limite di 75-150 aggiornamenti di pubblico, a seconda della tua adesione a Customer Journey Analytics.</li></ul> |
+| **[!UICONTROL Filtro]** | I filtri sono l’input principale per il pubblico. Trascina e rilascia uno o più segmenti dal pannello ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** a sinistra nell&#39;area Segmento. Per cercare i segmenti, puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) [!UICONTROL *Ricerca segmenti*]. Puoi aggiungere fino a 20 segmenti. I segmenti possono essere uniti con **[!UICONTROL And]** o **[!UICONTROL Or]** operatori.<p>Se crei un pubblico da una visualizzazione in Analysis Workspace (ad esempio, da una tabella a forma libera o dall’area di lavoro del percorso), vengono mantenuti tutti i segmenti applicati al pannello o alla colonna. Puoi rimuovere i segmenti applicati in automatico.</p> |
+| **[!UICONTROL Anteprima dati]** | Seleziona ![Informazioni](/help/assets/icons/Info.svg) per mostrare o nascondere l’[Anteprima dati](#data-preview) per l’intervallo date selezionato. |
 
 ## Anteprima dati
 
@@ -110,12 +110,12 @@ Il pannello Anteprima dati fornisce le seguenti informazioni.
 
 | Elemento | Descrizione |
 | --- | --- |
-| **[!UICONTROL Total people]** | Un numero di riepilogo del numero totale di persone presenti nel pubblico. La dimensione massima è di 20 milioni di persone. Se il pubblico supera i 20 milioni di persone, devi ridurne la dimensione prima di poterlo pubblicare. |
-| **[!UICONTROL Audience size limit]** | Visualizzazione che mostra quanto è lontano questo pubblico dal limite di 20 milioni. |
-| **[!UICONTROL Estimated audience return]** | Puoi utilizzare questo valore per eseguire il retargeting delle persone nel pubblico che tornano al tuo sito, all’app mobile o a un altro canale.<p>Puoi selezionare l’intervallo di tempo (**[!UICONTROL Next 7 days]**, **[!UICONTROL Next 2 weeks]** o **[!UICONTROL Next month]**) per il numero stimato di clienti che potrebbero tornare. |
-| **[!UICONTROL Estimated to return]** | Questo numero fornisce una stima dei clienti di ritorno nell’arco temporale che hai selezionato. Questo numero viene previsto utilizzando il tasso di abbandono storico per questo pubblico. |
-| **[!UICONTROL Preview metrics]** | Puoi selezionare una metrica specifica per vedere in che modo i dati per quella metrica si basano sul pubblico definito.  Ogni metrica di anteprima mostra un totale per la metrica in base al pubblico. E una percentuale della metrica basata sul pubblico rispetto al totale complessivo della metrica, come definito dalla visualizzazione dati. Ad esempio, 381 persone (la metrica selezionata) sono il risultato della definizione del pubblico, che è il 5% del totale delle persone disponibili nella visualizzazione dati. Puoi selezionare qualsiasi metrica disponibile nella visualizzazione dati. |
-| **[!UICONTROL Namespaces included]** | Gli spazi dei nomi specifici associati alle persone nel pubblico. Alcuni esempi includono ECID, ID CRM, indirizzi e-mail e così via. |
+| **[!UICONTROL Persone totali]** | Un numero di riepilogo del numero totale di persone presenti nel pubblico. La dimensione massima è di 20 milioni di persone. Se il pubblico supera i 20 milioni di persone, devi ridurne la dimensione prima di poterlo pubblicare. |
+| **[!UICONTROL Limite dimensioni pubblico]** | Visualizzazione che mostra quanto è lontano questo pubblico dal limite di 20 milioni. |
+| **[!UICONTROL Pubblico stimato restituito]** | Puoi utilizzare questo valore per eseguire il retargeting delle persone nel pubblico che tornano al tuo sito, all’app mobile o a un altro canale.<p>Puoi selezionare l&#39;intervallo di tempo (**[!UICONTROL Prossimi 7 giorni]**, **[!UICONTROL Prossime 2 settimane]** o **[!UICONTROL Prossimo mese]**) per il numero stimato di clienti che potrebbero tornare. |
+| **[!UICONTROL Valore restituito previsto]** | Questo numero fornisce una stima dei clienti di ritorno nell’arco temporale che hai selezionato. Questo numero viene previsto utilizzando il tasso di abbandono storico per questo pubblico. |
+| **[!UICONTROL Anteprima metriche]** | Puoi selezionare una metrica specifica per vedere in che modo i dati per quella metrica si basano sul pubblico definito.  Ogni metrica di anteprima mostra un totale per la metrica in base al pubblico. E una percentuale della metrica basata sul pubblico rispetto al totale complessivo della metrica, come definito dalla visualizzazione dati. Ad esempio, 381 persone (la metrica selezionata) sono il risultato della definizione del pubblico, che è il 5% del totale delle persone disponibili nella visualizzazione dati. Puoi selezionare qualsiasi metrica disponibile nella visualizzazione dati. |
+| **[!UICONTROL Spazi dei nomi inclusi]** | Gli spazi dei nomi specifici associati alle persone nel pubblico. Alcuni esempi includono ECID, ID CRM, indirizzi e-mail e così via. |
 | **[!UICONTROL Sandbox]** | La [sandbox di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) in cui risiede il pubblico. Quando pubblichi questo pubblico in Platform, puoi utilizzarlo solo entro i confini di questa sandbox. |
 
 {style="table-layout:auto"}
@@ -151,15 +151,15 @@ In diversi intervalli precedenti, durante e dopo la pubblicazione del pubblico, 
 
 ## Utilizzare i tipi di pubblico di Customer Journey Analytics in Experience Platform {#audiences-aep}
 
-Customer Journey Analytics prende tutte le combinazioni di spazi dei nomi e ID dal pubblico pubblicato e le trasmette a Real-Time Customer Data Platform. Customer Journey Analytics invia il pubblico a Experience Platform con l’identità primaria impostata in base a ciò che è stato selezionato come [!UICONTROL Person ID] al momento della configurazione della connessione.
+Customer Journey Analytics prende tutte le combinazioni di spazi dei nomi e ID dal pubblico pubblicato e le trasmette a Real-Time Customer Data Platform. Customer Journey Analytics invia il pubblico ad Experience Platform con l&#39;identità primaria impostata, in base a quella selezionata come [!UICONTROL ID persona] al momento della configurazione della connessione.
 
 Real-Time Customer Data Platform esamina quindi ogni combinazione di spazio dei nomi/ID e cerca un profilo di cui potrebbe far parte. Un profilo è fondamentalmente un cluster di spazi dei nomi, ID e dispositivi collegati. Se trova un profilo, aggiunge lo spazio dei nomi e l’ID agli altri ID in questo profilo come attributo di appartenenza al segmento. Ad esempio, può essere eseguito il targeting di <user@adobe.com> su tutti i relativi dispositivi e canali. Se non viene trovato un profilo, ne viene creato uno nuovo.
 
 Per visualizzare i tipi di pubblico di Customer Journey Analytics in Platform:
 
-1. Espandi **[!UICONTROL Customer]** nel pannello a sinistra, quindi seleziona **[!UICONTROL Audiences]**. <!-- is there a folder called "Customer Journey Analytics? -->
+1. Espandi **[!UICONTROL Cliente]** nel pannello a sinistra, quindi seleziona **[!UICONTROL Tipi di pubblico]**. <!-- is there a folder called "Customer Journey Analytics? -->
 
-1. Seleziona la scheda **[!UICONTROL Browse]**.
+1. Selezionare la scheda **[!UICONTROL Sfoglia]**.
 
 1. Per individuare il pubblico pubblicato da Customer Journey Analytics, effettua una delle seguenti operazioni:
 
@@ -167,7 +167,7 @@ Per visualizzare i tipi di pubblico di Customer Journey Analytics in Platform:
 
    * Ordina la tabella in base alla colonna **[!UICONTROL Origin]** per visualizzare i tipi di pubblico che mostrano [!UICONTROL **Customer Journey Analytics**] come origine.
 
-   * Filtra ![Filtro](/help/assets/icons/Filter.svg) su **[!UICONTROL Origin]** e seleziona **[!UICONTROL Customer Journey Analytics]**.
+   * Filtra ![Filtra](/help/assets/icons/Filter.svg) su **[!UICONTROL Origin]** e seleziona **[!UICONTROL Customer Journey Analytics]**.
 
    * Utilizza il campo di ricerca ![Ricerca](/help/assets/icons/Search.svg).
 
@@ -185,7 +185,7 @@ Possono verificarsi discrepanze nei conteggi del pubblico tra Customer Journey A
 
 La metodologia con cui vengono calcolati i numeri di iscrizione al pubblico differisce tra le due app, come descritto di seguito.
 
-* **Customer Journey Analytics**: la metrica **[!UICONTROL Total People]** in Customer Journey Analytics è un valore stimato. Ciò significa che il conteggio è una stima basata sulle regole del pubblico e può variare tra gli intervalli di aggiornamento.
+* **Customer Journey Analytics**: la metrica **[!UICONTROL Persone totali]** in Customer Journey Analytics è un valore stimato. Ciò significa che il conteggio è una stima basata sulle regole del pubblico e può variare tra gli intervalli di aggiornamento.
 * **Real-Time Customer Data Platform**: il conteggio in Real-Time Customer Data Platform è deterministico, basato sui processi di valutazione giornalieri e corretto al termine della pubblicazione del pubblico nel portale del pubblico.
 
 #### Intervallo e frequenza di pubblicazione
@@ -202,7 +202,7 @@ I tipi di pubblico di Customer Journey Analytics non sono inclusi nel processo d
 
 ### Punti chiave da ricordare
 
-* **Conteggi stimati in Customer Journey Analytics**: comprendere che il conteggio delle **[!UICONTROL Total People]** in Customer Journey Analytics è una stima e può variare a causa dei dati in streaming e dei comportamenti di identità.
+* **Conteggi stimati in Customer Journey Analytics**: il conteggio di **[!UICONTROL Persone totali]** in Customer Journey Analytics è una stima e può variare a causa dei dati in streaming e dei comportamenti di identità.
 * **Conteggi deterministici in Real-Time Customer Data Platform**: il conteggio in Real-Time Customer Data Platform è fisso e non cambia fino al successivo intervallo di pubblicazione.
 * **Frammentazione dei profili**: tieni presente che i profili esistenti in Real-Time Customer Data Platform potrebbero non contribuire a nuovi conteggi di profili durante l’importazione da Customer Journey Analytics.
 

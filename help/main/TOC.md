@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 2fd79da264d60bb90e1193ead2eee67602404b4c
-workflow-type: ht
-source-wordcount: '1311'
-ht-degree: 100%
+source-git-commit: 0c3dfd54dc0cee912cab18644fa984b2be5a26a7
+workflow-type: tm+mt
+source-wordcount: '1321'
+ht-degree: 99%
 
 ---
 
@@ -138,7 +138,6 @@ ht-degree: 100%
    + [Set di dati evento combinati](../connections/combined-dataset.md)
    + [Ricerche standard](../connections/standard-lookups.md)
    + [Ricerche B2B](../connections/transform-datasets-b2b-lookups.md)
-
 + Visualizzazioni dati {#cja-dataviews}
    + [Panoramica delle visualizzazioni dati](../data-views/data-views.md)
    + [Creare o modificare una visualizzazione di dati](../data-views/create-dataview.md)
@@ -163,7 +162,9 @@ ht-degree: 100%
    + Metriche e dimensioni condivise{#shared-metrics-dimensions}
       + [Panoramica](/help/data-views/shared-metrics-dimensions/smd-overview.md)
       + [Editor](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
-
+   + Analisi del pubblico {#audience-analysis}
+      + [Panoramica](/help/connections/audience-analysis/audience-analysis-overview.md)
+      + [Analizzare i tipi di pubblico da RTCDP](/help/connections/audience-analysis/analyze-audiences.md)
 + Strumenti {#tools}
    + Trasferimento risorse {#asset-transfer}
       + [Trasferire le risorse](../tools/asset-transfer/transfer-assets.md)
@@ -335,10 +336,10 @@ ht-degree: 100%
       + [Gestire le annotazioni](../components/annotations/manage-annotations.md)
       + [Visualizzare le annotazioni](../components/annotations/view-annotations.md)
       + [Annotazioni delle scorecard per dispositivi mobili](../components/annotations/mobile-annotations.md)
-   + Tipi di pubblico {#audiences}
-      + [Panoramica dei tipi di pubblico](../components/audiences/audiences-overview.md)
+   + Pubblicazione dei tipi di pubblico {#audiences}
+      + [Panoramica sulla pubblicazione del pubblico](../components/audiences/audiences-overview.md)
       + [Creare e pubblicare tipi di pubblico](../components/audiences/publish.md)
-      + [Gestire i tipi di pubblico](../components/audiences/manage.md)
+      + [Gestire i tipi di pubblico pubblicati](../components/audiences/manage.md)
    + Dimensioni {#dimensions}
       + [Panoramica](../components/dimensions/overview.md)
       + [Anteprima dimensioni](../components/dimensions/view-dimensions.md)
