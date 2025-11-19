@@ -5,9 +5,9 @@ feature: Visualizations
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: ad8026237d73784dfe154e7bc0b32a06a3a66eb3
+source-git-commit: 77acfaf2d186e7fe7d6b9d973af5dedb3956f5d5
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1277'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ Puoi aggiungere più colonne di dimensione una alla volta o in blocco.
 
 1. Aggiungere dimensioni alla tabella a forma libera. È possibile aggiungere dimensioni una alla volta oppure più dimensioni contemporaneamente.
 
-   * Trascina le dimensioni una alla volta nella tabella a forma libera. Posizionate colonne di quota aggiuntive a sinistra o a destra delle colonne di quota esistenti nella tabella. Una riga **[!UICONTROL Add]** verticale blu mostra dove verrà creata la nuova colonna.
+   * Trascina le dimensioni una alla volta nella tabella a forma libera. Posizionate colonne di quota aggiuntive a sinistra o a destra delle colonne di quota esistenti nella tabella. Una riga verticale blu **[!UICONTROL Aggiungi]** mostra dove verrà creata la nuova colonna.
 
      ![Trascina singole dimensioni](assets/dimensions-add-individually.png)
 
@@ -57,7 +57,7 @@ Puoi aggiungere più colonne di dimensione una alla volta o in blocco.
 
      ![Trascina più dimensioni](assets/dimensions-add-multiple.png)
 
-1. Visualizzare ogni riga della tabella come un singolo elemento dimensione. Per ulteriori informazioni, vedere [Elementi dimensione concatenati](#view-concatenated-dimension-items).
+1. Visualizzare ogni riga della tabella come un singolo elemento dimensione. Per ulteriori informazioni, vedere [Elementi dimensione concatenati](#concatenated-dimension-items).
 
 ## Filtrare le tabelle
 
@@ -83,7 +83,7 @@ Per ordinare i dati nelle tabelle in base a una singola colonna:
 
    ![Menu a discesa Ordina](assets/sort-dropdown-menu.png)
 
-1. Seleziona **[!UICONTROL Ascending]** (Mostra origine dati) o **[!UICONTROL Descending]** (Blocca selezione).
+1. Selezionare **[!UICONTROL Crescente]** o **[!UICONTROL Decrescente]**.
 
    L’icona di ordinamento rimane visibile quando l’ordinamento viene applicato alla colonna. Una freccia indica l&#39;ordinamento dei dati (![Ordinamento](/help/assets/icons/SortOrderUp.svg) per crescente o ![Ordinamento](/help/assets/icons/SortOrderDown.svg) per decrescente).
 
@@ -99,13 +99,13 @@ Per ordinare i dati nelle tabelle in base a più colonne:
 
    ![Menu a discesa Ordina](assets/sort-dropdown-menu.png)
 
-1. Seleziona **[!UICONTROL Advanced sorting]**.
+1. Selezionare **[!UICONTROL Ordinamento avanzato]**.
 
    ![Finestra di dialogo Ordinamento avanzato](assets/sort-advanced-dialog.png)
 
 1. Nella finestra di dialogo Ordinamento avanzato, eseguire una delle operazioni seguenti:
 
-   * Aggiungere le colonne che non sono ancora ordinate selezionando il pulsante **[!UICONTROL Add sort column]**.
+   * Aggiungere colonne che non sono ancora ordinate selezionando il pulsante **[!UICONTROL Aggiungi colonna di ordinamento]**.
 
    * Rimuovere le colonne che non si desidera più ordinare selezionando l&#39;icona **Rimuovi** ![Rimuovi](/help/assets/icons/Close.svg).
 
@@ -113,11 +113,11 @@ Per ordinare i dati nelle tabelle in base a più colonne:
 
      Per ulteriori informazioni, vedere [Priorità ordinamento](#sort-priority).
 
-   * Modificare il valore di ordinamento selezionando **[!UICONTROL Ascending]** o **[!UICONTROL Descending]** nel menu a discesa.
+   * Modifica il valore di ordinamento selezionando **[!UICONTROL Crescente]** o **[!UICONTROL Decrescente]** nel menu a discesa.
 
    * Seleziona una colonna diversa selezionando il menu a discesa nome colonna.
 
-1. Seleziona **[!UICONTROL Apply]**.
+1. Seleziona **[!UICONTROL Applica]**.
 
 L’icona di ordinamento rimane visibile quando l’ordinamento viene applicato a una colonna. Una freccia indica l&#39;ordinamento dei dati (![Ordinamento](/help/assets/icons/SortOrderUp.svg) per crescente o ![Ordinamento](/help/assets/icons/SortOrderDown.svg) per decrescente).
 
@@ -165,7 +165,7 @@ Più colonne di dimensione consentono di:
 
 * Concatenare elementi dimensionali in righe di dati distinte su più dimensioni.
 
-* Includi elementi dimensionali nelle righe concatenate solo quando gli elementi dimensionali si applicano a ogni colonna della dimensione nella tabella. A tale scopo, utilizzare il filtro colonne per deselezionare l&#39;impostazione **[!UICONTROL Include "No value"]** in ogni colonna dimensione.
+* Includi elementi dimensionali nelle righe concatenate solo quando gli elementi dimensionali si applicano a ogni colonna della dimensione nella tabella. A questo scopo, utilizza il filtro colonne per deselezionare l&#39;impostazione **[!UICONTROL Includi &quot;Nessun valore&quot;]** in ogni colonna della dimensione.
 
   Per ulteriori informazioni, vedere [Ordinare le tabelle per più colonne (Ordinamento avanzato)](#sort-tables-by-multiple-columns-advanced-sorting).
 
@@ -181,11 +181,11 @@ I raggruppamenti consentono di:
 
 Quando aggiungi un raggruppamento a una tabella con più colonne di dimensione, il raggruppamento si applica all’elemento dimensionale concatenato (in tutte le colonne di dimensione) nella riga in cui lo aggiungi.
 
+![esempio di raggruppamento con più ordinamenti](assets/dimensions-multiple-sort-breakdown.png)
+
 Inoltre, puoi aggiungere più colonne di dimensione all’interno di un raggruppamento. Anche ogni riga di elementi dimensionali all’interno del raggruppamento si comporta come un singolo elemento dimensionale concatenato.
 
-<!-- update screenshot to show the breakdown, and include this introductory sentence: "For example, you can break down the first dimension item in this table by a new concatenated dimension item that shows... " -->
-
-![esempio di ordinamento multiplo](assets/dimensions-multiple-sort.png)
+<!-- Add a screenshot of a breakdown with multiple cllumns, then add this sentence: "For example, you can break down the first dimension item in this table by a new concatenated dimension item that shows..." -->
 
 Per ulteriori informazioni su come aggiungere un raggruppamento, vedere [Suddividere dimensioni](/help/components/dimensions/t-breakdown-fa.md).
 
