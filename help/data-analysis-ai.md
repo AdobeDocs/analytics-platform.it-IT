@@ -7,8 +7,8 @@ feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
 source-git-commit: 518f2aeac309a34016146b7a4da7823b6fd84cac
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 98%
+source-wordcount: '2494'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->L’agente Data Insights è disponibile per la clientela idonea per un periodo limitato. L’accesso all’agente Data Insights terminerà il 28 febbraio 2026. Per continuare a utilizzare Data Insights Agent oltre questa data senza interruzioni, contatta il rappresentante del tuo account Adobe per ulteriori informazioni sulle licenze di Adobe Experience Platform Agent Orchestrator.
+>L’agente Data Insights è disponibile per la clientela idonea per un periodo limitato. L’accesso all’agente Data Insights terminerà il 28 febbraio 2026. Per continuare a utilizzare l’agente Data Insights oltre questa data senza interruzioni, contatta il rappresentante del tuo account Adobe per ottenere ulteriori informazioni sulla licenza di Adobe Experience Platform Agent Orchestrator.
 
 L’agente Data Insights, accessibile dall’[Assistente IA](/help/ai-assistant.md) in Customer Journey Analytics, è un agente per conversazioni basate sull’IA generativa che risponde in modo rapido ed efficiente alle domande sui tuoi dati. Crea visualizzazioni pertinenti in Analysis Workspace utilizzando i componenti della visualizzazione dati e i tuoi dati effettivi.
 
@@ -52,25 +52,25 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
 * **Accesso contrattuale**: se non sei in grado di utilizzare l’agente Data Insights nell’Assistente IA, contatta l’amministratore della tua organizzazione o il team Adobe Account. Prima che la tua organizzazione possa utilizzare l’agente Data Insights, devi accettare alcuni termini legali relativi all’IA generativa.
 
-* **Autorizzazioni**: per consentire agli utenti di accedere all’agente Data Insights, è necessario concedere le autorizzazioni necessarie in [!UICONTROL Adobe Admin Console].
+* **Autorizzazioni**: per consentire agli utenti di accedere a Data Insights Agent, è necessario concedere le autorizzazioni necessarie in [!UICONTROL Adobe Admin Console].
 
-  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
-   1. In **[!UICONTROL Admin Console]**, seleziona la scheda **[!UICONTROL Products]** per visualizzare la pagina **[!UICONTROL All products and services]**.
+  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
+   1. In **[!UICONTROL Admin Console]**, seleziona la scheda **[!UICONTROL Prodotti]** per visualizzare la pagina **[!UICONTROL Tutti i prodotti e i servizi]**.
    1. Seleziona **[!UICONTROL Customer Journey Analytics]**.
-   1. Nella scheda **[!UICONTROL Product Profiles]**, seleziona il titolo del profilo di prodotto per il quale desideri fornire accesso a [!UICONTROL AI Assistant: Product Knowledge].
-   1. Nel profilo di prodotto specifico, seleziona la scheda **[!UICONTROL Permissions]**.
+   1. Nella scheda **[!UICONTROL Profili di prodotto]**, selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso all&#39;[!UICONTROL Assistente AI: Conoscenza del prodotto].
+   1. Nel profilo di prodotto specifico, seleziona la scheda **[!UICONTROL Autorizzazioni]**.
 
       ![Scheda Autorizzazioni in Admin Console](assets/ai-assistant-permissions-tab.png)
 
-   1. Nella riga **[!UICONTROL Reporting Tools]** della tabella fornita, seleziona l’icona di modifica ![Modifica](/help/assets/icons/Edit.svg).
-   1. Cerca o scorri fino ad **[!UICONTROL AI Assistant: Product Knowledge]**, quindi seleziona l’icona con il segno più ![AddCircle](/help/assets/icons/AddCircle.svg) accanto a questa autorizzazione.
-   1. Cerca o scorri fino ad **[!UICONTROL Data Insights Agent]**, quindi seleziona l’icona con il segno più ![AddCircle](/help/assets/icons/AddCircle.svg) accanto a questa autorizzazione.
+   1. Nella riga **[!UICONTROL Strumenti di reporting]** nella tabella fornita, seleziona l&#39;icona di modifica ![Modifica](/help/assets/icons/Edit.svg).
+   1. Scorri fino a o cerca **[!UICONTROL Assistente AI: conoscenza del prodotto]**, quindi seleziona l&#39;icona più (![AddCircle](/help/assets/icons/AddCircle.svg)) accanto a questa autorizzazione.
+   1. Scorri fino a o cerca **[!UICONTROL Data Insights Agent]**, quindi seleziona l&#39;icona più (![AddCircle](/help/assets/icons/AddCircle.svg)) accanto a questa autorizzazione.
 
-      L’autorizzazione **[!UICONTROL AI Assistant: Product Knowledge]** e l’autorizzazione **[!UICONTROL Data Insights Agent]** vengono aggiunte alla colonna **[!UICONTROL Included permission items]**.
+      L&#39;autorizzazione **[!UICONTROL AI Assistant: Product Knowledge]** e l&#39;autorizzazione **[!UICONTROL Data Insights Agent]** sono state aggiunte alla colonna **[!UICONTROL Included permission items]**.
 
       ![Aggiungi autorizzazione](assets/ai-assistant-permissions.png).
 
-   1. Seleziona **[!UICONTROL Save]** per salvare le modifiche.
+   1. Seleziona **[!UICONTROL Salva]** per salvare le autorizzazioni.
 
   Per ulteriori informazioni sul controllo degli accessi, consulta [Controllo degli accessi](/help/technotes/access-control.md#access-control).
 
@@ -84,17 +84,17 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
   Per abilitare le visualizzazioni dati dell’agente Data Insights:
 
-   1. In Customer Journey Analytics, seleziona **[!UICONTROL Data Management]** > **[!UICONTROL Data views]**.
+   1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Visualizzazioni dati]**.
 
-   1. Scegli una o più visualizzazioni dati da abilitare, quindi seleziona **[!UICONTROL Enable for Data Insights Agent]**.
+   1. Selezionare una o più visualizzazioni dati da abilitare per Data Insights Agent, quindi selezionare **[!UICONTROL Abilita per Data Insights Agent]**.
 
       ![Abilitare le visualizzazioni dati per l’agente Data Insights](assets/data-view-enable-dia.png)
 
   Per visualizzare il numero di visualizzazioni dati abilitate per l’agente Data Insights nell’organizzazione IMS:
 
-   1. In Customer Journey Analytics, seleziona **[!UICONTROL Data Management]** > **[!UICONTROL Data views]**.
+   1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Visualizzazioni dati]**.
 
-   1. Seleziona l’icona delle informazioni nella parte superiore della colonna **[!UICONTROL Data Insights Agent]**.
+   1. Seleziona l&#39;icona info nella parte superiore della colonna **[!UICONTROL Data Insights Agent]**.
 
       ![Icona delle informazioni dell’agente Data Insights](assets/data-insights-agent-tooltip.png)
 
@@ -104,7 +104,7 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
 2. Seleziona **Customer Journey Analytics** dalla pagina Home di Experience Cloud.
 
-3. Seleziona **[!UICONTROL Blank project]** nel banner nella parte superiore della pagina dei progetti per aprire un nuovo progetto vuoto.
+3. Seleziona **[!UICONTROL Progetto vuoto]** nel banner nella parte superiore della pagina dei progetti per aprire un nuovo progetto vuoto.
 
 4. Assicurati che la visualizzazione dati selezionata per il pannello sia abilitata per l’utilizzo con l’agente Data Insights, come descritto in [Gestire l’accesso all’agente Data Insights in Customer Journey Analytics](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
 
@@ -112,15 +112,15 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
    Se l’icona della chat non è visibile, contatta l’amministratore in modo che possa abilitare le seguenti funzioni in Admin Console:
 
-   * Strumenti di reporting: **[!UICONTROL AI Assistant: Product Knowledge]**
+   * Strumenti di reporting: **[!UICONTROL Assistente AI: Conoscenza del prodotto]**
 
-   * Strumenti di visualizzazione dati: **[!UICONTROL Data Insights Agent]**
+   * Strumenti visualizzazione dati: **[!UICONTROL Data Insights Agent]**
 
    Per ulteriori dettagli, consulta [Gestire l’accesso all’agente Data Insights in Customer Journey Analytics](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
 
    ![Icona Assistente IA](/help/assets/ai-asst-icon.png)
 
-6. Nella finestra di dialogo **[!UICONTROL Ask about Customer Journey Analytics]** nella parte inferiore della pagina, fai una domanda sulla visualizzazione dati utilizzando l’agente Data Insights.
+6. Nella finestra di dialogo **[!UICONTROL Chiedi informazioni su Customer Journey Analytics]** nella parte inferiore della pagina, fai una domanda sulla visualizzazione dei dati utilizzando Data Insights Agent.
 
    Per ulteriori informazioni, consulta gli esempi seguenti.
 
@@ -154,7 +154,7 @@ In seguito, oltre a comprendere le entrate per area geografica, desideri anche v
 
 **Prompt:** nella finestra del prompt, digita *“Aggiungi il profitto”.*
 
-**Risposta:** anche in questo caso il grafico **[!UICONTROL Bar]** fornisce la risposta più concisa, ma questa volta è stata aggiunta alla tabella a forma libera una colonna per la metrica “profitto”:
+**Risposta:** Il grafico **[!UICONTROL Barre]** fornisce ancora la risposta più concisa, ma la metrica di profitto è stata aggiunta come colonna nella tabella a forma libera:
 
 ![Grafico a barre](/help/assets/ai-asst-result4.png)
 
@@ -164,7 +164,7 @@ Infine, esaminiamo entrate per categoria di prodotto.
 
 **Prompt:** nella finestra del prompt, immetti *“Proporzione delle entrate per categoria di prodotto”.*
 
-**Risposta:** per rispondere alla domanda, l’agente Data Insights sceglie nuovamente la visualizzazione più appropriata, in questo caso **[!UICONTROL Donut]**.
+**Risposta:** Anche in questo caso, Data Insights Agent sceglie la visualizzazione più appropriata, in questo caso **[!UICONTROL Anello]**, per rispondere alla domanda.
 
 ![Anello](/help/assets/ai-asst-result3.png)
 
@@ -255,7 +255,7 @@ Di seguito sono riportate le best practice per la configurazione di Customer Jou
 * **Bilanciare i componenti necessari**. Non aggiungere tutti i campi dei set di dati come componenti metriche o dimensione alla visualizzazione dati. In particolare, quelli che certamente non utilizzerai nell’analisi. In compenso, non limitarti strettamente solo ai campi che ritieni necessari per l’analisi. Una visualizzazione dati troppo limitata riduce la flessibilità dell’analisi e la funzionalità dell’agente Data Insights.
 * **Utilizzare sempre nomi descrittivi per la visualizzazione**. Assicurati che tutti i campi definiti nella visualizzazione dati, come componente metrica o dimensione, abbiano un nome di componente descrittivo. Il processo di ridenominazione dei campi con un nome descrittivo è particolarmente importante per i campi dei set di dati del connettore di origine di Adobe Analytics. Questi campi hanno spesso nomi non descrittivi non identificabili, come `eVar41` o `prop25`.
 * **Utilizzare nomi distintivi**. I nomi distintivi sono particolarmente rilevanti quando utilizzi lo stesso campo sia come componente metrica che come componente dimensione nella visualizzazione dati. Oppure quando utilizzi un campo in più componenti dello stesso tipo (ad esempio in due metriche diverse), ciascuno con impostazioni di componenti diverse.
-* **Utilizzare una convenzione per la denominazione dei componenti**. Puoi utilizzare una convenzione per la denominazione dei componenti per raggrupparli. Ad esempio, **[!UICONTROL Orders | Product]** e **[!UICONTROL Orders | Customer]** possono distinguere tra diverse metriche di ordine che potrebbero esistere nei tuoi dati.
+* **Utilizzare una convenzione per la denominazione dei componenti**. Puoi utilizzare una convenzione per la denominazione dei componenti per raggrupparli. Ad esempio, **[!UICONTROL Ordini | Prodotto]** e **[!UICONTROL Ordini | Il cliente]** è in grado di distinguere tra diverse metriche dell&#39;ordine che potrebbero esistere nei tuoi dati.
 * **Utilizzare il dizionario dei dati**. Aggiungi una descrizione e altri dati rilevanti per i componenti nel dizionario dei dati. L’agente Data Insight attualmente non utilizza la descrizione e i tag del dizionario dati, ma potrebbe farlo in futuro.
 * **Utilizzare le metriche calcolate approvate**. Concorda un processo per utilizzare solo metriche calcolate approvate come componenti nella visualizzazione dati ed evitare di utilizzare metriche calcolate sperimentali.
 * **Condividere i segmenti richiesti**. Assicurati di condividere e rendere visibili i segmenti necessari per i prompt dell’agente Data Insights.

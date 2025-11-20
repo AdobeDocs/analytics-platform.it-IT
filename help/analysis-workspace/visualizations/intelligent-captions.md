@@ -6,8 +6,8 @@ exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
 source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 97%
+source-wordcount: '757'
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ Le didascalie intelligenti sono destinate a:
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Didascalie intelligenti](https://video.tv.adobe.com/v/3443146/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Didascalie intelligenti](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -37,12 +37,12 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 Per avviare le didascalie intelligenti generate automaticamente per una visualizzazione, seleziona ![Didascalie intelligenti](/help/assets/icons/AI.svg) in alto a destra della visualizzazione. Questa selezione genera informazioni approfondite sul linguaggio naturale.
 
-![Finestra di avvio analisi che mostra le didascalie intelligenti per la tendenza delle visualizzazioni del prodotto. &#x200B;](assets/intelligent-captions.gif)
+![Finestra di avvio analisi che mostra le didascalie intelligenti per la tendenza delle visualizzazioni del prodotto. ](assets/intelligent-captions.gif)
 
 
 Tieni presente che:
 
-* Sono necessari almeno 3 punti di dati per generare correttamente le didascalie. In caso contrario, potrebbe verificarsi un errore come **[!UICONTROL Not enough data to analyze]**.
+* Sono necessari almeno 3 punti di dati per generare correttamente le didascalie. In caso contrario, potrebbe venire visualizzato un errore del tipo **[!UICONTROL Dati insufficienti per l&#39;analisi]**.
 
 * Le didascalie vengono generate ogni volta che i dati selezionati sottostanti cambiano nella tabella che attiva la visualizzazione.
 
@@ -92,11 +92,11 @@ Puoi modificare la visualizzazione delle didascalie, ad esempio per nascondere o
 
 1. Seleziona ![Modifica visibilità delle didascalie intelligenti](/help/assets/icons/EditInLight.svg) nella finestra di dialogo Didascalie intelligenti.
 
-1. Utilizza ![Attiva/disattiva visibilità](/help/assets/icons/Visibility.svg) per visualizzare informazioni specifiche (ad esempio **[!UICONTROL Min]**) oppure ![Attiva/disattiva visibilità](/help/assets/icons/VisibilityOff.svg) per nascondere informazioni specifiche (ad esempio **[!UICONTROL Spike]**).
+1. Attiva/disattiva ![Attiva/disattiva visibilità](/help/assets/icons/Visibility.svg) per visualizzare un insight specifico (ad esempio **[!UICONTROL Min]**) oppure ![Attiva/disattiva visibilità](/help/assets/icons/VisibilityOff.svg) per nascondere un insight specifico (ad esempio **[!UICONTROL Spike]**).
 
    ![Modificare didascalie intelligenti](assets/edit-intelligent-captions.png)
 
-1. Seleziona **[!UICONTROL Apply]**.
+1. Seleziona **[!UICONTROL Applica]**.
 
 
 ### Fornire feedback
@@ -105,9 +105,9 @@ Puoi fornire un feedback sulle didascalie intelligenti generate (il feedback pu�
 
 1. Seleziona ![Altre azioni](/help/assets/icons/More.svg) nella finestra di dialogo Didascalie intelligenti.
 
-1. Seleziona ![Risposta valida](/help/assets/icons/ThumbUpOutline.svg) **[!UICONTROL Good response]**, ![ThumbDownOutline](/help/assets/icons/ThumbDownOutline.svg) **[!UICONTROL Bad response]** o ![Flag](/help/assets/icons/Flag.svg) **[!UICONTROL Report]**.
+1. Seleziona ![Risposta valida](/help/assets/icons/ThumbUpOutline.svg) **[!UICONTROL Risposta valida]**, ![ThumbDownOutline](/help/assets/icons/ThumbDownOutline.svg) **[!UICONTROL Risposta non valida]** o ![Contrassegno](/help/assets/icons/Flag.svg) **[!UICONTROL Report]**.
 
-1. Nella finestra di dialogo **[!UICONTROL Thank you for your feedback]**, fornisci il tuo feedback e seleziona **[!UICONTROL Submit]** per inviarlo.
+1. Nella finestra di dialogo **[!UICONTROL Grazie per il feedback]**, fornisci il tuo feedback e seleziona **[!UICONTROL Invia]** per inviare il feedback.
 
 ### Esportare {#export}
 
@@ -118,11 +118,11 @@ Puoi esportare didascalie intelligenti come parte di un PDF, purché il progetto
 Se preferisci non visualizzare le didascalie intelligenti, puoi disattivare questa funzione.
 
 1. Passa a [Preferenze di visualizzazione](/help/analysis-workspace/user-preferences.md#visualizations-preferences)
-1. Deseleziona **[!UICONTROL Show intelligent captions]**.
+1. Deseleziona **[!UICONTROL Mostra didascalie intelligenti]**.
 
    ![Opzioni di visualizzazione linee che mostrano l’opzione per deselezionare Mostra didascalie intelligenti.](assets/toggle-captions.png)
 
-1. Seleziona **[!UICONTROL Save]** per salvare le modifiche.
+1. Seleziona **[!UICONTROL Salva]** per salvare la preferenza.
 
 
 ## Didascalie intelligenti nelle scorecard per dispositivi mobili
@@ -137,15 +137,15 @@ I seguenti parametri regolano l’accesso alle didascalie intelligenti:
 
 * **Accesso contrattuale**: se non sei in grado di utilizzare Didascalie intelligenti, contatta l’amministratore della tua organizzazione o il rappresentante dell’account Adobe (Admin). Prima di poter utilizzare le didascalie intelligenti nell’organizzazione, devi accettare alcuni termini legali relativi all’intelligenza artificiale generativa.
 
-* **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l’autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL Intelligent Captions]** determina l’accesso. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) deve seguire questi passaggi in [!UICONTROL Admin Console]:
-   1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**.
+* **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Didascalie intelligenti]** determina l&#39;accesso. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) deve seguire questi passaggi in [!UICONTROL Admin Console]:
+   1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti e servizi]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Profili di prodotto]**.
    1. Seleziona il titolo del profilo di prodotto per il quale desideri fornire accesso alle didascalie intelligenti.
-   1. Nel profilo di prodotto specifico, seleziona **[!UICONTROL Permissions]**.
-   1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare **[!UICONTROL Reporting Tools]**.
-   1. Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) per aggiungere **Didascalie intelligenti** a **[!UICONTROL Included permission items]**.
+   1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Autorizzazioni]**.
+   1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare **[!UICONTROL Strumenti di reporting]**.
+   1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) per aggiungere **Didascalie intelligenti** a **[!UICONTROL Elementi di autorizzazione inclusi]**.
 
       ![Aggiungi autorizzazione](./assets/intelligent-captions-permissions.png)
 
-   1. Seleziona **[!UICONTROL Save]** per salvare le modifiche.
+   1. Seleziona **[!UICONTROL Salva]** per salvare le autorizzazioni.
 
 Per ulteriori informazioni, consulta [Controllo degli accessi](/help/technotes/access-control.md#access-control).
