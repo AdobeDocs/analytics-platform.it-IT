@@ -28,7 +28,7 @@ Le didascalie intelligenti sono destinate a:
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Didascalie intelligenti](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Didascalie intelligenti](https://video.tv.adobe.com/v/3443146/?captions=ita&quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
