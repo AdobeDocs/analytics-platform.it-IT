@@ -4,7 +4,7 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 0e282bc341588032fadee45cc128663cf557b21f
+source-git-commit: 6cb72495bd190a31f0cb1533f0b33a0929d8a35b
 workflow-type: tm+mt
 source-wordcount: '20775'
 ht-degree: 97%
@@ -482,6 +482,13 @@ Per accedere a tutti i modelli predfiniti disponibili:
 
 ### Web: pubblico {#web-audience}
 
+<!--CJA only-->
+
+>[!CONTEXTUALHELP]
+>id="template--audienceOverview"
+>title="Visualizza quali tipi di pubblico sono rappresentati tra le persone che visitano il tuo sito."
+>abstract="**Questo può aiutarti** a comprendere meglio le informazioni generali sui tipi di pubblico, su dove hanno avuto origine i tipi di pubblico (RTCDP, Customer Journey Analytics e così via), sulla sovrapposizione dei tipi di pubblico e altro ancora.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come utilizzare i dati per concentrarti sulle attività di marketing per questi tipi di pubblico specifici, o creare esperienze personalizzate per i clienti che si estendono su più tipi di pubblico.<br/>Questo modello utilizza le dimensioni Nome pubblico, Origine pubblico, Nome pubblico in uscita e Origine pubblico in uscita."
+
 <!--AA only-->
 
 >[!CONTEXTUALHELP]
@@ -593,11 +600,6 @@ Per accedere a tutti i modelli predfiniti disponibili:
 <!--Both AA and CJA-->
 
 >[!CONTEXTUALHELP]
->id="template--audienceOverview"
->title="Visualizza quali tipi di pubblico sono rappresentati tra le persone che visitano il tuo sito."
->abstract="**Questo può aiutarti** a comprendere meglio le informazioni generali sui tipi di pubblico, su dove hanno avuto origine i tipi di pubblico (RTCDP, Customer Journey Analytics e così via), sulla sovrapposizione dei tipi di pubblico e altro ancora.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come utilizzare i dati per concentrarti sulle attività di marketing per questi tipi di pubblico specifici, o creare esperienze personalizzate per i clienti che si estendono su più tipi di pubblico.<br/>Questo modello utilizza le dimensioni Nome pubblico, Origine pubblico, Nome pubblico in uscita e Origine pubblico in uscita."
-
->[!CONTEXTUALHELP]
 >id="template--consentPolicyOverview"
 >title="Visualizzare il Paese da cui provengono le persone che visitano il sito."
 >abstract="**Questo può aiutarti** a capire meglio quali sono i Paesi più popolari da cui provengono i visitatori del tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in questi Paesi, oppure assicurarti che l’esperienza sul tuo sito sia ottimale in Paesi con lingue principali diverse.<br/>Questo modello utilizza la dimensione Paesi."
@@ -649,6 +651,8 @@ Per accedere a tutti i modelli predfiniti disponibili:
 
 
  Sono disponibili i modelli seguenti:
+
+<!--need to add audience overview: - **[!UICONTROL Audience overview]** - View which audiences are represented among the people visiting your site.<p>**This can help you** better understand general information about the audiences, where the audiences originated (RTCDP, Customer Journey Analytics, and so forth), audience overlap, and more.</p><p>**Based on what you learn, you might** do any number of things, like use the data to focus on marketing efforts for these specific audiences, or create tailored experiences for customers who span multiple audiences.</p><p>This template uses the Audience Name, Audience Origin, Exited Audience Name, and Exited Audience Origin dimensions.</p> - -->
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
