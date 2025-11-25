@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
+source-git-commit: b85b5b8212cf072ed46bc8eb587ea00984d33ccc
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 74%
+ht-degree: 98%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 74%
 >
 >Per utilizzare le funzionalità descritte in questa sezione, devi disporre del pacchetto **Select** o superiore (per [unione basata sui campi](fbs.md)) o del pacchetto **Prime** o superiore (per [unione basata sui grafi](gbs.md)). In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, contatta l’amministratore.
 
-L’unione delle identità è una funzione potente che migliora l’idoneità di un set di dati evento per l’analisi cross-channel. L’analisi cross-channel è un caso d’uso principale per Customer Journey Analytics. La funzione ti consente di combinare ed eseguire rapporti in modo semplice su più set di dati da canali diversi, in base a un identificatore comune (ID persona).
+L’unione delle identità è una funzione potente che migliora l’idoneità di un set di dati evento per l’analisi cross-channel. L’analisi cross-channel è un caso d’uso principale che può essere gestito da Customer Journey Analytics. Questa funzione ti consente di combinare ed eseguire rapporti in modo semplice su più set di dati da canali diversi, in base a un identificatore comune (ID persona).
 
-Quando combini set di dati con ID persona simili, l’attribuzione viene riportata su dispositivi e canali diversi. Ad esempio, un utente visita il sito tramite un annuncio pubblicitario sul computer desktop. Gli utenti acquistano un prodotto, ma poi incontrano un problema con l’ordine. L’utente invia quindi una chiamata al team di assistenza clienti per aiutarti a risolvere il problema. Con l’analisi cross-channel, puoi attribuire gli eventi del call center all’annuncio su cui l’utente ha fatto clic originariamente.
+Quando combini set di dati con ID persona simili, l’attribuzione viene trasferita su dispositivi e canali diversi. Ad esempio, un utente visita il sito tramite un annuncio sul computer desktop. Gli utenti acquistano un prodotto ma poi incontrano un problema con l’ordine. Quindi l’utente invia una chiamata al team del servizio clienti per aiutarlo a risolverlo. Con l’analisi cross-channel puoi attribuire gli eventi call center all’annuncio su cui l&#39;utente ha fatto clic originariamente.
 
-Sfortunatamente, non tutti i set di dati basati su eventi che fanno parte della connessione in Customer Journey Analytics hanno dati a sufficienza per supportare questa attribuzione così come viene fornita dalla soluzione. In particolare, i set di dati di esperienza basati su web o dispositivi mobili spesso non dispongono di informazioni effettive sull’ID persona disponibili per tutti gli eventi.
+Sfortunatamente, non tutti i set di dati basati su eventi che fanno parte della connessione in Customer Journey Analytics dispongono di dati sufficienti per supportare questa attribuzione predefinita. In particolare, i set di dati delle esperienze basate su web o dispositivi mobili spesso non dispongono di informazioni sull’ID effettivo di una persona per tutti gli eventi.
 
-L’unione consente di reimpostare le identità all’interno delle righe di un set di dati per garantire che l’ID persona (ID unione) sia disponibile su ogni evento. L’unione esamina i dati utente provenienti da sessioni autenticate e non autenticate per determinare il valore ID persona comune che può essere utilizzato come ID unione. Questa reimpostazione consente di risolvere record diversi in un singolo ID unito per l’analisi a livello di persona, anziché a livello di dispositivo o cookie.
+L’unione delle identità consente di reimpostare le identità all’interno delle righe di un set di dati, in modo che l’ID persona (ID unito) sia disponibile per ogni evento. Durante l’unione delle identità, vengono esaminati i dati utente provenienti da sessioni autenticate e non autenticate per determinare il valore dell’ID persona comune che può essere utilizzato come ID unito. Questa reimpostazione consente di risolvere record diversi con un singolo ID unito per l’analisi a livello di persona anziché a livello di dispositivo o cookie.
 
 Customer Journey Analytics supporta due tipi di unione delle identità: [unione basata sui campi](fbs.md) e [unione basata sui grafi](gbs.md).
 
@@ -45,12 +45,12 @@ Prima di utilizzare l’unione delle identità, assicurati che la tua organizzaz
 
 Per trarre vantaggio dall’analisi cross-channel, è necessario combinare uno o più set di dati con unione delle identità con altri set di dati (ad esempio, con i dati del call center) durante la definizione della connessione Customer Journey Analytics. La configurazione della connessione presuppone che gli altri set di dati contengano già un ID persona su ogni riga, simile all’ID di unione.
 
-## Abilita unione
+## Abilitare l’unione delle identità
 
-È possibile abilitare l’unione in due modi:
+Le unioni delle identità possono essere abilitate in due modi:
 
-- [Richiesta di abilitare l’unione](/help/stitching/use-stitching.md)
-- [Abilita unione nell&#39;interfaccia Connessioni](/help/stitching/use-stitching-ui.md) [!BADGE Beta]{type=Informative}
+- [Richiesta abilitazione dell’unione delle identità](/help/stitching/use-stitching.md)
+- [Abilitazione dell’unione delle identità nell’interfaccia Connessioni](/help/stitching/use-stitching-ui.md) [!BADGE Beta]{type=Informative}
 
 ## Limitazioni
 
@@ -91,9 +91,9 @@ L’unione supporta i seguenti set di dati di Journey Optimizer generati automat
 
 >[!MORELIKETHIS]
 >
->[Unione basata sui campi](fbs.md)
->&#x200B;>[Unione basata su grafico](gbs.md)
->&#x200B;>[Utilizzare l’unione delle identità](use-stitching.md)
->&#x200B;>[Convalidare l’unione delle identità](validate.md)
->&#x200B;>[Domande frequenti sull’unione delle identità](faq.md)
+>[Unione delle identità basata sui campi](fbs.md)
+>[Unione delle identità basata su grafo](gbs.md)
+>[Utilizzare l’unione delle identità](use-stitching.md)
+>[Convalidare l’unione delle identità](validate.md)
+>[Domande frequenti sull’unione delle identità](faq.md)
 
