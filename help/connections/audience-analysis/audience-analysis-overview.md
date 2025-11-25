@@ -6,16 +6,16 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3654d452f2bc4fec5f53854307536b3b8679eac3
+source-git-commit: 2b91c0592ac4ec0e0b5ffa3db91758466563abaf
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 4%
 
 ---
 
 # Panoramica dell’analisi del pubblico
 
-<!-- add hidden text in this article when this feature releases: /help/components/audiences/audiences-overview.md -->
+<!-- add hidden text in this article when this feature releases: /help/components/audiences/audiences-overview.md and this article: /help/analysis-workspace/templates/use-templates.md-->
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 L’analisi del pubblico consente di acquisire i dati sull’iscrizione del pubblico dai set di dati del profilo di Experience Platform in una connessione Customer Journey Analytics. I tipi di pubblico diventano disponibili come nuove dimensioni da utilizzare in Analysis Workspace.
 
-Il diagramma seguente e la tabella associata mostrano una rappresentazione di alto livello di come una configurazione di analisi del pubblico in Customer Journey Analytics rende disponibili i dati sul pubblico da Experience Platform in Analysis Workspace:
+Il diagramma seguente e la tabella associata mostrano una rappresentazione di alto livello del modo in cui una configurazione di analisi del pubblico in Customer Journey Analytics rende disponibili i dati sul pubblico di Experience Platform in Analysis Workspace:
 
 ![Panoramica dell&#39;analisi del pubblico](assets/audience-analysis-overview.png)
 

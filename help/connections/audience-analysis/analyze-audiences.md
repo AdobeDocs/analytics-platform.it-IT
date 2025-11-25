@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3654d452f2bc4fec5f53854307536b3b8679eac3
+source-git-commit: 2b91c0592ac4ec0e0b5ffa3db91758466563abaf
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 Puoi iniziare ad analizzare i tipi di pubblico di Experience Platform in Customer Journey Analytics dopo aver [creato una configurazione di analisi del pubblico](/help/connections/audience-analysis/audience-analysis-configure.md), quando i dati sul pubblico sono disponibili come nuove dimensioni in Analysis Workspace.
 
 In Customer Journey Analytics è disponibile un modello di panoramica del pubblico.
+
+<!-- Can you also use the new audience dimensions in any project, regardless of whether it's a template? I assume so -->
+
+<!-- What are the names of the new dimensions? Are they customized to whatever your audience names are in AEP, or are they always the same? -->
 
 Per informazioni su come accedere al modello di panoramica del pubblico, vedere [Accedere ed eseguire un modello](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in [Utilizzare i modelli](/help/analysis-workspace/templates/use-templates.md).
 
@@ -41,7 +45,7 @@ Mostra i dati per tutti i tipi di pubblico con eventi di utilizzo associati alla
 
 Seleziona fino a tre tipi di pubblico nella tabella di questo pannello per vedere in che modo si sovrappongono nel diagramma di Venn corrispondente.
 
-## Utilizzo del pubblico uscito
+## Pannello utilizzo pubblico chiuso
 
 Mostra i dati per tutti i tipi di pubblico esistenti con eventi di utilizzo associati alla visualizzazione dati selezionata. I dati vengono sempre visualizzati per il giorno precedente, pertanto la modifica dell’intervallo di date del pannello causa dati imprecisi. I &quot;tipi di pubblico in uscita&quot; sono tipi di pubblico in cui le persone con eventi di utilizzo sono usciti o usciti ieri.
 
