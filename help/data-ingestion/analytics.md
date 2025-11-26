@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 5cbfa922-6d6e-453a-9558-abfcfb80449d
 role: Admin
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 9c4ae8174086559ee552c5ffc95a8a7b0009f126
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 79%
+source-wordcount: '1193'
+ht-degree: 59%
 
 ---
 
@@ -20,7 +20,7 @@ Questa guida introduttiva spiega come utilizzare in Customer Journey Analytics i
 >
 >Adobe Analytics è concesso in licenza e implementato su uno o più siti Web, utilizzando uno dei metodi di implementazione documentati:
 >
->- [Implementare Analytics tramite Experience Platform Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html?lang=it)
+>- [Implementare Analytics tramite Experience Platform Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
 >
 >- [Implementare Analytics tramite l’estensione Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=it)
 >
@@ -48,33 +48,33 @@ Il connettore di origine di Adobe Analytics consente di inserire i dati della su
 
 Per creare un connettore di origine di Adobe Analytics:
 
-1. Nell’interfaccia utente di Platform, seleziona **[!UICONTROL Sources]** (Origini), dalla barra a sinistra.
+1. Nell&#39;interfaccia utente di Platform, seleziona **[!UICONTROL Origini]**, dalla barra a sinistra.
 
-2. Seleziona **[!UICONTROL Adobe applications]** (Applicazioni Adobe) dall’elenco [!UICONTROL CATEGORIES] (CATEGORIE).
+2. Seleziona **[!UICONTROL applicazioni Adobe]** dall&#39;elenco di [!UICONTROL CATEGORIE].
 
-3. Seleziona **[!UICONTROL Set up]** (Configura) o **[!UICONTROL Add data]** (Aggiungi dati) nel riquadro Adobe Analytics.
+3. Seleziona **[!UICONTROL Configura]** o **[!UICONTROL Aggiungi dati]** nel riquadro di Adobe Analytics.
 
    ![Finestra di Adobe Experience Platform con Origini selezionate insieme alle applicazioni Adobe e Aggiungi dati evidenziati.](./assets/sources-overview.png)
 
-4. Seleziona **[!UICONTROL Report suite]** (Suite di rapporti). Dall’elenco delle suite di rapporti, seleziona quella da utilizzare.
+4. Seleziona **[!UICONTROL Suite di rapporti]**. Dall’elenco delle suite di rapporti, seleziona quella da utilizzare.<br/> In alternativa, è possibile utilizzare ![Cerca](/help/assets/icons/Search.svg) **[!UICONTROL _Cerca_]** per cercare una suite di rapporti.
 
    ![Finestra di Adobe Experience Platform con l’elenco delle suite di rapporti](./assets/report-suites.png)
 
-   Seleziona **[!UICONTROL Next]** (Avanti).
+   Seleziona **[!UICONTROL Avanti]**.
 
-5. Seleziona **[!UICONTROL Default schema]** (Schema predefinito) come [!UICONTROL Target schema] (Schema di destinazione). Adobe Experience Platform crea automaticamente lo schema e il set di dati corrispondenti per mappare tutti i campi standard dalla suite di rapporti Adobe Analytics selezionata.
+5. Seleziona **[!UICONTROL Schema predefinito]** come [!UICONTROL Schema di destinazione]. Adobe Experience Platform crea automaticamente lo schema e il set di dati corrispondenti per mappare tutti i campi standard dalla suite di rapporti Adobe Analytics selezionata.
 
    ![Finestra di Adobe Experience Platform con lo schema predefinito selezionato](./assets/default-schema.png)
 
-   Seleziona **[!UICONTROL Next]** (Avanti).
+   Seleziona **[!UICONTROL Avanti]**.
 
 6. Assegna un nome al flusso di dati e (facoltativamente) fornisci una descrizione.
 
    ![Finestra di Adobe Experience Platform che evidenzia la sezione dei dettagli del flusso di dati](./assets/dataflow-detail.png)
 
-   Seleziona **[!UICONTROL Next]** (Avanti).
+   Seleziona **[!UICONTROL Avanti]**.
 
-7. Controlla la connessione e seleziona **[!UICONTROL Finish]** (Fine).
+7. Rivedi la connessione e seleziona **[!UICONTROL Fine]**.
 
    ![Finestra di Adobe Experience Platform che evidenzia le sezioni Connetti e Tipo di dati per la revisione](./assets/review.png)
 
@@ -94,43 +94,43 @@ Una connessione consente di integrare set di dati da Adobe Experience Platform i
 
 Per creare la connessione:
 
-1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Connessioni]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
 
-2. Seleziona **[!UICONTROL Create new connection]** (Crea uova connessione).
+2. Selezionare **[!UICONTROL Crea nuova connessione]**.
 
-3. Nella schermata [!UICONTROL Untitled connection] (Connessione senza titolo):
+3. Nella schermata [!UICONTROL Connessione senza titolo]:
 
-   Assegna un nome e una descrizione alla connessione in [!UICONTROL Connection Settings] (Impostazioni della connessione).
+   Denomina e descrivi la connessione in [!UICONTROL Impostazioni connessione].
 
-   Seleziona la sandbox corretta dall’elenco [!UICONTROL Sandbox] in [!UICONTROL Data settings] (Impostazioni dati) e seleziona il numero di eventi giornalieri dall’elenco [!UICONTROL Average number of daily events] (Numero medio di eventi giornalieri).
+   Selezionare la sandbox corretta dall&#39;elenco [!UICONTROL Sandbox] in [!UICONTROL Impostazioni dati] e selezionare il numero di eventi giornalieri dall&#39;elenco [!UICONTROL Numero medio di eventi giornalieri].
 
    ![Impostazioni della connessione](./assets/cja-connections-1.png)
 
-   Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
+   Seleziona **[!UICONTROL Aggiungi set di dati]**.
 
-   Nel passaggio [!UICONTROL Select datasets] (Seleziona set di dati) in [!UICONTROL Add datasets] (Aggiungi set di dati):
+   Nel passaggio [!UICONTROL Seleziona set di dati] in [!UICONTROL Aggiungi set di dati]:
 
    - Seleziona il set di dati creato automaticamente dal connettore di origine di Adobe Analytics e qualsiasi altro set di dati da includere nella connessione.
 
      ![Finestra Aggiungi set di dati](./assets/cja-connections-2a.png)
 
-   - Seleziona **[!UICONTROL Next]** (Aggiungi set di dati).
+   - Seleziona **[!UICONTROL Avanti]**.
 
-   Nel passaggio [!UICONTROL Datasets settings] (Impostazioni set di dati) in [!UICONTROL Add datasets] (Aggiungi set di dati):
+   Nel passaggio [!UICONTROL Impostazioni set di dati] in [!UICONTROL Aggiungi set di dati]:
 
    - Per ogni set di dati:
 
-      - Seleziona un [!UICONTROL Person ID] (ID persona) tra le identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
+      - Seleziona un [!UICONTROL ID persona] dalle identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
 
-      - Seleziona l’origine dati corretta dall’elenco [!UICONTROL Data source type] (Tipo di origine dati). Se specifichi **[!UICONTROL Other]** (Altro), aggiungi una descrizione per l’origine dati.
+      - Selezionare l&#39;origine dati corretta dall&#39;elenco [!UICONTROL Tipo origine dati]. Se si specifica **[!UICONTROL Altro]**, aggiungere una descrizione per l&#39;origine dati.
 
-      - Imposta **[!UICONTROL Import all new data]** (Importa tutti i nuovi dati) e **[!UICONTROL Dataset backfill existing data]** (Dati esistenti di backfill del set di dati) secondo le tue preferenze.
+      - Imposta **[!UICONTROL Importa tutti i nuovi dati]** e **[!UICONTROL Recupera i dati esistenti del set di dati]** in base alle tue preferenze.
 
      ![Configurare i set di dati](./assets/cja-connections-3a.png)
 
-   - Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
+   - Seleziona **[!UICONTROL Aggiungi set di dati]**.
 
-   Seleziona **[!UICONTROL Save]** (Salva).
+   Seleziona **[!UICONTROL Salva]**.
 
 Per ulteriori informazioni su come creare e gestire una connessione e come selezionare e combinare i set di dati, consulta la sezione [Panoramica delle connessioni](../connections/overview.md).
 
@@ -140,33 +140,33 @@ Una visualizzazione dati è un contenitore specifico di Customer Journey Analyti
 
 Per creare la visualizzazione dati:
 
-1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Visualizzazioni dati]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
 
-2. Seleziona **[!UICONTROL Create new data view]** (Crea nuova visualizzazione dati).
+2. Selezionare **[!UICONTROL Crea nuova visualizzazione dati]**.
 
-3. Nel passaggio [!UICONTROL Configure] (Configura):
+3. Nel passaggio [!UICONTROL Configura]:
 
-   Seleziona la connessione dall’elenco [!UICONTROL Connection] (Connessioni).
+   Selezionare la connessione dall&#39;elenco [!UICONTROL Connessione].
 
    Assegna un nome e (facoltativamente) una descrizione alla connessione.
 
    ![Configurare la visualizzazione dati](./assets/cja-dataview-1.png)
 
-   Seleziona **[!UICONTROL Save and continue]** (Salva e continua).
+   Seleziona **[!UICONTROL Salva e continua]**.
 
-4. Nel passaggio [!UICONTROL Components] (Componenti):
+4. Nel passaggio [!UICONTROL Componenti]:
 
-   Aggiungi qualsiasi campo dello schema e/o componente standard che desideri includere nelle caselle dei componenti [!UICONTROL METRICS] (METRICHE) o [!UICONTROL DIMENSIONS] (DIMENSIONI).
+   Aggiungi qualsiasi campo schema e/o componente standard da includere nelle caselle dei componenti [!UICONTROL METRICS] o [!UICONTROL DIMENSIONS].
 
    ![Componenti della visualizzazione dati](./assets/cja-dataview-2.png)
 
-   Seleziona **[!UICONTROL Save and continue]** (Salva e continua).
+   Seleziona **[!UICONTROL Salva e continua]**.
 
-5. Nel passaggio [!UICONTROL Settings] (Impostazioni):
+5. Nel passaggio [!UICONTROL Impostazioni]:
 
    ![Impostazioni della visualizzazione dati](./assets/cja-dataview-3.png)
 
-   Lascia le impostazioni così come sono e seleziona **[!UICONTROL Save and finish]** (Salva e fine).
+   Lasciare le impostazioni immutate e selezionare **[!UICONTROL Salva e termina]**.
 
 Consulta [Panoramica delle visualizzazioni dati](../data-views/data-views.md) per ulteriori informazioni su come creare e modificare una visualizzazione dati, quali componenti sono disponibili per l&#39;utilizzo nella visualizzazione dati e come utilizzare le impostazioni di segmenti e sessioni.
 
@@ -177,15 +177,15 @@ Analysis Workspace è uno strumento basato su browser flessibile che consente di
 
 Per creare il progetto:
 
-1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** nel menu principale.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Progetti]** nel menu principale.
 
-2. Seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione a sinistra.
+2. Seleziona **[!UICONTROL Progetti]** nel menu di navigazione a sinistra.
 
-3. Seleziona **[!UICONTROL Create project]** (Crea progetto).
+3. Seleziona **[!UICONTROL Crea progetto]**.
 
    ![Progetto Workspace](./assets/cja-projects-1.png)
 
-   Seleziona **[!UICONTROL Blank project]** (Progetto vuoto).
+   Seleziona **[!UICONTROL Progetto vuoto]**.
 
    ![Workspace - Progetto vuoto](./assets/cja-projects-2.png)
 
@@ -193,7 +193,7 @@ Per creare il progetto:
 
    ![Visualizzazione Select Data (Seleziona dati) di Workspace](./assets/cja-projects-3.png).
 
-5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche su [!UICONTROL Freeform table] in [!UICONTROL Panel]. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
+5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche sulla [!UICONTROL tabella a forma libera] nel [!UICONTROL pannello]. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
 
    ![Workspace - Primo rapporto](./assets/cja-projects-5.png)
 
