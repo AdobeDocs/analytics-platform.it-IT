@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
-source-git-commit: edf7bdac87d9bed48244ad80521bbbf83c48f7b6
+source-git-commit: b2a13524760f9d466696534bc8b9691f3b4dfb8a
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 2%
@@ -27,13 +27,13 @@ Di seguito sono riportati i dettagli da tenere in considerazione per la configur
 
 ## Schema
 
-È necessario creare uno [schema basato su modello](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/model-based){target="_blank"} che modella la tabella nativa del data warehouse di cui si desidera eseguire il mirroring. Quando crei lo schema basato su modello, assicurati che siano soddisfatti i seguenti requisiti:
+Devi creare uno [schema relazionale](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational){target="_blank"} che sia la tabella nativa del data warehouse di cui desideri eseguire il mirroring. Quando crei lo schema relazionale, accertati che siano soddisfatti i seguenti requisiti:
 
-* Quando viene richiesto il tipo di schema basato su modello, accertati di selezionare l’opzione manuale.
+* Quando viene richiesto il tipo di schema relazionale, assicurarsi di selezionare l&#39;opzione manuale.
 * Seleziona lo schema appropriato per il tipo di dati. Tieni presente che Experience Platform Data Mirror viene utilizzato principalmente per i dati delle serie temporali (ad esempio, i dati evento).
 
 * Definisci i campi nello schema e i relativi attributi
-* Configura gli attributi richiesti per i campi in uno schema basato su modello:
+* Configura gli attributi richiesti per i campi in uno schema relazionale:
 
    * chiave primaria
    * identificatore di versione
@@ -42,7 +42,7 @@ Di seguito sono riportati i dettagli da tenere in considerazione per la configur
 ## Set di dati
 
 Puoi impostare in anticipo un set di dati per lo schema o creare un set di dati quando configuri il connettore di origine.
-Quando crei un set di dati in anticipo o selezioni un set di dati, assicurati che i dati utilizzino uno [schema](#schema) basato su modello creato in precedenza.
+Quando crei un set di dati in anticipo o selezioni un set di dati, assicurati che i dati utilizzino uno [schema](#schema) relazionale creato in precedenza.
 
 
 ## Connettore di origine
@@ -53,9 +53,9 @@ Per impostare il connettore di origine sulle soluzioni native di data warehouse 
 
 Per l&#39;autenticazione rispetto alla soluzione nativa data warehouse supportata, consulta la documentazione Experience Platform pertinente:
 
-* [Database di Azure](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Database di Azure](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### Selezionare i dati
@@ -67,12 +67,12 @@ Una volta connessa correttamente alla soluzione nativa del data warehouse, selez
 
 Assicurati di abilitare l’acquisizione dei dati di modifica. Viene visualizzato un pannello di informazioni che illustra i requisiti per l&#39;acquisizione dei dati di modifica.
 
-Specifica un set di dati nuovo o esistente basato sullo schema basato su modello creato in precedenza. Specificate e selezionate altre opzioni nell&#39;interfaccia dei dettagli del flusso di dati.
+Specifica un set di dati nuovo o esistente basato sullo schema relazionale creato in precedenza. Specificate e selezionate altre opzioni nell&#39;interfaccia dei dettagli del flusso di dati.
 
 
 ### Mappatura
 
-Mappa i campi della tabella nella soluzione nativa di data warehouse ai campi specificati per lo schema basato su modello.
+Mappa i campi della tabella nella soluzione nativa di data warehouse ai campi specificati per lo schema relazionale.
 
 
 ### Pianificazione
@@ -90,6 +90,6 @@ Una volta completata l’impostazione del connettore di origine, viene creato un
 
 >[!MORELIKETHIS]
 >
->[Guida rapida di Data Mirror: simulare e utilizzare dati basati su modelli](model-based.md)
->&#x200B;>[Data Mirror (documentazione Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/data-mirror/overview)
->&#x200B;>[Schemi basati su modelli (documentazione di Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/model-based)
+>[Guida rapida di Data Mirror: mirroring e utilizzo dei dati relazionali](relational.md)
+>[Data Mirror (documentazione Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>[Schemi relazionali (documentazione di Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)

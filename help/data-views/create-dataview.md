@@ -5,10 +5,10 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 017bf3cb720ed153476d17db92e0eeca156e6b61
+source-git-commit: c9d7a4596a842ab7d949364e3469747d20ca15b4
 workflow-type: tm+mt
-source-wordcount: '2369'
-ht-degree: 84%
+source-wordcount: '2540'
+ht-degree: 69%
 
 ---
 
@@ -19,15 +19,15 @@ Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli e
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/345556/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 
 Creare o modificare una visualizzazione dati:
 
-1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e seleziona **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
-1. Per creare una visualizzazione dati, seleziona **[!UICONTROL Create new data view]**. In alternativa, puoi selezionare una visualizzazione dati esistente dal relativo elenco per modificarla.
+1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e seleziona **[!UICONTROL Visualizzazioni dati]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
+1. Per creare una visualizzazione dati, selezionare **[!UICONTROL Crea nuova visualizzazione dati]**. In alternativa, puoi selezionare una visualizzazione dati esistente dal relativo elenco per modificarla.
 
 
 ## Configurare {#configure}
@@ -47,11 +47,11 @@ Per configurare una visualizzazione dati nuova o esistente:
 >[!ENDTABS]
 
 
-1. Seleziona la scheda **[!UICONTROL Configure]** (se non è già attiva).
+1. Selezionare la scheda **[!UICONTROL Configura]** (se non è già attiva).
 
 
-1. Specifica i dettagli [!UICONTROL Settings], [!UICONTROL Container], e [!UICONTROL Calendar] (vedi di seguito).
-1. Seleziona **[!UICONTROL Save and continue]** per continuare a configurare la visualizzazione dati nuova o esistente. Seleziona **[!UICONTROL Save]** per salvare la configurazione per la visualizzazione dati esistente.
+1. Specifica i dettagli di [!UICONTROL Impostazioni], [!UICONTROL Contenitore] e [!UICONTROL Calendario] (vedi sotto).
+1. Seleziona **[!UICONTROL Salva e continua]** per continuare a configurare la visualizzazione dati nuova o esistente. Seleziona **[!UICONTROL Salva]** per salvare la configurazione per la visualizzazione dati esistente.
 
 
 ### Impostazioni {#configure-settings}
@@ -67,10 +67,10 @@ Impostazioni generali per la visualizzazione dati.
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Connection]** | Questo campo collega la visualizzazione dati alla connessione stabilita in precedenza, che contiene uno o più set di dati Adobe Experience Platform. |
-| **[!UICONTROL Name]** | Obbligatorio. Nome della visualizzazione dati. Questo valore viene visualizzato nel menu a discesa in alto a destra di Analysis Workspace. |
-| **[!UICONTROL External ID]** | Obbligatorio. Il nome della visualizzazione dati che è possibile utilizzare in origini esterne, ad esempio in strumenti di business intelligence. Il valore predefinito è `unspecified`. Se non specifichi un ID esterno, il nome verrà generato dal Nome della visualizzazione dati, sostituendo gli spazi con trattini bassi. |
-| **[!UICONTROL Description]** | Facoltativo. Adobe consiglia di specificare una descrizione dettagliata, che consenta agli utenti di capire lo scopo della visualizzazione dati e per chi è progettata. |
+| **[!UICONTROL Connessione]** | Questo campo collega la visualizzazione dati alla connessione stabilita in precedenza, che contiene uno o più set di dati Adobe Experience Platform. |
+| **[!UICONTROL Nome]** | Obbligatorio. Nome della visualizzazione dati. Questo valore viene visualizzato nel menu a discesa in alto a destra di Analysis Workspace. |
+| **[!UICONTROL ID esterno]** | Obbligatorio. Il nome della visualizzazione dati che è possibile utilizzare in origini esterne, ad esempio in strumenti di business intelligence. Il valore predefinito è `unspecified`. Se non specifichi un ID esterno, il nome verrà generato dal Nome della visualizzazione dati, sostituendo gli spazi con trattini bassi. |
+| **[!UICONTROL Descrizione]** | Facoltativo. Adobe consiglia di specificare una descrizione dettagliata, che consenta agli utenti di capire lo scopo della visualizzazione dati e per chi è progettata. |
 
 {style="table-layout:auto"}
 
@@ -90,7 +90,7 @@ Questa sezione è visibile solo per gli amministratori che dispongono del provis
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!UICONTROL **Impostare come predefinito una visualizzazione dati in AJO**] | Questa opzione di configurazione standardizza il reporting tra AJO e Customer Journey Analytics. Consente inoltre di eseguire analisi avanzate dei dati AJO in Customer Journey Analytics (selezionando ![Apri](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) [!UICONTROL **Analisi in CJA**] quando in AJO).<p>Per eseguire questo tipo di analisi, è necessario che AJO acceda a una visualizzazione dati di Customer Journey Analytics.<p>Abilita questa opzione per rendere questa, la visualizzazione dati predefinita utilizzata nel reporting di AJO relativo alla sandbox.</p><p>Automaticamente, questa opzione di configurazione:</p><ul><li>Configura tutti i set di dati AJO richiesti nella connessione associata in Customer Journey Analytics per l’utilizzo con AJO.</li><li>Crea un set di metriche e dimensioni di AJO nella visualizzazione dati (inclusi campi derivati e metriche calcolate). Le etichette di contesto vengono impostate automaticamente su tutte queste metriche e dimensioni.</li><li>Abilita automaticamente l&#39;opzione **[!UICONTROL Use in CJA]** nella connessione associata a questa visualizzazione dati. Per ulteriori informazioni su questa opzione, vedere [Utilizzare una connessione Journey Optimizer in Customer Journey Analytics](/help/connections/manage-connections.md).<p>Se disattivi manualmente questa impostazione dopo averla attivata, la connessione e le visualizzazioni dati associate vengono ripristinate allo stato predefinito. Questo può comportare modifiche ai dati nei rapporti.</p></li></ul><p><p>Quando abiliti questa opzione, prendi in considerazione quanto segue: <ul><li>Puoi modificare la visualizzazione dati predefinita in un secondo momento, ma così facendo si potrebbero alterare i dati di reporting di AJO. Se si sceglie di disabilitare questa opzione dopo averla abilitata, verrà richiesto di selezionare una nuova visualizzazione dati predefinita.</li><li>Se hai già eseguito personalizzazioni manuali per i set di dati, le dimensioni o le metriche nella visualizzazione dati di Customer Journey Analytics, le personalizzazioni manuali rimarranno intatte quando abiliti questa opzione di configurazione. Questa opzione apporta ulteriori personalizzazioni che standardizzano ulteriormente il reporting in AJO e in Customer Journey Analytics. Dopo l’abilitazione di questa opzione, puoi effettuare anche personalizzazioni manuali.</li><li>Quando questa opzione è selezionata, la connessione associata alla visualizzazione dati non può essere eliminata.</li></ul>Consulta [Integrare Adobe Journey Optimizer con Adobe Customer Journey Analytics](/help/integrations/ajo.md) per ulteriori informazioni. |
+| [!UICONTROL **Impostare come predefinito una visualizzazione dati in AJO**] | Questa opzione di configurazione standardizza il reporting tra AJO e Customer Journey Analytics. Consente inoltre di eseguire analisi avanzate dei dati AJO in Customer Journey Analytics (selezionando ![Apri](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) [!UICONTROL **Analisi in CJA**] quando in AJO).<p>Per eseguire questo tipo di analisi, è necessario che AJO acceda a una visualizzazione dati di Customer Journey Analytics.<p>Abilita questa opzione per rendere questa, la visualizzazione dati predefinita utilizzata nel reporting di AJO relativo alla sandbox.</p><p>Automaticamente, questa opzione di configurazione:</p><ul><li>Configura tutti i set di dati AJO richiesti nella connessione associata in Customer Journey Analytics per l’utilizzo con AJO.</li><li>Crea un set di metriche e dimensioni di AJO nella visualizzazione dati (inclusi campi derivati e metriche calcolate). Le etichette di contesto vengono impostate automaticamente su tutte queste metriche e dimensioni.</li><li>Abilita automaticamente l&#39;opzione **[!UICONTROL Usa in CJA]** nella connessione associata alla visualizzazione dati. Per ulteriori informazioni su questa opzione, vedere [Utilizzare una connessione Journey Optimizer in Customer Journey Analytics](/help/connections/manage-connections.md).<p>Se disattivi manualmente questa impostazione dopo averla attivata, la connessione e le visualizzazioni dati associate vengono ripristinate allo stato predefinito. Questo può comportare modifiche ai dati nei rapporti.</p></li></ul><p><p>Quando abiliti questa opzione, prendi in considerazione quanto segue: <ul><li>Puoi modificare la visualizzazione dati predefinita in un secondo momento, ma così facendo si potrebbero alterare i dati di reporting di AJO. Se si sceglie di disabilitare questa opzione dopo averla abilitata, verrà richiesto di selezionare una nuova visualizzazione dati predefinita.</li><li>Se hai già eseguito personalizzazioni manuali per i set di dati, le dimensioni o le metriche nella visualizzazione dati di Customer Journey Analytics, le personalizzazioni manuali rimarranno intatte quando abiliti questa opzione di configurazione. Questa opzione apporta ulteriori personalizzazioni che standardizzano ulteriormente il reporting in AJO e in Customer Journey Analytics. Dopo l’abilitazione di questa opzione, puoi effettuare anche personalizzazioni manuali.</li><li>Quando questa opzione è selezionata, la connessione associata alla visualizzazione dati non può essere eliminata.</li></ul>Consulta [Integrare Adobe Journey Optimizer con Adobe Customer Journey Analytics](/help/integrations/ajo.md) per ulteriori informazioni. |
 
 {style="table-layout:auto"}
 
@@ -100,13 +100,13 @@ Definisce il nome dei contenitori per la visualizzazione dati. I nomi dei conten
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Global Account container name]** | `Global Account` (impostazione predefinita). Il contenitore [!UICONTROL Global Account] include ogni sessione ed evento di account globali entro l’arco temporale specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Account container name]** | `Account` (impostazione predefinita). Il contenitore [!UICONTROL Account] include ogni sessione ed evento di account entro l’arco temporale specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Opportunity container name]** | `Opportunity` (impostazione predefinita). Il contenitore [!UICONTROL Opportunity] include ogni sessione ed evento di opportunità entro l’arco temporale specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Buying group container name]** | `Buying Group` (impostazione predefinita). Il contenitore [!UICONTROL Buying group] include ogni sessione ed evento di gruppi acquisti entro l’arco temporale specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
-| **[!UICONTROL Person container name]** | `Person` (impostazione predefinita). Il contenitore [!UICONTROL Person] include ogni sessione ed evento per le persone entro l’arco temporale specificato. Se l’organizzazione utilizza un termine diverso (ad esempio, “Visitatore” o “Utente”), qui puoi rinominare il contenitore. |
-| **[!UICONTROL Session container name]** | `Session` (impostazione predefinita). Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione. Puoi rinominarlo “Visita” o con qualsiasi altro termine secondo le esigenze della tua organizzazione. |
-| **[!UICONTROL Event container name]** | `Event` (impostazione predefinita). Il contenitore [!UICONTROL Event] definisce singoli eventi in un set di dati. Se l’organizzazione utilizza un termine diverso (ad esempio, “Hit” o “Visualizzazioni pagine”), qui puoi rinominare il contenitore. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Nome contenitore account globale ]** | `Global Account` (impostazione predefinita). Il contenitore [!UICONTROL Account globale] include ogni sessione ed evento per gli account globali entro l&#39;intervallo di tempo specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Nome contenitore account ]** | `Account` (impostazione predefinita). Il contenitore [!UICONTROL Account] include ogni sessione ed evento per gli account entro l&#39;intervallo di tempo specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Nome contenitore opportunità&#x200B;]** | `Opportunity` (impostazione predefinita). Il contenitore [!UICONTROL Opportunità] include ogni sessione ed evento per le opportunità entro l&#39;intervallo di tempo specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Nome contenitore gruppo di acquisto ]** | `Buying Group` (impostazione predefinita). Il contenitore [!UICONTROL Gruppo di acquisto] include ogni sessione ed evento per i gruppi di acquisto entro l&#39;intervallo di tempo specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| **[!UICONTROL Nome contenitore persona]** | `Person` (impostazione predefinita). Il contenitore [!UICONTROL Persona] include ogni sessione ed evento per le persone entro l&#39;intervallo di tempo specificato. Se l’organizzazione utilizza un termine diverso (ad esempio, “Visitatore” o “Utente”), qui puoi rinominare il contenitore. |
+| **[!UICONTROL Nome contenitore sessione]** | `Session` (impostazione predefinita). Il contenitore [!UICONTROL Sessione] consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica. Puoi rinominarlo “Visita” o con qualsiasi altro termine secondo le esigenze della tua organizzazione. |
+| **[!UICONTROL Nome contenitore eventi]** | `Event` (impostazione predefinita). Il contenitore [!UICONTROL Event] definisce singoli eventi in un set di dati. Se l’organizzazione utilizza un termine diverso (ad esempio, “Hit” o “Visualizzazioni pagine”), qui puoi rinominare il contenitore. |
 
 {style="table-layout:auto"}
 
@@ -132,17 +132,17 @@ Successivamente, puoi impostare i componenti di una visualizzazione dati e quind
 >
 >Puoi aggiungere fino a 5.000 metriche e 5.000 dimensioni a una singola visualizzazione dati.
 
-1. Seleziona la scheda **[!UICONTROL Components]**.
+1. Seleziona la scheda **[!UICONTROL Componenti]**.
 
    ![Scheda Componenti](assets/dataview-components.png)
 
-   La [!UICONTROL Connection] è visibile in alto a sinistra, e contiene i set di dati e i relativi [!UICONTROL Schema fields].  I componenti già inclusi sono componenti standard (generati dal sistema) necessari per tutte le visualizzazioni dati (come Eventi, Persone, Metriche sessioni e dimensioni Minuto, Trimestre, Settimana). Adobe applica anche il filtro **[!UICONTROL Contains data]** e **[!UICONTROL is not deprecated]** per impostazione predefinita, in modo che vengano visualizzati solo i campi Schema che contengono dati e che non sono obsoleti.
+   Puoi visualizzare la [!UICONTROL Connessione] in alto a sinistra, che contiene i set di dati e i relativi [!UICONTROL campi schema].  I componenti già inclusi sono componenti standard (generati dal sistema) necessari per tutte le visualizzazioni dati (come Eventi, Persone, Metriche sessioni e dimensioni Minuto, Trimestre, Settimana). Adobe applica anche il filtro **[!UICONTROL Contiene dati]** e **[!UICONTROL non è obsoleto]** per impostazione predefinita, in modo che vengano visualizzati solo i campi schema che contengono dati e che non sono obsoleti.
 
-1. Cerca un campo dello schema utilizzando ![Icona di ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Search schema fields]** oppure trova un campo spostandosi in una delle raccolte di set di dati, ad esempio ![Cartella](/help/assets/icons/Folder.svg) **[!UICONTROL Event datasets]** o ![Cartella](/help/assets/icons/Folder.svg) **[!UICONTROL Lookup datasets]**. Per i set di dati evento, sono disponibili raccolte separate per ![Cartella](/help/assets/icons/Folder.svg) **[!UICONTROL XDM fields]** e ![Cartella](/help/assets/icons/Folder.svg) **[!UICONTROL Adhoc and model-based fields]**.<br/>In alternativa, puoi creare un campo derivato utilizzando l’![icona Dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Crea campo derivato**. Per ulteriori informazioni, consulta [Campi derivati](./derived-fields/derived-fields.md).
+1. Cerca un campo dello schema utilizzando ![Icona di ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Cerca i campi dello schema]** o trova un campo spostandosi in una delle raccolte di set di dati, ad esempio ![Cartella](/help/assets/icons/Folder.svg) **[!UICONTROL Set di dati evento]** o ![Cartella](/help/assets/icons/Folder.svg) **[!UICONTROL Set di dati di ricerca]**. Per i set di dati evento, sono disponibili raccolte separate per ![Cartella](/help/assets/icons/Folder.svg) **[!UICONTROL Campi XDM]** e ![Cartella](/help/assets/icons/Folder.svg) **[!UICONTROL Campi ad hoc e relazionali]**.<br/>In alternativa, puoi creare un campo derivato utilizzando l’![icona Dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Crea campo derivato**. Per ulteriori informazioni, consulta [Campi derivati](./derived-fields/derived-fields.md).
 
-1. Quando hai trovato il campo dello schema specifico o hai definito il campo derivato, trascina quel campo, ad esempio ![Icona handle](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**, dalla barra a sinistra alla sezione **[!UICONTROL Metrics]** o **[!UICONTROL Dimensions]** sotto **[!UICONTROL Included components]**.
+1. Quando hai trovato il campo dello schema specifico o hai definito il campo derivato, trascina tale campo, ad esempio ![Icona Handle](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Nome pagina]**, dalla barra a sinistra alla sezione **[!UICONTROL Metriche]** o **[!UICONTROL Dimensioni]** sotto **[!UICONTROL Componenti inclusi]**.
 Puoi trascinare più volte lo stesso campo schema nelle sezioni delle dimensioni o metriche, e configurare una stessa dimensione o metrica in modi diversi. Ad esempio, dal campo pageName è possibile creare una dimensione con titolo `Product Pages` e un&#39;altra con titolo `Error pages` utilizzando diverse [impostazioni dei componenti](component-settings/overview.md) a destra.
-Se trascini una cartella di campi schema dalla barra a sinistra, i campi nella cartella vengono ordinati automaticamente nella sezione appropriata. I campi stringa vanno nella sezione [!UICONTROL Dimensions], mentre i campi schema di tipo numerico vanno nella sezione [!UICONTROL Metrics]. È inoltre possibile fare clic su **[!UICONTROL Add all]** e tutti i campi schema vengono aggiunti alla rispettiva sezione.
+Se trascini una cartella di campi schema dalla barra a sinistra, i campi nella cartella vengono ordinati automaticamente nella sezione appropriata. I campi stringa vanno nella sezione [!UICONTROL Dimensions] e i tipi di schema numerico vanno nella sezione [!UICONTROL Metrics]. Puoi anche fare clic su **[!UICONTROL Aggiungi tutti]** e tutti i campi schema vengono aggiunti alla rispettiva sezione.
 
 1. Quando selezioni il componente, a destra vengono visualizzate le impostazioni.
 
@@ -150,24 +150,24 @@ Se trascini una cartella di campi schema dalla barra a sinistra, i campi nella c
 
    Configura il componente utilizzando le [impostazioni del componente](component-settings/overview.md). Le impostazioni disponibili dipendono dal tipo di componente (dimensione o metrica) e il tipo di dati dello schema. Le impostazioni includono:
 
-   * [[!UICONTROL Attribution]](component-settings/attribution.md)
-   * [[!UICONTROL Behavior]](component-settings/behavior.md)
-   * [[!UICONTROL Format]](component-settings/format.md)
-   * [[!UICONTROL Include exclude values]](component-settings/include-exclude-values.md)
-   * [[!UICONTROL Metric deduplication]](component-settings/metric-deduplication.md)
-   * [[!UICONTROL No value options]](component-settings/no-value-options.md)
-   * [[!UICONTROL Persistence]](component-settings/persistence.md)
-   * [[!UICONTROL Value bucketing]](component-settings/value-bucketing.md)
+   * [[!UICONTROL Attribuzione]](component-settings/attribution.md)
+   * [[!UICONTROL Comportamento]](component-settings/behavior.md)
+   * [[!UICONTROL Formato]](component-settings/format.md)
+   * [[!UICONTROL Includi valori di esclusione]](component-settings/include-exclude-values.md)
+   * [[!UICONTROL Deduplica delle metriche]](component-settings/metric-deduplication.md)
+   * [[!UICONTROL Opzioni per “Nessun valore”]](component-settings/no-value-options.md)
+   * [[!UICONTROL Persistenza]](component-settings/persistence.md)
+   * [[!UICONTROL Bucketing dei valori]](component-settings/value-bucketing.md)
 
-1. Seleziona **[!UICONTROL Save and continue]** per continuare a configurare la visualizzazione dati nuova o esistente. Seleziona **[!UICONTROL Save]** per salvare la configurazione per la visualizzazione dati esistente.
+1. Seleziona **[!UICONTROL Salva e continua]** per continuare a configurare la visualizzazione dati nuova o esistente. Seleziona **[!UICONTROL Salva]** per salvare la configurazione per la visualizzazione dati esistente.
 
 ### Duplicare metriche o dimensioni
 
-È possibile duplicare metriche o dimensioni e quindi modificarne le impostazioni specifiche per creare facilmente più metriche o dimensioni da un singolo campo schema. Seleziona l’impostazione [!UICONTROL Duplicate] sotto il nome della metrica o delle dimensioni, in alto a destra. Modifica la nuova dimensione o metrica e salvala con un nome descrittivo.
+È possibile duplicare metriche o dimensioni e quindi modificarne le impostazioni specifiche per creare facilmente più metriche o dimensioni da un singolo campo schema. Seleziona l&#39;impostazione [!UICONTROL Duplica] sotto il nome della metrica o delle dimensioni, in alto a destra. Modifica la nuova dimensione o metrica e salvala con un nome descrittivo.
 
 ### Filtrare i campi o set di dati dello schema
 
-Puoi filtrare i campi schema ![icona Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) nella barra a sinistra per i criteri [!UICONTROL data type], [!UICONTROL datasets], [!UICONTROL data governance], e [!UICONTROL other] ([!UICONTROL contains data], [!UICONTROL is identity], e [!UICONTROL is not deprecated]):
+È possibile filtrare i campi dello schema ![icona filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) nella barra a sinistra per [!UICONTROL tipo di dati], [!UICONTROL set di dati], [!UICONTROL governance dei dati] e [!UICONTROL altri] criteri ([!UICONTROL contiene dati], [!UICONTROL è identità] e [!UICONTROL non è obsoleto]):
 
 ![Filtrare i campi](assets/dataview-components-filter.png)
 
@@ -223,38 +223,38 @@ Puoi filtrare i campi schema ![icona Filtro](https://spectrum.adobe.com/static/i
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview" text="Panoramica sulle etichette di utilizzo dei dati"
 
 
-**[!UICONTROL Included components]** contiene l&#39;elenco di **[!UICONTROL Metrics]** e **[!UICONTROL Dimensions]** configurati per la visualizzazione dati.
+I **[!UICONTROL componenti inclusi]** contengono l&#39;elenco delle **[!UICONTROL metriche]** e delle **[!UICONTROL dimensioni]** configurate per la visualizzazione dati.
 
 * Per cercare componenti, utilizzare ![Cerca](/help/assets/icons/Search.svg) **[!UICONTROL _Cerca componenti_]**.
 * Per filtrare i componenti inclusi elencati, selezionare ![Filtro](/help/assets/icons/Filter.svg).
 
   ![Finestra di dialogo del filtro dei componenti inclusi](assets/dataview_includedcomponents_filter.png)
 
-  Nella finestra di dialogo **[!UICONTROL Filter field by]** è possibile filtrare in base alle seguenti categorie:
+  Nella finestra di dialogo **[!UICONTROL Filtra campo per]**, puoi filtrare in base alle seguenti categorie:
 
-   * **[!UICONTROL Data type]** - È possibile selezionare uno o più dei seguenti tipi di dati: [!UICONTROL String], [!UICONTROL Integer], [!UICONTROL Short], [!UICONTROL Boolean], [!UICONTROL Double], [!UICONTROL Byte], [!UICONTROL Long], [!UICONTROL Date] o [!UICONTROL Date-time].
-   * **[!UICONTROL Datasets]** - Selezionare uno o più set di dati.
-   * **[!UICONTROL Data governance]**: selezionare una o più etichette dalle sottocategorie [!UICONTROL Custom labels], [!UICONTROL Contract labels], [!UICONTROL Identity labels], [!UICONTROL Sensitivity labels], P[!UICONTROL artner ecosystem] o [!UICONTROL Policies].
-   * **[!UICONTROL Other]** - Selezionare una o più opzioni [!UICONTROL Contains data], [!UICONTROL Is identity] o [!UICONTROL Is not deprecated].
+   * **[!UICONTROL Tipo di dati]** - È possibile selezionare uno o più dei seguenti tipi di dati: [!UICONTROL Stringa], [!UICONTROL Intero], [!UICONTROL Breve], [!UICONTROL Booleano], [!UICONTROL Doppio], [!UICONTROL Byte], [!UICONTROL Lungo], [!UICONTROL Data] o [!UICONTROL Data-ora].
+   * **[!UICONTROL Set di dati]** - Selezionare uno o più set di dati.
+   * **[!UICONTROL Governance dei dati]**: selezionare una o più etichette dalle sottocategorie [!UICONTROL Etichette personalizzate], [!UICONTROL Etichette contratto], [!UICONTROL Etichette identità], [!UICONTROL Etichette sensibilità], P[!UICONTROL Ecosistema partner] o [!UICONTROL Criteri].
+   * **[!UICONTROL Altro]** - Selezionare una o più opzioni [!UICONTROL Contiene dati], [!UICONTROL È identità] o [!UICONTROL Non è obsoleto].
 
-  Selezionare **[!UICONTROL Apply]** per applicare i filtri.
+  Seleziona **[!UICONTROL Applica]** per applicare i filtri.
 
 
 
 ## Impostazioni {#dataview-settings}
 
-1. Seleziona la scheda **[!UICONTROL Settings]**.
+1. Selezionare la scheda **[!UICONTROL Impostazioni]**.
 
    ![Impostazioni della visualizzazione dati](assets/dataview-settings.png)
 
 1. Configura i segmenti da applicare all’intera visualizzazione dati. Consulta [Impostazioni (segmenti)](#settings-filters) di seguito.
 1. Configura il timeout e le metriche della sessione. Consulta [Impostazioni sessione](#session-settings) di seguito.
 
-1. Seleziona **[!UICONTROL Save and continue]** per continuare a configurare la visualizzazione dati nuova o esistente. Seleziona **[!UICONTROL Save]** per salvare la configurazione per la visualizzazione dati esistente.
+1. Seleziona **[!UICONTROL Salva e continua]** per continuare a configurare la visualizzazione dati nuova o esistente. Seleziona **[!UICONTROL Salva]** per salvare la configurazione per la visualizzazione dati esistente.
 
 ### Impostazioni (segmenti) {#segment-settings}
 
-Puoi aggiungere segmenti applicabili a un’intera visualizzazione dati. Questo segmento viene applicato a qualsiasi rapporto eseguito in Workspace. Trascina un segmento dai componenti nella barra a sinistra al campo **[!UICONTROL Add segments]**.
+Puoi aggiungere segmenti applicabili a un’intera visualizzazione dati. Questo segmento viene applicato a qualsiasi rapporto eseguito in Workspace. Trascina un segmento dai componenti nella barra a sinistra al campo **[!UICONTROL Aggiungi segmenti]**.
 
 ### Impostazioni di sessione
 
@@ -266,4 +266,4 @@ L’anteprima dati confronta (per i vari contenitori) i dati di questa visualizz
 
 Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in fase di retrocompilazione.
 
-Una volta specificate tutte le impostazioni desiderate, fai clic su **[!UICONTROL Save and finish]**.
+Dopo aver specificato tutte le impostazioni desiderate, fare clic su **[!UICONTROL Salva e termina]**.

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Basics
 role: Admin
 exl-id: 17b5842f-dc81-481f-8b21-dc90a133adcf
-source-git-commit: edf7bdac87d9bed48244ad80521bbbf83c48f7b6
+source-git-commit: c9d7a4596a842ab7d949364e3469747d20ca15b4
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 23%
+source-wordcount: '1623'
+ht-degree: 15%
 
 ---
 
@@ -56,49 +56,49 @@ Non è necessario creare uno schema XDM per dati ad hoc. Experience Platform sup
 
 Per avviare il flusso di lavoro:
 
-1. Nell&#39;interfaccia di Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Workflows]**.
-1. Selezionare ![DataAdd](/help/assets/icons/DataAdd.svg) **[!UICONTROL Create dataset from CSV file]**.
-1. Selezionare **[!UICONTROL Launch]** dal riquadro di destra.
-1. Nella procedura guidata **[!UICONTROL Workflows]** > **[!UICONTROL Create dataset from CSV file]**:
-   1. Nel passaggio **[!UICONTROL Configure dataset]** (Configura):
-      1. Immetti **[!UICONTROL Name]** per il set di dati. Ad esempio: `Sample Data From CSV`.
-      1. Aggiungi un elemento **[!UICONTROL Description]** facoltativo. Ad esempio: `Sample data from a CSV file`.
-      1. Aggiungere uno o più **[!UICONTROL Tags]** facoltativi o selezionare uno o più **[!UICONTROL Tags]** esistenti.
+1. Nell&#39;interfaccia di Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Flussi di lavoro]**.
+1. Seleziona ![DataAdd](/help/assets/icons/DataAdd.svg) **[!UICONTROL Crea set di dati dal file CSV]**.
+1. Seleziona **[!UICONTROL Lancio]** dal riquadro di destra.
+1. Nella procedura guidata **[!UICONTROL Flussi di lavoro]** > **[!UICONTROL Crea set di dati dal file CSV]**:
+   1. Nel passaggio **[!UICONTROL Configura set di dati]**:
+      1. Immetti un **[!UICONTROL Nome]** per il set di dati. Ad esempio: `Sample Data From CSV`.
+      1. Aggiungi una **[!UICONTROL Descrizione]** facoltativa. Ad esempio: `Sample data from a CSV file`.
+      1. Aggiungi uno o più **[!UICONTROL Tag]** facoltativi oppure seleziona uno o più **[!UICONTROL Tag]** esistenti.
 
          ![Configura set di dati ad hoc configurato](assets/adhoc-dataset-configure.png)
 
-      1. Seleziona **[!UICONTROL Next]** (Crea nuova visualizzazione dati).
-   1. Nel passaggio **[!UICONTROL Add data]** (Configura):
-      1. Seleziona **[!UICONTROL Choose Files]** per selezionare il file CSV dal computer o dalla rete. In alternativa, trascinare e rilasciare il file dal percorso del computer o della rete in **[!UICONTROL Drag and drop files]**. Il file è stato caricato e **[!UICONTROL Sample data]** è visualizzato.
-      1. Attiva o disattiva **[!UICONTROL Error diagnostics]** e **[!UICONTROL Enable partial ingestion]** in base alle tue preferenze. Quando **[!UICONTROL Enable Partial ingestion]**, puoi definire un **[!UICONTROL Error threshold %]**.
+      1. Seleziona **[!UICONTROL Avanti]**.
+   1. Nel passaggio **[!UICONTROL Aggiungi dati]**:
+      1. Seleziona **[!UICONTROL Scegli file]** per selezionare il file CSV dal computer o dalla rete. In alternativa, trascinare e rilasciare il file dal percorso del computer o della rete in **[!UICONTROL Trascinare i file]**. Il file è stato caricato e sono visualizzati **[!UICONTROL dati di esempio]**.
+      1. Abilita o disabilita **[!UICONTROL Diagnostica errori]** e **[!UICONTROL Abilita acquisizione parziale]** in linea con le tue preferenze. Quando **[!UICONTROL Abilita acquisizione parziale]**, puoi definire una **[!UICONTROL soglia di errore %]**.
 
          ![Aggiungere dati a un set di dati ad hoc](assets/adhoc-dataset-adddata.png)
 
-      1. Seleziona **[!UICONTROL Finish]**.
+      1. Seleziona **[!UICONTROL Fine]**.
 
-Una volta preparati e caricati correttamente i dati, sei reindirizzato a **[!UICONTROL Datasets]** nell&#39;interfaccia di Experience Platform.<br/> **[!UICONTROL Dataset activity]** per il set di dati **[!UICONTROL Sample Data from CSV]** con stato ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Processing]**.
+Una volta preparati e caricati correttamente i dati, verrai reindirizzato a **[!UICONTROL Set di dati]** nell&#39;interfaccia di Experience Platform.<br/> Viene visualizzata l&#39;**[!UICONTROL Attività set di dati]** per i tuoi **[!UICONTROL Dati di esempio dal set di dati CSV]** con stato ![StatoArancione](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Elaborazione]**.
 
 ![Attività set di dati per dati ad hoc](assets/datasets-dataset-activity.png)
 
 Per esaminare i dati ad hoc:
 
-1. Nell&#39;interfaccia di Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Datasets]**.
-1. Selezionare la scheda **[!UICONTROL Browse]** in **[!UICONTROL Datasets]**. Dovresti visualizzare il set di dati elencato.
-1. Selezionare il nome dello schema dalla colonna **[!UICONTROL Schema]**. Ad esempio: **[!UICONTROL Sample Data From CSV…]**
+1. Nell&#39;interfaccia di Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Set di dati]**.
+1. Selezionare la scheda **[!UICONTROL Sfoglia]** in **[!UICONTROL Set di dati]**. Dovresti visualizzare il set di dati elencato.
+1. Selezionare il nome dello schema dalla colonna **[!UICONTROL Schema]**. Esempio: **[!UICONTROL Dati di esempio da CSV...]**
 
    ![Seleziona schema per set di dati ad hoc](assets/adhoc-schema-selection.png)
 
-1. Nel popup, selezionare **[!UICONTROL Schema name]**. Ad esempio: **[!UICONTROL Sample Data From CSV - adhoc schema - XXXXXXXXXXX]**. Sei stato reindirizzato all&#39;interfaccia **[!UICONTROL Schemas]** > **[!UICONTROL Sample Data From CSV - adhoc schema - XXXXXXXXXXX]**.
+1. Nel popup, selezionare **[!UICONTROL Nome schema]**. Ad esempio: **[!UICONTROL Dati di esempio da CSV - Schema ad hoc - XXXXXXXXXXX]**. Sei stato reindirizzato agli **[!UICONTROL Schemi]** > **[!UICONTROL Dati di esempio da CSV - Schema ad hoc - interfaccia XXXXXXXXX]**.
 
-Nell&#39;interfaccia **[!UICONTROL Schemas]** > **[!UICONTROL Sample Data From CSV - adhoc schema - XXXXXXXXXXX]**:
+Negli **[!UICONTROL Schemi]** > **[!UICONTROL Dati di esempio da CSV - Schema ad hoc - Interfaccia XXXXXXXXXXX]**:
 
-- Selezionare l&#39;oggetto nome tenant superiore sotto **[!UICONTROL Schemas]** > **[!UICONTROL Sample Data From CSV - adhoc schema - XXXXXXXXXXX]** per visualizzare i campi all&#39;interno dell&#39;oggetto. I campi all’interno dell’oggetto rappresentano la struttura del file CSV. Lo schema viene creato automaticamente in base al caricamento dei dati ad hoc.
+- Seleziona l&#39;oggetto nome tenant più in alto sotto **[!UICONTROL Schemi]** > **[!UICONTROL Dati di esempio da CSV - schema ad hoc - XXXXXXXXXXX]** per visualizzare i campi all&#39;interno dell&#39;oggetto. I campi all’interno dell’oggetto rappresentano la struttura del file CSV. Lo schema viene creato automaticamente in base al caricamento dei dati ad hoc.
 
   ![Schema ad hoc](dataset/../assets/adhoc-schema.png)
 
   >[!NOTE]
   >
-  >Il flusso di lavoro definisce tutti i campi dello schema come di tipo String. Non è possibile modificare questo tipo in una fase successiva. Se hai bisogno di maggiore flessibilità nella definizione di uno schema ad hoc, prendi in considerazione [l&#39;utilizzo dell&#39;API per creare uno schema ad hoc](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/ad-hoc) e quindi utilizza il [Crea set di dati dallo schema](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#schema) flusso di lavoro.
+  >Il flusso di lavoro definisce tutti i campi dello schema come di tipo String. Non è possibile modificare questo tipo in una fase successiva. Se hai bisogno di maggiore flessibilità nella definizione di uno schema ad hoc, prendi in considerazione [l&#39;utilizzo dell&#39;API per creare uno schema ad hoc](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/ad-hoc) e quindi utilizza il [Crea set di dati dallo schema](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema) flusso di lavoro.
   > 
 
 
@@ -112,50 +112,50 @@ Una connessione consente di integrare i set di dati da Experience Platform a Wor
 
 Per creare la connessione:
 
-1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Connessioni]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
 
-1. Seleziona **[!UICONTROL Create new connection]** (Crea uova connessione).
+1. Selezionare **[!UICONTROL Crea nuova connessione]**.
 
-1. Nella schermata **[!UICONTROL Untitled connection]** (Connessione senza titolo):
+1. Nella schermata **[!UICONTROL Connessione senza titolo]**:
 
-   1. Assegna un nome e una descrizione alla connessione in **[!UICONTROL Connection Settings]** (Impostazioni della connessione).
+   1. Denomina e descrivi la connessione in **[!UICONTROL Impostazioni connessione]**.
 
-   1. Seleziona la sandbox corretta dall’elenco **[!UICONTROL Sandbox]** in **[!UICONTROL Data settings]** (Impostazioni dati) e seleziona il numero di eventi giornalieri dall’elenco **[!UICONTROL Average number of daily events]** (Numero medio di eventi giornalieri).
+   1. Selezionare la sandbox corretta dall&#39;elenco **[!UICONTROL Sandbox]** in **[!UICONTROL Impostazioni dati]** e selezionare il numero di eventi giornalieri dall&#39;elenco **[!UICONTROL Numero medio di eventi giornalieri]**.
 
       ![Impostazioni della connessione](./assets/cja-connections-1.png)
 
-   1. Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
+   1. Seleziona **[!UICONTROL Aggiungi set di dati]**.
 
-1. Nel passaggio **[!UICONTROL Select datasets]** (Seleziona set di dati) in **[!UICONTROL Add datasets]** (Aggiungi set di dati):
+1. Nel passaggio **[!UICONTROL Seleziona set di dati]** in **[!UICONTROL Aggiungi set di dati]**:
 
-   1. Selezionare il set di dati creato in precedenza, ad esempio **[!UICONTROL Sample Data From CSV]**, e qualsiasi altro set di dati da includere nella connessione. I set di dati ad hoc hanno **[!UICONTROL Adhoc]** [!UICONTROL Dataset type].
+   1. Seleziona il set di dati creato in precedenza, ad esempio **[!UICONTROL Dati di esempio da CSV]** e qualsiasi altro set di dati che desideri includere nella connessione. I set di dati ad hoc hanno il tipo **[!UICONTROL Adhoc]** [!UICONTROL Dataset].
 
       ![Aggiungere set di dati](./assets/cja-connections-adhoc-2.png)
 
-   1. Seleziona **[!UICONTROL Next]** (Avanti).
+   1. Seleziona **[!UICONTROL Avanti]**.
 
-1. Nel passaggio **[!UICONTROL Datasets settings]** (Seleziona set di dati) in **[!UICONTROL Add datasets]** (Aggiungi set di dati):
+1. Nel passaggio **[!UICONTROL Impostazioni set di dati]** in **[!UICONTROL Aggiungi set di dati]**:
 
    Per il set di dati ad hoc:
 
-   1. Seleziona il tipo di set di dati ad hoc. Ad esempio: **[!UICONTROL Lookup]**.
-   1. Selezionare **[!UICONTROL Key]** dalle chiavi disponibili definite nello schema ad hoc.
-   1. Selezionare un **[!UICONTROL Matching key]** da un set di dati evento aggiunto come parte della connessione.
-   1. Seleziona l’origine dati corretta dall’elenco **[!UICONTROL Data source type]** (Tipo di origine dati). Se specifichi **[!UICONTROL Other]** (Altro), aggiungi una descrizione per l’origine dati.
+   1. Seleziona il tipo di set di dati ad hoc. Esempio: **[!UICONTROL Ricerca]**.
+   1. Seleziona una **[!UICONTROL Chiave]** dalle chiavi disponibili definite nello schema ad hoc.
+   1. Seleziona una **[!UICONTROL Chiave corrispondente]** da un set di dati evento aggiunto come parte della connessione.
+   1. Selezionare l&#39;origine dati corretta dall&#39;elenco **[!UICONTROL Tipo origine dati]**. Se si specifica **[!UICONTROL Altro]**, aggiungere una descrizione per l&#39;origine dati.
 
-   1. Imposta **[!UICONTROL Import all new data]** (Importa tutti i nuovi dati) e **[!UICONTROL Dataset backfill existing data]** (Dati esistenti di backfill del set di dati) secondo le tue preferenze.
+   1. Imposta **[!UICONTROL Importa tutti i nuovi dati]** e **[!UICONTROL Recupera i dati esistenti del set di dati]** in base alle tue preferenze.
 
       ![Configurare i set di dati](./assets/cja-connections-3-adhoc.png)
 
-   1. Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
+   1. Seleziona **[!UICONTROL Aggiungi set di dati]**.
 
-   1. Seleziona **[!UICONTROL Save]** (Salva).
+   1. Seleziona **[!UICONTROL Salva]**.
 
 Consulta [Impostazioni set di dati ad hoc](/help/connections/create-connection.md#adhoc-dataset) per ulteriori dettagli sulle impostazioni disponibili per i set di dati ad hoc.
 
 >[!IMPORTANT]
 >
->Oltre al consiglio generale di non utilizzare set di dati e schemi ad hoc per i dati delle serie temporali, non è possibile utilizzare il flusso di lavoro **[!UICONTROL Create dataset from CSV]** per i dati delle serie temporali. Questo flusso di lavoro definisce tutti i campi come di tipo String che non è possibile modificare successivamente. Quando si aggiunge un set di dati basato su serie temporali (evento o riepilogo) a una connessione, questo tipo di set di dati richiede la definizione di almeno un campo di tipo DateTime.<br/>Se è necessario utilizzare dati di serie temporali ad hoc, valutare l&#39;opportunità di [utilizzare l&#39;API per creare uno schema ad hoc](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) e quindi utilizzare il [Crea set di dati dal flusso di lavoro dello schema](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#schema).
+>Oltre al consiglio generale di non utilizzare set di dati e schemi ad hoc per i dati delle serie temporali, non è possibile utilizzare **[!UICONTROL Crea set di dati dal flusso di lavoro CSV]** per i dati delle serie temporali. Questo flusso di lavoro definisce tutti i campi come di tipo String che non è possibile modificare successivamente. Quando si aggiunge un set di dati basato su serie temporali (evento o riepilogo) a una connessione, questo tipo di set di dati richiede la definizione di almeno un campo di tipo DateTime.<br/>Se è necessario utilizzare dati di serie temporali ad hoc, valutare l&#39;opportunità di [utilizzare l&#39;API per creare uno schema ad hoc](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) e quindi utilizzare il [Crea set di dati dal flusso di lavoro dello schema](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema).
 
 
 Dopo aver creato una [connessione](/help/connections/overview.md), è possibile eseguire varie attività di gestione, ad esempio [selezionare e combinare i set di dati](/help/connections/combined-dataset.md), [controllare lo stato dei set di dati di una connessione e lo stato dell&#39;acquisizione dei dati](/help/connections/manage-connections.md) e altro ancora.
@@ -166,40 +166,40 @@ Una visualizzazione dati è un contenitore specifico di Customer Journey Analyti
 
 Per creare la visualizzazione dati:
 
-1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Visualizzazioni dati]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
 
-1. Seleziona **[!UICONTROL Create new data view]** (Crea nuova visualizzazione dati).
+1. Selezionare **[!UICONTROL Crea nuova visualizzazione dati]**.
 
-1. Nel passaggio **[!UICONTROL Configure]** (Configura):
+1. Nel passaggio **[!UICONTROL Configura]**:
 
-   1. Seleziona la [connessione](#set-up-a-connection) dall&#39;elenco **[!UICONTROL Connection]**.
+   1. Seleziona la [connessione](#set-up-a-connection) dall&#39;elenco **[!UICONTROL Connessione]**.
 
    1. Assegna un nome e (facoltativamente) una descrizione alla connessione.
 
       ![Configurare la visualizzazione dati](./assets/cja-dataview-1.png)
 
-   1. Seleziona **[!UICONTROL Save and continue]** (Salva e continua).
+   1. Seleziona **[!UICONTROL Salva e continua]**.
 
-1. Nel passaggio **[!UICONTROL Components]** (Configura):
+1. Nel passaggio **[!UICONTROL Componenti]**:
 
-   1. Aggiungere qualsiasi campo schema e/o componente standard che si desidera includere nelle caselle del componente **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**. Assicurati di aggiungere campi rilevanti dal set di dati che contiene i dati ad hoc. Per accedere a questi campi:
+   1. Aggiungi qualsiasi campo schema e/o componente standard da includere nelle caselle dei componenti **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**. Assicurati di aggiungere campi rilevanti dal set di dati che contiene i dati ad hoc. Per accedere a questi campi:
 
-      1. Seleziona **[!UICONTROL Event datasets]** (Aggiungi set di dati).
-      1. Seleziona **[!UICONTROL Adhoc & Model-based fields]** (Salva).
+      1. Seleziona **[!UICONTROL Set di dati evento]**.
+      1. Seleziona **[!UICONTROL Campi ad hoc e relazionali]**.
 
          ![Visualizzazione dati - componenti ad hoc](assets/cja-dataview-components-adhoc.png)
 
-      1. Trascinare i campi dagli schemi ad hoc su **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**.
+      1. Trascina i campi dagli schemi ad hoc in **[!UICONTROL METRICS]** o **[!UICONTROL DIMENSIONS]**.
 
 
 
    1. Facoltativamente, utilizzare [campi derivati](/help/data-views/derived-fields/derived-fields.md) per modificare qualsiasi campo ad hoc dal tipo e formato di stringa predefiniti a un altro tipo o formato.
 
-   1. Seleziona **[!UICONTROL Save and continue]** (Crea nuova visualizzazione dati).
+   1. Seleziona **[!UICONTROL Salva e continua]**.
 
-1. Nel passaggio **[!UICONTROL Settings]** (Configura):
+1. Nel passaggio **[!UICONTROL Impostazioni]**:
 
-   Lascia le impostazioni così come sono e seleziona **[!UICONTROL Save and finish]** (Salva e fine).
+   Lasciare le impostazioni immutate e selezionare **[!UICONTROL Salva e termina]**.
 
 Per ulteriori informazioni su come creare e modificare una visualizzazione dati, vedere [Panoramica delle visualizzazioni dati](../data-views/data-views.md). Quali componenti sono disponibili per l’utilizzo nella visualizzazione dati e come utilizzare le impostazioni di segmenti e sessioni.
 
@@ -210,17 +210,17 @@ Analysis Workspace è uno strumento di browser flessibile che consente di creare
 
 Per creare il progetto:
 
-1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** nel menu principale.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Progetti]** nel menu principale.
 
-1. Seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione a sinistra.
+1. Seleziona **[!UICONTROL Progetti]** nel menu di navigazione a sinistra.
 
-1. Seleziona **[!UICONTROL Create project]** (Aggiungi set di dati).
+1. Seleziona **[!UICONTROL Crea progetto]**.
 
-1. Seleziona **[!UICONTROL Blank project]** (Salva).
+1. Seleziona **[!UICONTROL Progetto vuoto]**.
 
 1. Seleziona la [visualizzazione dati](#set-up-a-data-view) dall&#39;elenco.
 
-1. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche su [!UICONTROL Freeform table] in [!UICONTROL Panel]. Inclusione di metriche o dimensioni basate su dati ad hoc.
+1. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche sulla [!UICONTROL tabella a forma libera] nel [!UICONTROL pannello]. Inclusione di metriche o dimensioni basate su dati ad hoc.
 
 Per ulteriori informazioni su come creare progetti e generare analisi utilizzando componenti, visualizzazioni e pannelli, consulta la sezione [Panoramica di Analysis Workspace](../analysis-workspace/home.md).
 
