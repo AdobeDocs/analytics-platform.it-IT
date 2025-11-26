@@ -442,7 +442,7 @@ In alternativa, i tipi di set di dati elencati sopra possono essere basati su un
 
 | Tipo di set di dati | Descrizione | Marca temporale | Schema | ID persona |
 |---|---|---|---|---|
-| **[!UICONTROL Adhoc]** | Dati ad hoc basati su uno [schema ad hoc](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/api/ad-hoc) con campi a cui viene assegnato un namespace per l&#39;utilizzo solo da un singolo set di dati. | Dipende dal tipo di set di dati selezionato per il set di dati ad hoc. | Qualsiasi schema ad hoc basato su una classe basata sul comportamento *ad hoc* | Dipende dal tipo di set di dati selezionato per il set di dati ad hoc. |
+| **[!UICONTROL Adhoc]** | Dati ad hoc basati su uno [schema ad hoc](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/api/ad-hoc) con campi a cui viene assegnato un namespace per l&#39;utilizzo solo da un singolo set di dati. | Dipende dal tipo di set di dati selezionato per il set di dati ad hoc. | Qualsiasi schema ad hoc basato su una classe basata sul comportamento *ad hoc* | Dipende dal tipo di set di dati selezionato per il set di dati ad hoc. |
 | **[!UICONTROL Modello]** | Dati relazionali basati su uno schema relazionale. | Dipende dal tipo di set di dati selezionato per il set di dati relazionale. | Qualsiasi schema relazionale. | Dipende dal tipo di set di dati selezionato per il set di dati relazionale. |
 
 
