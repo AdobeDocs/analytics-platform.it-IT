@@ -18,7 +18,7 @@ La pagina di destinazione di Customer Journey Analytics mette in evidenza [!DNL 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pagina di destinazione in Analysis Workspace](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pagina di destinazione in Analysis Workspace](https://video.tv.adobe.com/v/346464/?captions=ita&quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
