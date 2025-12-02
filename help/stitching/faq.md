@@ -275,6 +275,6 @@ curl -X POST \
 
 Qualsiasi utilizzo del tag `unifiedProfile` nella richiesta, anche se non disponi della licenza per Real-Time Customer Data Profile, restituisce un errore.
 
-Per ulteriori informazioni, vedere [Creare un set di dati abilitato per Profilo e identità](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity).
+Per ulteriori informazioni, vedere [Creare un set di dati abilitato per Profilo e identità](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity).
 
 +++ 

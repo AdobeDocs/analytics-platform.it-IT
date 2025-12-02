@@ -242,7 +242,7 @@ Ulteriori informazioni sulle [implicazioni dell&#39;eliminazione del set di dati
 
 Adobe Experience Cloud utilizza la raccolta dati regionali (Regional Data Collection, RDC) in modo che le interazioni tra i visitatori e le soluzioni Adobe e non Adobe si verifichino il più vicino possibile ai visitatori. Una volta raccolti i dati a livello regionale in un centro di raccolta dati (Data Collection Center, DCC, noto anche come sito Edge, parte della rete Edge di Platform), questi vengono inoltrati tramite una connessione sicura alle soluzioni pertinenti in base alla configurazione dello stream di dati e/o all’inoltro eventi.
 
-![Flusso di dati con reti Edge](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
+![Flusso di dati con reti Edge](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png?lang=it)
 
 Il processo di raccolta dati regionali utilizza i seguenti passaggi:
 
