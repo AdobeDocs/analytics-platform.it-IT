@@ -4,10 +4,10 @@ title: Segmenti rapidi
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 21%
+source-wordcount: '1186'
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ I segmenti rapidi consentono di esplorare rapidamente i dati all&#39;interno di 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi in Analysis Workspace](https://video.tv.adobe.com/v/345338/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi in Analysis Workspace](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -43,9 +43,9 @@ Per creare un segmento rapido:
 Quando crei un segmento rapido tramite trascinamento, tieni presente che:
 
 * Non tutti i tipi di componenti sono supportati. Le metriche calcolate non sono supportate e sono supportate solo le dimensioni e le metriche da cui puoi creare i segmenti.
-* Per i componenti delle dimensioni e delle metriche, [Generatore di segmenti rapido](#quick-segment-builder) crea automaticamente `exists` condizioni. Se ad esempio si trascina **[!UICONTROL City]**, verrà creata la condizione **[!UICONTROL City]** **[!UICONTROL exists]**.
-* Per i valori di dimensione, il [Generatore di segmenti rapido](#quick-segment-builder) crea automaticamente una condizione **[!UICONTROL equals]**. Se ad esempio si trascina **[!UICONTROL Amsterdam]** dall&#39;elenco delle dimensioni **[!UICONTROL City]**, verrà creata la condizione **[!UICONTROL City]** **[!UICONTROL equals]** `Amsterdam`.
-* Se trascini **[!UICONTROL unspecified]** o **[!UICONTROL none]**, il [Generatore di segmenti rapido](#quick-segment-builder) crea automaticamente una condizione **[!UICONTROL does not exist]**.
+* Per i componenti delle dimensioni e delle metriche, [Generatore di segmenti rapido](#quick-segment-builder) crea automaticamente `exists` condizioni. Ad esempio, se trascini **[!UICONTROL Città]**, viene creata la condizione **[!UICONTROL Città]** **[!UICONTROL esiste]**.
+* Per i valori di dimensione, il [Generatore di segmenti rapido](#quick-segment-builder) crea automaticamente una condizione **[!UICONTROL uguale a]**. Ad esempio, se trascini **[!UICONTROL Amsterdam]** dall&#39;elenco delle dimensioni **[!UICONTROL Città]**, verrà creata la condizione **[!UICONTROL Città]** **[!UICONTROL è uguale a]** `Amsterdam`.
+* Se trascini **[!UICONTROL non specificato]** o **[!UICONTROL nessuno]**, il [Generatore di segmenti rapidi](#quick-segment-builder) crea automaticamente una condizione **[!UICONTROL non esiste]**.
 
 I segmenti rapidi creati vengono visualizzati nella parte superiore del pannello. I segmenti rapidi hanno una barra a sinistra sottile di colore blu chiaro. Quando un segmento rapido è in modalità di modifica mediante il [Generatore di segmenti rapidi](#quick-segment-builder), lo sfondo del segmento rapido è di colore blu chiaro.
 
@@ -54,14 +54,14 @@ I risultati dei segmenti rapidi creati in un pannello vengono applicati (utilizz
 
 ## Gestire i
 
-Per gestire un segmento rapido, passa il cursore del mouse su **[!UICONTROL Quick segment]** specifico.
+Per gestire un segmento rapido, passa il cursore del mouse su **[!UICONTROL Segmento rapido]** specifico.
 
 * Seleziona ![Modifica](/help/assets/icons/Edit.svg) per aprire il [Generatore di segmenti rapidi](#quick-segment-builder) e modificare i segmenti rapidi.
-* Seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg) per aprire un popup. Nel pop-up vengono visualizzate informazioni sul segmento. È possibile selezionare **[!UICONTROL Make available to all projects and add to your component list]** Per aggiungere il segmento all&#39;elenco dei componenti ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]** nel pannello dei componenti. Viene visualizzata una finestra di dialogo **[!UICONTROL Save quick segment]** in cui viene richiesto di specificare un nome per il segmento. Seleziona **[!UICONTROL Save]** per continuare. Il [!UICONTROL Quick segment] diventa un **[!UICONTROL Segment]**. Non è più possibile modificare il segmento utilizzando [Generatore di segmenti rapidi](#quick-segment-builder). È invece necessario modificare il segmento come segmento regolare, utilizzando il [Generatore di segmenti](seg-builder.md).
+* Seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg) per aprire un popup. Nel pop-up vengono visualizzate informazioni sul segmento. Puoi selezionare **[!UICONTROL Rendi disponibile per tutti i progetti e aggiungerlo all&#39;elenco dei componenti]** Per aggiungere il segmento all&#39;elenco dei componenti ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmenti]** nel pannello dei componenti. Viene visualizzata una finestra di dialogo **[!UICONTROL Salva segmento rapido]** in cui viene richiesto di specificare un nome per il segmento. Seleziona **[!UICONTROL Salva]** per continuare. Il [!UICONTROL segmento rapido] si trasforma in **[!UICONTROL segmento]**. Non è più possibile modificare il segmento utilizzando [Generatore di segmenti rapidi](#quick-segment-builder). È invece necessario modificare il segmento come segmento regolare, utilizzando il [Generatore di segmenti](seg-builder.md).
 
 ## Generatore di segmenti rapidi
 
-Consulta di seguito un esempio del Generatore di segmenti rapidi. Nell&#39;esempio, il generatore viene aperto per un segmento rapido denominato `Call Reason = Order Change AND Online Orders is greater than or equal 1`. Entrambi i segmenti rapidi nella parte superiore si applicano al pannello **[!UICONTROL Average Order Value Dashboard]** e a tutte le visualizzazioni in, ad esempio la tabella a forma libera [!UICONTROL Average Order Value Per Country].
+Consulta di seguito un esempio del Generatore di segmenti rapidi. Nell&#39;esempio, il generatore viene aperto per un segmento rapido denominato `Call Reason = Order Change AND Online Orders is greater than or equal 1`. Entrambi i segmenti rapidi nella parte superiore si applicano al pannello **[!UICONTROL Dashboard del valore medio dell&#39;ordine]** e a tutte le visualizzazioni all&#39;interno di, ad esempio la tabella a forma libera [!UICONTROL Valore medio dell&#39;ordine per paese].
 
 ![Generatore di segmenti rapidi](assets/quick-filter-builder.png)
 
@@ -73,10 +73,10 @@ L’area dell’intestazione determina il nome, il tipo e l’ambito del segment
 
 | Elemento | Descrizione |
 |---|---|
-| **[!UICONTROL Name]** | Il nome viene derivato automaticamente dalla definizione del segmento rapido. |
-| **[!UICONTROL People]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alert](/help/assets/icons/Alert.svg) | Visualizzazione in anteprima dei dati risultanti dal segmento rapido. Una barra e una percentuale forniscono ad insight la quantità di dati complessivi che fa parte del risultato del segmento rapido. Un ![avviso](/help/assets/icons/AlertRed.svg) segnala che il segmento rapido non restituisce dati. |
-| **[!UICONTROL Include]**<br/>**[!UICONTROL Exclude]** | Seleziona dall&#39;elenco a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg) se desideri includere o escludere i risultati del segmento rapido dai dati nel pannello. |
-| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]** | Dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg), seleziona l&#39;ambito del segmento rapido. |
+| **[!UICONTROL Nome]** | Il nome viene derivato automaticamente dalla definizione del segmento rapido. |
+| **[!UICONTROL Persone]** <br/>![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) ![Avviso](/help/assets/icons/Alert.svg) | Visualizzazione in anteprima dei dati risultanti dal segmento rapido. Una barra e una percentuale forniscono ad insight la quantità di dati complessivi che fa parte del risultato del segmento rapido. Un ![avviso](/help/assets/icons/AlertRed.svg) segnala che il segmento rapido non restituisce dati. |
+| **[!UICONTROL Includi]**<br/>**[!UICONTROL Escludi]** | Seleziona dall&#39;elenco a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg) se desideri includere o escludere i risultati del segmento rapido dai dati nel pannello. |
+| **[!UICONTROL Evento]**<br/>**[!UICONTROL Sessione]**<br/>**[!UICONTROL Persona]** | Dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg), seleziona l&#39;ambito del segmento rapido. |
 
 ### Area condizioni
 
@@ -84,7 +84,7 @@ L’area delle condizioni specifica le condizioni (fino a un massimo di tre). Pe
 
 | Elemento | Descrizione |
 |---|---|
-| **[!UICONTROL Dimension]**<br/>**[!UICONTROL Metric]**<br/>**[!UICONTROL Date range]** | Dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg), seleziona se desideri specificare una condizione per una dimensione, una metrica o un intervallo di date. |
+| **[!UICONTROL Dimension]**<br/>**[!UICONTROL Metrica]**<br/>**[!UICONTROL Intervallo date]** | Dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg), seleziona se desideri specificare una condizione per una dimensione, una metrica o un intervallo di date. |
 | **[!UICONTROL *component *]** | Il campo del componente per la condizione. Puoi [!UICONTROL *Digitare per aggiungere*] un componente, selezionare un componente dall’elenco oppure trascinarlo dal pannello dei componenti. Puoi rilasciare componenti simili solo nel campo componente della condizione. Ad esempio, puoi rilasciare un componente dimensione solo dal pannello dei componenti in una condizione di dimensione. <br/>Puoi anche trascinare un componente per sostituirne uno esistente.<br/>Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per eliminare il componente dal campo del componente. |
 | **[!UICONTROL *operator *]** | Operatore del componente. Per ulteriori informazioni, consulta [Operatori](seg-operators.md). Disponibile solo per dimensioni e metriche. |
 | **[!UICONTROL *value *]** | Valore della condizione. A seconda dell’operatore selezionato, è possibile selezionare il valore da un elenco o immetterlo. |
@@ -96,9 +96,9 @@ L’area delle condizioni specifica le condizioni (fino a un massimo di tre). Pe
 |---|---|
 | **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | Disponibile solo quando si definiscono più condizioni. Selezionare dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg) tra le condizioni. La selezione determina la logica booleana per il segmento rapido. Non è possibile combinare la logica quando si hanno tre condizioni. La logica booleana è **[!UICONTROL AND]** o **[!UICONTROL OR]**. |
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | Aggiunge un’altra condizione al segmento rapido. Questo pulsante è disponibile solo quando sono state definite una o due condizioni per il segmento rapido. |
-| **[!UICONTROL Apply]** | Applica le modifiche al segmento rapido. |
-| **[!UICONTROL Open builder]** | Viene richiesta una conferma con una finestra di dialogo **[!UICONTROL Are your sure?]**. Se si seleziona **[!UICONTROL OK]**, non sarà più possibile modificare il segmento nel [Generatore di segmenti rapidi](#quick-segment-builder). Il segmento rapido verrà rinominato in **[!UICONTROL Segment]** e avrà una barra sinistra blu più scura.<br/>Viene aperto il [Generatore di segmenti](seg-builder.md) regolare con l&#39;opzione **[!UICONTROL Make this segment available to all your projects and add it to your component list]**. <ul><li>Se si seleziona questa opzione e si seleziona **[!UICONTROL Apply]**, il segmento verrà aggiunto all&#39;elenco dei componenti ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** nel pannello dei componenti.</li><li>Se non selezioni questa opzione e fai clic su **[!UICONTROL Apply]**, il segmento rimane un segmento solo progetto di Workspace.</li></ul> |
-| **[!UICONTROL Cancel]** | Seleziona per annullare la creazione o la modifica di un segmento rapido. |
+| **[!UICONTROL Applica]** | Applica le modifiche al segmento rapido. |
+| **[!UICONTROL Apri generatore]** | Viene richiesta una conferma con **[!UICONTROL Continuare?Finestra di dialogo]**. Se si seleziona **[!UICONTROL OK]**, non sarà più possibile modificare il segmento nel [Generatore di segmenti rapidi](#quick-segment-builder). Il segmento rapido verrà rinominato in **[!UICONTROL Segmento]** e ora presenta una barra sinistra blu più scura.<br/>Viene aperto il [Generatore di segmenti](seg-builder.md) regolare con l&#39;opzione di **[!UICONTROL Rendere questo segmento disponibile per tutti i progetti e aggiungerlo all&#39;elenco dei componenti]**. <ul><li>Se si seleziona questa opzione e si seleziona **[!UICONTROL Applica]**, il segmento verrà aggiunto all&#39;elenco dei componenti ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** nel pannello dei componenti.</li><li>Se non si seleziona questa opzione e si seleziona **[!UICONTROL Applica]**, il segmento rimane un segmento solo progetto di Workspace.</li></ul> |
+| **[!UICONTROL Annulla]** | Seleziona per annullare la creazione o la modifica di un segmento rapido. |
 
 ## Segmenti rapidi e segmenti
 

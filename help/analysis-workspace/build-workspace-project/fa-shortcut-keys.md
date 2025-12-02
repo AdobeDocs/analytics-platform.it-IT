@@ -5,7 +5,7 @@ feature: Workspace Basics
 title: Tasti di scelta rapida
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 89%
@@ -18,16 +18,16 @@ I tasti di scelta rapida sono disponibili in Analysis Workspace per favorire la 
 
 Sulla tastiera possono essere utilizzati i seguenti simboli:
 
-- **⇧** per **[!UICONTROL **&#x200B; Maiusc &#x200B;**]**.
-- **⌘** per **[!UICONTROL **&#x200B; Comando &#x200B;**]** (comando).
-- **⌃** per **[!UICONTROL **&#x200B; Ctrl &#x200B;**]** (controllo).
-- **⌥** per **[!UICONTROL **&#x200B; Opzione &#x200B;**]** (opzione).
-- **⎇** per **[!UICONTROL **&#x200B; Alt &#x200B;**]** (alternativo).
+- **⇧** per **[!UICONTROL ** Maiusc **]**.
+- **⌘** per **[!UICONTROL ** Comando **]** (comando).
+- **⌃** per **[!UICONTROL ** Ctrl **]** (controllo).
+- **⌥** per **[!UICONTROL ** Opzione **]** (opzione).
+- **⎇** per **[!UICONTROL ** Alt **]** (alternativo).
 
 ## Azioni di navigazione
 
 | Azione | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Crea nuovo progetto | **[!UICONTROL *Comando+Maiusc+p *]** | **[!UICONTROL *Ctrl+Maiusc+p *]** |
 | Apri un progetto esistente | **[!UICONTROL *Comando+o *]** | **[!UICONTROL *Ctrl+o *]** |
 | Passa al riquadro Pannelli | **[!UICONTROL *Opzione+Maiusc+1 *]** | **[!UICONTROL *Alt+Maiusc+1 *]** |
@@ -41,7 +41,7 @@ Sulla tastiera possono essere utilizzati i seguenti simboli:
 ## Azioni di analisi
 
 | Azione | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Ricerca pannello a sinistra | **[!UICONTROL *Comando+/*]** | **[!UICONTROL *Ctrl+/*]** |
 | Crea un avviso | **[!UICONTROL *Comando+Maiusc+a *]** | **[!UICONTROL *Ctrl+Maiusc+a *]** |
 | Crea una metrica calcolata | **[!UICONTROL *Comando+Maiusc+c *]** | **[!UICONTROL *Ctrl+Maiusc+c *]** |
@@ -58,7 +58,7 @@ Sulla tastiera possono essere utilizzati i seguenti simboli:
 ## Aggiungi pannelli e azioni di visualizzazione
 
 | Azione | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Nuovo pannello Attribuzione | **[!UICONTROL *Opzione+e *]** | **[!UICONTROL *Alt+e *]** |
 | Nuovo pannello vuoto | **[!UICONTROL *Opzione+b *]** | **[!UICONTROL *Alt+b *]** |
 | Nuovo pannello a forma libera | **[!UICONTROL *Opzione+a *]** | **[!UICONTROL *Alt+a *]** |
@@ -71,14 +71,14 @@ Sulla tastiera possono essere utilizzati i seguenti simboli:
 ## Spostare le azioni del pannello
 
 | Azione | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Sposta pannello in alto | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *Alt + Ctrl + Su *]** |
 | Sposta pannello in basso | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *Alt + Ctrl + Giù&#x200B;*]** |
 
 ## Azioni di democratizzazione
 
 | Azione | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Salva progetto | **[!UICONTROL *Comando+s *]** | **[!UICONTROL *Ctrl+s *]** |
 | Salva progetto come | **[!UICONTROL *Comando+Maiusc+s *]** | **[!UICONTROL *Ctrl+Maiusc+s *]** |
 | Salva come modello | **[!UICONTROL *Opzione+t *]** | **[!UICONTROL *Alt+t *]** |

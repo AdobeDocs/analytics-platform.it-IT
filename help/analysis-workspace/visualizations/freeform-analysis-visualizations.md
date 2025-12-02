@@ -5,10 +5,10 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 89%
+source-wordcount: '1738'
+ht-degree: 78%
 
 ---
 
@@ -21,7 +21,7 @@ Workspace offre diverse visualizzazioni per creare rappresentazioni visive dei d
 In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
 | Icona | Nome | Descrizione |
-| :---: | --- | ---| 
+| :---: | --- | ---|
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [Superfici](/help/analysis-workspace/visualizations/area.md) | Visualizzazione con grafico a superficie. È simile a un grafico a linee ma presenta una superficie colorata al di sotto della linea. Un grafico a superficie è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barre](/help/analysis-workspace/visualizations/bar.md) | La visualizzazione di un grafico a barre con barre verticali che rappresentano diversi valori per una o più metriche. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [Barre sovrapposte](/help/analysis-workspace/visualizations/bar.md) | La visualizzazione di un grafico a barre sovrapposte con barre verticali che rappresentano diversi valori per una o più metriche. |
@@ -62,11 +62,11 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
    * Aggiungi un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md), quindi seleziona la visualizzazione da aggiungere.
 
-   * Dal menu di scelta rapida di una visualizzazione esistente nel progetto Analysis Workspace, seleziona **[!UICONTROL Duplicate visualization]** o **[!UICONTROL Copy visualization]**.
+   * Dal menu di scelta rapida di una visualizzazione esistente nel progetto Analysis Workspace, seleziona **[!UICONTROL Duplica visualizzazione]** o **[!UICONTROL Copia visualizzazione]**.
 
-   * Utilizza il menu **[!UICONTROL Insert]** di Workspace per inserire una visualizzazione.
+   * Utilizza il menu **[!UICONTROL Inserisci]** di Workspace per inserire una visualizzazione.
 
-   * Dal menu di scelta rapida di una tabella a forma libera, seleziona **[!UICONTROL Visualize]**. Seleziona quindi la visualizzazione dal sottomenu. In base alla selezione corrente nella tabella, Workspace determina la visualizzazione da offrire e interpreta i dati per generare la visualizzazione richiesta.
+   * Dal menu di scelta rapida di una tabella a forma libera, selezionare **[!UICONTROL Visualizza]**. Seleziona quindi la visualizzazione dal sottomenu. In base alla selezione corrente nella tabella, Workspace determina la visualizzazione da offrire e interpreta i dati per generare la visualizzazione richiesta.
 
 Quando aggiungi una visualizzazione semplice, ad esempio una [Linea](line.md) di [Barra](bar.md), la visualizzazione utilizza la tabella a forma libera più vicina come origine di dati. Puoi sempre modificare l&#39;[origine dati](#data-source) delle tue visualizzazioni.
 
@@ -79,7 +79,7 @@ Puoi gestire una visualizzazione quando passi il cursore del mouse su di essa o 
 
 * Per comprimere una visualizzazione, selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg).
 * Per visualizzare una visualizzazione compressa, selezionare ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
-* Per eliminare una visualizzazione, selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg). Per annullare, seleziona **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *Comando+Z *]**|**[!UICONTROL * CTRL+Z *]**).
+* Per eliminare una visualizzazione, selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg). Per annullare, selezionare **[!UICONTROL Modifica]** > **[!UICONTROL Annulla]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
 * Per ripristinare l&#39;altezza predefinita di una visualizzazione, selezionare ![Ridimensiona immagine](/help/assets/icons/Resize.svg).
 * Per spostare una visualizzazione all&#39;interno di un pannello, trascina e rilascia la visualizzazione ogni volta che è visibile un elemento ![Sposta](/help/assets/icons/Move.svg) (in genere quando passi il cursore del mouse sull&#39;intestazione).
 
@@ -94,22 +94,22 @@ Inoltre, puoi rinominare le etichette delle legende per facilitare la lettura de
 Per modificare un’etichetta di legenda:
 
 1. Fai clic su una delle etichette della legenda.
-1. Fai clic su **[!UICONTROL Edit Label]**.
+1. Fare clic su **[!UICONTROL Modifica etichetta]**.
 
    ![Un’etichetta della legenda e l’opzione Modifica etichetta.](assets/edit-label.png)
 
 1. Inserisci il nuovo testo dell’etichetta.
-1. Fai clic su **[!UICONTROL Enter]** per salvare.
+1. Premi **[!UICONTROL Invio]** per salvare.
 
 
 ## Impostazioni
 
-Ogni visualizzazione dispone di impostazioni specifiche. Per accedere alle impostazioni di visualizzazione, seleziona ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** nell’intestazione della visualizzazione per visualizzare un popup.
+Ogni visualizzazione dispone di impostazioni specifiche. Per accedere alle impostazioni di visualizzazione, seleziona ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Impostazioni]** nell&#39;intestazione della visualizzazione per visualizzare un popup.
 
 A seconda della visualizzazione, puoi configurare
 
-* dettagli per l’origine di dati della visualizzazione tramite la scheda [**[!UICONTROL Data source]**](#data-source) e
-* impostazioni per la visualizzazione tramite la scheda [**[!UICONTROL Settings]**](#settings-1).
+* dettagli per l&#39;origine dei dati della visualizzazione tramite la scheda [**[!UICONTROL Origine dati]**](#data-source) e
+* impostazioni per la visualizzazione tramite la scheda [**[!UICONTROL Impostazioni]**](#settings-1).
 
 ![Impostazioni visualizzazione](assets/visualization-settings.png)
 
@@ -123,25 +123,25 @@ Le impostazioni di visualizzazione disponibili dipendono dal tipo di visualizzaz
 
 | Opzione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Visualization type]** | Modifica il tipo di visualizzazione utilizzata per rappresentare i dati. |
-| **[!UICONTROL Granularity]** | Modifica la granularità temporale per le visualizzazioni con tendenze. Questa modifica si applica anche alla tabella dell’origine dati. |
-| **[!UICONTROL Percentages]** | Visualizza i valori in percentuale. |
-| **[!UICONTROL 100% stacked]** | Converti il grafico in una visualizzazione con sovrapposizione al 100%.  Applicabile solo a una visualizzazione ad area, barre e barre orizzontali sovrapposte. |
-| **[!UICONTROL Legend visible]** | Mostra il testo della legenda. |
-| **[!UICONTROL Limit max items]** | Consente di limitare il numero di elementi presentati in una visualizzazione. Se questa opzione è selezionata, definisci il numero massimo di elementi. |
-| **[!UICONTROL Show annotations]** | Mostra le annotazioni effettuate per questa visualizzazione. |
-| **[!UICONTROL Hide title]** | Nascondi il titolo della visualizzazione. |
-| **[!UICONTROL Anchor y-axis at zero]** | Forza la parte inferiore dell’asse y a zero. Se tutti i valori tracciati sul grafico sono notevolmente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà non zero. Se abiliti questa opzione, l’asse y viene forzato a zero (e il grafico viene ridisegnato). |
-| **[!UICONTROL Display dual axis]** | Visualizza gli assi y a sinistra e a destra per due metriche diverse. Questa opzione è applicabile solo se si dispone di due metriche. I doppi assi sono utili quando le metriche tracciate hanno dimensioni diverse. |
-| **[!UICONTROL Show x-axis]** | Mostra l’asse x nella visualizzazione. |
-| **[!UICONTROL Show y-axis]** | Mostra l’asse y nella visualizzazione. |
-| **[!UICONTROL Show barbells on lines]** | Mostra i punti (o “bar bell”) sulla visualizzazione a linee in una visualizzazione con grafico combinato. |
-| **[!UICONTROL Normalization]** | Forza le metriche per essere adeguate alle proporzioni. Le stesse proporzioni sono utili quando le metriche tracciate hanno dimensioni diverse. |
-| **[!UICONTROL Show anomalies]** | Migliora i grafici a linee e le tabelle a forma libera con la visualizzazione del rilevamento delle anomalie. Il rilevamento delle anomalie nelle visualizzazioni a linee include un valore previsto (linea tratteggiata) e un intervallo previsto (banda ombreggiata). |
-| **[!UICONTROL Show forecast]** | Migliora i grafici a linee e le tabelle a forma libera con la visualizzazione dei valori di previsione. |
-| **[!UICONTROL Show min]** | Mostra il valore minimo nella visualizzazione. |
-| **[!UICONTROL Show max]** | Mostra il valore massimo nella visualizzazione. |
-| **[!UICONTROL Show trendline]** | Mostra una linea di tendenza nella visualizzazione. Se selezionata, puoi selezionare il tipo di linea di tendenza dal menu a discesa. |
+| **[!UICONTROL Tipo di visualizzazione]** | Modifica il tipo di visualizzazione utilizzata per rappresentare i dati. |
+| **[!UICONTROL Granularity (Granularità)]** | Modifica la granularità temporale per le visualizzazioni con tendenze. Questa modifica si applica anche alla tabella dell’origine dati. |
+| **[!UICONTROL Percentuali]** | Visualizza i valori in percentuale. |
+| **[!UICONTROL 100% in pila]** | Converti il grafico in una visualizzazione con sovrapposizione al 100%.  Applicabile solo a una visualizzazione ad area, barre e barre orizzontali sovrapposte. |
+| **[!UICONTROL Visualizzazione legenda]** | Mostra il testo della legenda. |
+| **[!UICONTROL Limite massimo elementi]** | Consente di limitare il numero di elementi presentati in una visualizzazione. Se questa opzione è selezionata, definisci il numero massimo di elementi. |
+| **[!UICONTROL Mostra annotazioni]** | Mostra le annotazioni effettuate per questa visualizzazione. |
+| **[!UICONTROL Nascondi titolo]** | Nascondi il titolo della visualizzazione. |
+| **[!UICONTROL Ancoraggio asse Y su zero]** | Forza la parte inferiore dell’asse y a zero. Se tutti i valori tracciati sul grafico sono notevolmente al di sopra dello zero, per impostazione predefinita la parte inferiore dell’asse y sarà non zero. Se abiliti questa opzione, l’asse y viene forzato a zero (e il grafico viene ridisegnato). |
+| **[!UICONTROL Visualizza asse doppio]** | Visualizza gli assi y a sinistra e a destra per due metriche diverse. Questa opzione è applicabile solo se si dispone di due metriche. I doppi assi sono utili quando le metriche tracciate hanno dimensioni diverse. |
+| **[!UICONTROL Mostra asse x]** | Mostra l’asse x nella visualizzazione. |
+| **[!UICONTROL Mostra asse y]** | Mostra l’asse y nella visualizzazione. |
+| **[!UICONTROL Mostra barbells sulle righe]** | Mostra i punti (o “bar bell”) sulla visualizzazione a linee in una visualizzazione con grafico combinato. |
+| **[!UICONTROL Normalizzazione]** | Forza le metriche per essere adeguate alle proporzioni. Le stesse proporzioni sono utili quando le metriche tracciate hanno dimensioni diverse. |
+| **[!UICONTROL Mostra anomalie]** | Migliora i grafici a linee e le tabelle a forma libera con la visualizzazione del rilevamento delle anomalie. Il rilevamento delle anomalie nelle visualizzazioni a linee include un valore previsto (linea tratteggiata) e un intervallo previsto (banda ombreggiata). |
+| **[!UICONTROL Mostra previsione]** | Migliora i grafici a linee e le tabelle a forma libera con la visualizzazione dei valori di previsione. |
+| **[!UICONTROL Mostra min]** | Mostra il valore minimo nella visualizzazione. |
+| **[!UICONTROL Mostra max]** | Mostra il valore massimo nella visualizzazione. |
+| **[!UICONTROL Mostra linea di tendenza]** | Mostra una linea di tendenza nella visualizzazione. Se selezionata, puoi selezionare il tipo di linea di tendenza dal menu a discesa. |
 
 Puoi personalizzare le impostazioni per tutte le visualizzazioni create. Per ulteriori informazioni, consulta la sezione [Preferenze utente](/help/analysis-workspace/user-preferences.md).
 
@@ -154,17 +154,17 @@ Utilizza il menu di scelta rapida (disponibile tramite selezione alternativa, ad
 
 | Opzione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Insert copied visualization]** | Incolla (inserisci) una visualizzazione copiata altrove nello stesso progetto o in un altro progetto. |
-| **[!UICONTROL Copy data to clipboard]** | [Copia dati](/help/analysis-workspace/export/download-send.md#copy-to-clipboard) dalla visualizzazione negli Appunti. |
-| **[!UICONTROL Copy selection to clipboard]** | [Copia la selezione](/help/analysis-workspace/export/download-send.md#copy-to-clipboard) dalla visualizzazione negli Appunti. |
-| **[!UICONTROL Download items as CSV (*nome dimensione *)]** | [Scarica gli elementi dimensionali](/help/analysis-workspace/export/download-send.md#download-items-as-csv) (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Un massimo di 50.000 elementi dimensionali per la dimensione selezionata. |
-| **[!UICONTROL Copy visualization]** | Copia la visualizzazione, in modo da poterla inserire in un’altra posizione all’interno del progetto o in un progetto diverso. |
-| **[!UICONTROL Download data CSV]** | [Scarica i dati visualizzati](/help/analysis-workspace/export/download-send.md#download-as-csv) della visualizzazione sul tuo dispositivo locale. |
-| **[!UICONTROL Export full table]** | Esporta la tabella completa in posizioni cloud designate. Consulta [Esporta i rapporti di Customer Journey Analytics nel cloud](../export/export-cloud.md) |
-| **[!UICONTROL Duplicate visualization]** | Crea un duplicato esatto della visualizzazione. |
-| **[!UICONTROL Edit description]** | Aggiungi (o modifica) una descrizione di testo per la visualizzazione. Consulta [Testo](text.md). |
-| **[!UICONTROL Get visualization link]** | Copia e condividi un collegamento direttamente alla visualizzazione. La finestra di dialogo Condividi collegamento consente di visualizzare il collegamento. Seleziona Copia per copiare il collegamento negli appunti. |
-| **[!UICONTROL Start over]** | Elimina la configurazione della visualizzazione corrente in modo da poterla riconfigurare da zero. |
+| **[!UICONTROL Inserisci visualizzazione copiata]** | Incolla (inserisci) una visualizzazione copiata altrove nello stesso progetto o in un altro progetto. |
+| **[!UICONTROL Copia dati negli Appunti]** | [Copia dati](/help/analysis-workspace/export/download-send.md#copy-to-clipboard) dalla visualizzazione negli Appunti. |
+| **[!UICONTROL Copia selezione negli Appunti]** | [Copia la selezione](/help/analysis-workspace/export/download-send.md#copy-to-clipboard) dalla visualizzazione negli Appunti. |
+| **[!UICONTROL Scarica elementi come CSV (*nome dimensione*)]** | [Scarica gli elementi dimensionali](/help/analysis-workspace/export/download-send.md#download-items-as-csv) (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Un massimo di 50.000 elementi dimensionali per la dimensione selezionata. |
+| **[!UICONTROL Copia visualizzazione]** | Copia la visualizzazione, in modo da poterla inserire in un’altra posizione all’interno del progetto o in un progetto diverso. |
+| **[!UICONTROL Scarica CSV dati]** | [Scarica i dati visualizzati](/help/analysis-workspace/export/download-send.md#download-as-csv) della visualizzazione sul tuo dispositivo locale. |
+| **[!UICONTROL Esporta tabella completa]** | Esporta la tabella completa in posizioni cloud designate. Consulta [Esporta i rapporti di Customer Journey Analytics nel cloud](../export/export-cloud.md) |
+| **[!UICONTROL Visualizzazione duplicata]** | Crea un duplicato esatto della visualizzazione. |
+| **[!UICONTROL Modifica descrizione]** | Aggiungi (o modifica) una descrizione di testo per la visualizzazione. Consulta [Testo](text.md). |
+| **[!UICONTROL Ottieni collegamento visualizzazione]** | Copia e condividi un collegamento direttamente alla visualizzazione. La finestra di dialogo Condividi collegamento consente di visualizzare il collegamento. Seleziona Copia per copiare il collegamento negli appunti. |
+| **[!UICONTROL Ricomincia]** | Elimina la configurazione della visualizzazione corrente in modo da poterla riconfigurare da zero. |
 
 ## Configurazione
 
@@ -174,6 +174,6 @@ Alcune visualizzazioni (come a tabella coorte, abbandono, flusso e altri) dispon
 
 ## Visualizza
 
-Se non sai quale visualizzazione scegliere, seleziona ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) che **[!UICONTROL Visualize]** una qualsiasi riga della tabella a forma libera (disponibile sul puntatore). Questa selezione è il modo più veloce per aggiungere una visualizzazione. Analysis Workspace cerca di fare una stima ragionata per individuare la visualizzazione più idonea per i tuoi dati. Ad esempio, se hai selezionato una riga, si crea un [grafico a linee](line.md) con tendenze. Se sono state selezionate tre righe di segmenti, viene creato un diagramma di [Venn](venn.md).
+Se non sai quale visualizzazione scegliere, seleziona ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL Visualizza]** in una riga di tabella a forma libera (disponibile al passaggio del mouse). Questa selezione è il modo più veloce per aggiungere una visualizzazione. Analysis Workspace cerca di fare una stima ragionata per individuare la visualizzazione più idonea per i tuoi dati. Ad esempio, se hai selezionato una riga, si crea un [grafico a linee](line.md) con tendenze. Se sono state selezionate tre righe di segmenti, viene creato un diagramma di [Venn](venn.md).
 
 ![Visualizzazione rapida](assets/quick-viz.png)

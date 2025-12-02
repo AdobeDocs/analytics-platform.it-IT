@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Generare presentazioni dai report di Workspace
 feature: Curate and Share
 role: User
-source-git-commit: 87e3b3cfdf765a57ecdb70921696013bcba4feac
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 3%
+source-wordcount: '1585'
+ht-degree: 2%
 
 ---
 
@@ -93,7 +93,7 @@ Le storie di dati sono costituite da una diapositiva titolo, una diapositiva di 
 
 1. Passare al progetto Workspace contenente i dati che si desidera utilizzare come base per la presentazione di diapositive.
 
-1. Seleziona **[!UICONTROL Generate slides]** nell&#39;angolo superiore destro della pagina.
+1. Selezionare **[!UICONTROL Genera diapositive]** nell&#39;angolo superiore destro della pagina.
 
    Viene visualizzata la finestra di dialogo Genera diapositive.
 
@@ -103,21 +103,21 @@ Le storie di dati sono costituite da una diapositiva titolo, una diapositiva di 
 
    | Opzione | Descrizione |
    |---------|----------|
-   | **[!UICONTROL Cover title]** | Specificare un titolo per la presentazione. Questo titolo viene visualizzato nella diapositiva titolo della presentazione. |
-   | **[!UICONTROL Include presenter name]** | Specifica il nome del relatore. Questo nome viene visualizzato nella diapositiva del titolo della presentazione, sotto il titolo della copertina. |
-   | **[!UICONTROL Panels and visualizations to include]** | Scegli i pannelli e la visualizzazione da includere nella presentazione. Puoi includere fino a 50 visualizzazioni.<p>Se una visualizzazione è inattiva, viene seguita dal testo **[!UICONTROL (unsupported)]** o **[!UICONTROL (restricted data)]**.</p><ul><li>**Non supportato**: la maggior parte dei pannelli e delle visualizzazioni è supportata. Per informazioni sui pannelli e la visualizzazione non supportati, vedere [Elementi e funzionalità del progetto non supportati](#unsupported-project-elements-and-features).</li><li>**Dati limitati**: la visualizzazione contiene un componente a cui non è consentito esportare i dati in base a un criterio di governance dei dati imposto dall&#39;organizzazione. Contattare l&#39;amministratore di sistema per verificare quali componenti non possono essere esportati, quindi rimuovere i componenti con restrizioni prima di generare le diapositive.</li></ul> |
-   | **[!UICONTROL Emphasize components]** | Scegli le metriche e le dimensioni dalle visualizzazioni che desideri enfatizzare nella presentazione. I componenti scelti vengono classificati più in alto e hanno più peso quando si creano i temi e la narrazione generale della storia dei dati. <p>Quando non viene applicata alcuna enfasi, i componenti vengono visualizzati nelle presentazioni nel modo seguente:<ul><li>**Metriche e dimensioni:** corsivo</li><li>**Elementi Dimension:** virgolette</li></ul></p><p>Quando si applica l’enfasi, i componenti vengono visualizzati nelle presentazioni come segue:</p><ul><li>**Metriche e dimensioni:** corsivo e grassetto</li><li>**Elementi Dimension:** grassetto quando la dimensione corrispondente viene enfatizzata<p>Un colore viene applicato anche all’elemento dimensione quando questo viene evidenziato nel grafico.</p></li></ul> |
+   | **[!UICONTROL Titolo copertina]** | Specificare un titolo per la presentazione. Questo titolo viene visualizzato nella diapositiva titolo della presentazione. |
+   | **[!UICONTROL Includi nome relatore]** | Specifica il nome del relatore. Questo nome viene visualizzato nella diapositiva del titolo della presentazione, sotto il titolo della copertina. |
+   | **[!UICONTROL Pannelli e visualizzazioni da includere]** | Scegli i pannelli e la visualizzazione da includere nella presentazione. Puoi includere fino a 50 visualizzazioni.<p>Se una visualizzazione è inattiva, viene seguita dal testo **[!UICONTROL (non supportato)]** o **[!UICONTROL (dati con restrizioni)]**.</p><ul><li>**Non supportato**: la maggior parte dei pannelli e delle visualizzazioni è supportata. Per informazioni sui pannelli e la visualizzazione non supportati, vedere [Elementi e funzionalità del progetto non supportati](#unsupported-project-elements-and-features).</li><li>**Dati limitati**: la visualizzazione contiene un componente a cui non è consentito esportare i dati in base a un criterio di governance dei dati imposto dall&#39;organizzazione. Contattare l&#39;amministratore di sistema per verificare quali componenti non possono essere esportati, quindi rimuovere i componenti con restrizioni prima di generare le diapositive.</li></ul> |
+   | **[!UICONTROL Enfatizza componenti]** | Scegli le metriche e le dimensioni dalle visualizzazioni che desideri enfatizzare nella presentazione. I componenti scelti vengono classificati più in alto e hanno più peso quando si creano i temi e la narrazione generale della storia dei dati. <p>Quando non viene applicata alcuna enfasi, i componenti vengono visualizzati nelle presentazioni nel modo seguente:<ul><li>**Metriche e dimensioni:** corsivo</li><li>**Elementi Dimension:** virgolette</li></ul></p><p>Quando si applica l’enfasi, i componenti vengono visualizzati nelle presentazioni come segue:</p><ul><li>**Metriche e dimensioni:** corsivo e grassetto</li><li>**Elementi Dimension:** grassetto quando la dimensione corrispondente viene enfatizzata<p>Un colore viene applicato anche all’elemento dimensione quando questo viene evidenziato nel grafico.</p></li></ul> |
 
    <!-- add this later: - **[!UICONTROL Panel and visualization descriptions]** - Choose whether to include panel and visualization descriptions in your generated slide presentation. - 
    - **[!UICONTROL Annotations]** - Choose whether annotations are visible in your generated slide presentation. For more information about annotations, see [Annotations overview](/help/components/annotations/overview.md).  -  -->
 
-1. (Condizionale) Selezionare **[!UICONTROL Default theme]** se si desidera generare diapositive in meno passaggi e se non è necessario un tema aziendale per la presentazione diapositive.
+1. (Condizionale) Selezionare **[!UICONTROL Tema predefinito]** se si desidera generare diapositive in meno passaggi e se non è necessario un tema aziendale per la presentazione diapositive.
 
    È sufficiente scegliere il tema del colore della presentazione selezionando il colore desiderato.
 
    ![Genera diapositive con il tema predefinito](assets/generate-slides-default-theme.png)
 
-1. (Condizionale) Selezionare **[!UICONTROL Upload template]** se la presentazione di diapositive deve corrispondere a un tema aziendale. Questa opzione richiede il caricamento di un modello personalizzato e l’applicazione di stili personalizzati.
+1. (Condizionale) Seleziona **[!UICONTROL Carica modello]** se la presentazione della diapositiva deve corrispondere a un tema aziendale. Questa opzione richiede il caricamento di un modello personalizzato e l’applicazione di stili personalizzati.
 
    Il modello personalizzato più recente caricato viene memorizzato localmente nella cache del browser ed è disponibile per la generazione di presentazioni diapositive future.
 
@@ -137,13 +137,13 @@ Le storie di dati sono costituite da una diapositiva titolo, una diapositiva di 
 
          Oppure
 
-         Seleziona **[!UICONTROL Browse]**, quindi individua e seleziona il modello vuoto a cui sono applicati gli stili personalizzati dal file system.
+         Seleziona **[!UICONTROL Sfoglia]**, quindi individua e seleziona il modello vuoto a cui sono applicati gli stili personalizzati dal file system.
 
-      1. Nella sezione **[!UICONTROL Layout mapping]**, ogni layout di diapositiva utilizzato nelle presentazioni generate viene automaticamente mappato a una diapositiva dal tema caricato. Verificare che le selezioni siano corrette.
+      1. Nella sezione **[!UICONTROL Mappatura layout]**, ogni layout di diapositiva utilizzato nelle presentazioni generate viene automaticamente mappato a una diapositiva del tema caricato. Verificare che le selezioni siano corrette.
 
          ![Mappatura layout](assets/generate-slides-layout-mapping.png)
 
-      1. (Condizionale) Se il layout di una diapositiva non è mappato correttamente, selezionare **[!UICONTROL Change selection]** sopra la diapositiva selezionata nella presentazione caricata, quindi scegliere la diapositiva che corrisponde al layout.
+      1. (Condizionale) Se il layout di una diapositiva non è mappato correttamente, seleziona **[!UICONTROL Cambia selezione]** sopra la diapositiva selezionata nella presentazione caricata, quindi scegli la diapositiva che corrisponde al layout.
 
          Ripetere questo processo per ogni diapositiva mappata in modo errato.
 
@@ -153,23 +153,23 @@ Le storie di dati sono costituite da una diapositiva titolo, una diapositiva di 
 
          Oppure
 
-         Seleziona **[!UICONTROL Browse]**, quindi individua e seleziona il modello personalizzato dal file system.
+         Seleziona **[!UICONTROL Sfoglia]**, quindi individua e seleziona il modello personalizzato dal file system.
 
          Assicurati che il file caricato abbia layout master con i seguenti nomi: &quot;Title_Slide&quot;, &quot;Section_Divider&quot;, &quot;Title_Text&quot;, &quot;Title_Chart&quot;, &quot;Title_Two_Content_Mixed&quot;, &quot;Title_Three_Content_Mixed&quot;.
 
          Sono supportati fino a 15 layout principali.
 
-         Sono supportati file con estensione pptx e potx fino a 25 MB.
+         Sono supportati i file .pptx e .potx di dimensioni fino a 25 MB.
 
-      1. Nella sezione **[!UICONTROL Layout mapping]**, ogni layout di diapositiva utilizzato nelle presentazioni generate viene automaticamente mappato a una diapositiva dal tema caricato. Verificare che le selezioni siano corrette.
+      1. Nella sezione **[!UICONTROL Mappatura layout]**, ogni layout di diapositiva utilizzato nelle presentazioni generate viene automaticamente mappato a una diapositiva del tema caricato. Verificare che le selezioni siano corrette.
 
          ![Modello personalizzato per mappatura layout](assets/generate-slides-layout-mapping-custom-template.png)
 
-      1. (Condizionale) Se il layout di una diapositiva non è mappato correttamente, selezionare **[!UICONTROL Change selection]** sopra la diapositiva selezionata nella presentazione caricata, quindi scegliere la diapositiva che corrisponde al layout.
+      1. (Condizionale) Se il layout di una diapositiva non è mappato correttamente, seleziona **[!UICONTROL Cambia selezione]** sopra la diapositiva selezionata nella presentazione caricata, quindi scegli la diapositiva che corrisponde al layout.
 
          Ripetere questo processo per ogni diapositiva mappata in modo errato.
 
-1. Seleziona **[!UICONTROL Export PPT]**.
+1. Selezionare **[!UICONTROL Esporta PPT]**.
 
    La presentazione .pptx viene scaricata automaticamente sulla workstation.
 
@@ -185,16 +185,16 @@ La possibilità di generare diapositive è attivata per impostazione predefinita
 
 Se necessario, gli amministratori dei profili di prodotto le cui organizzazioni dispongono di licenze per la generazione di diapositive possono disabilitare l’accesso.
 
-In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
-1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**.
-1. Seleziona il titolo del profilo di prodotto per il quale desideri fornire l’accesso all’[!UICONTROL Data storytelling].
-1. Nel profilo di prodotto specifico, seleziona **[!UICONTROL Permissions]**.
-1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare **[!UICONTROL Reporting Tools]**.
-1. Selezionare ![AddCircle](/help/assets/icons/RemoveCircle.svg) per rimuovere **Narrazione dati** da **[!UICONTROL Included permission items]**.
+In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Narrazione dati]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
+1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti e servizi]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Profili di prodotto]**
+1. Selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso alla [!UICONTROL narrazione dei dati].
+1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Autorizzazioni]**.
+1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare **[!UICONTROL Strumenti di reporting]**.
+1. Seleziona ![AggiungiCerchio](/help/assets/icons/RemoveCircle.svg) per rimuovere **Narrazione dati** dai **[!UICONTROL Elementi autorizzazione inclusi]**.
 
    <!--add screenshot of permission in the admin console-->
 
-1. Seleziona **[!UICONTROL Save]** per salvare le modifiche.
+1. Seleziona **[!UICONTROL Salva]** per salvare le autorizzazioni.
 
 Per ulteriori informazioni, vedere [Accesso a livello utente](/help/technotes/access-control.md#user-level-access) in [Controllo dell&#39;accesso](/help/technotes/access-control.md#access-control).
 

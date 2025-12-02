@@ -5,9 +5,9 @@ title: Gestire percorsi e account di esportazione cloud
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1371'
 ht-degree: 3%
 
 ---
@@ -160,7 +160,7 @@ Puoi impedire agli utenti di creare account. In questo caso, gli utenti possono 
 
 Per impedire a tutti gli utenti di creare e modificare account:
 
-1. In Customer Journey Analytics, selezionare **[!UICONTROL Components]** > **[!UICONTROL Exports]**, quindi selezionare la scheda [!UICONTROL **Impostazioni amministratore**].
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Componenti]** > **[!UICONTROL Esporta]**, quindi la scheda [!UICONTROL **Impostazioni amministratore**].
 
 1. Nella sezione [!UICONTROL **Account località**] deselezionare l&#39;opzione [!UICONTROL **Consenti agli utenti di creare e gestire account località**].
 
@@ -176,7 +176,7 @@ Puoi impedire agli utenti di creare posizioni. In questo caso, gli utenti posson
 
 Per impedire a tutti gli utenti di creare e modificare posizioni:
 
-1. In Customer Journey Analytics, selezionare **[!UICONTROL Components]** > **[!UICONTROL Eports]**, quindi selezionare la scheda [!UICONTROL **Impostazioni amministratore**].
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Componenti]** > **[!UICONTROL Esporta]**, quindi la scheda [!UICONTROL **Impostazioni amministratore**].
 
 1. Nella sezione [!UICONTROL **Percorsi**], deseleziona l&#39;opzione [!UICONTROL **Consenti agli utenti di creare e gestire i percorsi**].
 
@@ -215,7 +215,7 @@ Per eliminare gli account:
 
 Per limitare i tipi di account disponibili per gli utenti durante la creazione e l&#39;utilizzo degli account:
 
-1. In Customer Journey Analytics, selezionare **[!UICONTROL Components]** > **[!UICONTROL Exports]**, quindi selezionare la scheda [!UICONTROL **Impostazioni amministratore**].
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Componenti]** > **[!UICONTROL Esporta]**, quindi la scheda [!UICONTROL **Impostazioni amministratore**].
 
 1. Individua la sezione [!UICONTROL **Tipi di account consentiti**].
 

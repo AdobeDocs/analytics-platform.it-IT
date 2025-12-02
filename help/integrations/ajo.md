@@ -4,10 +4,10 @@ description: Inserire i dati generati da Adobe Journey Optimizer e analizzarli u
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 9149a072dc8af3fac0d5272fe84baabca7fb6058
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '3354'
-ht-degree: 100%
+source-wordcount: '3514'
+ht-degree: 92%
 
 ---
 
@@ -25,71 +25,71 @@ Dopo aver abilitato il reporting di Customer Journey Analytics per AJO, vengono 
 
 ### Connessione
 
-La connessione porta il nome **[!UICONTROL AJO Enabled Connection (*nome sandbox *)]**e ha i seguenti valori predefiniti per la configurazione e i set di dati:
+La connessione è denominata **[!UICONTROL Connessione abilitata per AJO (*nome sandbox*)]** e contiene i seguenti valori predefiniti per la configurazione e i set di dati:
 
 | **Impostazioni della connessione** | Valore |
-|---|---| 
-| [!UICONTROL Connection name] | `AJO Enabled Connection (`_`sandbox name`_`)` |
-| [!UICONTROL Connection description] | [!UICONTROL *Descrivi qui la tua connessione*] |
-| [!UICONTROL Tags] | [!UICONTROL *Seleziona tag*] |
+|---|---|
+| [!UICONTROL Nome connessione] | `AJO Enabled Connection (`_`sandbox name`_`)` |
+| [!UICONTROL Descrizione connessione] | [!UICONTROL *Descrivi qui la tua connessione*] |
+| [!UICONTROL Tag] | [!UICONTROL *Seleziona tag*] |
 
 
 | **Impostazioni dei dati** | Valore |
-|---|---| 
-| [!UICONTROL Enable rolling data window] | Abilitata. [!UICONTROL Selected number of months] `13`. |
+|---|---|
+| [!UICONTROL Attiva finestra continua dati] | Attivato. [!UICONTROL Numero di mesi selezionato] `13`. |
 | [!UICONTROL Sandbox] | [!UICONTROL *nome della sandbox*] (disattivato; non è possibile modificare questa impostazione). |
-| [!UICONTROL Average number of daily events] | meno di 1 milione (disabilitato; non è possibile modificare questa impostazione). |
+| [!UICONTROL Numero medio di eventi giornalieri] | meno di 1 milione (disabilitato; non è possibile modificare questa impostazione). |
 
 
 | Nome del set di dati | Schema | Tipo di set di dati | Tipo di origine dati | ID persona | Chiave | Chiave corrispondente | Importare nuovi dati | Retrocompilazione dei dati |
 |---|---|---|---|---|---|---|---|---|
-| [!UICONTROL AJO Entity Dataset] | [!UICONTROL AJO Entity Record Schema] | [!UICONTROL Lookup] | [!UICONTROL Other] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
-| [!UICONTROL Journey Step Events] | [!UICONTROL Journey Step Event schema for Journey Orchestration] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL  IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
-| [!UICONTROL AJO Email Tracking Experience Event Dataset] | [!UICONTROL AJO Email Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
-| [!UICONTROL AJO Message Feedback Event Dataset] | [!UICONTROL AJO Message Feedback Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
-| [!UICONTROL AJO Push Tracking Experience Event Dataset] | [!UICONTROL AJO Push Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
+| [!UICONTROL Set di dati entità AJO] | [!UICONTROL Schema record entità AJO] | [!UICONTROL Ricerca] | [!UICONTROL Altre] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
+| [!UICONTROL Eventi passaggio Percorso] | [!UICONTROL Schema evento passaggio Percorso per Journey Orchestration] | [!UICONTROL Evento] | [!UICONTROL Altre] | [!UICONTROL  IdentityMap(\&lt;primario\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
+| [!UICONTROL Set Di Dati Evento Esperienza Tracciamento E-Mail AJO] | [!UICONTROL Schema evento esperienza tracciamento e-mail AJO] | [!UICONTROL Evento] | [!UICONTROL Altre] | [!UICONTROL IdentityMap(\&lt;primario\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
+| [!UICONTROL Set Di Dati Evento Feedback Messaggio Di AJO] | [!UICONTROL Schema evento feedback messaggi di AJO] | [!UICONTROL Evento] | [!UICONTROL Altre] | [!UICONTROL IdentityMap(\&lt;primario\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
+| [!UICONTROL Set Di Dati Evento Esperienza Tracciamento Push AJO] | [!UICONTROL Schema evento esperienza tracciamento push AJO] | [!UICONTROL Evento] | [!UICONTROL Altre] | [!UICONTROL IdentityMap(\&lt;primario\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
 
 
 ### Visualizzazione dati
 
 La visualizzazione dati porta il nome **Abilita visualizzazione dati di AJO (*nome sandbox*)**.
 
-- Nella scheda **[!UICONTROL Configure]**, i seguenti valori sono configurati come predefiniti.
+- Nella scheda **[!UICONTROL Configura]**, i seguenti valori sono configurati come predefiniti.
 
   | Impostazioni | Valore |
   |---|---|
-  | [!UICONTROL Connection] | Connessione abilitata per AJO (*nome sandbox*) |
-  | [!UICONTROL Name] | `AJO Enabled Data View (`_`sandbox name`_`)` |
-  | [!UICONTROL External ID] | `AJO_Enabled_Data_View__`_`sandbox_name`_`_` (derivato dal nome) |
-  | [!UICONTROL Description] | `undefined` |
+  | [!UICONTROL Connessione] | Connessione abilitata per AJO (*nome sandbox*) |
+  | [!UICONTROL Nome] | `AJO Enabled Data View (`_`sandbox name`_`)` |
+  | [!UICONTROL ID esterno] | `AJO_Enabled_Data_View__`_`sandbox_name`_`_` (derivato dal nome) |
+  | [!UICONTROL Descrizione] | `undefined` |
 
   {style="table-layout:fixed"}
 
   | Compatibilità | Valore |
   |---|---|
-  | [!UICONTROL Set as the default data view in Adobe Journey Optimizer] | Abilitato (impostazione predefinita).<br/><br/>Questa opzione di configurazione consente di designare una visualizzazione dati da utilizzare con AJO, senza la necessità di eseguire la configurazione manuale. Per informazioni su come abilitare questa opzione di configurazione (se non è già abilitata per impostazione predefinita), consultare la sezione [Compatibilità](/help/data-views/create-dataview.md#compatibility) in [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md). <br/><br/>Quando si disattiva l’opzione, viene visualizzata una finestra di dialogo in cui viene richiesto se si desidera continuare a modificare la visualizzazione dati predefinita. Quando selezioni **[!UICONTROL Continue]**, è necessario selezionare un’altra visualizzazione dati come predefinita. Seleziona **[!UICONTROL Confirm]** per confermare la selezione. Seleziona **[!UICONTROL Cancel]** per annullare la modifica alla visualizzazione dati predefinita. |
+  | [!UICONTROL Imposta come visualizzazione dati predefinita in Adobe Journey Optimizer] | Abilitato (impostazione predefinita).<br/><br/>Questa opzione di configurazione consente di designare una visualizzazione dati da utilizzare con AJO, senza la necessità di eseguire la configurazione manuale. Per informazioni su come abilitare questa opzione di configurazione (se non è già abilitata per impostazione predefinita), consultare la sezione [Compatibilità](/help/data-views/create-dataview.md#compatibility) in [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md). <br/><br/>Quando si disattiva l’opzione, viene visualizzata una finestra di dialogo in cui viene richiesto se si desidera continuare a modificare la visualizzazione dati predefinita. Quando selezioni **[!UICONTROL Continua]**, devi selezionare un&#39;altra visualizzazione dati come predefinita. Seleziona **[!UICONTROL Conferma]** per confermare la selezione. Selezionare **[!UICONTROL Annulla]** per annullare la modifica della visualizzazione dati predefinita. |
 
   | Contenitori | Valore |
   |---|---|
-  | [!UICONTROL Person container name] | `Person` |
-  | [!UICONTROL Session container name] | `Session` |
-  | [!UICONTROL Event container name] | `Event` |
+  | [!UICONTROL Nome contenitore persona] | `Person` |
+  | [!UICONTROL Nome contenitore sessione] | `Session` |
+  | [!UICONTROL Nome contenitore eventi] | `Event` |
 
   | Calendario | Valore |
   |---|---|
-  | [!UICONTROL Time zone] | Fuso orario conforme alla località |
-  | [!UICONTROL Calendar type] | Gregoriano |
-  | [!UICONTROL First month of the year] | Gennaio |
-  | [!UICONTROL First day of the week] | Domenica |
+  | [!UICONTROL Fuso orario] | Fuso orario conforme alla località |
+  | [!UICONTROL Tipo di calendario] | Gregoriano |
+  | [!UICONTROL Primo mese dell&#39;anno] | Gennaio |
+  | [!UICONTROL Primo giorno della settimana] | Domenica |
 
 
 - Nella scheda **Componenti**:
-   - Tutte le metriche e le dimensioni che hanno [!UICONTROL (AJO)] aggiunto al nome vengono aggiunti automaticamente come parte di questa configurazione automatica.
-   - Alcune metriche o dimensioni che sono state aggiunte automaticamente si basano su campi derivati. Questi campi derivati sono creati in modo specifico per questa integrazione. Ad esempio, la metrica [!UICONTROL Landing Page Clicks (AJO)] è basata sul campo derivato [!UICONTROL Landing Page Clicks].
-   - Alcune delle metriche o dimensioni hanno una configurazione aggiuntiva. Ad esempio, [!UICONTROL Spam Complaint (AJO)] ha applicate le impostazioni [!UICONTROL Format] e [!UICONTROL Include Exclude Values].
-   - Tutte le metriche e le dimensioni aggiunte automaticamente hanno un’etichetta di contesto denominata `:`*`name_of_metric_or_dimension`*. Ad esempio, la metrica [!UICONTROL Landing Page Clicks (AJO)] ha l’etichetta di contesto `:Landing page clicks (AJO)`.
+   - Tutte le metriche e le dimensioni a cui è stato aggiunto [!UICONTROL (AJO)] al nome vengono aggiunte automaticamente come parte di questa configurazione automatica.
+   - Alcune metriche o dimensioni che sono state aggiunte automaticamente si basano su campi derivati. Questi campi derivati sono creati in modo specifico per questa integrazione. La metrica [!UICONTROL Clic su pagina di destinazione (AJO)], ad esempio, si basa sul campo derivato [!UICONTROL Clic su pagina di destinazione].
+   - Alcune delle metriche o dimensioni hanno una configurazione aggiuntiva. Ad esempio, [!UICONTROL Segnalazione di posta indesiderata (AJO)] non dispone delle impostazioni [!UICONTROL Formato] e [!UICONTROL Includi valori di esclusione] applicate.
+   - Tutte le metriche e le dimensioni aggiunte automaticamente hanno un’etichetta di contesto denominata `:`*`name_of_metric_or_dimension`*. La metrica [!UICONTROL Clic su pagina di destinazione (AJO)], ad esempio, ha l&#39;etichetta di contesto `:Landing page clicks (AJO)`.
 
-- Nella scheda **[!UICONTROL Settings]**, non vengono applicati valori di configurazione specifici
+- Nella scheda **[!UICONTROL Impostazioni]** non vengono applicati valori di configurazione specifici
 
 >[!IMPORTANT]
 >
@@ -112,9 +112,9 @@ Seleziona e configura i seguenti set di dati:
 
 | Set di dati | Tipo di set di dati | Impostazioni della connessione | Descrizione |
 | --- | --- | --- | --- |
-| Set di dati evento di feedback messaggi AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di consegna dei messaggi, ad esempio “[!UICONTROL Sends]” e “[!UICONTROL Bounces]”. |
-| Set di dati evento esperienza di tracciamento e-mail AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento e-mail, come “[!UICONTROL Opens]”, “[!UICONTROL Clicks]”, e “[!UICONTROL Unsubscribes]”. |
-| Set di dati evento esperienza di tracciamento push AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento push, come “[!UICONTROL App Launches]”. |
+| Set di dati evento di feedback messaggi AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di recapito messaggi, ad esempio &#39;[!UICONTROL Sends]&#39; e &#39;[!UICONTROL Bounces]&#39;. |
+| Set di dati evento esperienza di tracciamento e-mail AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento e-mail come &#39;[!UICONTROL Opens]&#39;, &#39;[!UICONTROL Clicks]&#39; e &#39;[!UICONTROL Unsubscribes]&#39;. |
+| Set di dati evento esperienza di tracciamento push AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento push come &#39;[!UICONTROL Avvii app]&#39;. |
 | Eventi passaggio percorso | Evento | ID persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventi che mostrano quali profili hanno partecipato a ciascun nodo del percorso. |
 | Set di dati di entità AJO | Ricerca | Chiave: `_id`<br>Chiave corrispondente: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene classificazioni che associano i metadati di percorso e campagna a tutti i dati evento AJO. |
 

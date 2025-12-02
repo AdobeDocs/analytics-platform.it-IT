@@ -4,7 +4,7 @@ description: Scopri come gestire i tipi di pubblico in Customer Journey Analytic
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 4717a85b9a3c7dc2cbdd8c625ebb5862cbfccd58
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 82%
@@ -80,9 +80,9 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati: Puo
 
 | Icona | Azione | Descrizione |
 |:---:|---|---|
-| ![Etichette](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Assegna tag ai tipi di pubblico selezionati. Nella finestra di dialogo **[!UICONTROL Aggiorna tag: *nome pubblico *]**, seleziona i tag dal menu a discesa o digita uno o più nuovi tag. Seleziona&#x200B;**[!UICONTROL Salva &#x200B;]**&#x200B;per salvare. |
+| ![Etichette](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Assegna tag ai tipi di pubblico selezionati. Nella finestra di dialogo **[!UICONTROL Aggiorna tag: *nome pubblico *]**, seleziona i tag dal menu a discesa o digita uno o più nuovi tag. Seleziona**[!UICONTROL Salva ]**per salvare. |
 | ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Elimina]** | Elimina i tipi di pubblico selezionati. |
-| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rinomina]** | Rinomina il tipo di pubblico selezionato. Utilizza la finestra di dialogo **[!UICONTROL Rinomina: *nome pubblico *]**&#x200B;per rinominare il pubblico e seleziona&#x200B;**[!UICONTROL Salva &#x200B;]**&#x200B;per salvarlo. |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rinomina]** | Rinomina il tipo di pubblico selezionato. Utilizza la finestra di dialogo **[!UICONTROL Rinomina: *nome pubblico *]**per rinominare il pubblico e seleziona**[!UICONTROL Salva ]**per salvarlo. |
 
 Quando selezioni uno o più progetti pianificati, nella barra blu delle azioni sono disponibili le azioni seguenti.
 

@@ -5,16 +5,16 @@ title: Gestire le esportazioni
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
 role: User
-source-git-commit: 6f8a43acfba23d6faeff078873742315f1506699
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 6%
+source-wordcount: '1029'
+ht-degree: 5%
 
 ---
 
 # Gestire le esportazioni
 
-Dopo aver esportato una tabella completa come descritto in [Esporta report Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), le esportazioni sono disponibili nella scheda [!UICONTROL Exports] della pagina [!UICONTROL Exports].
+Dopo aver esportato una tabella completa come descritto in [Esporta report Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), le esportazioni sono disponibili nella scheda [!UICONTROL Esportazioni] della pagina [!UICONTROL Esportazioni].
 
 Puoi visualizzare solo le esportazioni create.
 
@@ -78,7 +78,7 @@ Puoi duplicare un’esportazione esistente.
 
 1. Seleziona [!UICONTROL **Duplica**].
 
-   Viene creato un duplicato dell’esportazione. Il nome della nuova esportazione corrisponde al nome dell&#39;esportazione originale, con _[!UICONTROL - Copy]_&#x200B;aggiunto al nome del file.
+   Viene creato un duplicato dell’esportazione. Il nome della nuova esportazione corrisponde al nome dell&#39;esportazione originale, con _[!UICONTROL - Copia]_ aggiunta al nome del file.
 
 1. (Facoltativo) [Modifica la nuova esportazione](#edit-an-export), incluso il nome del file e tutte le altre proprietà che desideri modificare.
 
@@ -96,7 +96,7 @@ Puoi avviare manualmente un’esportazione per un’esportazione pianificata o u
 
 ## Assegnare tag a un’esportazione
 
-Quando si applicano i tag a un&#39;esportazione, è possibile visualizzarli nella colonna [!UICONTROL Tags] della pagina [!UICONTROL Exports]. Per ulteriori informazioni, vedere [Configurare le colonne](#configure-columns).
+Quando si applicano i tag a un&#39;esportazione, è possibile visualizzarli nella colonna [!UICONTROL Tag] della pagina [!UICONTROL Esportazioni]. Per ulteriori informazioni, vedere [Configurare le colonne](#configure-columns).
 
 1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
@@ -120,15 +120,15 @@ Puoi eliminare le esportazioni dalla pagina Esportazioni. Le esportazioni pianif
 
 1. Seleziona [!UICONTROL **Elimina**], quindi seleziona [!UICONTROL **Elimina**] quando visualizzi il messaggio di conferma.
 
-## Configura colonne nella pagina [!UICONTROL Exports]
+## Configura colonne nella pagina [!UICONTROL Esportazioni]
 
-È possibile aggiungere o rimuovere colonne nella scheda [!UICONTROL Exports] per configurare le informazioni visualizzate.
+Puoi aggiungere o rimuovere colonne nella scheda [!UICONTROL Esportazioni] per configurare le informazioni visualizzate.
 
 Seleziona un’intestazione di colonna per ordinare le esportazioni in base a tale colonna. Per impostazione predefinita, le esportazioni vengono ordinate in base alla data e all’ora dell’ultima modifica.
 
 1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Nella scheda [!UICONTROL **Esportazioni**], selezionare l&#39;icona **Personalizza tabella** ![Personalizza tabella](assets/customize-table-icon.png) in alto a destra nella pagina [!UICONTROL Exports].
+1. Nella scheda [!UICONTROL **Esportazioni**], seleziona l&#39;icona **Personalizza tabella** ![Personalizza tabella](assets/customize-table-icon.png) in alto a destra della pagina [!UICONTROL Esportazioni].
 
    Sono disponibili le seguenti colonne:
 
@@ -137,18 +137,18 @@ Seleziona un’intestazione di colonna per ordinare le esportazioni in base a ta
    | Nome | Nome dell’esportazione. Gli utenti assegnano un nome alle esportazioni al momento della creazione, come descritto in [Esportare i report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md). |
    | ID | L’ID assegnato automaticamente all’esportazione al momento della creazione. <!-- True? --> |
    | Nome delle visualizzazioni dati | Nome della visualizzazione dati associata all’esportazione. Gli utenti possono selezionare la visualizzazione dati al momento della creazione dell&#39;esportazione, come descritto in [Esporta report Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md). |
-   | Stato | Stato dell’esportazione. Gli stati disponibili sono [!UICONTROL Active], [!UICONTROL Completed] e [!UICONTROL Failed].<p> **Nota:** Per informazioni sulla risoluzione dei problemi relativi alle esportazioni non riuscite, vedere [Risoluzione dei problemi relativi alle esportazioni non riuscite](/help/components/exports/troubleshoot-exports.md).</p> |
+   | Stato | Stato dell’esportazione. Gli stati disponibili sono [!UICONTROL Attivo], [!UICONTROL Completato] e [!UICONTROL Non riuscito].<p> **Nota:** Per informazioni sulla risoluzione dei problemi relativi alle esportazioni non riuscite, vedere [Risoluzione dei problemi relativi alle esportazioni non riuscite](/help/components/exports/troubleshoot-exports.md).</p> |
    | Tag | Visualizza tutti i tag applicati all&#39;esportazione. Per informazioni su come applicare tag a un&#39;esportazione, vedere [Assegnare tag a un&#39;esportazione](#tag-an-export). |
    | Dimensioni tabella (ultimo invio) | Dimensione dell&#39;esportazione l&#39;ultima volta che è stata inviata. |
    | Creato da | Utente che ha creato l’esportazione. |
    | Creato | La data e l’ora in cui è stata creata l’esportazione. <!-- true? --> |
    | Posizione | Posizione dell&#39;account in cui sono stati esportati i dati. |
    | Account | Account in cui sono stati esportati i dati. |
-   | Frequenza | La frequenza con cui viene inviata l’esportazione. Le opzioni disponibili sono [!UICONTROL One time], [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly by day of the week], [!UICONTROL Monthly by day of the month], [!UICONTROL Yearly by day of the month] e [!UICONTROL Yearly by specific date]. |
+   | Frequenza | La frequenza con cui viene inviata l’esportazione. Le opzioni disponibili sono [!UICONTROL Una volta], [!UICONTROL Ogni giorno], [!UICONTROL Ogni settimana], [!UICONTROL Ogni mese per giorno della settimana], [!UICONTROL Ogni mese per giorno del mese], [!UICONTROL Ogni anno per giorno del mese] e [!UICONTROL Ogni anno per data specifica]. |
    | Ora di invio | L’ora in cui è stata inviata l’esportazione. |
    | Ultimo invio | L’ultima volta che è stata inviata l’esportazione. |
    | Ultima modifica | L’ultima volta che l’esportazione è stata modificata. Per impostazione predefinita, gli elementi nella pagina Esportazioni sono ordinati in base a questa colonna. |
-   | Tipo di account | Tipo di account cloud in cui sono stati esportati i dati. I tipi di account disponibili sono [!UICONTROL Amazon S3 Role ARN], [!UICONTROL Google Cloud Platform], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] e [!UICONTROL Adobe Experience Platform]. |
+   | Tipo di account | Tipo di account cloud in cui sono stati esportati i dati. I tipi di account disponibili sono [!UICONTROL ARN] per ruolo Amazon S3, [!UICONTROL Piattaforma Google Cloud], [!UICONTROL SAS di Azure], [!UICONTROL RBAC di Azure], [!UICONTROL Snowflake] e [!UICONTROL Adobe Experience Platform]. |
 
    {style="table-layout:auto"}
 

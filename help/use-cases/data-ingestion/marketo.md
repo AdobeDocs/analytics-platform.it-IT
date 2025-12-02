@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: fedb1337b32e44fc00989bace6a4d1788043f55f
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 13%
@@ -33,13 +33,13 @@ Per creare rapporti sui dati Marketo Engage in Customer Journey Analytics:
 
 +++ &#x200B;1. Mappa i campi dati di origine di Marketo ai relativi target XDM
 
-Mappa gli oggetti [Persons](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Persone) e [Activities](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Attività) ai rispettivi campi di destinazione dello schema XDM.
+Mappa gli oggetti [Persons](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Persone) e [Activities](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Attività) ai rispettivi campi di destinazione dello schema XDM.
 
 +++
 
 +++ &#x200B;2. Inserire dati Marketo in Adobe Experience Platform
 
-Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni connesse a Platform.
+Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni connesse a Platform.
 
 +++
 
@@ -88,7 +88,7 @@ Il seguente confronto tra i rapporti di Customer Journey Analytics e Marketo Eng
 
 Customer Journey Analytics è uno strumento di analisi cross-channel avanzato basato su Adobe Experience Platform. Customer Journey Analytics è progettato per i team aziendali che necessitano di rapporti potenti, flessibili e personalizzabili tra origini dati digitali e offline.
 
-#### Funzionalità principali
+#### Funzionalità chiave
 
 * **Origini dati**: può combinare più set di dati (web, CRM, e-mail, call center, offline, Marketo, ecc.) per il reporting a 360° del percorso di clienti.
 * **Analisi self-service**: area di lavoro con dashboard e visualizzazioni altamente interattive e personalizzabili.
@@ -109,7 +109,7 @@ Customer Journey Analytics è uno strumento di analisi cross-channel avanzato ba
 
 Marketo Engage offre reporting in-app incentrato su KPI di automazione marketing, misurazione di programmi e campagne e analisi dell’impatto marketing. Tutti questi rapporti sono direttamente legati all’attività in Marketo.
 
-#### Funzionalità principali
+#### Funzionalità chiave
 
 * **Analisi di marketing native**: rapporti standard per e-mail, pagine di destinazione, campagne, lead, opportunità, pipeline e attribuzione di ricavi (primo, ultimo, multi-touch).
 * **Analisi avanzata di BI (componente aggiuntivo)**: trascinamento della selezione, creazione report personalizzata point-and-click per l&#39;analisi dei dati di programma/account/lead (vedere la panoramica recente di Analytics avanzata di BI).

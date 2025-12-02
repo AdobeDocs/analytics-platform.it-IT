@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 34e5f97b-c936-4de6-acc9-5774bc908655
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 94%
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 {{upgrade-note}}
 
-Sebbene non sia consigliato, puoi utilizzare il connettore di origine Analytics come unico percorso di implementazione per Customer Journey Analytics. A causa degli svantaggi intrinseci associati a questo tipo di aggiornamento, Adobe consiglia tuttavia di utilizzare il connettore di origine Analytics insieme a una nuova implementazione di Experience Platform Web SDK. Per ulteriori informazioni su questo percorso di aggiornamento consigliato, consulta [Percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
+Sebbene non sia consigliato, puoi utilizzare il connettore di origine Analytics come unico percorso di implementazione per Customer Journey Analytics. Tuttavia, a causa degli svantaggi intrinseci associati a questo tipo di aggiornamento, Adobe consiglia di utilizzare il connettore di origine Analytics insieme a una nuova implementazione di Experience Platform Web SDK. Per ulteriori informazioni su questo percorso di aggiornamento consigliato, consulta [Percorso consigliato per l’aggiornamento da Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
 
 ## Vantaggi e svantaggi
 

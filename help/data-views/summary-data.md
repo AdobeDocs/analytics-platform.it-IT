@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 97%
+source-wordcount: '1147'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Questi dati di riepilogo possono quindi essere utilizzati per presentare indicat
 >[!NOTE]
 >
 >I dati di riepilogo sono dati di serie temporali provenienti da un set di dati di riepilogo. Tale set di dati di riepilogo è basato su uno schema che utilizza la classe Metriche di riepilogo XDM come classe base.
->&#x200B;>Sono supportati solo i dati di serie temporali basate su ore o su giorni.
+>Sono supportati solo i dati di serie temporali basate su ore o su giorni.
 
 >[!TIP]
 >
@@ -143,7 +143,7 @@ https://platform.adobe.io/data/foundation/schemaregistry/tenant/descriptors \
 | Variabile | Valore |
 |---|---|
 | `$ACCESS_TOKEN`<br/>`$API_KEY`<br/>`$ORG_ID`<br/>`$SANDBOX_NAME` | Per ulteriori informazioni su come specificare i valori per queste variabili, consulta [Autenticazione e accesso alle API di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/landing/platform-apis/api-authentication). |
-| `$SCHEMA_ID` | Puoi trovare l’ID dello schema nell’interfaccia utente di Experience Platform. Seleziona lo schema di riepilogo dall’elenco e individua **[!UICONTROL API Usage]** > **[!UICONTROL Schema ID]** nel pannello a destra. Utilizza tale ID come valore. |
+| `$SCHEMA_ID` | Puoi trovare l’ID dello schema nell’interfaccia utente di Experience Platform. Seleziona lo schema di riepilogo dall&#39;elenco degli schemi e individua l&#39;**[!UICONTROL Utilizzo API]** > **[!UICONTROL ID schema]** nel pannello di destra. Utilizza tale ID come valore. |
 | `$GRANULARITY` | Specifica `hour` o `day` come valore. |
 | `$TIMEZONE` | Specifica il valore dell’identificatore del fuso orario corretto dalla colonna dell’identificatore TZ nell’[elenco dei fusi orari del database TZ](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Ad esempio: `America/Los_Angeles`. |
 

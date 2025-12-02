@@ -4,10 +4,10 @@ description: Inserire i dati generati dalla gestione delle decisioni di Adobe Jo
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 100%
+source-wordcount: '701'
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ Per ottenere una parità approssimativa con metriche simili nella gestione delle
 
 | Metrica | Descrizione | Elemento dello schema | Impostazioni del componente |
 | --- | --- | --- | --- |
-| Tipo di evento (rinomina per fare riferimento a un evento specifico, ad esempio `Feedback` per `message.feedback`) [1] | Quantità di un tipo specifico di evento | `eventType` | Tipo di componente: metrica <br/>**[!UICONTROL Set Include Exclude Values]**: attivato<br/>**[!UICONTROL Match]**: [!UICONTROL If all criteria are met]<br/>**[!UICONTROL Criteria]**:**[!UICONTROL Equals]**`message.feedback` |
+| Tipo di evento (rinomina per fare riferimento a un evento specifico, ad esempio `Feedback` per `message.feedback`) [1] | Quantità di un tipo specifico di evento | `eventType` | Tipo di componente: Metrica<br/>**[!UICONTROL Imposta Includi valori di esclusione ]**: On<br/>**[!UICONTROL Corrispondenza]**: [!UICONTROL Se tutti i criteri sono soddisfatti]<br/>**[!UICONTROL Criteri ]**:**[!UICONTROL &#x200B;È uguale a ]**`message.feedback` |
 | Punteggio opzione di decisione | Valore calcolato per un’opzione di decisione nel contesto di un singolo ambito. | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | Tipo di componente: metrica |
 | Punteggio opzione decisione di fallback | Valore calcolato per un’opzione di decisione di fallback nel contesto di un singolo ambito. | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | Tipo di componente: metrica |
 | Offerte ignorate | Il numero di offerte ignorate o rifiutate senza altre interazioni dirette. | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Tipo di componente: metrica |

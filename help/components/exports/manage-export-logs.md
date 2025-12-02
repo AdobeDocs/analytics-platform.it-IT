@@ -5,9 +5,9 @@ title: Gestire i registri di esportazione
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
 role: User
-source-git-commit: ad43b199d4174894f0e428bcaf1748ca80bddb45
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '837'
 ht-degree: 8%
 
 ---
@@ -102,17 +102,17 @@ Questa opzione non è disponibile quando si selezionano più registri.
 
 ## Configurare le colonne
 
-È possibile aggiungere o rimuovere colonne nella scheda [!UICONTROL Logs] per configurare le informazioni visualizzate.
+Puoi aggiungere o rimuovere colonne nella scheda [!UICONTROL Registri] per configurare le informazioni visualizzate.
 
 Seleziona un’intestazione di colonna per ordinare i registri in base a tale colonna. Per impostazione predefinita, i registri vengono ordinati in base alla data e all’ora di inizio dell’esportazione.
 
-Per configurare le colonne nella scheda [!UICONTROL Logs]:
+Per configurare le colonne nella scheda [!UICONTROL Registri]:
 
 1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
 1. Selezionare la scheda [!UICONTROL **Registri**].
 
-1. Selezionare l&#39;icona **Personalizza tabella** ![Personalizza tabella](assets/customize-table-icon.png) in alto a destra nella pagina [!UICONTROL Logs].
+1. Seleziona l&#39;icona **Personalizza tabella** in alto a destra nella pagina ![Registri](assets/customize-table-icon.png).
 
    Sono disponibili le seguenti colonne:
 
@@ -128,12 +128,12 @@ Per configurare le colonne nella scheda [!UICONTROL Logs]:
    | Account | Account in cui sono stati esportati i dati. |
    | Stato | Stato dell’esportazione. Gli stati disponibili sono [!UICONTROL Pending], [!UICONTROL Delivered] e [!UICONTROL Failed]. |
    | Data di consegna | La data in cui è avvenuta l’esportazione. |
-   | Tipo di account | Tipo di account cloud in cui sono stati esportati i dati. I tipi di account disponibili sono [!UICONTROL Amazon S3 Role ARN], [!UICONTROL Google Cloud Platform], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] e [!UICONTROL Adobe Experience Platform]. |
+   | Tipo di account | Tipo di account cloud in cui sono stati esportati i dati. I tipi di account disponibili sono [!UICONTROL ARN] per ruolo Amazon S3, [!UICONTROL Piattaforma Google Cloud], [!UICONTROL SAS di Azure], [!UICONTROL RBAC di Azure], [!UICONTROL Snowflake] e [!UICONTROL Adobe Experience Platform]. |
    | Numero di righe | Numero di righe incluse nella tabella esportata. |
 
    {style="table-layout:auto"}
 
-1. Assicurati che tutte le colonne che desideri visualizzare siano selezionate. Le colonne selezionate vengono visualizzate nella pagina [!UICONTROL Logs] e le relative informazioni.
+1. Assicurati che tutte le colonne che desideri visualizzare siano selezionate. Le colonne selezionate vengono visualizzate nella pagina [!UICONTROL Registri] e le relative informazioni.
 
 ## Visualizzare i registri di audit
 

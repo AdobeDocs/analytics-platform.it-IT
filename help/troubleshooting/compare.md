@@ -1,15 +1,15 @@
 ---
 title: Confrontare i dati del connettore di origine di Analytics con Adobe Analytics
 description: Informazioni sulle differenze nei dati durante la visualizzazione di rapporti simili in Adobe Analytics e Customer Journey Analytics.
-role: Data Engineer, Data Architect, Admin
+role: Developer, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
 keywords: servizio query;servizio Query;sintassi SQL
-source-git-commit: d96404479aabe6020566e693245879b5ad4fad9c
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 100%
+source-wordcount: '720'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Considera i seguenti possibili motivi per cui i dati potrebbero differire tra le
 
   >[!TIP]
   >
-  >Adobe consiglia vivamente che le dimensioni in Adobe Analytics utilizzino un’allocazione di “[!UICONTROL Most recent (last)]”. Questa impostazione di allocazione consente una maggiore flessibilità di attribuzione in Customer Journey Analytics.
+  >Adobe consiglia vivamente che le dimensioni in Adobe Analytics utilizzino un&#39;allocazione di &#39;[!UICONTROL Most Recent (last)]&#39; (Più recente, ultimo). Questa impostazione di allocazione consente una maggiore flessibilità di attribuzione in Customer Journey Analytics.
 
 * **Definizione di visita**: oltre alle singole impostazioni di dimensione e metriche, la visualizzazione dati stessa contiene impostazioni che modificano radicalmente il modo in cui vengono interpretati i dati dei visitatori. Ad esempio, puoi applicare un segmento a un’intera visualizzazione dati (simile a una [suite di rapporti virtuale](https://experienceleague.adobe.com/it/docs/analytics/components/virtual-report-suites/vrs-about) in Adobe Analytics). Puoi anche modificare la definizione di durata di una visita o avviare automaticamente una nuova visita in base all’evento desiderato. Ciascuna di queste impostazioni può avere un impatto notevole sulle differenze di reporting tra Customer Journey Analytics e Adobe Analytics.
 

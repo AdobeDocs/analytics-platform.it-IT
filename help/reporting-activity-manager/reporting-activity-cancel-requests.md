@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 87da2447-f114-432a-9f63-e660c2541d0f
 role: Admin
-source-git-commit: def8b074ea468e409e340415d5e96f75d6b69312
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 100%
+source-wordcount: '1497'
+ht-degree: 95%
 
 ---
 
 # Annullare le richieste di reporting in Reporting Activity Manager
 
-[!UICONTROL Reporting Activity Manager] consente agli amministratori di diagnosticare e annullare rapidamente le richieste di reporting per risolvere i problemi di capacità di reporting durante i periodi in cui si verificano picchi di reporting.
+[!UICONTROL Reporting Activity Manager] consente agli amministratori di diagnosticare e annullare rapidamente le richieste di reporting per risolvere i problemi di capacità di reporting durante i periodi di picco.
 
 Quando annulli le richieste di reporting, prendi in considerazione quanto segue:
 
@@ -32,7 +32,7 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
 Puoi annullare singole richieste che consumano una grande quantità di capacità di reporting. Quando annulli una richiesta, puoi scegliere di limitarla ulteriormente per un determinato periodo di tempo.
 
-1. In Customer Journey Analytics, passa a **[!UICONTROL Tools]** > **[!UICONTROL Reporting Activity Manager]**.
+1. In Customer Journey Analytics, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Gestione attività di reporting]**.
 
 1. Seleziona la connessione in cui desideri annullare le richieste di reporting. <!--double-check this step-->
 
@@ -73,7 +73,7 @@ Puoi annullare singole richieste che consumano una grande quantità di capacità
 
 Puoi annullare tutte le richieste associate a uno o più utenti. Quando annulli le richieste associate a un utente, puoi scegliere di limitare ulteriormente le richieste da parte di tale utente per un determinato periodo di tempo.
 
-1. In Customer Journey Analytics, passa a **[!UICONTROL Tools]** > **[!UICONTROL Reporting Activity Manager]**.
+1. In Customer Journey Analytics, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Gestione attività di reporting]**.
 
 1. Seleziona la connessione in cui desideri annullare le richieste di reporting. <!--double-check this step-->
 
@@ -114,7 +114,7 @@ Puoi annullare tutte le richieste associate a uno o più utenti. Quando annulli 
 
 Puoi annullare tutte le richieste associate a uno o più progetti. Quando annulli le richieste associate a un progetto, puoi scegliere di limitare ulteriormente le richieste associate a quel progetto per un determinato periodo di tempo.
 
-1. In Customer Journey Analytics, passa a **[!UICONTROL Tools]** > **[!UICONTROL Reporting Activity Manager]**
+1. In Customer Journey Analytics, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Gestione attività di reporting]**.
 
 1. Seleziona la connessione in cui desideri annullare le richieste di reporting. <!--double-check this step-->
 
@@ -170,7 +170,7 @@ Le applicazioni includono gli elementi seguenti:
 
 Per annullare le richieste per applicazione:
 
-1. In Customer Journey Analytics, passa a **[!UICONTROL Tools]** > **[!UICONTROL Reporting Activity Manager]**.
+1. In Customer Journey Analytics, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Gestione attività di reporting]**.
 
 1. Seleziona la connessione in cui desideri annullare le richieste di reporting. <!--double-check this step-->
 

@@ -5,9 +5,9 @@ title: Configurare account di esportazione cloud
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: 882e280da3f65e297abccd475d381832fd236843
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '2230'
+source-wordcount: '2246'
 ht-degree: 28%
 
 ---
@@ -24,7 +24,7 @@ Per informazioni su come gestire gli account esistenti, tra cui la visualizzazio
 
 1. Assicurati di soddisfare i [requisiti minimi](/help/analysis-workspace/export/export-cloud.md#minimum-requirements) per l&#39;esportazione di report nel cloud.
 1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
-1. Nella pagina [!UICONTROL Exports], selezionare la scheda [!UICONTROL **Account località**].
+1. Nella pagina [!UICONTROL Esportazioni] selezionare la scheda [!UICONTROL **Account località**].
 
    ![Esporta le opzioni di pagina che mostrano Aggiungi un altro account](assets/account-add.png)
 
@@ -78,7 +78,7 @@ Per informazioni su come gestire gli account esistenti, tra cui la visualizzazio
 
    * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
 
-1. Dopo aver selezionato **[!UICONTROL AEP Data Landing Zone]** nel campo **[!UICONTROL Account type]**, selezionare [!UICONTROL **Salva**].
+1. Dopo aver selezionato **[!UICONTROL Area di destinazione dati di AEP]** nel campo **[!UICONTROL Tipo account]**, seleziona [!UICONTROL **Salva**].
 
    Viene visualizzata una delle seguenti finestre di dialogo, a seconda che l’area di destinazione dati di AEP sia configurata per l’utilizzo dell’archiviazione di Azure o AWS:
 
@@ -112,9 +112,9 @@ Per informazioni su come gestire gli account esistenti, tra cui la visualizzazio
 
       1. Se non lo hai già fatto, scarica [Microsoft Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
-      1. Nella documentazione di Adobe Experience Platform, segui i passaggi descritti in [Connettere il contenitore Data Landing Zone ad Azure Storage Explorer](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=it#connect-your-data-landing-zone-container-to-azure-storage-explorer).
+      1. Nella documentazione di Adobe Experience Platform, segui i passaggi descritti in [Connettere il contenitore Data Landing Zone ad Azure Storage Explorer](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer).
 
-         È possibile saltare le attività descritte nelle sezioni [Recuperare le credenziali per l&#39;area di destinazione dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=it#retrieve-dlz-credentials) e [Aggiornare le credenziali dell&#39;area di destinazione dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=it#update-dlz-credentials), perché l&#39;URI copiato contiene queste credenziali.
+         È possibile saltare le attività descritte nelle sezioni [Recuperare le credenziali per l&#39;area di destinazione dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) e [Aggiornare le credenziali dell&#39;area di destinazione dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials), perché l&#39;URI copiato contiene queste credenziali.
 
       1. Quando segui la documentazione di Adobe Experience Platform e accedi al campo [!UICONTROL **URL SAS contenitore Blob**], incolla l&#39;URI SAS copiato nel passaggio 3.
 
@@ -136,13 +136,13 @@ Per informazioni su come gestire gli account esistenti, tra cui la visualizzazio
 
       * [!UICONTROL **ID chiave di accesso**]
 
-      * **[!UICONTROL Secret access key]**
+      * **[!UICONTROL Chiave di accesso segreta]**
 
-      * **[!UICONTROL Session token]**
+      * **[!UICONTROL Token sessione]**
 
-      * **[!UICONTROL Bucket name]**
+      * **[!UICONTROL Nome del bucket]**
 
-      * **[!UICONTROL DLZ folder]**
+      * **[!UICONTROL Cartella DLZ]**
 
       ![Finestra di dialogo Esporta account Area di destinazione dati di AEP](assets/export-account-aep-aws.png)
 

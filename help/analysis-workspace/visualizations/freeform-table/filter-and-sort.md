@@ -4,10 +4,10 @@ title: Filtra E Ordina
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 65%
+source-wordcount: '1134'
+ht-degree: 52%
 
 ---
 
@@ -37,11 +37,11 @@ Assicurati di leggere l&#39;impatto di ogni metodo sui [totali delle tabelle a f
 
 ### Escludere righe specifiche da una tabella
 
-Puoi escludere rapidamente righe specifiche dalla tabella senza dover utilizzare l’opzione ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]**.
+È possibile escludere rapidamente righe specifiche dalla tabella senza dover utilizzare ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]**.
 
 >[!NOTE]
 >
->Quando si escludono alcune righe come descritto in questa sezione, viene automaticamente aggiunta una regola [!UICONTROL Always exclude items] nella finestra di dialogo del filtro [!UICONTROL Advanced]. Puoi visualizzare la regola applicata selezionando l’icona Filtro ![Filtro](/help/assets/icons/Filter.svg), quindi [**[!UICONTROL Show advanced]**](#apply-a-simple-or-advanced-filter-to-a-table).
+>Quando si escludono le righe come descritto in questa sezione, nella finestra di dialogo del filtro [!UICONTROL Avanzate] viene aggiunta automaticamente una regola [!UICONTROL Escludi sempre elementi]. Puoi visualizzare la regola applicata selezionando l&#39;icona Filtro ![Filtro](/help/assets/icons/Filter.svg), quindi [**[!UICONTROL Mostra avanzate]**](#apply-a-simple-or-advanced-filter-to-a-table).
 
 Per escludere righe specifiche da una tabella a forma libera:
 
@@ -69,13 +69,13 @@ Per filtrare i dati nelle tabelle a forma libera:
 
    ![Tabella a forma libera con l’icona Filtro evidenziata.](assets/table-filter-icon.png)
 
-   Nella finestra di dialogo **[!UICONTROL Search]** sono disponibili le seguenti opzioni:
+   Nella finestra di dialogo **[!UICONTROL Ricerca]** sono disponibili le opzioni seguenti:
 
    ![Filtro semplice](assets/filter-simple.png){width="500"}
 
    | Opzione | Funzione |
    |---------|----------|
-   | [!UICONTROL **Includi “Nessun valore”**] | Seleziona questa opzione per visualizzare nella tabella una riga **[!UICONTROL No value]** con i dati che non hanno alcun valore per la dimensione selezionata. Deselezionare questa opzione per nascondere le righe **[!UICONTROL No value]**.<!-- Add at multi dim GA: When tables include multiple dimension columns, you can deselect this option to show data only when it applies to each dimension column in the table.--> |
+   | [!UICONTROL **Includi “Nessun valore”**] | Selezionare questa opzione per visualizzare una riga **[!UICONTROL Nessun valore]** nella tabella per i dati privi di valore per la dimensione selezionata. Deselezionare questa opzione per nascondere le righe **[!UICONTROL Nessun valore]**.<!-- Add at multi dim GA: When tables include multiple dimension columns, you can deselect this option to show data only when it applies to each dimension column in the table.--> |
    | [!UICONTROL **Cerca parola o frase**] | Specifica una parola o una frase in base a cui applicare il filtro. Vengono visualizzate solo le righe contenenti la parola o la frase esatta specificata. |
 
 
@@ -87,12 +87,12 @@ Per filtrare i dati nelle tabelle a forma libera:
 
    | Opzione | Funzione |
    |---------|----------|
-   | [!UICONTROL **Includi “Nessun valore”**] | Seleziona questa opzione per visualizzare nella tabella una riga **[!UICONTROL No value]** con i dati che non hanno alcun valore per la dimensione selezionata. Deselezionare questa opzione per nascondere la riga **[!UICONTROL No value]**. |
+   | [!UICONTROL **Includi “Nessun valore”**] | Selezionare questa opzione per visualizzare una riga **[!UICONTROL Nessun valore]** nella tabella per i dati privi di valore per la dimensione selezionata. Deselezionare questa opzione per nascondere la riga **[!UICONTROL Nessun valore]**. |
    | [!UICONTROL **Corrispondenza**] | Scegli [!UICONTROL **Se sono soddisfatti tutti i criteri**] per mostrare solo i dati che soddisfano tutti i criteri specificati. In genere, questa opzione genera dati più precisi.<br/><br/>Scegli [!UICONTROL **Se sono soddisfatti i criteri**] per mostrare i dati che soddisfano tutti i criteri di filtro specificati. Di solito, questa opzione genera dati meno precisi. |
-   | [!UICONTROL **Criteri**] | Seleziona tra le opzioni filtro seguenti:<br/><ul><li>[!UICONTROL **Contiene la frase**] (impostazione predefinita): nei risultati filtrati vengono inclusi solo i dati che contengono la frase esatta specificata. Le parole devono essere nell’ordine specificato nel [!UICONTROL **campo Cerca parola o frase**].</li><li>[!UICONTROL **Contiene qualsiasi termine**]: nei risultati filtrati sono inclusi solo i dati contenenti una o più parole della frase specificata. </li><li>[!UICONTROL **Contiene tutti i termini**]: nei risultati filtrati sono inclusi solo i dati che contengono tutte le parole della frase specificata. Le parole non devono necessariamente essere nell&#39;ordine specificato nel [!UICONTROL **campo Cerca parola o frase**].</li><li>[!UICONTROL **Non contiene alcun termine**]: nei risultati filtrati sono inclusi solo i dati che non contengono le parole della frase specificata. </li><li>[!UICONTROL **Non contiene la frase**]: nei risultati filtrati sono inclusi solo i dati che non contengono la frase esatta specificata. Le parole devono essere nell’ordine specificato nel [!UICONTROL **campo Cerca parola o frase**].</li><li>[!UICONTROL **È uguale a**]: nei risultati filtrati vengono inclusi solo i dati che corrispondono esattamente alla frase specificata. </li><li>[!UICONTROL **Non è uguale a**]: nei risultati filtrati vengono inclusi solo i dati che non corrispondono esattamente alla frase specificata. </li><li>[!UICONTROL **Inizia con**]: nei risultati filtrati sono inclusi solo i dati che iniziano con la parola o la frase esatta specificata. </li><li>[!UICONTROL **Termina con**]: nei risultati filtrati sono inclusi solo i dati che terminano con la parola o la frase esatta specificata. </li></ul>Seleziona ![Aggiungi](/help/assets/icons/Add.svg) [!UICONTROL **Aggiungi riga**] per aggiungere più criteri di filtro. L’opzione selezionata per [!UICONTROL **Corrispondenza**] determina **[!UICONTROL If all criteria are met]** o **[!UICONTROL If any criteria are met]**. |
+   | [!UICONTROL **Criteri**] | Seleziona tra le opzioni filtro seguenti:<br/><ul><li>[!UICONTROL **Contiene la frase**] (impostazione predefinita): nei risultati filtrati vengono inclusi solo i dati che contengono la frase esatta specificata. Le parole devono essere nell’ordine specificato nel [!UICONTROL **campo Cerca parola o frase**].</li><li>[!UICONTROL **Contiene qualsiasi termine**]: nei risultati filtrati sono inclusi solo i dati contenenti una o più parole della frase specificata. </li><li>[!UICONTROL **Contiene tutti i termini**]: nei risultati filtrati sono inclusi solo i dati che contengono tutte le parole della frase specificata. Le parole non devono necessariamente essere nell&#39;ordine specificato nel [!UICONTROL **campo Cerca parola o frase**].</li><li>[!UICONTROL **Non contiene alcun termine**]: nei risultati filtrati sono inclusi solo i dati che non contengono le parole della frase specificata. </li><li>[!UICONTROL **Non contiene la frase**]: nei risultati filtrati sono inclusi solo i dati che non contengono la frase esatta specificata. Le parole devono essere nell’ordine specificato nel [!UICONTROL **campo Cerca parola o frase**].</li><li>[!UICONTROL **È uguale a**]: nei risultati filtrati vengono inclusi solo i dati che corrispondono esattamente alla frase specificata. </li><li>[!UICONTROL **Non è uguale a**]: nei risultati filtrati vengono inclusi solo i dati che non corrispondono esattamente alla frase specificata. </li><li>[!UICONTROL **Inizia con**]: nei risultati filtrati sono inclusi solo i dati che iniziano con la parola o la frase esatta specificata. </li><li>[!UICONTROL **Termina con**]: nei risultati filtrati sono inclusi solo i dati che terminano con la parola o la frase esatta specificata. </li></ul>Seleziona ![Aggiungi](/help/assets/icons/Add.svg) [!UICONTROL **Aggiungi riga**] per aggiungere più criteri di filtro. L&#39;opzione selezionata per [!UICONTROL **Corrispondenza**] determina **[!UICONTROL Se tutti i criteri sono soddisfatti]** o **[!UICONTROL Se sono soddisfatti alcuni criteri]**. |
    | [!UICONTROL **Escludi sempre gli elementi**] | Specifica il nome degli elementi da escludere dai dati filtrati. |
 
-1. Seleziona **[!UICONTROL Apply]** per filtrare i dati. Seleziona **[!UICONTROL Clear]** per cancellare l’intero input. Seleziona **[!UICONTROL Cancel]** per annullare e chiudere la finestra di dialogo. <br/>Un’icona ![Filtro](/help/assets/icons/FilterColored.svg) **Filtro** colorata indica e visualizza i dettagli quando viene applicato un filtro alla tabella.
+1. Seleziona **[!UICONTROL Applica]** per filtrare i dati. Seleziona **[!UICONTROL Cancella]** per cancellare tutti gli input. Seleziona **[!UICONTROL Annulla]** per annullare e chiudere la finestra di dialogo. <br/>Un’icona ![Filtro](/help/assets/icons/FilterColored.svg) **Filtro** colorata indica e visualizza i dettagli quando viene applicato un filtro alla tabella.
 
 ### Includere criteri di filtro nei dati con tendenze nelle visualizzazioni grafici a linee sparkline e a linee {#include-filter-criteria}
 

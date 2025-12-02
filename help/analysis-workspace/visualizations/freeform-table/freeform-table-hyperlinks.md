@@ -4,10 +4,10 @@ description: Scopri come creare collegamenti ipertestuali per gli elementi dimen
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: f7a90a42d3c8bea99af2e69e3f86d9ad4e2041bf
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 97%
+source-wordcount: '1602'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Questa funzionalità è particolarmente utile quando si creano collegamenti iper
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta, ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare collegamenti ipertestuali in una tabella a forma libera](https://video.tv.adobe.com/v/3445793/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta, ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare collegamenti ipertestuali in una tabella a forma libera](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ Puoi modificare i collegamenti ipertestuali creati su dimensioni o elementi dime
    * **Modifica collegamenti ipertestuali per tutti gli elementi dimensionali nella colonna di una dimensione:**
 
       1. Apri il menu di scelta rapida dall’intestazione della colonna della dimensione.
-      1. Seleziona **[!UICONTROL Edit hyperlink for all dimension items]** dal menu di scelta rapida.
+      1. Selezionare **[!UICONTROL Modifica collegamento ipertestuale per tutti gli elementi dimensionali]** dal menu di scelta rapida.
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a dimension](assets/hyperlink-dimension-edit.png)-->
 
@@ -150,7 +150,7 @@ Per rimuovere i collegamenti ipertestuali dagli elementi dimensionali:
    * **Rimozione di collegamenti ipertestuali da tutti gli elementi dimensionali in una colonna dimensione:**
 
       1. Apri il menu di scelta rapida dall’intestazione della colonna della dimensione.
-      1. Seleziona **[!UICONTROL Remove hyperlink for all dimension items]** dal menu di scelta rapida.
+      1. Selezionare **[!UICONTROL Rimuovi collegamento ipertestuale per tutti gli elementi dimensione]** dal menu di scelta rapida.
 
      <!-- Do we really need a screenshot? [Remove hyperlink from a dimension](assets/hyperlink-dimension-remove.png)-->
 

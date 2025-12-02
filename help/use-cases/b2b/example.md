@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: d1097ca5f981623283a7d02200d5023548046429
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1373'
 ht-degree: 6%
 
 ---
 
 # Un esempio di progetto B2B basato su persona
 
-Questo articolo illustra un caso d’uso in cui si desidera creare un rapporto appropriato in Customer Journey Analytics sui dati personali nel contesto di una tipica configurazione B2B basata su persona. Tale configurazione è facilitata da [Real-Time CDP B2B edition](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  Il caso d’uso spiega come impostare, configurare e generare rapporti sui dati B2B a livello di profilo (persona) in Customer Journey Analytics.
+Questo articolo illustra un caso d’uso in cui si desidera creare un rapporto appropriato in Customer Journey Analytics sui dati personali nel contesto di una tipica configurazione B2B basata su persona. Tale configurazione è facilitata da [Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  Il caso d’uso spiega come impostare, configurare e generare rapporti sui dati B2B a livello di profilo (persona) in Customer Journey Analytics.
 
 [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Con la versione di [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md) è stata pubblicata una sezione separata per i casi di utilizzo di reporting basati sull&#39;account.
 
@@ -43,7 +43,7 @@ Definisci la connessione in modo da includere tutti i set di dati B2B pertinenti
 -->
 
 
-La relazione tra gli schemi di ricerca B2B, lo schema di profilo e lo schema evento è definita nella configurazione B2B in Experience Platform. Vedere Schemi in [Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/schemas/b2b) e [Definire una relazione molti-a-uno tra due schemi in Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/relationship-b2b).
+La relazione tra gli schemi di ricerca B2B, lo schema di profilo e lo schema evento è definita nella configurazione B2B in Experience Platform. Vedere Schemi in [Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/schemas/b2b) e [Definire una relazione molti-a-uno tra due schemi in Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
 
 Per garantire una configurazione corretta di una connessione che supporta le ricerche basate su persone dei dati B2B, utilizza la seguente illustrazione per una panoramica e segui questi passaggi:
@@ -52,11 +52,11 @@ Per garantire una configurazione corretta di una connessione che supporta le ric
 
 1. Aggiungi alla connessione i set di dati della tabella precedente.
 1. Per ogni set di dati di ricerca aggiunto alla connessione, è necessario definire esplicitamente la relazione con un set di dati evento utilizzando **[!UICONTROL Key]** e **[!UICONTROL Matching key]** nella finestra di dialogo **[!UICONTROL Edit dataset]**.
-1. Per ogni set di dati di ricerca che si desidera trasformare per ricerche B2B basate su persone, abilitare **[!UICONTROL Transform dataset]** per garantire che i dati vengano trasformati per le ricerche basate su persone. Per ulteriori informazioni, vedere [Trasformare i set di dati per le ricerche B2B](/help/connections/transform-datasets-b2b-lookups.md).
+1. Per ogni set di dati di ricerca che si desidera trasformare per ricerche B2B basate su persone, abilitare **[!UICONTROL Trasforma il set di dati]** per garantire che i dati vengano trasformati per le ricerche basate su persone. Per ulteriori informazioni, vedere [Trasformare i set di dati per le ricerche B2B](/help/connections/transform-datasets-b2b-lookups.md).
 
    ![Chiave - Chiave corrispondente](assets/key-matchingkey.png)
 
-   La tabella seguente fornisce una panoramica di esempio dei valori di esempio [!UICONTROL Person ID], [!UICONTROL Key] e [!UICONTROL Matching key] per ciascuno dei set di dati.
+   La tabella seguente fornisce una panoramica di esempio dei valori di esempio [!UICONTROL ID persona], [!UICONTROL Chiave] e [!UICONTROL Chiave corrispondente] per ciascuno dei set di dati.
 
    >[!IMPORTANT]
    >
@@ -65,17 +65,17 @@ Per garantire una configurazione corretta di una connessione che supporta le ric
 
 
    | Set di dati (facoltativo) | ID persona | Chiave<br/> | Chiave corrispondente<br/>(nel set di dati evento)<br/> |
-   |---|---|---|---| 
+   |---|---|---|---|
    | Set di dati sull’attività B2B | ChiaveOrigine <br/>**chiavePersona.ChiaveOrigine** | | |
    | Set di dati persona B2B | ChiaveOrigine <br/>**b2b.personKey.sourceKey** | | |
-   | Set di dati account B2B | | ChiaveOrigine <br/>**accountKey.sourceKey**&#x200B;❶ | SourceKey<br>(Set di dati persona B2B)<br/>**b2b.accountKey.sourceKey**&#x200B;❶ |
-   | Set di dati dell’opportunità B2B | | Chiave Source <br/>**optionKey.sourceKey**&#x200B;❷ | SourceKey<br/>(Set di dati relazione opportunità B2B)<br/>**optionKey.sourceKey**&#x200B;❷ |
-   | Set di dati della campagna B2B | | ChiaveOrigine <br/>**chiaveCampagna.chiaveOrigine**&#x200B;❸ | SourceKey<br/>(Set di dati membro campagna B2B)<br/>**campaignKey.sourceKey**&#x200B;❸<br/> |
-   | Set di dati dell’elenco di marketing B2B | | ChiaveOrigine <br/>**marketingListKey.sourceKey**&#x200B;❹ | SourceKey<br/>(set di dati membro elenco di marketing B2B)<br/>**marketingListKey.sourceKey**&#x200B;❹ |
-   | Set di dati relazione persona account B2B | | ChiaveOrigine <br/>**chiavePersona.ChiaveOrigine**&#x200B;❺ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**&#x200B;❺ |
-   | Set di dati relazione persona opportunità B2B | | ChiaveOrigine <br/>**chiavePersona.chiaveOrigine** y❻ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**&#x200B;❻ |
-   | Set di dati dei membri della campagna B2B | | ChiaveOrigine <br/>**chiavePersona.ChiaveOrigine**&#x200B;❼ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**&#x200B;❼ |
-   | Set di dati membri dell’elenco di marketing B2B | | ChiaveOrigine <br/>**chiavePersona.ChiaveOrigine**&#x200B;❽ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**&#x200B;❽ |
+   | Set di dati account B2B | | ChiaveOrigine <br/>**accountKey.sourceKey**❶ | SourceKey<br>(Set di dati persona B2B)<br/>**b2b.accountKey.sourceKey**❶ |
+   | Set di dati dell’opportunità B2B | | Chiave Source <br/>**optionKey.sourceKey**❷ | SourceKey<br/>(Set di dati relazione opportunità B2B)<br/>**optionKey.sourceKey**❷ |
+   | Set di dati della campagna B2B | | ChiaveOrigine <br/>**chiaveCampagna.chiaveOrigine**❸ | SourceKey<br/>(Set di dati membro campagna B2B)<br/>**campaignKey.sourceKey**❸<br/> |
+   | Set di dati dell’elenco di marketing B2B | | ChiaveOrigine <br/>**marketingListKey.sourceKey**❹ | SourceKey<br/>(set di dati membro elenco di marketing B2B)<br/>**marketingListKey.sourceKey**❹ |
+   | Set di dati relazione persona account B2B | | ChiaveOrigine <br/>**chiavePersona.ChiaveOrigine**❺ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**❺ |
+   | Set di dati relazione persona opportunità B2B | | ChiaveOrigine <br/>**chiavePersona.chiaveOrigine** y❻ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**❻ |
+   | Set di dati dei membri della campagna B2B | | ChiaveOrigine <br/>**chiavePersona.ChiaveOrigine**❼ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**❼ |
+   | Set di dati membri dell’elenco di marketing B2B | | ChiaveOrigine <br/>**chiavePersona.ChiaveOrigine**❽ | Chiave Source<br/>(Set di dati evento)<br/>**personKey.sourceKey**❽ |
 
 {style="table-layout:auto"}
 
@@ -92,7 +92,7 @@ Ad esempio, puoi aggiungere i seguenti componenti alla visualizzazione dati per 
 
 >[!IMPORTANT]
 >
->Le metriche e i relativi valori (**Nome componente**, **Set di dati**, **Tipo set di dati** e **[!UICONTROL Schema path])** nella tabella seguente sono **esempi**. Definisci le metriche B2B rilevanti (nome del componente, set di dati, tipo di dati e percorso dello schema) per la tua situazione specifica.
+>Le metriche e i relativi valori (**Nome componente**, **Set di dati**, **Tipo set di dati** e **[!UICONTROL Percorso schema])** nella tabella seguente sono **esempi**. Definisci le metriche B2B rilevanti (nome del componente, set di dati, tipo di dati e percorso dello schema) per la tua situazione specifica.
 >
 
 | Nome componente | Set di dati | Tipo di dati | Percorso dello schema |
@@ -111,7 +111,7 @@ Ad esempio, puoi aggiungere i seguenti componenti alla visualizzazione dati per 
 
 >[!IMPORTANT]
 >
->Le dimensioni e i relativi valori (**Nome componente**, **Set di dati**, **Tipo set di dati** e **[!UICONTROL Schema path])** nella tabella seguente sono **esempi**. Definisci le dimensioni B2B rilevanti (nome del componente, set di dati, tipo di dati e percorso dello schema) per la tua situazione specifica.
+>Le dimensioni e i relativi valori (**Nome componente**, **Set di dati**, **Tipo set di dati** e **[!UICONTROL Percorso schema])** nella tabella seguente sono **esempi**. Definisci le dimensioni B2B rilevanti (nome del componente, set di dati, tipo di dati e percorso dello schema) per la tua situazione specifica.
 >
 
 | Nome componente | Set di dati | Tipo di dati | Percorso dello schema |

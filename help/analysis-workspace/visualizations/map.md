@@ -4,10 +4,10 @@ title: Mappa
 feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: ab0e6f0578cbc6f856c2b0a46b1231cce145b84c
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '2612'
-ht-degree: 7%
+source-wordcount: '2761'
+ht-degree: 6%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -52,26 +52,26 @@ La visualizzazione ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** i
 
 ### Aggiungere etichette di contesto alle visualizzazioni dati
 
-Nelle impostazioni delle visualizzazioni dati di Customer Journey Analytics, gli amministratori possono aggiungere [etichette di contesto](/help/data-views/component-settings/overview.md) a una dimensione o a una metrica e i servizi Customer Journey Analytics come la visualizzazione [!UICONTROL map] possono utilizzare queste etichette per i loro scopi.
+Nelle impostazioni delle visualizzazioni dati di Customer Journey Analytics, gli amministratori possono aggiungere [etichette di contesto](/help/data-views/component-settings/overview.md) a una dimensione o a una metrica e i servizi Customer Journey Analytics come la visualizzazione [!UICONTROL mappa] possono utilizzare queste etichette per i loro scopi.
 
 #### Etichette di contesto richieste per latitudine e longitudine nella visualizzazione mappa
 
 Le etichette di contesto sono necessarie per il funzionamento della visualizzazione mappa. Se non sono presenti le seguenti etichette di contesto, la visualizzazione mappa non funziona, perché non vi sono dati di latitudine e longitudine con cui lavorare.
 
-* [!UICONTROL Geo: Latitude]
-* [!UICONTROL Geo: Longitude]
+* [!UICONTROL Geo: latitudine]
+* [!UICONTROL Geo: Longitudine]
 
 Per aggiungere queste etichette di contesto:
 
-1. In Customer Journey Analytics, seleziona **[!UICONTROL Data Management]** > **[!UICONTROL Data views]**.
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Visualizzazioni dati]**.
 
 1. Nella pagina Visualizzazioni dati, seleziona la visualizzazione dati che contiene i dati da analizzare nella visualizzazione mappa.
 
-1. Seleziona la scheda **[!UICONTROL Components]**.
+1. Seleziona la scheda **[!UICONTROL Componenti]**.
 
 1. (Condizionale) Se utilizzi il Web SDK e hai configurato la latitudine e la longitudine per essere popolata nel flusso di dati, o se utilizzi il connettore Source di Analytics per popolare i dati evento, i campi latitudine e longitudine dovrebbero essere già disponibili nello schema e compilati con le etichette di contesto corrette.
 
-   Individua questi campi dello schema **[!UICONTROL Latitude]** e **[!UICONTROL Longitude]** (in **[!UICONTROL Event datasets]** > **[!UICONTROL placeContext]** > **[!UICONTROL geo]** > **[!UICONTROL _schema]**) e trascinali nella visualizzazione dati come dimensioni, se non sono già presenti.
+   Individua questi campi dello schema **[!UICONTROL Latitude]** e **[!UICONTROL Longitude]** (in **[!UICONTROL Set di dati evento]** > **[!UICONTROL placeContext]** > **[!UICONTROL geo]** > **[!UICONTROL _schema]**) e trascinali nella visualizzazione dati come dimensioni, se non sono già presenti.
 
    Quando questi campi schema esistono come dimensioni nella visualizzazione dati, le relative etichette di contesto vengono applicate automaticamente e la visualizzazione mappa li utilizza senza alcuna configurazione aggiuntiva.
 
@@ -79,9 +79,9 @@ Per aggiungere queste etichette di contesto:
 
 1. (Condizionale) Se disponi di dimensioni personalizzate da utilizzare per i dati di latitudine e longitudine, puoi configurare le etichette di contesto nei campi personalizzati:
 
-   1. Nella sezione **[!UICONTROL Dimensions]** selezionare la dimensione contenente i dati di longitudine.
+   1. Nella sezione **[!UICONTROL Dimensions]** (Dimensioni), seleziona la dimensione contenente i dati di longitudine.
 
-   1. Nella sezione **[!UICONTROL Component settings]** della barra a destra, nel campo **[!UICONTROL Context labels]**, inizia a digitare `Longitude`, quindi selezionalo dal menu a discesa.
+   1. Nella sezione **[!UICONTROL Impostazioni componente]** nella barra a destra, nel campo **[!UICONTROL Etichette di contesto]**, inizia a digitare `Longitude`, quindi selezionalo dal menu a discesa.
 
       ![Etichette di contesto di latitudine e longitudine](assets/map-context-labels-lat-long.png)
 
@@ -89,7 +89,7 @@ Per aggiungere queste etichette di contesto:
 
    1. (Facoltativo) Per impostazione predefinita, queste dimensioni sono precise al livello della città o del codice postale nella visualizzazione delle mappe e mostrano 2 posizioni decimali nei rapporti di Workspace. Puoi regolarli per essere precisi all’interno di un singolo metro nella visualizzazione mappa e per visualizzare 5 posizioni decimali nei rapporti di Workspace. Per ulteriori informazioni su come regolare il livello di precisione, vedere [Configurare posizioni precise per le dimensioni](#configure-precise-locations-for-dimensions).
 
-1. Seleziona **[!UICONTROL Save and continue]** > **[!UICONTROL Save and finish]**.
+1. Seleziona **[!UICONTROL Salva e continua]** > **[!UICONTROL Salva e termina]**.
 
 #### Etichette di contesto richieste per i modelli geografici
 
@@ -99,23 +99,23 @@ Di seguito sono riportati i modelli e l’etichetta di contesto richiesta. Se qu
 
 | Nome modello | Etichetta di contesto richiesta |
 |---------|----------|
-| Paesi per area geografica | [!UICONTROL Geo: Geo Country] |
-| Aree geografiche | [!UICONTROL Geo: Geo Region] |
+| Paesi per area geografica | [!UICONTROL Geo: Paese Geografico] |
+| Aree geografiche | [!UICONTROL Area geografica: area geografica] |
 | Città per area geografica | [!UICONTROL Geo: Geo City] |
-| Area geografica Stati Uniti | [!UICONTROL Geo: Geo State] |
+| Area geografica Stati Uniti | [!UICONTROL Geo: stato geografico] |
 | Geo DMA USA | [!UICONTROL Geo: Geo Dma] |
 
 Per aggiungere queste etichette di contesto:
 
-1. In Customer Journey Analytics, seleziona **[!UICONTROL Data Management]** > **[!UICONTROL Data views]**.
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Visualizzazioni dati]**.
 
 1. Nella pagina Visualizzazioni dati, seleziona la visualizzazione dati che contiene i dati da analizzare con modelli predefiniti che utilizzano la visualizzazione mappa. In questa visualizzazione dati, scegli cinque dimensioni: una con i dati del paese, una con i dati della regione, una con i dati della città, una con i dati dello stato e una con i dati DMA. Quindi, assegna a tali dimensioni l’etichetta di contesto corrispondente.
 
-1. Seleziona la scheda **[!UICONTROL Components]**.
+1. Seleziona la scheda **[!UICONTROL Componenti]**.
 
 1. (Facoltativo) Se utilizzi il Web SDK e hai configurato i campi geografici da compilare nel flusso di dati o se utilizzi il connettore Source di Analytics per compilare i dati evento, i campi geografici dovrebbero già essere disponibili nello schema e compilati con le etichette di contesto corrette.
 
-   Individua i campi dello schema appropriati, ad esempio **[!UICONTROL City]**, **[!UICONTROL Postal code]**, **[!UICONTROL State or province]** (in **[!UICONTROL Event datasets]** > **[!UICONTROL placeContext]** > **[!UICONTROL geo]**), quindi trascinali nella visualizzazione dati come dimensioni, se non sono già presenti.
+   Individua i campi dello schema appropriati, ad esempio **[!UICONTROL Città]**, **[!UICONTROL Codice postale]**, **[!UICONTROL Stato o provincia]** (in **[!UICONTROL Set di dati evento]** > **[!UICONTROL ContestoLuogo]** > **[!UICONTROL Geo]**), quindi trascinali nella visualizzazione dati come dimensioni, se non sono già presenti.
 
    Quando questi campi schema esistono come dimensioni nella visualizzazione dati, le relative etichette di contesto vengono applicate automaticamente e i modelli geografici li utilizzano senza alcuna configurazione aggiuntiva.
 
@@ -125,13 +125,13 @@ Per aggiungere queste etichette di contesto:
 
    1. Seleziona la dimensione che contiene i dati del paese.
 
-   1. Nella sezione **[!UICONTROL Component settings]** della barra a destra, nel campo **[!UICONTROL Context labels]**, inizia a digitare `Geo Country`, quindi selezionalo dal menu a discesa.
+   1. Nella sezione **[!UICONTROL Impostazioni componente]** nella barra a destra, nel campo **[!UICONTROL Etichette di contesto]**, inizia a digitare `Geo Country`, quindi selezionalo dal menu a discesa.
 
       ![Etichette di contesto dei modelli](assets/map-context-labels-templates.png)
 
-   1. Ripetere questo processo per aggiungere l&#39;etichetta di contesto **[!UICONTROL Geo: Geo Region]**, **[!UICONTROL Geo: Geo City]**, **[!UICONTROL Geo: Geo State]** e **[!UICONTROL Geo: Dma]** a ogni dimensione che contiene i dati corrispondenti.
+   1. Ripeti questo processo per aggiungere l&#39;etichetta di contesto **[!UICONTROL Geo: Geo Region]**, **[!UICONTROL Geo: Geo City]**, **[!UICONTROL Geo: Geo State]** e **[!UICONTROL Geo: Dma]** a ogni dimensione che contiene i dati corrispondenti.
 
-1. Seleziona **[!UICONTROL Save and continue]** > **[!UICONTROL Save and finish]**.
+1. Seleziona **[!UICONTROL Salva e continua]** > **[!UICONTROL Salva e termina]**.
 
 ### I driver di grafica devono supportare il rendering WebGL
 
@@ -144,7 +144,7 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 | Funzione | Customer Journey Analytics | Adobe Analytics |
 |---------|----------|---------|
 | Origine dati | Utilizza qualsiasi segmento disponibile nella visualizzazione dati come origine dati. | Fornisce le seguenti opzioni: <ul><li>Latitudine/longitudine dispositivo mobile</li><li>Dimension geografico<br/>Rappresenta i dati di segmentazione geografica sulla posizione del visitatore in base all&#39;indirizzo IP del visitatore. </li></ul> |
-| Precisione | Per i set di dati con precisione profonda, puoi configurare le dimensioni nella visualizzazione dati in modo da visualizzare fino a 5 posizioni decimali. Questo consente di ottenere una visualizzazione accurata della mappa in un singolo metro. <p>Per ulteriori informazioni, vedere [Configurare posizioni precise per le dimensioni](#configure-precise-locations-for-dimensions).</p> | I dati sono precisi al livello [!UICONTROL Country], [!UICONTROL Region] e [!UICONTROL City]. (Non viene spostato a livello di DMA o CAP). |
+| Precisione | Per i set di dati con precisione profonda, puoi configurare le dimensioni nella visualizzazione dati in modo da visualizzare fino a 5 posizioni decimali. Questo consente di ottenere una visualizzazione accurata della mappa in un singolo metro. <p>Per ulteriori informazioni, vedere [Configurare posizioni precise per le dimensioni](#configure-precise-locations-for-dimensions).</p> | I dati sono precisi al livello [!UICONTROL Paese], [!UICONTROL Area geografica] e [!UICONTROL Città]. (Non viene spostato a livello di DMA o CAP). |
 | Creare un segmento da una selezione | Crea un segmento basato su un’area specifica selezionata nella visualizzazione mappa. <p>Per ulteriori informazioni, consulta [Creare un segmento dalla visualizzazione mappa](#create-a-segment-from-the-map-visualization).</p> | Crea un segmento in base ai dati riportati nella visualizzazione mappa in generale. |
 | Creare un pubblico da una selezione | Crea un pubblico in base a un’area specifica selezionata nella visualizzazione mappa. <p>Per ulteriori informazioni, consulta [Creare un pubblico dalla visualizzazione mappa](#create-an-audience-from-the-map-visualization). | Impossibile creare un pubblico dalla visualizzazione mappa. |
 | Creare una tendenza da una selezione | Crea una visualizzazione con grafico a linee di tendenza in base a un’area specifica selezionata nella visualizzazione Mappa. <p>Per ulteriori informazioni, vedere [Creare un grafico a linee con tendenze dalla visualizzazione mappa](#create-a-trended-line-chart-from-the-map-visualization). <!-- is this correct? --> | Impossibile creare una tendenza dalla visualizzazione mappa. |
@@ -161,7 +161,7 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 
 <!-- markdownlint-enable MD034 -->
 
-1. Seleziona l&#39;icona [!UICONTROL **Visualizzazioni**] nella barra a sinistra, quindi trascina la visualizzazione **[!UICONTROL Map]** ![Mappa](/help/assets/icons/Globe.svg) in un pannello che contiene una tabella a forma libera.
+1. Seleziona l&#39;icona [!UICONTROL **Visualizzazioni**] nella barra a sinistra, quindi trascina la visualizzazione **[!UICONTROL Mappa]** ![Mappa](/help/assets/icons/Globe.svg) in un pannello che contiene una tabella a forma libera.
 
    Oppure
 
@@ -171,7 +171,7 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 
 1. Specifica le seguenti informazioni di base per configurare la visualizzazione mappa:
 
-   * **[!UICONTROL Add metric]**: nell&#39;elenco a discesa delle metriche selezionare una metrica o una metrica calcolata. Puoi anche trascinare una metrica dalla barra a sinistra.
+   * **[!UICONTROL Aggiungi metrica]**: nell&#39;elenco a discesa delle metriche selezionare una metrica o una metrica calcolata. Puoi anche trascinare una metrica dalla barra a sinistra.
 
      >[!IMPORTANT]
      >
@@ -180,7 +180,7 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 
      <!-- Only choose metrics that use Last Touch as the [attribution model](/help/data-views/component-settings/attribution.md#attribution-models) (this is the default attribution model for all metrics). Choosing a metric that has an attribution model other than Last Touch results in inaccurate map data, because attribution is applied to the latitude and longitude pairs. -->
 
-   * **[!UICONTROL Add segment]**: (facoltativo) nell&#39;elenco a discesa dei segmenti selezionare un segmento. Oppure trascina un segmento dall’elenco dei segmenti.
+   * **[!UICONTROL Aggiungi segmento]**: (facoltativo) seleziona un segmento nell&#39;elenco a discesa del segmento. Oppure trascina un segmento dall’elenco dei segmenti.
 
    Puoi aggiornare queste informazioni dopo aver creato la visualizzazione selezionando l&#39;icona Modifica ![Modifica](/help/assets/icons/Edit.svg) nell&#39;intestazione della visualizzazione.
 
@@ -255,36 +255,36 @@ Per configurare le impostazioni per la visualizzazione mappa:
 
    | Sezione | Impostazione | Descrizione |
    | --- |--- |--- |
-   | **[!UICONTROL Map type]** | | |
-   | | **[!UICONTROL Bubbles]** | Traccia gli eventi utilizzando le bolle. Un grafico a bolle è un grafico a più variabili che è un incrocio tra un grafico a dispersione e un grafico ad area proporzionale. Questa è l&#39;impostazione predefinita. |
-   | | **[!UICONTROL Heatmap]** | Traccia gli eventi utilizzando una mappa di calore. Una mappa di calore è una rappresentazione grafica dei dati in cui i singoli valori contenuti in una matrice sono rappresentati come colori. |
-   | **[!UICONTROL Styles]** | | |
-   | | **[!UICONTROL Color theme]** | Mostra la combinazione di colori per la mappa di calore e le bolle. Puoi scegliere tra Coral, Reds, Greens o Blues. L&#39;impostazione predefinita è Coral. |
-   | | **[!UICONTROL Map style]** | È possibile scegliere tra Basic, Streets, Bright, Light, Dark e Satellite. |
-   | | **[!UICONTROL Cluster radius]** | Raggruppa i punti dati che rientrano nel numero di pixel specificato. Il valore predefinito è 50.<p>Questa opzione è disponibile solo quando **[!UICONTROL Bubbles]** è selezionato come **[!UICONTROL Map type]**.</p> |
-   | | **[!UICONTROL Custom max value]** | Consente di modificare la soglia per il valore massimo per la mappa. Regolando questo valore si regola la scala per le bolle o i valori della mappa di calore (colore e dimensione) rispetto al valore massimo personalizzato impostato. |
-   | | **[!UICONTROL Show annotations]** | Mostra le annotazioni effettuate per questa visualizzazione. |
-   | | **[!UICONTROL Hide title]** | Nasconde il titolo della visualizzazione. |
+   | **[!UICONTROL Tipo mappa]** | | |
+   | | **[!UICONTROL Bolle]** | Traccia gli eventi utilizzando le bolle. Un grafico a bolle è un grafico a più variabili che è un incrocio tra un grafico a dispersione e un grafico ad area proporzionale. Questa è l&#39;impostazione predefinita. |
+   | | **[!UICONTROL Mappa di calore]** | Traccia gli eventi utilizzando una mappa di calore. Una mappa di calore è una rappresentazione grafica dei dati in cui i singoli valori contenuti in una matrice sono rappresentati come colori. |
+   | **[!UICONTROL Stili]** | | |
+   | | **[!UICONTROL Tema colore]** | Mostra la combinazione di colori per la mappa di calore e le bolle. Puoi scegliere tra Coral, Reds, Greens o Blues. L&#39;impostazione predefinita è Coral. |
+   | | **[!UICONTROL Stile mappa]** | È possibile scegliere tra Basic, Streets, Bright, Light, Dark e Satellite. |
+   | | **[!UICONTROL Raggio cluster]** | Raggruppa i punti dati che rientrano nel numero di pixel specificato. Il valore predefinito è 50.<p>Questa opzione è disponibile solo quando **[!UICONTROL Bolle]** è selezionato come **[!UICONTROL Tipo mappa]**.</p> |
+   | | **[!UICONTROL Valore massimo personalizzato]** | Consente di modificare la soglia per il valore massimo per la mappa. Regolando questo valore si regola la scala per le bolle o i valori della mappa di calore (colore e dimensione) rispetto al valore massimo personalizzato impostato. |
+   | | **[!UICONTROL Mostra annotazioni]** | Mostra le annotazioni effettuate per questa visualizzazione. |
+   | | **[!UICONTROL Nascondi titolo]** | Nasconde il titolo della visualizzazione. |
 
 ## Configurare posizioni precise per le dimensioni
 
 Se disponi di set di dati personalizzati con precisione profonda, puoi configurare la visualizzazione mappa per ottenere la precisione della posizione entro un singolo metro.
 
-1. In Customer Journey Analytics, seleziona **[!UICONTROL Data Management]** > **[!UICONTROL Data views]**.
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Visualizzazioni dati]**.
 
 1. Seleziona la visualizzazione dati che contiene le dimensioni da configurare per utilizzare posizioni più precise.
 
-1. Nella visualizzazione dati, seleziona la scheda **[!UICONTROL Components]**.
+1. Nella visualizzazione dati, selezionare la scheda **[!UICONTROL Componenti]**.
 
 1. Seleziona le dimensioni che utilizzi per la latitudine e la longitudine da configurare. Per ulteriori informazioni sulle dimensioni in uso, consulta [Etichette di contesto richieste per latitudine e longitudine nella visualizzazione mappa](#required-context-labels-for-latitude-and-longitude-in-the-map-visualization).
 
 1. Configura il livello di precisione per la dimensione:
 
-   1. Con la dimensione da configurare ancora selezionata, espandi la sezione **[!UICONTROL Format]** nella barra a destra.
+   1. Con la dimensione da configurare ancora selezionata, espandi la sezione **[!UICONTROL Formato]** nella barra a destra.
 
       ![elemento dimensione selezionato con sezione formato espansa](assets/map-dimension-format.png)
 
-   1. Nel campo **[!UICONTROL Decimal places]**, modificare il numero di decimali per riflettere il livello di precisione desiderato:
+   1. Nel campo **[!UICONTROL Cifre decimali]**, modifica il numero di decimali per riflettere il livello di precisione desiderato:
 
       * **0:** Preciso rispetto al livello di area geografica o paese nella visualizzazione mappa. Mostra 0 posizioni decimali nei rapporti di Workspace.
 
@@ -300,7 +300,7 @@ Se disponi di set di dati personalizzati con precisione profonda, puoi configura
 
       * **5:** Precisione di un solo metro nella visualizzazione mappa. Mostra 5 posizioni decimali nei rapporti di Workspace.
 
-1. Seleziona **[!UICONTROL Save and continue]** > **[!UICONTROL Save and finish]**.
+1. Seleziona **[!UICONTROL Salva e continua]** > **[!UICONTROL Salva e termina]**.
 
 ## Creare un segmento dalla visualizzazione mappa {#map-create-segment}
 
@@ -312,9 +312,9 @@ Per creare un segmento dalla visualizzazione mappa:
 
 1. Esegui una delle operazioni seguenti:
 
-   * **Per creare un segmento da tutti gli elementi attualmente visualizzati nella mappa:** Fare clic con il pulsante destro del mouse in un punto qualsiasi della mappa, quindi selezionare **[!UICONTROL Create segment from current view]**.
+   * **Per creare un segmento da tutti gli elementi attualmente visualizzati nella mappa:** Fare clic con il pulsante destro del mouse in un punto qualsiasi della mappa, quindi selezionare **[!UICONTROL Crea segmento dalla visualizzazione corrente]**.
 
-   * **Per creare un segmento per un&#39;area più specifica della mappa:** Fai clic sullo strumento di selezione ![icona di selezione mappa](assets/map-selection-icon.png), trascina il mouse per selezionare l&#39;area desiderata, quindi seleziona **[!UICONTROL Create segment from selection]**.
+   * **Per creare un segmento per un&#39;area più specifica della mappa:** Fai clic sullo strumento di selezione ![icona di selezione mappa](assets/map-selection-icon.png), trascina il mouse per selezionare l&#39;area desiderata, quindi seleziona **[!UICONTROL Crea segmento dalla selezione]**.
 
 1. Utilizza il Generatore di segmenti per definire il nuovo segmento. Per ulteriori informazioni, consulta [Generatore di segmenti](/help/components/segments/seg-builder.md).
 
@@ -328,9 +328,9 @@ Per creare un pubblico dalla visualizzazione mappa:
 
 1. Esegui una delle operazioni seguenti:
 
-   * **Per creare un pubblico da tutto ciò che è visualizzato nella mappa:** Fare clic con il pulsante destro del mouse in un punto qualsiasi della mappa, quindi selezionare **[!UICONTROL Create audience from current view]**.
+   * **Per creare un pubblico da tutto ciò che è visualizzato nella mappa:** Fai clic con il pulsante destro del mouse in un punto qualsiasi della mappa, quindi seleziona **[!UICONTROL Crea pubblico dalla visualizzazione corrente]**.
 
-   * **Per creare un pubblico per un&#39;area più specifica della mappa:** Fai clic sullo strumento di selezione ![icona di selezione mappa](assets/map-selection-icon.png), trascina il mouse per selezionare l&#39;area desiderata, quindi seleziona **[!UICONTROL Create audience from selection]**.
+   * **Per creare un pubblico per un&#39;area più specifica della mappa:** Fai clic sullo strumento di selezione ![icona di selezione mappa](assets/map-selection-icon.png), trascina il mouse per selezionare l&#39;area desiderata, quindi seleziona **[!UICONTROL Crea pubblico dalla selezione]**.
 
 1. Utilizza il generatore di tipi di pubblico per definire il nuovo pubblico. Per ulteriori informazioni, consulta [Generatore di pubblico](/help/components/audiences/publish.md#audience-builder) in [Creare e pubblicare tipi di pubblico](/help/components/audiences/publish.md)
 
@@ -344,9 +344,9 @@ Per creare un grafico a linee con tendenze dalla visualizzazione mappa:
 
 1. Esegui una delle operazioni seguenti:
 
-   * **Per creare un grafico a linee con tendenze da tutto ciò che è visualizzato nella mappa:** Fare clic con il pulsante destro del mouse in un punto qualsiasi della mappa, quindi selezionare **[!UICONTROL Trend from current view]**.
+   * **Per creare un grafico a linee con tendenze da tutto ciò che è visualizzato nella mappa:** Fare clic con il pulsante destro del mouse in un punto qualsiasi della mappa, quindi selezionare **[!UICONTROL Tendenza dalla visualizzazione corrente]**.
 
-   * **Per creare un grafico a linee di tendenza per un&#39;area più specifica della mappa:** Fare clic sullo strumento di selezione ![icona di selezione mappa](assets/map-selection-icon.png), trascinare il mouse per selezionare l&#39;area desiderata, quindi selezionare **[!UICONTROL Trend]**.
+   * **Per creare un grafico a linee con tendenze per un&#39;area più specifica della mappa:** Fai clic sullo strumento di selezione ![icona di selezione mappa](assets/map-selection-icon.png), trascina il mouse per selezionare l&#39;area desiderata, quindi seleziona **[!UICONTROL Tendenza]**.
 
    Viene creata una visualizzazione delle linee che include una linea di tendenza. Per ulteriori informazioni su questa visualizzazione, vedi [Riga](/help/analysis-workspace/visualizations/line.md).
 

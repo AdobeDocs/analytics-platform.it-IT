@@ -1,18 +1,18 @@
 ---
-title: Richiedi unione
+title: Richiedere l’unione delle identità
 description: Come richiedere l’unione
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
-# Richiedi unione
+# Richiedere l’unione delle identità
 
 Una volta che la tua organizzazione soddisfa tutti i [prerequisiti](overview.md#prerequisites) e comprende le [limitazioni](overview.md#limitations) comuni e le limitazioni specifiche del metodo di unione ([basate sui campi](fbs.md#limitations) e [basate sui grafi](gbs.md#limitations)), puoi seguire questi passaggi per richiedere e iniziare a utilizzare l&#39;unione in Customer Journey Analytics.
 
@@ -22,7 +22,7 @@ Il pacchetto Customer Journey Analytics a cui hai diritto determina i metodi di 
 
 | | Customer Journey Analytics<br/>Seleziona | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
 |---|---|---|---|
-| Metodi di unione disponibili | <li>Unione basata sui campi</li> | <li>Unione basata sui campi</li><li>Unione basata su grafo</li> | <li>Unione basata sui campi</li><li>Unione basata su grafo</li> |
+| Metodi di unione disponibili | <li>Unione delle identità basata sui campi</li> | <li>Unione delle identità basata sui campi</li><li>Unione delle identità basata su grafo</li> | <li>Unione delle identità basata sui campi</li><li>Unione delle identità basata su grafo</li> |
 | Durata retrocompilazione unione una tantum | 13 mesi | 13 mesi | 25 mesi |
 | Intervallo di lookback e frequenza di ripetizione | <li>1 giorno, ogni giorno</li><li>fino a 7 giorni, settimanalmente</li> | <li>1 giorno, ogni giorno</li><li>fino a 14 giorni, settimanalmente</li> | <li>1 giorno, ogni giorno</li><li>fino a 30 giorni, settimanalmente</li> |
 | Numero massimo di set di dati consentiti per l’unione | 5 | 15 | 50 |

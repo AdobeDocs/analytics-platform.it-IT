@@ -6,9 +6,9 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B Edition"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1727'
 ht-degree: 12%
 
 ---
@@ -66,7 +66,7 @@ Un esempio di riferimento di progettazione della soluzione potrebbe essere:
 | Numero fase di vendita |
 | Sezione del sito |
 | SKU |
-| ID account affiliata |
+| ID account subordinato |
 | ID sondaggio |
 | Punteggio di soddisfazione sondaggio |
 | Tipo di sondaggio |
@@ -273,36 +273,36 @@ Definisci una connessione basata su account in Customer Journey Analytics per ac
 
 1. [Crea una nuova connessione](/help/connections/create-connection.md) in Customer Journey Analytics.
 1. Immettere un nome descrittivo e una descrizione per la connessione.
-1. Seleziona ![Compilazione](/help/assets/icons/Building.svg) **[!UICONTROL Account]** come **[!UICONTROL Primary ID]**.
-1. Seleziona tutti **[!UICONTROL Optional containers]**.
+1. Seleziona ![Compilazione](/help/assets/icons/Building.svg) **[!UICONTROL Account]** come **[!UICONTROL ID primario]**.
+1. Seleziona tutti i **[!UICONTROL contenitori facoltativi]**.
 1. Seleziona la sandbox preferita e stima il numero medio di eventi giornalieri.
 
    ![Connessione basata su account B2B](assets/b2b-connection-account-based.png)
 
-1. Selezionare **[!UICONTROL Add datasets]** e aggiungere i set di dati B2B che contengono i dati per eventi, account, persone e SKU.
+1. Seleziona **[!UICONTROL Aggiungi set di dati]** e aggiungi i set di dati B2B che contengono i dati per eventi, account, persone e SKU.
 
    ![Connessione B2B - aggiunta set di dati](assets/b2b-connection-add-datasets.png)
 
-1. Selezionare **[!UICONTROL Next]** per configurare le impostazioni per ciascuno dei set di dati selezionati.
-1. Per il set di dati dell&#39;evento, assicurarsi di selezionare i campi appropriati che corrispondono alle identità per **[!UICONTROL Account ID]**, **[!UICONTROL Global Account ID]**, **[!UICONTROL Opportunity ID]**, **[!UICONTROL Buying Group ID]** e **[!UICONTROL Person ID]**.
+1. Seleziona **[!UICONTROL Avanti]** per configurare le impostazioni per ciascuno dei set di dati selezionati.
+1. Per il set di dati dell&#39;evento, assicurati di selezionare i campi appropriati che corrispondono alle identità per **[!UICONTROL ID account]**, **[!UICONTROL ID account globale]**, **[!UICONTROL ID opportunità]**, **[!UICONTROL ID gruppo acquisti]** e **[!UICONTROL ID persona]**.
 
    ![Connessione B2B - Aggiungi set di dati evento](assets/b2b-connection-add-datasets-event-data.png)
 
-1. Scorri verso il basso per configurare il set di dati dei record account. Accertarsi di selezionare l&#39;identificatore corretto (**[!UICONTROL Account_ID]**) in modo che corrisponda all&#39;account dal contenitore **[!UICONTROL Global Account]**. Selezionare l&#39;identificatore corretto (**[!UICONTROL Account_ID]**) come **[!UICONTROL Global Account field]**.
+1. Scorri verso il basso per configurare il set di dati dei record account. Accertati di selezionare l&#39;identificatore corretto (**[!UICONTROL Account_ID]**) in modo che corrisponda all&#39;account dal contenitore **[!UICONTROL Account globale]**. Seleziona l&#39;identificatore corretto (**[!UICONTROL Account_ID]**) come **[!UICONTROL Campo account globale]**.
 
    ![Connessione B2B - Aggiungi set di dati account](assets/b2b-connection-add-datasets-account-data.png)
 
-1. Scorri verso il basso per configurare il set di dati dei record persona. Accertarsi di selezionare la chiave corretta (**[!UICONTROL Person_ID]**) in base alla persona dal contenitore **[!UICONTROL Person]**. Selezionare l&#39;identità appropriata (**[!UICONTROL Profile_Account_ID_Individual]**) per la corrispondenza con il campo **[!UICONTROL Global Account]**.
+1. Scorri verso il basso per configurare il set di dati dei record persona. Accertati di selezionare la chiave corretta (**[!UICONTROL Person_ID]**) in base alla persona dal contenitore **[!UICONTROL Person]**. Seleziona l&#39;identità appropriata (**[!UICONTROL Profile_Account_ID_Individual]**) per la corrispondenza con il campo **[!UICONTROL Account globale]**.
 
    ![Connessione B2B - Aggiungi set di dati persona](assets/b2b-connection-add-datasets-person-data.png)
 
-1. Scorri verso il basso per configurare il set di dati dei record SKU. Assicurarsi di selezionare la chiave corretta (**[!UICONTROL Sku]**). Selezionare **[!UICONTROL Match by field]** perché per questi dati non è configurato o disponibile alcun contenitore. Selezionare il campo SKU nel set di dati evento (**[!UICONTROL SKU (event datasets)]**) come chiave corrispondente.
+1. Scorri verso il basso per configurare il set di dati dei record SKU. Accertati di selezionare la chiave corretta (**[!UICONTROL Sku]**). Seleziona **[!UICONTROL Corrispondenza per campo]** perché non è configurato o disponibile alcun contenitore per questi dati. Selezionare il campo SKU nel set di dati evento (**[!UICONTROL SKU (set di dati evento)]**) come chiave corrispondente.
 
    ![Connessione B2B - Aggiungi set di dati SKU](assets/b2b-connection-add-datasets-sku-data.png)
 
-1. Selezionare **[!UICONTROL Add datasets]** per salvare i set di dati e le relative impostazioni configurate.
+1. Seleziona **[!UICONTROL Aggiungi set di dati]** per salvare i set di dati e le relative impostazioni configurate.
 
-1. Selezionare **[!UICONTROL Save]** per salvare la connessione.
+1. Seleziona **[!UICONTROL Salva]** per salvare la connessione.
 
 
 ## Visualizzazione dati
@@ -313,12 +313,12 @@ Dopo l’acquisizione dei dati in Customer Journey Analytics, desideri creare un
 ### Configurare
 
 1. [Crea una nuova visualizzazione dati](/help/data-views/data-views.md) in Customer Journey Analytics.
-1. Selezionare la connessione creata in precedenza (ad esempio: **[!UICONTROL B2B Demo Connection (ExL)]**).
+1. Selezionare la connessione creata in precedenza, ad esempio **[!UICONTROL Connessione demo B2B (ExL)]**.
 1. Immetti un nome per la visualizzazione dati. Ad esempio: `B2B Demo Data view (ExL)` e facoltativamente una descrizione.
 1. Facoltativamente, rinomina i contenitori. Oppure attieniti ai nomi dei contenitori predefiniti.
 
    ![Visualizzazione dati B2B - configura](assets/b2b-dataview-configure.png)
-1. Seleziona **[!UICONTROL Save and continue]**.
+1. Seleziona **[!UICONTROL Salva e continua]**.
 
 
 
@@ -326,15 +326,15 @@ Dopo l’acquisizione dei dati in Customer Journey Analytics, desideri creare un
 
 Per impostazione predefinita, tutti i [componenti standard](/help/data-views/component-reference.md) sono già inclusi nella visualizzazione dati. Questi componenti standard includono le metriche specifiche B2B per conti, gruppi di acquisto, conti globali e opportunità.
 
-1. Aggiungi tutte le dimensioni evento definite nella [documentazione sulla progettazione della soluzione](#solution-design-reference) ai componenti dimensione nella visualizzazione dati. Ad esempio, il campo **[!UICONTROL Event Name]**, che rappresenta la dimensione **[!UICONTROL Event Name]**. Assicurati di configurare il componente dimensione tramite le [impostazioni del componente](/help/data-views/component-settings/overview.md) disponibili.
+1. Aggiungi tutte le dimensioni evento definite nella [documentazione sulla progettazione della soluzione](#solution-design-reference) ai componenti dimensione nella visualizzazione dati. Ad esempio, il campo **[!UICONTROL Nome evento]**, che rappresenta la dimensione **[!UICONTROL Nome evento]**. Assicurati di configurare il componente dimensione tramite le [impostazioni del componente](/help/data-views/component-settings/overview.md) disponibili.
 
    ![Visualizzazione dati B2B - componenti - dimensioni evento](assets/b2b-dataview-components-event-dimensions.png)
 
-1. Aggiungi tutte le metriche degli eventi definite nella [documentazione sulla progettazione della soluzione](#solution-design-reference) ai componenti delle metriche nella visualizzazione dati. Ad esempio, il campo **[!UICONTROL SQL Qualified]**, che rappresenta la metrica **[!UICONTROL SQL Qualified]**. Assicurati di configurare il componente dimensione tramite le [impostazioni del componente](/help/data-views/component-settings/overview.md) disponibili.
+1. Aggiungi tutte le metriche degli eventi definite nella [documentazione sulla progettazione della soluzione](#solution-design-reference) ai componenti delle metriche nella visualizzazione dati. Ad esempio, il campo **[!UICONTROL SQL qualificato]**, che rappresenta la metrica **[!UICONTROL SQL qualificato]**. Assicurati di configurare il componente dimensione tramite le [impostazioni del componente](/help/data-views/component-settings/overview.md) disponibili.
 
    ![Visualizzazione dati B2B - componenti - metriche evento](assets/b2b-dataview-components-event-metrics.png)
 
-1. Aggiungi tutte le dimensioni conto definite nel [riferimento progettazione soluzione](#solution-design-reference) ai componenti dimensione nella visualizzazione dati. Ad esempio, il campo **[!UICONTROL Industry]**, che rappresenta la dimensione **[!UICONTROL Industry]**. Assicurati di configurare il componente dimensione tramite le [impostazioni del componente](/help/data-views/component-settings/overview.md) disponibili.
+1. Aggiungi tutte le dimensioni conto definite nel [riferimento progettazione soluzione](#solution-design-reference) ai componenti dimensione nella visualizzazione dati. Ad esempio, il campo **[!UICONTROL Industria]**, che rappresenta la dimensione **[!UICONTROL Industria]**. Assicurati di configurare il componente dimensione tramite le [impostazioni del componente](/help/data-views/component-settings/overview.md) disponibili.
 
    ![Visualizzazione dati B2B - componenti - dimensioni account](assets/b2b-dataview-components-account-dimensions.png)
 
@@ -350,11 +350,11 @@ Per impostazione predefinita, tutti i [componenti standard](/help/data-views/com
 
    ![Visualizzazione dati B2B - componenti - metriche account](assets/b2b-dataview-components-person-metrics.png)
 
-1. Aggiungi tutte le dimensioni SKU definite nel [riferimento progettazione soluzione](#solution-design-reference) ai componenti dimensione nella visualizzazione dati. Ad esempio, il campo **[!UICONTROL Service Category]**, che rappresenta la dimensione **[!UICONTROL Service Category]**. Assicurati di configurare il componente dimensione tramite le [impostazioni del componente](/help/data-views/component-settings/overview.md) disponibili.
+1. Aggiungi tutte le dimensioni SKU definite nel [riferimento progettazione soluzione](#solution-design-reference) ai componenti dimensione nella visualizzazione dati. Ad esempio, il campo **[!UICONTROL Categoria servizio]**, che rappresenta la dimensione **[!UICONTROL Categoria servizio]**. Assicurati di configurare il componente dimensione tramite le [impostazioni del componente](/help/data-views/component-settings/overview.md) disponibili.
 
    ![Visualizzazione dati B2B - componenti - dimensioni account](assets/b2b-dataview-components-sku-dimensions.png)
 
-1. Seleziona **[!UICONTROL Save and Continue]**.
+1. Seleziona **[!UICONTROL Salva e continua]**.
 
 
 ### Impostazioni
@@ -364,7 +364,7 @@ Per impostazione predefinita, tutti i [componenti standard](/help/data-views/com
    * Aggiungi segmenti alla visualizzazione dati.
    * Utilizza una metrica (calcolata) per definire le impostazioni della sessione.
 
-1. Seleziona **[!UICONTROL Save and continue]**.
+1. Seleziona **[!UICONTROL Salva e continua]**.
 
 
 ## Segmenti

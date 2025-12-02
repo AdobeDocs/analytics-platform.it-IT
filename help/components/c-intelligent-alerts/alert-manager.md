@@ -4,19 +4,19 @@ title: Gestire gli avvisi
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 20%
+source-wordcount: '596'
+ht-degree: 17%
 
 ---
 
 # Gestire gli avvisi
 
 
-È possibile filtrare, assegnare tag, eliminare, rinominare, copiare, abilitare, disabilitare gli avvisi di rinnovo ed esportare gli avvisi da un&#39;interfaccia di gestione centrale di [!UICONTROL Alerts]. Per gestire gli avvisi:
+È possibile filtrare, assegnare tag, eliminare, rinominare, copiare, abilitare, disabilitare gli avvisi di rinnovo ed esportare gli avvisi da un&#39;interfaccia di gestione centrale di [!UICONTROL avvisi]. Per gestire gli avvisi:
 
-* Seleziona **[!UICONTROL Components]** nell’interfaccia principale, quindi seleziona **[!UICONTROL Alerts]**.
+* Seleziona **[!UICONTROL Componenti]** nell&#39;interfaccia principale, quindi seleziona **[!UICONTROL Avvisi]**.
 
 La gestione avvisi è strutturata come la [gestione segmenti](/help/components/segments/seg-manage.md) e la [gestione metriche calcolate](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 
@@ -34,14 +34,14 @@ Nell&#39;elenco degli avvisi ➊ vengono visualizzati tutti gli avvisi di cui se
 | Colonna | Descrizione |
 |---|---|
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o per non favorire ![StarOutline](/help/assets/icons/StarOutline.svg) un avviso. |
-| **[!UICONTROL Title and description]** | Per modificare l&#39;avviso, selezionare il collegamento del titolo, che apre il generatore di [avvisi](alert-builder.md#alert-builder). |
-| **[!UICONTROL Type]** | Indica se l&#39;avviso è un avviso di dati di Customer Journey Analytics o un avviso di utilizzo di chiamate al server. |
-| **[!UICONTROL Enabled]** | Indica se l&#39;avviso è abilitato o disabilitato. |
-| **[!UICONTROL Data view]** | Visualizzazioni dati a cui si applica questo avviso. |
-| **[!UICONTROL Owner]** | Proprietario dell&#39;avviso. In qualità di non amministratore, puoi visualizzare solo gli avvisi di tua proprietà o che sono condivisi con te. |
-| **[!UICONTROL Tags]** | Tag per l&#39;avviso. |
-| **[!UICONTROL Expiration Date]** | La data e l’ora in cui l’avviso è impostato per scadere. |
-| **[!UICONTROL Date modified]** | Data e ora dell’ultima modifica apportata all’avviso. |
+| **[!UICONTROL Titolo e descrizione]** | Per modificare l&#39;avviso, selezionare il collegamento del titolo, che apre il generatore di [avvisi](alert-builder.md#alert-builder). |
+| **[!UICONTROL Tipo]** | Indica se l&#39;avviso è un avviso di dati di Customer Journey Analytics o un avviso di utilizzo di chiamate al server. |
+| **[!UICONTROL Abilitato]** | Indica se l&#39;avviso è abilitato o disabilitato. |
+| **[!UICONTROL Visualizzazione dati]** | Visualizzazioni dati a cui si applica questo avviso. |
+| **[!UICONTROL Proprietario]** | Proprietario dell&#39;avviso. In qualità di non amministratore, puoi visualizzare solo gli avvisi di tua proprietà o che sono condivisi con te. |
+| **[!UICONTROL Tag]** | Tag per l&#39;avviso. |
+| **[!UICONTROL Expiration Date (Data di scadenza)]** | La data e l’ora in cui l’avviso è impostato per scadere. |
+| **[!UICONTROL Data di modifica]** | Data e ora dell’ultima modifica apportata all’avviso. |
 
 <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
 
@@ -53,25 +53,25 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 
 | Icona | Azione | Descrizione |
 |:---:|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Add]** | Aggiungere un altro avviso utilizzando [Generatore di avvisi](alert-builder.md#alert-builder). |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Aggiungi]** | Aggiungere un altro avviso utilizzando [Generatore di avvisi](alert-builder.md#alert-builder). |
 | ![Ricerca](/help/assets/icons/Search.svg) | [!UICONTROL *Ricerca per titolo*] | Se nell&#39;elenco non è selezionato alcun avviso, cercare gli avvisi utilizzando questo campo di ricerca. |
-| ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Assegna tag agli avvisi selezionati. Nella finestra di dialogo **[!UICONTROL Tag Alert]**, seleziona o deseleziona i tag per gli avvisi selezionati. Selezionare **[!UICONTROL Save]** per salvare i tag per gli avvisi selezionati. |
-| ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina gli avvisi selezionati. Viene richiesta una conferma. |
-| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinominare un singolo avviso selezionato. Se questa opzione è selezionata, è possibile rinominare l&#39;avviso in linea. |
-| ![Copia](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Copia l’avviso selezionato. Vengono creati nuovi avvisi con lo stesso nome e suffisso `(Copy)`. |
-| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Enable]** o **[!UICONTROL Disable]** | Attiva o disattiva gli avvisi selezionati. |
-| ![Aggiorna](/help/assets/icons/Refresh.svg) | **[!UICONTROL Renew]** | Rinnova la data di scadenza dell’avviso. La data di scadenza si estende per 1 anno dal giorno in cui è stata selezionata questa opzione, indipendentemente dalla data di scadenza originale. |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Esporta gli avvisi in un file `Alerts List.csv`. |
+| ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Assegna tag agli avvisi selezionati. Nella finestra di dialogo **[!UICONTROL Avviso tag]**, seleziona o deseleziona i tag per gli avvisi selezionati. Seleziona **[!UICONTROL Salva]** per salvare i tag per gli avvisi selezionati. |
+| ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Elimina]** | Elimina gli avvisi selezionati. Viene richiesta una conferma. |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rinomina]** | Rinominare un singolo avviso selezionato. Se questa opzione è selezionata, è possibile rinominare l&#39;avviso in linea. |
+| ![Copia](/help/assets/icons/Copy.svg) | **[!UICONTROL Copia]** | Copia l’avviso selezionato. Vengono creati nuovi avvisi con lo stesso nome e suffisso `(Copy)`. |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Abilita]** o **[!UICONTROL Disabilita]** | Attiva o disattiva gli avvisi selezionati. |
+| ![Aggiorna](/help/assets/icons/Refresh.svg) | **[!UICONTROL Rinnova]** | Rinnova la data di scadenza dell’avviso. La data di scadenza si estende per 1 anno dal giorno in cui è stata selezionata questa opzione, indipendentemente dalla data di scadenza originale. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Esporta in CSV]** | Esporta gli avvisi in un file `Alerts List.csv`. |
 
 
 ### Barra dei filtri attivi
 
-La barra dei filtri ➌ mostra i filtri attivi applicati dal pannello dei filtri all&#39;elenco degli avvisi (se presenti). Puoi rimuovere rapidamente un filtro utilizzando ![CrossSize75](/help/assets/icons/CrossSize75.svg). Se sono specificati più filtri, puoi rimuoverli tutti utilizzando **[!UICONTROL Remove all]**.
+La barra dei filtri ➌ mostra i filtri attivi applicati dal pannello dei filtri all&#39;elenco degli avvisi (se presenti). Puoi rimuovere rapidamente un filtro utilizzando ![CrossSize75](/help/assets/icons/CrossSize75.svg). Se sono specificati più filtri, è possibile rimuovere tutti i filtri utilizzando **[!UICONTROL Rimuovi tutto]**.
 
 
 ### Pannello dei filtri
 
-Puoi filtrare l&#39;elenco degli avvisi utilizzando il ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** pannello sinistro ➍. Nel pannello dei filtri viene visualizzato il tipo di filtro e il numero di avvisi che rispettano il filtro specifico.
+Puoi filtrare l&#39;elenco degli avvisi utilizzando il ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]** pannello sinistro ➍. Nel pannello dei filtri viene visualizzato il tipo di filtro e il numero di avvisi che rispettano il filtro specifico.
 
 
 1. Seleziona ![Filtro](/help/assets/icons/Filter.svg) per aprire il pannello dei Filtri. Se hai bisogno di più spazio per l&#39;elenco Avvisi, puoi selezionare ancora ![Filtro](/help/assets/icons/Filter.svg) per chiudere il pannello.
@@ -113,7 +113,7 @@ Puoi filtrare l&#39;elenco degli avvisi utilizzando il ![Filtro](/help/assets/ic
 
 È possibile modificare un avviso
 
-* Nell&#39;elenco [[!UICONTROL Alert]](#alerts-list), selezionare il titolo dell&#39;avviso.
+* Nell&#39;elenco [[!UICONTROL Avviso]](#alerts-list), selezionare il titolo dell&#39;avviso.
 
 Per modificare l&#39;avviso, utilizzare [Generatore di avvisi](alert-builder.md#alert-builder).
 

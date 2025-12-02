@@ -4,10 +4,10 @@ title: Panoramica sugli intervalli di date
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +21,7 @@ I componenti intervallo di date consentono di definire e sovrascrivere le impost
 
 +++ View a video illustrating use of calendar and date ranges
 
->[!VIDEO](https://video.tv.adobe.com/v/329388?captions=ita&format=jpeg)
+>[!VIDEO](https://video.tv.adobe.com/v/24136?format=jpeg)
 
 {{videoaa}}
 +++
@@ -44,19 +44,19 @@ In alternativa, in una tabella a forma libera puoi utilizzare un intervallo di d
 >Quando si utilizzano intervalli di date in una tabella a forma libera, gli intervalli di date sovrascrivono il calendario specificato per il pannello a cui appartiene la tabella a forma libera.
 >
 
-Utilizza l’intervallo di date come [useresti qualsiasi componente](/help/components/overview.md#analysis-workspace-components). Trascina l’intervallo di date dal ![Calendario](/help/assets/icons/Calendar.svg) **[!UICONTROL Date ranges]** del pannello dei componenti in:
+Utilizza l’intervallo di date come [useresti qualsiasi componente](/help/components/overview.md#analysis-workspace-components). Trascina l&#39;intervallo di date dal pannello del componente ![Calendario](/help/assets/icons/Calendar.svg) **[!UICONTROL Intervalli di date]** e rilascia il componente in:
 
-- **[!UICONTROL Calendar]**: ![scambia](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** la configurazione del calendario corrente con l’intervallo di date.
-- **Intestazione colonna Metrica**: ![sostituisci](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** la metrica, ![aggiungi ](/help/assets/icons/Add.svg)**[!UICONTROL Add]**l’intervallo di date come metrica o ![filtra](/help/assets/icons/Filter.svg)**[!UICONTROL Filter]**la metrica utilizzando il componente intervallo di date.
-- **Intestazione colonna Dimensione**: ![sostituisci](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** le dimensioni correnti. La nuova dimensione è ora **[!UICONTROL Date ranges]**. Una volta che la dimensione è Intervalli di date, puoi ![aggiungere ](/help/assets/icons/Add.svg)**[!UICONTROL Add]**ulteriori intervalli di date come elementi dimensione.
-- **Elemento dimensione**: ![raggruppa](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** l’elemento dimensione specifico in base all’intervallo di date.
+- **[!UICONTROL Calendario]**: ![Cambia](/help/assets/icons/Switch.svg) **[!UICONTROL Sostituisci]** la configurazione del calendario corrente con l&#39;intervallo di date.
+- **Intestazione colonna metrica**: ![Cambiare](/help/assets/icons/Switch.svg) **[!UICONTROL Sostituire]** la metrica, ![Aggiungere](/help/assets/icons/Add.svg)**[!UICONTROL Aggiungere ]**l&#39;intervallo di date come metrica o ![Filtrare](/help/assets/icons/Filter.svg)**[!UICONTROL  Filtrare ]**la metrica utilizzando il componente intervallo di date.
+- **Intestazione colonna Dimension**: ![Cambia](/help/assets/icons/Switch.svg) **[!UICONTROL Sostituisci]** le dimensioni correnti. La nuova dimensione è ora **[!UICONTROL Intervalli di date]**. Una volta che la dimensione è Intervalli di date, puoi ![Aggiungere](/help/assets/icons/Add.svg)**[!UICONTROL Aggiungere ]**intervalli di date aggiuntivi come elementi dimensione.
+- **Elemento Dimension**: ![Suddivisione](/help/assets/icons/Breakdown.svg) **[!UICONTROL Suddivisione]** dell&#39;elemento dimensione specifico in base all&#39;intervallo di date.
 
 Puoi anche aggiungere una colonna di intervalli di date direttamente in una visualizzazione tabella a forma libera:
 
 1. In una colonna di metrica, seleziona dal menu di scelta rapida:
 
-   - **[!UICONTROL Add time period column]**. Puoi scegliere tra le opzioni suggerite basate sul calendario corrente o creare un [intervallo di date personalizzato](#custom-date-ranges).
-   - **[!UICONTROL Compare time periods]**. Puoi scegliere tra un’opzione suggerita basata sul calendario corrente o creare un [intervallo di date personalizzato](#custom-date-ranges).
+   - **[!UICONTROL Aggiungi colonna periodo di tempo]**. Puoi scegliere tra le opzioni suggerite basate sul calendario corrente o creare un [intervallo di date personalizzato](#custom-date-ranges).
+   - **[!UICONTROL Confronta periodi di tempo]**. Puoi scegliere tra un’opzione suggerita basata sul calendario corrente o creare un [intervallo di date personalizzato](#custom-date-ranges).
 
 1. In base alla selezione, alla tabella a forma libera vengono aggiunte altre colonne di intervalli di date.
 

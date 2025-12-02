@@ -4,9 +4,9 @@ title: Risoluzione dei problemi di Area di lavoro percorso
 feature: Visualizations
 role: User
 exl-id: f0ac3752-9244-4d9e-807b-e6471e6aa55b
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Poiché l’area di lavoro del Percorso consente di utilizzare qualsiasi metrica
 
 Il percorso utilizzato negli scenari seguenti è configurato con queste impostazioni:
 
-* **[!UICONTROL Person]** è impostato come contenitore
+* **[!UICONTROL Persona]** impostata come contenitore
 
 * **[!UICONTROL Event]** è impostato come metrica principale
 
@@ -83,13 +83,13 @@ When a journey contains multiple paths that converge into a single node, the two
 
 ### Percentuali percorsi
 
-Anche se i numeri visualizzati su ciascun nodo di un percorso rimangono costanti indipendentemente da ciò che è selezionato nel campo **[!UICONTROL Percentage value]**, le percentuali stesse possono cambiare.
+Anche se i numeri visualizzati in ogni nodo di un percorso rimangono costanti indipendentemente da ciò che è selezionato nel campo **[!UICONTROL Valore percentuale]**, le percentuali stesse possono cambiare.
 
-Le sezioni seguenti mostrano come le percentuali possono cambiare per lo stesso percorso, a seconda di quale delle seguenti opzioni è selezionata nel campo **[!UICONTROL Percentage value]**:
+Le sezioni seguenti mostrano come le percentuali possono cambiare per lo stesso percorso, a seconda di quale delle seguenti opzioni è selezionata nel campo **[!UICONTROL Valore percentuale]**:
 
 +++Percentuale del nodo iniziale
 
-I nodi di questo percorso contengono le statistiche seguenti quando il campo **[!UICONTROL Percentage value]** è impostato su **[!UICONTROL Percent of start node]**:
+I nodi di questo percorso contengono le statistiche seguenti quando il campo **[!UICONTROL Valore percentuale]** è impostato su **[!UICONTROL Percentuale del nodo iniziale]**:
 
 ![Percorso con nodi con una percentuale superiore rispetto al nodo precedente](assets/journey-canvas-higher-percentage.png)
 
@@ -103,7 +103,7 @@ I nodi di questo percorso contengono le statistiche seguenti quando il campo **[
 
 +++Percentuale del nodo precedente
 
-I nodi di questo percorso contengono le statistiche seguenti quando il campo **[!UICONTROL Percentage value]** è impostato su **[!UICONTROL Percent of previous node]**:
+I nodi di questo percorso contengono le statistiche seguenti quando il campo **[!UICONTROL Valore percentuale]** è impostato su **[!UICONTROL Percentuale del nodo precedente]**:
 
 ![Percorso con nodi con una percentuale superiore rispetto al nodo precedente](assets/journey-canvas-percentage-previous.png)
 
@@ -117,7 +117,7 @@ I nodi di questo percorso contengono le statistiche seguenti quando il campo **[
 
 +++Percentuale del totale
 
-I nodi di questo percorso contengono le statistiche seguenti quando il campo **[!UICONTROL Percentage value]** è impostato su **[!UICONTROL Percent of total]**:
+I nodi di questo percorso contengono le statistiche seguenti quando il campo **[!UICONTROL Valore percentuale]** è impostato su **[!UICONTROL Percentuale del totale]**:
 
 ![Percorso con nodi con una percentuale superiore rispetto al nodo precedente](assets/journey-canvas-percentage-total.png)
 

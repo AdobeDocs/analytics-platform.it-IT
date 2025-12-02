@@ -4,10 +4,10 @@ title: Pannello vuoto
 feature: Panels
 exl-id: b65d0031-b4c0-4400-8d67-9416f3c993b6
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 93%
+source-wordcount: '253'
+ht-degree: 69%
 
 ---
 
@@ -26,18 +26,18 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive il pannello vuoto in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulta [Pannello vuoto](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/blank-panel) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive il pannello vuoto in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta [Pannello vuoto](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/blank-panel) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
 
-Un **[!UICONTROL Blank panel]** mostra una selezione di pannelli (indicati da ![WebPage](/help/assets/icons/WebPage.svg)) o di visualizzazioni che è possibile creare per generare un’analisi completamente personalizzata.
+Un **[!UICONTROL pannello vuoto]** mostra una selezione di pannelli (indicati da ![WebPage](/help/assets/icons/WebPage.svg)) o visualizzazioni che è possibile creare per creare un&#39;analisi completamente personalizzata.
 
 ## Utilizzo
 
-Per utilizzare un **[!UICONTROL Blank panel]**:
+Per utilizzare un **[!UICONTROL pannello vuoto]**:
 
-1. Crea un **[!UICONTROL Blank panel]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
+1. Crea un **[!UICONTROL pannello vuoto]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
    ![Creare un pannello](assets/create-panel.png)
 
@@ -49,7 +49,7 @@ Per utilizzare un **[!UICONTROL Blank panel]**:
    * Quando selezioni un pannello, il pannello vuoto lascia il posto al pannello selezionato.
    * Quando selezioni una visualizzazione, questa viene aggiunta al pannello vuoto.
 
-   Ad esempio, seleziona una visualizzazione (come ![ViewList](/help/assets/icons/ViewList.svg) **[!UICONTROL Cohort table]**) da aggiungere al pannello oppure seleziona un pannello (come ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Attribution]**) per modificare il pannello in un pannello di attribuzione.
+   Ad esempio, seleziona una visualizzazione (come ![VisualizzaElenco](/help/assets/icons/ViewList.svg) **[!UICONTROL Tabella coorte]**) da aggiungere al pannello, oppure seleziona un pannello (come ![PaginaWeb](/help/assets/icons/WebPage.svg) **[!UICONTROL Attribuzione]**) per modificare il pannello in un pannello Attribuzione.
 
 
 

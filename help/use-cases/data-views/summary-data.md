@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '4440'
-ht-degree: 17%
+source-wordcount: '5021'
+ht-degree: 14%
 
 ---
 
@@ -294,28 +294,28 @@ I dati di riepilogo richiedono uno schema di riepilogo in Experience Platform. U
 Per creare uno schema di riepilogo in Experience Platform:
 
 1. Seleziona **[!UICONTROL Experience Platform]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
-1. Seleziona **[!UICONTROL Schemas]** nella barra a sinistra.
-1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create schema]**.
-1. Selezionare **[!UICONTROL Manual]** nella finestra di dialogo **[!UICONTROL Create a schema]**. Quindi utilizzare **[!UICONTROL Select]** per continuare.
-1. Nel passaggio **[!UICONTROL Select a class]** della procedura guidata **[!UICONTROL Schemas]** > **[!UICONTROL Create schema]**, seleziona **[!UICONTROL Other]** dalle opzioni **[!UICONTROL Select a base class for this schema]**.
-1. Dall&#39;elenco, selezionare **[!UICONTROL XDM Summary Metrics]** (oppure utilizzare il campo ![Cerca](/help/assets/icons/Search.svg) per cercare) e selezionare **[!UICONTROL Next]**.
-1. Nel passaggio **[!UICONTROL Name and review]** della procedura guidata **[!UICONTROL Schemas]** > **[!UICONTROL Create schema]**, immettere un **[!UICONTROL Schema display name]**, ad esempio `Example Summary Data Schema` e una descrizione facoltativa. Seleziona **[!UICONTROL Finish]** per completare questo passaggio.
+1. Seleziona **[!UICONTROL Schemi]** dalla barra a sinistra.
+1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Crea schema]**.
+1. Selezionare **[!UICONTROL Manuale]** nella finestra di dialogo **[!UICONTROL Crea schema]**. Quindi usa **[!UICONTROL Seleziona]** per continuare.
+1. Nel passaggio **[!UICONTROL Seleziona una classe]** della procedura guidata **[!UICONTROL Schemi]** > **[!UICONTROL Crea schema]**, seleziona **[!UICONTROL Altro]** dalle opzioni **[!UICONTROL Seleziona una classe base per questo schema]**.
+1. Dall&#39;elenco, selezionare **[!UICONTROL Metriche di riepilogo XDM]** (oppure utilizzare il campo ![Cerca](/help/assets/icons/Search.svg) per cercare) e selezionare **[!UICONTROL Avanti]**.
+1. Nel passaggio **[!UICONTROL Nome e revisione]** della procedura guidata **[!UICONTROL Schemi]** > **[!UICONTROL Crea schema]**, immettere un **[!UICONTROL Nome visualizzato dello schema]**, ad esempio `Example Summary Data Schema` e una descrizione facoltativa. Seleziona **[!UICONTROL Fine]** per completare questo passaggio.
 
 Viene visualizzata la struttura dello schema di riepilogo di base, pronta per essere incrementata con i campi per i dati di riepilogo. Puoi aggiungere campi a uno schema utilizzando i gruppi di campi.
 
 Per aggiungere un gruppo di campi contenente i campi per i dati di esempio:
 
-1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** in **[!UICONTROL Field groups]**.
-1. Nella finestra di dialogo **[!UICONTROL Add field groups]**, seleziona **[!UICONTROL Create new field group]**.
-1. Immettere **[!UICONTROL Display name]** per il gruppo di campi, ad esempio `Example Summary Data`. Fornisci facoltativamente una descrizione.
-1. Seleziona **[!UICONTROL Add field groups]**.
-1. Sei di nuovo nell’interfaccia utente della struttura dello schema. Selezionare il nuovo **[!UICONTROL Example Summary Data]** in **[!UICONTROL Field groups]**.
-1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) accanto al nome dello schema **[!UICONTROL Example summary Data Schema]**. Viene aperto un pannello **[!UICONTROL Field properties]** che consente di aggiungere dettagli a un campo.
-   1. Immetti **[!UICONTROL Field name]**: `campaign_id`
-   1. Immetti **[!UICONTROL Display name]**: `campaign_id`
-   1. Selezionare **[!UICONTROL Type]** dal menu a discesa **[!UICONTROL Select data type]**: **[!UICONTROL String]**
-   1. Verificare che **[!UICONTROL Assign to]** **[!UICONTROL Field group]** sia selezionato e selezionare **[!UICONTROL Example Summary Data]** dal menu a discesa.
-   1. Scorrere verso il basso e selezionare **[!UICONTROL Apply]**.
+1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** in **[!UICONTROL Gruppi di campi]**.
+1. Nella finestra di dialogo **[!UICONTROL Aggiungi gruppi di campi]**, seleziona **[!UICONTROL Crea nuovo gruppo di campi]**.
+1. Immetti un **[!UICONTROL Nome visualizzato]** per il gruppo di campi, ad esempio `Example Summary Data`. Fornisci facoltativamente una descrizione.
+1. Seleziona **[!UICONTROL Aggiungi gruppi di campi]**.
+1. Sei di nuovo nell’interfaccia utente della struttura dello schema. Selezionare i nuovi **[!UICONTROL Dati di riepilogo di esempio]** in **[!UICONTROL Gruppi di campi]**.
+1. Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) accanto al nome dello schema **[!UICONTROL Esempio di schema di riepilogo dei dati]**. Viene aperto un pannello **[!UICONTROL Proprietà campo]** che consente di aggiungere dettagli a un campo.
+   1. Immetti un **[!UICONTROL nome campo]**: `campaign_id`
+   1. Immetti un **[!UICONTROL nome visualizzato]**: `campaign_id`
+   1. Seleziona un **[!UICONTROL Tipo]** dal menu a discesa **[!UICONTROL Seleziona tipo di dati]**: **[!UICONTROL Stringa]**
+   1. Assicurarsi che sia selezionato **[!UICONTROL Assegna a]** **[!UICONTROL Gruppo di campi]** e selezionare **[!UICONTROL Esempio di dati di riepilogo]** dal menu a discesa.
+   1. Scorri verso il basso e seleziona **[!UICONTROL Applica]**.
 1. Ripetere il passaggio precedente per gli altri campi dei dati di riepilogo. Per i valori corretti, consulta la tabella seguente.
 
    | Nome campo: | Nome visualizzato | Tipo | Gruppo di campi |
@@ -326,7 +326,7 @@ Per aggiungere un gruppo di campi contenente i campi per i dati di esempio:
    | `impression` | `impression` | Numero intero | Esempio di dati di riepilogo |
    | `network` | `network` | Stringa | Esempio di dati di riepilogo |
 
-1. Per salvare il gruppo di campi **[!UICONTROL Example Summary Data]** come parte dello schema, seleziona **[!UICONTROL Save]**. Viene visualizzata una conferma quando lo schema viene salvato correttamente.
+1. Per salvare il gruppo di campi **[!UICONTROL Dati di riepilogo di esempio]** come parte dello schema, seleziona **[!UICONTROL Salva]**. Viene visualizzata una conferma quando lo schema viene salvato correttamente.
 
 Ora hai definito uno schema, con i dettagli del modello per i dati di riepilogo. Simile a quello riportato di seguito.
 
@@ -343,40 +343,40 @@ Per memorizzare i dati di riepilogo in Experience Platform, devi innanzitutto cr
 Per creare un set di dati:
 
 1. Seleziona **[!UICONTROL Experience Platform]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
-1. Seleziona **[!UICONTROL Datasets]** nella barra a sinistra.
-1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create dataset]**.
-1. Nella schermata **[!UICONTROL Datasets]** > **[!UICONTROL Create datasets]**, selezionare **[!UICONTROL Create dataset from schema]**.
-1. Nel passaggio **[!UICONTROL Select schema]** della procedura guidata **[!UICONTROL Workflows]** > **[!UICONTROL Create dataset from schema]**, ![Cerca](/help/assets/icons/Search.svg) e seleziona **[!UICONTROL Example Summary Data Schema]**.
-1. Seleziona **[!UICONTROL Next]**.
-1. Nel passaggio **[!UICONTROL Configure dataset]** della procedura guidata **[!UICONTROL Workflows]** > **[!UICONTROL Create dataset from schema]**:
-   1. Immettere un **[!UICONTROL Name]** per il set di dati, ad esempio: `Example Summary Data Dataset`. Fornisci facoltativamente una descrizione.
-   1. Seleziona **[!UICONTROL Finish]**.
+1. Seleziona **[!UICONTROL Set di dati]** dalla barra a sinistra.
+1. Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Crea set di dati]**.
+1. Nella schermata **[!UICONTROL Set di dati]** > **[!UICONTROL Crea set di dati]**, seleziona **[!UICONTROL Crea set di dati dallo schema]**.
+1. Nel passaggio **[!UICONTROL Seleziona schema]** della procedura guidata **[!UICONTROL Flussi di lavoro]** > **[!UICONTROL Crea set di dati dallo schema]**, ![Cerca](/help/assets/icons/Search.svg) e seleziona il **[!UICONTROL Esempio di schema di riepilogo dei dati]**.
+1. Seleziona **[!UICONTROL Avanti]**.
+1. Nel passaggio **[!UICONTROL Configura set di dati]** della procedura guidata **[!UICONTROL Flussi di lavoro]** > **[!UICONTROL Crea set di dati dallo schema]**:
+   1. Immetti un **[!UICONTROL Nome]** per il set di dati, ad esempio: `Example Summary Data Dataset`. Fornisci facoltativamente una descrizione.
+   1. Seleziona **[!UICONTROL Fine]**.
 
 Viene visualizzata una schermata con i dettagli del nuovo set di dati.
 
 Per caricare i dati di esempio in questo set di dati:
 
 1. Seleziona **[!UICONTROL Experience Platform]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
-1. Seleziona **[!UICONTROL Workflows]** nella barra a sinistra.
-   1. Selezionare **[!UICONTROL Map CSV to XDM schema]** dalle opzioni **[!UICONTROL Data ingestion]** nella schermata **[!UICONTROL Workflows]**.
-   1. Selezionare **[!UICONTROL Launch]** dal pannello **[!UICONTROL Map CSV to XDM schema]**.
-1. Nel passaggio **[!UICONTROL Dataflow detail]** della procedura guidata **[!UICONTROL Workflows]** > **[!UICONTROL Map CSV to XDM schema]**:
-   1. Selezionare **[!UICONTROL Existing dataset]** per **[!UICONTROL Target dataset]**.
-   1. Selezionare **[!UICONTROL Example Summary Data Dataset]** dal menu a discesa.
-   1. Seleziona **[!UICONTROL Next]**.
-1. Nel passaggio **[!UICONTROL Select data]** della procedura guidata **[!UICONTROL Workflows]** > **[!UICONTROL Map CSV to XDM schema]**:
-   1. Trascina il file con dati di riepilogo in formato CSV su **[!UICONTROL Drag and drop files]**. In alternativa, utilizzare **[!UICONTROL Choose files]** per selezionare il file.
-   1. Assicurarsi che **[!UICONTROL Data format]** e **[!UICONTROL Delimiter]** abbiano i valori corretti per i dati di esempio. **[!UICONTROL Delimited]** come **[!UICONTROL Data format]** e **[!UICONTROL ,]** come **[!UICONTROL Delimiter]**.
-   1. Un esempio (10 record) dei dati di riepilogo viene visualizzato in **[!UICONTROL Sample data]**.
-   1. Seleziona **[!UICONTROL Next]**.
-1. Nel passaggio **[!UICONTROL Mapping]** della procedura guidata **[!UICONTROL Workflows]** > **[!UICONTROL Map CSV to XDM schema]**:
+1. Seleziona **[!UICONTROL Flussi di lavoro]** dalla barra a sinistra.
+   1. Seleziona **[!UICONTROL Mappa CSV su schema XDM]** dalle opzioni **[!UICONTROL Acquisizione dati]** nella schermata **[!UICONTROL Flussi di lavoro]**.
+   1. Seleziona **[!UICONTROL Avvia]** dal pannello **[!UICONTROL Mappa CSV a schema XDM]**.
+1. Nel passaggio **[!UICONTROL Dettagli flusso di dati]** della procedura guidata **[!UICONTROL Flussi di lavoro]** > **[!UICONTROL Mappa CSV su schema XDM]**:
+   1. Seleziona **[!UICONTROL Set di dati esistente]** per **[!UICONTROL Set di dati di destinazione]**.
+   1. Seleziona **[!UICONTROL Esempio di set di dati di riepilogo]** dal menu a discesa.
+   1. Seleziona **[!UICONTROL Avanti]**.
+1. Nel passaggio **[!UICONTROL Seleziona dati]** della procedura guidata **[!UICONTROL Flussi di lavoro]** > **[!UICONTROL Mappa CSV a schema XDM]**:
+   1. Trascina il file con dati di riepilogo in formato CSV su **[!UICONTROL Trascina i file]**. In alternativa, utilizzare **[!UICONTROL Scegli file]** per selezionare il file.
+   1. Assicurati che **[!UICONTROL Formato dati]** e **[!UICONTROL Delimitatore]** abbiano i valori corretti per i dati di esempio. Ad esempio, **[!UICONTROL Delimitato]** come **[!UICONTROL Formato dati]** e **[!UICONTROL ,]** come **[!UICONTROL Delimitatore]**.
+   1. Un campione (10 record) dei dati di riepilogo viene visualizzato in **[!UICONTROL Dati di esempio]**.
+   1. Seleziona **[!UICONTROL Avanti]**.
+1. Nel passaggio **[!UICONTROL Mappatura]** della procedura guidata **[!UICONTROL Flussi di lavoro]** > **[!UICONTROL Mappatura CSV a schema XDM]**:
    ![Mappatura set di dati di esempio](../assets/example-dataset-mapping.png)
-   1. Verifica se tutti i campi dati di **[!UICONTROL Source Data]** sono mappati correttamente al **[!UICONTROL Target fields]** corrispondente nello schema. Per i dati di esempio, non vengono segnalati errori poiché i campi presenti nello schema sono stati denominati in modo esplicito, in modo simile ai nomi dei campi presenti nei dati di esempio. In caso contrario, è possibile utilizzare questa schermata per correggere la mappatura.
-   1. È possibile selezionare ![Ingranaggio](/help/assets/icons/Gear.svg) **[!UICONTROL Validate]** per convalidare (ancora una volta) i dati.
-   1. Facoltativamente, è possibile selezionare ![Anteprima](/help/assets/icons/Preview.svg) **[!UICONTROL Preview data]** per aprire una finestra di dialogo con un&#39;anteprima dei dati una volta caricati nel set di dati.
-   1. Seleziona **[!UICONTROL Finish]**.
+   1. Verifica se tutti i campi dati di **[!UICONTROL Dati Source]** sono mappati correttamente ai **[!UICONTROL Campi Target]** corrispondenti nello schema. Per i dati di esempio, non vengono segnalati errori poiché i campi presenti nello schema sono stati denominati in modo esplicito, in modo simile ai nomi dei campi presenti nei dati di esempio. In caso contrario, è possibile utilizzare questa schermata per correggere la mappatura.
+   1. Facoltativamente puoi selezionare ![Gear](/help/assets/icons/Gear.svg) **[!UICONTROL Validate]** per convalidare (ancora una volta) i dati.
+   1. È possibile selezionare ![Anteprima](/help/assets/icons/Preview.svg) **[!UICONTROL Anteprima dati]** per aprire una finestra di dialogo con un&#39;anteprima dei dati una volta caricati nel set di dati.
+   1. Seleziona **[!UICONTROL Fine]**.
 
-In **[!UICONTROL Sources]** > **[!UICONTROL Dataflow - XX/XX/XXXX, XX:XXXX]**, viene visualizzato lo stato del caricamento. Aggiorna per visualizzare gli aggiornamenti del caricamento. In caso di esito positivo, i dati di esempio vengono caricati in Experience Platform.
+In **[!UICONTROL Origini]** > **[!UICONTROL Flusso di dati - XX/XX/XXXX, XX:XX XX]**, viene visualizzato lo stato del caricamento. Aggiorna per visualizzare gli aggiornamenti del caricamento. In caso di esito positivo, i dati di esempio vengono caricati in Experience Platform.
 
 
 
@@ -387,54 +387,54 @@ Per utilizzare i dati di esempio in Customer Journey Analytics, crea una conness
 
 
 1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
-1. Selezionare **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
-1. Seleziona **[!UICONTROL Create new connection]**.
-1. In **[!UICONTROL Connections]** > **[!UICONTROL Untitled connection]**:
-   1. Immetti un **[!UICONTROL Connection name]**, ad esempio `Example Connection Using Summary Data`.
+1. Seleziona **[!UICONTROL Connessioni]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
+1. Selezionare **[!UICONTROL Crea nuova connessione]**.
+1. In **[!UICONTROL Connessioni]** > **[!UICONTROL Connessione senza titolo]**:
+   1. Immettere un **[!UICONTROL nome connessione]**, ad esempio `Example Connection Using Summary Data`.
    1. Dal menu a discesa Sandbox, seleziona la sandbox che contiene il set di dati creato e gli altri set di dati da includere.
-   1. Selezionare **[!UICONTROL less than 1 million]** dal menu a discesa **[!UICONTROL Average number of daily events]**.
-   1. Seleziona **[!UICONTROL Add datasets]**.
-   1. Nel passaggio **[!UICONTROL Select datasets]** della procedura guidata **[!UICONTROL Add datasets]**:
-      1. Cerca in ![Cerca](/help/assets/icons/Search.svg) e seleziona **[!UICONTROL Example Summary Data Dataset]**, **[!UICONTROL Example Event Data Dataset]** e **[!UICONTROL Example Lookup Data Dataset]**.
-      1. Seleziona **[!UICONTROL Next]**.
-   1. Nel passaggio **[!UICONTROL Datasets settings]** della procedura guidata **[!UICONTROL Add datasets]**:
+   1. Selezionare **[!UICONTROL meno di 1 milione]** dal menu a discesa **[!UICONTROL Numero medio di eventi giornalieri]**.
+   1. Seleziona **[!UICONTROL Aggiungi set di dati]**.
+   1. Nel passaggio **[!UICONTROL Seleziona set di dati]** della procedura guidata **[!UICONTROL Aggiungi set di dati]**:
+      1. Cerca in ![Cerca](/help/assets/icons/Search.svg) e seleziona **[!UICONTROL Esempio di set di dati di riepilogo]**, **[!UICONTROL Esempio di set di dati di eventi]** e **[!UICONTROL Esempio di set di dati di ricerca]**.
+      1. Seleziona **[!UICONTROL Avanti]**.
+   1. Nel passaggio **[!UICONTROL Impostazioni set di dati]** della procedura guidata **[!UICONTROL Aggiungi set di dati]**:
 
-      1. Per **[!UICONTROL Example Event Data Dataset]**:
+      1. Per il **[!UICONTROL Set di dati evento di esempio]**:
 
-         1. Verificare che le selezioni per **[!UICONTROL Person ID]** (`person_id`) e **[!UICONTROL Timestamp]** siano corrette.
-         1. Selezionare **[!UICONTROL Web Data]** da **[!UICONTROL Data source type]**.
-         1. Abilita **[!UICONTROL Import all new data]**.
-         1. Abilita **[!UICONTROL Backfill all existing data]**.
+         1. Verificare che le selezioni per **[!UICONTROL ID persona]** (`person_id`) e **[!UICONTROL Timestamp]** siano corrette.
+         1. Selezionare **[!UICONTROL Dati Web]** dal **[!UICONTROL Tipo origine dati]**.
+         1. Abilita **[!UICONTROL Importa tutti i nuovi dati]**.
+         1. Abilita **[!UICONTROL Recupero dati esistenti]**.
 
-      1. Per **[!UICONTROL Example Lookup Data Dataset]**:
+      1. Per il **[!UICONTROL Set di dati di ricerca di esempio]**:
 
-         1. Selezionare **[!UICONTROL tracking_code]** come **[!UICONTROL Key]** e **[!UICONTROL tracking_code (Event datasets)]** come chiave **[!UICONTROL Matching]**.
-         1. Selezionare **[!UICONTROL Web Data]** da **[!UICONTROL Data source type]**.
-         1. Abilita **[!UICONTROL Import all new data]**.
-         1. Abilita **[!UICONTROL Backfill all existing data]**.
+         1. Seleziona **[!UICONTROL tracking_code]** come **[!UICONTROL Key]** e **[!UICONTROL tracking_code (set di dati evento)]** come **[!UICONTROL Corrispondente]**.
+         1. Selezionare **[!UICONTROL Dati Web]** dal **[!UICONTROL Tipo origine dati]**.
+         1. Abilita **[!UICONTROL Importa tutti i nuovi dati]**.
+         1. Abilita **[!UICONTROL Recupero dati esistenti]**.
 
-      1. Per **[!UICONTROL Example Summary Data Dataset]**:
+      1. Per il **[!UICONTROL Set di dati di riepilogo di esempio]**:
 
          1. Verificare che le selezioni per **[!UICONTROL Timestamp]** e **[!UICONTROL Timezone]** siano corrette.
-         1. Abilita **[!UICONTROL Import all new data]**.
-         1. Abilita **[!UICONTROL Backfill all existing data]**.
+         1. Abilita **[!UICONTROL Importa tutti i nuovi dati]**.
+         1. Abilita **[!UICONTROL Recupero dati esistenti]**.
 
-      1. Seleziona **[!UICONTROL Add datasets]**.
+      1. Seleziona **[!UICONTROL Aggiungi set di dati]**.
 
-1. Nella schermata di connessione **[!UICONTROL Connections]** > **[!UICONTROL Example Connection using Summary Data]**, selezionare **[!UICONTROL Save]** per salvare la connessione.
+1. Nella schermata di connessione **[!UICONTROL Connessioni]** > **[!UICONTROL Esempio di connessione tramite dati di riepilogo]**, selezionare **[!UICONTROL Salva]** per salvare la connessione.
 
 I dati dei set di dati vengono aggiunti a Customer Journey Analytics, che può richiedere un paio d’ore. Quindi, per favore, attendi prima di continuare.
 
 Dopo un po’, verifica che i dati dei set di dati siano caricati correttamente in Customer Journey Analytics.
 
 1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
-1. Selezionare **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
-1. Selezionare la connessione, ad esempio **[!UICONTROL Example Connection Using Summary Data]**.
-1. Selezionare un intervallo di date appropriato nei dettagli **[!UICONTROL Connection]** > **[!UICONTROL Example Connection Using Summary data]**.
-   1. Selezionare ![Calendario](/help/assets/icons/Calendar.svg), quindi **[!UICONTROL Last 7 days]**.
-   1. Seleziona **[!UICONTROL Apply]**.
+1. Seleziona **[!UICONTROL Connessioni]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
+1. Seleziona la tua connessione, ad esempio **[!UICONTROL Connessione di esempio tramite dati di riepilogo]**.
+1. Selezionare un intervallo di date appropriato nei dettagli **[!UICONTROL Connessione]** > **[!UICONTROL Connessione di esempio utilizzando dati di riepilogo]**.
+   1. Seleziona ![Calendario](/help/assets/icons/Calendar.svg), quindi seleziona **[!UICONTROL Ultimi 7 giorni]**.
+   1. Seleziona **[!UICONTROL Applica]**.
 
-Nell&#39;elenco di **[!UICONTROL Datasets]**, i valori nella colonna **[!UICONTROL Records added]** devono confermare che i dati dei set di dati fanno ora parte di Customer Journey Analytics.
+Nell&#39;elenco dei **[!UICONTROL Set di dati]**, i valori nella colonna **[!UICONTROL Record aggiunti]** devono confermare che i dati dei set di dati fanno ora parte di Customer Journey Analytics.
 
 ![Esempio di connessione per i dati di riepilogo](../assets/example-connection-summary-data.png)
 
@@ -443,16 +443,16 @@ Nell&#39;elenco di **[!UICONTROL Datasets]**, i valori nella colonna **[!UICONTR
 Per poter creare rapporti sui dati corretti in Workspace, devi creare una visualizzazione dati contenente le metriche e le dimensioni pertinenti.
 
 1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
-1. Selezionare **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
-1. Seleziona **[!UICONTROL Create new data view]**.
-1. In **[!UICONTROL Data views]**, passare attraverso le schermate della procedura guidata per configurare la visualizzazione dati.
-   1. Nel passaggio **[!UICONTROL Configure]** di **[!UICONTROL Data views]**:
-      1. Seleziona la connessione da **[!UICONTROL Settings]** | **[!UICONTROL Connection]**. Ad esempio: **[!UICONTROL Example Connection Using Summary Data]**.
-      1. Immetti **[!UICONTROL Name]** per la visualizzazione dati, ad esempio `Example Data View Using Summary Data`.
+1. Seleziona **[!UICONTROL Visualizzazioni dati]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
+1. Selezionare **[!UICONTROL Crea nuova visualizzazione dati]**.
+1. In **[!UICONTROL Visualizzazioni dati]**, passa attraverso le schermate della procedura guidata per configurare la visualizzazione dati.
+   1. Nel passaggio **[!UICONTROL Configura]** di **[!UICONTROL Visualizzazioni dati]**:
+      1. Seleziona la tua connessione da **[!UICONTROL Impostazioni]** | **[!UICONTROL Connessione]**. Ad esempio, **[!UICONTROL Connessione Di Esempio Utilizzando Dati Di Riepilogo]**.
+      1. Immetti un **[!UICONTROL Nome]** per la visualizzazione dati, ad esempio `Example Data View Using Summary Data`.
       1. Lascia tutte le altre impostazioni.
-      1. Seleziona **[!UICONTROL Save and continue]**.
-   1. Nel passaggio **[!UICONTROL Components]** di **[!UICONTROL Data views]** > **[!UICONTROL Example Data View Using Summary Data]**:
-      1. Aggiungi i seguenti componenti all’elenco Dimensioni e metriche. Tieni presente che, per maggiore chiarezza, i nomi dei componenti vengono modificati dal loro nome predefinito, utilizzando **[!UICONTROL Component name]** in **[!UICONTROL Component settings]** nel pannello dei componenti (a destra).
+      1. Seleziona **[!UICONTROL Salva e continua]**.
+   1. Nel passaggio **[!UICONTROL Componenti]** di **[!UICONTROL Visualizzazioni dati]** > **[!UICONTROL Visualizzazione dati di esempio tramite dati di riepilogo]**:
+      1. Aggiungi i seguenti componenti all’elenco Dimensioni e metriche. Per maggiore chiarezza, i nomi dei componenti vengono modificati dal nome predefinito, utilizzando **[!UICONTROL Nome componente]** in **[!UICONTROL Impostazioni componente]** nel pannello dei componenti (a destra).
 
          **Metriche**
 
@@ -478,61 +478,61 @@ Per poter creare rapporti sui dati corretti in Workspace, devi creare una visual
          | Codice di tracciamento (evento) | Esempio di set di dati di dati evento | Stringa | *_tenant*.tracking_code |
          | Codice di tracciamento (ricerca) | Esempio di set di dati di ricerca | Stringa | *_tenant*.tracking_code |
 
-      1. Selezionare la dimensione **[!UICONTROL Tracking Code (Event)]** nell&#39;elenco **[!UICONTROL Dimensions]**. Nel pannello dei componenti:
+      1. Selezionare la dimensione **[!UICONTROL Codice di tracciamento (evento)]** nell&#39;elenco **[!UICONTROL Dimensioni]**. Nel pannello dei componenti:
 
          ![Rilevamento dei dati di riepilogo del codice](../assets/tracking-code-summary-data.png)
          1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary Data Group]**.
-         1. Abilita **[!UICONTROL Create grouping]**.
-         1. Selezionare **[!UICONTROL Campaign Id]** dal menu a discesa **[!UICONTROL Dimension]**. Questo passaggio garantisce che i dati dell’evento e i dati di riepilogo vengano combinati correttamente a scopo di reporting.
-         1. È possibile abilitare **[!UICONTROL Hide in reporting]**. [!UICONTROL Hide in reporting] assicura che la dimensione selezionata ([!UICONTROL Campaign Id]) sia nascosta in Analysis Workspace e in altri strumenti di reporting di Customer Journey Analytics. Se hai attivato questa opzione, puoi verificare quanto segue:
-            1. Selezionare la dimensione **[!UICONTROL Campaign Id]** nell&#39;elenco **[!UICONTROL Dimensions]**.
-            1. Si nota che **[!UICONTROL Hide component in reporting]** in **[!UICONTROL Component settings]** è ora abilitato automaticamente.
+         1. Abilita **[!UICONTROL Crea raggruppamento]**.
+         1. Seleziona **[!UICONTROL ID campagna]** dal menu a discesa **[!UICONTROL Dimension]**. Questo passaggio garantisce che i dati dell’evento e i dati di riepilogo vengano combinati correttamente a scopo di reporting.
+         1. Facoltativamente puoi abilitare **[!UICONTROL Nascondi nel reporting]**. [!UICONTROL Nascondi nel reporting] assicura che la dimensione selezionata ([!UICONTROL ID campagna]) sia nascosta in Analysis Workspace e in altri strumenti di reporting di Customer Journey Analytics. Se hai attivato questa opzione, puoi verificare quanto segue:
+            1. Selezionare la dimensione **[!UICONTROL ID campagna]** nell&#39;elenco **[!UICONTROL Dimensioni]**.
+            1. Noterai che **[!UICONTROL Nascondi componente nel reporting]** in **[!UICONTROL Impostazioni componente]** è ora abilitato automaticamente.
 
       1. Creare un nuovo campo derivato, ad esempio `Campaign Name (Lookup Derived Field)`, per garantire la possibilità di creare rapporti in Workspace utilizzando la dimensione Nome campagna (ricerca) dal set di dati Esempio di ricerca.
 
          ![Campo derivato per nome campagna](../aa-data/../assets/summary-derived-field.png)
 
-         1. Selezionare **[!UICONTROL campaign_id]** per **[!UICONTROL Value]**.
-         1. Selezionare **[!UICONTROL Example Lookup Data Dataset]** dal menu a discesa **[!UICONTROL Lookup dataset]**.
-         1. Selezionare **[!UICONTROL tracking_code]** dal menu a discesa **[!UICONTROL Matching Key]**.
-         1. Selezionare **[!UICONTROL campaign_name]** dal menu a discesa **[!UICONTROL Values to return]**.
-         1. Seleziona **[!UICONTROL Save]**.
+         1. Seleziona **[!UICONTROL campaign_id]** per **[!UICONTROL Value]**.
+         1. Seleziona **[!UICONTROL Esempio di set di dati di ricerca]** dal menu a discesa **[!UICONTROL Set di dati di ricerca]**.
+         1. Seleziona **[!UICONTROL tracking_code]** dal menu a discesa **[!UICONTROL Chiave corrispondente]**.
+         1. Seleziona **[!UICONTROL nome_campagna]** dal menu a discesa **[!UICONTROL Valori da restituire]**.
+         1. Seleziona **[!UICONTROL Salva]**.
 
-      1. Aggiungere il campo derivato appena creato **[!UICONTROL Campaign Name (Lookup Derived Field)]** all&#39;elenco dei componenti **[!UICONTROL Dimensions]**.
+      1. Aggiungere il campo derivato appena creato **[!UICONTROL Nome campagna (campo derivato dalla ricerca)]** all&#39;elenco dei componenti **[!UICONTROL Dimensioni]**.
 
-      1. Selezionare la dimensione **[!UICONTROL Campaign Name (Lookup)]** nell&#39;elenco **[!UICONTROL Dimensions]**. Nel pannello dei componenti:
+      1. Selezionare la dimensione **[!UICONTROL Nome campagna (ricerca)]** nell&#39;elenco **[!UICONTROL Dimensioni]**. Nel pannello dei componenti:
 
          ![Gruppo di dati di riepilogo campi derivati](../assets/derived-field-summary-data-group.png)
 
          1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary Data Group]**.
-         1. Abilita **[!UICONTROL Create grouping]**.
-         1. Selezionare **[!UICONTROL Campaign Name (Lookup Derived Field)]** dal menu a discesa **[!UICONTROL Dimension]**. Questo passaggio garantisce che il nome della campagna (ricerca) dal set di dati di ricerca di esempio possa essere utilizzato in modo sicuro nel reporting (vedi [Workspace](#workspace)).
+         1. Abilita **[!UICONTROL Crea raggruppamento]**.
+         1. Selezionare **[!UICONTROL Nome campagna (campo derivato dalla ricerca)]** dal menu a discesa **[!UICONTROL Dimension]**. Questo passaggio garantisce che il nome della campagna (ricerca) dal set di dati di ricerca di esempio possa essere utilizzato in modo sicuro nel reporting (vedi [Workspace](#workspace)).
 
-      1. Selezionare la metrica **[!UICONTROL Revenue]** dall&#39;elenco **[!UICONTROL Metrics]**. Nel pannello dei componenti:
+      1. Selezionare la metrica **[!UICONTROL Ricavi]** dall&#39;elenco **[!UICONTROL Metriche]**. Nel pannello dei componenti:
 
          ![Dati di riepilogo ricavi](../assets/revenue-summary-data.png)
-         1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
-            1. Selezionare ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** dal menu a discesa **[!UICONTROL Attribution Model]**.
-            1. Selezionare **[!UICONTROL 30 Day]** dal menu a discesa **[!UICONTROL Lookback window]**.
+         1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribuzione]**.
+            1. Seleziona ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** dal menu a discesa **[!UICONTROL Modello di attribuzione]**.
+            1. Seleziona **[!UICONTROL 30 giorni]** dal menu a discesa **[!UICONTROL Intervallo di lookback]**.
          1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **Formato**.
-            1. Selezionare **[!UICONTROL Currency]** dal menu a discesa **[!UICONTROL Format]**.
-            1. Selezionare **[!UICONTROL 2]** dal menu a discesa **[!UICONTROL Decimal places]**.
+            1. Selezionare **[!UICONTROL Valuta]** dal menu a discesa **[!UICONTROL Formato]**.
+            1. Seleziona **[!UICONTROL 2]** dal menu a discesa **[!UICONTROL Cifre decimali]**.
 
-      1. Selezionare la metrica **[!UICONTROL Orders]** dall&#39;elenco **[!UICONTROL Metrics]**. Nel pannello dei componenti:
+      1. Seleziona la metrica **[!UICONTROL Ordini]** dall&#39;elenco **[!UICONTROL Metriche]**. Nel pannello dei componenti:
 
          ![Dati di riepilogo ordini](../assets/orders-summary-data.png)
-         1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
-            1. Selezionare ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** dal menu a discesa **[!UICONTROL Attribution Model]**.
-            1. Selezionare **[!UICONTROL 30 Day]** dal menu a discesa **[!UICONTROL Lookback window]**.
-         1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Format]**.
-            1. Selezionare **[!UICONTROL Decimal]** dal menu a discesa **[!UICONTROL Format]**.
-            1. Selezionare **[!UICONTROL ▲ Good (green)]** dal menu a discesa **[!UICONTROL Show upward trend as]**.
+         1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribuzione]**.
+            1. Seleziona ![AttributeLastTouch](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** dal menu a discesa **[!UICONTROL Modello di attribuzione]**.
+            1. Seleziona **[!UICONTROL 30 giorni]** dal menu a discesa **[!UICONTROL Intervallo di lookback]**.
+         1. Espandi ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Formato]**.
+            1. Selezionare **[!UICONTROL Decimal]** dal menu a discesa **[!UICONTROL Formato]**.
+            1. Seleziona **[!UICONTROL ▲Buono (verde)]** dal menu a discesa **[!UICONTROL Mostra tendenza verso l&#39;alto come]**.
 
-      1. Seleziona **[!UICONTROL Save and continue]**.
+      1. Seleziona **[!UICONTROL Salva e continua]**.
 
-   1. Nel passaggio **[!UICONTROL Settings]** di **[!UICONTROL Data views]**:
+   1. Nel passaggio **[!UICONTROL Impostazioni]** di **[!UICONTROL Visualizzazioni dati]**:
       1. Lascia tutte le impostazioni sui valori predefiniti.
-      1. Seleziona **[!UICONTROL Save and finish.]**
+      1. Seleziona **[!UICONTROL Salva e termina.]**
 
 Ora hai impostato la visualizzazione dati per la generazione di rapporti corretti sui dati di riepilogo.
 
@@ -543,55 +543,55 @@ Per creare un rapporto sui dati di riepilogo, crea un nuovo progetto in Analysis
 
 1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
 1. Seleziona **[!UICONTROL Workspace]** dal menu principale.
-1. Seleziona **[!UICONTROL Create project]**.
-1. Seleziona **[!UICONTROL Blank Workspace project]** dalla finestra di dialogo con le opzioni per creare un progetto Workspace vuoto.
-1. Seleziona **[!UICONTROL Create]**.
+1. Seleziona **[!UICONTROL Crea progetto]**.
+1. Seleziona **[!UICONTROL Progetto Workspace vuoto]** dalla finestra di dialogo con le opzioni per creare un progetto Workspace vuoto.
+1. Seleziona **[!UICONTROL Crea]**.
 
-Viene visualizzata un&#39;area di lavoro vuota con un pannello [!UICONTROL Freeform], costituita da un [!UICONTROL Freeform table] vuoto.
+Viene visualizzata un&#39;area di lavoro vuota con un pannello [!UICONTROL a forma libera], costituita da una [!UICONTROL tabella a forma libera] vuota.
 
-1. Assicurati che la visualizzazione dati, selezionata per il pannello, faccia riferimento alla visualizzazione dati contenente la configurazione dei dati di riepilogo. Ad esempio: **[!UICONTROL Example Data View Using Summary Data.]**
-1. Assicurati che l’intervallo di date sia valido per i dati sui quali desideri creare rapporti. Ad esempio: **[!UICONTROL Last 2 full months]**.
-1. Trascinare **[!UICONTROL Tracking Code (Event)]** da **[!UICONTROL Dimensions]** e rilasciare la dimensione nella tabella a forma libera vuota.
-1. Trascinare **[!UICONTROL Orders]** da **[!UICONTROL Metrics]** e rilasciare la metrica nella colonna **[!UICONTROL Events]** per sostituire tale colonna nella tabella a forma libera.
-1. Trascina **[!UICONTROL Revenue]** da **[!UICONTROL Metrics]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
-1. Trascina **[!UICONTROL Impressions (Summary)]** da **[!UICONTROL Metrics]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
-1. Trascina **[!UICONTROL Cost (Summary)]** da **[!UICONTROL Metrics]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
-1. Per salvare il progetto, selezionare **[!UICONTROL Project]** > **[!UICONTROL Save]** e specificare un nome per il progetto. Ad esempio: `Example Project Using Summary Data`.
+1. Assicurati che la visualizzazione dati, selezionata per il pannello, faccia riferimento alla visualizzazione dati contenente la configurazione dei dati di riepilogo. Ad esempio, **[!UICONTROL Visualizzazione dati di esempio tramite dati di riepilogo.]**
+1. Assicurati che l’intervallo di date sia valido per i dati sui quali desideri creare rapporti. Ad esempio: **[!UICONTROL Ultimi 2 mesi interi]**.
+1. Trascina **[!UICONTROL Codice di tracciamento (evento)]** da **[!UICONTROL Dimensioni]** e rilascia la dimensione nella tabella a forma libera vuota.
+1. Trascina **[!UICONTROL Ordini]** da **[!UICONTROL Metriche]** e rilascia la metrica nella colonna **[!UICONTROL Eventi]** per sostituire tale colonna nella tabella a forma libera.
+1. Trascina **[!UICONTROL Ricavi]** da **[!UICONTROL Metriche]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
+1. Trascina **[!UICONTROL Impression (riepilogo)]** da **[!UICONTROL Metriche]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
+1. Trascina **[!UICONTROL Costo (riepilogo)]** da **[!UICONTROL Metriche]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
+1. Per salvare il progetto, seleziona **[!UICONTROL Progetto]** > **[!UICONTROL Salva]** e fornisci un nome per il progetto. Ad esempio: `Example Project Using Summary Data`.
 
 Desideri utilizzare la potenza della generazione rapporti sui dati di riepilogo e rapporti sul costo per impression e sul ritorno sulla spesa pubblicitaria (ROAS). Per generare rapporti su queste metriche, devi creare due metriche calcolate.
 
-1. Seleziona **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**.
-1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** per aggiungere una nuova metrica calcolata.
+1. Selezionare **[!UICONTROL Componenti]** > **[!UICONTROL Metriche calcolate]**.
+1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Aggiungi]** per aggiungere una nuova metrica calcolata.
    1. Specificare `Cost per Impression` per **[!UICONTROL Name]**.
-   1. Selezionare **[!UICONTROL Currency]** per **[!UICONTROL Format]**.
-   1. Specificare `4` per **[!UICONTROL Decimal places]**.
-   1. Utilizza ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Cost (Summary)]** **[!UICONTROL ÷]** **[!UICONTROL Impressions (Summary)]** come **[!UICONTROL Definition]**.
-   1. Seleziona **[!UICONTROL Save]**.
-1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** per aggiungere un&#39;altra metrica calcolata.
+   1. Seleziona **[!UICONTROL Valuta]** per **[!UICONTROL Formato]**.
+   1. Specificare `4` per **[!UICONTROL Cifre decimali]**.
+   1. Utilizza ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo (Riepilogo)]** **[!UICONTROL ÷]** **[!UICONTROL Impression (Riepilogo)]** come **[!UICONTROL Definizione]**.
+   1. Seleziona **[!UICONTROL Salva]**.
+1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Aggiungi]** per aggiungere un&#39;altra metrica calcolata.
    1. Specificare `Return on Ad Spend` per **[!UICONTROL Name]**.
-   1. Selezionare **[!UICONTROL Currency]** per **[!UICONTROL Format]**.
-   1. Selezionare `2` per **[!UICONTROL Decimal places]**.
-   1. Utilizza ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Revenue (Last Touch | 30 Days)]** **[!UICONTROL −]** ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Cost (Summary)]** come **[!UICONTROL Definition]**.
-   1. Seleziona **[!UICONTROL Save]**.
+   1. Seleziona **[!UICONTROL Valuta]** per **[!UICONTROL Formato]**.
+   1. Seleziona `2` per **[!UICONTROL Cifre decimali]**.
+   1. Usa ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Ricavi (Ultimo Contatto | 30 giorni)]** **[!UICONTROL −]** ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo (Riepilogo)]** come **[!UICONTROL Definizione]**.
+   1. Seleziona **[!UICONTROL Salva]**.
 
 Aggiungi le metriche calcolate al rapporto.
 
-1. Trascina **[!UICONTROL Cost per Impression]** ![Calcolatore](/help/assets/icons/Calculator.svg) da **[!UICONTROL Metrics]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
+1. Trascina **[!UICONTROL Costo per impression]** ![Calcolatore](/help/assets/icons/Calculator.svg) da **[!UICONTROL Metriche]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
    1. Selezionare ![Impostazioni](/help/assets/icons/Setting.svg) impostazioni colonna.
-      1. Disabilita **[!UICONTROL Percent]**.
-1. Trascina **[!UICONTROL Return on Ad Spend]** ![Calcolatore](/help/assets/icons/Calculator.svg) da **[!UICONTROL Metrics]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
+      1. Disabilita **[!UICONTROL Percentuale]**.
+1. Trascina **[!UICONTROL Return on Ad Spend]** ![Calculator](/help/assets/icons/Calculator.svg) da **[!UICONTROL Metrics]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
    1. Selezionare ![Impostazioni](/help/assets/icons/Setting.svg) impostazioni colonna.
-      1. Disabilita **[!UICONTROL Percent]**.
-      1. Abilita **[!UICONTROL Conditional formatting]**.
-         1. Seleziona **[!UICONTROL Auto-generated]**.
-         1. Selezionare un **[!UICONTROL Conditional formatting palette]** preferito.
-   1. Seleziona **[!UICONTROL Save]** per salvare il progetto.
+      1. Disabilita **[!UICONTROL Percentuale]**.
+      1. Abilita **[!UICONTROL Formattazione condizionale]**.
+         1. Seleziona **[!UICONTROL Generato automaticamente]**.
+         1. Selezionare una **[!UICONTROL tavolozza di formattazione condizionale preferita]**.
+   1. Seleziona **[!UICONTROL Salva]** per salvare il progetto.
 
 Se desideri creare un rapporto sul nome della campagna anziché sul codice di tracciamento (evento), effettua le seguenti operazioni:
 
-1. Duplica la visualizzazione a forma libera **[!UICONTROL Summary Data Report]**.
+1. Duplica la visualizzazione della tabella a forma libera **[!UICONTROL Rapporto dati di riepilogo]**.
 1. Rinomina la visualizzazione duplicata in `Summary Data Report (using Campaign Name)`.
-1. Sostituisci ![Cambia](/help/assets/icons/Switch.svg) la dimensione **[!UICONTROL Tracking Code (Event)]** con la dimensione **[!UICONTROL Campaign Name (Lookup)]**.
+1. Sostituisci ![Cambia](/help/assets/icons/Switch.svg) la dimensione **[!UICONTROL Codice di tracciamento (Evento)]** con la dimensione **[!UICONTROL Nome campagna (Ricerca)]**.
 
 Puoi creare rapporti corretti per il Nome campagna (ricerca) a causa del campo derivato creato e della configurazione del componente del gruppo di dati di riepilogo per Nome campagna (ricerca). Vedi [Visualizzazione dati](#data-view).
 
@@ -603,4 +603,4 @@ Il progetto finale deve essere simile a quello mostrato di seguito.
 >[!MORELIKETHIS]
 >
 >[Dati di riepilogo](/help/data-views/summary-data.md)
->&#x200B;>[Impostazioni componente gruppo di dati di riepilogo](/help/data-views/component-settings/summary-data-group.md)
+>[Impostazioni componente gruppo di dati di riepilogo](/help/data-views/component-settings/summary-data-group.md)

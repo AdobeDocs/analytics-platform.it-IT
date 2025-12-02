@@ -4,7 +4,7 @@ description: Scopri come utilizzare i campi derivati come base per creare rappor
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 39b3e0eb43e69c81c12e56fc7605e5746c2d650c
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -287,7 +287,7 @@ Configura segmenti dedicati che ti aiutano a identificare eventi, sessioni o per
 ![LLM e segmento di traffico generato da IA](assets/aitraffic-segment.png){zoomable="yes"}
 
 
-### progetto Workspace
+### Progetto Workspace
 
 Utilizza i campi e i segmenti derivati per generare rapporti e analisi sul traffico generato da LLM e AI. Ad esempio, consulta il progetto annotato di seguito.
 

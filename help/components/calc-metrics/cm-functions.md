@@ -4,10 +4,10 @@ description: Scopri le funzioni di base delle metriche calcolate.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '1801'
-ht-degree: 92%
+source-wordcount: '1868'
+ht-degree: 88%
 
 ---
 
@@ -50,7 +50,7 @@ In alternativa, puoi avere due metriche di interesse e una con una media o un mi
 <!-- markdownlint-enable MD034 -->
 
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL VALORE(metrica) ASSOLUTO]**
 
 [!BADGE Riga]{type="Neutral"} Restituisce il valore assoluto di un numero. Il valore assoluto di un numero è il numero con un valore positivo.
 
@@ -70,7 +70,7 @@ In alternativa, puoi avere due metriche di interesse e una con una media o un mi
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MAXIMUM(metric, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COLONNA MASSIMO(metrica, include_zeros)]**
 
 Restituisce il valore più grande in un insieme di elementi dimensionali della colonna di una metrica. MAXV valuta verticalmente all’interno di una singola colonna (metrica) tra gli elementi dimensionali.
 
@@ -92,7 +92,7 @@ Restituisce il valore più grande in un insieme di elementi dimensionali della c
 <!-- markdownlint-enable MD034 -->
 
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MINIMUM(metric, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COLONNA MINIMA(metrica, include_zeros)]**
 
 Restituisce il valore più piccolo in un insieme di elementi dimensionali della colonna di una metrica. MINV valuta verticalmente all’interno di una singola colonna (metrica) tra gli elementi dimensionali.
 
@@ -114,7 +114,7 @@ Restituisce il valore più piccolo in un insieme di elementi dimensionali della 
 <!-- markdownlint-enable MD034 -->
 
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN SUM(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SOMMA COLONNA(metrica)]**
 
 Somma tutti i valori numerici di una metrica all’interno di una colonna (negli elementi di una dimensione).
 
@@ -135,7 +135,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 <!-- markdownlint-enable MD034 -->
 
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CONTEGGIO(metrica)]**
 
 [!BADGE Tabella]{type="Neutral"} Restituisce il numero, o conteggio, di valori diversi da zero per una metrica all&#39;interno di una colonna (il numero di elementi univoci riportati all&#39;interno di una dimensione).
 
@@ -155,7 +155,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ESPONENTE(metrica)]**
 
 [!BADGE Riga]{type="Neutral"} Restituisce e elevato alla potenza di un numero specificato. La costante e è uguale a 2,71828182845904, la base del logaritmo naturale. ESPONENTE è l’inverso di LN, il logaritmo naturale di un numero.
 
@@ -176,7 +176,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 <!-- markdownlint-enable MD034 -->
 
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(metric, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIA(metrica, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Restituisce la media aritmetica di una metrica in una colonna.
 
@@ -198,7 +198,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 <!-- markdownlint-enable MD034 -->
 
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(metric, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIANA(metric, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Restituisce la mediana di una metrica in una colonna. La mediana è il numero al centro di un insieme di numeri. In altre parole, metà dei numeri è costituita da valori maggiori o uguali alla mediana e l’altra metà da quelli minori o uguali alla mediana.
 
@@ -257,7 +257,7 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-enable MD034 -->
 
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(metric, k, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(metrica, k, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Restituisce l&#39;ennesimo percentile, che è un valore compreso tra 0 e 100. Quando n &lt; 0, la funzione utilizza zero. Quando n > 100, la funzione restituisce 100.
 
@@ -280,7 +280,7 @@ MODULO(MODULO(x,y)+y,y)
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER OPERATOR(metric_X, metrix_Y)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL OPERATORE DI ALIMENTAZIONE(metric_X, metrix_Y)]**
 
 Restituisce x elevato alla potenza y.
 
@@ -324,7 +324,7 @@ Restituisce x elevato alla potenza y.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(metric, number)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARROTONDA(metrica, numero)]**
 
 L’arrotondamento senza un parametro *numerico* è uguale all’arrotondamento con un parametro *numero* pari a 0, vale a dire arrotondato al numero intero più vicino.  Con un parametro *numerico* ROUND restituisce il *numero* di cifre a destra del decimale.  Se il *numero* è negativo, restituisce gli 0 a sinistra del decimale.
 
@@ -353,7 +353,7 @@ ROUND( 314.15, -2) = 300
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ROW COUNT()]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL NUMERO RIGHE()]**
 
 Restituisce il numero di righe di una colonna specificata (il numero di elementi univoci riportati all’interno di una dimensione). *Univoci superati* viene conteggiato come 1.
 
@@ -369,7 +369,7 @@ Restituisce il numero di righe di una colonna specificata (il numero di elementi
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MAX(metric, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RIGA MAX(metric, include_zeros)]**
 
 Il massimo delle colonne di ogni riga.
 
@@ -390,7 +390,7 @@ Il massimo delle colonne di ogni riga.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MIN(metric, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RIGA MIN(metrica, include_zeros)]**
 
 Minimo di colonne di ogni riga.
 
@@ -412,7 +412,7 @@ Minimo di colonne di ogni riga.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ROW SUM(metric, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SOMMA RIGA(metrica, include_zeros)]**
 
 Somma delle colonne di ogni riga.
 
@@ -433,7 +433,7 @@ Somma delle colonne di ogni riga.
 <!-- markdownlint-enable MD034 -->
 
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT(metric, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RADICE QUADRATA(metrica, include_zeros)]**
 
 [!BADGE Riga]{type="Neutral"} Restituisce la radice quadrata positiva di un numero. La radice quadrata di un numero è il valore di quel numero elevato alla potenza di 1/2.
 
@@ -453,7 +453,7 @@ Somma delle colonne di ogni riga.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL STANDARD DEVIATION(metric, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL DEVIAZIONE STANDARD(metrica, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Restituisce la deviazione standard, o radice quadrata della varianza, in base a una popolazione di dati campione.
 
@@ -474,7 +474,7 @@ Somma delle colonne di ogni riga.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(metric, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANZA(metrica, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Restituisce la varianza in base a una popolazione di dati campione.
 

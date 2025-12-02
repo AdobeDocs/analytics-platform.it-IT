@@ -4,16 +4,16 @@ title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '2065'
-ht-degree: 100%
+source-wordcount: '2193'
+ht-degree: 80%
 
 ---
 
 # Panoramica dei pannelli {#panels-overview}
 
-Un [!UICONTROL panel] è una raccolta di tabelle e visualizzazioni. Puoi accedere ai pannelli dall’icona in alto a sinistra in Workspace o da un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md). I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, viste dati o casi di utilizzo di analisi.
+Un [!UICONTROL pannello] è una raccolta di tabelle e visualizzazioni. Puoi accedere ai pannelli dall’icona in alto a sinistra in Workspace o da un [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md). I pannelli sono utili per organizzare i progetti in base a specifici periodi di tempo, viste dati o casi di utilizzo di analisi.
 
 ## Tipi di pannello
 
@@ -32,18 +32,18 @@ In Analysis Workspace sono disponibili i seguenti tipi di pannello per [!UICONTR
 | [Quick Insights](quickinsight.md) | Crea rapidamente una tabella a forma libera e una relativa visualizzazione per analizzare e individuare più rapidamente le informazioni. |
 
 
-I pannelli [!UICONTROL Quick insights], [!UICONTROL Blank] e [!UICONTROL Freeform] sono ideali per iniziare con le attività di analisi, mentre [!UICONTROL Attribution] si presta ad analisi più avanzate. Nella parte inferiore dell’area di lavoro è disponibile un ![AddCircle](/help/assets/icons/AddCircle.svg), che consente di aggiungere pannelli vuoti in qualsiasi momento.
+I pannelli [!UICONTROL Quick insights], [!UICONTROL Blank] e [!UICONTROL Freeform] sono ideali per iniziare con le analisi, mentre [!UICONTROL Attribution] si presta ad analisi più avanzate. Nella parte inferiore dell’area di lavoro è disponibile un ![AddCircle](/help/assets/icons/AddCircle.svg), che consente di aggiungere pannelli vuoti in qualsiasi momento.
 
-Il pannello iniziale predefinito è [!UICONTROL Freeform], ma puoi impostare come predefinito il [Pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md) o [Quick Insights](/help/analysis-workspace/c-panels/quickinsight.md). Consulta [Preferenze Progetti e Analisi](/help/analysis-workspace/user-preferences.md#projects--analyses-preferences).
+Il pannello iniziale predefinito è il [!UICONTROL pannello a forma libera], ma puoi impostare [pannello vuoto](/help/analysis-workspace/c-panels/blank-panel.md) o [Quick insights](/help/analysis-workspace/c-panels/quickinsight.md) come predefinito. Consulta [Preferenze Progetti e Analisi](/help/analysis-workspace/user-preferences.md#projects--analyses-preferences).
 
 
 ## Creare un pannello
 
 Per creare un pannello:
 
-* Trascina un pannello dal pannello a sinistra **[!UICONTROL Panels]** nell’area di lavoro.
+* Trascina e rilascia un pannello dal pannello sinistro **[!UICONTROL Panels]** nell&#39;area di lavoro.
 * Seleziona un pannello dal [Pannello vuoto](blank-panel.md).
-* Utilizza il menu **[!UICONTROL Insert]** in Workspace e seleziona il tuo pannello. In alternativa, puoi utilizzare una delle [scelte rapide da tastiera](../build-workspace-project/fa-shortcut-keys.md) per inserire un pannello.
+* Utilizza il menu **[!UICONTROL Inserisci]** in Workspace e seleziona il tuo pannello. In alternativa, puoi utilizzare una delle [scelte rapide da tastiera](../build-workspace-project/fa-shortcut-keys.md) per inserire un pannello.
 
   ![Creare un pannello](assets/create-panel.png)
 
@@ -83,7 +83,7 @@ Puoi gestire un pannello nei modi seguenti:
 
 * Per comprimere un pannello, seleziona ![ChevronDown](/help/assets/icons/ChevronDown.svg).
 * Per visualizzare un pannello compresso, seleziona ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
-* Per eliminare un pannello, seleziona ![CrossSize400](/help/assets/icons/CrossSize200.svg). Per annullare, seleziona **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *Comando+Z *]**|**[!UICONTROL * CTRL+Z *]**).
+* Per eliminare un pannello, seleziona ![CrossSize400](/help/assets/icons/CrossSize200.svg). Per annullare, selezionare **[!UICONTROL Modifica]** > **[!UICONTROL Annulla]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
 * Per spostare un pannello, trascinalo ogni volta che è visibile un elemento ![Sposta](/help/assets/icons/Move.svg). In genere quando passi il puntatore sull’intestazione.
 
 
@@ -119,29 +119,29 @@ Il calendario del pannello controlla l’intervallo della date di reporting per 
 ![Finestra del calendario che mostra l’intervallo di date selezionato.](assets/panel-calendar.png)
 
 1. Seleziona un intervallo di date selezionando prima la data di inizio e quindi la data di fine.
-In alternativa, puoi selezionare **[!UICONTROL Preset]** dal menu a discesa [!UICONTROL *Seleziona un predefinito*].
+In alternativa, è possibile selezionare un **[!UICONTROL predefinito]** dal menu a discesa [!UICONTROL *Seleziona un predefinito*].
 
-1. Facoltativamente, seleziona **[!UICONTROL Show advanced settings]** per:
+1. Facoltativamente, selezionare **[!UICONTROL Mostra impostazioni avanzate]** per:
 
-   * Specificare **[!UICONTROL Start time]** e **[!UICONTROL End time]** diversi da `12:00 AM` (`0:00`) e `11:59 PM` (`23:59`) predefiniti. Gli orari di fine includono sempre 59 secondi. Per un intervallo di date che si estende su più giorni, l’ora di inizio si applica al primo giorno dell’intervallo di date e l’ora di fine si applica all’ultimo giorno dell’intervallo di date. Utilizza **[!UICONTROL (Reset time values)]** per ripristinare le impostazioni predefinite dell’ora di inizio e di fine.
-   * **[!UICONTROL Make date range components relative to panel calendar]**. Se disattivato, i componenti dell’intervallo di date utilizzati nel pannello sono relativi all’ora corrente. Se questa opzione è abilitata, i componenti dell’intervallo di date utilizzati nel pannello sono relativi al calendario del pannello.
-   * **[!UICONTROL Use rolling dates]**. Se abilitati, gli intervalli di date predefiniti come **[!UICONTROL Last 7 full days]** vengono aggiornati in modo dinamico in base all’avanzamento della data e dell’ora corrente. Se disattivate, tali predefiniti non vengono aggiornati una volta applicati.
+   * Specificare **[!UICONTROL Ora inizio]** e **[!UICONTROL Ora fine]** diverse dalle impostazioni predefinite `12:00 AM` (`0:00`) e `11:59 PM` (`23:59`). Gli orari di fine includono sempre 59 secondi. Per un intervallo di date che si estende su più giorni, l’ora di inizio si applica al primo giorno dell’intervallo di date e l’ora di fine si applica all’ultimo giorno dell’intervallo di date. Utilizzare **[!UICONTROL (valori di tempo di ripristino)]** per ripristinare i valori predefiniti per l&#39;ora di inizio e di fine.
+   * **[!UICONTROL Componenti intervallo date relativi al calendario del pannello]**. Se disattivato, i componenti dell’intervallo di date utilizzati nel pannello sono relativi all’ora corrente. Se questa opzione è abilitata, i componenti dell’intervallo di date utilizzati nel pannello sono relativi al calendario del pannello.
+   * **[!UICONTROL Utilizza date continue]**. Se abilitati, gli intervalli di date predefiniti come **[!UICONTROL Ultimi 7 giorni interi]** vengono aggiornati in modo dinamico in base all&#39;avanzamento della data e dell&#39;ora corrente. Se disattivate, tali predefiniti non vengono aggiornati una volta applicati.
 
      ![Date continue](assets/calendar-rolling.png)
 
-     È possibile selezionare il testo tra parentesi (ad esempio **[!UICONTROL fixed start - rolling daily]**) per estendere il pannello e specificare i dettagli per **[!UICONTROL Start]** e **[!UICONTROL End]**.
+     Puoi selezionare il testo tra parentesi (ad esempio **[!UICONTROL inizio fisso - giorno continuo]**) per estendere il pannello e specificare i dettagli per **[!UICONTROL Inizio]** e **[!UICONTROL Fine]**.
 
-      1. Seleziona **[!UICONTROL Start of]**, **[!UICONTROL End of]**, or **[!UICONTROL Fixed day]**.
-      1. Dopo aver selezionato **[!UICONTROL Start of]** o **[!UICONTROL End of]**, è possibile creare un’espressione completa. Ad esempio: **[!UICONTROL End of]** **[!UICONTROL current year]** **[!UICONTROL plus]** `1` **[!UICONTROL day]**. Seleziona il valore appropriato per ogni singola parte dell’espressione.
-         * Seleziona un valore corrente. Ad esempio **[!UICONTROL current year]**.
-         * Seleziona un valore per il calcolo aggiuntivo. Ad esempio: **[!UICONTROL plus]**.
+      1. Seleziona **[!UICONTROL Inizio di]**, **[!UICONTROL Fine di]** o **[!UICONTROL Giorno fisso]**.
+      1. Dopo aver selezionato **[!UICONTROL Inizio di]** o **[!UICONTROL Fine di]**, puoi creare un&#39;espressione completa. Ad esempio: **[!UICONTROL Fine di]** **[!UICONTROL anno corrente]** **[!UICONTROL più]** `1` **[!UICONTROL giorno]**. Seleziona il valore appropriato per ogni singola parte dell’espressione.
+         * Seleziona un valore corrente. Ad esempio **[!UICONTROL anno corrente]**.
+         * Seleziona un valore per il calcolo aggiuntivo. Ad esempio, **[!UICONTROL più]**.
          * Dopo aver specificato un calcolo aggiuntivo, specifica un valore. Ad esempio `1`.
-         * Dopo aver specificato il calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio **[!UICONTROL day]**.
+         * Dopo aver specificato il calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio **[!UICONTROL giorno]**.
 
-     Seleziona **[!UICONTROL Hide details]** per nascondere i dettagli del calcolo delle date continue.
+     Selezionare **[!UICONTROL Nascondi dettagli]** per nascondere i dettagli per il calcolo delle date continue.
 
-1. Seleziona **[!UICONTROL Apply]** per applicare l’intervallo di date al pannello da cui è stato richiamato il calendario.
-Seleziona **[!UICONTROL Apply to all panels]** per applicare l’intervallo di date a tutti i pannelli nel progetto Workspace.
+1. Seleziona **[!UICONTROL Applica]** per applicare l&#39;intervallo di date al pannello da cui hai richiamato il calendario.
+Seleziona **[!UICONTROL Applica a tutti i pannelli]** per applicare l&#39;intervallo di date a tutti i pannelli nel progetto Workspace.
 
 
 ## Zona di rilascio {#dropzone}
@@ -167,7 +167,7 @@ Per ulteriori informazioni, consulta [Segmenti rapidi](/help/components/segments
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/329414?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -196,10 +196,10 @@ I segmenti a discesa statici possono essere utilizzati anche per consolidare pi�
 
 Un segmento a discesa fornisce le seguenti opzioni del menu di scelta rapida:
 
-* **[!UICONTROL Delete drop-down]**: rimuove il segmento a discesa dal pannello.
-* **[!UICONTROL Delete label]**: rimuove il testo mostrato sopra un segmento a discesa. Per modificare l’etichetta, passaci sopra il puntatore e seleziona ![Modifica etichetta del segmento a discesa](/help/assets/icons/Edit.svg).
-* **[!UICONTROL Add label]**: quando aggiungi un segmento a discesa a un progetto, un’etichetta viene impostata automaticamente sul nome del componente. Se elimini l’etichetta, puoi aggiungerla nuovamente con questa opzione.
-* **[!UICONTROL Require selection]**: richiede che nel pannello sia impostato un segmento.
+* **[!UICONTROL Elimina elenco a discesa]**: rimuove il segmento dal pannello.
+* **[!UICONTROL Elimina etichetta]**: rimuovere il testo visualizzato sopra un segmento a discesa. Per modificare l’etichetta, passaci sopra il puntatore e seleziona ![Modifica etichetta del segmento a discesa](/help/assets/icons/Edit.svg).
+* **[!UICONTROL Aggiungi etichetta]**: quando si aggiunge un segmento a discesa a un progetto, l&#39;etichetta viene impostata automaticamente sul nome del componente. Se elimini l’etichetta, puoi aggiungerla nuovamente con questa opzione.
+* **[!UICONTROL Selezione obbligatoria]**: richiede che nel pannello sia impostato un segmento.
 
 ##### Utilizzare segmenti a discesa statici
 
@@ -212,11 +212,11 @@ Per segmentare il pannello, gli utenti possono utilizzare il menu dei segmenti a
 
 #### Segmenti a discesa dinamici
 
-I segmenti a discesa dinamici consentono di determinare i valori disponibili in base ai dati all’interno dell’intervallo di reporting del pannello e ai valori in altri segmenti a discesa. Ad esempio, puoi creare due menu a discesa dinamici utilizzando una dimensione Paesi e una dimensione Città. Quando selezioni un paese dal menu a discesa **[!UICONTROL Countries]**, **[!UICONTROL Cities]** si adatta in modo dinamico per mostrare solo le città all’interno di quel paese.
+I segmenti a discesa dinamici consentono di determinare i valori disponibili in base ai dati all’interno dell’intervallo di reporting del pannello e ai valori in altri segmenti a discesa. Ad esempio, puoi creare due menu a discesa dinamici utilizzando una dimensione Paesi e una dimensione Città. Quando si seleziona un paese dal menu a discesa **[!UICONTROL Paesi]**, il menu a discesa **[!UICONTROL Città]** viene modificato in modo dinamico in modo da visualizzare solo le città all&#39;interno di tale paese.
 
 Lo stesso concetto si applica a tutte le dimensioni: sono visibili solo gli elementi dimensionali che compaiono nell’intervallo di date del pannello e i segmenti selezionati. Gli elementi dimensionali selezionati nei segmenti a discesa statici influiscono sui valori disponibili nei segmenti a discesa dinamici. Tuttavia, ciò non vale per il contrario: gli elementi dimensionali selezionati nei segmenti a discesa dinamici non influiscono sui valori disponibili nei segmenti a discesa statici.
 
-La selezione manuale degli elementi dimensionali è disponibile se prevedi che un certo elemento dimensionale verrà raccolto in futuro. È inoltre possibile cancellare un segmento a discesa dinamico in modo che non contenga un valore, consentendo ad altri segmenti a discesa dinamici di contenere più valori. Seleziona **[!UICONTROL Reset all]** per cancellare la selezione da tutti i segmenti a discesa di quel pannello.
+La selezione manuale degli elementi dimensionali è disponibile se prevedi che un certo elemento dimensionale verrà raccolto in futuro. È inoltre possibile cancellare un segmento a discesa dinamico in modo che non contenga un valore, consentendo ad altri segmenti a discesa dinamici di contenere più valori. Seleziona **[!UICONTROL Reimposta tutto]** per cancellare la selezione da tutti i segmenti a discesa per quel pannello.
 
 Per creare un segmento a discesa dinamico:
 
@@ -237,20 +237,20 @@ Sono disponibili le seguenti opzioni:
 
 | Opzione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Insert copied panel]** | Consente di incollare un pannello copiato in un’altra posizione all’interno del progetto o in un progetto diverso. |
-| **[!UICONTROL Insert copied visualization]** | Consente di incollare un pannello copiato in un’altra posizione all’interno del pannello, del progetto o in un progetto diverso. |
-| **[!UICONTROL Apply Data view to all panels]** | Applica la visualizzazione dati di questo pannello a tutti gli altri pannelli nel progetto. |
-| **[!UICONTROL Copy panel]** | Copia un pannello, in modo da poterlo inserire in un’altra posizione all’interno di un progetto o in un progetto diverso. |
-| **[!UICONTROL Duplicate panel]** | Crea un duplicato esatto del pannello corrente, che potrai quindi modificare. |
-| **[!UICONTROL Collapse all panels]** | Comprimi tutti i pannelli del progetto. |
-| **[!UICONTROL Expand all panels]** | Espandi tutti i pannelli del progetto. |
-| **[!UICONTROL Collapse all visualizations in panel]** | Comprimi tutte le visualizzazioni nel pannello corrente. |
-| **[!UICONTROL Expand all visualizations in panel]** | Espandi tutte le visualizzazioni nel pannello corrente. |
-| **[!UICONTROL Edit Description]** | Aggiungi (o modifica) un testo descrittivo per il pannello. |
-| **[!UICONTROL Get Panel Link]** | Indirizza un utente a uno specifico pannello all’interno di un progetto. Quando selezioni il collegamento, al destinatario verrà richiesto di effettuare l’accesso prima di essere indirizzato al pannello esatto a cui è collegato. |
+| **[!UICONTROL Inserisci pannello copiato]** | Consente di incollare un pannello copiato in un’altra posizione all’interno del progetto o in un progetto diverso. |
+| **[!UICONTROL Inserisci visualizzazione copiata]** | Consente di incollare un pannello copiato in un’altra posizione all’interno del pannello, del progetto o in un progetto diverso. |
+| **[!UICONTROL Applica visualizzazione dati a tutti i pannelli]** | Applica la visualizzazione dati di questo pannello a tutti gli altri pannelli nel progetto. |
+| **[!UICONTROL Copia pannello]** | Copia un pannello, in modo da poterlo inserire in un’altra posizione all’interno di un progetto o in un progetto diverso. |
+| **[!UICONTROL Pannello duplicato]** | Crea un duplicato esatto del pannello corrente, che potrai quindi modificare. |
+| **[!UICONTROL Comprimi tutti i pannelli]** | Comprimi tutti i pannelli del progetto. |
+| **[!UICONTROL Espandi tutti i pannelli]** | Espandi tutti i pannelli del progetto. |
+| **[!UICONTROL Comprimi tutte le visualizzazioni nel pannello]** | Comprimi tutte le visualizzazioni nel pannello corrente. |
+| **[!UICONTROL Espandi tutte le visualizzazioni nel pannello]** | Espandi tutte le visualizzazioni nel pannello corrente. |
+| **[!UICONTROL Modifica descrizione]** | Aggiungi (o modifica) un testo descrittivo per il pannello. |
+| **[!UICONTROL Ottieni collegamento pannello]** | Indirizza un utente a uno specifico pannello all’interno di un progetto. Quando selezioni il collegamento, al destinatario verrà richiesto di effettuare l’accesso prima di essere indirizzato al pannello esatto a cui è collegato. |
 
 ## Configurazione
 
-Alcuni pannelli (come [!UICONTROL Attribution], [!UICONTROL Experimentation], [!UICONTROL Media average minute audience] e altri) dispongono di una finestra di dialogo per la configurazione che consente di creare la visualizzazione. Utilizza ![Modifica](/help/assets/icons/Edit.svg) nella parte superiore del pannello per accedere e modificare la configurazione.
+Alcuni pannelli (come [!UICONTROL Attribuzione], [!UICONTROL Sperimentazione], [!UICONTROL Pubblico medio per minuto] e altri) dispongono di una finestra di dialogo di configurazione che ti aiuta a creare la visualizzazione. Utilizza ![Modifica](/help/assets/icons/Edit.svg) nella parte superiore del pannello per accedere e modificare la configurazione.
 
 ![Configurare un pannello](/help/analysis-workspace/c-panels/assets/configure-panel.png)

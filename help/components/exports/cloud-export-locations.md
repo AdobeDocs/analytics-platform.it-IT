@@ -5,9 +5,9 @@ title: Configurare le posizioni di esportazione cloud
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 5adcab1df932f5c8af1f140fb6707f2d56726ae3
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2030'
 ht-degree: 19%
 
 ---
@@ -106,11 +106,11 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 
    1. Aprire [Esplora archivi di Microsoft Azure](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
-   1. Vai a [!UICONTROL **Account di archiviazione**] > [!UICONTROL **(Contenitori allegati)**] > [!UICONTROL **Contenitori BLOB**] > **[!UICONTROL cjaexport-_numero_]** > ***nome_contenitore***.
+   1. Vai a [!UICONTROL **Account di archiviazione**] > [!UICONTROL **(Contenitori allegati)**] > [!UICONTROL **Contenitori BLOB**] > **[!UICONTROL cjaexport-_numero_]**>*** nome_contenitore ***.
 
       >[!NOTE]
       >
-      >Il nome della cartella **[!UICONTROL cjaexport-_number_]** è il nome predefinito fornito da Azure Storage Explorer. Se all&#39;URI SAS è associata una sola connessione (operazione normale), il nome della cartella sarà **[!UICONTROL cjaexport-1]**.
+      >Il nome della cartella **[!UICONTROL cjaexport-_number_]**è il nome predefinito fornito da Azure Storage Explorer. Se all&#39;URI SAS è associata una sola connessione (normale), il nome della cartella sarà&#x200B;**[!UICONTROL cjaexport-1]**.
 
 
       ![Accedere ai file in Azure Storage Explorer](assets/azure-storage-explorer-access.png)
