@@ -65,7 +65,7 @@ Per utilizzare il modello:
 
 1. Selezionare **[!UICONTROL Workspace]** dal menu principale.
 1. Assicurati di selezionare una visualizzazione dati configurata per Content Analytics.
-1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]**.
+1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**&#x200B;s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]**.
 1. Seleziona **[!UICONTROL Usa modello]**.
 1. Nella finestra di dialogo **[!UICONTROL Configura il modello]**, seleziona una metrica dalla finestra di dialogo **[!UICONTROL Seleziona una metrica di conversione]**. Ad esempio, **[!UICONTROL CTR risorsa]**.
 1. Seleziona **[!UICONTROL Continua]**.

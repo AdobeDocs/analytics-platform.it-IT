@@ -70,7 +70,7 @@ Per ottenere una parità approssimativa con metriche simili nella gestione delle
 
 | Metrica | Descrizione | Elemento dello schema | Impostazioni del componente |
 | --- | --- | --- | --- |
-| Tipo di evento (rinomina per fare riferimento a un evento specifico, ad esempio `Feedback` per `message.feedback`) [1] | Quantità di un tipo specifico di evento | `eventType` | Tipo di componente: Metrica<br/>**[!UICONTROL Imposta Includi valori di esclusione ]**: On<br/>**[!UICONTROL Corrispondenza]**: [!UICONTROL Se tutti i criteri sono soddisfatti]<br/>**[!UICONTROL Criteri ]**:**[!UICONTROL &#x200B;È uguale a ]**`message.feedback` |
+| Tipo di evento (rinomina per fare riferimento a un evento specifico, ad esempio `Feedback` per `message.feedback`) [1] | Quantità di un tipo specifico di evento | `eventType` | Tipo di componente: Metrica<br/>**[!UICONTROL Imposta Includi valori di esclusione &#x200B;]**: On<br/>**[!UICONTROL Corrispondenza]**: [!UICONTROL Se tutti i criteri sono soddisfatti]<br/>**[!UICONTROL Criteri &#x200B;]**:**[!UICONTROL &#x200B;È uguale a &#x200B;]**`message.feedback` |
 | Punteggio opzione di decisione | Valore calcolato per un’opzione di decisione nel contesto di un singolo ambito. | `_experience.decisioning.`<br/>`propositionDetails.selections.score` | Tipo di componente: metrica |
 | Punteggio opzione decisione di fallback | Valore calcolato per un’opzione di decisione di fallback nel contesto di un singolo ambito. | `_experience.decisioning.`<br/>`propositionDetails.fallback.score` | Tipo di componente: metrica |
 | Offerte ignorate | Il numero di offerte ignorate o rifiutate senza altre interazioni dirette. | `_experience.decisioning.`<br/>`propositionEventType.dismiss` | Tipo di componente: metrica |

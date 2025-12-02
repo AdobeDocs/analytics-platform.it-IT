@@ -136,7 +136,7 @@ Definisci uno schema che modella questi dati. Per configurare lo schema:
 
    1. Seleziona **[!UICONTROL Avanti]**.
 1. Nell&#39;interfaccia **[!UICONTROL Schemi]** > **[!UICONTROL Crea schema relazionale]**:
-   1. Immettere un nome visualizzato per lo schema ****. Ad esempio: `Sample Event Feed Schema`.
+   1. Immettere un nome visualizzato per lo schema **&#x200B;**. Ad esempio: `Sample Event Feed Schema`.
    1. Immetti una **[!UICONTROL Descrizione]**. Ad esempio: `Sample event feed schema for a relational schema`.
    1. Seleziona **[!UICONTROL Serie temporali]** come **[!UICONTROL Comportamento schema]**. Selezionare **[!UICONTROL Serie temporali]** per i dati basati su serie temporali e **[!UICONTROL Record]** per i dati basati su record. Il comportamento definisce la struttura dello schema e le proprietà incluse.
 

@@ -34,7 +34,7 @@ Nell&#39;elenco delle metriche calcolate ➊ vengono visualizzate tutte le metri
 | Colonna | Descrizione |
 | --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o sfavorire ![StarOutline](/help/assets/icons/StarOutline.svg) una metrica calcolata. Vedi [Segna la metrica calcolata come preferita](/help/components/segments/seg-favorite.md) |
-| **[!UICONTROL Titolo e descrizione]** | Per modificare la metrica calcolata, selezionare il collegamento del titolo, che apre il generatore di metriche calcolate [](cm-build-metrics.md). Una metrica calcolata condivisa è indicata con ![Condividi](/help/assets/icons/ShareAlt.svg). |
+| **[!UICONTROL Titolo e descrizione]** | Per modificare la metrica calcolata, selezionare il collegamento del titolo, che apre il generatore di metriche calcolate [&#128279;](cm-build-metrics.md). Una metrica calcolata condivisa è indicata con ![Condividi](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Visualizzazione dati]** | Le visualizzazioni dati a cui si applica questa metrica calcolata. |
 | **[!UICONTROL Proprietario]** | Proprietario della metrica calcolata. In quanto utente, puoi visualizzare solo le annotazioni che possiedi o quelle che sono state condivise con te. |
 | **[!UICONTROL Tag]** | Elenca i tag per questa metrica calcolata. |
@@ -53,7 +53,7 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 
 | Icona | Azione | Descrizione |
 |:---:|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Aggiungi]** | Aggiungere un&#39;altra metrica calcolata utilizzando il generatore di metriche calcolate [](cm-build-metrics.md). |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Aggiungi]** | Aggiungere un&#39;altra metrica calcolata utilizzando il generatore di metriche calcolate [&#128279;](cm-build-metrics.md). |
 | ![Ricerca](/help/assets/icons/Search.svg) | [!UICONTROL *Ricerca per titolo*] | Se nell’elenco non è selezionata alcuna metrica calcolata, cerca i filtri utilizzando questo campo di ricerca. |
 | ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Assegna tag alle metriche calcolate selezionate. Nella finestra di dialogo **[!UICONTROL Assegna tag alla metrica calcolata]**, seleziona o deseleziona i tag per la metrica calcolata selezionata. Seleziona **[!UICONTROL Salva]** per salvare i tag per le metriche calcolate selezionate. Per ulteriori informazioni, vedere [Assegnare tag alle metriche calcolate](cm-tagging.md). |
 | ![Condividi](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Condividi]** | Condividi le metriche calcolate selezionate. Nella finestra di dialogo **[!UICONTROL Condividi metriche calcolate]**, puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organizzazione]** o **[!UICONTROL Gruppi]**. Seleziona **[!UICONTROL Salva]** per salvare i dettagli di condivisione per le metriche calcolate selezionate. Per ulteriori informazioni, vedere [Condividi metriche calcolate](cm-sharing.md). |
