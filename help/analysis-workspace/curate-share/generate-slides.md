@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Generare presentazioni dai report di Workspace
 feature: Curate and Share
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 6b8a9fd25aaf83eaad3bc9cba0ce9349afb5471c
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1627'
 ht-degree: 2%
 
 ---
@@ -185,7 +185,7 @@ La possibilità di generare diapositive è attivata per impostazione predefinita
 
 Se necessario, gli amministratori dei profili di prodotto le cui organizzazioni dispongono di licenze per la generazione di diapositive possono disabilitare l’accesso.
 
-In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Narrazione dati]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
+In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Narrazione dati]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
 1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti e servizi]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Profili di prodotto]**
 1. Selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso alla [!UICONTROL narrazione dei dati].
 1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Autorizzazioni]**.
@@ -230,14 +230,18 @@ I seguenti elementi e funzioni di Analysis Workspace utilizzati in un progetto n
 
    * Mappa ad albero
 
-* Raggruppamenti
-
-  I dati per i raggruppamenti sono inclusi nelle presentazioni generate, ma vengono visualizzati allo stesso livello degli elementi dimensionali.
-
 * Analisi guidate
 
 * Componenti per i quali non è consentita l’esportazione da un criterio di governance dei dati
 
   Per ulteriori informazioni, vedere [Risoluzione dei problemi relativi alle esportazioni non riuscite](/help/components/exports/troubleshoot-exports.md).
+
+## Elementi e funzioni del progetto con supporto limitato
+
+* Raggruppamenti
+
+  Come parte del processo di deduplicazione e punteggio durante la generazione di informazioni rilevanti, ogni raggruppamento all’interno di una tabella a forma libera viene analizzato in modo indipendente e vengono analizzati solo i primi 5 raggruppamenti all’interno di una singola tabella a forma libera.
+
+  È supportato solo il primo livello di un raggruppamento. Una disaggregazione di una disaggregazione non è inclusa nella presentazione.
 
 
