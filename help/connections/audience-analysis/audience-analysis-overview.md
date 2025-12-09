@@ -6,10 +6,10 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 2b91c0592ac4ec0e0b5ffa3db91758466563abaf
+source-git-commit: f23775342a29d758b478206a77386e18a58312a6
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 4%
+source-wordcount: '678'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,10 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->L’analisi del pubblico è diversa dalla pubblicazione del pubblico, che consente di creare e pubblicare su Adobe Experience Platform i tipi di pubblico rilevati in Customer Journey Analytics per la personalizzazione e il targeting dei clienti. Per informazioni sulla pubblicazione di tipi di pubblico, vedere [Panoramica sulla pubblicazione di tipi di pubblico](/help/components/audiences/audiences-overview.md).
+>Comprendere la differenza tra analisi del pubblico e pubblicazione del pubblico:
+>
+>* **Analisi del pubblico**: consente di acquisire i dati di appartenenza al pubblico dai set di dati del profilo di Experience Platform in una connessione Customer Journey Analytics.
+>* **Pubblicazione del pubblico**: ti consente di creare e pubblicare su Adobe Experience Platform i tipi di pubblico rilevati in Customer Journey Analytics per la personalizzazione e il targeting dei clienti. Per informazioni sulla pubblicazione di tipi di pubblico, vedere [Panoramica sulla pubblicazione di tipi di pubblico](/help/components/audiences/audiences-overview.md).
 
 L’analisi del pubblico consente di acquisire i dati sull’iscrizione del pubblico dai set di dati del profilo di Experience Platform in una connessione Customer Journey Analytics. I tipi di pubblico diventano disponibili come nuove dimensioni da utilizzare in Analysis Workspace.
 
@@ -46,6 +49,12 @@ Quando configuri l’analisi del pubblico, seleziona la sandbox e il criterio di
 
 Per ulteriori informazioni, vedere [Configurare l&#39;analisi del pubblico](/help/connections/audience-analysis/audience-analysis-configure.md).
 
+## Gestire le configurazioni di analisi del pubblico
+
+Puoi gestire le configurazioni di analisi del pubblico dopo averle create. Puoi visualizzare, modificare ed eliminare le configurazioni.
+
+Per informazioni sulla gestione delle configurazioni di analisi del pubblico esistenti, consulta [Gestire le configurazioni di analisi del pubblico](/help/connections/audience-analysis/audience-analysis-manage.md).
+
 ## Analizzare i dati del pubblico in Customer Journey Analytics
 
 Con i dati sul pubblico disponibili in Customer Journey Analytics, puoi ottenere informazioni fruibili sul comportamento dei membri del pubblico su vari canali.
@@ -57,6 +66,16 @@ Ad esempio, puoi tenere traccia del comportamento dei singoli clienti inclusi ne
 * Membri del pubblico che alla fine hanno effettuato un acquisto in-store
 
 Per ulteriori informazioni, consulta [Analizzare il pubblico di Experience Platform in Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).
+
+## Ruolo di analisi del pubblico e requisiti delle autorizzazioni
+
+Per l’analisi del pubblico sono necessari i seguenti ruoli Customer Journey Analytics e le seguenti autorizzazioni Experience Platform:
+
+| Funzionalità | Requisiti del ruolo o delle autorizzazioni di Customer Journey Analytics | Requisiti delle autorizzazioni di Experience Platform |
+|---------|----------|----------|
+| [Crea configurazioni analisi del pubblico](/help/connections/audience-analysis/audience-analysis-configure.md) | Amministratore di sistema | <ul><li>Set di dati: autorizzazioni di lettura</li><li>Schemi: lettura, scrittura</li><li>e gli spazi dei nomi di identità: Letto</li></ul> |
+| [Visualizzare le dimensioni di analisi del pubblico nella visualizzazione dati](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | Amministratore del profilo di prodotto per il profilo di prodotto a cui è assegnata la visualizzazione dati <p>Per ulteriori informazioni, vedere [Controllo degli accessi](/help/technotes/access-control.md).</p> | N/D |
+| Utilizzare le dimensioni di analisi del pubblico in Analysis Workspace | Accesso a una visualizzazione dati in cui sono state aggiunte le dimensioni di analisi del pubblico | N/D |
 
 
 
