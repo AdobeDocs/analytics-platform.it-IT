@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 0e86227915404fe62fcd1f27e95eb3b1bb673030
 workflow-type: tm+mt
 source-wordcount: '2268'
 ht-degree: 11%
@@ -136,7 +136,7 @@ Definisci uno schema che modella questi dati. Per configurare lo schema:
 
    1. Seleziona **[!UICONTROL Avanti]**.
 1. Nell&#39;interfaccia **[!UICONTROL Schemi]** > **[!UICONTROL Crea schema relazionale]**:
-   1. Immettere un nome visualizzato per lo schema **&#x200B;**. Ad esempio: `Sample Event Feed Schema`.
+   1. Immettere un nome visualizzato per lo schema ****. Ad esempio: `Sample Event Feed Schema`.
    1. Immetti una **[!UICONTROL Descrizione]**. Ad esempio: `Sample event feed schema for a relational schema`.
    1. Seleziona **[!UICONTROL Serie temporali]** come **[!UICONTROL Comportamento schema]**. Selezionare **[!UICONTROL Serie temporali]** per i dati basati su serie temporali e **[!UICONTROL Record]** per i dati basati su record. Il comportamento definisce la struttura dello schema e le proprietà incluse.
 
@@ -219,7 +219,7 @@ Nel passaggio **[!UICONTROL Autenticazione]**, seleziona:
 
    1. Seleziona **[!UICONTROL Avanti]**.
 
-  Consulta la documentazione di Experience Platform per informazioni dettagliate su come connettersi e autenticare quando utilizzi il connettore [Azure Databricks](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake).
+  Consulta la documentazione di Experience Platform per informazioni dettagliate su come connettersi e autenticare quando utilizzi il connettore [Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake).
 
 
 ### Selezionare i dati
