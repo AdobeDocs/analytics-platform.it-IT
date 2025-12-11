@@ -6,7 +6,7 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: f23775342a29d758b478206a77386e18a58312a6
+source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Il diagramma seguente e la tabella associata mostrano una rappresentazione di al
 | 3 | Set di dati di profilo | Deve includere i dati sul pubblico di Experience Platform che desideri analizzare. Questo set di dati profilo viene aggiunto alla connessione selezionata. |
 | 4 | Criterio di unione | Il criterio di unione associato ai tipi di pubblico di Experience Platform che desideri analizzare. |
 | 5 | Dati profilo | I dati di profilo associati al criterio di unione selezionato. Questi dati sono disponibili nei set di dati di Experience Platform. |
-| 6 | Nuovo set di dati di ricerca | Fornisce nomi descrittivi per le nuove dimensioni pubblico create. Il set di dati di ricerca viene creato e aggiunto automaticamente alla connessione, insieme al set di dati profilo selezionato. |
+| 6 | Nuovo set di dati di ricerca | Fornisce nomi descrittivi per le nuove dimensioni pubblico create. <p>Il set di dati di ricerca viene creato e aggiunto automaticamente alla connessione, insieme al set di dati profilo selezionato.</p> |
 | 7 | Connessione | La connessione in cui desideri aggiungere il set di dati profilo selezionato. |
 | 8 | Nuove dimensioni del pubblico | Nuove dimensioni di pubblico<!--and metrics?--> che rappresentano i tipi di pubblico di Experience Platform inclusi nel set di dati del profilo selezionato e disponibili per il reporting in Analysis Workspace. Queste quote vengono create automaticamente. |
 | 9 | Visualizzazioni dati | Le visualizzazioni dati selezionate associate alla connessione. Queste sono le visualizzazioni dati che desideri utilizzare per analizzare i dati del pubblico di Experience Platform in Analysis Workspace. Queste visualizzazioni dati vengono configurate automaticamente con i dati del pubblico di Experience Platform a scopo di reporting. |
@@ -73,7 +73,7 @@ Per l’analisi del pubblico sono necessari i seguenti ruoli Customer Journey An
 
 | Funzionalità | Requisiti del ruolo o delle autorizzazioni di Customer Journey Analytics | Requisiti delle autorizzazioni di Experience Platform |
 |---------|----------|----------|
-| [Crea configurazioni analisi del pubblico](/help/connections/audience-analysis/audience-analysis-configure.md) | Amministratore di sistema | <ul><li>Set di dati: autorizzazioni di lettura</li><li>Schemi: lettura, scrittura</li><li>e gli spazi dei nomi di identità: Letto</li></ul> |
+| [Crea configurazioni analisi del pubblico](/help/connections/audience-analysis/audience-analysis-configure.md) | Amministratore di sistema | <ul><li>Set di dati: autorizzazioni di lettura</li><li>Schemi: lettura, scrittura</li><li>Spazi dei nomi delle identità: lettura</li></ul> |
 | [Visualizzare le dimensioni di analisi del pubblico nella visualizzazione dati](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | Amministratore del profilo di prodotto per il profilo di prodotto a cui è assegnata la visualizzazione dati <p>Per ulteriori informazioni, vedere [Controllo degli accessi](/help/technotes/access-control.md).</p> | N/D |
 | Utilizzare le dimensioni di analisi del pubblico in Analysis Workspace | Accesso a una visualizzazione dati in cui sono state aggiunte le dimensioni di analisi del pubblico | N/D |
 

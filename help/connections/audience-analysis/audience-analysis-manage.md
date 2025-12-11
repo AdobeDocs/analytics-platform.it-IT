@@ -6,7 +6,7 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: f23775342a29d758b478206a77386e18a58312a6
+source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Per visualizzare le configurazioni esistenti dell’analisi del pubblico:
 
    * **[!UICONTROL Stato]**: lo stato della configurazione. I possibili stati sono Completo, In corso o Non riuscito. <!--true?-->
 
-   È possibile nascondere le colonne selezionando l&#39;icona Colonna ![Icona Colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), deselezionando le colonne che si desidera nascondere, quindi selezionando **[!UICONTROL Applica]**.
+   È possibile nascondere le colonne selezionando l&#39;icona Colonna ![icona Colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), deselezionando le colonne che si desidera nascondere, quindi selezionando **[!UICONTROL Applica]**.
 
 1. (Facoltativo) Per filtrare l&#39;elenco delle configurazioni, seleziona l&#39;icona Filtro **Filtro** ![Analisi del pubblico](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), quindi filtra in base a uno dei seguenti criteri:
 
