@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Generare presentazioni dai report di Workspace
 feature: Curate and Share
 role: User
-source-git-commit: 6b8a9fd25aaf83eaad3bc9cba0ce9349afb5471c
+source-git-commit: 1ec10a006578bc5ddf5f08501f8d72a9623245d5
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 2%
@@ -125,49 +125,53 @@ Le storie di dati sono costituite da una diapositiva titolo, una diapositiva di 
 
    Per caricare un modello personalizzato, effettuare una delle seguenti operazioni:
 
-   * (Consigliato) Scarica un modello vuoto e modificalo.
+   +++(Consigliato) Scarica un modello vuoto e modificalo
 
-      1. Scarica [questo modello vuoto](https://d30ln29764hddd.cloudfront.net/deploy/builds/data-storytelling.2025-10-20T15:10:19/resources/components/Blank.potx?).
+   1. Scarica [questo modello vuoto](https://d30ln29764hddd.cloudfront.net/deploy/builds/data-storytelling.2025-10-20T15:10:19/resources/components/Blank.potx?).
 
-      1. Applica gli stili personalizzati al modello vuoto.
+   1. Applica gli stili personalizzati al modello vuoto.
 
-      1. Ricarica il modello senza modificare i nomi del layout principale:
+   1. Ricarica il modello senza modificare i nomi del layout principale:
 
-         Dal file system, trascina il modello vuoto a cui sono applicati gli stili personalizzati nell’area di rilascio.
+      Dal file system, trascina il modello vuoto a cui sono applicati gli stili personalizzati nell’area di rilascio.
 
-         Oppure
+      Oppure
 
-         Seleziona **[!UICONTROL Sfoglia]**, quindi individua e seleziona il modello vuoto a cui sono applicati gli stili personalizzati dal file system.
+      Seleziona **[!UICONTROL Sfoglia]**, quindi individua e seleziona il modello vuoto a cui sono applicati gli stili personalizzati dal file system.
 
-      1. Nella sezione **[!UICONTROL Mappatura layout]**, ogni layout di diapositiva utilizzato nelle presentazioni generate viene automaticamente mappato a una diapositiva del tema caricato. Verificare che le selezioni siano corrette.
+   1. Nella sezione **[!UICONTROL Mappatura layout]**, ogni layout di diapositiva utilizzato nelle presentazioni generate viene automaticamente mappato a una diapositiva del tema caricato. Verificare che le selezioni siano corrette.
 
-         ![Mappatura layout](assets/generate-slides-layout-mapping.png)
+      ![Mappatura layout](assets/generate-slides-layout-mapping.png)
 
-      1. (Condizionale) Se il layout di una diapositiva non è mappato correttamente, seleziona **[!UICONTROL Cambia selezione]** sopra la diapositiva selezionata nella presentazione caricata, quindi scegli la diapositiva che corrisponde al layout.
+   1. (Condizionale) Se il layout di una diapositiva non è mappato correttamente, seleziona **[!UICONTROL Cambia selezione]** sopra la diapositiva selezionata nella presentazione caricata, quindi scegli la diapositiva che corrisponde al layout.
 
-         Ripetere questo processo per ogni diapositiva mappata in modo errato.
+      Ripetere questo processo per ogni diapositiva mappata in modo errato.
 
-   * Carica direttamente un modello personalizzato.
+   +++
 
-      1. Dal file system, trascina il modello personalizzato nell’area di rilascio.
+   +++Caricare direttamente un modello personalizzato 
 
-         Oppure
+   1. Dal file system, trascina il modello personalizzato nell’area di rilascio.
 
-         Seleziona **[!UICONTROL Sfoglia]**, quindi individua e seleziona il modello personalizzato dal file system.
+      Oppure
 
-         Assicurati che il file caricato abbia layout master con i seguenti nomi: &quot;Title_Slide&quot;, &quot;Section_Divider&quot;, &quot;Title_Text&quot;, &quot;Title_Chart&quot;, &quot;Title_Two_Content_Mixed&quot;, &quot;Title_Three_Content_Mixed&quot;.
+      Seleziona **[!UICONTROL Sfoglia]**, quindi individua e seleziona il modello personalizzato dal file system.
 
-         Sono supportati fino a 15 layout principali.
+      Assicurati che il file caricato abbia layout master con i seguenti nomi: &quot;Title_Slide&quot;, &quot;Section_Divider&quot;, &quot;Title_Text&quot;, &quot;Title_Chart&quot;, &quot;Title_Two_Content_Mixed&quot;, &quot;Title_Three_Content_Mixed&quot;.
 
-         Sono supportati i file .pptx e .potx di dimensioni fino a 25 MB.
+      Sono supportati fino a 15 layout principali.
 
-      1. Nella sezione **[!UICONTROL Mappatura layout]**, ogni layout di diapositiva utilizzato nelle presentazioni generate viene automaticamente mappato a una diapositiva del tema caricato. Verificare che le selezioni siano corrette.
+      Sono supportati i file .pptx e .potx di dimensioni fino a 25 MB.
 
-         ![Modello personalizzato per mappatura layout](assets/generate-slides-layout-mapping-custom-template.png)
+   1. Nella sezione **[!UICONTROL Mappatura layout]**, ogni layout di diapositiva utilizzato nelle presentazioni generate viene automaticamente mappato a una diapositiva del tema caricato. Verificare che le selezioni siano corrette.
 
-      1. (Condizionale) Se il layout di una diapositiva non è mappato correttamente, seleziona **[!UICONTROL Cambia selezione]** sopra la diapositiva selezionata nella presentazione caricata, quindi scegli la diapositiva che corrisponde al layout.
+      ![Modello personalizzato per mappatura layout](assets/generate-slides-layout-mapping-custom-template.png)
 
-         Ripetere questo processo per ogni diapositiva mappata in modo errato.
+   1. (Condizionale) Se il layout di una diapositiva non è mappato correttamente, seleziona **[!UICONTROL Cambia selezione]** sopra la diapositiva selezionata nella presentazione caricata, quindi scegli la diapositiva che corrisponde al layout.
+
+      Ripetere questo processo per ogni diapositiva mappata in modo errato.
+
+   +++
 
 1. Selezionare **[!UICONTROL Esporta PPT]**.
 
@@ -185,7 +189,7 @@ La possibilità di generare diapositive è attivata per impostazione predefinita
 
 Se necessario, gli amministratori dei profili di prodotto le cui organizzazioni dispongono di licenze per la generazione di diapositive possono disabilitare l’accesso.
 
-In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Narrazione dati]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
+In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Narrazione dati]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
 1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti e servizi]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Profili di prodotto]**
 1. Selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso alla [!UICONTROL narrazione dei dati].
 1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Autorizzazioni]**.
