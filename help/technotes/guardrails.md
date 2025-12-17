@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: c965d836e8e3795d8ba7660594d3fe373781cb43
 workflow-type: tm+mt
 source-wordcount: '2087'
 ht-degree: 7%
@@ -92,7 +92,7 @@ Alcune delle funzioni e il valore associato per il limite dipendono dal pacchett
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/guardrails/overview).
+Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview).
 
 
 ## Scadenza set di dati automatizzato
@@ -131,14 +131,14 @@ Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
 | Campi | 10.000 | Guardrail imposto dal sistema | Numero massimo di proprietà o campi per riga in un set di dati. |
-| Stringhe univoche | 10 milioni - 1 miliardo | Guardrail imposto dal sistema | Numero massimo di chiavi univoche per set di dati di ricerca. Dipende dalla confezione di Customer Journey Analytics (vedi Descrizione del prodotto).<ul><li>Fondazione: 10 milioni.</li><li>Select: 100 milioni.</li><li>Prime: 500 milioni.</li><li>Ultimate: 1 miliardo</li><ul> |
+| Stringhe univoche | 10 milioni - 1 miliardo | Guardrail imposto dal sistema | Numero massimo di chiavi univoche per set di dati di ricerca. Dipende dalla confezione di Customer Journey Analytics (vedi Descrizione del prodotto).<ul><li>Fondazione: 10 milioni.</li><li>Select: 100 milioni.</li><li>Prime: 250 milioni.</li><li>Ultimate: 1 miliardo</li><ul> |
 | Righe per persona | 1 milione | Guardrail imposto dal sistema | Numero massimo di righe per ID persona univoco in un dato mese all’interno di una connessione. |
 | Righe al giorno | 2,5 miliardi | Barra di protezione delle prestazioni | Numero medio massimo di righe al giorno in una connessione. |
 | Dimensione riga | 2 | Guardrail delle prestazioni / Guardrail imposto dal sistema | Dimensione media in kilobyte per riga di dati acquisiti in Customer Journey Analytics (limite soft). Un limite statico per la dimensione della riga è determinato dai guardrail per l’acquisizione dei dati in Experience Platform. |
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Esportazione dei dati delle destinazioni
@@ -150,7 +150,7 @@ Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](h
 
 {style="table-layout:auto"}
 
-Vedi anche Experience Platform [Guide di esportazione set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/guardrails#dataset-exports)
+Vedi anche Experience Platform [Guide di esportazione set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Zona di destinazione dati
@@ -266,7 +266,7 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 
 >[!NOTE]
 >
->I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+>I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 | Flusso di dati | Latenza prevista |
 |---|---|
