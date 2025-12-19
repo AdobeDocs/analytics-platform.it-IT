@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 6ebd1604e01af068228d7a5e4a78fdccf852f480
+source-git-commit: c67225619153218e3dca1eacea204f2b033dfb14
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '820'
 ht-degree: 3%
 
 ---
@@ -30,8 +30,7 @@ Per abilitare l’unione su un set di dati evento nell’interfaccia utente Conn
    * più campi configurati come identità e che consentono di selezionare valori diversi per un ID persistente e un ID persona.
    * almeno un campo contrassegnato come identità primaria con uno spazio dei nomi associato nel caso in cui si desideri utilizzare Identity Map e lo spazio dei nomi dell’identità primaria per l’ID persistente o l’ID persona.
 
-* Se desideri utilizzare l&#39;unione basata su grafico e prevedi che il set di dati dell&#39;evento contribuisca al grafico identità, devi [abilitare il set di dati per il servizio Identity](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service). Un set di dati contribuisce al grafico delle identità quando il set di dati contiene ID persona rilevanti accanto a ID persistenti.
-
+* Se desideri utilizzare l&#39;unione basata su grafico e prevedi che il set di dati dell&#39;evento contribuisca al grafico identità (in quanto il set di dati contiene ID persona rilevanti accanto agli ID persistenti), devi [abilitare il set di dati per il servizio Identity](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service).
 
 ## Controlli di verifica preliminare
 
