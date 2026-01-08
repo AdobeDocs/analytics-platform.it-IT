@@ -50,7 +50,7 @@ Per configurare e abilitare la funzionalità *mappare i dati di Analytics da pi�
 
 Una volta che l’account manager riceve l’e-mail con la richiesta di mappare i dati di Analytics da più organizzazioni, la richiesta viene rivista in Adobe. L&#39;Account Manager contatta l&#39;utente per eventuali domande aggiuntive, corsi di formazione facoltativi e altre informazioni.
 
-Una volta approvata, viene creata la mappatura richiesta e ricevi una notifica. Il nome dell&#39;organizzazione IMS di origine viene aggiunto al nome della suite di rapporti nell&#39;[elenco delle suite di rapporti di Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
+Una volta approvata, viene creata la mappatura richiesta e ricevi una notifica. Il nome dell&#39;organizzazione IMS di origine viene aggiunto al nome della suite di rapporti nell&#39;[elenco delle suite di rapporti di Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
 
 ## Limitazioni e rischi
 
