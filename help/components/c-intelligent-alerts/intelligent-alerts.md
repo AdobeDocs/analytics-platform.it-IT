@@ -4,10 +4,10 @@ title: Panoramica sugli avvisi
 feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 65e46a5d2a6759dd83b24bba2d1d4ee283b907c9
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 96%
+source-wordcount: '465'
+ht-degree: 58%
 
 ---
 
@@ -15,16 +15,21 @@ ht-degree: 96%
 
 Gli avvisi in Customer Journey Analytics ti consentono di ricevere notifiche in base a percentuali di modifica o a punti dati specifici.
 
-A seconda del pacchetto di Customer Journey Analytics, puoi anche utilizzare gli avvisi da attivare in base alle soglie delle anomalie. Questi avvisi (noti anche come “Avvisi intelligenti”) forniscono controlli granulari che si integrano con il [Rilevamento delle anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md), attivandosi quando sono più necessari.
+A seconda del pacchetto di Customer Journey Analytics, puoi anche utilizzare gli avvisi da attivare in base alle soglie delle anomalie. Questi avvisi (noti anche come *Avvisi intelligenti*) forniscono controlli granulari che si integrano con [Rilevamento anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md), attivandoli quando sono più necessari.
 
-Gli avvisi permettono di:
+* Visualizzare in anteprima la frequenza di attivazione di un avviso.
+* Inviare avvisi tramite e-mail o SMS con collegamenti ai progetti di Analysis Workspace generati automaticamente.
+* Crea avvisi *in pila* che acquisiscono più metriche in un singolo avviso.
+* Creare avvisi in base a:
+   * Le anomalie nelle metriche esistenti sono superiori o inferiori ai valori di soglia previsti.
 
-* Visualizzare in anteprima la frequenza di attivazione degli avvisi
-* Inviare avvisi tramite e-mail o SMS con collegamenti ai progetti di Analysis Workspace generati automaticamente
-* Creare avvisi “impilati” in grado di acquisire più metriche in un singolo avviso
-* Creare avvisi basati su anomalie (soglie del 90%, 95%, 99%, 99,75% e 99,9%; modifica della percentuale; superiore/inferiore) (Disponibile solo per i clienti Customer Journey Analytics con un pacchetto Select, Prime o Ultimate)
+     [Il rilevamento delle anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) genera un valore previsto più un limite superiore e inferiore utilizzando i dati storici. Se il valore della metrica effettiva supera il limite superiore o inferiore al limite inferiore definito come valore di soglia, tale evento viene considerato un’anomalia al livello di affidabilità della soglia e attiva l’avviso. Una soglia più elevata (ad esempio, 99% o 99,9%) implica una banda più ampia e comporta un minor numero di avvisi causati da anomalie più estreme. Una soglia più bassa (ad esempio, 90%) implica una banda più stretta, il che si traduce in un maggior numero di avvisi causati da anomalie meno estreme.
+   * Modifiche nelle metriche di una percentuale specifica.
+   * Metriche superiori, inferiori o uguali a un valore specifico. (disponibile solo per i clienti Adobe Analytics con un pacchetto Select, Prime o Ultimate)
 
-Il seguente tutorial video fornisce una panoramica di base degli avvisi: [Avvisi](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=it) (5:34)
+Questa [esercitazione video](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts) fornisce una panoramica di base degli avvisi.
+
+
 
 ## Informazioni sulle differenze tra gli avvisi
 
