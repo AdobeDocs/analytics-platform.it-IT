@@ -6,10 +6,10 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: 0e86227915404fe62fcd1f27e95eb3b1bb673030
+source-git-commit: cd3baec708f1811a7cbc37dfe0a9c3af75eb97c3
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 11%
+source-wordcount: '2351'
+ht-degree: 10%
 
 ---
 
@@ -136,7 +136,7 @@ Definisci uno schema che modella questi dati. Per configurare lo schema:
 
    1. Seleziona **[!UICONTROL Avanti]**.
 1. Nell&#39;interfaccia **[!UICONTROL Schemi]** > **[!UICONTROL Crea schema relazionale]**:
-   1. Immettere un nome visualizzato per lo schema **&#x200B;**. Ad esempio: `Sample Event Feed Schema`.
+   1. Immettere un nome visualizzato per lo schema ****. Ad esempio: `Sample Event Feed Schema`.
    1. Immetti una **[!UICONTROL Descrizione]**. Ad esempio: `Sample event feed schema for a relational schema`.
    1. Seleziona **[!UICONTROL Serie temporali]** come **[!UICONTROL Comportamento schema]**. Selezionare **[!UICONTROL Serie temporali]** per i dati basati su serie temporali e **[!UICONTROL Record]** per i dati basati su record. Il comportamento definisce la struttura dello schema e le proprietà incluse.
 
@@ -169,9 +169,11 @@ Definisci uno schema che modella questi dati. Per configurare lo schema:
    | `trackingcode` | `Tracking Code` | **[!UICONTROL Stringa]** | |
 
 
-   * Il campo **[!UICONTROL id]** è configurato come **[!UICONTROL Descrittore versione]**.
+   * Il campo **[!UICONTROL id]** è configurato come **[!UICONTROL descrittore di versione]**.
 
      ![Descrittore versione](assets/platform-schema-id.png)
+
+     In uno scenario reale, è possibile utilizzare un campo più appropriato come [descrittore versione](aep.md#schema). Ad esempio, un campo che tiene traccia dell’ora dell’ultima modifica.
 
    * Il campo **[!UICONTROL personid]** è configurato insieme a **[!UICONTROL timestamp]** come **[!UICONTROL chiave primaria]**. Selezionare ![Aggiungi](/help/assets/icons/Add.svg) **[!UICONTROL Crea chiave primaria composita]** per creare una chiave composita.
 
@@ -181,6 +183,8 @@ Definisci uno schema che modella questi dati. Per configurare lo schema:
 
      ![Descrittore della persona](assets/platform-schema-personid.png)
 
+     Il campo **[!UICONTROL personid]** non deve essere necessariamente la **[!UICONTROL chiave primaria]**. In uno scenario reale, è molto probabile che tu disponga di un campo diverso per monitorare la chiave primaria, separato da **[!UICONTROL personid]**.
+
    * Il campo **[!UICONTROL timestamp]** è configurato insieme al campo **[!UICONTROL personid]** come **[!UICONTROL chiave primaria]**. Anche il campo **[!UICONTROL timestamp]** è configurato come **[!UICONTROL descrittore timestamp]**. È sufficiente definire un campo come **[!UICONTROL descrittore marca temporale]** per i dati relazionali della serie temporale.
 
      ![Descrittore marca temporale](assets/platform-schema-timestamp.png)
@@ -189,6 +193,8 @@ Definisci uno schema che modella questi dati. Per configurare lo schema:
    Se hai definito correttamente **[!UICONTROL la chiave primaria]**, **[!UICONTROL il descrittore della versione]** e **[!UICONTROL il descrittore della marca temporale]**, l&#39;avviso nella definizione dello schema scompare.
 
 1. Seleziona **[!UICONTROL Salva]** per salvare lo schema.
+
+Analogamente, è possibile impostare uno [schema](aep.md#schema) relazionale basato su record. Ad esempio, per contenere i dati di profilo e di ricerca.
 
 
 ## Utilizzare un connettore di origine
@@ -219,7 +225,7 @@ Nel passaggio **[!UICONTROL Autenticazione]**, seleziona:
 
    1. Seleziona **[!UICONTROL Avanti]**.
 
-  Consulta la documentazione di Experience Platform per informazioni dettagliate su come connettersi e autenticare quando utilizzi il connettore [Azure Databricks](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake).
+  Consulta la documentazione di Experience Platform per informazioni dettagliate su come connettersi e autenticare quando utilizzi il connettore [Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake).
 
 
 ### Selezionare i dati
@@ -254,7 +260,7 @@ Nel passaggio **[!UICONTROL Dettagli flusso di dati]**:
 
 Nel passaggio **[!UICONTROL Mappatura]**:
 
-1. Mappa i campi. Dallo schema di Google BigQuery (**[!UICONTROL Dati Source]**) ai campi dello schema definiti in Experience Platform (**[!UICONTROL Campi Target]**).
+1. Mappa i campi dello schema in Google BigQuery (**[!UICONTROL Dati Source]**) ai campi dello schema definiti in Experience Platform (**[!UICONTROL Campi Target]**).
 
    ![Experience Platform - Connettore Source - Mappatura](assets/platform-sources-mapping.png)
 
