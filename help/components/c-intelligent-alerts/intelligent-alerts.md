@@ -27,7 +27,7 @@ A seconda del pacchetto di Customer Journey Analytics, puoi anche utilizzare gli
    * Modifiche nelle metriche di una percentuale specifica.
    * Metriche superiori, inferiori o uguali a un valore specifico. (disponibile solo per i clienti Adobe Analytics con un pacchetto Select, Prime o Ultimate)
 
-Questa [esercitazione video](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts) fornisce una panoramica di base degli avvisi.
+Questa [esercitazione video](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/data-science/intelligent-alerts) fornisce una panoramica di base degli avvisi.
 
 
 
