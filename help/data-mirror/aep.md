@@ -27,7 +27,7 @@ Di seguito sono riportati i dettagli da tenere in considerazione per la configur
 
 ## Schema
 
-Devi creare uno [schema relazionale](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational){target="_blank"} che sia la tabella nativa del data warehouse di cui desideri eseguire il mirroring. Quando crei lo schema relazionale, accertati che siano soddisfatti i seguenti requisiti:
+Devi creare uno [schema relazionale](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational){target="_blank"} che sia la tabella nativa del data warehouse di cui desideri eseguire il mirroring. Quando crei lo schema relazionale, accertati che siano soddisfatti i seguenti requisiti:
 
 * Quando viene richiesto il tipo di schema relazionale, assicurarsi di selezionare l&#39;opzione manuale.
 * Seleziona lo schema appropriato per il tipo di dati. Experience Platform Data Mirror viene utilizzato principalmente per i dati delle serie temporali (ad esempio, i dati evento), ma può anche essere utilizzato per i dati basati su record (ricerca e profilo).
@@ -55,9 +55,9 @@ Per impostare il connettore di origine sulle soluzioni native di data warehouse 
 
 Per l&#39;autenticazione rispetto alla soluzione nativa data warehouse supportata, consulta la documentazione Experience Platform pertinente:
 
-* [Database di Azure](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Database di Azure](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### Selezionare i dati
@@ -93,5 +93,5 @@ Una volta completata l’impostazione del connettore di origine, viene creato un
 >[!MORELIKETHIS]
 >
 >[Guida rapida di Data Mirror: mirroring e utilizzo dei dati relazionali](relational.md)
->[Data Mirror (documentazione Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
->[Schemi relazionali (documentazione di Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
+>[Data Mirror (documentazione Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/data-mirror/overview)
+>[Schemi relazionali (documentazione di Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational)
