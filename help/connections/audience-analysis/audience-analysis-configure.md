@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
+source-git-commit: 840bf65d186178fb944041ff486e95ba60dc6037
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1305'
 ht-degree: 12%
 
 ---
@@ -74,14 +74,14 @@ Per creare una configurazione di analisi del pubblico:
    | Campo | Descrizione |
    |---------|----------|
    | **[!UICONTROL Nome]** | Specifica un nome per la configurazione. |
-   | **[!UICONTROL Sandbox]** | Seleziona la sandbox di Experience Platform che contiene il set di dati profilo da aggiungere alla connessione. <p>Adobe Experience Platform fornisce [sandbox](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) che permettono di suddividere una singola istanza Platform in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. Puoi considerare le sandbox come “silos di dati” che contengono set di dati. Le sandbox vengono utilizzate per controllare l’accesso ai set di dati.</p> |
+   | **[!UICONTROL Sandbox]** | Seleziona la sandbox di Experience Platform che contiene il set di dati profilo da aggiungere alla connessione. Una singola sandbox può supportare fino a 100 configurazioni di analisi del pubblico. <p>Adobe Experience Platform fornisce [sandbox](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) che permettono di suddividere una singola istanza Platform in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. Puoi considerare le sandbox come “silos di dati” che contengono set di dati. Le sandbox vengono utilizzate per controllare l’accesso ai set di dati.</p> |
 
 1. Nella sezione **[!UICONTROL Set di dati profilo]**, specifica le seguenti informazioni:
 
    | Campo | Descrizione |
    |---------|----------|
    | **[!UICONTROL Criterio di unione]** | Seleziona il criterio di unione che corrisponde al set di dati del profilo da utilizzare per l’analisi del pubblico. <p>I criteri di unione determinano il modo in cui Adobe Experience Platform combina i dati di profilo da più set di dati in profili cliente unificati utilizzati per la creazione di tipi di pubblico. Il criterio di unione selezionato influisce sugli attributi del profilo inclusi nei tipi di pubblico. Ogni giorno in Experience Platform viene generata un’istantanea di questi dati. Questa istantanea fornisce una visualizzazione statica dei dati in un momento specifico e non include dati di eventi.</p><p>Selezionare il criterio di unione **[!UICONTROL Basato su tempo predefinito]** se sono presenti più criteri di unione e non si è sicuri di quale scegliere. Puoi anche consultare il team di dati per capire meglio quali tipi di pubblico sono associati a ciascun criterio di unione.</p> |
-   | **[!UICONTROL Set di dati profilo]** | Set di dati profilo associato al criterio di unione selezionato. Questo set di dati profilo include i dati del pubblico di Experience Platform che desideri analizzare. Questo set di dati profilo viene aggiunto alla connessione selezionata.<p>Dopo aver scelto un criterio di unione, viene visualizzata l’esportazione dello snapshot del profilo. Ad esempio: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>Per ulteriori informazioni, consulta [Set di dati di attributi di profilo](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/query#profile-attribute-datasets) nella Guida dei dashboard di Experience Platform.</p> |
+   | **[!UICONTROL Set di dati profilo]** | Set di dati profilo associato al criterio di unione selezionato. Questo set di dati profilo include i dati del pubblico di Experience Platform che desideri analizzare. Questo set di dati profilo viene aggiunto alla connessione selezionata.<p>Dopo aver scelto un criterio di unione, viene visualizzata l’esportazione dello snapshot del profilo. Ad esempio: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>Per ulteriori informazioni, consulta [Set di dati di attributi di profilo](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/query#profile-attribute-datasets) nella Guida dei dashboard di Experience Platform.</p> |
 
 1. Nella sezione **[!UICONTROL Connessione]** fare clic su **[!UICONTROL Seleziona una connessione]**.
 
@@ -105,7 +105,10 @@ Per creare una configurazione di analisi del pubblico:
 
 1. Seleziona **[!UICONTROL Crea]** per creare la configurazione.
 
-   Poiché il set di dati del profilo viene aggiornato una volta al giorno, i tipi di pubblico sono disponibili nelle visualizzazioni dati di Customer Journey Analytics il giorno successivo alla creazione della configurazione di analisi del pubblico.
+   >[!IMPORTANT]
+   >
+   >Poiché il set di dati del profilo viene aggiornato una volta al giorno, i tipi di pubblico sono disponibili nelle visualizzazioni dati di Customer Journey Analytics il giorno successivo alla creazione della configurazione di analisi del pubblico.
+
 
 1. Dopo 24 ore, [visualizza le dimensioni del pubblico nella visualizzazione dati](#view-audience-dimensions-in-the-data-view) per verificare che le dimensioni del pubblico siano disponibili nelle visualizzazioni dati selezionate.
 

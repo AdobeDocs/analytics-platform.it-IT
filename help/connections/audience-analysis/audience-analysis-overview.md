@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
+source-git-commit: 840bf65d186178fb944041ff486e95ba60dc6037
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '675'
 ht-degree: 3%
 
 ---
@@ -41,11 +41,14 @@ Il diagramma seguente e la tabella associata mostrano una rappresentazione di al
 | 7 | Connessione | La connessione in cui desideri aggiungere il set di dati profilo selezionato. |
 | 8 | Nuove dimensioni del pubblico | Nuove dimensioni di pubblico<!--and metrics?--> che rappresentano i tipi di pubblico di Experience Platform inclusi nel set di dati del profilo selezionato e disponibili per il reporting in Analysis Workspace. Queste quote vengono create automaticamente. |
 | 9 | Visualizzazioni dati | Le visualizzazioni dati selezionate associate alla connessione. Queste sono le visualizzazioni dati che desideri utilizzare per analizzare i dati del pubblico di Experience Platform in Analysis Workspace. Queste visualizzazioni dati vengono configurate automaticamente con i dati del pubblico di Experience Platform a scopo di reporting. |
-| 10 | Analysis Workspace | L’area all’interno di Customer Journey Analytics in cui puoi creare rapporti che includono i tipi di pubblico di Experience Platform che vengono acquisiti. |
 
 ## Configurare l’analisi del pubblico
 
 Quando configuri l’analisi del pubblico, seleziona la sandbox e il criterio di unione associati ai tipi di pubblico di Experience Platform che desideri analizzare. Customer Journey Analytics crea un nuovo set di dati di ricerca, quindi aggiunge automaticamente il set di dati di ricerca e il set di dati del profilo alla connessione scelta.
+
+>[!NOTE]
+>
+>I tipi di pubblico sono disponibili nelle visualizzazioni dati di Customer Journey Analytics il giorno successivo alla creazione della configurazione di analisi del pubblico.
 
 Per ulteriori informazioni, vedere [Configurare l&#39;analisi del pubblico](/help/connections/audience-analysis/audience-analysis-configure.md).
 
