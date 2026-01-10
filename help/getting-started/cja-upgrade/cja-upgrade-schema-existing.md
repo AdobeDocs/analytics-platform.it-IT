@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: a2b90ab2-2fcb-4bf4-a862-2f0675dc2fe2
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: 3dc53d6955eab3048ebf8a7c9d232b4b5739c6bd
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
@@ -20,10 +20,6 @@ ht-degree: 100%
 >id="cja-upgrade-schema-tailored"
 >title="Utilizzare uno schema personalizzato"
 >abstract="(Consigliato) La personalizzazione dello schema consente alla tua organizzazione di tenere traccia solo di ciò che serve e di evitare il sovraccarico legato a campi disordinati e non necessari. Questa opzione include i gruppi di campi aggiunti dal Web SDK e quelli personalizzati per la tua organizzazione."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-default"
