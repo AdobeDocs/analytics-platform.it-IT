@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 840bf65d186178fb944041ff486e95ba60dc6037
+source-git-commit: 9d9c4dbba13f61af4a47bbb0f87533fb950976bc
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '708'
 ht-degree: 3%
 
 ---
@@ -80,7 +80,13 @@ Per l’analisi del pubblico sono necessari i seguenti ruoli Customer Journey An
 | [Visualizzare le dimensioni di analisi del pubblico nella visualizzazione dati](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | Amministratore del profilo di prodotto per il profilo di prodotto a cui è assegnata la visualizzazione dati <p>Per ulteriori informazioni, vedere [Controllo degli accessi](/help/technotes/access-control.md).</p> | N/D |
 | Utilizzare le dimensioni di analisi del pubblico in Analysis Workspace | Accesso a una visualizzazione dati in cui sono state aggiunte le dimensioni di analisi del pubblico | N/D |
 
+## Limiti dell’analisi del pubblico
 
+Considera i seguenti limiti durante la [configurazione dell&#39;analisi del pubblico](/help/connections/audience-analysis/audience-analysis-configure.md):
+
+* Una singola sandbox può supportare fino a 100 configurazioni di analisi del pubblico.
+
+* Una connessione può essere associata a una sola configurazione di analisi del pubblico.
 
 
 
