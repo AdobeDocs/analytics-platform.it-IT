@@ -5,9 +5,9 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: 3dc53d6955eab3048ebf8a7c9d232b4b5739c6bd
+source-git-commit: b94c60c9832bc699212dda97ad634e8d3260c45c
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1467'
 ht-degree: 9%
 
 ---
@@ -25,32 +25,32 @@ ht-degree: 9%
 
 {{upgrade-note-step}}
 
-Adobe consiglia di creare uno schema [Experience Data Model](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) (XDM) personalizzato per Customer Journey Analytics durante l&#39;implementazione di [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/it/docs/experience-platform/collection/home). La creazione di questo schema viene in genere eseguita prima di qualsiasi modifica dell’implementazione o della modifica del codice. Uno schema personalizzato consente di progettare un contratto di dati conciso e specifico per l’organizzazione senza ereditare i vincoli da Adobe Analytics o gestire migliaia di campi non utilizzati. Consulta [Scegli lo schema per Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) per ulteriori informazioni sui tipi di schemi disponibili per la tua organizzazione.
+Adobe consiglia di creare uno schema [Experience Data Model](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) (XDM) personalizzato per Customer Journey Analytics durante l&#39;implementazione di [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home). La creazione di questo schema viene in genere eseguita prima di qualsiasi modifica dell’implementazione o della modifica del codice. Uno schema personalizzato consente di progettare un contratto di dati conciso e specifico per l’organizzazione senza ereditare i vincoli da Adobe Analytics. Consulta [Scegli lo schema per Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) per ulteriori informazioni sui tipi di schemi disponibili per la tua organizzazione.
 
-Gli schemi sono versioni raffinate di come desideri che i dati siano strutturati a lungo termine. Le modifiche agli schemi sono costose perché influiscono sulla raccolta dei dati, sulla convalida e sui servizi a valle. È possibile aggiungere schemi nel tempo in base ai requisiti aziendali; tuttavia, i campi degli schemi non possono essere rimossi una volta che i dati iniziano a fluire in essi.
+Gli schemi sono versioni raffinate di come desideri che i dati siano strutturati a lungo termine. Le modifiche agli schemi sono costose perché influiscono sulla raccolta dei dati, sulla convalida e sui servizi a valle. È possibile aggiungere agli schemi nel tempo in base ai requisiti aziendali; tuttavia, i campi dello schema non possono essere rimossi una volta che i dati iniziano a fluire in essi.
 
 ## Confrontare schemi con visualizzazioni dati
 
 La pipeline dei dati per Customer Journey Analytics contiene aree separate per la raccolta e l’interpretazione dei dati. Durante l’aggiornamento da Adobe Analytics, un passaggio errato comune consiste nel tentare di ricreare proprietà ed eVar con i loro comportamenti in XDM. È invece possibile utilizzare il Web SDK per raccogliere i dati e utilizzare [Visualizzazioni dati](/help/data-views/data-views.md) per determinare l&#39;interpretazione dei dati nei report.
 
-| Layer | Scopo principale | Cosa appartiene | Cosa non appartiene |
+| Layer | Scopo principale | Flessibilità | Cosa appartiene | Cosa non appartiene |
 |---|---|---|---|
-| **Schema XDM** | Definire la struttura durevole e il significato dei dati raccolti | Forma evento ed entità, significato del campo, relazioni, valori consentiti, riutilizzo tra canali | &quot;Slot&quot; numerati (eVar1/prop1), logica di attribuzione/persistenza, soluzioni alternative specifiche per i rapporti |
-| **Visualizzazioni dati** | Definire il comportamento dei dati raccolti nell’analisi | Impostazioni dei componenti, comportamento di attribuzione e persistenza, campi derivati, metriche filtrate, metriche calcolate | Significato fondamentale dei campi; tale significato dovrebbe essere stabile nello schema |
+| **Schema XDM** | Definire la struttura durevole e il significato dei dati raccolti | Rigido; punti dati considerati immutabili | Forma evento ed entità, significato del campo, relazioni, valori consentiti, riutilizzo tra canali | &quot;Slot&quot; numerati (eVar1/prop1), logica di attribuzione/persistenza, soluzioni alternative specifiche per i rapporti |
+| **Visualizzazioni dati** | Definire il comportamento dei dati raccolti nell’analisi | Flessibile; può essere modificato liberamente e può reinterpretare retroattivamente i dati | Impostazioni dei componenti, comportamento di attribuzione e persistenza, campi derivati, metriche filtrate, metriche calcolate | Significato fondamentale dei campi; tale significato dovrebbe essere stabile nello schema |
 
 ## Confrontare gli schemi con la raccolta dati di Adobe Analytics
 
 Il Experience Data Model utilizzato da Customer Journey Analytics offre una flessibilità notevolmente superiore rispetto alla maggior parte delle altre soluzioni Analytics (incluso Adobe Analytics). La creazione di uno schema solido offre all’organizzazione l’opportunità di evitare di riportare vincoli esistenti in altri prodotti Analytics.
 
-| Abitudine comune di Adobe Analytics | Migliore approccio in XDM + CJA |
+| Abitudine comune di Adobe Analytics | Migliore approccio in XDM + Customer Journey Analytics |
 |---|---|
 | Progettazione intorno agli slot numerati (`eVar1`-`eVar250`, `prop1`-`prop75`) | Crea campi con un significato stabile (ad esempio, `search.term`, `content.category`, `user.membershipTier`) e riutilizzali in modo coerente |
 | Codifica di persistenza/allocazione/scadenza nel modello di dati | Acquisire fatti durevoli nello schema; applicare l’attribuzione e il comportamento di persistenza a livello di visualizzazione dati |
 | Duplicazione dello stesso valore in più variabili per ottenere comportamenti di reporting | Memorizza il valore una volta e crea più componenti (dimensioni/metriche) da esso nelle visualizzazioni dati |
 | Creazione di un &quot;campo metrico&quot; univoco per ogni conteggio desiderato | Acquisisci i fatti giusti una volta (spesso come enum/booleani/stringhe), quindi definisci le metriche come conteggi filtrati nelle visualizzazioni dati |
-| Progettazione di variabili per la generazione di rapporti di &quot;pre-risoluzione&quot; | Progetta lo schema per acquisire in modo affidabile i fatti e utilizzare le visualizzazioni dati per risolvere la semantica di reporting |
+| Progettazione di variabili per la generazione di rapporti di &quot;pre-risoluzione&quot; | Progetta lo schema per acquisire fatti e utilizzare le visualizzazioni dati per risolvere la semantica di reporting |
 
-## Definizione di uno schema utilizzando attributi comuni
+## Stabilire uno schema utilizzando gli attributi comuni
 
 Uno schema unificato tra canali diventa possibile quando si standardizza un set di attributi riutilizzabili che vengono visualizzati in molti eventi. Alcuni esempi includono:
 
@@ -66,7 +66,7 @@ Un modo pratico per supportare più canali mantenendo una strategia a schema sin
 * **Campi core:** che si applicano a livello generale nei diversi canali e team
 * **Estensioni:** gruppi di campi specifici per canale o dominio che si applicano solo dove necessario (interazione web, e-commerce, ciclo di vita mobile, specifiche lato server)
 
-Questo modello supporta una singola strategia di schema organizzativo senza costringere ogni team a compilare campi che non si applicano al proprio canale.
+Questo modello supporta una strategia di schema organizzativo singolo senza costringere i team a compilare campi non necessari.
 
 ## Preferisci gruppi di campi standard in cui rientrano
 
@@ -84,9 +84,9 @@ I campi personalizzati sono appropriati quando:
 * Sono necessari attributi aggiuntivi per soddisfare i requisiti di reporting, governance o attivazione
 * Desideri rappresentare una tassonomia specifica per l’azienda (ad esempio, categorie di contenuto interne)
 
-## Decidere dove si trova il &quot;significato metrico&quot;
+## Determinare il conteggio delle metriche
 
-In Adobe Analytics, molti team considerano la variabile `events` come la destinazione delle metriche. In Customer Journey Analytics, puoi modellare le metriche in più modi a seconda di cosa devi contare e di come desideri interpretarle.
+In Adobe Analytics, molti team considerano la variabile `events` come l&#39;unico mezzo per tenere traccia delle metriche. In Customer Journey Analytics, puoi tenere traccia delle metriche in più modi a seconda di cosa devi contare e di come desideri interpretarle.
 
 Quando si progetta uno schema, attenersi ai fatti. Ad esempio, `error.type = "validation"`, `user.isLoggedIn = true`, `checkout.step = "shipping"`. Definisci le metriche nella visualizzazione dati come conteggi e conteggi filtrati su tali fatti. Ad esempio:
 
@@ -102,15 +102,15 @@ Quando si progetta uno schema, attenersi ai fatti. Ad esempio, `error.type = "va
 
 >[!TIP]
 >
->Quando si decide se qualcosa deve essere un campo dedicato rispetto a un campo derivato in un secondo momento, preferisci acquisire il fatto durevole nello schema, se è ampiamente utile e stabile. È possibile utilizzare i campi derivati per correggere o modificare la forma dei dati dopo la raccolta.
+>Quando si decide se un elemento deve essere un campo dedicato nello schema rispetto a un campo derivato in un secondo momento, è preferibile acquisire il fatto durevole nello schema se è ampiamente utile e stabile. È possibile utilizzare i campi derivati per correggere o modificare la forma dei dati dopo la raccolta.
 
-## Mantenimento della parità con Adobe Analytics durante la transizione senza bagaglio dello schema
+## Mantenere la parità con Adobe Analytics durante la transizione senza bagaglio dello schema
 
 Alcune organizzazioni devono continuare a generare rapporti con Adobe Analytics durante l’aggiornamento a Customer Journey Analytics. Puoi mantenere la parità senza introdurre artefatti specifici di Analytics nella progettazione di schemi a lungo termine utilizzando il seguente approccio:
 
 1. **Usa percorsi di campi XDM riconosciuti e mappati automaticamente da Adobe Analytics:** Quando invii campi XDM riconosciuti tramite Edge Network ad Adobe Analytics, vengono [mappati automaticamente](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/xdm-var-mapping) senza configurazioni aggiuntive.
 1. **Utilizza campi XDM personalizzati per concetti specifici dell&#39;organizzazione:** Tutti i campi XDM che non sono mappati automaticamente a una variabile Analytics vengono inoltrati come [Variabili di dati di contesto](https://experienceleague.adobe.com/it/docs/analytics/implementation/vars/page-vars/contextdata) in Adobe Analytics.
-1. **Utilizza le regole di elaborazione di Adobe Analytics per mappare tali variabili di dati di contesto su prop/eVar:** [Le regole di elaborazione](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview) ti consentono in ultima analisi di mappare qualsiasi campo XDM personalizzato in qualsiasi eVar o prop. Questo concetto supporta il reporting sulla parità in Adobe Analytics, mantenendo allo stesso tempo lo schema pulito e centrato su Customer Journey Analytics.
+1. **Utilizza le regole di elaborazione di Adobe Analytics per mappare tali variabili di dati di contesto su prop/eVar:** [Le regole di elaborazione](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview) ti consentono in ultima analisi di mappare qualsiasi campo XDM personalizzato in qualsiasi eVar o prop. Questo concetto supporta il reporting sulla parità in Adobe Analytics, mantenendo allo stesso tempo lo schema pulito e centrato su Customer Journey Analytics.
 
 ## Identificare le parti interessate e definire la proprietà
 
@@ -128,7 +128,7 @@ Definisci un proprietario chiaro per le modifiche allo schema. Uno schema stabil
 La progettazione dello schema deve riflettere le aspettative sulla privacy e sulla governance, in base alle politiche sulla privacy della tua organizzazione. Durante l’architettura dello schema, considera i seguenti punti:
 
 * Raccogli solo ciò di cui hai bisogno per supportare casi d’uso definiti.
-* Assicurati che i requisiti di consenso e utilizzo dei dati si riflettano nella strategia di raccolta. Per ulteriori informazioni, vedere [Utilizzare Web SDK per elaborare i dati sul consenso dei clienti](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/consent/sdk).
+* Assicurati che i requisiti di consenso e utilizzo dei dati siano rispecchiati nella strategia di raccolta. Per ulteriori informazioni, vedere [Utilizzare Web SDK per elaborare i dati sul consenso dei clienti](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/sdk).
 * Considera come i campi sensibili vengono etichettati e controllati negli strumenti di governance di Adobe Experience Platform. Consulta [Adobe Customer Journey Analytics e governance dei dati](/help/privacy/privacy-overview.md) per ulteriori informazioni.
 
 ## Passaggi successivi
