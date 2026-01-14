@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 9d9c4dbba13f61af4a47bbb0f87533fb950976bc
+source-git-commit: ca2adce7be8a28fa72323915473a8c2283741889
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '728'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,9 @@ Il diagramma seguente e la tabella associata mostrano una rappresentazione di al
 
 Quando configuri l’analisi del pubblico, seleziona la sandbox e il criterio di unione associati ai tipi di pubblico di Experience Platform che desideri analizzare. Customer Journey Analytics crea un nuovo set di dati di ricerca, quindi aggiunge automaticamente il set di dati di ricerca e il set di dati del profilo alla connessione scelta.
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>I dati sul pubblico vengono rielaborati e generati ogni notte, rendendo i dati sul pubblico precisi per l’analisi solo per il giorno precedente (&quot;ieri&quot;).
 >
 >I tipi di pubblico sono disponibili nelle visualizzazioni dati di Customer Journey Analytics il giorno successivo alla creazione della configurazione di analisi del pubblico.
 
