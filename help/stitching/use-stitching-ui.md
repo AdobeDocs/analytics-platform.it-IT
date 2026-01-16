@@ -6,9 +6,9 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: c67225619153218e3dca1eacea204f2b033dfb14
+source-git-commit: 3479227eb703583255d40de3d07d071ad2f89950
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '894'
 ht-degree: 3%
 
 ---
@@ -144,3 +144,11 @@ Oltre alle [limitazioni relative all&#39;unione basata sui campi](/help/stitchin
 
 * È possibile unire un set di dati evento una sola volta come parte di una singola connessione. Non è possibile definire lo stesso set di dati evento più di una volta e utilizzare una configurazione di unione separata per ogni istanza. Se desideri applicare diverse configurazioni di unione sullo stesso set di dati, utilizza una connessione separata per ogni configurazione.
 
+
+## Migrazione
+
+L’unione abilitata nell’interfaccia Connessioni può coesistere senza alcun problema con l’unione basata su richieste.
+
+Ad esempio, nel data lake sono presenti set di dati uniti basati sul web in seguito a richieste di unione precedenti o correnti. Puoi aggiungere dati uniti da un set di dati di call center utilizzando l’interfaccia Connessioni per combinare tali dati con quelli basati sul web.
+
+Successivamente, Adobe migrerà automaticamente i set di dati uniti basati su richieste nella nuova esperienza di unione nelle connessioni.

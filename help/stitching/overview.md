@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: b85b5b8212cf072ed46bc8eb587ea00984d33ccc
+source-git-commit: d117ba255151f730e0b5e4958ee56f5ffc88ade9
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '902'
+ht-degree: 88%
 
 ---
 
@@ -49,8 +49,8 @@ Per trarre vantaggio dall’analisi cross-channel, è necessario combinare uno o
 
 Le unioni delle identità possono essere abilitate in due modi:
 
-- [Richiesta abilitazione dell’unione delle identità](/help/stitching/use-stitching.md)
-- [Abilitazione dell’unione delle identità nell’interfaccia Connessioni](/help/stitching/use-stitching-ui.md) [!BADGE Beta]{type=Informative}
+- [Richiesta di abilitare l&#39;unione](/help/stitching/use-stitching.md). Una volta approvato, viene creato un set di dati duplicato per il set di dati per il quale è stata richiesta l’unione. Questo set di dati duplicato contiene una colonna aggiuntiva con l’identificatore unito. Per utilizzare i dati uniti in Customer Journey Analytics, è necessario creare una nuova connessione o modificare una connessione esistente che includa il set di dati uniti.
+- [Abilitare l&#39;unione nell&#39;interfaccia Connessioni](/help/stitching/use-stitching-ui.md) [!BADGE Beta]{type=Informative}. Quando configuri l’unione per un set di dati nell’interfaccia Connessioni, l’unione si verifica &quot;al volo&quot; durante l’acquisizione di dati da tale set di dati in Customer Journey Analytics.
 
 ## Limitazioni
 
