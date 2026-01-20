@@ -92,7 +92,7 @@ Alcune di queste preferenze possono essere personalizzate anche per singoli prog
 
 >[!IMPORTANT]
 >
->Non puoi più definire il formato numerico nella sezione **[!UICONTROL Project &amp; Analyzes]** > **[!UICONTROL Data]** delle **[!UICONTROL Preferenze utente]**. Il formato numerico viene determinato automaticamente dalla [lingua predefinita configurata](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) per l&#39;utente connesso.
+>Non puoi più definire il formato numerico nella sezione **[!UICONTROL Project &amp; Analyzes]** > **[!UICONTROL Data]** delle **[!UICONTROL Preferenze utente]**. Il formato numerico viene determinato automaticamente dalla [lingua predefinita configurata](https://experienceleague.adobe.com/it/docs/core-services/interface/features/browser-language) per l&#39;utente connesso.
 >
 
 
