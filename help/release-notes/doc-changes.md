@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b94c60c9832bc699212dda97ad634e8d3260c45c
+source-git-commit: 625c28b2e7d13e92622b04a6e756ad94a9e818ab
 workflow-type: tm+mt
-source-wordcount: '5639'
+source-wordcount: '5679'
 ht-degree: 97%
 
 ---
@@ -18,8 +18,9 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 ## 2026
 
 | Funzione | Descrizione |
-|---|---|
+| --- | --- |
 | **Gennaio 2026** | |
+| Preferenze utente: formato numero | Non puoi più definire il formato numerico nella sezione **[!UICONTROL Project &amp; Analyzes]** > **[!UICONTROL Data]** delle **[!UICONTROL Preferenze utente]**. Il formato numerico viene determinato automaticamente dalla [lingua predefinita configurata](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) per l&#39;utente connesso. |
 | Progettare uno schema | Sono state aggiunte informazioni e contesto sostanziali a [Architettura dello schema da utilizzare con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md). |
 
 ## 2025
@@ -244,7 +245,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Dicembre 2022** |  |
 | 16 dicembre 2022 | Nuovo argomento sulla [gestione dell’utilizzo dei dati di Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Ottobre 2022** | |
-| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
+| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Chiavi gestite dal cliente](/help/privacy/cmk.md). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Registro di controllo di Customer Journey Analytics](/help/privacy/audit-log.md). |
 | Ottobre 2022 | Nuovo argomento sulla visualizzazione del [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=it). |
@@ -311,7 +312,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Settembre 2021 | [Supporto per l’ora legale nella generazione rapporti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#calendar) |
 | Settembre 2021 | Documentazione sui [Calendari dei clienti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#calendar) |
 | Settembre 2021 | Documentazione sui [campi booleani](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/behavior.html?lang=it) |
-| Settembre 2021 | Suddivisione delle impostazioni dei componenti nelle visualizzazioni dati in singoli file:<ul><li>[[!UICONTROL Panoramica delle impostazioni del componente]](/help/data-views/component-settings/overview.md)</li><li>[[!UICONTROL Impostazioni del componente Attribution]](/help/data-views/component-settings/attribution.md)</li><li>[[!UICONTROL Comportamento] impostazioni componente](/help/data-views/component-settings/behavior.md)</li><li>[[!UICONTROL Formatta] impostazioni componente](/help/data-views/component-settings/format.md)</li><li>[[!UICONTROL Includi/escludi] impostazioni componente](/help/data-views/component-settings/include-exclude-values.md)</li><li>[[!UICONTROL Impostazioni del componente di deduplicazione delle metriche]](/help/data-views/component-settings/metric-deduplication.md)</li><li>[[!UICONTROL Nessun valore] impostazioni componente](/help/data-views/component-settings/no-value-options.md)</li><li>[[!UICONTROL Impostazioni del componente Persistenza]](/help/data-views/component-settings/persistence.md)</li><li>[[!UICONTROL Impostazioni del componente &#x200B;] nel bucket dei valori](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
+| Settembre 2021 | Suddivisione delle impostazioni dei componenti nelle visualizzazioni dati in singoli file:<ul><li>[[!UICONTROL Panoramica delle impostazioni del componente]](/help/data-views/component-settings/overview.md)</li><li>[[!UICONTROL Impostazioni del componente Attribution]](/help/data-views/component-settings/attribution.md)</li><li>[[!UICONTROL Comportamento] impostazioni componente](/help/data-views/component-settings/behavior.md)</li><li>[[!UICONTROL Formatta] impostazioni componente](/help/data-views/component-settings/format.md)</li><li>[[!UICONTROL Includi/escludi] impostazioni componente](/help/data-views/component-settings/include-exclude-values.md)</li><li>[[!UICONTROL Impostazioni del componente di deduplicazione delle metriche]](/help/data-views/component-settings/metric-deduplication.md)</li><li>[[!UICONTROL Nessun valore] impostazioni componente](/help/data-views/component-settings/no-value-options.md)</li><li>[[!UICONTROL Impostazioni del componente Persistenza]](/help/data-views/component-settings/persistence.md)</li><li>[[!UICONTROL Impostazioni del componente ] nel bucket dei valori](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
 | Settembre 2021 | Nuova sezione sulle [implicazioni dell’unione di suite di rapporti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=it#6-considerations-when-merging-report-suites-in-cja) in Customer Journey Analytics. |
 | **Agosto 2021** | |
 | Agosto 2021 | Nuova sezione sull’esperienza avanzata [Connessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it) in Customer Journey Analytics. |
