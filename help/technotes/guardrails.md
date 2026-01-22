@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: c965d836e8e3795d8ba7660594d3fe373781cb43
+source-git-commit: 687fb6a9f829bf38b91f394e7df811844be6926b
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2277'
 ht-degree: 7%
 
 ---
@@ -92,7 +92,7 @@ Alcune delle funzioni e il valore associato per il limite dipendono dal pacchett
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/guardrails/overview).
+Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview).
 
 
 ## Scadenza set di dati automatizzato
@@ -134,11 +134,12 @@ Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](
 | Stringhe univoche | 10 milioni - 1 miliardo | Guardrail imposto dal sistema | Numero massimo di chiavi univoche per set di dati di ricerca. Dipende dalla confezione di Customer Journey Analytics (vedi Descrizione del prodotto).<ul><li>Fondazione: 10 milioni.</li><li>Select: 100 milioni.</li><li>Prime: 250 milioni.</li><li>Ultimate: 1 miliardo</li><ul> |
 | Righe per persona | 1 milione | Guardrail imposto dal sistema | Numero massimo di righe per ID persona univoco in un dato mese all’interno di una connessione. |
 | Righe al giorno | 2,5 miliardi | Barra di protezione delle prestazioni | Numero medio massimo di righe al giorno in una connessione. |
+| Righe per connessione all&#39;anno | Varia in base al centro dati assegnato (per ulteriori informazioni, consulta la descrizione) | Barra di protezione delle prestazioni | Limite di righe consigliato per anno in una connessione. I limiti elencati di seguito sono approssimativi a partire da gennaio 2026 e aumenteranno nel tempo per consentire più righe per connessione. Se prevedi di superare questi limiti, contatta il team del tuo account Adobe per discutere configurazioni alternative. <p>Il limite di righe varia a seconda del centro dati assegnato, come segue:</p><ul><li>**Stati Uniti Azure (impostazione predefinita per i clienti USA)**: circa 500 miliardi (circa 42 miliardi al mese)</li><li>**Stati Uniti AWS (disponibile su richiesta per i clienti statunitensi)**: circa 30 miliardi (circa 2,5 miliardi al mese)</li><li>**Amsterdam**: circa 200 miliardi (circa 16,5 miliardi al mese)</li><li>**Tutti gli altri data center**: 25 miliardi (circa 2 miliardi al mese)</li></ul></p><p>Le organizzazioni scelgono il proprio data center Experience Platform al momento dell’acquisto iniziale di Experience Platform. Questa decisione si basa in genere sui requisiti di sovranità e residenza dei dati. Quando si sceglie un data center, è necessario considerare tutti i casi d’uso AEP+Apps (non solo i volumi delle righe in Customer Journey Analytics).</p><p>Per informazioni su come visualizzare il centro dati a cui sei assegnato, consulta [Percorsi di hosting Customer Journey Analytics](/help/technotes/data-centers.md)</p> |
 | Dimensione riga | 2 | Guardrail delle prestazioni / Guardrail imposto dal sistema | Dimensione media in kilobyte per riga di dati acquisiti in Customer Journey Analytics (limite soft). Un limite statico per la dimensione della riga è determinato dai guardrail per l’acquisizione dei dati in Experience Platform. |
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Esportazione dei dati delle destinazioni
@@ -150,7 +151,7 @@ Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](h
 
 {style="table-layout:auto"}
 
-Vedi anche Experience Platform [Guide di esportazione set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/guardrails#dataset-exports)
+Vedi anche Experience Platform [Guide di esportazione set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Zona di destinazione dati
@@ -266,7 +267,7 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 
 >[!NOTE]
 >
->I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+>I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 | Flusso di dati | Latenza prevista |
 |---|---|
