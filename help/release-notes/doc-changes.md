@@ -20,7 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 | --- | --- |
 | **Gennaio 2026** | |
-| Preferenze utente: formato numero | Non puoi più definire il formato numerico nella sezione **[!UICONTROL Project &amp; Analyzes]** > **[!UICONTROL Data]** delle **[!UICONTROL Preferenze utente]**. Il formato numerico viene determinato automaticamente dalla [lingua predefinita configurata](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) per l&#39;utente connesso. |
+| Preferenze utente: formato numero | Non puoi più definire il formato numerico nella sezione **[!UICONTROL Project &amp; Analyzes]** > **[!UICONTROL Data]** delle **[!UICONTROL Preferenze utente]**. Il formato numerico viene determinato automaticamente dalla [lingua predefinita configurata](https://experienceleague.adobe.com/it/docs/core-services/interface/features/browser-language) per l&#39;utente connesso. |
 | Progettare uno schema | Sono state aggiunte informazioni e contesto sostanziali a [Architettura dello schema da utilizzare con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md). |
 
 ## 2025
@@ -44,7 +44,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Configurazione dell’attribuzione | Aggiornamenti aggiuntivi per riflettere le nuove opzioni di configurazione dell’attribuzione per modello, contenitore e intervallo di lookback. |
 | Acquisire e utilizzare i tipi di pubblico di Experience Platform | È stato aggiornato l’articolo sul caso d’uso su come [acquisire e utilizzare i tipi di pubblico di Experience Platform](/help/use-cases/data-ingestion/ingest-aep-segments.md). |
 | Preparare l’organizzazione all’aggiornamento a Customer Journey Analytics | Sono state aggiunte informazioni su come [preparare un’organizzazione all’aggiornamento a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md). |
-| Rapporto su LLM e traffico generato da IA | È stato aggiunto l’[articolo del caso d’uso](/help/use-cases/ai-traffic.md) su come creare rapporti sul traffico generato da IA e LLM utilizzando come base i campi derivati. Questo documento si basa sull’articolo del blog [Tracciamento e analisi del traffico generato da IA e LLM in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967). |
+| Rapporto su LLM e traffico generato da IA | È stato aggiunto l’[articolo del caso d’uso](/help/use-cases/ai-traffic.md) su come creare rapporti sul traffico generato da IA e LLM utilizzando come base i campi derivati. Questo documento si basa sull’articolo del blog [Tracciamento e analisi del traffico generato da IA e LLM in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=it). |
 | **Settembre 2025** | |
 | Date precedenti al 1900 | È stata aggiunta una [nota](/help/connections/create-connection.md#datasets) sulla gestione delle date precedenti al 1900 da parte di Customer Journey Analytics. |
 | Reporting in tempo reale | La documentazione sul [reporting in tempo reale](/help/components/real-time/real-time.md) in Customer Journey Analytics è stata aggiunta. |
@@ -253,7 +253,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Dicembre 2022** |  |
 | 16 dicembre 2022 | Nuovo argomento sulla [gestione dell’utilizzo dei dati di Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Ottobre 2022** | |
-| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
+| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Chiavi gestite dal cliente](/help/privacy/cmk.md). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Registro di controllo di Customer Journey Analytics](/help/privacy/audit-log.md). |
 | Ottobre 2022 | Nuovo argomento sulla visualizzazione del [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=it). |
