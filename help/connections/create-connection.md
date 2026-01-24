@@ -838,5 +838,5 @@ Questo calcolo viene eseguito per ogni set di dati della connessione.
 >[!MORELIKETHIS]
 >
 >* [Panoramica sull&#39;acquisizione dei dati](/help/data-ingestion/data-ingestion.md)
->* Blog: [Come sfruttare i set di dati di evento, ricerca e profilo in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
+>* Blog: [Come sfruttare i set di dati di evento, ricerca e profilo in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=it)
 

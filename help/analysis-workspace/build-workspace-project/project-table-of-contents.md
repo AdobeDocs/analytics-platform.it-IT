@@ -46,4 +46,4 @@ Per visualizzare il sommario di un progetto:
 
 >[!MORELIKETHIS]
 >
->* [Semplifica la navigazione nella dashboard con la nuova funzione Sommario in Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
+>* [Semplifica la navigazione nella dashboard con la nuova funzione Sommario in Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=it)

@@ -48,6 +48,6 @@ Quando utilizzi un valore numerico come dimensione, puoi
 
 >[!MORELIKETHIS]
 >
->[Playbook completo per la gestione di &quot;Nessun valore&quot; in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/the-complete-playbook-for-handling-no-value-in-adobe-cja/ba-p/756696#M598).
+>[Playbook completo per la gestione di &quot;Nessun valore&quot; in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/the-complete-playbook-for-handling-no-value-in-adobe-cja/ba-p/756696?profile.language=it#M598).
 
 

@@ -38,7 +38,7 @@ In alternativa, è possibile definire un tasso di mancato recapito [&#x200B; uti
 
 I campi derivati fanno parte di una visualizzazione dati che presenta il vantaggio che non tutti gli utenti possono ignorare o modificare la definizione di una metrica del tasso di mancato recapito. Anche tale vantaggio ha introdotto una limitazione. Gli utenti che non hanno accesso a una visualizzazione dati non possono utilizzare campi derivati e devono ricorrere a segmenti e metriche calcolate per definire un tasso di mancato recapito.
 
-Per ulteriori informazioni su come calcolare i mancati recapiti e il relativo tasso in Customer Journey Analytics, consulta questo [post di blog](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446).
+Per ulteriori informazioni su come calcolare i mancati recapiti e il relativo tasso in Customer Journey Analytics, consulta questo [post di blog](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=it).
 
 +++
 

@@ -180,8 +180,8 @@ Le metriche calcolate non compatibili con il pannello Sperimentazione hanno il v
 
 ## Utilizzare le metriche calcolate nel pannello Sperimentazione
 
-Consulta questo post di blog per informazioni sull’[utilizzo di metriche calcolate nel pannello Sperimentazione](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
+Consulta questo post di blog per informazioni sull’[utilizzo di metriche calcolate nel pannello Sperimentazione](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119?profile.language=it).
 
 >[!MORELIKETHIS]
->[Padroneggiare la sperimentazione in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338)
+>[Padroneggiare la sperimentazione in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338?profile.language=it)
 >

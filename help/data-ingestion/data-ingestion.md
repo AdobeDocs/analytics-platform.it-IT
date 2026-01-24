@@ -114,5 +114,5 @@ Consulta [Acquisire e utilizzare dati ad hoc](./adhoc.md)
 
 >[!MORELIKETHIS]
 >
->Blog: [Informazioni più approfondite sull’elaborazione e l’acquisizione dei dati in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
+>Blog: [Informazioni più approfondite sull’elaborazione e l’acquisizione dei dati in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091?profile.language=it)
 

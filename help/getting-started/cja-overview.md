@@ -111,6 +111,6 @@ Per un video introduttivo sull’architettura e l’integrazione di Customer Jou
 
 >[!MORELIKETHIS]
 >
->* [Corso intensivo di Adobe Customer Journey Analytics per analisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
->* [Ottimizzare l’approccio e il flusso di lavoro di Adobe Customer Journey Analytics: modelli di team per organizzazioni di tutte le dimensioni](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
->* [Livello di preparazione dell’organizzazione: guida incentrata sulle persone per la scalabilità di Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)
+>* [Corso intensivo di Adobe Customer Journey Analytics per analisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261?profile.language=it)
+>* [Ottimizzare l’approccio e il flusso di lavoro di Adobe Customer Journey Analytics: modelli di team per organizzazioni di tutte le dimensioni](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456?profile.language=it)
+>* [Livello di preparazione dell’organizzazione: guida incentrata sulle persone per la scalabilità di Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273?profile.language=it)
