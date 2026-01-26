@@ -4,10 +4,10 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 3f369122863df4f3fc339730ced8c193360d07c6
+source-git-commit: e9799941256524ef148513fb16835a031b241e44
 workflow-type: tm+mt
-source-wordcount: '20877'
-ht-degree: 97%
+source-wordcount: '20935'
+ht-degree: 96%
 
 ---
 
@@ -1112,4 +1112,14 @@ Per accedere a tutti i modelli predfiniti disponibili:
 | --- | --- |
 | [!UICONTROL **Panoramica sul coinvolgimento dell’account B2B**] | Scopri quanto sono attivi i tuoi account tra eventi, persone e opportunità.<p>**Questo può aiutarti** a capire meglio se il coinvolgimento a livello di account sta aumentando o diminuendo, a confrontare le attività tra gli account e a decidere dove concentrare le attività di conservazione o acquisizione.</p><p>**In base a quanto appreso, potresti** fare diverse cose, come concentrare nuovamente l’attenzione sugli account meno coinvolti ma che richiedono più attenzione a causa dell’importanza dell’account.</p> |
 | [!UICONTROL **Panoramica sul coinvolgimento dell’opportunità B2B**] | Tieni traccia del coinvolgimento a livello di opportunità e degli accordi di superficie che acquisiscono o perdono interesse.<p>**Questo può aiutarti** a prevedere la progressione dell’accordo in modo più preciso e a concentrare l’abilitazione dove il coinvolgimento aumenta o si arresta.</p><p>**In base a quanto appreso, potresti** fare diverse cose, ad esempio dedicare ulteriori sforzi agli accordi quasi conclusi e cercare il motivo per cui invece altri stanno perdendo interesse.</p> |
-| [!UICONTROL **Attività del gruppo acquisti B2B**] | Visualizza l’attività del gruppo acquisti all’interno di ogni account per informare sulle azioni di marketing relative a gruppi acquisti ed account.<p>**Questo può aiutarti** a visualizzare i gruppi acquisti e le persone più coinvolte all’interno di tali gruppi, evidenziando le lacune nella partecipazione al gruppo.</p><p>**In base a ciò che hai appreso, potresti** fare diverse cose, ad esempio cercare di coinvolgere maggiormente le persone di gruppi acquisti che non sembrano essere coinvolte.</p> |
+| [!UICONTROL **Attività del gruppo acquisti B2B**] | Visualizza l’attività del gruppo acquisti all’interno di ogni account per informare sulle azioni di marketing relative a gruppi acquisti ed account.<p>**Questo può aiutarti** a visualizzare i gruppi acquisti e le persone più coinvolte all’interno di tali gruppi, evidenziando le lacune nella partecipazione al gruppo.</p><p>**In base a quanto appreso, potresti** fare diverse cose, ad esempio cercare di coinvolgere maggiormente le persone di gruppi acquisti che non sembrano essere coinvolte.</p> |
+
+
+### Modelli Mix Modeler {#mix-modeler-templates}
+
+<!-- CJA only -->
+
+>[!CONTEXTUALHELP]
+>id="template--mixModelerReport"
+>title="Visualizza informazioni da modelli selezionati generati da Mix Modeler."
+>abstract="**Questo può aiutarti** a comprendere meglio le informazioni incrementali dai modelli generati in Mix Modeler. <br/>**In base a queste informazioni** potrai:<ul><li>Visualizza e quantifica l’impatto delle attività di marketing della tua organizzazione.</li><li>Identifica i canali con prestazioni elevate.</li><li>Identifica i canali che potrebbero necessitare di ottimizzazione.</li></ul>"
