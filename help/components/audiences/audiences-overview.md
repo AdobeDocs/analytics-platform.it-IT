@@ -4,29 +4,23 @@ description: Scopri il concetto di pubblicazione di tipi di pubblico in Customer
 exl-id: 30404bfc-0ee7-4f01-842c-7e6156dc0b45
 feature: Audiences
 role: User, Admin
-source-git-commit: 3f369122863df4f3fc339730ced8c193360d07c6
+source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 85%
+source-wordcount: '517'
+ht-degree: 71%
 
 ---
 
 # Panoramica sulla pubblicazione del pubblico
 
-<!--
-
 >[!NOTE]
 >
->Understand the difference between audience analysis and audience publishing:
+>Comprendere la differenza tra analisi del pubblico e pubblicazione del pubblico:
 >
->* **Audience analysis**: Allows you to ingest audience membership data from Experience Platform Profile datasets into a Customer Journey Analytics connection. For information about audience analysis, see [Audience analysis overview](/help/connections/audience-analysis/audience-analysis-overview.md).
->* **Audience publishing**: Allows you to create and publish audiences discovered in Customer Journey Analytics to Adobe Experience Platform for customer targeting and personalization. 
+>* **Analisi del pubblico**: consente di acquisire i dati di appartenenza al pubblico dai set di dati del profilo di Experience Platform in una connessione Customer Journey Analytics. Per informazioni sull&#39;analisi del pubblico, vedere [Panoramica dell&#39;analisi del pubblico](/help/connections/audience-analysis/audience-analysis-overview.md).
+>* **Pubblicazione del pubblico**: ti consente di creare e pubblicare su Adobe Experience Platform i tipi di pubblico rilevati in Customer Journey Analytics per la personalizzazione e il targeting dei clienti.
 
--->
-
-Puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Analytics su [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti.
-
-<!-- add this when Audience Analysis releases: (For information about ingesting audience membership data from Experience Platform Profile datasets into a Customer Journey Analytics connection, see [Audience analysis overview](/help/connections/audience-analysis/audience-analysis-overview.md).) -->
+Puoi creare e pubblicare i tipi di pubblico rilevati in Customer Journey Analytics su [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) in Adobe Experience Platform per la personalizzazione e il targeting dei clienti. (Per informazioni sull&#39;acquisizione dei dati di appartenenza al pubblico dai set di dati del profilo di Experience Platform in una connessione Customer Journey Analytics, consulta [Panoramica dell&#39;analisi del pubblico](/help/connections/audience-analysis/audience-analysis-overview.md).)
 
 La pubblicazione di tipi di pubblico offre un modo chiaro di attivarsi e di agire sulle informazioni presenti all’interno di Customer Journey Analytics. Tali azioni possono includere:
 
