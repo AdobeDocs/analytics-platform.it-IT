@@ -50,7 +50,7 @@ Per configurare e abilitare la funzionalità *mappare i dati di Analytics da pi�
 
 Una volta che l’account manager di Adobe riceve l’e-mail con la richiesta di mappare i dati di Analytics da più organizzazioni, la richiesta viene rivista in Adobe. L’account manager Adobe ti contatta per eventuali domande aggiuntive, corsi di formazione facoltativi e altre informazioni.
 
-Una volta approvata, viene creata la mappatura richiesta e ricevi una notifica. Il nome dell&#39;organizzazione IMS di origine viene aggiunto al nome della suite di rapporti nell&#39;[elenco delle suite di rapporti di Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
+Una volta approvata, viene creata la mappatura richiesta e ricevi una notifica. Il nome dell&#39;organizzazione IMS di origine viene aggiunto al nome della suite di rapporti nell&#39;[elenco delle suite di rapporti di Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
 
 
 ## Limitazioni
@@ -70,7 +70,7 @@ Prima di richiedere la funzionalità *Mappa dati di Analytics da più organizzaz
 
 Una volta approvata la funzionalità *mappa dati di Analytics da più organizzazioni IMS*, puoi aggiungere dati ad Experience Platform per una o più suite di rapporti nell&#39;organizzazione IMS di destinazione. Questa operazione viene eseguita tramite la configurazione del [connettore di origine di Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). I set di dati di destinazione vengono quindi creati in Experience Platform. Come parte di questa configurazione e del processo, puoi inviare i dati del profilo da una o più suite di rapporti al servizio Profilo.
 
-Stimare il numero totale di profili risultanti dalla configurazione e dal processo, come descritto in precedenza. Assicurati che il numero totale rientri nel numero di profili a cui hai diritto contrattualmente per l’organizzazione di destinazione. Applica [regole e condizioni di filtro](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} per includere o escludere i dati in modo selettivo dall&#39;acquisizione nel servizio Profilo. Oppure disabilita l’opzione per inviare i dati del profilo al servizio Profilo per le suite di rapporti pertinenti.
+Stimare il numero totale di profili risultanti dalla configurazione e dal processo, come descritto in precedenza. Assicurati che il numero totale rientri nel numero di profili a cui hai diritto contrattualmente per l’organizzazione di destinazione. Applica [regole e condizioni di filtro](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} per includere o escludere i dati in modo selettivo dall&#39;acquisizione nel servizio Profilo. Oppure disabilita l’opzione per inviare i dati del profilo al servizio Profilo per le suite di rapporti pertinenti.
 
 
 ### Unione
