@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Adobe Analytics Integration,Administration
 hide: true
 hidefromtoc: true
-source-git-commit: 3c34bd50c12b370f5e9f95ac5d6357de4f63e5f6
+source-git-commit: 925da525b61c2a24156159f4029303c297e0af10
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '1162'
 ht-degree: 1%
 
 ---
@@ -46,17 +46,46 @@ Per configurare e abilitare la funzionalità *mappare i dati di Analytics da pi�
    | --- |
    | *Rappresentante del nome della società*, per consentire all’organizzazione di destinazione selezionata di accedere alle seguenti organizzazioni IMS (elenco delle organizzazioni IMS di origine), è necessario assicurarsi che un amministratore di ciascuna organizzazione IMS invii la propria approvazione per consentire l’accesso ai propri dati. Questo consente di rispettare le autorizzazioni di accesso ai dati da qualsiasi organizzazione IMS interessata. Per ottenere la corretta approvazione, rivolgiti a un amministratore Adobe registrato per ogni organizzazione amministratore affinché risponda a questa e-mail con il proprio nome e l’organizzazione IMS che rappresenta, indicando &quot;Approvo&quot; per indicare che ha dato la sua approvazione affinché i dati di questa organizzazione IMS vengano visualizzati nell’organizzazione di destinazione [elenca organizzazione IMS di destinazione]. Nota: questo amministratore deve essere un amministratore registrato in Adobe come amministratore per tale organizzazione IMS. |
 
-1. Invia un’e-mail come amministratore dell’organizzazione IMS di destinazione all’account manager Adobe che richiede la mappatura dalle suite di rapporti all’interno di più organizzazioni IMS di origine all’organizzazione IMS di destinazione. Allega le e-mail di approvazione ricevute dagli amministratori dell’organizzazione IMS di origine.
+1. Invia un’e-mail all’account manager Adobe per conto dell’amministratore dell’organizzazione IMS di destinazione che richiede la mappatura dalle suite di rapporti all’interno di più organizzazioni IMS di origine all’organizzazione IMS di destinazione. Allega le e-mail di approvazione ricevute dagli amministratori dell’organizzazione IMS di origine.
 
-Una volta che l’account manager riceve l’e-mail con la richiesta di mappare i dati di Analytics da più organizzazioni, la richiesta viene rivista in Adobe. L&#39;Account Manager contatta l&#39;utente per eventuali domande aggiuntive, corsi di formazione facoltativi e altre informazioni.
+Una volta che l’account manager di Adobe riceve l’e-mail con la richiesta di mappare i dati di Analytics da più organizzazioni, la richiesta viene rivista in Adobe. L’account manager Adobe ti contatta per eventuali domande aggiuntive, corsi di formazione facoltativi e altre informazioni.
 
-Una volta approvata, viene creata la mappatura richiesta e ricevi una notifica. Il nome dell&#39;organizzazione IMS di origine viene aggiunto al nome della suite di rapporti nell&#39;[elenco delle suite di rapporti di Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
+Una volta approvata, viene creata la mappatura richiesta e ricevi una notifica. Il nome dell&#39;organizzazione IMS di origine viene aggiunto al nome della suite di rapporti nell&#39;[elenco delle suite di rapporti di Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
 
-## Limitazioni e rischi
+
+## Limitazioni
 
 Le seguenti limitazioni si applicano alla funzionalità *mappa dati di Analytics da più organizzazioni IMS*:
 
 * Puoi collegare una suite di rapporti una sola volta tra le diverse organizzazioni.
 * Prima di poter richiedere l’eliminazione del mapping, è necessario eliminare tutte le connessioni per un’organizzazione IMS definita come organizzazione IMS di destinazione in un mapping.
 * Gli ECID non sono compatibili tra le organizzazioni IMS di origine mappate e non sono compatibili con l’organizzazione IMS di destinazione.
-* Un utente con autorizzazioni sufficienti per configurare il connettore di origine di Analytics nell’organizzazione IMS di destinazione può acquisire dati di Analytics da qualsiasi organizzazione IMS di origine mappata. Non viene verificata alcuna autorizzazione per tale utente per alcuna delle organizzazioni IMS di origine.
+
+
+## Considerazioni
+
+Prima di richiedere la funzionalità *Mappa dati di Analytics da più organizzazioni IMS*, considera i seguenti argomenti:
+
+### Profili
+
+Una volta approvata la funzionalità *mappa dati di Analytics da più organizzazioni IMS*, puoi aggiungere dati ad Experience Platform per una o più suite di rapporti nell&#39;organizzazione IMS di destinazione. Questa operazione viene eseguita tramite la configurazione del [connettore di origine di Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). I set di dati di destinazione vengono quindi creati in Experience Platform. Come parte di questa configurazione e del processo, puoi inviare i dati del profilo da una o più suite di rapporti al servizio Profilo.
+
+Stimare il numero totale di profili risultanti dalla configurazione e dal processo, come descritto in precedenza. Assicurati che il numero totale rientri nel numero di profili a cui hai diritto contrattualmente per l’organizzazione di destinazione. Applica [regole e condizioni di filtro](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} per includere o escludere i dati in modo selettivo dall&#39;acquisizione nel servizio Profilo. Oppure disabilita l’opzione per inviare i dati del profilo al servizio Profilo per le suite di rapporti pertinenti.
+
+
+### Unione
+
+Una volta approvata la funzionalità *mappa dati di Analytics da più organizzazioni IMS*, puoi aggiungere dati ad Experience Platform per una o più suite di rapporti nell&#39;organizzazione IMS di destinazione. Questa operazione viene eseguita tramite la configurazione del [connettore di origine di Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). I set di dati di destinazione per le suite di rapporti configurate nel connettore di origine di Analytics vengono quindi creati in Experience Platform. Come parte di questa configurazione e del processo, puoi inviare i dati del profilo da una o più suite di rapporti al servizio Profilo.
+
+Puoi utilizzare l&#39;unione [basata sui campi](/help/stitching/fbs.md) e [basata sui grafici](/help/stitching/gbs.md) nei set di dati di destinazione. Quando utilizzi l’unione basata su grafico su uno o più set di dati di destinazione, assicurati di rispettare i diritti contrattuali per il numero di profili, come descritto nella sezione [Profili](#profiles).
+
+Se non disponi della licenza per Real-Time Customer Profile, ma desideri comunque utilizzare l&#39;unione basata su grafico su uno o più set di dati di destinazione, assicurati di abilitare solo il [servizio Identity](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) per questi set di dati di destinazione.
+
+
+### Autorizzazioni
+
+Un utente con autorizzazioni sufficienti per configurare il connettore di origine di Analytics nell’organizzazione IMS di destinazione può acquisire dati di Analytics da qualsiasi organizzazione IMS di origine mappata. Non viene verificata alcuna autorizzazione per tale utente per alcuna delle organizzazioni IMS di origine.
+
+### Rapporto sui dati
+
+La funzionalità *mappa dati di Analytics da più organizzazioni IMS* è solo un primo passo per garantire che sia possibile utilizzare i dati come parte di una [connessione](/help/connections/overview.md) di Customer Journey Analytics, una o più [visualizzazioni dati](/help/data-views/data-views.md) e [progetti Workspace](/help/analysis-workspace/home.md). È necessario esaminare attentamente i dati ora disponibili in un’organizzazione IMS. Inoltre, prima di creare rapporti appropriati su questi dati, considera funzioni quali la preparazione dei dati, i campi derivati, le tabelle di ricerca aggiuntive e altro ancora.
