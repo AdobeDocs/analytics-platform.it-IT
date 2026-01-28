@@ -4,10 +4,10 @@ title: Filtra E Ordina
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 52%
+source-wordcount: '1577'
+ht-degree: 36%
 
 ---
 
@@ -132,6 +132,82 @@ Per ulteriori dettagli, consulta [Panoramica sulla segmentazione](/help/componen
 
 ## Ordinare le tabelle
 
-Puoi ordinare i dati di una tabella a forma libera in base a qualsiasi colonna di Analysis Workspace che può essere una dimensione oppure una metrica. Una freccia indica l’ordinamento dei dati (**↓** se decrescente o **↑** se crescente).
+In Analysis Workspace, puoi ordinare i dati di una tabella a forma libera in base a qualsiasi colonna, che si tratti di dimensioni o metriche. È anche possibile ordinare in base a più colonne contemporaneamente.
 
-![Ordinamento](assets/sorting.gif)
+Per impostazione predefinita, le dimensioni sono ordinate in ordine crescente e le metriche in ordine decrescente.
+
+### Ordinare le tabelle in base a una singola colonna
+
+Quando si ordinano i dati per una singola colonna come descritto in questa sezione, qualsiasi [ordinamento avanzato](#sort-tables-by-multiple-columns-advanced-sorting) applicato alla tabella viene rimosso.
+
+Per ordinare i dati nelle tabelle in base a una singola colonna:
+
+1. Passa il puntatore del mouse sull&#39;intestazione della colonna che desideri ordinare, quindi seleziona l&#39;icona **Ordina** ![Ordina](/help/assets/icons/SortOrderDown.svg) quando viene visualizzata.
+
+   ![Menu a discesa Ordina](assets/sort-dropdown-menu.png)
+
+1. Selezionare **[!UICONTROL Crescente]** o **[!UICONTROL Decrescente]**.
+
+   L’icona di ordinamento rimane visibile quando l’ordinamento viene applicato alla colonna. Una freccia indica l&#39;ordinamento dei dati (![Ordinamento](/help/assets/icons/SortOrderUp.svg) per crescente o ![Ordinamento](/help/assets/icons/SortOrderDown.svg) per decrescente).
+
+### Ordinare le tabelle in base a più colonne (ordinamento avanzato)
+
+{{release-limited-testing-section}}
+
+#### Applica ordinamento a più colonne
+
+Per ordinare i dati nelle tabelle in base a più colonne:
+
+1. Passa il puntatore del mouse sull&#39;intestazione di una colonna che desideri ordinare, quindi seleziona l&#39;icona **Ordina** ![Ordina](/help/assets/icons/SortOrderDown.svg) quando viene visualizzata.
+
+   ![Menu a discesa Ordina](assets/sort-dropdown-menu.png)
+
+1. Selezionare **[!UICONTROL Ordinamento avanzato]**.
+
+   ![Finestra di dialogo Ordinamento avanzato](assets/sort-advanced-dialog.png)
+
+1. Nella finestra di dialogo Ordinamento avanzato, eseguire una delle operazioni seguenti:
+
+   * Aggiungere colonne che non sono ancora ordinate selezionando il pulsante **[!UICONTROL Aggiungi colonna di ordinamento]**.
+
+   * Rimuovere le colonne che non si desidera più ordinare selezionando l&#39;icona **Rimuovi** ![Rimuovi](/help/assets/icons/Close.svg).
+
+   * Trascina le colonne più in alto o più in basso nell’elenco per regolare la priorità di ordinamento.
+
+     Per ulteriori informazioni, vedere [Priorità ordinamento](#sort-priority).
+
+   * Modifica il valore di ordinamento selezionando **[!UICONTROL Crescente]** o **[!UICONTROL Decrescente]** nel menu a discesa.
+
+   * Seleziona una colonna diversa selezionando il menu a discesa nome colonna.
+
+1. Seleziona **[!UICONTROL Applica]**.
+
+L’icona di ordinamento rimane visibile quando l’ordinamento viene applicato a una colonna. Una freccia indica l&#39;ordinamento dei dati (![Ordinamento](/help/assets/icons/SortOrderUp.svg) per crescente o ![Ordinamento](/help/assets/icons/SortOrderDown.svg) per decrescente).
+
+![esempio di ordinamento multiplo](assets/dimensions-multiple-sort.png)
+
+#### Priorità di ordinamento
+
+Quando si ordinano dati per più colonne, i dati vengono ordinati in base alla priorità assegnata a ciascuna colonna. La numerazione delle priorità viene visualizzata accanto all&#39;icona di ordinamento ![icona priorità ordinamento](assets/sort-priority-icon.png).
+
+La colonna con priorità primaria determina l&#39;ordine principale, la colonna con priorità secondaria determina l&#39;ordine quando le righe hanno lo stesso valore nella colonna principale, la colonna con priorità terziaria determina l&#39;ordine quando le righe hanno lo stesso valore nelle colonne principale e secondaria e così via.
+
+Consideriamo ad esempio una tabella con le seguenti colonne:
+
+* Giorno del mese (dimensione)
+
+* Ora del giorno (dimensione)
+
+* Eventi (metrica)
+
+È possibile assegnare una priorità di ordinamento a ciascuna colonna nel modo seguente:
+
+| Nome colonna (componente) | Tipo di componente | Priorità di ordinamento |
+|---------|----------|---------|
+| Giorno del mese | Dimensione | 1 |
+| Ora del giorno | Dimensione | 2 |
+| Eventi | Metrica | 3 |
+
+Assegnando una priorità di ordinamento a ciascuna colonna, è possibile controllare esattamente la modalità di visualizzazione dei dati nella tabella. In questo esempio, le informazioni vengono ordinate prima per Giorno del mese, quindi per Ora del giorno e infine per Eventi.
+
+![esempio di ordinamento multiplo](assets/dimensions-multiple-sort.png)
