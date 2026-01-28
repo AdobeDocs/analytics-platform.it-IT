@@ -4,9 +4,9 @@ title: Filtra E Ordina
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
+source-git-commit: 696bd0db44949162307d8ce7d2debed351a76cd6
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1575'
 ht-degree: 36%
 
 ---
@@ -188,7 +188,7 @@ L’icona di ordinamento rimane visibile quando l’ordinamento viene applicato 
 
 #### Priorità di ordinamento
 
-Quando si ordinano dati per più colonne, i dati vengono ordinati in base alla priorità assegnata a ciascuna colonna. La numerazione delle priorità viene visualizzata accanto all&#39;icona di ordinamento ![icona priorità ordinamento](assets/sort-priority-icon.png).
+Quando si ordinano dati per più colonne, i dati vengono ordinati in base alla priorità assegnata a ciascuna colonna. La numerazione delle priorità viene visualizzata accanto all&#39;icona di ordinamento ![SortOrderDown](/help/assets/icons/SortOrderDown.svg)<sup>➊</sup>.
 
 La colonna con priorità primaria determina l&#39;ordine principale, la colonna con priorità secondaria determina l&#39;ordine quando le righe hanno lo stesso valore nella colonna principale, la colonna con priorità terziaria determina l&#39;ordine quando le righe hanno lo stesso valore nelle colonne principale e secondaria e così via.
 
