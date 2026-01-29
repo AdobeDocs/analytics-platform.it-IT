@@ -4,10 +4,10 @@ description: Pagina di destinazione di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
+source-git-commit: b8c9acfe8fef4543557f87c81079babdc8097b64
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,23 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB Reporting in tempo reale*]
+>[!TAB Unione nelle connessioni]
+
+Ora puoi configurare e abilitare l’unione sui set di dati dell’evento direttamente nell’interfaccia utente delle connessioni di Customer Journey Analytics.
+
+[![immagine](assets/learn-more-button.svg)](/help/stitching/use-stitching-ui.md)
+
+*_Per abilitare l&#39;unione è necessario disporre almeno del pacchetto Select._*
+
+
+>[!TAB Analisi del pubblico]
+
+L’analisi del pubblico consente di acquisire i dati sull’iscrizione del pubblico dai set di dati del profilo di Experience Platform in una connessione Customer Journey Analytics.
+
+[![immagine](assets/learn-more-button.svg)](/help/connections/audience-analysis/analyze-audiences.md)
+
+
+>[!TAB Reporting in tempo reale]
 
 Il reporting in tempo reale in Customer Journey Analytics mostra e aggiorna dati e visualizzazioni in uno o più pannelli di Analysis Workspace in tempo reale.
 
@@ -31,95 +47,19 @@ Il reporting in tempo reale in Customer Journey Analytics mostra e aggiorna dati
 
 *_Per il reporting in tempo reale è necessario disporre del pacchetto Ultimate._*
 
+
 >[!TAB B2B Edition]
 
 Customer Journey Analytics B2B Edition aiuta le aziende B2B ad allineare i team di marketing, vendita e prodotto fornendo insight sugli account da utilizzare per stimolare la crescita dei ricavi. Collocando l’account al centro del modello dati, tutte le analisi si concentrano sul suo percorso.
 
 [![immagine](assets/learn-more-button.svg)](/help/getting-started/cja-b2b-edition.md)
 
->[!TAB Funzioni del campo derivato]
-
-Nuove funzioni del campo derivato: [Calcolo della data](/help/data-views/derived-fields/derived-fields.md#date-math), [Profondità](/help/data-views/derived-fields/derived-fields.md#depth) e [Conversione di tipo](/help/data-views/derived-fields/derived-fields.md#typecast).
-
-[![immagine](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB Content Analytics]
 
 Content Analytics consente di analizzare in modo rapido e semplice grandi volumi di dati sui contenuti per scoprire tendenze, individuare anomalie, identificare il sovraccarico di contenuti e ottenere insight dall’esposizione ai contenuti.
 
 [![immagine](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
-
->[!TAB Profondità evento]
-
-Profondità evento è una nuova dimensione standard che offre nuovi modi per misurare e comprendere meglio come gli eventi si collocano all’interno delle sessioni dei clienti. La dimensione Profondità evento consente di tracciare e analizzare nel dettaglio il punto in cui si verificano eventi specifici nel flusso sequenziale di interazioni dell’utente nell’ambito di una sessione.
-
-[![immagine](assets/learn-more-button.svg)](/help/components/dimensions/overview.md#standard-dimensions)
-
-
->[!TAB Metriche e dimensioni condivise]
-
-La funzione Metriche e dimensioni condivise fornisce una posizione centrale per gestire dimensioni e metriche che possono essere utilizzate in più visualizzazioni dati. Questi componenti sono particolarmente utili per le organizzazioni che utilizzano più visualizzazioni dati, soprattutto se queste condividono le stesse impostazioni dei componenti.
-
-[![immagine](assets/learn-more-button.svg)](/help/data-views/shared-metrics-dimensions/smd-overview.md)
-
-
-<!--
->[!TAB AI Assistant] 
-
-AI Assistant is a conversational experience that allows practitioners to perform tasks at a fast pace - whether its understanding concepts, troubleshooting problems, or searching through information. It also allows non-experts to perform expert tasks and increases the overall quality of work.
-
-[![image](assets/learn-more-button.svg)](/help/ai-assistant.md)
-
-
->[!TAB Guided Analysis] 
-
-Guided Analysis is now available directly from within Analysis Workspace, enabling users to create dashboards with comprehensive insights from panels, visualizations, and guided analyses.
-
-[![image](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
-
-
-
->[!TAB Intelligent captions v2] 
-
-Intelligent captions are now supported, with additional interface improvements, for [Line](/help/analysis-workspace/visualizations/line.md) (including multi-line), [Bar](/help/analysis-workspace/visualizations/bar.md), [Horizontal bar](/help/analysis-workspace/visualizations/horizontal-bar.md), [Area](/help/analysis-workspace/visualizations/area.md) (including multiple Area lines), [Donut](/help/analysis-workspace/visualizations/donut.md), [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), and [Flow](/help/analysis-workspace/visualizations/c-flow/flow.md) visualizations.
-
-[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
-
-
->[!TAB Alerts] 
-
-Alerts allow you to be notified based on changed percentages or specific data points. You can preview how often an alert will trigger, send alerts by email or SMS, create stacked alerts, and more.
-
-[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
-
-
->[!TAB Summary data] 
-
-Allows you to bring in time-series data that does not have a person ID. This time-series data can be used to support various use cases, such as 
-
-- Presenting high-level performance indicators as part of or next to event-level data. 
-- Uploading targets or goals at an hourly or daily basis, then positioning these targets or goals against event-level metrics. 
-
-[![image](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
-
--->
-
->[!TAB Unione basata su grafici*]
-
-Tramite l’unione basata sui grafici, puoi utilizzare il grafico Identità dell&#39;Identity Service per ottenere una visualizzazione migliore del percorso cliente grazie a: <ul><li>L’unione di set di dati con identificatori diversi senza dover estrarre, trasformare e caricare dati aggiuntivi per riflettere un singolo identificatore.</li> <li>Miglioramento della copertura dell’identità preferita o d’oro per un singolo set di dati mediante la condivisione di identità tra set di dati diversi,</li><li>Allineamento dei profili creati in Adobe Real-time CDP e AJO alle persone presenti in Customer Journey Analytics.</li></ul>
-
-[![immagine](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
-
-*_Per l’unione basata su grafici, è necessario disporre del pacchetto Prime._*
-
->[!TAB Estensione BI*]
-
-L’estensione BI consente a SQL di accedere alle visualizzazioni dati definite in Customer Journey Analytics. Ora puoi utilizzare il tuo strumento BI preferito (Power BI Desktop, Tableau Desktop, Looker, Juyter Notebook, and RStudio) per creare rapporti e dashboard basati sulle stesse visualizzazioni dati che gli utenti di Customer Journey Analytics utilizzano con i relativi progetti Analysis Workspace. [Casi d’uso](/help/use-cases/data-views/bi-extension-usecases.md) forniti.
-
-[![immagine](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
-
-*_Per utilizzare l’estensione BI, devi disporre del pacchetto Select o versione successiva._*
-
 
 >[!ENDTABS]
 
@@ -203,4 +143,4 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>Rimani aggiornato, contribuisci alla community e migliora la tua esperienza di Customer Journey Analytics.</b><br>Visita la community di Adobe Analytics per discutere delle funzionalità con altri professionisti. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it">Iscriviti alla community oggi stesso!</a></td></tr></tbody></table>
+<b>Rimani aggiornato, contribuisci alla community e migliora la tua esperienza di Customer Journey Analytics.</b><br>Visita la community di Adobe Analytics per discutere delle funzionalità con altri professionisti. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">Iscriviti alla community oggi stesso!</a></td></tr></tbody></table>
