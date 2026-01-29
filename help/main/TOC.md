@@ -9,10 +9,10 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: d117ba255151f730e0b5e4958ee56f5ffc88ade9
+source-git-commit: a8c158e66b66f2110df12fac794b2223f1922b1f
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 99%
+source-wordcount: '1363'
+ht-degree: 96%
 
 ---
 
@@ -494,7 +494,24 @@ ht-degree: 99%
       + [Casi d’uso per le visualizzazioni dati](/help/use-cases/data-views/data-views-usecases.md)
       + [Utilizzare dimensioni e metriche di binding](/help/use-cases/data-views/binding-dimensions-metrics.md)
       + [Utilizzare i dati di riepilogo](/help/use-cases/data-views/summary-data.md)
-      + [Casi d’uso dell’estensione BI](/help/use-cases/data-views/bi-extension-usecases.md)
+      + Estensione BI {#bi-extension}
+         + [Casi d’uso](/help/use-cases/data-views/bi-extension-usecases.md)
+         + [Connettere ed elencare le visualizzazioni dati](/help/use-cases/data-views/bi-extension/connect-and-validate.md)
+         + [Tendenza giornaliera](/help/use-cases/data-views/bi-extension/daily-trend.md)
+         + [Tendenza oraria](/help/use-cases/data-views/bi-extension/hourly-trend.md)
+         + [Tendenza mensile](/help/use-cases/data-views/bi-extension/monthly-trend.md)
+         + [Classificazione dimensione singola](/help/use-cases/data-views/bi-extension/single-dimension-ranked.md)
+         + [Classificazione di più dimensioni](/help/use-cases/data-views/bi-extension/multiple-dimension-ranked.md)
+         + [Conta valori di dimensione distinti](/help/use-cases/data-views/bi-extension/count-distinct-dimension-values.md)
+         + [Utilizzare i nomi degli intervalli di date per filtrare](/help/use-cases/data-views/bi-extension/use-date-range-names-to-filter.md)
+         + [Utilizzare i nomi dei segmenti per segmentare](/help/use-cases/data-views/bi-extension/use-segment-names-to-segment.md)
+         + [Utilizzare i valori di quota per segmentare](/help/use-cases/data-views/bi-extension/use-dimension-values-to-segment.md)
+         + [Ordina](/help/use-cases/data-views/bi-extension/sort.md)
+         + [Limiti](/help/use-cases/data-views/bi-extension/limits.md)
+         + [Trasformazioni](/help/use-cases/data-views/bi-extension/transformations.md)
+         + [Visualizzazioni](/help/use-cases/data-views/bi-extension/visualizations.md)
+         + [Avvertenze](/help/use-cases/data-views/bi-extension/caveats.md)
+
    + Campi derivati {#derived-fields}
       + [Rapporto su LLM e traffico generato da IA](/help/use-cases/ai-traffic.md)
       + [Rapporto sugli obiettivi](../use-cases/goals-using-derived-fields.md)
