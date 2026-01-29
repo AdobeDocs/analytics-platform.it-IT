@@ -260,7 +260,7 @@ La query viene eseguita dall’estensione BI come definito in Jupyter Notebook.
 
 >[!TAB StudioRS]
 
-1. Immettere le istruzioni seguenti tra ` ```{r} ` e ` ``` ` in un nuovo blocco.
+1. Immettere le istruzioni seguenti tra ` ` ``{r} ` e ` `` ` ` in un nuovo blocco.
 
    ```R
    ## Dimension 1 Limited

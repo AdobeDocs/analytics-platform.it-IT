@@ -153,7 +153,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 >[!TAB StudioRS]
 
-1. Immettere le istruzioni seguenti tra ` ```{r} ` e ` ``` ` in un nuovo blocco. Assicurati di utilizzare il nome del filtro appropriato. Ad esempio: `Fishing Products`.
+1. Immettere le istruzioni seguenti tra ` ` ``{r} ` e ` `` ` ` in un nuovo blocco. Assicurati di utilizzare il nome del filtro appropriato. Ad esempio: `Fishing Products`.
 
    ```R
    ## Dimension filtered by name

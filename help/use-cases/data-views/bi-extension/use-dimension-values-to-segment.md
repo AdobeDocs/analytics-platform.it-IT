@@ -154,7 +154,7 @@ Le ricerche di ![AlertRed](/help/assets/icons/AlertRed.svg) non mostrano l&#39;e
 
 >[!TAB StudioRS]
 
-1. Immettere le istruzioni seguenti tra ` ```{r} ` e ` ``` ` in un nuovo blocco. Assicurati di utilizzare una categoria appropriata. Ad esempio, `Hunting`.
+1. Immettere le istruzioni seguenti tra ` ` ``{r} ` e ` `` ` ` in un nuovo blocco. Assicurati di utilizzare una categoria appropriata. Ad esempio, `Hunting`.
 
    ```R
    ## Dimension 1 Filtered by Dimension 2 value

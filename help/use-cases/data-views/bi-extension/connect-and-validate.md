@@ -341,7 +341,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 
 1. Avviare Studio.
 1. Crea un nuovo file Markdown R o scarica [questo file Markdown R di esempio](../assets/BI-Extension.Rmd.zip).
-1. Nel primo blocco immettere le istruzioni seguenti comprese tra ` ```{r} ` e ` ``` `. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare i valori dal pannello **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** di Experience Platform nei valori richiesti per i vari parametri, come `host`, `dbname` e `user`. Ad esempio:
+1. Nel primo blocco immettere le istruzioni seguenti comprese tra ` ` ``{r} ` e ` `` ` `. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare i valori dal pannello **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** di Experience Platform nei valori richiesti per i vari parametri, come `host`, `dbname` e `user`. Ad esempio:
 
    ```R
    library(rstudioapi)
@@ -362,7 +362,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 
    ![Passaggio di configurazione RStudio 1](../assets/rstudio-config-step1.png)
 
-1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ``` {r} ` e ` ``` `.
+1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ` `` {r} ` e ` `` ` `.
 
    ```R
    con <- dbConnect(
@@ -379,7 +379,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 1. Esegui il blocco. Se la connessione ha esito positivo, non verrà visualizzato alcun output.
 
 
-1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ``` {r} ` e ` ``` `.
+1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ` `` {r} ` e ` `` ` `.
 
    ```R
    views <- dbListTables(con)
@@ -389,7 +389,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 1. Esegui il blocco. Dovresti vedere `character(0)` come unico output.
 
 
-1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ``` {r} ` e ` ``` `.
+1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ` `` {r} ` e ` `` ` `.
 
    ```R
    glimpse(dv)

@@ -178,7 +178,7 @@ Un esempio di **[!UICONTROL pannello con classificazione Dimension singola]** pe
    1. Selezionare la scheda **[!UICONTROL Serie]**.
    1. Scorri verso il basso per visualizzare **[!UICONTROL Acquisti]** e cambia **[!UICONTROL Tipo]** in **[!UICONTROL Riga]**.
    1. Selezionare la scheda **[!UICONTROL Y]**.
-   1. Trascina **[!UICONTROL Purchases]** dal contenitore **[!UICONTROL Left 1]** nel punto in cui si legge **[!UICONTROL *Trascina qui la serie per creare un nuovo asse sinistro *]**. Questa azione crea un contenitore**[!UICONTROL  Left 2 ]**.
+   1. Trascina **[!UICONTROL Purchases]** dal contenitore **[!UICONTROL Left 1]** nel punto in cui si legge **[!UICONTROL *Trascina qui la serie per creare un nuovo asse sinistro *]**. Questa azione crea un contenitore&#x200B;**[!UICONTROL &#x200B; Left 2 &#x200B;]**.
       ![Configurazione visualizzazione ricerca](../assets/uc5-looker-visualization.png)
    1. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) accanto a **[!UICONTROL Modifica]** per nascondere la finestra di dialogo a comparsa
 
@@ -214,7 +214,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 >[!TAB StudioRS]
 
-1. Immettere le istruzioni seguenti tra ` ```{r} ` e ` ``` ` in un nuovo blocco.
+1. Immettere le istruzioni seguenti tra ` ` ``{r} ` e ` `` ` ` in un nuovo blocco.
 
    ```R
    library(tidyr)
