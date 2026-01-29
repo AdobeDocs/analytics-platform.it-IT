@@ -6,10 +6,10 @@ feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 badgePremium: label="Beta" type="Informative"
-source-git-commit: 3479227eb703583255d40de3d07d071ad2f89950
+source-git-commit: 32997d0fd9801099a75287f63197d3b4c2ba81ef
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 3%
+source-wordcount: '938'
+ht-degree: 2%
 
 ---
 
@@ -136,7 +136,13 @@ Per abilitare l&#39;unione, nella sezione del set di dati evento della finestra 
 
 1. Selezionare un intervallo di lookback dal menu a discesa **[!UICONTROL Intervallo di lookback]**. Le opzioni disponibili dipendono dal pacchetto Customer Journey Analytics a cui hai diritto.
 
-Dopo aver salvato una connessione, il processo di unione per i set di dati abilitati per l’unione si attiva all’avvio dell’acquisizione dei dati per questi set di dati
+Dopo aver salvato una connessione, il processo di unione per i set di dati abilitati per l’unione si attiva all’avvio dell’acquisizione dei dati per questi set di dati.
+
+>[!CAUTION]
+>
+>Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
+>
+
 
 ## Limitazioni
 
