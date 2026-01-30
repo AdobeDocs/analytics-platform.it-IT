@@ -149,4 +149,4 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>Rimani aggiornato, contribuisci alla community e migliora la tua esperienza di Customer Journey Analytics.</b><br>Visita la community di Adobe Analytics per discutere delle funzionalità con altri professionisti. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">Iscriviti alla community oggi stesso!</a></td></tr></tbody></table>
+<b>Rimani aggiornato, contribuisci alla community e migliora la tua esperienza di Customer Journey Analytics.</b><br>Visita la community di Adobe Analytics per discutere delle funzionalità con altri professionisti. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it">Iscriviti alla community oggi stesso!</a></td></tr></tbody></table>
