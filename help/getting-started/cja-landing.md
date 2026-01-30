@@ -4,10 +4,10 @@ description: Pagina di destinazione di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: b8c9acfe8fef4543557f87c81079babdc8097b64
+source-git-commit: 3afb60a60b7fd1acb414244dffdb6a6493792f9c
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 91%
+source-wordcount: '628'
+ht-degree: 79%
 
 ---
 
@@ -29,7 +29,7 @@ Ora puoi configurare e abilitare l’unione sui set di dati dell’evento dirett
 
 [![immagine](assets/learn-more-button.svg)](/help/stitching/use-stitching-ui.md)
 
-*_Per abilitare l&#39;unione è necessario disporre almeno del pacchetto Select._*
+*Per abilitare l&#39;unione è necessario disporre almeno del pacchetto Select.*
 
 
 >[!TAB Analisi del pubblico]
@@ -45,7 +45,7 @@ Il reporting in tempo reale in Customer Journey Analytics mostra e aggiorna dati
 
 [![immagine](assets/learn-more-button.svg)](/help/components/real-time/real-time.md)
 
-*_Per il reporting in tempo reale è necessario disporre del pacchetto Ultimate._*
+*Per il reporting in tempo reale è necessario disporre del pacchetto Ultimate.*
 
 
 >[!TAB B2B Edition]
@@ -67,6 +67,7 @@ Content Analytics consente di analizzare in modo rapido e semplice grandi volumi
 
 Inizia consultando il materiale incluso nei collegamenti riportati di seguito per acquisire familiarità con le caratteristiche e le funzionalità di Customer Journey Analytics.
 
+
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
@@ -75,16 +76,20 @@ Inizia consultando il materiale incluso nei collegamenti riportati di seguito pe
     </td>
     <td>
     <a href="/help/data-ingestion/data-ingestion.md"><img src="./assets/data-ingestion.png"></a>
-    <div><strong>Acquisire e utilizzare i dati</strong><br/>Scopri le opzioni disponibili per acquisire i dati in Experience Platform e utilizzarli per l’analisi e il reporting in Customer Journey Analytics.</div>
+    <div><strong>Acquisire e utilizzare i dati</strong><br/>Scopri le opzioni disponibili per acquisire i dati in Experience Platform e utilizzarli per l'analisi e il reporting.</div>
     </td>
     <td>
     <a href="/help/guided-analysis/overview.md"><img src="./assets/product-analytics.png"></a>
-    <div><strong>Analisi guidata</strong><br/> Scopri come utilizzare i flussi di lavoro per ottenere dati e approfondimenti sull’esperienza cliente con i prodotti. Product Analytics tramite analisi guidata…
+    <div><strong>Analisi guidata</strong><br/> Scopri come utilizzare i flussi di lavoro per ottenere dati e approfondimenti sull’esperienza cliente con i prodotti. Product Analytics attraverso l’analisi guidata.
     </div>
     </td>
     <td>
     <a href="/help/analysis-workspace/home.md"><img src="./assets/workspace.png"></a>
     <div><strong>Analysis Workspace</strong><br/> Utilizza Analysis Workspace per eseguire analisi di base e avanzate, come diagrammi di attribuzione, di flusso e di fallout e raggruppamenti per dimensione.</div>
+    </td>
+    <td>
+    <a href="/help/content-analytics/content-analytics.md"><img src="./assets/content-analytics.png"></a>
+    <div><strong>Content Analytics</strong><br/>Comprendere in che modo il contenuto, accanto al comportamento, influisce sugli indicatori di prestazioni chiave. Ottieni informazioni più approfondite sui dati del percorso del cliente.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -92,6 +97,7 @@ Inizia consultando il materiale incluso nei collegamenti riportati di seguito pe
     <td align="center"><a href="/help/data-ingestion/data-ingestion.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/guided-analysis/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/analysis-workspace/home.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/content-analytics/content-analytics.md"><img src="./assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
@@ -104,7 +110,7 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
   <tr style="border: 0;">
     <td>
       <img src="./assets/analytics.svg" width="35px"><br/>
-       <strong>Confronto con Adobe Analytics</strong><br/><a href="/help/getting-started/aa-vs-cja/overview.md">Panoramica</a> - <a href="/help/getting-started/aa-to-cja.md">Evoluzione</a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md">Utilizzo dei dati di Adobe Analytics</a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md">Funzionalità supportate</a> - <a href="/help/getting-started/aa-vs-cja/terminology.md">Terminologia</a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md">Elaborazione dati</a> - <a href="/help/getting-started/cja-b2b-edition.md">Customer Journey Analytics B2B Edition</a>
+      <strong>Confronta con Adobe Analytics</strong><br/><a href="/help/getting-started/aa-vs-cja/overview.md">Panoramica</a> - <a href="/help/getting-started/aa-to-cja.md">Evoluzione</a> - <a href="/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md">Aggiornamento</a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md">Utilizza dati Adobe Analytics</a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md">Supporto delle funzionalità</a> - <a href="/help/getting-started/aa-vs-cja/terminology.md">Terminologia</a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md">Elaborazione dati</a>
     </td>
     <td>
       <img src="./assets/connections.svg" width="35px"><br/>
@@ -120,12 +126,12 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
       <img src="./assets/workspace.svg" width="35px"><br/>
       <strong>Progetti Workspace</strong><br/><a href="/help/analysis-workspace/home.md">Analysis Workspace</a> - <a href="/help/analysis-workspace/perform-basic-analysis.md">Analisi di base </a> e <a href="/help/analysis-workspace/perform-adv-analysis.md">avanzata</a> - <a href="/help/analysis-workspace/build-workspace-project/freeform-overview.md">Progetti</a> - <a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md">Visualizzazioni</a> - <a href="/help/analysis-workspace/c-panels/freeform-panel.md">Pannelli</a>
     </td>
-    <td>
-      <img src="./assets/guided-analysis.svg" width="35px"><br/>
-      <strong>Analisi guidata</strong><br/><a href="/help/guided-analysis/overview.md">Panoramica</a> - <a href="/help/guided-analysis/types/active-growth.md">Crescita utenti</a> - <a href="/help/guided-analysis/types/trends.md">Tendenze</a> - <a href="/help/guided-analysis/types/funnel.md">Funnel</a> - <a href="/help/guided-analysis/types/release-impact.md">Impatto</a> - <a href="/help/guided-analysis/industry-use-cases.md">Casi d’uso del settore</a>
+        <td>
+      <img src="./assets/share.svg" width="35px"><br/> <strong>Condivisione, esportazione, integrazione</strong><br/><a href="/help/analysis-workspace/curate-share/share-projects.md">Progetti</a> - <a href="/help/mobile-app/home.md">Dashboard di Analytics</a> - <a href="/help/report-builder/rb-overview.md">Report Builder</a> - <a href="/help/components/exports/manage-exports.md">Esportazione cloud</a> - <a href="/help/integrations/overview.md">Integrazioni</a>
     </td>
     <td>
-      <img src="./assets/share.svg" width="35px"><br/> <strong>Condivisione, esportazione, integrazione</strong><br/><a href="/help/analysis-workspace/curate-share/share-projects.md">Progetti</a> - <a href="/help/mobile-app/home.md">Dashboard di Analytics</a> - <a href="/help/report-builder/rb-overview.md">Report Builder</a> - <a href="/help/components/exports/manage-exports.md">Esportazione cloud</a> - <a href="/help/integrations/overview.md">Integrazioni</a>
+      <img src="./assets/guided-analysis.svg" width="35px"><br/>
+      <strong>E altro ancora...</strong><br/><a href="/help/guided-analysis/overview.md">Analisi guidata</a> - <a href="/help/content-analytics/content-analytics.md">Content Analytics</a> - <a href="/help/getting-started/cja-b2b-edition.md">B2B edition</a> 
     </td>
   </tr>
 </table>
@@ -143,4 +149,4 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>Rimani aggiornato, contribuisci alla community e migliora la tua esperienza di Customer Journey Analytics.</b><br>Visita la community di Adobe Analytics per discutere delle funzionalità con altri professionisti. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it">Iscriviti alla community oggi stesso!</a></td></tr></tbody></table>
+<b>Rimani aggiornato, contribuisci alla community e migliora la tua esperienza di Customer Journey Analytics.</b><br>Visita la community di Adobe Analytics per discutere delle funzionalità con altri professionisti. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">Iscriviti alla community oggi stesso!</a></td></tr></tbody></table>
