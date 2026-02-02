@@ -48,7 +48,7 @@ Report Builder per Customer Journey Analytics è un componente aggiuntivo di Mic
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder per Customer Journey Analytics](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder per Customer Journey Analytics](https://video.tv.adobe.com/v/3452588?captions=ita&quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
