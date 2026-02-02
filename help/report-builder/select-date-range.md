@@ -1,15 +1,15 @@
 ---
-title: Come selezionare un intervallo di date in Report Builder in Customer Journey Analytics
-description: Descrive come utilizzare il calendario, le date continue e le espressioni personalizzate in Report Builder for Customer Journey Analytics
+title: Seleziona Un Intervallo Di Dati In Report Builder
+description: Scopri come selezionare un intervallo di date in Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
 solution: Customer Journey Analytics
-source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 14%
+source-wordcount: '853'
+ht-degree: 7%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 14%
 
 Per modificare l’intervallo di date di un blocco di dati esistente:
 
-- Seleziona **[!UICONTROL Edit a data block]**, oppure
-- Selezionare il collegamento **[!UICONTROL Date range]** in **[!UICONTROL Quick edit]**.
+- Seleziona **[!UICONTROL Modifica un blocco di dati]**, oppure
+- Seleziona il collegamento **[!UICONTROL Intervallo date]** in **[!UICONTROL Modifica rapida]**.
 
 Utilizza le seguenti opzioni per modificare un intervallo di date per un blocco di dati.
 
 ## Calendario
 
-L&#39;opzione **[!UICONTROL Calendar]** consente di creare date statiche o continue utilizzando le opzioni seguenti:
+L&#39;opzione **[!UICONTROL Calendario]** consente di creare date statiche o continue utilizzando le opzioni seguenti:
 
 ### Intervallo date
 
@@ -46,20 +46,20 @@ Per definire le date di rotazione:
 
 ![Date di rotazione USA](assets/date-range-rolling-date.png){zoomable="yes"}
 
-1. Selezionare **[!UICONTROL Use rolling dates]** per definire la logica per una definizione di data continua. È possibile selezionare il testo tra parentesi (ad esempio **[!UICONTROL fixed start - rolling daily]**) per estendere il pannello e specificare i dettagli per **[!UICONTROL Start]** e **[!UICONTROL End]**.
+1. Selezionare **[!UICONTROL Utilizza date continue]** per definire la logica per una definizione di data continua. Puoi selezionare il testo tra parentesi (ad esempio **[!UICONTROL inizio fisso - giorno continuo]**) per estendere il pannello e specificare i dettagli per **[!UICONTROL Inizio]** e **[!UICONTROL Fine]**.
 
-1. Seleziona **[!UICONTROL Start of]**, **[!UICONTROL End of]**, or **[!UICONTROL Fixed day]**.
+1. Seleziona **[!UICONTROL Inizio di]**, **[!UICONTROL Fine di]** o **[!UICONTROL Giorno fisso]**.
 
-   - Dopo aver selezionato **[!UICONTROL Start of]** o **[!UICONTROL End of]**, è possibile creare un’espressione completa. Ad esempio: **[!UICONTROL End of]** **[!UICONTROL current year]** **[!UICONTROL plus]** `1` **[!UICONTROL day]**. Seleziona il valore appropriato per ogni singola parte dell’espressione.
+   - Dopo aver selezionato **[!UICONTROL Inizio di]** o **[!UICONTROL Fine di]**, puoi creare un&#39;espressione completa. Ad esempio: **[!UICONTROL Fine di]** **[!UICONTROL anno corrente]** **[!UICONTROL più]** `1` **[!UICONTROL giorno]**. Seleziona il valore appropriato per ogni singola parte dell’espressione.
 
-      - Seleziona un valore corrente. Ad esempio: **[!UICONTROL current year]**.
-      - Selezionare un valore per un calcolo aggiuntivo facoltativo. Ad esempio: **[!UICONTROL plus]**.
+      - Seleziona un valore corrente. Ad esempio, **[!UICONTROL anno corrente]**.
+      - Selezionare un valore per un calcolo aggiuntivo facoltativo. Ad esempio, **[!UICONTROL più]**.
       - Dopo aver specificato un calcolo aggiuntivo, specifica un valore. Ad esempio: `1`.
-      - Dopo aver specificato un calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio: **[!UICONTROL day]**.
+      - Dopo aver specificato un calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio, **[!UICONTROL giorno]**.
 
-   - Dopo aver selezionato **[!UICONTROL Fixed Day]**, specificare un giorno fisso o utilizzare il selettore per selezionare un giorno.
+   - Dopo aver selezionato **[!UICONTROL Giorno fisso]**, specificare un giorno fisso o utilizzare il selettore per selezionare un giorno.
 
-1. Seleziona **[!UICONTROL hide]** per nascondere i dettagli del calcolo delle date continue.
+1. Seleziona **[!UICONTROL nascondi]** per nascondere i dettagli del calcolo delle date di rotazione.
 
 
 ### Espressioni personalizzate
@@ -68,15 +68,15 @@ L’opzione di espressione personalizzata consente di modificare l’intervallo 
 
 ![Espressione personalizzata intervallo di date](assets/date-range-custom-expression.png){zoomable="yes"}
 
-1. Seleziona **[!UICONTROL Use rolling dates]** (Aggiungi set di dati).
+1. Seleziona **[!UICONTROL Utilizza date continue]**.
 
-1. Seleziona **[!UICONTROL Use custom expression]** (Salva).
+1. Selezionare **[!UICONTROL Usa espressione personalizzata]**.
 
-   Quando si seleziona **[!UICONTROL Use custom expression]**, i controlli standard dell&#39;intervallo di date continuo sono disabilitati.
+   Quando si seleziona **[!UICONTROL Usa espressione personalizzata]**, i controlli standard dell&#39;intervallo di date continuo sono disattivati.
 
 1. Immetti un&#39;[espressione personalizzata](#create-a-custom-expression).
 
-1. Utilizza **[!UICONTROL Date preview]** per verificare l&#39;intervallo di date risultante.
+1. Utilizza **[!UICONTROL Anteprima data]** per verificare l&#39;intervallo di date risultante.
 
 #### Creare un’espressione personalizzata
 
@@ -128,14 +128,14 @@ Nella tabella seguente sono elencati alcuni esempi di espressioni di data.
 
 ## Intervallo di date dalla cella
 
-L&#39;intervallo di date può essere specificato nelle celle del foglio di lavoro. Utilizzare l&#39;opzione **[!UICONTROL Date range from cell]** per scegliere la data di inizio e di fine del blocco di dati dalle celle selezionate. Quando selezioni l&#39;opzione **[!UICONTROL From cell]**, nel pannello vengono visualizzati **[!UICONTROL From]** e **[!UICONTROL To]** campi in cui puoi immettere la posizione di una cella o utilizzare ![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg) per scegliere la cella selezionata corrente.
+L&#39;intervallo di date può essere specificato nelle celle del foglio di lavoro. Utilizza l&#39;opzione **[!UICONTROL Intervallo date dalla cella]** per scegliere la data di inizio e di fine del blocco di dati dalle celle selezionate. Quando selezioni l&#39;opzione **[!UICONTROL From cell]**, nel pannello vengono visualizzati **[!UICONTROL From]** e **[!UICONTROL To]** campi in cui puoi immettere una posizione di cella o utilizzare ![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg) per scegliere la cella selezionata corrente.
 
 ![Selezionare dalla cella Sheet1!H4 a Sheet1!I4](./assets/date-range-from-cell.png){zoomable="yes"}
 
 
 ## Escludi oggi
 
-Seleziona **[!UICONTROL Exclude today]** per escludere oggi da un intervallo di date selezionato. Il giorno corrente è escluso da tutte le modalità utilizzate per definire un intervallo di date: calendario, date continue o espressioni personalizzate.
+Seleziona **[!UICONTROL Escludi oggi]** per escludere oggi da un intervallo di date selezionato. Il giorno corrente è escluso da tutte le modalità utilizzate per definire un intervallo di date: calendario, date continue o espressioni personalizzate.
 
 
 ## Intervalli di date validi
@@ -146,7 +146,7 @@ Nell’elenco seguente sono descritti i formati di intervalli di date validi.
 
 - La data di inizio deve essere precedente o uguale alla data di fine. Entrambe le date possono essere impostate sul futuro.
 
-- Quando si utilizzano date continue, la data di inizio deve essere oggi o nel passato. Il giorno di inizio deve essere nel passato se si seleziona **[!UICONTROL Exclude today]**.
+- Quando si utilizzano date continue, la data di inizio deve essere oggi o nel passato. Il giorno di inizio deve essere nel passato se si seleziona **[!UICONTROL Escludi oggi]**.
 
 - Puoi creare un intervallo di date statico impostato per il futuro. Ad esempio, potrebbe essere necessario impostare una data futura per il lancio di una campagna di marketing la prossima settimana. Questa opzione crea in anticipo un monitoraggio della cartella di lavoro per una campagna.
 
@@ -156,11 +156,11 @@ Puoi modificare l’intervallo di date di un blocco di dati esistente.
 
 1. Seleziona una cella nel blocco di dati.
 
-- Selezionare **[!UICONTROL Edit data block]** nel pannello **[!UICONTROL Commands]**, oppure
-- Selezionare il collegamento **[!UICONTROL Date range]** nel pannello **[!UICONTROL Quick edit]**.
+- Selezionare **[!UICONTROL Modifica blocco dati]** nel pannello **[!UICONTROL Comandi]** oppure
+- Seleziona il collegamento **[!UICONTROL Intervallo date]** nel pannello **[!UICONTROL Modifica rapida]**.
 
 1. Modifica l’intervallo di date utilizzando una qualsiasi delle opzioni di selezione della data disponibili.
 
-1. Seleziona **[!UICONTROL Apply]**.
+1. Seleziona **[!UICONTROL Applica]**.
 
 Report Builder applica il nuovo intervallo di date a tutti i blocchi di dati della selezione.

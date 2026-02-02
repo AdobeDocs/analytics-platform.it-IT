@@ -1,21 +1,21 @@
 ---
-title: Gestire i blocchi di dati utilizzando il Report Builder in Customer Journey Analytics
-description: Descrive come utilizzare la funzione di gestione nel Report Builder
+title: Gestire I Blocchi Di Dati In Report Builder
+description: Scopri come gestire i blocchi di dati in Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
-source-git-commit: 22b06eaf9f224188699aa241de1d1daad8a14619
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 18%
+source-wordcount: '517'
+ht-degree: 16%
 
 ---
 
 # Gestire i blocchi di dati
 
-È possibile visualizzare e gestire tutti i blocchi di dati in una cartella di lavoro utilizzando [!UICONTROL Data block manager]. [!UICONTROL Data block manager] fornisce funzionalità di ricerca, filtro e ordinamento che consentono di individuare blocchi di dati specifici. Dopo aver selezionato uno o più blocchi di dati, puoi modificare, eliminare o aggiornare i blocchi di dati selezionati.
+È possibile visualizzare e gestire tutti i blocchi di dati in una cartella di lavoro utilizzando [!UICONTROL Gestione blocchi di dati]. Il [!UICONTROL Data Block Manager] fornisce funzionalità di ricerca, filtro e ordinamento che consentono di individuare blocchi di dati specifici. Dopo aver selezionato uno o più blocchi di dati, puoi modificare, eliminare o aggiornare i blocchi di dati selezionati.
 
 ## Visualizzare i blocchi di dati
 
@@ -23,7 +23,7 @@ Per visualizzare una tabella che elenca tutti i blocchi di dati in una cartella 
 
 ![Opzione Gestisci per visualizzare un elenco di tutti i blocchi di dati.](./assets/image53.png){zoomable="yes"}
 
-**[!UICONTROL Data block manager]** mostra una tabella con tutti i blocchi di dati presenti in una cartella di lavoro.
+Il **[!UICONTROL Data Block Manager]** mostra una tabella con tutti i blocchi di dati presenti in una cartella di lavoro.
 
 ![Elenco di tutti i blocchi di dati presenti in una cartella di lavoro.](./assets/image52.png){zoomable="yes"}
 
@@ -43,7 +43,7 @@ Utilizza il campo ![Ricerca](/help/assets/icons/Search.svg) **[!UICONTROL _Ricer
 
 ## Modificare i blocchi di dati
 
-Puoi modificare le visualizzazioni dati e i blocchi di dati degli intervalli di date. Oppure i segmenti applicati ai blocchi di dati.
+Puoi modificare le visualizzazioni dati e gli intervalli di date per i blocchi di dati. Oppure i segmenti applicati ai blocchi di dati.
 
 Ad esempio, puoi sostituire un segmento esistente con un nuovo segmento in uno o più blocchi di dati.
 
@@ -51,11 +51,11 @@ Ad esempio, puoi sostituire un segmento esistente con un nuovo segmento in uno o
 
    ![Icona modifica matita](./assets/image56.png){zoomable="yes"}
 
-1. Selezionare ![Modifica](/help/assets/icons/Edit.svg) per visualizzare la finestra **[!UICONTROL Quick edit]**.
+1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per visualizzare la finestra **[!UICONTROL Modifica rapida]**.
 
    ![Finestra di modifica rapida](./assets/image58.png){zoomable="yes"}
 
-1. Seleziona un collegamento per aggiornare visualizzazioni dati, intervalli di date o segmenti. In **[!UICONTROL Quick Edit]** - **[!UICONTROL Segments]** è possibile aggiungere, rimuovere o aggiornare i segmenti per i blocchi di dati selezionati.
+1. Seleziona un collegamento per aggiornare visualizzazioni dati, intervalli di date o segmenti. In **[!UICONTROL Modifica rapida]** - **[!UICONTROL Segmenti]** puoi aggiungere, rimuovere o aggiornare i segmenti per i blocchi di dati selezionati.
 
    ![Il campo Aggiungi segmento nella finestra di modifica rapida](./assets/image59.png){zoomable="yes"}
 
@@ -76,13 +76,13 @@ Per eliminare uno o più blocchi di dati:
 
 1. Seleziona uno o più blocchi di dati.
 1. Seleziona ![Elimina](/help/assets/icons/Delete.svg).
-1. Selezionare **[!UICONTROL Delete]** nella finestra di dialogo **[!UICONTROL Delete data block]** o **[!UICONTROL Cancel]** per annullare l&#39;eliminazione.
+1. Seleziona **[!UICONTROL Elimina]** nella finestra di dialogo **[!UICONTROL Elimina blocco di dati]** o **[!UICONTROL Annulla]** per annullare l&#39;eliminazione.
 
 ## Raggruppare blocchi di dati
 
-È possibile raggruppare i blocchi di dati utilizzando il menu a discesa **[!UICONTROL Group by]** oppure selezionare un titolo di colonna.
+Puoi raggruppare i blocchi di dati utilizzando il menu a discesa **[!UICONTROL Raggruppa per]** oppure selezionare un titolo di colonna.
 
-Per ordinare i blocchi di dati per colonna, seleziona il titolo della colonna. Per raggruppare i blocchi di dati per gruppi, selezionare un nome di gruppo dal menu a discesa **[!UICONTROL Group by]**. Ad esempio, la schermata seguente mostra i blocchi di dati raggruppati per Visualizzazione dati.
+Per ordinare i blocchi di dati per colonna, seleziona il titolo della colonna. Per raggruppare i blocchi di dati per gruppi, seleziona un nome di gruppo dal menu a discesa **[!UICONTROL Raggruppa per]**. Ad esempio, la schermata seguente mostra i blocchi di dati raggruppati per Visualizzazione dati.
 
 Puoi utilizzare il raggruppamento per selezionare rapidamente i blocchi di dati per i quali desideri modificare un elemento comune, come il segmento.
 

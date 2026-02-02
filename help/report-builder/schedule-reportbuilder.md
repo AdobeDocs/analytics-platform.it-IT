@@ -1,15 +1,15 @@
 ---
-title: Come pianificare le cartelle di lavoro utilizzando Report Builder in Customer Journey Analytics
-description: Scopri come utilizzare la funzione di pianificazione in Report Builder
+title: Pianificazione delle cartelle di lavoro con Report Builder
+description: Scopri come utilizzare la funzione di pianificazione in Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 9505f21748b3d94b2398f898e5399d095ccec260
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 17%
+source-wordcount: '858'
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ La funzione di pianificazione consente inoltre di impostare la protezione tramit
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica cartelle di lavoro](https://video.tv.adobe.com/v/3417505/?captions=ita&quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica cartelle di lavoro](https://video.tv.adobe.com/v/3413079/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -33,11 +33,11 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica c
 
 Per pianificare una cartella di lavoro:
 
-1. Selezionare **[!UICONTROL Schedule]** nell&#39;hub di Report Builder per creare una pianificazione che consenta di distribuire automaticamente un file di Excel della cartella di lavoro (con estensione xlsx) a un singolo utente o a un gruppo.
+1. Selezionare **[!UICONTROL Pianifica]** nell&#39;hub di Report Builder per creare una pianificazione in modo da poter distribuire automaticamente un file di Excel della cartella di lavoro (con estensione xlsx) a un singolo utente o a un gruppo.
 
    ![Selezionare il pulsante Pianifica per creare una pianificazione.](./assets/schedule.png){zoomable="yes"}
 
-1. Selezionare **[!UICONTROL Schedule Workbook]** o ![Aggiungi](/help/assets/icons/Add.svg) per creare una nuova cartella di lavoro pianificata.
+1. Seleziona **[!UICONTROL Pianifica cartella di lavoro]** o ![Aggiungi](/help/assets/icons/Add.svg) per creare una nuova cartella di lavoro pianificata.
 
    ![Finestra Pianifica cartelle di lavoro.](./assets/schedule-workbook.png){zoomable="yes"}
 
@@ -45,17 +45,17 @@ Per pianificare una cartella di lavoro:
 
 ### File
 
-Nella sezione **[!UICONTROL File]**, è possibile fornire dettagli sul tipo di file, il nome e una password per proteggere il file.
+Nella sezione **[!UICONTROL File]** sono disponibili i dettagli relativi al tipo di file, al nome e alla password per proteggere il file.
 
 ![Riquadro di pianificazione.](./assets/schedule-pane.png){zoomable="yes"}
 
 1. Utilizza ![TableSelect](/help/assets/icons/TableSelect.svg) per selezionare la cartella di lavoro corrente, se non è già selezionata.
 
-1. (Facoltativo) Immetti **[!UICONTROL File name]**.
+1. (Facoltativo) Immetti un **[!UICONTROL nome file]**.
 
    Per impostazione predefinita, il nome del file della cartella di lavoro corrisponde al nome della cartella di lavoro, ma è possibile modificare il nome del file in base alle proprie esigenze.
 
-1. Seleziona **[!UICONTROL File type]**.
+1. Selezionare un **[!UICONTROL tipo di file]**.
 
    * **[!UICONTROL Excel]**
    * **[!UICONTROL PDF]**
@@ -63,12 +63,12 @@ Nella sezione **[!UICONTROL File]**, è possibile fornire dettagli sul tipo di f
 
    Quando selezioni **[!UICONTROL CSV]**, tieni presente che la cartella di lavoro pianificata viene inviata come allegato zip. Alcune amministrazioni e-mail aziendali potrebbero bloccare le e-mail con allegati zip. Di conseguenza viene visualizzato un avviso.
 
-1. (Facoltativo) Selezionare **[!UICONTROL Append time-stamp to file name]**.
+1. (Facoltativo) Seleziona **[!UICONTROL Append time-stamp to file name]** (Aggiungi marca temporale al nome del file).
 
    Puoi aggiungere una marca temporale al nome del file per identificare la data di aggiornamento della cartella di lavoro. Una marca temporale è utile per vedere quale versione di una cartella di lavoro è stata inviata in una data specifica. Se selezionata, puoi scegliere tra:
 
-   * **[!UICONTROL ISO Date format]**, con conseguente aggiunta di `YYYY-MM-DD` al nome file.
-   * **[!UICONTROL ISO Date format + time stamp]**, con conseguente aggiunta di `YYYY-MM-DD_HH-MM-SS` al nome file.
+   * **[!UICONTROL Formato data ISO]**, che comporta l&#39;aggiunta di `YYYY-MM-DD` al nome file.
+   * **[!UICONTROL Formato data ISO + timestamp]**, che comporta l&#39;aggiunta di `YYYY-MM-DD_HH-MM-SS` al nome file.
 
 <!-- Does no longer seem to be an option? 
 1. (Optional) Select **.zip compression** to compress the file and set up password protection on the file.
@@ -78,12 +78,12 @@ Nella sezione **[!UICONTROL File]**, è possibile fornire dettagli sul tipo di f
     ![Enter a password in the Password protect the workbook field.](./assets/zip-compression.png){zoomable="yes"}{width="55%"}
 -->
 
-1. Immettere una password in **[!UICONTROL Password protect the workbook]**. Una password valida richiede almeno 8 caratteri, un numero e un carattere speciale. Seleziona ![VisibilityOff](/help/assets/icons/VisibilityOff.svg) per visualizzare la password e ![Visibility](/help/assets/icons/Visibility.svg) per nascondere la password (impostazione predefinita).
+1. Immettere una password in **[!UICONTROL Proteggere la cartella di lavoro tramite password]**. Una password valida richiede almeno 8 caratteri, un numero e un carattere speciale. Seleziona ![VisibilityOff](/help/assets/icons/VisibilityOff.svg) per visualizzare la password e ![Visibility](/help/assets/icons/Visibility.svg) per nascondere la password (impostazione predefinita).
 
 
 ### E-mail
 
-Nella sezione **[!UICONTROL Email]**, è possibile fornire i destinatari, l&#39;oggetto e la descrizione dell&#39;e-mail.
+Nella sezione **[!UICONTROL E-mail]**, fornisci i destinatari, l&#39;oggetto e la descrizione dell&#39;e-mail.
 
 ![Pianifica impostazioni e-mail](assets/schedule-email.png){zoomable="yes"}
 
@@ -91,43 +91,43 @@ Nella sezione **[!UICONTROL Email]**, è possibile fornire i destinatari, l&#39;
 
 1. Inserisci l’oggetto dell’e-mail in **Subject** (Oggetto) e una descrizione per i destinatari. L’oggetto viene impostato automaticamente sul nome del file della cartella di lavoro, ma puoi modificarlo se necessario. Puoi aggiungere i dettagli nella sezione della descrizione.
 
-1. Facoltativamente, è possibile immettere una descrizione nell&#39;area di testo **[!UICONTROL Description]**.
+1. Facoltativamente, è possibile immettere una descrizione nell&#39;area di testo **[!UICONTROL Descrizione]**.
 
 
 ### Pianificazione
 
-Nella sezione **[!UICONTROL Schedule]** è possibile definire la pianificazione per l&#39;invio delle e-mail con la cartella di lavoro ai destinatari.
+Nella sezione **[!UICONTROL Pianificazione]** è possibile definire la pianificazione per l&#39;invio delle e-mail con la cartella di lavoro ai destinatari.
 
 ![Definizione pianificazione](assets/schedule-enable.png){zoomable="yes"}
 
-1. Selezionare **[!UICONTROL Show scheduling options]** per definire una pianificazione.
+1. Seleziona **[!UICONTROL Mostra opzioni di pianificazione]** per definire una pianificazione.
 
-1. Immettere una data di inizio in **[!UICONTROL Starting on]**. In alternativa, selezionare ![Calendario](/help/assets/icons/Calendar.svg) per scegliere una data di inizio dal calendario.
+1. Immetti una data di inizio in **[!UICONTROL A partire dal]**. In alternativa, selezionare ![Calendario](/help/assets/icons/Calendar.svg) per scegliere una data di inizio dal calendario.
 
-1. Immettere una data di fine in **[!UICONTROL Ending on]**. In alternativa, selezionare ![Calendario](/help/assets/icons/Calendar.svg) per scegliere una data di fine dal calendario.
+1. Immetti una data di fine in **[!UICONTROL Data di fine]**. In alternativa, selezionare ![Calendario](/help/assets/icons/Calendar.svg) per scegliere una data di fine dal calendario.
 
-1. Seleziona una **[!UICONTROL Frequency]**. A seconda della frequenza selezionata, sono disponibili opzioni aggiuntive. Vedi la tabella seguente.
+1. Seleziona una **[!UICONTROL frequenza]**. A seconda della frequenza selezionata, sono disponibili opzioni aggiuntive. Vedi la tabella seguente.
 
    | Frequenza | Opzioni |
    |---|---|
-   | **[!UICONTROL Send hourly]** | Immettere un valore per **[!UICONTROL Send every number of hours]**. |
-   | **[!UICONTROL Send daily]** | Selezionare un **[!UICONTROL Daily frequency]**: **[!UICONTROL Send every day]**, **[!UICONTROL Send every weekday]** o **[!UICONTROL Custom frequency]**.<br/>Se si seleziona **[!UICONTROL Custom frequency]**, immettere un valore per **[!UICONTROL Send every number of days]**. |
-   | **[!UICONTROL Send weekly]** | Immettere un valore per **[!UICONTROL Send every number of weeks]**. E seleziona un **[!UICONTROL Day of week]**. |
-   | **[!UICONTROL Send monthly by day of the week]** | Selezionare **[!UICONTROL Day of week]** e **[!UICONTROL Week of month]**. |
-   | **[!UICONTROL Send monthly by day of the month]** | Selezionare un valore da **[!UICONTROL Send on this day of the month]**. |
-   | **[!UICONTROL Send yearly by day of the month]** | Selezionare un **[!UICONTROL Day of week]**, selezionare un **[!UICONTROL Week of month]** e selezionare un **[!UICONTROL Monthly of year]**. |
-   | **[!UICONTROL Send yearly by specific date]** | Selezionare un **[!UICONTROL Month of year]** e un valore da **[!UICONTROL Send on this day of the month]**. |
+   | **[!UICONTROL Invia ogni ora]** | Immetti un valore per **[!UICONTROL Invia ogni numero di ore]**. |
+   | **[!UICONTROL Invia ogni giorno]** | Seleziona una **[!UICONTROL frequenza giornaliera]**: **[!UICONTROL Invia ogni giorno]**, **[!UICONTROL Invia ogni giorno feriale]** o **[!UICONTROL Frequenza personalizzata]**.<br/>Se selezioni **[!UICONTROL Frequenza personalizzata]**, inserisci un valore per **[!UICONTROL Invia ogni numero di giorni]**. |
+   | **[!UICONTROL Invia ogni settimana]** | Immetti un valore per **[!UICONTROL Invia ogni numero di settimane]**. E seleziona un **[!UICONTROL giorno della settimana]**. |
+   | **[!UICONTROL Invia mensilmente per giorno della settimana]** | Seleziona un **[!UICONTROL giorno della settimana]** e un **[!UICONTROL settimana del mese]**. |
+   | **[!UICONTROL Invia mensilmente per giorno del mese]** | Seleziona un valore da **[!UICONTROL Invia in questo giorno del mese]**. |
+   | **[!UICONTROL Invia ogni anno per giorno del mese]** | Seleziona un **[!UICONTROL Giorno della settimana]**, scegli una **[!UICONTROL Settimana del mese]** e scegli un **[!UICONTROL Mensile dell&#39;anno]**. |
+   | **[!UICONTROL Invia ogni anno per data specifica]** | Seleziona un **[!UICONTROL mese dell&#39;anno]** e un valore tra **[!UICONTROL Invia in questo giorno del mese]**. |
 
 ### Invia
 
 Per inviare la cartella di lavoro:
 
-* Se non è stata definita una pianificazione utilizzando **[!UICONTROL Show scheduling options]**, selezionare **[!UICONTROL Send now]** per inviare immediatamente la cartella di lavoro tramite e-mail.
-* Se è stata definita una pianificazione utilizzando **[!UICONTROL Show scheduling options]**, selezionare **[!UICONTROL Send on schedule]** per inviare la cartella di lavoro tramite e-mail utilizzando la pianificazione definita.
+* Se non hai definito una pianificazione utilizzando **[!UICONTROL Mostra opzioni di pianificazione]**, seleziona **[!UICONTROL Invia ora]** per inviare immediatamente la cartella di lavoro tramite e-mail.
+* Se hai definito una pianificazione utilizzando **[!UICONTROL Mostra opzioni di pianificazione]**, seleziona **[!UICONTROL Invia secondo pianificazione]** per inviare la cartella di lavoro tramite e-mail utilizzando la pianificazione definita.
 
 In entrambi i casi, nella parte inferiore dell’hub Report Builder viene visualizzato un avviso popup di conferma.
 
-Per annullare l&#39;invio della cartella di lavoro, selezionare **[!UICONTROL Cancel]**.
+Per annullare l&#39;invio della cartella di lavoro, selezionare **[!UICONTROL Annulla]**.
 
 ## Gestire le cartelle di lavoro pianificate
 

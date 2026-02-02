@@ -1,15 +1,15 @@
 ---
-title: Come gestire le cartelle di lavoro pianificate in Report Builder in Adobe Analytics
-description: Scopri come gestire le cartelle di lavoro pianificate in Report Builder per proteggere le destinazioni
+title: Gestire Le Cartelle Di Lavoro Programmate In Report Builder
+description: Scopri come gestire le cartelle di lavoro pianificate in Report Builder.
 role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 0a0427d9-223e-410b-a8ef-8601390d88aa
-source-git-commit: 755a5223deb0845079ea98a7371a2f8acb69ea4b
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 4%
+source-wordcount: '326'
+ht-degree: 3%
 
 ---
 
@@ -25,11 +25,11 @@ Le sezioni seguenti descrivono come gestire le cartelle di lavoro dopo averle pi
 
 ## Visualizzare e gestire cartelle di lavoro pianificate
 
-È possibile visualizzare e gestire tutte le cartelle di lavoro pianificate nella scheda **[!UICONTROL Workbooks]**.
+Puoi visualizzare e gestire tutte le cartelle di lavoro pianificate nella scheda **[!UICONTROL Cartelle di lavoro]**.
 
-1. Seleziona **[!UICONTROL Schedule]** nell&#39;hub Report Builder
+1. Seleziona **[!UICONTROL Pianifica]** nell&#39;hub Report Builder
 
-1. Seleziona la scheda **[!UICONTROL Workbooks]**. Viene visualizzato un elenco di tutte le cartelle di lavoro pianificate.
+1. Selezionare la scheda **[!UICONTROL Cartelle di lavoro]**. Viene visualizzato un elenco di tutte le cartelle di lavoro pianificate.
 
    ![Cartella di lavoro pianificata](assets/scheduled-workbooks.png){zoomable="yes"}
 
@@ -56,20 +56,20 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le 
 
 ## Cronologia e stato delle cartelle di lavoro pianificate
 
-È possibile visualizzare la cronologia e lo stato delle cartelle di lavoro pianificate nella scheda **[!UICONTROL History]**.
+Puoi visualizzare la cronologia e lo stato delle cartelle di lavoro pianificate nella scheda **[!UICONTROL Cronologia]**.
 
-1. Selezionare **[!UICONTROL Schedule]** nell&#39;hub Report Builder.
+1. Seleziona **[!UICONTROL Pianifica]** nell&#39;hub Report Builder.
 
-1. Seleziona la scheda **[!UICONTROL History]**. Viene visualizzato un elenco di tutte le cartelle di lavoro pianificate.
+1. Selezionare la scheda **[!UICONTROL Cronologia]**. Viene visualizzato un elenco di tutte le cartelle di lavoro pianificate.
 
    ![Cronologia pianificata](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
    Utilizzare ![Cerca](/help/assets/icons/Search.svg) per cercare cartelle di lavoro specifiche nell&#39;elenco.
 Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le colonne da visualizzare.
 
-   La scheda **[!UICONTROL History]** consente di rivedere lo stato di ogni attività pianificata. Una riga separata documenta la modifica dello stato per ogni attività pianificata.
+   La scheda **[!UICONTROL Cronologia]** consente di rivedere lo stato di ogni attività pianificata. Una riga separata documenta la modifica dello stato per ogni attività pianificata.
 
    * Un ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) indica che la cartella di lavoro è stata inviata correttamente.
    * Un ![AlertRed](/help/assets/icons/AlertRed.svg) indica che si è verificato un errore.
 
-In alternativa, è possibile selezionare ![Cronologia](/help/assets/icons/History.svg) per una o più cartelle di lavoro selezionate nella scheda **[!UICONTROL Workbooks]**. Questa azione mostra la scheda **[!UICONTROL History]** con un elenco filtrato in base alla selezione. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un filtro.
+In alternativa, è possibile selezionare ![Cronologia](/help/assets/icons/History.svg) per una o più cartelle di lavoro selezionate nella scheda **[!UICONTROL Cartelle di lavoro]**. Questa azione mostra la scheda **[!UICONTROL Cronologia]** con un elenco filtrato in base alla selezione. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un filtro.

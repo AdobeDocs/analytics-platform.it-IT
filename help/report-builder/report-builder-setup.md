@@ -1,15 +1,15 @@
 ---
-title: Come configurare Report Builder in Customer Journey Analytics
-description: Descrive come configurare Report Builder in Customer Journey Analytics
+title: Configurare Report Builder
+description: Descrive come configurare Report Builder in Customer Journey Analytics.
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
 solution: Customer Journey Analytics
-source-git-commit: 065cf61d80ceb3c921ea666ba299e56fb044335b
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 2%
+source-wordcount: '523'
+ht-degree: 1%
 
 ---
 
@@ -52,25 +52,25 @@ Per scaricare e installare il componente aggiuntivo Report Builder
 
 1. Avviare Excel e aprire una nuova cartella di lavoro.
 
-1. Selezionare **[!UICONTROL Insert]** > **[!UICONTROL Add-ins]** > **[!UICONTROL Get Add-ins]** dal menu principale.
+1. Selezionare **[!UICONTROL Inserisci]** > **[!UICONTROL Componenti aggiuntivi]** > **[!UICONTROL Ottieni componenti aggiuntivi]** dal menu principale.
 
-1. Nella finestra di dialogo Componenti aggiuntivi di Office selezionare la scheda **[!UICONTROL Store]**.
+1. Nella finestra di dialogo Componenti aggiuntivi di Office selezionare la scheda **[!UICONTROL Archivia]**.
 
-1. Cerca `Report Builder` e seleziona **[!UICONTROL Add]**.
+1. Cerca `Report Builder` e seleziona **[!UICONTROL Aggiungi]**.
 
-1. Nella finestra di dialogo Condizioni di licenza e informativa sulla privacy, selezionare **[!UICONTROL Continue]**.
+1. Nella finestra di dialogo Condizioni di licenza e informativa sulla privacy, seleziona **[!UICONTROL Continua]**.
 
-Se la scheda **[!UICONTROL Store]** non viene visualizzata:
+Se la scheda **[!UICONTROL Store]** non è visualizzata:
 
-1. In Excel, selezionare **[!UICONTROL File]** > **[!UICONTROL Account]** > **[!UICONTROL Manage Settings]** dal menu principale.
+1. In Excel, selezionare **[!UICONTROL File]** > **[!UICONTROL Account]** > **[!UICONTROL Gestione impostazioni]** dal menu principale.
 
-1. Selezionare la casella accanto a **[!UICONTROL Enable optional connected experiences]**.
+1. Selezionare la casella accanto a **[!UICONTROL Abilita esperienze connesse facoltative]**.
 
 1. Riavviare Excel.
 
 Se l’organizzazione blocca l’accesso a Microsoft Store:
 
-- Rivolgiti al tuo team IT o di sicurezza per richiedere l’approvazione per il componente aggiuntivo Report Builder. Dopo aver concesso l&#39;approvazione, nella finestra di dialogo di Office **[!UICONTROL Add-ins]** selezionare la scheda **[!UICONTROL Admin Managed]**.
+- Rivolgiti al tuo team IT o di sicurezza per richiedere l’approvazione per il componente aggiuntivo Report Builder. Dopo aver concesso l&#39;approvazione, nella finestra di dialogo **[!UICONTROL Componenti aggiuntivi]** di Office, selezionare la scheda **[!UICONTROL Amministratore gestito]**.
 
   ![Scheda Amministrazione gestita nella finestra di dialogo Componenti aggiuntivi di Office.](./assets/image1.png){zoomable="yes"}
 
@@ -87,7 +87,7 @@ Dopo aver installato il componente aggiuntivo Report Builder for Excel per la pi
 
 1. Seleziona ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** per avviare Report Builder.
 
-1. Dalla barra degli strumenti di Adobe Report Builder, selezionare **[!UICONTROL Login]**.
+1. Dalla barra degli strumenti di Adobe Report Builder, seleziona **[!UICONTROL Accesso]**.
 
    ![Fare clic sul pulsante di accesso a Report Builder.](./assets/rb_login.png){zoomable="yes"}
 
@@ -118,4 +118,4 @@ Per uscire da Report Builder:
 
    ![Avatar del tuo profilo utente e pulsante Disconnetti.](./assets/image6.png){zoomable="yes"}
 
-1. Seleziona **[!UICONTROL Sign Out]**.
+1. Seleziona **[!UICONTROL Disconnetti]**.

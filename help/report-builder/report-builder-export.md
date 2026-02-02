@@ -1,15 +1,15 @@
 ---
-title: Esportare rapporti da Report Builder
-description: Descrive come esportare dati da Report Builder a destinazioni sicure
+title: Esporta Rapporti Da Report Builder
+description: Scopri come esportare dati da Report Builder a destinazioni sicure.
 role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 1d5d87d8-1920-406b-8cce-41b89b7ae70b
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: cc20ddf5da5787af0a29b5d18c00abff816071d2
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 38%
+source-wordcount: '1303'
+ht-degree: 36%
 
 ---
 
@@ -49,17 +49,15 @@ Per esportare rapporti da Report Builder:
 
 1. Seleziona [!UICONTROL **Pianificazione**].
 
-<!-- add screenshot -->
-
 1. Nella scheda **[!UICONTROL Cartelle di lavoro]**, seleziona l&#39;icona più per creare una nuova pianificazione
-
-   ![Scheda Pianificazioni di Report Builder](assets/report-builder-schedule-cloud.png)
 
    Oppure
 
    Per esportare la cartella di lavoro in base a una pianificazione già creata, selezionare la pianificazione dall&#39;elenco delle pianificazioni, quindi selezionare **[!UICONTROL Invia secondo pianificazione]**.
 
 1. Nel pannello di destra [!UICONTROL **Adobe Report Builder**], specifica le seguenti informazioni per continuare a creare una nuova pianificazione:
+
+   ![Scheda Pianificazioni di Report Builder](assets/report-builder-schedule-cloud.png)
 
    | Nome campo: | Funzione |
    |---------|----------|
@@ -71,7 +69,7 @@ Per esportare rapporti da Report Builder:
    | **[!UICONTROL Proteggere la cartella di lavoro tramite password]** | Specificare una password per proteggere il file esportato in modo che solo gli utenti con la password possano accedervi. <p>Le password devono avere almeno 8 caratteri e contenere almeno 1 numero e 1 carattere speciale (ad esempio `!`,`@`,`#` e `$`).</p> |
    | **[!UICONTROL E-mail]** | Selezionare questa opzione per inviare il file a un indirizzo di posta elettronica specifico. Per ulteriori informazioni, consulta [Pianificare le cartelle di lavoro condividendo tramite e-mail](/help/report-builder/schedule-reportbuilder.md). |
    | **[!UICONTROL Altre consegne]** | Selezionare questa opzione per inviare il file a un account cloud, quindi utilizzare i menu a discesa **[!UICONTROL Account]** e **[!UICONTROL Posizione]** descritti di seguito per selezionare l&#39;account e la posizione. |
-   | **[!UICONTROL Account]** | Seleziona l’account di esportazione cloud in cui desideri inviare i dati. <p>In alternativa, se non hai già configurato un account cloud da utilizzare, puoi configurare un nuovo account:<ol><li>Seleziona [!UICONTROL **Aggiungi account**], quindi specifica le seguenti informazioni:<ul><li>[!UICONTROL **Nome account di posizione**]: specifica un nome per l’account di posizione. Questo nome viene visualizzato durante la creazione di una posizione </li><li>[!UICONTROL **Descrizione account di posizione**]: fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo.</li><li>**[!UICONTROL Rendi l&#39;account disponibile a tutti gli utenti dell&#39;organizzazione]**: seleziona questa opzione per consentire ad altri utenti dell&#39;organizzazione di utilizzare l&#39;account. Quando condividi gli account, tieni presente quanto segue:<ul><li>Gli account condivisi non possono essere non condivisi.</li><li>Gli account condivisi possono essere modificati solo dal proprietario dell&#39;account.</li><li>Chiunque può creare una posizione per l&#39;account condiviso.</li></ul></li><li>[!UICONTROL **Tipo di account**]: selezionare il tipo di account cloud in cui si desidera esportare i dati. I tipi di account disponibili sono Amazon S3 Role ARN, Google Cloud Platform, Azure SAS e Azure RBAC.</li></ul><li>Per completare la configurazione dell’account, continua con il collegamento seguente corrispondente al [!UICONTROL **tipo di account**] selezionato:<ul><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li></ul></ol> |
+   | **[!UICONTROL Account]** | Seleziona l’account di esportazione cloud a cui desideri inviare i dati. <p>In alternativa, se non hai già configurato un account cloud da utilizzare, puoi configurare un nuovo account:<ol><li>Seleziona [!UICONTROL **Aggiungi account**], quindi specifica le seguenti informazioni:<ul><li>[!UICONTROL **Nome account di posizione**]: specifica un nome per l’account di posizione. Questo nome viene visualizzato durante la creazione di una posizione </li><li>[!UICONTROL **Descrizione account di posizione**]: fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo.</li><li>**[!UICONTROL Rendi l&#39;account disponibile a tutti gli utenti dell&#39;organizzazione]**: seleziona questa opzione per consentire ad altri utenti dell&#39;organizzazione di utilizzare l&#39;account. Quando condividi gli account, tieni presente quanto segue:<ul><li>Gli account condivisi non possono essere non condivisi.</li><li>Gli account condivisi possono essere modificati solo dal proprietario dell&#39;account.</li><li>Chiunque può creare una posizione per l&#39;account condiviso.</li></ul></li><li>[!UICONTROL **Tipo di account**]: selezionare il tipo di account cloud in cui si desidera esportare i dati. I tipi di account disponibili sono Amazon S3 Role ARN, Google Cloud Platform, Azure SAS e Azure RBAC.</li></ul><li>Per completare la configurazione dell’account, continua con il collegamento seguente corrispondente al [!UICONTROL **tipo di account**] selezionato:<ul><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li></ul></ol> |
    | **[!UICONTROL Posizione]** | Seleziona la posizione dell’account in cui desideri inviare i dati di esportazione.<p>Oppure, se non hai già configurato la posizione da utilizzare sull’account selezionato, puoi configurarne una nuova:<ol><li>Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni: <ul><li>[!UICONTROL **Nome**]: il nome della posizione.</li><li>[!UICONTROL **Descrizione**]: fornisci una breve descrizione della posizione per distinguerla da altre posizioni nell’account.</li><li>**[!UICONTROL Rendi la posizione disponibile a tutti gli utenti dell&#39;organizzazione]**: seleziona questa opzione per consentire ad altri utenti dell&#39;organizzazione di utilizzare la posizione. Quando condividi gli account, tieni presente quanto segue:<ul><li>Le posizioni condivise non possono essere annullate.</li><li>Le posizioni condivise possono essere modificate solo dal proprietario dell&#39;account.</li><li>Le posizioni possono essere condivise solo se è condiviso anche l’account a cui è associata la posizione.</li></ul></li><li>[!UICONTROL **Account di posizione**]: seleziona l’account in cui desideri creare la posizione.</li></ul><li>Per completare la configurazione della posizione, continua con il collegamento seguente corrispondente al tipo di account selezionato nel campo [!UICONTROL **Account di posizione**]:<ul><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li></ul> |
    | **[!UICONTROL Mostra opzioni di pianificazione]** | Selezionare questa opzione per visualizzare ulteriori opzioni per la programmazione dell&#39;esportazione. Lascia deselezionata questa opzione se desideri inviare l’esportazione una sola volta. Se questa opzione è deselezionata, l’esportazione viene avviata immediatamente. |
    | **[!UICONTROL A partire da]** | Giorno e ora in cui dovrebbe iniziare l’esportazione pianificata. <p>Questa opzione è disponibile solo quando si sceglie una frequenza di esportazione pianificata.</p> |
@@ -111,8 +109,6 @@ L’esportazione di dati di Customer Journey Analytics nel cloud consente di:
 * Esporta blocchi di dati che includono più dimensioni.
 
 ## Requisiti per l’esportazione {#export-requirements}
-
-### Requisiti minimi
 
 Assicurati che i blocchi di dati, l’ambiente e le autorizzazioni soddisfino i seguenti requisiti:
 
