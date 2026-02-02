@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: 5cd838f7-e394-4a67-9d2e-e1d08a864ca0
 role: User
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 39d3a233166e2ce2035df2ce821dd16181e5e13e
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '429'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ Desideri impostare esplicitamente gli obiettivi per gli ordini di certificati re
 
 1. Creare un nuovo campo derivato denominato `Monthly Gift Certificate Orders Goal (Incremental)`.
 
-1. Impostare valori statici, utilizzando una REGOLA CASE WHEN, per ogni mese impostando un **[!UICONTROL Custom numeric value]**. Consulta la regola Obiettivi di prodotto mensili di seguito.
+1. Impostare valori statici, utilizzando una REGOLA CASE WHEN, per ogni mese impostando un **[!UICONTROL Valore numerico personalizzato]**. Consulta la regola Obiettivi di prodotto mensili di seguito.
 
    ![Obiettivi di prodotto mensili](assets/goals-derived-field-product-goals-1.png)
 
@@ -45,7 +45,7 @@ Desideri impostare un obiettivo di ricavi mensile per ciascuno dei tuoi canali d
 
    ![Definizione delle regole per il campo derivato del canale di marketing](assets/goals-derived-field-marketing-channel-1.png)
 
-1. Impostare in modo esplicito valori statici, che rappresentano gli obiettivi di ricavi mensili, per canali di marketing specifici in una regola CASE WHEN finale, impostando un **[!UICONTROL Custom numeric value]**. Vedi la regola [!DNL Monthly Goal] di seguito.
+1. Impostare in modo esplicito valori statici, che rappresentano gli obiettivi di ricavi mensili, per canali di marketing specifici in una regola CASE WHEN finale, impostando un **[!UICONTROL valore numerico personalizzato]**. Vedi la regola [!DNL Monthly Goal] di seguito.
 
    ![Obiettivi mensili](assets/goals-derived-field-marketing-channel-2.png)
 
@@ -67,7 +67,9 @@ Per utilizzare gli obiettivi nel progetto Workspace, utilizza la funzionalità d
 
 Puoi utilizzare queste metriche calcolate per generare rapporti sull’avanzamento nelle tabelle e nelle visualizzazioni a forma libera. Ad esempio:
 
-![Tabella a forma libera che mostra gli obiettivi dei ricavi di marketing](assets/freeform-table-product-order-goals.png)
+![Tabella a forma libera che mostra gli obiettivi dei ricavi di marketing](assets/freeform-table-marketing-channel-revenue-goals.png)
+
+
 
 
 ### Obiettivi di ricavo del canale di marketing
@@ -82,4 +84,4 @@ Puoi utilizzare queste metriche calcolate per generare rapporti sull’avanzamen
 
 Puoi utilizzare queste metriche calcolate per generare rapporti sull’avanzamento nelle tabelle e nelle visualizzazioni a forma libera. Ad esempio:
 
-![Tabella a forma libera che mostra gli obiettivi dei ricavi di marketing](assets/freeform-table-marketing-channel-revenue-goals.png)
+![Tabella a forma libera che mostra gli obiettivi dei ricavi di marketing](assets/freeform-table-product-order-goals.png)
