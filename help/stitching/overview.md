@@ -1,14 +1,14 @@
 ---
 title: Panoramica sull’unione delle identità
-description: Panoramica dell’unione delle identità
+description: Scopri i concetti, i vantaggi, i prerequisiti e le limitazioni dell’unione di identità.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 9ace0679796c3a813b1fbd97c62c20faf64db211
+source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 88%
+source-wordcount: '799'
+ht-degree: 71%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->Per utilizzare le funzionalità descritte in questa sezione, devi disporre del pacchetto **Select** o superiore (per [unione basata sui campi](fbs.md)) o del pacchetto **Prime** o superiore (per [unione basata sui grafi](gbs.md)). In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, contatta l’amministratore.
+>Per utilizzare le funzionalità descritte in questa sezione, è necessario disporre del pacchetto Customer Journey Analytics **Select** o versione successiva (per [unione basata sui campi](fbs.md)) o del pacchetto Customer Journey Analytics **Prime** o versione successiva (per [unione basata sui grafici](gbs.md)). In caso di dubbi sul pacchetto di Customer Journey Analytics di cui disponi, contatta l’amministratore.
 
 L’unione delle identità è una funzione potente che migliora l’idoneità di un set di dati evento per l’analisi cross-channel. L’analisi cross-channel è un caso d’uso principale che può essere gestito da Customer Journey Analytics. Questa funzione ti consente di combinare ed eseguire rapporti in modo semplice su più set di dati da canali diversi, in base a un identificatore comune (ID persona).
 
-Quando combini set di dati con ID persona simili, l’attribuzione viene trasferita su dispositivi e canali diversi. Ad esempio, un utente visita il sito tramite un annuncio sul computer desktop. Gli utenti acquistano un prodotto ma poi incontrano un problema con l’ordine. Quindi l’utente invia una chiamata al team del servizio clienti per aiutarlo a risolverlo. Con l’analisi cross-channel puoi attribuire gli eventi call center all’annuncio su cui l&#39;utente ha fatto clic originariamente.
+Quando combini set di dati con ID persona simili, l’attribuzione viene trasferita su dispositivi e canali diversi. Ad esempio, un utente visita il sito tramite un annuncio sul computer desktop. L’utente acquista un prodotto ma poi incontra un problema con l’ordine. Quindi l’utente invia una chiamata al team del servizio clienti per aiutarlo a risolverlo. Con l’analisi cross-channel puoi attribuire gli eventi call center all’annuncio su cui l&#39;utente ha fatto clic originariamente.
 
 Sfortunatamente, non tutti i set di dati basati su eventi che fanno parte della connessione in Customer Journey Analytics dispongono di dati sufficienti per supportare questa attribuzione predefinita. In particolare, i set di dati delle esperienze basate su web o dispositivi mobili spesso non dispongono di informazioni sull’ID effettivo di una persona per tutti gli eventi.
 
-L’unione delle identità consente di reimpostare le identità all’interno delle righe di un set di dati, in modo che l’ID persona (ID unito) sia disponibile per ogni evento. Durante l’unione delle identità, vengono esaminati i dati utente provenienti da sessioni autenticate e non autenticate per determinare il valore dell’ID persona comune che può essere utilizzato come ID unito. Questa reimpostazione consente di risolvere record diversi con un singolo ID unito per l’analisi a livello di persona anziché a livello di dispositivo o cookie.
+L’unione ricalcola le identità all’interno delle righe di un set di dati per garantire che l’ID persona (ID unione) sia disponibile su ogni evento. Durante l’unione delle identità, vengono esaminati i dati utente provenienti da sessioni autenticate e non autenticate per determinare il valore dell’ID persona comune che può essere utilizzato come ID unito. Questa reimpostazione delle chiavi risolve diversi record in un singolo ID unito per l’analisi a livello di persona, anziché a livello di dispositivo o cookie.
 
 Customer Journey Analytics supporta due tipi di unione delle identità: [unione basata sui campi](fbs.md) e [unione basata sui grafi](gbs.md).
 
@@ -36,7 +36,7 @@ Customer Journey Analytics supporta due tipi di unione delle identità: [unione 
 
 Prima di utilizzare l’unione delle identità, assicurati che la tua organizzazione sia preparata con quanto segue:
 
-- L’unione delle identità include l’unione di dati utente autenticati e non autenticati. Prima di attivare l’unione delle identità per un set di dati evento, assicurati di rispettare le leggi e normative applicabili, incluso l’ottenimento delle autorizzazioni necessarie per l’utente finale. Per ulteriori informazioni, consulta [Definire i campi di identità nell’interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity).
+- L’unione delle identità include l’unione di dati utente autenticati e non autenticati. Prima di attivare l’unione su un set di dati evento, assicurati di rispettare le leggi e le normative applicabili, incluso l’ottenimento delle autorizzazioni necessarie per l’utente finale.
 
 - Importa i dati desiderati in Adobe Experience Platform:
 
@@ -50,24 +50,15 @@ Per trarre vantaggio dall’analisi cross-channel, è necessario combinare uno o
 Le unioni delle identità possono essere abilitate in due modi:
 
 - [Richiesta di abilitare l&#39;unione](/help/stitching/use-stitching.md) (obsoleto). Una volta approvato, viene creato un set di dati duplicato per il set di dati per il quale è stata richiesta l’unione. Questo set di dati duplicato contiene una colonna aggiuntiva con l’identificatore unito. Per utilizzare i dati uniti in Customer Journey Analytics, è necessario creare una nuova connessione o modificare una connessione esistente che includa il set di dati uniti.
-- [Abilitare l&#39;unione nell&#39;interfaccia Connessioni](/help/stitching/use-stitching-ui.md). Quando configuri l’unione per un set di dati nell’interfaccia Connessioni, l’unione si verifica &quot;al volo&quot; durante l’acquisizione di dati da tale set di dati in Customer Journey Analytics.
+- [Abilitare l&#39;unione nell&#39;interfaccia Connessioni](/help/stitching/use-stitching-ui.md). Quando configuri l’unione per un set di dati nell’interfaccia Connessioni, l’unione si verifica all’istante durante l’acquisizione di dati da tale set di dati in Customer Journey Analytics.
 
 ## Limitazioni
-
->[!IMPORTANT]
->
->
->- Applica eventuali modifiche apportate allo schema del set di dati evento di origine anche al nuovo schema del set di dati con unione delle identità.
->
->- Se rimuovi il set di dati di origine, il set di dati con unione delle identità non può più essere elaborato e viene rimosso dal sistema.
->
->- Le etichette di utilizzo dei dati non vengono propagate automaticamente allo schema del set di dati con unione delle identità. Se hai applicato delle etichette di utilizzo dei dati allo schema del set di dati di origine, devi applicarle manualmente anche allo schema del set di dati con unione delle identità. Per ulteriori informazioni, consulta [Gestione delle etichette di utilizzo dei dati in Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview).
 
 L’unione delle identità è una funzione innovativa e affidabile, ma presenta limitazioni sul modo in cui può essere utilizzata.
 
 - Sono supportati solo i set di dati evento. Altri set di dati, come i set di dati di ricerca, non sono supportati.
 - L’unione delle identità non trasforma in alcun modo il campo utilizzato per l’unione. L’unione delle identità utilizza il valore nel campo specificato così come esiste nel set di dati non uniti all’interno del data lake.
-- Il processo di unione delle identità distingue tra maiuscole e minuscole. Ad esempio, se nel campo è presente a volte “Bob” e altre volte “BOB”, questi ID verranno trattati come due persone separate.
+- Il processo di unione delle identità distingue tra maiuscole e minuscole. Ad esempio, i valori di identità `Bob` e `BOB` vengono trattati come due persone separate.
 
 Assicurati di non confondere l’unione delle identità con:
 

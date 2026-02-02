@@ -1,14 +1,14 @@
 ---
-title: Richiedere l’unione delle identità
-description: Come richiedere l’unione
+title: Richiedi unione
+description: Scopri come richiedere l’unione.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 9ace0679796c3a813b1fbd97c62c20faf64db211
+source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 7%
+source-wordcount: '573'
+ht-degree: 20%
 
 ---
 
@@ -20,9 +20,7 @@ ht-degree: 7%
 >L’unione delle richieste tramite Adobe non è più necessaria e questo metodo è obsoleto. [Abilitare l&#39;unione nell&#39;interfaccia utente Connessioni](use-stitching-ui.md).
 >
 
-
-
-Una volta che la tua organizzazione soddisfa tutti i [prerequisiti](overview.md#prerequisites) e comprende le [limitazioni](overview.md#limitations) comuni e le limitazioni specifiche del metodo di unione ([basate sui campi](fbs.md#limitations) e [basate sui grafi](gbs.md#limitations)), puoi seguire questi passaggi per richiedere e iniziare a utilizzare l&#39;unione in Customer Journey Analytics.
+Quando l&#39;organizzazione soddisfa [prerequisiti](overview.md#prerequisites) generici, comprende [limitazioni](overview.md#limitations) comuni e i prerequisiti e le limitazioni specifici per il metodo di unione ([basati sui campi](fbs.md) e [basati sui grafi](gbs.md)), puoi seguire questi passaggi per richiedere e iniziare a utilizzare l&#39;unione in Customer Journey Analytics.
 
 ## Seleziona opzioni
 
@@ -47,7 +45,7 @@ Il pacchetto Customer Journey Analytics a cui hai diritto determina i metodi di 
       - Per l’unione basata su grafo, specifica lo spazio dei nomi per l’ID persistente e lo spazio dei nomi delle identità da utilizzare per eseguire query sul grafo delle identità.
    - Se il set di dati non supporta `identityMap`:
       - Per l’unione basata sui campi, il nome della colonna dell’ID persona per il set di dati desiderato (l’identificatore della persona, che funge anche da collegamento tra i set di dati nel contesto di una connessione).
-      - Per l’unione basata su grafico, lo spazio dei nomi delle identità da utilizzare per eseguire query sul grafo delle identità.
+      - Per l’unione basata su grafico, lo spazio dei nomi delle identità che desideri utilizzare per eseguire query sul grafo delle identità.
    - Preferenza di intervallo di lookback e frequenza di ripetizione. Consulta il tuo pacchetto Customer Journey Analytics per le [opzioni](#options) disponibili.
    - Nome della sandbox.
 
@@ -62,3 +60,11 @@ Il pacchetto Customer Journey Analytics a cui hai diritto determina i metodi di 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
 Una volta configurata la visualizzazione dati, puoi eseguire l’analisi dei rapporti di Customer Journey Analytics tra canali e dispositivi.
+
+## Limitazioni
+
+- Applica eventuali modifiche apportate allo schema del set di dati evento di origine anche al nuovo schema del set di dati con unione delle identità.
+
+- Se rimuovi il set di dati di origine, il set di dati con unione delle identità non può più essere elaborato e viene rimosso dal sistema.
+
+- Le etichette di utilizzo dei dati non vengono propagate automaticamente allo schema del set di dati con unione delle identità. Se hai applicato delle etichette di utilizzo dei dati allo schema del set di dati di origine, devi applicarle manualmente anche allo schema del set di dati con unione delle identità. Per ulteriori informazioni, consulta [Gestione delle etichette di utilizzo dei dati in Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview).

@@ -1,13 +1,13 @@
 ---
-title: Convalidare l’unione delle identità
-description: Come convalidare l’unione
+title: Convalida unione
+description: Scopri come convalidare l’unione.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: 99b434e62d859c96bfda53731f3f8a0750850501
+source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Anche se questi metodi di analisi possono essere utilizzati sia per l’unione b
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abilitazione e convalida dell&#39;unione](https://video.tv.adobe.com/v/3478128?captions=ita&quality=12&learn=on){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abilitazione e convalida dell&#39;unione](https://video.tv.adobe.com/v/3478120?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ Inoltre, devi aggiungere due metriche di unione basate sulla presenza di valori 
    Nell&#39;esempio seguente, `personalEmail.address` funge da identità e viene utilizzato per creare la metrica **[!UICONTROL _Email set]**.
    ![Metrica set e-mail](assets/emailset-metric.png)
 
-1. Utilizza il campo `stitchedID.namespae.code` per creare una dimensione dello spazio dei nomi **[!UICONTROL E-mail]**. Accertati di specificare [Includi impostazioni del componente Valori di esclusione](/help/data-views/component-settings/include-exclude-values.md), in modo da considerare solo i valori dello spazio dei nomi a cui stai tentando di elevare le righe di dati.
+1. Utilizza il campo `stitchedID.namespae.code` per creare una dimensione dello spazio dei nomi **[!UICONTROL E-mail]**. Accertati di specificare [Includi valori di esclusione nelle impostazioni del componente](/help/data-views/component-settings/include-exclude-values.md), in modo da considerare solo i valori dello spazio dei nomi a cui stai tentando di elevare le righe di dati.
    1. Selezionare **[!UICONTROL Imposta valori di inclusione/esclusione]**.
    1. Seleziona **[!UICONTROL Se tutti i criteri sono soddisfatti]** come **[!UICONTROL Corrispondenza]**.
    1. Specificare **[!UICONTROL Equals]** `email` come **[!UICONTROL Criteri]** per selezionare gli eventi elevati allo spazio dei nomi e-mail.
