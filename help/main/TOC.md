@@ -9,7 +9,7 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: a8c158e66b66f2110df12fac794b2223f1922b1f
+source-git-commit: 905d32421b4c1d3135a51dfd9898a02e750555d0
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 96%
@@ -139,6 +139,11 @@ ht-degree: 96%
    + [Set di dati evento combinati](../connections/combined-dataset.md)
    + [Ricerche standard](../connections/standard-lookups.md)
    + [Ricerche B2B](../connections/transform-datasets-b2b-lookups.md)
+   + Analisi del pubblico {#audience-analysis}
+      + [Panoramica](/help/connections/audience-analysis/audience-analysis-overview.md)
+      + [Configurare](/help/connections/audience-analysis/audience-analysis-configure.md)
+      + [Gestire i](/help/connections/audience-analysis/audience-analysis-manage.md)
+      + [Analizza](/help/connections/audience-analysis/analyze-audiences.md)
 + Visualizzazioni dati {#cja-dataviews}
    + [Panoramica delle visualizzazioni dati](../data-views/data-views.md)
    + [Creare o modificare una visualizzazione di dati](../data-views/create-dataview.md)
@@ -163,11 +168,6 @@ ht-degree: 96%
    + Metriche e dimensioni condivise{#shared-metrics-dimensions}
       + [Panoramica](/help/data-views/shared-metrics-dimensions/smd-overview.md)
       + [Editor](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
-   + Analisi del pubblico {#audience-analysis}
-      + [Panoramica](/help/connections/audience-analysis/audience-analysis-overview.md)
-      + [Configurare](/help/connections/audience-analysis/audience-analysis-configure.md)
-      + [Gestire i](/help/connections/audience-analysis/audience-analysis-manage.md)
-      + [Analizza](/help/connections/audience-analysis/analyze-audiences.md)
 + Strumenti {#tools}
    + Trasferimento risorse {#asset-transfer}
       + [Trasferire le risorse](../tools/asset-transfer/transfer-assets.md)
