@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: 8f7c1f2a89c10be9b33f6e06fcff287e275767cf
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '910'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Abilita l&#39;unione come parte delle [impostazioni del set di dati](/help/conne
 
 Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti voler eseguire alcuni controlli di verifica preliminare sui dati nel set di dati dell’evento:
 
-* Se utilizzi i campi dello schema XDM per l’ID/ID persona persistente, assicurati che le identità siano contrassegnate correttamente nello schema per il set di dati dell’evento. [Consulta la panoramica dello spazio dei nomi delle identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces).
+* Se utilizzi i campi dello schema XDM per l’ID persistente o l’ID persona, assicurati che le identità siano contrassegnate correttamente nello schema per il set di dati dell’evento. [Consulta la panoramica dello spazio dei nomi delle identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces).
 * Verifica la copertura delle identità sia per l’ID persistente che per l’ID persona:
 
    * **ID persistente**
@@ -58,7 +58,7 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 
 
    * **ID persona**
-      * Per l’unione basata su grafico, assicurati che il grafo delle identità contenga frammenti che collegano i valori ID dallo spazio dei nomi ID persistente e dallo spazio dei nomi ID persona selezionati. Puoi eseguire un test andando sul [visualizzatore grafico identità di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} ed eseguire una query sul grafico in base ad alcuni valori ID persistenti del test. Verifica se questi valori ID persistenti sono collegati ai valori ID persona nel grafico.
+      * Per l’unione basata su grafico, assicurati che il grafo delle identità contenga frammenti che collegano i valori ID dallo spazio dei nomi ID persistente e dallo spazio dei nomi ID persona selezionati. Puoi eseguire un test andando sul [visualizzatore grafico identità di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} ed eseguire una query sul grafico in base ad alcuni valori ID persistenti del test. Verifica se questi valori ID persistenti sono collegati ai valori ID persona nel grafico.
       * Per l’unione basata sui campi, esegui la query per 7 giorni di dati in cui il campo ID persona non è nullo e dividi per una query di 7 giorni di dati per tutti gli eventi nel set di dati. Questa percentuale dovrebbe idealmente superare il 5%.
 
         Esempio di query da utilizzare per la verifica:
@@ -130,7 +130,7 @@ Dopo aver salvato una connessione, il processo di unione per i set di dati abili
 
 >[!CAUTION]
 >
->Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**&#x200B;per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
+>Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
 >
 
 
