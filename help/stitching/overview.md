@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: 9bebfaf7e10762bc7382d8b0d55148ee23698dd9
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 71%
+source-wordcount: '965'
+ht-degree: 60%
 
 ---
 
@@ -45,12 +45,8 @@ Prima di utilizzare l’unione delle identità, assicurati che la tua organizzaz
 
 Per trarre vantaggio dall’analisi cross-channel, è necessario combinare uno o più set di dati con unione delle identità con altri set di dati (ad esempio, con i dati del call center) durante la definizione della connessione Customer Journey Analytics. La configurazione della connessione presuppone che gli altri set di dati contengano già un ID persona su ogni riga, simile all’ID di unione.
 
-## Abilitare l’unione delle identità
+Quando l&#39;organizzazione soddisfa [prerequisiti](overview.md#prerequisites) generici, comprende [limitazioni](overview.md#limitations) comuni e i prerequisiti e le limitazioni specifici per il metodo di unione ([basati sui campi](fbs.md) e [basati sui grafi](gbs.md)), puoi seguire questi passaggi per richiedere e iniziare a utilizzare l&#39;unione in Customer Journey Analytics.
 
-Le unioni delle identità possono essere abilitate in due modi:
-
-- [Richiesta di abilitare l&#39;unione](/help/stitching/use-stitching.md) (obsoleto). Una volta approvato, viene creato un set di dati duplicato per il set di dati per il quale è stata richiesta l’unione. Questo set di dati duplicato contiene una colonna aggiuntiva con l’identificatore unito. Per utilizzare i dati uniti in Customer Journey Analytics, è necessario creare una nuova connessione o modificare una connessione esistente che includa il set di dati uniti.
-- [Abilitare l&#39;unione nell&#39;interfaccia Connessioni](/help/stitching/use-stitching-ui.md). Quando configuri l’unione per un set di dati nell’interfaccia Connessioni, l’unione si verifica all’istante durante l’acquisizione di dati da tale set di dati in Customer Journey Analytics.
 
 ## Limitazioni
 
@@ -65,6 +61,25 @@ Assicurati di non confondere l’unione delle identità con:
 - L’unione di due o più set di dati. L’unione delle identità si applica a un solo set di dati. L’unione di più set di dati si verifica in seguito alla configurazione di una connessione Customer Journey Analytics e alla selezione dello stesso ID persona nei set di dati selezionati nella connessione.
 
 - L’unione di due set di dati. L’unione di due set di dati viene spesso utilizzata per ricerche o classificazioni in Analysis Workspace. L’unione delle identità utilizzi questa stessa funzionalità, ma con un processo che va oltre la semplice unione.
+
+
+## Opzioni
+
+Il pacchetto Customer Journey Analytics a cui hai diritto determina i metodi di unione disponibili, le opzioni per la durata della retrocompilazione iniziale, l’intervallo di lookback, la frequenza di ripetizione e il numero massimo di set di dati consentiti per l’unione. Per ulteriori dettagli, consulta la [descrizione del prodotto Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html). Decidi le opzioni disponibili prima di abilitare l’unione.
+
+| | Customer Journey Analytics<br/>Seleziona | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
+|---|---|---|---|
+| Metodi di unione disponibili | Unione delle identità basata sui campi | Unione basata sui campi<br/>Unione basata sui grafici | Unione basata sui campi<br>Unione basata sui grafici</li> |
+| Durata retrocompilazione unione una tantum | 13 mesi | 13 mesi | 25 mesi |
+| Intervallo di lookback e frequenza di ripetizione | 1 giorno, ogni giorno<br/>fino a 7 giorni, settimanalmente | 1 giorno, ogni giorno<br/>fino a 14 giorni, settimanalmente | 1 giorno, ogni giorno<br/>fino a 30 giorni, settimanalmente |
+| Numero massimo di set di dati consentiti per l’unione | 5 | 15 | 50 |
+
+## Abilitare l’unione delle identità
+
+Le unioni delle identità possono essere abilitate in due modi:
+
+- [Richiesta di abilitare l&#39;unione](/help/stitching/use-stitching.md) (obsoleto). Una volta approvato, viene creato un set di dati duplicato per il set di dati per il quale è stata richiesta l’unione. Questo set di dati duplicato contiene una colonna aggiuntiva con l’identificatore unito. Per utilizzare i dati uniti in Customer Journey Analytics, è necessario creare una nuova connessione o modificare una connessione esistente che includa il set di dati uniti.
+- [Abilitare l&#39;unione nell&#39;interfaccia Connessioni](/help/stitching/use-stitching-ui.md). Quando configuri l’unione per un set di dati nell’interfaccia Connessioni, l’unione si verifica all’istante durante l’acquisizione di dati da tale set di dati in Customer Journey Analytics.
 
 
 ## Set di dati di Journey Optimizer

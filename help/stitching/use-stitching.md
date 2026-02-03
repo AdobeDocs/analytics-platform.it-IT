@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: cbb18e9d0990d5df64995c2dabe8362c7c37bb45
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 20%
+source-wordcount: '407'
+ht-degree: 26%
 
 ---
 
@@ -19,19 +19,6 @@ ht-degree: 20%
 >
 >L’unione delle richieste tramite Adobe non è più necessaria e questo metodo è obsoleto. [Abilitare l&#39;unione nell&#39;interfaccia utente Connessioni](use-stitching-ui.md).
 >
-
-Quando l&#39;organizzazione soddisfa [prerequisiti](overview.md#prerequisites) generici, comprende [limitazioni](overview.md#limitations) comuni e i prerequisiti e le limitazioni specifici per il metodo di unione ([basati sui campi](fbs.md) e [basati sui grafi](gbs.md)), puoi seguire questi passaggi per richiedere e iniziare a utilizzare l&#39;unione in Customer Journey Analytics.
-
-## Seleziona opzioni
-
-Il pacchetto Customer Journey Analytics a cui hai diritto determina i metodi di unione disponibili, le opzioni per la durata della retrocompilazione iniziale, l’intervallo di lookback, la frequenza di ripetizione e il numero massimo di set di dati consentiti per l’unione. Per ulteriori dettagli, consulta la [descrizione del prodotto Customer Journey Analytics](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html). Decidi le opzioni disponibili prima di richiedere assistenza.
-
-| | Customer Journey Analytics<br/>Seleziona | Customer Journey Analytics<br/>Prime | Customer Journey Analytics<br/>Ultimate |
-|---|---|---|---|
-| Metodi di unione disponibili | Unione delle identità basata sui campi | Unione basata sui campi<br/>Unione basata sui grafici | Unione basata sui campi<br>Unione basata sui grafici</li> |
-| Durata retrocompilazione unione una tantum | 13 mesi | 13 mesi | 25 mesi |
-| Intervallo di lookback e frequenza di ripetizione | 1 giorno, ogni giorno<br/>fino a 7 giorni, settimanalmente | 1 giorno, ogni giorno<br/>fino a 14 giorni, settimanalmente | 1 giorno, ogni giorno<br/>fino a 30 giorni, settimanalmente |
-| Numero massimo di set di dati consentiti per l’unione | 5 | 15 | 50 |
 
 ## Richiedi supporto
 
