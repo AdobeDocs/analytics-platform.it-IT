@@ -58,7 +58,7 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 
 
    * **ID persona**
-      * Per l’unione basata su grafico, assicurati che il grafo delle identità contenga frammenti che collegano i valori ID dallo spazio dei nomi ID persistente e dallo spazio dei nomi ID persona selezionati. Puoi eseguire un test andando sul [visualizzatore grafico identità di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} ed eseguire una query sul grafico in base ad alcuni valori ID persistenti del test. Verifica se questi valori ID persistenti sono collegati ai valori ID persona nel grafico.
+      * Per l’unione basata su grafico, assicurati che il grafo delle identità contenga frammenti che collegano i valori ID dallo spazio dei nomi ID persistente e dallo spazio dei nomi ID persona selezionati. Puoi eseguire un test andando sul [visualizzatore grafico identità di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} ed eseguire una query sul grafico in base ad alcuni valori ID persistenti del test. Verifica se questi valori ID persistenti sono collegati ai valori ID persona nel grafico.
       * Per l’unione basata sui campi, esegui la query per 7 giorni di dati in cui il campo ID persona non è nullo e dividi per una query di 7 giorni di dati per tutti gli eventi nel set di dati. Questa percentuale dovrebbe idealmente superare il 5%.
 
         Esempio di query da utilizzare per la verifica:
@@ -91,7 +91,7 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 >id="connection_changeto_identitygraph"
 >title="Passare al grafo identità"
 >abstract="Assicurati di aver completato la configurazione del grafo delle identità prima di utilizzarlo per l’unione."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="Unione delle identità basata su grafo"
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/gbs" text="Unione delle identità basata su grafo"
 
 Per abilitare l&#39;unione, nella sezione del set di dati evento della finestra di dialogo **[!UICONTROL Aggiungi set di dati]** o **[!UICONTROL Modifica set di dati]**:
 
