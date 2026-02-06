@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: b5afcfe2cac8aa12d7f4d0cf98658149707123e3
+source-git-commit: 4c5376171afe7ee830c52cc1066d0645a1adbc5d
 workflow-type: tm+mt
 source-wordcount: '1741'
 ht-degree: 4%
@@ -19,11 +19,11 @@ Nell’unione basata su grafico, specifica un set di dati evento, l’ID persist
 Se non è possibile recuperare le informazioni sull&#39;ID persona per un evento, viene utilizzato l&#39;ID persistente per l&#39;evento *unstitched*. Di conseguenza, in una [visualizzazione dati](/help/data-views/data-views.md) associata a una [connessione](/help/connections/overview.md) che contiene il set di dati abilitato per l&#39;unione, il componente della visualizzazione dati ID persona contiene il valore ID persona o il valore ID persistente a livello di evento.
 
 
-![Unione basata su grafico](/help/stitching/assets/gbs.png)
+![Unione basata su grafico](/help/stitching/assets/gbs.svg)
 
 ## IdentityMap
 
-L&#39;unione basata su grafico supporta l&#39;utilizzo del gruppo di campi [`identityMap`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
+L&#39;unione basata su grafico supporta l&#39;utilizzo del gruppo di campi [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
 
 - Utilizzo dell&#39;identità primaria negli spazi dei nomi `identityMap` per definire l&#39;ID persistente:
    - Se più identità primarie si trovano in spazi dei nomi diversi, le identità negli spazi dei nomi vengono ordinate lessicograficamente e la prima identità viene selezionata.
@@ -114,7 +114,7 @@ Considera i due aggiornamenti del grafo delle identità seguenti nel tempo per i
 
 ![Grafico identità 3579](assets/identity-graphs.svg)
 
-È possibile visualizzare un grafo delle identità nel tempo per un profilo specifico utilizzando [Visualizzatore grafo identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-viewer). Consulta anche [Logica di collegamento del servizio Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-linking-logic) per comprendere meglio la logica utilizzata durante il collegamento delle identità.
+È possibile visualizzare un grafo delle identità nel tempo per un profilo specifico utilizzando [Visualizzatore grafo identità](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer). Consulta anche [Logica di collegamento del servizio Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic) per comprendere meglio la logica utilizzata durante il collegamento delle identità.
 
 ### Passaggio 1: live stitching
 
@@ -209,7 +209,7 @@ I seguenti prerequisiti si applicano in modo specifico all’unione basata su gr
    - Tutti i set di dati che contengono queste identità rilevanti devono essere [abilitati per l&#39;acquisizione dei dati del grafico delle identità](faq.md#enable-a-dataset-for-the-identity-service). Questa abilitazione assicura che le identità in ingresso vengano aggiunte al grafico nel tempo da tutte le origini necessarie.
    - Se utilizzi già Real-Time Customer Data Profile o Adobe Journey Optimizer da un po’, il grafico dovrebbe essere già configurato in una certa misura.<br/>Se è richiesta anche la retrocompilazione dell&#39;unione storica per il set di dati abilitato con l&#39;unione basata su grafico, il grafico deve già contenere identità storiche per l&#39;intero periodo, per ottenere i risultati di unione desiderati.
 - Se si desidera utilizzare l&#39;unione basata su grafico e si prevede che il set di dati evento contribuirà al grafico delle identità, è necessario [abilitare il set di dati per il servizio Identity](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service).
-- L&#39;ID persistente e l&#39;ID persona possono essere utilizzati con [identityMap](#identitymap). Oppure l&#39;ID persistente e l&#39;ID persona possono essere campi dello schema XDM, nel qual caso i campi devono essere [definiti come identità](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity?lang=en) nello schema.
+- L&#39;ID persistente e l&#39;ID persona possono essere utilizzati con [identityMap](#identitymap). Oppure l&#39;ID persistente e l&#39;ID persona possono essere campi dello schema XDM, nel qual caso i campi devono essere [definiti come identità](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en) nello schema.
 
 >[!NOTE]
 >
@@ -223,7 +223,7 @@ Le seguenti limitazioni si applicano in modo specifico all’unione basata su gr
 - Le marche temporali non vengono prese in considerazione quando si esegue una query per l’ID della persona utilizzando lo spazio dei nomi specificato. Pertanto, è possibile che un ID persistente sia unito a un ID persona di un record che ha una marca temporale precedente.
 - Negli scenari di dispositivi condivisi, in cui lo spazio dei nomi nel grafico contiene più identità, viene utilizzata la prima identità lessicografica. Se i limiti e le priorità dello spazio dei nomi sono configurati come parte del rilascio delle regole di collegamento del grafico, viene utilizzata l’identità dell’ultimo utente autenticato. Per ulteriori informazioni, vedere [Dispositivi condivisi](/help/use-cases/stitching/shared-devices.md).
 - Esiste un limite rigido di tre mesi per la retrocompilazione delle identità nel grafico delle identità. Puoi utilizzare le identità di backfill nel caso in cui non utilizzi un’applicazione Experience Platform, come Real-time Customer Data Platform, per compilare il grafico delle identità.
-- Si applicano le [protezioni del servizio Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/guardrails). Vedi, ad esempio, i seguenti [limiti statici](https://experienceleague.adobe.com/it/docs/experience-platform/identity/guardrails#static-limits):
+- Si applicano le [protezioni del servizio Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails). Vedi, ad esempio, i seguenti [limiti statici](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits):
    - Numero massimo di identità in un grafico: 50.
    - Numero massimo di collegamenti a un’identità per una singola acquisizione batch: 50.
    - Numero massimo di identità in un record XDM per l’acquisizione del grafico: 20.
