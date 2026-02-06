@@ -85,7 +85,7 @@ Per poter essere aggiunto come amministratore per un prodotto o un profilo di pr
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire gli utenti per un profilo di prodotto](https://video.tv.adobe.com/v/333860/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire gli utenti per un profilo di prodotto](https://video.tv.adobe.com/v/3475949/?captions=ita&quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 
 >[!ENDSHADEBOX]
