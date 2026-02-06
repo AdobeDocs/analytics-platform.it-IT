@@ -5,23 +5,27 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: b5afcfe2cac8aa12d7f4d0cf98658149707123e3
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1797'
 ht-degree: 9%
 
 ---
 
 # Unione delle identità basata sui campi
 
-Nell’unione basata sui campi, specifica un set di dati evento, nonché l’ID persistente (cookie) e l’ID persona per tale set di dati. L’unione basata sui campi aggiunge una nuova colonna ID unita al set di dati dell’evento e aggiorna questo ID unito in base alle righe che hanno un ID persona per tale ID persistente specifico. <br/>È possibile utilizzare l&#39;unione basata sui campi quando si utilizza Customer Journey Analytics come soluzione autonoma (non avendo accesso al servizio Experience Platform Identity e al grafo delle identità associato). Oppure, quando non desideri utilizzare il grafico delle identità disponibile.
+Nell’unione basata sui campi, specifica un set di dati evento, nonché l’ID persistente (cookie) e l’ID persona per tale set di dati. L’unione basata sui campi tenta di rendere le informazioni dell’ID persona disponibili per l’analisi dei dati di Customer Journey Analytics, su qualsiasi evento anonimo fornito con un ID persistente specifico.  Tali informazioni vengono recuperate dalle righe che hanno un ID persona per tale ID persistente specifico.
+
+Se non è possibile recuperare le informazioni sull&#39;ID persona per un evento, viene utilizzato l&#39;ID persistente per l&#39;evento *unstitched*. Di conseguenza, in una [visualizzazione dati](/help/data-views/data-views.md) associata a una [connessione](/help/connections/overview.md) che contiene il set di dati abilitato per l&#39;unione, il componente ID persona contiene il valore ID persona o il valore ID persistente a livello di evento.
+
+È possibile utilizzare l’unione basata sui campi quando si utilizza Customer Journey Analytics come soluzione indipendente (senza avere accesso al servizio Experience Platform Identity e al grafo delle identità associato). Oppure, quando non desideri utilizzare il grafico delle identità disponibile.
 
 ![Unione delle identità basata sui campi](/help/stitching/assets/fbs.png)
 
 
 ## IdentityMap
 
-L&#39;unione basata sui campi supporta l&#39;utilizzo del gruppo di campi [`identityMap`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
+L&#39;unione basata sui campi supporta l&#39;utilizzo del gruppo di campi [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
 
 - Utilizzo dell&#39;identità primaria negli spazi dei nomi `identityMap` per definire l&#39;ID persistente:
    - Se più identità primarie si trovano in spazi dei nomi diversi, le identità negli spazi dei nomi vengono ordinate lessicograficamente e la prima identità viene selezionata.
@@ -120,7 +124,7 @@ Prendi in considerazione l’esempio seguente, in cui Bob registra eventi divers
 
 *Dati visualizzati il giorno in cui vengono raccolti:*
 
-| Evento | Marca temporale | ID persistente (ID cookie) | ID persona | ID unione (dopo unione live) |
+| Evento | Marca temporale | ID persistente (ID cookie) | ID persona | ID risultante (dopo unione live) |
 |---|---|---|---|---|
 | 1 | 12/05/2023:01 | `246` ![FrecciaDestra](/help/assets/icons/ArrowRight.svg) | - | **`246`** |
 | 2 | 12/05/2023:02 | `246` | `Bob` ![FrecciaDestra](/help/assets/icons/ArrowRight.svg) | `Bob` |
@@ -138,7 +142,7 @@ Prendi in considerazione l’esempio seguente, in cui Bob registra eventi divers
 
 Gli eventi non autenticati e autenticati sui nuovi dispositivi vengono conteggiati come persone separate (temporaneamente). Gli eventi non autenticati sui dispositivi riconosciuti sono live stitched.
 
-L’attribuzione funziona quando la variabile personalizzata di identificazione è associata a un dispositivo. Nell&#39;esempio precedente, tutti gli eventi ad eccezione di 1, 8, 9 e 10 sono live stitched (utilizzano tutti l&#39;identificatore `Bob`). L’unione live &quot;risolve&quot; l’ID unione per gli eventi 4, 6 e 12.
+L’attribuzione funziona quando la variabile personalizzata di identificazione è associata a un dispositivo. Nell&#39;esempio precedente, tutti gli eventi ad eccezione di 1, 8, 9 e 10 sono live stitched (utilizzano tutti l&#39;identificatore `Bob`). L’unione live &quot;risolve&quot; l’ID risultante per gli eventi 4, 6 e 12.
 
 I dati ritardati (dati con una marca temporale di oltre 24 ore) vengono gestiti in base al massimo impegno, dando priorità all’unione dei dati correnti per ottenere la massima qualità.
 
@@ -154,7 +158,7 @@ La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra numeri d
 
 *Gli stessi dati dopo la ripetizione:*
 
-| Evento | Marca temporale | ID persistente (ID cookie) | ID persona | ID unione (dopo unione live) | ID unione (dopo la riproduzione) |
+| Evento | Marca temporale | ID persistente (ID cookie) | ID persona | ID risultante (dopo unione live) | ID risultante (dopo la riproduzione) |
 |---|---|---|---|---|---|
 | 1 | 12/05/2023:01 | `246` | - | `246` | **`Bob`** |
 | 2 | 12/05/2023:02 | `246` | `Bob` ![FrecciaDestra](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![FrecciaSu](/help/assets/icons/ArrowUp.svg) |
@@ -178,7 +182,7 @@ L’attribuzione funziona quando la variabile personalizzata di identificazione 
 
 ### Passaggio 3: richiesta di accesso a dati personali
 
-Quando ricevi una richiesta di accesso a dati personali, l’ID unione viene eliminato in tutti i record relativi all’oggetto della richiesta di accesso a dati personali.
+Quando ricevi una richiesta di accesso a dati personali, tutte le informazioni sull’identificatore impostate dal processo di unione sul valore ID persona vengono aggiornate in tutti i record in un valore ID persistente per l’oggetto utente della richiesta di accesso a dati personali.
 
 +++ Dettagli
 
@@ -186,7 +190,7 @@ La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra l’effe
 
 *Gli stessi dati dopo una richiesta di accesso a dati personali per Bob:*
 
-| Evento | Marca temporale | ID persistente (ID cookie) | ID persona | ID unione (dopo unione live) | ID unione (dopo la riproduzione) | ID persona | ID unione (dopo la richiesta di privacy) |
+| Evento | Marca temporale | ID persistente (ID cookie) | ID persona | ID risultante (dopo unione live) | ID risultante (dopo la riproduzione) | ID persona | ID risultante (dopo la richiesta di accesso a dati personali) |
 |---|---|---|---|---|---|---|---|
 | 1 | 12/05/2023:01 | `246` | - | `246` | **`Bob`** | - | `246` |
 | 2 | 12/05/2023:02 | `246` | Bob ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![Freccia Su](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) | `246` |
@@ -214,7 +218,7 @@ I seguenti prerequisiti si applicano in modo specifico all’unione basata sui c
    - Un **ID persona**, un identificatore disponibile solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash una volta che un profilo si autentica. Puoi utilizzare virtualmente qualsiasi identificatore che ti piace. L’unione considera questo campo come contenente le informazioni dell’ID persona effettivo. Per risultati di unione migliori, un ID persona deve essere inviato all’interno degli eventi del set di dati almeno una volta per ogni ID persistente. Se prevedi di includere questo set di dati all’interno di una connessione Customer Journey Analytics, è preferibile che anche gli altri set di dati abbiano un identificatore comune simile.
 
 <!--
-- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 

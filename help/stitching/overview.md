@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: 9bebfaf7e10762bc7382d8b0d55148ee23698dd9
+source-git-commit: d1ba2d203738ca9bf74d17bb93712eff26f88f25
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 60%
+source-wordcount: '982'
+ht-degree: 54%
 
 ---
 
@@ -24,7 +24,7 @@ Quando combini set di dati con ID persona simili, l’attribuzione viene trasfer
 
 Sfortunatamente, non tutti i set di dati basati su eventi che fanno parte della connessione in Customer Journey Analytics dispongono di dati sufficienti per supportare questa attribuzione predefinita. In particolare, i set di dati delle esperienze basate su web o dispositivi mobili spesso non dispongono di informazioni sull’ID effettivo di una persona per tutti gli eventi.
 
-L’unione ricalcola le identità all’interno delle righe di un set di dati per garantire che l’ID persona (ID unione) sia disponibile su ogni evento. Durante l’unione delle identità, vengono esaminati i dati utente provenienti da sessioni autenticate e non autenticate per determinare il valore dell’ID persona comune che può essere utilizzato come ID unito. Questa reimpostazione delle chiavi risolve diversi record in un singolo ID unito per l’analisi a livello di persona, anziché a livello di dispositivo o cookie.
+L’unione di rechiavi le identità all’interno delle righe di un set di dati per garantire che le informazioni dell’ID persona desiderato siano disponibili sul maggior numero di eventi possibile. L’unione esamina i dati utente provenienti da sessioni autenticate e non autenticate per determinare il valore ID persona comune che può essere utilizzato. Questa reimpostazione delle chiavi risolve diversi record in un singolo ID persona per l’analisi a livello di persona, anziché a livello di dispositivo o cookie. Tuttavia, se non è possibile determinare un valore ID persona comune, viene utilizzato il valore ID persistente.
 
 Customer Journey Analytics supporta due tipi di unione delle identità: [unione basata sui campi](fbs.md) e [unione basata sui grafi](gbs.md).
 
@@ -43,10 +43,9 @@ Prima di utilizzare l’unione delle identità, assicurati che la tua organizzaz
    - Per i dati di Adobe Analytics, consulta [Utilizzo dei dati della suite di rapporti di Adobe Analytics in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
    - Per altri tipi di dati, consulta [Creare uno schema](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/create-schema-ui) e [Acquisire i dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home) nella documentazione di Adobe Experience Platform.
 
-Per trarre vantaggio dall’analisi cross-channel, è necessario combinare uno o più set di dati con unione delle identità con altri set di dati (ad esempio, con i dati del call center) durante la definizione della connessione Customer Journey Analytics. La configurazione della connessione presuppone che gli altri set di dati contengano già un ID persona su ogni riga, simile all’ID di unione.
+Per trarre vantaggio dall’analisi cross-channel, è necessario combinare uno o più set di dati con unione delle identità con altri set di dati (ad esempio, con i dati del call center) durante la definizione della connessione Customer Journey Analytics. Questa configurazione della connessione presuppone che gli altri set di dati contengano già un ID persona dallo stesso spazio dei nomi nel maggior numero di righe possibile.
 
 Quando l&#39;organizzazione soddisfa [prerequisiti](overview.md#prerequisites) generici, comprende [limitazioni](overview.md#limitations) comuni e i prerequisiti e le limitazioni specifici per il metodo di unione ([basati sui campi](fbs.md) e [basati sui grafi](gbs.md)), puoi seguire questi passaggi per richiedere e iniziare a utilizzare l&#39;unione in Customer Journey Analytics.
-
 
 ## Limitazioni
 

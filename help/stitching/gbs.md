@@ -5,23 +5,25 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: b5afcfe2cac8aa12d7f4d0cf98658149707123e3
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1741'
 ht-degree: 4%
 
 ---
 
 # Unione delle identità basata su grafo
 
-Nell’unione basata su grafico specifica un set di dati evento. E per quel set di dati evento specifichi l’ID persistente (cookie) e lo spazio dei nomi dell’unione desiderato dal grafico delle identità contenente i valori dell’ID persona. L’unione basata su grafico aggiunge una nuova colonna per l’ID dell’unione al set di dati dell’evento. L’ID persistente viene utilizzato per eseguire query sul grafo delle identità dal servizio Experience Platform Identity, utilizzando lo spazio dei nomi specificato per l’unione, per aggiornare l’ID unito.
+Nell’unione basata su grafico, specifica un set di dati evento, l’ID persistente (cookie) per tale set di dati e lo spazio dei nomi dell’ID persona desiderato dal grafico delle identità. L’unione basata su grafico tenta di rendere disponibili le informazioni dell’ID persona per l’analisi dei dati di Customer Journey Analytics in qualsiasi evento. L’ID persistente viene utilizzato per eseguire una query sul grafico delle identità dal servizio Experience Platform Identity e ottenere l’ID persona dallo spazio dei nomi specificato.
+
+Se non è possibile recuperare le informazioni sull&#39;ID persona per un evento, viene utilizzato l&#39;ID persistente per l&#39;evento *unstitched*. Di conseguenza, in una [visualizzazione dati](/help/data-views/data-views.md) associata a una [connessione](/help/connections/overview.md) che contiene il set di dati abilitato per l&#39;unione, il componente della visualizzazione dati ID persona contiene il valore ID persona o il valore ID persistente a livello di evento.
 
 
 ![Unione basata su grafico](/help/stitching/assets/gbs.png)
 
 ## IdentityMap
 
-L&#39;unione basata su grafico supporta l&#39;utilizzo del gruppo di campi [`identityMap`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
+L&#39;unione basata su grafico supporta l&#39;utilizzo del gruppo di campi [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
 
 - Utilizzo dell&#39;identità primaria negli spazi dei nomi `identityMap` per definire l&#39;ID persistente:
    - Se più identità primarie si trovano in spazi dei nomi diversi, le identità negli spazi dei nomi vengono ordinate lessicograficamente e la prima identità viene selezionata.
@@ -112,7 +114,7 @@ Considera i due aggiornamenti del grafo delle identità seguenti nel tempo per i
 
 ![Grafico identità 3579](assets/identity-graphs.svg)
 
-È possibile visualizzare un grafo delle identità nel tempo per un profilo specifico utilizzando [Visualizzatore grafo identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-viewer). Consulta anche [Logica di collegamento del servizio Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-linking-logic) per comprendere meglio la logica utilizzata durante il collegamento delle identità.
+È possibile visualizzare un grafo delle identità nel tempo per un profilo specifico utilizzando [Visualizzatore grafo identità](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer). Consulta anche [Logica di collegamento del servizio Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic) per comprendere meglio la logica utilizzata durante il collegamento delle identità.
 
 ### Passaggio 1: live stitching
 
@@ -120,7 +122,7 @@ L’unione live tenta di unire ogni evento, al momento della raccolta, alle info
 
 +++ Dettagli
 
-| | Tempo | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![MappingDati](/help/assets/icons/DataMapping.svg) | ID unione (dopo unione live) |
+| | Tempo | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![MappingDati](/help/assets/icons/DataMapping.svg) | ID risultante (dopo unione live) |
 |--:|---|---|---|---|
 | 1 | 11/05/2023:00 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) *non definito* | `246` |
 | 2 | 14/05/2023:00 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
@@ -132,8 +134,8 @@ L’unione live tenta di unire ogni evento, al momento della raccolta, alle info
 
 {style="table-layout:auto"}
 
-Puoi vedere come viene risolto l’ID unione per ogni evento. In base al tempo, all’ID persistente e alla ricerca del grafico delle identità per lo spazio dei nomi specificato (nello stesso momento).
-Quando la ricerca viene risolta in più ID uniti (come per l&#39;evento 7), viene selezionato il primo ID lessicografico restituito dal grafo delle identità (`a.b@yahoo.co.uk` nell&#39;esempio).
+Puoi vedere come viene risolto l’ID risultante per ogni evento. In base al tempo, all’ID persistente e alla ricerca del grafico delle identità per lo spazio dei nomi dell’ID persona specificato.
+Quando la ricerca viene risolta in più di un ID risultante (come per l&#39;evento 7), viene selezionato il primo ID lessicografico restituito dal grafo delle identità (`a.b@yahoo.co.uk` nell&#39;esempio).
 
 +++
 
@@ -145,7 +147,7 @@ A intervalli regolari (in base all’intervallo di lookback scelto), l’unione 
 
 Con un&#39;unione di ripetizione che si verifica al 16:30 del 2023-05-2024, con una configurazione dell&#39;intervallo di lookback di 24 ore, alcuni eventi dell&#39;esempio vengono ricollegati (indicati da ![Ripetizione](/help/assets/icons/Replay.svg)).
 
-| | Tempo | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![MappingDati](/help/assets/icons/DataMapping.svg) | ID unione<br/>(dopo unione live) | ID unione<br/>(dopo la ripetizione 24 ore) |
+| | Tempo | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![MappingDati](/help/assets/icons/DataMapping.svg) | ID risultante<br/>(dopo unione live) | ID risultante<br/>(dopo la ripetizione 24 ore) |
 |---|---|---|---|---|---|
 | 2 | 14/05/2023:00 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
 | 3 | 15:00 12/05/2023 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
@@ -160,7 +162,7 @@ Con un&#39;unione di ripetizione che si verifica al 16:30 del 2023-05-2024, con 
 Con la ripetizione dell’unione che si verifica al 16:30 del 2023-05-2023, con una configurazione dell’intervallo di lookback di 7 giorni, tutti gli eventi dell’esempio vengono ricollegati.
 
 
-| | Tempo | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![MappingDati](/help/assets/icons/DataMapping.svg) | ID unione<br/>(dopo unione live) | ID unione<br/>(dopo la ripetizione 7 giorni) |
+| | Tempo | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![MappingDati](/help/assets/icons/DataMapping.svg) | ID risultante<br/>(dopo unione live) | ID risultante<br/>(dopo la ripetizione 7 giorni) |
 |---|---|---|---|---|---|
 | ![Riproduci](/help/assets/icons/Replay.svg) 1 | 11/05/2023:00 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) *non definito* | `246` | `a.b@yahoo.co.uk` |
 | ![Riproduci](/help/assets/icons/Replay.svg) 2 | 14/05/2023:00 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
@@ -176,13 +178,13 @@ Con la ripetizione dell’unione che si verifica al 16:30 del 2023-05-2023, con 
 
 ### Passaggio 3: richiesta di accesso a dati personali
 
-Quando ricevi una richiesta di accesso a dati personali, l’ID unione viene eliminato in tutti i record relativi all’oggetto della richiesta di accesso a dati personali.
+Quando ricevi una richiesta di accesso a dati personali, l’ID risultante viene eliminato in tutti i record relativi all’oggetto della richiesta di accesso a dati personali.
 
 +++ Dettagli
 
 La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra l’effetto di una richiesta di accesso a dati personali (ad esempio al 2023-05-13 18:00) per gli eventi di esempio.
 
-| | Tempo | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![MappingDati](/help/assets/icons/DataMapping.svg) | ID unione (dopo la richiesta di privacy) |
+| | Tempo | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![MappingDati](/help/assets/icons/DataMapping.svg) | ID risultante (dopo la richiesta di accesso a dati personali) |
 |--:|---|---|---|---|
 | ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) 1 | 11/05/2023:00 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
 | ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) 2 | 14/05/2023:00 | `246` | `246`![Ramo1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
@@ -207,7 +209,7 @@ I seguenti prerequisiti si applicano in modo specifico all’unione basata su gr
    - Tutti i set di dati che contengono queste identità rilevanti devono essere [abilitati per l&#39;acquisizione dei dati del grafico delle identità](faq.md#enable-a-dataset-for-the-identity-service). Questa abilitazione assicura che le identità in ingresso vengano aggiunte al grafico nel tempo da tutte le origini necessarie.
    - Se utilizzi già Real-Time Customer Data Profile o Adobe Journey Optimizer da un po’, il grafico dovrebbe essere già configurato in una certa misura.<br/>Se è richiesta anche la retrocompilazione dell&#39;unione storica per il set di dati abilitato con l&#39;unione basata su grafico, il grafico deve già contenere identità storiche per l&#39;intero periodo, per ottenere i risultati di unione desiderati.
 - Se si desidera utilizzare l&#39;unione basata su grafico e si prevede che il set di dati evento contribuirà al grafico delle identità, è necessario [abilitare il set di dati per il servizio Identity](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service).
-- L&#39;ID persistente e l&#39;ID persona possono essere utilizzati con [identityMap](#identitymap). Oppure l&#39;ID persistente e l&#39;ID persona possono essere campi dello schema XDM, nel qual caso i campi devono essere [definiti come identità](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity?lang=en) nello schema.
+- L&#39;ID persistente e l&#39;ID persona possono essere utilizzati con [identityMap](#identitymap). Oppure l&#39;ID persistente e l&#39;ID persona possono essere campi dello schema XDM, nel qual caso i campi devono essere [definiti come identità](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en) nello schema.
 
 >[!NOTE]
 >
@@ -221,7 +223,7 @@ Le seguenti limitazioni si applicano in modo specifico all’unione basata su gr
 - Le marche temporali non vengono prese in considerazione quando si esegue una query per l’ID della persona utilizzando lo spazio dei nomi specificato. Pertanto, è possibile che un ID persistente sia unito a un ID persona di un record che ha una marca temporale precedente.
 - Negli scenari di dispositivi condivisi, in cui lo spazio dei nomi nel grafico contiene più identità, viene utilizzata la prima identità lessicografica. Se i limiti e le priorità dello spazio dei nomi sono configurati come parte del rilascio delle regole di collegamento del grafico, viene utilizzata l’identità dell’ultimo utente autenticato. Per ulteriori informazioni, vedere [Dispositivi condivisi](/help/use-cases/stitching/shared-devices.md).
 - Esiste un limite rigido di tre mesi per la retrocompilazione delle identità nel grafico delle identità. Puoi utilizzare le identità di backfill nel caso in cui non utilizzi un’applicazione Experience Platform, come Real-time Customer Data Platform, per compilare il grafico delle identità.
-- Si applicano le [protezioni del servizio Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/guardrails). Vedi, ad esempio, i seguenti [limiti statici](https://experienceleague.adobe.com/it/docs/experience-platform/identity/guardrails#static-limits):
+- Si applicano le [protezioni del servizio Identity](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails). Vedi, ad esempio, i seguenti [limiti statici](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits):
    - Numero massimo di identità in un grafico: 50.
    - Numero massimo di collegamenti a un’identità per una singola acquisizione batch: 50.
    - Numero massimo di identità in un record XDM per l’acquisizione del grafico: 20.
