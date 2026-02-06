@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: d1ba2d203738ca9bf74d17bb93712eff26f88f25
+source-git-commit: 391adbe67a4c76f3eb2a8bfcfbb733b2d980cafe
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
@@ -33,13 +33,13 @@ Anche se questi metodi di analisi possono essere utilizzati sia per l’unione b
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abilitazione e convalida dell&#39;unione](https://video.tv.adobe.com/v/3478128?captions=ita&quality=12&learn=on){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abilitazione e convalida dell&#39;unione](https://video.tv.adobe.com/v/3478120?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->In questo articolo viene descritto come convalidare l&#39;unione di dati [richiesta tramite Adobe](/help/stitching/use-stitching.md) e implementata utilizzando una colonna di identità unita aggiunta a un set di dati uniti duplicato. L&#39;articolo verrà presto aggiornato con i dettagli su come convalidare l&#39;unione abilitata per [tramite l&#39;interfaccia utente Connessioni](/help/stitching/use-stitching-ui.md).
+>In questo articolo viene descritto come convalidare l&#39;unione [richiesta tramite Adobe](/help/stitching/use-stitching.md) e implementata utilizzando una colonna di identità unita aggiunta a un set di dati uniti duplicato. L&#39;articolo verrà presto aggiornato con i dettagli su come convalidare l&#39;unione abilitata per [tramite l&#39;interfaccia utente Connessioni](/help/stitching/use-stitching-ui.md).
 
 
 
