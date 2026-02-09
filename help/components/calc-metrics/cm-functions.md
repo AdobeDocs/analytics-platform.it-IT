@@ -4,10 +4,10 @@ description: Scopri le funzioni di base delle metriche calcolate.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: e2e87bc3d9f26b01f250d88b924c730fe4edac7b
 workflow-type: tm+mt
-source-wordcount: '1868'
-ht-degree: 88%
+source-wordcount: '3608'
+ht-degree: 45%
 
 ---
 
@@ -58,6 +58,14 @@ In alternativa, puoi avere due metriche di interesse e una con una media o un mi
 |---|---|
 | metrica | La metrica della quale desideri calcolare il valore assoluto. |
 
+**Caso d&#39;uso**: assicurati che tutti i risultati siano positivi durante l&#39;analisi di metriche che potrebbero produrre valori negativi, come delta ricavi o modifiche percentuali. Questo aiuta a focalizzare l&#39;attenzione sulla portata del cambiamento indipendentemente dalla direzione.
+
+**Nel Generatore di metriche calcolate**: racchiudere la metrica o l&#39;espressione nella funzione **Valore assoluto**, ad esempio: **Valore assoluto**(Ricavi correnti - Ricavi precedenti). In questo modo eventuali differenze negative vengono convertite in valori positivi.
+
+>[!TIP]
+>
+>Utilizzalo per misurare le differenze assolute tra due periodi di tempo o segmenti, indipendentemente dal fatto che le prestazioni siano aumentate o diminuite.
+>
 
 ## Massimo colonna {#column-maximum}
 
@@ -79,6 +87,14 @@ Restituisce il valore più grande in un insieme di elementi dimensionali della c
 | metrica | Richiede almeno una metrica, ma può accettare un numero qualsiasi di metriche come parametri. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
+**Caso d&#39;uso**: identifica il valore più alto all&#39;interno di un raggruppamento, ad esempio il giorno con il maggior numero di visite o il prodotto con il maggior fatturato. Questo consente di evidenziare i picchi di prestazioni tra le categorie.
+
+**Nel Generatore di metriche calcolate**: applica **Numero massimo colonne** a una metrica come *Ricavi* o *Visite* quando esegui la suddivisione per *Giorno* o *Prodotto*. La funzione restituisce il valore più grande in quella colonna per ogni riga.
+
+>[!TIP]
+>
+>Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con prestazioni migliori nel raggruppamento.
+>
 
 ## Minimo colonna {#column-minimum}
 
@@ -101,6 +117,15 @@ Restituisce il valore più piccolo in un insieme di elementi dimensionali della 
 | metrica | Richiede almeno una metrica, ma può accettare un numero qualsiasi di metriche come parametri. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
+**Caso d&#39;uso**: identifica il valore con le prestazioni più basse all&#39;interno di un raggruppamento, ad esempio la campagna con le conversioni più basse o il giorno con le entrate più basse. Questo consente di far emergere rapidamente segmenti poco performanti.
+
+**Nel Generatore di metriche calcolate**: Applica **Colonna minima** a una metrica come *Ricavo* o *Tasso di conversione* quando si suddivide per *Campagna* o *Giorno*. La funzione restituisce il valore più piccolo in quella colonna per ogni riga.
+
+>[!TIP]
+>
+>Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con le prestazioni peggiori nel raggruppamento.
+>
+
 
 ## Somma colonna {#column-sum}
 
@@ -121,6 +146,15 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 | Argomento | Descrizione |
 |---|---|
 | metrica | Richiede almeno una metrica, ma può accettare un numero qualsiasi di metriche come parametri. |
+
+**Caso d&#39;uso**: calcola il totale di tutti i valori all&#39;interno di un raggruppamento, ad esempio i ricavi totali per tutti i prodotti o le visite totali per tutti i giorni. Questo è utile quando hai bisogno di un totale complessivo da confrontare con i singoli valori di riga.
+
+**Nel Generatore di metriche calcolate**: Applica **Somma colonna** a una metrica come *Ricavi* o *Visite* durante la suddivisione per *Prodotto* o *Giorno*. La funzione restituisce il totale di tutti i valori in quella colonna per ogni riga.
+
+>[!TIP]
+>
+>Utilizzare quando è necessario un riferimento al totale complessivo per calcolare le quote o le percentuali delle prestazioni totali.
+>
 
 
 ## Conteggio {#count}
@@ -143,6 +177,14 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 |---|---|
 | metrica | La metrica da conteggiare. |
 
+**Caso d&#39;uso**: conta il numero di punti dati inclusi in un calcolo, ad esempio il numero di giorni in un intervallo di date o il numero di prodotti in un raggruppamento. Questo aiuta quando devi sapere quanti elementi contribuiscono a un valore aggregato.
+
+**Nel generatore di metriche calcolate**: applica **Count** a una metrica come *Visite* o *Entrate* per restituire il numero totale di righe (o punti dati) incluse nel raggruppamento o nell&#39;intervallo di date corrente.
+
+>[!TIP]
+>
+>Usare insieme a **Somma colonna** per calcolare manualmente le medie (ad esempio, **Somma colonna**(*Ricavi*) / **Conteggio**(Ricavi)).
+>
 
 ## Esponente {#exponent}
 
@@ -162,6 +204,15 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 | Argomento | Descrizione |
 |---|---|
 | metrica | L’esponente applicato alla base e. |
+
+**Caso d&#39;uso**: aumentare un numero o una metrica a una determinata potenza, ad esempio quadrare un valore o applicare un fattore di crescita esponenziale. Ciò è utile quando si modellano le tendenze di crescita o si ridimensiona una metrica in modo esponenziale.
+
+**Nel Generatore di metriche calcolate**: utilizzare **Esponente** con una metrica e un valore di alimentazione. Ad esempio: **Esponente**(*Visite*, 2) quadra la metrica *Visite*.
+
+>[!TIP]
+>
+>Combina con **Logaritmo** per la modellazione avanzata o per uniformare i dati altamente variabili durante il confronto dei modelli di crescita.
+>
 
 
 ## Media {#mean}
@@ -185,6 +236,14 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 | metrica | La metrica di cui desideri calcolare la media. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
+**Caso d&#39;uso**: calcola la media aritmetica di un set di valori, ad esempio il ricavo medio giornaliero o il numero medio di visite per campagna. Questo aiuta a stabilire una linea di base per il confronto di singoli valori all’interno di un set di dati.
+
+**Nel Generatore di metriche calcolate**: Applica **Media** a una metrica come *Ricavi* o *Visite* per restituire il valore medio in tutti i punti dati nel raggruppamento o nell&#39;intervallo di date selezionato.
+
+>[!TIP]
+>
+>Utilizzare per comprendere le tendenze generali delle prestazioni o combinarle con **Deviazione standard** per misurare la coerenza rispetto alla media.
+>
 
 ## Mediana {#median}
 
@@ -206,6 +265,15 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 |---|---|
 | metrica | La metrica di cui desideri calcolare la mediana. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
+
+**Caso d&#39;uso**: identifica il valore intermedio in un set di dati, ad esempio il ricavo giornaliero mediano o le visualizzazioni di pagina mediane per visita. Questa funzione è utile quando vuoi ridurre l’impatto di valori anomali e individuare la tendenza centrale dei dati.
+
+**Nel generatore di metriche calcolate**: Applica mediana a una metrica come Ricavi o Visualizzazioni pagina per restituire il valore del punto intermedio in tutte le coordinate nel raggruppamento o nell&#39;intervallo di date selezionato.
+
+>[!TIP]
+>
+>Utilizza invece di **Media** quando i tuoi dati contengono valori massimi o minimi che potrebbero distorcere la media.
+>
 
 
 ## Modulo {#modulo}
@@ -229,7 +297,16 @@ Restituisce il resto dopo aver diviso x per y utilizzando la divisione euclidea.
 | metric_X | La prima metrica che desideri dividere. |
 | metric_Y | La seconda metrica che desideri dividere. |
 
-### Esempi
+**Caso d&#39;uso**: restituire il resto dopo aver diviso un numero per un altro. Questo può essere utile per modelli ciclici o ripetuti, come l’identificazione ogni giorno ennesimo o una campagna in una sequenza.
+
+**Nel generatore di metriche calcolate**: utilizzare **Modulo** con due input numerici. Ad esempio: **Modulo**(*Numero giorno*, 7) restituisce il resto dopo aver diviso il numero giorno per sette, in modo da semplificare il raggruppamento dei dati per settimana.
+
+>[!TIP]
+>
+>Combina con logica condizionale per evidenziare intervalli ricorrenti o per segmentare i dati in base a cicli ripetuti.
+>
+
+### Altri esempi
 
 Il valore restituito ha lo stesso segno dell’input (o è zero).
 
@@ -267,7 +344,14 @@ MODULO(MODULO(x,y)+y,y)
 | k | La colonna della metrica che definisce la condizione relativa. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
+**Caso d&#39;uso**: identifica il valore al di sotto del quale rientra una determinata percentuale di punti dati, ad esempio il 90° percentile delle entrate giornaliere o delle visualizzazioni di pagina. Questo consente di misurare la distribuzione e rilevare valori anomali ad alte prestazioni.
 
+**Nel Generatore di metriche calcolate**: Applica **Percentile** a una metrica come *Ricavi* o *Visite* e specifica il valore percentile desiderato (ad esempio, **Percentile**(*Ricavi*, 90)). Il risultato mostra la soglia al di sotto della quale il 90% dei punti dati.
+
+>[!TIP]
+>
+>Utilizza per impostare benchmark di prestazioni o per filtrare in base alle giornate, campagne o prodotti con prestazioni migliori.
+>
 
 ## Operatore di potenza {#power-operator}
 
@@ -289,6 +373,14 @@ Restituisce x elevato alla potenza y.
 | metric_X | La metrica da elevare alla potenza metric_Y. |
 | metric_Y | La potenza a cui desideri elevare metric_X. |
 
+**Caso d&#39;uso**: aumentare un numero o una metrica alla potenza di un altro, ad esempio quadrare un valore o applicare un peso esponenziale. Questo è utile quando si modellano la crescita, si scalano i valori o si eseguono trasformazioni matematiche avanzate.
+
+**Nel Generatore di metriche calcolate**: utilizzare **Operatore avanzato** tra due valori numerici o metriche. Ad esempio: *Revenue* ^ 2 eleva il valore *Revenue* alla seconda potenza.
+
+>[!TIP]
+>
+>Simile alla funzione **Esponente** ma espressa come operatore matematico, consente formule più compatte nelle metriche calcolate.
+>
 
 ## Quartile {#quartile}
 
@@ -312,6 +404,14 @@ Restituisce x elevato alla potenza y.
 | quartile | Indica quale valore del quartile restituire. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
+**Caso d&#39;uso**: dividi un set di dati in quattro parti uguali per capire come vengono distribuiti i valori, ad esempio per identificare il primo 25% dei giorni in base ai ricavi o alle visite. Questo consente di segmentare le prestazioni in gruppi classificati per un confronto più approfondito.
+
+**Nel Generatore di metriche calcolate**: Applica **Quartile** a una metrica come *Ricavi* o *Visite* e specifica il quartile da restituire (ad esempio, **Quartile**(*Ricavi*, 3) per trovare la soglia per il terzo quartile, o il 25% superiore).
+
+>[!TIP]
+>
+>Utilizzare per raggruppare i valori in livelli di prestazioni quali campagne o prodotti a basse, medie e alte prestazioni.
+>
 
 ## Arrotondamento {#round}
 
@@ -333,7 +433,16 @@ L’arrotondamento senza un parametro *numerico* è uguale all’arrotondamento 
 | metrica | La metrica da arrotondare. |
 | number | Quante cifre a destra del decimale restituire. Se la cifra è negativa, restituisce gli zero a sinistra del decimale. |
 
-### Esempi
+**Caso d&#39;uso**: i risultati numerici vengono arrotondati a un numero specificato di cifre decimali. Questa funzione è utile per creare visualizzazioni più nitide o per semplificare la lettura delle metriche calcolate nei rapporti.
+
+**Nel generatore di metriche calcolate**: Applica **Round** a una metrica o espressione e specifica il numero di posizioni decimali. Ad esempio: **Round**(*Tasso di conversione*, 2) arrotonda il valore a due posizioni decimali.
+
+>[!TIP]
+>
+>Utilizza per standardizzare la formattazione delle metriche nei rapporti, in particolare quando vengono visualizzate percentuali o valori di valuta.
+>
+
+### Altri esempi
 
 ```
 ROUND( 314.15, 0) = 314
@@ -357,6 +466,14 @@ ROUND( 314.15, -2) = 300
 
 Restituisce il numero di righe di una colonna specificata (il numero di elementi univoci riportati all’interno di una dimensione). *Univoci superati* viene conteggiato come 1.
 
+**Caso d&#39;uso**: conta il numero totale di righe restituite in un raggruppamento o in un set di dati, ad esempio il numero di giorni, campagne o prodotti inclusi in un rapporto. Questo aiuta a capire quanti elementi contribuiscono all’analisi.
+
+**Nel Generatore di metriche calcolate**: Applica **Conteggio righe** per restituire il numero totale di righe nel raggruppamento o nel segmento corrente. Ad esempio, quando si visualizzano *Ricavi* per *Prodotto*, **Conteggio righe** restituisce il numero di prodotti visualizzati.
+
+>[!TIP]
+>
+>Usare con altre funzioni come **Somma colonna** per calcolare manualmente le medie (ad esempio, **Somma colonna**(*Ricavi*) / **Conteggio righe**()).
+>
 
 ## Massimo riga {#row-max}
 
@@ -378,6 +495,14 @@ Il massimo delle colonne di ogni riga.
 | metrica | Richiede almeno una metrica, ma può accettare un numero qualsiasi di metriche come parametri. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
+**Caso d&#39;uso**: identifica il valore più alto in tutte le metriche in una singola riga, ad esempio determinando quale metrica (ad esempio, *Ricavi*, *Ordini* o *Visite*) ha il valore più alto per un giorno o segmento specifico. Questo aiuta a evidenziare quale metrica lead all’interno di ogni riga di dati.
+
+**Nel generatore di metriche calcolate**: applicare **Massimo riga** quando più metriche sono incluse in una metrica calcolata. Ad esempio: **Numero massimo righe**(*Ricavi*, *Ordini*, *Visite*) restituisce il valore più grande tra queste metriche per ogni riga.
+
+>[!TIP]
+>
+>Utilizza per confrontare le metriche correlate una accanto all’altra e identificare quale contribuisce maggiormente alle prestazioni all’interno di ogni riga.
+>
 
 ## Minimo riga {#row-min}
 
@@ -399,7 +524,14 @@ Minimo di colonne di ogni riga.
 | metrica | Richiede almeno una metrica, ma può accettare un numero qualsiasi di metriche come parametri. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
+**Caso d&#39;uso**: identifica il valore più basso in tutte le metriche in una singola riga, ad esempio la ricerca della metrica (ad esempio, *Ricavi*, *Ordini* o *Visite*) con il valore più basso per un giorno o un segmento particolare. Questo consente di individuare la metrica con le prestazioni più deboli all’interno di ogni riga di dati.
 
+**Nel Generatore di metriche calcolate**: applicare **Minimo riga** quando si confrontano più metriche. Ad esempio: **Minimo riga**(*Ricavi*, *Ordini*, *Visite*) restituisce il valore più piccolo tra queste metriche per ogni riga.
+
+>[!TIP]
+>
+>Combina con il valore Maximum di riga per calcolare gli intervalli di prestazioni o per evidenziare metriche con prestazioni inferiori in un confronto affiancato.
+>
 
 ## Somma righe {#row-sum}
 
@@ -420,6 +552,14 @@ Somma delle colonne di ogni riga.
 |---|---|
 | metrica | Richiede almeno una metrica, ma può accettare un numero qualsiasi di metriche come parametri. |
 
+**Caso d&#39;uso**: aggiungi i valori di più metriche all&#39;interno di una singola riga, ad esempio sommando *Ricavi* e *Imposta* per calcolare il valore totale della transazione o combinando *Visite* da origini diverse. Questo consente di consolidare le metriche correlate in un unico totale.
+
+**Nel generatore di metriche calcolate**: applica **Somma righe** per combinare più metriche. Ad esempio: **Row Sum**(*Revenue*, *Tax*) aggiunge queste due metriche per ogni riga della suddivisione.
+
+>[!TIP]
+>
+>Utilizza per creare totali combinati o per raggruppare gli indicatori di prestazioni correlati in un’unica metrica calcolata.
+>
 
 ## Radice quadrata {#square-root}
 
@@ -441,6 +581,14 @@ Somma delle colonne di ogni riga.
 |---|---|
 | metrica | Metrica per la quale desideri calcolare la radice quadrata. |
 
+**Caso d&#39;uso**: restituisce la radice quadrata di un numero o di una metrica, ad esempio la ricerca della radice della varianza durante il calcolo della deviazione standard o la normalizzazione dei valori in un set di dati. Ciò è utile per calcoli statistici o di trasformazione dei dati avanzati.
+
+**Nel generatore di metriche calcolate**: applicare **Radice quadrata** a una metrica o espressione. Ad esempio: **Radice quadrata**(Varianza(*Ricavi*)) restituisce la deviazione standard di *Ricavi*.
+
+>[!TIP]
+>
+>Da utilizzare quando è necessario scalare le metriche in modo proporzionale o per supportare altre funzioni statistiche che si basano sui valori radice.
+>
 
 ## Deviazione standard {#standard-deviation}
 
@@ -462,6 +610,14 @@ Somma delle colonne di ogni riga.
 | | Metrica per la quale desideri calcolare la deviazione standard. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
+**Caso d&#39;uso**: misura quanto valori variano rispetto alla media, ad esempio valutando la coerenza delle entrate giornaliere o delle visite nel tempo. Questo aiuta a identificare volatilità, stabilità o fluttuazioni insolite nelle prestazioni.
+
+**Nel generatore di metriche calcolate**: applica **deviazione standard** a una metrica come *Ricavi* o *Visite* per calcolare la distribuzione dei valori all&#39;interno del raggruppamento o dell&#39;intervallo di date selezionato. Ad esempio: **Deviazione standard**(*Ricavi*) mostra il numero di ricavi giornalieri che si discostano dalla media.
+
+>[!TIP]
+>
+>Utilizza con *Media* per rilevare anomalie o confrontare la coerenza delle prestazioni tra campagne, prodotti o segmenti.
+>
 
 ## Varianza {#variance}
 
@@ -483,6 +639,14 @@ Somma delle colonne di ogni riga.
 | metrica | Metrica per la quale desideri calcolare la varianza. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
+**Caso d&#39;uso**: misura quanto i valori in un set di dati si distaccano dalla media, ad esempio analizzando il numero di entrate giornaliere o la durata della sessione che varia nel tempo. Questo consente di quantificare il grado di coerenza o fluttuazione nelle prestazioni.
+
+**Nel Generatore di metriche calcolate**: Applica **Varianza** a una metrica come *Ricavi* o *Tempo trascorso per visita* per calcolare la deviazione media al quadrato dalla media. Ad esempio: **Varianza**(*Ricavi*) mostra quanto i valori dei ricavi differiscono dalla media nell&#39;intervallo selezionato.
+
+>[!TIP]
+>
+>Usare con **Deviazione standard** per comprendere meglio la variabilità dei dati e identificare aree di prestazioni imprevedibili.
+>
 
 L’equazione per VARIANCE è:
 
@@ -607,7 +771,7 @@ MEAN(metric)
 
 ## Median (Table) 
 
-Returns the median for a metric in a column. The median is the number in the middle of a set of numbers—that is, half the numbers have values that are greater than or equal to the median, and half are less than or equal to the median.
+Returns the median for a metric in a column. The median is the number in the middle of a set of numbers-that is, half the numbers have values that are greater than or equal to the median, and half are less than or equal to the median.
 
 ```
 MEDIAN(metric)
