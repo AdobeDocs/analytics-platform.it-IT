@@ -9,9 +9,9 @@ index: true
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 16486ded009a9dbd9170240c0941853a4deec0af
+source-git-commit: 7835d4c5b46177ece4a146df8f0d4abb9605c670
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1365'
 ht-degree: 96%
 
 ---
@@ -142,11 +142,12 @@ ht-degree: 96%
    + Analisi del pubblico {#audience-analysis}
       + [Panoramica](/help/connections/audience-analysis/audience-analysis-overview.md)
       + [Configurare](/help/connections/audience-analysis/audience-analysis-configure.md)
-      + [Gestire i](/help/connections/audience-analysis/audience-analysis-manage.md)
-      + [Analizza](/help/connections/audience-analysis/analyze-audiences.md)
+      + [Gestire](/help/connections/audience-analysis/audience-analysis-manage.md)
+      + [Analizzare](/help/connections/audience-analysis/analyze-audiences.md)
 + Visualizzazioni dati {#cja-dataviews}
    + [Panoramica delle visualizzazioni dati](../data-views/data-views.md)
    + [Creare o modificare una visualizzazione di dati](../data-views/create-dataview.md)
+   + [Gestire le visualizzazioni dati](/help/data-views/manage-dataviews.md)
    + [Impostazioni di sessione](../data-views/session-settings.md)
    + Impostazioni dei componenti {#component-settings}
       + [Panoramica delle impostazioni dei componenti](../data-views/component-settings/overview.md)
@@ -340,7 +341,7 @@ ht-degree: 96%
       + [Gestire le annotazioni](../components/annotations/manage-annotations.md)
       + [Visualizzare le annotazioni](../components/annotations/view-annotations.md)
       + [Annotazioni delle scorecard per dispositivi mobili](../components/annotations/mobile-annotations.md)
-   + Pubblicazione dei tipi di pubblico {#audiences}
+   + Pubblicazione del pubblico {#audiences}
       + [Panoramica sulla pubblicazione del pubblico](../components/audiences/audiences-overview.md)
       + [Creare e pubblicare tipi di pubblico](../components/audiences/publish.md)
       + [Gestire i tipi di pubblico pubblicati](../components/audiences/manage.md)

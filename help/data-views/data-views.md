@@ -5,10 +5,10 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: 7835d4c5b46177ece4a146df8f0d4abb9605c670
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 100%
+source-wordcount: '1094'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ Una visualizzazione dati è un contenitore specifico di Customer Journey Analyti
 >
 >Le impostazioni selezionate o modificate in una visualizzazione dati sono retroattive e non distruttive. In altre parole, non cambiano in modo permanente i dati sottostanti.
 
-Puoi creare diverse visualizzazioni dati per una stessa connessione, con set di componenti molto diversi (dimensioni o metriche). Puoi anche creare visualizzazioni dati con impostazioni diverse per timeout visita, attribuzione ecc. Ad esempio, puoi avere una visualizzazione dati in cui tutte le dimensioni sono impostate su [!UICONTROL Last Touch] e, contemporaneamente, un’altra visualizzazione dati (basata sullo stesso set di dati) con tutte le dimensioni impostate su [!UICONTROL First Touch].
+Puoi creare diverse visualizzazioni dati per una stessa connessione, con set di componenti molto diversi (dimensioni o metriche). Puoi anche creare visualizzazioni dati con impostazioni diverse per timeout visita, attribuzione ecc. Ad esempio, puoi avere una visualizzazione dati in cui tutte le dimensioni sono impostate su [!UICONTROL Ultimo contatto] e contemporaneamente un&#39;altra visualizzazione dati (basata sullo stesso set di dati) con tutte le dimensioni impostate su [!UICONTROL Primo contatto].
 
 I progetti Workspace in Customer Journey Analytics si basano sulle visualizzazioni dati.
 
@@ -61,6 +61,8 @@ Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni 
 
 * Puoi rinominare i contenitori di una visualizzazione dati e far sì che i contenitori rinominati emergano in qualsiasi progetto Workspace basato su tale visualizzazione dati.
 
+* Puoi abilitare o disabilitare Data Insights Agent per una visualizzazione dati.
+
 ## Prerequisiti per le visualizzazioni dati {#prerequisites}
 
 * Prima di poter creare visualizzazioni dati, devi [impostare una o più connessioni ai set di dati di Experience Platform](/help/connections/create-connection.md).
@@ -71,22 +73,23 @@ Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni 
 
 Alcune impostazioni delle visualizzazioni dati possono essere ignorate in Analysis Workspace a livello di progetto, altre no.
 
-* [!UICONTROL Lookback window]
+* [!UICONTROL Intervallo di lookback]
 * Attribuzione delle metriche
-* Se gli utenti possono vedere o meno l’elemento riga [!UICONTROL No Value] in un rapporto
+* Indica se gli utenti visualizzano o meno la riga [!UICONTROL Nessun valore] in un report
 
 ## Impostazioni delle visualizzazioni dati che non possono essere ignorate in Workspace {#settings-no-override}
 
-* [!UICONTROL Component type]
+* [!UICONTROL Tipo di componente]
 * Formattazione delle metriche
 * Nome delle visualizzazioni dati
 * Assegnazione delle dimensioni
 
 ## Eliminare le visualizzazioni dati {#delete}
 
-Se elimini una visualizzazione dati in [!UICONTROL Customer Journey Analytics], un messaggio di errore segnala che i progetti [!UICONTROL Workspace] che dipendono dalla visualizzazione dati eliminata non funzioneranno più.
+Se [elimini una visualizzazione dati](/help/data-views/manage-dataviews.md#delete-data-views) in [!UICONTROL Customer Journey Analytics], un messaggio di errore indica che i [!UICONTROL progetti Workspace] che dipendono dalla visualizzazione dati eliminata non funzionano più.
 
 ## Passaggi successivi
 
 * [Creare le visualizzazioni dati](/help/data-views/create-dataview.md)
+* [Gestire le visualizzazioni dati](/help/data-views/manage-dataviews.md)
 * [Casi d’uso per le visualizzazioni dati](/help/use-cases/data-views/data-views-usecases.md)
