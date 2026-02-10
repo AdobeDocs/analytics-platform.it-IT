@@ -4,13 +4,13 @@ description: Scopri come gestire le visualizzazioni dati.
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: cb5baf2ec8d3ad4449a9b08d0a025a2d39a11425
+exl-id: c5cf15ab-3eb1-4e6b-93a3-3d89694ca0ea
+source-git-commit: c7cf7250f30e2f6023aa7690391aea149ba12eff
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 11%
+source-wordcount: '923'
+ht-degree: 10%
 
 ---
-
 
 # Gestire le visualizzazioni dati
 
@@ -29,7 +29,7 @@ Nella tabella sono disponibili le colonne e le icone seguenti:
 | --- | --- |
 | **[!UICONTROL Nome]** | Nome della visualizzazione dati. |
 | ![Informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | Per visualizzare informazioni sulla visualizzazione dati, selezionare ![InfoOutline](/help/assets/icons/InfoOutline.svg) accanto al nome della visualizzazione dati.<br/>In una finestra popup vengono visualizzati i dettagli relativi alla visualizzazione dati. |
-| ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Seleziona ![Altro](/help/assets/icons/More.svg) per aprire un menu di scelta rapida. Puoi selezionare:<br/>![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica]** per [modificare](#edit-data-views) una visualizzazione dati.<br/>![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copia]** in [Copia una visualizzazione dati](#copy-data-views).<br/>![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Elimina]** per [eliminare](#delete-data-views) una visualizzazione dati.<br/>![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Esporta in CSV]** per [esportare i dettagli della visualizzazione dati in un file CSV](#export-data-views-to-csv).<br/>![ProjectAdd](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL Crea progetto]** per [creare un nuovo progetto Workspace](#create-project-from-data-views) per la visualizzazione dati. |
+| ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Seleziona ![Altro](/help/assets/icons/More.svg) per aprire un menu di scelta rapida. Puoi selezionare:<br/>![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica]** per [modificare](#edit-data-views) una visualizzazione dati.<br/>![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copia]** in [Copia una visualizzazione dati](#copy-data-views).<br/>![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Elimina]** per [eliminare](#delete-data-views) una visualizzazione dati.<br/>![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Esporta in CSV]** per [esportare i dettagli della visualizzazione dati in un file CSV](#export-data-views-to-csv).<br/>![ProjectAdd](/help/assets/icons/ProjectAdd.svg) **[!UICONTROL Crea progetto]** per [creare un nuovo progetto Workspace](#create-project-from-data-views) per la visualizzazione dati.<br/>![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Abilita per Data Insights Agent]** per abilitare una visualizzazione dati per Data Insights Agent.<br/>![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Disattiva per Data Insights Agent]** per disabilitare una visualizzazione dati per Data Insights Agent. |
 | **[!UICONTROL Connessione]** | Nome della connessione associata alla visualizzazione dati. |
 | **[!UICONTROL Sandbox]** | Nome della sandbox associata alla visualizzazione dati. |
 | **[!UICONTROL Proprietario]** | Proprietario della visualizzazione dati. |
@@ -44,7 +44,7 @@ Per configurare le colonne da visualizzare nella tabella, selezionare ![ColumnSe
 
 ## Ricerca visualizzazioni dati
 
-Puoi cercare rapidamente una visualizzazione dati utilizzando la casella Cerca ![Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
+Puoi cercare rapidamente una visualizzazione dati utilizzando la casella ![Cerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
 
 ## Filtrare le visualizzazioni dati
 
@@ -58,6 +58,8 @@ Per applicare un filtro all&#39;elenco di visualizzazioni dati, selezionare l&#3
 | **[!UICONTROL Integrazioni]** | Vengono visualizzate solo le visualizzazioni dati con integrazioni selezionate. |
 | **[!UICONTROL Utilizza in CJA]** | Selezionare **[!UICONTROL Il]** per visualizzare solo le visualizzazioni dati abilitate per l&#39;utilizzo con Customer Journey Analytics. Seleziona **[!UICONTROL Disattivato]** per visualizzare solo le visualizzazioni dati non ancora abilitate per l&#39;utilizzo con Customer Journey Analytics. |
 
+
+Seleziona ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Nascondi filtri]** per nascondere il riquadro dei filtri.
 
 ## Creare una visualizzazione dati
 
@@ -152,4 +154,3 @@ In alternativa, puoi:
 
 1. Seleziona una o più righe della visualizzazione dati disabilitate o abilitate per Data Insights Agent.
 1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Abilita per Data Insights Agent]** o ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Disabilita per Data Insights Agent]** dalla barra delle azioni blu.
-

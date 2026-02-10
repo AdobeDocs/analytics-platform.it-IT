@@ -1,10 +1,11 @@
 ---
-title: Gestire le configurazioni di analisi del pubblico
+title: Gestione configurazioni analisi del pubblico
 description: Scopri come gestire le configurazioni di analisi del pubblico
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
+exl-id: 0d38a779-a29f-41c9-81b4-f5523eeae93f
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 2%
@@ -78,7 +79,3 @@ Per eliminare una configurazione di analisi del pubblico esistente:
    ![Pagina principale analisi del pubblico](assets/audience-analysis-manage-configurations.png)
 
 1. Selezionare la casella di controllo accanto alla configurazione da eliminare, quindi selezionare **[!UICONTROL Elimina]**.
-
-
-
-

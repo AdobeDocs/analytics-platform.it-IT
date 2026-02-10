@@ -1,14 +1,14 @@
 ---
-title: Aggiungere ricerche globali ai set di dati
-description: Utilizza le ricerche standard per migliorare i rapporti con dimensioni utili nel Customer Journey Analytics.
+title: Aggiungere Ricerche Standard Ai Set Di Dati
+description: Scopri come utilizzare le ricerche standard per migliorare il reporting con dimensioni utili in Customer Journey Analytics.
 exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 49%
+source-wordcount: '433'
+ht-degree: 42%
 
 ---
 
@@ -75,12 +75,12 @@ The catch here is that they can only populate those IDs today if they have a dir
 
 ## Rapporto sulle dimensioni di ricerca standard
 
-Per creare rapporti sulle dimensioni di ricerca standard di Adobe, devi aggiungere una o più di queste dimensioni quando crei una [visualizzazione dati](/help/data-views/data-views.md) in Customer Journey Analytics. In **[!UICONTROL Data view]** > **[!UICONTROL Components]**:
+Per creare rapporti sulle dimensioni di ricerca standard di Adobe, devi aggiungere una o più di queste dimensioni quando crei una [visualizzazione dati](/help/data-views/data-views.md) in Customer Journey Analytics. In **[!UICONTROL Visualizzazione dati]** > **[!UICONTROL Componenti]**:
 
-1. Selezionare **[!UICONTROL Schema fields]** dal menu a discesa nella barra a sinistra.
-1. Selezionare **[!UICONTROL Adobe lookups]** dall&#39;elenco dei contenitori di campi schema.
-1. Espandere in **[!UICONTROL Browser]**, **[!UICONTROL Mobile]** o **[!UICONTROL Operating System]** fino a individuare la dimensione che si desidera aggiungere.
-1. Trascinare la dimensione nella tabella **[!UICONTROL Metrics]** o **[!UICONTROL Dimensions]** in **[!UICONTROL Included components]**.
+1. Seleziona **[!UICONTROL Campi schema]** dal menu a discesa nella barra a sinistra.
+1. Seleziona **[!UICONTROL Ricerche Adobe]** dall&#39;elenco dei contenitori di campi schema.
+1. Eseguire il drill-down in **[!UICONTROL Browser]**, **[!UICONTROL Mobile]** o **[!UICONTROL Sistema operativo]** fino a individuare la dimensione da aggiungere.
+1. Trascina la dimensione nella tabella **[!UICONTROL Metriche]** o **[!UICONTROL Dimensioni]** in **[!UICONTROL Componenti inclusi]**.
 
    ![Creare una visualizzazione dati che mostra l&#39;elenco Aggiungi componenti](assets/add-standard-lookup-dimension.gif)
 

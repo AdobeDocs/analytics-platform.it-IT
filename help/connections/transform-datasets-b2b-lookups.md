@@ -1,14 +1,14 @@
 ---
-title: Trasformare i set di dati per le ricerche B2B
+title: Trasformare I Set Di Dati Per Le Ricerche B2B
 description: Descrive come trasformare i dati in set di dati di schemi di ricerca B2B specifici
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: d1097ca5f981623283a7d02200d5023548046429
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 4%
+source-wordcount: '470'
+ht-degree: 2%
 
 ---
 
@@ -18,10 +18,10 @@ Per supportare le ricerche basate su persone sui dati B2B (tra cui account, oppo
 
 Questa trasformazione è disponibile solo per i set di dati con dati per schemi di ricerca B2B, in base alle classi seguenti:
 
-* [Relazione della persona dell&#39;account aziendale XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [Relazione della persona dell&#39;opportunità di business XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [Membri dell&#39;elenco di marketing aziendale XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [Membri della campagna aziendale XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [Relazione della persona dell&#39;account aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [Relazione della persona dell&#39;opportunità di business XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [Membri dell&#39;elenco di marketing aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [Membri della campagna aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >
@@ -43,14 +43,14 @@ Per abilitare la trasformazione per un set di dati di ricerca B2B:
 
 ![Abilita set di dati di trasformazione](/help/connections/assets/transform.gif)
 
-* Verificare per ogni set di dati i valori consigliati per **[!UICONTROL Key]** e **[!UICONTROL Matching key]**. Se si modificano i valori dai valori suggeriti, verrà visualizzato un avviso che richiede di continuare. Devi accertarti che:
+* Verificare per ogni set di dati i valori suggeriti per **[!UICONTROL Chiave]** e **[!UICONTROL Chiave corrispondente]**. Se si modificano i valori dai valori suggeriti, verrà visualizzato un avviso che richiede di continuare. Devi accertarti che:
 
    * Il valore selezionato per **Chiave** si basa sul tipo di dati ID persona.
    * Il valore selezionato per **Chiave corrispondente** è definito come campo di identità principale per il set di dati dell&#39;evento.
 
 * Seleziona le opzioni per importare nuovi dati e la retrocompilazione del set di dati.
 
-* Seleziona **[!UICONTROL Transform dataset for B2B lookups]**.
+* Seleziona **[!UICONTROL Trasforma set di dati per ricerche B2B]**.
 
   Questa opzione trasforma il set di dati in modo che possa essere utilizzato per ricerche basate su persone in scenari B2B.
 

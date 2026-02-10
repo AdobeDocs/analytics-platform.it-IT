@@ -1,14 +1,14 @@
 ---
 title: Dati di riepilogo
-description: Dettagli e informazioni su come utilizzare e configurare i dati di riepilogo in una visualizzazione dati.
+description: Scopri i dettagli e le informazioni su come utilizzare e configurare i dati di riepilogo in una visualizzazione dati.
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 96%
+source-wordcount: '1150'
+ht-degree: 94%
 
 ---
 
@@ -154,5 +154,5 @@ Assicurati che le impostazioni dei componenti per un gruppo di dati di riepilogo
 >[!MORELIKETHIS]
 >
 >- Consulta l’articolo [Utilizzare i dati di riepilogo](/help/use-cases/data-views/summary-data.md) per un esempio dettagliato di caso d’uso su come utilizzare i dati di riepilogo e generare rapporti su di essi.
->- Blog: [Come i dati di riepilogo migliorano i set di dati di Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635?profile.language=it)
+>- Blog: [Come i dati di riepilogo migliorano i set di dati di Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
 

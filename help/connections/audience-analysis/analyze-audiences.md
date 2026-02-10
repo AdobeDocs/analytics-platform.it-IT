@@ -1,10 +1,11 @@
 ---
-title: Analizzare i tipi di pubblico di Experience Platform in Customer Journey Analytics
+title: Analizzare Il Pubblico Di Experience Platform In Customer Journey Analytics
 description: Scopri come analizzare il pubblico di Experience Platform in Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
+exl-id: 095cae34-1337-464a-9682-3c899295c0a8
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -56,11 +57,3 @@ Utilizza la tabella in questo pannello per comprendere meglio il comportamento d
 Mostra dove è stato creato originariamente ogni pubblico in uscita, in RTCDP, Customer Journey Analytics e così via.
 
 Utilizza la tabella in questo pannello per comprendere meglio in che modo l’origine del pubblico potrebbe influenzare altri fattori. Trascina la dimensione Nome pubblico in uscita dalla visualizzazione dati selezionata e aggiungilo come raggruppamento. In alternativa, utilizza qualsiasi altra dimensione o metrica di interazione (ad esempio Pagina, Azione e così via) come suddivisione.
-
-
-
-
-
-
-
-

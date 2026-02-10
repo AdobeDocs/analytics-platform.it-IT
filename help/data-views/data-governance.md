@@ -1,13 +1,13 @@
 ---
-title: Etichette e criteri
+title: Etichette E Criteri
 description: Scopri in che modo le etichette per dati e i criteri definiti in Adobe Experience Platform influiscono sulle visualizzazioni dati e sul reporting in Customer Journey Analytics.
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
-source-git-commit: 6526ca2b7caaf64acf29d97c859c3e813d003d2d
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 100%
+source-wordcount: '583'
+ht-degree: 70%
 
 ---
 
@@ -17,9 +17,9 @@ Quando crei un set di dati in Experience Platform, puoi creare [etichette di uti
 
 Le seguenti etichette sono di particolare interesse per Customer Journey Analytics:
 
-* L&#39; `C8` etichetta **[!UICONTROL No measurement]**. Questa etichetta indica che i dati non possono essere utilizzati per analisi sui siti web o sulle app dell’organizzazione.
+* Etichetta `C8` - **[!UICONTROL Nessuna misurazione]**. Questa etichetta indica che i dati non possono essere utilizzati per analisi sui siti web o sulle app dell’organizzazione.
 
-* L&#39; `C12` etichetta **[!UICONTROL No general data export]**. I campi dello schema etichettati in questo modo non possono essere esportati o scaricati da Customer Journey Analytics (tramite reporting, esportazione, API, ecc.)
+* Etichetta `C12` - **[!UICONTROL Nessuna esportazione dati generale]**. I campi dello schema etichettati in questo modo non possono essere esportati o scaricati da Customer Journey Analytics (tramite reporting, esportazione, API, ecc.)
 
 >[!NOTE]
 >
@@ -29,8 +29,8 @@ L’etichettatura di per sé non significa che queste etichette di utilizzo dei 
 
 In Adobe sono disponibili due criteri definiti da Experience Platform che possono emergere in Customer Journey Analytics e influire sul reporting e sull’esportazione dei dati:
 
-* Il criterio **[!UICONTROL Restrict usage analytics and user based measurement]**, utilizzando l’etichetta `C8` e
-* il criterio **[!UICONTROL Restrict data export]**, utilizzando l’etichetta `C12`.
+* **[!UICONTROL Limita analisi dell&#39;utilizzo e misurazione basata su utente]** criteri, utilizzando l&#39;etichetta `C8` e
+* **[!UICONTROL Limita i criteri di esportazione dei dati]**, utilizzando l&#39;etichetta `C12`.
 
 ## Visualizzare le etichette dati nelle visualizzazioni dati di Customer Journey Analytics
 
@@ -38,35 +38,35 @@ Le etichette dati create da te o da altri in Experience Platform vengono visuali
 
 | Posizione | Descrizione |
 | --- | --- |
-| Pulsante Informazioni su un campo schema | Fai clic su questo pulsante per indicare le [!UICONTROL Data Usage Labels] attualmente applicabili a un campo:<p>![](assets/data-label-left.png) |
-| Barra a destra sotto [Impostazioni dei componenti](/help/data-views/component-settings/overview.md) | Tutte le [!UICONTROL Data Usage Labels] sono elencate qui:<p>![](assets/data-label-right.png) |
-| Aggiungi etichette dati come colonna | Puoi aggiungere una colonna [!UICONTROL Data Usage Labels] alle colonne dei [!UICONTROL Included Components] nelle visualizzazioni dati. Seleziona l’icona del selettore colonne, quindi **[!UICONTROL Data Usage Labels]**:<p>![](assets/data-label-column.png) |
+| Pulsante Informazioni su un campo schema | Fare clic su questo pulsante per indicare le [!UICONTROL etichette di utilizzo dati] attualmente applicabili a un campo:<p>![](assets/data-label-left.png) |
+| Barra a destra sotto [Impostazioni dei componenti](/help/data-views/component-settings/overview.md) | Tutte le [!UICONTROL etichette di utilizzo dati] sono elencate qui:<p>![](assets/data-label-right.png) |
+| Aggiungi etichette dati come colonna | È possibile aggiungere [!UICONTROL Etichette di utilizzo dati] come colonna alle colonne [!UICONTROL Componenti inclusi] nelle visualizzazioni dati. Seleziona l&#39;icona del selettore colonne e seleziona **[!UICONTROL Etichette di utilizzo dati]**:<p>![](assets/data-label-column.png) |
 
 {style="table-layout:auto"}
 
 ## Filtrare le etichette per la governance dei dati nelle visualizzazioni dati
 
-Nell’editor delle visualizzazioni dati, seleziona l’icona [!UICONTROL filter] nella barra a sinistra e filtra i componenti delle visualizzazioni dati in base alla **[!UICONTROL Data Governance]** e al tipo di **[!UICONTROL Label]**:
+Nell&#39;editor delle visualizzazioni dati, seleziona l&#39;icona [!UICONTROL filter] nella traccia a sinistra e filtra i componenti delle visualizzazioni dati in base a **[!UICONTROL Governance dei dati]** e al tipo di **[!UICONTROL Etichetta]**:
 
 ![](assets/filter-labels.png)
 
-Fai clic su **[!UICONTROL Apply]** per vedere quali componenti dispongono di etichette collegate.
+Fai clic su **[!UICONTROL Applica]** per vedere quali componenti dispongono di etichette collegate.
 
 ## Filtrare i criteri di governance dei dati nelle visualizzazioni dati
 
-Puoi verificare se un criterio (ad esempio, un criterio creato, denominato **[!UICONTROL Enforce Analytics]**) è attivato. E se tale criterio blocca l’utilizzo di determinati elementi di visualizzazione dati di Customer Journey Analytics per l’analisi o l’esportazione di dati.
+Puoi verificare se è attivato un criterio, ad esempio un criterio creato, denominato **[!UICONTROL Applica analisi]**. E se tale criterio blocca l’utilizzo di determinati elementi di visualizzazione dati di Customer Journey Analytics per l’analisi o l’esportazione di dati.
 
-Di nuovo, seleziona l’icona [!UICONTROL filter] nella barra a sinistra e in **[!UICONTROL Data Governance]** seleziona **[!UICONTROL Policies]**:
+Di nuovo, seleziona l&#39;icona [!UICONTROL filtro] nella barra a sinistra e in **[!UICONTROL Governance dei dati]** seleziona **[!UICONTROL Criteri]**:
 
 ![Filtra i componenti inclusi per elenco, mostrando la selezione dell’analisi di Limita utilizzo e delle misurazione basata sull’utente](assets/filter-policies.png)
 
-Fai clic su **[!UICONTROL Apply]** per vedere quali criteri sono abilitati.
+Fai clic su **[!UICONTROL Applica]** per vedere quali criteri sono abilitati.
 
 ## Effetti dei criteri abilitati sulle visualizzazioni dati
 
 Se uno o più criteri sono attivati con etichette C8 o C12, i componenti dello schema a cui sono applicate determinate etichette dati non possono essere aggiunti alle visualizzazioni dati.
 
-Questi componenti sono disattivati nell’elenco [!UICONTROL Schema fields] della barra a sinistra:
+Questi componenti sono disattivati nella barra a sinistra [!UICONTROL Elenco campi schema]:
 
 ![I componenti disattivati e il messaggio Criteri che indica l’applicazione dei criteri a questo campo limitando l’utilizzo dei dati](assets/component-greyed.png)
 
