@@ -48,7 +48,7 @@ Oppure puoi:
 
 Per utilizzare credenziali senza scadenza:
 
-* Crea [credenziali senza scadenza in Experience Platform](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials).
+* Crea [credenziali senza scadenza in Experience Platform](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials).
 * Concedi l&#39;accesso alle credenziali senza scadenza seguendo i passaggi indicati in [Credenziali in scadenza](#Expiring-credentials).
 
 Consulta [Controllo Customer Journey Access](../technotes/access-control.md) per ulteriori informazioni, in particolare [Autorizzazioni aggiuntive per l’amministratore dil prodotto](../technotes/access-control.md#product-admin-additional-permissions) e [Autorizzazioni Customer Journey Analytics in Admin Console](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).

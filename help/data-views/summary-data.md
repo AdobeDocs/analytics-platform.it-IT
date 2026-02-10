@@ -154,5 +154,5 @@ Assicurati che le impostazioni dei componenti per un gruppo di dati di riepilogo
 >[!MORELIKETHIS]
 >
 >- Consulta l’articolo [Utilizzare i dati di riepilogo](/help/use-cases/data-views/summary-data.md) per un esempio dettagliato di caso d’uso su come utilizzare i dati di riepilogo e generare rapporti su di essi.
->- Blog: [Come i dati di riepilogo migliorano i set di dati di Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
+>- Blog: [Come i dati di riepilogo migliorano i set di dati di Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635?profile.language=it)
 
