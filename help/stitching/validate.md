@@ -1,13 +1,13 @@
 ---
-title: Convalida unione
-description: Scopri come convalidare l’unione.
+title: Convalidare L’Unione Delle Identità In Customer Journey Analytics
+description: Scopri come convalidare l’unione di identità in Customer Journey Analytics. Misura i tassi di autenticazione e l’identificazione prima e dopo l’unione.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: 8e8e4f4d201d1136e118bf3789cfc33ac8f402dc
+source-git-commit: 0eb3fec2e52fe0850c5f42777edbdb5d981988fb
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1726'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Anche se questi metodi di analisi possono essere utilizzati sia per l’unione b
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abilitazione e convalida dell&#39;unione](https://video.tv.adobe.com/v/3478128?captions=ita&quality=12&learn=on){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abilitazione e convalida dell&#39;unione](https://video.tv.adobe.com/v/3478120?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -57,22 +57,22 @@ Per la convalida dell’unione, è necessario assicurarsi di aver definito in un
 
 * Aggiungi **[!UICONTROL Spazio dei nomi identità]** da **[!UICONTROL Metriche e dimensioni]** come dimensione all&#39;elenco **[!UICONTROL Dimensioni]**.
 
-  ![Spazio dei nomi identità](assets/identity-namespace.png)
+  ![Spazio dei nomi identità](/help/stitching/assets/identity-namespace.png)
 
 
 * Seleziona **[!UICONTROL Identificatore indirizzo e-mail con hash visitatore]** definito come ID persona per gli eventi dai **[!UICONTROL campi schema]**. Aggiungere il campo come dimensione all&#39;elenco **[!UICONTROL Dimensioni]** e come metrica all&#39;elenco **[!UICONTROL Metriche]**. Modificare il **[!UICONTROL nome componente]** per la metrica in `Email set`.
 
-  ![Identificatore e-mail](assets/email-identifier.png)
+  ![Identificatore e-mail](/help/stitching/assets/email-identifier.png)
 
 Assicurati di salvare la visualizzazione dati.
 
-### Workspace
+### Crea progetto Workspace
 
 In Workspace, crea un nuovo progetto e utilizza una tabella a forma libera per mostrare la metrica **[!UICONTROL Set di e-mail]** per l&#39;intervallo di date definito per testare la configurazione dell&#39;unione. Questa tabella a forma libera mostra gli eventi che hanno un indirizzo e-mail prima dell’unione.
 
 ![Tabella a forma libera panoramica unione - Set di e-mail](/help/stitching/assets/workspace-emailset.png)
 
-Per visualizzare gli eventi per i quali è stato impostato un indirizzo e-mail dopo il processo di unione, definire una metrica calcolata `Email stitched namespace`. La metrica calcolata esamina **[!UICONTROL Eventi]** che hanno uno **[!UICONTROL Spazio dei nomi identità]** uguale allo spazio dei nomi e-mail con hash **[!UICONTROL email_lc_sha256]**.
+Per visualizzare gli eventi per i quali è stato impostato un indirizzo e-mail dopo il processo di unione, definire una metrica calcolata `Email stitched namespace`. La metrica calcolata esamina **[!UICONTROL Eventi]** che hanno uno **[!UICONTROL Spazio dei nomi identità]** uguale allo spazio dei nomi e-mail con hash `email_lc_sha256`.
 
 ![Panoramica dell&#39;unione - Metrica calcolata dello spazio dei nomi unito tramite e-mail](/help/stitching/assets/cm-email-stitched-namespace.png)
 
@@ -98,15 +98,6 @@ Per ulteriori informazioni, puoi aggiungere altre due metriche calcolate (**[!UI
 
 ![Tabella a forma libera panoramica unione - Incremento autenticato](/help/stitching/assets/workspace-authenticated-lift.png)
 
-L’aspetto chiave di questo articolo è che questo tipo di convalida e analisi delle unioni consente di:
-
-* Fornisci una visione completa personalizzata dell’efficacia dell’autenticazione confrontando le percentuali correnti con quelle unite.
-* Consente di misurare chiaramente il miglioramento mediante aumenti percentuali e metriche di incremento.
-* Identifica il vero impatto dell’implementazione dell’unione sull’autenticazione degli utenti.
-* Crea un modo standardizzato per comunicare le prestazioni di autenticazione tra i team.
-* Consente decisioni basate sui dati sulla strategia di autenticazione e l’ottimizzazione.
-
-Queste metriche insieme forniscono alle parti interessate un quadro completo del modo in cui l’unione di Customer Journey Analytics influisce sui tassi di successo dell’autenticazione e sulle prestazioni complessive di identificazione della persona.
 
 
 ## Convalida dell’unione delle richieste
@@ -118,10 +109,10 @@ Questa sezione descrive come convalidare l’unione richiesta ad Adobe. Questo m
 Per il piano di misurazione della convalida dell’unione, è necessario assicurarsi di aver definito in una visualizzazione dati tutte le dimensioni e le metriche richieste dal set di dati uniti. Verificare che i campi `stitchedID.id` e `stitchedID.namespace.code` siano aggiunti come dimensioni. Mentre il set di dati uniti è una copia esatta del set di dati originale, il processo di unione aggiunge queste due nuove colonne al set di dati:
 
 * Utilizzare `stitchedID.namespace.code` per definire una dimensione **[!UICONTROL Spazio dei nomi unito]**. Questa dimensione contiene lo spazio dei nomi dell&#39;identità a cui è stata elevata la riga, ad esempio `Email` o `Phone`. Oppure lo spazio dei nomi a cui ricorre il processo di unione, ad esempio `ECID`.
-  ![Dimensione spazio dei nomi unito](assets/stitchednamespace-dimension.png)
+  ![Dimensione spazio dei nomi unito](/help/stitching/assets/stitchednamespace-dimension.png)
 
 * Utilizzare `stitchedID.id` per definire una dimensione **[!UICONTROL ID unito]**. Questa dimensione contiene il valore non elaborato dell’identità. Ad esempio: e-mail con hash, telefono con hash, ECID. Questo valore viene utilizzato con **[!UICONTROL Spazio dei nomi unito]**.
-  ![Dimensione ID uniti](assets/stitchedid-dimension.png)
+  ![Dimensione ID uniti](/help/stitching/assets/stitchedid-dimension.png)
 
 
 Inoltre, devi aggiungere due metriche di unione basate sulla presenza di valori in una dimensione.
@@ -129,14 +120,14 @@ Inoltre, devi aggiungere due metriche di unione basate sulla presenza di valori 
 1. Utilizza il campo che contiene l’ID persona del set di dati uniti per configurare una metrica che definisca se un ID persona è impostato. Aggiungi questo ID persona anche se utilizzi l’unione basata su grafico, in quanto l’ID persona consente di stabilire una linea di base. Se l’ID della persona non è contenuto nel set di dati, la linea di base è 0%.
 
    Nell&#39;esempio seguente, `personalEmail.address` funge da identità e viene utilizzato per creare la metrica **[!UICONTROL _Email set]**.
-   ![Metrica set e-mail](assets/emailset-metric.png)
+   ![Metrica set e-mail](/help/stitching/assets/emailset-metric.png)
 
 1. Utilizza il campo `stitchedID.namespace.code` per creare una metrica dello spazio dei nomi **[!UICONTROL E-mail]**. Accertati di specificare [Includi valori di esclusione nelle impostazioni del componente](/help/data-views/component-settings/include-exclude-values.md), in modo da considerare solo i valori dello spazio dei nomi a cui stai tentando di elevare le righe di dati.
    1. Selezionare **[!UICONTROL Imposta valori di inclusione/esclusione]**.
    1. Seleziona **[!UICONTROL Se tutti i criteri sono soddisfatti]** come **[!UICONTROL Corrispondenza]**.
    1. Specificare **[!UICONTROL Equals]** `email` come **[!UICONTROL Criteri]** per selezionare gli eventi elevati allo spazio dei nomi e-mail.
 
-   ![Metrica dello spazio dei nomi unito tramite e-mail](assets/emailstitchednamespace-metric.png)
+   ![Metrica dello spazio dei nomi unito tramite e-mail](/help/stitching/assets/emailstitchednamespace-metric.png)
 
 ### Dimensioni unite
 
@@ -146,22 +137,22 @@ Nella tabella delle dimensioni **[!UICONTROL Spazio dei nomi unito]**, in genere
 
 Nella tabella delle dimensioni **[!UICONTROL Valore ID unito]** vengono visualizzati i valori non elaborati provenienti dagli eventi. In questa tabella puoi vedere che i valori oscillano tra l’ID persistente e l’ID persona desiderato.
 
-![Verifica dimensioni unite](assets/check-data-on-stitching.png)
+![Verifica dimensioni unite](/help/stitching/assets/check-data-on-stitching.png)
 
 
-### Reporting incentrato su dispositivo o su persona
+### Generazione di rapporti incentrati sul dispositivo o sulla persona
 
 Quando crei una connessione, devi definire quale campo o identità viene utilizzato per l’ID persona. Ad esempio, in un set di dati web, se scegli un ID dispositivo come ID persona, puoi creare rapporti incentrati sul dispositivo e perdere la possibilità di unire questi dati con altri canali offline. Se selezioni un campo o un’identità cross-channel, ad esempio e-mail, si perdono tutti gli eventi non autenticati. Per comprendere questo impatto, devi capire quanto traffico non è autenticato e quanto traffico è autenticato.
 
 1. Crea una metrica calcolata **[!UICONTROL Eventi non autenticati sul totale]**. Definisci la regola nel generatore di regole come mostrato di seguito:
-   ![Eventi non autenticati sul totale](assets/calcmetric-unauthenticatedeventsovertotal.png)
+   ![Eventi non autenticati sul totale](/help/stitching/assets/calcmetric-unauthenticatedeventsovertotal.png)
 
 1. Crea una metrica calcolata **[!UICONTROL Percentuale di autenticazione e-mail]**, in base alla metrica **[!UICONTROL _Email set]** definita in precedenza. Definisci la regola nel generatore di regole come mostrato di seguito:
-   ![Percentuale di autenticazione e-mail](assets/calcmetric-emailauthenticationrate.png)
+   ![Percentuale di autenticazione e-mail](/help/stitching/assets/calcmetric-emailauthenticationrate.png)
 
 1. Utilizza **[!UICONTROL Eventi non autenticati sul totale]** metrica calcolata, insieme alla metrica calcolata **[!UICONTROL Percentuale di autenticazione e-mail]**, per creare una visualizzazione [Anello](/help/analysis-workspace/visualizations/donut.md). La visualizzazione mostra il numero di eventi nel set di dati che sono non autenticati e autenticati.
 
-   ![Dettagli identità](assets/identification-details.png)
+   ![Dettagli identità](/help/stitching/assets/identification-details.png)
 
 
 
@@ -170,13 +161,13 @@ Quando crei una connessione, devi definire quale campo o identità viene utilizz
 Si desidera misurare le prestazioni di identificazione prima e dopo l&#39;unione. Per farlo, crea tre metriche calcolate aggiuntive:
 
 1. Una metrica calcolata del tasso di autenticazione **[!UICONTROL Stitched]** che calcola il numero di eventi in cui lo spazio dei nomi unito è impostato sull&#39;identità desiderata rispetto al numero totale di eventi. Quando configuri la visualizzazione dati, hai creato una metrica dello spazio dei nomi **[!UICONTROL E-mail unito]** che includeva un filtro da contare solo quando un evento ha uno spazio dei nomi impostato su E-mail. La metrica calcolata utilizza questa metrica **[!UICONTROL Spazio dei nomi unito tramite e-mail]** per fornire un&#39;indicazione della percentuale di dati con l&#39;identità desiderata.
-   ![Metrica calcolata della frequenza di autenticazione unita](assets/calcmetric-stitchedauthenticationrate.png)
+   ![Metrica calcolata della frequenza di autenticazione unita](/help/stitching/assets/calcmetric-stitchedauthenticationrate.png)
 
 1. Una metrica calcolata con incremento del **[!UICONTROL Percentuale]** che calcola la variazione percentuale non elaborata tra il tasso di identificazione corrente e quello unito.
-   ![Aumento percentuale metrica calcolata](assets/calcmetric-percentincrease.png)
+   ![Aumento percentuale metrica calcolata](/help/stitching/assets/calcmetric-percentincrease.png)
 
 1. Una metrica calcolata per **[!UICONTROL Incremento]** che calcola l&#39;incremento tra il tasso di identificazione corrente e il tasso di identificazione unito.
-   ![Incremento metrica calcolata](assets/calcmetric-lift.png)
+   ![Incremento metrica calcolata](/help/stitching/assets/calcmetric-lift.png)
 
 
 ### Conclusione
@@ -188,9 +179,12 @@ Se combini tutti i dati in una tabella a forma libera di Analysis Workspace, puo
 * Aumento percentuale: l’aumento percentuale non elaborato dal tasso di autenticazione unita meno il tasso di autenticazione corrente linea di base.
 * Incremento: variazione percentuale rispetto al tasso di autenticazione corrente previsto.
 
-![Prestazioni di identificazione](assets/identification-performance.png)
+![Prestazioni di identificazione](/help/stitching/assets/identification-performance.png)
 
-L’aspetto chiave di questo articolo è che questo tipo di convalida e analisi delle unioni consente di:
+
+## Concetti chiave
+
+I punti chiave di questo articolo sono i seguenti:
 
 * Fornisci una visione completa personalizzata dell’efficacia dell’autenticazione confrontando le percentuali correnti con quelle unite.
 * Consente di misurare chiaramente il miglioramento mediante aumenti percentuali e metriche di incremento.
