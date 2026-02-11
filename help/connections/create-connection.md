@@ -442,37 +442,37 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
 >id="connection_stitching_enable"
 >title="Abilitare l’unione di identità"
 >abstract="Abilita l’unione di identità per elevare questo set di dati evento per l’analisi cross-channel."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_dialog"
 >title="Abilitare l’unione di identità"
 >abstract="L’abilitazione dell’unione di identità deriva un ID unito da un set di dati o da un grafico delle identità. Questo processo può includere l’unione di dati utente provenienti da sessioni autenticate e non autenticate.<br/><br/>L’utente è responsabile del rispetto delle leggi e delle normative applicabili. Questa conformità include il fatto di ottenere le autorizzazioni necessarie per l’utente finale prima di attivare l’unione su un set di dati."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
 
 >[!CONTEXTUALHELP]
 >id="connection_persistentid"
 >title="ID persistente"
 >abstract="Seleziona un ID persistente dalle identità disponibili. Un ID persistente è un identificatore disponibile su tutti gli eventi nel set di dati evento."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
 
 >[!CONTEXTUALHELP]
 >id="connection_lookbackwindow"
 >title="Intervallo di ripetizione"
 >abstract="Selezionate il periodo di tempo appropriato per la finestra di ripetizione da utilizzare nell&#39;unione."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_map"
 >title="Mappa di identità dello spazio dei nomi"
 >abstract="Seleziona lo spazio dei nomi da utilizzare per scegliere l’identificatore dalla mappa di identità."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_graph"
 >title="Grafo delle identità dello spazio dei nomi"
 >abstract="Seleziona lo spazio dei nomi da utilizzare per scegliere l’identificatore dalla mappa di identità."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
 
 
 ### Tipi di set di dati {#dataset-types}
@@ -836,5 +836,5 @@ Questo calcolo viene eseguito per ogni set di dati della connessione.
 >[!MORELIKETHIS]
 >
 >* [Panoramica sull’acquisizione di dati](/help/data-ingestion/data-ingestion.md)
->* Blog: [Come sfruttare i set di dati di evento, ricerca e profilo in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478)
+>* Blog: [Come sfruttare i set di dati di evento, ricerca e profilo in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=it)
 
