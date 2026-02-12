@@ -3,10 +3,11 @@ title: Includere più dimensioni in una tabella a forma libera
 description: Scopri come includere più dimensioni in una tabella a forma libera
 feature: Visualizations
 role: User
-source-git-commit: 696bd0db44949162307d8ce7d2debed351a76cd6
+exl-id: 66ebb4fc-feb2-4fa7-a107-37508cca4748
+source-git-commit: 14718476695dcf121c94ba4cb8b2c39e5874342d
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 1%
+source-wordcount: '836'
+ht-degree: 2%
 
 ---
 
@@ -109,11 +110,12 @@ Quando crei un segmento basato su un elemento dimensionale che si estende su pi�
 
 Per informazioni sulla creazione di un segmento, vedi [Creare segmenti](/help/components/segments/seg-create.md).
 
-## Dimensioni non supportate {#unsupported}
+## Dimensioni e feature non supportate {#unsupported}
 
-Le seguenti combinazioni di dimensioni non sono supportate e Analysis Workspace ne impedisce l’aggiunta o visualizza un messaggio di errore dopo l’aggiunta:
+Le combinazioni e le funzionalità di dimensione seguenti non sono supportate quando si utilizzano più colonne di dimensione e Analysis Workspace ne impedisce l’utilizzo o visualizza un messaggio di errore:
 
 * Più dimensioni provenienti da campi che fanno riferimento a [array di oggetti](/help/use-cases/object-arrays.md) diversi utilizzati insieme nella stessa tabella a forma libera.
 
   Più dimensioni sono consentite insieme nella stessa tabella a forma libera se fanno riferimento allo stesso array di oggetti.
 
+* [Elementi dimensionali statici](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md#static-dimension-items).
