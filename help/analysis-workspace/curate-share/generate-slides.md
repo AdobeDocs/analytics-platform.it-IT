@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 title: Generare presentazioni dai report di Workspace
 feature: Curate and Share
 role: User
-source-git-commit: e51dced9ac7886ae8d087ca3b2fc6ac2755c3ac6
+exl-id: a3f6db1e-0444-4804-98bf-c5c10ba2e7ea
+source-git-commit: 968fef4fa6a967c9654f594e662bc9bbd7ae2ab4
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1698'
 ht-degree: 2%
 
 ---
@@ -106,7 +107,7 @@ Le storie di dati sono costituite da una diapositiva titolo, una diapositiva di 
    |---------|----------|
    | **[!UICONTROL Titolo copertina]** | Specificare un titolo per la presentazione. Questo titolo viene visualizzato nella diapositiva titolo della presentazione. |
    | **[!UICONTROL Includi nome relatore]** | Specifica il nome del relatore. Questo nome viene visualizzato nella diapositiva del titolo della presentazione, sotto il titolo della copertina. |
-   | **[!UICONTROL Pannelli e visualizzazioni da includere]** | Scegli i pannelli e la visualizzazione da includere nella presentazione. Puoi includere fino a 50 visualizzazioni.<p>Se una visualizzazione è inattiva, viene seguita dal testo **[!UICONTROL (non supportato)]** o **[!UICONTROL (dati con restrizioni)]**.</p><ul><li>**Non supportato**: la maggior parte dei pannelli e delle visualizzazioni è supportata. Per informazioni sui pannelli e la visualizzazione non supportati, vedere [Elementi e funzionalità del progetto non supportati](#unsupported-project-elements-and-features).</li><li>**Dati limitati**: la visualizzazione contiene un componente a cui non è consentito esportare i dati in base a un criterio di governance dei dati imposto dall&#39;organizzazione. Contattare l&#39;amministratore di sistema per verificare quali componenti non possono essere esportati, quindi rimuovere i componenti con restrizioni prima di generare le diapositive.</li></ul> |
+   | **[!UICONTROL Pannelli e visualizzazioni inclusi]** | Scegli i pannelli e la visualizzazione da includere nella presentazione. Puoi includere fino a 50 visualizzazioni.<p>Se una visualizzazione è inattiva, viene seguita dal testo **[!UICONTROL (non supportato)]** o **[!UICONTROL (dati con restrizioni)]**.</p><ul><li>**Non supportato**: la maggior parte dei pannelli e delle visualizzazioni è supportata. Per informazioni sui pannelli e la visualizzazione non supportati, vedere [Elementi e funzionalità del progetto non supportati](#unsupported-project-elements-and-features).</li><li>**Dati limitati**: la visualizzazione contiene un componente a cui non è consentito esportare i dati in base a un criterio di governance dei dati imposto dall&#39;organizzazione. Contattare l&#39;amministratore di sistema per verificare quali componenti non possono essere esportati, quindi rimuovere i componenti con restrizioni prima di generare le diapositive.</li></ul> |
    | **[!UICONTROL Enfatizza componenti]** | Scegli le metriche e le dimensioni dalle visualizzazioni che desideri enfatizzare nella presentazione. I componenti scelti vengono classificati più in alto e hanno più peso quando si creano i temi e la narrazione generale della storia dei dati. <p>Quando non viene applicata alcuna enfasi, i componenti vengono visualizzati nelle presentazioni nel modo seguente:<ul><li>**Metriche e dimensioni:** corsivo</li><li>**Elementi Dimension:** virgolette</li></ul></p><p>Quando si applica l’enfasi, i componenti vengono visualizzati nelle presentazioni come segue:</p><ul><li>**Metriche e dimensioni:** corsivo e grassetto</li><li>**Elementi Dimension:** grassetto quando la dimensione corrispondente viene enfatizzata<p>Un colore viene applicato anche all’elemento dimensione quando questo viene evidenziato nel grafico.</p></li></ul> |
 
    <!-- add this later: - **[!UICONTROL Panel and visualization descriptions]** - Choose whether to include panel and visualization descriptions in your generated slide presentation. - 
@@ -190,7 +191,7 @@ La possibilità di generare diapositive è attivata per impostazione predefinita
 
 Se necessario, gli amministratori dei profili di prodotto le cui organizzazioni dispongono di licenze per la generazione di diapositive possono disabilitare l’accesso.
 
-In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Narrazione dati]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
+In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Narrazione dati]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
 1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti e servizi]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Profili di prodotto]**
 1. Selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso alla [!UICONTROL narrazione dei dati].
 1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Autorizzazioni]**.
@@ -246,5 +247,3 @@ I seguenti elementi e funzioni di Analysis Workspace utilizzati in un progetto n
   Come parte del processo di deduplicazione e punteggio durante la generazione di informazioni rilevanti, ogni raggruppamento all’interno di una tabella a forma libera viene analizzato in modo indipendente e vengono analizzati solo i primi 5 raggruppamenti all’interno di una singola tabella a forma libera.
 
   È supportato solo il primo livello di un raggruppamento. Una disaggregazione di una disaggregazione non è inclusa nella presentazione.
-
-
