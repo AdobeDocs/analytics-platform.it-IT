@@ -4,9 +4,9 @@ description: Scopri le funzioni di base delle metriche calcolate.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: e2e87bc3d9f26b01f250d88b924c730fe4edac7b
+source-git-commit: 211f0411d0bf70288cbd46bb219fce7ae99fe03d
 workflow-type: tm+mt
-source-wordcount: '3608'
+source-wordcount: '3599'
 ht-degree: 45%
 
 ---
@@ -18,7 +18,7 @@ Il [Generatore di metriche calcolate](cm-workflow/cm-build-metrics.md) consente 
 
 >[!NOTE]
 >
->Se [!DNL metric] è identificato come argomento in una funzione, sono consentite anche altre espressioni di metriche. Ad esempio, [COLUMN MAXIMUM(metrics)](#column-maximum) consente anche [COLUMN MAXIMUM(PageViews + Visits)](#column-maximum).
+>Se [!DNL metric] è identificato come argomento in una funzione, sono consentite anche altre espressioni di metriche. Ad esempio, [COLUMN MAXIMUM(metrics)](#column-maximum) consente anche [COLUMN MAXIMUM(PageViews + Sessions)](#column-maximum).
 
 
 
@@ -89,11 +89,11 @@ Restituisce il valore più grande in un insieme di elementi dimensionali della c
 
 **Caso d&#39;uso**: identifica il valore più alto all&#39;interno di un raggruppamento, ad esempio il giorno con il maggior numero di visite o il prodotto con il maggior fatturato. Questo consente di evidenziare i picchi di prestazioni tra le categorie.
 
-**Nel Generatore di metriche calcolate**: applica **Numero massimo colonne** a una metrica come *Ricavi* o *Visite* quando esegui la suddivisione per *Giorno* o *Prodotto*. La funzione restituisce il valore più grande in quella colonna per ogni riga.
+**Nel Generatore di metriche calcolate**: applica **Numero massimo di colonne** a una metrica come *Ricavi* o *Sessioni* con suddivisione per *Giorno* o *Prodotto*. La funzione restituisce il valore più grande in quella colonna per ogni riga.
 
 >[!TIP]
 >
->Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con prestazioni migliori nel raggruppamento.
+>Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con prestazioni migliori nel raggruppamento.
 >
 
 ## Minimo colonna {#column-minimum}
@@ -123,7 +123,7 @@ Restituisce il valore più piccolo in un insieme di elementi dimensionali della 
 
 >[!TIP]
 >
->Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con le prestazioni peggiori nel raggruppamento.
+>Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con le prestazioni peggiori nel raggruppamento.
 >
 
 
@@ -149,7 +149,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 
 **Caso d&#39;uso**: calcola il totale di tutti i valori all&#39;interno di un raggruppamento, ad esempio i ricavi totali per tutti i prodotti o le visite totali per tutti i giorni. Questo è utile quando hai bisogno di un totale complessivo da confrontare con i singoli valori di riga.
 
-**Nel Generatore di metriche calcolate**: Applica **Somma colonna** a una metrica come *Ricavi* o *Visite* durante la suddivisione per *Prodotto* o *Giorno*. La funzione restituisce il totale di tutti i valori in quella colonna per ogni riga.
+**Nel Generatore di metriche calcolate**: Applica **Somma colonna** a una metrica come *Ricavi* o *Sessioni* durante la suddivisione per *Prodotto* o *Giorno*. La funzione restituisce il totale di tutti i valori in quella colonna per ogni riga.
 
 >[!TIP]
 >
@@ -179,7 +179,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 
 **Caso d&#39;uso**: conta il numero di punti dati inclusi in un calcolo, ad esempio il numero di giorni in un intervallo di date o il numero di prodotti in un raggruppamento. Questo aiuta quando devi sapere quanti elementi contribuiscono a un valore aggregato.
 
-**Nel generatore di metriche calcolate**: applica **Count** a una metrica come *Visite* o *Entrate* per restituire il numero totale di righe (o punti dati) incluse nel raggruppamento o nell&#39;intervallo di date corrente.
+**Nel generatore di metriche calcolate**: applica **Count** a una metrica come *Sessioni* o *Entrate* per restituire il numero totale di righe (o punti dati) inclusi nel raggruppamento o nell&#39;intervallo di date corrente.
 
 >[!TIP]
 >
@@ -199,15 +199,15 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ESPONENTE(metrica)]**
 
-[!BADGE Riga]{type="Neutral"} Restituisce e elevato alla potenza di un numero specificato. La costante e è uguale a 2,71828182845904, la base del logaritmo naturale. ESPONENTE è l’inverso di LN, il logaritmo naturale di un numero.
+[!BADGE Riga]{type="Neutral"} Restituisce *e* elevato alla potenza di un numero specificato. La costante *e* è uguale a 2,71828182845904, la base del logaritmo naturale. ESPONENTE è l’inverso di LN, il logaritmo naturale di un numero.
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | L’esponente applicato alla base e. |
+| metrica | L’esponente applicato alla base *e*. |
 
-**Caso d&#39;uso**: aumentare un numero o una metrica a una determinata potenza, ad esempio quadrare un valore o applicare un fattore di crescita esponenziale. Ciò è utile quando si modellano le tendenze di crescita o si ridimensiona una metrica in modo esponenziale.
+**Caso d&#39;uso**: aumenta di *e* alla potenza di un numero o di una metrica specificata. Ciò è utile quando si modellano le tendenze di crescita o si ridimensiona una metrica in modo esponenziale.
 
-**Nel Generatore di metriche calcolate**: utilizzare **Esponente** con una metrica e un valore di alimentazione. Ad esempio: **Esponente**(*Visite*, 2) quadra la metrica *Visite*.
+**Nel generatore di metriche calcolate**: utilizzare **Esponente** con una metrica. Ad esempio: **Esponente**(*Sessioni*) eleva *e* alla potenza della metrica *Sessioni*.
 
 >[!TIP]
 >
@@ -238,7 +238,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 
 **Caso d&#39;uso**: calcola la media aritmetica di un set di valori, ad esempio il ricavo medio giornaliero o il numero medio di visite per campagna. Questo aiuta a stabilire una linea di base per il confronto di singoli valori all’interno di un set di dati.
 
-**Nel Generatore di metriche calcolate**: Applica **Media** a una metrica come *Ricavi* o *Visite* per restituire il valore medio in tutti i punti dati nel raggruppamento o nell&#39;intervallo di date selezionato.
+**Nel Generatore di metriche calcolate**: Applica **Media** a una metrica come *Ricavi* o *Sessioni* per restituire il valore medio in tutti i punti dati nel raggruppamento o nell&#39;intervallo di date selezionato.
 
 >[!TIP]
 >
@@ -346,7 +346,7 @@ MODULO(MODULO(x,y)+y,y)
 
 **Caso d&#39;uso**: identifica il valore al di sotto del quale rientra una determinata percentuale di punti dati, ad esempio il 90° percentile delle entrate giornaliere o delle visualizzazioni di pagina. Questo consente di misurare la distribuzione e rilevare valori anomali ad alte prestazioni.
 
-**Nel Generatore di metriche calcolate**: Applica **Percentile** a una metrica come *Ricavi* o *Visite* e specifica il valore percentile desiderato (ad esempio, **Percentile**(*Ricavi*, 90)). Il risultato mostra la soglia al di sotto della quale il 90% dei punti dati.
+**Nel Generatore di metriche calcolate**: Applica **Percentile** a una metrica come *Ricavi* o *Sessioni* e specifica il valore percentile desiderato (ad esempio, **Percentile**(*Ricavi*, 90)). Il risultato mostra la soglia al di sotto della quale il 90% dei punti dati.
 
 >[!TIP]
 >
@@ -406,7 +406,7 @@ Restituisce x elevato alla potenza y.
 
 **Caso d&#39;uso**: dividi un set di dati in quattro parti uguali per capire come vengono distribuiti i valori, ad esempio per identificare il primo 25% dei giorni in base ai ricavi o alle visite. Questo consente di segmentare le prestazioni in gruppi classificati per un confronto più approfondito.
 
-**Nel Generatore di metriche calcolate**: Applica **Quartile** a una metrica come *Ricavi* o *Visite* e specifica il quartile da restituire (ad esempio, **Quartile**(*Ricavi*, 3) per trovare la soglia per il terzo quartile, o il 25% superiore).
+**Nel Generatore di metriche calcolate**: Applica **Quartile** a una metrica come *Ricavi* o *Sessioni* e specifica il quartile da restituire (ad esempio, **Quartile**(*Ricavi*, 3) per trovare la soglia per il terzo quartile, o il 25% superiore).
 
 >[!TIP]
 >
@@ -495,9 +495,9 @@ Il massimo delle colonne di ogni riga.
 | metrica | Richiede almeno una metrica, ma può accettare un numero qualsiasi di metriche come parametri. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
-**Caso d&#39;uso**: identifica il valore più alto in tutte le metriche in una singola riga, ad esempio determinando quale metrica (ad esempio, *Ricavi*, *Ordini* o *Visite*) ha il valore più alto per un giorno o segmento specifico. Questo aiuta a evidenziare quale metrica lead all’interno di ogni riga di dati.
+**Caso d&#39;uso**: identifica il valore più alto in tutte le metriche in una singola riga, ad esempio determinando quale metrica (ad esempio, *Ricavi*, *Ordini* o *Sessioni*) ha il valore più alto per un giorno o un segmento specifico. Questo aiuta a evidenziare quale metrica lead all’interno di ogni riga di dati.
 
-**Nel generatore di metriche calcolate**: applicare **Massimo riga** quando più metriche sono incluse in una metrica calcolata. Ad esempio: **Numero massimo righe**(*Ricavi*, *Ordini*, *Visite*) restituisce il valore più grande tra queste metriche per ogni riga.
+**Nel generatore di metriche calcolate**: applicare **Massimo riga** quando più metriche sono incluse in una metrica calcolata. Ad esempio: **Numero massimo righe**(*Ricavi*, *Ordini*, *Sessioni*) restituisce il valore più grande tra queste metriche per ogni riga.
 
 >[!TIP]
 >
@@ -524,9 +524,9 @@ Minimo di colonne di ogni riga.
 | metrica | Richiede almeno una metrica, ma può accettare un numero qualsiasi di metriche come parametri. |
 | include_zeros | Specifica se includere o meno valori zero nei calcoli. |
 
-**Caso d&#39;uso**: identifica il valore più basso in tutte le metriche in una singola riga, ad esempio la ricerca della metrica (ad esempio, *Ricavi*, *Ordini* o *Visite*) con il valore più basso per un giorno o un segmento particolare. Questo consente di individuare la metrica con le prestazioni più deboli all’interno di ogni riga di dati.
+**Caso d&#39;uso**: identifica il valore più basso in tutte le metriche in una singola riga, ad esempio la ricerca della metrica (ad esempio, *Ricavi*, *Ordini* o *Sessioni*) con il valore più basso per un giorno o un segmento particolare. Questo consente di individuare la metrica con le prestazioni più deboli all’interno di ogni riga di dati.
 
-**Nel Generatore di metriche calcolate**: applicare **Minimo riga** quando si confrontano più metriche. Ad esempio: **Minimo riga**(*Ricavi*, *Ordini*, *Visite*) restituisce il valore più piccolo tra queste metriche per ogni riga.
+**Nel Generatore di metriche calcolate**: applicare **Minimo riga** quando si confrontano più metriche. Ad esempio: **Minimo riga**(*Ricavi*, *Ordini*, *Sessioni*) restituisce il valore più piccolo tra queste metriche per ogni riga.
 
 >[!TIP]
 >
@@ -552,7 +552,7 @@ Somma delle colonne di ogni riga.
 |---|---|
 | metrica | Richiede almeno una metrica, ma può accettare un numero qualsiasi di metriche come parametri. |
 
-**Caso d&#39;uso**: aggiungi i valori di più metriche all&#39;interno di una singola riga, ad esempio sommando *Ricavi* e *Imposta* per calcolare il valore totale della transazione o combinando *Visite* da origini diverse. Questo consente di consolidare le metriche correlate in un unico totale.
+**Caso d&#39;uso**: aggiungi i valori di più metriche all&#39;interno di una singola riga, ad esempio sommando *Ricavi* e *Imposta* per calcolare il valore totale della transazione o combinando *Sessioni* da origini diverse. Questo consente di consolidare le metriche correlate in un unico totale.
 
 **Nel generatore di metriche calcolate**: applica **Somma righe** per combinare più metriche. Ad esempio: **Row Sum**(*Revenue*, *Tax*) aggiunge queste due metriche per ogni riga della suddivisione.
 
@@ -612,7 +612,7 @@ Somma delle colonne di ogni riga.
 
 **Caso d&#39;uso**: misura quanto valori variano rispetto alla media, ad esempio valutando la coerenza delle entrate giornaliere o delle visite nel tempo. Questo aiuta a identificare volatilità, stabilità o fluttuazioni insolite nelle prestazioni.
 
-**Nel generatore di metriche calcolate**: applica **deviazione standard** a una metrica come *Ricavi* o *Visite* per calcolare la distribuzione dei valori all&#39;interno del raggruppamento o dell&#39;intervallo di date selezionato. Ad esempio: **Deviazione standard**(*Ricavi*) mostra il numero di ricavi giornalieri che si discostano dalla media.
+**Nel Generatore di metriche calcolate**: applica **Deviazione standard** a una metrica come *Ricavi* o *Sessioni* per calcolare la distribuzione dei valori all&#39;interno del raggruppamento o dell&#39;intervallo di date selezionato. Ad esempio: **Deviazione standard**(*Ricavi*) mostra il numero di ricavi giornalieri che si discostano dalla media.
 
 >[!TIP]
 >

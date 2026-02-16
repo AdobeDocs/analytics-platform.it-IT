@@ -4,10 +4,10 @@ description: Scopri le funzioni avanzate delle metriche calcolate.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: fa66083b922c903f6a7b0608d91f26e85bd8374f
 workflow-type: tm+mt
-source-wordcount: '4958'
-ht-degree: 99%
+source-wordcount: '5272'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 Il [Generatore di metriche calcolate](cm-workflow/cm-build-metrics.md) consente di applicare funzioni statistiche e matematiche. Questo articolo riporta un elenco alfabetico delle funzioni avanzate e delle relative definizioni.
 
-Accedi a queste funzioni selezionando **[!UICONTROL Show all]** sotto l’elenco ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** nel pannello Componenti. Scorri verso il basso per visualizzare l’elenco di **[!UICONTROL Advanced functions]**.
+Accedi a queste funzioni selezionando **[!UICONTROL Mostra tutti]** sotto ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Funzioni]** nel pannello Componenti. Scorri verso il basso per visualizzare l&#39;elenco delle **[!UICONTROL funzioni avanzate]**.
 
 ## Funzioni tabella e funzioni riga
 
@@ -63,7 +63,7 @@ Congiunzione. Diverso da zero è considerato vero e uguale a zero è considerato
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL APPROXIMATE COUNT DISTINCT(dimension)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CONTEGGIO APPROSSIMATIVO DISTINTO(dimensione)]**
 
 
 Restituisce il conteggio distinto approssimativo degli elementi dimensionali per la dimensione selezionata.
@@ -90,7 +90,7 @@ Un caso d’uso comune per questa funzione si verifica quando desideri ottenere 
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSENO(metrica)]**
 
 
 [!BADGE Riga]{type="Neutral"} restituisce l’arcocoseno, o l’inverso del coseno, di una metrica. L’arcocoseno è l’angolo di cui è numero il coseno. L’angolo restituito è espresso in radianti compresi nell’intervallo tra 0 (zero) e pi. Per convertire il risultato da radianti a gradi, moltiplicalo per 180/PI( ).
@@ -136,7 +136,7 @@ Un caso d’uso comune per questa funzione si verifica quando desideri ottenere 
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL ARCO TANGENTE(metrica)]**
 
 
 [!BADGE Riga]{type="Neutral"} restituisce l’arcotangente, o la tangente inversa, di un numero. L’arcotangente è l’angolo di cui è numero la tangente. L’angolo restituito è espresso in radianti compresi nell’intervallo tra -pi/2 e pi/2. Per esprimere l’arcotangente in gradi, moltiplica il risultato per 180/PI( ).
@@ -219,7 +219,7 @@ CDF-Z(-3) ? 0.0013499
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL MASSIMALE(metrica)]**
 
 [!BADGE Riga]{type="Neutral"} restituisce il numero intero più piccolo, non inferiore a un valore specificato. Ad esempio, se desideri evitare di riportare i decimali della valuta per i ricavi e un prodotto è pari a 569,34 $, utilizza la formula CEILING (ricavi) per arrotondare i ricavi al dollaro più vicino, in questo caso 570 $.
 
@@ -239,7 +239,7 @@ CDF-Z(-3) ? 0.0013499
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL AFFIDABILITÀ(contenitore di normalizzazione, metrica di successo, controllo, soglia di significatività)]**
 
 Calcola il valore di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476).
 
@@ -264,7 +264,7 @@ Affidabilità è una misura probabilistica della quantità di prove che dimostra
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL AFFIDABILITÀ(contenitore di normalizzazione, metrica di successo, controllo, soglia di significatività)]**
 
 Calcola il valore **inferiore** di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476).
 
@@ -288,7 +288,7 @@ Affidabilità è una misura probabilistica della quantità di prove che dimostra
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL AFFIDABILITÀ(contenitore di normalizzazione, metrica di successo, controllo, soglia di significatività)]**
 
 Calcola il valore **superiore** di affidabilità valido in ogni momento, utilizzando il metodo WASKR come descritto in [Teoria del limite centrale uniforme nel tempo e sequenze di affidabilità asintotiche](https://arxiv.org/pdf/2103.06476).
 
@@ -313,7 +313,7 @@ Affidabilità è una misura probabilistica della quantità di prove che dimostra
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COSENO(metrica)]**
 
 [!BADGE Riga]{type="Neutral"} Restituisce il coseno dell’angolo specificato. Se l’angolo è espresso in gradi, moltiplicalo per PI()/180.
 
@@ -333,7 +333,7 @@ Affidabilità è una misura probabilistica della quantità di prove che dimostra
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CUBE ROOT(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RADICE (metrica) CUBO]**
 
 
 Restituisce la radice cubica positiva di un numero. La radice cubica di un numero corrisponde al valore di quel numero elevato alla potenza di 1/3.
@@ -356,7 +356,7 @@ Restituisce la radice cubica positiva di un numero. La radice cubica di un numer
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE(number, metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVO(numero, metrica)]**
 
 Restituisce la somma degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, somma gli elementi precedenti.
 
@@ -385,7 +385,7 @@ Restituisce la somma degli ultimi n elementi della colonna x. Se n > 0, somma gl
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE AVERAGE(number, metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIA CUMULATIVA(numero, metrica)]**
 
 Restituisce la media degli ultimi n elementi della colonna x. Se n > 0, somma gli ultimi n elementi o x. Se n &lt; 0, somma gli elementi precedenti.
 
@@ -396,7 +396,7 @@ Restituisce la media degli ultimi n elementi della colonna x. Se n > 0, somma gl
 
 >[!NOTE]
 >
->Questa funzione non funziona con metriche di percentuale come ricavi per persona. La funzione calcola la media delle percentuali anziché sommare le entrate rispetto all’ultima N, sommare le persone rispetto all’ultima N e infine dividerle. <br/>Utilizza invece [**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![Dividi](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative).
+>Questa funzione non funziona con metriche di percentuale come ricavi per persona. La funzione calcola la media delle percentuali anziché sommare le entrate rispetto all’ultima N, sommare le persone rispetto all’ultima N e infine dividerle. <br/>Utilizzare invece [**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![Divide](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative).
 >
 
 
@@ -411,7 +411,7 @@ Restituisce la media degli ultimi n elementi della colonna x. Se n > 0, somma gl
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EQUAL()]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL UGUALE()]**
 
 Uguale. L’output è 0 (falso) o 1 (vero).
 
@@ -437,7 +437,7 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE ESPONENZIALE: COEFFICIENTE DI CORRELAZIONE(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce il coefficiente di correlazione.
@@ -460,7 +460,7 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE ESPONENZIALE: VALORE Y PREVISTO (metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE Riga]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce Y.
@@ -484,7 +484,7 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE ESPONENZIALE: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce b.
@@ -507,7 +507,7 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE ESPONENZIALE: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce a.
@@ -551,7 +551,7 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN()]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL MAGGIORE DI()]**
 
 L’output è 0 (falso) o 1 (vero).
 
@@ -576,7 +576,7 @@ L’output è 0 (falso) o 1 (vero).
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN OR EQUAL()]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL MAGGIORE O UGUALE A()]**
 
 Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
@@ -602,7 +602,7 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL COSENO IPERBOLICO (metrica)]**
 
 
 [!BADGE Riga]{type="Neutral"} Restituisce il coseno iperbolico di un numero.
@@ -625,7 +625,7 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SENO IPERBOLICO (metrica)]**
 
 [!BADGE Riga]{type="Neutral"} Restituisce il seno iperbolico di un numero.
 
@@ -645,7 +645,7 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENTE(metrica) IPERBOLICA]**
 
 [!BADGE Riga]{type="Neutral"} Restituisce la tangente iperbolica di un numero.
 
@@ -689,7 +689,7 @@ Maggiore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN()]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL MINORE DI()]**
 
 L’output è 0 (falso) o 1 (vero).
 
@@ -714,7 +714,7 @@ L’output è 0 (falso) o 1 (vero).
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN OR EQUAL()]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL MINORE O UGUALE A()]**
 
 Minore di o uguale a. L’output è 0 (falso) o 1 (vero).
 
@@ -763,7 +763,7 @@ Incremento del rapporto rispetto al valore di controllo.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE LINEARE: COEFFICIENTE DI CORRELAZIONE(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE Tabella]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce il coefficiente di correlazione.
@@ -788,7 +788,7 @@ Incremento del rapporto rispetto al valore di controllo.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE LINEARE: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE Tabella]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce b.
@@ -813,7 +813,7 @@ Incremento del rapporto rispetto al valore di controllo.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE LINEARE: VALORE Y PREVISTO (metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE Riga]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce Y.
@@ -838,7 +838,7 @@ Incremento del rapporto rispetto al valore di controllo.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE LINEARE: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce a.
 
@@ -860,7 +860,7 @@ Incremento del rapporto rispetto al valore di controllo.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL BASE REGISTRO 10(metrica)]**
 
 
 [!BADGE Riga]{type="Neutral"} Restituisce il logaritmo in base 10 di un numero.
@@ -882,7 +882,7 @@ Incremento del rapporto rispetto al valore di controllo.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE REGISTRO: COEFFICIENTE DI CORRELAZIONE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Regressione logaritmica: Y = a In(X) + b. Restituisce il coefficiente di correlazione.
 
@@ -904,7 +904,7 @@ Incremento del rapporto rispetto al valore di controllo.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE REGISTRO: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Regressione logaritmica: Y = a ln(X) + b. Restituisce b.
 
@@ -927,7 +927,7 @@ Incremento del rapporto rispetto al valore di controllo.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE DEL REGISTRO: Y PREVISTO(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Riga]{type="Neutral"} Regressione logaritmica: Y = a ln(X) + b. Restituisce Y.
 
@@ -950,7 +950,7 @@ Incremento del rapporto rispetto al valore di controllo.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE REGISTRO: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Regressione logaritmo: Y = a ln(X) + b. Restituisce a.
 
@@ -973,7 +973,7 @@ Incremento del rapporto rispetto al valore di controllo.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL NATURAL LOG(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG(metric) NATURALE]**
 
 Restituisce il logaritmo naturale di un numero. I logaritmi naturali sono basati sulla costante e (2.71828182845904). LN è l’inverso della funzione EXP.
 
@@ -994,7 +994,7 @@ Restituisce il logaritmo naturale di un numero. I logaritmi naturali sono basati
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL NOT(logical)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL NON(logico)]**
 
 Negazione come booleano. L’output è 0 (falso) o 1 (vero).
 
@@ -1015,7 +1015,7 @@ Negazione come booleano. L’output è 0 (falso) o 1 (vero).
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL NOT EQUAL()]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL DIVERSO()]**
 
 
 Non uguale. L’output è 0 (falso) o 1 (vero).
@@ -1085,7 +1085,7 @@ Restituisce Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE DI POTENZA: COEFFICIENTE DI CORRELAZIONE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Regressione di potenza: Y = b X ^ a. Restituisce il coefficiente di correlazione.
 
@@ -1108,7 +1108,7 @@ Restituisce Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE DI POTENZA: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
 [!BADGE Tabella]{type="Neutral"} Regressione di potenza: Y = b X ^ a. Restituisce b.
@@ -1132,7 +1132,7 @@ Restituisce Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE ENERGETICA: VALORE Y PREVISTO (metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Riga]{type="Neutral"} Regressione di potenza: Y = b X ^ a. Restituisce Y.
 
@@ -1155,7 +1155,7 @@ Restituisce Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE DI POTENZA: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Regressione di potenza: Y = b X ^ a. Restituisce a.
 
@@ -1178,7 +1178,7 @@ Restituisce Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE QUADRATICA: COEFFICIENTE DI CORRELAZIONE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2. Restituisce il coefficiente di correlazione.
 
@@ -1199,7 +1199,7 @@ Restituisce Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE QUADRATICA: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2. Restituisce a.
 
@@ -1221,7 +1221,7 @@ Restituisce Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE QUADRATICA: Y PREVISTO(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Riga]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2. Restituisce Y.
 
@@ -1243,7 +1243,7 @@ Restituisce Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE QUADRATICA: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Regressione quadratica: Y = (a + bX) ^ 2, restituisce b.
 
@@ -1266,7 +1266,7 @@ Restituisce Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE RECIPROCA: COEFFICIENTE DI CORRELAZIONE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} regressione reciproca: Y = a + b X ^ -1. Restituisce il coefficiente di correlazione.
 
@@ -1288,7 +1288,7 @@ Restituisce Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE RECIPROCA: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Regressione reciproca: Y = a + b X ^ -1. Restituisce a.
 
@@ -1310,7 +1310,7 @@ Restituisce Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE RECIPROCA: VALORE Y PREVISTO (metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Riga]{type="Neutral"} Regressione reciproca: Y = a + b X ^ -1. Restituisce Y.
 
@@ -1332,7 +1332,7 @@ Restituisce Pi: 3,14159...
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE RECIPROCA: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 [!BADGE Tabella]{type="Neutral"} Regressione reciproca: Y = a + b X ^ -1. Restituisce b.
 
@@ -1344,18 +1344,18 @@ Restituisce Pi: 3,14159...
 
 
 
-## Varianza di esempio
+## Varianza di esempio {#sample-variance}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-variance-estimate"
 >title="Varianza di esempio"
->abstract="Calcola una stima della varianza di esempio utilizzando la formula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)), in cui N è il conteggio del contenitore di normalizzazione. <br/>Questa è utilizzata come parte dei calcoli di affidabilità *validi in qualsiasi momento*. In genere questa funzione non è utile da sola, ma può essere utilizzata per verificare i calcoli o per eseguire i calcoli di affidabilità *manualmente*."
+>abstract="Calcola una stima della varianza del campione utilizzando la formula `(sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))`. dove `N` è il conteggio del contenitore di normalizzazione. <br/>Questa è utilizzata come parte dei calcoli di affidabilità *validi in qualsiasi momento*. In genere questa funzione non è utile da sola, ma può essere utilizzata per verificare i calcoli o per eseguire i calcoli di affidabilità *manualmente*."
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SAMPLE VARIANCE(normalizing-container, success-metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANZA DI ESEMPIO(contenitore-normalizzazione, metrica-successo)]**
 
-Calcola una stima della varianza di esempio.
+Calcola una stima della varianza del campione utilizzando la formula `(sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1))`. dove `N` è il conteggio del contenitore di normalizzazione.<br/>Questa è utilizzata come parte dei calcoli di affidabilità *validi in qualsiasi momento*. In genere questa funzione non è utile da sola, ma può essere utilizzata per verificare i calcoli o per eseguire i calcoli di affidabilità *manualmente*.
 
 | Argomento | Descrizione |
 | --- | --- |
@@ -1377,7 +1377,7 @@ Calcola una stima della varianza di esempio.
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL SENO(metrica)]**
 
 
 [!BADGE Riga]{type="Neutral"} Restituisce il seno dell’angolo specificato. Se l’angolo è espresso in gradi, moltiplicalo per PI()/180.
@@ -1422,7 +1422,7 @@ La deviazione dalla [MEDIA](cm-functions.md#mean), divisa per la deviazione stan
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL T-TEST(metric, degrees, tails)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL TEST T(metrica, gradi, code)]**
 
 Esegue un test t con coda m con un punteggio t di x e n gradi di libertà.
 
@@ -1469,7 +1469,7 @@ Il valore restituito è la probabilità di visualizzare la statistica x del test
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENT(metric)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENTE(metrica)]**
 
 Restituisce la tangente dell’angolo specificato. Se l’angolo è espresso in gradi, moltiplicalo per PI()/180.
 
@@ -1490,7 +1490,7 @@ Restituisce la tangente dell’angolo specificato. Se l’angolo è espresso in 
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL PUNTEGGIO Z(metrica, include_zeros)]**
 
 [!BADGE Riga]{type="Neutral"} La deviazione dalla media divisa per la deviazione standard.
 
@@ -1524,7 +1524,7 @@ dove ***[!DNL x]*** è il punteggio non elaborato, ***[!DNL μ]*** corrisponde a
 
 <!-- markdownlint-enable MD034 -->
 
-![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST(metric_tails)]**
+![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL TEST Z(metric_tails)]**
 
 Effettua un test z con coda n con punteggio z di x.
 
