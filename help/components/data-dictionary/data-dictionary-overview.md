@@ -30,7 +30,7 @@ Gli amministratori di Analytics sono responsabili della cura delle informazioni 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dei dati in Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dei dati in Analysis Workspace](https://video.tv.adobe.com/v/3422283/?captions=ita&quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
