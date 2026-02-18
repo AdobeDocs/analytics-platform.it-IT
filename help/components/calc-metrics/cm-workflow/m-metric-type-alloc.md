@@ -19,7 +19,7 @@ Puoi configurare il tipo di metrica e il [modello di attribuzione](#attribution-
 
    ![Tipo di metrica e attribuzione](assets/cm-type-alloc.png)
 
-   * Specificare il tipo di metrica ****:
+   * Specificare il tipo di metrica **&#x200B;**:
 
      | Tipi di metriche | Definizione |
      |---|---|
