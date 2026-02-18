@@ -7,8 +7,8 @@ feature: Basics
 exl-id: fad62c04-b435-466a-ab3c-cf2d174ddbfb
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '587'
+ht-degree: 94%
 
 ---
 
@@ -72,16 +72,16 @@ Per creare lo schema personalizzato da utilizzare con il connettore di origine d
 
 1. Dopo aver aggiunto questi gruppi di campi, aggiungi il gruppo di campi di Adobe Analytics ExperienceEvent:
 
-   Nella sezione **[!UICONTROL Field groups]**, seleziona **[!UICONTROL Add]** per aggiungere un gruppo di campi aggiuntivo.
+   Nella sezione **[!UICONTROL Gruppi di campi]**, seleziona **[!UICONTROL Aggiungi]** per aggiungere un gruppo di campi aggiuntivo.
 
    ![Aggiungi gruppo di campi allo schema](assets/schema-add-field-group.png)
 
-1. Cerca e seleziona il gruppo di campi **[!UICONTROL Adobe Analytics ExperienceEvent Template]**.
+1. Cerca e seleziona il gruppo di campi **[!UICONTROL Modello Adobe Analytics ExperienceEvent]**.
 
    ![Aggiungi il gruppo di campi di Adobe Analytics ExperienceEvent](assets/schema-experienceevent.png)
 
-1. Seleziona **[!UICONTROL Add field groups]**.
+1. Seleziona **[!UICONTROL Aggiungi gruppi di campi]**.
 
-1. Seleziona **[!UICONTROL Save]** (Salva) per salvare lo schema.
+1. Seleziona **[!UICONTROL Salva]** per salvare lo schema.
 
 {{upgrade-final-step}}

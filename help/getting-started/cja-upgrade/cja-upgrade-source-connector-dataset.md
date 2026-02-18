@@ -7,8 +7,8 @@ feature: Basics
 exl-id: 424485a3-a076-4656-83b6-733f16cc2326
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 90%
+source-wordcount: '887'
+ht-degree: 86%
 
 ---
 
@@ -51,15 +51,15 @@ Devi aggiungere questo set di dati creato automaticamente alla stessa connession
 
 Per aggiungere il set di dati creato automaticamente alla stessa connessione creata per l’implementazione di Web SDK:
 
-1. In Customer Journey Analytics, seleziona **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Connessioni]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
 
 1. Seleziona la connessione [creata per l’implementazione di Web SDK](/help/getting-started/cja-upgrade/cja-upgrade-connection.md).
 
-1. Seleziona **[!UICONTROL Edit]**.
+1. Seleziona **[!UICONTROL Modifica]**.
 
    ![Modifica connessione](assets/connection-add-dataset.png)
 
-1. Seleziona **[!UICONTROL Add datasets]** in alto a destra.
+1. Seleziona **[!UICONTROL Aggiungi set di dati]** in alto a destra.
 
    ![Modifica connessione](assets/connection-add-dateset2.png)
 
@@ -67,7 +67,7 @@ Per aggiungere il set di dati creato automaticamente alla stessa connessione cre
 
    Il nome di questo set di dati è il nome della suite di rapporti, seguito da `midValues`. Ad esempio: `My report suite midValues`
 
-1. Seleziona la casella di controllo accanto al nome del set di dati, quindi seleziona **[!UICONTROL Next]**.
+1. Seleziona la casella di controllo accanto al nome del set di dati, quindi seleziona **[!UICONTROL Avanti]**.
 
    ![Modifica connessione](assets/connection-add-dataset3.png)
 
@@ -77,18 +77,18 @@ Per aggiungere il set di dati creato automaticamente alla stessa connessione cre
 
    | Impostazione | Descrizione |
    | --- | --- |
-   | **[!UICONTROL Person ID]** | Disponibile solo per i set di dati evento e profilo. Seleziona un ID persona dal menu a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Vedi di seguito per informazioni su come utilizzare Identity Map come ID persona.<p>Se non è presente alcun ID persona tra cui scegliere, significa che uno o più ID persona non sono stati definiti nello schema. Consulta [Definire i campi di identità nell’interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity) per ulteriori informazioni. <p>Il valore per l’ID persona selezionato è considerato sensibile a maiuscole e minuscole. Ad esempio: `abc123` e `ABC123` sono due valori diversi. |
-   | **[!UICONTROL Timestamp]** | Solo per i set di dati evento e riepilogo, questa impostazione viene settata automaticamente sul campo marca temporale predefinito dagli schemi basati su eventi in Experience Platform. |
-   | **[!UICONTROL Timezone]** | Disponibile solo per i dati di riepilogo. Seleziona il fuso orario appropriato per i dati di riepilogo delle serie temporali. |
-   | **[!UICONTROL Data source type]** | Seleziona un tipo di origine dati. <br/>I tipi di origini dati includono: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
+   | **[!UICONTROL ID persona]** | Disponibile solo per i set di dati evento e profilo. Seleziona un ID persona dall’elenco a discesa delle identità disponibili. Queste identità sono state definite nello schema del set di dati in Experience Platform. Vedi di seguito per informazioni su come utilizzare Identity Map come ID persona.<p>Se non è presente alcun ID persona tra cui scegliere, significa che uno o più ID persona non sono stati definiti nello schema. Consulta [Definire i campi di identità nell’interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity) per ulteriori informazioni. <p>Il valore per l’ID persona selezionato è considerato sensibile a maiuscole e minuscole. Ad esempio: `abc123` e `ABC123` sono due valori diversi. |
+   | **[!UICONTROL Marca temporale]** | Solo per i set di dati evento e riepilogo, questa impostazione viene settata automaticamente sul campo marca temporale predefinito dagli schemi basati su eventi in Experience Platform. |
+   | **[!UICONTROL Fuso orario]** | Disponibile solo per i dati di riepilogo. Seleziona il fuso orario appropriato per i dati di riepilogo delle serie temporali. |
+   | **[!UICONTROL Tipo di origine dati]** | Seleziona un tipo di origine dati. <br/>I tipi di origini dati includono: <ul><li>[!UICONTROL Dati web]</li><li>[!UICONTROL Dati da app mobili]</li><li>[!UICONTROL Dati POS]</li><li>[!UICONTROL Dati CRM]</li><li>[!UICONTROL Dati sondaggio]</li><li>[!UICONTROL Dati del call center]</li><li>[!UICONTROL Dati prodotto]</li><li> [!UICONTROL Dati degli account]</li><li> [!UICONTROL Dati transazione]</li><li>[!UICONTROL Dati di feedback cliente]</li><li> [!UICONTROL Altre]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
 
    {style="table-layout:auto"}
 
-1. Nella sezione **[!UICONTROL Import new data]**, lascia disabilitata l’opzione **[!UICONTROL Import all new data]**.
+1. Nella sezione **[!UICONTROL Importa nuovi dati]**, lascia disabilitata l&#39;opzione **[!UICONTROL Importa tutti i nuovi dati]**.
 
    Poiché utilizzi il set di dati del connettore di origine di Analytics per i dati storici, non desideri trasferire in questo set di dati i dati futuri raccolti.
 
-1. Nella sezione **[!UICONTROL Dataset backfill]**, seleziona **[!UICONTROL Request backfill]**.
+1. Nella sezione **[!UICONTROL Recupero set di dati]**, seleziona **[!UICONTROL Richiedi backfill]**.
 
 1. Definisci il periodo che desideri includere nella retrocompilazione della connessione in Customer Journey Analytics immettendo le date di inizio e di fine o selezionando l’icona del calendario ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).
 
@@ -104,9 +104,9 @@ Per aggiungere il set di dati creato automaticamente alla stessa connessione cre
 
    <!-- Include any of the following?  Make sure you're explicit as to the dates you request backfill to. You want to request it to the date that you start gathering data with your Web SDK implementation. Also possibly include segments for any overlapping date. So you could request everything and then use a segment to exclude data that you don't want. That way if you need to move up the date, then you could change the date in the segment. Downside would be that you might pay for double rows.  When they do that, they're going to see all schema fields from both their custom schema and their Analytics schema. So they'll need to be cognizant to select the right fields, and never select any Analytics fields, because they will be mapped as part of the source connector. Never select any Analytics field group fields because they'll be mapped.  -->
 
-1. Seleziona **[!UICONTROL Queue backfill]**.
+1. Selezionare **[!UICONTROL Coda backfill]**.
 
-1. Seleziona **[!UICONTROL Add datasets]**, quindi **[!UICONTROL Save]** per salvare la connessione.
+1. Seleziona **[!UICONTROL Aggiungi set di dati]**, quindi seleziona **[!UICONTROL Salva]** per salvare la connessione.
 
 1. (Condizionale) Se utilizzi i set di dati di ricerca, devi creare il set di dati di ricerca e aggiungerlo alla connessione. Per ulteriori informazioni, consulta [Creare set di dati di ricerca per classificare i dati in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md).
 

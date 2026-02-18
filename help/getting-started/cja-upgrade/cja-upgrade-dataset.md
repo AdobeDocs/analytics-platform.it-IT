@@ -7,8 +7,8 @@ feature: Basics
 exl-id: d686dcdd-08d5-4e8f-8f0d-76c8c7b0427f
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 84%
 
 ---
 
@@ -31,25 +31,25 @@ Un set di dati è il costrutto che memorizza e gestisce i dati raccolti in Adobe
 
 Per creare un set di dati:
 
-1. In Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Datasets]** all’interno di [!UICONTROL DATA MANAGEMENT].
+1. In Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Set di dati]** in [!UICONTROL GESTIONE DATI].
 
-1. Seleziona **[!UICONTROL Create dataset]**.
+1. Seleziona **[!UICONTROL Crea set di dati]**.
 
    ![Creare un set di dati](assets/create-dataset.png)
 
-1. Seleziona **[!UICONTROL Create dataset from schema]** (Crea set di dati da schema).
+1. Seleziona **[!UICONTROL Crea set di dati dallo schema]**.
 
    ![Creare un set di dati da uno schema](assets/create-dataset-from-schema.png)
 
-1. Seleziona lo schema creato in precedenza e seleziona **[!UICONTROL Next]** (Avanti).
+1. Seleziona lo schema creato in precedenza e seleziona **[!UICONTROL Successivo]**.
 
 1. Assegna un nome al set di dati e (facoltativamente) fornisci una descrizione.
 
    ![Assegnare un nome al set di dati](assets/name-your-datatest.png)
 
-1. Seleziona **[!UICONTROL Finish]** (Fine).
+1. Seleziona **[!UICONTROL Fine]**.
 
-1. Seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
+1. Selezionare l&#39;opzione **[!UICONTROL Profilo]**.
 
    Viene richiesto di abilitare il set di dati per il profilo. Una volta abilitato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati inseriti.
 

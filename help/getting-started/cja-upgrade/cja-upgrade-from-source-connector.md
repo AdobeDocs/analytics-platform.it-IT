@@ -7,8 +7,8 @@ feature: Basics
 exl-id: 4c0eef7d-7b0e-43b5-8126-d84d4fffd80c
 source-git-commit: 5faf9668475818773c645b69915ddd5182500aea
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 91%
 
 ---
 
@@ -54,13 +54,13 @@ Di seguito è riportato il processo di alto livello per la transizione dall’ut
 
 1. Mappa ogni dimensione di Adobe Analytics dal connettore di origine di Analytics alla dimensione nello schema di Web SDK.
 
-   1. Nella sezione **[!UICONTROL Map standard fields]**, seleziona la scheda **[!UICONTROL Custom]**.
+   1. Nella sezione **[!UICONTROL Mappa campi standard]**, seleziona la scheda **[!UICONTROL Personalizza]**.
 
-   1. Seleziona **[!UICONTROL Add new mapping]**.
+   1. Seleziona **[!UICONTROL Aggiungi nuova mappatura]**.
 
       ![mappa campi schema](assets/schema-mapping.png)
 
-   1. Nel **[!UICONTROL Source field]**, seleziona un campo Adobe Analytics dal gruppo di campi del modello Adobe Analytics ExperienceEvent. Quindi, nel **[!UICONTROL Target field]**, seleziona il campo XDM a cui desideri mapparlo.
+   1. Nel campo **[!UICONTROL Source]**, seleziona un campo Adobe Analytics dal gruppo di campi Modello Adobe Analytics ExperienceEvent. Quindi, nel **[!UICONTROL campo di destinazione]**, seleziona il campo XDM a cui vuoi mapparlo.
 
    1. Ripeti questa procedura per ogni campo del gruppo di campi Modello di Adobe Analytics ExperienceEvent che utilizzi per raccogliere dati in Adobe Analytics.
 

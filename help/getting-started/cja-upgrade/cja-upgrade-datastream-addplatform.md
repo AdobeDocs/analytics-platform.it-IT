@@ -7,8 +7,8 @@ feature: Basics
 exl-id: c6d49ca4-3d04-4c0f-accd-8666a587109d
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 100%
+source-wordcount: '274'
+ht-degree: 80%
 
 ---
 
@@ -35,23 +35,23 @@ Prima di completare i passaggi descritti in questa sezione, deve esistere già u
 
 Con lo stream di dati disponibile, devi aggiungere Platform as a service:
 
-1. Nell’interfaccia utente di Adobe Experience Platform, seleziona **[!UICONTROL Datastreams]** (Flussi di dati) da [!UICONTROL DATA COLLECTION] (RACCOLTE DATI) nella barra a sinistra.
+1. Nell&#39;interfaccia utente di Adobe Experience Platform, seleziona **[!UICONTROL Datastreams]** da [!UICONTROL DATA COLLECTION] nella barra a sinistra.
 
 1. Seleziona lo stream di dati configurato in precedenza. <!--true?-->
 
-1. Seleziona **[!UICONTROL Add Service]** (Aggiungi servizio).
+1. Selezionare **[!UICONTROL Aggiungi servizio]**.
 
-1. Nella schermata [!UICONTROL Add Service screen] (Aggiungi servizio):
+1. Nella schermata [!UICONTROL Aggiungi servizio]:
 
-   1. Seleziona **[!UICONTROL Adobe Experience Platform]** dall’elenco [!UICONTROL Service] (Servizio).
+   1. Selezionare **[!UICONTROL Adobe Experience Platform]** dall&#39;elenco [!UICONTROL Service].
 
-   1. Assicurati di aver selezionato **[!UICONTROL Enabled]** (Abilitato).
+   1. Assicurarsi che **[!UICONTROL Enabled]** sia selezionato.
 
-   1. Seleziona il set di dati dall’elenco [!UICONTROL Event Dataset] (Set di dati evento).
+   1. Seleziona il set di dati dall&#39;elenco [!UICONTROL Set di dati evento].
 
       ![Servizio AEP del flusso di dati](./assets/datastream-aep-service.png)
 
-   1. Abbandona le altre impostazioni e seleziona **[!UICONTROL Save]** per salvare il flusso di dati.
+   1. Lascia le altre impostazioni e seleziona **[!UICONTROL Salva]** per salvare lo stream di dati.
 
    Il flusso di dati è ora configurato per inoltrare i dati raccolti dal sito Web al set di dati in Adobe Experience Platform.
 

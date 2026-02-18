@@ -7,8 +7,8 @@ feature: Basics
 exl-id: f76d098d-d223-40e4-be81-d28e7581396b
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 100%
+source-wordcount: '221'
+ht-degree: 89%
 
 ---
 
@@ -41,12 +41,12 @@ Per impostare il flusso di dati:
 
 1. In Adobe Experience Platform, seleziona **[!UICONTROL Datastreams]** da [!UICONTROL DATA COLLECTION] nella barra a sinistra.
 
-1. Seleziona **[!UICONTROL New Datastream]** (Nuovo flusso di dati).
+1. Seleziona **[!UICONTROL Nuovo flusso di dati]**.
 
-1. Assegna un nome e una descrizione al tuo flusso di dati. Seleziona lo schema dall’elenco [!UICONTROL Event Schema] (Schema eventi).
+1. Assegna un nome e una descrizione al tuo flusso di dati. Seleziona lo schema dall&#39;elenco [!UICONTROL Schema evento].
 
    ![Nuovo flusso di dati](assets/new-datastream.png)
 
-1. Seleziona **[!UICONTROL Save]** (Salva).
+1. Seleziona **[!UICONTROL Salva]**.
 
 {{upgrade-final-step}}

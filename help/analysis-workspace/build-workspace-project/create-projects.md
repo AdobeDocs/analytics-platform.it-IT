@@ -6,8 +6,8 @@ role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
 source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 88%
+source-wordcount: '454'
+ht-degree: 85%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 88%
 
 I [progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace consentono di creare e visualizzare le analisi business-critical.  Queste analisi possono essere condivise con gli stakeholder all’interno o all’esterno dell’organizzazione.
 
-1. In Customer Journey Analytics, seleziona **[!UICONTROL Workspace]**.
+1. In Customer Journey Analytics, selezionare **[!UICONTROL Workspace]**.
 
-1. Seleziona **[!UICONTROL Projects]** nel pannello a sinistra, quindi seleziona **[!UICONTROL Create project]**.
+1. Seleziona **[!UICONTROL Progetti]** nel pannello a sinistra, quindi seleziona **[!UICONTROL Crea progetto]**.
 
 1. Seleziona **Progetto Workspace vuoto** per creare il tuo progetto Workspace utilizzando un browser.
 

@@ -6,8 +6,8 @@ exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 89%
+source-wordcount: '270'
+ht-degree: 68%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_bullet_goalvalue"
 >title="Valore obiettivo"
->abstract="**[!UICONTROL High goal]** è l’obiettivo principale a cui stai mirando. **[!UICONTROL Low goal]** e **[!UICONTROL Mid goal]** creano intervalli sotto l’[!UICONTROL High goal]. Nota: quando l’opzione **[!UICONTROL Percentages]** è selezionata, immetti gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento."
+>abstract="**[!UICONTROL Obiettivo elevato]** è l’obiettivo principale a cui stai mirando. **[!UICONTROL Obiettivo basso]** e **[!UICONTROL Obiettivo intermedio]** creano intervalli al di sotto dell’[!UICONTROL Obiettivo elevato]. Nota: quando l’opzione **[!UICONTROL Percentuali]** è selezionata, immetti gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -33,19 +33,19 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive una visualizzazione bullet in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Bullet](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive una visualizzazione bullet in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Bullet](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
-La visualizzazione **[!UICONTROL Bullet]** ![GraphBullet](/help/assets/icons/GraphBullet.svg) mostra come una metrica si confronta con o si misura rispetto agli intervalli di prestazioni (obiettivi).
+La visualizzazione ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** mostra come una metrica si confronta con, o misura rispetto, intervalli di prestazioni (obiettivi).
 
 ![Visualizzazione del grafico bullet](assets/bullet.png)
 
-Il grafico bullet presenta una singola misura primaria (ad esempio le entrate annuali correnti) e consente di inserire intervalli qualitativi di gamme di prestazioni (ad esempio rispetto a un fatturato target). Puoi specificare intervalli di obiettivi alti, medi e bassi. Puoi specificare intervalli di obiettivi in ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]**.
+Il grafico bullet presenta una singola misura primaria (ad esempio le entrate annuali correnti) e consente di inserire intervalli qualitativi di gamme di prestazioni (ad esempio rispetto a un fatturato target). Puoi specificare intervalli di obiettivi alti, medi e bassi. È possibile specificare intervalli di obiettivi in ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Impostazioni]**.
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione del grafico bullet](https://video.tv.adobe.com/v/329424/?captions=ita&quality=12/?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione del grafico bullet](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12&learn=on){target="_blank"}.
 
 {{videoaa}}
 
@@ -58,12 +58,12 @@ Puoi definire impostazioni specifiche per una visualizzazione [!UICONTROL Bullet
 
 | Impostazione | Descrizione |
 |---|---|
-| **[!UICONTROL Bullet options]** | Specifica i valori per l’**[!UICONTROL High goal]**, l’**[!UICONTROL Mid goal]** e l’**[!UICONTROL Low goal]** nella visualizzazione [!UICONTROL Bullet]. <br/>**[!UICONTROL High goal]**&#x200B;è l’obiettivo principale a cui stai mirando. L’**[!UICONTROL Low goal]**&#x200B;e l’**[!UICONTROL Mid goal]**&#x200B;creano intervalli al di sotto dell’obiettivo alto. Nota: quando l’opzione **[!UICONTROL Percentages]**&#x200B;è selezionata, immetti gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento. |
+| **[!UICONTROL Opzioni punto elenco]** | Specifica i valori per **[!UICONTROL Obiettivo alto]**, **[!UICONTROL Obiettivo medio]** e **[!UICONTROL Obiettivo basso]** nella visualizzazione [!UICONTROL Bullet]. <br/>**[!UICONTROL Obiettivo elevato ]**è l’obiettivo principale a cui stai mirando.**[!UICONTROL  Obiettivo basso ]**e**[!UICONTROL  Obiettivo intermedio ]**creano intervalli al di sotto dell&#39;obiettivo alto. Nota: quando l’opzione**[!UICONTROL  Percentuali ]**è selezionata, immetti gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento. |
 
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

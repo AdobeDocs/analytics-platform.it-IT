@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
 source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 90%
+source-wordcount: '612'
+ht-degree: 64%
 
 ---
 
@@ -19,27 +19,27 @@ Puoi configurare il tipo di metrica e il [modello di attribuzione](#attribution-
 
    ![Tipo di metrica e attribuzione](assets/cm-type-alloc.png)
 
-   * Specifica il **[!UICONTROL Metric type]**:
+   * Specificare il tipo di metrica ****:
 
      | Tipi di metriche | Definizione |
      |---|---|
-     | **[!UICONTROL Standard]** | Se una formula è costituita da una singola metrica standard, visualizza dati identici alla sua controparte metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singolo elemento di riga. <p>Ad esempio, ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![Divide](/help/assets/icons/Divide.svg) ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]** prende gli ordini per quell’elemento di riga specifico e lo divide per il numero di sessioni per quell’elemento di riga specifico. |
-     | **[!UICONTROL Grand total]** | Utilizza **[!UICONTROL Grand total]** per il periodo di reporting in ogni elemento di riga. Se una formula è costituita da una singola metrica Totale complessivo, la metrica calcolata visualizza lo stesso numero Totale complessivo su ogni elemento di riga. Le metriche del totale complessivo sono utili quando desideri creare metriche calcolate che si confrontano con i dati totali. <p>Ad esempio, ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![Divide](/help/assets/icons/Divide.svg) ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Total Sessions]** mostra la proporzione degli ordini rispetto a tutte le sessioni, non solo le sessioni rispetto all’elemento di riga specifico. In questo esempio, specifica **[!UICONTROL Grand Total]** per la metrica ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]** nella metrica calcolata, che la trasformerà automaticamente in ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Total Sessions]**. |
+     | **[!UICONTROL Standard]** | Se una formula è costituita da una singola metrica standard, visualizza dati identici alla sua controparte metrica non calcolata. Le metriche standard sono utili per creare metriche calcolate specifiche per ogni singolo elemento di riga. <p>Ad esempio, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Ordini]** ![Dividi](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Sessioni]** prende gli ordini per quell&#39;elemento riga specifico e li divide per il numero di sessioni per quell&#39;elemento riga specifico. |
+     | **[!UICONTROL Totale complessivo]** | Utilizza **[!UICONTROL Totale complessivo]** per il periodo di reporting in ogni elemento di riga. Se una formula è costituita da una singola metrica Totale complessivo, la metrica calcolata visualizza lo stesso numero Totale complessivo su ogni elemento di riga. Le metriche del totale complessivo sono utili quando desideri creare metriche calcolate che si confrontano con i dati totali. <p>Ad esempio, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Ordini]** ![Dividi](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Sessioni totali]** mostra la proporzione degli ordini rispetto a tutte le sessioni, non solo le sessioni rispetto all&#39;elemento riga specifico. In questo esempio si specifica **[!UICONTROL Totale complessivo]** per la metrica ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Sessioni]** nella metrica calcolata, che la trasformerà automaticamente in ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Sessioni totali]**. |
 
-   * Specifica **[!UICONTROL Attribution]**.
+   * Specificare **[!UICONTROL Attribuzione]**.
 
       1. Puoi:
 
-         * Disabilitare **[!UICONTROL Use non-default attribution model]** per utilizzare il modello di attribuzione colonna predefinito, ovvero Ultimo contatto, con un intervallo di lookback di 30 giorni.
-         * Abilitare **[!UICONTROL Use non-default attribution model]**. Nella finestra di dialogo **[!UICONTROL Column attribution model]**
+         * Disabilita **[!UICONTROL Usa modello di attribuzione non predefinito]** per utilizzare il modello di attribuzione colonna predefinito, ovvero Ultimo contatto, con un intervallo di lookback di 30 giorni.
+         * Abilita **[!UICONTROL Usa modello di attribuzione non predefinito]**. Nella finestra di dialogo **[!UICONTROL Modello di attribuzione colonna]**,
 
-            * Seleziona **[!UICONTROL Model]** dai [modelli di attribuzione](#attribution-models).
-            * Seleziona **[!UICONTROL Container]** dalle opzioni [container](#container).
-            * Seleziona **[!UICONTROL Lookback window]** dalle opzioni dell&#39;[intervallo di lookback](#lookback-window). Se si seleziona **[!UICONTROL Custom Time]**, è possibile definire il periodo di tempo in **[!UICONTROL Minute(s)]** fino a **[!UICONTROL Quarter(s)]**.
+            * Seleziona un **[!UICONTROL modello]** dai [modelli di attribuzione](#attribution-models).
+            * Seleziona un **[!UICONTROL contenitore]** dalle opzioni [contenitore](#container).
+            * Seleziona un **[!UICONTROL intervallo di lookback]** dalle opzioni [intervallo di lookback](#lookback-window). Se selezioni **[!UICONTROL Ora personalizzata]**, puoi definire il periodo di tempo in **[!UICONTROL Minuti]** fino a **[!UICONTROL Trimestri]**.
 
-      1. Seleziona **[!UICONTROL Apply]** per applicare il modello di attribuzione non predefinito. Seleziona Annulla per annullare.
+      1. Seleziona **[!UICONTROL Applica]** per applicare il modello di attribuzione non predefinito. Seleziona Annulla per annullare.
 
-     Se hai già definito un modello di attribuzione non predefinito, seleziona **[!UICONTROL Edit]** per modificare la selezione.
+     Se hai già definito un modello di attribuzione non predefinito, seleziona **[!UICONTROL Modifica]** per modificare la selezione.
 
 Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribuzione, un contenitore e un intervallo di lookback.
 
@@ -163,6 +163,6 @@ Consulta [Esempio](#example) per un esempio di utilizzo di un modello di attribu
 >[!MORELIKETHIS]
 >
 >[Impostazioni dei componenti di attribuzione](/help/data-views/component-settings/attribution.md)
->&#x200B;>[Metrica di partecipazione](participation-metric.md)
+>[Metrica di partecipazione](participation-metric.md)
 >
 

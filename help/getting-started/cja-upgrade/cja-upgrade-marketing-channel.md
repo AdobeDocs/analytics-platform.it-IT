@@ -7,8 +7,8 @@ feature: Basics
 exl-id: 2a74da97-61cb-4c98-949b-3fc428839d70
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 100%
+source-wordcount: '289'
+ht-degree: 86%
 
 ---
 
@@ -31,15 +31,15 @@ Per utilizzare i canali di marketing in Customer Journey Analytics quando si uti
 
 1. In Customer Journey Analytics, seleziona la visualizzazione dati in cui desideri aggiungere canali di marketing.
 
-1. Nella visualizzazione dati, seleziona la scheda **[!UICONTROL Components]**.
+1. Nella visualizzazione dati, selezionare la scheda **[!UICONTROL Componenti]**.
 
-1. Seleziona **[!UICONTROL Create derived field]** (Elementi dati) nella barra a sinistra.
+1. Seleziona **[!UICONTROL Crea campo derivato]** nella barra a sinistra.
 
-1. Nella finestra di dialogo **[!UICONTROL Create derived field]**, seleziona **[!UICONTROL Function templates]** dal menu a discesa.
+1. Nella finestra di dialogo **[!UICONTROL Crea campo derivato]**, seleziona **[!UICONTROL Modelli di funzione]** dal menu a discesa.
 
    ![Creare modelli di funzione campo derivato](assets/derived-field-create.png)
 
-1. Trascina il modello **[!UICONTROL Marketing channels]** nell’area di lavoro vuota.
+1. Trascina il modello **[!UICONTROL Canali di marketing]** nell&#39;area di lavoro vuota.
 
 1. Personalizza la logica per ciascun canale di marketing, per assicurarti che corrisponda alla logica utilizzata per identificare ogni canale nell’ambiente Adobe Analytics.
 
@@ -47,7 +47,7 @@ Per utilizzare i canali di marketing in Customer Journey Analytics quando si uti
 
 1. Nella colonna di destra, specifica un nome e una descrizione per il canale di marketing.
 
-1. Seleziona **[!UICONTROL Save]**.
+1. Seleziona **[!UICONTROL Salva]**.
 
    Il nuovo campo derivato viene aggiunto ai Campi derivati > contenitore, come parte dei campi Schema nella barra a sinistra della visualizzazione Dati.
 

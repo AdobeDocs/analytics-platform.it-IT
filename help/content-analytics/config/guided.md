@@ -144,7 +144,7 @@ La configurazione richiede la selezione di una [Visualizzazione dati](/help/data
    * Per definire le colonne da visualizzare nella tabella, seleziona ![Impostazioni colonna](/help/assets/icons/ColumnSetting.svg). Selezionare le colonne da visualizzare nella finestra di dialogo **[!UICONTROL Personalizza tabella]** e selezionare **[!UICONTROL Applica]** per applicare le modifiche.
 
 1. Seleziona ![SelectBox](/help/assets/icons/SelectBox.svg) la visualizzazione dati che desideri utilizzare.
-1. Seleziona **[!UICONTROL Salva]** per confermare la visualizzazione dati selezionata. Selezionare **[!UICONTROL Annulla]** per annullare.
+1. Seleziona **[!UICONTROL Salva]** per confermare la visualizzazione dati selezionata. Seleziona **[!UICONTROL Annulla]** per annullare.
 
 
 In Customer Journey Analytics, una [visualizzazione dati](/help/data-views/data-views.md) è associata a una [connessione](/help/connections/overview.md) di Customer Journey Analytics. Inoltre, una connessione è basata su una sandbox all’interno della tua organizzazione. Dopo aver salvato la configurazione, nel campo **[!UICONTROL Sandbox]** viene inserito automaticamente il nome della sandbox, in base alla visualizzazione dati selezionata.

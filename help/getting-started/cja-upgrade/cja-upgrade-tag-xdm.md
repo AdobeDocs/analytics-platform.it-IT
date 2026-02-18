@@ -7,8 +7,8 @@ feature: Basics
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
 source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 100%
+source-wordcount: '1631'
+ht-degree: 66%
 
 ---
 
@@ -53,31 +53,31 @@ Per creare un elemento dati Nome pagina:
 
 1. Accedi a experience.adobe.com utilizzando le credenziali Adobe ID.
 
-1. In Adobe Experience Platform, passa a **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]**.
+1. In Adobe Experience Platform, vai a **[!UICONTROL Raccolta dati]** > **[!UICONTROL Tag]**.
 
-1. Nella pagina **[!UICONTROL Tag Properties]**, seleziona il tag appena creato dall’elenco delle proprietà per aprirlo.
+1. Nella pagina **[!UICONTROL Proprietà tag]**, seleziona il tag appena creato dall&#39;elenco delle proprietà per aprirlo.
 
-1. Seleziona **[!UICONTROL Data Elements]** (Elementi dati) nella barra a sinistra.
+1. Seleziona **[!UICONTROL Elementi dati]** nella barra a sinistra.
 
-1. Seleziona **[!UICONTROL Add Data Element]** (Aggiungi elemento dati).
+1. Selezionare **[!UICONTROL Aggiungi elemento dati]**.
 
-1. Nella finestra di dialogo **[!UICONTROL Create Data Element]**, fornisci le seguenti informazioni:
+1. Nella finestra di dialogo **[!UICONTROL Crea elemento dati]**, specifica le seguenti informazioni:
 
-   * **[!UICONTROL Name]**: il nome del tuo elemento dati. Ad esempio `Page Name`.
+   * **[!UICONTROL Name]**: nome dell&#39;elemento dati. Ad esempio `Page Name`.
 
-   * **[!UICONTROL Extension]**: seleziona **[!UICONTROL Core]** dall’elenco.
+   * **[!UICONTROL Estensione]**: selezionare **[!UICONTROL Core]** dall&#39;elenco.
 
-   * **[!UICONTROL Data Element Type]**: seleziona **[!UICONTROL Page Info]** dall’elenco.
+   * **[!UICONTROL Tipo di elemento dati]**: selezionare **[!UICONTROL Informazioni pagina]** dall&#39;elenco.
 
-   * **[!UICONTROL Attribute]**: seleziona **[!UICONTROL Title]** dall’elenco.
+   * **[!UICONTROL Attributo]**: selezionare **[!UICONTROL Titolo]** dall&#39;elenco.
 
      ![Creare un elemento dati utilizzando le informazioni della pagina](assets/create-dataelement-1.png)
 
-     In alternativa, puoi usare il valore da una variabile del livello dati, ad esempio `pageName` e il tipo di elemento dati [!UICONTROL JavaScript Variable] (Variabile JavaScript) per definire l’elemento dati.
+     In alternativa, è possibile utilizzare il valore di una variabile del livello dati, ad esempio `pageName` e il tipo di elemento dati [!UICONTROL Variabile JavaScript] per definire l&#39;elemento dati.
 
      ![Creare un elemento dati utilizzando una variabile Javascript](assets/create-dataelement-2.png)
 
-1. Seleziona **[!UICONTROL Save]** (Salva).
+1. Seleziona **[!UICONTROL Salva]**.
 
    Ora immagina di voler impostare un elemento dati che faccia riferimento all’ID Experience Cloud fornito automaticamente dall’SDK per Web Adobe Experience Platform e disponibile tramite l’estensione Experience Cloud ID Service.
 
@@ -91,37 +91,37 @@ Per creare un elemento dati ECID:
 
 1. Accedi a experience.adobe.com utilizzando le credenziali Adobe ID.
 
-1. In Adobe Experience Platform, passa a **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]**.
+1. In Adobe Experience Platform, vai a **[!UICONTROL Raccolta dati]** > **[!UICONTROL Tag]**.
 
-1. Seleziona il tag appena creato dall’elenco [!UICONTROL Tag Properties] (Proprietà tag) per aprirlo.
+1. Seleziona il tag appena creato dall&#39;elenco di [!UICONTROL Proprietà tag] per aprirlo.
 
 1. (Condizionale) Installa l’estensione del servizio Experience Cloud ID se non è già installata:
 
-   1. Seleziona **[!UICONTROL Extensions]** (Elementi dati) nella barra a sinistra.
+   1. Seleziona **[!UICONTROL Estensioni]** nella barra a sinistra.
 
-   1. La scheda **[!UICONTROL Installed]** è selezionata per impostazione predefinita. Se il riquadro **[!UICONTROL Experience Cloud ID Service]** è elencato, procedi al passaggio 5.
+   1. La scheda **[!UICONTROL Installato]** è selezionata per impostazione predefinita. Se il riquadro **[!UICONTROL Servizio Experience Cloud ID]** è elencato, andare al passaggio 5.
 
-   1. Se il riquadro **[!UICONTROL Experience Cloud ID Service]** non è elencato, seleziona la scheda **[!UICONTROL Catalog]**.
+   1. Se il riquadro **[!UICONTROL Servizio Experience Cloud ID]** non è elencato, selezionare la scheda **[!UICONTROL Catalogo]**.
 
-   1. Nel campo di ricerca, cerca **[!UICONTROL Experience Cloud ID Service]**, quindi seleziona il riquadro visualizzato.
+   1. Nel campo di ricerca, cerca **[!UICONTROL Experience Cloud ID Service]**, quindi seleziona il riquadro quando viene visualizzato
 
-   1. Seleziona **[!UICONTROL Install]** > **[!UICONTROL Save]**.
+   1. Seleziona **[!UICONTROL Installa]** > **[!UICONTROL Salva]**.
 
-1. Seleziona **[!UICONTROL Data Elements]** (Elementi dati) nella barra a sinistra.
+1. Seleziona **[!UICONTROL Elementi dati]** nella barra a sinistra.
 
-1. Seleziona **[!UICONTROL Add Data Element]** (Aggiungi elemento dati).
+1. Selezionare **[!UICONTROL Aggiungi elemento dati]**.
 
-1. Nella finestra di dialogo **[!UICONTROL Create Data Element]**, fornisci le seguenti informazioni:
+1. Nella finestra di dialogo **[!UICONTROL Crea elemento dati]**, specifica le seguenti informazioni:
 
-   * **[!UICONTROL Name]**: il nome del tuo elemento dati. Ad esempio `ECID`.
+   * **[!UICONTROL Name]**: nome dell&#39;elemento dati. Ad esempio `ECID`.
 
-   * **[!UICONTROL Extension]**: seleziona **[!UICONTROL Experience Cloud ID Service]** dall’elenco.
+   * **[!UICONTROL Estensione]**: seleziona **[!UICONTROL Servizio Experience Cloud ID]** dall&#39;elenco.
 
-   * **[!UICONTROL Data Element Type]**: seleziona **[!UICONTROL ECID]** dall’elenco.
+   * **[!UICONTROL Tipo di elemento dati]**: selezionare **[!UICONTROL ECID]** dall&#39;elenco.
 
      ![Elemento dati ECID](assets/ecid-dataelement.png)
 
-1. Seleziona **[!UICONTROL Save]** (Salva).
+1. Seleziona **[!UICONTROL Salva]**.
 
 1. Continua con [Creare elementi dati aggiuntivi](#create-additional-data-elements).
 
@@ -167,25 +167,25 @@ Per definire un elemento dati oggetto XDM:
 
 1. Accedi a experience.adobe.com utilizzando le credenziali Adobe ID.
 
-1. In Adobe Experience Platform, passa a **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]**.
+1. In Adobe Experience Platform, vai a **[!UICONTROL Raccolta dati]** > **[!UICONTROL Tag]**.
 
-1. Seleziona il tag appena creato dall’elenco [!UICONTROL Tag Properties] (Proprietà tag) per aprirlo.
+1. Seleziona il tag appena creato dall&#39;elenco di [!UICONTROL Proprietà tag] per aprirlo.
 
-1. Seleziona **[!UICONTROL Data Elements]** (Elementi dati) nella barra a sinistra.
+1. Seleziona **[!UICONTROL Elementi dati]** nella barra a sinistra.
 
-1. Seleziona **[!UICONTROL Add Data Element]** (Aggiungi elemento dati).
+1. Selezionare **[!UICONTROL Aggiungi elemento dati]**.
 
-1. Nella finestra di dialogo **[!UICONTROL Create Data Element]**, fornisci le seguenti informazioni:
+1. Nella finestra di dialogo **[!UICONTROL Crea elemento dati]**, specifica le seguenti informazioni:
 
-   * **[!UICONTROL Name]**: il nome del tuo elemento dati. Ad esempio `XDM - Page View`.
+   * **[!UICONTROL Name]**: nome dell&#39;elemento dati. Ad esempio `XDM - Page View`.
 
-   * **[!UICONTROL Extension]**: seleziona **[!UICONTROL Adobe Experience Platform Web SDK]** dall’elenco.
+   * **[!UICONTROL Estensione]**: selezionare **[!UICONTROL Adobe Experience Platform Web SDK]** dall&#39;elenco.
 
-   * **[!UICONTROL Data Element Type]**: seleziona **[!UICONTROL XDM Object]** dall’elenco.
+   * **[!UICONTROL Tipo di elemento dati]**: selezionare **[!UICONTROL Oggetto XDM]** dall&#39;elenco.
 
-   * **[!UICONTROL Sandbox]**: seleziona la sandbox dall’elenco.
+   * **[!UICONTROL Sandbox]**: seleziona la sandbox dall&#39;elenco.
 
-   * **[!UICONTROL Schema]**: seleziona lo schema dall’elenco.
+   * **[!UICONTROL Schema]**: seleziona lo schema dall&#39;elenco.
 
 1. Mappa l’attributo `identification > core > ecid` all’elemento dati ECID, definito nello schema. Seleziona l’icona del cilindro per scegliere facilmente l’elemento dati ECID dall’elenco degli elementi dati.
 
@@ -197,7 +197,7 @@ Per definire un elemento dati oggetto XDM:
 
    ![Mappa l’elementi dati Page Name (Nome pagina)](assets/map-pagename.png)
 
-1. Seleziona **[!UICONTROL Save]** (Salva).
+1. Seleziona **[!UICONTROL Salva]**.
 
 1. Continua con [Configura regole](#configure-rules).
 
@@ -217,35 +217,35 @@ Per definire una regola:
 
 1. Accedi a experience.adobe.com utilizzando le credenziali Adobe ID.
 
-1. In Adobe Experience Platform, passa a **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]**.
+1. In Adobe Experience Platform, vai a **[!UICONTROL Raccolta dati]** > **[!UICONTROL Tag]**.
 
-1. Seleziona il tag appena creato dall’elenco [!UICONTROL Tag Properties] (Proprietà tag) per aprirlo.
+1. Seleziona il tag appena creato dall&#39;elenco di [!UICONTROL Proprietà tag] per aprirlo.
 
-1. Seleziona **[!UICONTROL Rules]** (Elementi dati) nella barra a sinistra.
+1. Seleziona **[!UICONTROL Regole]** nella barra a sinistra.
 
-1. Seleziona **[!UICONTROL Add Rule]** (Aggiungi elemento dati).
+1. Seleziona **[!UICONTROL Aggiungi regola]**.
 
-1. Nella finestra di dialogo **[!UICONTROL Create Rule]**, specifica le seguenti informazioni:
+1. Nella finestra di dialogo **[!UICONTROL Crea regola]**, specifica le seguenti informazioni:
 
-   * **[!UICONTROL Name]**: il nome della regola. Ad esempio `Page View`.
+   * **[!UICONTROL Nome]**: nome della regola. Ad esempio `Page View`.
 
-   * **[!UICONTROL Events]**: seleziona **[!UICONTROL + Add]**. Quindi, nella finestra di dialogo **[!UICONTROL Event Configuration]**, specifica le seguenti informazioni. Al termine, seleziona **[!UICONTROL Keep Changes]**.
+   * **[!UICONTROL Eventi]**: Selezionare **[!UICONTROL + Aggiungi]**. Quindi, nella finestra di dialogo **[!UICONTROL Configurazione evento]**, specifica le seguenti informazioni. Al termine, selezionare **[!UICONTROL Mantieni modifiche]**.
 
-      * **[!UICONTROL Extension]**: seleziona **[!UICONTROL Core]** dall’elenco.
+      * **[!UICONTROL Estensione]**: selezionare **[!UICONTROL Core]** dall&#39;elenco.
 
-      * **[!UICONTROL Event Type]**: seleziona **[!UICONTROL Window Loaded]** dall’elenco.
+      * **[!UICONTROL Tipo evento]**: selezionare **[!UICONTROL Finestra caricata]** dall&#39;elenco.
 
         ![Regola - Configurazione evento](assets/event-windowloaded-pageview.png)
 
-   * **[!UICONTROL Actions]**: seleziona **[!UICONTROL + Add]**. Quindi, nella finestra di dialogo [!UICONTROL Action Configuration], specifica le seguenti informazioni. Al termine, seleziona **[!UICONTROL Keep Changes]**.
+   * **[!UICONTROL Azioni]**: Selezionare **[!UICONTROL + Aggiungi]**. Quindi, nella finestra di dialogo [!UICONTROL Configurazione azione], specifica le seguenti informazioni. Al termine, selezionare **[!UICONTROL Mantieni modifiche]**.
 
-      * **[!UICONTROL Extension]**: seleziona **[!UICONTROL Adobe Experience Platform Web SDK]** dall’elenco.
+      * **[!UICONTROL Estensione]**: selezionare **[!UICONTROL Adobe Experience Platform Web SDK]** dall&#39;elenco.
 
-      * **[!UICONTROL Action Type]**: seleziona **[!UICONTROL Send event]** dall’elenco.
+      * **[!UICONTROL Tipo azione]**: selezionare **[!UICONTROL Invia evento]** dall&#39;elenco.
 
-      * **[!UICONTROL Type]**: seleziona **[!UICONTROL Web Webpagedetails Page Views]** dall’elenco.
+      * **[!UICONTROL Tipo]**: selezionare **[!UICONTROL Visualizzazioni pagina Web Webpagedetails]** dall&#39;elenco.
 
-      * **[!UICONTROL XDM data]**: seleziona l’icona cilindro quindi seleziona **[!UICONTROL XDM - Page View]** dall’elenco degli elementi di dati.
+      * **[!UICONTROL Dati XDM]**: seleziona l&#39;icona del cilindro, quindi seleziona **[!UICONTROL XDM - Visualizzazione pagina]** dall&#39;elenco degli elementi di dati.
 
         ![Regola - Configurazione azione](assets/action-pageview-xdm.png)
 
@@ -253,7 +253,7 @@ Per definire una regola:
 
         ![Crea regola](assets/rule-pageview.png)
 
-1. Seleziona **[!UICONTROL Save]** (Salva).
+1. Seleziona **[!UICONTROL Salva]**.
 
 1. Ripeti questo processo per ogni regola da aggiungere al sito.
 
@@ -271,29 +271,29 @@ Per generare e pubblicare il tag:
 
 1. Accedi a experience.adobe.com utilizzando le credenziali Adobe ID.
 
-1. In Adobe Experience Platform, passa a **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]**.
+1. In Adobe Experience Platform, vai a **[!UICONTROL Raccolta dati]** > **[!UICONTROL Tag]**.
 
-1. Seleziona il tag appena creato dall’elenco [!UICONTROL Tag Properties] (Proprietà tag) per aprirlo.
+1. Seleziona il tag appena creato dall&#39;elenco di [!UICONTROL Proprietà tag] per aprirlo.
 
-1. Seleziona **[!UICONTROL Publishing Flow]** nella barra a sinistra.
+1. Seleziona **[!UICONTROL Flusso di pubblicazione]** dalla barra a sinistra.
 
-1. Seleziona **[!UICONTROL Add Library]**.
+1. Seleziona **[!UICONTROL Aggiungi libreria]**.
 
-1. Nella finestra di dialogo **[!UICONTROL Create Library]**, specifica le seguenti informazioni:
+1. Nella finestra di dialogo **[!UICONTROL Crea libreria]**, specifica le seguenti informazioni:
 
-   * **[!UICONTROL Name]**: il nome della libreria.
+   * **[!UICONTROL Nome]**: nome della libreria.
 
-   * **[!UICONTROL Environment]**: seleziona **[!UICONTROL Development (development)]** dall’elenco.
+   * **[!UICONTROL Ambiente]**: selezionare **[!UICONTROL Sviluppo (sviluppo)]** dall&#39;elenco.
 
-1. Seleziona **[!UICONTROL + Add All Changed Resources]** (Crea set di dati).
+1. Selezionare **[!UICONTROL + Aggiungi tutte le risorse modificate]**.
 
    ![Pubblica - Crea libreria](assets/create-library-aep.png)
 
-1. Seleziona **[!UICONTROL Save & Build to Development]** (Salva e crea per lo sviluppo).
+1. Seleziona **[!UICONTROL Salva e genera in sviluppo]**.
 
    Il tag viene salvato e quindi creato per il tuo ambiente di sviluppo. Un punto verde indica la corretta compilazione del tag nell’ambiente di sviluppo.
 
-1. È possibile selezionare **[!UICONTROL ...]** per ricreare la libreria o spostarla in un ambiente di staging o di produzione.
+1. È possibile selezionare **[!UICONTROL ...]** per ricompilare la libreria o spostarla in un ambiente di staging o produzione.
 
    ![Pubblica - Libreria di compilazione](assets/build-library.png)
 

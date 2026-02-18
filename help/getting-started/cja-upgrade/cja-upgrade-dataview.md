@@ -7,8 +7,8 @@ feature: Basics
 exl-id: 832f3f9a-1836-43ac-8185-f22ae0ded3aa
 source-git-commit: eb9b749a5c61da3b4b5d2eeeed93bf5e4702a415
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 91%
+source-wordcount: '401'
+ht-degree: 89%
 
 ---
 
@@ -31,9 +31,9 @@ Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli e
 
 Per creare una visualizzazione dati:
 
-1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e seleziona **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
+1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e seleziona **[!UICONTROL Visualizzazioni dati]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu superiore.
 
-1. Seleziona **[!UICONTROL Create new data view]**. In alternativa, puoi selezionare una visualizzazione dati esistente dal relativo elenco per modificarla.
+1. Selezionare **[!UICONTROL Crea nuova visualizzazione dati]**. In alternativa, puoi selezionare una visualizzazione dati esistente dal relativo elenco per modificarla.
 
 1. Nella scheda [!UICONTROL **Configura**], specifica un nome per la visualizzazione dati e configurane le impostazioni di base, i componenti e le opzioni di calendario.
 
@@ -55,8 +55,8 @@ Per creare una visualizzazione dati:
 
    Per informazioni dettagliate sulle opzioni disponibili durante la configurazione delle impostazioni per una visualizzazione dati, consulta [Impostazioni](/help/data-views/create-dataview.md#settings) in [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md).
 
-1. Seleziona **[!UICONTROL Save]** per salvare la configurazione per la visualizzazione dati creata.
+1. Seleziona **[!UICONTROL Salva]** per salvare la configurazione per la visualizzazione dati.
 
-1. Una volta specificate tutte le impostazioni desiderate, seleziona **[!UICONTROL Save and finish]**.
+1. Dopo aver specificato tutte le impostazioni desiderate, selezionare **[!UICONTROL Salva e termina]**.
 
 {{upgrade-final-step}}
