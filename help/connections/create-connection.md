@@ -172,7 +172,7 @@ L’esperienza del flusso di lavoro di creazione e modifica delle connessioni po
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare e modificare una connessione](https://video.tv.adobe.com/v/343044/?quality=12&learn=on){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare e modificare una connessione](https://video.tv.adobe.com/v/3409300/?captions=ita&quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
