@@ -4,9 +4,9 @@ title: Utilizzare i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: 9b941deb424d92744bea99f6ea01f6434d6bc19f
+source-git-commit: 02aa4b4c9b357efca3d620bb72d8a505153bc079
 workflow-type: tm+mt
-source-wordcount: '20935'
+source-wordcount: '21006'
 ht-degree: 96%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 96%
 
 I modelli (o i modelli aziendali) in Analysis Workspace forniscono informazioni rapide sugli scenari di reporting più comuni. Di seguito sono riportati alcuni esempi di domande a cui puoi rispondere con i modelli:
 
-* quante persone visitano il sito
-* quanti di questi visitatori sono visitatori univoci (conteggiati una sola volta)
-* come sono arrivati al sito (ad esempio, se hanno seguito un collegamento o ci sono arrivati direttamente)
-* quali parole chiave hanno utilizzato i visitatori per cercare il contenuto del sito
-* per quanto tempo i visitatori sono rimasti su una determinata pagina o sull’intero sito
-* su quali collegamenti i visitatori hanno fatto clic e quando hanno lasciato il sito
-* quali canali di marketing sono più efficaci nel generare ricavi o eventi di conversione
-* quanto tempo hanno trascorso a guardare un video
-* quali browser e dispositivi hanno utilizzato per visitare il sito
+* Quante persone visitano il tuo sito.
+* Quanti di questi visitatori sono visitatori univoci (conteggiati una sola volta).
+* Come sono arrivati al sito (ad esempio, se hanno seguito un collegamento o ci sono arrivati direttamente).
+* Parole chiave utilizzate dai visitatori per cercare il contenuto del sito.
+* Per quanto tempo i visitatori sono rimasti su una determinata pagina o sull’intero sito.
+* Collegamenti su cui i visitatori hanno fatto clic e quando hanno lasciato il sito.
+* Quali canali di marketing sono più efficaci nel generare profitti o eventi di conversione.
+* Quanto tempo passavano a guardare un video.
+* Quali browser e dispositivi utilizzavano per visitare il tuo sito.
 
 Le informazioni seguenti descrivono come accedere e utilizzare i modelli dalla scheda [!UICONTROL Modelli] in Analysis Workspace.
 
@@ -1117,11 +1117,15 @@ Per accedere a tutti i modelli predfiniti disponibili:
 
 ### Modelli Mix Modeler {#mix-modeler-templates}
 
+ Sono disponibili i modelli seguenti:
+
+| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| --- | --- |
+| [!UICONTROL **Informazioni sul modello incrementale Mix Modeler**] | Visualizza informazioni da modelli selezionati generati da Mix Modeler.<p>**Questo può aiutarti** a comprendere meglio le informazioni incrementali dai modelli generati in Mix Modeler. <p>**In base a queste informazioni** potrai:<ul><li>Visualizza e quantifica l’impatto delle attività di marketing della tua organizzazione.</li><li>Identifica i canali con prestazioni elevate.</li><li>Identifica i canali che potrebbero necessitare di ottimizzazione.</li></ul></p> |
+
 <!-- CJA only -->
 
 >[!CONTEXTUALHELP]
->id="template--mixModelerReport"
+>id="template--mixmodeler-incremental-models-insights"
 >title="Visualizza informazioni da modelli selezionati generati da Mix Modeler."
 >abstract="**Questo può aiutarti** a comprendere meglio le informazioni incrementali dai modelli generati in Mix Modeler. <br/>**In base a queste informazioni** potrai:<ul><li>Visualizza e quantifica l’impatto delle attività di marketing della tua organizzazione.</li><li>Identifica i canali con prestazioni elevate.</li><li>Identifica i canali che potrebbero necessitare di ottimizzazione.</li></ul>"
-
-
