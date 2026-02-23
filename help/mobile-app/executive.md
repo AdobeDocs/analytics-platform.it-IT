@@ -19,7 +19,7 @@ Le informazioni seguenti forniscono agli utenti direzionali informazioni sulle b
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aiutare i dirigenti ad accedere alle scorecard per dispositivi mobili](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/assist-executives-to-access-mobile-scorecards){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aiutare i dirigenti ad accedere alle scorecard per dispositivi mobili](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/dashboards/assist-executives-to-access-mobile-scorecards){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

@@ -20,7 +20,7 @@ Le metriche calcolate sono metriche personalizzate che puoi creare dalle metrich
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introduzione alle metriche calcolate](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/introduction-to-calculated-metrics-in-customer-journey-analytics){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introduzione alle metriche calcolate](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/introduction-to-calculated-metrics-in-customer-journey-analytics){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

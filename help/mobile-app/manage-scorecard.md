@@ -86,7 +86,7 @@ Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Storie di dati per progetti di scorecard per dispositivi mobili](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Storie di dati per progetti di scorecard per dispositivi mobili](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

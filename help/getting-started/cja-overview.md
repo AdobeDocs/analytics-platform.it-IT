@@ -29,7 +29,7 @@ Questa architettura illustra come Customer Journey Analytics consente di:
 
 >[!BEGINSHADEBOX]
 
-Per un video introduttivo su Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analysis: Analytics per Experience Business](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics){target="_blank"}.
+Per un video introduttivo su Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Customer Journey Analysis: Analytics per Experience Business](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -99,18 +99,18 @@ Dall’acquisizione dei dati all’accesso diretto a SQL, numerosi componenti di
 
 >[!BEGINSHADEBOX]
 
-Per un video introduttivo su come utilizzare i dati in Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dei dati in Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-prep/working-with-data-in-cja){target="_blank"}.
+Per un video introduttivo su come utilizzare i dati in Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dei dati in Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/data-prep/working-with-data-in-cja){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Per un video introduttivo sull’architettura e l’integrazione di Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Architettura e integrazione](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/architecture/architecture-and-integrations-of-cja){target="_blank"}.
+Per un video introduttivo sull’architettura e l’integrazione di Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Architettura e integrazione](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/architecture/architecture-and-integrations-of-cja){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 >[!MORELIKETHIS]
 >
->* [Corso intensivo di Adobe Customer Journey Analytics per analisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
->* [Ottimizzare l’approccio e il flusso di lavoro di Adobe Customer Journey Analytics: modelli di team per organizzazioni di tutte le dimensioni](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
->* [Livello di preparazione dell’organizzazione: guida incentrata sulle persone per la scalabilità di Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)
+>* [Corso intensivo di Adobe Customer Journey Analytics per analisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261?profile.language=it)
+>* [Ottimizzare l’approccio e il flusso di lavoro di Adobe Customer Journey Analytics: modelli di team per organizzazioni di tutte le dimensioni](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456?profile.language=it)
+>* [Livello di preparazione dell’organizzazione: guida incentrata sulle persone per la scalabilità di Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273?profile.language=it)

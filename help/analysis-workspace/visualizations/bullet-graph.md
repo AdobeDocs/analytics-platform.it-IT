@@ -45,7 +45,7 @@ Il grafico bullet presenta una singola misura primaria (ad esempio le entrate an
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione del grafico bullet](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"}.
+Per un video dimostrativo consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione del grafico bullet](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"}.
 
 {{videoaa}}
 

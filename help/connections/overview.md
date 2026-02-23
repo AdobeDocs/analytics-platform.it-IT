@@ -27,7 +27,7 @@ Le connessioni consentono agli amministratori di prodotto di Customer Journey An
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Connetti a origini dati](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"} per un video dimostrativo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Connetti a origini dati](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

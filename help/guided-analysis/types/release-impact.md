@@ -25,7 +25,7 @@ ht-degree: 71%
 
 L&#39;analisi dell&#39;impatto sulla versione ![Release](/help/assets/icons/Release.svg) **[!UICONTROL Release]** mostra un confronto tra le prestazioni degli indicatori chiave prima e dopo una data specifica. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli indicatori chiave desiderati. Una barra verticale al centro del grafico rappresenta la data che si desidera confrontare prima e dopo. In genere, questa data rappresenta una modifica rilevante del prodotto su cui desideri effettuare la misurazione, ad esempio un aggiornamento del prodotto o il lancio di una campagna.
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/release-impact)
+>[!VIDEO](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/guided-analysis/release-impact)
 
 ## Casi d’uso
 

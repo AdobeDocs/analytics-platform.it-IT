@@ -59,7 +59,7 @@ Le informazioni seguenti descrivono le impostazioni utilizzate da un componente 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
