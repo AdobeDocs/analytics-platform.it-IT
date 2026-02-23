@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 73%
+source-wordcount: '1298'
+ht-degree: 72%
 
 ---
 
@@ -19,7 +19,7 @@ Le informazioni seguenti forniscono agli utenti direzionali informazioni sulle b
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aiutare i dirigenti ad accedere alle scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3444844?captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aiutare i dirigenti ad accedere alle scorecard per dispositivi mobili](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/assist-executives-to-access-mobile-scorecards){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +46,13 @@ Per scaricare e installare l’app, segui i passaggi relativi al sistema operati
 
 **Per gli utenti direzionali su iOS:**
 
-Fare clic sul seguente collegamento (disponibile anche in Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) e seguire le istruzioni per scaricare, installare e aprire l&#39;app:
+Fare clic sul seguente collegamento (disponibile anche in Customer Journey Analytics in **[!UICONTROL Strumenti]** > **[!UICONTROL Dashboard di Analytics (app mobile)]**) e seguire le istruzioni per scaricare, installare e aprire l&#39;app:
 
 [Collegamento per iOS](https://apple.co/2zXq0aN)
 
 **Per gli utenti direzionali su Android:**
 
-Fare clic sul seguente collegamento (disponibile anche in Customer Journey Analytics in **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]**) e seguire le istruzioni per scaricare, installare e aprire l&#39;app:
+Fare clic sul seguente collegamento (disponibile anche in Customer Journey Analytics in **[!UICONTROL Strumenti]** > **[!UICONTROL Dashboard di Analytics (app mobile)]**) e seguire le istruzioni per scaricare, installare e aprire l&#39;app:
 
 [Collegamento per Android](https://bit.ly/2LM38Oo)
 
@@ -68,7 +68,7 @@ Per utilizzare le dashboard:
 
    ![Sequenza di accesso](assets/signseq.png)
 
-1. Scegli un’azienda. Dopo aver effettuato l’accesso alle dashboard, viene visualizzata la schermata **[!UICONTROL Choose a company]**. Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
+1. Scegli un’azienda. Dopo aver effettuato l&#39;accesso alle dashboard, viene visualizzata la schermata **[!UICONTROL Scegli un&#39;azienda]**. Questa schermata elenca le aziende di accesso a cui appartieni. Tocca il nome dell’azienda associata alla scorecard condivisa con te.
 
    L&#39;elenco delle scorecard mostra tutte le scorecard condivise con te.
 
@@ -87,7 +87,7 @@ Per utilizzare le dashboard:
 
    ![Niente di condiviso](assets/nothing.png)
 
-1. Esamina l’aspetto delle sezioni nella scorecard (la prima scorecard viene visualizzata in modalità scura; per ulteriori informazioni, consulta **[!UICONTROL Preferences]** di seguito).
+1. Esamina l’aspetto delle tessere nella scorecard (la prima scorecard viene visualizzata in modalità scura; per ulteriori informazioni, consulta **[!UICONTROL Preferences]** di seguito).
 
    ![Informazioni sulle sezioni](assets/newexplain.png)
 
@@ -118,13 +118,13 @@ Per utilizzare le dashboard:
 
    * Puoi modificare allo stesso modo anche gli intervalli date all’interno della vista raggruppamento mostrata sopra.
 
-   * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Tocca una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **[!UICONTROL COMPARE TO]**, tocca una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Tocca **[!UICONTROL Done]** in alto a destra. Il campo **[!UICONTROL Date Ranges]** e le sezioni della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
+   * A seconda dell’intervallo che si tocca (**Giorno**, **Settimana**, **Mese** o **Anno**), si vedranno due opzioni per gli intervalli date: l’intervallo di tempo attuale o quello immediatamente prima. Toccare una di queste due opzioni per selezionare il primo intervallo. Nell’elenco **[!UICONTROL CONFRONTA CON]**, toccare una delle opzioni che vengono mostrate per confrontare i dati di questo periodo di tempo con il primo intervallo date selezionato. Toccare **[!UICONTROL Fine]** in alto a destra dello schermo. Il campo **[!UICONTROL Intervalli date]** e le tessere della scorecard vengono aggiornati con i nuovi dati di confronto dei nuovi intervalli selezionati.
 
 1. Per applicare un segmento alla scorecard, tocca il menu a discesa dei segmenti e seleziona un segmento configurato dal tuo curatore. [I segmenti](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=it) nell&#39;app funzionano allo stesso modo di Workspace.
 
    ![Segmento](assets/segment_filter.png)
 
-1. Ottieni [!UICONTROL Scorecard] aggiornamenti. Se un [!UICONTROL Scorecard] non include tutte le metriche o i raggruppamenti che potrebbero interessarti, contatta il tuo team Customer Journey Analytics per far aggiornare la scorecard. Una volta aggiornata, è possibile trascinare giù la scheda sullo schermo per aggiornarla e caricare i dati aggiunti di recente.
+1. Ottieni aggiornamenti [!UICONTROL Scorecard]. Se una [!UICONTROL scorecard] non include tutte le metriche o i raggruppamenti che potrebbero interessarti, contatta il tuo team Customer Journey Analytics per far aggiornare la scorecard. Una volta aggiornata, è possibile trascinare giù la scheda sullo schermo per aggiornarla e caricare i dati aggiunti di recente.
 
 1. Per lasciare un feedback su questa app:
 

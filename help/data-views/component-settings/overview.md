@@ -5,10 +5,10 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: aa635d52007a3032d8c3f90a779d1b70213dee9e
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '3701'
-ht-degree: 54%
+source-wordcount: '3739'
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="dataview_component_settings"
 >title="Impostazioni dei componenti"
->abstract="Visualizza e configura nome, descrizione e altre impostazioni relative a un componente. Seleziona questa casella affinché il componente non sia visibile nei rapporti per utenti non amministratori. Gli amministratori possono comunque accedere al componente selezionando **[!UICONTROL Show all components]** in un progetto Workspace."
+>abstract="Visualizza e configura nome, descrizione e altre impostazioni relative a un componente. Seleziona questa casella affinché il componente non sia visibile nei rapporti per utenti non amministratori. Gli amministratori possono comunque accedere al componente selezionando **[!UICONTROL Mostra tutti i componenti]** in un progetto Workspace."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,19 +39,19 @@ Le informazioni seguenti descrivono le impostazioni utilizzate da un componente 
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
-| [!UICONTROL Component type] | Obbligatorio. Consente di cambiare un componente da Metrica a Dimension o viceversa. Modificando questa selezione a discesa, il componente viene spostato nella rispettiva area dei componenti inclusi. |
-| [!UICONTROL Component name] | Obbligatorio. Consente di specificare il nome descrittivo visualizzato in Analysis Workspace. È possibile rinominare un componente per assegnargli un nome specifico per la vista dati. |
-| [!UICONTROL Description] | Facoltativo ma consigliato. Fornisce informazioni sul componente ad altri utenti. |
-| [!UICONTROL Tags] | Facoltativo. Consente di assegnare al componente tag personalizzati o predefiniti per facilitarne la ricerca e il filtraggio nell’interfaccia utente di Analysis Workspace. |
-| [!UICONTROL Context labels] | Facoltativo. Menu a discesa delle [etichette di contesto](#context-labels) disponibili definite dal sistema che è possibile applicare a un componente. |
-| [!UICONTROL Schema field name] | Nome del campo schema. |
-| [!UICONTROL Dataset type] | Obbligatorio. Un campo non modificabile che mostra il tipo di set di dati (evento, ricerca o profilo) da cui proviene il componente. |
-| [!UICONTROL Dataset] | Un campo non modificabile che mostra da quale set di dati proviene il componente. Questo campo può contenere più set di dati. |
-| [!UICONTROL Schema type] | Campo non modificabile che mostra il tipo di dati del componente. Anche se è possibile utilizzare qualsiasi tipo di campo di schema supportato in Platform, non tutti i tipi di campi sono supportati in Customer Journey Analytics. Sono supportati i seguenti tipi di dati: `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String`e `Boolean`. Al momento, nei set di dati di ricerca è consentito solo il tipo di dati schema `String`. |
-| [!UICONTROL Component ID] | Obbligatorio. L’[API Customer Journey Analytics](https://www.adobe.io/cja-apis/docs) utilizza questo campo per fare riferimento al componente. Ogni componente in una visualizzazione dati deve essere univoco. Adobe genera automaticamente un ID per ogni componente; tuttavia, puoi fare clic sull’icona di modifica e modificare l’ID del componente. La modifica dell’ID del componente interrompe tutti i progetti Workspace esistenti che contengono questo componente. Sebbene ogni componente abbia bisogno di un ID univoco in una singola visualizzazione dati, puoi usare lo stesso ID componente in altre visualizzazioni dati. Se utilizzi lo stesso ID componente in altre visualizzazioni dati, puoi rendere i progetti Workspace compatibili tra le visualizzazioni dati. <br/>Per i componenti basati su profilo e ricerca, l’ID componente ha un prefisso ID basato su quello del set di dati (ad esempio: `642b28fcc1f0ee1c074265a0.person.name.firstName`). Se desideri riutilizzare un profilo o un componente basato sulla ricerca, ad esempio `person.name.firstName` nel progetto Workspace, configurando questo componente in diverse visualizzazioni dati, assicurati di rinominare l’ID componente in modo univoco (ad esempio: `myUniqueID.person.name.firstName`) nelle visualizzazioni dati. |
-| [!UICONTROL Path] | Obbligatorio. Un campo non modificabile che mostra il percorso dello schema da cui proviene il componente. |
-| [!UICONTROL Data Usage Labels] | Tutte le etichette di utilizzo dei dati assegnate a questo componente in Adobe Experience Platform. [Ulteriori informazioni](/help/data-views/data-governance.md). |
-| [!UICONTROL Hide component in reporting] | Consentono di eliminare il componente dalla visualizzazione dati per i non amministratori. Gli amministratori possono comunque accedervi facendo clic su [!UICONTROL Show All Components] in un progetto Analysis Workspace. |
+| [!UICONTROL Tipo di componente] | Obbligatorio. Consente di cambiare un componente da Metrica a Dimension o viceversa. Modificando questa selezione a discesa, il componente viene spostato nella rispettiva area dei componenti inclusi. |
+| [!UICONTROL Nome componente] | Obbligatorio. Consente di specificare il nome descrittivo visualizzato in Analysis Workspace. È possibile rinominare un componente per assegnargli un nome specifico per la vista dati. |
+| [!UICONTROL Descrizione] | Facoltativo ma consigliato. Fornisce informazioni sul componente ad altri utenti. |
+| [!UICONTROL Tag] | Facoltativo. Consente di assegnare al componente tag personalizzati o predefiniti per facilitarne la ricerca e il filtraggio nell’interfaccia utente di Analysis Workspace. |
+| [!UICONTROL Etichette di contesto] | Facoltativo. Menu a discesa delle [etichette di contesto](#context-labels) disponibili definite dal sistema che è possibile applicare a un componente. |
+| [!UICONTROL Nome campo schema] | Nome del campo schema. |
+| [!UICONTROL Tipo di set di dati] | Obbligatorio. Un campo non modificabile che mostra il tipo di set di dati (evento, ricerca o profilo) da cui proviene il componente. |
+| [!UICONTROL Set di dati] | Un campo non modificabile che mostra da quale set di dati proviene il componente. Questo campo può contenere più set di dati. |
+| [!UICONTROL Tipo di schema] | Campo non modificabile che mostra il tipo di dati del componente. Anche se è possibile utilizzare qualsiasi tipo di campo di schema supportato in Platform, non tutti i tipi di campi sono supportati in Customer Journey Analytics. Sono supportati i seguenti tipi di dati: `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String`e `Boolean`. Al momento, nei set di dati di ricerca è consentito solo il tipo di dati schema `String`. |
+| [!UICONTROL ID componente] | Obbligatorio. L’[API Customer Journey Analytics](https://www.adobe.io/cja-apis/docs) utilizza questo campo per fare riferimento al componente. Ogni componente in una visualizzazione dati deve essere univoco. Adobe genera automaticamente un ID per ogni componente; tuttavia, puoi fare clic sull’icona di modifica e modificare l’ID del componente. La modifica dell’ID del componente interrompe tutti i progetti Workspace esistenti che contengono questo componente. Sebbene ogni componente abbia bisogno di un ID univoco in una singola visualizzazione dati, puoi usare lo stesso ID componente in altre visualizzazioni dati. Se utilizzi lo stesso ID componente in altre visualizzazioni dati, puoi rendere i progetti Workspace compatibili tra le visualizzazioni dati. <br/>Per i componenti basati su profilo e ricerca, l’ID componente ha un prefisso ID basato su quello del set di dati (ad esempio: `642b28fcc1f0ee1c074265a0.person.name.firstName`). Se desideri riutilizzare un profilo o un componente basato sulla ricerca, ad esempio `person.name.firstName` nel progetto Workspace, configurando questo componente in diverse visualizzazioni dati, assicurati di rinominare l’ID componente in modo univoco (ad esempio: `myUniqueID.person.name.firstName`) nelle visualizzazioni dati. |
+| [!UICONTROL Percorso] | Obbligatorio. Un campo non modificabile che mostra il percorso dello schema da cui proviene il componente. |
+| [!UICONTROL Etichette di utilizzo dati] | Tutte le etichette di utilizzo dei dati assegnate a questo componente in Adobe Experience Platform. [Ulteriori informazioni](/help/data-views/data-governance.md). |
+| [!UICONTROL Nascondi componente nel reporting] | Consentono di eliminare il componente dalla visualizzazione dati per i non amministratori. Gli amministratori possono comunque accedervi facendo clic su [!UICONTROL Mostra tutti i componenti] in un progetto Analysis Workspace. |
 
 {style="table-layout:auto"}
 
@@ -59,7 +59,7 @@ Le informazioni seguenti descrivono le impostazioni utilizzate da un componente 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://video.tv.adobe.com/v/3412936/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -72,7 +72,7 @@ Le etichette di contesto consentono di fornire contesto semantico a singole part
 
 Le etichette di contesto funzionano a livello di componente (dimensione o metrica) e offrono al cliente una grande flessibilità all’interno della visualizzazione dati. Ad esempio, puoi assegnare un’etichetta di contesto a una dimensione dopo aver applicato diverse trasformazioni di post-elaborazione a un campo. Oppure a una dimensione basata su un campo derivato.  Le etichette di contesto forniscono un livello di astrazione sopra i componenti e i campi.
 
-Per motivi di praticità, le etichette di contesto predefinite intelligenti vengono applicate automaticamente ai componenti in base ai campi con un percorso XDM specifico. Ad esempio, l&#39;etichetta di contesto **[!UICONTROL Commerce: Product Category]** viene applicata automaticamente a una dimensione **[!UICONTROL Category name]** basata sul percorso dello schema `productListItems.productCategories.categoryName`. Tuttavia, puoi spostare l’etichetta di contesto in un componente diverso senza alcun problema.
+Per motivi di praticità, le etichette di contesto predefinite intelligenti vengono applicate automaticamente ai componenti in base ai campi con un percorso XDM specifico. Ad esempio, l&#39;etichetta di contesto **[!UICONTROL Commerce: categoria prodotto]** viene applicata automaticamente a una dimensione **[!UICONTROL Nome categoria]** basata sul percorso dello schema `productListItems.productCategories.categoryName`. Tuttavia, puoi spostare l’etichetta di contesto in un componente diverso senza alcun problema.
 
 Per semplificare i modelli di progetto forniti da Adobe, diverse integrazioni (come Journey Optimizer, Content Analytics e altro) impostano le visualizzazioni dati in cui i componenti predefiniti sono costruiti in un modo specifico. E le etichette di contesto appropriate vengono applicate automaticamente. Di nuovo, puoi semplicemente spostare una qualsiasi di queste etichette di contesto in altri componenti creati nella visualizzazione dati e viene utilizzato il componente personalizzato.
 
@@ -146,8 +146,8 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 
 | Nome | Descrizione |
 |------|-------------|
-| Sperimentazione | Un esperimento è un insieme di varianti di un’esperienza che sono state esposte agli utenti finali per determinare quale è meglio mantenere per sempre. |
-| Variante della sperimentazione | Variante è una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. |
+| Sperimentazione esperimento | Un esperimento è un insieme di varianti di un’esperienza che sono state esposte agli utenti finali per determinare quale è meglio mantenere per sempre. |
+| Variante sperimentale | Una variante è una delle due o più alterazioni nell’esperienza di un utente finale che vengono confrontate allo scopo di individuare l’alternativa migliore. |
 
 +++
 
@@ -163,7 +163,7 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 | Stagione | Stagione. |
 | Secondi trascorsi dall’ultima chiamata | Secondi trascorsi dall&#39;ultima chiamata. |
 | Spettacolo | Mostra. |
-| Ora di inizio | Ora di inizio. |
+| Tempo prima dell’inizio | Ora di inizio. |
 | Durata totale buffer | Durata totale buffer. |
 | Durata totale pausa | Durata totale pausa. |
 | Lunghezza video | Lunghezza video. |
@@ -185,7 +185,7 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 
 +++
 
-+++ Demografico
++++ Demografia
 
 | Nome | Descrizione |
 |------|-------------|
@@ -235,10 +235,10 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 
 | Nome | Descrizione |
 |------|-------------|
-| Canale di primo contatto | Canale di primo contatto. |
-| Dettagli del canale di primo contatto | Dettaglio del canale di primo contatto. |
-| Canale di ultimo contatto | Canale di ultimo contatto. |
-| Dettaglio del canale di ultimo contatto | Dettaglio canale ultimo contatto. |
+| Canale primo contatto | Canale di primo contatto. |
+| Dettagli canale di primo contatto | Dettaglio del canale di primo contatto. |
+| Canale ultimo contatto | Canale di ultimo contatto. |
+| Dettagli canale di ultimo contatto | Dettaglio canale ultimo contatto. |
 | Canale di marketing | Canale di marketing. |
 
 +++
@@ -302,7 +302,7 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 | Pagina | Pagina. |
 | Visualizzazioni pagina | Visualizzazioni di pagina. |
 | Pagina di provenienza | Referrer. |
-| Tipo di destinatario che inoltra | Tipo di referrer. |
+| Tipo di referrer | Tipo di referrer. |
 | Dominio di riferimento | Dominio di riferimento. |
 | Dominio di riferimento originale | Dominio di riferimento originale. |
 | Ricariche | Ricarica. |
@@ -396,7 +396,7 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 | Nome campagna (AJO) | Nome della campagna. |
 | ID versione campagna (AJO) | ID versione della campagna. |
 | Canale | Canale a cui devono essere correlati i dati. |
-| Clic (AJO) | Numero totale di clic su tutti i canali. |
+| Clic (AJO) | Numero totale di clic tra tutti i canali. |
 | Rifiuti del criterio di consenso (AJO) | Numero di azioni di percorso rifiutate a causa di uno o più criteri di consenso. |
 | Errore della decisione sul contenuto (AJO) | Messaggi di errore generati dai nodi decisionali sul contenuto del percorso. |
 | Errori della decisione sul contenuto (AJO) | Conteggio degli errori generati dai nodi decisionali sul contenuto del percorso. |
@@ -473,7 +473,7 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 | ID nodo | ID nodo del nodo del percorso. |
 | Nome del nodo | Nome nodo del nodo del percorso. |
 | Tipo di nodo | Tipo di nodo del nodo del percorso. |
-| Namespace identità dell’azione campagna orchestrata (AJO) | Spazio dei nomi dell’identità dell’azione della campagna orchestrata. |
+| Spazio dei nomi identità dell’azione Campagna orchestrata (AJO) | Spazio dei nomi dell’identità dell’azione della campagna orchestrata. |
 | Nome azione campagna orchestrata (AJO) | Nome dell’azione della campagna orchestrata. |
 | ID nodo azione campagna orchestrata (AJO) | ID azione della campagna orchestrata. |
 | ID campagna orchestrata (AJO) | ID della campagna orchestrata. |
@@ -489,12 +489,12 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 | Interazioni push (AJO) | Numero di volte in cui un’app mobile viene avviata a causa di un’interazione di messaggio push diretto. |
 | Piattaforma push (AJO) | Servizio provider push, ad esempio APNS o FCM. |
 | Titolo push | Titolo push, non personalizzato. |
-| ID strategia di classificazione (AJO) | L’ID della strategia di classificazione. |
+| ID strategia di ranking (AJO) | ID della strategia di ranking. |
 | Nome del criterio di consenso rifiutato | Nome del criterio di consenso rifiutato corrispondente. |
 | Numero di tentativi (AJO) | Quanti tentativi di invio sono stati eseguiti prima che un messaggio risultasse inviato o non riuscito. |
 | Nome della regola | Nome della regola che ha causato il rifiuto dell’ingresso nel percorso. |
 | Tipo di selezione (AJO) | Questo è il tipo di selezione utilizzato quando un elemento viene derivato come parte di una decisione. |
-| Invii (obsoleti) | Numero totale di messaggi inviati su tutti i canali. |
+| Invii (obsoleti) | Numero totale dei messaggi inviati su tutti i canali. |
 | Messaggi SMS in entrata (AJO) | Risposta SMS in entrata, ad esempio stop, start, subscribe e così via. |
 | Messaggi SMS in entrata (AJO) | Risposta SMS in entrata, ad esempio Interrompi, Avvia, Abbonati, ecc. |
 | Tipo di messaggio SMS (AJO) | Provider SMS, ad esempio inbound, inboundReply o send. |
@@ -509,14 +509,14 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 | Mirato (obsoleto) | Questo conteggio del numero di volte in cui una proposta è stata mirata a una persona. Numero di volte in cui una proposta è stata considerata per la visualizzazione a una persona. |
 | Nome della regola di targeting (AJO) | Nome della regola di targeting. |
 | Evento di test (AJO) | Evento di test. |
-| Ora di inizio | Ora di inizio. |
+| Tempo prima dell’inizio | Ora di inizio. |
 | Durata totale buffer | Durata totale buffer. |
 | Durata totale pausa | Durata totale pausa. |
-| Tipo di traffico (AJO) | Il tipo di traffico di classificazione. |
+| Tipo di traffico (AJO) | Tipo di traffico di ranking. |
 | ID trattamento (AJO) | ID del trattamento selezionato per l’esperimento. |
 | Nome trattamento (AJO) | Nome del trattamento per l’esperimento. |
 | Visitatori univoci nell’esperimento (AJO) | I visitatori univoci nell’esperimento. |
-| Abbonamenti annullati (AJO) | Numero totale di annullamenti di abbonamenti. |
+| Abbonamenti annullati (AJO) | Numero totale di annullamenti iscrizione. |
 | Etichetta URL (AJO) | Etichetta descrittiva dell’URL. |
 | ID URL (AJO) | Identificatore univoco dell’URL su cui l’utente ha fatto clic. |
 

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
-source-git-commit: 0eb3fec2e52fe0850c5f42777edbdb5d981988fb
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1727'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Anche se questi metodi di analisi possono essere utilizzati sia per l’unione b
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abilitazione e convalida dell&#39;unione](https://video.tv.adobe.com/v/3478128?captions=ita&quality=12&learn=on){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abilitazione e convalida dell&#39;unione](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/visitor-id/stitching-enablement-and-validation){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

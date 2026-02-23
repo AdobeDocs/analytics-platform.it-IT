@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '1782'
-ht-degree: 85%
+source-wordcount: '1808'
+ht-degree: 77%
 
 ---
 
@@ -42,7 +42,7 @@ Le diapositive di dettaglio personalizzate consentono di essere ancora più mira
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dei dettagli personalizzate.](https://video.tv.adobe.com/v/3413788?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dei dettagli personalizzate.](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/visitor-id/stitching-enablement-and-validation){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Storie di dati per progetti di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3420561/?captions=ita&quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Storie di dati per progetti di scorecard per dispositivi mobili](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -146,11 +146,11 @@ Puoi anche spostarti avanti e indietro utilizzando le frecce sulla tastiera oppu
 
 Puoi visualizzare in anteprima come si presenterà e funzionerà la scorecard una volta pubblicata nell’app delle dashboard di Adobe Analytics.
 
-1. Fai clic su **[!UICONTROL Preview]** in alto a destra.
+1. Fai clic su **[!UICONTROL Anteprima]** nell&#39;angolo superiore destro dello schermo.
 
    ![Preview_scorecards](assets/preview.png)
 
-1. Per visualizzare come si presenta la scorecard su dispositivi diversi, seleziona un dispositivo dal menu a discesa [!UICONTROL Device preview].
+1. Per visualizzare l&#39;aspetto della scorecard su dispositivi diversi, selezionare un dispositivo dal menu a discesa [!UICONTROL Anteprima dispositivo].
 
    ![Device_preview](assets/device-preview.png)
 
@@ -166,22 +166,22 @@ Puoi visualizzare in anteprima come si presenterà e funzionerà la scorecard un
 
 Per condividere la scorecard con un utente direzionale:
 
-1. Fai clic sul menu **[!UICONTROL Share]** e seleziona **[!UICONTROL Share scorecard]**.
+1. Fai clic sul menu **[!UICONTROL Condividi]** e seleziona **[!UICONTROL Condividi scorecard]**.
 
-1. Nel modulo **[!UICONTROL Share Mobile Scorecard]**, compila i campi:
+1. Nel modulo **[!UICONTROL Condividi scorecard per dispositivi mobili]**, compila i campi:
 
    * Inserimento del nome della scorecard
    * Inserimento di una descrizione della scorecard
    * Aggiungendo tag rilevanti
    * Specificare i destinatari della scorecard
 
-1. Fai clic su **[!UICONTROL Share]**.
+1. Fai clic su **[!UICONTROL Condividi]**.
 
 ![Condividere_scorecard](assets/new_share.png)
 
 Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Generatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti direzionali vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
 
-Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente (e di selezionare l’opzione **[!UICONTROL Share embedded components]**) per assicurarti che gli utenti direzionali abbiano accesso a queste modifiche.
+Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente e di selezionare l&#39;opzione **[!UICONTROL Condividi componenti incorporati]** per assicurarti che gli utenti esecutivi abbiano accesso a queste modifiche.
 
 ### Condividere le scorecard mediante un collegamento condivisibile
 
@@ -189,7 +189,7 @@ L’utilizzo di un collegamento condivisibile semplifica la condivisione di una 
 
 Per condividere una scorecard utilizzando un collegamento condivisibile
 
-1. Fai clic sul menu **[!UICONTROL Share]** e seleziona **[!UICONTROL Share scorecard]**.
+1. Fai clic sul menu **[!UICONTROL Condividi]** e seleziona **[!UICONTROL Condividi scorecard]**.
 
    ![Condividere_scorecard](assets/share-scorecard.png)
 
@@ -202,16 +202,16 @@ Per condividere una scorecard utilizzando un collegamento condivisibile
    Se un destinatario non ha scaricato l’app per dispositivi mobili, verrà indirizzato all’elenco delle app nell’App Store o in Google Play Store dove può scaricarla.
 
 
-## Rimuovere l’elemento di dimensione [!UICONTROL Unspecified] {#remove-dims}
+## Rimuovi [!UICONTROL elemento dimensione non specificato] {#remove-dims}
 
-Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecified], effettua le seguenti operazioni:
+Se si desidera rimuovere [!UICONTROL Non specificato] elementi dimensionali dai dati, eseguire le operazioni seguenti:
 
 1. Seleziona la sezione corretta.
-1. Nella barra a destra, sotto **[!UICONTROL Drill ins]**, seleziona la freccia destra accanto all’elemento di dimensione di cui vuoi rimuovere gli elementi **[!UICONTROL Unspecified]**.
+1. Nella barra a destra, in **[!UICONTROL Drill-in]**, seleziona la freccia destra accanto all&#39;elemento di dimensione di cui **[!UICONTROL Non specificato]** elementi desideri rimuovere.
 
    ![Proprietà con freccia che punta alla freccia destra accanto al nome della dimensione.](assets/unspecified.png)
 
-1. Fai clic sull’icona accanto a **[!UICONTROL Unspecified]** per rimuovere i dati non specificati dalle attività di reporting. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
+1. Fai clic sull&#39;icona accanto a **[!UICONTROL Non specificato]** per rimuovere i dati non specificati dai rapporti. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
 
 ## Visualizzare sottotitoli intelligenti nelle scorecard {#captions}
 
@@ -239,4 +239,4 @@ Per visualizzare sottotitoli intelligenti in una scorecard per dispositivi mobil
 
    ![Segnala un problema con la didascalia](assets/caption-report.png)
 
-1. Fare clic sulla X per uscire dalla finestra di dialogo **[!UICONTROL Report results]**.
+1. Fare clic sulla X per uscire dalla finestra di dialogo **[!UICONTROL Risultati report]**.

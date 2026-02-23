@@ -5,10 +5,10 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 100%
+source-wordcount: '1456'
+ht-degree: 85%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe offre diversi modi per inserire i dati in Adobe Experience Platform, inclu
 
 ## Modifiche al concetto di suite di rapporti virtuali {#data-views}
 
-La funzione [!UICONTROL Data views] riprende il concetto delle attuali suite di rapporti virtuali e lo espande per [abilitare ulteriori controlli sui dati](/help/data-views/create-dataview.md), grazie alle connessioni. Con queste modifiche, impostazioni generali quali fuso orario e intervalli di timeout della sessione diventano configurabili e retroattive. A livello di report o di visualizzazione dati, inoltre, è possibile personalizzare singole impostazioni di variabili, come attribuzione e scadenza. Queste impostazioni sono retroattive e non distruttive.
+[!UICONTROL Visualizzazioni dati] riprende il concetto delle attuali suite di rapporti virtuali e lo espande per [abilitare ulteriori controlli sui dati](/help/data-views/create-dataview.md) resi disponibili dalle connessioni. Con queste modifiche, impostazioni generali quali fuso orario e intervalli di timeout della sessione diventano configurabili e retroattive. A livello di report o di visualizzazione dati, inoltre, è possibile personalizzare singole impostazioni di variabili, come attribuzione e scadenza. Queste impostazioni sono retroattive e non distruttive.
 
 Il selettore delle suite di rapporti, in alto a destra, ora consente di scegliere tra le visualizzazioni dati disponibili:
 
@@ -68,7 +68,7 @@ Per ulteriori informazioni su questo concetto, consulta [Casi d’uso per le vis
 
 ## Modifiche al concetto di eVar e prop
 
-I concetti di [!UICONTROL eVars], [!UICONTROL props] e [!UICONTROL events] in Adobe Analytics tradizionale non esistono più in [!UICONTROL Customer Journey Analytics]. In Adobe Analytics, si utilizzano eVar e prop per memorizzare descrizioni di contenuti, clienti, campagne e così via, mentre con gli eventi si possono contare elementi quali ricavi, iscrizioni o lead generati. In Customer Journey Analytics è possibile accedere a entrambi questi tipi di dati, dalla barra a sinistra di Analysis Workspace, rispettivamente da Dimensioni o Metriche.
+I concetti di [!UICONTROL eVar], [!UICONTROL prop] e [!UICONTROL eventi] in Adobe Analytics tradizionale non esistono più in [!UICONTROL Customer Journey Analytics]. In Adobe Analytics, si utilizzano eVar e prop per memorizzare descrizioni di contenuti, clienti, campagne e così via, mentre con gli eventi si possono contare elementi quali ricavi, iscrizioni o lead generati. In Customer Journey Analytics è possibile accedere a entrambi questi tipi di dati, dalla barra a sinistra di Analysis Workspace, rispettivamente da Dimensioni o Metriche.
 
 In Customer Journey Analytics sono disponibili elementi schema illimitati, tra cui dimensioni, metriche e campi elenco. Questi sono mappati su elementi schema illimitati, tra cui dimensioni, metriche e campi elenco, in Experience Platform. Tutte le impostazioni relative a visite e attribuzione applicate dopo le regole di elaborazione in Adobe Analytics ora vengono applicate al momento della query in Customer Journey Analytics.
 
@@ -78,28 +78,28 @@ Grazie a questa flessibilità, puoi trovarti in situazioni in cui un singolo cam
 
 Anche se tecnicamente i segmenti non vengono migrati da Adobe Analytics a Customer Journey Analytics, puoi utilizzare lo strumento di migrazione dei componenti per ricreare i segmenti di Adobe Analytics in Customer Journey Analytics. I segmenti vengono ricreati in Customer Journey Analytics in base alle dimensioni e alle metriche mappate. Per ulteriori informazioni, consulta [Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=it).
 
-Non è ancora possibile condividere o pubblicare i [!UICONTROL segments] ([!UICONTROL segments]) da [!DNL Customer Journey Analytics] ad Experience Platform Unified Profile; questa funzionalità è attualmente in fase di sviluppo.
+Sebbene non sia ancora possibile condividere o pubblicare [!UICONTROL segmenti] ([!UICONTROL segmenti]) da [!DNL Customer Journey Analytics] al profilo unificato di Experience Platform, questa funzionalità è in fase di sviluppo.
 
 Oltre al cambiamento nel concetto di segmenti, sono stati aggiornati anche i contenitori di segmenti.
 
-* **I contenitori Hit sono diventati contenitori [!UICONTROL Event]**. Il contenitore [!UICONTROL Event] consente di suddividere le informazioni sulle persone in base ai singoli eventi.
-* **I contenitori Visite sono diventati contenitori [!UICONTROL Session]**. Il contenitore [!UICONTROL Session] consente di identificare le interazioni con pagine, campagne o conversioni per una specifica sessione.
-* **I contenitori Visitatori sono diventati contenitori [!UICONTROL Person]**. Il contenitore [!UICONTROL Person] include tutte le sessioni e gli eventi di una persona all’interno dell’intervallo di tempo specificato.
+* **I contenitori Hit sono diventati [!UICONTROL contenitori Evento]**. Il contenitore [!UICONTROL Evento] consente di suddividere le informazioni sulla persona in base ai singoli eventi.
+* **I contenitori Visite sono diventati [!UICONTROL Sessione]**. Il contenitore [!UICONTROL Sessione] consente di identificare le interazioni di pagina, le campagne o le conversioni per una sessione specifica.
+* **I contenitori Visitatore sono diventati [!UICONTROL Contenitori]**. Il contenitore [!UICONTROL Persona] include ogni sessione ed evento di una persona entro l&#39;intervallo di tempo specificato.
 
 ## Modifiche al concetto di metriche calcolate
 
-Le metriche calcolate hanno un nome simile in Adobe Analytics e Costumer Journey Analytics. Tuttavia, al posto di eVar, prop o eventi, [!UICONTROL Customer Journey Analytics] utilizza qualsiasi elemento schema di Experience Platform. Di conseguenza, le metriche calcolate esistenti non sono compatibili con [!UICONTROL Customer Journey Analytics].
+Le metriche calcolate hanno un nome simile in Adobe Analytics e Costumer Journey Analytics. Tuttavia, [!UICONTROL Customer Journey Analytics] non utilizza più eVar, prop o eventi, ma utilizza qualsiasi elemento dello schema Experience Platform. Questa modifica fondamentale indica che nessuna delle metriche calcolate esistenti è compatibile con [!UICONTROL Customer Journey Analytics].
 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo su come spostare le metriche calcolate, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Spostamento delle metriche calcolate da Adobe Analytics a Customer Journey Analytics](https://video.tv.adobe.com/v/35872?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video demo su come spostare le metriche calcolate, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Spostamento delle metriche calcolate da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 ## Modifiche alle impostazioni di attribuzione e scadenza delle variabili
 
-[!UICONTROL Customer Journey Analytics] applica tutte le impostazioni di variabile, incluse l’attribuzione e la scadenza, al momento della generazione del rapporto. Queste impostazioni ora risiedono in [visualizzazioni dati](/help/data-views/component-settings/persistence.md), e alcune impostazioni di variabili (come l’attribuzione) possono essere modificate nei progetti Workspace.
+[!UICONTROL Customer Journey Analytics] applica tutte le impostazioni delle variabili, incluse l&#39;attribuzione e la scadenza, al momento della generazione del report. Queste impostazioni ora risiedono in [visualizzazioni dati](/help/data-views/component-settings/persistence.md), e alcune impostazioni di variabili (come l’attribuzione) possono essere modificate nei progetti Workspace.
 
 Una stessa visualizzazione dati può contenere più versioni della stessa variabile. Ad esempio, puoi avere una dimensione Codice di tracciamento che scade dopo 30 giorni, e un’altra che scade alla fine di una sessione. Entrambe queste dimensioni Codice di tracciamento utilizzano gli stessi dati di origine, ma impostazioni di attribuzione diverse.
 
@@ -111,7 +111,7 @@ Le “classificazioni” sono ora denominate *Set di dati di ricerca*. I set di 
 
 ## Modifiche al concetto di attributi cliente
 
-Gli “attributi cliente” sono diventati “Set di dati profilo”. I set di dati profilo contengono dati che vengono applicati alle persone, agli utenti e alla clientela nei dati [!UICONTROL Event]. Ad esempio, consentono di caricare dati riguardanti i tuoi clienti dal sistema CRM aziendale. Puoi scegliere l’ID persona da includere. Per ogni set di dati definito in [!DNL Experience Platform] viene definito anche uno specifico set di uno o più ID persona.
+Gli “attributi cliente” sono diventati “Set di dati profilo”. I set di dati profilo contengono dati applicati a persone, utenti o clienti nei dati [!UICONTROL Event]. Ad esempio, consentono di caricare dati riguardanti i tuoi clienti dal sistema CRM aziendale. Puoi scegliere l’ID persona da includere. Per ogni set di dati definito in [!DNL Experience Platform] viene definito anche uno specifico set di uno o più ID persona.
 
 ## Modifiche al modo in cui Adobe identifica i visitatori
 
@@ -120,10 +120,10 @@ Customer Journey Analytics estende i concetti di identità oltre gli ECID per in
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dell’identità in Customer Journey Analytics](https://video.tv.adobe.com/v/39839/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dell’identità in Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/visitor-id/understanding-how-customer-journey-analytics-uses-identity){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 ## Modifiche al concetto di elemento dimensione a traffico ridotto
 
-In Adobe Analytics tradizionale, una variabile che riceve troppi valori univoci inizia a raccogliere gli elementi dimensionali definendoli [!UICONTROL Low-Traffic]. Customer Journey Analytics presenta meno limitazioni ai campi a cardinalità elevata. Le modifiche apportate all’architettura di reporting consentono ad Analysis Workspace di fornire informazioni su molti più elementi di dimensione univoci. Per ulteriori informazioni su come Customer Journey Analytics ottimizza il reporting per le dimensioni con numerosi valori univoci, consulta [Dimensioni a cardinalità elevata](../components/dimensions/high-cardinality.md).
+In Adobe Analytics tradizionale, una variabile che riceve troppi valori univoci inizia a raccogliere gli elementi dimensionali in [!UICONTROL Low-Traffic]. Customer Journey Analytics presenta meno limitazioni ai campi a cardinalità elevata. Le modifiche apportate all’architettura di reporting consentono ad Analysis Workspace di fornire informazioni su molti più elementi di dimensione univoci. Per ulteriori informazioni su come Customer Journey Analytics ottimizza il reporting per le dimensioni con numerosi valori univoci, consulta [Dimensioni a cardinalità elevata](../components/dimensions/high-cardinality.md).

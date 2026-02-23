@@ -4,10 +4,10 @@ title: Mappa ad albero
 feature: Visualizations
 exl-id: fc39d1a9-9e83-40f3-af28-f4803647ad0b
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 92%
+source-wordcount: '168'
+ht-degree: 82%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione con mappa ad albero in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Mappa ad albero](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/treemap) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione con mappa ad albero in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Mappa ad albero](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/treemap) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
 
-Utilizza una visualizzazione ![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL Treemap]** per visualizzare i dati gerarchici (con struttura ad albero) come un set di rettangoli nidificati.
+Utilizza una visualizzazione ![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL Mappa ad albero]** per visualizzare dati gerarchici (con struttura ad albero) come set di rettangoli nidificati.
 
 A ogni sezione dell’albero viene assegnato un rettangolo, che racchiude al suo interno rettangoli più piccoli che rappresentano le sottosezioni.
 
@@ -41,7 +41,7 @@ Con una mappa ad albero, puoi vedere dei pattern che sarebbero difficili da indi
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione di mappa ad albero](https://video.tv.adobe.com/v/3416855/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione di mappa ad albero](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-treemap-visualizations){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -49,8 +49,8 @@ Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoChe
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

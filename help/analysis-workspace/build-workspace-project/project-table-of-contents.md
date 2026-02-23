@@ -5,10 +5,10 @@ title: Sommario
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 88%
+source-wordcount: '210'
+ht-degree: 73%
 
 ---
 
@@ -18,7 +18,7 @@ In Analysis Workspace puoi visualizzare il sommario di un progetto, per spostart
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un sommario](https://video.tv.adobe.com/v/328248/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un sommario](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -33,11 +33,11 @@ Per visualizzare il sommario di un progetto:
 
 1. In Analysis Workspace, vai al progetto in cui desideri visualizzare il sommario.
 
-1. Nel pannello del pulsante, seleziona ![ViewList](/help/assets/icons/ViewList.svg) **[!UICONTROL Table of contents]**. Per ulteriori informazioni, consulta [Panoramica su Analysis Workspace](/help/analysis-workspace/home.md).<br/>
+1. Nel pannello pulsante, seleziona ![VisualizzaElenco](/help/assets/icons/ViewList.svg) **[!UICONTROL Sommario]**. Per ulteriori informazioni, consulta [Panoramica su Analysis Workspace](/help/analysis-workspace/home.md).<br/>
 
-   Viene visualizzato il **[!UICONTROL Table of contents]** del progetto e ogni pannello viene espanso per impostazione predefinita.
+   Il **[!UICONTROL sommario]** per il progetto viene visualizzato e ogni pannello viene espanso per impostazione predefinita.
 
-1. Nel **[!UICONTROL Table of contents]**, seleziona una visualizzazione.<br/>
+1. Nel **[!UICONTROL sommario]**, selezionare una visualizzazione.<br/>
 
    La visualizzazione selezionata viene scorsa automaticamente ed evidenziata brevemente.
 
@@ -46,4 +46,4 @@ Per visualizzare il sommario di un progetto:
 
 >[!MORELIKETHIS]
 >
->* [Semplifica la navigazione nella dashboard con la nuova funzione Sommario in Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=it)
+>* [Semplifica la navigazione nella dashboard con la nuova funzione Sommario in Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)

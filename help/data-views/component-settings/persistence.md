@@ -5,15 +5,15 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 8e10818efa7da54b0802c56e5388e6c7ef7fd8b6
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 78%
+source-wordcount: '1038'
+ht-degree: 61%
 
 ---
 
 
-# Impostazioni del componente [!UICONTROL Persistence] {#persistence-component-settings}
+# Impostazioni del componente [!UICONTROL Persistenza] {#persistence-component-settings}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -26,7 +26,7 @@ ht-degree: 78%
 
 
 
-[!UICONTROL Persistence] è la capacità di un dato valore di dimensione di essere attribuito a una metrica oltre l’evento su cui è impostato. Utilizza una combinazione di allocazione e scadenza.
+[!UICONTROL Persistenza] è la capacità di un dato valore di dimensione di attribuire a una metrica oltre l&#39;evento su cui è impostato. Utilizza una combinazione di allocazione e scadenza.
 
 ![Finestra Visualizzazioni dati che evidenzia le opzioni di persistenza](../assets/persistence.png)
 
@@ -40,42 +40,42 @@ ht-degree: 78%
 
 * **Scadenza** consente di determinare per quanto tempo un elemento dimensione persiste oltre l’evento su cui è impostato.
 
-[!UICONTROL Persistence] è disponibile solo nelle dimensioni ed è retroattivo per i dati a cui viene applicato. Si tratta di una trasformazione immediata dei dati che avviene prima dell’applicazione di segmentazioni o di altre operazioni di analisi.
+[!UICONTROL La persistenza] è disponibile solo nelle dimensioni ed è retroattiva per i dati a cui viene applicata. Si tratta di una trasformazione immediata dei dati che avviene prima dell’applicazione di segmentazioni o di altre operazioni di analisi.
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!UICONTROL Set persistence] | Abilita la persistenza per la dimensione. Se la persistenza non è abilitata, la dimensione si riferisce solo alle metriche esistenti nello stesso evento. Questa impostazione è disattivata per impostazione predefinita. |
-| [!UICONTROL Allocation] | Specifica il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono:<ul><li>**[!UICONTROL Most recent]**: i valori nella dimensione persistono finché non vengono sovrascritti dai valori successivi</li><li> **[!UICONTROL Original]**: il primo valore per questa dimensione persiste e non viene sovrascritto dai valori successivi</li><li>**[!UICONTROL All]**: tutti i valori per questa dimensione persistono contemporaneamente</li><li>**[!UICONTROL First known]**: viene utilizzato il primo valore per questa dimensione e verrà applicato a tutti gli eventi precedenti e successivi.</li><li>**[!UICONTROL Last known]**: viene utilizzato l’ultimo valore per questa dimensione e verrà applicato a tutti gli eventi precedenti e successivi.</li></ul> |
-| [!UICONTROL Expiration] | Specifica la finestra di persistenza per una dimensione. Le opzioni sono: <ul><li>**[!UICONTROL Session]** (predefinito)</li><li>**[!UICONTROL Person]**</li><li>**[!UICONTROL Custom Time]**</li><li>**[!UICONTROL Metric]**</li></ul>. Potrebbe essere necessario poter scadere la dimensione su un acquisto (ad esempio termini di ricerca interni o altri casi d’uso di merchandising). Il tempo di scadenza massimo che puoi impostare è di 90 giorni. Se selezioni un&#39;allocazione di [!UICONTROL All], solo [!UICONTROL Session] o [!UICONTROL Person] è disponibile la scadenza. |
+| [!UICONTROL Imposta persistenza] | Abilita la persistenza per la dimensione. Se la persistenza non è abilitata, la dimensione si riferisce solo alle metriche esistenti nello stesso evento. Questa impostazione è disattivata per impostazione predefinita. |
+| [!UICONTROL Allocazione] | Specifica il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono:<ul><li>**[!UICONTROL Più recente]**: i valori nella dimensione persistono fino a quando non vengono sovrascritti dai valori successivi</li><li> **[!UICONTROL Originale]**: il primo valore per questa dimensione persiste e non viene sovrascritto dai valori successivi</li><li>**[!UICONTROL Tutti]**: tutti i valori di questa dimensione persistono contemporaneamente</li><li>**[!UICONTROL Primo elemento noto]**: viene utilizzato il primo valore per questa dimensione che verrà applicato a tutti gli eventi precedenti e successivi.</li><li>**[!UICONTROL Ultimo/i noto/i]**: viene utilizzato l&#39;ultimo valore per questa dimensione che verrà applicato a tutti gli eventi precedenti e successivi.</li></ul> |
+| [!UICONTROL Scadenza] | Specifica la finestra di persistenza per una dimensione. Le opzioni sono: <ul><li>**[!UICONTROL Sessione]** (impostazione predefinita)</li><li>**[!UICONTROL Persona]**</li><li>**[!UICONTROL Ora personalizzata]**</li><li>**[!UICONTROL Metrica]**</li></ul>. Potrebbe essere necessario poter scadere la dimensione su un acquisto (ad esempio termini di ricerca interni o altri casi d’uso di merchandising). Il tempo di scadenza massimo che puoi impostare è di 90 giorni. Se selezioni un&#39;allocazione di [!UICONTROL Tutti], è disponibile solo la [!UICONTROL Sessione] o la [!UICONTROL Persona]. |
 
 {style="table-layout:auto"}
 
-## [!UICONTROL Allocation] del profilo
+## Impostazioni [!UICONTROL Allocazione]
 
 Le impostazioni di allocazione disponibili sono:
 
-* **[!UICONTROL Most Recent]**: persiste il valore più recente (per marca temporale) presente nella dimensione. Eventuali valori successivi che si verificano all’interno del periodo di scadenza della dimensione sostituiscono il valore persistente precedente. Se su questa dimensione è abilitato “Treat &#39;No Value&#39; as a value” in [Nessuna opzione di valore](no-value-options.md), i valori vuoti sovrascrivono quelli persistenti in precedenza. Ad esempio, considera la seguente tabella con [!UICONTROL Most recent] assegnazione e [!UICONTROL Session] scadenza:
+* **[!UICONTROL Più recente]**: persiste il valore più recente (per marca temporale) presente nella dimensione. Eventuali valori successivi che si verificano all’interno del periodo di scadenza della dimensione sostituiscono il valore persistente precedente. Se su questa dimensione è abilitato “Treat &#39;No Value&#39; as a value” in [Nessuna opzione di valore](no-value-options.md), i valori vuoti sovrascrivono quelli persistenti in precedenza. Ad esempio, considera la seguente tabella con l&#39;allocazione [!UICONTROL Più recente] e la scadenza [!UICONTROL Sessione]:
 
   | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
   | --- | --- | --- | --- | --- | --- |
   | Valori del set di dati |  | C | B |  | A |
   | Allocazione più recente |  | C | B | B | A |
 
-* **[!UICONTROL Original]**: mantiene il valore originale per marca temporale presente nella dimensione per la durata del periodo di scadenza. Se questa dimensione ha un valore, non viene sovrascritta quando viene visualizzato un valore diverso in un evento successivo. Ad esempio, considera la seguente tabella con [!UICONTROL Original] assegnazione e [!UICONTROL Session] scadenza:
+* **[!UICONTROL Originale]**: Persiste il valore originale per marca temporale presente nella dimensione per la durata del periodo di scadenza. Se questa dimensione ha un valore, non viene sovrascritta quando viene visualizzato un valore diverso in un evento successivo. Ad esempio, considera la seguente tabella con allocazione [!UICONTROL Originale] e scadenza [!UICONTROL Sessione]:
 
   | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
   | --- | --- | --- | --- | --- | --- |
   | Valori del set di dati |  | C | B |  | A |
   | Allocazione originale |  | C | C | C | C |
 
-* **[!UICONTROL All]**: Agisce in modo simile al [!UICONTROL Participation] modello di attribuzione per le metriche. Persiste tutti i valori equamente in modo che ciascuno ottenga il pieno credito per la metrica nel reporting. Ad esempio, considera la seguente tabella con [!UICONTROL All] assegnazione e [!UICONTROL Session] scadenza:
+* **[!UICONTROL All]**: Agisce in modo simile al modello di attribuzione [!UICONTROL Participation] per le metriche. Persiste tutti i valori equamente in modo che ciascuno ottenga il pieno credito per la metrica nel reporting. Ad esempio, considera la seguente tabella con l&#39;allocazione [!UICONTROL All] e la scadenza [!UICONTROL Session]:
 
   | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
   | --- | --- | --- | --- | --- | --- |
   | Valori del set di dati | A | B | C |  | A |
   | Tutte le allocazioni | A | A,B | A, B, C | A, B, C | A, B, C |
 
-* **[!UICONTROL First Known]** e **[!UICONTROL Last Known]**: (19 gennaio 2022 ) questi due modelli di allocazione soddisfano i casi d’uso per le dimensioni “entrata” e “uscita”. Considerano il primo o l’ultimo valore osservato relativo a una dimensione all’interno di un ambito di persistenza specificato (sessione, persona o periodo di tempo personalizzato con lookback) e lo applicano a tutti gli eventi all’interno dell’ambito specificato. Esempio:
+* **[!UICONTROL Primo noto]** e **[!UICONTROL Ultimo noto]**: (19 gennaio 2022 ) questi due modelli di allocazione soddisfano i casi di utilizzo delle dimensioni &quot;entrata&quot; e &quot;uscita&quot;. Considerano il primo o l’ultimo valore osservato relativo a una dimensione all’interno di un ambito di persistenza specificato (sessione, persona o periodo di tempo personalizzato con lookback) e lo applicano a tutti gli eventi all’interno dell’ambito specificato. Esempio:
 
   | Dimensione | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 |
   | --- | --- | --- | --- | --- | --- |
@@ -85,7 +85,7 @@ Le impostazioni di allocazione disponibili sono:
   | Last known (Ultimo noto) | A | A | A | A | A |
 
 
-## [!UICONTROL Expiration] del profilo
+## [!UICONTROL Impostazioni scadenza]
 
 Le impostazioni di scadenza disponibili sono:
 
@@ -99,7 +99,7 @@ Le impostazioni di scadenza disponibili sono:
 * **Metrica**: quando questa metrica viene visualizzata in un evento, scade immediatamente il valore persistente nella dimensione. Puoi utilizzare qualsiasi metrica come termine scadenza per questa dimensione. Questa opzione di scadenza è disponibile solo per le impostazioni di allocazione Originale e Più recente.
 
 
-## [!UICONTROL Binding Dimension]
+## [!UICONTROL Associazione di Dimension]
 
 Menu a discesa che consente di associare la persistenza di un valore di dimensione ai valori di dimensione in un’altra dimensione. Le opzioni valide includono altre dimensioni presenti nella visualizzazione dati.
 
@@ -108,12 +108,12 @@ Per esempi su come utilizzare le dimensioni di binding in modo efficace, vedere 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensioni di binding](https://video.tv.adobe.com/v/3409293/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensioni di binding](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 
-## [!UICONTROL Binding Metric]
+## [!UICONTROL Metrica di binding]
 
 Menu a discesa che consente di scegliere una metrica che funge da trigger di binding. Le opzioni valide includono le metriche presenti nella visualizzazione dati.
 

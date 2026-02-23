@@ -5,14 +5,14 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: product analytics
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 100%
+source-wordcount: '675'
+ht-degree: 68%
 
 ---
 
-# [!UICONTROL First use impact] analisi {#first-use-impact}
+# Analisi dell’[!UICONTROL impatto sul primo utilizzo] {#first-use-impact}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -23,10 +23,10 @@ ht-degree: 100%
 
 <!-- markdownlint-enable MD034 -->
 
-L’analisi ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL First use impact]** mostra un confronto tra le prestazioni degli indicatori chiave prima e dopo che un utente utilizza una funzionalità di prodotto per la prima volta. L’asse orizzontale di questo rapporto è un intervallo di tempo relativo prima e dopo l’evento, mentre l’asse verticale misura gli indicatori chiave desiderati. Una barra verticale al centro del grafico rappresenta il giorno 0 del primo utilizzo di una caratteristica da parte di un utente specifico. Poiché gli utenti non adottano sempre le funzioni nello stesso giorno e i rollout possono potenzialmente verificarsi in più giorni, il giorno 0 può avere un significato diverso per ogni singolo utente.
+L&#39;analisi ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL First use impact]** mostra un confronto tra le prestazioni degli indicatori chiave prima e dopo che un utente utilizza una funzione di prodotto per la prima volta. L’asse orizzontale di questo rapporto è un intervallo di tempo relativo prima e dopo l’evento, mentre l’asse verticale misura gli indicatori chiave desiderati. Una barra verticale al centro del grafico rappresenta il giorno 0 del primo utilizzo di una caratteristica da parte di un utente specifico. Poiché gli utenti non adottano sempre le funzioni nello stesso giorno e i rollout possono potenzialmente verificarsi in più giorni, il giorno 0 può avere un significato diverso per ogni singolo utente.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3423497/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/first-use-impact)
 
 
 ## Casi d’uso
@@ -50,26 +50,26 @@ Per una panoramica dell’interfaccia dell’analisi guidata, consulta [Interfac
 
 La barra delle query consente di configurare i seguenti componenti:
 
-* **[!UICONTROL View]**: consente di passare da questa analisi a [Versione](release-impact.md).
-* **[!UICONTROL Key indicators]**: gli eventi che desideri misurare, per utente. Ogni indicatore chiave selezionato viene rappresentato da una linea colorata. Alla tabella viene aggiunta una riga che rappresenta l’evento. Puoi includere fino a tre eventi.
-* **[!UICONTROL Counted as]**: metodo di conteggio che desideri applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Events per user], [!UICONTROL Events], [!UICONTROL Sessions] e [!UICONTROL Users].
-* **[!UICONTROL Factors]**: ci sono due fattori per questa analisi:
-   * **[!UICONTROL Date]**: quanto indietro vuoi iniziare a cercare l’occorrenza del primo evento di utilizzo.
-   * **[!UICONTROL Event]**: l’evento di cui desideri cercare il primo utilizzo, su cui basare l’analisi.
-* **[!UICONTROL Segments]**: i segmenti che desideri misurare. Il segmento selezionato filtra i dati in modo da concentrarti solo sui singoli utenti che corrispondono ai criteri del segmento. Per questa analisi è supportato un singolo segmento.
+* **[!UICONTROL Visualizza]**: passa da questa analisi alla [Versione](release-impact.md).
+* **[!UICONTROL Indicatori chiave]**: gli eventi che si desidera misurare per utente. Ogni indicatore chiave selezionato viene rappresentato da una linea colorata. Alla tabella viene aggiunta una riga che rappresenta l’evento. Puoi includere fino a tre eventi.
+* **[!UICONTROL Conteggiato come]**: metodo di conteggio che desideri applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Eventi per utente], [!UICONTROL Eventi], [!UICONTROL Sessioni] e [!UICONTROL Utenti].
+* **[!UICONTROL Fattori]**: per questa analisi sono disponibili due fattori:
+   * **[!UICONTROL Data]**: quanto indietro vuoi iniziare a cercare il primo evento di utilizzo che si è verificato.
+   * **[!UICONTROL Evento]**: l&#39;evento che si desidera cercare per il primo utilizzo, su cui basare l&#39;analisi.
+* **[!UICONTROL Segmenti]**: il segmento che si desidera misurare. Il segmento selezionato filtra i dati in modo da concentrarti solo sui singoli utenti che corrispondono ai criteri del segmento. Per questa analisi è supportato un singolo segmento.
 
 ### Impostazioni del grafico
 
-L’analisi della[!UICONTROL First use impact] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
+L&#39;analisi [!UICONTROL First use impact] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
-* **[!UICONTROL Chart type]**: tipo dio visualizzazione che desideri usare. Le opzioni includono Linea.
+* **[!UICONTROL Tipo di grafico]**: tipo di visualizzazione che si desidera utilizzare. Le opzioni includono Linea.
 
 ### Intervallo date
 
-Le selezioni di date nell’analisi [!UICONTROL First use impact] funzionano in modo diverso rispetto ad altre analisi, in quanto questa analisi ruota attorno alla data specificata nella barra delle query. Sono disponibili le seguenti opzioni:
+Le selezioni di date nell&#39;analisi [!UICONTROL Primo impatto utilizzo] funzionano in modo diverso rispetto ad altre analisi, in quanto l&#39;analisi ruota intorno alla data specificata nella barra delle query. Sono disponibili le seguenti opzioni:
 
-* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati con tendenze. Le opzioni valide includono [!UICONTROL Daily], [!UICONTROL Weekly], [!UICONTROL Monthly] e [!UICONTROL Quarterly]. La modifica dell’intervallo influisce sulle opzioni disponibili per il periodo Prima e Dopo.
-* **[!UICONTROL Before and after period]**: quantità di tempo da analizzare prima e dopo l’evento di primo utilizzo specificato nella barra delle query. Le opzioni disponibili dipendono dalla selezione dell’[!UICONTROL Interval].
+* **[!UICONTROL Intervallo]**: granularità della data in base alla quale visualizzare i dati con tendenze. Le opzioni valide includono [!UICONTROL Giornaliero], [!UICONTROL Settimanale], [!UICONTROL Mensile] e [!UICONTROL Trimestrale]. La modifica dell’intervallo influisce sulle opzioni disponibili per il periodo Prima e Dopo.
+* **[!UICONTROL Prima e dopo il periodo]**: tempo di analisi prima e dopo il primo evento di utilizzo specificato nella barra delle query. Le opzioni disponibili dipendono dalla selezione di [!UICONTROL Intervallo].
 
 <!--
 ## Example

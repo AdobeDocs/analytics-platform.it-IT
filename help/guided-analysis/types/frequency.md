@@ -5,14 +5,14 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: product analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 80%
 
 ---
 
-# [!UICONTROL Frequency] analisi {#frequency}
+# Analisi della [!UICONTROL frequenza] {#frequency}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 <!-- markdownlint-enable MD034 -->
 
-L’analisi ![Frequenza](/help/assets/icons/Histogram.svg) **[!UICONTROL Frequency]** raggruppa i dati evento in base alla frequenza con cui si verificano gli eventi nel prodotto. L’asse verticale di questa analisi contiene bucket che rappresentano la frequenza dell’evento. L’asse orizzontale misura il numero di utenti o sessioni per ciascun bucket.
+L&#39;analisi ![Frequenza](/help/assets/icons/Histogram.svg) **[!UICONTROL Frequenza]** raggruppa i dati dell&#39;evento in base alla frequenza con cui si verificano gli eventi nel prodotto. L’asse verticale di questa analisi contiene bucket che rappresentano la frequenza dell’evento. L’asse orizzontale misura il numero di utenti o sessioni per ciascun bucket.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435810/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/frequency)
 
 ## Casi d’uso
 
@@ -44,26 +44,26 @@ Per una panoramica dell’interfaccia dell’analisi guidata, consulta [Interfac
 
 La barra delle query consente di configurare i seguenti componenti:
 
-* **[!UICONTROL View]**: passa da questa analisi a [Tendenze](trends.md).
-* **[!UICONTROL Events]**: gli eventi che desideri misurare. Ogni evento selezionato viene rappresentato da un grafico separato. Alla tabella viene aggiunta una riga che rappresenta l’evento con tendenze. Puoi includere fino a cinque eventi.
-* **[!UICONTROL Counted as]**: il metodo di conteggio che desideri applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Users], [!UICONTROL Sessions], [!UICONTROL Percentage of users] e [!UICONTROL Percentage of sessions]. Il denominatore per le metriche basate sulle percentuali in questa analisi è rappresentato dagli utenti o dalle sessioni che hanno eseguito gli eventi selezionati, non tutti gli utenti attivi del prodotto.
-* **[!UICONTROL Segments]**: segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero di barre posizionate nel grafico e le righe nella tabella. Puoi includere fino a cinque segmenti.
+* **[!UICONTROL Visualizzazione]**: passa da questa analisi a [Tendenze](trends.md).
+* **[!UICONTROL Eventi]**: gli eventi che desideri misurare. Ogni evento selezionato viene rappresentato da un grafico separato. Alla tabella viene aggiunta una riga che rappresenta l’evento con tendenze. Puoi includere fino a cinque eventi.
+* **[!UICONTROL Conteggiato come]**: metodo di conteggio che desideri applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Utenti], [!UICONTROL Sessioni], [!UICONTROL Percentuale di utenti] e [!UICONTROL Percentuale di sessioni]. Il denominatore per le metriche basate sulle percentuali in questa analisi è rappresentato dagli utenti o dalle sessioni che hanno eseguito gli eventi selezionati, non tutti gli utenti attivi del prodotto.
+* **[!UICONTROL Segmenti]**: i segmenti che desideri misurare. Ogni segmento selezionato raddoppia il numero di barre posizionate nel grafico e le righe nella tabella. Puoi includere fino a cinque segmenti.
 
 ### Impostazioni del grafico
 
-L’analisi della[!UICONTROL Frequency] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
+L&#39;analisi [!UICONTROL Frequency] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
-* **[!UICONTROL Chart type]**: il tipo divisualizzazione che vuoi usare. Le opzioni includono [!UICONTROL Horizontal bar] e [!UICONTROL Stacked bar].
+* **[!UICONTROL Tipo di grafico]**: tipo di visualizzazione che si desidera utilizzare. Le opzioni includono [!UICONTROL Barra orizzontale] e [!UICONTROL Barra sovrapposta].
 
 ### Impostazioni del bucket
 
 Determina il modo in cui l’evento viene classificato in gruppi (bucket). Nella vista della tabella con tendenze, gli utenti vengono inseriti nei bucket in base alla frequenza di utilizzo in totale e in ogni intervallo, il che significa che 1 utente può essere contato in bucket diversi in intervalli diversi.
 
-* **[!UICONTROL Auto buckets]**: identifica automaticamente la dimensione ottimale del bucket in base alla distribuzione dei dati.
-* **[!UICONTROL Customized buckets]**: personalizza il modo in cui i dati vengono raggruppati in bucket.
-   * [!UICONTROL From]: il primo bucket. La frequenza inferiore a questo valore è esclusa dalla generazione dei rapporti.
-   * [!UICONTROL To]: la frequenza maggiore di questo valore è raggruppata nell’ultimo bucket.
-   * [!UICONTROL Size]: intervallo di bucket.
+* **[!UICONTROL Bucket automatici]**: identifica automaticamente la dimensione ottimale del bucket in base alla distribuzione dei dati.
+* **[!UICONTROL Bucket personalizzati]**: personalizzare il raggruppamento dei dati in bucket.
+   * [!UICONTROL Da]: primo bucket. La frequenza inferiore a questo valore è esclusa dalla generazione dei rapporti.
+   * [!UICONTROL A]: la frequenza maggiore di questo valore è raggruppata nell&#39;ultimo bucket.
+   * [!UICONTROL Dimensione]: intervallo di bucket.
 
 ### Confronto temporale
 
@@ -73,8 +73,8 @@ Determina il modo in cui l’evento viene classificato in gruppi (bucket). Nella
 
 L’intervallo di date desiderato per l’analisi. Questa impostazione è costituita da due componenti:
 
-* **[!UICONTROL Interval]**: granularità della data in base alla quale visualizzare i dati con tendenze. Il grafico e la tabella mostrano i dati aggregati per impostazione predefinita, con l’opzione di espandere la tabella a una vista delle tendenze. Nella vista delle tendenze, gli utenti vengono inseriti nei bucket in base alla frequenza di utilizzo in totale e in ogni intervallo, il che significa che 1 utente può essere contato in bucket diversi in intervalli diversi.
-* **[!UICONTROL Date]**: data di inizio e di fine. Per comodità, sono disponibili intervalli di date continui predefiniti e intervalli personalizzati salvati in precedenza; in alternativa, puoi utilizzare il selettore del calendario per scegliere un intervallo di date fisso.
+* **[!UICONTROL Intervallo]**: granularità della data in base alla quale visualizzare i dati con tendenze. Il grafico e la tabella mostrano i dati aggregati per impostazione predefinita, con l’opzione di espandere la tabella a una vista delle tendenze. Nella vista delle tendenze, gli utenti vengono inseriti nei bucket in base alla frequenza di utilizzo in totale e in ogni intervallo, il che significa che 1 utente può essere contato in bucket diversi in intervalli diversi.
+* **[!UICONTROL Data]**: la data di inizio e di fine. Per comodità, sono disponibili intervalli di date continui predefiniti e intervalli personalizzati salvati in precedenza; in alternativa, puoi utilizzare il selettore del calendario per scegliere un intervallo di date fisso.
 
 
 <!--

@@ -4,10 +4,10 @@ title: Impostazioni colonna
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 15%
+source-wordcount: '911'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://video.tv.adobe.com/v/328590/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}.
 
 {{videoaa}}
 
@@ -38,7 +38,7 @@ Per accedere alle [!UICONTROL Impostazioni colonna], selezionare ![Impostazioni 
 | **[!UICONTROL Mostra totale complessivo]** | Mostra una somma lato server della colonna. Il totale complessivo deduplica metriche quali sessioni o persone. |
 | **[!UICONTROL Mostra sparkline]** | Mostra un grafico a linee nell’intestazione della colonna. |
 | **[!UICONTROL Numero]** | Determina se mostrare/nascondere il valore numerico di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni pagina, il valore numerico corrisponde al numero di visualizzazioni di pagina per l’elemento riga. |
-| **[!UICONTROL Percentuale]** | Determina se mostrare/nascondere il valore percentuale di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni pagina, il valore percentuale corrisponde al numero di visualizzazioni di pagina per l’elemento riga, diviso per il totale delle visualizzazioni di pagina per la colonna.  Nota: per garantire la precisione, è possibile usare percentuali superiori al 100%. Il limite superiore può essere spostato a 1.000% per evitare che la larghezza delle colonne diventi troppo grande. |
+| **[!UICONTROL Percent]** | Determina se mostrare/nascondere il valore percentuale di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni pagina, il valore percentuale corrisponde al numero di visualizzazioni di pagina per l’elemento riga, diviso per il totale delle visualizzazioni di pagina per la colonna.  Nota: per garantire la precisione, è possibile usare percentuali superiori al 100%. Il limite superiore può essere spostato a 1.000% per evitare che la larghezza delle colonne diventi troppo grande. |
 | **[!UICONTROL Mostra anomalie]** | Determina se eseguire il rilevamento delle anomalie sui valori di questa colonna. |
 | **[!UICONTROL Mostra previsione]** | Determina se i valori di previsione sono visualizzati in questa colonna. |
 | **[!UICONTROL Testo a capo nelle intestazioni]** | Racchiudi il testo dell’intestazione nelle tabelle a forma libera per rendere le intestazioni più leggibili e le tabelle più condivisibili. Il wrapping è utile per il rendering PDF e per le metriche con nomi lunghi. Abilitato per impostazione predefinita. |

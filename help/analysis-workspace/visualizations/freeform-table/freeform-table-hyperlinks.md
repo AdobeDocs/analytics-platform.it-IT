@@ -4,9 +4,9 @@ description: Scopri come creare collegamenti ipertestuali per gli elementi dimen
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1603'
 ht-degree: 96%
 
 ---
@@ -26,7 +26,7 @@ Questa funzionalità è particolarmente utile quando si creano collegamenti iper
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta, ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare collegamenti ipertestuali in una tabella a forma libera](https://video.tv.adobe.com/v/3445793/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta, ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare collegamenti ipertestuali in una tabella a forma libera](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

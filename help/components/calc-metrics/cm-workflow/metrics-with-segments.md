@@ -3,9 +3,9 @@ description: Scopri come segmentare singole metriche per effettuare confronti di
 title: Metriche segmentate
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Ripeti i passaggi precedenti per la versione internazionale della metrica calcol
 
 ## Totali
 
-1. Crea due nuove metriche calcolate basate sul totale complessivo. Aprire ciascuno dei segmenti creati in precedenza, rinominare il segmento, impostare **[!UICONTROL Metric type]** per **[!UICONTROL People]** su **[!UICONTROL Grand Total]** e utilizzare **[!UICONTROL Save As]** per salvare il segmento utilizzando il nuovo nome. Ad esempio:
+1. Crea due nuove metriche calcolate basate sul totale complessivo. Apri ciascuno dei segmenti creati in precedenza, rinomina il segmento, imposta il **[!UICONTROL tipo di metrica]** per **[!UICONTROL Persone]** su **[!UICONTROL Totale complessivo]** e utilizza **[!UICONTROL Salva con nome]** per salvare il segmento utilizzando il nuovo nome. Ad esempio:
 
    ![Metrica totale per la Germania](assets/calculated-metric-germany-total.png)
 
@@ -90,7 +90,7 @@ Ripeti i passaggi precedenti per la versione internazionale della metrica calcol
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza una metrica calcolata segmentata come metrica senza implementazione](https://video.tv.adobe.com/v/41662?captions=ita&quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza una metrica calcolata segmentata come metrica senza implementazione](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} per un video dimostrativo.
 
 {{videoaa}}
 

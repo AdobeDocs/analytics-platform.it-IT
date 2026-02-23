@@ -4,10 +4,10 @@ title: Ad anello
 feature: Visualizations
 exl-id: 97b846a6-3a38-48c7-b686-b792bb882fdb
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 86%
+source-wordcount: '129'
+ht-degree: 72%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione ad anello in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Anello](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/donut) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione ad anello in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Anello](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/donut) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
 
-Simile a un grafico a torta, la visualizzazione ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** mostra i dati come parti o segmenti di un intero. La visualizzazione ad anello è utile per confrontare percentuali di un totale, solitamente con un numero ridotto di voci.
+Simile a un grafico a torta, la visualizzazione ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Anello]** mostra i dati come parti o segmenti di un intero. La visualizzazione ad anello è utile per confrontare percentuali di un totale, solitamente con un numero ridotto di voci.
 
 ![Grafico ad anello che mostra i dati come parti o segmenti di un intero.](assets/donut.png)
 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere una visualizzazione ad anello](https://video.tv.adobe.com/v/3416625/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere una visualizzazione ad anello](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-donut-visualization){target="_blank"}.
 
 {{videoaa}}
 
@@ -47,7 +47,7 @@ Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

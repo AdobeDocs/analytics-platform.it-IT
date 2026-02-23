@@ -5,10 +5,10 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 98%
+source-wordcount: '2701'
+ht-degree: 85%
 
 ---
 
@@ -29,7 +29,7 @@ Le informazioni seguenti spiegano ai curatori di dati di Customer Journey Analyt
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3409730?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -44,42 +44,42 @@ Una scorecard di Analytics mostra le visualizzazioni dei dati chiave per gli ute
 
 In qualità di curatore di questa scorecard, puoi usare il generatore di scorecard per configurare le sezioni che appariranno nella scorecard per l’utente direzionale. Puoi anche configurare il modo in cui le viste dettagliate, o i raggruppamenti, possono essere regolati una volta che le sezioni vengono toccate. L’interfaccia del generatore di scorecard è mostrata di seguito:
 
-![Generatore di scorecard che mostra la finestra nuova scorecard per dispositivi mobili. &#x200B;](assets/scorecard_builder.png)
+![Generatore di scorecard che mostra la finestra nuova scorecard per dispositivi mobili. ](assets/scorecard_builder.png)
 
 Per creare la scorecard, dovrai effettuare le seguenti operazioni:
 
-1. Accedi al modello [!UICONTROL Blank mobile scorecard] in Workspace.
+1. Accedi al modello [!UICONTROL Scorecard per dispositivi mobili vuota] in Workspace.
 2. Configura la scorecard con i dati e salvala.
 
-## Accedi al modello [!UICONTROL Blank Mobile Scorecard] {#template}
+## Accedi al modello [!UICONTROL Scorecard per dispositivi mobili vuota] {#template}
 
-Puoi accedere al modello [!UICONTROL Blank Mobile Scorecard] creando un nuovo progetto o dal menu degli strumenti.
+Puoi accedere al modello [!UICONTROL Scorecard per dispositivi mobili vuota] creando un nuovo progetto o dal menu Strumenti.
 
 ### Creare un nuovo progetto {#create}
 
 1. Apri Customer Journey Analytics e fai clic sulla scheda **[!UICONTROL Workspace]**.
-1. Nella barra a sinistra fai clic su **[!UICONTROL Projects]**.
-1. Fai clic sul pulsante **[!UICONTROL Create project]** e seleziona il modello di progetto **[!UICONTROL Blank mobile scorecard]**.
-1. Fai clic su **[!UICONTROL Create]**.
+1. Nella barra a sinistra, fai clic su **[!UICONTROL Progetti]**.
+1. Fai clic su **[!UICONTROL Crea progetto]** e seleziona il modello di progetto **[!UICONTROL Scorecard per dispositivi mobili vuota]**.
+1. Fai clic su **[!UICONTROL Crea]**.
 
 ![Finestra Tutti i modelli con la scorecard per dispositivi mobili vuota selezionata.](assets/new_template.png)
 
 ### Menu Strumenti
 
-1. Dal menu **[!UICONTROL Tools]**, seleziona **[!UICONTROL Analytics dashboards (Mobile App)]**.
-1. Nella schermata successiva, fai clic su **[!UICONTROL Create new scorecard]**.
+1. Dal menu **[!UICONTROL Strumenti]**, seleziona **[!UICONTROL Dashboard di Analytics (app mobile)]**.
+1. Nella schermata successiva, fai clic su **[!UICONTROL Crea nuova scorecard]**.
 
 ## Configurare la scorecard con i dati e salvarla {#configure}
 
 Per implementare il modello della scorecard:
 
-1. Alla voce **[!UICONTROL Scorecard properties]** (nella barra a destra), specifica la **[!UICONTROL Project data view]** della quale desideri utilizzare i dati.
+1. In **[!UICONTROL Proprietà scorecard]** (nella barra a destra), specifica una **[!UICONTROL Visualizzazione dati progetto]** da cui desideri utilizzare i dati.
 
    ![Finestra Nuova scorecard per dispositivi mobili con la selezione della visualizzazione dati evidenziata](assets/properties_save.png)
 
-1. Per aggiungere una nuova sezione alla scorecard, trascina una metrica dal pannello a sinistra e rilasciala nella zona **[!UICONTROL Drag and Drop Metrics Here]**. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
+1. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello di sinistra e rilasciala nella zona **[!UICONTROL Trascina e rilascia metriche qui]**. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
 
-   ![Finestra Nuova scorecard per dispositiivi mobili con una freccia che punta a una metrica (Nuovo KPI) rilasciata nella scorecard. &#x200B;](assets/build_list.png)
+   ![Finestra Nuova scorecard per dispositiivi mobili con una freccia che punta a una metrica (Nuovo KPI) rilasciata nella scorecard. ](assets/build_list.png)
 
 
 1. Da ogni sezione, è possibile accedere a una vista dettagliata che visualizza informazioni aggiuntive sulla metrica, come gli elementi principali di un elenco di dimensioni correlate.
@@ -88,7 +88,7 @@ Per implementare il modello della scorecard:
 
 Per aggiungere una dimensione correlata a una metrica, trascina una dimensione dal pannello di sinistra e rilasciala su una tessera.
 
-Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Channel]**, in questo esempio) alla metrica **[!UICONTROL Unique Visitors]** trascinandola e rilasciandola sulla sezione. I raggruppamenti delle singole dimensioni vengono visualizzati nell’area [!UICONTROL Drill Ins] (Approfondimenti) delle **[!UICONTROL Properties]** della specifica sezione. Puoi aggiungere più dimensioni a ogni sezione.
+Ad esempio, puoi aggiungere dimensioni appropriate (come **[!DNL Marketing Channel]**, in questo esempio) alla metrica **[!UICONTROL Visitatori univoci]** trascinandola e rilasciandola sulla sezione. I raggruppamenti delle dimensioni vengono visualizzati nella sezione [!UICONTROL Drill Ins] (raggruppamento) delle **[!UICONTROL Proprietà]** specifiche della tessera. Puoi aggiungere più dimensioni a ogni sezione.
 
 ![Finestra Nuova scorecard per dispositivi mobili con una freccia che dall’elenco delle dimensioni punta al riquadro scorecard.](assets/layer_dimensions.png)
 
@@ -136,35 +136,35 @@ L’impostazione è *attiva* per impostazione predefinita. Se non desideri visua
 
 ## Applicare le visualizzazioni {#viz}
 
-Le dashboard di Analytics offrono quattro visualizzazioni che consentono di ottenere informazioni approfondite su elementi e metriche delle dimensioni. Applica una visualizzazione diversa modificando l’area [!UICONTROL chart type] delle [!UICONTROL Properties] di una sezione. Seleziona la sezione destra e modifica il tipo di grafico.
+Le dashboard di Analytics offrono quattro visualizzazioni che consentono di ottenere informazioni approfondite su elementi e metriche delle dimensioni. Applica una visualizzazione diversa modificando il tipo di [!UICONTROL grafico] delle [!UICONTROL proprietà] di una tessera. Seleziona la sezione destra e modifica il tipo di grafico.
 
 ![Proprietà delle sezioni](assets/properties.png)
 
-Oppure, fai clic sull’icona [!UICONTROL Visualizations] nella barra a sinistra, quindi trascina la visualizzazione a destra sulla sezione:
+Oppure fai clic sull&#39;icona [!UICONTROL Visualizzazioni] nella barra a sinistra, quindi trascina la visualizzazione a destra sulla sezione:
 
 ![Visualizzazioni](assets/vizs.png)
 
-### [!UICONTROL Summary Number]
+### [!UICONTROL Numero di riepilogo]
 
 Utilizza la visualizzazione Numero di riepilogo per evidenziare un numero elevato importante in un progetto.
 
 ![Nuova scorecard per dispositivi mobili con visualizzazione Numero di riepilogo che evidenzia 13.300 visite](assets/summary-number.png)
 
-### [!UICONTROL Donut]
+### [!UICONTROL Anello]
 
 Questa visualizzazione è simile al grafico a torta e presenta i dati come parti o segmenti di un intero. Puoi utilizzare un grafico ad anello per confrontare le percentuali di un totale. Ad esempio, vuoi capire quale piattaforma di annunci ha contribuito al numero totale di visitatori univoci:
 
 ![Nuova scorecard per dispositivi mobili che mostra una visualizzazione ad anello](assets/donut-viz.png)
 
-### [!UICONTROL Line]
+### [!UICONTROL Linee]
 
 La visualizzazione a linee rappresenta le metriche con linee che mostrano come cambiano i valori nel tempo. Un grafico a linee mostra le dimensioni nel tempo, ma funziona con qualsiasi visualizzazione. Questo esempio presenta la dimensione della categoria di prodotto.
 
 ![Nuova scorecard per dispositivi mobili che mostra una visualizzazione a linee](assets/line.png)
 
-### [!UICONTROL Horizontal Bar]
+### [!UICONTROL Barra orizzontale]
 
-Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche. Ad esempio, per vedere facilmente quali sono i tuoi prodotti migliori, utilizza la visualizzazione [!UICONTROL Horizontal Bar].
+Questa visualizzazione mostra barre orizzontali che rappresentano diversi valori per una o più metriche. Ad esempio, per vedere facilmente quali sono i tuoi prodotti migliori, utilizza [!UICONTROL Barre orizzontali] per la tua visualizzazione preferita.
 
 ![Nuova scorecard per dispositivi mobili con una barra orizzontale](assets/horizontal.png)
 
@@ -174,16 +174,16 @@ Per denominare la scorecard, fai clic sullo spazio dei nomi in alto a sinistra d
 
 ![Assegnare_un_nome_alle_scorecard](assets/new_name.png)
 
-### Rimuovere l’elemento di dimensione [!UICONTROL Unspecified] {#remove-dims}
+### Rimuovi [!UICONTROL elemento dimensione non specificato] {#remove-dims}
 
-Se desideri rimuovere dai dati gli elementi di dimensione [!UICONTROL Unspecified], effettua le seguenti operazioni:
+Se si desidera rimuovere [!UICONTROL Non specificato] elementi dimensionali dai dati, eseguire le operazioni seguenti:
 
 1. Seleziona la sezione corretta.
-1. Nella barra a destra, sotto **[!UICONTROL Drill ins]**, seleziona la freccia destra accanto all’elemento di dimensione di cui vuoi rimuovere gli elementi **[!UICONTROL Unspecified]**.
+1. Nella barra a destra, in **[!UICONTROL Drill-in]**, seleziona la freccia destra accanto all&#39;elemento di dimensione di cui **[!UICONTROL Non specificato]** elementi desideri rimuovere.
 
    ![Proprietà con freccia che punta alla freccia destra accanto al nome della dimensione.](assets/unspecified.png)
 
-1. Fai clic sull’icona accanto a **[!UICONTROL Unspecified]** per rimuovere i dati non specificati dalle attività di reporting. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
+1. Fai clic sull&#39;icona accanto a **[!UICONTROL Non specificato]** per rimuovere i dati non specificati dai rapporti. È inoltre possibile rimuovere qualsiasi altro elemento di dimensione.
 
 ## Visualizzare e configurare le proprietà delle sezioni {#tiles}
 
@@ -212,7 +212,7 @@ Le diapositive di dettaglio personalizzate consentono di essere ancora più mira
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dei dettagli personalizzate.](https://video.tv.adobe.com/v/3413788?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazioni dei dettagli personalizzate.](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/visitor-id/stitching-enablement-and-validation){target="_blank"}.
 
 {{videoaa}}
 
@@ -257,7 +257,7 @@ Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Presentazioni di dati per un progetto di scorecard per dispositivi mobili](https://video.tv.adobe.com/v/3420561/?captions=ita&quality=12&learn=on){target="_blank"} .
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Presentazioni di dati per un progetto di scorecard per dispositivi mobili](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} .
 
 {{videoaa}}
 
@@ -319,11 +319,11 @@ Puoi anche spostarti avanti e indietro utilizzando le frecce sulla tastiera oppu
 
 Puoi visualizzare in anteprima come si presenterà e funzionerà la scorecard una volta pubblicata nell’app delle dashboard di Adobe Analytics.
 
-1. Fai clic su **[!UICONTROL Preview]** in alto a destra.
+1. Fai clic su **[!UICONTROL Anteprima]** nell&#39;angolo superiore destro dello schermo.
 
    ![Preview_scorecards](assets/preview.png)
 
-1. Per visualizzare come si presenta la scorecard su dispositivi diversi, seleziona un dispositivo dal menu a discesa [!UICONTROL Device preview].
+1. Per visualizzare l&#39;aspetto della scorecard su dispositivi diversi, selezionare un dispositivo dal menu a discesa [!UICONTROL Anteprima dispositivo].
 
    ![Device_preview](assets/device-preview.png)
 
@@ -339,22 +339,22 @@ Puoi visualizzare in anteprima come si presenterà e funzionerà la scorecard un
 
 Per condividere la scorecard con un utente direzionale:
 
-1. Fai clic sul menu **[!UICONTROL Share]** e seleziona **[!UICONTROL Share scorecard]**.
+1. Fai clic sul menu **[!UICONTROL Condividi]** e seleziona **[!UICONTROL Condividi scorecard]**.
 
-1. Nel modulo **[!UICONTROL Share Mobile Scorecard]**, compila i campi:
+1. Nel modulo **[!UICONTROL Condividi scorecard per dispositivi mobili]**, compila i campi:
 
    * Inserimento del nome della scorecard
    * Inserimento di una descrizione della scorecard
    * Aggiungendo tag rilevanti
    * Specificare i destinatari della scorecard
 
-1. Fai clic su **[!UICONTROL Share]**.
+1. Fai clic su **[!UICONTROL Condividi]**.
 
 ![Condividere_scorecard](assets/new_share.png)
 
 Dopo che hai condiviso una scorecard, i destinatari possono accedervi sulle loro dashboard di Analytics. Se apporti successive modifiche alla scorecard nel Generatore di scorecard, queste verranno automaticamente aggiornate nella scorecard condivisa. Gli utenti direzionali vedranno poi i cambiamenti dopo aver aggiornato la scorecard nella loro app.
 
-Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente (e di selezionare l’opzione **[!UICONTROL Share embedded components]**) per assicurarti che gli utenti direzionali abbiano accesso a queste modifiche.
+Se aggiorni la scorecard aggiungendo nuovi componenti, ti consigliamo di condividerla nuovamente e di selezionare l&#39;opzione **[!UICONTROL Condividi componenti incorporati]** per assicurarti che gli utenti esecutivi abbiano accesso a queste modifiche.
 
 ### Condividere le scorecard mediante un collegamento condivisibile
 
@@ -362,7 +362,7 @@ L’utilizzo di un collegamento condivisibile semplifica la condivisione di una 
 
 Per condividere una scorecard utilizzando un collegamento condivisibile
 
-1. Fai clic sul menu **[!UICONTROL Share]** e seleziona **[!UICONTROL Share scorecard]**.
+1. Fai clic sul menu **[!UICONTROL Condividi]** e seleziona **[!UICONTROL Condividi scorecard]**.
 
    ![Condividere_scorecard](assets/share-scorecard.png)
 
