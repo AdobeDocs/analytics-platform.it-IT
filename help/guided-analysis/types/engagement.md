@@ -35,7 +35,7 @@ Le funzioni che si posizionano nella parte superiore di questa visualizzazione i
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi del coinvolgimento](https://video.tv.adobe.com/v/3429489/&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi del coinvolgimento](https://video.tv.adobe.com/v/3447475?captions=ita){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
