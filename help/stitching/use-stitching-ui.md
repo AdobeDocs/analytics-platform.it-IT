@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: d1ba2d203738ca9bf74d17bb93712eff26f88f25
+source-git-commit: c6ccbdf89c51deef33b562a053b9c3b4bc626497
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 5%
@@ -91,7 +91,7 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 >id="connection_changeto_identitygraph"
 >title="Passare al grafo identità"
 >abstract="Assicurati di aver completato la configurazione del grafo delle identità prima di utilizzarlo per l’unione."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/gbs" text="Unione delle identità basata su grafo"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="Unione delle identità basata su grafo"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
@@ -112,14 +112,14 @@ Per abilitare l&#39;unione, nella sezione del set di dati evento della finestra 
 
    Se si seleziona **[!UICONTROL Mappa identità]** per l&#39;ID persistente, è necessario selezionare uno spazio dei nomi. Sono disponibili due opzioni:
 
-   * Abilita **[!UICONTROL Utilizza lo spazio dei nomi dell&#39;identità primaria]** per utilizzare lo spazio dei nomi dell&#39;identità primaria.
+   * Selezionare **[!UICONTROL Usa spazio dei nomi dell&#39;identità primaria]** per utilizzare lo spazio dei nomi dell&#39;identità primaria.
    * Selezionare uno spazio dei nomi dal menu a discesa **[!UICONTROL Spazio dei nomi]**.
 
 1. Selezionare un ID persona dal menu a discesa **[!UICONTROL ID persona]**.
 
    Se selezioni **[!UICONTROL Identity Map]** per l&#39;ID persona, devi selezionare uno spazio dei nomi. Sono disponibili due opzioni:
 
-   * Abilita **[!UICONTROL Utilizza lo spazio dei nomi dell&#39;identità primaria]** per utilizzare lo spazio dei nomi dell&#39;identità primaria.
+   * Selezionare **[!UICONTROL Usa spazio dei nomi dell&#39;identità primaria]** per utilizzare lo spazio dei nomi dell&#39;identità primaria.
    * Selezionare uno spazio dei nomi dal menu a discesa **[!UICONTROL Spazio dei nomi]**.
 
 
@@ -141,7 +141,7 @@ Dopo aver salvato una connessione, il processo di unione per i set di dati abili
 
 >[!CAUTION]
 >
->Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**&#x200B;per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
+>Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
 >
 
 
