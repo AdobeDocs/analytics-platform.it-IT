@@ -5,7 +5,7 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: e1f7245a6c9bf6e36a49edafbcbb0e1005bc6e5b
+source-git-commit: 684f7e95e872ed3cc56a12725dd63459ed488ecc
 workflow-type: tm+mt
 source-wordcount: '2548'
 ht-degree: 77%
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 >[!AVAILABILITY]
 >
->L’agente Data Insights è disponibile per la clientela idonea per un periodo limitato. L’accesso all’agente Data Insights terminerà il 28 febbraio 2026. Per continuare a utilizzare l’agente Data Insights oltre questa data senza interruzioni, contatta il rappresentante del tuo account Adobe per ottenere ulteriori informazioni sulla licenza di Adobe Experience Platform Agent Orchestrator.
+>L’agente Data Insights è disponibile per la clientela idonea per un periodo limitato. L’accesso all’agente Data Insights terminerà il mercoledì 31 marzo 2026. Per continuare a utilizzare l’agente Data Insights oltre questa data senza interruzioni, contatta il rappresentante del tuo account Adobe per ottenere ulteriori informazioni sulla licenza di Adobe Experience Platform Agent Orchestrator.
 
 L’agente Data Insights, accessibile dall’[Assistente IA](/help/ai-assistant.md) in Customer Journey Analytics, è un agente per conversazioni basate sull’IA generativa che risponde in modo rapido ed efficiente alle domande sui tuoi dati. Crea visualizzazioni rilevanti in Analysis Workspace utilizzando i componenti della visualizzazione dati e i dati effettivi.
 
@@ -54,7 +54,7 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
 * **Autorizzazioni**: per consentire agli utenti di accedere a Data Insights Agent, è necessario concedere le autorizzazioni necessarie in [!UICONTROL Adobe Admin Console].
 
-  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
+  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
    1. In **[!UICONTROL Admin Console]**, seleziona la scheda **[!UICONTROL Prodotti]** per visualizzare la pagina **[!UICONTROL Tutti i prodotti e i servizi]**.
    1. Seleziona **[!UICONTROL Customer Journey Analytics]**.
    1. Nella scheda **[!UICONTROL Profili di prodotto]**, selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso all&#39;[!UICONTROL Assistente AI: Conoscenza del prodotto].
@@ -178,7 +178,7 @@ Adobe Experience Platform Agent Orchestrator consente di accedere alle funzional
 
 Agent Orchestrator interpreta la richiesta, determina quali agenti specializzati sono necessari e li orchestra per fornire la risposta giusta. Tiene traccia del contesto nelle interazioni a più turni, in modo da poter sfruttare naturalmente le query precedenti.
 
-Per ulteriori informazioni, consulta [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/it/products/experience-platform/agent-orchestrator.html).
+Per ulteriori informazioni, consulta [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
 
 ## Esempi di prompt per le visualizzazioni dati
 
