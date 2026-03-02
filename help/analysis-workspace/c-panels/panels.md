@@ -89,7 +89,7 @@ Puoi gestire un pannello nei modi seguenti:
 
 ## Visualizzazione dati
 
-Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md), identificata dal ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**nel menu a discesa in alto a destra del pannello.
+Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md), identificata dal ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**&#x200B;nel menu a discesa in alto a destra del pannello.
 
 Quando crei un progetto Workspace vuoto, la visualizzazione dati predefinita per il pannello iniziale è l’ultima visualizzazione dati su cui hai lavorato in Customer Journey Analytics.
 
@@ -180,7 +180,7 @@ I segmenti a discesa statici consentono di interagire con i dati in modo control
 
 I segmenti a discesa statici possono essere utilizzati anche per consolidare più progetti in un unico progetto. Ad esempio, se hai creato più versioni dello stesso progetto assegnando a ciascuna un segmento Paese diverso, puoi consolidarle tutte in un unico progetto e aggiungere un segmento a discesa Paese.
 
-![Segmenti a discesa statici che mostrano il segmento del canale di mercato “Diretto” evidenziato. ](assets/dropdown-filter-intro.png)
+![Segmenti a discesa statici che mostrano il segmento del canale di mercato “Diretto” evidenziato. &#x200B;](assets/dropdown-filter-intro.png)
 
 ##### Creare segmenti a discesa statici
 
