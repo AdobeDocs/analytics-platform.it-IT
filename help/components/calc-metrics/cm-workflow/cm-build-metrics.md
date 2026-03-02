@@ -3,10 +3,10 @@ description: Scopri il generatore di metriche calcolate, che fornisce un’area 
 title: Creare metriche
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: fa6654e85fd4055d41f42145fa5a4f917a8875c4
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 60%
+source-wordcount: '1677'
+ht-degree: 58%
 
 ---
 
@@ -65,9 +65,11 @@ La finestra di dialogo **[!UICONTROL Generatore di metriche calcolate]** viene u
 
 1. Per verificare se la definizione della metrica calcolata è corretta, utilizza la **[!UICONTROL Anteprima]** costantemente aggiornata dei risultati della metrica calcolata. **[!UICONTROL Anteprima]** copre gli ultimi 90 giorni e valuta continuamente la definizione della metrica calcolata.
 
-   La **[!UICONTROL Compatibilità del prodotto]** indica se la metrica calcolata può essere utilizzata nella sperimentazione. I valori possibili sono:
+   La **[!UICONTROL Compatibilità del prodotto]** indica se la metrica calcolata può essere utilizzata nella sperimentazione e nell&#39;esportazione di tabelle complete. I valori possibili sono:
    * **[!UICONTROL Ovunque in Customer Journey Analytics]**: la metrica calcolata può essere utilizzata in tutto Customer Journey Analytics.
-   * **[!UICONTROL Ovunque in Customer Journey Analytics (esclusa la sperimentazione)]**: la metrica calcolata può essere utilizzata in tutto Customer Journey Analytics, eccetto nel pannello Sperimentazione.
+   * **[!UICONTROL Non compatibile in:]**
+      * **[!UICONTROL Sperimentazione]**: la metrica calcolata può essere utilizzata in tutto Customer Journey Analytics, eccetto nel pannello Sperimentazione.
+      * **[!UICONTROL Esportazione tabella completa]**: la metrica calcolata può essere utilizzata in tutto Customer Journey Analytics, tranne quando si esportano tabelle complete da Workspace. Non tutte le funzioni sono supportate quando si esportano tabelle complete. Se devi includere la metrica calcolata durante l’esportazione di tabelle complete, utilizza una funzione supportata. Per ulteriori informazioni, vedere [Funzioni metriche calcolate non supportate](/help/analysis-workspace/export/export-cloud.md#unsupported-calculated-metric-functions) in [Esportare tabelle complete nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
 1. Seleziona:
    * **[!UICONTROL Salva]** per salvare la metrica calcolata.

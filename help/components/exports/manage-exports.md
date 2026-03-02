@@ -5,9 +5,9 @@ title: Gestire le esportazioni
 feature: Components
 exl-id: 0c21802a-c46f-41be-9356-d836c038b174
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: d0fa233aa5359064e9e0afea1a5384f5e38d017e
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1277'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Dopo aver esportato una tabella completa come descritto in [Esporta report Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), le esportazioni sono disponibili nella scheda [!UICONTROL Esportazioni] della pagina [!UICONTROL Esportazioni].
 
-Puoi visualizzare solo le esportazioni create.
+Puoi visualizzare solo le esportazioni create. Gli amministratori possono visualizzare tutte le esportazioni abilitando l&#39;opzione **[!UICONTROL Visualizza esportazioni per tutti gli utenti]**.
 
 ## Filtrare e cercare le esportazioni
 
@@ -28,16 +28,17 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle esportazi
 
 1. Selezionare la scheda [!UICONTROL **Esportazioni**].
 
-1. Seleziona l&#39;icona **Filtro**.
+   ![Gestisci pagina esportazioni](assets/exports-manage.png)
 
-   <!--add screenshot -->
+1. Seleziona l&#39;icona **Filtro** ![Icona Filtro](/help/assets/icons/Filter.svg).
 
    Puoi filtrare in base ai seguenti criteri:
 
    | Filtro | Descrizione |
    |---------|----------|
    | [!UICONTROL **Tipo di account**] | Il tipo di account a cui è associata l’esportazione. Sono disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **AEP Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **Stato**] | Stato dell’esportazione. Sono disponibili i seguenti stati: <ul><li>[!UICONTROL **Attivo**]: indica che un&#39;esportazione pianificata non è ancora scaduta o che un&#39;esportazione una tantum non è ancora stata completata. </li><li>[!UICONTROL **Completato**]: indica che un&#39;esportazione è stata esportata correttamente. Per le esportazioni programmate, ciò indica che la pianificazione è scaduta.</li><li>[!UICONTROL **Non riuscito**]<p>Le situazioni seguenti possono causare un’esportazione non riuscita. Passa il cursore del mouse sullo stato [!UICONTROL **Non riuscito**] per visualizzare i dettagli dell&#39;errore. <ul><li>Scadenza esportazione pianificata</li><li>Limite di righe raggiunto per l’esportazione pianificata </li></ul> </p></li></ul> |
+   | [!UICONTROL **Stato**] | Stato dell’esportazione. Sono disponibili i seguenti stati: <ul><li>[!UICONTROL **Attivo**]: indica che un&#39;esportazione pianificata non è ancora scaduta o che un&#39;esportazione una tantum non è ancora stata completata. </li><li>[!UICONTROL **Completato**]: indica che un&#39;esportazione è stata esportata correttamente. Per le esportazioni programmate, ciò indica che la pianificazione è scaduta.</li><li>[!UICONTROL **Non riuscito**]<p>Le situazioni seguenti possono causare un’esportazione non riuscita. Passa il cursore del mouse sullo stato [!UICONTROL **Non riuscito**] per visualizzare i dettagli dell&#39;errore. <ul><li>Scadenza esportazione pianificata</li><li>Limite di righe raggiunto per l’esportazione pianificata </li></ul><li>[!UICONTROL **Scaduto**]: indica che l&#39;esportazione è scaduta.</li></ul> |
+   | [!UICONTROL **Creata da**] | Utente che ha creato l’esportazione.<p>Questa opzione è disponibile solo per gli amministratori quando è abilitata l&#39;opzione **[!UICONTROL Visualizza esportazioni per tutti gli utenti]**. |
    | [!UICONTROL **Frequenza**] | La frequenza con cui si verifica l’esportazione. Sono disponibili le seguenti frequenze: <ul><li>[!UICONTROL **Una tantum**]</li><li>[!UICONTROL **Giornaliero**]</li><li>[!UICONTROL **Settimanale**]</li><li>[!UICONTROL **Mensile**]</li><li>[!UICONTROL **Annuale**]</li></ul> |
 
    {style="table-layout:auto"}
@@ -47,6 +48,8 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco delle esportazi
 1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
 1. Selezionare la scheda [!UICONTROL **Esportazioni**].
+
+   ![Gestisci pagina esportazioni](assets/exports-manage.png)
 
 1. Nel campo di ricerca, inizia a digitare tutte le informazioni associate all’esportazione che stai cercando. Puoi cercare dati da qualsiasi colonna disponibile nella tabella.
 
@@ -64,7 +67,21 @@ Puoi modificare le proprietà, il formato, la pianificazione e le informazioni s
 
    Viene visualizzata la finestra di dialogo [!UICONTROL **Esporta tabella completa**].
 
-1. Aggiorna una qualsiasi delle opzioni disponibili. Per informazioni su ciascuna opzione, vedere [Esportare tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace) in [Esportare report Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).
+1. Aggiorna una qualsiasi delle opzioni disponibili. Per informazioni su ciascuna opzione, vedere [Esportare tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables) in [Esportare report Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).
+
+## Rinnovare un’esportazione
+
+Puoi rinnovare una o più esportazioni pianificate prima o dopo la scadenza. Le esportazioni vengono rinnovate per 1 anno dalla data di rinnovo.
+
+1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
+
+1. Nella scheda [!UICONTROL **Esportazioni**] selezionare la casella di controllo accanto a una o più esportazioni da rinnovare.
+
+1. Selezionare [!UICONTROL **Rinnova**].
+
+   Viene visualizzata la finestra di dialogo [!UICONTROL **Esporta tabella completa**]. <!--check process from here. -->
+
+1. Aggiorna una qualsiasi delle opzioni disponibili. Per informazioni su ciascuna opzione, vedere [Esportare tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables) in [Esportare report Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
 ## Duplicare un’esportazione
 
@@ -96,7 +113,7 @@ Puoi avviare manualmente un’esportazione per un’esportazione pianificata o u
 
 ## Assegnare tag a un’esportazione
 
-Quando si applicano i tag a un&#39;esportazione, è possibile visualizzarli nella colonna [!UICONTROL Tag] della pagina [!UICONTROL Esportazioni]. Per ulteriori informazioni, vedere [Configurare le colonne](#configure-columns).
+Quando si applicano i tag a un&#39;esportazione, è possibile visualizzarli nella colonna [!UICONTROL Tag] della pagina [!UICONTROL Esportazioni]. Per ulteriori informazioni, vedere [Configurare le colonne](#configure-columns-on-the-exports-page).
 
 1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
@@ -106,13 +123,14 @@ Quando si applicano i tag a un&#39;esportazione, è possibile visualizzarli nell
 
 1. Nella finestra di dialogo [!UICONTROL **Esportazione tag**], digita il nome di un tag per creare un nuovo tag oppure scegli un tag esistente dal menu a discesa.
 
-   Eventuali tag comuni tra le esportazioni selezionate vengono visualizzati nella finestra di dialogo dei tag. <!-- what happens if one export has a tag and another doesn't? Is the tag removed if you don't select it? I'm guessing not, but maybe check -->
+   Eventuali tag comuni tra le esportazioni selezionate vengono visualizzati nella finestra di dialogo dei tag.
 
 1. Selezionare [!UICONTROL **Applica tag**].
 
+
 ## Eliminare un’esportazione
 
-Puoi eliminare le esportazioni dalla pagina Esportazioni. Le esportazioni pianificate che vengono eliminate non verranno più inviate.
+Puoi eliminare le esportazioni dalla pagina Esportazioni. Se si elimina un’esportazione, questa viene rimossa dalla pagina delle esportazioni. Le esportazioni pianificate che vengono eliminate vengono annullate e non vengono più inviate.
 
 1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
@@ -148,8 +166,22 @@ Seleziona un’intestazione di colonna per ordinare le esportazioni in base a ta
    | Ora di invio | L’ora in cui è stata inviata l’esportazione. |
    | Ultimo invio | L’ultima volta che è stata inviata l’esportazione. |
    | Ultima modifica | L’ultima volta che l’esportazione è stata modificata. Per impostazione predefinita, gli elementi nella pagina Esportazioni sono ordinati in base a questa colonna. |
-   | Tipo di account | Tipo di account cloud in cui sono stati esportati i dati. I tipi di account disponibili sono [!UICONTROL ARN] per ruolo Amazon S3, [!UICONTROL Piattaforma Google Cloud], [!UICONTROL SAS di Azure], [!UICONTROL RBAC di Azure], [!UICONTROL Snowflake] e [!UICONTROL Adobe Experience Platform]. |
+   | Tipo di account | Tipo di account cloud in cui sono stati esportati i dati. I tipi di account disponibili sono [!UICONTROL ARN per ruolo Amazon S3], [!UICONTROL Google Cloud Platform], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] e [!UICONTROL AEP Data Landing Zone]. |
 
    {style="table-layout:auto"}
 
 1. Assicurati che tutte le colonne che desideri visualizzare siano selezionate. Le colonne selezionate vengono visualizzate nella pagina Esportazioni e le relative informazioni.
+
+## Creare un’esportazione dalla pagina Esportazioni
+
+È possibile creare un&#39;esportazione da Analysis Workspace, come descritto in [Esportare tabelle complete nel cloud](/help/analysis-workspace/export/export-cloud.md), oppure dalla pagina Esportazioni, come descritto in questa sezione.
+
+Per iniziare a creare un&#39;esportazione dalla pagina Esportazioni:
+
+1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
+
+1. Nella scheda [!UICONTROL **Esportazioni**], seleziona **[!UICONTROL Aggiungi esportazione]**.
+
+1. Compila i campi disponibili per creare l’esportazione. Per informazioni su ciascun campo, nonché sui componenti, sulle funzioni delle metriche calcolate e su altre funzionalità supportate, vedere [Esportare tabelle complete nel cloud](/help/analysis-workspace/export/export-cloud.md).
+
+

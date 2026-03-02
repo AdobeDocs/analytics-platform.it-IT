@@ -5,10 +5,10 @@ title: Configurare le posizioni di esportazione cloud
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: c4a7884ae05d9290b2974483474ba8326492d014
 workflow-type: tm+mt
-source-wordcount: '2030'
-ht-degree: 19%
+source-wordcount: '2947'
+ht-degree: 13%
 
 ---
 
@@ -28,13 +28,15 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="cja-export-file-name"
 >title="Nome e percorso del file"
->abstract="Specificare un nome di file personalizzato dinamico da utilizzare per le esportazioni automatizzate inviate a questo percorso. È inoltre possibile anteporre al nome del file un percorso personalizzato dinamico. &lt;br\>Utilizza le variabili nel nome e nel percorso del file per renderle dinamiche. &lt;br\>Ad esempio, se specifichi `${yyyy}/${mm}/${dd}/my-report-${instance_id}-${idx}`, un&#39;esportazione inviata automaticamente a questa destinazione il 15 gennaio 2026 avrà il percorso e il nome file seguenti: `[prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv` &lt;br\>Fai clic sul collegamento seguente per un elenco delle variabili disponibili."
+>abstract="Specificare un nome di file personalizzato dinamico da utilizzare per le esportazioni automatizzate inviate a questo percorso. È inoltre possibile anteporre al nome del file un percorso personalizzato dinamico. <br/>Utilizzare le variabili nel nome e nel percorso del file per renderle dinamiche. <br/>Ad esempio, se si specifica `${yyyy}/${MM}/${dd}/my-report-${instance_id}-${idx}`, un&#39;esportazione inviata automaticamente a questa destinazione il 15 gennaio 2026 avrà il percorso e il nome di file seguenti: `[prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv` <br/>Fare clic sul collegamento seguente per un elenco delle variabili disponibili."
 
 <!-- markdownlint-enable MD034 -->
 
-Prima di poter esportare i report di Customer Journey Analytics in una destinazione cloud (da Analysis Workspace, come descritto in [Esportare i report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md) o da Report Builder, come descritto in [Esportare i report da Report Builder](/help/report-builder/report-builder-export.md)) come descritto in [Esportare i report di Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md), è necessario aggiungere e configurare il percorso in cui si desidera inviare i dati.
+Prima di poter esportare i report di Customer Journey Analytics in una destinazione cloud (da [Analysis Workspace](/help/analysis-workspace/export/export-cloud.md) o da [Report Builder](/help/report-builder/report-builder-export.md)), devi aggiungere e configurare il percorso in cui desideri inviare i dati. Questo processo è costituito da:
 
-Questo processo consiste nell&#39;aggiungere e configurare l&#39;account (ad esempio Amazon S3, Google Cloud Platform e così via) come descritto in [Configurare gli account di esportazione cloud](/help/components/exports/cloud-export-accounts.md), quindi aggiungere e configurare il percorso all&#39;interno dell&#39;account (ad esempio una cartella all&#39;interno dell&#39;account) come descritto in questo articolo.
+1. Aggiunta e configurazione dell&#39;account (ad esempio Amazon S3, Google Cloud Platform e così via) come descritto in [Configurazione degli account di esportazione cloud](/help/components/exports/cloud-export-accounts.md)
+
+1. Aggiunta e configurazione della posizione all’interno dell’account (ad esempio una cartella all’interno dell’account) come descritto in questo articolo.
 
 Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazione, la modifica e l&#39;eliminazione dei percorsi, vedere [Gestione dei percorsi e degli account di esportazione cloud](/help/components/exports/manage-export-locations.md).
 
@@ -86,15 +88,14 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 
    * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location)
 
-   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
 1. Nella sezione [!UICONTROL **Proprietà posizione**] della finestra di dialogo [!UICONTROL **Aggiungi posizione**], specifica le seguenti informazioni per configurare una posizione di zona di destinazione dati di Adobe Experience Platform:
 
-   <!-- still need to update; can't create AEP account -->
-
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica un nome di cartella statico, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
+   | [!UICONTROL **Nome e percorso file**] | Specificare un nome di file personalizzato dinamico da utilizzare per le esportazioni automatizzate inviate a questo percorso. È inoltre possibile anteporre al nome del file un percorso personalizzato dinamico. <p>Questa opzione consente di automatizzare la creazione di nomi di file e il posizionamento delle cartelle, in modo che i nomi di file siano prevedibili e organizzati in cartelle in modo logico. Ad esempio, i nomi dei file possono essere denominati in base al giorno in cui sono stati consegnati, quindi inseriti in cartelle corrispondenti a ogni mese.</p><p>Utilizza una delle seguenti variabili nel nome e nel percorso del file per renderle dinamiche:</p><ul><li>**{yyyy}**: anno di calendario a 4 cifre (distinzione maiuscole/minuscole)</li><li>**{yy}**: anno di calendario a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{MM}**: mese di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{dd}**: giorno di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{HH}**: ore a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{mm}**: minuti a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{ss}**: secondi a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{fff}**: nanosecondi di 3 cifre (distinzione maiuscole/minuscole)</li><li>**{instance_id}**: UUID richiesta (istanza)</li><li>**{export_id}**: UUID esportazione (pianificazione)</li><li>**{idx}**: indice con inizio da 0 (incrementato per ciascun file)</li><li>**{total}**: numero totale di file per l&#39;intero processo di trasferimento</li><li>**{completion_millis}**: tempo di trasferimento in millisecondi</li></ul></p><p>Ad esempio, se si specifica `${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`, un&#39;esportazione inviata automaticamente a questa destinazione il 15 gennaio 2026 avrà il percorso e il nome file seguenti: [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 
    {style="table-layout:auto"}
 
@@ -102,18 +103,18 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 
 1. Ora puoi esportare dati da Analysis Workspace all’account e alla posizione configurati. Per informazioni su come esportare i dati nel cloud, vedere [Esportare i dati del progetto nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
-1. Il modo più semplice per accedere ai dati nell’area di destinazione dati di AEP è utilizzare Microsoft Azure Storage Explorer. Questo è lo stesso strumento utilizzato nelle istruzioni per configurare l&#39;account [AEP Data Landing Zone](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone).
+1. Il modo più semplice per accedere ai dati nell’area di destinazione dati di AEP è utilizzare Microsoft Azure Storage Explorer. Esplora archivi è lo stesso strumento utilizzato nelle istruzioni per configurare l&#39;account [AEP Data Landing Zone](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone).
 
-   1. Aprire [Esplora archivi di Microsoft Azure](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
+   1. Apri [Microsoft Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
-   1. Vai a [!UICONTROL **Account di archiviazione**] > [!UICONTROL **(Contenitori allegati)**] > [!UICONTROL **Contenitori BLOB**] > **[!UICONTROL cjaexport-_numero_]**>*** nome_contenitore &#x200B;***.
+   1. Vai a [!UICONTROL **Account di archiviazione**] > [!UICONTROL **(Contenitori allegati)**] > [!UICONTROL **Contenitori BLOB**] > **[!UICONTROL cjaexport-_numero_]**>*** nome_contenitore ***.
 
       >[!NOTE]
       >
-      >Il nome della cartella **[!UICONTROL cjaexport-_number_]**&#x200B;è il nome predefinito fornito da Azure Storage Explorer. Se all&#39;URI SAS è associata una sola connessione (normale), il nome della cartella sarà&#x200B;**[!UICONTROL cjaexport-1]**.
+      >Il nome della cartella **[!UICONTROL cjaexport-_number_]**è il nome predefinito fornito da Azure Storage Explorer. Se all&#39;URI SAS è associata una sola connessione (normale), il nome della cartella sarà&#x200B;**[!UICONTROL cjaexport-1]**.
 
 
-      ![Accedere ai file in Azure Storage Explorer](assets/azure-storage-explorer-access.png)
+      ![Accedere ai file in Esplora archivi di Azure](assets/azure-storage-explorer-access.png)
 
    1. Seleziona l&#39;esportazione da scaricare, quindi seleziona [!UICONTROL **Scarica**] per scaricarla.
 
@@ -123,16 +124,15 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 
    * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location)
 
-   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
 1. Nella sezione [!UICONTROL **Proprietà posizione**] della finestra di dialogo [!UICONTROL **Aggiungi posizione**], specifica le seguenti informazioni per configurare una posizione ARN per il ruolo Amazon S3:
-
-   <!-- still need to update; can't create S3 role ARN account -->
 
    | Campo | Funzione |
    |---------|----------|
    | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account Amazon S3 in cui desideri inviare i dati di Customer Journey Analytics. <p>Assicurati che l&#39;ARN utente fornito da Adobe disponga dell&#39;autorizzazione `S3:PutObject` per caricare i file in questo bucket. </p><p>I nomi dei bucket devono soddisfare regole di denominazione specifiche. Ad esempio, devono contenere da 3 a 63 caratteri, possono essere composte solo da lettere minuscole, numeri, punti (.) e trattini (-) e devono iniziare e terminare con una lettera o un numero. [Un elenco completo delle regole di denominazione è disponibile nella documentazione di AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html?lang=it). </p> |
-   | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio, folder_name/ |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica un nome di cartella statico, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio, folder_name/ |
+   | [!UICONTROL **Nome e percorso file**] | Specificare un nome di file personalizzato dinamico da utilizzare per le esportazioni automatizzate inviate a questo percorso. È inoltre possibile anteporre al nome del file un percorso personalizzato dinamico. <p>Questa opzione consente di automatizzare la creazione di nomi di file e il posizionamento delle cartelle, in modo che i nomi di file siano prevedibili e organizzati in cartelle in modo logico. Ad esempio, i nomi dei file possono essere denominati in base al giorno in cui sono stati consegnati, quindi inseriti in cartelle corrispondenti a ogni mese.</p><p>Utilizza una delle seguenti variabili nel nome e nel percorso del file per renderle dinamiche:</p><ul><li>**{yyyy}**: anno di calendario a 4 cifre (distinzione maiuscole/minuscole)</li><li>**{yy}**: anno di calendario a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{MM}**: mese di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{dd}**: giorno di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{HH}**: ore a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{mm}**: minuti a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{ss}**: secondi a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{fff}**: nanosecondi di 3 cifre (distinzione maiuscole/minuscole)</li><li>**{instance_id}**: UUID richiesta (istanza)</li><li>**{export_id}**: UUID esportazione (pianificazione)</li><li>**{idx}**: indice con inizio da 0 (incrementato per ciascun file)</li><li>**{total}**: numero totale di file per l&#39;intero processo di trasferimento</li><li>**{completion_millis}**: tempo di trasferimento in millisecondi</li></ul></p><p>Ad esempio, se si specifica `${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`, un&#39;esportazione inviata automaticamente a questa destinazione il 15 gennaio 2026 avrà il percorso e il nome file seguenti: [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 
    {style="table-layout:auto"}
 
@@ -146,14 +146,15 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 
    * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location)
 
-   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
 1. Nella sezione [!UICONTROL **Proprietà posizione**] della finestra di dialogo [!UICONTROL **Aggiungi posizione**], specifica le seguenti informazioni per configurare un percorso di Google Cloud Platform:
 
    | Campo | Funzione |
    |---------|----------|
    | [!UICONTROL **Bucket**] | Il bucket all’interno dell’account GCP in cui desideri inviare i dati di Customer Journey Analytics. <p>Assicurarsi di aver concesso l&#39;autorizzazione `roles/storage.objectCreator` all&#39;entità fornita da Adobe. L&#39;entità viene fornita quando [si configura l&#39;account di Google Cloud Platform](/help/components/exports/cloud-export-accounts.md). <p>Per informazioni sulla concessione delle autorizzazioni, consulta [Aggiungere un’entità principale a un criterio a livello di bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions?hl=it#bucket-add) nella documentazione di Google Cloud.</p><p>Se l’organizzazione utilizza [Vincoli dei criteri dell&#39;organizzazione](https://cloud.google.com/storage/docs/org-policy-constraints?hl=it) per accettare solo l’account Google Cloud Platform nel tuo elenco consentiti, è necessario il seguente ID organizzazione di Google Cloud Platform di proprietà di Adobe: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
-   | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio, folder_name/ |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del bucket in cui desideri inserire i dati. Specifica un nome di cartella statico, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio, folder_name/ |
+   | [!UICONTROL **Nome e percorso file**] | Specificare un nome di file personalizzato dinamico da utilizzare per le esportazioni automatizzate inviate a questo percorso. È inoltre possibile anteporre al nome del file un percorso personalizzato dinamico. <p>Questa opzione consente di automatizzare la creazione di nomi di file e il posizionamento delle cartelle, in modo che i nomi di file siano prevedibili e organizzati in cartelle in modo logico. Ad esempio, i nomi dei file possono essere denominati in base al giorno in cui sono stati consegnati, quindi inseriti in cartelle corrispondenti a ogni mese.</p><p>Utilizza una delle seguenti variabili nel nome e nel percorso del file per renderle dinamiche:</p><ul><li>**{yyyy}**: anno di calendario a 4 cifre (distinzione maiuscole/minuscole)</li><li>**{yy}**: anno di calendario a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{MM}**: mese di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{dd}**: giorno di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{HH}**: ore a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{mm}**: minuti a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{ss}**: secondi a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{fff}**: nanosecondi di 3 cifre (distinzione maiuscole/minuscole)</li><li>**{instance_id}**: UUID richiesta (istanza)</li><li>**{export_id}**: UUID esportazione (pianificazione)</li><li>**{idx}**: indice con inizio da 0 (incrementato per ciascun file)</li><li>**{total}**: numero totale di file per l&#39;intero processo di trasferimento</li><li>**{completion_millis}**: tempo di trasferimento in millisecondi</li></ul></p><p>Ad esempio, se si specifica `${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`, un&#39;esportazione inviata automaticamente a questa destinazione il 15 gennaio 2026 avrà il percorso e il nome file seguenti: [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 
    {style="table-layout:auto"}
 
@@ -167,14 +168,15 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 
    * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location)
 
-   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
-1. Nella sezione [!UICONTROL **Proprietà posizione**] della finestra di dialogo [!UICONTROL **Aggiungi posizione**], specificare le informazioni seguenti per configurare un percorso SAS di Azure:
+1. Nella sezione [!UICONTROL **Proprietà posizione**] della finestra di dialogo [!UICONTROL **Aggiungi posizione**], specificare le informazioni seguenti per configurare una posizione SAS di Azure:
 
    | Campo | Funzione |
    |---------|----------|
    | [!UICONTROL **Nome contenitore**] | Contenitore all’interno dell’account specificato in cui desideri inviare i dati di Customer Journey Analytics. |
-   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Accertati che che l’archivio dei token SAS specificato nel campo Nome segreto di Key Vault durante la configurazione dell’account SAS di Azure abbia l’autorizzazione `Write`. Questo consente al token SAS di creare file nel contenitore Azure. <p>Se desideri che il token SAS sovrascriva anche i file, assicurati che l’archivio dei token SAS disponga dell’autorizzazione `Delete`.</p><p>Per ulteriori informazioni, consulta [Risorse di archiviazione BLOB](https://learn.microsoft.com/it-it/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) nella documentazione dell’archiviazione BLOB di Azure.</p> |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica un nome di cartella statico, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Accertati che che l’archivio dei token SAS specificato nel campo Nome segreto di Key Vault durante la configurazione dell’account SAS di Azure abbia l’autorizzazione `Write`. Questo consente al token SAS di creare file nel contenitore Azure. <p>Se desideri che il token SAS sovrascriva anche i file, assicurati che l’archivio dei token SAS disponga dell’autorizzazione `Delete`.</p><p>Per ulteriori informazioni, consulta [Risorse di archiviazione BLOB](https://learn.microsoft.com/it-it/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) nella documentazione dell’archiviazione BLOB di Azure.</p> |
+   | [!UICONTROL **Nome e percorso file**] | Specificare un nome di file personalizzato dinamico da utilizzare per le esportazioni automatizzate inviate a questo percorso. È inoltre possibile anteporre al nome del file un percorso personalizzato dinamico. <p>Questa opzione consente di automatizzare la creazione di nomi di file e il posizionamento delle cartelle, in modo che i nomi di file siano prevedibili e organizzati in cartelle in modo logico. Ad esempio, i nomi dei file possono essere denominati in base al giorno in cui sono stati consegnati, quindi inseriti in cartelle corrispondenti a ogni mese.</p><p>Utilizza una delle seguenti variabili nel nome e nel percorso del file per renderle dinamiche:</p><ul><li>**{yyyy}**: anno di calendario a 4 cifre (distinzione maiuscole/minuscole)</li><li>**{yy}**: anno di calendario a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{MM}**: mese di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{dd}**: giorno di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{HH}**: ore a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{mm}**: minuti a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{ss}**: secondi a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{fff}**: nanosecondi di 3 cifre (distinzione maiuscole/minuscole)</li><li>**{instance_id}**: UUID richiesta (istanza)</li><li>**{export_id}**: UUID esportazione (pianificazione)</li><li>**{idx}**: indice con inizio da 0 (incrementato per ciascun file)</li><li>**{total}**: numero totale di file per l&#39;intero processo di trasferimento</li><li>**{completion_millis}**: tempo di trasferimento in millisecondi</li></ul></p><p>Ad esempio, se si specifica `${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`, un&#39;esportazione inviata automaticamente a questa destinazione il 15 gennaio 2026 avrà il percorso e il nome file seguenti: [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
 
    {style="table-layout:auto"}
 
@@ -188,14 +190,15 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 
    * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location)
 
-   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
-1. Nella sezione [!UICONTROL **Proprietà posizione**] della finestra di dialogo [!UICONTROL **Aggiungi posizione**], specificare le informazioni seguenti per configurare un percorso RBAC di Azure:
+1. Nella sezione [!UICONTROL **Proprietà posizione**] della finestra di dialogo [!UICONTROL **Aggiungi posizione**], specifica le seguenti informazioni per configurare un percorso RBAC di Azure:
 
    | Campo | Funzione |
    |---------|----------|
    | [!UICONTROL **Contenitore**] | Contenitore all’interno dell’account specificato in cui desideri inviare i dati di Customer Journey Analytics. Assicurati di concedere le autorizzazioni per caricare i file nell’applicazione Azure creata in precedenza. |
-   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Accertati che l’ID applicazione specificato durante la configurazione dell’account RBAC di Azure disponga del ruolo `Storage Blob Data Contributor` per accedere al contenitore (cartella).</p> <p>Per ulteriori informazioni, consulta [Ruoli incorporati di Azure](https://learn.microsoft.com/it-it/azure/role-based-access-control/built-in-roles).</p> |
+   | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica un nome di cartella statico, quindi aggiungi una barra dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Accertati che l’ID applicazione specificato durante la configurazione dell’account RBAC di Azure disponga del ruolo `Storage Blob Data Contributor` per accedere al contenitore (cartella).</p> <p>Per ulteriori informazioni, consulta [Ruoli incorporati di Azure](https://learn.microsoft.com/it-it/azure/role-based-access-control/built-in-roles).</p> |
+   | [!UICONTROL **Nome e percorso file**] | Specificare un nome di file personalizzato dinamico da utilizzare per le esportazioni automatizzate inviate a questo percorso. È inoltre possibile anteporre al nome del file un percorso personalizzato dinamico. <p>Questa opzione consente di automatizzare la creazione di nomi di file e il posizionamento delle cartelle, in modo che i nomi di file siano prevedibili e organizzati in cartelle in modo logico. Ad esempio, i nomi dei file possono essere denominati in base al giorno in cui sono stati consegnati, quindi inseriti in cartelle corrispondenti a ogni mese.</p> <p>Utilizza una delle seguenti variabili nel nome e nel percorso del file per renderle dinamiche:</p><ul><li>**{yyyy}**: anno di calendario a 4 cifre (distinzione maiuscole/minuscole)</li><li>**{yy}**: anno di calendario a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{MM}**: mese di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{dd}**: giorno di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{HH}**: ore a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{mm}**: minuti a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{ss}**: secondi a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{fff}**: nanosecondi di 3 cifre (distinzione maiuscole/minuscole)</li><li>**{instance_id}**: UUID richiesta (istanza)</li><li>**{export_id}**: UUID esportazione (pianificazione)</li><li>**{idx}**: indice con inizio da 0 (incrementato per ciascun file)</li><li>**{total}**: numero totale di file per l&#39;intero processo di trasferimento</li><li>**{completion_millis}**: tempo di trasferimento in millisecondi</li></ul></p><p>Ad esempio, se si specifica `${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`, un&#39;esportazione inviata automaticamente a questa destinazione il 15 gennaio 2026 avrà il percorso e il nome file seguenti: [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
    | [!UICONTROL **Account**] | Account di archiviazione Azure. |
 
    {style="table-layout:auto"}
@@ -210,15 +213,15 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 
    * Dalla pagina Esportazioni come descritto in precedenza, in [Inizia a creare un percorso di esportazione cloud](#begin-creating-a-cloud-export-location)
 
-   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace)
+   * Quando [esporta tabelle complete da Analysis Workspace](/help/analysis-workspace/export/export-cloud.md#export-full-tables)
 
 1. Nella sezione [!UICONTROL **Proprietà posizione**] della finestra di dialogo [!UICONTROL **Aggiungi posizione**], specificare le informazioni seguenti per configurare un percorso Snowflake:
 
    | Campo | Funzione |
    |---------|----------|
    | [!UICONTROL **DB**] | Il database specificato deve essere esistente. Il ruolo creato deve disporre dei privilegi necessari per accedere al database.<p>Database associato al nome dell&#39;area di visualizzazione.</p><p>È possibile concedere privilegi di ruolo al database in Snowflake utilizzando il comando seguente: `GRANT USAGE ON DATABASE <your_database> TO ROLE <your_role>;`</p> <p>Per ulteriori informazioni, vedere la pagina [Database, Schema e Comandi di condivisione nella documentazione di Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
-   | [!UICONTROL **Schema**] | Lo schema specificato deve essere uno schema esistente. Il ruolo creato deve disporre dei privilegi necessari per accedere a questo schema.<p>Schema associato al nome dell&#39;area di visualizzazione.<p>È possibile concedere i privilegi per il ruolo creato allo schema in Snowflake utilizzando il comando seguente: `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>Per ulteriori informazioni, vedere la pagina [Database, Schema e Comandi di condivisione nella documentazione di Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
-   | [!UICONTROL **Nome fase**] | Il nome della fase interna in cui i file di dati vengono memorizzati in Snowflake.<p>Verificare che il ruolo specificato nell&#39;account disponga dell&#39;accesso in lettura e scrittura al nome della fase. Poiché si concede l&#39;accesso in lettura e scrittura, si consiglia di utilizzare una fase utilizzata solo da Adobe.<p>È possibile concedere l&#39;accesso in lettura e scrittura al nome della fase in Snowflake utilizzando il comando seguente: `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>Per informazioni sulla concessione di privilegi a un ruolo, vedere [Concedere privilegi nella documentazione di Snowflake](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege). <p>Per ulteriori informazioni sul nome dell&#39;area di visualizzazione, vedere la pagina [Scelta di un&#39;area di visualizzazione interna per i file locali nella documentazione di Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
+   | [!UICONTROL **Schema**] | Lo schema specificato deve essere uno schema esistente. Il ruolo creato deve disporre dei privilegi necessari per accedere a questo schema.<p>Schema associato al nome dell&#39;area di visualizzazione.</p><p>È possibile concedere i privilegi per il ruolo creato allo schema in Snowflake utilizzando il comando seguente: `GRANT USAGE ON SCHEMA <your_database>.<your_schema> TO ROLE <your_role>;`</p><p>Per ulteriori informazioni, vedere la pagina [Database, Schema e Comandi di condivisione nella documentazione di Snowflake](https://docs.snowflake.com/en/sql-reference/commands-database).</p> |
+   | [!UICONTROL **Nome fase**] | Il nome della fase interna in cui i file di dati vengono memorizzati in Snowflake.<p>Verificare che il ruolo specificato nell&#39;account disponga dell&#39;accesso in lettura e scrittura al nome della fase. Poiché si concede l&#39;accesso in lettura e scrittura, si consiglia di utilizzare una fase utilizzata solo da Adobe.</p><p>È possibile concedere l&#39;accesso in lettura e scrittura al nome della fase in Snowflake utilizzando il comando seguente: `GRANT READ, WRITE ON STAGE <your_database>.<your_schema>.<your_stage_name> TO ROLE <your_role>;`</p> <p>Per informazioni sulla concessione di privilegi a un ruolo, vedere [Concedere privilegi nella documentazione di Snowflake](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege).</p> <p>Per ulteriori informazioni sul nome dell&#39;area di visualizzazione, vedere la pagina [Scelta di un&#39;area di visualizzazione interna per i file locali nella documentazione di Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
    | [!UICONTROL **Percorso fase**] | Percorso del percorso in cui sono memorizzati i file di dati in Snowflake. <p>Per ulteriori informazioni, vedere la pagina [Scelta di una fase interna per i file locali nella documentazione di Snowflake](https://docs.snowflake.com/en/user-guide/data-load-local-file-system-create-stage).</p> |
 
    {style="table-layout:auto"}

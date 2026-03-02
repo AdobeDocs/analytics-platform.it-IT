@@ -5,16 +5,16 @@ title: Gestire percorsi e account di esportazione cloud
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 25a5c42153e28493321d87fa5227fcf44c244bb6
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1392'
 ht-degree: 3%
 
 ---
 
 # Gestire percorsi e account di esportazione cloud
 
-Puoi visualizzare, modificare ed eliminare i percorsi di esportazione cloud.
+Puoi visualizzare, modificare ed eliminare posizioni e account di esportazione cloud.
 
 Per informazioni su come creare un nuovo percorso, vedere [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
@@ -30,7 +30,7 @@ Per trovare le informazioni necessarie, puoi filtrare in base all’elenco delle
 
 1. Seleziona l&#39;icona **Filtro**.
 
-   <!-- add screenshot -->
+   ![Icona filtro nella pagina delle posizioni](assets/locations-filter-icon.png)
 
    Puoi filtrare in base ai seguenti criteri:
 
@@ -48,6 +48,8 @@ Per trovare le informazioni necessarie, puoi filtrare in base all’elenco delle
 
 1. Seleziona la scheda [!UICONTROL **Percorsi**].
 
+   ![Pagina posizioni](assets/locations-manager.png)
+
 1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare l&#39;opzione [!UICONTROL **Visualizza percorsi per tutti gli utenti**] per visualizzare i percorsi creati da tutti gli utenti dell&#39;organizzazione.
 
 1. Nel campo di ricerca, iniziare a digitare le informazioni associate alla posizione che si sta cercando. Puoi cercare dati da qualsiasi colonna disponibile nella tabella.
@@ -62,13 +64,13 @@ Per modificare una posizione:
 
 1. Seleziona la scheda [!UICONTROL **Percorsi**].
 
+   ![Finestra di esportazione che mostra la scheda Percorsi e l&#39;elenco dei percorsi.](assets/locations-manager.png)
+
 1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare l&#39;opzione [!UICONTROL **Visualizza percorsi per tutti gli utenti**] per visualizzare i percorsi creati da tutti gli utenti dell&#39;organizzazione.
 
 1. Seleziona la posizione da modificare.
 
-   ![Finestra di esportazione che mostra la scheda Percorsi e l&#39;elenco dei percorsi.](assets/locations-edit.png)
-
-1. Seleziona [!UICONTROL **Modifica**].
+1. Seleziona [!UICONTROL **Modifica**] nella parte inferiore della schermata.
 
 1. Apporta le modifiche desiderate, quindi seleziona [!UICONTROL **Salva**].
 
@@ -82,13 +84,13 @@ Per eliminare una posizione:
 
 1. Seleziona la scheda [!UICONTROL **Percorsi**].
 
+   ![Finestra di esportazione che mostra la scheda Percorsi e l&#39;elenco dei percorsi.](assets/locations-manager.png)
+
 1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare l&#39;opzione [!UICONTROL **Visualizza percorsi per tutti gli utenti**] per visualizzare i percorsi creati da tutti gli utenti dell&#39;organizzazione.
 
 1. Seleziona una o più posizioni da eliminare.
 
-   ![Finestra Esporta che mostra la scheda Percorsi e l&#39;elenco dei percorsi](assets/locations-edit.png)
-
-1. Seleziona [!UICONTROL **Elimina**].
+1. Seleziona [!UICONTROL **Elimina**] nella parte inferiore della schermata.
 
    Viene visualizzata la finestra di dialogo Elimina posizione.
 
@@ -110,9 +112,9 @@ Per modificare un account:
 
    ![Finestra Esporta con la scheda Account località](assets/account-add.png)
 
-1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare l&#39;opzione [!UICONTROL **Visualizza account per tutti gli utenti**] per visualizzare i percorsi creati da tutti gli utenti dell&#39;organizzazione.
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare l&#39;opzione [!UICONTROL **Visualizza account per tutti gli utenti**] per visualizzare gli account creati da tutti gli utenti dell&#39;organizzazione.
 
-1. Selezionare [!UICONTROL **Visualizza dettagli**] sull&#39;account che si desidera modificare.
+1. Selezionare [!UICONTROL **Modifica dettagli**] per l&#39;account che si desidera modificare.
 
 1. Apporta le modifiche desiderate, quindi seleziona [!UICONTROL **Salva**].
 
@@ -128,9 +130,9 @@ Per visualizzare le chiavi associate a un account di esportazione:
 
    ![Finestra Esporta con la scheda Account località](assets/account-add.png)
 
-1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare l&#39;opzione [!UICONTROL **Visualizza account per tutti gli utenti**] per visualizzare i percorsi creati da tutti gli utenti dell&#39;organizzazione.
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare l&#39;opzione [!UICONTROL **Visualizza account per tutti gli utenti**] per visualizzare gli account creati da tutti gli utenti dell&#39;organizzazione.
 
-1. Seleziona l&#39;icona a tre punti dell&#39;account da modificare, quindi seleziona [!UICONTROL **Chiavi account**].
+1. Seleziona l&#39;icona a tre punti dell&#39;account da modificare, quindi seleziona [!UICONTROL **Mostra chiavi**].
 
 ## Elimina account
 
@@ -140,9 +142,9 @@ Per visualizzare le chiavi associate a un account di esportazione:
 
    ![Finestra Esporta con la scheda Account località](assets/account-add.png)
 
-1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare l&#39;opzione [!UICONTROL **Visualizza account per tutti gli utenti**] per visualizzare i percorsi creati da tutti gli utenti dell&#39;organizzazione.
+1. (Condizionale) Se sei un amministratore di sistema, puoi abilitare l&#39;opzione [!UICONTROL **Visualizza account per tutti gli utenti**] per visualizzare gli account creati da tutti gli utenti dell&#39;organizzazione.
 
-1. Seleziona l&#39;icona a tre punti dell&#39;account da modificare, quindi seleziona [!UICONTROL **Elimina account**].
+1. Seleziona l&#39;icona a tre punti dell&#39;account da eliminare, quindi seleziona [!UICONTROL **Elimina account**].
 
 1. Seleziona di nuovo [!UICONTROL **Elimina**] nella finestra di dialogo di conferma.
 
@@ -156,7 +158,7 @@ Gli amministratori di sistema possono impedire agli utenti di creare account e p
 
 Per impostazione predefinita, tutti gli utenti dell&#39;organizzazione possono creare account e modificarne quelli creati nell&#39;ambiente Customer Journey Analytics, come descritto in [configurare account di esportazione cloud](/help/components/exports/cloud-export-accounts.md).
 
-Puoi impedire agli utenti di creare account. In questo caso, gli utenti possono comunque utilizzare gli account già creati, ma non possono più modificarli. È possibile eliminare gli account creati dagli utenti, come descritto in [Eliminare un account](#delete-an-account).
+Puoi impedire agli utenti di creare account. In questo caso, gli utenti possono comunque utilizzare gli account già creati, ma non possono più modificarli. È possibile eliminare gli account creati dagli utenti, come descritto in [Eliminare un account](#delete-accounts).
 
 Per impedire a tutti gli utenti di creare e modificare account:
 
@@ -166,13 +168,13 @@ Per impedire a tutti gli utenti di creare e modificare account:
 
 1. Seleziona [!UICONTROL **Salva**].
 
-1. (Facoltativo) Eliminare tutti gli account creati dagli utenti che non si desidera più utilizzare, come descritto in [Eliminare un account](#delete-an-account).
+1. (Facoltativo) Eliminare tutti gli account creati dagli utenti che non si desidera più utilizzare, come descritto in [Eliminare un account](#delete-accounts).
 
 ### Stabilire se gli utenti possono creare e modificare le posizioni
 
 Per impostazione predefinita, tutti gli utenti dell&#39;organizzazione possono creare percorsi e modificarli nell&#39;ambiente Customer Journey Analytics, come descritto in [configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).
 
-Puoi impedire agli utenti di creare posizioni. In questo caso, gli utenti possono comunque utilizzare le posizioni già create, ma non possono più modificarle. È possibile eliminare i percorsi creati dagli utenti, come descritto in [Elimina percorsi](#delete-a-location).
+Puoi impedire agli utenti di creare posizioni. In questo caso, gli utenti possono comunque utilizzare le posizioni già create, ma non possono più modificarle. È possibile eliminare i percorsi creati dagli utenti, come descritto in [Elimina percorsi](#delete-locations).
 
 Per impedire a tutti gli utenti di creare e modificare posizioni:
 
@@ -182,7 +184,7 @@ Per impedire a tutti gli utenti di creare e modificare posizioni:
 
 1. Seleziona [!UICONTROL **Salva**].
 
-1. (Facoltativo) Eliminare i percorsi creati dagli utenti che non si desidera più utilizzare, come descritto in [Eliminare un percorso](#delete-a-location).
+1. (Facoltativo) Eliminare i percorsi creati dagli utenti che non si desidera più utilizzare, come descritto in [Eliminare un percorso](#delete-locations).
 
 ### Limitare i tipi di account che gli utenti possono creare e utilizzare
 
@@ -207,7 +209,7 @@ Per eliminare gli account:
 
 1. Individuare i conti del tipo di conto che si prevede di limitare e che vengono utilizzati per le esportazioni programmate.
 
-1. Eliminare gli account come descritto in [Eliminare un account](#delete-an-account).
+1. Eliminare gli account come descritto in [Eliminare un account](#delete-accounts).
 
 1. Continua con la seguente sezione, [Limita i tipi di account disponibili per gli utenti](#limit-the-account-types-that-are-available-to-users).
 

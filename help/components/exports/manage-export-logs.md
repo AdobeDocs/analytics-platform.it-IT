@@ -5,10 +5,10 @@ title: Gestire i registri di esportazione
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: bf76b8688dc0c463c032dd94e88450fed5488949
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 8%
+source-wordcount: '936'
+ht-degree: 7%
 
 ---
 
@@ -30,11 +30,13 @@ Per le esportazioni pianificate, i registri riflettono le impostazioni di esport
 
 1. Esegui una delle operazioni seguenti:
 
+   * Gli amministratori di sistema possono abilitare l&#39;opzione per **[!UICONTROL visualizzare i registri per tutti gli utenti]**. Quando questa opzione è abilitata, vengono visualizzati tutti i registri, indipendentemente dall’utente che ha creato l’esportazione.
+
    * [Personalizzare le colonne](#configure-columns) visualizzate.
 
    * Seleziona l&#39;**icona Informazioni** ![icona Informazioni](assets/information-icon.png) accanto al nome del registro per visualizzare l&#39;esportazione associata al registro.
 
-   * Seleziona l&#39;**icona Modifica esportazione** ![icona Informazioni](assets/edit-export-icon.png) accanto al nome del registro per modificare l&#39;esportazione associata al registro.
+   * Seleziona l&#39;**icona Modifica esportazione** ![icona Modifica esportazione](/help/assets/icons/Edit.svg) accanto al nome del registro per modificare l&#39;esportazione associata al registro.
 
      Per ulteriori informazioni sulla modifica di un&#39;esportazione, vedere [Esportare report Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
@@ -56,9 +58,9 @@ Per trovare le informazioni necessarie, puoi filtrare l’elenco dei registri o 
 
    | Filtro | Descrizione |
    |---------|----------|
-   | [!UICONTROL **ID esportazione**] | Specifica l’ID di esportazione del registro di esportazione da visualizzare. |
+   | [!UICONTROL **ID esportazione**] | Specifica l’ID di esportazione del registro di esportazione che desideri visualizzare. |
    | [!UICONTROL **Tipo di account**] | Tipo di account a cui è associato il registro. Sono disponibili i seguenti tipi di account: <ul><li>[!UICONTROL **AEP Data Landing Zone**]</li><li>[!UICONTROL **Amazon S3 Role ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **Stato**] | Stato dell’esportazione. Sono disponibili i seguenti stati: <ul><li>[!UICONTROL **In sospeso**]: un&#39;istanza specifica di un&#39;esportazione è stata avviata ma non è ancora stata completata.<p>La riesecuzione di un’esportazione con lo stato In sospeso ritarda il processo di esportazione.</p></li><li>[!UICONTROL **Completata**]: un&#39;istanza specifica di un&#39;esportazione ha completato l&#39;elaborazione ed è disponibile nell&#39;account di esportazione.</li><li>[!UICONTROL **Non riuscito**]<p>Varie situazioni possono causare un’esportazione non riuscita. Passa il cursore del mouse sullo stato Non riuscito per visualizzare i dettagli dell’errore.<p>Per ulteriori informazioni sui possibili motivi di un errore, vedere [Risoluzione dei problemi relativi alle esportazioni non riuscite](/help/components/exports/troubleshoot-exports.md).</p> |
+   | [!UICONTROL **Stato**] | Stato dell’esportazione. Sono disponibili i seguenti stati: <ul><li>[!UICONTROL **In sospeso**]: un&#39;istanza specifica di un&#39;esportazione è stata avviata ma non è ancora stata completata.<p>La riesecuzione di un’esportazione con lo stato In sospeso ritarda il processo di esportazione.</p></li><li>[!UICONTROL **Completata**]: un&#39;istanza specifica di un&#39;esportazione ha completato l&#39;elaborazione ed è disponibile nell&#39;account di esportazione.</li><li>[!UICONTROL **Non riuscito**]<p>Varie situazioni possono causare un’esportazione non riuscita. Passa il cursore del mouse sullo stato Non riuscito per visualizzare i dettagli dell’errore.</p><p>Per ulteriori informazioni sui possibili motivi di un errore, vedere [Risoluzione dei problemi relativi alle esportazioni non riuscite](/help/components/exports/troubleshoot-exports.md).</p></li></ul> |
 
    {style="table-layout:auto"}
 
@@ -94,11 +96,19 @@ Questa opzione non è disponibile quando si selezionano più registri.
 
 1. Individuare il registro associato all&#39;esportazione che si desidera modificare.
 
-1. Seleziona l&#39;icona **Modifica esportazione** ![icona di esportazione registro](assets/export-icon.png) accanto al nome del registro.
+1. Seleziona l&#39;icona **Modifica esportazione** ![Modifica icona registro di esportazione](/help/assets/icons/Edit.svg) accanto al nome del registro.
 
    Oppure
 
    Seleziona la casella di controllo accanto al registro, quindi seleziona [!UICONTROL **Modifica esportazione**].
+
+## Riesecuzione di un&#39;esportazione completata o non riuscita
+
+Puoi eseguire nuovamente una o più esportazioni associate a registri di esportazione specifici. Per eseguire nuovamente un’esportazione, il registro di esportazione deve avere lo stato Completato o Non riuscito e non deve avere più di 7 giorni.
+
+1. Selezionare la casella di controllo accanto a uno o più processi di esportazione che si desidera rieseguire.
+
+1. Selezionare **[!UICONTROL Esegui di nuovo]**.
 
 ## Configurare le colonne
 
@@ -123,12 +133,13 @@ Per configurare le colonne nella scheda [!UICONTROL Registri]:
    | ID istanza | ID dell’istanza di Customer Journey Analytics. <!-- True? --> |
    | Nome delle visualizzazioni dati | Nome della visualizzazione dati associata all’esportazione. Gli utenti possono selezionare la visualizzazione dati al momento della creazione dell&#39;esportazione, come descritto in [Esporta report Customer Journey Analytics nel cloud](/help/analysis-workspace/export/export-cloud.md). |
    | Numero di file | Numero di file inclusi nell&#39;esportazione. |
-   | Dimensione | Dimensione dell&#39;esportazione.<p>La dimensione del file viene calcolata con una base di 1024, che a volte viene rappresentata come KIB e MIB. Se il provider di cloud calcola le dimensioni in base a 1000, le dimensioni visualizzate nel provider potrebbero essere leggermente diverse da quelle visualizzate qui.</p> |
+   | Dimensione | Dimensione dell&#39;esportazione.<p>La dimensione del file viene calcolata con una base di 1024, che a volte è rappresentata come KiB e MiB. Se il provider di cloud calcola le dimensioni in base a 1000, le dimensioni visualizzate nel provider potrebbero essere leggermente diverse da quelle visualizzate qui.</p> |
    | Posizione | Posizione dell&#39;account in cui sono stati esportati i dati. |
    | Account | Account in cui sono stati esportati i dati. |
-   | Stato | Stato dell’esportazione. Gli stati disponibili sono [!UICONTROL Pending], [!UICONTROL Delivered] e [!UICONTROL Failed]. |
+   | Stato | Stato dell’esportazione. Gli stati disponibili sono [!UICONTROL In sospeso], [!UICONTROL Completato] e [!UICONTROL Non riuscito]. |
    | Data di consegna | La data in cui è avvenuta l’esportazione. |
-   | Tipo di account | Tipo di account cloud in cui sono stati esportati i dati. I tipi di account disponibili sono [!UICONTROL ARN] per ruolo Amazon S3, [!UICONTROL Piattaforma Google Cloud], [!UICONTROL SAS di Azure], [!UICONTROL RBAC di Azure], [!UICONTROL Snowflake] e [!UICONTROL Adobe Experience Platform]. |
+   | Data di inizio | La data in cui è iniziata l’esportazione. |
+   | Tipo di account | Tipo di account cloud in cui sono stati esportati i dati. I tipi di account disponibili sono [!UICONTROL ARN per ruolo Amazon S3], [!UICONTROL Google Cloud Platform], [!UICONTROL Azure SAS], [!UICONTROL Azure RBAC], [!UICONTROL Snowflake] e [!UICONTROL AEP Data Landing Zone]. |
    | Numero di righe | Numero di righe incluse nella tabella esportata. |
 
    {style="table-layout:auto"}
