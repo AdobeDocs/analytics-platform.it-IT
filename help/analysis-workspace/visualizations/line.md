@@ -4,10 +4,10 @@ title: Linee
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 78%
+source-wordcount: '540'
+ht-degree: 77%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione Linee in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Linee](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/line) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione Linee in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Linee](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/line) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ Come parte delle [impostazioni di visualizzazione](freeform-analysis-visualizati
 | Impostazione | Descrizione |
 |---|---|
 | **[!UICONTROL Granularity (Granularità)]** | Seleziona dall’elenco a discesa la granularità per cambiare una visualizzazione con tendenza da giornaliera a settimanale, mensile e così via. La granularità viene aggiornata anche nella tabella dell’origine dati. |
-| **[!UICONTROL Mostra min]** <br/>**[!UICONTROL Mostra max &#x200B;]** | Puoi sovrapporre un’etichetta di valore minimo e massimo per evidenziare i valori minimo e massimo in una metrica. I valori minimo/massimo sono derivati dai punti di dati visibili nella visualizzazione e non dall’intero insieme di valori all’interno di una dimensione.<br/>![Sovrapposizione con l&#39;etichetta di valore minimo e massimo.](assets/min-max-labels.png) |
+| **[!UICONTROL Mostra min]** <br/>**[!UICONTROL Mostra max ]** | Puoi sovrapporre un’etichetta di valore minimo e massimo per evidenziare i valori minimo e massimo in una metrica. I valori minimo/massimo sono derivati dai punti di dati visibili nella visualizzazione e non dall’intero insieme di valori all’interno di una dimensione.<br/>![Sovrapposizione con l&#39;etichetta di valore minimo e massimo.](assets/min-max-labels.png) |
 | **[!UICONTROL Mostra linea di tendenza]** | Puoi scegliere di aggiungere alla serie di linee una linea di tendenza di regressione o di media mobile. Le linee di tendenza consentono di rappresentare un pattern più chiaro nei dati. Quando è selezionata, seleziona un modello dall’elenco. Consulta [Modelli](#models) per una panoramica e una descrizione dei modelli disponibili.<br/>![Linea di tendenza lineare](assets/show-linear-trendline.png).<p>**SUGGERIMENTO:** si consiglia di applicare le linee di tendenza ai dati che non includono le date attuali (dati parziali) o future. Le date odierne o future alterano la linea di tendenza. Tuttavia, se devi includere date future, rimuovi gli zeri dai dati per evitare distorsioni per quei giorni. Vai alla tabella dell&#39;origine dati della visualizzazione, scegli la colonna della metrica, quindi abilita **[!UICONTROL Impostazioni colonna]** > **[!UICONTROL Interpreta zero come nessun valore]**.</p> |
 
 ### Modelli
@@ -57,6 +57,13 @@ Tutte le linee di tendenza del modello di regressione sono adattabili utilizzand
 | **[!UICONTROL Potenza]** | Crea una linea curva, utile per i set di dati che confrontano misurazioni che aumentano a un tasso specifico. Questa opzione non deve essere utilizzata se i dati contengono valori zero o negativi. Equazione: `y = a * x^b` |
 | **[!UICONTROL Quadratico]** | Trova l’adattamento ottimale per un set di dati a forma di parabola (concava verso l’alto o verso il basso). Equazione: `y = a + b * x + c * x^2` |
 | **[!UICONTROL Media mobile]** | Crea una linea di tendenza uniforme basata su un insieme di medie. Anche nota come media continua, la media mobile utilizza un numero specifico di punti di dati (determinati dalla selezione di [!UICONTROL Granularità]), ne calcola la media e utilizza tale media come punto sulla linea. Alcuni esempi includono una media mobile di 7 giorni o di 4 settimane. |
+
+
+>[!BEGINSHADEBOX]
+
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Riga](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/line-visualization){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 >[!MORELIKETHIS]
 >

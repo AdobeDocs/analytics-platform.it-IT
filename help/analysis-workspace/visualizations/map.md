@@ -4,9 +4,9 @@ title: Mappa
 feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2770'
 ht-degree: 6%
 
 ---
@@ -42,11 +42,17 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Mappa in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vedi [Mappa](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
 La visualizzazione ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** in Analysis Workspace consente di creare una mappa visiva di qualsiasi metrica (comprese le metriche calcolate). È utile per identificare e confrontare dati di metriche di diverse aree geografiche.
+
+>[!BEGINSHADEBOX]
+
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione mappa](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/configure-and-use-the-map-visualization){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 ## Prerequisiti
 
@@ -184,7 +190,7 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 
    Puoi aggiornare queste informazioni dopo aver creato la visualizzazione selezionando l&#39;icona Modifica ![Modifica](/help/assets/icons/Edit.svg) nell&#39;intestazione della visualizzazione.
 
-1. Seleziona **[!UICONTROL Build]**.
+1. Seleziona **[!UICONTROL Genera]**.
 
    Viene generata una visualizzazione con mappa del mondo con bolle.
 

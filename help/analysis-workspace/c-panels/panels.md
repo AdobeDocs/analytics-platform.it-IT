@@ -4,9 +4,9 @@ title: Panoramica dei pannelli
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2205'
 ht-degree: 80%
 
 ---
@@ -89,7 +89,7 @@ Puoi gestire un pannello nei modi seguenti:
 
 ## Visualizzazione dati
 
-Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md), identificata dal ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**&#x200B;nel menu a discesa in alto a destra del pannello.
+Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md), identificata dal ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**nel menu a discesa in alto a destra del pannello.
 
 Quando crei un progetto Workspace vuoto, la visualizzazione dati predefinita per il pannello iniziale è l’ultima visualizzazione dati su cui hai lavorato in Customer Journey Analytics.
 
@@ -167,7 +167,7 @@ Per ulteriori informazioni, consulta [Segmenti rapidi](/help/components/segments
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}.
 
 {{videoaa}}
 
@@ -180,7 +180,7 @@ I segmenti a discesa statici consentono di interagire con i dati in modo control
 
 I segmenti a discesa statici possono essere utilizzati anche per consolidare più progetti in un unico progetto. Ad esempio, se hai creato più versioni dello stesso progetto assegnando a ciascuna un segmento Paese diverso, puoi consolidarle tutte in un unico progetto e aggiungere un segmento a discesa Paese.
 
-![Segmenti a discesa statici che mostrano il segmento del canale di mercato “Diretto” evidenziato. &#x200B;](assets/dropdown-filter-intro.png)
+![Segmenti a discesa statici che mostrano il segmento del canale di mercato “Diretto” evidenziato. ](assets/dropdown-filter-intro.png)
 
 ##### Creare segmenti a discesa statici
 
@@ -225,6 +225,12 @@ Per creare un segmento a discesa dinamico:
 Tieni presente che i segmenti a discesa dinamici non sono disponibili per metriche, segmenti o intervalli di date.
 
 Un segmento a discesa dinamico fornisce le stesse opzioni del menu di scelta rapida dei segmenti a discesa statici.
+
+>[!BEGINSHADEBOX]
+
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa dinamici](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"} per un video dimostrativo.
+
+>[!ENDSHADEBOX]
 
 
 ## Menu di scelta rapida

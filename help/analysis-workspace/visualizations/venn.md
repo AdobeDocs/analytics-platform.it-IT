@@ -4,7 +4,7 @@ title: Venn
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 39%
@@ -25,7 +25,7 @@ ht-degree: 39%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione Venn in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/venn) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione Venn in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/venn) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,9 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta [visualizzazione di Venn](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/visualizations/venn-diagram-visualization){target="_blank"} ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg).
+Per un video dimostrativo, consulta [visualizzazione di Venn](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/venn-diagram-visualization){target="_blank"} ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg).
+
+{{videoaa}}
 
 >[!ENDSHADEBOX]
 
