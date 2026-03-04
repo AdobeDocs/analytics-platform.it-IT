@@ -91,7 +91,7 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 >id="connection_changeto_identitygraph"
 >title="Passare al grafo identità"
 >abstract="Assicurati di aver completato la configurazione del grafo delle identità prima di utilizzarlo per l’unione."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="Unione delle identità basata su grafo"
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/gbs" text="Unione delle identità basata su grafo"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
@@ -123,7 +123,7 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 >id="connection_stitchingmetrics_badids"
 >title="ID non validi"
 >abstract="Gli ID non validi sono valori ID che influiscono gravemente sui dati di reporting."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID non validi"
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID non validi"
 
 
 Per abilitare l&#39;unione, nella sezione del set di dati evento della finestra di dialogo **[!UICONTROL Aggiungi set di dati]** o **[!UICONTROL Modifica set di dati]**:
