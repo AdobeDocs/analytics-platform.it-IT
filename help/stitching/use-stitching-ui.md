@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 7d78b955b26d2fcc166d277f9ddf220ff2e03d36
+source-git-commit: 1744d625f2f18202fb7096b0fd904ee26399db34
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1150'
 ht-degree: 4%
 
 ---
@@ -91,7 +91,7 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 >id="connection_changeto_identitygraph"
 >title="Passare al grafo identità"
 >abstract="Assicurati di aver completato la configurazione del grafo delle identità prima di utilizzarlo per l’unione."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/gbs" text="Unione delle identità basata su grafo"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="Unione delle identità basata su grafo"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
@@ -101,7 +101,7 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="Metriche di unione"
->abstract="Le metriche di unione vengono calcolate utilizzando un set di dati campione, da qualsiasi dato acquisito negli ultimi 7 giorni.<br>Questo è in genere diverso dai dati di esempio."
+>abstract="Le metriche di unione vengono calcolate utilizzando un set di dati campione, da qualsiasi dato acquisito negli ultimi 7 giorni.<br>Questo valore è in genere diverso dai dati di esempio utilizzati nella tabella **[!UICONTROL Anteprima]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -123,7 +123,7 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 >id="connection_stitchingmetrics_badids"
 >title="ID non validi"
 >abstract="Gli ID non validi sono valori ID che influiscono gravemente sui dati di reporting."
->additional-url="https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID non validi"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID non validi"
 
 
 Per abilitare l&#39;unione, nella sezione del set di dati evento della finestra di dialogo **[!UICONTROL Aggiungi set di dati]** o **[!UICONTROL Modifica set di dati]**:
@@ -169,7 +169,7 @@ Dopo aver salvato una connessione, il processo di unione per i set di dati abili
 
 >[!CAUTION]
 >
->Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**&#x200B;per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
+>Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
 >
 
 
