@@ -4,7 +4,7 @@ title: Filtra E Ordina
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 39af20da14a5fb96fe01db31af5fc37b7e4aee16
 workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 36%
@@ -148,8 +148,6 @@ Per ordinare i dati nelle tabelle in base a una singola colonna:
    L’icona di ordinamento rimane visibile quando l’ordinamento viene applicato alla colonna. Una freccia indica l&#39;ordinamento dei dati (![Ordinamento](/help/assets/icons/SortOrderUp.svg) per crescente o ![Ordinamento](/help/assets/icons/SortOrderDown.svg) per decrescente).
 
 ### Ordinare le tabelle in base a più colonne (ordinamento avanzato)
-
-{{release-limited-testing-section}}
 
 #### Applica ordinamento a più colonne
 
