@@ -48,7 +48,7 @@ Oppure puoi:
 
 Per utilizzare credenziali senza scadenza:
 
-1. Crea [credenziali senza scadenza in Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#non-expiring-credentials). Se desideri utilizzare credenziali esistenti senza scadenza, assicurati che siano [migrate a OAuth](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#migrate-credentials).
+1. Crea [credenziali senza scadenza in Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/credentials#non-expiring-credentials). Se desideri utilizzare credenziali esistenti senza scadenza, assicurati che siano [migrate a OAuth](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/credentials#migrate-credentials).
 
 1. Assicurati che le credenziali senza scadenza siano disponibili per i profili di prodotto e di prodotto di Customer Journey Analytics. Devi essere l’amministratore di sistema dell’organizzazione per eseguire i seguenti passaggi.
    1. Seleziona **[!UICONTROL Admin Console]** da ![App](/help/assets/icons/Apps.svg).
