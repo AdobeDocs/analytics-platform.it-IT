@@ -3,23 +3,24 @@ title: Note sulla versione di Customer Journey Analytics
 description: Visualizza le note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 26b61e62c853c3ddb0dad9e1d710c839a49314e4
+source-git-commit: 3d58f4dccdc7b9ea6f936cc924a30cc06b2317d1
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 26%
+source-wordcount: '1255'
+ht-degree: 25%
 
 ---
 
 # Note sulla versione corrente di Customer Journey Analytics (febbraio 2026)
 
-**Ultimo aggiornamento**: venerdì 12 febbraio 2026
+**Ultimo aggiornamento**: 5 marzo 2026
 
 Queste note sulla versione coprono il periodo di rilascio di febbraio 2026. I rilasci di Adobe Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
 ## Funzioni nuove o aggiornate
 
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
-| ----------- | ------- | ---- |
+| ----------- | -------: | ----:|
+| **Altre anteprime e anteprime di Content Analytics**<p>Le anteprime e le anteprime di Content Analytics sono ora supportate nelle visualizzazioni a barre (sovrapposte), a barre orizzontali (sovrapposte) e a dispersione. | venerdì 5 marzo 2026 | Da definire |
 | **Sostituzioni intestazione** <p>In Content Analytics è possibile specificare un nome di intestazione e un valore di intestazione segreto. Questa [intestazione sostituisce la configurazione](/help/content-analytics/config/guided.md#header-overrides) in modo che Content Analytics invii intestazioni HTTP personalizzate per ignorare le tecnologie di rilevamento bot o traffico gate implementate.</p> |  | martedì 2 febbraio 2026 |
 | **Combinare suite di rapporti da più organizzazioni IMS**<p>Puoi utilizzare il connettore Source di Analytics per combinare suite di rapporti da più organizzazioni IMS. Questa funzione di [mappatura dati IMS incrociati](/help/getting-started/aa-vs-cja/mapping-data-ims-orgs.md) consente alle organizzazioni di avere una visualizzazione combinata dei dati dei propri clienti, anche quando tali dati dei clienti sono distribuiti tra più organizzazioni IMS. <p>**Nota:** questa configurazione è disponibile solo inviando una richiesta all&#39;Assistenza clienti di Adobe.</p> |  | venerdì 12 febbraio 2026 |
 | **Includere più colonne di dimensione in una tabella a forma libera**<p>Ora è possibile includere fino a 5 colonne di dimensione in una tabella a forma libera, consentendo di visualizzare più elementi dimensionali uno accanto all’altro. Ogni riga di elementi dimensionali si comporta come un singolo elemento dimensionale concatenato.</p><p>Puoi applicare filtri, ordinamento, raggruppamenti e altro ancora alle tabelle a forma libera con più colonne di dimensioni per creare un’analisi più approfondita e personalizzata.</p><p>In precedenza, era possibile includere solo 1 colonna dimensione in una tabella a forma libera.</p><p>Per ulteriori informazioni, vedere [Includere più colonne di dimensione in una tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md).</p> | giovedì 28 gennaio 2026 | giovedì 4 marzo 2026 <p>(Originariamente pianificato per il 18 febbraio 2026)</p> |
