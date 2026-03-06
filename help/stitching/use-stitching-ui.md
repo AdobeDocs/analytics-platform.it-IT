@@ -1,14 +1,14 @@
 ---
 title: Abilita unione
-description: Scopri come abilitare l’unione nell’interfaccia utente Connessioni.
+description: Abilita l’unione delle identità per i set di dati evento in Customer Journey Analytics. Scopri come configurare ID persistenti, ID persona e finestre di ripetizione nell’interfaccia utente Connessioni per unire i dati.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 1744d625f2f18202fb7096b0fd904ee26399db34
+source-git-commit: b7b2a1f3eb1c149caf65ab3e4321e4f4347695cc
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 4%
+source-wordcount: '1724'
+ht-degree: 5%
 
 ---
 
@@ -58,7 +58,7 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 
 
    * **ID persona**
-      * Per l’unione basata su grafico, assicurati che il grafo delle identità contenga frammenti che collegano i valori ID dallo spazio dei nomi ID persistente e dallo spazio dei nomi ID persona selezionati. Puoi eseguire un test andando sul [visualizzatore grafico identità di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} ed eseguire una query sul grafico in base ad alcuni valori ID persistenti del test. Verifica se questi valori ID persistenti sono collegati ai valori ID persona nel grafico.
+      * Per l’unione basata su grafico, assicurati che il grafo delle identità contenga frammenti che collegano i valori ID dallo spazio dei nomi ID persistente e dallo spazio dei nomi ID persona selezionati. Puoi eseguire un test andando sul [visualizzatore grafico identità di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} ed eseguire una query sul grafico in base ad alcuni valori di ID persistenti campione. Verifica se questi valori ID persistenti sono collegati ai valori ID persona nel grafico.
       * Per l’unione basata sui campi, esegui la query per 7 giorni di dati in cui il campo ID persona non è nullo e dividi per una query di 7 giorni di dati per tutti gli eventi nel set di dati. Questa percentuale dovrebbe idealmente superare il 5%.
 
         Esempio di query da utilizzare per la verifica:
@@ -87,6 +87,8 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 
 ## Abilitare l’unione di identità {#enable-identity-stitching}
 
+Puoi abilitare l&#39;unione delle identità quando [aggiungi](/help/connections/create-connection.md#add-datasets) o [modifichi](/help/connections/create-connection.md#edit-a-dataset) un set di dati evento in una connessione basata su persona. L’unione delle identità non è disponibile per le connessioni basate su account.
+
 >[!CONTEXTUALHELP]
 >id="connection_changeto_identitygraph"
 >title="Passare al grafo identità"
@@ -96,12 +98,12 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
 >title="ID persona"
->abstract="Seleziona un ID persona (l’identificatore univoco di una persona) tra le identità disponibili. Se desideri utilizzare l&#39;unione basata su grafico, seleziona **[!UICONTROL Grafico identità]**."
+>abstract="Seleziona un ID persona (l’identificatore univoco di una persona) tra le identità disponibili. Se desideri utilizzare l’unione delle identità basata su grafo, seleziona **[!UICONTROL Grafo identità]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="Metriche di unione"
->abstract="Le metriche di unione vengono calcolate utilizzando un set di dati campione, da qualsiasi dato acquisito negli ultimi 7 giorni.<br>Questo valore è in genere diverso dai dati di esempio utilizzati nella tabella **[!UICONTROL Anteprima]**."
+>abstract="Le metriche di unione vengono calcolate utilizzando un set di dati campione, da qualsiasi dato acquisito negli ultimi 7 giorni.<br>Questo set di dati di esempio è in genere diverso dai dati di esempio utilizzati nella tabella **[!UICONTROL Anteprima]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -123,10 +125,12 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 >id="connection_stitchingmetrics_badids"
 >title="ID non validi"
 >abstract="Gli ID non validi sono valori ID che influiscono gravemente sui dati di reporting."
->additional-url="https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID non validi"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID non validi"
 
 
-Per abilitare l&#39;unione, nella sezione del set di dati evento della finestra di dialogo **[!UICONTROL Aggiungi set di dati]** o **[!UICONTROL Modifica set di dati]**:
+### Impostazioni del set di dati
+
+Per abilitare l&#39;unione, nella sezione **[!UICONTROL Impostazioni dei set di dati]** dell&#39;evento **[!UICONTROL Aggiungi set di dati]** o **[!UICONTROL Modifica set di dati]**:
 
 ![Opzioni di unione identità quando si abilita l&#39;unione identità](assets/identity-stitching-ui.png)
 
@@ -158,18 +162,74 @@ Per abilitare l&#39;unione, nella sezione del set di dati evento della finestra 
    >Assicurati di essere autorizzato a utilizzare il grafo delle identità.
    >
 
-   In precedenza, veniva visualizzata una finestra di dialogo **[!UICONTROL Modifica al grafo delle identità]** per verificare che la configurazione del grafo delle identità per il set di dati sia stata completata come parte dei [prerequisiti basati sul grafo](/help/stitching/gbs.md#prerequisites) prima di utilizzare il grafo delle identità per l&#39;unione. Seleziona **[!UICONTROL Continua]** per continuare.
+   In precedenza, veniva visualizzata una finestra di dialogo **[!UICONTROL Modifica al grafo delle identità]** per verificare che la configurazione del grafo delle identità per il set di dati sia stata completata. Questa configurazione fa parte dei [prerequisiti basati su grafico](/help/stitching/gbs.md#prerequisites) prima di poter utilizzare il grafo delle identità per l&#39;unione. Seleziona **[!UICONTROL Continua]** per continuare.
 
    * Selezionare uno spazio dei nomi dal menu a discesa **[!UICONTROL Spazio dei nomi]**.
 
-
 1. Selezionare una finestra di riproduzione dal menu a discesa **[!UICONTROL Finestra di riproduzione]**. Le opzioni disponibili dipendono dal pacchetto Customer Journey Analytics a cui hai diritto.
 
-Dopo aver salvato una connessione, il processo di unione per i set di dati abilitati per l’unione si attiva all’avvio dell’acquisizione dei dati per questi set di dati.
+1. Seleziona **[!UICONTROL Avanti]** per visualizzare un&#39;anteprima del set di dati dell&#39;evento soggetto a unione.
+
+
+### Anteprima dei set di dati
+
+Oltre all&#39;interfaccia standard **[!UICONTROL Anteprima set di dati]**, quando [aggiungi](/help/connections/create-connection.md#add-datasets) o [modifichi](/help/connections/create-connection.md#edit-a-dataset) set di dati in una connessione basata su persona, sono disponibili due pannelli di informazioni aggiuntivi.
+
+>[!NOTE]
+>Per i clienti che hanno implementato Customer Journey Analytics su AWS, questa funzionalità è in attesa di rilascio.
+>
+
+![Opzioni di unione identità quando si abilita l&#39;unione identità](assets/identity-stitching-ui-preview.png)
+
+#### Metriche di unione
+
+
+
+**[!UICONTROL Le metriche di unione]** vengono calcolate utilizzando un set di dati campione, da qualsiasi dato acquisito negli ultimi 7 giorni. Questo set di dati di esempio è in genere diverso dai dati di esempio utilizzati nella tabella **[!UICONTROL Anteprima]**. Le metriche di unione forniscono dettagli per:
+
+* **[!UICONTROL Copertura ID persona]**: copertura dell&#39;ID persona selezionato utilizzata per l&#39;identificazione durante il processo di unione (in tempo reale e ripetizione).
+   * Per ottenere i migliori risultati con le unioni basate sui campi, è necessario inviare un ID persona (informazioni utente) su almeno un evento per ogni ID persistente (informazioni dispositivo).
+   * Per ottenere i migliori risultati con le unioni basate su grafico, nel grafo delle identità per ogni ID persistente deve essere presente una relazione (ID persistente, ID persona).
+
+  La copertura dell’ID persona viene visualizzata come percentuale e confrontata con quanto consigliato per uno sviluppo stabile o in una configurazione di produzione. Maggiore è il valore di copertura, migliori saranno i risultati di unione ottenuti con l’ID persona selezionato.
+
+* **[!UICONTROL Copertura ID persistente]**: questo valore viene utilizzato per l&#39;identificazione durante il processo di unione (in tempo reale e ripetizione), nel caso in cui non sia possibile rilevare un valore ID persona. Gli eventi senza ID persistente e senza ID persona vengono eliminati dai dati. Per risultati di unione ottimali, un ID persistente deve essere presente in tutti gli eventi.
+
+  La copertura ID persistente viene visualizzata come percentuale e confrontata con il minimo consigliato per uno sviluppo stabile o una configurazione di produzione.
+
+
+#### ID non validi
+
+>[!INFO]
+>
+>Nell’interfaccia di Customer Journey Analytics, gli ID non validi sono anche denominati BAVID.
+> 
+
+In Customer Journey Analytics, un ID errato è un identificatore:
+
+* con un valore ID specifico che ha origine da un campo ID persistente o ID persona nei set di dati abilitati per l&#39;unione, **e**
+* si trova su più di un milione (1.000.000) eventi nei dati della connessione, entro un mese.
+
+Quando un valore ID è contrassegnato come ID errato, tutti gli eventi futuri che contengono tale valore ID vengono eliminati dai dati della connessione e non vengono visualizzati nel reporting.
+
+Esempi di casi di utilizzo di ID non validi:
+
+* Nel campo ID persona sono presenti valori personalizzati o segnaposto (ad esempio, `undefined`). Tali valori possono inoltre influire sulla [qualità dei dati di unione e reporting](/help/stitching/faq.md#undefined-person-id-values).
+* In una configurazione di unione basata sui campi, se più persone condividono un dispositivo e il numero totale di transizioni tra gli utenti supera 50.000. In questo caso, il processo di unione si interrompe per utilizzare le informazioni ID persona per quel dispositivo e utilizza solo informazioni ID persistenti. Di conseguenza, tutti gli eventi del set di dati da tale dispositivo vengono inviati ai dati di connessione con l’identità ID persistente, con un’alta probabilità di causare una situazione di ID non validi.
+
+
+>[!NOTE]
+>Le **[!UICONTROL metriche di unione]**, inclusi **[!UICONTROL ID non validi]**, vengono calcolate in base a un set limitato di dati. Per identificare la presenza di ID non validi per un set di dati che intendi utilizzare per l&#39;unione, consulta la [nota tecnica sugli ID non validi](/help/technotes/badids.md).
+>
+
+
+### Salva
+
+Dopo aver salvato una connessione, il processo di unione per i set di dati abilitati viene avviato non appena inizia l’acquisizione dei dati per questi set di dati.
 
 >[!CAUTION]
 >
->Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**&#x200B;per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
+>Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
 >
 
 
