@@ -4,10 +4,10 @@ description: Scopri le funzioni avanzate delle metriche calcolate.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: a5e07891b23184dfe5d4c3f1b2c4b36b6884fb72
+source-git-commit: 76b4ac60c8e3ae2dd62f86a35bdf1c582f60b10f
 workflow-type: tm+mt
-source-wordcount: '5294'
-ht-degree: 92%
+source-wordcount: '5286'
+ht-degree: 91%
 
 ---
 
@@ -433,14 +433,14 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-exp"
 >title="Regressione esponenziale: coefficiente di correlazione"
->abstract="Regressione esponenziale: Y = a exp(X) + b. Restituisce il coefficiente di correlazione."
+>abstract="Regressione esponenziale: Y = b * exp(aX). Restituisce il coefficiente di correlazione."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE ESPONENZIALE: COEFFICIENTE DI CORRELAZIONE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce il coefficiente di correlazione.
+[!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = b * exp(aX). Restituisce il coefficiente di correlazione.
 
 
 | Argomento | Descrizione |
@@ -456,14 +456,14 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
 >title="Regressione esponenziale: Y previsto"
->abstract="Regressione esponenziale: Y = a exp(X) + b. Restituisce Y."
+>abstract="Regressione esponenziale: Y = b * exp(aX). Restituisce Y."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE ESPONENZIALE: VALORE Y PREVISTO (metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Riga]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce Y.
+[!BADGE Riga]{type="Neutral"} Regressione esponenziale: Y = b * exp(aX). Restituisce Y.
 
 
 | Argomento | Descrizione |
@@ -480,14 +480,14 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
 >title="Regressione esponenziale: intercetta"
->abstract="Regressione esponenziale: Y = a exp(X) + b. Restituisce b."
+>abstract="Regressione esponenziale: Y = b * exp(aX). Restituisce b."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE ESPONENZIALE: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce b.
+[!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = b * exp(aX). Restituisce b.
 
 | Argomento | Descrizione |
 |---|---|
@@ -503,14 +503,14 @@ Uguale. L’output è 0 (falso) o 1 (vero).
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
 >title="Regressione esponenziale: pendenza"
->abstract="Regressione esponenziale: Y = a exp(X) + b. Restituisce a."
+>abstract="Regressione esponenziale: Y = b * exp(aX). Restituisce a."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE ESPONENZIALE: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = a exp(X) + b. Restituisce a.
+[!BADGE Tabella]{type="Neutral"} Regressione esponenziale: Y = b * exp(aX). Restituisce a.
 
 
 | Argomento | Descrizione |
