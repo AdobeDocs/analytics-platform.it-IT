@@ -3,9 +3,9 @@ title: Note sulla versione di Customer Journey Analytics
 description: Visualizza le note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: fd8c539ae3bb0efc30a7fde7ff8d13a866263a91
+source-git-commit: 8e64a4aea82562a48bab8556739087e89f99781c
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1293'
 ht-degree: 25%
 
 ---
@@ -20,7 +20,7 @@ Queste note sulla versione coprono il periodo di rilascio di febbraio 2026. I ri
 
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | -------: | ----:|
-| **Riprogettazione dell&#39;anteprima dei set di dati in Connessioni**<p>Quando [aggiungi](/help/connections/create-connection.md#add-datasets) o [modifichi](/help/connections/create-connection.md#edit-a-dataset) set di dati in una connessione basata su persona, l&#39;esperienza per l&#39;anteprima dei dati risulta migliorata. Per i set di dati abilitati per l&#39;unione sono disponibili ulteriori [metriche di unione](/help/stitching/use-stitching-ui.md#stitching-metrics) e [ID non validi](/help/stitching/use-stitching-ui.md#bad-ids). | sabato 6 marzo 2026 | sabato 6 marzo 2026 |
+| **Riprogettazione dell&#39;anteprima dei set di dati in Connessioni**<p>Quando [aggiungi](/help/connections/create-connection.md#add-datasets) o [modifichi](/help/connections/create-connection.md#edit-a-dataset) set di dati in una connessione basata su persona, l&#39;esperienza per l&#39;anteprima dei dati risulta migliorata. Per i set di dati abilitati per l&#39;unione sono disponibili ulteriori [metriche di unione](/help/stitching/use-stitching-ui.md#stitching-metrics) e [informazioni sugli ID non validi](/help/stitching/use-stitching-ui.md#bad-ids). | sabato 6 marzo 2026 | sabato 6 marzo 2026 |
 | **Altre anteprime e anteprime di Content Analytics**<p>Le anteprime e le anteprime di Content Analytics sono ora supportate nelle visualizzazioni a barre (sovrapposte), a barre orizzontali (sovrapposte) e a dispersione. | venerdì 5 marzo 2026 | Da definire |
 | **Sostituzioni intestazione** <p>In Content Analytics è possibile specificare un nome di intestazione e un valore di intestazione segreto. Questa [intestazione sostituisce la configurazione](/help/content-analytics/config/guided.md#header-overrides) in modo che Content Analytics invii intestazioni HTTP personalizzate per ignorare le tecnologie di rilevamento bot o traffico gate implementate.</p> |  | martedì 2 febbraio 2026 |
 | **Combinare suite di rapporti da più organizzazioni IMS**<p>Puoi utilizzare il connettore Source di Analytics per combinare suite di rapporti da più organizzazioni IMS. Questa funzione di [mappatura dati IMS incrociati](/help/getting-started/aa-vs-cja/mapping-data-ims-orgs.md) consente alle organizzazioni di avere una visualizzazione combinata dei dati dei propri clienti, anche quando tali dati dei clienti sono distribuiti tra più organizzazioni IMS. <p>**Nota:** questa configurazione è disponibile solo inviando una richiesta all&#39;Assistenza clienti di Adobe.</p> |  | venerdì 12 febbraio 2026 |
