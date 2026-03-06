@@ -19,7 +19,7 @@ Questo articolo fornisce informazioni contestuali sugli ID non validi e su come 
 
 >[!INFO]
 >
->Nell&#39;interfaccia di Customer Journey Analytics gli ID non validi vengono indicati anche come BAVID (provenienti da [BAVID di Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444)).
+>Nell&#39;interfaccia di Customer Journey Analytics gli ID non validi vengono indicati anche come BAVID (provenienti da [BAVID di Analytics](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16444)).
 >
 
 ## Definizione
