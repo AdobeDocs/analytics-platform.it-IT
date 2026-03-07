@@ -125,7 +125,7 @@ Puoi abilitare l&#39;unione delle identità quando [aggiungi](/help/connections/
 >id="connection_stitchingmetrics_badids"
 >title="ID non validi"
 >abstract="Gli ID non validi sono valori ID che influiscono gravemente sui dati di reporting."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID non validi"
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID non validi"
 
 
 ### Impostazioni del set di dati

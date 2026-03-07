@@ -263,5 +263,5 @@ Puoi generare analisi nell’Area di lavoro del percorso basate su qualsiasi dim
 
 >[!MORELIKETHIS]
 >
-> * [Guida alla visualizzazione delle aree di lavoro del percorso in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
+> * [Guida alla visualizzazione delle aree di lavoro del percorso in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=it)
 

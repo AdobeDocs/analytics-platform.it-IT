@@ -19,7 +19,7 @@ Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli e
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
