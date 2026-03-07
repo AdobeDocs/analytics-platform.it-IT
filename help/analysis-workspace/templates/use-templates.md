@@ -486,7 +486,7 @@ Per accedere a tutti i modelli predfiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="template--audienceOverview"
->title="Visualizza quali tipi di pubblico sono rappresentati tra le persone che visitano il tuo sito."
+>title="Visualizza i tipi di pubblico rappresentati tra le persone che visitano il tuo sito."
 >abstract="**Questo può aiutarti** a comprendere meglio le informazioni generali sui tipi di pubblico, su dove hanno avuto origine i tipi di pubblico (RTCDP, Customer Journey Analytics e così via), sulla sovrapposizione dei tipi di pubblico e altro ancora.<br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come utilizzare i dati per concentrarti sulle attività di marketing per questi tipi di pubblico specifici, o creare esperienze personalizzate per i clienti che si estendono su più tipi di pubblico.<br/>Questo modello utilizza le dimensioni Nome pubblico, Origine pubblico, Nome pubblico in uscita e Origine pubblico in uscita."
 
 <!--AA only-->
@@ -654,7 +654,7 @@ Per accedere a tutti i modelli predfiniti disponibili:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| **[!UICONTROL Panoramica del pubblico]** | Visualizza quali tipi di pubblico sono rappresentati tra le persone che visitano il tuo sito.<p>**Questo può aiutarti** a comprendere meglio le informazioni generali sui tipi di pubblico, su dove hanno avuto origine i tipi di pubblico (RTCDP, Customer Journey Analytics e così via), sulla sovrapposizione dei tipi di pubblico e altro ancora.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come utilizzare i dati per concentrarti sulle attività di marketing per questi tipi di pubblico specifici, o creare esperienze personalizzate per i clienti che si estendono su più tipi di pubblico.</p><p>Questo modello utilizza le dimensioni Audience Name, Audience Origin, Exited Audience Name e Exited Audience Origin.</p><p>Per ulteriori informazioni, consulta [Analizzare il pubblico di Experience Platform in Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).</p> |
+| **[!UICONTROL Panoramica del pubblico]** | Visualizza i tipi di pubblico rappresentati tra le persone che visitano il tuo sito.<p>**Questo può aiutarti** a comprendere meglio le informazioni generali sui tipi di pubblico, su dove hanno avuto origine i tipi di pubblico (RTCDP, Customer Journey Analytics e così via), sulla sovrapposizione dei tipi di pubblico e altro ancora.</p><p>**In base a ciò che apprendi, potresti** fare un certo numero di cose, come utilizzare i dati per concentrarti sulle attività di marketing per questi tipi di pubblico specifici, o creare esperienze personalizzate per i clienti che si estendono su più tipi di pubblico.</p><p>Questo modello utilizza le dimensioni Audience Name, Audience Origin, Exited Audience Name e Exited Audience Origin.</p><p>Per ulteriori informazioni, consulta [Analizzare il pubblico di Experience Platform in Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).</p> |
 | [!UICONTROL **Visitatori nuovi e ripetuti**] | Visualizza un confronto tra visitatori nuovi e visitatori ripetuti. <p>**Questo può aiutarti** a comprendere meglio l’efficacia del tuo sito nel mantenere la fedeltà della clientela oppure la velocità con cui ne acquisisci di nuova.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio offrire ai nuovi visitatori degli incentivi per acquisti futuri, così da invogliarli a ritornare.</p><!-- This template uses the --> |
 | **ID persona** | Visualizza il comportamento di singoli utenti su vari canali.<p>**Questo può aiutarti** a comprendere meglio il percorso cliente completo e le interazioni tra più punti di contatto.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come personalizzare le attività di marketing in base alle preferenze degli utenti.</p><!-- This template uses the --> |
 | **Paesi** | Visualizzare il Paese da cui provengono le persone che visitano il sito.<p>**Questo può aiutarti** a capire meglio quali sono i Paesi più popolari da cui provengono i visitatori del tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in questi Paesi, oppure assicurarti che l’esperienza sul tuo sito sia ottimale in Paesi con lingue principali diverse.</p><p>Questo modello utilizza la dimensione Paesi. </p> |
@@ -1070,7 +1070,7 @@ Per accedere a tutti i modelli predfiniti disponibili:
 
 >[!CONTEXTUALHELP]
 >id="template--brand-concierge--concierge"
->title="Analizza il coinvolgimento degli utenti attraverso i pattern di conversazione, il feedback degli utenti e l’efficacia dei consigli."
+>title="Analizza il coinvolgimento degli utenti mediante modelli di conversazione, feedback degli utenti ed efficacia dei consigli presentati."
 >abstract="**Questo può aiutarti** a identificare pattern di coinvolgimento, valutare la qualità della conversazione, monitorare le tendenze della soddisfazione dei clienti e misurare l&#39;efficacia dei consigli di collegamento.<br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come perfezionare le risposte dell&#39;agente di intelligenza artificiale, sviluppare contenuti mirati per problemi frequenti, migliorare gli algoritmi di consigli o creare percorsi specializzati per diversi segmenti di utenti."
 
 >[!CONTEXTUALHELP]
@@ -1080,7 +1080,7 @@ Per accedere a tutti i modelli predfiniti disponibili:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| [!UICONTROL **Panoramica di Brand Concierge**] | Analizza il coinvolgimento degli utenti attraverso i pattern di conversazione, il feedback degli utenti e l’efficacia dei consigli. <p>**Questo può aiutarti** a identificare pattern di coinvolgimento, valutare la qualità della conversazione, monitorare le tendenze della soddisfazione dei clienti e misurare l&#39;efficacia dei consigli di collegamento.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come perfezionare le risposte dell&#39;agente di intelligenza artificiale, sviluppare contenuti mirati per problemi frequenti, migliorare gli algoritmi di consigli o creare percorsi specializzati per diversi segmenti di utenti.</p> |
+| [!UICONTROL **Panoramica di Brand Concierge**] | Analizza il coinvolgimento degli utenti mediante modelli di conversazione, feedback degli utenti ed efficacia dei consigli presentati. <p>**Questo può aiutarti** a identificare pattern di coinvolgimento, valutare la qualità della conversazione, monitorare le tendenze della soddisfazione dei clienti e misurare l&#39;efficacia dei consigli di collegamento.</p><p>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come perfezionare le risposte dell&#39;agente di intelligenza artificiale, sviluppare contenuti mirati per problemi frequenti, migliorare gli algoritmi di consigli o creare percorsi specializzati per diversi segmenti di utenti.</p> |
 | **Riunioni B2B Brand Concierge** | Monitorare l’intero ciclo di vita delle richieste di riunioni B2B. Monitora i tassi di conversione, valuta le prestazioni di prenotazione dei consulenti e identifica i canali di generazione di lead più efficaci. <p>**Questo può aiutarti** a tenere traccia dei tassi di conversione delle riunioni, identificare i membri del team con prestazioni elevate, capire le tendenze stagionali nel comportamento di prenotazione e individuare le pagine URL che generano le convocazioni di riunione più importanti. </p><p>**In base a ciò che hai appreso, potresti** fare un certo numero di cose, come ottimizzare il processo di convocazione di riunione, ridistribuire le risorse in URL di pagina a conversione elevata, sviluppare una formazione mirata per i consulenti con tassi di prenotazione più bassi o implementare nuove strategie per ridurre le riunioni saltate.</p> |
 
 
@@ -1115,17 +1115,17 @@ Per accedere a tutti i modelli predfiniti disponibili:
 | [!UICONTROL **Attività del gruppo acquisti B2B**] | Visualizza l’attività del gruppo acquisti all’interno di ogni account per informare sulle azioni di marketing relative a gruppi acquisti ed account.<p>**Questo può aiutarti** a visualizzare i gruppi acquisti e le persone più coinvolte all’interno di tali gruppi, evidenziando le lacune nella partecipazione al gruppo.</p><p>**In base a quanto appreso, potresti** fare diverse cose, ad esempio cercare di coinvolgere maggiormente le persone di gruppi acquisti che non sembrano essere coinvolte.</p> |
 
 
-### Modelli Mix Modeler {#mix-modeler-templates}
+### Modelli di Mix Modeler {#mix-modeler-templates}
 
  Sono disponibili i modelli seguenti:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| [!UICONTROL **Informazioni sul modello incrementale Mix Modeler**] | Visualizza informazioni da modelli selezionati generati da Mix Modeler.<p>**Questo può aiutarti** a comprendere meglio le informazioni incrementali dai modelli generati in Mix Modeler. <p>**In base a queste informazioni** potrai:<ul><li>Visualizza e quantifica l’impatto delle attività di marketing della tua organizzazione.</li><li>Identifica i canali con prestazioni elevate.</li><li>Identifica i canali che potrebbero necessitare di ottimizzazione.</li></ul></p> |
+| [!UICONTROL **Informazioni sul modello incrementale Mix Modeler**] | Visualizza dati da specifici modelli generati da Mix Modeler.<p>**Questo può aiutarti** a comprendere meglio le informazioni incrementali dai modelli generati in Mix Modeler. <p>**In base a queste informazioni** potrai:<ul><li>Visualizzare e quantificare l’impatto delle attività di marketing della tua organizzazione.</li><li>Identificare i canali con prestazioni elevate.</li><li>Identificare i canali che potrebbero necessitare di ottimizzazione.</li></ul></p> |
 
 <!-- CJA only -->
 
 >[!CONTEXTUALHELP]
 >id="template--mixmodeler-incremental-models-insights"
->title="Visualizza informazioni da modelli selezionati generati da Mix Modeler."
->abstract="**Questo può aiutarti** a comprendere meglio le informazioni incrementali dai modelli generati in Mix Modeler. <br/>**In base a queste informazioni** potrai:<ul><li>Visualizza e quantifica l’impatto delle attività di marketing della tua organizzazione.</li><li>Identifica i canali con prestazioni elevate.</li><li>Identifica i canali che potrebbero necessitare di ottimizzazione.</li></ul>"
+>title="Visualizza dati da specifici modelli generati da Mix Modeler."
+>abstract="**Questo può aiutarti** a comprendere meglio le informazioni incrementali dai modelli generati in Mix Modeler. <br/>**In base a queste informazioni** potrai:<ul><li>Visualizzare e quantificare l’impatto delle attività di marketing della tua organizzazione.</li><li>Identificare i canali con prestazioni elevate.</li><li>Identificare i canali che potrebbero necessitare di ottimizzazione.</li></ul>"

@@ -8,7 +8,7 @@ exl-id: a3f6db1e-0444-4804-98bf-c5c10ba2e7ea
 source-git-commit: 968fef4fa6a967c9654f594e662bc9bbd7ae2ab4
 workflow-type: tm+mt
 source-wordcount: '1698'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -80,7 +80,7 @@ Le storie di dati sono costituite da una diapositiva titolo, una diapositiva di 
 >[!CONTEXTUALHELP]
 >id="cja-powerpoint-include-visualizations"
 >title="Pannelli e visualizzazioni inclusi"
->abstract="Scegli i pannelli e le visualizzazioni da includere nella presentazione. Puoi includere fino a 50 visualizzazioni."
+>abstract="Scegli i pannelli e le visualizzazioni che desideri includere nella presentazione. Puoi includere fino a 50 visualizzazioni."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -89,7 +89,7 @@ Le storie di dati sono costituite da una diapositiva titolo, una diapositiva di 
 >[!CONTEXTUALHELP]
 >id="cja-presentation-emphasized-components"
 >title="Componenti evidenziati"
->abstract="Scegli fino a 5 metriche e 5 dimensioni dalle visualizzazioni che desideri enfatizzare nella presentazione. Le metriche scelte sono visualizzate in corsivo, le dimensioni in grassetto e gli elementi dimensionali in contrasto."
+>abstract="Scegli fino a 5 metriche e 5 dimensioni dalle visualizzazioni che desideri enfatizzare nella presentazione. Le metriche scelte sono visualizzate in corsivo, le dimensioni in grassetto e gli elementi dimensionali in un colore di contrasto."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -191,7 +191,7 @@ La possibilità di generare diapositive è attivata per impostazione predefinita
 
 Se necessario, gli amministratori dei profili di prodotto le cui organizzazioni dispongono di licenze per la generazione di diapositive possono disabilitare l’accesso.
 
-In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Narrazione dati]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
+In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Narrazione dati]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
 1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti e servizi]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Profili di prodotto]**
 1. Selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso alla [!UICONTROL narrazione dei dati].
 1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Autorizzazioni]**.

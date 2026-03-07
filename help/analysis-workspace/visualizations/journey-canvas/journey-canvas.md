@@ -6,8 +6,8 @@ role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1996'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione dell’area di lavoro del percorso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**<br/>Nessuna visualizzazione equivalente in **Adobe Analytics**._
+_Questo articolo descrive la visualizzazione dell’area di lavoro del percorso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**<br/>Nessuna visualizzazione equivalente in **Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -263,5 +263,5 @@ Puoi generare analisi nell’Area di lavoro del percorso basate su qualsiasi dim
 
 >[!MORELIKETHIS]
 >
-> * [Guida alla visualizzazione delle aree di lavoro del percorso in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=it)
+> * [Guida alla visualizzazione delle aree di lavoro del percorso in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
 

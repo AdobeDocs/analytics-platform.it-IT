@@ -8,7 +8,7 @@ role: User
 source-git-commit: c4a7884ae05d9290b2974483474ba8326492d014
 workflow-type: tm+mt
 source-wordcount: '3234'
-ht-degree: 50%
+ht-degree: 55%
 
 ---
 
@@ -67,7 +67,7 @@ Utilizza il seguente processo durante l’esportare tabelle complete nel cloud:
 >[!CONTEXTUALHELP]
 >id="cja-export-data-structure"
 >title="Struttura dei dati"
->abstract="Tabella a forma libera da esportare. Puoi modificare la struttura dati trascinando i componenti dal pannello di sinistra alla tabella. Puoi applicare un filtro trascinando un componente nell’area del filtro. La tabella viene aggiornata dinamicamente quando si aggiungono componenti all’area di lavoro."
+>abstract="Si tratta della tabella a forma libera che stai esportando. Per modificare la struttura dei dati, puoi trascinare i componenti dal pannello a sinistra alla tabella. Per applicare un filtro, trascina un componente nell’area del filtro. La tabella viene aggiornata dinamicamente quando si aggiungono componenti all’area di lavoro."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -76,7 +76,7 @@ Utilizza il seguente processo durante l’esportare tabelle complete nel cloud:
 >[!CONTEXTUALHELP]
 >id="export-manifest"
 >title="Includi file manifesto"
->abstract="Se questa opzione è selezionata, un file manifesto viene incluso in tutte le consegne di esportazione riuscite. Il file manifesto ti consente di confermare che tutti i file sono stati consegnati correttamente."
+>abstract="Se questa opzione è selezionata, un file manifesto viene incluso in tutte le consegne di esportazione completate. Il file manifesto ti consente di confermare che tutti i file sono stati consegnati correttamente."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -85,7 +85,7 @@ Utilizza il seguente processo durante l’esportare tabelle complete nel cloud:
 >[!CONTEXTUALHELP]
 >id="cja-export-schedule"
 >title="Pianificazione"
->abstract="Seleziona la frequenza con cui deve avvenire l’esportazione. Scegliere Invia ora (una tantum) per avviare immediatamente l&#39;esportazione. Le esportazioni programmate vengono avviate alla data e all&#39;ora specificate."
+>abstract="Seleziona la frequenza con cui deve avvenire l’esportazione. Scegli Invia ora (una tantum) per avviare subito l’esportazione. Le esportazioni programmate vengono avviate alla data e all&#39;ora specificate."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,7 +95,7 @@ Utilizza il seguente processo durante l’esportare tabelle complete nel cloud:
 >[!CONTEXTUALHELP]
 >id="cja-export-destination"
 >title="Destinazione"
->abstract="Seleziona l’account cloud e il percorso in cui desideri inviare i dati. Puoi scegliere un account e una posizione esistenti o selezionare &quot;Aggiungi nuovo&quot; per crearli. Specifica gli utenti e i gruppi a cui inviare le notifiche relative alle esportazioni non riuscite o in scadenza."
+>abstract="Seleziona l’account cloud e la posizione in cui desideri inviare i dati. Puoi scegliere un account e una posizione esistenti o selezionare “Aggiungi nuovo” per crearli. Specifica gli utenti e i gruppi a cui inviare le notifiche relative alle esportazioni non riuscite o in scadenza."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -104,7 +104,7 @@ Utilizza il seguente processo durante l’esportare tabelle complete nel cloud:
 >[!CONTEXTUALHELP]
 >id="cja-export-file-format"
 >title="Formato file"
->abstract="Quando si sceglie il formato di file Parquet, alcuni caratteri speciali inclusi nei nomi dei componenti vengono sostituiti da un carattere di sottolineatura (_). Consulta il collegamento seguente per un elenco completo dei caratteri sostituiti."
+>abstract="Durante la scelta del formato di file Parquet, alcuni caratteri speciali inclusi nei nomi dei componenti vengono sostituiti da un carattere di sottolineatura (_). Consulta il collegamento seguente per un elenco completo dei caratteri che vengono sostituiti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -137,7 +137,7 @@ Per esportare tabelle complete da Analysis Workspace:
    | Tag | Puoi applicare un tag esistente all’esportazione oppure creare un nuovo tag e applicarlo. <p>Per applicare un tag esistente all’esportazione, seleziona un tag qualsiasi dal menu a discesa. Tutti i tag della tua azienda sono disponibili per l’applicazione.</p> <p>Per creare un nuovo tag, digitane il nome, quindi premi Invio.</p><p>Durante l’applicazione di tag a un’esportazione, tieni presente quanto segue: <ul><li>I tag applicati possono essere filtrati o cercati nella tabella delle esportazioni.</li> <li>I tag applicati a un progetto non vengono applicati automaticamente durante l’esportazione di una tabella completa, come descritto in “Configurare le colonne nella pagina di esportazione” in [Gestire le esportazioni](/help/components/exports/manage-exports.md). In alternativa, quando [si pianifica un progetto completo per l&#39;esportazione](/help/analysis-workspace/export/t-schedule-report.md), tutti i tag applicati al progetto vengono automaticamente applicati all&#39;esportazione. </li></ul> |
    | Descrizione | Aggiungi una descrizione all’esportazione. Puoi scegliere di visualizzare le descrizioni come colonna nella [pagina Esportazioni](/help/components/exports/manage-exports.md) durante la visualizzazione delle esportazioni. |
    | Visualizzazione dati | Seleziona la visualizzazione dati che contiene i componenti da includere nell’esportazione. Il menu a discesa della visualizzazione dati ![Dati](/help/assets/icons/Data.svg) si trova nell&#39;angolo superiore sinistro della finestra di dialogo.  <p>**Nota:** se si seleziona una visualizzazione dati in cui mancano componenti già inclusi nella tabella dati, viene richiesto di cancellare e ricreare il pannello utilizzando i componenti inclusi nella visualizzazione dati selezionata. </p> |
-   | Struttura dei dati | Visualizza la tabella a forma libera che stai esportando. Puoi modificare la struttura dati trascinando i componenti dal pannello di sinistra alla tabella. Puoi applicare un filtro trascinando un componente nell’area del filtro. La tabella viene aggiornata dinamicamente quando si aggiungono componenti all’area di lavoro. Puoi includere fino a 10 colonne.<p>Tutti i segmenti applicati all’intera tabella del progetto vengono visualizzati sopra la tabella. Puoi applicare un segmento o un gruppo di segmenti a un’esportazione.</p> |
+   | Struttura dei dati | Visualizza la tabella a forma libera che stai esportando. Per modificare la struttura dei dati, puoi trascinare i componenti dal pannello a sinistra alla tabella. Per applicare un filtro, trascina un componente nell’area del filtro. La tabella viene aggiornata dinamicamente quando si aggiungono componenti all’area di lavoro. Puoi includere fino a 10 colonne.<p>Tutti i segmenti applicati all’intera tabella del progetto vengono visualizzati sopra la tabella. Puoi applicare un segmento o un gruppo di segmenti a un’esportazione.</p> |
    | Finestra rapporto | Seleziona l’intervallo di tempo di reporting da includere in ciascun file di esportazione. Le opzioni includono [!UICONTROL **Oggi**], **[!UICONTROL Ieri]**, **[!UICONTROL Ultimi 7 giorni]**, **[!UICONTROL Ultimi 30 giorni]**, **[!UICONTROL Questa settimana]** e **[!UICONTROL Questo mese]**. <p>Questa opzione non viene visualizzata se la **[!UICONTROL frequenza di esportazione]** è impostata su **[!UICONTROL Invia ora (una tantum)]**.</p> |
    | Cancella tutto | Cancella il contenuto della tabella dati. Questo consente di iniziare a creare una nuova tabella direttamente nella finestra di dialogo Nuova esportazione di tabella completa. |
    | Formato file | Scegli se i dati esportati devono essere in formato .csv, .json o .parquet. <p>Quando si sceglie il formato di file Parquet, i seguenti caratteri inclusi nei nomi dei componenti vengono sostituiti da un carattere di sottolineatura (_): <ul><li>&#39; &#39; - Spazio ASCII</li><li>&#39;,&#39; - virgola ASCII</li><li>&#39;;&#39; - Due punti ASCII</li><li>&#39;{&#39; o &#39;}&#39; - Parentesi graffa aperta/chiusa ASCII</li><li>&#39;(&#39; o &#39;)&#39; - Parentesi aperta/chiusa ASCII</li><li>&#39;\n&#39; - Nuova riga ASCII</li><li>&#39;\t&#39; - Scheda ASCII</li><li>&#39;=&#39; - ASCII è uguale a</li></ul></p> |
