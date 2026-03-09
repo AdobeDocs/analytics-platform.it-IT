@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: a2715ff9869796858dec16d3b8b422ef0c9325aa
+source-git-commit: b48858ea8e54bd9f6e7725f1ed0f0086020aab5f
 workflow-type: tm+mt
-source-wordcount: '2776'
-ht-degree: 76%
+source-wordcount: '3251'
+ht-degree: 67%
 
 ---
 
@@ -114,7 +114,52 @@ Ogni configurazione richiede un nome univoco. Ad esempio, `Example Content Analy
 >title="Nuova visualizzazione dati"
 >abstract="Hai selezionato una nuova visualizzazione dati per questa configurazione. La nuova visualizzazione dati verrà aggiornata per includere le metriche e le dimensioni di Content Analytics. Metriche e dimensioni simili verranno rimosse dalla visualizzazione dati esistente.<br/>Se alla nuova visualizzazione dati è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla configurazione esistente."
 
-<!-- markdownlint-enable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="ac_onboarding_dataviews_button"
+>title="Visualizzazione dati"
+>abstract="Per la configurazione di Content Analytics è necessario selezionare una o più visualizzazioni dati. In questo modo, puoi unire i dati di Content Analytics con altri dati."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviewsheader"
+>title="Visualizzazioni dati"
+>abstract="Seleziona una o più visualizzazioni dati esistenti da Customer Journey Analytics con cui desideri unire i dati di Content Analytics."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_header_alt"
+>title="Visualizzazione dati"
+>abstract="Selezionare una o più visualizzazioni dati esistenti da Customer Journey Analytics con cui si desidera unire i dati di Content Analytics.<br/>"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_new_dialog"
+>title="Visualizzazioni dati selezionate"
+>abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate precedenti che non sono più selezionate.<br/><br/>Se alle visualizzazioni dati selezionate è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_change_dialog"
+>title="Visualizzazioni dati selezionate"
+>abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate precedenti che non sono più selezionate.<br/><br/>Se alle visualizzazioni dati selezionate è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_current_cleanup_labels_dialog"
+>title="Visualizzazioni dati selezionate"
+>abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate in precedenza che non sono più selezionate.<br/><br/>Se alle visualizzazioni dati selezionate è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_dataviews_prev_cleanup_labels_dialog"
+>title="Visualizzazioni dati selezionate"
+>abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate in precedenza che non sono più selezionate.<br/><br/>Se alle visualizzazioni dati selezionate è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_channels_button"
+>title="Canali"
+>abstract="Abilita e configura uno o più canali per la configurazione."
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_channels_header"
+>title="Canali"
+>abstract="Abilita e configura uno o più canali per la configurazione. Tutte le visualizzazioni dati che fanno parte della configurazione ereditano i canali abilitati."
+
 
 La configurazione richiede la selezione di una [Visualizzazione dati](/help/data-views/data-views.md).
 
