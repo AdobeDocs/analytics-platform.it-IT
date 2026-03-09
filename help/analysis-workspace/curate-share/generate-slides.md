@@ -5,9 +5,9 @@ title: Generare presentazioni dai report di Workspace
 feature: Curate and Share
 role: User
 exl-id: a3f6db1e-0444-4804-98bf-c5c10ba2e7ea
-source-git-commit: 968fef4fa6a967c9654f594e662bc9bbd7ae2ab4
+source-git-commit: d14163794fd4d31b29bfc6f55622d839b67ab3d7
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1696'
 ht-degree: 7%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->La narrazione attraverso i dati è un’abilità offerta da Data Insights Agent ed è disponibile per i clienti idonei per un periodo di tempo limitato. L’accesso a Data Insights Agent terminerà il 28 febbraio 2026. Per continuare a utilizzare Data Insights Agent o altri agenti Adobe Experience Platform senza interruzioni, contatta il rappresentante del tuo account Adobe per ulteriori informazioni sulla gestione delle licenze di Adobe Experience Platform Agent Orchestrator.
+>La narrazione attraverso i dati è un’abilità offerta da Data Insights Agent ed è disponibile per i clienti idonei per un periodo di tempo limitato. L’accesso all’agente Data Insights terminerà il mercoledì 31 marzo 2026. Per continuare a utilizzare Data Insights Agent o altri agenti Adobe Experience Platform senza interruzioni, contatta il rappresentante del tuo account Adobe per ulteriori informazioni sulla gestione delle licenze di Adobe Experience Platform Agent Orchestrator.
 
 
 Gli utenti con [le autorizzazioni necessarie](#permission-requirements-to-generate-slides) possono generare automaticamente presentazioni con estensione pptx in base ai progetti Analysis Workspace. Durante la generazione di queste presentazioni di diapositive, Customer Journey Analytics crea automaticamente una storia dai tuoi dati identificando le informazioni chiave e convertendole in diapositive pronte per le parti interessate.
@@ -191,7 +191,7 @@ La possibilità di generare diapositive è attivata per impostazione predefinita
 
 Se necessario, gli amministratori dei profili di prodotto le cui organizzazioni dispongono di licenze per la generazione di diapositive possono disabilitare l’accesso.
 
-In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Narrazione dati]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
+In [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Narrazione dati]** determina l&#39;accesso a questa funzionalità. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console] se desidera disabilitare l&#39;accesso:
 1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti e servizi]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Profili di prodotto]**
 1. Selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso alla [!UICONTROL narrazione dei dati].
 1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Autorizzazioni]**.

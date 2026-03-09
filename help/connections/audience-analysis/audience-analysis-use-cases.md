@@ -6,9 +6,10 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 974d8a269be15d3ea6fbbcf96f2ab5457d9c9554
+exl-id: 4f465e71-f1b5-4f38-a1db-645550856849
+source-git-commit: d14163794fd4d31b29bfc6f55622d839b67ab3d7
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1486'
 ht-degree: 1%
 
 ---
@@ -61,7 +62,7 @@ Scopri il comportamento di un pubblico specifico in un dato canale (ad esempio, 
 
    * Confronta pubblico e non pubblico (o con un altro pubblico) su metriche quali sessioni, tasso di conversione, ricavi per persona.
 
-1. Inserisci informazioni sulle strategie di ottimizzazione del canale (ad esempio, regole di targeting, contenuti o ottimizzazione delle offerte).
+1. Utilizza le informazioni generate per perfezionare le strategie di ottimizzazione del canale (ad esempio, regole di targeting, contenuti o ottimizzazione delle offerte).
 
 #### Considerazioni sulla risoluzione delle identità
 
@@ -142,4 +143,3 @@ Scopri il comportamento dei clienti che hanno lasciato di recente un pubblico ch
 | Caso d’uso | Domanda aziendale di base | Considerazione sulla risoluzione dell’identità | Organizzazioni con autenticazione elevata/spazio dei nomi singolo (eventi già al di sotto di 1 ID persona, ad esempio login /CRM) | Organizzazioni con più spazi dei nomi e frammenti (eventi in ECID + CRM + altri) |
 |---------|----------|---------|---------|---------|
 | Tipi di pubblico in uscita - Analisi dell’abbandono | _&quot;Chi ha appena lasciato un pubblico chiave?&quot;_ <p>_&quot;Cosa hanno fatto all&#39;uscita?&quot;_</p> | L’uscita dal pubblico viene tracciata sullo stesso ID persona utilizzato per la connessione e la configurazione del pubblico. | Le uscite misurate su un ID di accesso/gestione delle relazioni con i clienti stabile tendono a riflettere la vera modifica comportamentale. <p>Quando qualcuno abbandona un pubblico con questo ID, in genere si tratta di una modifica reale (abbandono, downgrade, inattività).</p><p>Puoi analizzarne il comportamento recente per mettere a punto con sicurezza i percorsi e le offerte di recupero.</p> | Le uscite sono visibili solo dove profili ed eventi condividono l’ID configurato e quindi richiedono un’interpretazione attenta.<p>Utilizza le coorti in uscita come segnale o suggerimento forte, ma è consigliabile effettuare un controllo incrociato con altri punti dati prima di prendere decisioni critiche.</p> |
-
