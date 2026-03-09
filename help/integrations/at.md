@@ -4,10 +4,10 @@ description: Integrare Adobe Target con Customer Journey Analytics
 feature: Experience Platform Integration
 role: User
 exl-id: 0b52af5b-b65c-4929-9ca3-547a640936f3
-source-git-commit: 979564d0249abadd454ce43aba9aeae2c78a44f0
+source-git-commit: 81e08ecb593b6ba789c479d0e648cbe7ba0a82d6
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 41%
+source-wordcount: '386'
+ht-degree: 40%
 
 ---
 
@@ -25,7 +25,9 @@ Aggiungendo il set di dati di ricerca di Classificazione di Target (disponibile 
 
 ## Note e considerazioni
 
-Una volta aggiunto il set di dati dell’evento di classificazione di Target a una connessione CJA, è necessario apportare alcune modifiche minori alla visualizzazione dati di CJA dopo l’aggiunta di questi componenti come dimensioni, tra cui:
+L&#39;attività di Target deve [utilizzare Customer Journey Analytics come origine per la generazione di rapporti](https://experienceleague.adobe.com/it/docs/target/using/integrate/cja/target-reporting-in-cja).
+
+Una volta aggiunto il set di dati dell’evento di classificazione di Target a una connessione, è necessario apportare alcune modifiche minori alla visualizzazione dati dopo l’aggiunta di questi componenti come dimensioni, tra cui:
 
 * Impostare la persistenza in modo che sia simile a come viene tracciata in Target (rivolgiti a un consulente di Target o al cliente per verificare le impostazioni corrette).
 

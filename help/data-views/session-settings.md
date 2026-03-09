@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: 81e08ecb593b6ba789c479d0e648cbe7ba0a82d6
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 64%
+source-wordcount: '532'
+ht-degree: 56%
 
 ---
 
@@ -34,9 +34,9 @@ Per definire il contesto di una sessione per una visualizzazione dati:
 
 1. Seleziona **[!UICONTROL Visualizzazioni dati]**, facoltativamente da **[!UICONTROL Gestione dati]**, nella navigazione principale dell&#39;interfaccia utente di Customer Journey Analytics.
 
-2. Crea una nuova visualizzazione dati o modificane una esistente. Per ulteriori informazioni, consulta [Creare o modificare una visualizzazione dati](create-dataview.md).
+1. Crea una nuova visualizzazione dati o modificane una esistente. Per ulteriori informazioni, consulta [Creare o modificare una visualizzazione dati](create-dataview.md).
 
-3. Seleziona la scheda **[!UICONTROL Impostazioni]**. Sotto [!UICONTROL Impostazioni sessione]:
+1. Seleziona la scheda **[!UICONTROL Impostazioni]**. Sotto [!UICONTROL Impostazioni sessione]:
 
    1. Immetti un valore per **[!UICONTROL Timeout sessione]** in [!UICONTROL minuti], [!UICONTROL ore], [!UICONTROL giorni] o [!UICONTROL settimane]. Il timeout della sessione determina per quanto tempo una sessione può rimanere inattiva (non si verificano eventi) prima di avviarne una nuova.
 
@@ -44,8 +44,11 @@ Per definire il contesto di una sessione per una visualizzazione dati:
 
       Utilizza un timeout di sessione lungo (ad esempio 3 mesi) se stai combinando dati online e offline e desideri analizzare se chi ha acquistato uno o più prodotti ha chiamato il tuo centro assistenza nei primi tre mesi successivi all’acquisto.
 
+   1. Se desideri segmentare una visualizzazione dati, seleziona un segmento dal menu a discesa **[!UICONTROL Aggiungi segmenti]**. In alternativa, puoi trascinare un segmento da ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmenti]** nel riquadro a sinistra in **[!UICONTROL _Rilasciare un segmento qui_]**.
 
-   2. Selezionare una metrica dall&#39;elenco **[!UICONTROL Rilasciare una metrica qui]** sotto **[!UICONTROL Avviare una nuova sessione con una metrica]**. In alternativa, puoi trascinare una metrica dal riquadro di sinistra su **[!UICONTROL Rilasciare un campo di metrica]**. La metrica selezionata definisce l’inizio di una nuova sessione. Puoi definire più di una metrica.
+      Vengono elencati solo i segmenti condivisi, a cui hai accesso e che possono essere valutati in base ai componenti definiti per la visualizzazione dati.
+
+   1. Selezionare una metrica dal menu a discesa **[!UICONTROL Avvia nuova sessione con una metrica]**. In alternativa, puoi trascinare una metrica da ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Metriche]** nel riquadro a sinistra di **[!UICONTROL _Rilasciare una metrica qui_]**. La metrica selezionata definisce l’inizio di una nuova sessione. Puoi definire più di una metrica.
 
       Puoi utilizzare qualsiasi tipo di metrica per definire una nuova sessione. Ad esempio, immagina di voler definire una nuova sessione ogni volta che un profilo avvia la tua app mobile. In **[!UICONTROL Visualizzazione dati]** > **[!UICONTROL Componenti]**, si definisce un componente di tipo metrico, denominato **[!UICONTROL Avvio]**, in base a un campo schema **[!UICONTROL appInteraction]** **[!UICONTROL Nome]**. È inoltre possibile specificare il componente metrico **[!UICONTROL Launch]** per conteggiare solo il valore quando il valore corrisponde a `launch`.
 
@@ -57,4 +60,4 @@ Per definire il contesto di una sessione per una visualizzazione dati:
 
 
 
-4. Seleziona **[!UICONTROL Salva]** o **[!UICONTROL Salva e termina]** per salvare la definizione delle impostazioni della sessione.
+1. Seleziona **[!UICONTROL Salva]** o **[!UICONTROL Salva e termina]** per salvare la definizione delle impostazioni della sessione.

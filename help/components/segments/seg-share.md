@@ -4,10 +4,10 @@ title: Condividi segmenti
 feature: Filters, Segments
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+source-git-commit: 81e08ecb593b6ba789c479d0e648cbe7ba0a82d6
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 7%
+source-wordcount: '320'
+ht-degree: 5%
 
 ---
 
@@ -21,16 +21,18 @@ Nel [Gestore segmenti](seg-manage.md), puoi condividere segmenti. A seconda dell
 Per condividere uno o più segmenti:
 
 1. Nel [Gestore segmenti](seg-manage.md), seleziona uno o più segmenti da condividere.
-1. Dalla barra delle azioni, seleziona ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]**.
-1. Nella finestra di dialogo **[!UICONTROL Share Segments]** (Crea elemento dati):
+1. Dalla barra delle azioni, seleziona ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Condividi]**.
+1. Nella finestra di dialogo **[!UICONTROL Condividi segmenti]**:
 
    ![Finestra di dialogo Condividi segmento](assets/share-filter-dialog.png)
 
    1. (facoltativamente) utilizzare ![Cerca](/help/assets/icons/Search.svg) per *Cerca singoli utenti o gruppi* e limita l&#39;elenco di gruppi o singoli utenti con cui si desidera condividere il segmento.
 
-   1. Selezionare una o più opzioni dalla sezione **[!UICONTROL Organization]** o **[!UICONTROL Groups]** oppure cercare e selezionare uno o più utenti. Le opzioni disponibili dipendono dal ruolo.
+   1. Seleziona una o più opzioni dalla sezione **[!UICONTROL Organizzazione]** o **[!UICONTROL Gruppi]** oppure cerca e seleziona uno o più utenti. Le opzioni disponibili dipendono dal ruolo.
 
-   1. Seleziona **[!UICONTROL Save]** per condividere i segmenti. Seleziona **[!UICONTROL Cancel]** per annullare.
+   1. Seleziona **[!UICONTROL Salva]** per condividere i segmenti. Seleziona **[!UICONTROL Annulla]** per annullare.
+
+Se hai accesso ai segmenti condivisi, puoi utilizzarli nei progetti o come parte delle [impostazioni di una visualizzazione dati](/help/data-views/session-settings.md).
 
 ## Best practice
 
