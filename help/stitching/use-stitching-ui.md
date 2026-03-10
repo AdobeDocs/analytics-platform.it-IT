@@ -125,7 +125,7 @@ Puoi abilitare l&#39;unione delle identità quando [aggiungi](/help/connections/
 >id="connection_stitchingmetrics_badids"
 >title="ID non validi"
 >abstract="Gli ID non validi sono valori ID che influiscono gravemente sui dati di reporting."
->additional-url="https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID non validi"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444" text="ID non validi"
 
 
 ### Impostazioni del set di dati
@@ -234,7 +234,7 @@ Dopo aver salvato una connessione, il processo di unione per i set di dati abili
 
 >[!CAUTION]
 >
->Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**&#x200B;per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
+>Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
 >
 
 
