@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: fc1961f3191b80c0351c8935fc331d7605f37f13
+source-git-commit: 6e7776cbaf99d5b2031b0fb3872c331852443b74
 workflow-type: tm+mt
-source-wordcount: '3393'
-ht-degree: 65%
+source-wordcount: '3419'
+ht-degree: 64%
 
 ---
 
@@ -431,6 +431,16 @@ Tuttavia, puoi modificare le pagine e le risorse da includere o escludere.
 
 
 ### Sostituzioni intestazione
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_boldheader"
+>title="Sostituzioni intestazione"
+>abstract="**Sostituzioni intestazione**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_header"
+>title="Sostituzioni intestazione"
+>abstract="Funzione avanzata per ignorare il rilevamento di bot o il traffico del gate. Content Analytics include le intestazioni HTTP personalizzate durante la chiamata degli endpoint."
 
 Facoltativamente, puoi specificare nella sezione **[!UICONTROL Overrides di intestazione]** un nome di intestazione e un valore di intestazione segreto.  Questa intestazione sostituisce la configurazione per garantire che Content Analytics invii intestazioni HTTP personalizzate per ignorare eventuali tecnologie di rilevamento bot o traffico gate implementate.
 
