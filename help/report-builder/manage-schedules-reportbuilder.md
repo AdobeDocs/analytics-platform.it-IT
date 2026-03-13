@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 0a0427d9-223e-410b-a8ef-8601390d88aa
-source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
+source-git-commit: 9d5c895672e422a82ef68b0af6cd85359c9b11ea
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 3%
+source-wordcount: '378'
+ht-degree: 4%
 
 ---
 
@@ -29,14 +29,19 @@ Puoi visualizzare e gestire tutte le cartelle di lavoro pianificate nella scheda
 
 1. Seleziona **[!UICONTROL Pianifica]** nell&#39;hub Report Builder
 
-1. Selezionare la scheda **[!UICONTROL Cartelle di lavoro]**. Viene visualizzato un elenco di tutte le cartelle di lavoro pianificate.
+1. Selezionare la scheda **[!UICONTROL Cartelle di lavoro]**. Viene visualizzato un elenco di tutte le cartelle di lavoro pianificate. In alternativa, è possibile selezionare la scheda **[!UICONTROL Legacy]** per visualizzare un elenco delle cartelle di lavoro legacy che devono essere migrate al nuovo Report Builder.
 
    ![Cartella di lavoro pianificata](assets/scheduled-workbooks.png){zoomable="yes"}
 
-   Passa il cursore del mouse sull’icona per visualizzare lo stato di una cartella di lavoro pianificata.
+1. Esegui una delle operazioni seguenti:
 
-   Utilizza ![Ricerca](/help/assets/icons/Search.svg) per cercare specifiche cartelle di lavoro pianificate.
-Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le colonne da visualizzare.
+   * Passa il cursore del mouse sull’icona per visualizzare lo stato di una cartella di lavoro pianificata.
+
+   * Nel campo di ricerca ![Cerca](/help/assets/icons/Search.svg), cerca specifiche cartelle di lavoro pianificate.
+
+   * Selezionare l&#39;icona della colonna ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le colonne da visualizzare.
+
+   * Seleziona l&#39;icona filtro ![Icona filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), quindi seleziona [!UICONTROL **Mostra tutto**] per visualizzare tutte le cartelle di lavoro pianificate per una determinata organizzazione.
 
 1. Selezionare una o più cartelle di lavoro.
 
