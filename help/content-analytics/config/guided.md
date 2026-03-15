@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: 359b0364b1de82d6e49c6ba8e7222d459c9825b8
+source-git-commit: b3988dcc0568245bc6aed7aa80cf1c636c61fc7d
 workflow-type: tm+mt
 source-wordcount: '3432'
 ht-degree: 64%
@@ -76,7 +76,7 @@ La configurazione guidata è costituita da quattro sezioni ([Dettagli](#details)
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_header"
 >title="Connessione"
->abstract="Seleziona una connessione esistente da Customer Journey Analytics con cui unire i dati di Content Analytics."
+>abstract="Seleziona una connessione esistente da Customer Journey Analytics con cui desideri unire i dati di Content Analytics."
 
 Ogni configurazione richiede un nome univoco. Ad esempio, `Example Content Analytics configuration`. Il nome è necessario per salvare o implementare una configurazione.
 

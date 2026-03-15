@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: c1acbea7e22e42a2f64f71af054abe2dd6082130
+source-git-commit: 1e0d028db957743416bc7840f5a3682206a3edf3
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1808'
 ht-degree: 5%
 
 ---
@@ -103,7 +103,7 @@ Puoi abilitare l&#39;unione delle identità quando [aggiungi](/help/connections/
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="Metriche di unione"
->abstract="Le metriche di unione vengono calcolate utilizzando un set di dati campione, da qualsiasi dato acquisito negli ultimi 7 giorni.<br>Questo set di dati di esempio è in genere diverso dai dati di esempio utilizzati nella tabella **[!UICONTROL Anteprima]**."
+>abstract="Le metriche di unione vengono calcolate utilizzando un set di dati campione con una marca temporale di eventi negli ultimi 7 giorni.<br>Questo set di dati di esempio è in genere diverso dai dati di esempio utilizzati nella tabella **[!UICONTROL Anteprima]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -125,7 +125,7 @@ Puoi abilitare l&#39;unione delle identità quando [aggiungi](/help/connections/
 >id="connection_stitchingmetrics_badids"
 >title="ID non validi"
 >abstract="Gli ID non validi sono valori ID che influiscono gravemente sui dati di reporting."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/badids" text="ID non validi"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="ID non validi"
 
 
 ### Impostazioni del set di dati
@@ -188,9 +188,7 @@ Oltre all&#39;interfaccia standard **[!UICONTROL Anteprima set di dati]**, quand
 
 #### Metriche di unione
 
-
-
-**[!UICONTROL Le metriche di unione]** vengono calcolate utilizzando un set di dati campione, da qualsiasi dato acquisito negli ultimi 7 giorni. Questo set di dati di esempio è in genere diverso dai dati di esempio utilizzati nella tabella **[!UICONTROL Anteprima]**. Le metriche di unione forniscono dettagli per:
+**[!UICONTROL Le metriche di unione]** vengono calcolate utilizzando un set di dati di esempio con una marca temporale di eventi negli ultimi 7 giorni. Questo set di dati di esempio è in genere diverso dai dati di esempio utilizzati nella tabella **[!UICONTROL Anteprima]**. Le metriche di unione forniscono dettagli per:
 
 * **[!UICONTROL Copertura ID persona]**: copertura dell&#39;ID persona selezionato utilizzata per l&#39;identificazione durante il processo di unione (in tempo reale e ripetizione).
    * Per ottenere i migliori risultati con le unioni basate sui campi, è necessario inviare un ID persona (informazioni utente) su almeno un evento per ogni ID persistente (informazioni dispositivo).
@@ -234,7 +232,7 @@ Dopo aver salvato una connessione, il processo di unione per i set di dati abili
 
 >[!CAUTION]
 >
->Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**&#x200B;per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
+>Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
 >
 
 
