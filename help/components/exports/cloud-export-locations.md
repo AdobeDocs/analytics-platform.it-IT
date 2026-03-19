@@ -107,11 +107,11 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 
    1. Apri [Microsoft Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
-   1. Vai a [!UICONTROL **Account di archiviazione**] > [!UICONTROL **(Contenitori allegati)**] > [!UICONTROL **Contenitori BLOB**] > **[!UICONTROL cjaexport-_numero_]**>*** nome_contenitore ***.
+   1. Vai a [!UICONTROL **Account di archiviazione**] > [!UICONTROL **(Contenitori allegati)**] > [!UICONTROL **Contenitori BLOB**] > **[!UICONTROL cjaexport-_numero_]**>*** nome_contenitore &#x200B;***.
 
       >[!NOTE]
       >
-      >Il nome della cartella **[!UICONTROL cjaexport-_number_]**è il nome predefinito fornito da Azure Storage Explorer. Se all&#39;URI SAS è associata una sola connessione (normale), il nome della cartella sarà&#x200B;**[!UICONTROL cjaexport-1]**.
+      >Il nome della cartella **[!UICONTROL cjaexport-_number_]**&#x200B;è il nome predefinito fornito da Azure Storage Explorer. Se all&#39;URI SAS è associata una sola connessione (normale), il nome della cartella sarà&#x200B;**[!UICONTROL cjaexport-1]**.
 
 
       ![Accedere ai file in Esplora archivi di Azure](assets/azure-storage-explorer-access.png)
