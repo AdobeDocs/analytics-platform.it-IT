@@ -1,8 +1,8 @@
 ---
-source-git-commit: 51c9a7aa620f54bec3f0e4ad2d007dd52ecd12f4
+source-git-commit: 62b3ad7d3f458eb1edd6906c26a3b8c0c053d64b
 workflow-type: tm+mt
-source-wordcount: '5228'
-ht-degree: 88%
+source-wordcount: '5312'
+ht-degree: 86%
 
 ---
 # Snippet
@@ -301,7 +301,7 @@ Poiché Customer Journey Analytics utilizza l’attribuzione al momento del repo
 
 ## Colonne post feed dati CJA {#cja-df-post}
 
-Questa colonna del feed dati di Analytics contiene sia una versione pre-elaborata che una versione post-elaborata (prefisso `post_`). Le colonne con prefisso `post_` contengono il valore utilizzato in ultima analisi nel reporting. Nella tabella seguente vengono confrontate le proprietà di queste colonne:
+Questa colonna del feed dati di Analytics contiene sia una versione pre-elaborata che una versione post-elaborata (prefisso `post_`). Le colonne con prefisso `post_` contengono il valore utilizzato in ultima analisi nel reporting. La maggior parte delle organizzazioni utilizza solo `post_` colonne quando sono disponibili. Nella tabella seguente vengono confrontate le proprietà di queste colonne:
 
 | Valore colonna pre-elaborato | Valore colonna post-elaborazione |
 | --- | --- |
@@ -310,9 +310,15 @@ Questa colonna del feed dati di Analytics contiene sia una versione pre-elaborat
 | Prima delle regole VISTA | Dopo le regole VISTA |
 | Nessuna allocazione applicata | Assegnazione applicabile |
 
-La maggior parte delle organizzazioni utilizza solo `post_` colonne quando sono disponibili.
-
-Poiché Customer Journey Analytics non ha un concetto di pre-elaborazione e post-elaborazione, è difficile ricreare entrambe le colonne nei feed di dati di CJA. Se desideri le approssimazioni di queste colonne, puoi utilizzare la stessa colonna applicando impostazioni di attribuzione separate:
+Poiché Customer Journey Analytics non ha un concetto di pre-elaborazione e post-elaborazione, è difficile ricreare entrambe le colonne nei feed di dati di CJA. Se desideri le approssimazioni di queste colonne, puoi trascinare più volte lo stesso campo XDM nella colonna delle dimensioni per creare più componenti con impostazioni di attribuzione diverse:
 
 * **Colonna pre-elaborata**: nessuna attribuzione
 * **Colonna post-elaborazione**: applica le stesse impostazioni di allocazione e scadenza della variabile Analytics nelle impostazioni della visualizzazione dati. La maggior parte dei componenti utilizza un’allocazione &quot;Ultimo&quot; e una scadenza di &quot;Visita&quot;.
+
+## Colonne di ricerca feed dati di CJA {#cja-df-lookup}
+
+Questa colonna del feed dati di Analytics utilizza una tabella di ricerca per identificare il valore desiderato. In Customer Journey Analytics, il valore viene fornito direttamente senza alcuna tabella di ricerca. Assicurati che il flusso di lavoro supporti il valore finale invece di un valore di ricerca intermedio.
+
+## Colonne non applicabili del feed dati di CJA {#cja-df-na}
+
+Questa colonna del feed dati di Analytics contiene dati che non possono essere convertiti in un equivalente Customer Journey Analytics a causa di differenze nell’architettura dei dati.
