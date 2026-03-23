@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 9645c24ed1a08c224445ebae99dde27db208b9b5
+source-git-commit: 12347a865bdeb16f9b45ec5e5eddc3390894e0dc
 workflow-type: tm+mt
-source-wordcount: '10186'
-ht-degree: 100%
+source-wordcount: '10283'
+ht-degree: 99%
 
 ---
 
@@ -422,6 +422,21 @@ Questo modello di funzione ottiene la longitudine per uno Stato USA con una prec
 Per utilizzare il modello, è necessario specificare i parametri corretti per ogni funzione elencata come parte delle regole del modello. Per ulteriori informazioni, consulta [Riferimento funzione](#function-reference).
 
 ![Schermata del generatore di regole Longitudine dello Stato](assets/function-template-state-longitude.png)
+
++++
+
+
+### Analisi dei parametri UTM
+
+Questo modello di funzione estrae il valore dei parametri di query UTM specificati (ad esempio, `utm_source`, `utm_campaign`) dal campo URL selezionato. Utilizza questa funzione per etichettare e raggruppare gli eventi in base all’attribuzione della campagna per i rapporti di marketing.
+
++++ Dettagli
+
+{{select-package}}
+
+Per utilizzare il modello, è necessario specificare i parametri per ogni funzione elencata come parte delle regole del modello. Rimuovere le funzioni (ad esempio [URL di analisi](#url-parse)) o i parametri nelle funzioni (ad esempio per [Concatenare](#concatenate) e [Case When](#case-when)) per i parametri di query UTM non utilizzati. Per ulteriori informazioni, consulta [Riferimento funzione](#function-reference).
+
+![Schermata del generatore di regole di analisi dei parametri UTM](assets/function-template-utm-parameters-parse.png)
 
 +++
 
@@ -1580,10 +1595,10 @@ Desideri acquisire una parte di un URL e utilizzarla come identificatore di pagi
 
 | URL della pagina |
 |---|
-| `https://business.adobe.com/it/products/analytics/adobe-analytics-benefits.html` |
-| `https://business.adobe.com/it/products/analytics/adobe-analytics.html` |
-| `https://business.adobe.com/it/products/experience-platform/customer-journey-analytics.html` |
-| `https://business.adobe.com/it/products/experience-platform/adobe-experience-platform.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
 
 {style="table-layout:auto"}
 
@@ -2140,7 +2155,7 @@ Il supporto per i campi di ricerca e profilo nei campi derivati consente di tras
 
 >[!MORELIKETHIS]
 >
->- [Blog: Sfruttare al meglio i dati: un framework per l’utilizzo di campi derivati in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670?profile.language=it)
->- [Blog: Casi d’uso dei campi derivati per Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679?profile.language=it)
->- [Blog: Miglioramenti ai campi derivati di Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808?profile.language=it)
+>- [Blog: Sfruttare al meglio i dati: un framework per l’utilizzo di campi derivati in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
+>- [Blog: Casi d’uso dei campi derivati per Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
+>- [Blog: Miglioramenti ai campi derivati di Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
 
