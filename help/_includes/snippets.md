@@ -1,8 +1,8 @@
 ---
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 51c9a7aa620f54bec3f0e4ad2d007dd52ecd12f4
 workflow-type: tm+mt
-source-wordcount: '5005'
-ht-degree: 92%
+source-wordcount: '5228'
+ht-degree: 88%
 
 ---
 # Snippet
@@ -153,7 +153,7 @@ Prendi in considerazione l’esempio seguente:
 
 1. Il 15 settembre, un visitatore arriva sul tuo sito tramite un annuncio pubblicitario di ricerca a pagamento, poi se ne va.
 1. Il 18 settembre, il visitatore ritorna sul tuo sito tramite un collegamento social media ricevuto da un amico. Aggiunge diversi articoli al carrello, ma non acquista nulla.
-1. Il 24 settembre, il team marketing gli invia un’e-mail con un coupon da utilizzare su alcuni degli elementi nel carrello. Applica il coupon, ma visita diversi altri siti per vedere se sono disponibili altri coupon. Ne trova un altro tramite un annuncio pubblicitario, quindi completa un acquisto dal valore di 50 $.
+1. Il 24 settembre, il team marketing gli invia un’e-mail con un coupon da utilizzare su alcuni degli elementi nel carrello. Applica il coupon, ma visita diversi altri siti per vedere se sono disponibili altri coupon. Ne trova un altro tramite un annuncio display, quindi completa un acquisto dal valore di 50 $.
 
 A seconda dell’intervallo di reporting (ad esempio, 10 settembre - 24 settembre), il modello di attribuzione, il contenitore e i canali ricevono crediti diversi. Consulta la tabella seguente per gli esempi:
 
@@ -266,7 +266,7 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 | [!UICONTROL Mese dell&#39;anno] | Il mese dell’anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo mese dell’anno dell’intervallo di date e l’ultimo elemento dimensione è l’ultimo mese dell’anno dell’intervallo di date. |
 | [!UICONTROL Trimestre] | Il trimestre in cui si è verificato un dato evento. Il primo elemento dimensione è il primo trimestre nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo trimestre nell’intervallo di date. |
 | [!UICONTROL Trimestre dell&#39;anno] | Il trimestre dell’anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo trimestre dell’anno dell’intervallo di date e l’ultimo elemento dimensione è l’ultimo trimestre dell’anno dell’intervallo di date. |
-| [!UICONTROL Secondo] | Il secondo in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è il primo secondo nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo secondo nell’intervallo di date. |
+| [!UICONTROL Second] | Il secondo in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è il primo secondo nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo secondo nell’intervallo di date. |
 | [!UICONTROL Settimana] | La settimana in cui si è verificato un dato evento. Il primo elemento dimensione è la prima settimana nell’intervallo di date e l’ultimo elemento dimensione è l’ultima settimana nell’intervallo di date. |
 | [!UICONTROL Settimana dell’anno] | La settimana dell’anno in cui si è verificato un dato evento. Il primo elemento dimensione è la prima settimana dell’anno dell’intervallo di date e l’ultimo elemento dimensione è l’ultima settimana dell’anno dell’intervallo di date. |
 | [!UICONTROL Anno] | L&#39;anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo anno nell’intervallo di date e l’ultimo elemento dimensione è l’anno più recente nell’intervallo di date. |
@@ -294,3 +294,25 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 >
 >Nell&#39;interfaccia di Customer Journey Analytics, i set di dati **[!UICONTROL Relazionali]** potrebbero essere etichettati come **[!UICONTROL Basati su modello]**.
 >
+
+## Intervallo di lookback del feed dati di CJA {#cja-df-lookback}
+
+Poiché Customer Journey Analytics utilizza l’attribuzione al momento del reporting per ogni componente, non ha un concetto di persistenza oltre il proprio intervallo di lookback. Questa colonna del feed dati di Analytics fa riferimento a un comportamento a livello di visitatore che si estende all’intera cronologia del visitatore. Più è lungo l’intervallo di lookback per questo componente in Customer Journey Analytics, più simile sarà alla funzionalità di Adobe Analytics.
+
+## Colonne post feed dati CJA {#cja-df-post}
+
+Questa colonna del feed dati di Analytics contiene sia una versione pre-elaborata che una versione post-elaborata (prefisso `post_`). Le colonne con prefisso `post_` contengono il valore utilizzato in ultima analisi nel reporting. Nella tabella seguente vengono confrontate le proprietà di queste colonne:
+
+| Valore colonna pre-elaborato | Valore colonna post-elaborazione |
+| --- | --- |
+| Come è stato raccolto | Utilizzato nel reporting |
+| Prima delle regole di elaborazione | Dopo le regole di elaborazione |
+| Prima delle regole VISTA | Dopo le regole VISTA |
+| Nessuna allocazione applicata | Assegnazione applicabile |
+
+La maggior parte delle organizzazioni utilizza solo `post_` colonne quando sono disponibili.
+
+Poiché Customer Journey Analytics non ha un concetto di pre-elaborazione e post-elaborazione, è difficile ricreare entrambe le colonne nei feed di dati di CJA. Se desideri le approssimazioni di queste colonne, puoi utilizzare la stessa colonna applicando impostazioni di attribuzione separate:
+
+* **Colonna pre-elaborata**: nessuna attribuzione
+* **Colonna post-elaborazione**: applica le stesse impostazioni di allocazione e scadenza della variabile Analytics nelle impostazioni della visualizzazione dati. La maggior parte dei componenti utilizza un’allocazione &quot;Ultimo&quot; e una scadenza di &quot;Visita&quot;.
