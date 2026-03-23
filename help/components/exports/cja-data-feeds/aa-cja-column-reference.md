@@ -20,7 +20,7 @@ Questo riferimento consente ai data engineer di valutare le colonne dei feed dat
 
 >[!NOTE]
 >
->Questo riferimento include solo le colonne considerate correnti da Adobe, in base al [Riferimento colonna feed dati di Analytics](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference). Se disponi di una colonna di feed dati di Analytics non elencata in questa tabella che utilizzi attivamente, consulta il documento di progettazione della soluzione della tua organizzazione per determinarne l’equivalente migliore in Customer Journey Analytics.
+>Questo riferimento include solo le colonne considerate correnti da Adobe, in base al [Riferimento colonna feed dati di Analytics](https://experienceleague.adobe.com/it/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference). Se disponi di una colonna di feed dati di Analytics non elencata in questa tabella che utilizzi attivamente, consulta il documento di progettazione della soluzione della tua organizzazione per determinarne l’equivalente migliore in Customer Journey Analytics.
 
 +++**`accept_language`**
 
@@ -360,7 +360,7 @@ Questa colonna è probabilmente associata a decine di metriche separate, a secon
 
 {{cja-df-post}}
 
-Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details), alcune metriche potrebbero essere mappate direttamente ai seguenti campi XDM:
+Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/commerce-details), alcune metriche potrebbero essere mappate direttamente ai seguenti campi XDM:
 
 * **Casse**: `xdm.commerce.checkouts.value`
 * **Aggiunte al carrello**: `xdm.commerce.productListAdds.value`
@@ -373,7 +373,7 @@ Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https:
 Alcune metriche possono utilizzare la serializzazione degli eventi, ovvero il modo in cui Adobe Analytics consente il controllo completo sulla deduplicazione. È possibile utilizzare l&#39;impostazione del componente [Deduplicazione metrica](/help/data-views/component-settings/metric-deduplication.md) per ottenere la parità di deduplicazione.
 
 * Se la metrica deduplica per visita in Adobe Analytics, puoi impostare l’ambito di deduplicazione sulla sessione nelle impostazioni dei componenti di quella metrica.
-* Se la metrica viene deduplicata per ID evento in Adobe Analytics, è probabile che l’oggetto XDM per tale metrica contenga sia un campo `value` che un campo `id`. Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details), è probabile che tali metriche risiedano in questi campi XDM, che è possibile impostare il campo **[!UICONTROL ID deduplicazione]** nelle impostazioni del componente della metrica:
+* Se la metrica viene deduplicata per ID evento in Adobe Analytics, è probabile che l’oggetto XDM per tale metrica contenga sia un campo `value` che un campo `id`. Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/commerce-details), è probabile che tali metriche risiedano in questi campi XDM, che è possibile impostare il campo **[!UICONTROL ID deduplicazione]** nelle impostazioni del componente della metrica:
 
    * **Casse**: `xdm.commerce.checkouts.id`
    * **Aggiunte al carrello**: `xdm.commerce.productListAdds.id`
