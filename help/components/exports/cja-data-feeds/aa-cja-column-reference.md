@@ -5,10 +5,10 @@ feature: Components
 hide: true
 hidefromtoc: true
 exl-id: 81d6e79e-8324-4726-9a48-10177b0a91b1
-source-git-commit: af5b30cd71ebe46e2af584ee502ef631c829f5ea
+source-git-commit: b0be8b726c4fab1bf9bb5f9462be84f39bdf184a
 workflow-type: tm+mt
-source-wordcount: '3356'
-ht-degree: 43%
+source-wordcount: '3768'
+ht-degree: 34%
 
 ---
 
@@ -20,7 +20,7 @@ Questo riferimento consente ai data engineer di valutare le colonne dei feed dat
 
 >[!NOTE]
 >
->Questo riferimento include solo le colonne considerate correnti da Adobe, in base al [Riferimento colonna feed dati di Analytics](https://experienceleague.adobe.com/it/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference). Se disponi di una colonna di feed dati di Analytics non elencata in questa tabella che utilizzi attivamente, consulta il documento di progettazione della soluzione della tua organizzazione per determinarne l’equivalente migliore in Customer Journey Analytics.
+>Questo riferimento include solo le colonne considerate correnti da Adobe, in base al [Riferimento colonna feed dati di Analytics](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference). Se disponi di una colonna di feed dati di Analytics non elencata in questa tabella che utilizzi attivamente, consulta il documento di progettazione della soluzione della tua organizzazione per determinarne l’equivalente migliore in Customer Journey Analytics.
 
 +++**`accept_language`**
 
@@ -109,9 +109,11 @@ La dimensione Codice di tracciamento.
 
 +++**`carrier`**
 
-Variabile di integrazione di Adobe Advertising. Specifica il gestore di telefonia mobile.
+Specifica il gestore di telefonia mobile.
 
 {{cja-df-lookup}}
+
+{{cja-df-ua}}
 
 +++
 
@@ -127,11 +129,31 @@ La dimensione Sezioni del sito.
 
 Hint client raccolti tramite l’intestazione della richiesta HTTP.
 
+In Adobe Analytics, gli hint client venivano inclusi come stringa concatenata in questa colonna. È considerato un approccio più moderno rispetto alla colonna `user_agent`.
+
+{{cja-df-ua}}
+
 +++
 
 +++**`ch_js`**
 
 Hint client raccolti tramite l’API JavaScript per gli hint client dall’agente utente
+
+In Adobe Analytics, gli hint client venivano inclusi come stringa concatenata in questa colonna. È considerato un approccio più moderno rispetto alla colonna `user_agent`.
+
+È possibile raccogliere questi dati utilizzando la stringa di contesto [`highEntropyUserAgentHints`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context) durante la configurazione del Web SDK. Vengono compilati più campi XDM invece di una stringa lunga concatenata:
+
+* **Versione sistema operativo**: `xdm.environment.browserDetails.userAgentClientHints.platformVersion`
+* **Architettura**: `xdm.environment.browserDetails.userAgentClientHints.architecture`
+* **Modello dispositivo**: `xdm.environment.browserDetails.userAgentClientHints.model`
+* **Bitness**: `xdm.environment.browserDetails.userAgentClientHints.bitness`
+* **Fornitore browser**: `xdm.environment.browserDetails.userAgentClientHints.vendor`
+* **Nome browser**: `xdm.environment.browserDetails.userAgentClientHints.brand`
+* **Versione browser**: `xdm.environment.browserDetails.userAgentClientHints.version`
+
+Per ulteriori informazioni, vedere [User agent client hints](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints).
+
+{{cja-df-ua}}
 
 +++
 
@@ -255,11 +277,17 @@ Determina se l’hit è un hit di sfondo per dispositivi mobili.
 
 {{cja-df-post}}
 
+{{cja-df-na}}
+
+Customer Journey Analytics non ha un concetto nativo del tipo di evento in cui include o esclude automaticamente gli hit in base al loro contesto. È possibile utilizzare `xdm.eventType` per determinare quali eventi includere ed escludere nella maggior parte dei rapporti.
+
 +++
 
 +++**`cust_hit_time_gmt`**
 
 Solo suite di rapporti abilitate per la marca temporale. La marca temporale inviata con l’hit, in base al tempo UNIX®.
+
+Customer Journey Analytics non ha un concetto di suite di rapporti con marca temporale o senza marca temporale. Utilizzare `xdm.timestamp` e modificare le impostazioni del componente come desiderato.
 
 {{cja-df-post}}
 
@@ -268,6 +296,8 @@ Solo suite di rapporti abilitate per la marca temporale. La marca temporale invi
 +++**`cust_visid`**
 
 ID visitatore personalizzato, se impostato con `visitorID`.
+
+Customer Journey Analytics supporta un numero qualsiasi di identità che utilizzano [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap). Se l’organizzazione utilizza identità personalizzate, è probabile che sia all’interno della mappa delle identità.
 
 {{cja-df-post}}
 
@@ -289,9 +319,7 @@ Flag che determina se l’hit è un nuovo visitatore giornaliero.
 
 La dimensione di consenso alla gestione del consenso. È possibile che siano presenti più valori per hit, separati da una barra verticale (`\|`). I valori validi includono `DMP` e `SELL`.
 
-{{cja-df-na}}
-
-Questa colonna non è applicabile perché Customer Journey Analytics non ???.
+Se la tua organizzazione dispone di una piattaforma di gestione dati, probabilmente popola i campi XDM desiderati per questa dimensione.
 
 +++
 
@@ -299,11 +327,15 @@ Questa colonna non è applicabile perché Customer Journey Analytics non ???.
 
 La dimensione di rinuncia alla gestione del consenso. È possibile che siano presenti più valori per hit, separati da una barra verticale (`\|`). I valori validi includono `SSF`, `DMP` e `SELL`.
 
+Se la tua organizzazione dispone di una piattaforma di gestione dati, probabilmente popola i campi XDM desiderati per questa dimensione.
+
 +++
 
 +++**`date_time`**
 
 L’ora dell’hit in formato leggibile, in base al fuso orario della suite di rapporti.
+
+È possibile utilizzare `xdm.timestamp` e applicare l&#39;impostazione del componente **[!UICONTROL Date]** o **[!UICONTROL Date-time]** [Format](/help/data-views/component-settings/format.md).
 
 +++
 
@@ -311,11 +343,17 @@ L’ora dell’hit in formato leggibile, in base al fuso orario della suite di r
 
 La dimensione Dominio. In base al punto di accesso a Internet del visitatore.
 
+Abilita **[!UICONTROL Ricerca di rete]** quando [Configurazione di uno stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure). Il campo XDM è `xdm.environment.domain` se è incluso nello schema.
+
 +++
 
 +++**`duplicated_from`**
 
 Utilizzato solo nelle suite di rapporti contenenti regole VISTA della copia hit. Indica la suite di rapporti da cui è stato copiato l’hit.
+
+{{cja-df-na}}
+
+Questa colonna non è applicabile perché Customer Journey Analytics non ha un concetto di regole VISTA.
 
 +++
 
@@ -323,11 +361,19 @@ Utilizzato solo nelle suite di rapporti contenenti regole VISTA della copia hit.
 
 Elenca ogni evento conteggiato come duplicato.
 
+{{cja-df-na}}
+
+Customer Journey Analytics non dispone di un singolo campo che funge da flag di deduplicazione per tutte le metriche. Ogni metrica contiene invece le proprie [impostazioni dei componenti di deduplicazione delle metriche](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication). Di conseguenza, non esiste un campo equivalente in Customer Journey Analytics per questa colonna del feed dati di Adobe Analytics.
+
 +++
 
 +++**`duplicate_purchase`**
 
 Flag che determina se l’evento di acquisto per questo hit viene ignorato perché è un duplicato.
+
+Anche se non esiste una traduzione diretta in questa colonna del feed dati di Analytics, la sua funzionalità di azione per deduplicare gli acquisti esiste ancora. Se utilizzi il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details), puoi impostare [Impostazioni del componente di deduplicazione della metrica](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication) in cui l&#39;**[!UICONTROL ID deduplicazione]** è `xdm.commerce.purchases.id`.
+
+Se è necessaria una traduzione diretta quando si desidera un flag per acquisti duplicati, è possibile utilizzare un [campo derivato](/help/data-views/derived-fields/derived-fields.md) utilizzando la funzione **Deduplica** nel set di regole.
 
 +++
 
@@ -360,7 +406,7 @@ Questa colonna è probabilmente associata a decine di metriche separate, a secon
 
 {{cja-df-post}}
 
-Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/commerce-details), alcune metriche potrebbero essere mappate direttamente ai seguenti campi XDM:
+Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details), alcune metriche potrebbero essere mappate direttamente ai seguenti campi XDM:
 
 * **Casse**: `xdm.commerce.checkouts.value`
 * **Aggiunte al carrello**: `xdm.commerce.productListAdds.value`
@@ -373,7 +419,7 @@ Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https:
 Alcune metriche possono utilizzare la serializzazione degli eventi, ovvero il modo in cui Adobe Analytics consente il controllo completo sulla deduplicazione. È possibile utilizzare l&#39;impostazione del componente [Deduplicazione metrica](/help/data-views/component-settings/metric-deduplication.md) per ottenere la parità di deduplicazione.
 
 * Se la metrica deduplica per visita in Adobe Analytics, puoi impostare l’ambito di deduplicazione sulla sessione nelle impostazioni dei componenti di quella metrica.
-* Se la metrica viene deduplicata per ID evento in Adobe Analytics, è probabile che l’oggetto XDM per tale metrica contenga sia un campo `value` che un campo `id`. Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/commerce-details), è probabile che tali metriche risiedano in questi campi XDM, che è possibile impostare il campo **[!UICONTROL ID deduplicazione]** nelle impostazioni del componente della metrica:
+* Se la metrica viene deduplicata per ID evento in Adobe Analytics, è probabile che l’oggetto XDM per tale metrica contenga sia un campo `value` che un campo `id`. Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details), è probabile che tali metriche risiedano in questi campi XDM, che è possibile impostare il campo **[!UICONTROL ID deduplicazione]** nelle impostazioni del componente della metrica:
 
    * **Casse**: `xdm.commerce.checkouts.id`
    * **Aggiunte al carrello**: `xdm.commerce.productListAdds.id`
@@ -381,13 +427,23 @@ Alcune metriche possono utilizzare la serializzazione degli eventi, ovvero il mo
    * **Rimozioni dal carrello**: `xdm.commerce.productListRemovals.id`
    * **Visualizzazioni carrello**: `xdm.commerce.productListViews.id`
    * **Visualizzazioni prodotto**: `xdm.commerce.productViews.id`
-   * **Ordini**: `xdm.commerce.purchases.id`
+
+Per deduplicare la metrica Ordini, vedere `duplicate_purchase`.
 
 +++
 
 +++**`exclude_hit`**
 
-Flag che determina se l’hit è escluso dal reporting. La colonna `visit_num` non viene incrementata per gli hit esclusi.<br>1: non utilizzato. Parte di una funzione scartata.<br>2: non utilizzato. Parte di una funzione scartata.<br>3: non più utilizzato. Esclusione dell’agente utente<br>4: esclusione basata sull’indirizzo IP<br>5: informazioni hit vitali mancanti, ad esempio `page_url`, `pagename`, `page_event` oppure `event_list`<br>6: JavaScript non ha elaborato correttamente gli hit<br>7: esclusione specifica dell’account, ad esempio in una regola VISTA<br>8: non utilizzato. Esclusione alternativa specifica per l’account.<br>9: non utilizzato. Parte di una funzione scartata.<br>10: codice valuta non valido<br>11: hit mancante di una marca temporale in una suite di rapporti solo di marca temporale o un hit contenente una marca temporale in una suite di rapporti non di marca temporale<br>12: non utilizzato. Parte di una funzione scartata.<br>13: non utilizzato. Parte di una funzione scartata.<br>14: hit di destinazione che non corrisponde a un hit di Analytics<br>15: non attualmente utilizzato.<br>16: hit di Advertising Cloud che non corrisponde a un hit di Analytics
+Flag che determina se l’hit è escluso dal reporting. La colonna `visit_num` non viene incrementata per gli hit esclusi.
+
+Customer Journey Analytics non rispetta gli &quot;hit esclusi&quot; predefiniti. Tuttavia, puoi ricreare questa funzionalità se disponi di un campo XDM che contrassegna alcuni hit da escludere:
+
+1. Assicurati che il campo XDM che contrassegna gli hit esclusi sia incluso come componente (dimensione o metrica, a seconda di come hai impostato questo flag). La selezione di [Nascondi componente nel reporting](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview) è probabilmente utile per questo campo.
+1. In [Impostazioni visualizzazione dati](/help/data-views/session-settings.md), selezionare il menu a discesa **[!UICONTROL Aggiungi segmento]** e selezionare **[!UICONTROL Crea segmento]**.
+1. Crea un segmento che escluda tutti gli eventi in cui esiste il componente hit di esclusione o contiene valori che desideri escludere.
+1. Seleziona **[!UICONTROL Salva]** sia nel segmento che nella visualizzazione dati.
+
+Gli hit esclusi ora non esistono nei rapporti di Customer Journey Analytics, ma sono ancora disponibili nelle esportazioni di feed di dati.
 
 +++
 
@@ -907,6 +963,14 @@ Flag che determina se l’hit corrente è una nuova visita. Impostato da Adobe d
 Un ID numerico che rappresenta il sistema operativo del visitatore. In base alla colonna `user_agent`.
 
 {{cja-df-lookup}}
+
+Durante la [configurazione di uno stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure), è possibile abilitare **[!UICONTROL Ricerca dispositivo]**. Se attivato, selezionare la casella di controllo **[!UICONTROL Sistema operativo]**. Se hai incluso questi campi nello schema, i seguenti campi XDM vengono compilati automaticamente:
+
+* **Fornitore sistema operativo**: `xdm.environment.operatingSystemVendor`
+* **Nome sistema operativo**: `xdm.environment.operatingSystem`
+* **Versione sistema operativo**: `xdm.environment.operatingSystemVersion`
+
+{{cja-df-ua}}
 
 +++
 

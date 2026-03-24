@@ -1,7 +1,7 @@
 ---
-source-git-commit: 62b3ad7d3f458eb1edd6906c26a3b8c0c053d64b
+source-git-commit: b0be8b726c4fab1bf9bb5f9462be84f39bdf184a
 workflow-type: tm+mt
-source-wordcount: '5312'
+source-wordcount: '5360'
 ht-degree: 86%
 
 ---
@@ -322,3 +322,7 @@ Questa colonna del feed dati di Analytics utilizza una tabella di ricerca per id
 ## Colonne non applicabili del feed dati di CJA {#cja-df-na}
 
 Questa colonna del feed dati di Analytics contiene dati che non possono essere convertiti in un equivalente Customer Journey Analytics a causa di differenze nell’architettura dei dati.
+
+## Agente utente feed dati CJA {#cja-df-ua}
+
+Non è possibile raccogliere contemporaneamente informazioni sull’agente utente e informazioni sulla ricerca del dispositivo; la popolazione di queste dimensioni si esclude a vicenda. È necessario scegliere se si desidera raccogliere direttamente l&#39;agente utente o le informazioni di ricerca del dispositivo (in base all&#39;agente utente) durante [la configurazione di uno stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#geolocation-device-lookup).
