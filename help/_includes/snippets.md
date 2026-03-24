@@ -325,4 +325,4 @@ Questa colonna del feed dati di Analytics contiene dati che non possono essere c
 
 ## Agente utente feed dati CJA {#cja-df-ua}
 
-Non è possibile raccogliere contemporaneamente informazioni sull’agente utente e informazioni sulla ricerca del dispositivo; la popolazione di queste dimensioni si esclude a vicenda. È necessario scegliere se si desidera raccogliere direttamente l&#39;agente utente o le informazioni di ricerca del dispositivo (in base all&#39;agente utente) durante [la configurazione di uno stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#geolocation-device-lookup).
+Non è possibile raccogliere contemporaneamente informazioni sull’agente utente e informazioni sulla ricerca del dispositivo; la popolazione di queste dimensioni si esclude a vicenda. È necessario scegliere se si desidera raccogliere direttamente l&#39;agente utente o le informazioni di ricerca del dispositivo (in base all&#39;agente utente) durante [la configurazione di uno stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure#geolocation-device-lookup).
