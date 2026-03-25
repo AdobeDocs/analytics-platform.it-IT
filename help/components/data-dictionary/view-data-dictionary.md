@@ -1,25 +1,25 @@
 ---
-description: Il dizionario dei dati in Analysis Workspace consente agli utenti di catalogare e tenere traccia dei vari componenti in Analysis Workspace, incluso l’uso previsto, quali sono approvati, quali sono duplicati e così via.
+description: Il dizionario dati in Analysis Workspace consente agli utenti di catalogare e tenere traccia dei vari componenti in Analysis Workspace, incluso l’uso previsto, che vengono approvati, che sono duplicati e così via.
 title: Visualizza informazioni sul componente
 feature: Components
 role: User, Admin
 exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
-source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
+source-git-commit: 5319c0aafa5c92215176044a35953ac1e183eb53
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 60%
+source-wordcount: '1324'
+ht-degree: 57%
 
 ---
 
 # Visualizza informazioni sul componente
 
-Il dizionario dei dati consente di visualizzare informazioni su un componente, tra cui la sua descrizione, componenti simili, altri componenti con cui viene utilizzato di frequente e altro ancora.
+Il dizionario dati consente di visualizzare informazioni su un componente, tra cui la sua descrizione, componenti simili, altri componenti con cui un componente è usato di frequente e altro ancora.
 
 Per visualizzare informazioni su un componente nel dizionario dei dati:
 
 1. Vai al progetto Analysis Workspace che contiene il componente che desideri visualizzare.
 
-1. Seleziona l&#39;icona [!UICONTROL **Dizionario dati**] nel pannello a sinistra di Analysis Workspace. I modi alternativi per accedere al dizionario dati sono descritti in “Accedere al dizionario dei dati” in [Panoramica del dizionario dei dati](/help/components/data-dictionary/data-dictionary-overview.md).
+1. Seleziona l&#39;icona [!UICONTROL **Dizionario dati**] nel pannello a sinistra di Analysis Workspace. In [Accedere al dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary) in [Panoramica del dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md) sono descritti metodi alternativi per accedere al dizionario dati.
 
    Viene visualizzata la finestra Dizionario dei dati.
 
@@ -31,9 +31,21 @@ Per visualizzare informazioni su un componente nel dizionario dei dati:
 
 1. (Facoltativo) Nel campo di ricerca, inizia a digitare il nome del componente che desideri visualizzare.
 
-   Il tipo di componente può essere identificato sia dal colore che dall’icona. **Dimensioni** ![icona Dimensione](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sono arancioni, **Segmenti** ![icona Segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sono blu, **Intervalli di date** ![icona Intervallo di date](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sono viola, e **Metriche** ![icona Metrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sono verdi. L&#39;icona Adobe ![icona Adobe](assets/default-calc-metric-icon.png) indica un modello di metriche calcolate o un modello di segmento e l&#39;icona calcolatrice ![icona calcolatrice](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indica una metrica calcolata creata da un amministratore Analytics dell&#39;organizzazione.
+   Il tipo di componente può essere identificato sia dal colore che dall’icona.
 
-1. (Facoltativo) Seleziona l&#39;icona **Filtro** ![Icona Filtro dizionario dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), quindi seleziona una delle seguenti opzioni di segmento per filtrare l&#39;elenco dei componenti:
+   * **Le dimensioni** ![icona Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sono arancioni
+
+   * **I segmenti** ![L&#39;icona del segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) è blu
+
+   * **Gli intervalli di date** ![Icona degli intervalli di date](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sono viola
+
+   * **Le metriche** ![l&#39;icona delle metriche](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sono verdi
+
+   * **Icona Adobe** ![Icona Adobe](assets/default-calc-metric-icon.png) indica un modello di metrica calcolata o un modello di segmento
+
+   * **Icona Calcolatore** ![Icona Calcolatore](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indica una metrica calcolata creata da un amministratore Analytics nell&#39;organizzazione
+
+1. (Facoltativo) Seleziona l’icona **Filtro** ![icona Filtro dizionario dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) e quindi una delle seguenti opzioni per filtrare l’elenco dei componenti:
 
    | Opzione | Funzione |
    |---------|----------|
@@ -52,9 +64,16 @@ Per visualizzare informazioni su un componente nel dizionario dei dati:
 
    {style="table-layout:auto"}
 
-1. (Facoltativo) Seleziona l&#39;icona **Ordina** ![Ordina icona componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), quindi seleziona una delle seguenti opzioni di segmento per ordinare l&#39;elenco dei componenti:
+1. (Facoltativo) Seleziona l’icona **Ordina** ![icona Ordina componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) e quindi una delle seguenti opzioni per filtrare l’elenco dei componenti:
 
-   {{components-sort-options}}
+   | Opzione | Funzione |
+   |---------|----------|
+   | **[!UICONTROL Consigliato]** | Ordina i componenti per ciascun tipo (dimensione, metrica, segmento e intervallo di date) in base ai consigli. I componenti utilizzati più di frequente e più di recente da te o da altri nella tua organizzazione vengono visualizzati più in alto in ciascun elenco. |
+   | **[!UICONTROL Ultima modifica]** | Ordina i componenti per ciascun tipo (dimensione, metrica, segmento e intervallo di date) in base alla data dell’ultima modifica. I componenti modificati più di recente vengono visualizzati più in alto in ciascun elenco. |
+   | **[!UICONTROL Alfabetico]** | Ordina i componenti per ciascun tipo (dimensione, metrica, segmento e intervallo di date) in ordine alfabetico crescente. |
+   | **[!UICONTROL Per categorie]** | Ordina i componenti per ciascun tipo (dimensione, metrica, segmento e intervallo di date) in base alla categoria. Ad esempio, Componenti di visualizzazione dati curati e non curati. |
+
+   {style="table-layout:auto"}
 
 1. Dall’elenco dei componenti, seleziona il componente che desideri visualizzare.
 
