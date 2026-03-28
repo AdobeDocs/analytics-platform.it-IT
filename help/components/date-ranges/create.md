@@ -4,10 +4,10 @@ description: Scopri come creare un intervallo di date da utilizzare in Analysis 
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 92%
+source-wordcount: '539'
+ht-degree: 32%
 
 ---
 
@@ -18,16 +18,17 @@ Chiunque può creare un intervallo di date personalizzato. Puoi creare un interv
 
 ![Creare un’annotazione](assets/create-date-range.png)
 
-* **A**: nell’interfaccia principale, seleziona **[!UICONTROL Components]** e quindi **[!UICONTROL Date range]**. Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** dal gestore [[!UICONTROL Date range]](/help/components/date-ranges/manage.md).
-* **B**: in un progetto Workspace, dal menu di scelta rapida di una visualizzazione seleziona **[!UICONTROL Custom date range to this date range]**.
-* **C**: in un progetto Workspace, seleziona **[!UICONTROL Components]** dal menu e quindi **[!UICONTROL Create date range]**.
-* **D**: in un progetto Workspace, utilizza la scelta rapida da tastiera **[!UICONTROL ctrl+shift+d]** (Windows) o **[!UICONTROL shift+command+d]** (macOS).
+* **A** - Nell&#39;interfaccia principale, selezionare **[!UICONTROL Componenti]** e **[!UICONTROL Intervallo date]**. Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** dal gestore [[!UICONTROL Intervallo date]](/help/components/date-ranges/manage.md).
+* **B** - In un progetto Workspace, dal menu di scelta rapida di una visualizzazione, seleziona **[!UICONTROL Intervallo date personalizzato fino a questo intervallo]**.
+* **C** - In un progetto Workspace, seleziona **[!UICONTROL Componenti]** dal menu, quindi seleziona **[!UICONTROL Crea intervallo date]**
+* **D** - In un progetto Workspace, utilizza il collegamento **[!UICONTROL ctrl+maiusc+d]** (Windows) o **[!UICONTROL maiusc+comando+d]** (macOS).
 * **E**: in un progetto Workspace, dal pannello Componenti a sinistra, seleziona ![Aggiungi](/help/assets/icons/Add.svg) in ![Calendario](/help/assets/icons/Calendar.svg) **Intervalli di date**.
-* **F**: in una visualizzazione supportata, come ad esempio una visualizzazione a linee, dal menu di scelta rapida di un punto dati, seleziona **[!UICONTROL Annotate Selection]**.
+* **F** - In una visualizzazione supportata, come una visualizzazione a linee, dal menu di scelta rapida di un punto dati, selezionare **[!UICONTROL Annota selezione]**.
 
-Per definire l&#39;annotazione, utilizzare [[!UICONTROL Date range builder]](#annotation-builder).
+Per definire l&#39;annotazione, utilizzare il generatore di intervalli [[!UICONTROL Date]](#annotation-builder).
 
-<!-- Should we really mention API here. If so, we can do it all over the place in the docs...
+<!--
+Should we really mention API here. If so, we can do it all over the place in the docs...
 | **Use the [Customer Journey Analytics Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | The Customer Journey Analytics Annotations APIs allow you to create, update, or retrieve annotations programmatically through Adobe Developer. These APIs use the same data and methods that Adobe uses inside the product UI. |
 -->
 
@@ -46,39 +47,39 @@ Per definire l&#39;annotazione, utilizzare [[!UICONTROL Date range builder]](#an
 
 
 
-Le finestre di dialogo **[!UICONTROL New date range]** o **[!UICONTROL Edit date range]** vengono utilizzate per creare nuovi intervalli di date o modificare quelli esistenti.
+La finestra di dialogo **[!UICONTROL Nuovo intervallo di date]** o **[!UICONTROL Modifica intervallo di date]** viene utilizzata per creare nuovi intervalli di date o per modificare quelli esistenti.
 
 ![Finestra dei dettagli dell’annotazione con i campi e le opzioni descritti nella sezione successiva.](assets/edit-date-range.png)
 
 
-1. Specifica un **[!UICONTROL Title]** per l’intervallo di date. Ad esempio: **[!UICONTROL Quarterly]**.
-1. Facoltativamente, specificare una **[!UICONTROL Description]**.
-1. Organizzare il segmento creando o applicando uno o più **[!UICONTROL Tags]**. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL ENTER]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
-1. Seleziona un **[!UICONTROL Date Range]** selezionando prima la data di inizio e quindi la data di fine.
-In alternativa, puoi selezionare **[!UICONTROL Preset]** dal menu a discesa [!UICONTROL *Seleziona un predefinito*].
+1. Specifica un **[!UICONTROL Titolo]** per l&#39;intervallo di date. **[!UICONTROL Trimestrale]**.
+1. Facoltativamente, specificare una **[!UICONTROL Descrizione]**.
+1. Organizza il segmento creando o applicando uno o più **[!UICONTROL Tag]**. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL INVIO]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
+1. Seleziona un **[!UICONTROL Intervallo date]** selezionando prima la data di inizio e quindi la data di fine.
+In alternativa, è possibile selezionare un **[!UICONTROL predefinito]** dal menu a discesa [!UICONTROL *Seleziona un predefinito*].
 
-1. Facoltativamente, seleziona **[!UICONTROL Show advanced settings]** per:
+1. Facoltativamente, selezionare **[!UICONTROL Mostra impostazioni avanzate]** per:
 
-   * Specificare **[!UICONTROL Start time]** e **[!UICONTROL End time]** diversi da `12:00 AM` (`0:00`) e `11:59 PM` (`23:59`) predefiniti. Gli orari di fine includono sempre 59 secondi. Per un intervallo di date che si estende su più giorni, l’ora di inizio si applica al primo giorno dell’intervallo di date e l’ora di fine si applica all’ultimo giorno dell’intervallo di date. Utilizza **[!UICONTROL (Reset time values)]** per ripristinare le impostazioni predefinite dell’ora di inizio e di fine.
-   * **[!UICONTROL Use rolling dates]**. Se abilitati, gli intervalli di date predefiniti come **[!UICONTROL Last 7 full days]** vengono aggiornati in modo dinamico in base all’avanzamento della data e dell’ora corrente. Se disattivate, tali predefiniti non vengono aggiornati una volta applicati.
+   * Specificare **[!UICONTROL Ora inizio]** e **[!UICONTROL Ora fine]** diverse dalle impostazioni predefinite `12:00 AM` (`0:00`) e `11:59 PM` (`23:59`). Gli orari di fine includono sempre 59 secondi. Per un intervallo di date che si estende su più giorni, l’ora di inizio si applica al primo giorno dell’intervallo di date e l’ora di fine si applica all’ultimo giorno dell’intervallo di date. Utilizzare **[!UICONTROL (valori di tempo di ripristino)]** per ripristinare i valori predefiniti per l&#39;ora di inizio e di fine.
+   * **[!UICONTROL Utilizza date continue]**. Se abilitati, gli intervalli di date predefiniti come **[!UICONTROL Ultimi 7 giorni interi]** vengono aggiornati dinamicamente in base all&#39;avanzamento della data e dell&#39;ora corrente. Se disattivate, tali predefiniti non vengono aggiornati una volta applicati.
 
-     È possibile selezionare il testo tra parentesi (ad esempio **[!UICONTROL fixed start - rolling quarterly]**) per estendere il pannello e specificare i dettagli per **[!UICONTROL Start]** e **[!UICONTROL End]**.
+     Puoi selezionare il testo tra parentesi (ad esempio **[!UICONTROL inizio fisso - trimestre continuo]**) per estendere il pannello e specificare i dettagli per **[!UICONTROL Inizio]** e **[!UICONTROL Fine]**.
 
      ![Date continue](assets/rolliing-dates.png)
 
-      1. Seleziona **[!UICONTROL Start of]**, **[!UICONTROL End of]**, or **[!UICONTROL Fixed day]**.
-      1. Dopo aver selezionato **[!UICONTROL Start of]** o **[!UICONTROL End of]**, è possibile creare un’espressione completa. Ad esempio: **[!UICONTROL End of]** **[!UICONTROL current quarter]** **[!UICONTROL minus]** `20` **[!UICONTROL days]**. Seleziona il valore appropriato per ogni singola parte dell’espressione.
-         * Seleziona un valore corrente. Ad esempio: **[!UICONTROL current quarter]**.
-         * Seleziona un valore per il calcolo aggiuntivo. Ad esempio: **[!UICONTROL minus]**.
+      1. Seleziona **[!UICONTROL Inizio di]**, **[!UICONTROL Fine di]** o **[!UICONTROL Giorno fisso]**.
+      1. Dopo aver selezionato **[!UICONTROL Inizio di]** o **[!UICONTROL Fine di]**, puoi creare un&#39;espressione completa. Ad esempio: **[!UICONTROL Fine di]** **[!UICONTROL trimestre corrente]** **[!UICONTROL meno]** `20` **[!UICONTROL giorni]**. Seleziona il valore appropriato per ogni singola parte dell’espressione.
+         * Seleziona un valore corrente. Ad esempio, **[!UICONTROL trimestre corrente]**.
+         * Seleziona un valore per il calcolo aggiuntivo. Ad esempio, **[!UICONTROL meno]**.
          * Dopo aver specificato un calcolo aggiuntivo, specifica un valore. Ad esempio: `20`.
-         * Dopo aver specificato un calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio: **[!UICONTROL days]**.
+         * Dopo aver specificato un calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio, **[!UICONTROL giorni]**.
 
-     Seleziona **[!UICONTROL Hide details]** per nascondere i dettagli del calcolo delle date continue.
+     Selezionare **[!UICONTROL Nascondi dettagli]** per nascondere i dettagli per il calcolo delle date continue.
 
 1. Seleziona:
-   * **[!UICONTROL Save]** per salvare l’intervallo di date.
-   * **[!UICONTROL Save As]** per salvare una copia dell’intervallo di date.
-   * **[!UICONTROL Cancel]** per annullare le modifiche apportate a un intervallo di date o per annullare la creazione di un nuovo intervallo di date.
+   * **[!UICONTROL Salva]** per salvare l&#39;intervallo di date.
+   * **[!UICONTROL Salva con nome]** per salvare una copia dell&#39;intervallo di date.
+   * **[!UICONTROL Annulla]** per annullare eventuali modifiche apportate all&#39;intervallo di date o per annullare la creazione di un nuovo intervallo di date.
 
 
 <!--

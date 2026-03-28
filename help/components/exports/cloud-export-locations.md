@@ -5,7 +5,7 @@ title: Configurare le posizioni di esportazione cloud
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 6aea4179b368b50641a03a9cb53e4243fa428f4c
+source-git-commit: b9efb621523f8bbfbb3afe7db4db2e60fcddd34c
 workflow-type: tm+mt
 source-wordcount: '3136'
 ht-degree: 19%
@@ -107,11 +107,11 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
 
    1. Apri [Microsoft Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
-   1. Vai a [!UICONTROL **Account di archiviazione**] > [!UICONTROL **(Contenitori allegati)**] > [!UICONTROL **Contenitori BLOB**] > **[!UICONTROL cjaexport-_numero_]**>*** nome_contenitore &#x200B;***.
+   1. Vai a [!UICONTROL **Account di archiviazione**] > [!UICONTROL **(Contenitori allegati)**] > [!UICONTROL **Contenitori BLOB**] > **[!UICONTROL cjaexport-_numero_]**>*** nome_contenitore ***.
 
       >[!NOTE]
       >
-      >Il nome della cartella **[!UICONTROL cjaexport-_number_]**&#x200B;è il nome predefinito fornito da Azure Storage Explorer. Se all&#39;URI SAS è associata una sola connessione (normale), il nome della cartella sarà&#x200B;**[!UICONTROL cjaexport-1]**.
+      >Il nome della cartella **[!UICONTROL cjaexport-_number_]**è il nome predefinito fornito da Azure Storage Explorer. Se all&#39;URI SAS è associata una sola connessione (normale), il nome della cartella sarà&#x200B;**[!UICONTROL cjaexport-1]**.
 
 
       ![Accedere ai file in Esplora archivi di Azure](assets/azure-storage-explorer-access.png)
@@ -199,7 +199,7 @@ Per informazioni su come gestire i percorsi esistenti, incluse la visualizzazion
    | [!UICONTROL **Contenitore**] | Contenitore all’interno dell’account specificato in cui desideri inviare i dati di Customer Journey Analytics. Assicurati di concedere le autorizzazioni per caricare i file nell’applicazione Azure creata in precedenza. |
    | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella statica, quindi aggiungi una barra (/) dopo il nome per creare la cartella. Ad esempio: `folder_name/`<p>Accertati che l’ID applicazione specificato durante la configurazione dell’account RBAC di Azure disponga del ruolo `Storage Blob Data Contributor` per accedere al contenitore (cartella).</p> <p>Per ulteriori informazioni, consulta [Ruoli incorporati di Azure](https://learn.microsoft.com/it-it/azure/role-based-access-control/built-in-roles).</p> |
    | [!UICONTROL **Nome e percorso file**] | Specifica un nome di file personalizzato dinamico da utilizzare per le esportazioni automatizzate inviate a questa posizione. È inoltre possibile anteporre al nome del file un percorso personalizzato dinamico. <p>Questa opzione consente di automatizzare la creazione di nomi di file e il posizionamento delle cartelle, in modo che i nomi di file siano prevedibili e organizzati in cartelle in modo logico. Ad esempio, i nomi dei file possono essere denominati in base al giorno in cui sono stati consegnati, quindi inseriti in cartelle corrispondenti a ogni mese.</p> <p>Utilizza una delle seguenti variabili nel nome e nel percorso del file per renderle dinamiche:</p><ul><li>**{yyyy}**: anno di calendario a 4 cifre (distinzione maiuscole/minuscole)</li><li>**{yy}**: anno di calendario a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{MM}**: mese di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{dd}**: giorno di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{HH}**: ore a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{mm}**: minuti a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{ss}**: secondi a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{fff}**: nanosecondi di 3 cifre (distinzione maiuscole/minuscole)</li><li>**{instance_id}**: UUID richiesta (istanza)</li><li>**{export_id}**: UUID esportazione (pianificazione)</li><li>**{idx}**: indice con inizio da 0 (incrementato per ciascun file)</li><li>**{total}**: numero totale di file per l&#39;intero processo di trasferimento</li><li>**{completion_millis}**: tempo di trasferimento in millisecondi</li></ul></p><p>Ad esempio, se si specifica `${yyyy}/${MM}/${dd}/my-report-${instance_id} -${idx}`, un&#39;esportazione inviata automaticamente a questa destinazione il 15 gennaio 2026 avrà il percorso e il nome file seguenti: [prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv</p> |
-   | [!UICONTROL **Account**] | Account di archiviazione Azure. |
+   | [!UICONTROL **Account**] | L’account di archiviazione Azure. |
 
    {style="table-layout:auto"}
 

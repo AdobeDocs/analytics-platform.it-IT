@@ -5,10 +5,10 @@ title: Applicare I Segmenti Nell’Analisi Dell’Abbandono
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 24%
+source-wordcount: '468'
+ht-degree: 23%
 
 ---
 
@@ -24,17 +24,19 @@ Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di 
 >* Utilizzo di un segmento basato su persona come punto di contatto all’interno di una visualizzazione Abbandono in contesto di sessione.
 >* Utilizzo di un segmento basato su sessione come punto di contatto all’interno di una visualizzazione Abbandono in contesto di sessione.
 
-<!-- Should we add B2B context here?
-* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
-* -->
+<!-- 
+Should we add B2B context here?
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* 
+-->
 
 ## Creare un segmento da un punto di contatto
 
-1. Crea un segmento da un punto di contatto che ti interessa e che potrebbe essere utile da applicare ad altri rapporti. Fare clic con il pulsante destro del mouse sul punto di contatto e selezionare **[!UICONTROL Create segment from touchpoint]**.
+1. Crea un segmento da un punto di contatto che ti interessa e che potrebbe essere utile da applicare ad altri rapporti. Fai clic con il pulsante destro del mouse sul punto di contatto e seleziona **[!UICONTROL Crea segmento da punto di contatto]**.
 
    ![Menu a discesa Punto di contatto con Crea segmento dal punto di contatto evidenziato.](assets/fallout-createsegment.png)
 
-   Verrà aperto [!UICONTROL Segment builder], precompilato con il segmento sequenziale predefinito che corrisponde al punto di contatto selezionato:
+   Viene aperto il [!UICONTROL Generatore di segmenti], precompilato con il segmento sequenziale predefinito che corrisponde al punto di contatto selezionato:
 
    ![Il Generatore di segmenti visualizza il segmento sequenziale precompilato e precompilato.](assets/fallout-definesegment.png)
 
@@ -54,7 +56,7 @@ Oppure puoi creare un punto di contatto AND trascinando il segmento degli utenti
 
 Puoi confrontare un numero illimitato di segmenti nella visualizzazione Abbandono.
 
-1. Selezionare i segmenti da confrontare dal pannello [!UICONTROL Segment] a sinistra. Nell&#39;esempio vengono selezionati tre segmenti: *Dettagli volo: Pagina Versione A*, *Dettagli volo: Pagina Versione B* e *Dettagli volo: Pagina Versione C*.
+1. Seleziona i segmenti che desideri confrontare dal pannello [!UICONTROL Segmento] a sinistra. Nell&#39;esempio vengono selezionati tre segmenti: *Dettagli volo: Pagina Versione A*, *Dettagli volo: Pagina Versione B* e *Dettagli volo: Pagina Versione C*.
 1. Trascina i tre segmenti nella zona di rilascio Segmento, nella parte superiore della visualizzazione.
 
 

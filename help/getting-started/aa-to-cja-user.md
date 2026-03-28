@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 85%
@@ -43,7 +43,8 @@ L’amministratore di Customer Journey Analytics stabilisce [connessioni](/help/
 Mediante una connessione, l’amministratore di Analytics integra i set di dati da Adobe Experience Platform in Customer Journey Analytics.
 
 
-<!-- Outdated UI
+<!--
+Outdated UI
 
 >[!BEGINSHADEBOX]
 
@@ -120,7 +121,7 @@ Customer Journey Analytics estende i concetti di identità oltre gli ECID per in
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dell’identità in Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/visitor-id/understanding-how-customer-journey-analytics-uses-identity){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dell’identità in Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/visitor-id/understanding-how-customer-journey-analytics-uses-identity){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

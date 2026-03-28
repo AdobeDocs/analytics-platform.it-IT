@@ -5,10 +5,10 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 88%
+source-wordcount: '1141'
+ht-degree: 79%
 
 ---
 
@@ -73,7 +73,7 @@ Questa visualizzazione ti aiuta a capire come CCA unisce i dati.
    * Contenitore Persona in cui l’ID del set di dati è uguale ai dati Web
    * Contenitore Persone in cui l’ID del set di dati è uguale ai dati del call center
 2. In Analysis Workspace, trascina una visualizzazione [Venn](/help/analysis-workspace/visualizations/venn.md) nell’area di lavoro di Workspace.
-3. Trascinare i due segmenti appena creati nell&#39;area **[!UICONTROL Add Segment]** e la metrica Persone nell&#39;area **[!UICONTROL Add Metric]**.
+3. Trascina i due segmenti appena creati nell&#39;area **[!UICONTROL Aggiungi segmento]** e la metrica Persone nell&#39;area **[!UICONTROL Aggiungi metrica]**.
 
 La visualizzazione Venn risultante mostra il numero di persone nel set di dati che contengono sia dati Web che i dati call center. Maggiore è la sovrapposizione, più persone sono state unite correttamente. Le aree che non si sovrappongono rappresentano le persone che risiedono esclusivamente in un set di dati o nell’altro.
 
@@ -83,7 +83,7 @@ Questa tabella a forma libera consente di visualizzare le pagine principali che 
 
 1. Trascina la dimensione che contiene i nomi delle pagine Web in una visualizzazione tabella a forma libera.
 1. Sostituisci la metrica con la metrica del call center desiderata da misurare.
-1. Fai clic sull’icona a forma di ingranaggio vicino all’intestazione della metrica. Fai clic su **[!UICONTROL Use non-default attribution model]** (Usa modello di attribuzione non predefinito).
+1. Fai clic sull’icona a forma di ingranaggio vicino all’intestazione della metrica. Fare clic su **[!UICONTROL Usa modello di attribuzione non predefinito]**.
 1. Imposta il valore desiderato per [Attribution model](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md) (modello di attribuzione) desiderato. Ad esempio, un modello Time decay (Obsolescenza) con emivita di 15 minuti e una finestra di ricerca posticipata della sessione. Questo modello di attribuzione attribuisce il merito alle pagine che precedono la chiamata al call center.
 
 Il rapporto risultante mostra le pagine principali che inviano le chiamate al call center. <!-- use case behind what we use these pages for -->
@@ -102,21 +102,21 @@ Puoi aumentare ulteriormente le informazioni con questa tabella suddividendo le 
 
 Puoi ottenere informazioni approfondite sulle operazioni che un cliente stava tentando di eseguire prima di utilizzare il canale del call center. Questa visualizzazione del flusso consente di comprendere i percorsi più frequenti utilizzati da un cliente per mettersi in contatto con il call center. Queste informazioni consentono di determinare i miglioramenti più efficaci che puoi apportare al tuo sito in modo che i clienti abbiano meno probabilità di rivolgersi al call center.
 
-1. Fai clic sulla scheda **[!UICONTROL Visualizations]** (Visualizzazioni) a sinistra e trascina una visualizzazione di flusso sull’area di lavoro di Workspace.
-2. Fai clic sul pulsante **[!UICONTROL Components]** (Componenti) a sinistra e individua la dimensione “Call reason” (Motivo della chiamata).
+1. Fai clic sulla scheda **[!UICONTROL Visualizzazioni]** a sinistra e trascina una visualizzazione di flusso nell&#39;area di lavoro dell&#39;area di lavoro.
+2. Fai clic sulla scheda **[!UICONTROL Componenti]** a sinistra e individua la dimensione &quot;Motivo chiamata&quot;.
 3. Fai clic sulla freccia destra accanto a questa dimensione. Questa azione mostra singoli valori dimensionali.
 4. Trascina l’elemento dimensionale del motivo della chiamata desiderato nella posizione centrale della visualizzazione del flusso.
 5. La visualizzazione di flusso popola automaticamente i motivi della chiamata precedenti e successivi. Sostituisci il motivo della chiamata precedente con la dimensione della pagina del sito Web.
-6. Fai clic sull’icona a forma di ingranaggio in alto a destra della visualizzazione di flusso e modifica il contenitore del flusso in **[!UICONTROL Session]** (Sessione).
+6. Fai clic sull&#39;icona a forma di ingranaggio in alto a destra della visualizzazione del flusso e modifica il contenitore del flusso in **[!UICONTROL Sessione]**.
 
 ### Istogramma
 
 Quanti clienti hanno chiamato una volta, due volte o più di 6 volte? Alcune di queste persone non visitano mai il sito Web. Utilizza la visualizzazione a istogramma per determinare quante persone rientrano in ciascun bucket. Per le persone che non visitano mai il sito Web, scopri come possiamo incoraggiarle a risolvere autonomamente.
 
-1. Fai clic sulla scheda **[!UICONTROL Visualizations]** (Visualizzazioni) a sinistra e trascina una visualizzazione a istogramma sull’area di lavoro di Workspace.
-2. Fai clic sul pulsante **[!UICONTROL Components]** (Componenti) a sinistra e trascina la metrica delle chiamate nella visualizzazione a istogramma.
-3. Fai clic su **[!UICONTROL Show advanced settings]** (Mostra impostazioni avanzate) al centro della visualizzazione e personalizza i bucket desiderati.
-4. Fai clic su **[!UICONTROL Build]** (Usa modello di attribuzione non predefinito).
+1. Fai clic sulla scheda **[!UICONTROL Visualizzazioni]** a sinistra e trascina una visualizzazione istogramma nell&#39;area di lavoro.
+2. Fai clic sulla scheda **[!UICONTROL Componenti]** a sinistra e trascina la metrica Chiamate nella visualizzazione dell&#39;istogramma.
+3. Fai clic su **[!UICONTROL Mostra impostazioni avanzate]** al centro della visualizzazione e personalizza i bucket desiderati.
+4. Fare clic su **[!UICONTROL Build]**.
 
 <!--
 ### Web to call, call to web
@@ -145,4 +145,5 @@ wanted to understand when someone interacts with a facet, whats the highest perc
 
 use sequential segments, but you lose the ability to use attribution IQ
 
-## What to do when you've found insight -->
+## What to do when you've found insight 
+-->

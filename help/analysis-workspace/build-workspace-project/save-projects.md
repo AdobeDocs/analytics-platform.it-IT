@@ -4,10 +4,10 @@ title: Salva progetti
 feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 873247c643b3be4bb561955af84dd4bbb4e1d81f
 workflow-type: tm+mt
 source-wordcount: '846'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -87,8 +87,9 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
   Puoi salvare il progetto in un’altra cartella. Il progetto originale non verrà interessato.
 
 
-<!-- Cannot find this option in CJA 
-| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it) that becomes available to your organization under **[!UICONTROL Project > New]** |
+<!-- 
+Cannot find this option in CJA 
+| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** |
 -->
 
 ## Salvataggio automatico
@@ -157,7 +158,8 @@ Se il browser subisce un arresto anomalo o se la sessione si interrompe, al pros
 Per i **nuovi** progetti che non sono mai stati salvati, non è possibile recuperare le modifiche non salvate.
 
 
-<!-- Shouldn't this belong to another page?  Moved it to a new open projects page
+<!--
+Shouldn't this belong to another page?  Moved it to a new open projects page
 
 
 ## Open previously saved version

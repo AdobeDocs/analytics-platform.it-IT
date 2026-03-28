@@ -6,7 +6,7 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B Edition"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 12%
@@ -214,7 +214,7 @@ Un esempio di riferimento di progettazione della soluzione potrebbe essere:
 | Pubblico partner - Servizi necessari | Dimensione |
 | Pubblico partner - Acquirenti di software | Dimensione |
 | Intervallo ricavi | Dimensione |
-| Sito Web | Dimensione |
+| Sito web | Dimensione |
 
 +++
 
@@ -240,9 +240,11 @@ I dati che supportano il riferimento di progettazione della soluzione sono strut
 
 Le dimensioni e le metriche dell’evento sono supportate tramite uno schema basato su serie temporali (evento) e uno o più set di dati che contengono dati dell’evento.
 
-<!--For example: the Account ID field is mapped to **[!UICONTROL Account ID]**. See below for a preview of the data typically available in such a dataset.
+<!--
+For example: the Account ID field is mapped to **[!UICONTROL Account ID]**. See below for a preview of the data typically available in such a dataset.
 
-![B2B event schema and datasets](assets/b2b-event-schema-datasets.png)-->
+![B2B event schema and datasets](assets/b2b-event-schema-datasets.png)
+-->
 
 
 ### Dati della persona

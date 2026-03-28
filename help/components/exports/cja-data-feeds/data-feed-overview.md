@@ -5,7 +5,8 @@ title: Panoramica sui feed dati di Analytics
 feature: Components
 hide: true
 hidefromtoc: true
-source-git-commit: b0b86424399ea79deca8f1d522d52354dfaaa8c7
+exl-id: 991a7861-cbde-4d55-935c-d56c8031853e
+source-git-commit: 50b82943d4c59f612240ffc8d83a8a08f09b8331
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 29%
@@ -37,12 +38,14 @@ Le risorse seguenti sono utili per comprendere il flusso di lavoro di base per o
 * Best practice per i feed dati<!--add link-->: best practice per la creazione e la gestione dei feed dati.
 * Creare un feed di dati<!--add link-->: dettagli tecnici per la creazione di un feed di dati, con informazioni più dettagliate sui singoli campi
 * Gestisci feed dati<!--add link-->: ulteriori informazioni sulla navigazione nell&#39;interfaccia del feed dati
-* Contenuto feed dati <!--add link-->: informazioni sul contenuto del file compresso <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* Contenuto feed dati <!--add link-->: informazioni sul contenuto del file compresso
 * Definizioni delle colonne dati <!--add link-->: elenco completo di tutte le colonne disponibili.
+
+<!-- Is this still the output users can download from the destination? I aske Jun. -->
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Naviga nell&#39;interfaccia feed dati](https://video.tv.adobe.com/v/3428563?captions=ita&quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Naviga nell&#39;interfaccia feed dati](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -50,6 +53,6 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Naviga nell
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trova il tuo ID feed dati](https://video.tv.adobe.com/v/3418481?captions=ita&quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trova il tuo ID feed dati](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} per vedere un video dimostrativo.
 
 >[!ENDSHADEBOX]

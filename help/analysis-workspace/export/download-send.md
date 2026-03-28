@@ -4,10 +4,10 @@ title: Scarica Progetti E Dati
 feature: Curate and Share
 exl-id: 1d8384ca-888c-482c-ab3e-d1b579217560
 role: User
-source-git-commit: 1cb9e18f79e8ca49b63aa7d8117ce6c61a020454
+source-git-commit: 873247c643b3be4bb561955af84dd4bbb4e1d81f
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 23%
+source-wordcount: '1246'
+ht-degree: 22%
 
 ---
 
@@ -35,13 +35,13 @@ Quando scarichi un progetto come PDF, considera quanto segue:
 
 Per scaricare un progetto come file PDF:
 
-1. Seleziona **[!UICONTROL Project]** > **[!UICONTROL Download PDF]**.
+1. Seleziona **[!UICONTROL Progetto]** > **[!UICONTROL Scarica PDF]**.
 
-   Viene visualizzata una barra verde con il seguente messaggio: ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Your download has been requested. Please wait.]**
+   Viene visualizzata una barra verde con il seguente messaggio: ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL È stato richiesto il download. Attendi.]**
 
 1. Quando il download è pronto, viene visualizzata una barra verde con il seguente messaggio: ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *Il nome del progetto *PDF è pronto.]**
 
-1. Selezionare **[!UICONTROL Download]** sulla barra verde.
+1. Seleziona **[!UICONTROL Scarica]** sulla barra verde.
 
    A seconda delle impostazioni del browser, PDF viene scaricato automaticamente nella cartella configurata in precedenza oppure viene richiesto di scegliere una cartella in cui scaricare PDF.
 
@@ -49,7 +49,7 @@ Per scaricare un progetto come file PDF:
 
 ### Scaricare un progetto come file CSV
 
-1. Seleziona **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.
+1. Seleziona **[!UICONTROL Progetto]** > **[!UICONTROL Scarica CSV]**.
 
    A seconda delle impostazioni del browser, il file CSV viene scaricato automaticamente in una cartella configurata in precedenza oppure viene richiesto di scegliere una cartella in cui scaricare il file CSV.
 
@@ -57,7 +57,7 @@ Per scaricare un progetto come file PDF:
 
 ## Copiare i dati di una visualizzazione negli Appunti {#copy-data}
 
-L&#39;opzione **[!UICONTROL Copy to clipboard]** del menu di scelta rapida consente di copiare rapidamente i dati da Analysis Workspace e incollarli in uno strumento di terze parti.
+L&#39;opzione **[!UICONTROL Copia negli Appunti]** dal menu di scelta rapida consente di copiare rapidamente i dati da Analysis Workspace e incollarli in uno strumento di terze parti.
 
 * Se si desidera copiare i dati della tabella visualizzata, selezionare l&#39;intestazione della tabella e selezionare **Copia dati negli Appunti** dal menu di scelta rapida.
 * Se desideri copiare un sottoinsieme di dati, effettua una selezione nella tabella e seleziona **Copia selezione negli Appunti** dal menu di scelta rapida.
@@ -67,7 +67,7 @@ L&#39;opzione **[!UICONTROL Copy to clipboard]** del menu di scelta rapida conse
 >È possibile utilizzare il tasto di scelta rapida **_cmd + c_** (macOS) o **_ctrl + c_** (Windows) per copiare la selezione negli Appunti. Quindi utilizzare **_cmd + v_** (macOS) o **_ctrl + v_** (Windows) per incollare i dati.
 
 
-![Opzione Copia selezione negli Appunti. &#x200B;](assets/copy-clipboard.png){zoomable="yes"}
+![Opzione Copia selezione negli Appunti. ](assets/copy-clipboard.png){zoomable="yes"}
 
 ## Scaricare i dati all’interno di una visualizzazione come file CSV {#download-data}
 
@@ -75,15 +75,16 @@ Le opzioni Scarica come CSV del menu di scelta rapida consentono di scaricare co
 
 A tale scopo, effettua le seguenti operazioni:
 
-* Dall&#39;intestazione di qualsiasi tabella o visualizzazione, selezionare **[!UICONTROL Download data as CSV]** dal menu di scelta rapida. In questo modo i dati mostrati nella tabella o nell’origine dati sottostante per una visualizzazione vengono scaricati come CSV.
+* Dall&#39;intestazione di qualsiasi tabella o visualizzazione, seleziona **[!UICONTROL Scarica dati come CSV]** dal menu di scelta rapida. In questo modo i dati mostrati nella tabella o nell’origine dati sottostante per una visualizzazione vengono scaricati come CSV.
 
-<!-- Only relevant as soon as CJA supports Map visualization 
+<!-- 
+Only relevant as soon as CJA supports Map visualization 
   >[!NOTE]
   >
   >  Note: the Map visualization does not support this option.
 -->
 
-* In una tabella, selezionare **[!UICONTROL Download selection as CSV]** dal menu di scelta rapida. Questa opzione consente di scaricare solo la selezione, anziché tutta la tabella visualizzata.
+* All&#39;interno di una tabella, seleziona **[!UICONTROL Scarica selezione come CSV]** dal menu di scelta rapida. Questa opzione consente di scaricare solo la selezione, anziché tutta la tabella visualizzata.
 
 ![Opzione Scarica dati come CSV.](assets/download-data-as-csv.png)
 
@@ -116,8 +117,8 @@ Al file scaricato vengono applicate le seguenti funzioni di una tabella a forma 
 
 Durante il download del file vengono visualizzate le notifiche seguenti:
 
-* È stato richiesto un **[!UICONTROL _nome tabella _blu -_Dimension _.csv._x _% completato]**&#x200B;che indica l&#39;avanzamento. Per annullare il download, selezionare **[!UICONTROL Cancel download]**. Selezionare ![CrossSize100](/help/assets/icons/CrossSize100.svg) se si desidera chiudere il messaggio senza annullare il download.
-* Una notifica di completamento verde **[!UICONTROL _Nome tabella _-_Dimension _.csv è stato scaricato]**&#x200B;una volta completato il download del file. Il file viene scaricato nella cartella dei download configurata per il browser.
+* È stato richiesto un **[!UICONTROL _nome tabella _blu -_Dimension _.csv._x _% completato]**che indica l&#39;avanzamento. Per annullare il download in qualsiasi momento, selezionare **[!UICONTROL Annulla download]**. Selezionare ![CrossSize100](/help/assets/icons/CrossSize100.svg) se si desidera chiudere il messaggio senza annullare il download.
+* Una notifica di completamento verde **[!UICONTROL _Nome tabella _-_Dimension _.csv è stato scaricato]**una volta completato il download del file. Il file viene scaricato nella cartella dei download configurata per il browser.
 
 Se richiedi più di un download alla volta, ricevi una notifica che indica che ogni download aggiuntivo è in coda fino al completamento del download precedente.
 
@@ -133,5 +134,5 @@ Se i campi dati etichettati come sensibili sono inclusi nella visualizzazione da
 | Domanda | Risposta |
 | --- | --- |
 | Perché il mio PDF scaricato è costituito da una sola pagina? | La funzionalità [Scarica PDF](#download-as-csv-or-pdf) non impagina i PDF scaricati. |
-| È possibile esportare più di 50.000 elementi con l&#39;opzione **[!UICONTROL Download items as CSV]**? | Anche se ogni download può contenere un masimo di 50.000 elementi dimensionali, puoi cambiare l’ordine nella tabella in modo da recuperare gli elementi che erano in fondo alla tabella secondo il precedente ordine, o applicare un filtro per scaricare specifici elementi. |
-| Che funzione svolge **[!UICONTROL Copy visualization]**? | A differenza di [!UICONTROL **Copia dati negli Appunti**] o [!UICONTROL **Copia selezione negli Appunti**], l&#39;opzione del menu di scelta rapida **[!UICONTROL Copy visualization]** non è un&#39;opzione di esportazione. Questa opzione ti consente di [copiare una visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) o [copiare un pannello](/help/analysis-workspace/c-panels/panels.md#context-menu) da una posizione in Workspace a un&#39;altra. Ad esempio, da un pannello all’altro nello stesso progetto o da un progetto a un altro. |
+| È possibile esportare più di 50.000 elementi con l&#39;opzione **[!UICONTROL Scarica elementi come CSV]**? | Anche se ogni download può contenere un masimo di 50.000 elementi dimensionali, puoi cambiare l’ordine nella tabella in modo da recuperare gli elementi che erano in fondo alla tabella secondo il precedente ordine, o applicare un filtro per scaricare specifici elementi. |
+| Quali operazioni esegue **[!UICONTROL Copia visualizzazione]**? | A differenza di [!UICONTROL **Copia dati negli Appunti**] o [!UICONTROL **Copia selezione negli Appunti**], l&#39;opzione del menu di scelta rapida **[!UICONTROL Copia visualizzazione]** non è un&#39;opzione di esportazione. Questa opzione ti consente di [copiare una visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) o [copiare un pannello](/help/analysis-workspace/c-panels/panels.md#context-menu) da una posizione in Workspace a un&#39;altra. Ad esempio, da un pannello all’altro nello stesso progetto o da un progetto a un altro. |
