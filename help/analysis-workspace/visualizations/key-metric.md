@@ -21,7 +21,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione del riepilogo delle metriche chiave in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione del riepilogo delle metriche chiave in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
    >
    >Quando il campo [!UICONTROL **Intervallo date primario**] è impostato su [!UICONTROL **Intervallo date pannello**], l&#39;intervallo di date **[!UICONTROL Confronto]** può essere aggiornato automaticamente, a seconda che l&#39;opzione **[!UICONTROL Intervallo date confronto]** scelta sia relativa all&#39;intervallo date primario o fissa.
    >
-   >* **Relativo:** Se il campo **[!UICONTROL Intervallo date di confronto]** è impostato su un&#39;opzione relativa all&#39;intervallo date primario (ad esempio [!UICONTROL **Giorno precedente**], [!UICONTROL **Stesso giorno ultima settimana**], [!UICONTROL **Stesso giorno 4 settimane prima**] e così via), eventuali aggiornamenti al campo [!UICONTROL **Intervallo date primario**] causeranno l&#39;aggiornamento automatico dell&#39;intervallo date di confronto **[!UICONTROL 13} al periodo immediatamente successivo all&#39;intervallo date del pannello.]**
+   >* **Relativo:** Se il campo **[!UICONTROL Intervallo date di confronto]** è impostato su un&#39;opzione relativa all&#39;intervallo date primario (ad esempio [!UICONTROL **Giorno precedente**], [!UICONTROL **Stesso giorno ultima settimana**], [!UICONTROL **Stesso giorno 4 settimane prima**] e così via), eventuali aggiornamenti al campo [!UICONTROL **Intervallo date primario**] causeranno l&#39;aggiornamento automatico dell&#39;intervallo date di confronto **[!UICONTROL 13&rbrace; al periodo immediatamente successivo all&#39;intervallo date del pannello.]**
    >* **Fisso:** se il campo [!UICONTROL **Intervallo date di confronto**] è impostato su un intervallo di date fisso (ad esempio **3 febbraio 2023**), le modifiche apportate al campo [!UICONTROL **Intervallo di date principale**] o all’intervallo date del pannello non hanno alcun effetto sull’[!UICONTROL **Intervallo date di confronto**]. Tuttavia, eventuali aggiornamenti all’intervallo di date del pannello causano l’aggiornamento automatico dell’[!UICONTROL **Intervallo di date principale**].
 
 1. Seleziona **[!UICONTROL Genera]**.
