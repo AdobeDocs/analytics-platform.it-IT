@@ -1,13 +1,13 @@
 ---
-description: Scopri cosa sono i pannelli e come utilizzarli in Analysis Workspace.
-title: Panoramica dei pannelli
+description: Scopri come utilizzare i pannelli in Analysis Workspace per organizzare i rapporti, filtrare o suddividere i dati e definire l’intervallo di dati.
+title: Panoramica Dei Pannelli In Analysis Workspace
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
+source-git-commit: d89c9dd2ab42ada9d0af259c21a77f183384b680
 workflow-type: tm+mt
-source-wordcount: '2205'
-ht-degree: 80%
+source-wordcount: '2682'
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di pannello per [!UICONTR
 | [A forma libera](freeform-panel.md) | Esegui confronti illimitati e raggruppamenti, quindi aggiungi visualizzazioni per raccontare una storia ricca di dati. |
 | [Pubblico medio per minuto del file multimediale](average-minute-audience-panel.md) | Analizza il pubblico medio per minuto di una parte del contenuto specifico o in un periodo di tempo personalizzato. |
 | [Visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md) | Analizza i visualizzatori simultanei nel tempo, con dettagli sui picchi di concorrenza e con la possibilità di suddividerli e confrontarli. |
-| [Tempo trascorso su contenuti multimediali](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | L’analisi del tempo di riproduzione trascorso consente di comprendere dove si è verificato il picco di concorrenza o dove si è verificato il calo. |
+| [Tempo trascorso su contenuti multimediali](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | Analizza il tempo di riproduzione per capire dove si verifica il picco di concorrenza o dove si verifica il calo. |
 | [Elemento successivo o precedente](next-previous.md) | Mostra le pagine successive o precedenti a cui si accede. |
 | [Quick Insights](quickinsight.md) | Crea rapidamente una tabella a forma libera e una relativa visualizzazione per analizzare e individuare più rapidamente le informazioni. |
 
@@ -83,13 +83,13 @@ Puoi gestire un pannello nei modi seguenti:
 
 * Per comprimere un pannello, seleziona ![ChevronDown](/help/assets/icons/ChevronDown.svg).
 * Per visualizzare un pannello compresso, seleziona ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
-* Per eliminare un pannello, seleziona ![CrossSize400](/help/assets/icons/CrossSize200.svg). Per annullare, selezionare **[!UICONTROL Modifica]** > **[!UICONTROL Annulla]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
-* Per spostare un pannello, trascinalo ogni volta che è visibile un elemento ![Sposta](/help/assets/icons/Move.svg). In genere quando passi il puntatore sull’intestazione.
+* Per eliminare un pannello, seleziona ![CrossSize400](/help/assets/icons/CrossSize200.svg). Per annullare, selezionare **[!UICONTROL Modifica]** > **[!UICONTROL Annulla]** (**[!UICONTROL *comando+z *]**|**[!UICONTROL * ctrl+z *]**).
+* Per spostare un pannello, trascina e rilascia il pannello ogni volta che è visibile un ![Sposta](/help/assets/icons/Move.svg) (in genere quando passi il cursore sull&#39;intestazione).
 
 
 ## Visualizzazione dati
 
-Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md), identificata dal ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**&#x200B;nel menu a discesa in alto a destra del pannello.
+Ogni pannello è associato a una [visualizzazione dati](/help/data-views/data-views.md). Puoi identificare il ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della visualizzazione dati *]**nel menu a discesa in alto a destra del pannello.
 
 Quando crei un progetto Workspace vuoto, la visualizzazione dati predefinita per il pannello iniziale è l’ultima visualizzazione dati su cui hai lavorato in Customer Journey Analytics.
 
@@ -124,8 +124,8 @@ In alternativa, è possibile selezionare un **[!UICONTROL predefinito]** dal men
 1. Facoltativamente, selezionare **[!UICONTROL Mostra impostazioni avanzate]** per:
 
    * Specificare **[!UICONTROL Ora inizio]** e **[!UICONTROL Ora fine]** diverse dalle impostazioni predefinite `12:00 AM` (`0:00`) e `11:59 PM` (`23:59`). Gli orari di fine includono sempre 59 secondi. Per un intervallo di date che si estende su più giorni, l’ora di inizio si applica al primo giorno dell’intervallo di date e l’ora di fine si applica all’ultimo giorno dell’intervallo di date. Utilizzare **[!UICONTROL (valori di tempo di ripristino)]** per ripristinare i valori predefiniti per l&#39;ora di inizio e di fine.
-   * **[!UICONTROL Componenti intervallo date relativi al calendario del pannello]**. Se disattivato, i componenti dell’intervallo di date utilizzati nel pannello sono relativi all’ora corrente. Se questa opzione è abilitata, i componenti dell’intervallo di date utilizzati nel pannello sono relativi al calendario del pannello.
-   * **[!UICONTROL Utilizza date continue]**. Se abilitati, gli intervalli di date predefiniti come **[!UICONTROL Ultimi 7 giorni interi]** vengono aggiornati in modo dinamico in base all&#39;avanzamento della data e dell&#39;ora corrente. Se disattivate, tali predefiniti non vengono aggiornati una volta applicati.
+   * **[!UICONTROL Componenti intervallo date relativi al calendario del pannello]**. Se l’opzione è disattivata, i componenti dell’intervallo di date utilizzati nel pannello sono relativi all’ora corrente. Se questa opzione è abilitata, i componenti dell’intervallo di date utilizzati nel pannello sono relativi al calendario del pannello.
+   * **[!UICONTROL Utilizza date continue]**. Se abilitati, gli intervalli di date predefiniti come **[!UICONTROL Ultimi 7 giorni interi]** vengono aggiornati dinamicamente in base all&#39;avanzamento della data e dell&#39;ora corrente. Se disattivate, tali predefiniti non vengono aggiornati una volta applicati.
 
      ![Date continue](assets/calendar-rolling.png)
 
@@ -133,10 +133,10 @@ In alternativa, è possibile selezionare un **[!UICONTROL predefinito]** dal men
 
       1. Seleziona **[!UICONTROL Inizio di]**, **[!UICONTROL Fine di]** o **[!UICONTROL Giorno fisso]**.
       1. Dopo aver selezionato **[!UICONTROL Inizio di]** o **[!UICONTROL Fine di]**, puoi creare un&#39;espressione completa. Ad esempio: **[!UICONTROL Fine di]** **[!UICONTROL anno corrente]** **[!UICONTROL più]** `1` **[!UICONTROL giorno]**. Seleziona il valore appropriato per ogni singola parte dell’espressione.
-         * Seleziona un valore corrente. Ad esempio **[!UICONTROL anno corrente]**.
+         * Seleziona un valore corrente. Ad esempio, **[!UICONTROL anno corrente]**.
          * Seleziona un valore per il calcolo aggiuntivo. Ad esempio, **[!UICONTROL più]**.
-         * Dopo aver specificato un calcolo aggiuntivo, specifica un valore. Ad esempio `1`.
-         * Dopo aver specificato il calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio **[!UICONTROL giorno]**.
+         * Dopo aver specificato un calcolo aggiuntivo, specifica un valore. Ad esempio: `1`.
+         * Dopo aver specificato un calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio, **[!UICONTROL giorno]**.
 
      Selezionare **[!UICONTROL Nascondi dettagli]** per nascondere i dettagli per il calcolo delle date continue.
 
@@ -146,89 +146,145 @@ Seleziona **[!UICONTROL Applica a tutti i pannelli]** per applicare l&#39;interv
 
 ## Zona di rilascio {#dropzone}
 
-La zona di rilascio del pannello consente di applicare segmenti e segmenti a discesa a tutte le tabelle e visualizzazioni all’interno di un pannello. Puoi applicare uno o più segmenti a un pannello.
+La zona di rilascio del pannello, denominata **[!UICONTROL _Rilascia un componente per filtrare o suddividere i dati_]**, consente di filtrare o suddividere i dati del pannello. I segmenti o i raggruppamenti utilizzati per filtrare o raggruppare i dati si applicano a tutte le tabelle e visualizzazioni a forma libera all’interno del pannello.
 
-### Segmenti
+Segmenti e raggruppamenti ti consentono di interagire con i dati in modo controllato. Ad esempio, puoi aggiungere un menu a discesa dei segmenti per i tipi di dispositivi mobili, in modo da filtrare il pannello selezionando Tablet, Telefono cellulare o Desktop.
 
-Per iniziare a segmentare il pannello, trascina un segmento dal pannello a sinistra fino alla zona di rilascio del pannello. Ripeti questa procedura per aggiungere altri segmenti al pannello. I segmenti vengono visualizzati uno accanto all’altro nella parte superiore del pannello.
+I segmenti possono essere utilizzati anche per consolidare più progetti in un unico progetto. Ad esempio, se disponi di versioni diverse dello stesso progetto, ciascuna con un segmento di paese diverso applicato, puoi consolidarle tutte in un unico progetto e aggiungere un menu a discesa Segmento di paese.
 
-![Il pannello di sinistra mostra le metriche disponibili e la metrica del cliente mobile trascinata nella zona di rilascio del pannello.](assets/segment-filter.png)
+L’illustrazione seguente mostra le diverse varianti di segmenti o raggruppamenti (rapidi) risultanti dall’aggiunta di componenti alla zona di rilascio.
 
-#### Segmenti rapidi
+![Zona di rilascio per un pannello](assets/panel-drop-zone.png)
 
-Puoi anche trascinare componenti diversi da segmenti direttamente nella zona di rilascio, per creare segmenti rapidi in modo più rapido e senza dover passare al [Generatore di segmenti](/help/components/segments/seg-builder.md). I segmenti creati in questo modo vengono automaticamente definiti come segmenti a livello di evento. È possibile modificare rapidamente questa definizione selezionando ![Modifica](/help/assets/icons/Edit.svg) accanto al nome del segmento.
+### Aggiungi o sostituisci
+
+Per aggiungere o sostituire segmenti o raggruppamenti (rapidi):
+
+1. Seleziona uno o più componenti nella barra Componenti. Utilizza ⇧+![Seleziona](/help/assets/icons/Select.svg) o ^+![Seleziona](/help/assets/icons/Select.svg) per selezionare più di un componente.
+1. Trascina la selezione nella zona di rilascio, con l&#39;etichetta **[!UICONTROL _Rilascia un componente per filtrare o suddividere i dati_]** ❶, oppure su un componente esistente già posizionato nelle vicinanze della zona di rilascio.
+1. Sono disponibili due opzioni quando si visualizza ![Aggiungi](/help/assets/icons/Add.svg) **[!UICONTROL Aggiungi (premere &quot;Maiusc&quot; per creare un elenco a discesa)]** o ![Scambia](/help/assets/icons/Switch.svg) **[!UICONTROL Sostituisci (premere &quot;Maiusc&quot; per aggiungere al menu a discesa)]**:
+
+   ![Aggiungi o sostituisci nella zona di rilascio](assets/add-or-replace-to-drop-zone.png)
+
+   * Rilascia la selezione per creare i seguenti componenti:
+      * [Segmento](#segment) per qualsiasi componente del segmento di cui si rilascia ❷.
+      * [Segmento rapido](#quick-segment) per qualsiasi componente non relativo al segmento (intervalli di date, metriche, dimensioni, elementi dimensionali) eliminato ❸.
+   * Rilascia la selezione **mentre tieni premuto** ⇧ (MAIUSC) per creare i seguenti componenti:
+      * Menu a discesa del segmento statico [](#drop-down-menu) con elementi da filtrare per i segmenti selezionati da eliminare ❹.
+      * Menu a discesa del segmento statico [](#drop-down-menu) con elementi da filtrare per gli intervalli di date selezionati per i quali si rilascia ❺.
+      * Menu a discesa del segmento statico [](#drop-down-menu) con elementi da filtrare per le metriche selezionate su cui si rilascia ❻.
+      * Menu a discesa [statico](#drop-down-menu) o menu a discesa [con raggruppamenti](#drop-down-menu) con elementi su cui filtrare o raggruppare la dimensione selezionata *elementi* per la quale si eliminano ❼.
+      * Menu a discesa [segmento dinamico](#drop-down-menu) o menu a discesa [raggruppamento](#drop-down-menu) con elementi su cui filtrare o raggruppare le dimensioni selezionate su cui rilasciare ❽.
 
 
-Per ulteriori informazioni, consulta [Segmenti rapidi](/help/components/segments/seg-quick.md).
+### Segmento
 
-![Segmenti ad hoc resi pubblici e rilasciati nella zona di rilascio](assets/adhoc-segment-filter.png)
+Qualsiasi componente del segmento rilasciato viene utilizzato per segmentare il pannello. Utilizza i segmenti per ottenere informazioni segmentate sui dati e sulle visualizzazioni del pannello.
 
-### Segmenti a discesa
+### Segmento rapido
+
+Qualsiasi componente non appartenente ai segmenti (dimensione, elemento dimensione, metrica, intervallo di date) rilasciato definisce un [segmento rapido](#quick-segment) per segmentare il pannello. Utilizza qualsiasi componente non di segmento per creare un segmento rapido senza utilizzare il [Generatore di segmenti](/help/components/segments/seg-builder.md). Un segmento creato in questo modo viene automaticamente definito come segmento a livello di evento ed etichettato **[!UICONTROL Segmento rapido]** per impostazione predefinita.
+
+In alternativa, è possibile utilizzare ![FilterAdd](/help/assets/icons/FilterAdd.svg) per creare un segmento rapido.
+
+Consulta [Segmenti rapidi](/help/components/segments/seg-quick.md) per informazioni su come creare e gestire i segmenti rapidi.
+
+
+### Menu a discesa
+
+Un menu a discesa creato mentre si tiene premuto ⇧ consente di:
+
+* contiene un elenco di elementi [static](#static) o [dynamic](#dynamic).
+* comportati come [filtrare un pannello](#filter) o [suddividere un pannello](#breakdown).
+
+
+#### Statico
+
+Vengono creati menu a discesa statici per la dimensione selezionata *elementi*, metriche, segmenti e intervalli di date. Gli elementi di un menu a discesa statico si basano sui componenti selezionati che vengono rilasciati e non cambiano quando si aggiungono o sostituiscono i componenti.
+
+
+#### Dinamico
+
+I menu a discesa dinamici vengono creati solo quando si rilasciano i componenti delle dimensioni. I menu a discesa dinamici sono indicati con ![FilterRefresh](/help/assets/icons/FilterRefresh.svg) come parte dell&#39;etichetta.
+
+Gli elementi disponibili in un menu a discesa dinamico si basano su:
+
+* i dati risultanti dagli elementi selezionati in altri menu a discesa, segmenti e segmenti rapidi all’interno della zona di rilascio del pannello e
+* i dati disponibili nell’intervallo di reporting del pannello.
+
+Ad esempio, puoi aggiungere due menu a discesa dinamici utilizzando una dimensione Paesi e una dimensione Città. Quando selezioni un paese dal menu a discesa **[!UICONTROL Paesi]**, il menu a discesa **[!UICONTROL Città]** viene modificato in modo dinamico per visualizzare solo le città all&#39;interno del paese selezionato. Quando si dispone di menu a discesa statici aggiuntivi, gli elementi selezionati in tali menu a discesa influiscono anche sugli elementi disponibili nei menu a discesa dinamici. Gli elementi selezionati nei menu a discesa dinamici non influiscono sugli elementi disponibili nei menu a discesa statici.
+
+
+#### Filtrare un pannello
+
+Per qualsiasi componente di metrica, segmento o intervallo di date che rilasci **mentre tieni premuto** ⇧, viene creato un menu a discesa del segmento. Il menu a discesa consente di filtrare il pannello in base agli elementi disponibili per il componente rilasciato.
+
+Per qualsiasi componente *dimension* a cui viene rilasciato **mentre si tiene** ⇧, viene creato un menu a discesa dei segmenti. Questo menu a discesa ti consente di filtrare il pannello in base agli elementi disponibili per gli elementi dimensione eliminati (menu a discesa [static](#static) segmento) o per il componente dimensione (menu a discesa [dynamic](#dynamic) segmento). Per configurare il menu a discesa in modo esplicito per filtrare utilizzando i segmenti:
+
+* Selezionare ![Raggruppamento](/help/assets/icons/Breakdown.svg) e ![Filtro](/help/assets/icons/Filter.svg) dal menu di scelta rapida per il componente ❾.
+
+
+#### Suddividere un pannello
+
+Per qualsiasi componente *dimension* a cui viene rilasciato **mentre si tiene** ⇧, viene creato un menu a discesa dei segmenti. Al suo posto, puoi configurare il menu a discesa per suddividerlo. Per configurare il menu a discesa in modo esplicito per la suddivisione utilizzando le suddivisioni:
+
+* Selezionare ![Filtro](/help/assets/icons/Filter.svg) e selezionare ![Raggruppamento](/help/assets/icons/Breakdown.svg) dal menu di scelta rapida per il componente ❾.
+
+>[!IMPORTANT]
+>
+>I raggruppamenti sono disponibili solo per dimensioni ed elementi dimensionali, non per segmenti, intervalli di date o metriche.
+>
+
+
+
+#### Segmenti e raggruppamenti
+
+Considera la possibilità di suddividere un pannello invece di filtrarlo (utilizzando i segmenti) nei seguenti scenari:
+
+* Se utilizzi metriche abilitate per l’attribuzione all’interno del pannello, i segmenti spesso cancellano le metriche abilitate per l’attribuzione. I raggruppamenti vengono applicati in un punto diverso all’interno della query eseguita per recuperare i dati per il pannello. Di conseguenza, i raggruppamenti non cancellano queste metriche abilitate per gli attributi.
+
+  Ad esempio, osserva la differenza tra la metrica **[!UICONTROL Ricavi online]** basata sull&#39;attributo quando utilizzi un segmento **[!UICONTROL Luma: Categoria prodotto]** ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Donne]** e un raggruppamento **[!UICONTROL Luma: Categoria prodotto]** ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Donne]**.
+
+  ![Metriche basate su attributi: filtro rispetto a raggruppamento](assets/attribute-filter-breakdown.png)
+
+* Se utilizzi una dimensione a livello di evento secondario all’interno di un menu a discesa di raggruppamento, i raggruppamenti vengono eseguiti a tale livello di evento secondario. Al contrario, i segmenti all’interno di un menu a discesa dei segmenti vengono eseguiti a livello di evento.
+
+  Ad esempio, osserva la differenza tra la metrica **[!UICONTROL Ricavi online]** quando utilizzi un segmento **[!UICONTROL Luma: Sottocategoria prodotto]** ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Superiori]** e un raggruppamento **[!UICONTROL Luma: Sottocategoria prodotto]** ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Superiori]**. Il raggruppamento esegue la query esplicitamente a livello di evento secondario, mentre il segmento esegue la query a livello di evento.
+
+  ![Metriche basate su eventi secondari: filtro rispetto a raggruppamento](assets/sub-event-filter-breakdown.png)
+
+### Gestire
+
+Puoi gestire i componenti nella zona di rilascio come segue:
+
+| Operazioni da eseguire nella zona di rilascio del pannello... | Come fare... |
+|---|---|
+| Per rimuovere un segmento o un segmento rapido. | Selezionare ![CrossSize300](/help/assets/icons/CrossSize300.svg) all&#39;interno del componente. |
+| Per rimuovere un elemento selezionato da un menu a discesa. | Selezionare ![CrossSize100](/help/assets/icons/CrossSize100.svg) nell&#39;elemento. |
+| Per rimuovere tutti gli elementi selezionati da un menu a discesa. | Selezionare ![CrossSize200](/help/assets/icons/CrossSize200.svg) nel menu a discesa. |
+| Per modificare l&#39;etichetta di qualsiasi componente. | Passa il puntatore sull&#39;etichetta del componente e seleziona ![Modifica](/help/assets/icons/Edit.svg). |
+| Per eliminare l&#39;etichetta di qualsiasi componente. | Passa il puntatore del mouse sull&#39;etichetta del componente, quindi seleziona **[!UICONTROL Elimina etichetta]** dal menu di scelta rapida del componente. |
+| Per eliminare il componente dalla zona di rilascio. | Selezionare **[!UICONTROL Elimina elenco a discesa]** dal menu di scelta rapida del componente. |
+| Per ottenere informazioni su un segmento o un segmento rapido. | Passa il puntatore del mouse all&#39;interno del componente e seleziona ![Informazioni](/help/assets/icons/Info.svg) per aprire il dizionario dati con le informazioni sul componente. |
+| Per ottenere informazioni sul componente che definisce un menu a discesa. | Passa il puntatore del mouse all&#39;interno del menu a discesa e seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg) per aprire il dizionario dati con le informazioni sul componente. |
+| Per modificare un segmento rapido. | Passa il mouse all&#39;interno del segmento rapido e seleziona ![Modifica](/help/assets/icons/Edit.svg). Vedi [Segmenti rapidi](/help/components/segments/seg-quick.md) per ulteriori dettagli. |
+| Per richiedere una selezione per un menu a discesa. | Selezionare **[!UICONTROL Richiedi selezione]** dal menu di scelta rapida del componente. |
+| Per non consentire filtri per un menu a discesa. | Selezionare **[!UICONTROL Non consentire filtri]** dal menu di scelta rapida del componente. |
+| Per ripristinare tutti i componenti e cancellare tutte le selezioni dei menu a discesa. | Selezionare **[!UICONTROL Reimposta tutto]**. |
+
+
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di filtri in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"} per un video demo.
 
 {{videoaa}}
 
 >[!ENDSHADEBOX]
 
-
-#### Segmenti a discesa statici
-
-I segmenti a discesa statici consentono di interagire con i dati in modo controllato. Ad esempio, puoi aggiungere un segmento a discesa per i tipi di dispositivi mobili, in modo da segmentare il pannello per tablet, telefono cellulare o desktop.
-
-I segmenti a discesa statici possono essere utilizzati anche per consolidare più progetti in un unico progetto. Ad esempio, se hai creato più versioni dello stesso progetto assegnando a ciascuna un segmento Paese diverso, puoi consolidarle tutte in un unico progetto e aggiungere un segmento a discesa Paese.
-
-![Segmenti a discesa statici che mostrano il segmento del canale di mercato “Diretto” evidenziato. &#x200B;](assets/dropdown-filter-intro.png)
-
-##### Creare segmenti a discesa statici
-
-* Per i segmenti a discesa che utilizzano elementi dimensionali, seleziona una singola dimensione dal pannello a sinistra e rilasciala nella zona di rilascio del pannello tenendo premuto ⇧ (*Maiusc*). Questa azione crea un segmento a discesa con tutti gli elementi dimensionali associati a tale dimensione.
-
-  Oppure, se desideri che il segmento a discesa includa solo elementi dimensionali specifici associati a una dimensione, seleziona l’icona a forma di freccia verso destra accanto alla dimensione desiderata nel pannello di sinistra. Questa azione espone tutti gli elementi dimensionali disponibili. Seleziona più elementi dimensionali da questo elenco utilizzando ⇧ + ![Seleziona](/help/assets/icons/Select.svg) (*Maiusc* + *Seleziona*) o ^ + ![seleziona](/help/assets/icons/Select.svg) (*controllo* + *Seleziona*), quindi rilasciali nell’area di rilascio del pannello **mentre tieni premuto** ⇧.
-
-* Per i segmenti a discesa che utilizzano un singolo tipo di componente (ad esempio, solo dimensioni, solo segmenti o solo metriche), seleziona più elementi dello stesso tipo nel pannello a sinistra utilizzando ⇧ + ![Seleziona](/help/assets/icons/Select.svg) o ^ + ![Seleziona](/help/assets/icons/Select.svg). Quindi rilascia gli elementi nella zona di rilascio del pannello **mentre tieni premuto** ⇧.
-
-  Viene creato un segmento a discesa singolo con i componenti selezionati.
-
-* Per i segmenti a discesa che utilizzano un mix di componenti (ad esempio 2 metriche e 3 segmenti), seleziona più componenti utilizzando ⇧ + ![Seleziona](/help/assets/icons/Select.svg) o ^ + ![Seleziona](/help/assets/icons/Select.svg). Rilascia la selezione nella zona di rilascio del pannello **mentre tieni premuto** ⇧. In questo contesto, tutti i tipi di componente vengono trattati come segmenti a discesa separati. Ad esempio, se nella selezione includi sia metriche che elementi dimensionali, vengono creati due segmenti a discesa separati: uno include gli elementi dimensionali e l’altro include le metriche.
-
-Un segmento a discesa fornisce le seguenti opzioni del menu di scelta rapida:
-
-* **[!UICONTROL Elimina elenco a discesa]**: rimuove il segmento dal pannello.
-* **[!UICONTROL Elimina etichetta]**: rimuovere il testo visualizzato sopra un segmento a discesa. Per modificare l’etichetta, passaci sopra il puntatore e seleziona ![Modifica etichetta del segmento a discesa](/help/assets/icons/Edit.svg).
-* **[!UICONTROL Aggiungi etichetta]**: quando si aggiunge un segmento a discesa a un progetto, l&#39;etichetta viene impostata automaticamente sul nome del componente. Se elimini l’etichetta, puoi aggiungerla nuovamente con questa opzione.
-* **[!UICONTROL Selezione obbligatoria]**: richiede che nel pannello sia impostato un segmento.
-
-##### Utilizzare segmenti a discesa statici
-
-Per segmentare il pannello, gli utenti possono utilizzare il menu dei segmenti a discesa in uno dei seguenti modi:
-
-* Applicare un singolo segmento al pannello selezionandolo dal segmento a discesa.
-
-* Applicare più segmenti al pannello selezionandone più di uno dal segmento a discesa. Il pannello viene segmentato per includere uno qualsiasi dei segmenti selezionato.
-
-
-#### Segmenti a discesa dinamici
-
-I segmenti a discesa dinamici consentono di determinare i valori disponibili in base ai dati all’interno dell’intervallo di reporting del pannello e ai valori in altri segmenti a discesa. Ad esempio, puoi creare due menu a discesa dinamici utilizzando una dimensione Paesi e una dimensione Città. Quando si seleziona un paese dal menu a discesa **[!UICONTROL Paesi]**, il menu a discesa **[!UICONTROL Città]** viene modificato in modo dinamico in modo da visualizzare solo le città all&#39;interno di tale paese.
-
-Lo stesso concetto si applica a tutte le dimensioni: sono visibili solo gli elementi dimensionali che compaiono nell’intervallo di date del pannello e i segmenti selezionati. Gli elementi dimensionali selezionati nei segmenti a discesa statici influiscono sui valori disponibili nei segmenti a discesa dinamici. Tuttavia, ciò non vale per il contrario: gli elementi dimensionali selezionati nei segmenti a discesa dinamici non influiscono sui valori disponibili nei segmenti a discesa statici.
-
-La selezione manuale degli elementi dimensionali è disponibile se prevedi che un certo elemento dimensionale verrà raccolto in futuro. È inoltre possibile cancellare un segmento a discesa dinamico in modo che non contenga un valore, consentendo ad altri segmenti a discesa dinamici di contenere più valori. Seleziona **[!UICONTROL Reimposta tutto]** per cancellare la selezione da tutti i segmenti a discesa per quel pannello.
-
-Per creare un segmento a discesa dinamico:
-
-* Trascina una singola dimensione nella zona di rilascio del pannello **mentre tieni premuto** ⇧.
-
-Tieni presente che i segmenti a discesa dinamici non sono disponibili per metriche, segmenti o intervalli di date.
-
-Un segmento a discesa dinamico fornisce le stesse opzioni del menu di scelta rapida dei segmenti a discesa statici.
-
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti a discesa dinamici](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"} per un video dimostrativo.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtri dinamici a discesa](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
