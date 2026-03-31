@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
 exl-id: 1e962f52-6b56-4671-afea-d58dae67e8a8
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: ac86664e0136563d904021c72347fb544cda4a6d
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '749'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Il diagramma seguente e la tabella associata mostrano una rappresentazione di al
 | 1 | Configurazione dell’analisi del pubblico | Interfaccia di configurazione in Customer Journey Analytics utilizzata per configurare l’analisi del pubblico. |
 | 2 | Sandbox | Deve contenere il set di dati profilo che desideri aggiungere alla connessione. |
 | 3 | Set di dati di profilo | Deve includere i dati sul pubblico di Experience Platform che desideri analizzare. Questo set di dati profilo viene aggiunto alla connessione selezionata. |
-| 4 | Criterio di unione | Il criterio di unione associato ai tipi di pubblico di Experience Platform che desideri analizzare. |
+| 4 | Criteri di unione | Il criterio di unione associato ai tipi di pubblico di Experience Platform che desideri analizzare. |
 | 5 | Dati profilo | I dati di profilo associati al criterio di unione selezionato. Questi dati sono disponibili nei set di dati di Experience Platform. |
 | 6 | Nuovo set di dati di ricerca | Fornisce nomi descrittivi per le nuove dimensioni pubblico create. <p>Il set di dati di ricerca viene creato e aggiunto automaticamente alla connessione, insieme al set di dati profilo selezionato.</p> |
 | 7 | Connessione | La connessione in cui desideri aggiungere il set di dati profilo selezionato. |
@@ -78,6 +78,10 @@ Per l’analisi del pubblico sono necessari i seguenti ruoli Customer Journey An
 | [Crea configurazioni analisi del pubblico](/help/connections/audience-analysis/audience-analysis-configure.md) | Amministratore di sistema | <ul><li>Set di dati: autorizzazioni di lettura</li><li>Schemi: lettura, scrittura</li><li>Spazi dei nomi delle identità: lettura</li></ul> |
 | [Visualizzare le dimensioni di analisi del pubblico nella visualizzazione dati](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | Amministratore del profilo di prodotto per il profilo di prodotto a cui è assegnata la visualizzazione dati <p>Per ulteriori informazioni, vedere [Controllo degli accessi](/help/technotes/access-control.md).</p> | N/D |
 | Utilizzare le dimensioni di analisi del pubblico in Analysis Workspace | Accesso a una visualizzazione dati in cui sono state aggiunte le dimensioni di analisi del pubblico | N/D |
+
+## Casi di utilizzo dell’analisi del pubblico
+
+Ad esempio, casi d&#39;uso che evidenziano il valore fornito da Audience Analysis, vedi [Casi d&#39;uso di Audience Analysis](/help/connections/audience-analysis/audience-analysis-use-cases.md).
 
 ## Limiti dell’analisi del pubblico
 
