@@ -23,8 +23,8 @@ Di seguito sono riportate alcune domande frequenti sull’unione delle identità
 Puoi utilizzare una visualizzazione Flusso con la dimensione ID set di dati.
 
 1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e crea un progetto Workspace vuoto.
-2. Seleziona la scheda **[!UICONTROL ** Visualizzazioni **]** a sinistra e trascina una visualizzazione **[!UICONTROL ** Flusso **]** sull’area di lavoro a destra.
-3. Seleziona la scheda **[!UICONTROL ** Componenti **]** a sinistra e trascina la dimensione **[!UICONTROL ** ID set di dati **]** nella posizione centrale denominata **[!UICONTROL ** Dimensione o elemento **]**.
+2. Seleziona la scheda **[!UICONTROL ** Visualizzazioni **]** a sinistra e trascina una visualizzazione **[!UICONTROL **&#x200B; Flusso &#x200B;**]** sull’area di lavoro a destra.
+3. Seleziona la scheda **[!UICONTROL ** Componenti **]** a sinistra e trascina la dimensione **[!UICONTROL ** ID set di dati **]** nella posizione centrale denominata **[!UICONTROL **&#x200B; Dimensione o elemento &#x200B;**]**.
 4. Questo rapporto di flusso è interattivo. Per espandere i flussi alle pagine successive o precedenti, seleziona uno qualsiasi dei valori. Utilizza il menu di scelta rapida per espandere o comprimere le colonne. Possono essere utilizzate anche dimensioni diverse all’interno dello stesso rapporto di flusso.
 
 Se desideri rinominare gli elementi dimensione ID set di dati, puoi utilizzare un set di dati di ricerca.
