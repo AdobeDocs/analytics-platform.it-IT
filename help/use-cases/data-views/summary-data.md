@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: b54083d85c0e07605c567a8d44824884cdc18c4d
 workflow-type: tm+mt
-source-wordcount: '5021'
-ht-degree: 14%
+source-wordcount: '5014'
+ht-degree: 15%
 
 ---
 
@@ -388,7 +388,7 @@ Per utilizzare i dati di esempio in Customer Journey Analytics, crea una conness
 
 1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
 1. Seleziona **[!UICONTROL Connessioni]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
-1. Selezionare **[!UICONTROL Crea nuova connessione]**.
+1. Seleziona **[!UICONTROL Crea nuova connessione]**.
 1. In **[!UICONTROL Connessioni]** > **[!UICONTROL Connessione senza titolo]**:
    1. Immettere un **[!UICONTROL nome connessione]**, ad esempio `Example Connection Using Summary Data`.
    1. Dal menu a discesa Sandbox, seleziona la sandbox che contiene il set di dati creato e gli altri set di dati da includere.
@@ -468,10 +468,10 @@ Per poter creare rapporti sui dati corretti in Workspace, devi creare una visual
          | Nome componente | Set di dati | Tipo di dati dello schema | Percorso dello schema |
          |---|---|---|---|
          | Gruppo di annunci (ricerca) | Esempio di set di dati di ricerca | Stringa | *_tenant*.ad_group |
-         | Gruppo di annunci (riepilogo) | Esempio di set di dati di riepilogo | Stringa | *_tenant*.ad_group |
+         | Gruppo di annunci | Esempio di set di dati di riepilogo | Stringa | *_tenant*.ad_group |
          | ID campagna | Esempio di set di dati di riepilogo | Stringa | *_tenant*.campaign_id |
          | Nome campagna (ricerca) | Esempio di set di dati di ricerca | Stringa | *_tenant*.campaign_name |
-         | Nome campagna (riepilogo) | Esempio di set di dati di riepilogo | Stringa | *_tenant*.campaign_name |
+         | Nome della campagna | Esempio di set di dati di riepilogo | Stringa | *_tenant*.campaign_name |
          | Rete | Esempio di set di dati di riepilogo | Stringa | *_tenant*.network |
          | Nome pagina | Esempio di set di dati di dati evento | Stringa | *_tenant*.page_name |
          | ID persona | Esempio di set di dati di dati evento | Stringa | *_tenant*.person_id |
@@ -554,8 +554,8 @@ Viene visualizzata un&#39;area di lavoro vuota con un pannello [!UICONTROL a for
 1. Trascina **[!UICONTROL Codice di tracciamento (evento)]** da **[!UICONTROL Dimensioni]** e rilascia la dimensione nella tabella a forma libera vuota.
 1. Trascina **[!UICONTROL Ordini]** da **[!UICONTROL Metriche]** e rilascia la metrica nella colonna **[!UICONTROL Eventi]** per sostituire tale colonna nella tabella a forma libera.
 1. Trascina **[!UICONTROL Ricavi]** da **[!UICONTROL Metriche]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
-1. Trascina **[!UICONTROL Impression (riepilogo)]** da **[!UICONTROL Metriche]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
-1. Trascina **[!UICONTROL Costo (riepilogo)]** da **[!UICONTROL Metriche]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
+1. Trascina **[!UICONTROL Impression]** da **[!UICONTROL Metriche]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
+1. Trascina **[!UICONTROL Costo]** da **[!UICONTROL Metriche]** e rilascia la metrica da aggiungere come colonna aggiuntiva alla tabella a forma libera.
 1. Per salvare il progetto, seleziona **[!UICONTROL Progetto]** > **[!UICONTROL Salva]** e fornisci un nome per il progetto. Ad esempio: `Example Project Using Summary Data`.
 
 Desideri utilizzare la potenza della generazione rapporti sui dati di riepilogo e rapporti sul costo per impression e sul ritorno sulla spesa pubblicitaria (ROAS). Per generare rapporti su queste metriche, devi creare due metriche calcolate.
@@ -565,13 +565,13 @@ Desideri utilizzare la potenza della generazione rapporti sui dati di riepilogo 
    1. Specificare `Cost per Impression` per **[!UICONTROL Name]**.
    1. Seleziona **[!UICONTROL Valuta]** per **[!UICONTROL Formato]**.
    1. Specificare `4` per **[!UICONTROL Cifre decimali]**.
-   1. Utilizza ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo (Riepilogo)]** **[!UICONTROL ÷]** **[!UICONTROL Impression (Riepilogo)]** come **[!UICONTROL Definizione]**.
+   1. Utilizza ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo]** **[!UICONTROL ÷]** **[!UICONTROL Impression]** come **[!UICONTROL Definizione]**.
    1. Seleziona **[!UICONTROL Salva]**.
 1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Aggiungi]** per aggiungere un&#39;altra metrica calcolata.
    1. Specificare `Return on Ad Spend` per **[!UICONTROL Name]**.
    1. Seleziona **[!UICONTROL Valuta]** per **[!UICONTROL Formato]**.
    1. Seleziona `2` per **[!UICONTROL Cifre decimali]**.
-   1. Usa ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Ricavi (Ultimo Contatto | 30 giorni)]** **[!UICONTROL −]** ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo (Riepilogo)]** come **[!UICONTROL Definizione]**.
+   1. Utilizza ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Ricavi (Ultimo Contatto | 30 Giorni)]** **[!UICONTROL −]** ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo]** come **[!UICONTROL Definizione]**.
    1. Seleziona **[!UICONTROL Salva]**.
 
 Aggiungi le metriche calcolate al rapporto.
