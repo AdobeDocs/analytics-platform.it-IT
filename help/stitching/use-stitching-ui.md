@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 1ad1698f10dd026b0bd5e67599ef35ab3c552286
+source-git-commit: 3524a7f62fa509c477e60d4d586ed2de52191b73
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 6%
+source-wordcount: '1727'
+ht-degree: 4%
 
 ---
 
@@ -125,7 +125,7 @@ Puoi abilitare l&#39;unione delle identità quando [aggiungi](/help/connections/
 >id="connection_stitchingmetrics_badids"
 >title="ID non validi"
 >abstract="Gli ID non validi sono valori ID che influiscono gravemente sui dati di reporting."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/badids" text="ID non validi"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="ID non validi"
 
 
 ### Impostazioni del set di dati
@@ -172,11 +172,6 @@ Per abilitare l&#39;unione, nella sezione **[!UICONTROL Impostazioni dei set di 
 
 
 ### Anteprima dei set di dati
-
->[!AVAILABILITY]
->
->L&#39;interfaccia **[!UICONTROL Anteprima set di dati]** migliorata (incluse **[!UICONTROL Metriche di unione]** e **[!UICONTROL ID non validi]**) descritta in questa sezione si trova nella fase Test limitati del rilascio e potrebbe non essere ancora disponibile nell&#39;ambiente. Se non disponibile, l&#39;anteprima del set di dati verrà visualizzata come parte dell&#39;interfaccia **[!UICONTROL Impostazioni set di dati]**. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Customer Journey Analytics, consulta [Rilascio delle funzioni di Customer Journey Analytics](/help/release-notes/releases.md).
->
 
 Oltre all&#39;interfaccia standard **[!UICONTROL Anteprima set di dati]**, quando [aggiungi](/help/connections/create-connection.md#add-datasets) o [modifichi](/help/connections/create-connection.md#edit-a-dataset) set di dati in una connessione basata su persona, sono disponibili due pannelli di informazioni aggiuntivi.
 
@@ -232,7 +227,7 @@ Dopo aver salvato una connessione, il processo di unione per i set di dati abili
 
 >[!CAUTION]
 >
->Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**&#x200B;per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
+>Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
 >
 
 

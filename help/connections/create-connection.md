@@ -5,10 +5,10 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 53099bd891d939260a95cffc66e7857167901902
+source-git-commit: 3524a7f62fa509c477e60d4d586ed2de52191b73
 workflow-type: tm+mt
-source-wordcount: '9868'
-ht-degree: 88%
+source-wordcount: '9734'
+ht-degree: 89%
 
 ---
 
@@ -179,7 +179,7 @@ L’esperienza del flusso di lavoro di creazione e modifica delle connessioni po
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Connetti a origini dati](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"} per un video dimostrativo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Connetti a origini dati](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -247,8 +247,8 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
    | **[!UICONTROL ID persona]** | ID persona utilizzato per supportare la generazione di rapporti basati su persone per il set di dati. |
    | **[!UICONTROL Chiave]** | La chiave utilizzata per un set di dati di ricerca. |
    | **[!UICONTROL Chiave corrispondente]** | La chiave corrispondente utilizzata per un set di dati di ricerca. |
-   | **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
-   | **[!UICONTROL Retrocompilazione dei dati]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione. |
+   | **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
+   | **[!UICONTROL Retrocompilazione dei dati]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione. |
 
    Puoi cercare un set di dati specifico utilizzando il campo di ![ricerca](/help/assets/icons/Search.svg).
 
@@ -293,8 +293,8 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
    | **[!UICONTROL ID persona]** | ID persona utilizzato per supportare la generazione di rapporti basati su persone per il set di dati. |
    | **[!UICONTROL Chiave]** | La chiave utilizzata per un set di dati di ricerca. |
    | **[!UICONTROL Chiave corrispondente]** | La chiave corrispondente utilizzata per un set di dati di ricerca. |
-   | **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
-   | **[!UICONTROL Retrocompilazione dei dati]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione. |
+   | **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
+   | **[!UICONTROL Retrocompilazione dei dati]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione. |
 
    Puoi cercare un set di dati specifico utilizzando il campo di ![ricerca](/help/assets/icons/Search.svg).
 
@@ -318,7 +318,7 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
 >[!CONTEXTUALHELP]
 >id="cja_connection_optionalcontainers"
 >title="Contenitori opzionali"
->abstract="Seleziona contenitori aggiuntivi.<br/><br/>**[!UICONTROL Account globale &#x200B;]**: abilita la configurazione degli account globali in una connessione.<br/>**[!UICONTROL Opportunità]**: abilita la configurazione delle opportunità in una connessione.<br/>**[!UICONTROL Gruppo acquisti &#x200B;]**: abilita la configurazione dei gruppi di acquisto in una connessione."
+>abstract="Seleziona contenitori aggiuntivi.<br/><br/>**[!UICONTROL Account globale ]**: abilita la configurazione degli account globali in una connessione.<br/>**[!UICONTROL Opportunità]**: abilita la configurazione delle opportunità in una connessione.<br/>**[!UICONTROL Gruppo acquisti ]**: abilita la configurazione dei gruppi di acquisto in una connessione."
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountid"
@@ -383,7 +383,7 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
 >[!CONTEXTUALHELP]
 >id="connection_optionalcontainers"
 >title="Contenitori opzionali"
->abstract="Seleziona contenitori aggiuntivi.<br/><br/>**[!UICONTROL Account globale &#x200B;]**: abilita la configurazione degli account globali in una connessione.<br/>**[!UICONTROL Opportunità]**: abilita la configurazione delle opportunità in una connessione.<br/>**[!UICONTROL Gruppo acquisti &#x200B;]**: abilita la configurazione dei gruppi di acquisto in una connessione."
+>abstract="Seleziona contenitori aggiuntivi.<br/><br/>**[!UICONTROL Account globale ]**: abilita la configurazione degli account globali in una connessione.<br/>**[!UICONTROL Opportunità]**: abilita la configurazione delle opportunità in una connessione.<br/>**[!UICONTROL Gruppo acquisti ]**: abilita la configurazione dei gruppi di acquisto in una connessione."
 
 >[!CONTEXTUALHELP]
 >id="connection_personid"
@@ -423,7 +423,7 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
 >[!CONTEXTUALHELP]
 >id="connection_matchingkeytype"
 >title="Tipo di chiave di corrispondenza"
->abstract="Seleziona la modalità di unione: in base a una corrispondenza per campo o per contenitore.<br/><br/>**[!UICONTROL Corrispondenza per campo &#x200B;]**: seleziona un campo da unire in uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento.<br/>**[!UICONTROL Corrispondenza per contenitore]**: seleziona un contenitore da utilizzare per l’unione con uno dei set di dati dell’evento."
+>abstract="Seleziona la modalità di unione: in base a una corrispondenza per campo o per contenitore.<br/><br/>**[!UICONTROL Corrispondenza per campo ]**: seleziona un campo da unire in uno dei set di dati dell’evento. Se questo elenco è vuoto, probabilmente non hai aggiunto o configurato un set di dati evento.<br/>**[!UICONTROL Corrispondenza per contenitore]**: seleziona un contenitore da utilizzare per l’unione con uno dei set di dati dell’evento."
 
 >[!CONTEXTUALHELP]
 >id="connection_importnewdata"
@@ -449,37 +449,37 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
 >id="connection_stitching_enable"
 >title="Abilitare l’unione di identità"
 >abstract="Abilita l’unione di identità per elevare questo set di dati evento per l’analisi cross-channel."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_dialog"
 >title="Unione identità"
 >abstract="L’unione di identità deriva le informazioni sull’identità dell’utente da un set di dati o dal grafico delle identità. Questo processo può includere l’unione di dati utente provenienti da sessioni autenticate e non autenticate.<br/><br/>L’utente è responsabile del rispetto delle leggi e delle normative applicabili. Nell’ambito di tali requisiti di conformità, prima di attivare l’unione delle identità su un set di dati dovrai ottenere le necessarie autorizzazioni degli utenti finali."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
 
 >[!CONTEXTUALHELP]
 >id="connection_persistentid"
 >title="ID persistente"
 >abstract="Seleziona un ID persistente dalle identità disponibili. Un ID persistente è un identificatore disponibile su tutti gli eventi nel set di dati evento."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
 
 >[!CONTEXTUALHELP]
 >id="connection_lookbackwindow"
 >title="Intervallo di ripetizione"
 >abstract="Seleziona il periodo di tempo appropriato per l’intervallo di ripetizione da utilizzare nell’unione delle identità."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_map"
 >title="Mappa di identità dello spazio dei nomi"
 >abstract="Seleziona lo spazio dei nomi da utilizzare per scegliere l’identificatore dalla mappa di identità."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
 
 >[!CONTEXTUALHELP]
 >id="connection_namespace_graph"
 >title="Grafo delle identità dello spazio dei nomi"
 >abstract="Seleziona lo spazio dei nomi da utilizzare per scegliere l’identificatore dal grafico delle identità."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview" text="Panoramica sull’unione delle identità"
 
 
 ### Tipi di set di dati {#dataset-types}
@@ -496,7 +496,7 @@ Esistono diversi tipi di set di dati: dati [!UICONTROL Evento], dati [!UICONTROL
 |---|---|---|---|---|
 | **[!UICONTROL Evento]** | Dati che rappresentano eventi nel tempo. Ad esempio visite web, interazioni, transazioni, dati POS, dati dei sondaggi, dati ad impression, ecc. Questi dati possono essere ad esempio tipici dati di click-stream, con un ID cliente o un ID cookie e una marca temporale. Con i dati evento, hai la flessibilità di scegliere quale ID usare come ID persona. | L&#39;impostazione avviene automaticamente sulla marca temporale predefinita dagli schemi basati su evento in [!UICONTROL Experience Platform]. | Qualsiasi schema incorporato o personalizzato basato su una classe XDM con il comportamento *Serie temporali*. Alcuni esempi includono *XDM Experience Event* o *XDM Decision Event*. | Puoi scegliere quale ID persona o ID account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} desideri includere. Ogni schema di set di dati definito in Experience Platform può avere un proprio set di una o più identità definite e associate a uno spazio dei nomi delle identità. Ognuna di queste identità può essere utilizzata come ID persona o ID account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}.  Alcuni esempi includono ID cookie, ID di unione, ID utente, Codice di tracciamento, ID account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, e così via. |
 | **[!UICONTROL Ricerca]** | Ora puoi aggiungere set di dati come ricerche di campi all’interno di tutti i tipi di set di dati: Profilo, Ricerca ed Evento (l’ultimo è sempre stato supportato). Questa funzionalità aggiuntiva estende la capacità di Customer Journey Analytics di supportare modelli di dati complessi, tra cui B2B. Questi dati vengono utilizzati per cercare i valori o le chiavi presenti nei dati Evento, Profilo o Ricerca. Puoi aggiungere fino a tre livelli di ricerca. I [Campi derivati](/help/data-views/derived-fields/derived-fields.md) non possono essere utilizzati come chiavi corrispondenti per le ricerche all’interno di Connessioni. Ad esempio, puoi caricare dati di ricerca che mappano gli ID numerici nei dati evento ai nomi dei prodotti. Per un esempio, consulta l’[esempio B2B](/help/use-cases/b2b/example.md). | N/D | Qualsiasi schema incorporato o personalizzato basato su una classe XDM con comportamento *Record*, ad eccezione della classe *Profilo individuale XDM*. | N/D |
-| **[!UICONTROL Profilo]** | Dati applicati all’account, a persone, utenti, o clienti nei dati  [!UICONTROL Evento]. Ad esempio, consente di caricare dati di gestione delle relazioni con i clienti riguardanti i tuoi clienti. | N/D | Qualsiasi schema incorporato o personalizzato basato sulla classe *Profilo individuale XDM*. | Puoi scegliere quale ID persona o ID account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} desideri includere. Per ogni set di dati (esclusi i set di dati di riepilogo) definito in [!DNL Experience Platform], viene definito anche un proprio set di uno o più ID persona o ID account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. Per esempio ID cookie, ID di unione, ID utente, Codice di tracciamento, ID account, e così via.<br>![ID persona &#x200B;](assets/person-id.png)**Nota**: se crei una connessione che include set di dati con ID diversi, comparirà anche nei rapporti. Per unire i set di dati, devi utilizzare lo stesso ID persona o ID account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. |
+| **[!UICONTROL Profilo]** | Dati applicati all’account, a persone, utenti, o clienti nei dati  [!UICONTROL Evento]. Ad esempio, consente di caricare dati di gestione delle relazioni con i clienti riguardanti i tuoi clienti. | N/D | Qualsiasi schema incorporato o personalizzato basato sulla classe *Profilo individuale XDM*. | Puoi scegliere quale ID persona o ID account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} desideri includere. Per ogni set di dati (esclusi i set di dati di riepilogo) definito in [!DNL Experience Platform], viene definito anche un proprio set di uno o più ID persona o ID account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. Per esempio ID cookie, ID di unione, ID utente, Codice di tracciamento, ID account, e così via.<br>![ID persona ](assets/person-id.png)**Nota**: se crei una connessione che include set di dati con ID diversi, comparirà anche nei rapporti. Per unire i set di dati, devi utilizzare lo stesso ID persona o ID account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. |
 | **Riepilogo** | Dati di serie temporali che non sono associati a un singolo ID persona. I dati di riepilogo rappresentano i dati aggregati a un diverso livello di aggregazione, ad esempio le campagne. Puoi utilizzare questi dati in Customer Journey Analytics per supportare vari casi d’uso. Per ulteriori informazioni, consulta [Dati di riepilogo](/help/data-views/summary-data.md). | Viene impostato automaticamente sul campo marca temporale predefinito dagli schemi delle metriche di riepilogo basati sull’evento in Experience Platform. È supportata solo la granularità oraria o giornaliera. | Qualsiasi schema incorporato o personalizzato basato sulla classe *Metriche di riepilogo XDM*. | N/D |
 
 In alternativa, i tipi di set di dati elencati sopra possono essere basati su uno schema ad hoc o relazionale, anziché su uno schema generico basato su XDM.
@@ -512,11 +512,6 @@ In alternativa, i tipi di set di dati elencati sopra possono essere basati su un
 Puoi aggiungere uno o più set di dati di Experience Platform quando crei o modifichi una connessione.
 
 #### Per connessioni basate su persone
-
->[!AVAILABILITY]
->
->L&#39;interfaccia avanzata **[!UICONTROL Anteprima set di dati]** descritta in questa sezione si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell&#39;ambiente. Se non disponibile, l&#39;anteprima del set di dati verrà visualizzata come parte dell&#39;interfaccia **[!UICONTROL Impostazioni set di dati]**. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Customer Journey Analytics, consulta [Rilascio delle funzioni di Customer Journey Analytics](/help/release-notes/releases.md).
->
 
 1. In **[!UICONTROL Connessione]** > interfaccia **[!UICONTROL _Nome della connessione_]**, seleziona ![DataAdd](/help/assets/icons/DataAdd.svg) **[!UICONTROL Aggiungi set di dati]**.
 
@@ -623,11 +618,6 @@ Per modificare un set di dati già configurato per una connessione, in **[!UICON
 
 
 #### Per connessioni basate su persone
-
->[!AVAILABILITY]
->
->L&#39;interfaccia avanzata **[!UICONTROL Anteprima set di dati]** descritta in questa sezione si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell&#39;ambiente. Se non disponibile, l&#39;anteprima del set di dati verrà visualizzata come parte dell&#39;interfaccia **[!UICONTROL Impostazioni set di dati]**. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Customer Journey Analytics, consulta [Rilascio delle funzioni di Customer Journey Analytics](/help/release-notes/releases.md).
->
 
 1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica connessione]**.
 1. Seleziona ![Altro](/help/assets/icons/More.svg) per il set di dati elencato nella tabella del set di dati da modificare.
@@ -883,7 +873,7 @@ Quando procedi all&#39;eliminazione di un set di dati, riceverai un avviso che n
 
 ### Retrocompilazioni precedenti
 
-Quando selezioni ![Cronologia](/help/assets/icons/History.svg) **[!UICONTROL Retrocompilazioni precedenti]** nell&#39;interfaccia, in una finestra di dialogo **[!UICONTROL Retrocompilazioni precedenti: _Nome del set di dati_]**&#x200B;vengono visualizzate le retrocompilazioni più recenti del set di dati.
+Quando selezioni ![Cronologia](/help/assets/icons/History.svg) **[!UICONTROL Retrocompilazioni precedenti]** nell&#39;interfaccia, in una finestra di dialogo **[!UICONTROL Retrocompilazioni precedenti: _Nome del set di dati_]**vengono visualizzate le retrocompilazioni più recenti del set di dati.
 
 
 ## Anteprima della connessione {#preview}
@@ -939,8 +929,8 @@ Questa tabella mostra le due opzioni di configurazione quando i casi edge sono p
 
 | Opzione | Non ci sono ID presenti in Identity Map | Più ID, nessuno contrassegnato come primario | Più ID contrassegnati come primari | Singolo ID, contrassegnato come primario o meno | Spazio dei nomi non valido con un ID contrassegnato come primario |
 |---|---|---|---|---|---|
-| **[!UICONTROL Usa spazio dei nomi dell&#39;identità primaria] selezionato**<br/>![&#x200B; Usa spazio dei nomi dell&#39;identità primaria](assets/use-primary-identity-namespace.png) | Customer Journey Analytics rilascia la riga. | Customer Journey Analytics rilascia la riga, poiché non è specificato alcun ID primario. | Tutti gli ID contrassegnati come primari, sotto tutti gli spazi dei nomi, vengono estratti in un elenco. Sono quindi ordinati alfabeticamente. Con il nuovo ordinamento, il primo spazio dei nomi con il primo ID viene utilizzato come ID persona. | Il singolo ID viene utilizzato come ID persona. | Anche se lo spazio dei nomi può non essere valido (non presente in Adobe Experience Platform), Customer Journey Analytics utilizza l’ID primario nello spazio dei nomi come ID persona. |
-| **[!UICONTROL Spazio dei nomi specifico di Identity Map] selezionato**<br/>![&#x200B; Non utilizzare lo spazio dei nomi dell&#39;identità primaria](assets/not-use-primary-identity-namespace.png) | Customer Journey Analytics rilascia la riga. | Tutti gli ID nello spazio dei nomi selezionato vengono estratti in un elenco e il primo viene utilizzato come ID persona. | Tutti gli ID nello spazio dei nomi selezionato vengono estratti in un elenco e il primo viene utilizzato come ID persona. | Tutti gli ID nello spazio dei nomi selezionato vengono estratti in un elenco e il primo viene utilizzato come ID persona. | Tutti gli ID nello spazio dei nomi selezionato vengono estratti in un elenco e il primo viene utilizzato come ID persona. (Al momento della creazione della connessione è possibile selezionare solo uno spazio dei nomi valido, pertanto non è possibile utilizzare uno spazio dei nomi/un ID non valido come ID persona). |
+| **[!UICONTROL Usa spazio dei nomi dell&#39;identità primaria] selezionato**<br/>![ Usa spazio dei nomi dell&#39;identità primaria](assets/use-primary-identity-namespace.png) | Customer Journey Analytics rilascia la riga. | Customer Journey Analytics rilascia la riga, poiché non è specificato alcun ID primario. | Tutti gli ID contrassegnati come primari, sotto tutti gli spazi dei nomi, vengono estratti in un elenco. Sono quindi ordinati alfabeticamente. Con il nuovo ordinamento, il primo spazio dei nomi con il primo ID viene utilizzato come ID persona. | Il singolo ID viene utilizzato come ID persona. | Anche se lo spazio dei nomi può non essere valido (non presente in Adobe Experience Platform), Customer Journey Analytics utilizza l’ID primario nello spazio dei nomi come ID persona. |
+| **[!UICONTROL Spazio dei nomi specifico di Identity Map] selezionato**<br/>![ Non utilizzare lo spazio dei nomi dell&#39;identità primaria](assets/not-use-primary-identity-namespace.png) | Customer Journey Analytics rilascia la riga. | Tutti gli ID nello spazio dei nomi selezionato vengono estratti in un elenco e il primo viene utilizzato come ID persona. | Tutti gli ID nello spazio dei nomi selezionato vengono estratti in un elenco e il primo viene utilizzato come ID persona. | Tutti gli ID nello spazio dei nomi selezionato vengono estratti in un elenco e il primo viene utilizzato come ID persona. | Tutti gli ID nello spazio dei nomi selezionato vengono estratti in un elenco e il primo viene utilizzato come ID persona. (Al momento della creazione della connessione è possibile selezionare solo uno spazio dei nomi valido, pertanto non è possibile utilizzare uno spazio dei nomi/un ID non valido come ID persona). |
 
 {style="table-layout:auto"}
 
@@ -964,5 +954,5 @@ Questo calcolo viene eseguito per ogni set di dati della connessione.
 >[!MORELIKETHIS]
 >
 >* [Panoramica sull’acquisizione di dati](/help/data-ingestion/data-ingestion.md)
->* Blog: [Come sfruttare i set di dati di evento, ricerca e profilo in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/how-to-leverage-event-lookup-and-profile-datasets-in-adobe-customer-journey-analytics-12699?profile.language=it)
+>* Blog: [Come sfruttare i set di dati di evento, ricerca e profilo in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/how-to-leverage-event-lookup-and-profile-datasets-in-adobe-customer-journey-analytics-12699)
 
