@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 3524a7f62fa509c477e60d4d586ed2de52191b73
+source-git-commit: f9c2f9cef97e00eb491b815ab8e83820b2dfc032
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1712'
 ht-degree: 4%
 
 ---
@@ -125,7 +125,7 @@ Puoi abilitare l&#39;unione delle identità quando [aggiungi](/help/connections/
 >id="connection_stitchingmetrics_badids"
 >title="ID non validi"
 >abstract="Gli ID non validi sono valori ID che influiscono gravemente sui dati di reporting."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/badids" text="ID non validi"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="ID non validi"
 
 
 ### Impostazioni del set di dati
@@ -175,10 +175,6 @@ Per abilitare l&#39;unione, nella sezione **[!UICONTROL Impostazioni dei set di 
 
 Oltre all&#39;interfaccia standard **[!UICONTROL Anteprima set di dati]**, quando [aggiungi](/help/connections/create-connection.md#add-datasets) o [modifichi](/help/connections/create-connection.md#edit-a-dataset) set di dati in una connessione basata su persona, sono disponibili due pannelli di informazioni aggiuntivi.
 
->[!NOTE]
->Per i clienti che hanno implementato Customer Journey Analytics su AWS, questa funzionalità è in attesa di rilascio.
->
-
 ![Opzioni di unione identità quando si abilita l&#39;unione identità](assets/identity-stitching-ui-preview.png)
 
 #### Metriche di unione
@@ -227,7 +223,7 @@ Dopo aver salvato una connessione, il processo di unione per i set di dati abili
 
 >[!CAUTION]
 >
->Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**&#x200B;per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
+>Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
 >
 
 
