@@ -4,10 +4,10 @@ description: Pagina di destinazione di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 3afb60a60b7fd1acb414244dffdb6a6493792f9c
+source-git-commit: efdb05a28813b774ae276de4d9c59656e78618ba
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 79%
+source-wordcount: '701'
+ht-degree: 71%
 
 ---
 
@@ -22,6 +22,18 @@ Con Customer Journey Analytics puoi definire come collegare i dati online e offl
 Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Customer Journey Analytics. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](../release-notes/latest.md) dettagliate. Per informazioni sempre aggiornate, visita la [pagina sugli aggiornamenti alla documentazione](../release-notes/doc-changes.md).
 
 >[!BEGINTABS]
+
+>[!TAB Pannelli di suddivisione]
+
+Ora puoi suddividere un pannello in Analysis Workspace. Esistono scenari in cui si preferisce un raggruppamento di dati e visualizzazioni in un pannello prima di applicare segmenti a un pannello.
+
+[![immagine](assets/learn-more-button.svg)](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel)
+
+>[!TAB Colonne di più dimensioni]
+
+Puoi includere fino a 5 colonne di dimensione in una tabella a forma libera, consentendoti di visualizzare più elementi dimensionali uno accanto all’altro. Ogni riga di elementi dimensionali si comporta come un singolo elemento dimensionale concatenato.
+
+[![immagine](assets/learn-more-button.svg)](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md)
 
 >[!TAB Unione nelle connessioni]
 
@@ -149,4 +161,4 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>Rimani aggiornato, contribuisci alla community e migliora la tua esperienza di Customer Journey Analytics.</b><br>Visita la community di Adobe Analytics per discutere delle funzionalità con altri professionisti. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it">Iscriviti alla community oggi stesso!</a></td></tr></tbody></table>
+<b>Rimani aggiornato, contribuisci alla community e migliora la tua esperienza di Customer Journey Analytics.</b><br>Visita la community di Adobe Analytics per discutere delle funzionalità con altri professionisti. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">Iscriviti alla community oggi stesso!</a></td></tr></tbody></table>
