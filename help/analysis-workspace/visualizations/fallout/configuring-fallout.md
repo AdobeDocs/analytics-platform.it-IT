@@ -4,56 +4,62 @@ title: Configurare Una Visualizzazione Abbandono
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 295e4c9b3b9dff5ba650456c3f62817b30fe1e3d
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 15%
+source-wordcount: '914'
+ht-degree: 12%
 
 ---
 
 # Configurare una visualizzazione dell’abbandono {#configure-fallout-visualization}
 
 
-Puoi specificare i punti di contatto per creare una sequenza di abbandono multidimensionale. Di solito, un punto di contatto è una pagina del sito. Tuttavia, i punti di contatto non sono limitati alle pagine. Ad esempio, puoi aggiungere eventi, come unità di misura, persone univoche e visite di ritorno. Puoi anche aggiungere dimensioni, come una categoria, un tipo di browser o un termine di ricerca interno.
+Puoi specificare **punti di contatto** per creare una sequenza di abbandono multidimensionale. In molti casi, un punto di contatto è una pagina del sito. Tuttavia, i punti di contatto non sono limitati alle pagine. Ad esempio, puoi aggiungere eventi, come unità di misura, persone univoche e visite di ritorno. Puoi anche aggiungere dimensioni, come una categoria, un tipo di browser o un termine di ricerca interno.
 
-Puoi anche aggiungere segmenti all’interno di un punto di contatto. Ad esempio, potrebbe essere utile confrontare segmenti, come gli utenti di iOS e Android™. Trascina i segmenti desiderati nella parte superiore dell’abbandono per aggiungere al rapporto le informazioni su di essi. Se desideri visualizzare solo tali segmenti, puoi rimuovere la linea di base Tutte le visite.
+Puoi anche aggiungere segmenti all’interno di un punto di contatto. Ad esempio, potrebbe essere utile confrontare segmenti, come gli utenti di iOS e Android. Trascina i segmenti desiderati nella parte superiore dell’abbandono per aggiungere al rapporto le informazioni su di essi. Se si desidera visualizzare solo tali segmenti, è possibile rimuovere la linea di base Tutte le persone.
 
-Non esiste alcun limite al numero di passaggi che è possibile aggiungere o al numero di dimensioni utilizzate.
+Le visualizzazioni di fallout non hanno limiti sul numero di punti di contatto che puoi aggiungere o sul numero di componenti che puoi utilizzare.
 
-Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e segmenti. Ad esempio, supponiamo che qualcuno stia guardando &quot;scarpe, camicie&quot; su una pagina e che nella pagina successiva guardi &quot;camicie, calze&quot;. il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
+Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e segmenti. Si supponga, ad esempio, che un utente stia guardando `shoes, shirt` in una pagina e che nella pagina successiva guardi `shirt, socks`. il prossimo rapporto di flusso dei prodotti da “scarpe” sarà “camicie” e “calze” e NON “camicie”.
 
 ## Utilizzo
 
 1. Aggiungi una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]**. Consulta [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
-1. Trascina una pagina, ad esempio Home, dalla dimensione Pagina al menu a discesa *Aggiungi punto di contatto*.
+
+1. Trascina un componente nel menu a discesa **[!UICONTROL Aggiungi punto di contatto]**.
+
+   >[!TIP]
+   >
+   >Puoi aggiungere una singola pagina al rapporto di abbandono, anziché l’intera dimensione. Fare clic sulla freccia destra ![ChevronRight](/help/assets/icons/ChevronRight.svg) nella dimensione pagina per scegliere una pagina specifica, ad esempio **[!UICONTROL home]**, da aggiungere al report Abbandono.
 
    ![La home page dalla dimensione Home page è stata trascinata nel campo Aggiungi punto di contatto.](assets/fallout-drag.png)
 
-   Passa il puntatore del mouse su un punto di contatto per vedere l’abbandono e altre informazioni su tale livello, come il nome del punto di contatto e il numero di persone a quel punto. E osserva il tasso di successo per quel punto di contatto (nonché confronta il tasso di successo con altri punti di contatto).
-
-   I numeri cerchiati nella porzione grigia della barra mostrano l’abbandono tra i punti di contatto (non l’abbandono complessivo per quel punto). Il **[!UICONTROL punto di contatto %]** mostra il failover riuscito dal passaggio precedente al passaggio corrente nel report di abbandono.
-
-   Puoi anche aggiungere una sola pagina al rapporto di abbandono, invece che l’intera dimensione. Fare clic sulla freccia destra ![ChevronRight](/help/assets/icons/ChevronRight.svg) nella dimensione pagina per scegliere una pagina specifica da aggiungere al report Abbandono.
-
 1. Continua ad aggiungere punti di contatto fino al completamento della sequenza.
 
-   Puoi **combinare più punti di contatto** trascinando uno o più componenti aggiuntivi su un punto di contatto.
+   I numeri cerchiati nella porzione grigia della barra mostrano l’abbandono tra i punti di contatto (non l’abbandono complessivo per quel punto). I numeri cerchiati nella parte verde della barra mostrano il passaggio riuscito dal punto di contatto precedente al punto di contatto corrente.
 
-   >[!NOTE]
-   >
-   >Per unire più segmenti si usa l’operatore AND; per unire più elementi, ad esempio elementi dimensione, si usa l’operatore OR.
+   ![Visualizzazione Abbandono](assets/fallout-visualization.png)
 
-   ![Pagina:CamerRoll o Pagina: punti di contatto fotocamera evidenziati.](assets/fallout-or.png)
+   Quando aggiungi punti di contatto, puoi effettuare una delle seguenti operazioni:
 
-1. Puoi anche **vincolare singoli punti di contatto all&#39;evento successivo** (anziché *alla fine*) all&#39;interno del percorso. Sotto ogni punto di contatto è presente un selettore con le opzioni **[!UICONTROL Percorso finale]** e **[!UICONTROL Evento successivo]**, come illustrato di seguito:
+   * Combina più componenti trascinando uno o più componenti aggiuntivi su un singolo punto di contatto.
 
-   ![La vista Tutte le visite mostra l&#39;opzione Percorso finale evidenziata. &#x200B;](assets/fallout-nexthit.png)
+     >[!NOTE]
+     >
+     >Per unire più segmenti si usa l’operatore AND; per unire più elementi, ad esempio elementi dimensione, si usa l’operatore OR.
 
-   | Opzione | Descrizione |
-   |---|---|
-   | **[!UICONTROL Percorso finale]** (predefinito) | Vengono conteggiate le persone che *alla fine* approderanno sulla pagina successiva del percorso, ma non necessariamente sull&#39;evento successivo. |
-   | **[!UICONTROL Prossimo evento]** | Vengono conteggiate le persone che arriveranno alla pagina successiva del percorso nel prossimo evento. |
+   * Riordina i punti di contatto trascinandoli a un livello diverso all’interno della gerarchia di abbandono.
 
+   * Combinare due punti di contatto trascinandone uno su un altro. Elimina il punto di contatto quando viene visualizzata la parola **[!UICONTROL Combina]**.
+
+   * Vincola singoli punti di contatto all&#39;evento successivo (anziché *alla fine*) all&#39;interno del percorso. Sotto ogni punto di contatto è presente un selettore con le opzioni **[!UICONTROL Percorso finale]** e **[!UICONTROL Evento successivo]**, come illustrato di seguito:
+
+     | Opzione | Descrizione |
+     |---|---|
+     | **[!UICONTROL Percorso finale]** (predefinito) | Vengono conteggiate le persone che *alla fine* approderanno sulla pagina successiva del percorso, ma non necessariamente sull&#39;evento successivo. |
+     | **[!UICONTROL Prossimo evento]** | Vengono conteggiate le persone che arriveranno alla pagina successiva del percorso nel prossimo evento. |
+
+   * Passa il puntatore del mouse su un punto di contatto per visualizzare l’abbandono e altre informazioni su tale livello. Le informazioni includono il nome del punto di contatto, il conteggio delle persone e la percentuale di successo. Puoi anche confrontare il tasso di successo con altri punti di contatto.
 
 ## Impostazioni {#settings}
 
@@ -73,7 +79,21 @@ Come parte della visualizzazione, sono disponibili impostazioni specifiche.
 
 Come parte della visualizzazione, sono disponibili opzioni di menu di scelta rapida specifiche.
 
-![Opzioni di abbandono](assets/fallout-options.png)
+### Accedere al menu di scelta rapida
+
+È possibile accedere al menu di scelta rapida in uno dei modi seguenti:
+
+* Passa il puntatore del mouse su un punto di contatto nella visualizzazione, quindi seleziona **[!UICONTROL Fai clic per analizzare]**.
+
+  ![Accedi al menu di scelta rapida dal passaggio del mouse](assets/fallout-tooltip-analyze.png)
+
+* Fai clic con il pulsante destro del mouse su un punto di contatto nella visualizzazione.
+
+  ![Opzioni di abbandono](assets/fallout-options.png)
+
+### Opzioni del menu di scelta rapida
+
+Sono disponibili le seguenti opzioni del menu di scelta rapida:
 
 | Opzione | Descrizione |
 |--- |--- |
