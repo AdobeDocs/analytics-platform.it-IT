@@ -4,8 +4,8 @@ keywords: clickstream;feed dati;datafeed;feed dati
 title: Confrontare la funzionalità dei feed di dati in Customer Journey Analytics e Adobe Analytics
 feature: Components
 hide: true
-hidefromtoc: true
-source-git-commit: fbd48b74505e18c24260b87b715ad036a6a60020
+exl-id: 32b71016-7c53-409f-9ce4-521a40e2eb96
+source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 1%
@@ -44,4 +44,3 @@ I feed di dati sia in Customer Journey Analytics che in Adobe Analytics consento
 ![Elaborazione dati feed dati](assets/data-feeds-data-processing.png)
 
 Il diagramma sul lato AA deve mostrare che deve essere ricevuto in ordine per visitatore.
-
