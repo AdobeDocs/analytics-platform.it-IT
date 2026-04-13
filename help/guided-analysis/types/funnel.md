@@ -27,7 +27,7 @@ L&#39;analisi ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)**[!UI
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi attrito Funnel](https://video.tv.adobe.com/v/3421663/?quality=12&learn=onn){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi attrito Funnel](https://video.tv.adobe.com/v/3431274/?captions=ita&quality=12&learn=onn){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
