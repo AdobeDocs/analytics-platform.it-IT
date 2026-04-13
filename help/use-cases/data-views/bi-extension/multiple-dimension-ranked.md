@@ -4,9 +4,10 @@ description: Caso di utilizzo con classificazione di più dimensioni per l’est
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: 7c8d01ac-47a3-4348-83ef-fea66695fbb2
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1532'
 ht-degree: 1%
 
 ---
@@ -105,7 +106,7 @@ Un esempio di pannello **[!UICONTROL Più Dimension classificati]** per il caso 
 
       Il desktop Tableau dovrebbe essere simile al seguente.
 
-      Dimension ![Filtro Classificato Multiplo Desktop Tableau](../assets/uc6-tableau-filter.png)
+      ![Filtro Classificato Multiplo Desktop Tableau](../assets/uc6-tableau-filter.png)
 
    1. Trascina **[!UICONTROL Categoria prodotto]** e rilascia accanto a **[!UICONTROL Colonne]**.
    1. Trascina **[!UICONTROL Ricavi acquisti]** e rilascia accanto a **[!UICONTROL Righe]**. Il valore diventa **[!UICONTROL SUM(Purchase Revenue)]**.
@@ -244,7 +245,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 >[!TAB StudioRS]
 
-1. Immettere le istruzioni seguenti tra ` ` ``{r} ` e ` `` ` ` in un nuovo blocco.
+1. Immetti il seguente blocco di codice in un nuovo blocco.
 
    ```R
    ## Multiple dimensions ranked

@@ -4,9 +4,10 @@ description: Caso di utilizzo con classificazione di dimensione singola per l’
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: e66ad7c4-0d49-41fe-a9fc-661fd31e8c68
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1323'
 ht-degree: 1%
 
 ---
@@ -214,7 +215,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 >[!TAB StudioRS]
 
-1. Immettere le istruzioni seguenti tra ` ` ``{r} ` e ` `` ` ` in un nuovo blocco.
+1. Immetti il seguente blocco di codice in un nuovo blocco.
 
    ```R
    library(tidyr)
@@ -240,4 +241,3 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 >[!ENDTABS]
 
 +++
-

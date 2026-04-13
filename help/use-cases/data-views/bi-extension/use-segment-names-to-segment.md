@@ -4,9 +4,10 @@ description: Utilizzare i nomi dei segmenti per segmentare il caso d’uso per l
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: bd0ff42b-7136-41b8-9dcd-75ab3ac8a523
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
@@ -77,7 +78,7 @@ Visualizzazione con **[!UICONTROL Errore durante il recupero dei dati per questo
 
       Il desktop Tableau dovrebbe essere simile al seguente.
 
-      Dimension ![Filtro Classificato Multiplo Desktop Tableau](../assets/uc9-tableau-final.png)
+      ![Filtro Classificato Multiplo Desktop Tableau](../assets/uc9-tableau-final.png)
 
 >[!TAB Ricerca]
 
@@ -153,7 +154,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 >[!TAB StudioRS]
 
-1. Immettere le istruzioni seguenti tra ` ` ``{r} ` e ` `` ` ` in un nuovo blocco. Assicurati di utilizzare il nome del filtro appropriato. Ad esempio: `Fishing Products`.
+1. Immetti il seguente blocco di codice in un nuovo blocco. Assicurati di utilizzare il nome del filtro appropriato. Ad esempio: `Fishing Products`.
 
    ```R
    ## Dimension filtered by name

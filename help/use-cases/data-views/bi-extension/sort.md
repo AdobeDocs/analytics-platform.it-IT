@@ -4,9 +4,10 @@ description: Ordinare caso d’uso per l’estensione BI in vari strumenti BI in
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: bac873a8-9003-400d-9f52-fcf734c2f56b
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -245,7 +246,7 @@ La query viene eseguita dall’estensione BI come definito in Jupyter Notebook.
 
 >[!TAB StudioRS]
 
-1. Immettere le istruzioni seguenti tra ` ` ``{r} ` e ` `` ` ` in un nuovo blocco.
+1. Immetti il seguente blocco di codice in un nuovo blocco.
 
    ```R
    ## Dimension 1 Sorted
