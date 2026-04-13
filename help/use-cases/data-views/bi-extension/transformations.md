@@ -4,9 +4,10 @@ description: Caso di utilizzo delle trasformazioni per l’estensione BI in vari
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: 2022a841-fc2a-4a76-8d91-8227e7a2130a
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1676'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Le metriche di Customer Journey Analytics sono identificate dal [!UICONTROL ID c
 I filtri definiti in Customer Journey Analytics sono disponibili nel campo **[!UICONTROL filterName]**. Quando si utilizza un campo **[!UICONTROL filterName]** in Power BI Desktop, è possibile specificare il filtro da utilizzare.
 
 **Metriche calcolate**
-Le metriche calcolate definite in Customer Journey Analytics sono identificate dal [!UICONTROL ID esterno] definito per la metrica calcolata. Ad esempio, la metrica calcolata **[!UICONTROL Nome prodotto (Conteggio distinto)]** ha [!UICONTROL ID esterno] **[!UICONTROL nome_prodotto_conteggio_distinto]** ed è visualizzata come **[!UICONTROL cm_nome_prodotto_conteggio_distinto]**&#x200B;t in Power BI Desktop.
+Le metriche calcolate definite in Customer Journey Analytics sono identificate dal [!UICONTROL ID esterno] definito per la metrica calcolata. Ad esempio, la metrica calcolata **[!UICONTROL Nome prodotto (Conteggio distinto)]** ha [!UICONTROL ID esterno] **[!UICONTROL nome_prodotto_conteggio_distinto]** ed è visualizzata come **[!UICONTROL cm_nome_prodotto_conteggio_distinto]**t in Power BI Desktop.
 
 **Intervalli di date**
 Gli intervalli di date definiti in Customer Journey Analytics sono disponibili nel campo **[!UICONTROL daterangeName]**. Quando si utilizza un campo **[!UICONTROL daterangeName]**, è possibile specificare l&#39;intervallo di date da utilizzare.
@@ -236,7 +237,7 @@ I componenti Customer Journey Analytics (dimensioni, metriche, filtri, metriche 
 
 **Trasformazioni personalizzate**
 
-1. Immettere le istruzioni seguenti tra ` ` ``{r} ` e ` `` ` ` in un nuovo blocco.
+1. Immetti il seguente blocco di codice in un nuovo blocco.
 
    ```R
    df <- dv %>%
@@ -269,4 +270,3 @@ LIMIT 1000
 >[!ENDTABS]
 
 +++
-

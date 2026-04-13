@@ -4,9 +4,10 @@ description: 'Caso di utilizzo: conteggio di valori distinti per l’estensione 
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: 6a05bce1-542c-40d3-bbb0-4a8e561438c9
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -86,7 +87,7 @@ In alternativa, puoi utilizzare la funzionalità di conteggio dei valori univoci
 
       Il desktop Tableau dovrebbe essere simile al seguente.
 
-      Dimension ![Filtro Classificato Multiplo Desktop Tableau](../assets/uc7-tableau-data.png)
+      ![Filtro Classificato Multiplo Desktop Tableau](../assets/uc7-tableau-data.png)
 
 1. Selezionare **[!UICONTROL Duplica]** dal menu di scelta rapida della scheda **[!UICONTROL Foglio 1]** per creare un secondo foglio.
 1. Selezionare **[!UICONTROL Rinomina]** dal menu di scelta rapida della scheda **[!UICONTROL Foglio 1]** per rinominare il foglio in `Data`.
@@ -101,7 +102,7 @@ In alternativa, puoi utilizzare la funzionalità di conteggio dei valori univoci
 
    Il desktop Tableau dovrebbe essere simile al seguente.
 
-   Dimension ![Filtro Classificato Multiplo Desktop Tableau](../assets/uc7-tableau-card.png)
+   ![Filtro Classificato Multiplo Desktop Tableau](../assets/uc7-tableau-card.png)
 
 1. Seleziona il pulsante della scheda **[!UICONTROL Nuovo dashboard]** (in basso) per creare una nuova visualizzazione **[!UICONTROL Dashboard 1]**. Nella visualizzazione **[!UICONTROL Dashboard 1]**:
    1. Trascina e rilascia il foglio **[!UICONTROL Scheda]** dallo scaffale **[!UICONTROL Fogli]** nella visualizzazione **[!UICONTROL Dashboard 1]** che contiene *Rilascia qui i fogli*.
@@ -159,7 +160,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 >[!TAB StudioRS]
 
-1. Immettere le istruzioni seguenti tra ` ` ``{r} ` e ` `` ` ` in un nuovo blocco.
+1. Immetti il seguente blocco di codice in un nuovo blocco.
 
    ```R
    ## Count Distinct
@@ -177,4 +178,3 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 >[!ENDTABS]
 
 +++
-

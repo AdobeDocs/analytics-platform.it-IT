@@ -4,9 +4,10 @@ description: Utilizzare i valori di dimensione per segmentare il caso d’uso pe
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: 8557b424-4a5e-4996-8e2f-cf1bcafe64c5
+source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -83,7 +84,7 @@ Visualizzazione con **[!UICONTROL Errore durante il recupero dei dati per questo
 
       Il desktop Tableau dovrebbe essere simile al seguente.
 
-      Dimension ![Filtro Classificato Multiplo Desktop Tableau](../assets/uc10-tableau-final.png)
+      ![Filtro Classificato Multiplo Desktop Tableau](../assets/uc10-tableau-final.png)
 
 >[!TAB Ricerca]
 
@@ -154,7 +155,7 @@ Le ricerche di ![AlertRed](/help/assets/icons/AlertRed.svg) non mostrano l&#39;e
 
 >[!TAB StudioRS]
 
-1. Immettere le istruzioni seguenti tra ` ` ``{r} ` e ` `` ` ` in un nuovo blocco. Assicurati di utilizzare una categoria appropriata. Ad esempio, `Hunting`.
+1. Immetti il seguente blocco di codice in un nuovo blocco. Assicurati di utilizzare una categoria appropriata. Ad esempio, `Hunting`.
 
    ```R
    ## Dimension 1 Filtered by Dimension 2 value
@@ -173,4 +174,3 @@ Le ricerche di ![AlertRed](/help/assets/icons/AlertRed.svg) non mostrano l&#39;e
 >[!ENDTABS]
 
 +++
-
