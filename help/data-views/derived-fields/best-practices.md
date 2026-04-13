@@ -359,4 +359,4 @@ Controlla anche la configurazione della visualizzazione dati per ciascun compone
 
 ### Raccomandazioni
 
-* Regola il modello di allocazione [ e la scadenza ](/help/data-views/component-settings/persistence.md) su quella dimensione per allineare nome e comportamento. Ad esempio, una dimensione campo derivata denominata `Original Source` deve utilizzare l&#39;attribuzione Primo contatto con scadenza impostata su Persona.
+* Regola il modello di allocazione [&#x200B; e la scadenza &#x200B;](/help/data-views/component-settings/persistence.md) su quella dimensione per allineare nome e comportamento. Ad esempio, una dimensione campo derivata denominata `Original Source` deve utilizzare l&#39;attribuzione Primo contatto con scadenza impostata su Persona.
