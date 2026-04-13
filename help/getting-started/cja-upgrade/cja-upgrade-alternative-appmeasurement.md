@@ -70,7 +70,7 @@ I passaggi di base per la migrazione di un’implementazione di Adobe Analytics 
 
    1. Invia tutte le variabili in formato AppMeasurement tramite l’oggetto dati.
 
-      Per ulteriori informazioni, vedere [Mappatura della variabile dell&#39;oggetto dati in Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/data-var-mapping).
+      Per ulteriori informazioni, vedere [Mappatura della variabile dell&#39;oggetto dati in Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/data-var-mapping).
 
    1. Scegli lo schema.
 
@@ -96,7 +96,7 @@ I passaggi di base per la migrazione di un’implementazione di Adobe Analytics 
 
    1. Utilizza la mappatura dello stream di dati per mappare tutti i campi nell’oggetto dati sullo schema XDM.
 
-      Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
+      Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
 
 {{upgrade-final-step}}.
 

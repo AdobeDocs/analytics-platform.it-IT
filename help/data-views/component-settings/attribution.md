@@ -7,8 +7,8 @@ feature: Data Views
 role: Admin
 source-git-commit: 2fd79da264d60bb90e1193ead2eee67602404b4c
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 63%
+source-wordcount: '435'
+ht-degree: 58%
 
 ---
 
@@ -51,7 +51,7 @@ Per aggiornare il modello di attribuzione predefinito di un componente:
 
 1. Vai alla visualizzazione dati che contiene il componente di cui desideri aggiornare il modello di attribuzione predefinito.
 
-1. Seleziona il componente, quindi espandi la sezione **[!UICONTROL Attribution]** sul lato destro dello schermo.
+1. Seleziona il componente, quindi espandi la sezione **[!UICONTROL Attribuzione]** sul lato destro dello schermo.
 
    ![Finestra Visualizzazioni dati che evidenzia l’opzione Set attribution (Imposta attribuzione)](../assets/attribution-settings.png)
 
@@ -67,7 +67,7 @@ Per aggiornare il modello di attribuzione predefinito di un componente:
 >
 > * Copiare la metrica nella visualizzazione dati con ogni impostazione di attribuzione desiderata. Puoi includere la stessa metrica più volte in una visualizzazione dati, assegnando a ciascuna metrica un’impostazione diversa. Assicurati di etichettare correttamente ogni metrica in modo che gli analisti possano capire la differenza tra queste metriche durante la generazione dei rapporti.
 >
-> * Sovrascrivere la metrica in Analysis Workspace. Nelle [impostazioni colonna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md) di una metrica, seleziona **[!UICONTROL Use non-default attribution model]** per modificare il modello di attribuzione e l’intervallo di lookback della metrica per quel rapporto specifico.
+> * Sovrascrivere la metrica in Analysis Workspace. Nelle [Impostazioni colonna](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md) di una metrica, seleziona **[!UICONTROL Usa modello di attribuzione non predefinito]** per modificare il modello di attribuzione e l&#39;intervallo di lookback della metrica per quel rapporto specifico.
 
 ## Modelli di attribuzione {#attribution-models}
 

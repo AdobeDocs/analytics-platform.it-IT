@@ -116,7 +116,7 @@ Puoi configurare l’inizio o la fine del percorso che ti interessa. Oppure anal
    >La combinazione di **[!UICONTROL Numero di colonne]** e **[!UICONTROL Elementi espansi per colonna]** determina il numero di richieste sottostanti necessarie per creare la visualizzazione del flusso. Più alti sono questi numeri, più tempo sarà necessario per eseguire il rendering di una visualizzazione.
 
 
-1. Seleziona **[!UICONTROL Build]**.
+1. Seleziona **[!UICONTROL Genera]**.
 
 
 ### Esempio
@@ -176,7 +176,7 @@ Utilizza un menu contestuale su qualsiasi nodo della visualizzazione del flusso 
 | **[!UICONTROL Escludi elemento]** o **[!UICONTROL Ripristina elementi esclusi]** | Rimuove un nodo specifico dalla colonna e lo crea automaticamente come filtro nella parte superiore della colonna. Per ripristinare l&#39;elemento escluso, dal menu di scelta rapida selezionare **[!UICONTROL Ripristina elemento escluso]**. puoi anche aprire il segmento nella parte superiore della colonna e rimuovere la casella con l’elemento appena escluso. |
 | **[!UICONTROL Tendenza]** | Crea un diagramma di tendenza per il nodo. |
 | **[!UICONTROL Mostra colonna successiva]** / **[!UICONTROL Mostra colonna precedente]** | Mostra la colonna successiva (destra) o precedente (sinistra) della visualizzazione. |
-| **[!UICONTROL Nascondi colonna]**&#x200B;n | Nasconde la colonna selezionata dalla visualizzazione. |
+| **[!UICONTROL Nascondi colonna]**n | Nasconde la colonna selezionata dalla visualizzazione. |
 | **[!UICONTROL Espandere l&#39;intera colonna]** | Espandere una colonna per visualizzare tutti i nodi. Per impostazione predefinita, vengono visualizzati solo i primi cinque nodi. |
 | **[!UICONTROL Crea pubblico da selezione]** | Crea un pubblico in base alla colonna selezionata. |
 | **[!UICONTROL Comprimi intera colonna]** | Nasconde tutti i nodi di una colonna. |

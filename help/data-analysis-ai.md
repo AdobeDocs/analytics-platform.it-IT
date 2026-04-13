@@ -54,7 +54,7 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
 * **Autorizzazioni**: per consentire agli utenti di accedere a Data Insights Agent, è necessario concedere le autorizzazioni necessarie in [!UICONTROL Adobe Admin Console].
 
-  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
+  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
    1. In **[!UICONTROL Admin Console]**, seleziona la scheda **[!UICONTROL Prodotti]** per visualizzare la pagina **[!UICONTROL Tutti i prodotti e i servizi]**.
    1. Seleziona **[!UICONTROL Customer Journey Analytics]**.
    1. Nella scheda **[!UICONTROL Profili di prodotto]**, selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso all&#39;[!UICONTROL Assistente AI: Conoscenza del prodotto].
@@ -178,7 +178,7 @@ Adobe Experience Platform Agent Orchestrator consente di accedere alle funzional
 
 Agent Orchestrator interpreta la richiesta, determina quali agenti specializzati sono necessari e li orchestra per fornire la risposta giusta. Tiene traccia del contesto nelle interazioni a più turni, in modo da poter sfruttare naturalmente le query precedenti.
 
-Per ulteriori informazioni, consulta [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/it/products/experience-platform/agent-orchestrator.html).
+Per ulteriori informazioni, consulta [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
 
 ## Esempi di prompt per le visualizzazioni dati
 
@@ -259,7 +259,7 @@ Di seguito sono riportate le best practice per la configurazione di Customer Jou
 * **Bilanciare i componenti necessari**. Non aggiungere tutti i campi dei set di dati come metriche o componenti dimensione alla visualizzazione dati, in particolare quelli che non prevedi di utilizzare nell’analisi. In compenso, non limitarti strettamente solo ai campi che ritieni necessari per l’analisi. Una visualizzazione dati troppo limitata riduce la flessibilità dell’analisi e la funzionalità dell’agente Data Insights.
 * **Utilizzare sempre nomi descrittivi per la visualizzazione**. Assicurati che tutti i campi definiti nella visualizzazione dati, come componente metrica o dimensione, abbiano un nome di componente descrittivo. Il processo di ridenominazione dei campi con un nome descrittivo è particolarmente importante per i campi dei set di dati del connettore di origine di Adobe Analytics. Questi campi hanno spesso nomi non descrittivi non identificabili, come `eVar41` o `prop25`.
 * **Utilizzare nomi distintivi**. I nomi distintivi sono particolarmente rilevanti quando utilizzi lo stesso campo sia come componente metrica che come componente dimensione nella visualizzazione dati. Oppure quando utilizzi un campo in più componenti dello stesso tipo (ad esempio in due metriche diverse), ciascuno con impostazioni di componenti diverse.
-* **Utilizzare una convenzione per la denominazione dei componenti**. Puoi utilizzare una convenzione per la denominazione dei componenti per raggrupparli. Ad esempio, **[!UICONTROL Ordini | Prodotto]** e **[!UICONTROL Ordini | Il cliente]** è in grado di distinguere tra diverse metriche dell&#39;ordine che potrebbero esistere nei tuoi dati.
+* **Utilizzare una convenzione per la denominazione dei componenti**. Puoi utilizzare una convenzione per la denominazione dei componenti per raggrupparli. Ad esempio, **[!UICONTROL Ordini | Prodotto]** e **[!UICONTROL Ordini | Cliente]** possono distinguere tra diverse metriche dell&#39;ordine che potrebbero esistere nei tuoi dati.
 * **Utilizzare il dizionario dei dati**. Aggiungi descrizioni e altri dati rilevanti per i componenti nel dizionario dati. Al momento Data Insights Agent non utilizza i tag e le descrizioni del dizionario dati, ma potrebbe farlo in futuro.
 * **Utilizzare le metriche calcolate approvate**. Concorda un processo per utilizzare solo metriche calcolate approvate come componenti nella visualizzazione dati ed evitare di utilizzare metriche calcolate sperimentali.
 * **Condividere i segmenti richiesti**. Assicurati di condividere e rendere visibili i segmenti necessari per i prompt dell’agente Data Insights.

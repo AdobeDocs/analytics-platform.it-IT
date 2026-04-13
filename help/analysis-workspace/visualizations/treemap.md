@@ -25,7 +25,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione con mappa ad albero in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Mappa ad albero](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/treemap) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione con mappa ad albero in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Mappa ad albero](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/treemap) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ Con una mappa ad albero, puoi vedere dei pattern che sarebbero difficili da indi
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione di mappa ad albero](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-treemap-visualizations){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione di mappa ad albero](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-treemap-visualizations){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

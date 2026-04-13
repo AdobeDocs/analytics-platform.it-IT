@@ -7,8 +7,8 @@ exl-id: 1f5b2a42-162e-45a7-9fd4-8c1557f48bb8
 role: Admin
 source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
 workflow-type: tm+mt
-source-wordcount: '2016'
-ht-degree: 99%
+source-wordcount: '2043'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 <!-- markdownlint-enable MD034 -->
 
 
-1. In Customer Journey Analytics, passa a **[!UICONTROL Tools]** > **[!UICONTROL Reporting Activity Manager]**.
+1. In Customer Journey Analytics, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Gestione attività di reporting]**.
 
    Viene visualizzato un elenco delle connessioni di base abilitate.
 
@@ -67,12 +67,12 @@ Per ulteriori informazioni su Reporting Activity Manager, inclusi i vantaggi chi
 
    | Elemento nell’interfaccia utente | Descrizione |
    | --- | --- |
-   | **[!UICONTROL Connection]** | La connessione di cui si sta monitorando l’attività di reporting. |
-   | **[!UICONTROL Data Views]** | Mostra tutte le visualizzazioni dati che utilizzano la connessione. La configurazione della visualizzazione dati può aggiungere complessità alle richieste di reporting. |
-   | **[!UICONTROL Capacity utilization]** | Percentuale della capacità di reporting della connessione utilizzata, in tempo reale. <p>**Nota**: una capacità di utilizzo pari al 100% non indica necessariamente che è necessario avviare immediatamente l’annullamento delle richieste di reporting. La capacità di utilizzo del 100% può essere integra se il tempo medio di attesa è ragionevole. D’altra parte, una capacità di utilizzo del 100% potrebbe indicare un problema se anche il numero di richieste in coda è in crescita.</p> |
-   | **[!UICONTROL Queued requests]** | Numero di richieste in attesa di elaborazione. <!-- ??? --> |
-   | **[!UICONTROL Queue wait time]** | Tempo medio di attesa prima dell’inizio dell’elaborazione delle richieste. <!-- ???? --> |
-   | **[!UICONTROL Status]** | Gli stati possibili sono: <ul><li>[!UICONTROL **Attivo**] (blu): i rapporti sulla connessione sono stati eseguiti nelle ultime 2 ore. I dati mostrati nella tabella rappresentano la capacità di reporting per la connessione al momento dell’ultimo caricamento della pagina.</li><li>[!UICONTROL **Inattivo**] (grigio): non sono stati eseguiti report sulla connessione nelle ultime 2 ore, quindi non vengono visualizzati dati per la connessione.</li></ul> |
+   | **[!UICONTROL Connessione]** | La connessione di cui si sta monitorando l’attività di reporting. |
+   | **[!UICONTROL Visualizzazioni dati]** | Mostra tutte le visualizzazioni dati che utilizzano la connessione. La configurazione della visualizzazione dati può aggiungere complessità alle richieste di reporting. |
+   | **[!UICONTROL Utilizzo capacità]** | Percentuale della capacità di reporting della connessione utilizzata, in tempo reale. <p>**Nota**: una capacità di utilizzo pari al 100% non indica necessariamente che è necessario avviare immediatamente l’annullamento delle richieste di reporting. La capacità di utilizzo del 100% può essere integra se il tempo medio di attesa è ragionevole. D’altra parte, una capacità di utilizzo del 100% potrebbe indicare un problema se anche il numero di richieste in coda è in crescita.</p> |
+   | **[!UICONTROL Richieste in coda]** | Numero di richieste in attesa di elaborazione. <!-- ??? --> |
+   | **[!UICONTROL Tempo di attesa coda]** | Tempo medio di attesa prima dell’inizio dell’elaborazione delle richieste. <!-- ???? --> |
+   | **[!UICONTROL Stato]** | Gli stati possibili sono: <ul><li>[!UICONTROL **Attivo**] (blu): i rapporti sulla connessione sono stati eseguiti nelle ultime 2 ore. I dati mostrati nella tabella rappresentano la capacità di reporting per la connessione al momento dell’ultimo caricamento della pagina.</li><li>[!UICONTROL **Inattivo**] (grigio): non sono stati eseguiti report sulla connessione nelle ultime 2 ore, quindi non vengono visualizzati dati per la connessione.</li></ul> |
 
    {style="table-layout:auto"}
 
@@ -170,7 +170,7 @@ Quando selezioni la scheda [!UICONTROL **Richiesta**], nella tabella risultano d
 | [!UICONTROL **Tempo di esecuzione**] | Da quanto tempo è in esecuzione la richiesta. |
 | [!UICONTROL **Ora di inizio**] | Ora in cui è iniziata l’elaborazione della richiesta (in base all’ora locale dell’amministratore). |
 | [!UICONTROL **Tempo di attesa**] | Tempo di attesa della richiiesta prima dell’elaborazione. Questo valore è generalmente “0” quando c’è abbastanza capacità. |
-| [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfacce utente di Builder: segmento, metriche calcolate, annotazioni, tipi di pubblico, ecc.</li><li>Chiamate API da API 2.0</li><li>Avvisi<li>Esportazione tabella completa</li><li>Collegamenti Condividi con chiunque</li><li>Analisi guidata</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></li></ul><p>**Nota:** se il valore di questa colonna è [!UICONTROL **Sconosciuto**], significa che i metadati della richiesta non sono disponibili per l’utente.</p> |
+| [!UICONTROL **Applicazione**] | Le applicazioni supportate da [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfacce utente di Builder: segmento, metriche calcolate, annotazioni, tipi di pubblico, ecc.</li><li>Chiamate API da API 2.0</li><li>Avvisi<li>Esportazione tabella completa</li><li>Collegamenti Condividi con chiunque</li><li>Analisi guidata</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></li></ul><p>**Nota:** se il valore di questa colonna è [!UICONTROL **Sconosciuto**], significa che i metadati della richiesta non sono disponibili per l’utente.</p> |
 | [!UICONTROL **Utente**] | L’utente che ha avviato la richiesta. <p>**Nota:** se il valore di questa colonna è [!UICONTROL **Sconosciuto**], significa che i metadati della richiesta non sono disponibili per l’utente.</p> |
 | [!UICONTROL **Progetto**] | Salvati i nomi di progetto Workspace, gli ID di report API e così via. (I metadati possono variare tra le varie applicazioni).<p>**Nota:** se il valore di questa colonna è [!UICONTROL **Sconosciuto**], significa che il progetto non è stato salvato o i metadati della richiesta non sono disponibili per l’utente.</p> |
 | [!UICONTROL **Stato**] | Indicatori di stato: <ul><li>**In esecuzione**: richiesta in fase di elaborazione.</li><li>**In sospeso**: richiesta in attesa di elaborazione.</li></ul> |
@@ -190,7 +190,7 @@ Quando selezioni la scheda [!UICONTROL **Utente**], nella tabella sono disponibi
 | [!UICONTROL **Utente**] | L’utente che ha avviato la richiesta. Se il valore di questa colonna è [!UICONTROL **Non riconosciuto**], significa che l’utente si trova in una società di accesso per la quale non disponi di autorizzazioni amministrative. |
 | [!UICONTROL **Numero di richieste**] | Numero di richieste avviate dall’utente. |
 | [!UICONTROL **Numero di progetti**] | Numero di progetti associati all’utente. <!-- ??? --> |
-| [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfacce utente di Builder: segmento, metriche calcolate, annotazioni, tipi di pubblico, ecc.</li><li>Chiamate API da API 2.0</li><li>Avvisi<li>Esportazione tabella completa</li><li>Collegamenti Condividi con chiunque</li><li>Analisi guidata</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></li></ul> |
+| [!UICONTROL **Applicazione**] | Le applicazioni supportate da [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfacce utente di Builder: segmento, metriche calcolate, annotazioni, tipi di pubblico, ecc.</li><li>Chiamate API da API 2.0</li><li>Avvisi<li>Esportazione tabella completa</li><li>Collegamenti Condividi con chiunque</li><li>Analisi guidata</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></li></ul> |
 | [!UICONTROL **Complessità media**] | Complessità media delle richieste avviate dall’utente. <p>Il tempo di elaborazione non è uguale per tutte le richieste. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle.</p><p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:</p><ul><li>[!UICONTROL **Media limiti mese**]</li><li>[!UICONTROL **Media colonne**]</li><li>[!UICONTROL **Media segmenti**]</li></ul> |
 | [!UICONTROL **Media limiti mese**] | Numero medio di mesi inclusi nelle richieste. Più alti sono i limiti mensili, maggiore è la complessità della richiesta. |
 | [!UICONTROL **Media colonne**] | Numero medio di metriche e raggruppamenti nelle richieste incluse. Più alto è il numero di colonne, maggiore è la complessità della richiesta. |
@@ -207,7 +207,7 @@ Quando selezioni la scheda [!UICONTROL **Progetto**], nella tabella risultano di
 | [!UICONTROL **Progetto**] | Progetto in cui sono state avviate le richieste. |
 | [!UICONTROL **Numero di richieste**] | Numero di richieste associate al progetto. |
 | [!UICONTROL **Numero di utenti**] | Numero di utenti associati al progetto. <!-- ??? --> |
-| [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfacce utente di Builder: segmento, metriche calcolate, annotazioni, tipi di pubblico, ecc.</li><li>Chiamate API da API 2.0</li><li>Avvisi<li>Esportazione tabella completa</li><li>Collegamenti Condividi con chiunque</li><li>Analisi guidata</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></li></ul> |
+| [!UICONTROL **Applicazione**] | Le applicazioni supportate da [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfacce utente di Builder: segmento, metriche calcolate, annotazioni, tipi di pubblico, ecc.</li><li>Chiamate API da API 2.0</li><li>Avvisi<li>Esportazione tabella completa</li><li>Collegamenti Condividi con chiunque</li><li>Analisi guidata</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></li></ul> |
 | [!UICONTROL **Complessità media**] | Complessità media delle richieste incluse nel progetto. <p>Il tempo di elaborazione non è uguale per tutte le richieste. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle.</p><p>Il valore di questa colonna si basa su un punteggio determinato dai valori delle colonne seguenti:</p><ul><li>[!UICONTROL **Media limiti mese**]</li><li>[!UICONTROL **Media colonne**]</li><li>[!UICONTROL **Media segmenti**]</li></ul> |
 | [!UICONTROL **Media limiti mese**] | Numero medio di mesi inclusi nelle richieste. Più alti sono i limiti mensili, maggiore è la complessità della richiesta. |
 | [!UICONTROL **Media colonne**] | Numero medio di metriche e raggruppamenti nelle richieste incluse. Più alto è il numero di colonne, maggiore è la complessità della richiesta. |

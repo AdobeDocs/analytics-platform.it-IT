@@ -25,7 +25,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione di abbandono in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Abbandono](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione di abbandono in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Abbandono](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ Una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un rapporto di visualizzazione di abbandono](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un rapporto di visualizzazione di abbandono](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"}.
 
 {{videoaa}}
 

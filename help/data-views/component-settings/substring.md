@@ -7,8 +7,8 @@ exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 94%
+source-wordcount: '921'
+ht-degree: 57%
 
 ---
 
@@ -24,45 +24,45 @@ ht-degree: 94%
 <!-- markdownlint-enable MD034 -->
 
 
-Le impostazioni del componente [!UICONTROL Substring] consentono di eseguire più metodi di manipolazione delle stringhe per ottenere gli elementi dimensionali desiderati nei rapporti.
+Le impostazioni del componente [!UICONTROL Substring] consentono di eseguire più metodi di manipolazione delle stringhe per ottenere gli elementi dimensionali desiderati nei report.
 
 ![Impostazioni Substring (Sottostringa)](../assets/substring-settings.png)
 
-[!UICONTROL Substring] è disponibile solo sulle dimensioni ed è retroattivo per i dati a cui viene applicato. Si tratta di una trasformazione immediata dei dati che avviene prima dell’applicazione di segmentazioni o di altre operazioni di analisi.
+[!UICONTROL Substring] è disponibile solo nelle dimensioni ed è retroattivo per i dati a cui viene applicato. Si tratta di una trasformazione immediata dei dati che avviene prima dell’applicazione di segmentazioni o di altre operazioni di analisi.
 
 ## From the Left/Right (Da sinistra/destra)
 
-Prendi parte di una stringa in base alla sua posizione rispetto all’inizio o alla fine di una stringa. I metodi **[!UICONTROL From the Left]** e **[!UICONTROL From the Right]** forniscono due menu a discesa: **[!UICONTROL From]** (da dove inizia l&#39;output) e **[!UICONTROL To]** (dove termina l&#39;output).
+Prendi parte di una stringa in base alla sua posizione rispetto all’inizio o alla fine di una stringa. **[!UICONTROL Da sinistra]** e **[!UICONTROL Da destra]** i metodi forniscono due menu a discesa: **[!UICONTROL Da]** (da cui inizia l&#39;output) e **[!UICONTROL A]** (da cui termina l&#39;output).
 
-* **[!UICONTROL String Start]**: inizio della stringa.
-* **[!UICONTROL String End]**: fine della stringa.
-* **[!UICONTROL Position]**: numero statico di caratteri da sinistra o da destra, a seconda del metodo.
-* **[!UICONTROL String]**: specifica un carattere o una sequenza di caratteri per indicare l’inizio o la fine di una stringa. Questo menu a discesa presenta anche altre opzioni:
-   * **[!UICONTROL Match]**: stringa da trovare (corrispondenza). Se l’input non corrisponde a questo campo, vengono applicale le [opzioni per nessun valore](no-value-options.md).
-   * **[!UICONTROL Index]**: il criterio **[!UICONTROL Match]** può essere presente più volte in una stringa. Questo numero intero determina quale corrispondenza considerare per avviare o terminare l’output, a seconda del metodo. Ad esempio, l’indice `1` rappresenta la prima corrispondenza. Se l’indice è superiore al numero di corrispondenze disponibili, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md).
-   * **[!UICONTROL Include String]**: casella di controllo che, se abilitata, include nell’output la stringa **[!UICONTROL Match]**.
-* **[!UICONTROL Length]**: numero intero che specifica quanti caratteri includere dopo la posizione di inizio dell’output. Disponibile solo nel menu a discesa **[!UICONTROL To]**.
+* **[!UICONTROL Inizio stringa]**: inizio della stringa.
+* **[!UICONTROL Fine stringa]**: fine della stringa.
+* **[!UICONTROL Posizione]**: numero statico di caratteri da sinistra o da destra, a seconda del metodo.
+* **[!UICONTROL Stringa]**: specifica un carattere o una sequenza di caratteri per indicare l&#39;inizio o la fine di una stringa. Questo menu a discesa presenta anche altre opzioni:
+   * **[!UICONTROL Corrispondenza]**: stringa da trovare. Se l’input non corrisponde a questo campo, vengono applicale le [opzioni per nessun valore](no-value-options.md).
+   * **[!UICONTROL Indice]**: il criterio **[!UICONTROL Corrispondenza]** può essere presente più volte in una stringa. Questo numero intero determina quale corrispondenza considerare per avviare o terminare l’output, a seconda del metodo. Ad esempio, l’indice `1` rappresenta la prima corrispondenza. Se l’indice è superiore al numero di corrispondenze disponibili, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md).
+   * **[!UICONTROL Includi stringa]**: casella di controllo che include la stringa **[!UICONTROL Corrispondenza]** nell&#39;output se abilitata.
+* **[!UICONTROL Lunghezza]**: un numero intero che specifica il numero di caratteri da includere dopo la posizione iniziale dell&#39;output. Disponibile solo nel menu a discesa **[!UICONTROL A]**.
 
 ## Delimiter (Delimitatore)
 
 Utilizza questo metodo per i campi che utilizzano un delimitatore per separare più valori stringa. Puoi estrarre un singolo elemento da utilizzare come output oppure convertire la stringa in un elemento schema di tipo array di oggetti.
 
-* **[!UICONTROL Criterion]**: come trattare l’elenco di valori delimitato.
-   * **[!UICONTROL From the Left]**: inizia dall’inizio dell’elenco delimitato e conta in avanti.
-   * **[!UICONTROL From the Right]**: inizia dalla fine dell’elenco delimitato e conta all’indietro.
-   * **[!UICONTROL Convert to array]**: considera questa dimensione come elemento schema di tipo array di oggetti.
-* **[!UICONTROL Delimiter]**: delimitatore utilizzato dal campo.
-* **[!UICONTROL Index]**: disponibile solo se il criterio è From the Left/Right (Da sinistra/Da destra). Numero dell’elemento come se si trovasse in un array. Ad esempio, se l’input della stringa è `"Fox,Turtle,Rabbit,Wolf"` con un indice pari a 3, l’output è `"Rabbit"`. Se l’indice è superiore al numero di elementi delimitati, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md).
+* **[!UICONTROL Criterio]**: come trattare l&#39;elenco di valori delimitato.
+   * **[!UICONTROL Da sinistra]**: inizia dall&#39;inizio dell&#39;elenco delimitato e conta in avanti.
+   * **[!UICONTROL Da destra]**: inizia dalla fine dell&#39;elenco delimitato e conta all&#39;indietro.
+   * **[!UICONTROL Converti in array]**: considera questa dimensione come un elemento schema di tipo array di oggetti.
+* **[!UICONTROL Delimitatore]**: delimitatore utilizzato dal campo.
+* **[!UICONTROL Indice]**: disponibile solo se il criterio è From the Left/Right (Da sinistra/Da destra). Numero dell’elemento come se si trovasse in un array. Ad esempio, se l’input della stringa è `"Fox,Turtle,Rabbit,Wolf"` con un indice pari a 3, l’output è `"Rabbit"`. Se l’indice è superiore al numero di elementi delimitati, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md).
 
 ## URL parse (Analisi URL)
 
 Da utilizzare con campi contenenti URL. Per l’URL di esempio `https://example.com/store/index.html?cid=campaign#cart`, sono disponibili le seguenti opzioni:
 
-* **[!UICONTROL Get protocol]**: ottiene il protocollo dell’URL. Esempio: `"https://"`.
-* **[!UICONTROL Get host]**: ottiene l’host dell’URL. Esempio: `"example.com"`.
-* **[!UICONTROL Get path]**: ottiene il percorso dell’URL. Esempio: `"store/index.html"`.
-* **[!UICONTROL Get query string value]**: ottiene il valore da una singola stringa di query. Inserisci il parametro della stringa di query desiderato nel campo **[!UICONTROL Query key]**. Se questo URL viene utilizzato con la chiave di query `"cid"`, l’output è `"campaign"`.
-* **[!UICONTROL Get hash value]**: ottiene il valore hash dell’URL. Esempio: `"cart"`.
+* **[!UICONTROL Ottieni protocollo]**: ottiene il protocollo dell&#39;URL. Ad esempio: `"https://"`.
+* **[!UICONTROL Ottieni host]**: ottiene l&#39;host dell&#39;URL. Ad esempio: `"example.com"`.
+* **[!UICONTROL Ottieni percorso]**: ottiene il percorso dell&#39;URL. Ad esempio: `"store/index.html"`.
+* **[!UICONTROL Ottieni valore stringa di query]**: ottiene il valore da una singola stringa di query. Inserire il parametro della stringa di query desiderato nel campo **[!UICONTROL Chiave di query]**. Se questo URL viene utilizzato con la chiave di query `"cid"`, l’output è `"campaign"`.
+* **[!UICONTROL Ottieni valore hash]**: ottiene il valore hash dell&#39;URL. Esempio: `"cart"`.
 
 Se l’input non è un URL valido o se il componente URL desiderato non è presente, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md).
 
@@ -70,18 +70,18 @@ Se l’input non è un URL valido o se il componente URL desiderato non è prese
 
 Consente di rimuovere dalla stringa spazi vuoti o caratteri speciali.
 
-* **[!UICONTROL Trim whitespaces]**: casella di controllo che, se abilitata, consente di rimuovere tutti gli spazi all’inizio e alla fine della stringa.
-* **[!UICONTROL Trim special characters]**: casella di controllo che, se abilitata, rivela un campo di input **[!UICONTROL Special characters]**. Tutti i caratteri in questo campo vengono rimossi dall’output. I caratteri multibyte non sono supportati.
+* **[!UICONTROL Ritaglia spazi vuoti]**: casella di controllo che, se abilitata, rimuove tutti gli spazi all&#39;inizio e alla fine della stringa.
+* **[!UICONTROL Taglia caratteri speciali]**: casella di controllo che, se abilitata, rivela un campo di input di **[!UICONTROL caratteri speciali]**. Tutti i caratteri in questo campo vengono rimossi dall’output. I caratteri multibyte non sono supportati.
 
 ## Regex
 
 Applica espressioni regolari a una dimensione per recuperare il valore desiderato.
 
-* **[!UICONTROL Regex]**: formula di espressione regolare.
-* **[!UICONTROL Output format]**: campo facoltativo che consente di aggiungere del testo o riordinare l’output del sottogruppo regex. Se questo campo è vuoto, l’output della stringa corrisponde all’espressione regex valutata.
-* **[!UICONTROL Case sensitive]**: casella di controllo che, se abilitata, applica all’espressione regolare la distinzione tra maiuscole e minuscole.
+* **[!UICONTROL Regex]**: la formula dell&#39;espressione regolare.
+* **[!UICONTROL Formato di output]**: campo facoltativo che consente di aggiungere testo o riordinare l&#39;output del sottogruppo regex. Se questo campo è vuoto, l’output della stringa corrisponde all’espressione regex valutata.
+* **[!UICONTROL Distinzione maiuscole/minuscole]**: casella di controllo che, se abilitata, applica all&#39;espressione regolare la distinzione tra maiuscole e minuscole.
 
-Customer Journey Analytics utilizza un sottoinsieme della sintassi delle regex in Perl. Se l’input non corrisponde all’espressione regolare e **[!UICONTROL Output format]** è vuoto, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md). Sono supportate le seguenti espressioni:
+Customer Journey Analytics utilizza un sottoinsieme della sintassi delle regex in Perl. Se l&#39;input non corrisponde all&#39;espressione regolare e il formato di output **[!UICONTROL 1} è vuoto, vengono applicate le]** opzioni per nessun valore[. ](no-value-options.md) Sono supportate le seguenti espressioni:
 
 | Espressione | Descrizione |
 | --- | --- |
@@ -115,7 +115,7 @@ Customer Journey Analytics utilizza un sottoinsieme della sintassi delle regex i
 | `a{3,}` | 3 o più di `a`. |
 | `a{3,6}` | Tra 3 e 6 di `a`. |
 
-Sono supportati anche i segnaposto di output. È possibile utilizzare queste sequenze nel **[!UICONTROL Output format]** un qualsiasi numero di volte e in qualsiasi ordine per ottenere l’output di stringa desiderato.
+Sono supportati anche i segnaposto di output. Puoi utilizzare queste sequenze nel **[!UICONTROL Formato di output]** un numero illimitato di volte e in qualsiasi ordine per ottenere l’output di stringa desiderato.
 
 | Sequenza di segnaposto di output | Descrizione |
 | --- | --- |

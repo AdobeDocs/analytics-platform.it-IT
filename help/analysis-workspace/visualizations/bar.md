@@ -15,7 +15,7 @@ ht-degree: 62%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta le visualizzazioni Barre e Barre sovrapposte in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Barre e barre sovrapposte](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/bar) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo documenta le visualizzazioni Barre e Barre sovrapposte in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Barre e barre sovrapposte](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/bar) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 
 >[!ENDSHADEBOX]
@@ -63,7 +63,7 @@ Utilizza l&#39;opzione **[!UICONTROL 100% in pila]** in ![Impostazione](/help/as
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione area](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione area](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
