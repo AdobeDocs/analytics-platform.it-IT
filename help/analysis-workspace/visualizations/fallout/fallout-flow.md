@@ -34,7 +34,7 @@ Una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un rapporto di visualizzazione di abbandono](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare un rapporto di visualizzazione di abbandono](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"}.
 
 {{videoaa}}
 

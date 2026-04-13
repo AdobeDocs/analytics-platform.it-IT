@@ -25,7 +25,7 @@ ht-degree: 80%
 
 L&#39;analisi ![Frequenza](/help/assets/icons/Histogram.svg) **[!UICONTROL Frequenza]** raggruppa i dati dell&#39;evento in base alla frequenza con cui si verificano gli eventi nel prodotto. L’asse verticale di questa analisi contiene bucket che rappresentano la frequenza dell’evento. L’asse orizzontale misura il numero di utenti o sessioni per ciascun bucket.
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/frequency)
+>[!VIDEO](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/guided-analysis/frequency)
 
 ## Casi d’uso
 

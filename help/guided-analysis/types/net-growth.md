@@ -41,7 +41,7 @@ Come nell’analisi della crescita [attiva](active-growth.md), gli utenti vengon
 >
 >Gli utenti ripetuti non vengono presi in considerazione in questo calcolo, poiché non appartengono né agli utenti acquisiti né a quelli persi.
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/net-growth)
+>[!VIDEO](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/guided-analysis/net-growth)
 
 
 ## Casi d’uso

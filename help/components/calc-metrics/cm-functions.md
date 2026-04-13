@@ -93,7 +93,7 @@ Restituisce il valore più grande in un insieme di elementi dimensionali della c
 
 >[!TIP]
 >
->Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con prestazioni migliori nel raggruppamento.
+>Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con prestazioni migliori nel raggruppamento.
 >
 
 ## Minimo colonna {#column-minimum}
@@ -123,7 +123,7 @@ Restituisce il valore più piccolo in un insieme di elementi dimensionali della 
 
 >[!TIP]
 >
->Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con le prestazioni peggiori nel raggruppamento.
+>Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con le prestazioni peggiori nel raggruppamento.
 >
 
 
