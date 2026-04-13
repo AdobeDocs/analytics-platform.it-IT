@@ -4,7 +4,8 @@ description: Utilizzare i nomi degli intervalli di date per filtrare il caso d�
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: 0962f64e9bc0fed89f52191bebe6dd0e14bde61d
+exl-id: a10818ec-a25c-4e4e-a551-14ff501750fa
+source-git-commit: 0299762a2c901852ba6b0940093809a116fa6b11
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 1%
@@ -71,7 +72,7 @@ L’intervallo di date definito nella visualizzazione a forma libera sovrascrive
 
       Il desktop Tableau dovrebbe essere simile al seguente.
 
-      Dimension ![Filtro Classificato Multiplo Desktop Tableau](../assets/uc8-tableau-final.png)
+      ![Filtro Classificato Multiplo Desktop Tableau](../assets/uc8-tableau-final.png)
 
 >[!TAB Ricerca]
 
@@ -138,7 +139,7 @@ Dovresti visualizzare una visualizzazione e una tabella simili a quelle mostrate
 
 >[!TAB StudioRS]
 
-1. Immettere le istruzioni seguenti tra ` ` ``{r} ` e ` `` ` ` in un nuovo blocco. Assicurati di utilizzare il nome dell’intervallo di date appropriato. Ad esempio: `Last Year 2023`.
+1. Immettere le istruzioni seguenti tra ` ```{r} ` e ` ``` ` in un nuovo blocco. Assicurati di utilizzare il nome dell’intervallo di date appropriato. Ad esempio: `Last Year 2023`.
 
    ```R
    ## Monthly Events for Last Year
