@@ -25,7 +25,7 @@ ht-degree: 80%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione della tabella a forma libera in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Tabella a forma libera](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
+_Questo articolo descrive la visualizzazione della tabella a forma libera in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Tabella a forma libera](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ Il modo più rapido per creare una tabella consiste nel trascinare i componenti 
 
 Se prima preferisci aggiungere diversi componenti alla tabella, quindi eseguire il rendering dei dati, puoi selezionare **[!UICONTROL Abilita generatore tabelle]**. Con il generatore abilitato, puoi trascinare dimensioni, raggruppamenti, metriche e segmenti per creare tabelle che rispondano a domande più complesse. Aggiornamenti dei dati dopo aver selezionato **[!UICONTROL Build]**.
 
-![Un generatore di tabelle a forma libera mostra ](assets/table-builder.png)
+![Un generatore di tabelle a forma libera mostra &#x200B;](assets/table-builder.png)
 
 ## Interazioni
 

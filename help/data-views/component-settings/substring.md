@@ -81,7 +81,7 @@ Applica espressioni regolari a una dimensione per recuperare il valore desiderat
 * **[!UICONTROL Formato di output]**: campo facoltativo che consente di aggiungere testo o riordinare l&#39;output del sottogruppo regex. Se questo campo è vuoto, l’output della stringa corrisponde all’espressione regex valutata.
 * **[!UICONTROL Distinzione maiuscole/minuscole]**: casella di controllo che, se abilitata, applica all&#39;espressione regolare la distinzione tra maiuscole e minuscole.
 
-Customer Journey Analytics utilizza un sottoinsieme della sintassi delle regex in Perl. Se l&#39;input non corrisponde all&#39;espressione regolare e il formato di output **[!UICONTROL 1} è vuoto, vengono applicate le]** opzioni per nessun valore[. ](no-value-options.md) Sono supportate le seguenti espressioni:
+Customer Journey Analytics utilizza un sottoinsieme della sintassi delle regex in Perl. Se l&#39;input non corrisponde all&#39;espressione regolare e il formato di output **[!UICONTROL 1&rbrace; è vuoto, vengono applicate le]** opzioni per nessun valore[. &#x200B;](no-value-options.md) Sono supportate le seguenti espressioni:
 
 | Espressione | Descrizione |
 | --- | --- |

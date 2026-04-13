@@ -37,7 +37,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 Per avviare le didascalie intelligenti generate automaticamente per una visualizzazione, seleziona ![Didascalie intelligenti](/help/assets/icons/AI.svg) in alto a destra della visualizzazione. Questa selezione genera informazioni approfondite sul linguaggio naturale.
 
-![Finestra di avvio analisi che mostra le didascalie intelligenti per la tendenza delle visualizzazioni del prodotto. ](assets/intelligent-captions.gif)
+![Finestra di avvio analisi che mostra le didascalie intelligenti per la tendenza delle visualizzazioni del prodotto. &#x200B;](assets/intelligent-captions.gif)
 
 
 Tieni presente che:
