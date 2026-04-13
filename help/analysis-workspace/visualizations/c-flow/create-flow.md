@@ -116,7 +116,7 @@ Puoi configurare l’inizio o la fine del percorso che ti interessa. Oppure anal
    >La combinazione di **[!UICONTROL Numero di colonne]** e **[!UICONTROL Elementi espansi per colonna]** determina il numero di richieste sottostanti necessarie per creare la visualizzazione del flusso. Più alti sono questi numeri, più tempo sarà necessario per eseguire il rendering di una visualizzazione.
 
 
-1. Seleziona **[!UICONTROL Build]**.
+1. Seleziona **[!UICONTROL Genera]**.
 
 
 ### Esempio

@@ -7,12 +7,12 @@ feature: Data Views
 role: Admin
 source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 100%
+source-wordcount: '208'
+ht-degree: 92%
 
 ---
 
-# Impostazioni del componente [!UICONTROL Value Bucketing] {#value-bucketing-component-settings}
+# Impostazioni del componente [!UICONTROL Bucketing dei valori] {#value-bucketing-component-settings}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -34,10 +34,10 @@ Se desideri la flessibilità di generare rapporti sia su una dimensione a blocch
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!UICONTROL Bucket value] | Una casella di controllo che consente di abilitare il bucketing. |
-| [!UICONTROL Less than] | Il limite superiore del primo bucket di dimensioni. |
-| [!UICONTROL Including] [!UICONTROL and less than] | Limiti dei bucket successivi. |
-| [!UICONTROL Greater than or equal to] | Il limite inferiore dell’ultimo bucket di dimensione. |
-| [!UICONTROL Add bucket] | Consente di aggiungere un altro bucket alla creazione a blocchi di dimensioni numeriche. È possibile aggiungere fino a 20 bucket in una singola dimensione. |
+| [!UICONTROL Valore bucket] | Una casella di controllo che consente di abilitare il bucketing. |
+| [!UICONTROL Minore di] | Il limite superiore del primo bucket di dimensioni. |
+| [!UICONTROL Incluso] [!UICONTROL e meno di] | Limiti dei bucket successivi. |
+| [!UICONTROL Maggiore o uguale a] | Il limite inferiore dell’ultimo bucket di dimensione. |
+| [!UICONTROL Aggiungi bucket] | Consente di aggiungere un altro bucket alla creazione a blocchi di dimensioni numeriche. È possibile aggiungere fino a 20 bucket in una singola dimensione. |
 
 {style="table-layout:auto"}

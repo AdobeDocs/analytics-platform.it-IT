@@ -6,8 +6,8 @@ exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
 source-git-commit: 75ceeda8f13abba92ff555505b6ebae025533d02
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 97%
+source-wordcount: '784'
+ht-degree: 80%
 
 ---
 
@@ -30,13 +30,13 @@ _Questo articolo descrive la visualizzazione della tabella a forma libera in_ ![
 >[!ENDSHADEBOX]
 
 
-In Analysis Workspace, la visualizzazione di una ![Table](/help/assets/icons/Table.svg) **[!UICONTROL Freeform table]** è la base per l’analisi dei dati interattivi. Puoi trascinare una combinazione di [componenti](/help/components/overview.md) nelle righe e nelle colonne per creare una tabella personalizzata per l’analisi. Man mano che ciascun componente viene rilasciato, la tabella viene aggiornata immediatamente e puoi subito analizzarla e approfondire i dati.
+In Analysis Workspace, una ![Tabella](/help/assets/icons/Table.svg) **[!UICONTROL Tabella a forma libera]** è la base per l&#39;analisi dei dati interattivi. Puoi trascinare una combinazione di [componenti](/help/components/overview.md) nelle righe e nelle colonne per creare una tabella personalizzata per l’analisi. Man mano che ciascun componente viene rilasciato, la tabella viene aggiornata immediatamente e puoi subito analizzarla e approfondire i dati.
 
 ![Tabella a forma libera che mostra i componenti nelle righe e nelle colonne, inclusi le Visite e gli Ordini online per più pagine web.](assets/opening-section.png)
 
-Per creare e configurare una [!UICONTROL Freeform table]:
+Per creare e configurare una [!UICONTROL tabella a forma libera]:
 
-* Aggiungi una visualizzazione ![Table](/help/assets/icons/Table.svg) **[!UICONTROL Freeform table]**. Consulta [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+* Aggiungi una visualizzazione ![Tabella](/help/assets/icons/Table.svg) **[!UICONTROL Tabella a forma libera]**. Consulta [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
 ## Tabelle automatizzate
 
@@ -46,7 +46,7 @@ Il modo più rapido per creare una tabella consiste nel trascinare i componenti 
 
 ## Generatore di tabelle a forma libera
 
-Se prima preferisci aggiungere diversi componenti alla tabella e quindi eseguire il rendering dei dati, puoi selezionare **[!UICONTROL Enable table builder]**. Con il generatore abilitato, puoi trascinare dimensioni, raggruppamenti, metriche e segmenti per creare tabelle che rispondano a domande più complesse. I dati vengono aggiornati dopo la selezione di **[!UICONTROL Build]**.
+Se prima preferisci aggiungere diversi componenti alla tabella, quindi eseguire il rendering dei dati, puoi selezionare **[!UICONTROL Abilita generatore tabelle]**. Con il generatore abilitato, puoi trascinare dimensioni, raggruppamenti, metriche e segmenti per creare tabelle che rispondano a domande più complesse. Aggiornamenti dei dati dopo aver selezionato **[!UICONTROL Build]**.
 
 ![Un generatore di tabelle a forma libera mostra &#x200B;](assets/table-builder.png)
 
@@ -62,7 +62,7 @@ Puoi interagire con una tabella a forma libera e personalizzarla in diversi modi
 
 * Puoi rapidamente [creare una nuova visualizzazione](../freeform-analysis-visualizations.md#visualize) da una o più righe utilizzando ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg).
 * È possibile inserire più righe in una singola schermata regolando la [densità di visualizzazione](/help/analysis-workspace/build-workspace-project/view-density.md) del progetto.
-* Prima dell’impaginazione ogni riga delle dimensioni può visualizzare fino a 400 righe. Seleziona il numero accanto a **[!UICONTROL Rows]** nell’intestazione della prima colonna per visualizzare più righe in una pagina. Passa a una pagina diversa utilizzando ![ChevronRight](/help/assets/icons/ChevronRight.svg) nell’intestazione della prima colonna.
+* Prima dell’impaginazione ogni riga delle dimensioni può visualizzare fino a 400 righe. Selezionare il numero accanto a **[!UICONTROL Rows]** nell&#39;intestazione della prima colonna per visualizzare più righe in una pagina. Passa a una pagina diversa utilizzando ![ChevronRight](/help/assets/icons/ChevronRight.svg) nell’intestazione della prima colonna.
 * Puoi suddividere le righe per componenti aggiuntivi. Per suddividere più righe alla volta, seleziona più righe e quindi trascina il componente successivo sopra le righe selezionate. Scopri di più sui [raggruppamenti](/help/components/dimensions/t-breakdown-fa.md).
 * Le righe possono essere [segmentate](/help/components/segments/seg-overview.md) per visualizzare un set ridotto di elementi. Impostazioni aggiuntive sono disponibili in [Impostazioni riga](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
 
@@ -75,20 +75,20 @@ Puoi interagire con una tabella a forma libera e personalizzarla in diversi modi
 
 ## Impostazioni
 
-Seleziona ![Setting](/help/assets/icons/Setting.svg) per visualizzare **[!UICONTROL Table settings]**. Sono disponibili le seguenti [impostazioni](../freeform-analysis-visualizations.md#settings) di visualizzazione specifiche:
+Selezionare ![Impostazioni](/help/assets/icons/Setting.svg) per visualizzare **[!UICONTROL Impostazioni tabella]**. Sono disponibili le seguenti [impostazioni](../freeform-analysis-visualizations.md#settings) di visualizzazione specifiche:
 
 ### Origine dati
 
 | Opzione | Descrizione |
 |---|---|
-| **[!UICONTROL Linked visualizations]**. | Elenca tutte le visualizzazioni collegate. |
-| **[!UICONTROL Show data source]** | Se è deselezionata, la tabella a forma libera che funge da origine dati per la visualizzazione è nascosta in Workspace. |
+| **[!UICONTROL Visualizzazione collegata]**. | Elenca tutte le visualizzazioni collegate. |
+| **[!UICONTROL Mostra origine dati]** | Se è deselezionata, la tabella a forma libera che funge da origine dati per la visualizzazione è nascosta in Workspace. |
 
 ### Impostazioni
 
 | Opzione | Descrizione |
 |---|---|
-| **[!UICONTROL Align dates from each columns to all start on the same row]** | Per allineare o non allineare le date di ogni colonna affinché inizino tutte sulla stessa riga. |
+| **[!UICONTROL Allinea le date di ogni colonna affinché inizino tutte sulla stessa riga]** | Per allineare o non allineare le date di ogni colonna affinché inizino tutte sulla stessa riga. |
 
 
 ## Menu di scelta rapida
@@ -97,22 +97,22 @@ Le seguenti opzioni del [menu di scelta rapida](../freeform-analysis-visualizati
 
 | Opzione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Insert copied visualization]** | Incolla (inserisci) una visualizzazione copiata altrove nello stesso progetto o in un altro progetto. |
-| **[!UICONTROL Copy data to clipboard]** | Copia i dati dalla visualizzazione negli appunti. |
-| **[!UICONTROL Copy selection to clipboard]** | Copia la selezione dalla visualizzazione negli appunti. |
-| **[!UICONTROL Download items as CSV (*nome dimensione *)]** | Scarica immediatamente gli elementi dimensionali (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Un massimo di 50.000 elementi dimensionali per la dimensione selezionata. |
-| **[!UICONTROL Copy visualization]** | Copia la visualizzazione, in modo da poterla inserire in un’altra posizione all’interno del progetto o in un progetto diverso. |
-| **[!UICONTROL Download data CSV]** | Scarica immediatamente i dati visualizzati della visualizzazione sul dispositivo locale. |
-| **[!UICONTROL Export full table...]** | Esporta la tabella completa in posizioni cloud designate. Consulta [Esporta i rapporti di Customer Journey Analytics nel cloud](../../export/export-cloud.md) |
-| **[!UICONTROL Duplicate visualization]** | Crea un duplicato esatto della visualizzazione. |
-| **[!UICONTROL Edit description]** | Aggiungi (o modifica) una descrizione di testo per la visualizzazione. Consulta [Testo](../text.md). |
-| **[!UICONTROL Get visualization link]** | Copia e condividi un collegamento direttamente alla visualizzazione. La finestra di dialogo Condividi collegamento consente di visualizzare il collegamento. Seleziona Copia per copiare il collegamento negli appunti. |
-| **[!UICONTROL Start over]** | Elimina la configurazione della visualizzazione corrente in modo da poterla riconfigurare da zero. |
+| **[!UICONTROL Inserisci visualizzazione copiata]** | Incolla (inserisci) una visualizzazione copiata altrove nello stesso progetto o in un altro progetto. |
+| **[!UICONTROL Copia dati negli Appunti]** | Copia i dati dalla visualizzazione negli appunti. |
+| **[!UICONTROL Copia selezione negli Appunti]** | Copia la selezione dalla visualizzazione negli appunti. |
+| **[!UICONTROL Scarica elementi come CSV (*nome dimensione*)]** | Scarica immediatamente gli elementi dimensionali (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Un massimo di 50.000 elementi dimensionali per la dimensione selezionata. |
+| **[!UICONTROL Copia visualizzazione]** | Copia la visualizzazione, in modo da poterla inserire in un’altra posizione all’interno del progetto o in un progetto diverso. |
+| **[!UICONTROL Scarica CSV dati]** | Scarica immediatamente i dati visualizzati della visualizzazione sul dispositivo locale. |
+| **[!UICONTROL Esporta tabella completa...]** | Esporta la tabella completa in posizioni cloud designate. Consulta [Esporta i rapporti di Customer Journey Analytics nel cloud](../../export/export-cloud.md) |
+| **[!UICONTROL Visualizzazione duplicata]** | Crea un duplicato esatto della visualizzazione. |
+| **[!UICONTROL Modifica descrizione]** | Aggiungi (o modifica) una descrizione di testo per la visualizzazione. Consulta [Testo](../text.md). |
+| **[!UICONTROL Ottieni collegamento visualizzazione]** | Copia e condividi un collegamento direttamente alla visualizzazione. La finestra di dialogo Condividi collegamento consente di visualizzare il collegamento. Seleziona Copia per copiare il collegamento negli appunti. |
+| **[!UICONTROL Ricomincia]** | Elimina la configurazione della visualizzazione corrente in modo da poterla riconfigurare da zero. |
 
 
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

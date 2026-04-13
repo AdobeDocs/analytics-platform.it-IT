@@ -7,8 +7,8 @@ feature: Data Views
 role: Admin
 source-git-commit: c526531206887acf7c750c8759d4eec5dd24935f
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 91%
+source-wordcount: '329'
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 91%
 <!-- markdownlint-enable MD034 -->
 
 
-[!UICONTROL No value options] consentono di determinare come Analysis Workspace gestisce situazioni in cui un evento in un set di dati contiene una metrica, ma la dimensione non contiene un valore. Puoi scegliere il nome di tale elemento dimensione, nasconderlo completamente o anche considerarlo come un valore effettivo.
+[!UICONTROL Nessuna opzione di valore] consente di determinare come Analysis Workspace gestisce le situazioni in cui un evento in un set di dati contiene una metrica ma la dimensione non contiene un valore. Puoi scegliere il nome di tale elemento dimensione, nasconderlo completamente o anche considerarlo come un valore effettivo.
 
 ![Opzioni per “Nessun valore”](../assets/no-value-options.png)
 
@@ -32,17 +32,17 @@ ht-degree: 91%
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **[!UICONTROL If shown, call "No value"]** | Campo di testo che consente di rinominare l’elemento dimensione **[!UICONTROL No value]** con altro nome. |
-| **[!UICONTROL Don't show "No value" by default]** | Questo valore non viene visualizzato nella generazione rapporti. Le occorrenze della metrica non collegate a questa dimensione non sono visibili nel rapporto. |
-| **[!UICONTROL Show "No value" by default]** | Mostra questo valore nella generazione rapporti. |
-| **[!UICONTROL Treat "No value" as a value]** | (Non supportato per dimensioni numeriche) Sostituisce i valori vuoti nei dati con il testo specificato in [!UICONTROL If shown, call "No value"]. Ad esempio, se la dimensione è rappresentata dai tipi di dispositivi mobili, puoi rinominare l’elemento **[!UICONTROL No value]** in “Desktop”. Quando modifichi questo campo in un valore personalizzato, tale valore viene considerato come un valore stringa legittimo. Pertanto, se in questo campo immetti il valore “Rosso”, tutte le istanze della stringa “Rosso” che compaiono nei dati stessi vengono raccolte sotto la stessa riga che hai specificato. |
+| **[!UICONTROL Se visualizzato, chiamare &quot;No value&quot;]** | Campo di testo che consente di rinominare l&#39;elemento dimensione **[!UICONTROL Nessun valore]** in un altro elemento. |
+| **[!UICONTROL Non mostrare &quot;Nessun valore&quot; per impostazione predefinita]** | Questo valore non viene visualizzato nella generazione rapporti. Le occorrenze della metrica non collegate a questa dimensione non sono visibili nel rapporto. |
+| **[!UICONTROL Mostra &quot;Nessun valore&quot; per impostazione predefinita]** | Mostra questo valore nella generazione rapporti. |
+| **[!UICONTROL Considera &quot;Nessun valore&quot; come valore]** | (Non supportato per le dimensioni numeriche) Sostituisce i valori vuoti nei dati con il testo specificato in [!UICONTROL Se visualizzato, chiamare &quot;No value&quot;]. Ad esempio, se la dimensione è rappresentata dai tipi di dispositivi mobili, è possibile rinominare l&#39;elemento **[!UICONTROL Nessun valore]** in &quot;Desktop&quot;. Quando modifichi questo campo in un valore personalizzato, tale valore viene considerato come un valore stringa legittimo. Pertanto, se in questo campo immetti il valore “Rosso”, tutte le istanze della stringa “Rosso” che compaiono nei dati stessi vengono raccolte sotto la stessa riga che hai specificato. |
 
 ## Supporto di “Nessun valore” per dimensioni numeriche {#numeric}
 
 Quando utilizzi un valore numerico come dimensione, puoi
 
-* configurare l’opzione “Nessun valore” in una visualizzazione dati. Tieni presente che tutte le impostazioni di configurazione mostrate sopra sono supportate ad eccezione di **[!UICONTROL Treat "No value" as a value]**.
-* Utilizzare **[!UICONTROL Include "No value"]** per le dimensioni numeriche in una tabella a forma libera in Workspace.
+* configurare l’opzione “Nessun valore” in una visualizzazione dati. Tutte le impostazioni di configurazione mostrate sopra sono supportate tranne **[!UICONTROL Considera &quot;Nessun valore&quot; come valore]**.
+* Utilizza **[!UICONTROL Includi &quot;Nessun valore&quot;]** per le dimensioni numeriche in una tabella a forma libera in Workspace.
 * Nel Generatore di segmenti, utilizza gli operatori **[!UICONTROL exists]** o **[!UICONTROL does not exist]** con dimensioni numeriche.
 
 

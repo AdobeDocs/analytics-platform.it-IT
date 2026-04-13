@@ -1,5 +1,5 @@
 ---
-description: Scopri come utilizzare i sottotitoli intelligenti per generare informazioni in linguaggio naturale per far emergere le tendenze nelle visualizzazioni.
+description: Scopri come utilizzare le didascalie intelligenti per generare insight in linguaggio naturale e fare emergere le tendenze all’interno delle visualizzazioni.
 title: Didascalie intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
@@ -7,7 +7,7 @@ role: User
 source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 79%
+ht-degree: 81%
 
 ---
 

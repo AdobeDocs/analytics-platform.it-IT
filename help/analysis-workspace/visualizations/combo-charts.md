@@ -6,8 +6,8 @@ exl-id: 06faa997-3a4e-4c41-b64e-64a15ada6552
 role: User
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 93%
+source-wordcount: '603'
+ht-degree: 66%
 
 ---
 
@@ -32,18 +32,18 @@ _Consulta [Combinato](https://experienceleague.adobe.com/it/docs/analytics/analy
 >[!ENDSHADEBOX]
 
 
-La visualizzazione con ![grafico combinato](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combo]** consente di creare rapidamente una visualizzazione di confronto senza dover prima creare una tabella. Puoi visualizzare chiaramente le tendenze nei dati con una combinazione di linee e barre.
+La visualizzazione ![Grafico combinato](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combo]** consente di creare rapidamente una visualizzazione di confronto senza dover prima creare una tabella. Puoi visualizzare chiaramente le tendenze nei dati con una combinazione di linee e barre.
 
-Utilizza una [!UICONTROL Combo] per:
+Utilizza un [!UICONTROL Combo] per:
 
 * Confrontare gli ordini di questa settimana con quelli nello stesso periodo dello scorso mese (e dello scorso anno).
-* Analizzare e confrontare rapidamente più metriche (come [!UICONTROL Persons] e [!UICONTROL Revenue]) tra di loro sullo stesso grafico.
-* Analizzare una metrica rispetto a una funzione (ad esempio [!UICONTROL Cumulative Average]) su un orizzonte temporale.
+* Analizza e confronta rapidamente più metriche (come [!UICONTROL Persone] e [!UICONTROL Ricavi]) tra di loro sullo stesso grafico.
+* Analizzare una metrica rispetto a una funzione (ad esempio [!UICONTROL Media cumulativa]) su un orizzonte temporale.
 
 Tieni presente che:
 
-* Aggiungere più confronti in un singolo [!UICONTROL Combo chart].
-* Se aggiungi uno o più confronti, questi devono essere dello stesso tipo, ad esempio [!UICONTROL Time comparison].
+* È possibile aggiungere più confronti in un singolo [!UICONTROL grafico combinato].
+* Se aggiungi uno o più confronti, questi devono essere dello stesso tipo, ad esempio [!UICONTROL Confronto temporale].
 * Puoi aggiungere fino a 5 confronti.
 * Puoi applicare fino a 3 segmenti a una metrica.
 * Le metriche calcolate non sono supportate nei grafici combinati.
@@ -54,17 +54,17 @@ Tieni presente che:
 
 1. Dai menu a discesa, seleziona una dimensione per l’asse X e una metrica per l’asse Y.
 
-1. Seleziona il tipo di [!UICONTROL Line comparison] che desideri utilizzare.
+1. Selezionare il tipo di [!UICONTROL Confronto righe] che si desidera utilizzare.
 
    | Tipo di confronto a linee | Definizione |
    | --- | --- |
-   | **[!UICONTROL Time comparison]** | Il tipo di confronto più comune; ad esempio, è utile per paragonare i dati attuali a qualli di 4 settimane fa. Se hai selezionato [!UICONTROL Time comparison], effettua una selezione secondaria per definire il periodo di tempo che desideri confrontare.<p>![Confronto a linee con il periodo di tempo selezionato e il campo della selezione secondaria del periodo di tempo.](assets/combo-time-period.png) |
-   | **[!UICONTROL Function]** | Potresti introdurre nel confronto una funzione come [!UICONTROL Average]. Consulta l’elenco delle [funzioni supportate](#supported-functions).<p>![Menu a discesa del confronto a linee che mostra le funzioni selezionate e un elenco delle funzioni supportate disponibili.](assets/combo-functions.png) |
-   | **[!UICONTROL Secondary metric]** | Per esempio, puoi confrontare [!UICONTROL Revenue] con un’altra metrica.<p>![Un grafico combinato che confronta due metriche.](assets/combo-2metrics-settings.png) |
+   | **[!UICONTROL Confronto delle ore]** | Il tipo di confronto più comune; ad esempio, è utile per paragonare i dati attuali a qualli di 4 settimane fa. Se hai selezionato [!UICONTROL Confronto ore], effettua una selezione secondaria per definire il periodo di tempo che desideri confrontare.<p>![Confronto a linee con il periodo di tempo selezionato e il campo della selezione secondaria del periodo di tempo.](assets/combo-time-period.png) |
+   | **[!UICONTROL Funzione]** | È possibile introdurre nel confronto una funzione come [!UICONTROL Media]. Consulta l’elenco delle [funzioni supportate](#supported-functions).<p>![Menu a discesa del confronto a linee che mostra le funzioni selezionate e un elenco delle funzioni supportate disponibili.](assets/combo-functions.png) |
+   | **[!UICONTROL Metrica secondaria]** | Ad esempio, puoi confrontare [!UICONTROL Ricavi] con un&#39;altra metrica.<p>![Un grafico combinato che confronta due metriche.](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}
 
-1. Seleziona **[!UICONTROL Build]**.
+1. Seleziona **[!UICONTROL Genera]**.
 
    L’output è simile a:
 
@@ -74,17 +74,17 @@ Tieni presente che:
 
 ## Funzioni supportate
 
-Se selezioni **[!UICONTROL Function]** come [!UICONTROL Line comparison type], verrà restituita una funzione della metrica scelta.
+Se si seleziona **[!UICONTROL Funzione]** come tipo di confronto [!UICONTROL Linee], verrà restituita una funzione della metrica scelta.
 
 | Funzione | Definizione |
 | --- | --- |
-| **[!UICONTROL Column Sum]** | Somma tutti i valori numerici di una metrica all’interno di una colonna (negli elementi di una dimensione). |
-| **[!UICONTROL Cumulative Average]** | Restituisce la media delle ultime N righe. |
-| **[!UICONTROL Median]** | Restituisce la mediana di una metrica in una colonna. La mediana è il numero al centro di un insieme di numeri. Metà dei numeri è costituita da valori maggiori o uguali alla mediana e l’altra metà da quelli minori o uguali alla mediana. |
-| **[!UICONTROL Cumulative]** | Somma cumulativa di N righe. |
-| **[!UICONTROL Column Maximum]** | Restituisce il valore più grande in un insieme di elementi dimensionali della colonna di una metrica. |
-| **[!UICONTROL Mean]** | Restituisce la media aritmetica di una metrica. |
-| **[!UICONTROL Column Minimum]** | Restituisce il valore più piccolo in un insieme di elementi dimensionali della colonna di una metrica. |
+| **[!UICONTROL Somma colonna]** | Somma tutti i valori numerici di una metrica all’interno di una colonna (negli elementi di una dimensione). |
+| **[!UICONTROL Media cumulativa]** | Restituisce la media delle ultime N righe. |
+| **[!UICONTROL Median (Mediano)]** | Restituisce la mediana di una metrica in una colonna. La mediana è il numero al centro di un insieme di numeri. Metà dei numeri è costituita da valori maggiori o uguali alla mediana e l’altra metà da quelli minori o uguali alla mediana. |
+| **[!UICONTROL Cumulativo]** | Somma cumulativa di N righe. |
+| **[!UICONTROL Massimo Colonna]** | Restituisce il valore più grande in un insieme di elementi dimensionali della colonna di una metrica. |
+| **[!UICONTROL Mean (Media)]** | Restituisce la media aritmetica di una metrica. |
+| **[!UICONTROL Minimo colonna]** | Restituisce il valore più piccolo in un insieme di elementi dimensionali della colonna di una metrica. |
 
 {style="table-layout:auto"}
 
@@ -99,6 +99,6 @@ Di seguito è riportato un esempio di grafico combinato con entrambe le funzioni
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

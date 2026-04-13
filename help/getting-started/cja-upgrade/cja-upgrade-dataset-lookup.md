@@ -7,8 +7,8 @@ feature: Basics
 exl-id: f5443ddd-81d0-43cc-99cb-215e7ddf5acf
 source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 98%
+source-wordcount: '806'
+ht-degree: 64%
 
 ---
 
@@ -39,23 +39,23 @@ Ripeti questo processo per ogni dimensione che contiene i dati da classificare.
 
 Per creare uno schema da utilizzare con un set di dati di ricerca in Customer Journey Analytics:
 
-1. In Adobe Experience Platform, seleziona **[!UICONTROL Schemas]** nella sezione **[!UICONTROL Data Management]** nella barra a sinistra.
+1. In Adobe Experience Platform, seleziona **[!UICONTROL Schemi]** nella sezione **[!UICONTROL Gestione dati]** nella barra a sinistra.
 
-1. Seleziona **[!UICONTROL Create schema]**.
+1. Seleziona **[!UICONTROL Crea schema]**.
 
    ![Creare un pulsante di schema](assets/schema-create.png)
 
-1. Seleziona **[!UICONTROL Manual]**. Questo ti consente di aggiungere manualmente campi e gruppi di campi allo schema. Scegli **[!UICONTROL Select]** per passare alla pagina successiva della procedura guidata di creazione.
+1. Seleziona **[!UICONTROL Manuale]**. Questo ti consente di aggiungere manualmente campi e gruppi di campi allo schema. Scegliere **[!UICONTROL Seleziona]** per passare alla pagina successiva della procedura guidata di creazione.
 
-1. Nella pagina **[!UICONTROL Schema details]**, seleziona **[!UICONTROL Other]** e quindi **[!UICONTROL Custom]**.
+1. Nella pagina **[!UICONTROL Dettagli schema]**, seleziona **[!UICONTROL Altro]**, quindi **[!UICONTROL Personalizzato]**.
 
    ![Crea personalizzato](assets/schema-custom.png)
 
-1. Seleziona **[!UICONTROL Create class]**.
+1. Selezionare **[!UICONTROL Crea classe]**.
 
    <!-- add screenshot -->
 
-1. Nella finestra di dialogo **[!UICONTROL Create class]** specifica un nome e una descrizione per lo schema, seleziona **[!UICONTROL Record]**, quindi **[!UICONTROL Create]**.
+1. Nella finestra di dialogo **[!UICONTROL Crea classe]**, specifica un nome e una descrizione per lo schema, seleziona **[!UICONTROL Record]**, quindi seleziona **[!UICONTROL Crea]**.
 
 1. Continua con [Creare un set di dati di ricerca](#create-a-lookup-dataset).
 
@@ -71,33 +71,33 @@ Per creare un set di dati di ricerca da utilizzare con uno schema in Customer Jo
 >
 >Il processo seguente utilizza un file CSV per creare il set di dati. Puoi anche utilizzare qualsiasi altro metodo disponibile per importare dati in Experience Platform, ad esempio la configurazione di un flusso di dati.
 
-1. In Adobe Experience Platform, seleziona **[!UICONTROL Workflows]** nella barra a sinistra.
+1. In Adobe Experience Platform, seleziona **[!UICONTROL Flussi di lavoro]** nella barra a sinistra.
 
    ![Crea personalizzato](assets/lookup-dataset-workflows.png)
 
-1. Seleziona **[!UICONTROL Map CSV to XDM schema]** quindi fai clic su **[!UICONTROL Launch]**.
+1. Seleziona **[!UICONTROL Mappa CSV su schema XDM]**, quindi seleziona **[!UICONTROL Avvia]**.
 
-1. Nella sezione **[!UICONTROL Dataset details]**, seleziona **[!UICONTROL New dataset]**.
+1. Nella sezione **[!UICONTROL Dettagli set di dati]**, seleziona **[!UICONTROL Nuovo set di dati]**.
 
 1. Specifica un nome e una descrizione per il set di dati.
 
-1. Nel campo **[!UICONTROL Schema]** seleziona lo schema creato per i set di dati di ricerca, come descritto in [Creare uno schema per i set di dati di ricerca](#create-a-schema-for-lookup-datasets).
+1. Nel campo **[!UICONTROL Schema]** selezionare lo schema creato per i set di dati di ricerca, come descritto in [Creare uno schema per i set di dati di ricerca](#create-a-schema-for-lookup-datasets).
 
-1. Seleziona **[!UICONTROL Next]**.
+1. Seleziona **[!UICONTROL Avanti]**.
 
-1. Nella sezione **[!UICONTROL Upload files]** di **[!UICONTROL Map CSV to XDM schema page]** seleziona **[!UICONTROL Choose files]**, quindi cerca nel file system il file contenente le informazioni di classificazione per la dimensione per la quale desideri applicare i dati di classificazione. Ad esempio, potrebbe trattarsi di un foglio di calcolo che elenca gli ID dei campi e i nomi corrispondenti. <!-- correct? How can I better explain what this file is?-->
+1. Nella pagina **[!UICONTROL Mappa i file CSV su schema XDM]**, nella sezione **[!UICONTROL Carica file]**, seleziona **[!UICONTROL Scegli i file]**, quindi cerca nel file system il file che contiene le informazioni sulla classificazione per la dimensione per la quale desideri applicare i dati di classificazione. Ad esempio, potrebbe trattarsi di un foglio di calcolo che elenca gli ID dei campi e i nomi corrispondenti. <!-- correct? How can I better explain what this file is?-->
 
    ![Mappare un file CSV](assets/lookup-map-csv.png)
 
-1. Seleziona **[!UICONTROL Next]**
+1. Seleziona **[!UICONTROL Avanti]**
 
-1. Dopo il caricamento del file, controlla le mappature per assicurarti che siano accurate. Le colonne del file CSV sono elencate in **[!UICONTROL Source Data]** e i campi dello schema XDM corrispondenti sono elencati in **[!UICONTROL Target Field]**.
+1. Dopo il caricamento del file, controlla le mappature per assicurarti che siano accurate. Le colonne del file CSV sono elencate in **[!UICONTROL Dati Source]** e i campi dello schema XDM corrispondenti sono elencati in **[!UICONTROL Campo di destinazione]**.
 
    Platform fornisce automaticamente consigli intelligenti per campi mappati automaticamente in base allo schema o al set di dati di destinazione selezionato. Puoi regolare manualmente le regole di mappatura in base ai tuoi casi d’uso.
 
    Per ulteriori informazioni sul processo di mappatura, consulta [Mappare un file CSV su uno schema XDM esistente](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema) nella documentazione di Experience Platform.
 
-1. Seleziona **[!UICONTROL Finish]**.
+1. Seleziona **[!UICONTROL Fine]**.
 
 1. Continua con [Aggiungere il set di dati di ricerca alla connessione in Customer Journey Analytics](#add-the-lookup-dataset-to-your-connection-in-customer-journey-analytics).
 
@@ -109,23 +109,23 @@ Ripeti questo processo per ogni dimensione che contiene i dati da classificare.
 
 Per aggiungere il set di dati di ricerca alla connessione in Customer Journey Analytics:
 
-1. In Customer Journey Analytics, seleziona **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Connessioni]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
 
-1. Seleziona l’![icona Altro](assets/More.svg) accanto alla connessione in cui desideri aggiungere il set di dati di ricerca, quindi seleziona **[!UICONTROL Edit]**.
+1. Seleziona ![Icona Altro](assets/More.svg) accanto alla connessione in cui desideri aggiungere il set di dati di ricerca, quindi seleziona **[!UICONTROL Modifica]**.
 
    <!-- add screenshot -->
 
-1. Seleziona **[!UICONTROL Add datasets]**.
+1. Seleziona **[!UICONTROL Aggiungi set di dati]**.
 
-1. Nella finestra di dialogo **[!UICONTROL Add datasets]** seleziona il set di dati di ricerca creato, quindi seleziona **[!UICONTROL Next]**.
+1. Nella finestra di dialogo **[!UICONTROL Aggiungi set di dati]**, seleziona il set di dati di ricerca creato, quindi seleziona **[!UICONTROL Successivo]**.
 
-1. Nel campo **[!UICONTROL Person ID]**, seleziona un ID persona tra le identità disponibili definite nello schema del set di dati configurato in Experience Platform. <!-- fill out other fields? -->
+1. Nel campo **[!UICONTROL ID persona]**, seleziona un ID persona dalle identità disponibili definite nello schema del set di dati configurato in Experience Platform. <!-- fill out other fields? -->
 
-1. Seleziona **[!UICONTROL Add datasets]** quindi fai clic su **[!UICONTROL Save]**.
+1. Seleziona **[!UICONTROL Aggiungi set di dati]**, quindi seleziona **[!UICONTROL Salva]**.
 
    <!-- is there a step right in between here where you select the dataset -->
 
-1. Utilizzando il campo **[!UICONTROL Key]** e il campo **[!UICONTROL Matching key]**, crea una correlazione tra il campo nel set di dati di ricerca e quello nel set di dati evento o di riepilogo.
+1. Utilizzando il campo **[!UICONTROL Chiave]** e il campo **[!UICONTROL Chiave corrispondente]**, crea una correlazione tra il campo nel set di dati di ricerca e quello nel set di dati evento o di riepilogo.
 
 1. Ripeti questo processo fino a quando tutti i set di dati di ricerca non vengono aggiunti alla connessione in Customer Journey Analytics.
 

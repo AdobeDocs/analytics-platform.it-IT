@@ -6,8 +6,8 @@ exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
 source-git-commit: b013518d8f1782219dd2cf9e5b5a89b877e3b92d
 workflow-type: tm+mt
-source-wordcount: '2125'
-ht-degree: 99%
+source-wordcount: '2175'
+ht-degree: 89%
 
 ---
 
@@ -31,7 +31,7 @@ _Questo articolo descrive il pannello Sperimentazione in_ ![CustomerJourneyAnaly
 >[!ENDSHADEBOX]
 
 
-Il pannello **[!UICONTROL Experimentation]** consente agli analisti di confrontare diverse varianti di esperienza utente, marketing o messaggistica per determinare quale sia meglio per determinare un risultato specifico. Puoi valutare l’incremento e l’affidabilità di ogni esperimento A/B da qualsiasi piattaforma di sperimentazione: online, offline, dalle soluzioni di Adobe, come Target o Journey Optimizer e persino da dati BYO (risorse disponibili).
+Il pannello **[!UICONTROL Sperimentazione]** consente agli analisti di confrontare diverse esperienze utente, varianti di marketing o di messaggistica per determinare quale sia meglio per determinare un risultato specifico. Puoi valutare l’incremento e l’affidabilità di ogni esperimento A/B da qualsiasi piattaforma di sperimentazione: online, offline, dalle soluzioni di Adobe, come Target o Journey Optimizer e persino da dati BYO (risorse disponibili).
 
 Ulteriori informazioni sull’[integrazione tra Adobe Customer Journey Analytics e Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/integrate/cja/target-reporting-in-cja).
 
@@ -56,12 +56,12 @@ Dopo che i dati dell’esperimento sono stati [acquisiti](https://experienceleag
 
 ### Aggiungere etichette di contesto alle visualizzazioni dati
 
-Nelle impostazioni delle visualizzazioni dati di Customer Journey Analytics, gli amministratori possono aggiungere a una dimensione o a una metrica [etichette di contesto](/help/data-views/component-settings/overview.md) che i servizi Customer Journey Analytics come il pannello [!UICONTROL Experimentation] possono utilizzare per i loro scopi. Per il pannello Sperimentazione vengono utilizzate due etichette predefinite:
+Nelle impostazioni delle visualizzazioni dati di Customer Journey Analytics, gli amministratori possono aggiungere [etichette di contesto](/help/data-views/component-settings/overview.md) a una dimensione o a una metrica e i servizi Customer Journey Analytics come il pannello [!UICONTROL Sperimentazione] possono utilizzare queste etichette per i loro scopi. Per il pannello Sperimentazione vengono utilizzate due etichette predefinite:
 
-* [!UICONTROL Experimentation Experiment]
-* [!UICONTROL Experimentation Variant]
+* [!UICONTROL Esperimento di sperimentazione]
+* [!UICONTROL Variante sperimentazione]
 
-Nella visualizzazione dati che contiene dati di sperimentazione, scegli due dimensioni, una con i dati di sperimentazione e una con i dati della variante. Quindi assegna a queste dimensioni le etichette **[!UICONTROL Experimentation Experiment]** e **[!UICONTROL Experimentation Variant]**.
+Nella visualizzazione dati che contiene dati di sperimentazione, scegli due dimensioni, una con i dati di sperimentazione e una con i dati della variante. Quindi assegna a queste dimensioni le etichette **[!UICONTROL Sperimentazione]** e **[!UICONTROL Variante sperimentazione]**.
 
 ![Opzioni etichetta di contesto per Sperimentazione e Variante sperimentazione.](assets/context-label.png)
 
@@ -69,9 +69,9 @@ Se queste etichette non sono presenti, il pannello Sperimentazione non funziona,
 
 ## Utilizzo
 
-Per usare un pannello **[!UICONTROL Experimentation]**:
+Per utilizzare un pannello **[!UICONTROL Sperimentazione]**:
 
-1. Crea un pannello **[!UICONTROL Experimentation]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
+1. Crea un pannello **[!UICONTROL Sperimentazione]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
 
 1. Specifica l’[input](#panel-input) per il pannello.
@@ -80,7 +80,7 @@ Per usare un pannello **[!UICONTROL Experimentation]**:
 
    >[!IMPORTANT]
    >
-   >Se la configurazione necessaria nelle visualizzazioni dati di Customer Journey Analytics non è stata completata, prima di poter procedere riceverai questo messaggio: [!UICONTROL Please configure the experiment and variant dimensions in Data views].
+   >Se la configurazione necessaria nelle visualizzazioni dati di Customer Journey Analytics non è stata completata, prima di poter procedere riceverai questo messaggio: [!UICONTROL Configura l&#39;esperimento e le dimensioni delle varianti nelle visualizzazioni dati].
    >
 
 ### Input del pannello
@@ -93,15 +93,15 @@ Per utilizzare il pannello Sperimentazione:
 
    | Impostazione | Definizione |
    | --- | --- |
-   | **[!UICONTROL Date Range]** | L’intervallo di date del pannello Sperimentazione viene impostato automaticamente in base al primo evento ricevuto in Customer Journey Analytics per l’esperimento selezionato. Se necessario, puoi limitare o espandere l’intervallo di date a un arco temporale più specifico. |
-   | **[!UICONTROL Experiment]** | Un set di varianti di un’esperienza che sono state esposte agli utenti finali per determinare quale è meglio mantenere. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Experiment]** nelle visualizzazioni dati e i dati relativi alla sperimentazione degli ultimi 6 mesi. |
-   | **[!UICONTROL Control variant]** | Una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. Una variante deve essere selezionata come controllo; una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l’etichetta **[!UICONTROL Variant]** nelle visualizzazioni dati. Questa impostazione richiama i dati delle varianti associati all’esperimento. |
-   | **[!UICONTROL Success metrics]** ➊ | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (più alto o più basso) è indicata come la *variante con le prestazioni migliori* di un esperimento. Puoi aggiungere fino a 5 metriche. |
-   | **[!UICONTROL Normalizing metric]** ➋ | La base (**[!UICONTROL Global Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Account]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Opportunity]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Buying Group]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL People]**, **[!UICONTROL Sessions]** o **[!UICONTROL Events]**) sulla quale viene eseguito un test. Ad esempio, un test può mettere a confronto i tassi di conversione di diverse varianti in cui **[!UICONTROL Conversion rate]** è calcolato come visualizzazione di pagina. |
-   | **[!UICONTROL Include confidence upper/lower bounds]** | Abilita questa opzione per mostrare i limiti superiori e inferiori per i livelli di affidabilità. |
+   | **[!UICONTROL Intervallo date]** | L’intervallo di date del pannello Sperimentazione viene impostato automaticamente in base al primo evento ricevuto in Customer Journey Analytics per l’esperimento selezionato. Se necessario, puoi limitare o espandere l’intervallo di date a un arco temporale più specifico. |
+   | **[!UICONTROL Esperimento]** | Un set di varianti di un’esperienza che sono state esposte agli utenti finali per determinare quale è meglio mantenere. Un esperimento è costituito da due o più varianti, una delle quali è considerata la variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l&#39;etichetta **[!UICONTROL Esperimento]** nelle visualizzazioni dati e i dati relativi agli ultimi 6 mesi di sperimentazione. |
+   | **[!UICONTROL Variante di controllo]** | Una delle due o più modifiche nell’esperienza di un utente finale che vengono confrontate allo scopo di identificare l’alternativa migliore. Una variante deve essere selezionata come controllo; una sola variante può essere considerata come variante di controllo. Questa impostazione è precompilata con le dimensioni a cui è stata applicata l&#39;etichetta **[!UICONTROL Variante]** nelle visualizzazioni dati. Questa impostazione richiama i dati delle varianti associati all’esperimento. |
+   | **[!UICONTROL Metriche di successo]** ➊ | La metrica o le metriche con cui un utente confronta le varianti. La variante con il risultato più auspicabile per la metrica di conversione (più alto o più basso) è indicata come la *variante con le prestazioni migliori* di un esperimento. Puoi aggiungere fino a 5 metriche. |
+   | **[!UICONTROL Normalizzazione della metrica]** ➋ | La base (**[!UICONTROL Account globale]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Opportunità]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Gruppo acquisti]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Persone]**, **[!UICONTROL Sessioni]** o **[!UICONTROL Eventi]**) su cui viene eseguito un test. Ad esempio, un test può confrontare i tassi di conversione di diverse varianti in cui **[!UICONTROL Tasso di conversione]** è calcolato come Visualizzazione pagina. |
+   | **[!UICONTROL Includi limiti superiori/inferiori di affidabilità]** | Abilita questa opzione per mostrare i limiti superiori e inferiori per i livelli di affidabilità. |
 
 
-1. Seleziona **[!UICONTROL Build]**.
+1. Seleziona **[!UICONTROL Genera]**.
 
 ### Output del pannello
 

@@ -7,12 +7,12 @@ role: Admin
 exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
 source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 88%
+source-wordcount: '376'
+ht-degree: 64%
 
 ---
 
-# Impostazioni del componente [!UICONTROL Summary data group] {#summary-data-group-component-settings}
+# Impostazioni del componente [!UICONTROL Gruppo di dati di riepilogo] {#summary-data-group-component-settings}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="dataview_component_dimension_summarydatagroup_hideinreporting"
 >title="Nascondere nel reporting"
->abstract="Selezionando questa opzione verrà abilitato **[!UICONTROL Hide component in reporting]** per tale dimensione e il componente non verrà mostrato in Analysis Workspace e in altri strumenti di reporting di Customer Journey Analytics."
+>abstract="Selezionando questa opzione verrà abilitato **[!UICONTROL Nascondi componente nel reporting]** per tale dimensione e il componente non verrà mostrato in Analysis Workspace e in altri strumenti di reporting di Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -41,11 +41,11 @@ Un gruppo di dati di riepilogo crea un’associazione tra tutte le dimensioni de
 Per creare un raggruppamento delle dimensioni:
 
 1. Seleziona una dimensione.
-1. Seleziona ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary data group]**.
-1. Abilita **[!UICONTROL Create grouping]**.
+1. Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Gruppo di dati di riepilogo]**.
+1. Abilita **[!UICONTROL Crea raggruppamento]**.
 1. Selezionare una dimensione dal menu a discesa **[!UICONTROL Dimension]** che si desidera raggruppare con la dimensione selezionata dal primo passaggio. Solo le dimensioni già aggiunte alla visualizzazione dati sono disponibili dal menu a discesa.
-1. Facoltativamente, abilita **[!UICONTROL Hide in reporting]** per nascondere la dimensione raggruppata dal reporting. L’abilitazione di questa opzione è simile alla configurazione di **[!UICONTROL Hide in reporting]** nella dimensione raggruppata separatamente. Consulta [Impostazioni dei componenti](overview.md) per ulteriori informazioni.
-1. Facoltativamente, per aggiungere ulteriori dimensioni al raggruppamento, seleziona ![Aggiungi](/help/assets/icons/Add.svg) **[!UICONTROL Add dimension to group]**.<br/>Puoi aggiungere fino a nove dimensioni, poiché in un gruppo di dati di riepilogo il limite è dieci.
+1. Facoltativamente, abilita **[!UICONTROL Nascondi nel reporting]** per nascondere la dimensione raggruppata dal reporting. L&#39;abilitazione di questa opzione è simile alla configurazione di **[!UICONTROL Nascondi nel reporting]** nella dimensione raggruppata separatamente. Consulta [Impostazioni dei componenti](overview.md) per ulteriori informazioni.
+1. Per aggiungere dimensioni aggiuntive al raggruppamento, selezionare ![Aggiungi](/help/assets/icons/Add.svg) **[!UICONTROL Aggiungi dimensione al gruppo]**.<br/>Puoi aggiungere fino a nove dimensioni, poiché in un gruppo di dati di riepilogo il limite è dieci.
 
 ## Impostazioni degli stessi componenti
 
@@ -53,7 +53,7 @@ Quando si raggruppano le dimensioni, è necessario assicurarsi che le impostazio
 Ad esempio:
 
 1. È stato creato un gruppo di dati di riepilogo per `campaign_code` (parte dei dati di riepilogo) e `tracking_code` (parte dei dati dell’evento).
-1. Hai applicato [!UICONTROL Behavior (Lower case)] alla dimensione `campaign_code` ma non alla dimensione `tracking_code`.
+1. Hai applicato [!UICONTROL Comportamento (lettere minuscole)] a `campaign_code` ma non alla dimensione `tracking_code`.
 
 I valori in `tracking_code` possono essere potenzialmente visualizzati come diversi da `campaign_code`.
 

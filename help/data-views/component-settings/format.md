@@ -7,8 +7,8 @@ feature: Data Views
 role: Admin
 source-git-commit: 6fdb6cbd6f12a0417f513565b02e3ad60c8df6cb
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 87%
+source-wordcount: '737'
+ht-degree: 86%
 
 ---
 
@@ -44,13 +44,13 @@ Il formato consente di determinare come viene visualizzato un determinato compon
 
    | Impostazione | Descrizione |
    | --- | --- |
-   | **[!UICONTROL Format]** | Consente di specificare la formattazione di un componente come Decimale, Ora, Percentuale o Valuta. |
-   | **[!UICONTROL Decimal]** | Non visibile sui tipi di dati di schema Intero. Consente di specificare il numero di posizioni decimali visualizzate da un componente. |
-   | **[!UICONTROL Date]** | Consente di determinare come visualizzare il campo data-ora quando viene utilizzato come dimensione nel reporting. [Ulteriori informazioni](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
-   | **[!UICONTROL Date-Time]** | Consente di determinare come visualizzare il campo data-ora quando viene utilizzato come dimensione nel reporting. [Ulteriori informazioni](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
-   | **[!UICONTROL Currency]** | Consente di determinare la valuta in cui visualizzare il componente. <p>Se analizzi i dati globali in cui le transazioni si verificano in valute diverse, consulta [Usa conversione valuta](#use-currency-conversion).</p> |
-   | **[!UICONTROL Show upward trend as]** | Consente di specificare se la tendenza verso l’alto per questo componente è positiva (verde) o negativa (rossa). |
-   | **[!UICONTROL True value]** e **[!UICONTROL False value]** | Visibile solo sui tipi di dati di schema Booleano. Consente di personalizzare l’etichetta per elemento dimensione per i valori `true` e `false`. |
+   | **[!UICONTROL Formato]** | Consente di specificare la formattazione di un componente come Decimale, Ora, Percentuale o Valuta. |
+   | **[!UICONTROL Decimale]** | Non visibile sui tipi di dati di schema Intero. Consente di specificare il numero di posizioni decimali visualizzate da un componente. |
+   | **[!UICONTROL Data]** | Consente di determinare come visualizzare il campo data-ora quando viene utilizzato come dimensione nel reporting. [Ulteriori informazioni](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
+   | **[!UICONTROL Data-Ora]** | Consente di determinare come visualizzare il campo data-ora quando viene utilizzato come dimensione nel reporting. [Ulteriori informazioni](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
+   | **[!UICONTROL Valuta]** | Consente di determinare la valuta in cui visualizzare il componente. <p>Se analizzi i dati globali in cui le transazioni si verificano in valute diverse, consulta [Usa conversione valuta](#use-currency-conversion).</p> |
+   | **[!UICONTROL Mostra tendenza verso l&#39;alto come]** | Consente di specificare se la tendenza verso l’alto per questo componente è positiva (verde) o negativa (rossa). |
+   | **[!UICONTROL Valore reale]** e **[!UICONTROL Valore falso]** | Visibile solo sui tipi di dati di schema Booleano. Consente di personalizzare l’etichetta per elemento dimensione per i valori `true` e `false`. |
 
    {style="table-layout:auto"}
 

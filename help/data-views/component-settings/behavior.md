@@ -7,8 +7,8 @@ feature: Data Views
 role: Admin
 source-git-commit: 50599b36d333cae3735c6d4fd1b0af6fcabe9177
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 100%
+source-wordcount: '339'
+ht-degree: 83%
 
 ---
 
@@ -32,13 +32,13 @@ Le impostazioni del comportamento sono disponibili sia per le dimensioni che per
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!UICONTROL Lower case] | Deduplica le righe che hanno lo stesso valore ma con maiuscole e minuscole diverse. Se abilitate, tutte le istanze di una dimensione con lo stesso valore vengono riportate in minuscolo. Ad esempio, i dati contengono i valori `"liverpool"`, `"Liverpool"` e `"LIVERPOOL"` in una dimensione stringa. Se [!UICONTROL Lower case] è abilitato, tutti e tre i valori vengono combinati in `"liverpool"`. Se disabilitati, tutti e tre i valori vengono trattati come distinti. |
+| [!UICONTROL Minuscolo] | Deduplica le righe che hanno lo stesso valore ma con maiuscole e minuscole diverse. Se abilitate, tutte le istanze di una dimensione con lo stesso valore vengono riportate in minuscolo. Ad esempio, i dati contengono i valori `"liverpool"`, `"Liverpool"` e `"LIVERPOOL"` in una dimensione stringa. Se [!UICONTROL Minuscolo] è abilitato, tutti e tre i valori vengono combinati in `"liverpool"`. Se disabilitati, tutti e tre i valori vengono trattati come distinti. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Se si abilita [!UICONTROL Lower case] in una dimensione set di dati di ricerca possono esistere più valori di ricerca per lo stesso identificatore. Se si verifica questo conflitto, Customer Journey Analytics utilizza il primo valore di confronto ASCII (i valori in maiuscolo precedono i valori in minuscolo). Adobe consiglia di non utilizzare set di dati di ricerca contenenti lo stesso valore quando [!UICONTROL Lower case] è abilitato.
+>Se si abilita [!UICONTROL Minuscolo] in una dimensione del set di dati di ricerca, possono esistere più valori di ricerca per lo stesso identificatore. Se si verifica questo conflitto, Customer Journey Analytics utilizza il primo valore di confronto ASCII (i valori in maiuscolo precedono i valori in minuscolo). Adobe consiglia di non utilizzare set di dati di ricerca contenenti lo stesso valore quando [!UICONTROL sono abilitate lettere minuscole].
 
 ![Dimensione sensibile a maiuscole e minuscole](../assets/case-sens-workspace.png)
 
@@ -46,9 +46,9 @@ Le impostazioni del comportamento sono disponibili sia per le dimensioni che per
 
 | Impostazione | Caso di utilizzo/descrizione |
 | --- | --- |
-| [!UICONTROL Count values] | Visibile sui tipi di dati di schema Intero e Doppio. Aumenta la metrica della quantità specificata. Ad esempio, aumenta di 50 una metrica se il valore della colonna è `50`. |
-| [!UICONTROL Count instances] | Visibile sui tipi di dati di schema Intero e Doppio. Aumenta la metrica di uno, indipendentemente dal valore. La presenza di qualsiasi valore aumenta la metrica. Ad esempio, aumenta di 1 una metrica se il valore della colonna è `50`. |
-| [!UICONTROL Values to count] | Visibile sui tipi di dati di schema Booleano. Consente di determinare se la metrica aumenta contando `true`, `false` o entrambi. |
+| [!UICONTROL Valori di conteggio] | Visibile sui tipi di dati di schema Intero e Doppio. Aumenta la metrica della quantità specificata. Ad esempio, aumenta di 50 una metrica se il valore della colonna è `50`. |
+| [!UICONTROL Conta istanze] | Visibile sui tipi di dati di schema Intero e Doppio. Aumenta la metrica di uno, indipendentemente dal valore. La presenza di qualsiasi valore aumenta la metrica. Ad esempio, aumenta di 1 una metrica se il valore della colonna è `50`. |
+| [!UICONTROL Valori da contare] | Visibile sui tipi di dati di schema Booleano. Consente di determinare se la metrica aumenta contando `true`, `false` o entrambi. |
 
 {style="table-layout:auto"}
 

@@ -6,8 +6,8 @@ exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
 source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 94%
+source-wordcount: '668'
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ _Questo articolo descrive il pannello Attribuzione in_ ![CustomerJourneyAnalytic
 
 >[!ENDSHADEBOX]
 
-Il pannello **[!UICONTROL Attribution]** permette di strutturare facilmente un’analisi confrontando diversi modelli di attribuzione. Il pannello offre un’area di lavoro dedicata per utilizzare e confrontare modelli di attribuzione.
+Il pannello **[!UICONTROL Attribuzione]** consente di creare facilmente un&#39;analisi confrontando diversi modelli di attribuzione. Il pannello offre un’area di lavoro dedicata per utilizzare e confrontare modelli di attribuzione.
 
 Customer Journey Analytics migliora l’attribuzione consentendo di:
 
@@ -50,9 +50,9 @@ Customer Journey Analytics migliora l’attribuzione consentendo di:
 
 ## Utilizzo
 
-Per usare un pannello **[!UICONTROL Attribution]**:
+Per utilizzare un pannello **[!UICONTROL Attribuzione]**:
 
-1. Crea un pannello **[!UICONTROL Attribution]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
+1. Crea un pannello **[!UICONTROL Attribuzione]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
 1. Specifica l’[input](#panel-input) per il pannello.
 
@@ -62,17 +62,17 @@ Per usare un pannello **[!UICONTROL Attribution]**:
 
 Puoi configurare il pannello Attribuzione utilizzando le seguenti impostazioni di input:
 
-1. Aggiungi **[!UICONTROL Success metric]** e una dimensione da **[!UICONTROL Channel]** per l’attribuzione. Alcuni esempi includono canali marketing o dimensioni personalizzate, ad esempio promozioni interne.
+1. Aggiungi una **[!UICONTROL metrica di successo]** e una dimensione dal **[!UICONTROL Canale]** a cui desideri assegnare l&#39;attributo. Alcuni esempi includono canali marketing o dimensioni personalizzate, ad esempio promozioni interne.
 
    ![La finestra del pannello Attribuzione mostra diverse dimensioni e metriche selezionate.](assets/attribution-panel.png)
 
-1. Selezionare uno o più [modelli di attribuzione](#attribution-models) da **[!UICONTROL Included models]**, il [contenitore](#container) da **[!UICONTROL Container]** e un [intervallo di lookback](#lookback-window) da **[!UICONTROL Lookback window]** che si desidera utilizzare per il confronto.
+1. Seleziona uno o più [modelli di attribuzione](#attribution-models) da **[!UICONTROL Modelli inclusi]**, il [contenitore](#container) da **[!UICONTROL Contenitore]** e un [intervallo di lookback](#lookback-window) dall&#39;**[!UICONTROL intervallo di lookback]** che desideri utilizzare per il confronto.
 
-1. Seleziona **[!UICONTROL Build]** per creare le visualizzazioni nel pannello.
+1. Seleziona **[!UICONTROL Genera]** per creare le visualizzazioni nel pannello.
 
 ### Output del pannello
 
-Il pannello **[!UICONTROL Attribution]** restituisce un set completo di dati e visualizzazioni che confrontano l’attribuzione per la dimensione e la metrica selezionate.
+Il pannello **[!UICONTROL Attribuzione]** restituisce un set completo di dati e visualizzazioni che confrontano l&#39;attribuzione per la dimensione e la metrica selezionate.
 
 ![Visualizzazioni del pannello Attribuzione che confrontano le metriche e le dimensioni selezionate.](assets/attr_panel_vizs.png)
 

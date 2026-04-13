@@ -6,8 +6,8 @@ role: User
 exl-id: 7f815879-2b08-4650-a9ce-c55ca5824288
 source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 82%
+source-wordcount: '98'
+ht-degree: 50%
 
 ---
 
@@ -30,16 +30,16 @@ _Questo articolo descrive la visualizzazioneIntestazione di sezione in_ ![Custom
 
 >[!ENDSHADEBOX]
 
-Per identificare e articolare le sezioni all’interno di un pannello, puoi inserire una visualizzazione ![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL Section header]** ovunque nel pannello.
+Per identificare e articolare le sezioni all&#39;interno di un pannello, puoi inserire una visualizzazione ![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL Intestazione sezione]** ovunque in un pannello.
 
 ![Intestazione di sezione](/help/analysis-workspace/visualizations/assets/section-header.png)
 
-Per modificare il testo dell’intestazione di sezione, è sufficiente selezionare **[!UICONTROL Section header]**.
+Per modificare il testo dell&#39;intestazione di sezione, selezionare semplicemente l&#39;**[!UICONTROL intestazione di sezione]**.
 
 
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

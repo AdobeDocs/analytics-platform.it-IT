@@ -6,8 +6,8 @@ exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
 role: User
 source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 93%
+source-wordcount: '214'
+ht-degree: 83%
 
 ---
 
@@ -38,7 +38,7 @@ Nota bene:
 
 ## Per modificare la palette di colori:
 
-1. Passa a **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project info & settings]**.
-1. Dal menu a discesa **[!UICONTROL Project color palette]** è possibile scegliere una delle combinazioni di colori predefinite.
-1. Per specificare una tua palette, seleziona **[!UICONTROL Custom palette]** sotto le opzioni predefinite.
+1. Passa a **[!UICONTROL Workspace]** > **[!UICONTROL Progetto]** > **[!UICONTROL Informazioni e impostazioni progetto]**.
+1. Dal menu a discesa **[!UICONTROL Tavolozza colori progetto]**, è possibile scegliere una delle combinazioni di colori predefinite.
+1. Per specificare una tua tavolozza, seleziona **[!UICONTROL Tavolozza personalizzata]** sotto le opzioni predefinite.
 1. Specifica fino a 16 valori esadecimali delimitati da virgole (ad esempio, `#00a4e4`) per creare una tua palette di colori. Se ad esempio specifichi solo quattro valori, i colori vengono ripetuti automaticamente nelle visualizzazioni che contengono più colori.
