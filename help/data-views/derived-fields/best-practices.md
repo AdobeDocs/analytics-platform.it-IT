@@ -6,9 +6,9 @@ feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
 hide: true
-source-git-commit: afb577bb72f2528c15acbc30794c900ea62b51b6
+source-git-commit: 4dd1e90a377c0939048397a0ec4af08123d324c1
 workflow-type: tm+mt
-source-wordcount: '2655'
+source-wordcount: '2741'
 ht-degree: 1%
 
 ---
@@ -132,7 +132,7 @@ Questa sezione descrive l’utilizzo errato dei campi derivati. In particolare, 
 
 * Taglia / Minuscolo: utilizzare le impostazioni del componente [Substring](/help/data-views/component-settings/substring.md) e [Behavior](/help/data-views/component-settings/behavior.md) a meno che non siano necessarie trasformazioni combinate in più passaggi.
 * Esclusione di valore: utilizzare [Includi valori di esclusione](/help/data-views/component-settings/include-exclude-values.md) per le metriche o i valori di dimensione a livello del componente della visualizzazione dati, non in un campo derivato.
-* Attribuzione e persistenza: evita di simulare dimensioni in un campo derivato con [Successivo o Precedente](./derived-fields.md#next-or-previous) o altra logica sequenziale. Utilizza le impostazioni [Attribuzione](/help/data-views/component-settings/attribution.md) e [Persistenza](/help/data-views/component-settings/persistence.md) della visualizzazione dati per le dimensioni.
+* Attribuzione e persistenza: utilizzare le impostazioni della visualizzazione dati [Persistenza](/help/data-views/component-settings/persistence.md) (**[!UICONTROL Modello di allocazione]** e **[!UICONTROL Scadenza]**) per le dimensioni invece di simularle in un campo derivato con [Successivo o Precedente](./derived-fields.md#next-or-previous) o altra logica sequenziale.
 * Bucket numerico: mantieni numerico il campo derivato e lascia che la visualizzazione dati crei una dimensione a bucket in primo piano, invece delle etichette di intervallo a codifica fissa in una catena [Case When](./derived-fields.md#case-when).
 * Logica condizionale: converti la logica del flag semplice 0 o 1 in:
    * la metrica originale con logica di filtro dei valori di inclusione o esclusione applicata in Analysis Workspace.
@@ -161,7 +161,7 @@ Customer Journey Analytics consente di forzare i campi numerici per le dimension
    * Impostare il tipo di componente su **[!UICONTROL Metrica]** nella visualizzazione dati.
    * Se il componente rappresenta una metrica subset (ad esempio, **[!UICONTROL Visualizzazioni pagina di checkout]**), utilizza una metrica filtrata all&#39;interno della visualizzazione dati, anziché una stringa derivata e una metrica calcolata all&#39;inizio.
 * Se l’output è un’etichetta:
-   * Imposta il tipo di componente su **[!UICONTROL Dimension]** e configura di conseguenza le impostazioni [attribution](/help/data-views/component-settings/attribution.md) e [persistenza](/help/data-views/component-settings/persistence.md).
+   * Imposta il tipo di componente su **[!UICONTROL Dimension]** e configura di conseguenza le impostazioni di [Persistenza](/help/data-views/component-settings/persistence.md) (**[!UICONTROL Modello di allocazione]** e **[!UICONTROL Scadenza]**).
 
 ## Insidie del canale di marketing e della logica della campagna
 
@@ -284,12 +284,12 @@ Questa sezione descrive l&#39;utilizzo eccessivo di [funzioni successive o prece
 ### Diagnosi dei rischi: qualità dei dati, manutenzione elevata
 
 * Complessità e fragilità: una logica sequenziale pesante è più difficile da ragionare e può interrompersi se le regole di sessionizzazione o di ordinamento cambiano.
-* Ridondanza con attribuzione o persistenza: alcuni casi d’uso (ad esempio, l’attribuzione del canale ultimo contatto in una sessione) sono trattati meglio dalle impostazioni di attribuzione della visualizzazione dati.
+* Ridondanza con persistenza della dimensione: alcuni casi d&#39;uso (ad esempio, Canale di ultimo contatto in una sessione) sono trattati meglio dalle impostazioni della visualizzazione dati [Persistenza](/help/data-views/component-settings/persistence.md) (**[!UICONTROL Modello di allocazione]**) nella dimensione.
 
 ### Raccomandazioni
 
-* Per i pattern simili all&#39;attribuzione standard, utilizzare le impostazioni di [attribuzione](/help/data-views/component-settings/attribution.md) e [persistenza](/help/data-views/component-settings/persistence.md) della dimensione nella visualizzazione dati anziché simularle con [Successivo o Precedente](./derived-fields.md#next-or-previous).
-* Riserva [Successivo o Precedente](./derived-fields.md#next-or-previous) per il percorso avanzato in più passaggi o per l&#39;etichettatura funnel che l&#39;attribuzione da sola non può ottenere (ad esempio: concatenazione della sequenza di canale).
+* Per i pattern che assomigliano alla persistenza standard (ad esempio, il trasferimento di un valore in una sessione o persona), utilizza le impostazioni [Persistenza](/help/data-views/component-settings/persistence.md) della dimensione (**[!UICONTROL Modello di allocazione]** e **[!UICONTROL Scadenza]**) nella visualizzazione dati invece di simulare questi pattern con [Successivo o Precedente](./derived-fields.md#next-or-previous).
+* Riserva [Successivo o Precedente](./derived-fields.md#next-or-previous) per il percorso avanzato in più passaggi o per l&#39;etichettatura funnel che la sola persistenza della dimensione non può raggiungere (ad esempio: concatenazione della sequenza di canale).
 
 ## Ignorare il contesto a livello di sessione e persona
 
@@ -350,13 +350,16 @@ Controlla anche la configurazione della visualizzazione dati per ciascun compone
 ### Pattern
 
 * Una dimensione derivata ha un&#39;attribuzione predefinita (ad esempio: Ultimo contatto con scadenza sessione), ma il nome del campo derivato implica una semantica diversa (ad esempio: `First Campaign of Visit`, `Original Source`).
+* Una dimensione derivata ha impostazioni [Persistenza](/help/data-views/component-settings/persistence.md) predefinite (ad esempio: **[!UICONTROL Allocazione più recente]** con **[!UICONTROL Sessione]** scadenza) ma il nome della dimensione derivata implica una semantica diversa (ad esempio `First Campaign of Visit` o `Original Source`).
 
 
 ### Diagnosi dei rischi: qualità dei dati
 
-* Mancata corrispondenza semantica: l&#39;etichetta della dimensione suggerisce un comportamento [attribution](/help/data-views/component-settings/attribution.md) o [expiration](/help/data-views/component-settings/persistence.md) diverso (ad esempio: first-touch o original-source) rispetto a quello effettivamente configurato.
-* Questa mancata corrispondenza aumenta il rischio che gli analisti interpretino erroneamente i rapporti o confrontino componenti simili per nome ma che utilizzano modelli di attribuzione diversi.
+* Mancata corrispondenza semantica: l’etichetta della dimensione suggerisce un comportamento di allocazione o scadenza diverso (ad esempio, allocazione originale o scadenza a livello di persona) rispetto a quello effettivamente configurato.
+* Questa mancata corrispondenza aumenta il rischio che gli analisti interpretino erroneamente i rapporti o confrontino componenti che appaiono simili per nome ma che utilizzano modelli di allocazione diversi.
 
 ### Raccomandazioni
 
 * Regola il modello di allocazione [&#x200B; e la scadenza &#x200B;](/help/data-views/component-settings/persistence.md) su quella dimensione per allineare nome e comportamento. Ad esempio, una dimensione campo derivata denominata `Original Source` deve utilizzare l&#39;attribuzione Primo contatto con scadenza impostata su Persona.
+* Regola il **[!UICONTROL modello di allocazione]** e la **[!UICONTROL scadenza]** nelle impostazioni di [persistenza](/help/data-views/component-settings/persistence.md) della dimensione per allineare nome e comportamento. Ad esempio, `Original Source` deve impostare **[!UICONTROL Allocation model]** su **[!UICONTROL Original]** con **[!UICONTROL Expiration]** impostato su **[!UICONTROL Person]**.
+

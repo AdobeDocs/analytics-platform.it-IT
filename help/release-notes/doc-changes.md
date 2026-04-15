@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: e1aab5822d650b6ae5ed335d85a09fe9ed46a2f0
+source-git-commit: a4287ab5b341f156d039b4bc35dc03482ba3f60c
 workflow-type: tm+mt
-source-wordcount: '5799'
-ht-degree: 95%
+source-wordcount: '5819'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 |---|---|
+| **Aprile 2026** | |
+| Casi di utilizzo aggiornati per l’analisi per coorte | In base al feedback, sono stati aggiunti esempi di Workspace per i casi di utilizzo dell’analisi per coorte. |
 | **Marzo 2026** | |
 | Suddividere un pannello | È stata ristrutturata la documentazione intorno alla zona di rilascio [&#x200B; per un pannello](/help/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità [suddividi](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | Nota tecnica sugli ID non validi (BAVID) | Nuova [nota tecnica sugli ID non validi](/help/technotes/badids.md). La nota tecnica spiega la definizione di ID errato, la posizione in cui vengono utilizzati gli ID errati nell’interfaccia di Customer Journey Analytics e come individuare la presenza di ID errati nei dati della connessione. |

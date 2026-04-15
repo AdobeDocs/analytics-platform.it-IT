@@ -1,8 +1,8 @@
 ---
 source-git-commit: b0be8b726c4fab1bf9bb5f9462be84f39bdf184a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5360'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 # Snippet
@@ -64,14 +64,14 @@ Questo video illustra la funzionalità utilizzata con Adobe Analytics. Tuttavia,
 
 | Tag | Descrizione |
 |---|---|
-| ![Tag](/help/assets/filter-tag.png){width="300"} | La sezione **[!UICONTROL Tag]** consente di filtrare i tag. <ul><li>Puoi usare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca tag* per cercare i tag che puoi utilizzare come filtro.</li><li>Puoi selezionare più di un tag. I tag disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(1)**: numero di tag selezionati (se sono selezionati uno o più tag).</li><li>**2︎⃣**: numero di tag disponibili per gli elementi risultanti dal filtro corrente.</li><li>7︎⃣: numero di elementi associati al tag specifico.</li></ul></li></ul> |
+| ![Tag](/help/assets/filter-tag.png){width="300"} | La sezione **[!UICONTROL Tag]** consente di filtrare in base ai tag. <ul><li>Puoi usare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca tag* per cercare i tag che puoi utilizzare come filtro.</li><li>Puoi selezionare più di un tag. I tag disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(1)**: numero di tag selezionati (se sono selezionati uno o più tag).</li><li>**2︎⃣**: numero di tag disponibili per gli elementi risultanti dal filtro corrente.</li><li>7︎⃣: numero di elementi associati al tag specifico.</li></ul></li></ul> |
 
 
 ## Sezione filtro visualizzazione dati {#dataviewfiltersection}
 
 | Visualizzazione dati | Descrizione |
 |---|---|
-| ![Visualizzazioni dati](/help/assets/filter-dataview.png){width="300"} | La sezione **[!UICONTROL Visualizzazione dati]** consente di filtrare le visualizzazioni dati. <ul><li>Puoi usare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca visualizzazioni dati* per cercare quelle che puoi utilizzare come filtro.</li><li>Puoi selezionare più di una visualizzazione dati. Le visualizzazioni dati disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(2)**: numero di visualizzazioni dati selezionate (se sono selezionate una o più visualizzazioni dati).</li><li>**3︎⃣**: numero di visualizzazioni dati disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: numero di elementi associati alla visualizzazione dati specifica.</li></ul></li></ul> |
+| ![Visualizzazioni dati](/help/assets/filter-dataview.png){width="300"} | La sezione **[!UICONTROL Visualizzazione dati]** consente di filtrare in base alle visualizzazioni dati. <ul><li>Puoi usare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca visualizzazioni dati* per cercare quelle che puoi utilizzare come filtro.</li><li>Puoi selezionare più di una visualizzazione dati. Le visualizzazioni dati disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(2)**: numero di visualizzazioni dati selezionate (se sono selezionate una o più visualizzazioni dati).</li><li>**3︎⃣**: numero di visualizzazioni dati disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: numero di elementi associati alla visualizzazione dati specifica.</li></ul></li></ul> |
 
 ## Sezione filtro di stato abilitato {#enabledstatusfiltersection}
 
@@ -83,7 +83,7 @@ Questo video illustra la funzionalità utilizzata con Adobe Analytics. Tuttavia,
 
 | Tipo | Descrizione |
 |---|---|
-| ![Tipo](/help/assets/filter-type.png){width="300"} | La sezione **[!UICONTROL Type]** ti consente di filtrare in base al tipo. <ul><li>Puoi selezionare più di un tipo.</li><li>I numeri indicano:<ul><li>**(2)**: numero di tipi selezionati (se sono selezionati uno o più tipi).</li><li>**1︎⃣**: numero di tipi disponibili per gli elementi risultanti dal filtro corrente.</li><li>3︎⃣: numero di elementi associati al tipo specifico.</li></ul></li></ul> |
+| ![Tipo](/help/assets/filter-type.png){width="300"} | La sezione **[!UICONTROL Tipo]** consente di filtrare in base al tipo. <ul><li>Puoi selezionare più di un tipo.</li><li>I numeri indicano:<ul><li>**(2)**: numero di tipi selezionati (se sono selezionati uno o più tipi).</li><li>**1︎⃣**: numero di tipi disponibili per gli elementi risultanti dal filtro corrente.</li><li>3︎⃣: numero di elementi associati al tipo specifico.</li></ul></li></ul> |
 
 ## Sezione proprietario filtro {#ownerfiltersection}
 
@@ -95,7 +95,7 @@ Questo video illustra la funzionalità utilizzata con Adobe Analytics. Tuttavia,
 
 | Altri filtri | Descrizione |
 |---|---|
-| ![Altri filtri](/help/assets/filter-other.png){width="300"} | La sezione **[!UICONTROL Altri filtri]** ti consente di filtrare in base ad un altro filtro predefinito.<ul><li>È possibile scegliere una o più delle opzioni seguenti:<ul><li> **[!UICONTROL Mostra tutti]**</li><li>**[!UICONTROL Condiviso con me]**</li><li>**[!UICONTROL Mio]**</li><li>**[!UICONTROL Approvato]**</li><li>**[!UICONTROL Preferiti]**</li></ul> Ciò che puoi selezionare dipende dal tuo ruolo e dalle autorizzazioni.</li><li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(1)**: numero di altri filtri selezionati (se sono selezionati uno o più altri filtri).</li><li>**5︎⃣**: numero di altri filtri disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: Il numero di elementi associati all’altro filtro specifico.</li></ul></li></ul> |
+| ![Altri filtri](/help/assets/filter-other.png){width="300"} | La sezione **[!UICONTROL Altri filtri]** consente di filtrare in base ad altri filtri predefiniti.<ul><li>È possibile scegliere una o più delle opzioni seguenti:<ul><li> **[!UICONTROL Mostra tutti]**</li><li>**[!UICONTROL Condivisi con me]**</li><li>**[!UICONTROL I miei]**</li><li>**[!UICONTROL Approvato]**</li><li>**[!UICONTROL Preferiti]**</li></ul> Ciò che puoi selezionare dipende dal tuo ruolo e dalle autorizzazioni.</li><li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(1)**: numero di altri filtri selezionati (se sono selezionati uno o più altri filtri).</li><li>**5︎⃣**: numero di altri filtri disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: Il numero di elementi associati all’altro filtro specifico.</li></ul></li></ul> |
 
 ## Sezione filtro Intervallo di date  {#daterangefiltersection}
 
@@ -128,7 +128,7 @@ Un modello di attribuzione determina quali elementi dimensionali ricevono credit
 
 Un contenitore attribuzione definisce l’ambito desiderato per l’attribuzione. Le opzioni possibili sono:
 
-* **Sessione:** esamina fino all’inizio di una sessione dal momento in cui si è verificata una conversione. Gli intervalli di lookback delle sessioni rispettano il [timeout della sessione](/help/data-views/create-dataview.md#session-settings) in una visualizzazione dati. Quando **[!UICONTROL Sessione]** è selezionato, l&#39;intervallo di lookback [Attribution](#atribution-lookback-window) viene impostato automaticamente su **[!UICONTROL Intervallo di reporting]** e non può essere modificato.
+* **Sessione:** esamina fino all’inizio di una sessione dal momento in cui si è verificata una conversione. Gli intervalli di lookback delle sessioni rispettano il [timeout della sessione](/help/data-views/create-dataview.md#session-settings) in una visualizzazione dati. Quando **[!UICONTROL Sessione]** è selezionata, l’[intervallo di lookback dell’attribuzione](#atribution-lookback-window) viene impostato automaticamente su **[!UICONTROL Intervallo di reporting]** e non può essere modificato.
 * **Persona**: esamina le conversioni nell’ambito del contenitore Persona.
 * **Account globale** [!BADGE B2B edition]{type=Informative}: esamina le conversioni nell’ambito del contenitore degli account globali.
 * **Account** [!BADGE B2B edition]{type=Informative}: esamina le conversioni nell’ambito del contenitore Persona.
@@ -139,7 +139,7 @@ Un contenitore attribuzione definisce l’ambito desiderato per l’attribuzione
 
 Per intervallo di lookback di attribuzione si intende la quantità di tempo che una conversione deve esaminare in retrospettiva per includere i punti di contatto. Se un elemento dimensionale è impostato all’esterno dell’intervallo di lookback, il valore non viene incluso in alcun calcolo di attribuzione.
 
-* **[!UICONTROL Intervallo di reporting]**: considera fino l&#39;inizio dell&#39;intervallo di reporting dal momento in cui si è verificata la conversione.
+* **[!UICONTROL Intervallo di reporting]**: esamina fino all’inizio dell’intervallo di reporting dal momento in cui si è verificata la conversione.
 * **14 giorni**: esamina fino a 14 giorni precedenti dal momento in cui si è verificata la conversione.
 * **30 giorni**: esamina fino a 30 giorni precedenti dal momento in cui si è verificata la conversione.
 * **60 giorni**: esamina fino a 60 giorni precedenti dal momento in cui si è verificata la conversione.
@@ -196,17 +196,17 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 
 >[!NOTE]
 > 
->Utilizza le informazioni riportate in questa pagina per rispondere alle domande nella Guida all’aggiornamento di Customer Journey Analytics. <br><br>Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Passa a Customer Journey Analytics]** nel pannello a sinistra. Segui le istruzioni visualizzate sullo schermo.
+>Utilizza le informazioni riportate in questa pagina per rispondere alle domande nella Guida all’aggiornamento di Customer Journey Analytics. <br><br>Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Aggiornamento a Customer Journey Analytics]** nel pannello a sinistra. Segui le istruzioni visualizzate sullo schermo.
 
 ## Nota sull’elenco di controllo per l’aggiornamento - Passaggio successivo {#upgrade-note-step}
 
 >[!NOTE]
 > 
->Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i passaggi di aggiornamento consigliati (per la maggior parte delle organizzazioni), oppure puoi seguire i passaggi generati in modo dinamico per la tua organizzazione con la Guida all’aggiornamento di Customer Journey Analytics. <ul><li>**Passaggi di aggiornamento consigliati** (per la maggior parte delle organizzazioni)<p>Serie di passaggi per un’implementazione ideale di Customer Journey Analytics.</p><p>Per informazioni dettagliate, consulta [Aggiornamento da Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).</p></li><li>**Guida all’aggiornamento di Customer Journey Analytics** (passaggi personalizzati per le esigenze specifiche della tua organizzazione)<p>È disponibile una nuova guida per l’aggiornamento che genera in modo dinamico passaggi di aggiornamento personalizzati per la situazione specifica della tua organizzazione.</p><p>Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Aggiorna a Customer Journey Analytics]** nel pannello a sinistra. Segui le istruzioni visualizzate sullo schermo.</p></li></ul>
+>Segui i passaggi descritti in questa pagina solo dopo aver completato tutti i passaggi di aggiornamento precedenti. Puoi seguire i passaggi di aggiornamento consigliati (per la maggior parte delle organizzazioni), oppure puoi seguire i passaggi generati in modo dinamico per la tua organizzazione con la Guida all’aggiornamento di Customer Journey Analytics. <ul><li>**Passaggi di aggiornamento consigliati** (per la maggior parte delle organizzazioni)<p>Serie di passaggi per un’implementazione ideale di Customer Journey Analytics.</p><p>Per informazioni dettagliate, consulta [Aggiornamento da Adobe Analytics a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).</p></li><li>**Guida all’aggiornamento di Customer Journey Analytics** (passaggi personalizzati per le esigenze specifiche della tua organizzazione)<p>È disponibile una nuova guida per l’aggiornamento che genera in modo dinamico passaggi di aggiornamento personalizzati per la situazione specifica della tua organizzazione.</p><p>Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Aggiornamento a Customer Journey Analytics]** nel pannello a sinistra. Segui le istruzioni visualizzate sullo schermo.</p></li></ul>
 
 ## Elenco di controllo per l’aggiornamento - Passaggio finale {#upgrade-final-step}
 
-1. Continua a seguire i [passaggi consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) per l’aggiornamento o i passaggi generati dinamicamente, descritti nella Guida all’aggiornamento di Customer Journey Analytics. Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Aggiorna a Customer Journey Analytics]** nel pannello a sinistra. Segui le istruzioni visualizzate sullo schermo.
+1. Continua a seguire i [passaggi consigliati](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#recommended-upgrade-steps-for-most-organizations) per l’aggiornamento o i passaggi generati dinamicamente, descritti nella Guida all’aggiornamento di Customer Journey Analytics. Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Aggiornamento a Customer Journey Analytics]** nel pannello a sinistra. Segui le istruzioni visualizzate sullo schermo.
 
 
 ## Bozza della documentazione di Content Analytics {#draft-aca}
@@ -237,15 +237,15 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 | Impostazione | Descrizione |
 |---|---|
 | **[!UICONTROL Importa nuovi dati]** | Abilita questa opzione se desideri stabilire una connessione continua. Con una connessione continua, i nuovi batch di dati aggiunti ai set di dati sono disponibili automaticamente in Workspace. |
-| **[!UICONTROL Recupero set di dati]** | Abilita **[!UICONTROL Recupera tutti i dati esistenti]** per garantire che tutti i dati esistenti vengano recuperati.<br/><br/>Seleziona **[!UICONTROL Richiedi backfill]** per eseguire il backfill dei dati storici per un periodo specifico. Puoi definire fino a 10 periodi di retrocompilazione dei set di dati.<ol><li>Definisci il periodo immettendo i dati di inizio e fine o selezionando le date utilizzando il ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>Seleziona **[!UICONTROL Coda backfill]** per aggiungere la retrocompilazione all&#39;elenco o **[!UICONTROL Annulla]** per annullare.</li></ol>Per ogni voce, seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) per modificare il periodo oppure ![Elimina](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) per eliminare la voce.<br/><br/>Informazioni sulle retrocompilazioni:<ul><li>È possibile eseguire la retrocompilazione di ogni set di dati singolarmente.</li><li>Dai priorità ai nuovi dati aggiunti a un set di dati nella connessione in modo che questi dati abbiano la latenza più bassa.</li><li>Eventuali dati di retrocompilazione (storici) vengono importati a una velocità più bassa. La quantità di dati storici influenza la latenza.</li><li>Il connettore origine di Analytics importa fino a 13 mesi di dati (indipendentemente dalle dimensioni) per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a 3 mesi.</li><li>Per le sandbox di produzione, se disponi della licenza SKU aggiuntiva che ti autorizza a importare più di 13 mesi di dati storici di retrocompilazione, contatta Adobe per richiedere la retrocompilazione estesa.</li></ul> |
-| **[!UICONTROL Stato batch]** | Gli indicatori di stato possibili sono:<ul><li>Success (Operazione riuscita)</li><li>X backfill(s) processing (Elaborazione di X retrocompilazioni)</li><li>Off</li></ul> |
+| **[!UICONTROL Retrocompilazione del set di dati]** | Abilita **[!UICONTROL Retrocompila tutti i dati esistenti]** per garantire la retrocompilazione di tutti i dati esistenti.<br/><br/>Seleziona **[!UICONTROL Richiedi retrocompilazione]** per eseguire la retrocompilazione dei dati storici per un periodo specifico. Puoi definire fino a 10 periodi di retrocompilazione dei set di dati.<ol><li>Definisci il periodo immettendo i dati di inizio e fine o selezionando le date utilizzando il ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>Seleziona **[!UICONTROL Retrocompilazione della coda]** per aggiungere la retrocompilazione all’elenco, oppure **[!UICONTROL Annulla]** per annullare.</li></ol>Per ogni voce, seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) per modificare il periodo oppure ![Elimina](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) per eliminare la voce.<br/><br/>Informazioni sulle retrocompilazioni:<ul><li>È possibile eseguire la retrocompilazione di ogni set di dati singolarmente.</li><li>Dai priorità ai nuovi dati aggiunti a un set di dati nella connessione in modo che questi dati abbiano la latenza più bassa.</li><li>Eventuali dati di retrocompilazione (storici) vengono importati a una velocità più bassa. La quantità di dati storici influenza la latenza.</li><li>Il connettore origine di Analytics importa fino a 13 mesi di dati (indipendentemente dalle dimensioni) per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a 3 mesi.</li><li>Per le sandbox di produzione, se disponi della licenza SKU aggiuntiva che ti autorizza a importare più di 13 mesi di dati storici di retrocompilazione, contatta Adobe per richiedere la retrocompilazione estesa.</li></ul> |
+| **[!UICONTROL Stato del batch]** | Gli indicatori di stato possibili sono:<ul><li>Success (Operazione riuscita)</li><li>X backfill(s) processing (Elaborazione di X retrocompilazioni)</li><li>Off</li></ul> |
 | **[!UICONTROL ID set di dati]** | Questo ID viene generato automaticamente. |
 | **[!UICONTROL Descrizione]** | Descrizione fornita per questo set di dati al momento della sua creazione. |
 | **[!UICONTROL Numero di record]** | Dimensione del set di dati. |
 | **[!UICONTROL Schema]** | Schema sulla cui base è stato creato il set di dati in Adobe Experience Platform. |
 | **[!UICONTROL Set di dati]** | Nome del set di dati. |
-| **[!UICONTROL Anteprima: *nome set di dati *]** | Presenta l’anteprima del set di dati per le prime 10 righe e 10 colonne. |
-| ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Rimuovi]** | È possibile [eliminare un set di dati](/help/connections/create-connection.md#delete-a-dataset) senza eliminare l’intera connessione. L’eliminazione di un set di dati da una connessione riduce i costi legati all’acquisizione dei dati e il laborioso processo di ricreazione dell’intera connessione e delle sue visualizzazioni dati. |
+| **[!UICONTROL Anteprima: *nome del set di dati *]** | Presenta l’anteprima del set di dati per le prime 10 righe e 10 colonne. |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Rimuovi]** | È possibile [eliminare un set di dati](/help/connections/create-connection.md#delete-a-dataset) senza eliminare l’intera connessione. L’eliminazione di un set di dati da una connessione riduce i costi legati all’acquisizione dei dati e il laborioso processo di ricreazione dell’intera connessione e delle sue visualizzazioni dati. |
 
 ## Dimensioni standard {#standard-dimensions}
 
@@ -257,16 +257,16 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 | [!UICONTROL Giorno] | Il giorno in cui è accaduto un dato evento. Il primo elemento dimensione è il primo giorno dell’intervallo di date e l’ultimo elemento dimensione è l’ultimo giorno dell’intervallo di date. |
 | [!UICONTROL Giorno della settimana] | Il giorno della settimana in cui si è verificato un dato evento. Il primo elemento dimensione è il primo giorno della settimana dell’intervallo di date e l’ultimo elemento dimensione è l’ultimo giorno della settimana dell’intervallo di date. |
 | [!UICONTROL Giorno del mese] | Il giorno del mese in cui si è verificato un dato evento. Il primo elemento dimensione è il primo giorno del mese dell’intervallo di date e l’ultimo elemento dimensione è l’ultimo giorno del mese dell’intervallo di date. |
-| Profondità evento | Assegna valori numerici sequenziali (1, 2, 3, ecc.) a ogni interazione relativa all’evento all’interno di una sessione. Con questa dimensione puoi abilitare il tracciamento e l’analisi dettagliata del punto in cui si verificano eventi specifici nel flusso sequenziale delle interazioni dell’utente all’interno della [sessione di esperienza limitata definita per la visualizzazione dati](/help/data-views/session-settings.md#session-settings). Puoi tenere traccia della progressione degli eventi, dall’inizio alla fine, all’interno di una sessione limitata. Ad esempio: un visitatore arriva sulla tua pagina Home (evento 1, inizio sessione), utilizza la funzione di ricerca (evento 2), visualizza una pagina di dettagli di un prodotto (evento 3), aggiunge il prodotto al carrello (evento 4), procede al pagamento (evento 5) e completa un acquisto (evento 6, fine sessione). È ora possibile utilizzare [!UICONTROL Profondità evento] in una definizione di segmento per segmentare i dati in base alla profondità di interazione. |
+| Profondità evento | Assegna valori numerici sequenziali (1, 2, 3, ecc.) a ogni interazione relativa all’evento all’interno di una sessione. Con questa dimensione puoi abilitare il tracciamento e l’analisi dettagliata del punto in cui si verificano eventi specifici nel flusso sequenziale delle interazioni dell’utente all’interno della [sessione di esperienza limitata definita per la visualizzazione dati](/help/data-views/session-settings.md#session-settings). Puoi tenere traccia della progressione degli eventi, dall’inizio alla fine, all’interno di una sessione limitata. Ad esempio: un visitatore arriva sulla tua pagina Home (evento 1, inizio sessione), utilizza la funzione di ricerca (evento 2), visualizza una pagina di dettagli di un prodotto (evento 3), aggiunge il prodotto al carrello (evento 4), procede al pagamento (evento 5) e completa un acquisto (evento 6, fine sessione). Ora è possibile utilizzare [!UICONTROL Profondità evento] in una definizione di segmento per segmentare i dati in base alla profondità dell’interazione. |
 | [!UICONTROL Ora] | L&#39;ora in cui si è verificato un dato evento (arrotondata per difetto). Il primo elemento dimensione è la prima ora nell’intervallo di date e l’ultimo elemento dimensione è l’ultima ora nell’intervallo di date. |
 | [!UICONTROL Ora del giorno] | L’ora del giorno in cui si è verificato un dato evento (arrotondata per difetto). Il primo elemento dimensione è la prima ora del giorno dell’intervallo di date e l’ultimo elemento dimensione è l’ultima ora del giorno dell’intervallo di date. |
 | [!UICONTROL Minuto] | Il minuto in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è il primo minuto nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo minuto nell’intervallo di date. |
-| [!UICONTROL Minuto dell&#39;Ora] | Il minuto dell’ora in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è il primo minuto dell’ora dell’intervallo di date e l’ultimo elemento dimensione è l’ultimo minuto dell’ora dell’intervallo di date. |
+| [!UICONTROL Minuto dell’ora] | Il minuto dell’ora in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è il primo minuto dell’ora dell’intervallo di date e l’ultimo elemento dimensione è l’ultimo minuto dell’ora dell’intervallo di date. |
 | [!UICONTROL Mese] | Il mese in cui si è verificato un determinato evento. Il primo elemento dimensione è il primo mese nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo mese nell’intervallo di date. |
-| [!UICONTROL Mese dell&#39;anno] | Il mese dell’anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo mese dell’anno dell’intervallo di date e l’ultimo elemento dimensione è l’ultimo mese dell’anno dell’intervallo di date. |
+| [!UICONTROL Mese dell’anno] | Il mese dell’anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo mese dell’anno dell’intervallo di date e l’ultimo elemento dimensione è l’ultimo mese dell’anno dell’intervallo di date. |
 | [!UICONTROL Trimestre] | Il trimestre in cui si è verificato un dato evento. Il primo elemento dimensione è il primo trimestre nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo trimestre nell’intervallo di date. |
-| [!UICONTROL Trimestre dell&#39;anno] | Il trimestre dell’anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo trimestre dell’anno dell’intervallo di date e l’ultimo elemento dimensione è l’ultimo trimestre dell’anno dell’intervallo di date. |
-| [!UICONTROL Second] | Il secondo in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è il primo secondo nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo secondo nell’intervallo di date. |
+| [!UICONTROL Trimestre dell’anno] | Il trimestre dell’anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo trimestre dell’anno dell’intervallo di date e l’ultimo elemento dimensione è l’ultimo trimestre dell’anno dell’intervallo di date. |
+| [!UICONTROL Secondi] | Il secondo in cui si è verificato un dato evento (arrotondato per difetto). Il primo elemento dimensione è il primo secondo nell’intervallo di date e l’ultimo elemento dimensione è l’ultimo secondo nell’intervallo di date. |
 | [!UICONTROL Settimana] | La settimana in cui si è verificato un dato evento. Il primo elemento dimensione è la prima settimana nell’intervallo di date e l’ultimo elemento dimensione è l’ultima settimana nell’intervallo di date. |
 | [!UICONTROL Settimana dell’anno] | La settimana dell’anno in cui si è verificato un dato evento. Il primo elemento dimensione è la prima settimana dell’anno dell’intervallo di date e l’ultimo elemento dimensione è l’ultima settimana dell’anno dell’intervallo di date. |
 | [!UICONTROL Anno] | L&#39;anno in cui si è verificato un dato evento. Il primo elemento dimensione è il primo anno nell’intervallo di date e l’ultimo elemento dimensione è l’anno più recente nell’intervallo di date. |
@@ -276,14 +276,14 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 
 | Nome componente | Note |
 | --- | --- |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL Account] | In base all&#39;ID account specificato in una [!UICONTROL connessione]. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL Gruppo di acquisto] | I gruppi di acquisto, in base all&#39;ID gruppo di acquisto specificato in [!UICONTROL Connessione]. |
-| [!UICONTROL Eventi] | Numero di righe da tutti i set di dati evento in una [!UICONTROL connessione]. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL Account globali] | In base all&#39;ID account globale specificato in [!UICONTROL Connessione]. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL Opportunità] | Le opportunità, in base all&#39;ID opportunità specificato in [!UICONTROL Connessione]. |
-| [!UICONTROL Persone] | In base all&#39;ID persona specificato in una [!UICONTROL connessione]. |
-| [!UICONTROL Fine sessione] | Numero di eventi che sono stati l’ultimo evento di una sessione. Simile a [!UICONTROL Inizio sessione], può essere utilizzato anche in una definizione di segmento per segmentare elementi fino all&#39;ultimo evento di ogni sessione.<p>Questo componente deve essere incluso nella visualizzazione dati in modo che la seguente [metrica calcolata](/help/components/calc-metrics/default-calcmetrics.md) sia disponibile in Workspace: <ul><li>Frequenza di fine sessione</li></p> |
-| [!UICONTROL Avvio sessione] | Numero di eventi che sono stati il primo evento di una sessione. Utilizzato in una definizione di segmento (ad esempio, &#39;[!UICONTROL La sessione inizia] esiste&#39;), si segmenta fino al primo evento di ogni sessione.<p>Questo componente deve essere incluso nella visualizzazione dati in modo che la seguente [metrica calcolata](/help/components/calc-metrics/default-calcmetrics.md) sia disponibile in Workspace: <ul><li>Frequenza di avvio sessione</li></p> |
+| <br/>[!UICONTROL Account] [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | In base all’ID account specificato in una [!UICONTROL Connessione]. |
+| <br/>[!UICONTROL Gruppo acquisti]&#x200B;[!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Gruppi acquisti, in base all’ID gruppo acquisti specificato nella [!UICONTROL Connessione]. |
+| [!UICONTROL Eventi] | Numero di righe da tutti i set di dati evento in una [!UICONTROL Connessione]. |
+| <br/>[!UICONTROL Account globali]&#x200B;[!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | In base all’ID degli account globali specificati nella [!UICONTROL Connessione]. |
+| <br/>[!UICONTROL Opportunità]&#x200B;[!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Opportunità, in base all’ID opportunità specificato nella [!UICONTROL Connessione]. |
+| [!UICONTROL Persone] | In base all’ID persona specificato in una [!UICONTROL Connessione]. |
+| [!UICONTROL Fine della sessione] | Numero di eventi che sono stati l’ultimo evento di una sessione. Simile a [!UICONTROL Inizio della sessione], può anche essere utilizzato in una definizione di segmento per segmentare gli elementi fino all’ultimo evento di ogni sessione.<p>Questo componente deve essere incluso nella visualizzazione dati in modo che la seguente [metrica calcolata](/help/components/calc-metrics/default-calcmetrics.md) sia disponibile in Workspace: <ul><li>Frequenza di fine sessione</li></p> |
+| [!UICONTROL Inizio della sessione] | Numero di eventi che sono stati il primo evento di una sessione. Se utilizzato in una definizione di segmento (ad esempio “[!UICONTROL Inizio della sessione] esiste”), segmenta fino al primo evento di ogni sessione.<p>Questo componente deve essere incluso nella visualizzazione dati in modo che la seguente [metrica calcolata](/help/components/calc-metrics/default-calcmetrics.md) sia disponibile in Workspace: <ul><li>Frequenza di avvio sessione</li></p> |
 | [!UICONTROL Sessioni] | In base alle impostazioni di sessione della visualizzazione dati. |
 | [!UICONTROL Tempo trascorso (secondi)] | Somma il tempo tra due valori diversi per una dimensione.<p>Questo componente deve essere incluso nella visualizzazione dati in modo che le seguenti [metriche calcolate](/help/components/calc-metrics/default-calcmetrics.md) siano disponibili in Workspace: <ul><li>Time Spent Per Person (Tempo trascorso per persona)</li><li>Tempo trascorso per sessione</li></p> |
 
@@ -292,37 +292,37 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 
 >[!INFO]
 >
->Nell&#39;interfaccia di Customer Journey Analytics, i set di dati **[!UICONTROL Relazionali]** potrebbero essere etichettati come **[!UICONTROL Basati su modello]**.
+>Nell’interfaccia di Customer Journey Analytics, i set di dati **[!UICONTROL Relazionali]** potrebbero essere etichettati come **[!UICONTROL basati su modello]**.
 >
 
 ## Intervallo di lookback del feed dati di CJA {#cja-df-lookback}
 
-Poiché Customer Journey Analytics utilizza l’attribuzione al momento del reporting per ogni componente, non ha un concetto di persistenza oltre il proprio intervallo di lookback. Questa colonna del feed dati di Analytics fa riferimento a un comportamento a livello di visitatore che si estende all’intera cronologia del visitatore. Più è lungo l’intervallo di lookback per questo componente in Customer Journey Analytics, più simile sarà alla funzionalità di Adobe Analytics.
+Poiché Customer Journey Analytics utilizza l’attribuzione al momento del rapporto per ogni componente, non ha un concetto di persistenza oltre il proprio intervallo di lookback. Questa colonna del feed dati di Analytics fa riferimento a un comportamento a livello di visitatore che si estende all’intera cronologia del visitatore. Più è lungo l’intervallo di lookback per questo componente in Customer Journey Analytics, più sarà simile alla funzionalità di Adobe Analytics.
 
-## Colonne post feed dati CJA {#cja-df-post}
+## Colonne post feed dati di CJA {#cja-df-post}
 
-Questa colonna del feed dati di Analytics contiene sia una versione pre-elaborata che una versione post-elaborata (prefisso `post_`). Le colonne con prefisso `post_` contengono il valore utilizzato in ultima analisi nel reporting. La maggior parte delle organizzazioni utilizza solo `post_` colonne quando sono disponibili. Nella tabella seguente vengono confrontate le proprietà di queste colonne:
+Questa colonna del feed dati di Analytics contiene sia una versione pre-elaborata in precedenza che una versione post-elaborata (un prefisso `post_`). Le colonne con prefisso `post_` contengono il valore utilizzato alla fine nel reporting. La maggior parte delle organizzazioni utilizza solo le colonne `post_` quando sono disponibili. Nella seguente tabella vengono confrontate le proprietà di queste colonne:
 
-| Valore colonna pre-elaborato | Valore colonna post-elaborazione |
+| Valore colonna pre-elaborato | Valore colonna post-elaborato |
 | --- | --- |
-| Come è stato raccolto | Utilizzato nel reporting |
+| Come è stato raccolto | Usato nel reporting |
 | Prima delle regole di elaborazione | Dopo le regole di elaborazione |
 | Prima delle regole VISTA | Dopo le regole VISTA |
-| Nessuna allocazione applicata | Assegnazione applicabile |
+| Nessuna allocazione applicata | Allocazione applicabile |
 
-Poiché Customer Journey Analytics non ha un concetto di pre-elaborazione e post-elaborazione, è difficile ricreare entrambe le colonne nei feed di dati di CJA. Se desideri le approssimazioni di queste colonne, puoi trascinare più volte lo stesso campo XDM nella colonna delle dimensioni per creare più componenti con impostazioni di attribuzione diverse:
+Poiché Customer Journey Analytics non ha un concetto di pre-elaborazione e post-elaborazione, è difficile ricreare entrambe le colonne nei feed di dati di CJA. Se si desiderano approssimazioni di queste colonne, è possibile trascinare più volte lo stesso campo XDM nella colonna delle dimensioni per creare più componenti con impostazioni di attribuzione diverse:
 
 * **Colonna pre-elaborata**: nessuna attribuzione
-* **Colonna post-elaborazione**: applica le stesse impostazioni di allocazione e scadenza della variabile Analytics nelle impostazioni della visualizzazione dati. La maggior parte dei componenti utilizza un’allocazione &quot;Ultimo&quot; e una scadenza di &quot;Visita&quot;.
+* **Colonna post-elaborata**: applica le stesse impostazioni di allocazione e scadenza della variabile Analytics nelle impostazioni di visualizzazione dati. La maggior parte dei componenti utilizza un’allocazione &quot;Ultimo&quot; e una scadenza &quot;Visita&quot;.
 
 ## Colonne di ricerca feed dati di CJA {#cja-df-lookup}
 
-Questa colonna del feed dati di Analytics utilizza una tabella di ricerca per identificare il valore desiderato. In Customer Journey Analytics, il valore viene fornito direttamente senza alcuna tabella di ricerca. Assicurati che il flusso di lavoro supporti il valore finale invece di un valore di ricerca intermedio.
+Questa colonna del feed dati di Analytics utilizza una tabella di ricerca per identificare il valore desiderato. In Customer Journey Analytics, il valore è fornito direttamente senza tabelle di ricerca. Assicurarsi che il flusso di lavoro supporti il valore finale invece di un valore di ricerca intermedio.
 
 ## Colonne non applicabili del feed dati di CJA {#cja-df-na}
 
-Questa colonna del feed dati di Analytics contiene dati che non possono essere convertiti in un equivalente Customer Journey Analytics a causa di differenze nell’architettura dei dati.
+Questa colonna del feed dati di Analytics contiene dati che non possono essere convertiti in un Customer Journey Analytics equivalente a causa di differenze nell’architettura dei dati.
 
-## Agente utente feed dati CJA {#cja-df-ua}
+## Agente utente feed dati di CJA {#cja-df-ua}
 
-Non è possibile raccogliere contemporaneamente informazioni sull’agente utente e informazioni sulla ricerca del dispositivo; la popolazione di queste dimensioni si esclude a vicenda. È necessario scegliere se si desidera raccogliere direttamente l&#39;agente utente o le informazioni di ricerca del dispositivo (in base all&#39;agente utente) durante [la configurazione di uno stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure#geolocation-device-lookup).
+Non è possibile raccogliere contemporaneamente informazioni sull’agente utente e informazioni sulla ricerca del dispositivo; la popolazione di queste dimensioni si esclude a vicenda. È necessario scegliere se si desidera raccogliere direttamente l’agente utente o le informazioni di ricerca del dispositivo (in base all’agente utente) durante la [configurazione di uno stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure#geolocation-device-lookup).
