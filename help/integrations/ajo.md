@@ -64,7 +64,7 @@ Quando il componente aggiuntivo Messaggistica transazionale ad alto throughput �
 * **[!UICONTROL Widget latenza P95 per 7 giorni continui]**: mostra la latenza P95 come valore singolo, inclusa la variazione percentuale rispetto alla settimana precedente.
 * **[!UICONTROL Widget velocità effettiva P95 su 7 giorni continui]**: mostra la velocità effettiva P95 come valore singolo, inclusa la variazione percentuale rispetto alla settimana precedente.
 
-Per ulteriori informazioni su questi set di dati e sul componente aggiuntivo Messaggistica transazionale ad alta velocità, consulta [Attivare la modalità Alta velocità per le campagne attivate dall&#39;API](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput) nella documentazione di Adobe Journey Optimizer.
+Per ulteriori informazioni su questi set di dati e sul componente aggiuntivo Messaggistica transazionale ad alta velocità, consulta [Attivare la modalità Alta velocità per le campagne attivate dall&#39;API](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput) nella documentazione di Adobe Journey Optimizer.
 
 ### Visualizzazione dati
 
