@@ -4,9 +4,9 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: a4287ab5b341f156d039b4bc35dc03482ba3f60c
+source-git-commit: 6ae1f8ccca5321b2ebab775cc12775c64377613e
 workflow-type: tm+mt
-source-wordcount: '5819'
+source-wordcount: '5856'
 ht-degree: 94%
 
 ---
@@ -20,6 +20,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 |---|---|
 | **Aprile 2026** | |
+| È stata aggiunta la documentazione mancante per due set di dati che possono essere inclusi durante l’integrazione di Journey Optimizer | [Nella connessione sono inclusi altri due set di dati generati dal sistema e non di profilo](/help/integrations/ajo.md#high-throughput-add-on-datasets) quando per l&#39;organizzazione IMS è abilitato il componente aggiuntivo Messaggistica transazionale ad alta velocità. |
 | Casi di utilizzo aggiornati per l’analisi per coorte | In base al feedback, sono stati aggiunti esempi di Workspace per i casi di utilizzo dell’analisi per coorte. |
 | **Marzo 2026** | |
 | Suddividere un pannello | È stata ristrutturata la documentazione intorno alla zona di rilascio [&#x200B; per un pannello](/help/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità [suddividi](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
