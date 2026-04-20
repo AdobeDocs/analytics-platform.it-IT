@@ -373,5 +373,5 @@ Controlla anche la configurazione della visualizzazione dati per ciascun compone
 
 **Funzione Consigli**
 
-* Regola il modello di allocazione [ e la scadenza ](/help/data-views/component-settings/persistence.md) su quella dimensione per allineare nome e comportamento. Ad esempio, una dimensione campo derivata denominata `Original Source` deve utilizzare l&#39;attribuzione Primo contatto con scadenza impostata su Persona.
+* Regola il modello di allocazione [&#x200B; e la scadenza &#x200B;](/help/data-views/component-settings/persistence.md) su quella dimensione per allineare nome e comportamento. Ad esempio, una dimensione campo derivata denominata `Original Source` deve utilizzare l&#39;attribuzione Primo contatto con scadenza impostata su Persona.
 * Regola il **[!UICONTROL modello di allocazione]** e la **[!UICONTROL scadenza]** nelle impostazioni di [persistenza](/help/data-views/component-settings/persistence.md) della dimensione per allineare nome e comportamento. Ad esempio, `Original Source` deve impostare **[!UICONTROL Allocation model]** su **[!UICONTROL Original]** con **[!UICONTROL Expiration]** impostato su **[!UICONTROL Person]**.
