@@ -297,6 +297,6 @@ Utilizza i campi e i segmenti derivati per generare rapporti e analisi sul traff
 
 >[!MORELIKETHIS]
 >
->Questo articolo del caso d&#39;uso si basa sull&#39;articolo del blog [Tracciamento e analisi del traffico generato da LLM e AI in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967).
+>Questo articolo del caso d&#39;uso si basa sull&#39;articolo del blog [Tracciamento e analisi del traffico generato da LLM e AI in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=it).
 >
 >
