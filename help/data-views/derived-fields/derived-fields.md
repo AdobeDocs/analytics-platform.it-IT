@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 12347a865bdeb16f9b45ec5e5eddc3390894e0dc
+source-git-commit: aa29067a244c588e6d830f0a039db90e99eaf5d3
 workflow-type: tm+mt
-source-wordcount: '10283'
+source-wordcount: '10297'
 ht-degree: 99%
 
 ---
@@ -39,6 +39,11 @@ Esempi di casi d’uso sono:
 - Definisci un campo Canale di marketing derivato che determini il canale di marketing appropriato in base a una o più condizioni (ad esempio parametro URL, URL pagina, nome pagina).
 
 I componenti standard sono supportati solo sui set di dati evento nei campi derivati.
+
+>[!TIP]
+>
+>Consulta [linee guida](/help/use-cases/data-views/derived-fields/guidelines.md) per best practice, guardrail e insidie comuni quando lavori con campi derivati.
+>
 
 ## Interfaccia campo derivato {#interface}
 

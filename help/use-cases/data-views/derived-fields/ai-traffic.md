@@ -4,13 +4,13 @@ description: Scopri come utilizzare i campi derivati come base per creare rappor
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+exl-id: 29857457-3fbb-441c-8761-91712b9df20f
+source-git-commit: aa29067a244c588e6d830f0a039db90e99eaf5d3
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
 
 ---
-
 
 # Rapporto su LLM e traffico generato da IA
 
@@ -25,7 +25,7 @@ Questo articolo del caso d’uso illustra come utilizzare la funzionalità dei c
 
 Per rilevare il traffico generato da LLM e AI, distingui tra:
 
-* **LLM crawler**: raccogli i dati per l&#39;addestramento e il recupero di generazione aumentata (RAG).
+* **crawler LLM**: raccogli i dati per l&#39;addestramento e il recupero di generazione aumentata (RAG).
 * **Agenti AI**: fungono da interfacce che eseguono attività per conto di utenti umani. Gli agenti di intelligenza artificiale preferiscono interagire tramite API, ignorando così i metodi di tracciamento dell’analisi web. Tuttavia, puoi ancora analizzare una parte significativa del traffico generato dall’intelligenza artificiale tramite i siti web.
 
 Tre metodi comuni di rilevamento di base per identificare e monitorare il traffico generato da LLM e AI sono:
@@ -39,7 +39,7 @@ La tabella seguente illustra come i metodi di rilevamento possono essere utilizz
 
 | Scenario | Identificazione dell’agente utente | Classificazione referrer | Rilevamento dei parametri di query |
 |---|---|---|---|
-| **Apprendimento di un modello** | L&#39;agente (`GPTBot`, `ClaudeBot` e altro) può essere identificato quando viene implementata la registrazione lato server. | Non è possibile alcuna classificazione. I crawler basati su IA non generano referrer durante l’apprendimento. | Rilevamento impossibile. I crawler basati su IA non aggiungono parametri durante l’apprendimento. |
+| **Apprendimento di un modello** | L&#39;agente (`GPTBot`, `ClaudeBot` e altro) può essere identificato quando viene implementata la registrazione lato server. | Non è possibile alcuna classificazione. I crawler di intelligenza artificiale non generano referenti durante l’apprendimento. | Rilevamento impossibile. I crawler di intelligenza artificiale non aggiungono parametri durante l’apprendimento. |
 | **Esplorazione agente** | L&#39;agente (`ChatGPT-User`, `claude-web`) può essere identificato quando la registrazione lato server acquisisce le intestazioni. | La classificazione è possibile se l’agente passa da un’interfaccia IA con conservazione del referente. | Il rilevamento è talvolta possibile se il servizio AI aggiunge parametri di tracciamento. |
 | **Recupero della generazione aumentata (RAG) per rispondere alla query** | L&#39;agente (`OAI-SearchBot`, `PerplexityBot`) può essere identificato con la registrazione lato server. | In genere non è possibile effettuare alcuna classificazione, in quanto le operazioni RAG spesso ignorano i meccanismi di riferimento. | Il rilevamento è raramente possibile se non specificamente implementato dal provider di IA. |
 | **L&#39;utente fa clic su** | Impossibile identificare l&#39;agente. L’agente di IA viene visualizzato come un normale agente utente. | La classificazione è possibile quando gli utenti fanno clic sui collegamenti dalle interfacce di intelligenza artificiale ([chatgpt.com](https://chatgpt.com), [claude.ai](https://claude.ai) e altro). | Il rilevamento è possibile quando i servizi di intelligenza artificiale aggiungono parametri UTM ai collegamenti in uscita. |
@@ -72,7 +72,7 @@ A partire da agosto 2025, per ciascuno dei metodi di rilevamento possono essere 
 <tr>
 <td><strong>GPTBot</strong></td>
 <td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; GPTBot/1.1; +<a href="https://openai.com/gptbot" target="_blank" rel="noopener nofollow noreferrer">https://openai.com/gptbot</a></code></td>
-<td><a href="https://platform.openai.com/docs/bots/" target="_blank" rel="noopener nofollow noreferrer">Web crawler principale di OpenAI per la formazione di ChatGPT e modelli di linguaggio</a></td>
+<td><a href="https://platform.openai.com/docs/bots/" target="_blank" rel="noopener nofollow noreferrer">Il crawler web principale di OpenAI per la formazione di ChatGPT e modelli linguistici</a></td>
 </tr>
 <tr>
 <td><strong>ChatGPT-User</strong></td>
@@ -87,12 +87,12 @@ A partire da agosto 2025, per ciascuno dei metodi di rilevamento possono essere 
 <tr>
 <td><strong>OAI-SearchBot</strong></td>
 <td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; OAI-SearchBot/1.0; +<a href="https://openai.com/searchbot" target="_blank" rel="noopener nofollow noreferrer">https://openai.com/searchbot</a></code></td>
-<td><a href="https://platform.openai.com/docs/bots/" target="_blank" rel="noopener nofollow noreferrer">Crawler di ChatGPT incentrato sulla ricerca per individuare contenuti</a></td>
+<td><a href="https://platform.openai.com/docs/bots/" target="_blank" rel="noopener nofollow noreferrer">Crawler di ricerca di ChatGPT per la ricerca di contenuti</a></td>
 </tr>
 <tr>
 <td><strong>ClaudeBot</strong></td>
 <td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ClaudeBot/1.0; +claudebot@anthropic.com</code></td>
-<td><a href="https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler" target="_blank" rel="noopener nofollow noreferrer">Crawler antropico per l'addestramento e l'aggiornamento dell'assistente Claude AI</a></td>
+<td><a href="https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler" target="_blank" rel="noopener nofollow noreferrer">Crawler antropico per la formazione e l'aggiornamento dell'assistente Claude AI</a></td>
 </tr>
 <tr>
 <td><strong>Claude-User</strong></td>
@@ -117,12 +117,12 @@ A partire da agosto 2025, per ciascuno dei metodi di rilevamento possono essere 
 <tr>
 <td><strong>Google - Esteso</strong></td>
 <td><code>Mozilla/5.0 (compatible; Google-Extended/1.0; +<a href="https://support.google.com/webmasters/answer/182072" target="_blank" rel="noopener nofollow noreferrer">http://www.google.com/bot.html</a>)</code></td>
-<td><a href="https://blog.google/technology/ai/an-update-on-web-publisher-controls/" target="_blank" rel="noopener nofollow noreferrer">Crawler Google incentrato sull'intelligenza artificiale per Gemini separato da Googlebot standard</a></td>
+<td><a href="https://blog.google/technology/ai/an-update-on-web-publisher-controls/" target="_blank" rel="noopener nofollow noreferrer">Il crawler di Google incentrato sull'intelligenza artificiale per Gemini si distingue da Google Lebot standard</a></td>
 </tr>
 <tr>
 <td><strong>BingBot</strong></td>
 <td><code>Mozilla/5.0 (compatible; BingBot/1.0; +<a href="http://www.bing.com/bot.html" target="_blank" rel="noopener nofollow noreferrer">http://www.bing.com/bot.html</a>)</code></td>
-<td>Crawler Microsoft che alimenta Bing Search e Bing Chat (Copilot)</td>
+<td>crawler Microsoft che alimenta Bing Search e Bing Chat (Copilot)</td>
 </tr>
 <tr>
 <td><strong>DuckAssistBot</strong></td>
@@ -132,7 +132,7 @@ A partire da agosto 2025, per ciascuno dei metodi di rilevamento possono essere 
 <tr>
 <td><strong>YouBot</strong></td>
 <td><code>Mozilla/5.0 (compatible; YouBot (+<a href="http://www.you.com" target="_blank" rel="noopener nofollow noreferrer">http://www.you.com</a>))</code></td>
-<td>Crawler dietro la ricerca AI di You.com e assistente del browser</td>
+<td>Crawler dietro la Ricerca IA di You.com e l'assistente del browser</td>
 </tr>
 <tr>
 <td><strong>meta-externalagent</strong></td>
@@ -142,17 +142,17 @@ A partire da agosto 2025, per ciascuno dei metodi di rilevamento possono essere 
 <tr>
 <td><strong>Amazonbot</strong></td>
 <td><code>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5 (Amazonbot/0.1; +<a href="https://developer.amazon.com/amazonbot" target="_blank" rel="noopener nofollow noreferrer">https://developer.amazon.com/support/amazonbot</a>)</code></td>
-<td><a href="https://developer.amazon.com/amazonbot" target="_blank" rel="noopener nofollow noreferrer">Crawler di Amazon per applicazioni di ricerca e IA</a></td>
+<td><a href="https://developer.amazon.com/amazonbot" target="_blank" rel="noopener nofollow noreferrer">crawler Amazon per applicazioni di ricerca e IA</a></td>
 </tr>
 <tr>
 <td><strong>Applebot</strong></td>
 <td><code>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15 (Applebot/0.1; +<a href="https://support.apple.com/kb/HT6619" target="_blank" rel="noopener nofollow noreferrer">http://www.apple.com/go/applebot</a>)</code></td>
-<td><a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">Crawler Apple per Spotlight, Siri e Safari</a></td>
+<td><a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">crawler Apple per Spotlight, Siri e Safari</a></td>
 </tr>
 <tr>
 <td><strong>Applebot-Extended</strong></td>
 <td><code>Mozilla/5.0 (compatible; Applebot-Extended/1.0; +<a href="https://www.apple.com/bot.html" target="_blank" rel="noopener nofollow noreferrer">http://www.apple.com/bot.html</a>)</code></td>
-<td><a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">Crawler incentrato sull’intelligenza artificiale di Apple per i futuri modelli di intelligenza artificiale (consenso)</a></td>
+<td><a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">crawler di Apple incentrato sull’intelligenza artificiale per i futuri modelli di intelligenza artificiale (opt-in)</a></td>
 </tr>
 <tr>
 <td><strong>Bytespider</strong></td>
@@ -212,7 +212,7 @@ A partire da agosto 2025, per ciascuno dei metodi di rilevamento possono essere 
 <tr >
 <td>IA perplessità</td>
 <td>perplexity.ai</td>
-<td>Traffico da ricerca IA con citazioni</td>
+<td>Traffico di Ricerche IA con citazioni</td>
 </tr>
 <tr>
 <td>META AI</td>
@@ -229,7 +229,7 @@ A partire da agosto 2025, per ciascuno dei metodi di rilevamento possono essere 
 <tr>
 <th><strong>Servizio LLM</strong></th>
 <th>URL di esempio</th>
-<th><strong>Parametro query</strong></th>
+<th><strong>Parametro di query</strong></th>
 <th><strong>Esempio di valore</strong></th>
 </tr>
 </thead>
