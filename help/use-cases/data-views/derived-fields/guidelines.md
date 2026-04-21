@@ -5,8 +5,7 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-hide: true
-source-git-commit: 68c9d38f4fe60a9b8e661309698ba0ec38e2ea9b
+source-git-commit: 66a233937733616ee5b0befa54e9a0cb846a31c5
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 1%
@@ -373,5 +372,5 @@ Controlla anche la configurazione della visualizzazione dati per ciascun compone
 
 **Funzione Consigli**
 
-* Regola il modello di allocazione [&#x200B; e la scadenza &#x200B;](/help/data-views/component-settings/persistence.md) su quella dimensione per allineare nome e comportamento. Ad esempio, una dimensione campo derivata denominata `Original Source` deve utilizzare l&#39;attribuzione Primo contatto con scadenza impostata su Persona.
+* Regola il modello di allocazione [ e la scadenza ](/help/data-views/component-settings/persistence.md) su quella dimensione per allineare nome e comportamento. Ad esempio, una dimensione campo derivata denominata `Original Source` deve utilizzare l&#39;attribuzione Primo contatto con scadenza impostata su Persona.
 * Regola il **[!UICONTROL modello di allocazione]** e la **[!UICONTROL scadenza]** nelle impostazioni di [persistenza](/help/data-views/component-settings/persistence.md) della dimensione per allineare nome e comportamento. Ad esempio, `Original Source` deve impostare **[!UICONTROL Allocation model]** su **[!UICONTROL Original]** con **[!UICONTROL Expiration]** impostato su **[!UICONTROL Person]**.
