@@ -5,10 +5,10 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 3294e1516f9478348743d0f1e9761b8b3497b1d2
 workflow-type: tm+mt
-source-wordcount: '2709'
-ht-degree: 97%
+source-wordcount: '2708'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | **Stitching** | L’[unione delle identità](/help/stitching/overview.md) è una funzione potente che migliora l’idoneità di un set di dati evento per l’analisi cross-channel. L’analisi cross-channel è un caso d’uso principale che può essere gestito da Customer Journey Analytics. L’analisi cross-channel ti consente di combinare ed eseguire rapporti in modo semplice su più set di dati da canali diversi, in base a un identificatore comune (ID persona). |
 | **Modelli in Adobe Journey Optimizer** | Puoi personalizzare la nuova interfaccia di reporting in Adobe Journey Optimizer creando o modificando un [modello](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=it) in Customer Journey Analytics, quindi salvando il modello da utilizzare nella pagina Rapporti in Journey Optimizer. |
 | **Dimensioni e metriche cliente illimitate** | In Customer Journey Analytics le dimensioni sono illimitate; i valori possono essere numeri, testo, oggetti, elenchi o una combinazioni di questi. Le dimensioni possono essere nidificate o gerarchiche. <br/>Al contrario, Analytics supporta fino a un massimo di 75 proprietà e 250 eVar. |
-| **Valori univoci illimitati** | Customer Journey Analytics supporta valori univoci illimitati o elementi dimensionali che possono essere inseriti in un rapporto all’interno di una singola dimensione.<p>Non ci sono [limiti di cardialità su una dimensione](/help/components/dimensions/high-cardinality.md) e quindi ogni valore univoco può comparire ed essere contato.</p><p>Questo approccio rimuove le limitazioni di reporting e analisi che possono esistere con implementazioni Adobe Analytics su larga scala, con conseguente [!UICONTROL Etichette Traffico ridotto].</p><p>In Customer Journey Analytics, è possibile visualizzare un&#39;etichetta [!UICONTROL Uniques Exceeded], ma queste etichette si verificano molto meno frequentemente e possono essere mitigate applicando un segmento ai dati.</p> |
+| **Valori univoci illimitati** | Customer Journey Analytics supporta valori univoci illimitati o elementi dimensionali che possono essere inseriti in un rapporto all’interno di una singola dimensione.<p>Non ci sono [limiti di cardialità su una dimensione](/help/components/dimensions/high-cardinality.md) e quindi ogni valore univoco può comparire ed essere contato.</p><p>Questo approccio elimina le limitazioni di reporting e analisi che possono verificarsi con le implementazioni di Adobe Analytics su larga scala, che causano la comparsa di etichette [!UICONTROL Traffico ridotto].</p><p>In Customer Journey Analytics è possibile visualizzare un’etichetta [!UICONTROL Valori univoci eccessivi], ma questo tipo di etichetta è meno frequente e può essere limitata applicando un segmento ai dati.</p> |
 
 ## Funzioni/componenti di Adobe Analytics completamente supportati {#full-support}
 
@@ -62,7 +62,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | **Confronto date** | Supporto completo |
 | **Intervalli di date** | È supportata tutta la funzionalità per intervalli di date. |
 | **Dimensioni** | Supporto completo. Customer Journey Analytics utilizza XDM e supporta dimensioni illimitate. Customer Journey Analytics non è legato alle proprietà o agli eVar personalizzati della versione tradizionale di Adobe Analytics. |
-| **Eliminazione GDPR** | Supporto completo; tieni presente che il RGPD è ora gestito in coordinamento con [!UICONTROL Adobe Experience Platform]. Customer Journey Analytics eredita tutte le modifiche apportate da [!UICONTROL Experience Platform] ai set di dati sottostanti. |
+| **Eliminazione GDPR** | Supporto completo: tieni presente che le funzioni GDPR sono ora gestite in coordinamento con [!UICONTROL Adobe Experience Platform].  Customer Journey Analytics eredita tutte le modifiche apportate da [!UICONTROL Experience Platform] ai set di dati sottostanti. |
 | **Reporting di incremento e affidabilità** | Supporto completo tramite [Pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md) |
 | **Variabili elenco/Prop elenco** | Supporto completo. Customer Journey Analytics sfrutta XDM e supporta array di stringhe illimitati che possono essere utilizzati in modo simile a listVars. |
 | **eVar di merchandising** | Supporto completo tramite [dimensioni e metriche di binding](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-settings/persistence) |
@@ -88,7 +88,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 
 | Funzione | Note |
 | --- | --- |
-| **Advertising Cloud** | È possibile [raccogliere i dati storici per gli ID AMO e gli ID EF da utilizzare in Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/advertising/integrations/analytics/planning/rvars-to-evars). |
+| **Advertising** | È possibile [raccogliere i dati storici per gli ID AMO e gli ID EF da utilizzare in Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/advertising/integrations/analytics/planning/rvars-to-evars). |
 | **Avvisi** | Il processo di [utilizzo degli avvisi in Customer Journey Analytics](/help/components/c-intelligent-alerts/alerts-feature-comparison.md) è quasi identico a quello degli avvisi in Adobe Analytics. <p>Tuttavia, a causa dei tempi di raccolta dei dati in Customer Journey Analytics, gli avvisi orari non sono disponibili. In Customer Journey Analytics, gli avvisi possono essere configurati come giornalieri, settimanali o mensili.</p> |
 | **Analytics for Target (A4T)** | [L’integrazione tra Adobe Customer Journey Analytics e Target](https://experienceleague.adobe.com/it/docs/target/using/integrate/cja/target-reporting-in-cja) fornisce potenti strumenti di analisi per il programma di ottimizzazione, che consentono di risparmiare tempo prezioso. |
 | **Pubblicazione dei tipi di pubblico** | Supportata se concessa in licenza con i prodotti Customer Data Platform o Journey Optimizer di Adobe. La [pubblicazione di tipi di pubblico](/help/components/audiences/audiences-overview.md) invia tipi di pubblico a Real-time Customer Profile in Experience Platform. |
