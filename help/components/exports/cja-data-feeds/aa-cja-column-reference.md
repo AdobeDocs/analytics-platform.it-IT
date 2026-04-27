@@ -4,9 +4,9 @@ description: Determina come utilizzare una determinata colonna di feed dati di A
 feature: Components
 hide: true
 exl-id: 81d6e79e-8324-4726-9a48-10177b0a91b1
-source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
+source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
 workflow-type: tm+mt
-source-wordcount: '3768'
+source-wordcount: '3912'
 ht-degree: 34%
 
 ---
@@ -228,7 +228,7 @@ ID numerico che rappresenta la dimensione Tipo di connessione.
 
 +++**`cookies`**
 
-La dimensione Supporto cookie.<br>Y: abilitato<br>N: disabilitato<br>U: sconosciuto
+Dimensione Supporto cookie.<br>Y: Enabled<br>N: Disabled<br>U: Unknown
 
 {{cja-df-post}}
 
@@ -1025,7 +1025,7 @@ La dimensione Pagine non trovate, che in genere viene utilizzata per 404 pagine.
 
 +++**`page_url`**
 
-**`page_url`**: URL dell&#39;hit. Utilizza un tipo di dati testo.<br>**`post_page_url`**: rimosso per le richieste di immagini di tracciamento dei collegamenti (`tl()`).
+**`page_url`**: URL dell&#39;hit. Utilizza un tipo di dati di testo.<br>**`post_page_url`**: rimosso per le richieste di immagini di tracciamento dei collegamenti (`tl()`).
 
 {{cja-df-post}}
 
@@ -1055,7 +1055,7 @@ Nome del punto di interesse in Mobile Services
 
 +++**`pointofinterestdistance`**
 
-Distanza dal centro del punto di interesse in Mobile Services 
+Distanza dal centro del punto di interesse in Mobile Services
 
 {{cja-df-post}}
 
@@ -1110,7 +1110,7 @@ La dimensione Dominio di riferimento. In base alla colonna `referrer`.
 +++**`ref_type`**
 
 
-ID numerico che rappresenta il tipo di riferimento per l’hit. Utilizzato nella dimensione Tipo referrer.<br>1: all&#39;interno del sito<br>2: altri siti Web<br>3: motori di ricerca<br>4: disco rigido<br>5: USENET<br>6: digitato/contrassegnato con segnalibro (nessun referrer)<br>7: e-mail<br>8: nessun JavaScript<br>9: social network<br>10: strumenti di IA per la conversazione
+ID numerico che rappresenta il tipo di riferimento per l’hit. Utilizzato nella dimensione Tipo referrer.<br>1: All&#39;interno del sito<br>2: Altri siti Web<br>3: Motori di ricerca<br>4: Disco rigido<br>5: USENET<br>6: Digitato/Contrassegnato con segnalibro (nessun referrer)<br>7: E-mail<br>8: Nessun JavaScript<br>9: Social network<br>10: strumenti di IA per la conversazione
 
 +++
 
@@ -1158,7 +1158,7 @@ Non è utile. Server interno di Adobe che ha elaborato l’hit.
 
 +++**`s_kwcid`**
 
-ID parola chiave utilizzato nelle integrazioni Adobe Advertising. 
+ID parola chiave utilizzato nelle integrazioni Adobe Advertising.
 
 {{cja-df-post}}
 
@@ -1646,7 +1646,7 @@ Se un ID visitatore è stato generato di recente, fornisce la marca temporale in
 
 +++**`visid_type`**
 
-Non per uso esterno; utilizzato internamente da Adobe per l’elaborazione delle ottimizzazioni. Un ID numerico che rappresenta il metodo utilizzato per identificare il visitatore.<br>`0`: ID visitatore personalizzato o sconosciuto/non applicabile<br>`1`: fallback dell’IP e dell’agente utente <br>`2`: intestazione dell’abbonato mobile HTTP <br>`3`: valore cookie legacy (`s_vi`) <br>`4` valore cookie di fallback (`s_fid`) <br>`5`: servizio identità
+Non per uso esterno; utilizzato internamente da Adobe per l’elaborazione delle ottimizzazioni. Un ID numerico che rappresenta il metodo utilizzato per identificare il visitatore.<br>`0`: ID visitatore personalizzato o sconosciuto/non applicabile<br>`1`: fallback dell&#39;agente IP e dell&#39;agente utente <br>`2`: intestazione del sottoscrittore dispositivo mobile HTTP <br>`3`: valore cookie legacy (`s_vi`) <br>`4`: valore cookie di fallback (`s_fid`) <br>`5`: servizio identità
 
 {{cja-df-post}}
 

@@ -4,10 +4,10 @@ title: Panoramica dell’area di lavoro del percorso
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 73238f03021b14567c20c686ab72d84afbaa9f81
 workflow-type: tm+mt
-source-wordcount: '1996'
-ht-degree: 100%
+source-wordcount: '2022'
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione dell’area di lavoro del percorso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**<br/>Nessuna visualizzazione equivalente in **Adobe Analytics**._
+_Questo articolo documenta la visualizzazione dell&#39;area di lavoro del Percorso in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**.<br/>Non esiste alcuna visualizzazione equivalente in **Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ La visualizzazione dell’area di lavoro del percorso consente di analizzare e o
 
 Puoi [creare analisi dei percorsi degli utenti](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) utilizzando qualsiasi combinazione di eventi, elementi dimensionali, segmenti e intervalli di date per creare i nodi del percorso. Connetti i nodi per creare il flusso del percorso e includi più percorsi e punti di decisione. Trascina i nodi nell’area di lavoro per riorganizzare gli eventi e le condizioni del percorso. I dati vengono aggiornati in tempo reale man mano che apporti le modifiche.
 
-[I nodi sono connessi](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) come un “percorso finale”, il che significa che i visitatori vengono conteggiati finché si spostano da un nodo all’altro, indipendentemente dagli eventi che si verificano tra i due nodi. Il tempo assegnato agli utenti per spostarsi lungo il percorso è determinato dalle impostazioni del contenitore.
+[I nodi sono connessi](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) come &quot;percorso finale&quot;, il che significa che i visitatori vengono conteggiati finché passano da un nodo all&#39;altro, indipendentemente dagli eventi che si verificano tra i due nodi. Il tempo assegnato agli utenti per spostarsi lungo il percorso è determinato dalle impostazioni del contenitore.
 
 ![Area di lavoro del percorso](assets/journey-canvas.png)
 
@@ -206,7 +206,7 @@ Per comprendere la sincronizzazione tra Journey Optimizer e l’area di lavoro d
 
   Quando si utilizza un collegamento “Condividi con chiunque”, le modifiche apportate in Journey Optimizer non vengono riportate nell’area di lavoro del percorso fino a quando il progetto non viene salvato in Customer Journey Analytics.
 
-  Per ulteriori informazioni sui collegamenti “Condividi con chiunque”, consulta [Condividi un progetto con chiunque (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).
+  Per ulteriori informazioni sui collegamenti &quot;Condividi con chiunque&quot;, vedere [Condividi un progetto con chiunque (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) in [Condividi progetti](/help/analysis-workspace/curate-share/share-projects.md).
 
 ### Differenze dopo la modifica di un percorso nell’Area di lavoro del percorso {#differences-after-modifying}
 
