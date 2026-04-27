@@ -4,9 +4,9 @@ description: Determina come utilizzare una determinata colonna di feed dati di A
 feature: Components
 hide: true
 exl-id: 81d6e79e-8324-4726-9a48-10177b0a91b1
-source-git-commit: efa2cada4b26d71cce22c0d0e8662b6dd04f38f4
+source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
 workflow-type: tm+mt
-source-wordcount: '3768'
+source-wordcount: '3912'
 ht-degree: 34%
 
 ---
@@ -19,7 +19,7 @@ Questo riferimento consente ai data engineer di valutare le colonne dei feed dat
 
 >[!NOTE]
 >
->Questo riferimento include solo le colonne considerate correnti da Adobe, in base al [Riferimento colonna feed dati di Analytics](https://experienceleague.adobe.com/it/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference). Se disponi di una colonna di feed dati di Analytics non elencata in questa tabella che utilizzi attivamente, consulta il documento di progettazione della soluzione della tua organizzazione per determinarne l’equivalente migliore in Customer Journey Analytics.
+>Questo riferimento include solo le colonne considerate correnti da Adobe, in base al [Riferimento colonna feed dati di Analytics](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference). Se disponi di una colonna di feed dati di Analytics non elencata in questa tabella che utilizzi attivamente, consulta il documento di progettazione della soluzione della tua organizzazione per determinarne l’equivalente migliore in Customer Journey Analytics.
 
 +++**`accept_language`**
 
@@ -140,7 +140,7 @@ Hint client raccolti tramite l’API JavaScript per gli hint client dall’agent
 
 In Adobe Analytics, gli hint client venivano inclusi come stringa concatenata in questa colonna. È considerato un approccio più moderno rispetto alla colonna `user_agent`.
 
-È possibile raccogliere questi dati utilizzando la stringa di contesto [`highEntropyUserAgentHints`](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/configure/context) durante la configurazione del Web SDK. Vengono compilati più campi XDM invece di una stringa lunga concatenata:
+È possibile raccogliere questi dati utilizzando la stringa di contesto [`highEntropyUserAgentHints`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context) durante la configurazione del Web SDK. Vengono compilati più campi XDM invece di una stringa lunga concatenata:
 
 * **Versione sistema operativo**: `xdm.environment.browserDetails.userAgentClientHints.platformVersion`
 * **Architettura**: `xdm.environment.browserDetails.userAgentClientHints.architecture`
@@ -150,7 +150,7 @@ In Adobe Analytics, gli hint client venivano inclusi come stringa concatenata in
 * **Nome browser**: `xdm.environment.browserDetails.userAgentClientHints.brand`
 * **Versione browser**: `xdm.environment.browserDetails.userAgentClientHints.version`
 
-Per ulteriori informazioni, vedere [User agent client hints](https://experienceleague.adobe.com/it/docs/experience-platform/collection/use-cases/client-hints).
+Per ulteriori informazioni, vedere [User agent client hints](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints).
 
 {{cja-df-ua}}
 
@@ -228,7 +228,7 @@ ID numerico che rappresenta la dimensione Tipo di connessione.
 
 +++**`cookies`**
 
-La dimensione Supporto cookie.<br>Y: abilitato<br>N: disabilitato<br>U: sconosciuto
+Dimensione Supporto cookie.<br>Y: Enabled<br>N: Disabled<br>U: Unknown
 
 {{cja-df-post}}
 
@@ -296,7 +296,7 @@ Customer Journey Analytics non ha un concetto di suite di rapporti con marca tem
 
 ID visitatore personalizzato, se impostato con `visitorID`.
 
-Customer Journey Analytics supporta un numero qualsiasi di identità che utilizzano [`identityMap`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/identitymap). Se l’organizzazione utilizza identità personalizzate, è probabile che sia all’interno della mappa delle identità.
+Customer Journey Analytics supporta un numero qualsiasi di identità che utilizzano [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap). Se l’organizzazione utilizza identità personalizzate, è probabile che sia all’interno della mappa delle identità.
 
 {{cja-df-post}}
 
@@ -362,7 +362,7 @@ Elenca ogni evento conteggiato come duplicato.
 
 {{cja-df-na}}
 
-Customer Journey Analytics non dispone di un singolo campo che funge da flag di deduplicazione per tutte le metriche. Ogni metrica contiene invece le proprie [impostazioni dei componenti di deduplicazione delle metriche](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication). Di conseguenza, non esiste un campo equivalente in Customer Journey Analytics per questa colonna del feed dati di Adobe Analytics.
+Customer Journey Analytics non dispone di un singolo campo che funge da flag di deduplicazione per tutte le metriche. Ogni metrica contiene invece le proprie [impostazioni dei componenti di deduplicazione delle metriche](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication). Di conseguenza, non esiste un campo equivalente in Customer Journey Analytics per questa colonna del feed dati di Adobe Analytics.
 
 +++
 
@@ -370,7 +370,7 @@ Customer Journey Analytics non dispone di un singolo campo che funge da flag di 
 
 Flag che determina se l’evento di acquisto per questo hit viene ignorato perché è un duplicato.
 
-Anche se non esiste una traduzione diretta in questa colonna del feed dati di Analytics, la sua funzionalità di azione per deduplicare gli acquisti esiste ancora. Se utilizzi il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/commerce-details), puoi impostare [Impostazioni del componente di deduplicazione della metrica](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication) in cui l&#39;**[!UICONTROL ID deduplicazione]** è `xdm.commerce.purchases.id`.
+Anche se non esiste una traduzione diretta in questa colonna del feed dati di Analytics, la sua funzionalità di azione per deduplicare gli acquisti esiste ancora. Se utilizzi il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details), puoi impostare [Impostazioni del componente di deduplicazione della metrica](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication) in cui l&#39;**[!UICONTROL ID deduplicazione]** è `xdm.commerce.purchases.id`.
 
 Se è necessaria una traduzione diretta quando si desidera un flag per acquisti duplicati, è possibile utilizzare un [campo derivato](/help/data-views/derived-fields/derived-fields.md) utilizzando la funzione **Deduplica** nel set di regole.
 
@@ -405,7 +405,7 @@ Questa colonna è probabilmente associata a decine di metriche separate, a secon
 
 {{cja-df-post}}
 
-Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/commerce-details), alcune metriche potrebbero essere mappate direttamente ai seguenti campi XDM:
+Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details), alcune metriche potrebbero essere mappate direttamente ai seguenti campi XDM:
 
 * **Casse**: `xdm.commerce.checkouts.value`
 * **Aggiunte al carrello**: `xdm.commerce.productListAdds.value`
@@ -418,7 +418,7 @@ Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https:
 Alcune metriche possono utilizzare la serializzazione degli eventi, ovvero il modo in cui Adobe Analytics consente il controllo completo sulla deduplicazione. È possibile utilizzare l&#39;impostazione del componente [Deduplicazione metrica](/help/data-views/component-settings/metric-deduplication.md) per ottenere la parità di deduplicazione.
 
 * Se la metrica deduplica per visita in Adobe Analytics, puoi impostare l’ambito di deduplicazione sulla sessione nelle impostazioni dei componenti di quella metrica.
-* Se la metrica viene deduplicata per ID evento in Adobe Analytics, è probabile che l’oggetto XDM per tale metrica contenga sia un campo `value` che un campo `id`. Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/commerce-details), è probabile che tali metriche risiedano in questi campi XDM, che è possibile impostare il campo **[!UICONTROL ID deduplicazione]** nelle impostazioni del componente della metrica:
+* Se la metrica viene deduplicata per ID evento in Adobe Analytics, è probabile che l’oggetto XDM per tale metrica contenga sia un campo `value` che un campo `id`. Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details), è probabile che tali metriche risiedano in questi campi XDM, che è possibile impostare il campo **[!UICONTROL ID deduplicazione]** nelle impostazioni del componente della metrica:
 
    * **Casse**: `xdm.commerce.checkouts.id`
    * **Aggiunte al carrello**: `xdm.commerce.productListAdds.id`
@@ -437,7 +437,7 @@ Flag che determina se l’hit è escluso dal reporting. La colonna `visit_num` n
 
 Customer Journey Analytics non rispetta gli &quot;hit esclusi&quot; predefiniti. Tuttavia, puoi ricreare questa funzionalità se disponi di un campo XDM che contrassegna alcuni hit da escludere:
 
-1. Assicurati che il campo XDM che contrassegna gli hit esclusi sia incluso come componente (dimensione o metrica, a seconda di come hai impostato questo flag). La selezione di [Nascondi componente nel reporting](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-settings/overview) è probabilmente utile per questo campo.
+1. Assicurati che il campo XDM che contrassegna gli hit esclusi sia incluso come componente (dimensione o metrica, a seconda di come hai impostato questo flag). La selezione di [Nascondi componente nel reporting](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview) è probabilmente utile per questo campo.
 1. In [Impostazioni visualizzazione dati](/help/data-views/session-settings.md), selezionare il menu a discesa **[!UICONTROL Aggiungi segmento]** e selezionare **[!UICONTROL Crea segmento]**.
 1. Crea un segmento che escluda tutti gli eventi in cui esiste il componente hit di esclusione o contiene valori che desideri escludere.
 1. Seleziona **[!UICONTROL Salva]** sia nel segmento che nella visualizzazione dati.
@@ -1025,7 +1025,7 @@ La dimensione Pagine non trovate, che in genere viene utilizzata per 404 pagine.
 
 +++**`page_url`**
 
-**`page_url`**: URL dell&#39;hit. Utilizza un tipo di dati testo.<br>**`post_page_url`**: rimosso per le richieste di immagini di tracciamento dei collegamenti (`tl()`).
+**`page_url`**: URL dell&#39;hit. Utilizza un tipo di dati di testo.<br>**`post_page_url`**: rimosso per le richieste di immagini di tracciamento dei collegamenti (`tl()`).
 
 {{cja-df-post}}
 
@@ -1055,7 +1055,7 @@ Nome del punto di interesse in Mobile Services
 
 +++**`pointofinterestdistance`**
 
-Distanza dal centro del punto di interesse in Mobile Services 
+Distanza dal centro del punto di interesse in Mobile Services
 
 {{cja-df-post}}
 
@@ -1110,7 +1110,7 @@ La dimensione Dominio di riferimento. In base alla colonna `referrer`.
 +++**`ref_type`**
 
 
-ID numerico che rappresenta il tipo di riferimento per l’hit. Utilizzato nella dimensione Tipo referrer.<br>1: all&#39;interno del sito<br>2: altri siti Web<br>3: motori di ricerca<br>4: disco rigido<br>5: USENET<br>6: digitato/contrassegnato con segnalibro (nessun referrer)<br>7: e-mail<br>8: nessun JavaScript<br>9: social network<br>10: strumenti di IA per la conversazione
+ID numerico che rappresenta il tipo di riferimento per l’hit. Utilizzato nella dimensione Tipo referrer.<br>1: All&#39;interno del sito<br>2: Altri siti Web<br>3: Motori di ricerca<br>4: Disco rigido<br>5: USENET<br>6: Digitato/Contrassegnato con segnalibro (nessun referrer)<br>7: E-mail<br>8: Nessun JavaScript<br>9: Social network<br>10: strumenti di IA per la conversazione
 
 +++
 
@@ -1158,7 +1158,7 @@ Non è utile. Server interno di Adobe che ha elaborato l’hit.
 
 +++**`s_kwcid`**
 
-ID parola chiave utilizzato nelle integrazioni Adobe Advertising. 
+ID parola chiave utilizzato nelle integrazioni Adobe Advertising.
 
 {{cja-df-post}}
 
@@ -1646,7 +1646,7 @@ Se un ID visitatore è stato generato di recente, fornisce la marca temporale in
 
 +++**`visid_type`**
 
-Non per uso esterno; utilizzato internamente da Adobe per l’elaborazione delle ottimizzazioni. Un ID numerico che rappresenta il metodo utilizzato per identificare il visitatore.<br>`0`: ID visitatore personalizzato o sconosciuto/non applicabile<br>`1`: fallback dell’IP e dell’agente utente <br>`2`: intestazione dell’abbonato mobile HTTP <br>`3`: valore cookie legacy (`s_vi`) <br>`4` valore cookie di fallback (`s_fid`) <br>`5`: servizio identità
+Non per uso esterno; utilizzato internamente da Adobe per l’elaborazione delle ottimizzazioni. Un ID numerico che rappresenta il metodo utilizzato per identificare il visitatore.<br>`0`: ID visitatore personalizzato o sconosciuto/non applicabile<br>`1`: fallback dell&#39;agente IP e dell&#39;agente utente <br>`2`: intestazione del sottoscrittore dispositivo mobile HTTP <br>`3`: valore cookie legacy (`s_vi`) <br>`4`: valore cookie di fallback (`s_fid`) <br>`5`: servizio identità
 
 {{cja-df-post}}
 

@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 3294e1516f9478348743d0f1e9761b8b3497b1d2
+source-git-commit: 73238f03021b14567c20c686ab72d84afbaa9f81
 workflow-type: tm+mt
-source-wordcount: '2708'
+source-wordcount: '3109'
 ht-degree: 99%
 
 ---
@@ -62,7 +62,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | **Confronto date** | Supporto completo |
 | **Intervalli di date** | È supportata tutta la funzionalità per intervalli di date. |
 | **Dimensioni** | Supporto completo. Customer Journey Analytics utilizza XDM e supporta dimensioni illimitate. Customer Journey Analytics non è legato alle proprietà o agli eVar personalizzati della versione tradizionale di Adobe Analytics. |
-| **Eliminazione GDPR** | Supporto completo: tieni presente che le funzioni GDPR sono ora gestite in coordinamento con [!UICONTROL Adobe Experience Platform].  Customer Journey Analytics eredita tutte le modifiche apportate da [!UICONTROL Experience Platform] ai set di dati sottostanti. |
+| **Eliminazione GDPR** | Supporto completo: tieni presente che le funzioni GDPR sono ora gestite in coordinamento con [!UICONTROL Adobe Experience Platform]. Customer Journey Analytics eredita tutte le modifiche apportate da [!UICONTROL Experience Platform] ai set di dati sottostanti. |
 | **Reporting di incremento e affidabilità** | Supporto completo tramite [Pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md) |
 | **Variabili elenco/Prop elenco** | Supporto completo. Customer Journey Analytics sfrutta XDM e supporta array di stringhe illimitati che possono essere utilizzati in modo simile a listVars. |
 | **eVar di merchandising** | Supporto completo tramite [dimensioni e metriche di binding](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-settings/persistence) |
