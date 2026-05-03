@@ -7,8 +7,8 @@ role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 source-git-commit: d42f0eb658f26d16bd21bb6ca47d5dd7c228e614
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 4%
+source-wordcount: '1788'
+ht-degree: 14%
 
 ---
 
@@ -101,29 +101,29 @@ Puoi abilitare l&#39;unione delle identità quando [aggiungi](/help/connections/
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
->title="Metriche di unione"
+>title="Metriche di unione delle identità"
 >abstract="Le metriche di unione vengono calcolate utilizzando un set di dati campione con marche temporali dell’evento degli ultimi 7 giorni.<br>Questo set di dati di esempio è in genere diverso dai dati di esempio utilizzati nella tabella **[!UICONTROL Anteprima]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
 >title="Copertura ID persona"
->abstract="Copertura dell’ID persona selezionato utilizzato per l’identificazione durante il processo di unione (in tempo reale e ripetizione).<br/>Per ottenere i migliori risultati nell&#39;unione, nel grafo delle identità deve essere presente una relazione (ID persistente, ID persona) per ogni ID persistente."
+>abstract="Copertura dell’ID persona selezionato utilizzato per l’identificazione durante il processo di unione delle identità (in tempo reale e riprodotto successivamente).<br/>Per risultati ottimali di unione delle attività, nel grafo di identità per ciascun ID persistente deve essere presente una relazione (ID persistente, ID persona)."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_fbs_personidcoverage"
 >title="Copertura ID persona"
->abstract="Copertura dell’ID persona selezionato utilizzato per l’identificazione durante il processo di unione (in tempo reale e ripetizione).<br/>Per ottenere i migliori risultati nell&#39;unione, è necessario inviare l&#39;ID persona (informazioni utente) ad almeno un evento per ogni ID persistente (informazioni dispositivo)."
+>abstract="Copertura dell’ID persona selezionato utilizzato per l’identificazione durante il processo di unione delle identità (in tempo reale e riprodotto successivamente).<br/>Per risultati ottimali di unione delle identità, l’ID persona (informazioni utente) deve essere inviato in occasione di almeno un evento per ciascun ID persistente (informazioni dispositivo)."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_persistentidcoverage"
 >title="Copertura ID persistente"
->abstract="Questo valore viene utilizzato per l’identificazione durante il processo di unione (live e replay), nel caso in cui non sia possibile rilevare un ID persona. <br/>Gli eventi senza ID persistente e senza ID persona vengono eliminati dai dati. Per risultati di unione ottimali, un ID persistente deve essere presente in tutti gli eventi."
+>abstract="Questo valore viene utilizzato per l’identificazione durante il processo di unione (live e replay), nel caso in cui non sia possibile rilevare un ID persona. <br/>Gli eventi senza ID persistente e senza ID persona vengono eliminati dai dati. Per risultati ottimali di unione delle identità, in tutti gli eventi deve essere presente un ID persistente."
 
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_badids"
 >title="ID non validi"
->abstract="Gli ID non validi sono valori ID che influiscono gravemente sui dati di reporting."
+>abstract="Gli ID non validi sono valori ID che incidono pesantemente sui dati di reporting."
 >additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/badids" text="ID non validi"
 
 
@@ -175,7 +175,7 @@ Oltre all&#39;interfaccia standard **[!UICONTROL Anteprima set di dati]**, quand
 
 ![Opzioni di unione identità quando si abilita la funzionalità](assets/identity-stitching-ui-preview.png)
 
-#### Metriche di unione
+#### Metriche di unione delle identità
 
 >[!AVAILABILITY]
 >
@@ -190,7 +190,7 @@ Oltre all&#39;interfaccia standard **[!UICONTROL Anteprima set di dati]**, quand
 
   La copertura dell’ID persona viene visualizzata come percentuale e confrontata con quanto consigliato per uno sviluppo stabile o in una configurazione di produzione. Maggiore è il valore di copertura, migliori saranno i risultati di unione ottenuti con l’ID persona selezionato.
 
-* **[!UICONTROL Copertura ID persistente]**: questo valore viene utilizzato per l&#39;identificazione durante il processo di unione (in tempo reale e ripetizione), nel caso in cui non sia possibile rilevare un valore ID persona. Gli eventi senza ID persistente e senza ID persona vengono eliminati dai dati. Per risultati di unione ottimali, un ID persistente deve essere presente in tutti gli eventi.
+* **[!UICONTROL Copertura ID persistente]**: questo valore viene utilizzato per l&#39;identificazione durante il processo di unione (in tempo reale e ripetizione), nel caso in cui non sia possibile rilevare un valore ID persona. Gli eventi senza ID persistente e senza ID persona vengono rimossi dai dati. Per risultati ottimali di unione delle identità, in tutti gli eventi deve essere presente un ID persistente.
 
   La copertura ID persistente viene visualizzata come percentuale e confrontata con il minimo consigliato per uno sviluppo stabile o una configurazione di produzione.
 
