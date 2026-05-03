@@ -7,8 +7,8 @@ feature: Basics
 exl-id: 4e6cacb9-4eca-4dfb-bce4-e69850507596
 source-git-commit: bf4ff740d8d57fe1001b58e1c227644b8ad057cf
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 93%
+source-wordcount: '591'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-stitch-customer-care"
 >title="Abilita l’unione delle identità per i set di dati pertinenti"
->abstract="Se hai un campo che contiene un identificatore che esiste in più set di dati ma non è l’identificatore principale, puoi utilizzare l’unione per elevare i dati a uno o più di questi set di dati."
+>abstract="Se un campo contiene un identificatore che esiste in più set di dati ma non è l’identificatore primario, puoi utilizzare l’unione delle identità per migliorare i dati in uno o più di questi set di dati."
 
 <!-- markdownlint-enable MD034 -->
 
