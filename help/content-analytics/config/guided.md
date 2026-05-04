@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: b3988dcc0568245bc6aed7aa80cf1c636c61fc7d
+source-git-commit: da88f281e0b7657306c6c90851d615860721fe16
 workflow-type: tm+mt
-source-wordcount: '3432'
+source-wordcount: '3511'
 ht-degree: 64%
 
 ---
@@ -26,7 +26,7 @@ Per accedere alla configurazione di Content Analytics
 
 Nella schermata **[!UICONTROL Configurazioni Content Analytics]** è disponibile una tabella delle configurazioni di Content Analytics esistenti.
 
-![ContentAnalytics configurations](../assets/aca-configuration-table.png)
+![Configurazioni Content Analytics](../assets/aca-configuration-table.png)
 Per ogni configurazione, sono disponibili i seguenti dettagli:
 
 | Colonna | Descrizione |
@@ -36,7 +36,7 @@ Per ogni configurazione, sono disponibili i seguenti dettagli:
 | **[!UICONTROL Creato il]** | La marca temporale in cui è stata creata la configurazione. |
 | **[!UICONTROL Modificato il]** | La marca temporale dell’ultima modifica apportata alla configurazione. |
 | **[!UICONTROL Sandbox]** | La sandbox all’interno dell’organizzazione in cui Content Analytics è (dovrà essere) configurato e implementato. |
-| **[!UICONTROL Stato]** | Lo stato della configurazione. Lo stato può essere:<br/>![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Draft]**: la configurazione viene salvata per un momento successivo e non distribuita.<br/>![StatusRed](/help/assets/icons/StatusRed.svg) **[!UICONTROL Non riuscito]**: configurazione non riuscita. È possibile selezionare **[!UICONTROL Modifica]** per ottenere informazioni sull&#39;errore. Adobe tratta in modo proattivo qualsiasi implementazione non riuscita. Puoi contattare l’Assistenza clienti per i dettagli.<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**: configurazione completata e implementata correttamente. |
+| **[!UICONTROL Stato]** | Lo stato della configurazione. Lo stato può essere:<br/>![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Draft]**: la configurazione è stata salvata per un momento successivo e non distribuita.<br/>![StatusRed](/help/assets/icons/StatusRed.svg) **[!UICONTROL Failed]**: configurazione non riuscita. È possibile selezionare **[!UICONTROL Modifica]** per ottenere informazioni sull&#39;errore. Adobe tratta in modo proattivo qualsiasi implementazione non riuscita. Per informazioni, rivolgiti all&#39;Assistenza clienti.<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**: la configurazione è stata completata e implementata correttamente. |
 
 Puoi utilizzare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per personalizzare la tabella. Selezionare le colonne da visualizzare nella finestra di dialogo **[!UICONTROL Personalizza tabella]** e selezionare **[!UICONTROL Applica]** per applicare le modifiche.
 
@@ -519,3 +519,4 @@ Per iniziare a raccogliere i dati per la configurazione di Content Analytics, de
 >
 >[Configurazione manuale](manual.md)
 >
+
