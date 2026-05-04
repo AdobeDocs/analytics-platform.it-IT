@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: d42f0eb658f26d16bd21bb6ca47d5dd7c228e614
+source-git-commit: 2816ea67c009d461fb05393741b74979dd65a212
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1785'
 ht-degree: 14%
 
 ---
@@ -124,7 +124,7 @@ Puoi abilitare l&#39;unione delle identità quando [aggiungi](/help/connections/
 >id="connection_stitchingmetrics_badids"
 >title="ID non validi"
 >abstract="Gli ID non validi sono valori ID che incidono pesantemente sui dati di reporting."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/badids" text="ID non validi"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="ID non validi"
 
 
 ### Impostazioni del set di dati
@@ -230,7 +230,7 @@ Dopo aver salvato una connessione, il processo di unione per i set di dati abili
 
 >[!CAUTION]
 >
->Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**&#x200B;per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
+>Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
 >
 
 
@@ -248,3 +248,4 @@ L’unione abilitata nell’interfaccia Connessioni può coesistere senza alcun 
 Ad esempio, nel data lake sono presenti set di dati uniti basati sul web in seguito a richieste di unione precedenti o correnti. Puoi aggiungere dati uniti da un set di dati di call center utilizzando l’interfaccia Connessioni per combinare tali dati con quelli basati sul web.
 
 Successivamente, Adobe migrerà i set di dati uniti basati su richieste nella nuova esperienza di unione nelle connessioni.
+
