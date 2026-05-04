@@ -3,9 +3,9 @@ title: Creare un feed dati
 description: Scopri come creare un feed di dati e le informazioni sui file da fornire ad Adobe.
 hide: true
 feature: Components
-source-git-commit: 728aa97d87e9b9e125fbfbbaf0ce890bc3ab34fc
+source-git-commit: a565bc01f47255b98436a52c00a933a6f845e9ec
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2477'
 ht-degree: 11%
 
 ---
@@ -48,6 +48,15 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 >id="aa_datafeed_notify"
 >title="Notifica completamento"
 >abstract="Specifica uno o più indirizzi e-mail a cui inviare una notifica dopo l’invio del feed di dati. È necessario separare più indirizzi e-mail con una virgola."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_lookback_date_range"
+>title="Intervallo date di lookback"
+>abstract="Controlla l’aspetto indietro di Customer Journey Analytics durante l’elaborazione della consegna del feed dati.<br/>Questa impostazione non modifica la finestra di frequenza (ora o giorno). Tuttavia, l’intervallo di date del lookback può influenzare i dati consegnati. La qualificazione dei segmenti, il calcolo della sessione e la persistenza delle dimensioni sono tutti influenzati dall’intervallo di date del lookback."
 
 <!-- markdownlint-enable MD034 -->
 
