@@ -5,9 +5,9 @@ title: Gestire le origini dati
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 28ad4be7b5ff3c58f51fdb882d9b273f53bcea2a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 83%
 
 ---
@@ -28,7 +28,6 @@ ht-degree: 83%
 >id="workspace_freeformtable_showtable"
 >title="Mostra tabella"
 >abstract="Seleziona **[!UICONTROL Mostra tabella]** per generare una nuova origine dati per la visualizzazione corrente, separata dall’origine dei dati originale."
-
 
 La sincronizzazione delle visualizzazioni consente di controllare quale tabella a forma libera o origine dati corrisponde a una visualizzazione.
 
