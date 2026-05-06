@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 hide: true
-source-git-commit: 19351a7155eda77d1768b486c7e39dcf7cdba935
+source-git-commit: 93f38f57021bf66cacd700ce6fbc46338fd6a034
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Pertanto, le richieste di accesso a dati personali non devono essere limitate al
 
 Il servizio di igiene opera su *identità primarie*, ma le tabelle nel database esterno con mirroring hanno *chiavi primarie*, non identità primarie.
 
-Le conseguenze della differenza tra le identità primarie e le chiavi primarie sono che le eliminazioni di igiene non possono essere eseguite direttamente sulle tabelle relazionali. Di conseguenza, devi:
+Le conseguenze della differenza tra le identità primarie e le chiavi primarie sono che le eliminazioni di igiene non possono essere eseguite direttamente su queste tabelle relazionali. Di conseguenza, devi:
 
 * Eliminare i dati nelle proprie tabelle di origine all&#39;interno della soluzione data warehouse e assicurarsi che le operazioni di eliminazione passino attraverso CDC (o la colonna di modifica manuale).
 * Invia richieste di igiene e privacy in Adobe per qualsiasi set di dati basato su XDM a valle con informazioni sull’identità (ad esempio: visualizzazioni di Customer Journey Analytics, set di dati di Real-Time Customer Data Platform, set di dati specifici di Adobe Journey Optimizer e altro).
