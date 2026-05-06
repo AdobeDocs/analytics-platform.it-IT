@@ -6,9 +6,9 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 hide: true
-source-git-commit: 93f38f57021bf66cacd700ce6fbc46338fd6a034
+source-git-commit: 664d14beaa6bc8b01169cef9d50b2ca3a2de44d8
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -21,19 +21,20 @@ Questo articolo descrive i fattori da considerare durante la configurazione dei 
 
 Quando viene aggiunta una nuova colonna a una tabella di origine in un set di dati con mirroring dei dati abilitato per CDC, tale modifica può attivare gli aggiornamenti per tutte le righe esistenti. Questi aggiornamenti vengono elaborati come modifiche tramite CDC, che:
 
-* Può comportarsi come una riscrittura di tabella completa da un punto di vista dei costi.
-* Può aumentare notevolmente il volume di acquisizione, in particolare con qualsiasi prezzo futuro *cambiare moltiplicatore* (ad esempio, le operazioni di unione potrebbero essere addebitate a tassi più elevati).
+* Può comportarsi come una riscrittura di tabella completa da una prospettiva progressiva.
+* Può aumentare notevolmente il volume di acquisizione, il che potrebbe causare il superamento del limite di acquisizione da parte dell’aggiornamento.
 
 Strategia consigliata per le colonne nella tabella di origine:
 
-* Assicurati che la maggior parte delle colonne rilevanti, se non tutte, siano definite inizialmente.
+* Assicurati che tutte le colonne pertinenti siano state definite inizialmente.
 * Esegui la mappatura di ogni colonna che potresti ritenere necessaria inizialmente.
+* Se viene identificata una nuova colonna come necessaria, rimuovi il set di dati corrente e configura nuovamente il connettore con la colonna aggiornata. In questo modo i dati vengono recuperati in modo più efficiente e tempestivo.
 
 Questa strategia:
 
 * Evita costose evoluzioni degli schemi in un secondo momento (aggiornamenti di massa durante l’aggiunta di colonne).
 * Consente di modificare il volume in modo più prevedibile rispetto a quando le colonne vengono aggiunte o modificate in un secondo momento.
-* Potrebbero verificarsi alcuni costi di calcolo aggiuntivi sul lato del database esterno, in quanto il data warehouse potrebbe interpretare tutte le colonne come aggiornamenti.
+* Consente di limitare i potenziali costi di calcolo sul lato del database esterno, in quanto il data warehouse potrebbe interpretare la nuova colonna come un aggiornamento di tutte le righe.
 
 Per gestire le nuove colonne nelle tabelle del data warehouse esterno, eseguire la procedura seguente:
 
@@ -48,7 +49,7 @@ Questo approccio riduce al minimo l&#39;impatto su entrambe le parti.
 
 Le richieste di accesso a dati personali devono avvenire nello stesso modo in cui vengono gestite oggi le richieste di accesso a dati personali per gli schemi non relazionali, in quanto le richieste di accesso a dati personali sono indifferenti alla struttura dei dati.
 
-I dati specchiati in un set di dati da dati esterni basati su uno schema relazionale diventano parte dell’ecosistema Adobe e possono essere condivisi in molti modi. Ad esempio, tramite la pubblicazione di tipi di pubblico.
+I dati specchiati da uno schema relazionale esterno diventano parte dell’ecosistema Adobe e possono essere condivisi in tutto l’ecosistema, ad esempio tramite la pubblicazione dei tipi di pubblico di Customer Journey Analytics. L’invio di una richiesta di accesso a dati personali garantisce che le identità e i dati associati siano gestiti correttamente in tutto l’ecosistema Adobe.
 
 Pertanto, le richieste di accesso a dati personali non devono essere limitate al set di dati in mirroring, ma devono anche comportare aggiornamenti ai dati di origine nel database esterno.
 
@@ -76,3 +77,18 @@ La differenza di governance ha il seguente impatto:
 
 * In qualità di cliente, è necessario eseguire un maggior numero di operazioni manuali di governance e configurazione.
 * Potresti aver bisogno di indicazioni esplicite, pertanto non presumere che l’etichettatura una tantum tramite i gruppi di campi sia sufficiente per una governance corretta.
+
+## Unione
+
+Gli schemi relazionali hanno le seguenti considerazioni in quanto si riferiscono all’unione:
+
+* L’unione basata su grafico è parzialmente supportata. Gli schemi relazionali non possono essere abilitati per il profilo o per il contributo al grafico.
+* L’unione basata sui campi è completamente supportata.
+
+
+## Chiavi di sistema e campi
+
+Le considerazioni seguenti si applicano alle chiavi di sistema e ai campi:
+
+* Il descrittore della chiave primaria, del descrittore della versione e della marca temporale deve essere un campo di livello principale nello schema XDM relazionale. Utilizza [mappatura campi](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante l&#39;acquisizione per supportare questo requisito.
+* È possibile omettere i campi di origine appropriati durante la [fase di mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
