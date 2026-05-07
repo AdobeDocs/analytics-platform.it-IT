@@ -5,8 +5,8 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
-exl-id: ea8795fe-f5aa-458f-9e01-53ff1ffe6372
-source-git-commit: d79c6d883f436d97925e007f453879e20b4fcc04
+exl-id: a8795fe-f5aa-458f-9e01-53ff1ffe6372
+source-git-commit: d8d82830188a24bc01bac35c22a27c7f12f9e615
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 4%
@@ -39,7 +39,7 @@ La creazione di un connettore di origine per i dati della metrica quantistica cr
 1. Fai clic su **[!UICONTROL Salva]**.
 
 >[!NOTE]
->Anche se è possibile aggiungere dati della metrica quantistica alla stessa connessione degli altri dati di Customer Journey Analytics, tali dati non possono essere uniti senza un ID persona comune tra i due set di dati. Per ottenere questo comportamento, Adobe consiglia di utilizzare l&#39;estensione [Tag](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/analytics/quantum-metric) invece del connettore di origine.
+>Anche se è possibile aggiungere dati della metrica quantistica alla stessa connessione degli altri dati di Customer Journey Analytics, tali dati non possono essere uniti senza un ID persona comune tra i due set di dati. Per ottenere questo comportamento, Adobe consiglia di utilizzare l&#39;estensione [Tag](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) invece del connettore di origine.
 
 ## Passaggio 3: creare una visualizzazione dati in Customer Journey Analytics
 

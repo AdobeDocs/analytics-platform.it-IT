@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 21bf687f3cff101ee1b3e4be3d870de270f82e89
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 100%
+source-wordcount: '1020'
+ht-degree: 88%
 
 ---
 
@@ -30,8 +30,12 @@ Nelle tabelle seguenti, ![Generato dall’IA](/help/assets/icons/AI.svg) indica 
 
 | Titolo | Descrizione | Tipo |
 |---|---|---|
-| Canale esperienza | Canale per l’esperienza. | Dimensione |
-| ID esperienza | ID univoco per l’esperienza. | Dimensione |
+| ID SOURCE | Per Content Analytics, il valore è `ContentAnalytics`. | Dimensione |
+| Canale | Canale per l’esperienza. Valore `Web` o `Mobile`. | Dimensione |
+| ID esperienza contenuti | ID univoco per l’esperienza. <br>Per **web**: URL della pagina Web. <br/>Per **web granulare**: hash calcolato sul lato client in base al payload del contenuto (testi, immagini, ctas) con prefisso `web-`. <br/>Per **mobile**: hash calcolato sul lato client in base al payload del contenuto (testi, immagini, ctas) con prefisso `mobile-`. | Dimensione |
+| Content Experience Source | Per **web**: l&#39;URL della pagina Web.<br/>Per **mobile**: il nome dello schermo, trasmesso tramite Experience Platform Mobile SDK. | Dimensione |
+| Canale esperienza (obsoleto) | Canale per l’esperienza. Valore `Web` o `Mobile`. | Dimensione |
+| Funzionalità aggiuntive | Qualsiasi altro dato aggiuntivo di cui desideri tenere traccia. Come ID o posizionamento esterno. | Dimensione |
 | URL miniatura esperienza | URL per la miniatura dell’esperienza. | Dimensione |
 | Profondità orizzontale dell’esperienza in percentuale | Valore quantificabile della profondità orizzontale dell’esperienza in percentuale. | Dimensione<br/>Campo derivato |
 | Profondità verticale dell’esperienza in percentuale | Valore quantificabile della profondità verticale dell’esperienza in percentuale. | Dimensione<br/>Campo derivato |
@@ -77,12 +81,14 @@ Nelle tabelle seguenti, ![Generato dall’IA](/help/assets/icons/AI.svg) indica 
 | Titolo | Descrizione | Tipo |
 |---|---|---|
 | ID risorsa | Identificatore univoco della risorsa. I dati binari della risorsa ne determinano l’univocità. Se i dati binari della risorsa cambiano, cambia anche il suo ID. L’ID univoco può essere l’URL, ma può anche essere un valore hash creato. | Dimensione |
+| Origine risorsa | | Dimensione |
 | Percorso HTML della risorsa | Percorso HTML concatenato per la risorsa. | Dimensione |
 | URL collegamento della risorsa | Ancoraggio pagina più vicino per la risorsa. | Dimensione |
 | Larghezza visualizzazione della risorsa | Larghezza di visualizzazione della risorsa di contenuto. | Dimensione |
 | Altezza visualizzazione della risorsa | Altezza di visualizzazione della risorsa di contenuto. | Dimensione |
 | Posizione assoluta sinistra della risorsa | Posizione assoluta sinistra della risorsa di contenuto. | Dimensione |
 | Posizione assoluta in alto della risorsa | Posizione assoluta in alto della risorsa di contenuto. | Dimensione |
+| Funzionalità aggiuntive risorse | Qualsiasi altro dato aggiuntivo di cui desideri tenere traccia. Come ID o posizionamento esterno. | Dimensione |
 
 {style="table-layout:fixed"}
 
@@ -140,7 +146,7 @@ Nelle tabelle seguenti, ![Generato dall’IA](/help/assets/icons/AI.svg) indica 
 | Titolo | Descrizione | Tipo |
 |---|---|---|
 | Click-through rate della risorsa | Clic su risorsa per Visualizzazioni risorsa | Metrica calcolata |
-| Click-through rate dell’esperienza | Clic su esperienza per Visualizzazioni esperienza | Metrica calcolata |
+| Percentuale di click-through esperienza | Clic su esperienza per Visualizzazioni esperienza | Metrica calcolata |
 
 {style="table-layout:fixed"}
 
