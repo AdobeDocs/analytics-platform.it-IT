@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 hide: true
-source-git-commit: 664d14beaa6bc8b01169cef9d50b2ca3a2de44d8
+source-git-commit: 80083aad28e6efd0d9498264cb540d9f2898f2bc
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 1%
@@ -28,7 +28,21 @@ Strategia consigliata per le colonne nella tabella di origine:
 
 * Assicurati che tutte le colonne pertinenti siano state definite inizialmente.
 * Esegui la mappatura di ogni colonna che potresti ritenere necessaria inizialmente.
-* Se viene identificata una nuova colonna come necessaria, rimuovi il set di dati corrente e configura nuovamente il connettore con la colonna aggiornata. In questo modo i dati vengono recuperati in modo più efficiente e tempestivo.
+
+Se desideri aggiungere una nuova colonna, esistono due opzioni, a seconda che sia necessaria la retrocompilazione retroattiva:
+
+* Retroattività:
+
+   * Rimuovi il set di dati corrente.
+   * Configura nuovamente il connettore con la colonna aggiornata.
+
+  In questo modo i dati vengono recuperati in modo più efficiente e tempestivo.
+
+* Nessuna retrocompilazione retroattiva:
+
+   * Aggiungi la colonna nella tabella di origine.
+   * Aggiungi la colonna nello schema del set di dati di destinazione.
+   * Aggiorna il mapping per includere il nuovo campo (colonna) dalla tabella di origine al set di dati di destinazione.
 
 Questa strategia:
 
@@ -36,14 +50,6 @@ Questa strategia:
 * Consente di modificare il volume in modo più prevedibile rispetto a quando le colonne vengono aggiunte o modificate in un secondo momento.
 * Consente di limitare i potenziali costi di calcolo sul lato del database esterno, in quanto il data warehouse potrebbe interpretare la nuova colonna come un aggiornamento di tutte le righe.
 
-Per gestire le nuove colonne nelle tabelle del data warehouse esterno, eseguire la procedura seguente:
-
-1. Crea un nuovo schema con la colonna aggiunta.
-1. Configura un nuovo connettore di origine che inserisce i dati.
-1. Carica la retrocompilazione in modo appropriato.
-1. Utilizza le modifiche CDC in futuro.
-
-Questo approccio riduce al minimo l&#39;impatto su entrambe le parti.
 
 ## Privacy Service
 
@@ -69,7 +75,7 @@ La differenza tra identità primaria e chiave primaria introduce un modello di r
 
 ## Differenze di governance
 
-In [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition) XDM e concetti sottostanti come [gruppi di campi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#field) definito all&#39;interno di un gruppo di campi propaga le etichette in tutti i set di dati in cui viene utilizzato il gruppo di campi. Ad esempio, un campo e-mail `emailID` in un gruppo di campi `identities`, è etichettato come lo stesso in tutti i set di dati in cui viene utilizzato il gruppo di campi `identities`.
+In [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition) XDM e concetti sottostanti come [gruppi di campi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field) definito all&#39;interno di un gruppo di campi propaga le etichette in tutti i set di dati in cui viene utilizzato il gruppo di campi. Ad esempio, un campo e-mail `emailID` in un gruppo di campi `identities`, è etichettato come lo stesso in tutti i set di dati in cui viene utilizzato il gruppo di campi `identities`.
 
 In uno schema relazionale, il nome di una colonna è indipendente. Una colonna denominata `email` nella tabella `customers` è indipendente e distinta da una colonna denominata `email` in una tabella `prospects`. Questo comportamento implica che le etichette (come le etichette di utilizzo DULE, i criteri) devono essere applicate singolarmente ai campi nei set di dati con mirroring. In base all&#39;esempio precedente, è necessario applicare etichette sia al campo `email` nel set di dati `customers` che al campo `email` nel set di dati `prospects`.
 
@@ -90,5 +96,5 @@ Gli schemi relazionali hanno le seguenti considerazioni in quanto si riferiscono
 
 Le considerazioni seguenti si applicano alle chiavi di sistema e ai campi:
 
-* Il descrittore della chiave primaria, del descrittore della versione e della marca temporale deve essere un campo di livello principale nello schema XDM relazionale. Utilizza [mappatura campi](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante l&#39;acquisizione per supportare questo requisito.
-* È possibile omettere i campi di origine appropriati durante la [fase di mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
+* Il descrittore della chiave primaria, del descrittore della versione e della marca temporale deve essere un campo di livello principale nello schema XDM relazionale. Utilizza [mappatura campi](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante l&#39;acquisizione per supportare questo requisito.
+* È possibile omettere i campi di origine appropriati durante la [fase di mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
