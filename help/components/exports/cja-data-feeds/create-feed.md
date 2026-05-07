@@ -3,10 +3,10 @@ title: Creare un feed dati
 description: Scopri come creare un feed di dati e le informazioni sui file da fornire ad Adobe.
 hide: true
 feature: Components
-source-git-commit: a565bc01f47255b98436a52c00a933a6f845e9ec
+source-git-commit: 54a7f59847b752a4e898b488a90520e8b31d3622
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 11%
+source-wordcount: '2439'
+ht-degree: 10%
 
 ---
 
@@ -27,16 +27,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_datafeed_os_strings"
->title="Sostituisci stringhe del sistema operativo"
->abstract="Questa opzione consente di pulire l’output dei dati rilevando le seguenti sequenze di stringhe incorporate nei dati del cliente e sostituendole con uno spazio: <br/>Windows: CRLF, CR o TAB<br/>Mac e Linux: \n, \r o \t"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="aa_datafeed_export_file"
+>id="cja_datafeed_export_file"
 >title="Manifesto"
 >abstract="Scegli se includere un file manifesto con ogni consegna di feed di dati. I file manifesto contengono informazioni per ciascun file incluso nel feed di dati. Quando invii i dati di un feed di dati in un singolo pacchetto, puoi scegliere di includere un file finale (.fin), ma è consigliabile utilizzare i file manifest. "
 
@@ -45,7 +36,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_datafeed_notify"
+>id="cja_datafeed_notify"
 >title="Notifica completamento"
 >abstract="Specifica uno o più indirizzi e-mail a cui inviare una notifica dopo l’invio del feed di dati. È necessario separare più indirizzi e-mail con una virgola."
 
@@ -54,7 +45,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_datafeed_lookback_date_range"
+>id="cja_datafeed_lookback_date_range"
 >title="Intervallo date di lookback"
 >abstract="Controlla l’aspetto indietro di Customer Journey Analytics durante l’elaborazione della consegna del feed dati.<br/>Questa impostazione non modifica la finestra di frequenza (ora o giorno). Tuttavia, l’intervallo di date del lookback può influenzare i dati consegnati. La qualificazione dei segmenti, il calcolo della sessione e la persistenza delle dimensioni sono tutti influenzati dall’intervallo di date del lookback."
 
