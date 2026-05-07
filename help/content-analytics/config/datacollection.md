@@ -119,7 +119,7 @@ Content Analytics gestisce le identità per il canale web nel modo seguente:
 * L’unione identità basata sui campi non è supportata perché lo schema è di proprietà del sistema. Pertanto, non è possibile aggiungere un altro campo allo schema per supportare l’unione identità basata sui campi
 
 
-Per garantire che i dati di identità di Content Analytics e i dati di identità di SDK Web siano uniti correttamente a livello di campo, modificare il callback [su Web SDK prima dell&#39;invio dell&#39;evento](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/onbeforeeventsend){target="_blank"}.
+Per garantire che i dati di identità di Content Analytics e i dati di identità di SDK Web siano uniti correttamente a livello di campo, modificare il callback [su Web SDK prima dell&#39;invio dell&#39;evento](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/configure/onbeforeeventsend){target="_blank"}.
 
 1. Passa alla proprietà **[!UICONTROL Tags]** contenente l&#39;estensione Adobe Experience Platform Web SDK e l&#39;estensione Adobe Content Analytics.
 1. Seleziona ![Plug](/help/assets/icons/Plug.svg) **[!UICONTROL Estensioni]**.
