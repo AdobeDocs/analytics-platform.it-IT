@@ -1,16 +1,17 @@
 ---
-title: Componenti di Content Analytics
-description: Dettagli sui componenti specifici di Content Analytics, come dimensioni, metriche (calcolate) e campi derivati
+title: Componenti Content Analytics
+description: Scopri i dettagli dei componenti Content Analytics specifici, come dimensioni, metriche (calcolate) e campi derivati
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
-source-git-commit: 21bf687f3cff101ee1b3e4be3d870de270f82e89
+source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 88%
+source-wordcount: '1023'
+ht-degree: 86%
 
 ---
+
 
 # Componenti di Content Analytics
 

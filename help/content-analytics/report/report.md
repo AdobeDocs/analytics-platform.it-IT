@@ -5,12 +5,13 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-source-git-commit: 21bf687f3cff101ee1b3e4be3d870de270f82e89
+source-git-commit: f29a55379d83fc9bdd89c82f0b27c4321a139908
 workflow-type: tm+mt
 source-wordcount: '1410'
 ht-degree: 27%
 
 ---
+
 
 # Panoramica del reporting di Content Analytics
 
@@ -94,7 +95,7 @@ Per utilizzare il modello:
 
 1. Selezionare **[!UICONTROL Workspace]** dal menu principale.
 1. Assicurati di selezionare una visualizzazione dati configurata per Content Analytics.
-1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**&#x200B;s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]**.
+1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]**.
 1. Seleziona **[!UICONTROL Usa modello]**.
 1. Nella finestra di dialogo **[!UICONTROL Configura il modello]**, seleziona una metrica dalla finestra di dialogo **[!UICONTROL Seleziona una metrica di conversione]**. Ad esempio, **[!UICONTROL CTR risorsa]**.
 1. Seleziona **[!UICONTROL Continua]**.
