@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 hide: true
-source-git-commit: 664d14beaa6bc8b01169cef9d50b2ca3a2de44d8
+source-git-commit: 80083aad28e6efd0d9498264cb540d9f2898f2bc
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 1%
@@ -28,7 +28,21 @@ Strategia consigliata per le colonne nella tabella di origine:
 
 * Assicurati che tutte le colonne pertinenti siano state definite inizialmente.
 * Esegui la mappatura di ogni colonna che potresti ritenere necessaria inizialmente.
-* Se viene identificata una nuova colonna come necessaria, rimuovi il set di dati corrente e configura nuovamente il connettore con la colonna aggiornata. In questo modo i dati vengono recuperati in modo più efficiente e tempestivo.
+
+Se desideri aggiungere una nuova colonna, esistono due opzioni, a seconda che sia necessaria la retrocompilazione retroattiva:
+
+* Retroattività:
+
+   * Rimuovi il set di dati corrente.
+   * Configura nuovamente il connettore con la colonna aggiornata.
+
+  In questo modo i dati vengono recuperati in modo più efficiente e tempestivo.
+
+* Nessuna retrocompilazione retroattiva:
+
+   * Aggiungi la colonna nella tabella di origine.
+   * Aggiungi la colonna nello schema del set di dati di destinazione.
+   * Aggiorna il mapping per includere il nuovo campo (colonna) dalla tabella di origine al set di dati di destinazione.
 
 Questa strategia:
 
@@ -36,14 +50,6 @@ Questa strategia:
 * Consente di modificare il volume in modo più prevedibile rispetto a quando le colonne vengono aggiunte o modificate in un secondo momento.
 * Consente di limitare i potenziali costi di calcolo sul lato del database esterno, in quanto il data warehouse potrebbe interpretare la nuova colonna come un aggiornamento di tutte le righe.
 
-Per gestire le nuove colonne nelle tabelle del data warehouse esterno, eseguire la procedura seguente:
-
-1. Crea un nuovo schema con la colonna aggiunta.
-1. Configura un nuovo connettore di origine che inserisce i dati.
-1. Carica la retrocompilazione in modo appropriato.
-1. Utilizza le modifiche CDC in futuro.
-
-Questo approccio riduce al minimo l&#39;impatto su entrambe le parti.
 
 ## Privacy Service
 
