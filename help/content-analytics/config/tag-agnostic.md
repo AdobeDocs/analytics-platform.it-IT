@@ -1,16 +1,17 @@
 ---
-title: Configurazione indipendente dai tag Content Analytics
-description: Scopri come configurare Content Analytics senza utilizzare i tag di raccolta dati di Experience Platform
+title: Configurazione Agnosite Dei Tag Content Analytics
+description: Scopri come configurare Content Analytics senza utilizzare i tag di raccolta dati di Experience Platform.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 hide: true
-source-git-commit: d324e2b03d47ba1cf8e5abbadc817b98b27ea68e
+source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 5%
 
 ---
+
 
 # Configurazione agnostica dei tag Content Analytics
 
