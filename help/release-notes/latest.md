@@ -3,7 +3,7 @@ title: Note sulla versione di Customer Journey Analytics
 description: Visualizza le note sulla versione più recente di Customer Journey Analytics
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: ae368ea39b6521e2e350aa7849568cd225ecef90
+source-git-commit: 64b96d8b0917975f19c353e26d9e6437d1b4e5ac
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 63%
@@ -12,7 +12,7 @@ ht-degree: 63%
 
 # Note sulla versione corrente di Adobe Customer Journey Analytics (aprile 2026)
 
-**Ultimo aggiornamento**: 22 aprile 2026
+**Ultimo aggiornamento**: 7 maggio 2026
 
 Queste note sulla versione coprono il periodo di rilascio di aprile 2026. I rilasci di Adobe Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
