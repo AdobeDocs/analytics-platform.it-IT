@@ -6,10 +6,10 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
-source-git-commit: c9d7a4596a842ab7d949364e3469747d20ca15b4
+source-git-commit: dc3aa31c280c1a8ee8a0187edeca9bd34a2c9e2e
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 2%
+source-wordcount: '447'
+ht-degree: 4%
 
 ---
 
@@ -25,11 +25,11 @@ Utilizzare Experience Platform Data Mirror per sincronizzare inserimenti, aggior
 
 Data Mirror offre le seguenti funzionalità essenziali per la sincronizzazione del database:
 
-* **Applicazione della chiave primaria.** Assicura l&#39;univocità all&#39;interno dei set di dati e impedisce la duplicazione dei record durante l&#39;acquisizione.
-* **Acquisizione delle modifiche a livello di riga.** supporta modifiche granulari dei dati, inclusi upsert ed eliminazioni, con controllo di precisione.
-* **Relazioni schema.** Abilita le relazioni chiave primaria e esterna tra i set di dati tramite descrittori.
-* **Gestione degli eventi fuori servizio.** Elabora gli eventi di modifica utilizzando i descrittori di versione e timestamp, anche quando arrivano fuori sequenza.
-* **Integrazione con warehouse diretto.** si connette con data warehouse cloud supportati per la sincronizzazione delle modifiche in tempo reale.
+* **Imposizione chiave primaria.** Assicura l’univocità all’interno dei set di dati e impedisce la duplicazione dei record durante l’acquisizione.
+* **Acquisizione delle modifiche a livello di riga.** Supporta le modifiche granulari dei dati, incluse le operazioni di upsert ed eliminazione, con un controllo di precisione.
+* **Relazioni schema.** Abilita le relazioni chiave esterna e primaria tra set di dati tramite descrittori.
+* **Gestione eventi fuori servizio.** Elabora gli eventi di modifica utilizzando i descrittori di versione e marca temporale, anche quando arrivano fuori sequenza.
+* **Integrazione warehouse diretta.** Consente la connessione con data warehouse cloud supportati per la sincronizzazione delle modifiche in tempo reale.
 
 Utilizza Data Mirror per acquisire le modifiche direttamente dai sistemi di origine, applicare l’integrità dello schema e rendere i dati disponibili per le attività di analisi, orchestrazione del percorso e flussi di lavoro di conformità. Data Mirror elimina i complessi processi ETL a monte e accelera l&#39;implementazione consentendo il mirroring diretto dei modelli di database esistenti. Questa eliminazione può migliorare la governance dei dati attraverso un controllo preciso sulle eliminazioni e sulle operazioni di igiene dei dati.
 
@@ -39,7 +39,7 @@ Consulta anche la [documentazione di Experience Platform su Data Mirror](https:/
 
 >[!NOTE]
 >
->La funzionalità Experience Platform Data Mirror per Customer Journey Analytics è disponibile in una **versione beta pubblica** fino al 25 marzo 2026. I clienti possono acquisire fino a 2 milioni di righe di modifica al giorno in Adobe Experience Platform Data Lake tramite i connettori di origine. Adobe si riserva il diritto di terminare l’accesso in versione beta alle funzionalità di Experience Platform Data Mirror nel caso in cui l’organizzazione superi tali limiti. <br/>Per richiedere l&#39;accesso a questa funzionalità, contatta il team del tuo account Adobe.
+>Data Mirror è una funzionalità attualmente in versione beta che supporta la sincronizzazione dei dati da data warehouse selezionati tramite Change Data Capture (CDC) per l&#39;analisi in Customer Journey Analytics.<br/>Questa funzionalità sarà generalmente disponibile per Customer Journey Analytics il 18 giugno 2026. Fai riferimento alla descrizione del prodotto applicabile per capire come potrebbe influenzare in futuro il consumo del limite di acquisizione annuale. Tieni presente che la tua organizzazione continuerà ad avere accesso a questa funzione quando Data Mirror passerà dalla versione beta a quella di disponibilità generale.
 >
 
 Experience Platform Data Mirror for Customer Journey Analytics è disponibile per le soluzioni native data warehouse selezionate ([!DNL Azure Databricks], [!DNL Google BigQuery] e [!DNL Snowflake]). La versione Customer Journey Analytics di Experience Platform Data Mirror richiede la corretta configurazione delle seguenti applicazioni o componenti:
