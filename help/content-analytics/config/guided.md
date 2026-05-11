@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
-source-git-commit: b8b0237a092b37d28bec56bba05c30a853097d4f
+source-git-commit: 3e08fa116d3690cad450f92825bfd34023dbee24
 workflow-type: tm+mt
-source-wordcount: '3992'
+source-wordcount: '4018'
 ht-degree: 39%
 
 ---
@@ -502,6 +502,16 @@ Per configurare la raccolta dati:
 
 
 ##### Sostituzioni intestazione {#web-header-overrides}
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_boldheader"
+>title="Sostituzioni intestazione"
+>abstract="**Sostituzioni intestazione**"
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_datacollection_header_overrides_header"
+>title="Sostituzioni intestazione"
+>abstract="Funzione avanzata per ignorare il rilevamento di bot o il traffico del gate. Content Analytics include le intestazioni HTTP personalizzate durante la chiamata degli endpoint."
 
 <!-- needs modification for mobile channel -->
 
