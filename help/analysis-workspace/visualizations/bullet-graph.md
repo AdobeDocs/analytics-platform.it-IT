@@ -5,9 +5,12 @@ feature: Visualizations
 exl-id: b560389a-1149-4e16-b45a-0c6a1f7d0e1f
 role: User
 TQID: https://experienceleague.adobe.com/6fMQ0qYVbortRLhHTIZUb--mVQa3cdNrIQPAqYs2714
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 297
@@ -37,7 +40,7 @@ ht-degree: 61%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Punto elenco in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vedi [Punto elenco](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
+_Questo articolo documenta la visualizzazione Punto elenco in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vedi [Punto elenco](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +63,7 @@ Puoi definire impostazioni specifiche per una visualizzazione [!UICONTROL Bullet
 
 | Impostazione | Descrizione |
 |---|---|
-| **[!UICONTROL Opzioni punto elenco]** | Specifica i valori per **[!UICONTROL Obiettivo alto]**, **[!UICONTROL Obiettivo medio]** e **[!UICONTROL Obiettivo basso]** nella visualizzazione [!UICONTROL Bullet]. <br/>**[!UICONTROL Obiettivo elevato ]**è l’obiettivo principale a cui stai mirando.**[!UICONTROL  Obiettivo basso ]**e**[!UICONTROL  Obiettivo intermedio ]**creano intervalli al di sotto dell&#39;obiettivo alto. Nota: quando l’opzione**[!UICONTROL  Percentuali ]**è selezionata, immetti gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento. |
+| **[!UICONTROL Opzioni punto elenco]** | Specifica i valori per **[!UICONTROL Obiettivo alto]**, **[!UICONTROL Obiettivo medio]** e **[!UICONTROL Obiettivo basso]** nella visualizzazione [!UICONTROL Bullet]. <br/>**[!UICONTROL Obiettivo elevato &#x200B;]**&#x200B;è l’obiettivo principale a cui stai mirando.**[!UICONTROL &#x200B; Obiettivo basso &#x200B;]**&#x200B;e&#x200B;**[!UICONTROL &#x200B; Obiettivo intermedio &#x200B;]**&#x200B;creano intervalli al di sotto dell&#39;obiettivo alto. Nota: quando l’opzione&#x200B;**[!UICONTROL &#x200B; Percentuali &#x200B;]**&#x200B;è selezionata, immetti gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento. |
 
 >[!MORELIKETHIS]
 >

@@ -6,10 +6,16 @@ feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
 TQID: https://experienceleague.adobe.com/VKMyO7uNXu1Gj5QpJMxPD7WRBs2mHSLBg5H4iTgMI6w
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1675
@@ -88,7 +94,7 @@ Puoi eseguire azioni su uno o più progetti utilizzando il menu di scelta rapida
 | ![CrossSize75](/help/assets/icons/Close.svg) | **[!UICONTROL *x *selezionato]** | Deseleziona i progetti e le cartelle selezionati e rimuovi la barra blu delle azioni. |
 | ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Elimina]** | Elimina uno o più progetti o cartelle. Viene richiesta una conferma.<p>I progetti eliminati:</p><ul><li>Non possono essere recuperati</li><li>Vengono rimossi dall’elenco dei progetti</li><li>Non è più possibile accedervi con il rispettivo URL</li><li>Non sono più inclusi nelle consegne pianificate, nei casi in cui erano precedentemente configurate per le consegne pianificate<br/>Per informazioni sulle consegne pianificate, consulta [Progetti pianificati](/help/components/scheduled-projects-manager.md).  </p> |
 | ![Condividi](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Condividi]** | Condividi un progetto. Per ulteriori informazioni, consulta [Condividere un progetto](/help/analysis-workspace/curate-share/share-projects.md). |
-| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rinomina]** | Rinomina un progetto. Apre una **[!UICONTROL finestra di dialogo Rinomina: *nome progetto *]**. Immetti un nuovo nome e seleziona**[!UICONTROL Salva ]**. |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rinomina]** | Rinomina un progetto. Apre una **[!UICONTROL finestra di dialogo Rinomina: *nome progetto *]**. Immetti un nuovo nome e seleziona&#x200B;**[!UICONTROL Salva &#x200B;]**. |
 | ![Copia](/help/assets/icons/Copy.svg) | **[!UICONTROL Copia]** | Copia uno o più progetti. Al progetto vengono assegnati lo stesso nome e suffisso `(Copy)`. |
 | ![PinOnff](/help/assets/icons/PinOff.svg) | **[!UICONTROL Fissa]** o **[!UICONTROL Rimuovi]** | Fissa o sposta uno o più progetti o cartelle. I progetti e le cartelle fissati vengono visualizzati nella parte superiore dell’elenco e ignorano l’ordinamento specificato. |
 | ![ArrowUp](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL Sposta in alto]** | Sposta un progetto o una cartella fissati verso l’alto nell’elenco dei progetti. |

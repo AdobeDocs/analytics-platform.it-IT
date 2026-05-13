@@ -6,11 +6,22 @@ feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
 TQID: https://experienceleague.adobe.com/zpiJFUF8RnIdFQWf29FBpRznWO3Ejs-j2szx69kdMNE
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 10489
@@ -63,8 +74,8 @@ Quando crei o modifichi un campo derivato, utilizzi l’interfaccia del campo de
 |---------|----------|--------|
 | 1 | **Selettore** | Utilizza l’area del selettore per selezionare e trascinare la funzione, il modello di funzione, il campo schema o il campo standard nel generatore di regole. <br/>Utilizza l’elenco a discesa per selezionare tra: <br/>![Funzione](assets/Smock_Function_18_N.svg) [!UICONTROL Funzioni]: elenca le [funzioni](#function-reference) disponibili, </br>![icona Modello di funzione](assets/Smock_FileTemplate_18_N.svg) [!UICONTROL Modelli di funzione]: elenca i [modelli di funzione](#function-templates) disponibili, <br/>![icona Campo dello schema](assets/Smock_Folder_18_N.svg) [!UICONTROL Campi dello scherma]: elenca i campi disponibili dalle categorie di set di dati (evento, profilo, ricerca) e i campi derivati definiti in precedenza e <br/>![icona Campo standard](assets/Smock_DragHandle_18_N.svg) [!UICONTROL Campi standard]: i campi standard disponibili (come ID set di dati della piattaforma). Nel selettore vengono visualizzati solo i campi standard stringa e numerici. Se la funzione supporta altri tipi di dati, è possibile selezionare campi standard con questi altri tipi di dati per valori o campi all’interno dell’interfaccia della regola.<br/>È possibile cercare funzioni, modelli di funzione, schemi e campi standard utilizzando la casella di ricerca ![icona Ricerca](assets/Smock_Search_18_N.svg). <br/>Puoi filtrare l’elenco oggetti selezionato selezionando ![icona Filtro](assets/Smock_Filter_18_N.svg) Filtro e specificando i filtri nella finestra di dialogo [!UICONTROL Filtra campi per]. Puoi rimuovere facilmente i filtri utilizzando ![icona Chiudi](assets/CrossSize75.svg) per ogni filtro. |
 | 2 | **Generatore di regole** | Puoi creare il campo derivato in sequenza utilizzando una o più regole. Una regola è un’implementazione specifica di una funzione ed è quindi sempre associata a una sola funzione. Per creare una regola, trascina e rilascia una funzione nel generatore di regole. Il tipo di funzione determina l’interfaccia della regola.<br/>Consulta [Interfaccia regola](#rule-interface) per ulteriori informazioni. <br/>È possibile inserire una funzione all’inizio, alla fine o tra le regole già disponibili nel generatore di regole. L’ultima regola nel generatore di regole determina l’output finale del campo derivato. |
-| 3 | **[!UICONTROL ** Impostazioni campo **]** | È possibile denominare e descrivere il campo derivato e verificarne il tipo. |
-| 4 | **[!UICONTROL ** Output finale **]** | Questa area mostra un’anteprima immediata aggiornata dei valori di output, in base ai dati degli ultimi 30 giorni e alle modifiche apportate al campo derivato nel generatore di regole. |
+| 3 | **[!UICONTROL **&#x200B; Impostazioni campo &#x200B;**]** | È possibile denominare e descrivere il campo derivato e verificarne il tipo. |
+| 4 | **[!UICONTROL **&#x200B; Output finale &#x200B;**]** | Questa area mostra un’anteprima immediata aggiornata dei valori di output, in base ai dati degli ultimi 30 giorni e alle modifiche apportate al campo derivato nel generatore di regole. |
 
 {style="table-layout:auto"}
 
@@ -73,7 +84,7 @@ Quando crei o modifichi un campo derivato, utilizzi l’interfaccia del campo de
 Quando accedi all’interfaccia del campo derivato per la prima volta, viene visualizzata la procedura guidata [!UICONTROL Inizia con un modello di campo].
 
 1. Seleziona il modello che descrive meglio il tipo di campo che stai tentando di creare.
-2. Seleziona il pulsante **[!UICONTROL ** Seleziona **]** per continuare.
+2. Seleziona il pulsante **[!UICONTROL **&#x200B; Seleziona &#x200B;**]** per continuare.
 
 La finestra di dialogo del campo derivato viene compilata con regole (e funzioni) necessarie o utili per il tipo di campo selezionato. Per ulteriori informazioni sui modelli disponibili, consulta [Modelli di funzione](#function-templates).
 
@@ -87,7 +98,7 @@ Quando definisci una regola nel generatore di regole, utilizzi l’interfaccia r
 |---------|----------|--------|
 | A | **Nome regola** | Per impostazione predefinita, il nome della regola è **Regola X** (X fa riferimento a un numero di sequenza). Per modificare il nome di una regola, selezionane il nome e digita quello nuovo nome, ad esempio `Query Parameter`. |
 | B | **Nome funzione** | Il nome della funzione selezionato per la regola, ad esempio [!UICONTROL ANALISI URL]. Quando la funzione è l’ultima nella sequenza di funzioni e determina i valori di output finali, il nome della funzione è seguito da [!UICONTROL - OUTPUT FINALE], ad esempio [!UICONTROL ANALISI URL - OUTPUT FINALE]. <br/>Per visualizzare un pop-up con ulteriori informazioni sulla funzione, seleziona l’![icona Guida](assets/Smock_HelpOutline_18_N.svg). |
-| C | **Descrizione regola** | Facoltativamente, puoi aggiungere una descrizione a una regola.<br/>Seleziona l’![icona Altro](assets/More.svg), quindi seleziona **[!UICONTROL ** Aggiungi descrizione **]** per aggiungere una descrizione o **[!UICONTROL ** Modifica descrizione **]** per modificare una descrizione esistente.<br/>Utilizzare l’editor per immettere una descrizione. È possibile utilizzare la barra degli strumenti per formattare il testo (utilizzando selettore di stile, grassetto, corsivo, sottolineato, a destra, a sinistra, centrato, colore, elenco numerato, elenco puntato) e aggiungendo collegamenti a informazioni esterne. <br/>Per completare la modifica della descrizione, fai clic all’esterno dell’editor. |
+| C | **Descrizione regola** | Facoltativamente, puoi aggiungere una descrizione a una regola.<br/>Seleziona l’![icona Altro](assets/More.svg), quindi seleziona **[!UICONTROL ** Aggiungi descrizione **]** per aggiungere una descrizione o **[!UICONTROL **&#x200B; Modifica descrizione &#x200B;**]** per modificare una descrizione esistente.<br/>Utilizzare l’editor per immettere una descrizione. È possibile utilizzare la barra degli strumenti per formattare il testo (utilizzando selettore di stile, grassetto, corsivo, sottolineato, a destra, a sinistra, centrato, colore, elenco numerato, elenco puntato) e aggiungendo collegamenti a informazioni esterne. <br/>Per completare la modifica della descrizione, fai clic all’esterno dell’editor. |
 | D | **Area funzione** | Definisce la logica della funzione. L’interfaccia dipende dal tipo di funzione. Il menu a discesa per [!UICONTROL Campo] o [!UICONTROL Valore] mostra tutte le categorie di campi (regole, campi standard, campi) disponibili, in base al tipo di input previsto dalla funzione. In alternativa, puoi trascinare e rilasciare un campo dal selettore dei campi Schema e Standard su un Campo o un Valore. Quando il campo trascinato proviene da un set di dati di ricerca, viene inserita automaticamente una funzione di ricerca prima della funzione definita. <br/>Per informazioni dettagliate su ciascuna delle funzioni supportate, vedere [Riferimento funzione](#function-reference). |
 
 {style="table-layout:auto"}
@@ -96,36 +107,36 @@ Quando definisci una regola nel generatore di regole, utilizzi l’interfaccia r
 
 1. Seleziona una visualizzazione dati esistente o creane una. Per ulteriori informazioni, consulta [Visualizzazioni dati](../data-views.md).
 
-2. Seleziona la scheda **[!UICONTROL ** Componenti **]** della visualizzazione dati.
+2. Seleziona la scheda **[!UICONTROL **&#x200B; Componenti &#x200B;**]** della visualizzazione dati.
 
-3. Seleziona **[!UICONTROL ** Crea campo derivato **]** dalla barra a sinistra.
+3. Seleziona **[!UICONTROL **&#x200B; Crea campo derivato &#x200B;**]** dalla barra a sinistra.
 
 4. Per definire il campo derivato, utilizza l’interfaccia [!UICONTROL Crea un campo derivato]. Consulta [Interfaccia campo derivato](#derived-field-interface).
 
-   Per salvare il nuovo campo derivato, seleziona **[!UICONTROL ** Salva **]**.
+   Per salvare il nuovo campo derivato, seleziona **[!UICONTROL **&#x200B; Salva &#x200B;**]**.
 
-5. Il nuovo campo derivato viene aggiunto ai [!UICONTROL Campi derivati >] contenitore, come parte dei **[!UICONTROL ** Campi dello schema **]** nella barra a sinistra della visualizzazione dati.
+5. Il nuovo campo derivato viene aggiunto ai [!UICONTROL Campi derivati >] contenitore, come parte dei **[!UICONTROL **&#x200B; Campi dello schema &#x200B;**]** nella barra a sinistra della visualizzazione dati.
 
 
 ## Modificare un campo derivato {#edit}
 
 1. Seleziona una visualizzazione dati esistente. Per ulteriori informazioni, consulta [Visualizzazioni dati](../data-views.md).
 
-2. Seleziona la scheda **[!UICONTROL ** Componenti **]** della visualizzazione dati.
+2. Seleziona la scheda **[!UICONTROL **&#x200B; Componenti &#x200B;**]** della visualizzazione dati.
 
-3. Seleziona la scheda **[!UICONTROL ** Campi dello schema **]** nel riquadro [!UICONTROL Connessione] a sinistra.
+3. Seleziona la scheda **[!UICONTROL **&#x200B; Campi dello schema &#x200B;**]** nel riquadro [!UICONTROL Connessione] a sinistra.
 
-4. Seleziona **[!UICONTROL ** Campi derivati >**]** contenitore.
+4. Seleziona **[!UICONTROL **&#x200B; Campi derivati >**]** contenitore.
 
 5. Passa il puntatore sul campo derivato che desideri modificare e seleziona ![icona Modifica](assets/Smock_Edit_18_N.svg).
 
 6. Per modificare il campo derivato, utilizza l’interfaccia [!UICONTROL Modifica campo derivato]. Vedi [Interfaccia campo derivato](#derived-field-interface).
 
-   - Seleziona **[!UICONTROL ** Salva **]** per salvare il campo derivato aggiornato.
+   - Seleziona **[!UICONTROL **&#x200B; Salva &#x200B;**]** per salvare il campo derivato aggiornato.
 
-   - Seleziona **[!UICONTROL ** Annulla **]** per annullare eventuali modifiche apportate al campo derivato.
+   - Seleziona **[!UICONTROL **&#x200B; Annulla &#x200B;**]** per annullare eventuali modifiche apportate al campo derivato.
 
-   - Seleziona **[!UICONTROL ** Salva con nome **]** per salvare il campo derivato come nuovo campo derivato. Il nuovo campo derivato ha lo stesso nome del campo derivato originale modificato con in fondo `(copy)`.
+   - Seleziona **[!UICONTROL **&#x200B; Salva con nome &#x200B;**]** per salvare il campo derivato come nuovo campo derivato. Il nuovo campo derivato ha lo stesso nome del campo derivato originale modificato con in fondo `(copy)`.
 
 In alternativa, se hai utilizzato un campo derivato come componente per dimensioni o metriche nella visualizzazione dati:
 
@@ -135,11 +146,11 @@ In alternativa, se hai utilizzato un campo derivato come componente per dimensio
 
 1. Per modificare il campo derivato, utilizza l’interfaccia [!UICONTROL Modifica campo derivato]. Vedi [Interfaccia campo derivato](#derived-field-interface).
 
-   - Seleziona **[!UICONTROL ** Salva **]** per salvare il campo derivato aggiornato.
+   - Seleziona **[!UICONTROL **&#x200B; Salva &#x200B;**]** per salvare il campo derivato aggiornato.
 
-   - Seleziona **[!UICONTROL ** Annulla **]** per annullare eventuali modifiche apportate al campo derivato.
+   - Seleziona **[!UICONTROL **&#x200B; Annulla &#x200B;**]** per annullare eventuali modifiche apportate al campo derivato.
 
-   - Seleziona **[!UICONTROL ** Salva con nome **]** per salvare il campo derivato come nuovo campo derivato. Il nuovo campo derivato ha lo stesso nome del campo derivato originale modificato con in fondo `(copy)`.
+   - Seleziona **[!UICONTROL **&#x200B; Salva con nome &#x200B;**]** per salvare il campo derivato come nuovo campo derivato. Il nuovo campo derivato ha lo stesso nome del campo derivato originale modificato con in fondo `(copy)`.
 
 
 
@@ -147,11 +158,11 @@ In alternativa, se hai utilizzato un campo derivato come componente per dimensio
 
 1. Seleziona una visualizzazione dati esistente. Per ulteriori informazioni, consulta [Visualizzazioni dati](../data-views.md).
 
-2. Seleziona la scheda **[!UICONTROL ** Componenti **]** della visualizzazione dati.
+2. Seleziona la scheda **[!UICONTROL **&#x200B; Componenti &#x200B;**]** della visualizzazione dati.
 
-3. Seleziona la scheda **[!UICONTROL ** Campi dello schema **]** nel riquadro [!UICONTROL Connessioni].
+3. Seleziona la scheda **[!UICONTROL **&#x200B; Campi dello schema &#x200B;**]** nel riquadro [!UICONTROL Connessioni].
 
-4. Seleziona **[!UICONTROL ** Campi derivati >**]** contenitore.
+4. Seleziona **[!UICONTROL **&#x200B; Campi derivati >**]** contenitore.
 
 5. Passa il puntatore sul campo derivato che desideri eliminare e seleziona l’![icona Modifica](assets/Smock_Edit_18_N.svg).
 
@@ -159,7 +170,7 @@ In alternativa, se hai utilizzato un campo derivato come componente per dimensio
 
    Una finestra di dialogo [!UICONTROL Elimina componente] richiede di confermare l’eliminazione. Considera eventuali riferimenti esterni al campo derivato che potrebbero esistere all’esterno della visualizzazione dati.
 
-   - Seleziona **[!UICONTROL ** Continua **]** per eliminare il campo derivato.
+   - Seleziona **[!UICONTROL **&#x200B; Continua &#x200B;**]** per eliminare il campo derivato.
 
 In alternativa, se hai utilizzato un campo derivato come componente per dimensioni o metriche nella visualizzazione dati:
 
@@ -171,7 +182,7 @@ In alternativa, se hai utilizzato un campo derivato come componente per dimensio
 
    Una finestra di dialogo [!UICONTROL Elimina componente] richiede di confermare l’eliminazione. Considera eventuali riferimenti esterni al campo derivato che potrebbero esistere all’esterno della visualizzazione dati.
 
-   - Seleziona **[!UICONTROL ** Continua **]** per eliminare il campo derivato.
+   - Seleziona **[!UICONTROL **&#x200B; Continua &#x200B;**]** per eliminare il campo derivato.
 
 >[!NOTE]
 >
