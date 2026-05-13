@@ -6,21 +6,13 @@ feature: Content Analytics
 role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 TQID: https://experienceleague.adobe.com/qfRVeaFTYitZOsleqfzxYsSlo5YZrTjdFqJSjIza-hg
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1d292cb0c123e41553a85cd0579ef30b7ab3a64c
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: d15d85f5904bbada26bfd74fdc45217efeddd723
 workflow-type: tm+mt
-source-wordcount: 4018
+source-wordcount: 4071
 ht-degree: 39%
 
 ---
@@ -504,6 +496,8 @@ Per configurare la raccolta dati:
       1. Seleziona **[!UICONTROL Crea nuovo]**.
       1. Specifica un **[!UICONTROL nome tag]**, ad esempio `ACA Test for Documentation`.
       1. Specificare **[!UICONTROL Domini]**, ad esempio `example.com`.
+
+     Utilizza una nuova proprietà Tags se desideri creare un&#39;implementazione [agnostica](/help/content-analytics/config/tags-agnostic.md) di Content Analytics per il canale web. La proprietà Tags viene creata, ma non la utilizzerai nell’implementazione agnostica. Tuttavia, l’implementazione agnostica richiede di aver eseguito la configurazione guidata almeno una volta.
 
 * Indica quali pagine devono essere incluse o escluse durante la raccolta dei dati per Content Analytics. Assicurati di escludere le pagine personali.
 
