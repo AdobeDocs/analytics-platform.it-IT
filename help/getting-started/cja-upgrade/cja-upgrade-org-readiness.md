@@ -159,7 +159,7 @@ Identifica i campioni della tua organizzazione. Questi campioni dovrebbero esser
 
    * [Tutorial su Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/overview)
 
-   * [Cos’è Customer Journey Analytics?](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
+   * [Cos’è Customer Journey Analytics?](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
 
    * [Introduzione a Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
 

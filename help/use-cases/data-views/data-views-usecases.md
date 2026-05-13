@@ -75,7 +75,7 @@ In precedenza, i numeri interi venivano trattati automaticamente come metriche i
 
 È possibile utilizzare una dimensione numerica per inserire le metriche nella visualizzazione [!UICONTROL &#x200B; Flusso].
 
-1. Nella scheda Visualizzazioni dati [Componenti](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview), trascina il campo schema [!UICONTROL Canali di marketing] nell&#39;area [!UICONTROL Metriche] in [!UICONTROL Componenti inclusi].
+1. Nella scheda Visualizzazioni dati [Componenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/create-dataview), trascina il campo schema [!UICONTROL Canali di marketing] nell&#39;area [!UICONTROL Metriche] in [!UICONTROL Componenti inclusi].
 2. Nel reporting di Workspace, questo flusso mostra [!UICONTROL Canali marketing] che fluiscono in [!UICONTROL Ordini]:
 
 ![Flusso canale di marketing dalle e-mail a Uscita/ordini.](../assets/flow.png)
@@ -86,7 +86,7 @@ Questa funzionalità è specifica per i campi basati su array. La funzionalità 
 
 Ad esempio, utilizza la funzionalità di inclusione/esclusione nelle visualizzazioni dati per concentrarti solo sui prodotti che hanno generato vendite superiori a 50 $. Pertanto, se un ordine include un acquisto di prodotti da 50 $ e un acquisto di prodotti da 25 $, la funzionalità di inclusione/esclusione rimuove l’acquisto di prodotti da 25 $ e non l’intero ordine.
 
-1. Nella scheda Visualizzazioni dati [Componenti](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview), trascina il campo dello schema **[!UICONTROL Ricavi]** nell&#39;area **[!UICONTROL Metriche]** in [!UICONTROL Componenti inclusi].
+1. Nella scheda Visualizzazioni dati [Componenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/create-dataview), trascina il campo dello schema **[!UICONTROL Ricavi]** nell&#39;area **[!UICONTROL Metriche]** in [!UICONTROL Componenti inclusi].
 1. Seleziona la metrica e configura quanto segue a destra:
 a. In **[!UICONTROL Formato]**, selezionare **[!UICONTROL Valuta]**.
 b. In **[!UICONTROL Valuta]**, selezionare **[!UICONTROL USD]**.
@@ -125,11 +125,11 @@ Puoi determinare se una sessione è effettivamente la prima sessione in assoluto
 
 Una dimensione e due metriche facilitano questo reporting:
 
-* [Tipo di sessione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) - Questa dimensione ha due valori: [!UICONTROL Nuovo] e [!UICONTROL Restituzione]. L&#39;elemento di riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nella riga [!UICONTROL Restituzione] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket “Non applicabile” per questa dimensione.
+* [Tipo di sessione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-reference) - Questa dimensione ha due valori: [!UICONTROL Nuovo] e [!UICONTROL Restituzione]. L&#39;elemento di riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nella riga [!UICONTROL Restituzione] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket “Non applicabile” per questa dimensione.
 
-* [Prime sessioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference). La metrica Prime sessioni è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting.
+* [Prime sessioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-reference). La metrica Prime sessioni è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting.
 
-* [Sessioni di ritorno](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) La metrica Sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di un utente.—>
+* [Sessioni di ritorno](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-reference) La metrica Sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di un utente.—>
 
 Per accedere ai componenti:
 

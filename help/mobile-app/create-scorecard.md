@@ -47,7 +47,7 @@ Le informazioni seguenti spiegano ai curatori di dati di Customer Journey Analyt
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -275,7 +275,7 @@ Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Presentazioni di dati per un progetto di scorecard per dispositivi mobili](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} .
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Presentazioni di dati per un progetto di scorecard per dispositivi mobili](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} .
 
 {{videoaa}}
 
