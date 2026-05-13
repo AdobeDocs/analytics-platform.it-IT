@@ -6,10 +6,15 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B Edition"
 exl-id: 509c68e1-a8cc-48ac-9e9d-50c703356dbc
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+TQID: https://experienceleague.adobe.com/D9wQSwri3qu8x1g-ivno3PCt6MPKGm4lIXIxjh6WWVQ
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 2%
+source-wordcount: 414
+ht-degree: 1%
 
 ---
 
@@ -35,9 +40,9 @@ L&#39;analisi guidata [Crescita attiva](/help/guided-analysis/types/active-growt
 Desideri visualizzare la crescita attiva netta tra i nuovi account, i nuovi account ripetuti, quelli di ritorno e quelli inattivi.
 
 1. [Crea e configura un&#39;analisi guidata di crescita attiva](/help/guided-analysis/types/active-growth.md).
-1. Seleziona **[!UICONTROL Accounts]** come **[!UICONTROL Counted as]**.
-1. Selezionare il **[!UICONTROL Chart settings]** preferito. Ad esempio: ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL Stacked bar]**.
-1. Selezionare il ![Calendario](/help/assets/icons/Calendar.svg) **[!UICONTROL Interval]** e **[!UICONTROL Date range]** preferiti.
+1. Seleziona **[!UICONTROL Account]** come **[!UICONTROL Contati come]**.
+1. Selezionare le **[!UICONTROL impostazioni preferite per il grafico]**. Ad esempio: ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL Barre in pila]**.
+1. Seleziona il ![Calendario](/help/assets/icons/Calendar.svg) **[!UICONTROL Intervallo]** e l&#39;intervallo di date ]**preferiti.**[!UICONTROL 
 
 ![Caso di utilizzo B2B - creazione del valore del prodotto - riduzione dell&#39;abbandono - crescita attiva](assets/b2b-uc-build-product-value-active-growth.png)
 
@@ -53,11 +58,11 @@ Una [scorecard per dispositivi mobili](/help/mobile-app/home.md) può aiutare a 
 Desideri creare una scorecard mobile che combini i dettagli su account, opportunità, opportunità realizzate e perse e i ricavi associati a tali opportunità.
 
 1. [Crea una scorecard per dispositivi mobili](/help/mobile-app/create-scorecard.md).
-1. Definire il periodo per il quale si desidera generare il rapporto. Ad esempio **[!UICONTROL October 2024 vs Previous Period]**.
-1. Trascina e rilascia le metriche rilevanti nell’area di lavoro dell’app. Ad esempio: **[!UICONTROL Global accounts]**, **[!UICONTROL Opportunities]**, **[!UICONTROL Closed-Won]**, **[!UICONTROL Closed-Lost]**, **[!UICONTROL Revenue Closed-Won]** e **[!UICONTROL Revenue-Closed-Lost]**.
+1. Definire il periodo per il quale si desidera generare il rapporto. Ad esempio **[!UICONTROL Ottobre 2024 rispetto al periodo precedente]**.
+1. Trascina e rilascia le metriche rilevanti nell’area di lavoro dell’app. Ad esempio: **[!UICONTROL Account globali]**, **[!UICONTROL Opportunità]**, **[!UICONTROL Conto chiuso]**, **[!UICONTROL Conto chiuso perso]**, **[!UICONTROL Conto chiuso ricavi]** e **[!UICONTROL Conto ricavi chiuso-perso]**.
 
    ![Caso di utilizzo B2B - Creare valore del prodotto - Democratizzare gli approfondimenti - scorecard per dispositivi mobili](assets/b2b-uc-build-product-value-mobile-scorecard.png)
 
-1. Utilizza **[!UICONTROL Preview]** per visualizzare l&#39;anteprima del dashboard. Il dashboard è ora disponibile nell&#39;app del dashboard di Adobe Analytics, disponibile in [App Store](https://apps.apple.com/us/app/adobe-analytics-dashboards/id1509062264) o [Google Play](https://play.google.com/store/apps/details?id=com.adobe.analyticsdashboards).
+1. Utilizza **[!UICONTROL Anteprima]** per visualizzare in anteprima il dashboard. Il dashboard è ora disponibile nell&#39;app del dashboard di Adobe Analytics, disponibile in [App Store](https://apps.apple.com/us/app/adobe-analytics-dashboards/id1509062264) o [Google Play](https://play.google.com/store/apps/details?id=com.adobe.analyticsdashboards).
 
    ![Caso di utilizzo B2B - Creare valore del prodotto - Democratizzare gli approfondimenti - Anteprima scorecard per dispositivi mobili](assets/b2b-uc-build-product-value-mobile-scorecard-preview.png)

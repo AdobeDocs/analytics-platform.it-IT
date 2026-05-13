@@ -5,10 +5,15 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1459a512-bfa8-4805-97e8-5b6acc6e4ac9
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+TQID: https://experienceleague.adobe.com/Kv-jIN0GPIy-7285aKkLQT6R6l9lULtkFrSmr57w644
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 66%
+source-wordcount: 1050
+ht-degree: 65%
 
 ---
 
@@ -42,7 +47,7 @@ Considera i seguenti vantaggi e svantaggi della configurazione dell’implementa
 
 1. Inizia a inviare dati da Edge Network a Platform. Invia tutte le variabili in formato AppMeasurement tramite l’oggetto dati.
 
-   Per ulteriori informazioni, vedere [Mappatura della variabile dell&#39;oggetto dati in Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/data-var-mapping).
+   Per ulteriori informazioni, vedere [Mappatura della variabile dell&#39;oggetto dati in Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/data-var-mapping).
 
 1. Scegli lo schema.
 
@@ -68,6 +73,6 @@ Considera i seguenti vantaggi e svantaggi della configurazione dell’implementa
 
 1. Utilizza la mappatura dello stream di dati per mappare tutti i campi nell’oggetto dati sullo schema XDM.
 
-   Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
+   Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
 
 {{upgrade-final-step}}

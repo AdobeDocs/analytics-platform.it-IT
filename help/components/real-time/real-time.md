@@ -4,9 +4,15 @@ title: Panoramica reportistica in tempo reale
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/Nvg6DVqDq-IwyPJgyDH2nOmNG41-aCRAYohlj7tjrj4
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: 855
 ht-degree: 6%
 
 ---
@@ -68,7 +74,7 @@ Se si verifica un’interruzione dei servizi per più di mezz’ora, i dati in t
 
 Tieni presente le seguenti limitazioni per la generazione di rapporti in tempo reale:
 
-* La generazione rapporti in tempo reale segnala solo i dati disponibili in un periodo continuo di 24 ore. Dati superiori a   24 ore non è disponibile per la generazione di rapporti in tempo reale. Quando l&#39;[aggiornamento in tempo reale](use-real-time.md) per un report è disattivato o disattivato automaticamente, tutti i dati rilevanti sono disponibili una volta di più dal [set di dati consolidato](/help/connections/combined-dataset.md) utilizzato in genere per il reporting in Customer Journey Analytics.
+* La generazione rapporti in tempo reale segnala solo i dati disponibili in un periodo continuo di 24 ore. I dati che hanno più di 24 ore non sono disponibili per la generazione di rapporti in tempo reale. Quando l&#39;[aggiornamento in tempo reale](use-real-time.md) per un report è disattivato o disattivato automaticamente, tutti i dati rilevanti sono disponibili una volta di più dal [set di dati consolidato](/help/connections/combined-dataset.md) utilizzato in genere per il reporting in Customer Journey Analytics.
 * Attribuzione, segmentazione, metriche calcolate e altro ancora funzionano solo sui dati disponibili entro il periodo continuo di 24 ore. Ad esempio, un segmento *Visitatori ripetuti* include pochissime persone in un rapporto in tempo reale perché il rapporto include solo le persone che hanno visitato più volte nelle ultime 24 ore. Una limitazione simile si applica quando si crea un rapporto in tempo reale su persone che in precedenza hanno fatto clic su una campagna non più attiva.
 * Il reporting in tempo reale funziona meglio sui dati a livello di evento e di sessione ed è necessario prestare attenzione quando si utilizza il reporting in tempo reale per i dati a livello di persona. Poiché per i rapporti in tempo reale sono disponibili solo gli eventi del periodo continuo di 24 ore, anche la cronologia degli eventi di una persona è limitata a questa finestra. Quando selezioni una dimensione e metriche (calcolate), considera la preferenza per i dati a livello di evento e di sessione. E quando utilizzi funzionalità quali raggruppamenti, successivo o precedente e altro nel pannello con aggiornamento in tempo reale abilitato.
 * Non è possibile combinare l’unione con il reporting in tempo reale. Il reporting in tempo reale riguarda i dati a livello di evento e di sessione ed è meno rilevante per i dati basati su persone.

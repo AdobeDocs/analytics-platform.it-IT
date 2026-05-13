@@ -3,9 +3,15 @@ description: Scopri i segmenti sequenziali che utilizzano l’operatore THEN per
 title: Segmenti sequenziali
 feature: Filters, Segments
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/TqLnqudV-SrIk7SdMT7dUeNBAwaa5FkoZocUkwrod6g
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: 2491
 ht-degree: 4%
 
 ---
@@ -18,7 +24,7 @@ Puoi creare segmenti sequenziali utilizzando l&#39;operatore logico [!UICONTROL 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione sequenziale](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione sequenziale](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} per un video demo.
 
 {{videoaa}}
 
@@ -43,7 +49,7 @@ Un segmento sequenziale ha alcune [funzionalità di base](#basics) e opzioni agg
 
 
 
-Le nozioni di base per la creazione di un segmento sequenziale non sono diverse dalla creazione di un segmento regolare utilizzando il [Generatore di segmenti](seg-builder.md). È possibile utilizzare il [Generatore di definizioni](seg-builder.md#definition-builder) per creare la definizione del segmento. In questa costruzione vengono utilizzati componenti, contenitori, operatori e logica. Un segmento regolare diventa un segmento sequenziale non appena si seleziona l&#39;operatore **[!UICONTROL Then]** nella definizione principale o in uno qualsiasi dei contenitori utilizzati nel [Generatore di definizioni](seg-builder.md#definition-builder).
+Le nozioni di base per la creazione di un segmento sequenziale non sono diverse dalla creazione di un segmento regolare utilizzando il [Generatore di segmenti](seg-builder.md). È possibile utilizzare il [Generatore di definizioni](seg-builder.md#definition-builder) per creare la definizione del segmento. In questa creazione vengono utilizzati componenti, contenitori, operatori e logica. Un segmento regolare diventa un segmento sequenziale non appena si seleziona l&#39;operatore **[!UICONTROL Then]** nella definizione principale o in uno qualsiasi dei contenitori utilizzati nel [Generatore di definizioni](seg-builder.md#definition-builder).
 
 ### Esempi
 
@@ -91,7 +97,7 @@ Per applicare vincoli di tempo all&#39;operatore **[!UICONTROL Then]**:
 1. Seleziona ![Orologio](/help/assets/icons/Clock.svg).
 1. Seleziona **[!UICONTROL Entro]** o **[!UICONTROL Dopo]** dal menu di scelta rapida.
 1. Specifica un periodo di tempo (**[!UICONTROL minuti]**, **[!UICONTROL ore]**, fino a **[!UICONTROL anni]**).
-1. Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;per aprire un popup che consente di digitare o specificare un numero utilizzando&#x200B;**[!UICONTROL -]**&#x200B;o&#x200B;**[!UICONTROL +]**.
+1. Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**per aprire un popup che consente di digitare o specificare un numero utilizzando**[!UICONTROL -]**o**[!UICONTROL +]**.
 
 Per rimuovere un vincolo di tempo, utilizzare ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -110,7 +116,7 @@ Alcuni esempi di utilizzo dei vincoli di tempo.
 
 ##### Operatore [!UICONTROL After]
 
-Identifica le persone che hanno visitato una pagina e poi un’altra solo dopo due settimane. Ad esempio, le persone che hanno visitato la home page, ma le | La pagina delle scarpe solo dopo due settimane.
+Identifica le persone che hanno visitato una pagina e poi un’altra solo dopo due settimane. Ad esempio, le persone che hanno visitato la home page, ma le | Pagina delle scarpe solo dopo due settimane.
 
 ![Sequenza dopo](assets/sequence-after.png)
 
@@ -130,7 +136,7 @@ Identifica le persone che hanno visitato una pagina e poi un’altra pagina dopo
 
 ![Sequenza dopo ma entro](assets/sequence-afterbutwithin.png)
 
-Tutte le persone che hanno raggiunto la Home Page il 1° giugno 2024 e che stanno tornando a visitare le Donne | La pagina delle scarpe dopo il 15 giugno 2019 00:01, ma prima del 1 luglio 2019 si qualifica per il segmento.
+Tutte le persone che hanno raggiunto la Home Page il 1° giugno 2024 e che stanno tornando a visitare le Donne | Scarpe pagina dopo il 15 giugno 2019 00:01, ma prima del 1 luglio 2019 si qualifica per il segmento.
 
 
 ### [!UICONTROL Evento], [!UICONTROL Sessione] e [!UICONTROL Dimension] vincoli
@@ -139,7 +145,7 @@ I vincoli ![Orologio](/help/assets/icons/Clock.svg) **[!UICONTROL Dopo]** e ![Or
 
 #### Esempio
 
-Di seguito è riportato un esempio di segmento sequenziale che cerca le persone che hanno visitato una pagina di categoria di prodotto (Donne) | Scarpe), seguita da una pagina di pagamento (Checkout | Grazie) in una sola pagina.
+Di seguito è riportato un esempio di segmento sequenziale che cerca le persone che hanno visitato una pagina di categoria di prodotto (Donne) | Scarpe), seguita da una pagina di pagamento (Pagamento | Grazie) in una sola pagina.
 
 ![Segmento di sequenza entro](assets/sequence-filter-within.png)
 
@@ -158,7 +164,7 @@ Puoi specificare quali dati includere nel segmento sequenziale o in un contenito
 
 Per creare un segmento sequenziale che includa tutti, selezionare l&#39;opzione ![GruppoUtenti](/help/assets/icons/UserGroup.svg) **[!UICONTROL Includi tutti]**.
 
-Il segmento sequenziale identifica i dati che corrispondono al pattern specificato nel suo insieme.  Di seguito è riportato un esempio di un segmento di sequenza di base alla ricerca di persone che hanno visitato una pagina di categoria di prodotto (donne | Scarpe), seguita da una pagina di pagamento (Checkout | Grazie). Il segmento è impostato su ![GruppoUtenti](/help/assets/icons/UserGroup.svg) **[!UICONTROL Includi tutti]**.
+Il segmento sequenziale identifica i dati che corrispondono al pattern specificato nel suo insieme.  Di seguito è riportato un esempio di un segmento di sequenza di base alla ricerca di persone che hanno visitato una pagina di categoria di prodotto (donne | Scarpe), seguita da una pagina di pagamento (Pagamento | Grazie). Il segmento è impostato su ![GruppoUtenti](/help/assets/icons/UserGroup.svg) **[!UICONTROL Includi tutti]**.
 
 ![Il segmento sequenziale include tutti](assets/sequence-include-everyone.png)
 
@@ -284,7 +290,7 @@ Puoi utilizzare [!UICONTROL Gruppo logico] per semplificare la creazione di ques
 
 #### Prima corrispondenza
 
-Identifica le persone che hanno visitato una pagina o un’altra pagina e poi hanno visitato un’altra pagina. Ad esempio, le persone che hanno visitato la pagina Donne o Uomini e poi il Checkout | Pagina di ringraziamento.
+Identifica le persone che hanno visitato una pagina o un’altra pagina e poi hanno visitato un’altra pagina. Ad esempio, le persone che hanno visitato la pagina Donne o Uomini e poi il Checkout | Pagina di ringraziamento
 
 ![Esempio di utilizzo della prima corrispondenza con il gruppo logico](assets/logicgroup-example-firstmatch.png)
 

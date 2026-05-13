@@ -5,10 +5,16 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/Sb4kVGW3EHe85km5NDp-qWQu8MIeW5v2gwrYNTmNevY
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b21c7889-c659-4a99-a779-de1bae57e47eid: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 77%
+source-wordcount: 1849
+ht-degree: 73%
 
 ---
 
@@ -86,7 +92,7 @@ Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Storie di dati per progetti di scorecard per dispositivi mobili](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Storie di dati per progetti di scorecard per dispositivi mobili](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -97,14 +103,14 @@ Crea la presentazione di dati aggiungendo più diapositive di dettaglio a una se
 
 1. Inizia con un progetto di scorecard per dispositivi mobili.
 1. Seleziona una sezione da cui desideri creare una presentazione.
-   ![Creare una presentazione di dati](assets/data-story1.png)
+   ![Crea una storia di dati](assets/data-story1.png)
    ![Creare icone della presentazione di dati](assets/create-data-story.png){width=".50%"}
 1. Aggiungi le diapositive per creare una presentazione di dati personale. La prima diapositiva viene generata per impostazione predefinita.
 Per aggiungere nuove diapositive, passa il puntatore oppure fai clic su una diapositiva, quindi seleziona una delle opzioni disponibili:
    * Tocca il segno + per creare una nuova diapositiva.
    * Tocca l’icona Duplica per duplicare la diapositiva esistente.
 1. Se crei una diapositiva vuota, trascina i componenti dalla barra a sinistra oppure scegli un layout per popolare automaticamente la diapositiva con i dati della sezione.
-   ![Creare una presentazione di dati](assets/data-story2.png)
+   ![Crea una storia di dati](assets/data-story2.png)
 Per eliminare una diapositiva, tocca l’icona del cestino.
 
 ### Personalizzare una presentazione di dati {#customize-data-story}
@@ -116,8 +122,8 @@ Le presentazioni di dati sono interamente personalizzabili, per condividere le i
 1. Tocca una sezione. La sezione selezionata è evidenziata in blu e il pannello a destra mostra le Proprietà della sezione.
 1. Modifica il titolo, il tipo di grafico e altre opzioni della sezione.
 1. Trascina un componente sulla sezione.
-   ![Creare una presentazione di dati](assets/data-story3.png)
-Quando trascini un componente, ad esempio una visualizzazione, su una sezione, il componente viene applicato a tutte le diapositive della presentazione di dati.
+   ![Crea una storia di dati](assets/data-story3.png)
+Quando trascini un componente, ad esempio una visualizzazione, su una tessera, il componente viene applicato a tutte le diapositive della storia di dati.
 1. Per applicare una modifica solo al titolo, tieni premuto il tasto Maiusc per applicarla.
    ![Creare di una presentazione di dati](assets/data-story4.png)
 
@@ -137,8 +143,8 @@ Dopo aver creato una presentazione di dati, utilizza il pulsante **Anteprima** p
 Nella barra di navigazione sono visualizzate icone che rappresentano gli elementi presenti in ciascuna diapositiva. La barra di navigazione facilita il passaggio a una diapositiva specifica se sono presenti molte diapositive.
 
 Per spostarsi tra la sezione e le diapositive, tocca la barra di navigazione.
-![Creare una presentazione di dati](assets/data-story5.png)
-![Creare una presentazione di dati](assets/data-story-nav.png){width="45%"}
+![Crea una storia di dati](assets/data-story5.png)
+![Crea una storia di dati](assets/data-story-nav.png){width="45%"}
 
 Puoi anche spostarti avanti e indietro utilizzando le frecce sulla tastiera oppure selezionando un componente e tenendolo a sinistra o a destra dello schermo per scorrere.
 

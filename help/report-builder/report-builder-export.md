@@ -6,16 +6,22 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 1d5d87d8-1920-406b-8cce-41b89b7ae70b
-source-git-commit: cc20ddf5da5787af0a29b5d18c00abff816071d2
+TQID: https://experienceleague.adobe.com/9oEoM8cI6Bxl-PXmiT-OhskFK3XlaPVkQSFOi4Dyajg
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: ef46ac31-f951-48d6-bae5-51c52ab47fb8id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 36%
+source-wordcount: 1309
+ht-degree: 37%
 
 ---
 
 # Pianificare le cartelle di lavoro esportandole in destinazioni cloud
 
-È possibile esportare cartelle di lavoro di Customer Journey Analytics da Report Builder a provider cloud come Google, Azure e Amazon.
+Puoi esportare le cartelle di lavoro di Customer Journey Analytics da Report Builder a provider cloud come Google, Azure e Amazon.
 
 [I vantaggi dell&#39;esportazione di report da Report Builder al cloud](#advantages-of-exporting-to-the-cloud) includono la possibilità di utilizzare report in strumenti di terze parti o di combinarli con dati esterni.
 

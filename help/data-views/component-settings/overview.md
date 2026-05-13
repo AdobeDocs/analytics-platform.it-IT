@@ -5,10 +5,16 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/Ozf-XAsirDMkZLIQCX4SLGD7SvKinu3O4fwJ4ifgSvQ
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '3739'
-ht-degree: 55%
+source-wordcount: 3784
+ht-degree: 54%
 
 ---
 
@@ -59,7 +65,7 @@ Le informazioni seguenti descrivono le impostazioni utilizzate da un componente 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -404,7 +410,7 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 | ID correlazione | ID correlazione. |
 | Numero di offerte (AJO) | Il numero di elementi dell’offerta nella proposta. |
 | Chiave di associazione dell’elemento decisionale | Identificatore composito che combina l’ID elemento con l’ID richiesta di Experience Decisioning, consentendo la persistenza dei dati tra le interazioni. |
-| Provider di decisioni (AJO) | Provider a cui è stato chiesto di prendere la decisione. Questa dimensione viene utilizzata quando più servizi possono prendere decisioni per lo stesso posizionamento o attività. |
+| Provider di decisioni (AJO) | Il provider a cui è stato chiesto di prendere la decisione. Questa dimensione viene utilizzata quando più servizi possono prendere decisioni per lo stesso posizionamento o attività. |
 | Provider di decisioni (persistente) (AJO) | Il provider di decisioni con associazione di persistenza abilitata. |
 | ID criterio decisione (AJO) | ID del criterio di decisione utilizzato per decidere quali elementi includere nella proposta. |
 | Metrica deduplica (AJO) | Metrica di deduplicazione. |
@@ -500,7 +506,7 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 | Tipo di messaggio SMS (AJO) | Provider SMS, ad esempio inbound, inboundReply o send. |
 | Provider SMS (AJO) | Provider SMS, ad esempio Sinch o Twilio. |
 | Segnalazione di spam (AJO) | Numero totale di reclami spam. |
-| Nome strategia (AJO) | Nome della strategia. Il nome della strategia da cui è derivato l’elemento. |
+| Nome strategia (AJO) | Nome della strategia. Nome della strategia da cui deriva l&#39;elemento. |
 | Nome della strategia (persistente) (AJO) | Nome della strategia con associazione di persistenza abilitata. |
 | Aggiunte a elenco abbonamenti (AJO) | Numero totale di aggiunte a un elenco di iscrizioni. |
 | ID elenco iscrizioni (AJO) | Identificatore univoco per l’elenco iscrizioni. |

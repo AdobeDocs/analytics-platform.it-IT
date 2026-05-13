@@ -5,10 +5,16 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: 9984200a-71e6-4697-b46f-f53e8d4c507f
 role: Admin
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+TQID: https://experienceleague.adobe.com/KSyql1S40ikIGYXmnvqaTtApViuAgVaPRqfVu-nk-8k
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 82%
+source-wordcount: 2044
+ht-degree: 59%
 
 ---
 
@@ -48,13 +54,13 @@ Devi innanzitutto definire uno schema che modella questi dati.
 
 Per configurare lo schema:
 
-1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemas]** (Schemi) all’interno di [!UICONTROL DATA MANAGEMENT] (GESTIONE DATI).
+1. Nell&#39;interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemi]** in [!UICONTROL GESTIONE DATI].
 
-1. Selezionare **[!UICONTROL Create schema]**.
+1. Seleziona **[!UICONTROL Crea schema]**.
 .
 1. Nel passaggio Selezionare una classe della procedura guidata Crea schema:
 
-   1. Seleziona **[!UICONTROL Individual Profile]**.
+   1. Selezionare **[!UICONTROL Profilo individuale]**.
 
       ![Creare uno schema](./assets/create-pr-schema-wizard-step-1.png)
 
@@ -62,26 +68,26 @@ Per configurare lo schema:
       >
       >    Per modellare il _comportamento_ di un profilo (come nome di scena, premere il pulsante per aggiungere al carrello) viene utilizzato uno schema evento esperienza. Per modellare gli _attributi_ del profilo (come nome, e-mail, genere) viene utilizzato uno schema Individual Profile.
 
-   1. Seleziona **[!UICONTROL Next]**.
+   1. Seleziona **[!UICONTROL Avanti]**.
 
 
-1. In [!UICONTROL Name and review step] della procedura guidata [!UICONTROL Create schema]:
+1. Nel [!UICONTROL passaggio Nome e revisione] della procedura guidata [!UICONTROL Crea schema]:
 
-   1. Immetti un **[!UICONTROL Schema display name]** per lo schema e (facoltativamente) una **[!UICONTROL Description]**.
+   1. Immetti un **[!UICONTROL nome visualizzato dello schema]** per lo schema e (facoltativo) una **[!UICONTROL Descrizione]**.
 
       ![Assegnare un nome allo schema](./assets/create-pr-schema-wizard-step-2.png)
 
-   1. Seleziona **[!UICONTROL Finish]**.
+   1. Seleziona **[!UICONTROL Fine]**.
 
 1. Nella scheda Struttura dello schema di esempio:
 
-   1. Seleziona **[!UICONTROL + Add]** (Aggiungi) in [!UICONTROL Field groups] (Gruppi di campi).
+   1. Selezionare **[!UICONTROL + Aggiungi]** in [!UICONTROL Gruppi di campi].
 
       ![Aggiungere un gruppo di campi](./assets/add-field-group-button.png)
 
       I gruppi di campi sono raccolte riutilizzabili di oggetti e attributi che consentono di estendere facilmente gli schemi.
 
-   1. Nella finestra di dialogo [!UICONTROL Add fields groups] (Aggiungi gruppi di campi) seleziona il gruppo di campi **[!UICONTROL Loyalty Details]** dall’elenco.
+   1. Nella finestra di dialogo [!UICONTROL Aggiungi gruppi di campi], seleziona il gruppo di campi **[!UICONTROL Dettagli fedeltà]** dall&#39;elenco.
 
       ![AEP Web SDK ExperienceEvent fieldgroup](./assets/loyalty-fieldgroup.png)
 
@@ -89,31 +95,31 @@ Per configurare lo schema:
 
       ![Anteprima AEP Web SDK ExperienceEvent fieldgroup](./assets/loyalty-fieldgroup-preview.png)
 
-      Seleziona **[!UICONTROL Back]** (Indietro) per chiudere l’anteprima.
+      Seleziona **[!UICONTROL Indietro]** per chiudere l&#39;anteprima.
 
-   1. Seleziona **[!UICONTROL Add field groups]** (Aggiungi gruppi di campi).
+   1. Seleziona **[!UICONTROL Aggiungi gruppi di campi]**.
 
-1. Seleziona **[!UICONTROL +]** accanto al nome dello schema nel pannello [!UICONTROL Structure] (Struttura).
+1. Seleziona **[!UICONTROL +]** accanto al nome dello schema nel pannello [!UICONTROL Struttura].
 
    ![Pulsante per l’aggiunta di campi nello schema di esempio](./assets/example-loalty-schema-plus.png)
 
-1. Nel pannello [!UICONTROL Field Properties] (Proprietà campo), inserisci `Identification` come nome, **[!UICONTROL Identification]** (Identificazione) come [!UICONTROL Display name] (Nome di visualizzazione), seleziona **[!UICONTROL Object]** (Oggetto) come [!UICONTROL Type] (Tipo) e seleziona **[!UICONTROL Profile Core v2]** come [!UICONTROL Field Group] (Gruppo di campo).
+1. Nel pannello [!UICONTROL Proprietà campo], immetti `Identification` come nome, **[!UICONTROL Identificazione]** come [!UICONTROL Nome visualizzato], seleziona **[!UICONTROL Oggetto]** come [!UICONTROL Tipo] e seleziona **[!UICONTROL Core profilo v2]** come [!UICONTROL Gruppo campi].
 
    ![Oggetto di identificazione](./assets/identifcation-loyalty-field.png)
 
    Questo oggetto di identificazione aggiunge funzionalità di identificazione allo schema. Nel tuo caso, immagina di voler identificare le informazioni sulla fidelizzazione utilizzando l’indirizzo e-mail nei tuoi dati batch.
 
-   Seleziona **[!UICONTROL Apply]** (Applica) per aggiungere questo oggetto allo schema.
+   Seleziona **[!UICONTROL Applica]** per aggiungere questo oggetto allo schema.
 
-1. Seleziona il campo **[!UICONTROL email]** nell’oggetto di identificazione appena aggiunto e seleziona **[!UICONTROL Identity]** (identità) e **[!UICONTROL Email]** dall’elenco [!UICONTROL Identity namespace] (Spazio dei nomi dell’identità) nel pannello [!UICONTROL Field Properties] (Proprietà campo).
+1. Seleziona il campo **[!UICONTROL email]** nell&#39;oggetto di identificazione appena aggiunto, quindi seleziona **[!UICONTROL Identity]** e **[!UICONTROL Email]** dallo spazio dei nomi [!UICONTROL Identity] nel pannello [!UICONTROL Field Properties].
 
    ![Specificare l’e-mail come identità](./assets/specify-email-loyalty-id.png)
 
    Stai specificando l’indirizzo e-mail come identità che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) il comportamento dei profili.
 
-   Seleziona **[!UICONTROL Apply]** (Applica). Nell’attributo e-mail viene visualizzata l’icona di un’impronta digitale.
+   Seleziona **[!UICONTROL Applica]**. Nell’attributo e-mail viene visualizzata l’icona di un’impronta digitale.
 
-1. Seleziona il livello principale dello schema (con il nome dello schema), quindi seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
+1. Seleziona il livello principale dello schema (con il nome dello schema), quindi seleziona l&#39;opzione **[!UICONTROL Profilo]**.
 
    Viene richiesto di abilitare lo schema per il profilo. Una volta abilitato, quando i dati vengono inseriti in set di dati basati su questo schema, tali dati vengono uniti su Real-Time Customer Profile.
 
@@ -125,7 +131,7 @@ Per configurare lo schema:
 
    ![Abilitare lo schema per il profilo](./assets/enable-for-profile.png)
 
-1. Seleziona **[!UICONTROL Save]** (Salva) per salvare lo schema.
+1. Seleziona **[!UICONTROL Salva]** per salvare lo schema.
 
 Hai creato uno schema minimo che modella i dati di fidelizzazione che puoi inserire in Adobe Experience Platform. Lo schema consente l’identificazione dei profili tramite l’indirizzo e-mail. Abilitando lo schema per il profilo, garantisci che i dati della tua origine di streaming vengano aggiunti a Real-Time Customer Profile.
 
@@ -137,25 +143,25 @@ Con lo schema, hai definito il modello dati. Ora devi definire il costrutto per 
 
 Per configurare il set di dati:
 
-1. Nell’interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Datasets]** (Set di dati) all’interno di [!UICONTROL DATA MANAGEMENT] (GESTIONE DATI).
+1. Nell&#39;interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Set di dati]** in [!UICONTROL GESTIONE DATI].
 
-2. Seleziona **[!UICONTROL Create dataset]** (Crea set di dati).
+2. Seleziona **[!UICONTROL Crea set di dati]**.
 
    ![Creare un set di dati](./assets/create-dataset.png)
 
-3. Seleziona **[!UICONTROL Create dataset from schema]** (Crea set di dati da schema).
+3. Seleziona **[!UICONTROL Crea set di dati dallo schema]**.
 
    ![Creare un set di dati da uno schema](./assets/create-dataset-from-schema.png)
 
-4. Seleziona lo schema creato in precedenza e seleziona **[!UICONTROL Next]** (Avanti).
+4. Seleziona lo schema creato in precedenza e seleziona **[!UICONTROL Successivo]**.
 
 5. Assegna un nome al set di dati e (facoltativamente) fornisci una descrizione.
 
    ![Assegnare un nome al set di dati](./assets/name-your-datatest.png)
 
-6. Seleziona **[!UICONTROL Finish]** (Fine).
+6. Seleziona **[!UICONTROL Fine]**.
 
-7. Seleziona il pulsante **[!UICONTROL Profile]** (Profilo).
+7. Selezionare l&#39;opzione **[!UICONTROL Profilo]**.
 
    Viene richiesto di abilitare il set di dati per il profilo. Una volta abilitato, il set di dati arricchisce i profili dei clienti in tempo reale con i relativi dati inseriti.
 
@@ -198,39 +204,39 @@ Per inviare questi dati in streaming al set di dati creato, è necessario defini
 
 Per creare un connettore di origine API HTTP:
 
-1. Nell’interfaccia utente di Experience Platform, seleziona **[!UICONTROL Sources]** (Origini) sotto [!UICONTROL CONNECTIONS] (CONNESSIONI) nella barra a sinistra.
+1. Nell&#39;interfaccia utente di Experience Platform, seleziona **[!UICONTROL Origini]** in [!UICONTROL CONNESSIONI] nella barra a sinistra.
 
-2. Seleziona **[!UICONTROL Streaming]** dall’elenco [!UICONTROL CATEGORIES] (CATEGORIE).
+2. Seleziona **[!UICONTROL Streaming]** dall&#39;elenco di [!UICONTROL CATEGORIE].
 
-3. Seleziona **Set up** (Configura) nel riquadro [!UICONTROL HTTP API] (API HTTP).
+3. Seleziona **Configura** nella sezione [!UICONTROL API HTTP].
 
    ![Riquadro di configurazione dell’API HTTP](./assets/httpapi-tile.png)
 
-4. Nel passaggio [!UICONTROL Authentication] (Autenticazione) della schermata [!UICONTROL Add data] (Aggiungi dati):
+4. Nel passaggio [!UICONTROL Autenticazione] della schermata [!UICONTROL Aggiungi dati]:
 
    Immetti un nome e una descrizione per la connessione API HTTP.
 
-   Seleziona **[!UICONTROL XDM compatible]** (Compatibile con XDM) per indicare che i dati in streaming sono compatibili con uno schema XDM esistente.
+   Seleziona **[!UICONTROL Compatibile con XDM]** per indicare che i dati trasmessi sono compatibili con uno schema XDM esistente.
 
-   Seleziona **[!UICONTROL Connect to source]** (Connetti a origine). Se la connessione va a buon fine viene visualizzato [!UICONTROL Connected] (Connessione riuscita).
+   Selezionare **[!UICONTROL Connetti all&#39;origine]**. Dopo una connessione riuscita, verranno visualizzati [!UICONTROL Connessi].
 
    ![Autenticazione API HTTP](./assets/httpapi-authentication.png)
 
-   Seleziona **[!UICONTROL Next]** (Avanti) per continuare.
+   Seleziona **[!UICONTROL Avanti]** per continuare.
 
-5. Nel passaggio [!UICONTROL Dataflow detail] (Dettagli del flusso di dati) della schermata [!UICONTROL Add data] (Aggiungi dati):
+5. Nel passaggio [!UICONTROL Dettagli flusso di dati] della schermata [!UICONTROL Aggiungi dati]:
 
-   Seleziona **[!UICONTROL Existing dataset]** (Set di dati esistente), seleziona il set di dati dall’elenco dei set di dati e assegna un nome a [!UICONTROL Dataflow name] (Nome del flusso di dati).
+   Seleziona **[!UICONTROL Set di dati esistente]**, seleziona il set di dati dall&#39;elenco e assegna un nome al [!UICONTROL nome flusso di dati].
 
    ![Dettaglio del flusso di dati](./assets/httpapi-dataflowdetail.png)
 
-   Seleziona **[!UICONTROL Next]** (Avanti).
+   Seleziona **[!UICONTROL Avanti]**.
 
-6. Il passaggio [!UICONTROL Review] (Rivedi) nella schermata [!UICONTROL Add data] (Aggiungi dati) fornisce una panoramica della connessione API HTTP.
+6. Il passaggio [!UICONTROL Rivedi] della schermata [!UICONTROL Aggiungi dati] fornisce una panoramica della connessione API HTTP.
 
    ![Dettaglio del flusso di dati](./assets/httpapi-review.png)
 
-   Seleziona **[!UICONTROL Finish]** (Fine).
+   Seleziona **[!UICONTROL Fine]**.
 
 7. Viene visualizzata la definizione finale dell’endpoint di streaming API HTTP.
 
@@ -238,7 +244,7 @@ Per creare un connettore di origine API HTTP:
 
 Puoi copiare l’URL dell’endpoint di streaming e usarlo per configurare la tua applicazione di fidelizzazione per lo streaming dei dati nel set di dati di fidelizzazione di Adobe Experience Platform.
 
-Consulta [Creare una connessione streaming API HTTP utilizzando l&#39;interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=it) per un tutorial molto più completo che spiega:
+Consulta [Creare una connessione streaming API HTTP utilizzando l&#39;interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html) per un tutorial molto più completo che spiega:
 
 - come utilizzare l’autenticazione,
 - come mappare i dati quando i dati in arrivo non sono compatibili con lo schema XDM e
@@ -253,43 +259,43 @@ Una connessione consente di integrare set di dati da Adobe Experience Platform i
 
 Per creare la connessione:
 
-1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Connections]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Connessioni]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
 
-2. Seleziona **[!UICONTROL Create new connection]** (Crea uova connessione).
+2. Seleziona **[!UICONTROL Crea nuova connessione]**.
 
-3. Nella schermata [!UICONTROL Untitled connection] (Connessione senza titolo):
+3. Nella schermata [!UICONTROL Connessione senza titolo]:
 
-   Assegna un nome e una descrizione alla connessione in [!UICONTROL Connection Settings] (Impostazioni della connessione).
+   Denomina e descrivi la connessione in [!UICONTROL Impostazioni connessione].
 
-   Seleziona la sandbox corretta dall’elenco [!UICONTROL Sandbox] in [!UICONTROL Data settings] (Impostazioni dati) e seleziona il numero di eventi giornalieri dall’elenco [!UICONTROL Average number of daily events] (Numero medio di eventi giornalieri).
+   Selezionare la sandbox corretta dall&#39;elenco [!UICONTROL Sandbox] in [!UICONTROL Impostazioni dati] e selezionare il numero di eventi giornalieri dall&#39;elenco [!UICONTROL Numero medio di eventi giornalieri].
 
    ![Impostazioni della connessione](./assets/cja-connections-1.png)
 
-   Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
+   Seleziona **[!UICONTROL Aggiungi set di dati]**.
 
-   Nel passaggio [!UICONTROL Select datasets] (Seleziona set di dati) in [!UICONTROL Add datasets] (Aggiungi set di dati):
+   Nel passaggio [!UICONTROL Seleziona set di dati] in [!UICONTROL Aggiungi set di dati]:
 
    - Seleziona il set di dati creato in precedenza (`Example Loyalty Dataset` (Set di dati di fidelizzazione di esempio)) e qualsiasi altro set di dati da includere nella connessione.
 
      ![Aggiungere set di dati](./assets/cja-connections-2.png)
 
-   - Seleziona **[!UICONTROL Next]** (Avanti).
+   - Seleziona **[!UICONTROL Avanti]**.
 
-   Nel passaggio [!UICONTROL Datasets settings] (Impostazioni set di dati) in [!UICONTROL Add datasets] (Aggiungi set di dati):
+   Nel passaggio [!UICONTROL Impostazioni set di dati] in [!UICONTROL Aggiungi set di dati]:
 
    - Per ogni set di dati:
 
-      - Seleziona un [!UICONTROL Person ID] (ID persona) tra le identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
+      - Seleziona un [!UICONTROL ID persona] dalle identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
 
-      - Seleziona l’origine dati corretta dall’elenco [!UICONTROL Data source type] (Tipo di origine dati). Se specifichi **[!UICONTROL Other]** (Altro), aggiungi una descrizione per l’origine dati.
+      - Selezionare l&#39;origine dati corretta dall&#39;elenco [!UICONTROL Tipo origine dati]. Se si specifica **[!UICONTROL Altro]**, aggiungere una descrizione per l&#39;origine dati.
 
-      - Imposta **[!UICONTROL Import all new data]** (Importa tutti i nuovi dati) e **[!UICONTROL Dataset backfill existing data]** (Dati esistenti di backfill del set di dati) secondo le tue preferenze.
+      - Imposta **[!UICONTROL Importa tutti i nuovi dati]** e **[!UICONTROL Recupera i dati esistenti del set di dati]** in base alle tue preferenze.
 
      ![Configurare i set di dati](./assets/cja-connections-3.png)
 
-   - Seleziona **[!UICONTROL Add datasets]** (Aggiungi set di dati).
+   - Seleziona **[!UICONTROL Aggiungi set di dati]**.
 
-   Seleziona **[!UICONTROL Save]** (Salva).
+   Seleziona **[!UICONTROL Salva]**.
 
 Per ulteriori informazioni su come creare e gestire una connessione e come selezionare e combinare i set di dati, consulta la sezione [Panoramica delle connessioni](../connections/overview.md).
 
@@ -299,33 +305,33 @@ Una visualizzazione dati è un contenitore specifico di Customer Journey Analyti
 
 Per creare la visualizzazione dati:
 
-1. Nell&#39;interfaccia utente di Customer Journey Analytics, selezionare **[!UICONTROL Data views]**, facoltativamente da **[!UICONTROL Data management]**, nel menu principale.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Visualizzazioni dati]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
 
-2. Seleziona **[!UICONTROL Create new data view]** (Crea nuova visualizzazione dati).
+2. Selezionare **[!UICONTROL Crea nuova visualizzazione dati]**.
 
-3. Nel passaggio [!UICONTROL Configure] (Configura):
+3. Nel passaggio [!UICONTROL Configura]:
 
-   Seleziona la connessione dall’elenco [!UICONTROL Connection] (Connessioni).
+   Selezionare la connessione dall&#39;elenco [!UICONTROL Connessione].
 
    Assegna un nome e (facoltativamente) una descrizione alla connessione.
 
    ![Configurare la visualizzazione dati](./assets/cja-dataview-1.png)
 
-   Seleziona **[!UICONTROL Save and continue]** (Salva e continua).
+   Seleziona **[!UICONTROL Salva e continua]**.
 
-4. Nel passaggio [!UICONTROL Components] (Componenti):
+4. Nel passaggio [!UICONTROL Componenti]:
 
-   Aggiungi qualsiasi campo dello schema e/o componente standard che desideri includere nelle caselle dei componenti [!UICONTROL METRICS] (METRICHE) o [!UICONTROL DIMENSIONS] (DIMENSIONI).
+   Aggiungi qualsiasi campo schema e/o componente standard da includere nelle caselle dei componenti [!UICONTROL METRICS] o [!UICONTROL DIMENSIONS].
 
    ![Componenti della visualizzazione dati](./assets/cja-dataview-2.png)
 
-   Seleziona **[!UICONTROL Save and continue]** (Salva e continua).
+   Seleziona **[!UICONTROL Salva e continua]**.
 
-5. Nel passaggio [!UICONTROL Settings] (Impostazioni):
+5. Nel passaggio [!UICONTROL Impostazioni]:
 
    ![Impostazioni della visualizzazione dati](./assets/cja-dataview-3.png)
 
-   Lascia le impostazioni così come sono e seleziona **[!UICONTROL Save and finish]** (Salva e fine).
+   Lasciare le impostazioni immutate e selezionare **[!UICONTROL Salva e termina]**.
 
 Consulta [Panoramica delle visualizzazioni dati](../data-views/data-views.md) per ulteriori informazioni su come creare e modificare una visualizzazione dati, quali componenti sono disponibili per l&#39;utilizzo nella visualizzazione dati e come utilizzare le impostazioni di segmenti e sessioni.
 
@@ -336,15 +342,15 @@ Analysis Workspace è uno strumento basato su browser flessibile che consente di
 
 Per creare il progetto:
 
-1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Projects]** nel menu principale.
+1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Progetti]** nel menu principale.
 
-2. Seleziona **[!UICONTROL Projects]** (Progetti) nel pannello di navigazione a sinistra.
+2. Seleziona **[!UICONTROL Progetti]** nel menu di navigazione a sinistra.
 
-3. Seleziona **[!UICONTROL Create project]** (Crea progetto).
+3. Seleziona **[!UICONTROL Crea progetto]**.
 
    ![Progetto Workspace](./assets/cja-projects-1.png)
 
-   Seleziona **[!UICONTROL Blank project]** (Progetto vuoto).
+   Seleziona **[!UICONTROL Progetto vuoto]**.
 
    ![Workspace - Progetto vuoto](./assets/cja-projects-2.png)
 
@@ -352,7 +358,7 @@ Per creare il progetto:
 
    ![Visualizzazione Select Data (Seleziona dati) di Workspace](./assets/cja-projects-3.png).
 
-5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche su [!UICONTROL Freeform table] in [!UICONTROL Panel]. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
+5. Per creare il primo rapporto, inizia a trascinare dimensioni e metriche sulla [!UICONTROL tabella a forma libera] nel [!UICONTROL pannello]. Ad esempio, trascina `Program Points Balance` e `Page View` come metriche e `email` come dimensione per ottenere una panoramica rapida dei profili che hanno visitato il tuo sito Web e che fanno parte del programma di fidelizzazione per la raccolta di punti di fidelizzazione.
 
    ![Workspace - Primo rapporto](./assets/cja-projects-5.png)
 

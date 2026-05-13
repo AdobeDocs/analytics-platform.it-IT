@@ -5,10 +5,15 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 0bf35c67-c8ae-4349-93fb-b9806c1064a8
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+TQID: https://experienceleague.adobe.com/ZqnH8IZau2fC-ucGAjMFQyolfhCe2pYbLiWJ7BKKhII
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 58%
+source-wordcount: 1381
+ht-degree: 59%
 
 ---
 
@@ -40,7 +45,7 @@ Durante l’aggiornamento a Customer Journey Analytics, Adobe [consiglia una nuo
 
 ## Vantaggi e svantaggi
 
-Questo metodo si esclude a vicenda con [l&#39;invio dell&#39;intero livello dati a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md), perché entrambi i metodi eseguono la stessa attività. (Questo metodo è preferibile all’invio dell’intero livello dati ad Adobe. È più perfezionato perché prop ed eVar passano tutti attraverso i dati.__adobe.analytics._nome-variabile_.)
+Questo metodo si esclude a vicenda con [l&#39;invio dell&#39;intero livello dati a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-alternative-appmeasurement.md), perché entrambi i metodi eseguono la stessa attività. (Questo metodo è preferibile all’invio dell’intero livello dati ad Adobe. È più raffinato perché tutte le proprietà e le eVar passano attraverso data.__ adobe.analytics._variable-name_.)
 
 Considera i seguenti vantaggi e svantaggi dell’utilizzo di questa alternativa di aggiornamento:
 
@@ -62,15 +67,15 @@ I passaggi di base per la migrazione di un’implementazione di Adobe Analytics 
 
    Per informazioni su come eseguire questa operazione, consulta i seguenti articoli nella documentazione di Adobe Analytics:
 
-   * [Esegui la migrazione al Web SDK utilizzando i tag](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)
+   * [Migrare a Web SDK utilizzando i tag](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)
 
-   * [Esegui la migrazione al Web SDK tramite JavaScript](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk)
+   * [Migrare a Web SDK utilizzando JavaScript](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk)
 
 1. Inizia a inviare dati da Edge Network a Platform.
 
    1. Invia tutte le variabili in formato AppMeasurement tramite l’oggetto dati.
 
-      Per ulteriori informazioni, vedere [Mappatura della variabile dell&#39;oggetto dati in Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/data-var-mapping).
+      Per ulteriori informazioni, vedere [Mappatura della variabile dell&#39;oggetto dati in Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/data-var-mapping).
 
    1. Scegli lo schema.
 
@@ -96,7 +101,7 @@ I passaggi di base per la migrazione di un’implementazione di Adobe Analytics 
 
    1. Utilizza la mappatura dello stream di dati per mappare tutti i campi nell’oggetto dati sullo schema XDM.
 
-      Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
+      Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
 
 {{upgrade-final-step}}.
 

@@ -5,9 +5,14 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 2816ea67c009d461fb05393741b74979dd65a212
+TQID: https://experienceleague.adobe.com/Nj-IePDbHxBtgiSxEAobJ0DGlJSaiTwpTXIPtCxDTHw
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: caf1e4497d5dbe370ce23481ee1fbf1b6db59bf6
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: 1788
 ht-degree: 14%
 
 ---
@@ -124,7 +129,7 @@ Puoi abilitare l&#39;unione delle identità quando [aggiungi](/help/connections/
 >id="connection_stitchingmetrics_badids"
 >title="ID non validi"
 >abstract="Gli ID non validi sono valori ID che incidono pesantemente sui dati di reporting."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/badids" text="ID non validi"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/badids" text="ID non validi"
 
 
 ### Impostazioni del set di dati
@@ -230,7 +235,7 @@ Dopo aver salvato una connessione, il processo di unione per i set di dati abili
 
 >[!CAUTION]
 >
->Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**&#x200B;per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
+>Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
 >
 
 

@@ -5,9 +5,13 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+TQID: https://experienceleague.adobe.com/16bZZaZcYoCLF3Hz-dngU-SZdU967vHeVS0hn0GWusI
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: 930
 ht-degree: 57%
 
 ---
@@ -81,7 +85,7 @@ Applica espressioni regolari a una dimensione per recuperare il valore desiderat
 * **[!UICONTROL Formato di output]**: campo facoltativo che consente di aggiungere testo o riordinare l&#39;output del sottogruppo regex. Se questo campo è vuoto, l’output della stringa corrisponde all’espressione regex valutata.
 * **[!UICONTROL Distinzione maiuscole/minuscole]**: casella di controllo che, se abilitata, applica all&#39;espressione regolare la distinzione tra maiuscole e minuscole.
 
-Customer Journey Analytics utilizza un sottoinsieme della sintassi delle regex in Perl. Se l&#39;input non corrisponde all&#39;espressione regolare e il formato di output **[!UICONTROL 1&rbrace; è vuoto, vengono applicate le]** opzioni per nessun valore[. &#x200B;](no-value-options.md) Sono supportate le seguenti espressioni:
+Customer Journey Analytics utilizza un sottoinsieme della sintassi delle regex in Perl. Se l&#39;input non corrisponde all&#39;espressione regolare e il formato di output **[!UICONTROL 1} è vuoto, vengono applicate le [opzioni per nessun valore](no-value-options.md).]** Sono supportate le seguenti espressioni:
 
 | Espressione | Descrizione |
 | --- | --- |

@@ -4,10 +4,15 @@ title: Confronto delle date
 feature: Calendar
 exl-id: 08113536-658f-486b-ac56-6c531240c3c2
 role: User
-source-git-commit: 5a9cb206076755d5b34a8ec9108ca88a9468bfe3
+TQID: https://experienceleague.adobe.com/LhPSvchJbDMPV-HmGSA2JaBZxoPQ7UyEKd7GMS-33UU
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 11%
+source-wordcount: 770
+ht-degree: 3%
 
 ---
 
@@ -17,16 +22,16 @@ Il confronto delle date in Analysis Workspace consente di prendere una qualsiasi
 
 ## Confronto tra periodi temporali
 
-L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo di tempo precedente. Ad esempio, la domanda *Quanto stai facendo meglio o peggio rispetto a questo periodo dell&#39;anno scorso?* è fondamentale per comprendere la tua attività. Il confronto delle date include automaticamente una colonna *differenza* che mostra la variazione percentuale rispetto a un periodo di tempo specificato.
+L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo di tempo precedente. Ad esempio, la domanda *Quanto stai facendo meglio o peggio ora rispetto a questo periodo dell&#39;anno scorso?* è fondamentale per comprendere la propria attività. Il confronto delle date include automaticamente una colonna *differenza* che mostra la variazione percentuale rispetto a un periodo di tempo specificato.
 
 1. Crea una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), con tutte le dimensioni e le metriche che desideri confrontare in un periodo di tempo.
 1. Imposta il periodo di tempo sul pannello o sulla colonna per determinare l’intervallo di tempo del confronto e se si tratta di un confronto in tempo continuo o fisso.
 
-   Per creare un confronto continuo dei tempi, impostare l&#39;intervallo di date del pannello o della colonna su un intervallo di date continuo, ad esempio **[!UICONTROL Last 7 days]**, **[!UICONTROL Last 30 days]** e così via.
+   Per creare un confronto continuo dei tempi, imposta l&#39;intervallo di date del pannello o della colonna su un intervallo continuo, ad esempio **[!UICONTROL Ultimi 7 giorni]**, **[!UICONTROL Ultimi 30 giorni]** e così via.
 
    Per creare un confronto a tempo fisso, imposta il pannello o l’intervallo di date della colonna su un intervallo di date personalizzato.
 
-1. Aprire il menu di scelta rapida per una riga di tabella e selezionare **[!UICONTROL Compare time periods]**.
+1. Aprire il menu di scelta rapida per una riga di tabella e selezionare **[!UICONTROL Confronta periodi di tempo]**.
 
    ![Riga di tabella con periodi di tempo di confronto selezionati](assets/compare-time.png)
 
@@ -38,13 +43,13 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
    | Opzione | Descrizione |
    |---|---|
-   | **[!UICONTROL Prior *x *settimane/mesi/trimestri/anni a questo intervallo di date]** | Confronta con l’intervallo di date selezionato immediatamente prima di questo intervallo di date. |
-   | **[!UICONTROL These x weeks / months / quarters / years last year to this date range]** | Confronta con lo stesso intervallo di date di un anno fa. |
-   | **[!UICONTROL Custom date range to this date range]** | Consente di definire un intervallo di date personalizzato. |
+   | **[!UICONTROL Precedente *x* settimane/mesi/trimestri/anni a questo intervallo di date]** | Confronta con l’intervallo di date selezionato immediatamente prima di questo intervallo di date. |
+   | **[!UICONTROL Lo scorso anno, queste x settimane / mesi / trimestri / anni vanno fino a questo intervallo di date]** | Confronta con lo stesso intervallo di date di un anno fa. |
+   | **[!UICONTROL Intervallo date personalizzato per questo intervallo di date]** | Consente di definire un intervallo di date personalizzato. |
 
    >[!NOTE]
    >
-   >Quando selezioni un numero di giorni personalizzato, ad esempio 7 ottobre - 20 ottobre (un intervallo di 14 giorni) avrai a disposizione solo 2 opzioni: **[!UICONTROL Prior 14 days before this date range]** (14 giorni precedenti a questo intervallo di dati) e **[!UICONTROL Custom date range to this date range]** (Seleziona intervallo).
+   >Quando selezioni un numero di giorni personalizzato, ad esempio 7 ottobre - 20 ottobre (un intervallo di 14 giorni) avrai a disposizione solo 2 opzioni: **[!UICONTROL 14 giorni precedenti a questo intervallo di date]** e **[!UICONTROL Intervallo di date personalizzato fino a questo intervallo]**.
 
 1. Il confronto risultante sarà simile al seguente:
 
@@ -56,7 +61,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
 È ora possibile aggiungere a ogni colonna di una tabella un periodo di tempo diverso da quello impostato nel calendario.
 
-1. Fare clic con il pulsante destro del mouse su una colonna della tabella e selezionare **[!UICONTROL Add time period column]**.
+1. Fare clic con il pulsante destro del mouse su una colonna della tabella e selezionare **[!UICONTROL Aggiungi colonna periodo di tempo]**.
 
    ![](assets/add-time-period-column.png)
 
@@ -64,13 +69,13 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
    | Opzione | Descrizione |
    |---|---|
-   | **[!UICONTROL Prior *x *settimane/mesi/trimestri/anni a questo intervallo di date]** | Aggiungi una colonna con settimana/mese/ecc. immediatamente prima di questo intervallo di date. |
-   | **[!UICONTROL These *x *settimane/mesi/trimestri/anni ultimo anno a questo intervallo di date]** | Aggiungi lo stesso intervallo di date un anno fa. |
-   | **[!UICONTROL Custom date range to this date range]** | Consentono di creare un intervallo di date personalizzato. |
+   | **[!UICONTROL Precedente *x* settimane/mesi/trimestri/anni a questo intervallo di date]** | Aggiungi una colonna con la settimana/mese/ecc. immediatamente prima di questo intervallo di date. |
+   | **[!UICONTROL Queste *x* settimane / mesi / trimestri / anni dello scorso anno a questo intervallo di date]** | Aggiungi lo stesso intervallo di date un anno fa. |
+   | **[!UICONTROL Intervallo date personalizzato per questo intervallo di date]** | Consentono di creare un intervallo di date personalizzato. |
 
    >[!NOTE]
    >
-   >Quando selezioni un numero di giorni personalizzato, ad esempio 7 ottobre - 20 ottobre (un intervallo di 14 giorni) avrai a disposizione solo 2 opzioni: **[!UICONTROL Prior 14 days before this date range]** (14 giorni precedenti a questo intervallo di dati) e **[!UICONTROL Custom date range to this date range]** (Seleziona intervallo).
+   >Quando selezioni un numero di giorni personalizzato, ad esempio 7 ottobre - 20 ottobre (un intervallo di 14 giorni) avrai a disposizione solo 2 opzioni: **[!UICONTROL 14 giorni precedenti a questo intervallo di date]** e **[!UICONTROL Intervallo di date personalizzato fino a questo intervallo]**.
 
 1. Il periodo di tempo viene inserito sopra la colonna selezionata:
 
@@ -88,7 +93,7 @@ Ad esempio, effettui un confronto giorno dopo giorno per l’ultima settimana (c
 
 ![Date non allineate](assets/not-align-dates.png)
 
-È possibile abilitare **[!UICONTROL Align dates from each column to all start on the same row]** in [Impostazioni](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) affinché la visualizzazione a forma libera allinei le date delle colonne affinché inizino sulla stessa riga.
+È possibile abilitare **[!UICONTROL Allineare le date di ogni colonna affinché inizino tutte sulla stessa riga]** nelle [Impostazioni](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) affinché la visualizzazione a forma libera allinei le date delle colonne affinché inizino sulla stessa riga.
 
 ![](assets/align-dates.png)
 

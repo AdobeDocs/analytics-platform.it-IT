@@ -5,10 +5,16 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: f350fd99187f6ce35042ad9d97d9d02b5f8d1721
+TQID: https://experienceleague.adobe.com/cDOJq7Dc6x301enIo7h-cm8pGphmnvQAihnLoYGIr-A
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 7%
+source-wordcount: 622
+ht-degree: 11%
 
 ---
 
@@ -16,7 +22,7 @@ ht-degree: 7%
 
 Quando si utilizza una dimensione contenente molti valori univoci, il rapporto risultante può contenere troppi elementi dimensionali univoci da visualizzare o calcolare. I risultati vengono troncati rimuovendo gli elementi dimensionali ritenuti meno importanti. Queste ottimizzazioni vengono eseguite per mantenere le prestazioni di progetto e prodotto.
 
-Quando richiedi un rapporto contenente una dimensione con troppi valori univoci, Analysis Workspace mostra un indicatore nell’intestazione della dimensione che indica che non tutti gli elementi dimensionali sono inclusi. Ad esempio, **[!UICONTROL Rows: 1-50 of more than 22,343,156]**. La parola chiave **[!UICONTROL more than]** indica che è stata applicata un&#39;ottimizzazione al report per restituire gli elementi dimensionali più importanti.
+Quando richiedi un rapporto contenente una dimensione con troppi valori univoci, Analysis Workspace mostra un indicatore nell’intestazione della dimensione per segnalare che non sono stati inclusi tutti gli elementi dimensionali. Ad esempio, **[!UICONTROL Righe: 1-50 di più di 22.343.156]**. La parola chiave **[!UICONTROL more than]** indica che è stata applicata un&#39;ottimizzazione al report per restituire gli elementi dimensionali più importanti.
 
 ![Tabella a forma libera in Workspace che mostra la parola chiave &quot;più di&quot; per mostrare 1-50 di più di 22.343.156](assets/high-cardinality.png)
 
@@ -30,7 +36,7 @@ Se un singolo server elabora dati che superano una soglia univoca, i risultati v
 
 Se la metrica di ordinamento è una metrica calcolata, il server utilizza le metriche all’interno della metrica calcolata per determinare quali elementi dimensionali troncare. Poiché le metriche calcolate possono contenere diverse metriche di diversa importanza, i risultati possono essere meno precisi. Ad esempio, quando si calcola &quot;Ricavo per persona&quot;, l’importo totale delle entrate e il numero totale di persone vengono restituiti e aggregati prima di effettuare la divisione. Di conseguenza, ogni singolo server di elaborazione sceglie gli elementi da rimuovere senza sapere in che modo i risultati influiscono sull’ordinamento complessivo.
 
-Anche se alcuni singoli elementi dimensionali potrebbero mancare nei rapporti con cardinalità elevata, i totali delle colonne sono accurati e non basati su dati troncati. Anche la funzione della metrica calcolata [[!UICONTROL Approximate Count Distinct]](/help/components/calc-metrics/cm-adv-functions.md#approximate-count-distinct) non è interessata dagli elementi di dimensione troncati.
+Anche se alcuni singoli elementi dimensionali potrebbero mancare nei rapporti con cardinalità elevata, i totali delle colonne sono accurati e non basati su dati troncati. Anche la funzione metrica calcolata [[!UICONTROL Approximate Count Distinct]](/help/components/calc-metrics/cm-adv-functions.md#approximate-count-distinct) non è interessata dagli elementi dimensionali troncati.
 
 ## Best practice per dimensioni ad alta cardinalità
 

@@ -2,16 +2,22 @@
 title: Panoramica delle metriche e delle dimensioni condivise
 description: Utilizza lo stesso riferimento a dimensione o metrica in più visualizzazioni dati.
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: 1de8b8f40a7e1be0de0e6cbed5cc57ff834f2377
+TQID: https://experienceleague.adobe.com/5sjpTMocv3547Xqg4VD6C5Gp-cRzNmyHTI5iE6P-JGA
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 0%
+source-wordcount: 1292
+ht-degree: 3%
 
 ---
 
 # Panoramica delle metriche e delle dimensioni condivise
 
-Le metriche e le dimensioni condivise forniscono una posizione centrale per gestire dimensioni e metriche che possono essere utilizzate in qualsiasi numero di visualizzazioni dati. Questi componenti sono particolarmente utili per le organizzazioni che utilizzano più visualizzazioni dati, soprattutto se tali visualizzazioni dati condividono le stesse impostazioni dei componenti. Le modifiche apportate alle metriche e alle dimensioni condivise si applicano istantaneamente in ogni visualizzazione dati a cui sono condivise. Durante la modifica di una singola visualizzazione dati, le dimensioni e le metriche condivise possono essere identificate da un&#39;icona ![Componente condiviso](/help/assets/icons/CCLibrary.svg) accanto al nome del componente.
+Le metriche e le dimensioni condivise forniscono una posizione centrale per gestire dimensioni e metriche che possono essere utilizzate in qualsiasi numero di visualizzazioni dati. Questi componenti sono particolarmente utili per le organizzazioni che utilizzano più visualizzazioni dati, soprattutto se queste condividono le stesse impostazioni dei componenti. Le modifiche apportate alle metriche e alle dimensioni condivise si applicano istantaneamente in ogni visualizzazione dati a cui sono condivise. Durante la modifica di una singola visualizzazione dati, le dimensioni e le metriche condivise possono essere identificate da un&#39;icona ![Componente condiviso](/help/assets/icons/CCLibrary.svg) accanto al nome del componente.
 
 Anche se le dimensioni e le metriche condivise consentono l’utilizzo di componenti comuni in più visualizzazioni dati, non possono essere condivise tra le connessioni.
 

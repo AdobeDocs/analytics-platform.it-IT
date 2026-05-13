@@ -5,10 +5,15 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+TQID: https://experienceleague.adobe.com/sbmn3sh5a5VcYflihRquNt2841RWMDnl1s1ho4HAc1s
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 66%
+source-wordcount: 1664
+ht-degree: 67%
 
 ---
 
@@ -265,7 +270,7 @@ Per definire una regola:
 
 Dopo aver definito gli elementi dati e le regole, devi creare e pubblicare il tag. Quando crei una build della libreria, devi assegnarla a un ambiente. Le estensioni, le regole e gli elementi dati della build vengono quindi compilati e inseriti nell’ambiente assegnato. Ogni ambiente fornisce un codice da incorporare univoco che consente di integrare la build assegnata nel sito.
 
-I tag Adobe Experience Platform supportano flussi di lavoro di pubblicazione semplici o complessi che devono adattarsi alla distribuzione di Adobe Experience Platform Web SDK. Per ulteriori informazioni, consulta la sezione [Panoramica di pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=it).
+I tag Adobe Experience Platform supportano flussi di lavoro di pubblicazione semplici o complessi che devono adattarsi alla distribuzione dell’SDK Web di Adobe Experience Platform. Per ulteriori informazioni, consulta la sezione [Panoramica di pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=it).
 
 Per generare e pubblicare il tag:
 

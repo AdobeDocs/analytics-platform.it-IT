@@ -4,10 +4,15 @@ description: Scopri come utilizzare le tabelle a forma libera, che sono la base 
 feature: Visualizations
 exl-id: e5ba9089-c575-47b3-af85-b8b2179396ac
 role: User
-source-git-commit: 75ceeda8f13abba92ff555505b6ebae025533d02
+TQID: https://experienceleague.adobe.com/2eJdFymbKxJE6XjLm0FlWocfVSsCml5ac5n0Y8YAQY8
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 80%
+source-wordcount: 815
+ht-degree: 77%
 
 ---
 
@@ -25,7 +30,7 @@ ht-degree: 80%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione della tabella a forma libera in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Tabella a forma libera](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo documenta la visualizzazione della tabella a forma libera in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta la [tabella a forma libera](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) per la_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +53,7 @@ Il modo più rapido per creare una tabella consiste nel trascinare i componenti 
 
 Se prima preferisci aggiungere diversi componenti alla tabella, quindi eseguire il rendering dei dati, puoi selezionare **[!UICONTROL Abilita generatore tabelle]**. Con il generatore abilitato, puoi trascinare dimensioni, raggruppamenti, metriche e segmenti per creare tabelle che rispondano a domande più complesse. Aggiornamenti dei dati dopo aver selezionato **[!UICONTROL Build]**.
 
-![Un generatore di tabelle a forma libera mostra &#x200B;](assets/table-builder.png)
+![Un generatore di tabelle a forma libera mostra ](assets/table-builder.png)
 
 ## Interazioni
 
@@ -112,7 +117,7 @@ Le seguenti opzioni del [menu di scelta rapida](../freeform-analysis-visualizati
 
 >[!MORELIKETHIS]
 >
->[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Aggiungi una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

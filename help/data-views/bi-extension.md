@@ -5,10 +5,16 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 79b3ca663af6c383eed7ec81e9c430855669d19b
+TQID: https://experienceleague.adobe.com/RrX-gp2IY-Ny1D1yzR2whV2GuU98mysma8tQmUEubF8
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '3462'
-ht-degree: 75%
+source-wordcount: 3756
+ht-degree: 74%
 
 ---
 
@@ -48,7 +54,7 @@ Oppure puoi:
 
 Per utilizzare credenziali senza scadenza:
 
-1. Crea [credenziali senza scadenza in Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/credentials#non-expiring-credentials). Se desideri utilizzare credenziali esistenti senza scadenza, assicurati che siano [migrate a OAuth](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/credentials#migrate-credentials).
+1. Crea [credenziali senza scadenza in Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#non-expiring-credentials). Se desideri utilizzare credenziali esistenti senza scadenza, assicurati che siano [migrate a OAuth](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials#migrate-credentials).
 
 1. Assicurati che le credenziali senza scadenza siano disponibili per i profili di prodotto e di prodotto di Customer Journey Analytics. Devi essere l’amministratore di sistema dell’organizzazione per eseguire i seguenti passaggi.
    1. Seleziona **[!UICONTROL Admin Console]** da ![App](/help/assets/icons/Apps.svg).
@@ -89,9 +95,9 @@ Per utilizzare la funzionalità [!DNL Customer Journey Analytics BI extension], 
 
 In Adobe Experience Platform:
 
-1. Seleziona **[!UICONTROL ** Query **]** da **[!UICONTROL **&#x200B; GESTIONE DATI &#x200B;**]** nella barra a sinistra.
+1. Seleziona **[!UICONTROL ** Query **]** da **[!UICONTROL ** GESTIONE DATI **]** nella barra a sinistra.
 
-1. Seleziona ![Creare query](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL **&#x200B; Crea query &#x200B;**]**.
+1. Seleziona ![Creare query](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL ** Crea query **]**.
 
 1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
 
@@ -104,13 +110,13 @@ In Adobe Experience Platform:
 
 1. Cerca e copia le credenziali PostgresSQL in Adobe Experience Platform:
 
-   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL **&#x200B; GESTIONE DATI &#x200B;**]**).
+   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL ** GESTIONE DATI **]**).
 
-   1. Seleziona **[!UICONTROL **&#x200B; Credenziali &#x200B;**]** nella barra in alto.
+   1. Seleziona **[!UICONTROL ** Credenziali **]** nella barra in alto.
 
    1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
 
-   1. Per copiare la stringa di comando, utilizza ![Copia](assets/Smock_Copy_18_N.svg) nella sezione **[!UICONTROL **&#x200B; Comando PSQL &#x200B;**]**.
+   1. Per copiare la stringa di comando, utilizza ![Copia](assets/Smock_Copy_18_N.svg) nella sezione **[!UICONTROL ** Comando PSQL **]**.
 
 1. Apri una finestra di comando o terminale.
 
@@ -129,9 +135,9 @@ Attualmente, [!DNL Customer Journey Analytics BI extension] è supportato e test
 
 1. Cerca i dettagli delle credenziali PostgresSQL in Adobe Experience Platform:
 
-   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL **&#x200B; GESTIONE DATI &#x200B;**]**).
+   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL ** GESTIONE DATI **]**).
 
-   1. Seleziona **[!UICONTROL **&#x200B; Credenziali &#x200B;**]** nella barra in alto.
+   1. Seleziona **[!UICONTROL ** Credenziali **]** nella barra in alto.
 
    1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
 
@@ -139,28 +145,28 @@ Attualmente, [!DNL Customer Journey Analytics BI extension] è supportato e test
 
 1. In Power BI:
 
-   1. Nella finestra principale, seleziona **[!UICONTROL **&#x200B; Ottieni dati &#x200B;**]** dalla barra degli strumenti in alto.
+   1. Nella finestra principale, seleziona **[!UICONTROL ** Ottieni dati **]** dalla barra degli strumenti in alto.
 
    1. Seleziona **[!UICONTROL Altro...]** nella barra a sinistra.
 
-   1. Nella schermata **Ottieni dati**, cerca `PostgresSQL` e seleziona il **[!UICONTROL **&#x200B; database PostgresSQL &#x200B;**]** dall’elenco.
+   1. Nella schermata **Ottieni dati**, cerca `PostgresSQL` e seleziona il **[!UICONTROL ** database PostgresSQL **]** dall’elenco.
 
-   1. Nella finestra di dialogo **[!UICONTROL **&#x200B; Database PostgressSQL &#x200B;**]**:
+   1. Nella finestra di dialogo **[!UICONTROL ** Database PostgressSQL **]**:
 
-      1. Incolla il parametro **[!UICONTROL ** Host **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL **&#x200B; Server &#x200B;**]**.
+      1. Incolla il parametro **[!UICONTROL ** Host **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL ** Server **]**.
 
-      1. Incolla il parametro **[!UICONTROL ** Database **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL **&#x200B; Database &#x200B;**]**.
+      1. Incolla il parametro **[!UICONTROL ** Database **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL ** Database **]**.
 
-         Aggiungi `?FLATTEN` al parametro **[!UICONTROL **&#x200B; Database &#x200B;**]**, in modo che risulti ad esempio come `prod:cja?FLATTEN`. Per ulteriori informazioni, consulta [Livellare strutture dati nidificate per l’utilizzo con strumenti BI di terze parti](https://experienceleague.adobe.com/it/docs/experience-platform/query/key-concepts/flatten-nested-data).
+         Aggiungi `?FLATTEN` al parametro **[!UICONTROL ** Database **]**, in modo che risulti ad esempio come `prod:cja?FLATTEN`. Per ulteriori informazioni, consulta [Livellare strutture dati nidificate per l’utilizzo con strumenti BI di terze parti](https://experienceleague.adobe.com/it/docs/experience-platform/query/key-concepts/flatten-nested-data).
 
       1. Quando viene richiesta la modalità **[!UICONTROL Connettività dati]**, selezionare **[!UICONTROL DirectQuery]**.
 
       1. Viene richiesto di specificare **[!UICONTROL Nome utente]** e **[!UICONTROL Password]**. Utilizza i parametri equivalenti dalle query Experience Platform [!UICONTROL Credenziali].
 
 
-   1. Dopo aver eseguito correttamente l’accesso, le tabelle delle visualizzazioni dati di Customer Journey Analytics vengono visualizzate in Power BI **[!UICONTROL **&#x200B; Navigator &#x200B;**]**.
+   1. Dopo aver eseguito correttamente l’accesso, le tabelle delle visualizzazioni dati di Customer Journey Analytics vengono visualizzate in Power BI **[!UICONTROL ** Navigator **]**.
 
-   1. Seleziona le tabelle di visualizzazione dati che desideri utilizzare e seleziona **[!UICONTROL **&#x200B; Carica &#x200B;**]**.
+   1. Seleziona le tabelle di visualizzazione dati che desideri utilizzare e seleziona **[!UICONTROL ** Carica **]**.
 
    Tutte le dimensioni e le metriche associate a una o più tabelle selezionate vengono visualizzate nel riquadro di destra, pronte per essere utilizzate nelle visualizzazioni.
 
@@ -172,9 +178,9 @@ Attualmente, [!DNL Customer Journey Analytics BI extension] è supportato e test
 
 1. Cerca i dettagli delle credenziali PostgresSQL in Adobe Experience Platform:
 
-   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL **&#x200B; GESTIONE DATI &#x200B;**]**).
+   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL ** GESTIONE DATI **]**).
 
-   1. Seleziona **[!UICONTROL **&#x200B; Credenziali &#x200B;**]** nella barra in alto.
+   1. Seleziona **[!UICONTROL ** Credenziali **]** nella barra in alto.
 
    1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
 
@@ -182,29 +188,29 @@ Attualmente, [!DNL Customer Journey Analytics BI extension] è supportato e test
 
 1. In Tableau Desktop:
 
-   1. Seleziona **[!UICONTROL ** Altro **]** da **[!UICONTROL **&#x200B; A un server &#x200B;**]** nella barra a sinistra.
+   1. Seleziona **[!UICONTROL ** Altro **]** da **[!UICONTROL ** A un server **]** nella barra a sinistra.
 
-   1. Seleziona **[!UICONTROL **&#x200B; PostgresSQL &#x200B;**]** dall’elenco.
+   1. Seleziona **[!UICONTROL ** PostgresSQL **]** dall’elenco.
 
    1. Nella finestra di dialogo [!UICONTROL PostgresSQL]:
 
-      1. Incolla il parametro **[!UICONTROL ** Host **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL **&#x200B; Server &#x200B;**]**.
+      1. Incolla il parametro **[!UICONTROL ** Host **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL ** Server **]**.
 
-      1. Incolla il parametro **[!UICONTROL ** Porta **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL **&#x200B; Porta &#x200B;**]**.
+      1. Incolla il parametro **[!UICONTROL ** Porta **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL ** Porta **]**.
 
-      1. Incollare il parametro **[!UICONTROL ** Database **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL **&#x200B; Database &#x200B;**]**.
+      1. Incollare il parametro **[!UICONTROL ** Database **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL ** Database **]**.
 
-         Aggiungi `%3FFLATTEN` al parametro **[!UICONTROL **&#x200B; Database &#x200B;**]**, in modo che risulti ad esempio come `prod:cja%3FFLATTEN`. Per ulteriori informazioni, consulta [Livellare strutture dati nidificate per l’utilizzo con strumenti BI di terze parti](https://experienceleague.adobe.com/it/docs/experience-platform/query/key-concepts/flatten-nested-data).
+         Aggiungi `%3FFLATTEN` al parametro **[!UICONTROL ** Database **]**, in modo che risulti ad esempio come `prod:cja%3FFLATTEN`. Per ulteriori informazioni, consulta [Livellare strutture dati nidificate per l’utilizzo con strumenti BI di terze parti](https://experienceleague.adobe.com/it/docs/experience-platform/query/key-concepts/flatten-nested-data).
 
-      1. Seleziona **[!UICONTROL ** Nome utente e password **]** dall’elenco **[!UICONTROL **&#x200B; Autenticazione &#x200B;**]**.
+      1. Seleziona **[!UICONTROL ** Nome utente e password **]** dall’elenco **[!UICONTROL ** Autenticazione **]**.
 
-      1. Incolla il parametro **[!UICONTROL ** Username **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL **&#x200B; Username &#x200B;**]**.
+      1. Incolla il parametro **[!UICONTROL ** Username **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL ** Username **]**.
 
-      1. Incolla il parametro **[!UICONTROL ** Password **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL **&#x200B; Password &#x200B;**]**.
+      1. Incolla il parametro **[!UICONTROL ** Password **]** dalle query Experience Platform [!UICONTROL Credenziali] nel campo di testo **[!UICONTROL ** Password **]**.
 
-      1. Seleziona **[!UICONTROL **&#x200B; Accedi &#x200B;**]**.
+      1. Seleziona **[!UICONTROL ** Accedi **]**.
 
-   1. Le visualizzazioni dati di Customer Journey Analytics vengono visualizzate come tabelle nell’elenco **[!UICONTROL **&#x200B; Tabella &#x200B;**]**.
+   1. Le visualizzazioni dati di Customer Journey Analytics vengono visualizzate come tabelle nell’elenco **[!UICONTROL ** Tabella **]**.
 
    1. Trascina le tabelle che desideri utilizzare nell’area di lavoro.
 
@@ -218,9 +224,9 @@ Attualmente, [!DNL Customer Journey Analytics BI extension] è supportato e test
 
 1. Cerca i dettagli delle credenziali PostgresSQL in Adobe Experience Platform:
 
-   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL **&#x200B; GESTIONE DATI &#x200B;**]**).
+   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL ** GESTIONE DATI **]**).
 
-   1. Seleziona **[!UICONTROL **&#x200B; Credenziali &#x200B;**]** nella barra in alto.
+   1. Seleziona **[!UICONTROL ** Credenziali **]** nella barra in alto.
 
    1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
 
@@ -245,9 +251,9 @@ Attualmente, [!DNL Customer Journey Analytics BI extension] è supportato e test
 
 1. Cerca i dettagli delle credenziali PostgresSQL in Adobe Experience Platform:
 
-   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL **&#x200B; GESTIONE DATI &#x200B;**]**).
+   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL ** GESTIONE DATI **]**).
 
-   1. Seleziona **[!UICONTROL **&#x200B; Credenziali &#x200B;**]** nella barra in alto.
+   1. Seleziona **[!UICONTROL ** Credenziali **]** nella barra in alto.
 
    1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
 
@@ -269,9 +275,9 @@ Attualmente, [!DNL Customer Journey Analytics BI extension] è supportato e test
 
 1. Cerca i dettagli delle credenziali PostgresSQL in Adobe Experience Platform:
 
-   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL **&#x200B; GESTIONE DATI &#x200B;**]**).
+   1. Seleziona **[!UICONTROL ** Query **]** dalla barra a sinistra (in **[!UICONTROL ** GESTIONE DATI **]**).
 
-   1. Seleziona **[!UICONTROL **&#x200B; Credenziali &#x200B;**]** nella barra in alto.
+   1. Seleziona **[!UICONTROL ** Credenziali **]** nella barra in alto.
 
    1. Selezionare il database `cja` per la sandbox dall&#39;elenco dei database nel menu a discesa **[!UICONTROL Database]**. Ad esempio `prod:cja`.
 
@@ -330,7 +336,7 @@ Quando si utilizza l’estensione BI, vengono applicati i seguenti predefiniti e
 * L’estensione BI richiede un limite di righe per i risultati della query. Il valore predefinito è 50, ma è possibile sovrascriverlo in SQL utilizzando `LIMIT n`, dove `n` è compreso tra 1 e 50000.
 * L’estensione BI richiede un intervallo di date per limitare le righe utilizzate per i calcoli. L’impostazione predefinita corrisponde agli ultimi 30 giorni, ma è possibile sovrascriverla nella clausola SQL `WHERE` utilizzando le colonne speciali [`timestamp`](#timestamp) o [`daterange`](#date-range).
 * L’estensione BI richiede query aggregate. Impossibile utilizzare SQL come `SELECT * FROM ...` per ottenere la riga, le righe sottostanti. A un livello avanzato, le query aggregate dovrebbero utilizzare:
-   * Seleziona i totali utilizzando `SUM` e/o `COUNT`.<br/> Ad esempio, `SELECT SUM(metric1), COUNT(*) FROM ...`
+   * Seleziona i totali utilizzando `SUM` e/o `COUNT`.<br/> Ad esempio: `SELECT SUM(metric1), COUNT(*) FROM ...`
    * Seleziona le metriche suddivise per dimensione. <br/>Ad esempio, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
    * Seleziona valori di metrica distinti.<br/>Ad esempio, `SELECT DISTINCT dimension1 FROM ...`
 
@@ -389,8 +395,8 @@ HAVING m1 > 100</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Valori distinti e principali 
-della dimensione </td>
+            <td>Distinct, top 
+valori di dimensione </td>
             <td>
                 <pre><code>SELECT DISTINCT dim1 FROM dv1</code></pre>
                 <pre><code>SELECT dim1 AS dv1
@@ -414,9 +420,9 @@ WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</code></pre>
             </td>
         </tr>
         <tr>
-            <td>raggruppamenti 
-multidimensionali 
-e distinti principali </td>
+            <td>Multidimensionale
+raggruppamenti
+e top-distinct </td>
             <td>
                 <pre><code>SELECT dim1, dim2, SUM(metric1) AS m1
 FROM dv1
@@ -432,9 +438,9 @@ FROM dv1</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Sottoseleziona: 
-filtra risultati 
-aggiuntivi </td>
+            <td>Sottoseleziona:
+Filtra informazioni aggiuntive
+risultati </td>
             <td>
                 <pre><code>SELECT dim1, m1
 FROM (
@@ -442,12 +448,12 @@ FROM (
   FROM dv1
   WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</br>  RAGGRUPPA PER dim1
 )
-DOVE dim1 in ('A', 'B')</code></pre>
+WHERE dim1 in ('A', 'B')</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Sottoseleziona: 
-query tra 
+            <td>Sottoseleziona:
+Query tra
 visualizzazioni dati </td>
             <td>
                 <pre><code>SELECT key, SUM(m1) AS total
@@ -469,9 +475,9 @@ ORDER BY total</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Sottoseleziona 
-origine con livelli 
-filtro 
+            <td>Sottoseleziona: 
+Origine con livelli, 
+filtraggio, 
 e aggregazione </td>
             <td>Livellato con sottoselezioni:
 <pre><code>SELECT rows.dim1, SUM(rows.m1) AS total
@@ -500,9 +506,9 @@ GROUP BY rows.item</code></pre>
         </td>
         </tr>
         <tr>
-            <td>Seleziona la posizione in cui le 
-metriche precedono 
- o sono combinate con 
+            <td>Seleziona dove
+le metriche vengono prima
+ o sono miscelati con
 le dimensioni </td>
             <td>
                 <pre><code>SELECT SUM(metric1) AS m1, dim1
@@ -675,6 +681,6 @@ Alcune funzionalità SQL sono supportate solo parzialmente con l’estensione BI
 
 | Funzione | Esempio | Dettagli |
 |---|---|---|
-| MIN() E MAX() | ``MIN(daterange)`` o <br/> ``MAX(daterange)`` | `MIN()` in `timestamp`, `daterange` o uno qualsiasi dei `daterangeX` come `daterangeday` restituirà 2 anni fa.<br/><br/> `MAX()` in `timestamp`, `daterange` o uno qualsiasi dei `daterangeX` come `daterangeday` restituirà la data/ora corrente.<br/><br/>`MIN()` o `MAX()` su qualsiasi altra dimensione, metrica o espressione restituirà 0. |
+| MIN() E MAX() | ``MIN(daterange)`` o <br/> ``MAX(daterange)`` | `MIN()` in `timestamp`, `daterange` o uno qualsiasi dei `daterangeX` come `daterangeday` restituirà 2 anni fa.<br/><br/> `MAX()` il `timestamp`, `daterange` o uno qualsiasi dei `daterangeX` come `daterangeday` restituirà la data/ora corrente.<br/><br/>`MIN()` o `MAX()` su qualsiasi altra dimensione, metrica o espressione restituirà 0. |
 
 {style="table-layout:auto"}

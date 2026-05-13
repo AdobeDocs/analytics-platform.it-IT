@@ -5,9 +5,13 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
+TQID: https://experienceleague.adobe.com/0YaPjMNPkdEaN3ij1Wx1V-7CCxYB9mnR3n-72ely10A
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: 366
 ht-degree: 1%
 
 ---
@@ -25,19 +29,19 @@ Devi avere diritto al pacchetto **UX Ops** della metrica Quantum per accedere al
 ## Passaggio 1: configurare i collegamenti in Analysis Workspace
 
 1. Accedi a [experience.adobe.com](https://experience.adobe.com).
-1. Passare a Customer Journey Analytics e selezionare **[!UICONTROL Workspace]** nel menu principale.
+1. Passa a Customer Journey Analytics e seleziona **[!UICONTROL Workspace]** nel menu principale.
 1. Seleziona un progetto esistente o crea un progetto.
 1. Crea una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 1. Trascina la dimensione URL della pagina nell’area di lavoro di Workspace.
-1. Fare clic con il pulsante destro del mouse sull&#39;intestazione di colonna della dimensione, quindi selezionare **[!UICONTROL Create hyperlinks for all dimension items]**.
-1. Seleziona **[!UICONTROL Create a custom URL]**.
+1. Fare clic con il pulsante destro del mouse sull&#39;intestazione della colonna della dimensione, quindi selezionare **[!UICONTROL Crea collegamenti ipertestuali per tutti gli elementi della dimensione]**.
+1. Selezionare **[!UICONTROL Crea un URL personalizzato]**.
 1. Incolla la seguente struttura URL:
 
    ```
    $value?qm-visible=true
    ```
 
-1. Fai clic su **[!UICONTROL Create]**.
+1. Fai clic su **[!UICONTROL Crea]**.
 1. Verifica uno dei collegamenti per vedere se si apre nell’URL con l’estensione Quantum Metric visibile. Questi collegamenti si aprono in una nuova scheda in modo che il progetto Workspace rimanga aperto.
 
 ![Mappa di calore](assets/heatmap.png)

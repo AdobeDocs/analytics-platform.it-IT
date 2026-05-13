@@ -5,10 +5,15 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/jNezzaav7-Ee6aELr9ZtEB-y55kobChii-6NpCDL8sg
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 6%
+source-wordcount: 726
+ht-degree: 16%
 
 ---
 
@@ -24,11 +29,11 @@ Quando due persone utilizzano lo stesso dispositivo ed entrambe effettuano un ac
 
 | Evento | Marca temporale | Nome pagina | ID dispositivo | E-mail |
 |--:|---|---|---|---|
-| 1 | 12/05/2023:01 | Pagina Home | `1234` | |
-| 2 | 12/05/2023:02 | Pagina di prodotto | `1234` | |
-| 3 | 12/05/2023:03 | Ordine completato | `1234` | `ryan@a.com` |
-| 4 | 12/05/2023:07 | Pagina di prodotto | `1234` | |
-| 5 | 12/05/2023:08 | Ordine completato | `1234` | `cassidy@a.com` |
+| 1 | 12/05/2023 12:01 | Pagina Home | `1234` | |
+| 2 | 12/05/2023 12:02 | Pagina di prodotto | `1234` | |
+| 3 | 12/05/2023 12:03 | Ordine completato | `1234` | `ryan@a.com` |
+| 4 | 12/05/2023 12:07 | Pagina di prodotto | `1234` | |
+| 5 | 12/05/2023 12:08 | Ordine completato | `1234` | `cassidy@a.com` |
 
 Come puoi vedere da questa tabella, una volta che l’autenticazione si verifica sugli eventi 3 e 5, inizia a formarsi un collegamento tra un ID dispositivo e un ID persona. Per comprendere l’impatto di qualsiasi attività di marketing a livello di persona, questi eventi non autenticati devono essere attribuiti alla persona giusta.
 
@@ -49,18 +54,18 @@ Con l’unione è possibile attribuire i dati dei dispositivi condivisi utilizza
 
 ### Attribuzione ultima autenticazione
 
-Ultima autenticazione attribuisce tutte le attività sconosciute da un dispositivo condiviso all’ultimo utente autenticato. Il servizio Experience Platform Identity crea il grafico in base all’attribuzione dell’ultima autenticazione e, come tale, viene utilizzato nell’unione basata su grafico. Per ulteriori informazioni, vedere [Regole di collegamento del grafico delle identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details).
+Ultima autenticazione attribuisce tutte le attività sconosciute da un dispositivo condiviso all’ultimo utente autenticato. Il servizio Experience Platform Identity crea il grafico in base all’attribuzione dell’ultima autenticazione e, come tale, viene utilizzato nell’unione basata su grafico. Per ulteriori informazioni, vedere [Regole di collegamento del grafico delle identità](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details).
 
 Quando nell’unione viene utilizzata l’attribuzione last-auth, gli ID uniti vengono risolti come mostrato nella tabella seguente.
 
 | Marca temporale | Nome pagina | ID dispositivo | E-mail | ID unito |
 |---|---|---|---|---|
-| 12/05/2023:01 | Pagina Home | `1234` | | `cassidy@a.com` |
-| 12/05/2023:02 | Pagina di prodotto | `1234` | | `cassidy@a.com` |
-| 12/05/2023:03 | Ordine completato | `1234` | `ryan@a.com` | `cassidy@a.com` |
-| 12/05/2023:07 | Pagina di prodotto | `1234` | | `cassidy@a.com` |
-| 12/05/2023:08 | Ordine completato | `1234` | `cassidy@a.com` | `cassidy@a.com` |
-| 11/05/2023:08 | Pagina Home | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:01 | Pagina Home | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:02 | Pagina di prodotto | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:03 | Ordine completato | `1234` | `ryan@a.com` | `cassidy@a.com` |
+| 2023-05-12 12:07 | Pagina di prodotto | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:08 | Ordine completato | `1234` | `cassidy@a.com` | `cassidy@a.com` |
+| 2023-05-13 11:08 | Pagina Home | `1234` | | `cassidy@a.com` |
 
 
 ### Device-split
@@ -71,12 +76,12 @@ Quando nell’unione viene utilizzata l’attribuzione device-split, gli ID unit
 
 | Marca temporale | Nome pagina | ID dispositivo | E-mail | ID unito |
 |---|---|---|---|---|
-| 12/05/2023:01 | Pagina Home | `1234` | | `ryan@a.com` |
-| 12/05/2023:02 | Pagina di prodotto | `1234` | | `ryan@a.com` |
-| 12/05/2023:03 | Ordine completato | `1234` | `ryan@a.com` | `ryan@a.com` |
-| 12/05/2023:07 | Pagina di prodotto | `1234` | | `ryan@a.com` |
-| 12/05/2023:08 | Ordine completato | `1234` | `cassidy@a.com` | `cassidy@a.com` |
-| 11/05/2023:08 | Pagina Home | `1234` | | `cassidy@a.com` |
+| 2023-05-12 12:01 | Pagina Home | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:02 | Pagina di prodotto | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:03 | Ordine completato | `1234` | `ryan@a.com` | `ryan@a.com` |
+| 2023-05-12 12:07 | Pagina di prodotto | `1234` | | `ryan@a.com` |
+| 2023-05-12 12:08 | Ordine completato | `1234` | `cassidy@a.com` | `cassidy@a.com` |
+| 2023-05-13 11:08 | Pagina Home | `1234` | | `cassidy@a.com` |
 
 
 <!--

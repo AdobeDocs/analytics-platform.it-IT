@@ -6,9 +6,14 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B Edition"
 exl-id: d5e44546-ea82-42eb-98df-19d51c71e9be
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+TQID: https://experienceleague.adobe.com/DxJod3IzU5KbJNfhLB0v3GCEt2uXyaLm7X2aKvBrJeA
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: 720
 ht-degree: 1%
 
 ---
@@ -49,13 +54,13 @@ Una visualizzazione dell’area di lavoro del percorso consente di:
 Si desidera visualizzare il percorso da modulo lead a vincitore chiuso.
 
 1. [Crea e configura una visualizzazione area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
-1. Configura **[!UICONTROL Account]** come **[!UICONTROL Primary metric]**.
-1. Assicurarsi di selezionare **[!UICONTROL Account]** come **[!UICONTROL Journey canvas container]**.
+1. Configura **[!UICONTROL Account]** come **[!UICONTROL Metrica primaria]**.
+1. Accertati di selezionare **[!UICONTROL Account]** come **[!UICONTROL contenitore area di lavoro Percorsi]**.
 
    ![Caso di utilizzo B2B - ottimizzare il marketing dell&#39;account - area di lavoro del percorso - configurazione](assets/b2b-uc-optimize-marketing-journey-canvas-config.png)
 
-1. Seleziona **[!UICONTROL Build]**.
-1. Trascina e rilascia i nodi nell’area di lavoro e connetti i nodi per illustrare il percorso di account. Ad esempio: da **[!UICONTROL Lead Form: Step 1]** modulo a **[!UICONTROL Opp. Created]**.
+1. Seleziona **[!UICONTROL Genera]**.
+1. Trascina e rilascia i nodi nell’area di lavoro e connetti i nodi per illustrare il percorso di account. Esempio: da **[!UICONTROL Modulo lead: passaggio 1]** a **[!UICONTROL Opp. Creato]**.
 
    ![Caso di utilizzo B2B - ottimizzare il marketing dell&#39;account - area di lavoro percorso](assets/b2b-uc-optimize-marketing-journey-canvas.png)
 
@@ -77,13 +82,13 @@ Una visualizzazione con tabella coorte consente di:
 Volete vedere coorti mensili di opportunità chiuse.
 
 1. [Crea e configura una visualizzazione Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).
-1. Utilizza **[!UICONTROL Opportunity Created]** come metrica **[!UICONTROL Inclusion criteria]**. Selezionare **[!UICONTROL >=]** come operatore e immettere il valore `1`.
+1. Utilizza **[!UICONTROL Opportunità creata]** come metrica **[!UICONTROL Criteri di inclusione]**. Selezionare **[!UICONTROL >=]** come operatore e immettere il valore `1`.
 1. Utilizza **[!UICONTROL Closed-Won]** come metrica **[!UICONTROL Return criteria]**. Selezionare **[!UICONTROL >=]** come operatore e immettere il valore `1`.
-1. Seleziona **[!UICONTROL Opportunity]** come contenitore.
+1. Seleziona **[!UICONTROL Opportunità]** come contenitore.
 
    ![Caso di utilizzo B2B - segmentazione coorte - tabella coorte - config](assets/b2b-uc-optimize-marketing-cohort-table-config.png)
 
-1. Seleziona **[!UICONTROL Build]**. Di seguito è riportato un esempio di tabella coorte.
+1. Seleziona **[!UICONTROL Genera]**. Di seguito è riportato un esempio di tabella coorte.
 
    ![Caso di utilizzo B2B - segmentazione per coorte - tabella coorte](assets/b2b-uc-optimize-marketing-cohort-table.png)
 
@@ -105,14 +110,14 @@ Una visualizzazione del flusso consente di:
 Desideri visualizzare l’influenza sulla generazione di MQL (lead qualificati per il marketing).
 
 1. [Crea e configura una visualizzazione Flusso](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
-1. Selezionare **[!UICONTROL MQL Qualified]** per **[!UICONTROL End with]**.
-1. Selezionare **[!UICONTROL Content Type]** per **[!UICONTROL Pathing dimension]**.
-1. Seleziona **[!UICONTROL Show advanced settings]**.
-1. Immettere `5` per **[!UICONTROL Number of columns]**.
-1. Selezionare **[!UICONTROL Account]** per **[!UICONTROL Flow container]**.
+1. Seleziona **[!UICONTROL MQL qualificato]** per **[!UICONTROL Termina con]**.
+1. Selezionare **[!UICONTROL Tipo di contenuto]** per **[!UICONTROL Dimensione percorso]**.
+1. Seleziona **[!UICONTROL Mostra impostazioni avanzate]**.
+1. Immetti `5` per **[!UICONTROL Numero di colonne]**.
+1. Selezionare **[!UICONTROL Account]** per il **[!UICONTROL contenitore di flusso]**.
 
    ![Caso di utilizzo B2B - eventi di persona - configurazione flusso](assets/b2b-uc-optimize-marketing-flow-config.png)
 
-1. Seleziona **[!UICONTROL Build]**.
+1. Seleziona **[!UICONTROL Genera]**.
 
    ![Caso di utilizzo B2B - eventi di persona - configurazione flusso](assets/b2b-uc-optimize-marketing-flow.png)

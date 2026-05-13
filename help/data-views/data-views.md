@@ -5,10 +5,16 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+TQID: https://experienceleague.adobe.com/WNPt241AppdCZVtsYmyLM2mRa2nqvrfYFbIP6K5NR1U
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 88%
+source-wordcount: 1124
+ht-degree: 87%
 
 ---
 
@@ -20,7 +26,7 @@ Una visualizzazione dati è un contenitore specifico di Customer Journey Analyti
 >
 >Le impostazioni selezionate o modificate in una visualizzazione dati sono retroattive e non distruttive. In altre parole, non cambiano in modo permanente i dati sottostanti.
 
-Puoi creare diverse visualizzazioni dati per una stessa connessione, con set di componenti molto diversi (dimensioni o metriche). Puoi anche creare visualizzazioni dati con impostazioni diverse per timeout visita, attribuzione ecc. Ad esempio, puoi avere una visualizzazione dati in cui tutte le dimensioni sono impostate su [!UICONTROL Ultimo contatto] e contemporaneamente un&#39;altra visualizzazione dati (basata sullo stesso set di dati) con tutte le dimensioni impostate su [!UICONTROL Primo contatto].
+Puoi creare diverse visualizzazioni dati per una stessa connessione, con set di componenti molto diversi (dimensioni o metriche). Oppure crea visualizzazioni dati con impostazioni diverse per timeout visita, attribuzione e così via. Ad esempio, puoi avere una visualizzazione dati in cui tutte le dimensioni sono impostate su [!UICONTROL Ultimo contatto] e contemporaneamente un&#39;altra visualizzazione dati (basata sullo stesso set di dati) con tutte le dimensioni impostate su [!UICONTROL Primo contatto].
 
 I progetti Workspace in Customer Journey Analytics si basano sulle visualizzazioni dati.
 
@@ -46,7 +52,7 @@ Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni 
 * Puoi visualizzare ulteriori informazioni relative allo schema sui componenti. Ad esempio:
 
    * il tipo di set di dati (evento, profilo, ricerca, riepilogo) da cui proviene il componente;
-   * il tipo di schema (stringa, numero intero, ecc.) da cui ha origine e
+   * tipo di schema (stringa, numero intero, ecc.) è originario di, e
    * il percorso dello schema (il campo XDM su cui si basa).
 
 * Puoi assegnare tag a un componente per facilitarne la ricerca in Workspace.

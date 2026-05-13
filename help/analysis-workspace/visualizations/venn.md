@@ -4,10 +4,15 @@ title: Venn
 feature: Visualizations
 exl-id: a0162164-a0cf-45b9-99b6-2a115e9a4e57
 role: User
-source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
+TQID: https://experienceleague.adobe.com/CxkgYLy9HfZEWEqU0r7UnuF5VStvjcKeX8SBwUqxj-s
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 39%
+source-wordcount: 229
+ht-degree: 26%
 
 ---
 
@@ -25,7 +30,7 @@ ht-degree: 39%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive la visualizzazione Venn in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/venn) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo documenta la visualizzazione Venn in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/venn) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +59,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta [visualizzazione di Venn](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/visualizations/venn-diagram-visualization){target="_blank"} ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg).
+Per un video dimostrativo, consulta [visualizzazione di Venn](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/venn-diagram-visualization){target="_blank"} ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg).
 
 {{videoaa}}
 
@@ -63,7 +68,7 @@ Per un video dimostrativo, consulta [visualizzazione di Venn](https://experience
 
 >[!MORELIKETHIS]
 >
->[Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Aggiungi una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Impostazioni di visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menu di scelta rapida della visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

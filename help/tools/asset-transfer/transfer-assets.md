@@ -4,10 +4,15 @@ description: Scopri come trasferire i componenti da un utente all’altro
 role: Admin
 solution: Customer Journey Analytics
 exl-id: c5ed81ea-1d55-4193-9bb1-a2a93ebde91f
-source-git-commit: 3e521cb4ef532d57b9f408fc12dcf138f130f059
+TQID: https://experienceleague.adobe.com/jjqF5CYG0y7OfRA9oGihAQwXQCOW00gkiEwwbfH3jrU
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 98%
+source-wordcount: 856
+ht-degree: 86%
 
 ---
 
@@ -23,11 +28,11 @@ Il trasferimento delle risorse richiede l’autorizzazione dell’amministratore
 
 ## Trasferire le risorse
 
-1. In CJA, passa a **[!UICONTROL Tools]** > **[!UICONTROL Asset Transfer]**.
+1. In CJA, passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Trasferimento risorse]**.
 
    ![Voce di menu Trasferimento risorse](/help/tools/asset-transfer/assets/asset-transfer.png)
 
-1. Nella finestra di dialogo **[!UICONTROL Users]**, cerca e seleziona l’utente da cui desideri trasferire le risorse.
+1. Nella finestra di dialogo **[!UICONTROL Utenti]**, cerca e seleziona l&#39;utente da cui desideri trasferire le risorse.
 
    >[!IMPORTANT]
    >
@@ -38,9 +43,9 @@ Il trasferimento delle risorse richiede l’autorizzazione dell’amministratore
 
    ![Opzione di menu Trasferisci risorse](/help/tools/asset-transfer/assets/after-selection.png)
 
-1. Fai clic su **[!UICONTROL Transfer assets]**.
+1. Fai clic su **[!UICONTROL Trasferisci risorse]**.
 
-1. Nella schermata **[!UICONTROL Transfer assets]**, seleziona innanzitutto il destinatario a cui desideri trasferire le risorse.
+1. Nella schermata **[!UICONTROL Trasferisci risorse]**, seleziona innanzitutto il destinatario a cui desideri trasferire le risorse.
 
 1. Ora scorri la cartella di ciascun componente nel menu di navigazione a sinistra per selezionare i singoli componenti o tutte le risorse di una cartella da trasferire.
 
@@ -53,13 +58,13 @@ Il trasferimento delle risorse richiede l’autorizzazione dell’amministratore
    >
    >    Quando si trasferiscono risorse che fanno riferimento ad altri componenti (ad esempio progetti che fanno riferimento ad altri segmenti e metriche calcolate), i componenti che non appartengono all’attuale proprietario del progetto verranno solo condivisi con il destinatario. Tutti gli altri componenti diventeranno di proprietà del destinatario.
 
-1. Per selezionare _tutte_ le risorse di una cartella, seleziona la casella accanto al **[!UICONTROL Name]** nella parte superiore della tabella.
+1. Per selezionare _tutte_ le risorse in una cartella, seleziona la casella accanto a **[!UICONTROL Nome]** nella parte superiore della tabella.
 
    ![selezionare le risorse da trasferire](/help/tools/asset-transfer/assets/select-assets.png)
 
-1. Fai clic su **[!UICONTROL Transfer]** in alto a destra dopo aver effettuato tutte le selezioni.
+1. Fai clic su **[!UICONTROL Trasferisci]** in alto a destra dopo aver effettuato tutte le selezioni.
 
-1. Fai clic su **[!UICONTROL Confirm]** quando viene visualizzato il messaggio di conferma.
+1. Fare clic su **[!UICONTROL Conferma]** quando viene visualizzato il messaggio di conferma.
 
    >[!IMPORTANT]
    >
@@ -103,7 +108,7 @@ Lo strumento Asset Transfer (Trasferimento risorse) consente poi agli amministra
 
 ## Export to CSV (Esporta in CSV)
 
-L’opzione **[!UICONTROL Export to CSV]** consente agli amministratori di scaricare in un file .csv solo l’elenco degli utenti visualizzati. Non consente loro di esportare in un file .csv un elenco di risorse trasferite.
+L&#39;opzione **[!UICONTROL Esporta in CSV]** consente solo agli amministratori di scaricare un elenco di utenti visualizzato in un file .csv. Non consente loro di esportare in un file .csv un elenco di risorse trasferite.
 
 ## Utenti inattivi
 

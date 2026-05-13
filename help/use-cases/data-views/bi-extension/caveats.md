@@ -4,9 +4,14 @@ description: Avvertenze per l’estensione BI in vari strumenti BI in Customer J
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-source-git-commit: cb0102923f10f39becd40cc4187d2e11fb8c4e2f
+exl-id: b6e8ebd9-4fda-41d1-ac37-ca869f5ee57c
+TQID: https://experienceleague.adobe.com/6xHQWSBoZSfiDzjAj2akci4pX3uwdnaYXr3yXOvN0Xs
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 743
 ht-degree: 0%
 
 ---
@@ -25,7 +30,7 @@ Ciascuno degli strumenti BI supportati ha alcune avvertenze sull’utilizzo dell
 * Il filtro dell&#39;intervallo di date avanzato di Power BI Desktop è esclusivo.  Per la data di fine, devi selezionarne una oltre il giorno per il quale desideri generare il rapporto. Ad esempio, **[!UICONTROL è uguale o successivo a]** `1/1/2023` **[!UICONTROL e precedente a]** `1/2/2023`.
 * Power BI Desktop viene impostato automaticamente su **[!UICONTROL Importa]** quando si crea una connessione. Assicurati di utilizzare **[!UICONTROL Direct Query]**.
 * Power BI Desktop espone le trasformazioni dei dati tramite Power Query.  Power Query funziona principalmente con connessioni di tipo Importa, pertanto molte trasformazioni applicate come funzioni di data o di stringa generano un errore che indica che è necessario passare a una connessione di tipo Importa.  Se devi trasformare i dati in fase di query, utilizza dimensioni e metriche derivate in modo che Power BI non debba eseguire le trasformazioni stesse.
-* Power BI Desktop non è in grado di gestire le colonne di tipo data-ora. Le dimensioni **[!UICONTROL daterange *X *]**, ad esempio&#x200B;**[!UICONTROL daterangehour &#x200B;]**&#x200B;e&#x200B;**[!UICONTROL daterangeminute &#x200B;]**, non sono pertanto supportate.
+* Power BI Desktop non è in grado di gestire le colonne di tipo data-ora. Le dimensioni **[!UICONTROL daterange *X *]**, ad esempio**[!UICONTROL daterangehour ]**e**[!UICONTROL daterangeminute ]**, non sono pertanto supportate.
 * Per impostazione predefinita, Power BI Desktop tenta di effettuare più connessioni utilizzando un numero maggiore di sessioni di Query Service.  Accedi alle impostazioni di Power BI per il progetto e disabilita le query parallele.
 * Power BI Desktop esegue tutte le operazioni di ordinamento e limitazione sul lato client. Power BI Desktop ha anche una semantica diversa per il filtro *X* superiore che include valori associati. Pertanto, non puoi creare lo stesso ordinamento e le stesse limitazioni disponibili in Analysis Workspace.
 * Le versioni precedenti di Power BI Desktop, nell’ottobre 2024, hanno interrotto le origini dati PostgreSQL. Assicurati di utilizzare la versione indicata in questo articolo.

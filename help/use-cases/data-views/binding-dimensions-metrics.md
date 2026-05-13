@@ -4,13 +4,17 @@ description: Scopri come attribuire dimensioni ad array di oggetti per complesse
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 role: User
-source-git-commit: db47e3414046a2222c2cb95588c4e3cc6988e6be
+TQID: https://experienceleague.adobe.com/1QpmW2FTqA2B7JgqJEO6MNJzrBkGIL9s4gZYxhIp9UI
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: 1357
 ht-degree: 70%
 
 ---
-
 
 # Utilizzare dimensioni e metriche di binding
 
@@ -79,7 +83,7 @@ Se desideri esaminare i ricavi per colore senza una dimensione di binding, la di
 | --- | --- |
 | arancione fluo | 2099 |
 
-Vai in **[!UICONTROL Data views]** e associa la dimensione [!DNL Product Color] a [!DNL Product Name]:
+Vai in **[!UICONTROL Visualizzazioni dati]** e associa la dimensione [!DNL Product Color] a [!DNL Product Name]:
 
 ![Dimensione di binding](../assets/binding-dimension.png)
 
@@ -238,13 +242,13 @@ Uno dei metodi di merchandising più comuni in Adobe Analytics consiste nell’a
    }
    ```
 
-Con un modello di allocazione che non include una dimensione di binding con un termine di ricerca, per tutti e tre i prodotti i ricavi vengono attribuiti a un singolo termine di ricerca. Ad esempio, se hai utilizzato l&#39;allocazione [!UICONTROL Original] con la dimensione del termine di ricerca:
+Con un modello di allocazione che non include una dimensione di binding con un termine di ricerca, per tutti e tre i prodotti i ricavi vengono attribuiti a un singolo termine di ricerca. Ad esempio, se hai utilizzato l&#39;allocazione [!UICONTROL Originale] con la dimensione del termine di ricerca:
 
 | search_term | ricavi |
 | --- | --- |
 | guantoni da pugilato | $ 204,97 |
 
-Se hai utilizzato l&#39;allocazione [!UICONTROL Most Recent] con la dimensione del termine di ricerca, tutti e tre i prodotti attribuiscono ancora i ricavi a un singolo termine di ricerca:
+Se hai utilizzato l&#39;allocazione [!UICONTROL Più recente] con la dimensione del termine di ricerca, per tutti e tre i prodotti i ricavi vengono ancora attribuiti a un singolo termine di ricerca:
 
 | search_term | ricavi |
 | --- | --- |
@@ -440,4 +444,4 @@ Se invece si associa `product_finding_method` alla metrica Aggiunte al carrello,
 
 >[!MORELIKETHIS]
 >
->Esercitazione [Dimensioni di binding nelle visualizzazioni dati](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=it).
+>Esercitazione [Dimensioni di binding nelle visualizzazioni dati](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html).

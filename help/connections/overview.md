@@ -5,16 +5,20 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/2YaPpJFOi4jdLFkJGJsfBLpFtAYx3047ckpCG87lMF8
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 93%
+source-wordcount: 294
+ht-degree: 88%
 
 ---
 
 # Panoramica sulle connessioni
 
-Le connessioni consentono agli amministratori di prodotto di Customer Journey Analytics di definire quali origini dati [!DNL &#x200B; Experience Platform] acquisire, come set di dati di eventi, ricerca, profili e riepilogo.  Le connessioni sono alla base di Customer Journey Analytics e determinano la disponibilità dei dati (campi) che è possibile definire in una [visualizzazione dati](/help/data-views/data-views.md) come dimensione o metriche.
+Le connessioni consentono agli amministratori di prodotto di Customer Journey Analytics di definire quali origini dati [!DNL  Experience Platform] acquisire, come set di dati di eventi, ricerca, profili e riepilogo. Le connessioni sono alla base di Customer Journey Analytics e determinano la disponibilità dei dati (campi) che è possibile definire in una [visualizzazione dati](/help/data-views/data-views.md) come dimensione o metriche.
 
 >[!IMPORTANT]
 >
@@ -27,7 +31,7 @@ Le connessioni consentono agli amministratori di prodotto di Customer Journey An
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Connetti a origini dati](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"} per un video dimostrativo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Connetti a origini dati](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/connections/connecting-customer-journey-analytics-to-data-sources-in-platform){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

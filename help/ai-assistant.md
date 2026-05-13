@@ -5,13 +5,17 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 7a4f15c4-7fd6-4a6a-9b83-7c1f3b95be16
-source-git-commit: 82b36895fe5186f0133c128d434470ea7f875677
+TQID: https://experienceleague.adobe.com/ALTfdJVKpXNRGSHFkLiP7-NonJ-q9GmG6X72AF8ij24
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 100%
+source-wordcount: 660
+ht-degree: 82%
 
 ---
-
 
 # Assistente IA per Adobe Customer Journey Analytics
 
@@ -23,7 +27,7 @@ In qualità di utente principiante, puoi utilizzare l’Assistente IA per appren
 
 Alcuni esempi di domande sui concetti possono includere:
 
-* Qual è la differenza tra l’acquisizione in batch e quella in streaming?
+* Qual è la differenza tra l’acquisizione in batch e l’acquisizione in streaming?
 * Per che cosa è utilizzato principalmente Customer Journey Analytics?
 * Come posso configurare una visualizzazione dati?
 
@@ -53,16 +57,16 @@ I seguenti parametri regolano l’accesso alla funzione dell’Assistente IA:
 
 * **Accesso contrattuale**: se non puoi utilizzare l’Assistente IA, contatta l’amministratore della tua organizzazione o il rappresentante dell’account Adobe. Prima che la tua organizzazione possa utilizzare l’Assistente IA, è necessario accettare alcuni termini legali relativi a GenAI.
 
-* **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l’autorizzazione [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Product Knowledge]** determina l’accesso a questo strumento. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console]:
-   1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**.
-   1. Seleziona il titolo del profilo di prodotto per il quale desideri fornire l’accesso all’[!UICONTROL AI Assistant: Product Knowledge].
-   1. Nel profilo di prodotto specifico, seleziona **[!UICONTROL Permissions]**.
-   1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare **[!UICONTROL Reporting Tools]**.
-   1. Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) per aggiungere **Assistente IA: conoscenza del prodotto** in **[!UICONTROL Included permission items]**.
+* **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Assistente AI: conoscenza del prodotto]** determina l&#39;accesso a questo strumento. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console]:
+   1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti e servizi]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Profili di prodotto]**
+   1. Selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso all&#39;[!UICONTROL Assistente AI: conoscenza del prodotto].
+   1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Autorizzazioni]**.
+   1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare **[!UICONTROL Strumenti di reporting]**.
+   1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) per aggiungere **Assistente IA: conoscenza del prodotto** a **[!UICONTROL elementi di autorizzazione inclusi]**.
 
       ![Aggiungi autorizzazione](assets/ai-assistant-permissions.png).
 
-   1. Seleziona **[!UICONTROL Save]** per salvare le modifiche.
+   1. Seleziona **[!UICONTROL Salva]** per salvare le autorizzazioni.
 
 Per ulteriori informazioni, consulta [Controllo degli accessi](/help/technotes/access-control.md#access-control).
 
@@ -78,7 +82,7 @@ Per ulteriori informazioni, consulta [Controllo degli accessi](/help/technotes/a
 
    ![Casella domande](assets/ai-asst2.png)
 
-1. (Facoltativo) Per mostrare le origini, fai clic su **[!UICONTROL Show Sources]** e verranno visualizzate l’origine o le origini della documentazione.
+1. (Facoltativo) Per visualizzare le origini, fare clic su **[!UICONTROL Mostra origini]**. Verranno visualizzate l&#39;origine o le origini della documentazione che hanno fornito informazioni sulla risposta.
 
 1. (Facoltativo) Puoi anche fornire un voto con pollice su/giù sull’utilità di una determinata risposta.
 

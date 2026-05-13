@@ -5,9 +5,14 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f96565a2-f556-4b45-b88e-984613614d2e
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+TQID: https://experienceleague.adobe.com/-SFI1n4ci13hNxkQOUyT9D3kRAXsTCmfSwd6AoD4jro
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: 758
 ht-degree: 77%
 
 ---
@@ -19,7 +24,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-create"
 >title="Creare il connettore di origine di Analytics"
->abstract="Utilizza il connettore di origine di Analytics per acquisire i dati della suite di rapporti da utilizzare in Customer Journey Analytics.<br><br>La creazione del connettore di origine di Analytics richiede solo alcuni minuti con le impostazioni predefinite."
+>abstract="Utilizza il connettore di origine di Analytics per acquisire i dati della suite di rapporti da utilizzare in Customer Journey Analytics.<br><br>La creazione del connettore di origine di Analytics con le impostazioni predefinite richiede solo alcuni minuti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,7 +33,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-source-connector-map-fields"
 >title="Creare il connettore di origine di Analytics e mappare i campi schema"
->abstract="Il connettore di origine deve sapere come mappare i campi di Adobe Analytics per lo schema della tua organizzazione. Utilizza questa interfaccia per fornire al connettore di origine tale mappatura. Questo passaggio fa parte dell’aggiunta di dati storici a Customer Journey Analytics.<br><br>Il tempo necessario per questo passaggio dipende maggiormente dal numero di dimensioni e metriche da mappare. Questo passaggio non è difficile, quanto noioso e ripetitivo. Il completamento della mappatura dello stream di dati richiede circa una settimana di lavoro."
+>abstract="Il connettore di origine deve sapere come mappare i campi di Adobe Analytics per lo schema della tua organizzazione. Utilizza questa interfaccia per fornire al connettore di origine tale mappatura. Questo passaggio fa parte dell’aggiunta di dati storici a Customer Journey Analytics.<br><br>Il tempo necessario dipende in larga misura dal numero di dimensioni e metriche da mappare. Questo passaggio non è difficile, quanto noioso e ripetitivo. Il completamento della mappatura dello stream di dati richiede circa una settimana di lavoro."
 
 <!-- markdownlint-enable MD034 -->
 

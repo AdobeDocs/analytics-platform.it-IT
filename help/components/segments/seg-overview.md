@@ -4,13 +4,18 @@ description: Informazioni sui segmenti che vengono utilizzati e su come creare u
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters, Segments
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+TQID: https://experienceleague.adobe.com/omsyiimc8b3EsGvJYb0V-jHqOxUp-8S7fFQ8dXUGUxs
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 99%
+source-wordcount: 1494
+ht-degree: 97%
 
 ---
-
 
 # Panoramica sulla segmentazione
 
@@ -172,7 +177,7 @@ Se hai accesso a [Customer Journey Analytics B2B Edition](/help/getting-started/
 
 ### Contenitore Gruppo logico
 
-Il Gruppo logico consente di raggruppare le condizioni in un singolo punto di controllo del segmento sequenziale. Come parte della sequenza, la logica definita nel contenitore identificato come [!UICONTROL Logic Group] viene valutata dopo qualsiasi punto di controllo sequenziale precedente e prima di qualsiasi punto di controllo sequenziale successivo. Per ulteriori informazioni, consulta [Gruppo logico](seg-sequential-build.md#logic-group).
+Il Gruppo logico consente di raggruppare le condizioni in un singolo punto di controllo del segmento sequenziale. Come parte della sequenza, la logica definita nel contenitore identificato come [!UICONTROL Gruppo logico] viene valutata dopo qualsiasi punto di controllo sequenziale precedente e prima di qualsiasi punto di controllo sequenziale successivo. Per ulteriori informazioni, consulta [Gruppo logico](seg-sequential-build.md#logic-group).
 
 ### Nidificare i contenitori
 
@@ -206,8 +211,8 @@ Traditional Analytics comes with numerous out-of-the-box templates and calculate
 
 >[!MORELIKETHIS]
 >
->[Creare i segmenti](seg-create.md)
->&#x200B;>[Generatore di segmenti](seg-builder.md)
->&#x200B;>[Segmenti rapidi](seg-quick.md)
->&#x200B;>[Segmenti sequenziali](seg-sequential-build.md)
->&#x200B;>[Gestire i segmenti](seg-manage.md)
+>[Crea segmenti](seg-create.md)
+>[Generatore di segmenti](seg-builder.md)
+>[Segmenti rapidi](seg-quick.md)
+>[Segmenti sequenziali](seg-sequential-build.md)
+>[Gestire i segmenti](seg-manage.md)

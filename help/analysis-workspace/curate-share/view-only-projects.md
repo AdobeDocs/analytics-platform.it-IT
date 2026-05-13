@@ -5,16 +5,21 @@ title: Progetti di sola lettura
 feature: Curate and Share
 exl-id: 2bc26444-aeea-4695-92a5-a2b45ac18e0d
 role: User
-source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
+TQID: https://experienceleague.adobe.com/Rliyf5y-VNnCKEBemXYfHiXOqlYb98nEpPSLHBPOS3o
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 37%
+source-wordcount: 328
+ht-degree: 39%
 
 ---
 
 # Progetti di sola lettura
 
-Puoi condividere i progetti in sola lettura con i destinatari tramite la funzionalità [condividi](/help/analysis-workspace/curate-share/share-projects.md). I destinatari inseriti nella mansione **[!UICONTROL Read only]** riceveranno un&#39;esperienza di progetto più limitata.
+Puoi condividere i progetti in sola lettura con i destinatari tramite la funzionalità [condividi](/help/analysis-workspace/curate-share/share-projects.md). I destinatari inseriti nella mansione **[!UICONTROL Sola lettura]** riceveranno un&#39;esperienza di progetto più limitata.
 
 Ciò può essere utile se condividi un progetto con utenti che hanno meno familiarità con la struttura dei dati della tua organizzazione e con Analysis Workspace o Customer Journey Analytics in genere, ma desideri comunque che utilizzino dati e informazioni in un ambiente sicuro.
 

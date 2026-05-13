@@ -4,10 +4,16 @@ description: Pagina di destinazione di Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: efdb05a28813b774ae276de4d9c59656e78618ba
+TQID: https://experienceleague.adobe.com/QBGCqJ3GBKAh4jfAAvA3sO6GXjJHGEAtaRXyASH8PhA
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 71%
+source-wordcount: 743
+ht-degree: 62%
 
 ---
 
@@ -15,7 +21,7 @@ ht-degree: 71%
 
 Questa guida alla documentazione tecnica fornisce supporto autonomo per Customer Journey Analytics. Customer Journey Analytics consente di importare in Adobe Experience Platform i dati del cliente da qualsiasi canale (online e offline). Puoi quindi analizzarli così come faresti con i dati digitali esistenti utilizzando Analysis Workspace.
 
-Con Customer Journey Analytics puoi definire come collegare i dati online e offline in Analysis Workspace per qualsiasi ID cliente comune per poter poi eseguire attività di attribuzione, segmenti, flusso, fallout, e così via, tra i dati cliente.
+Customer Journey Analytics consente di controllare come collegare i dati online e offline in Analysis Workspace su qualsiasi ID cliente comune, consentendoti di eseguire attività di attribuzione, segmenti, flusso, abbandono ecc. tra i dati del cliente.
 
 ## Novità
 
@@ -152,7 +158,7 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Customer Journey Analytics</strong><br/>
-<a href="https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">Tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Descrizione del prodotto Customer Journey Analytics</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Descrizione del prodotto Adobe Analytics (componente aggiuntivo per Customer Journey Analytics)</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics-b2b.html" target="_blank">Descrizione del prodotto Customer Journey Analytics B2B Edition</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">API di Customer Journey Analytics</a> - <a href="/help/ai-assistant.md">Assistente IA</a>
+<a href="https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank">Tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html" target="_blank">Descrizione del prodotto Customer Journey Analytics</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank">Descrizione del prodotto Adobe Analytics (componente aggiuntivo Customer Journey Analytics)</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics-b2b.html" target="_blank">Descrizione del prodotto Customer Journey Analytics B2B edition</a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank">API Customer Journey Analytics</a> - <a href="/help/ai-assistant.md">Assistente AI</a>
 </td>
 <td><strong>Acquisizione dei dati</strong><br/><a href="/help/data-ingestion/data-ingestion.md">Panoramica</a> - <a href="/help/data-ingestion/analytics.md">Analytics</a> - <a href="/help/data-ingestion/aepwebsdk.md">Web SDK</a> - <a href="/help/data-ingestion/aepmobilesdk.md">Mobile SDK</a> - <a href="/help/data-ingestion/batch.md">Batch</a> - <a href="/help/data-ingestion/streaming.md">Streaming</a> - <a href="/help/data-ingestion/sources.md">Origini</a> - <a href="/help/data-ingestion/serverapi.md">API server</a>
 </td>
@@ -161,4 +167,4 @@ Confronto tra Customer Journey Analytics e Adobe Analytics. Come inserire i dati
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b>Rimani aggiornato, contribuisci alla community e migliora la tua esperienza di Customer Journey Analytics.</b><br>Visita la community di Adobe Analytics per discutere delle funzionalità con altri professionisti. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it">Iscriviti alla community oggi stesso!</a></td></tr></tbody></table>
+<b>Resta informato, contribuisce alla community e migliora la tua esperienza con Customer Journey Analytics.</b><br>Visita la community di Adobe Analytics per discutere di queste funzionalità con altri professionisti. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community">Iscriviti alla community oggi stesso!</a></td></tr></tbody></table>

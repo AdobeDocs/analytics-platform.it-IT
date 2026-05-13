@@ -4,16 +4,21 @@ description: Anteprima di progetti prototipo per Customer Journey Analytics
 exl-id: 1abaf0fd-645f-411b-aee1-3e35afe41112
 feature: Labs
 role: User
-source-git-commit: fd033854a3b871c802c38c098d0907062a1c9c07
+TQID: https://experienceleague.adobe.com/toUKCwFyyQJZo-nZFwlo3RxBhccv83ViHPiO9o5yXs8
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 82%
+source-wordcount: 472
+ht-degree: 48%
 
 ---
 
 # Guida utente di [!UICONTROL Labs]
 
-[!UICONTROL Labs] consente di realizzare prototipi più veloci per le idee in fase iniziale. Si tratta di una combinazione di strumenti e processi che accelerano lo sviluppo in modo trasparente, con un focus sul cliente. Consente agli utenti di avvicinarsi alle tecnologie emergenti, scoprire informazioni importanti e influenzare le priorità e lo sviluppo delle funzioni future. Puoi utilizzare Labs per accedere in anteprima alle innovazioni di Adobe Customer Journey Analytics e per valutare le prossime funzionalità nel contesto dei tuoi casi d’uso aziendali e dei tuoi dati.
+[!UICONTROL Labs] consente una prototipazione più rapida delle idee in fase iniziale. Si tratta di una combinazione di strumenti e processi che accelerano lo sviluppo in modo trasparente, con un focus sul cliente. Consente agli utenti di avvicinarsi alle tecnologie emergenti, scoprire informazioni importanti e influenzare le priorità e lo sviluppo delle funzioni future. Puoi utilizzare Labs per accedere in anteprima alle innovazioni di Adobe Customer Journey Analytics e per valutare le prossime funzionalità nel contesto dei tuoi casi d’uso aziendali e dei tuoi dati.
 
 >[!IMPORTANT]
 >
@@ -21,7 +26,7 @@ ht-degree: 82%
 
 ## Requisiti
 
-[!UICONTROL Labs] viene abilitato automaticamente per tutti gli amministratori. Gli altri membri del team possono richiederne l’accesso contattando gli amministratori del prodotto.
+[!UICONTROL Labs] è abilitato automaticamente per tutti gli amministratori. Gli altri membri del team possono richiederne l’accesso contattando gli amministratori del prodotto.
 
 Se non lo hai già fatto, leggi e firma i moduli Contratto di non divulgazione e Termini e condizioni applicabili.
 
@@ -29,9 +34,9 @@ Se non lo hai già fatto, leggi e firma i moduli Contratto di non divulgazione e
 
 Per accedere a [!UICONTROL Labs]:
 
-1. Se non disponi ancora dell’accesso a [!UICONTROL Workspace] e [!UICONTROL Labs], chiedi all’amministratore le autorizzazioni necessarie.
+1. Se non disponi già dell&#39;accesso a [!UICONTROL Workspace] e [!UICONTROL Labs], chiedi all&#39;amministratore le autorizzazioni necessarie.
 
-1. In Customer Journey Analytics, seleziona la scheda **[!UICONTROL Labs]**.
+1. In Customer Journey Analytics, fai clic sulla scheda **[!UICONTROL Labs]**.
 
 ## Valutare un prototipo
 
@@ -41,7 +46,7 @@ Per avviare e valutare un prototipo:
 
    aggiungere schermata qui
 
-1. Per guardare un video che evidenzia il prototipo, fai clic su **[!UICONTROL Watch Video]** in alto a destra. Al termine del video, fai clic su **[!UICONTROL Close]**.
+1. Per guardare un video che evidenzia il prototipo, fai clic su **[!UICONTROL Guarda video]** in alto a destra. Al termine del video, fai clic su **[!UICONTROL Chiudi]**.
 
    aggiungere schermata qui
 
@@ -57,19 +62,19 @@ Per avviare e valutare un prototipo:
 
 ## Lasciare un feedback
 
-1. In qualsiasi momento durante l’utilizzo del prototipo, puoi fare clic su **[!UICONTROL Give Feedback]** per fornire un feedback nella finestra del messaggio.
+1. Fai clic su **[!UICONTROL Invia feedback]** per fornire un feedback nella finestra del messaggio in qualsiasi momento durante l&#39;utilizzo del prototipo.
 
    ![Intervallo di feedback](assets/give_feedback.png)
 
-1. Fai clic su **[!UICONTROL Submit]** per inviare il tuo feedback.
+1. Fai clic su **[!UICONTROL Invia]** per inviare il tuo feedback.
 
-1. Per provare un prototipo diverso o per uscire dall’ambiente del prototipo, fai clic su **[!UICONTROL Leave Prototype]** in alto a destra e completa il breve sondaggio relativo al prototipo. Tutte le modifiche apportate a un progetto prototipo vengono perse quando si esce dall’ambiente del prototipo.
+1. Per provare un prototipo diverso o per uscire dall&#39;ambiente del prototipo, fare clic su **[!UICONTROL Lascia prototipo]** in alto a destra e completare il breve sondaggio relativo al prototipo. Tutte le modifiche apportate a un progetto prototipo vengono perse quando si esce dall’ambiente del prototipo.
 
    ![Intervallo di feedback dei percorsi intelligenti](assets/short-survey.png)
 
-1. Fai clic su **[!UICONTROL Submit]** per tornare al portale principale delle anteprime.
+1. Fai clic su **[!UICONTROL Invia]** per tornare al portale principale delle anteprime.
 
 ## Informazioni aggiuntive
 
-* Alcuni prototipi all’interno di [!UICONTROL Labs] diventano funzioni di Customer Journey Analytics, altri no. Il tuo feedback contribuisce al processo decisionale: ti invitiamo quindi a prendere visione dei prototipi e a far sapere ad Adobe se li trovi utili.
+* Alcuni prototipi all&#39;interno di [!UICONTROL Labs] diventano funzionalità di Customer Journey Analytics, altri no. Il tuo feedback contribuisce al processo decisionale: ti invitiamo quindi a prendere visione dei prototipi e a far sapere ad Adobe se li trovi utili.
 * Labs è disponibile per tutte le adesioni SKU.

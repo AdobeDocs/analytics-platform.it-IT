@@ -5,10 +5,16 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: product analytics
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/7rr5h-ymKCpMy6MJB9TEPG6POFyMlVlPRF7TC7Uryoc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 64%
+source-wordcount: 705
+ht-degree: 63%
 
 ---
 
@@ -31,7 +37,7 @@ L&#39;analisi ![PeopleGroup](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL A
 Tutti gli utenti attivi (nuovi + ripetuti + di ritorno) vengono visualizzati in una tonalità di verde sopra l’asse orizzontale, mentre tutti gli utenti inattivi vengono visualizzati in arancione sotto l’asse orizzontale.
 
 
->[!VIDEO](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/guided-analysis/active-growth)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/active-growth)
 
 ## Casi d’uso
 

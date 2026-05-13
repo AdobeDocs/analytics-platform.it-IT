@@ -5,13 +5,17 @@ exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+TQID: https://experienceleague.adobe.com/Hj-CQ5QGPLu-Q-e45tYfVVv-56DT5he6ExinxVVog-0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: 951
 ht-degree: 33%
 
 ---
-
 
 # Set di dati evento combinati
 
@@ -66,7 +70,7 @@ per il reporting viene utilizzato il seguente set di dati combinato.
 
 Per illustrare l’importanza dei percorsi degli schemi, considera questo scenario. Nel primo set di dati, `string_color` è basato sul percorso dello schema `_experience.whatever.string_color` e nel secondo set di dati sul percorso dello schema `_experience.somethingelse.string_color`. In questo scenario, i dati sono **not** uniti in una colonna nel set di dati combinato risultante. Invece, il risultato è due `string_color` colonne nel set di dati combinato:
 
-| ID | timestamp | _esperienza.<br/>qualsiasi cosa.<br/>string_color | _esperienza.<br/>altro.<br/>string_color | string_animal | string_shape | metric_a | metric_b |
+| ID | timestamp | _experience.<br/>any.<br/>string_color | _experience.<br/>else.<br/>string_color | string_animal | string_shape | metric_a | metric_b |
 |---|---|---|---|---|---|---:|---:|
 | user_310 | 1 gen 7:02 AM | Rosso | | Volpe | | | |
 | user_310 | 1 gen 7:04 AM | | | | | 2 | |

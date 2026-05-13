@@ -4,10 +4,15 @@ description: Scopri le funzioni di base delle metriche calcolate.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 211f0411d0bf70288cbd46bb219fce7ae99fe03d
+TQID: https://experienceleague.adobe.com/UqQ3US8EQKJxdsuZI8QMoFVFJpLvpJ4Th8vFafPDxIw
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '3599'
-ht-degree: 45%
+source-wordcount: 3641
+ht-degree: 44%
 
 ---
 
@@ -93,7 +98,7 @@ Restituisce il valore più grande in un insieme di elementi dimensionali della c
 
 >[!TIP]
 >
->Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con prestazioni migliori nel raggruppamento.
+>Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con prestazioni migliori nel raggruppamento.
 >
 
 ## Minimo colonna {#column-minimum}
@@ -123,7 +128,7 @@ Restituisce il valore più piccolo in un insieme di elementi dimensionali della 
 
 >[!TIP]
 >
->Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con le prestazioni peggiori nel raggruppamento.
+>Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con le prestazioni peggiori nel raggruppamento.
 >
 
 
@@ -203,7 +208,7 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 
 | Argomento | Descrizione |
 |---|---|
-| metrica | L’esponente applicato alla base *e*. |
+| metrica | L&#39;esponente applicato alla base *e*. |
 
 **Caso d&#39;uso**: aumenta di *e* alla potenza di un numero o di una metrica specificata. Ciò è utile quando si modellano le tendenze di crescita o si ridimensiona una metrica in modo esponenziale.
 

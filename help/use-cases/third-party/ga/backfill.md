@@ -5,13 +5,17 @@ exl-id: 314378c5-b1d7-4c74-a241-786198fa0218
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: fef935eb7692ffb2dade28cb6a7c3d408bcac1c3
+TQID: https://experienceleague.adobe.com/AGb39x2SEhmLcYgEjP01KGvnHMB9qOLJqZCH07zGAoc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 85%
+source-wordcount: 662
+ht-degree: 78%
 
 ---
-
 
 # Acquisire dati storici di Google Analytics
 
@@ -30,7 +34,7 @@ Per queste attività, devi disporre dei diritti di accesso e delle autorizzazion
 La struttura dei dati nelle proprietà di Universal Analytics è diversa da quella nelle proprietà di Google Analytics 4. Puoi configurare un’esportazione BigQuery in base al tipo di proprietà da cui desideri esportare i dati:
 
 * [Configurare un’esportazione BigQuery per una proprietà Universal Analytics](https://support.google.com/analytics/answer/3416092)
-* [Configurare un’esportazione BigQuery per una proprietà Google Analytics 4](https://support.google.com/analytics/answer/9823238)
+* [Configurare un’esportazione BigQuery per una proprietà Google Analytics 4](https://support.google.com/analytics/answer/9823238)
 
 ### Requisiti aggiuntivi per le proprietà di Universal Analytics
 
@@ -77,13 +81,13 @@ In Google Cloud Platform, passa a **Export > Export to GCS** (Esporta > Esporta 
 
 ## Importare i dati da Google Cloud Storage in Experience Platform
 
-1. In Adobe Experience Platform, seleziona **[!UICONTROL Sources]** a sinistra.
-1. Nella sezione del catalogo, individua l’opzione **[!UICONTROL Google Cloud Storage]**. Fai clic su **[!UICONTROL Add data]**.
+1. In Adobe Experience Platform, seleziona **[!UICONTROL Origini]** a sinistra.
+1. Nel catalogo, individua l&#39;opzione **[!UICONTROL Google Cloud Storage]**. Fare clic su **[!UICONTROL Aggiungi dati]**.
 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Importa dati Google Analytics in Adobe Experience Platform](https://video.tv.adobe.com/v/3437174?captions=ita&quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Importa dati Google Analytics in Adobe Experience Platform](https://video.tv.adobe.com/v/332676?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -102,7 +106,7 @@ Una volta completata la mappatura dei campi sullo schema XDM, puoi pianificare l
 
 Alcuni campi XDM in Platform richiedono il formato corretto per consentire la corretta elaborazione dei dati.
 
-* **`timestamp`**: crea un campo calcolato speciale nell’interfaccia utente dello schema di Experience Platform. Fai clic su **[!UICONTROL Add calculated field]** e racchiudi la stringa `timestamp` in una funzione `date`, così:
+* **`timestamp`**: crea un campo calcolato speciale nell’interfaccia utente dello schema di Experience Platform. Fare clic su **[!UICONTROL Aggiungi campo calcolato]** e racchiudere la stringa `timestamp` in una funzione `date`:
 
   `date(timestamp, "yyyy-MM-dd HH:mm:ssZ")`
 

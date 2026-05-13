@@ -4,9 +4,14 @@ description: Informazioni sulle sedi dei centri dati CJA in tutto il mondo.
 solution: Customer Journey Analytics
 role: Admin
 exl-id: a41686bb-1a7b-4d27-8415-f4a1880b7de5
-source-git-commit: 20ead546897ad517840f95a5ec4dcd7f830afe8c
+TQID: https://experienceleague.adobe.com/vpd1rWg883z793Tgmcm0XxplsaG5q5PGa9eT0pPllp8
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: 235
 ht-degree: 6%
 
 ---
@@ -17,7 +22,7 @@ Adobe Customer Journey Analytics è ospitato in centri dati di classe enterprise
 
 Al momento del provisioning, i clienti designano l’area in cui risiederanno i dati Adobe Experience Platform. I dati acquisiti in Customer Journey Analytics dal data lake di Adobe Experience Platform verranno memorizzati nella stessa area geografica.
 
-Per ulteriori informazioni, vedi [Raccolta dati regionali](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/rdc) nella documentazione di Adobe Experience Cloud.
+Per ulteriori informazioni, vedi [Raccolta dati regionali](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/rdc) nella documentazione di Adobe Experience Cloud.
 
 
 ## Visualizza il data center in cui sono memorizzati i dati

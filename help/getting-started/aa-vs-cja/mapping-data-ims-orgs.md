@@ -5,10 +5,15 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Adobe Analytics Integration,Administration
 exl-id: c109742b-c1c5-45b3-971f-f8dcf814ec37
-source-git-commit: ff0a5eb5b04f604eff41a18b05199b517d1a2d14
+TQID: https://experienceleague.adobe.com/6qERpivKabPPCynMGNKrLhhOMcROnlp7HKpbvXpzNSg
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 1%
+source-wordcount: 1127
+ht-degree: 2%
 
 ---
 
@@ -51,7 +56,7 @@ Per configurare e abilitare la funzionalità *Mappatura dati Cross-IMS*, devi ri
 
 Una volta che l’account manager di Adobe riceve l’e-mail con la richiesta di mappare i dati di Analytics da più organizzazioni, la richiesta viene rivista in Adobe. L’account manager Adobe ti contatta per eventuali domande aggiuntive, corsi di formazione facoltativi e altre informazioni.
 
-Una volta approvata, viene creata la mappatura richiesta e ricevi una notifica. Il nome dell&#39;organizzazione IMS di origine viene aggiunto al nome della suite di rapporti nell&#39;[elenco delle suite di rapporti di Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
+Una volta approvata, viene creata la mappatura richiesta e ricevi una notifica. Il nome dell&#39;organizzazione IMS di origine viene aggiunto al nome della suite di rapporti nell&#39;[elenco delle suite di rapporti di Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
 
 
 ## Limitazioni
@@ -71,7 +76,7 @@ Prima di richiedere la funzionalità *Mappatura dati Cross-IMS*, considera i seg
 
 Una volta approvata la funzionalità *Mappatura dati IMS incrociato*, puoi aggiungere dati ad Experience Platform per una o più suite di rapporti nell&#39;organizzazione IMS di destinazione. Questa operazione viene eseguita tramite la configurazione del [connettore di origine di Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). I set di dati di destinazione vengono quindi creati in Experience Platform. Come parte di questa configurazione e del processo, puoi inviare i dati del profilo da una o più suite di rapporti al servizio Profilo.
 
-Stimare il numero totale di profili risultanti dalla configurazione e dal processo, come descritto in precedenza. Assicurati che il numero totale rientri nel numero di profili a cui hai diritto contrattualmente per l’organizzazione di destinazione. Applica [regole e condizioni di filtro](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} per includere o escludere i dati in modo selettivo dall&#39;acquisizione nel servizio Profilo. Oppure disabilita l’opzione per inviare i dati del profilo al servizio Profilo per le suite di rapporti pertinenti.
+Stimare il numero totale di profili risultanti dalla configurazione e dal processo, come descritto in precedenza. Assicurati che il numero totale rientri nel numero di profili a cui hai diritto contrattualmente per l’organizzazione di destinazione. Applica [regole e condizioni di filtro](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} per includere o escludere i dati in modo selettivo dall&#39;acquisizione nel servizio Profilo. Oppure disabilita l’opzione per inviare i dati del profilo al servizio Profilo per le suite di rapporti pertinenti.
 
 
 #### Unione

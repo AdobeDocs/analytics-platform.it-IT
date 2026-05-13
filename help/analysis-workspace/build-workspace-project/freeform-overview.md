@@ -5,10 +5,15 @@ title: Panoramica dei progetti
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/VKMyO7uNXu1Gj5QpJMxPD7WRBs2mHSLBg5H4iTgMI6w
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 76%
+source-wordcount: 1675
+ht-degree: 79%
 
 ---
 
@@ -83,7 +88,7 @@ Puoi eseguire azioni su uno o più progetti utilizzando il menu di scelta rapida
 | ![CrossSize75](/help/assets/icons/Close.svg) | **[!UICONTROL *x *selezionato]** | Deseleziona i progetti e le cartelle selezionati e rimuovi la barra blu delle azioni. |
 | ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Elimina]** | Elimina uno o più progetti o cartelle. Viene richiesta una conferma.<p>I progetti eliminati:</p><ul><li>Non possono essere recuperati</li><li>Vengono rimossi dall’elenco dei progetti</li><li>Non è più possibile accedervi con il rispettivo URL</li><li>Non sono più inclusi nelle consegne pianificate, nei casi in cui erano precedentemente configurate per le consegne pianificate<br/>Per informazioni sulle consegne pianificate, consulta [Progetti pianificati](/help/components/scheduled-projects-manager.md).  </p> |
 | ![Condividi](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Condividi]** | Condividi un progetto. Per ulteriori informazioni, consulta [Condividere un progetto](/help/analysis-workspace/curate-share/share-projects.md). |
-| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rinomina]** | Rinomina un progetto. Apre una **[!UICONTROL finestra di dialogo Rinomina: *nome progetto *]**. Immetti un nuovo nome e seleziona&#x200B;**[!UICONTROL Salva &#x200B;]**. |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rinomina]** | Rinomina un progetto. Apre una **[!UICONTROL finestra di dialogo Rinomina: *nome progetto *]**. Immetti un nuovo nome e seleziona**[!UICONTROL Salva ]**. |
 | ![Copia](/help/assets/icons/Copy.svg) | **[!UICONTROL Copia]** | Copia uno o più progetti. Al progetto vengono assegnati lo stesso nome e suffisso `(Copy)`. |
 | ![PinOnff](/help/assets/icons/PinOff.svg) | **[!UICONTROL Fissa]** o **[!UICONTROL Rimuovi]** | Fissa o sposta uno o più progetti o cartelle. I progetti e le cartelle fissati vengono visualizzati nella parte superiore dell’elenco e ignorano l’ordinamento specificato. |
 | ![ArrowUp](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL Sposta in alto]** | Sposta un progetto o una cartella fissati verso l’alto nell’elenco dei progetti. |
@@ -114,14 +119,14 @@ Il pannello dei filtri è costituito dalle sezioni seguenti.
 
 | Tag | Descrizione |
 |---|---|
-| ![Tag](/help/analysis-workspace/build-workspace-project/assets/projects-filters-tags.png){width="300"} | La sezione **[!UICONTROL Tag]** consente di filtrare i tag. <ul><li>Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca tag* per cercare i tag in base ai quali applicare il filtro.</li><li>Puoi selezionare più di un tag. I tag disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**2︎⃣**: numero di tag disponibili per i progetti, risultanti dal filtro corrente.</li><li>7︎⃣: numero di progetti associati al tag specifico.</li></ul></li></ul> |
+| ![Tag](/help/analysis-workspace/build-workspace-project/assets/projects-filters-tags.png){width="300"} | La sezione **[!UICONTROL Tag]** consente di filtrare in base ai tag. <ul><li>Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca tag* per cercare i tag in base ai quali applicare il filtro.</li><li>Puoi selezionare più di un tag. I tag disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**2︎⃣**: numero di tag disponibili per i progetti, risultanti dal filtro corrente.</li><li>7︎⃣: numero di progetti associati al tag specifico.</li></ul></li></ul> |
 
 
 ### Visualizzazione dati
 
 | Visualizzazione dati | Descrizione |
 |---|---|
-| ![Visualizzazioni dati](/help/analysis-workspace/build-workspace-project/assets/projects-filters-dataviews.png){width="300"} | La sezione **[!UICONTROL Visualizzazione dati]** consente di filtrare le visualizzazioni dati. <ul><li>Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca visualizzazioni dati* per cercare le visualizzazioni dati in base alle quali applicare il filtro.</li><li>Puoi selezionare più di una visualizzazione dati. Le visualizzazioni dati disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**3︎⃣**: numero di visualizzazioni dati disponibili per i progetti, risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati alla visualizzazione dati specifica.</li></ul></li></ul> |
+| ![Visualizzazioni dati](/help/analysis-workspace/build-workspace-project/assets/projects-filters-dataviews.png){width="300"} | La sezione **[!UICONTROL Visualizzazione dati]** consente di filtrare in base alle visualizzazioni dati. <ul><li>Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca visualizzazioni dati* per cercare le visualizzazioni dati in base alle quali applicare il filtro.</li><li>Puoi selezionare più di una visualizzazione dati. Le visualizzazioni dati disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**3︎⃣**: numero di visualizzazioni dati disponibili per i progetti, risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati alla visualizzazione dati specifica.</li></ul></li></ul> |
 
 
 ### Proprietari
@@ -142,7 +147,7 @@ Il pannello dei filtri è costituito dalle sezioni seguenti.
 
 | Altri filtri | Descrizione |
 |---|---|
-| ![Altri filtri](/help/analysis-workspace/build-workspace-project/assets/projects-filters-others.png){width="300"} | La sezione **[!UICONTROL Altri filtri]** ti consente di filtrare in base ad un altro filtro predefinito.<ul><li>È possibile scegliere una o più delle opzioni seguenti:<ul><li> **[!UICONTROL Mostra tutti]**</li><li>**[!UICONTROL Condiviso con me]**</li><li>**[!UICONTROL Mio]**</li><li>**[!UICONTROL Approvato]**</li><li>**[!UICONTROL Preferiti]**</li></ul> Ciò che puoi selezionare dipende dal tuo ruolo e dalle autorizzazioni.</li><li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**5︎⃣**: numero di altri filtri disponibili per i progetti risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati all’altro filtro specifico.</li></ul></li></ul> |
+| ![Altri filtri](/help/analysis-workspace/build-workspace-project/assets/projects-filters-others.png){width="300"} | La sezione **[!UICONTROL Altri filtri]** consente di filtrare in base ad altri filtri predefiniti.<ul><li>È possibile scegliere una o più delle opzioni seguenti:<ul><li> **[!UICONTROL Mostra tutti]**</li><li>**[!UICONTROL Condivisi con me]**</li><li>**[!UICONTROL I miei]**</li><li>**[!UICONTROL Approvato]**</li><li>**[!UICONTROL Preferiti]**</li></ul> Ciò che puoi selezionare dipende dal tuo ruolo e dalle autorizzazioni.</li><li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**5︎⃣**: numero di altri filtri disponibili per i progetti risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati all’altro filtro specifico.</li></ul></li></ul> |
 
 ## Ricerca
 
@@ -174,16 +179,16 @@ The Projects page contains the following information:
 | [Edit preferences](/help/analysis-workspace/user-preferences.md) | Manage settings for Analysis Workspace and its related components for all new projects or panels that you create.  |
 | [Create folder](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)  | Add a new folder or subfolder to the list of projects and folders. |
 | [Create project](/help/analysis-workspace/build-workspace-project/create-projects.md)  | Start a new project from scratch.  |
-|  Show more  |Reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=it), or [viewing release notes](/help/release-notes/latest.md).  |
+|  Show more  |Reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html), or [viewing release notes](/help/release-notes/latest.md).  |
 | Show Folders & Projects| Choose whether to show the folder structure of projects. For more information, see [About Folders in Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 |  Customize table (icon)  | Allows you to customize the information that shows for each project on the Projects page.  |
 |  Name  | Name of the Workspace project.  |
-| Type | Indicates whether this is a Workspace Project, a folder, or a [Mobile Scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=it). |
+| Type | Indicates whether this is a Workspace Project, a folder, or a [Mobile Scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html). |
 |  Tags  |Tags that were applied to the project.  |
 | Scheduled | Indicates whether projects are scheduled to be emailed to recipients on a schedule. See [Send project data to others](/help/analysis-workspace/export/t-schedule-report.md). |
 | Shared link (anyone) | Projects can be shared with anyone--even with people who don't have access to Analysis Workspace. This column shows whether projects have been shared in this way. See [Share a project with anyone (no login required)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Share projects](/help/analysis-workspace/curate-share/share-projects.md) for more information. |
 | Data view | The data view that the project is associated with. |
-| [Project Role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=it) | Indicates your role for the project - owners, edit, duplicate, view. |
+| [Project Role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Indicates your role for the project - owners, edit, duplicate, view. |
 |  Owner  | The person who created this project (either you or someone who shared the project with you.)  |
 |  Shared with  | Users that the project has been shared with.  |
 |  Last Modified  | Date and time when the project was last modified.  |
@@ -206,7 +211,7 @@ Within a project, the menu provides options for managing your project, adding co
 |  Insert  | Insert new panels or visualizations from this menu. You can also insert new panels and visualizations from the left panel.  |
 |  [Components](/help/components/overview.md)  | Create new segments, calculated metric, date range, or alert components from your project. You can also create new components from the left panel. If your component definitions have recently changed, Refresh Components will retrieve the latest definitions. |
 |  [Share](/help/analysis-workspace/curate-share/send-schedule-files.md)  | Curate, share and schedule PDF/CSV projects to recipients in your organization.  |
-|  Help  | Access help documentation, videos, and the Analytics [Experience League community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it). Manage the visibility of Workspace tips as well as the [debugger](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/apis/using-analysis-workspace-to-build-api-2-requests). Find details about Workspace and factors that impact project [performance](/help/technotes/optimizing-performance.md).  |
+|  Help  | Access help documentation, videos, and the Analytics [Experience League community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). Manage the visibility of Workspace tips as well as the [debugger](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/apis/using-analysis-workspace-to-build-api-2-requests). Find details about Workspace and factors that impact project [performance](/help/technotes/optimizing-performance.md).  |
 |  Share button or Owner  | If you are in an Own or Edit for the project, the Share button in the top-right gives you one-click access to manage your project recipients. If you are in a Duplicate or View role for the project, you will see the project owner's name. |
 
 ### Project Info & Settings {#info-settings}

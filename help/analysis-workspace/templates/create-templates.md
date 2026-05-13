@@ -4,9 +4,15 @@ title: Creare e gestire i modelli
 feature: Workspace Basics
 role: User, Admin
 exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/xTwvC1oPjibPO1fMs1ig4CTqonTwEq20gY-FxlWgHSM
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: 1888
 ht-degree: 69%
 
 ---
@@ -57,7 +63,7 @@ Per informazioni su come gli utenti possono creare un progetto basato su un mode
 
 Gli amministratori possono modificare o eliminare i modelli aziendali.
 
-1. In Analysis Workspace, seleziona la scheda [!UICONTROL **Workspace**], quindi in **[!UICONTROL Modelli]** nella barra a sinistra, seleziona **[!UICONTROL _login_company_name _modelli]**.
+1. In Analysis Workspace, seleziona la scheda [!UICONTROL **Workspace**], quindi in **[!UICONTROL Modelli]** nella barra a sinistra, seleziona **[!UICONTROL _login _company_name_ modelli]**.
 
 1. Se visualizzi i modelli in una vista a colonne ![icona vista a colonne](assets/column-view-icon.png):
 
@@ -162,7 +168,7 @@ Per aggiungere componenti mancanti a un modello:
 
       1. Individua il modello non ancora pronto per l’utilizzo con la visualizzazione dati.
 
-         ![Vista a schede modello aziendale](assets/company-template-cards.png)
+         ![Vista a schede dei modelli aziendali](assets/company-template-cards.png)
 
       1. Passa il puntatore del mouse sul modello, quindi seleziona **[!UICONTROL Anteprima]**.
 

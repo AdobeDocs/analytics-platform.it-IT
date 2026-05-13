@@ -5,9 +5,14 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 2022a841-fc2a-4a76-8d91-8227e7a2130a
-source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
+TQID: https://experienceleague.adobe.com/Z-D08miremjia0hNYhh6SSFe7YpiCqkl0gH-BLNPG6k
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: 1691
 ht-degree: 0%
 
 ---
@@ -38,17 +43,17 @@ Componenti come [Filtri](/help/components/segments/seg-overview.md), [Metriche c
 Gli oggetti Customer Journey Analytics sono disponibili nel riquadro **[!UICONTROL Dati]** e vengono recuperati dalla tabella selezionata in Power BI Desktop. Ad esempio, **[!UICONTROL public.cc_data_view]**. Il nome della tabella è uguale all’ID esterno definito per la visualizzazione dati in Customer Journey Analytics. Ad esempio, visualizzazione dati con **[!UICONTROL Titolo]** `C&C - Data View` e **[!UICONTROL ID esterno]** `cc_data_view`.
 
 **Dimensioni**
-Le dimensioni di Customer Journey Analytics sono identificate dal [!UICONTROL ID componente]. [!UICONTROL ID componente] definito nella visualizzazione dati di Customer Journey Analytics. La dimensione **[!UICONTROL Nome prodotto]** in Customer Journey Analytics, ad esempio, ha un [!UICONTROL ID componente] **[!UICONTROL nome_prodotto]**, che è il nome della dimensione in Power BI Desktop.
+Le dimensioni di Customer Journey Analytics sono identificate dall&#39;[!UICONTROL ID componente]. [!UICONTROL ID componente] definito nella visualizzazione dati di Customer Journey Analytics. La dimensione **[!UICONTROL Nome prodotto]** in Customer Journey Analytics, ad esempio, ha un [!UICONTROL ID componente] **[!UICONTROL nome_prodotto]**, che è il nome della dimensione in Power BI Desktop.
 Le dimensioni dell&#39;intervallo di date da Customer Journey Analytics, come **[!UICONTROL Giorno]**, **[!UICONTROL Settimana]**, **[!UICONTROL Mese]** e altre sono disponibili come **[!UICONTROL daterangeday]**, **[!UICONTROL daterangeweek]**, **[!UICONTROL daterangemonth]** e altre.
 
 **Metriche**
-Le metriche di Customer Journey Analytics sono identificate dal [!UICONTROL ID componente]. [!UICONTROL ID componente] definito nella visualizzazione dati di Customer Journey Analytics. La metrica **[!UICONTROL Ricavi acquisti]** in Customer Journey Analytics, ad esempio, ha un [!UICONTROL ID componente] **[!UICONTROL ricavi acquisti]**, che è il nome della metrica in Power BI Desktop. Un **[!UICONTROL ∑]** indica le metriche. Quando utilizzi una metrica in una visualizzazione, questa viene rinominata **[!UICONTROL Somma di *metrica *]**.
+Le metriche di Customer Journey Analytics sono identificate dall&#39;[!UICONTROL ID componente]. [!UICONTROL ID componente] definito nella visualizzazione dati di Customer Journey Analytics. La metrica **[!UICONTROL Ricavi acquisti]** in Customer Journey Analytics, ad esempio, ha un [!UICONTROL ID componente] **[!UICONTROL ricavi acquisti]**, che è il nome della metrica in Power BI Desktop. Un **[!UICONTROL ∑]** indica le metriche. Quando utilizzi una metrica in una visualizzazione, questa viene rinominata **[!UICONTROL Somma di *metrica *]**.
 
 **Filtri**
 I filtri definiti in Customer Journey Analytics sono disponibili nel campo **[!UICONTROL filterName]**. Quando si utilizza un campo **[!UICONTROL filterName]** in Power BI Desktop, è possibile specificare il filtro da utilizzare.
 
 **Metriche calcolate**
-Le metriche calcolate definite in Customer Journey Analytics sono identificate dal [!UICONTROL ID esterno] definito per la metrica calcolata. Ad esempio, la metrica calcolata **[!UICONTROL Nome prodotto (Conteggio distinto)]** ha [!UICONTROL ID esterno] **[!UICONTROL nome_prodotto_conteggio_distinto]** ed è visualizzata come **[!UICONTROL cm_nome_prodotto_conteggio_distinto]**&#x200B;t in Power BI Desktop.
+Le metriche calcolate definite in Customer Journey Analytics sono identificate dall&#39;[!UICONTROL ID esterno] definito per la metrica calcolata. Ad esempio, la metrica calcolata **[!UICONTROL Nome prodotto (Conteggio distinto)]** ha [!UICONTROL ID esterno] **[!UICONTROL nome_prodotto_conteggio_distinto]** ed è visualizzata come **[!UICONTROL cm_nome_prodotto_conteggio_distinto]**t in Power BI Desktop.
 
 **Intervalli di date**
 Gli intervalli di date definiti in Customer Journey Analytics sono disponibili nel campo **[!UICONTROL daterangeName]**. Quando si utilizza un campo **[!UICONTROL daterangeName]**, è possibile specificare l&#39;intervallo di date da utilizzare.
@@ -117,7 +122,7 @@ Le dimensioni di Customer Journey Analytics sono identificate dal [!UICONTROL no
 Le dimensioni dell&#39;intervallo di date da Customer Journey Analytics, come **[!UICONTROL Giorno]**, **[!UICONTROL Settimana]**, **[!UICONTROL Mese]** e altre sono disponibili come **[!UICONTROL Daterangeday]**, **[!UICONTROL Daterangeweek]**, **[!UICONTROL Daterangemonth]** e altre. Quando utilizzi una dimensione intervallo di date, devi selezionare una definizione appropriata di data o ora da applicare a tale dimensione intervallo di date dal menu a discesa. Ad esempio, **[!UICONTROL Anno]**, **[!UICONTROL Trimestre]**, **[!UICONTROL Mese]**, **[!UICONTROL Giorno]**.
 
 **Metriche**
-Le metriche di Customer Journey Analytics sono identificate dal [!UICONTROL nome componente]. Il [!UICONTROL Nome componente] è definito nella visualizzazione dati di Customer Journey Analytics. Ad esempio, la metrica **[!UICONTROL Ricavi da acquisto]** in Customer Journey Analytics ha un [!UICONTROL Nome componente] **[!UICONTROL Ricavi da acquisto]**, che è il nome della metrica in Tableau. Tutte le metriche sono identificate da **[!UICONTROL #]**. Quando utilizzi una metrica in una visualizzazione, questa viene rinominata in **[!UICONTROL Sum(*metric*)]**.
+Le metriche di Customer Journey Analytics sono identificate dal [!UICONTROL Nome componente]. Il [!UICONTROL Nome componente] è definito nella visualizzazione dati di Customer Journey Analytics. Ad esempio, la metrica **[!UICONTROL Ricavi da acquisto]** in Customer Journey Analytics ha un [!UICONTROL Nome componente] **[!UICONTROL Ricavi da acquisto]**, che è il nome della metrica in Tableau. Tutte le metriche sono identificate da **[!UICONTROL #]**. Quando utilizzi una metrica in una visualizzazione, questa viene rinominata in **[!UICONTROL Sum(*metric*)]**.
 
 **Filtri**
 I filtri definiti in Customer Journey Analytics sono disponibili nel campo **[!UICONTROL Nome filtro]**. Quando si utilizza un campo **[!UICONTROL Nome filtro]** in Tableau, è possibile specificare il filtro da utilizzare.
@@ -165,7 +170,7 @@ Le dimensioni di Customer Journey Analytics sono elencate come **[!UICONTROL DIM
 Le dimensioni dell&#39;intervallo di date da Customer Journey Analytics, come **[!UICONTROL Giorno]**, **[!UICONTROL Settimana]**, **[!UICONTROL Mese]** e altre sono disponibili come **[!UICONTROL Data Daterangeday]**, **[!UICONTROL Data Daterangeweek]**, **[!UICONTROL Data Daterangemonth]** e altre.  Quando utilizzi una dimensione di intervallo di date, devi selezionare una definizione appropriata di data o ora. Ad esempio, **[!UICONTROL Anno]**, **[!UICONTROL Trimestre]**, **[!UICONTROL Mese]**, **[!UICONTROL Data]**.
 
 **Metriche**
-Le metriche di Customer Journey Analytics sono elencate come **[!UICONTROL DIMENSION]** nella barra a sinistra di **[!UICONTROL Cc Data View]**. Ad esempio, la metrica **[!UICONTROL Ricavi da acquisto]** in Customer Journey Analytics ha un **[!UICONTROL DIMENSION]** **[!UICONTROL Ricavi da acquisto]**. Per utilizzare effettivamente come metrica, crea un campo misura personalizzato, come illustrato negli esempi precedenti, oppure utilizza il collegamento su una dimensione. Ad esempio, **[!UICONTROL ⋮]**, selezionare **[!UICONTROL Aggrega]**, quindi selezionare **[!UICONTROL Somma]**.
+Le metriche di Customer Journey Analytics sono elencate come **[!UICONTROL DIMENSION]** nella barra a sinistra **[!UICONTROL Cc Data View]**. Ad esempio, la metrica **[!UICONTROL Ricavi da acquisto]** in Customer Journey Analytics ha un **[!UICONTROL DIMENSION]** **[!UICONTROL Ricavi da acquisto]**. Per utilizzare effettivamente come metrica, crea un campo misura personalizzato, come illustrato negli esempi precedenti, oppure utilizza il collegamento su una dimensione. Ad esempio, **[!UICONTROL ⋮]**, selezionare **[!UICONTROL Aggrega]**, quindi selezionare **[!UICONTROL Somma]**.
 
 **Filtri**
 I filtri definiti in Customer Journey Analytics sono disponibili nel campo **[!UICONTROL Nome filtro]**. Quando si utilizza un campo **[!UICONTROL Nome filtro]** in Looker, è possibile specificare il filtro da utilizzare.

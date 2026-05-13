@@ -4,10 +4,16 @@ description: Scopri come pubblicare tipi di pubblico da Customer Journey Analyti
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 4717a85b9a3c7dc2cbdd8c625ebb5862cbfccd58
+TQID: https://experienceleague.adobe.com/BPbSzyh6eg3QC6NcAVgo06GAISzVH2CX35Z-Q32xMbE
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2391'
-ht-degree: 85%
+source-wordcount: 2478
+ht-degree: 84%
 
 ---
 
@@ -72,7 +78,7 @@ Consulta questa [panoramica](/help/components/audiences/audiences-overview.md) p
    | Metodo di creazione | Dettagli |
    | --- | --- |
    | Dall&#39;interfaccia **[!UICONTROL Tipi di pubblico pubblicati]** | Seleziona **[!UICONTROL Componenti]** > **[!UICONTROL Pubblico pubblicato]** dal menu principale di Customer Journey Analytics. Viene visualizzata l’interfaccia Tipi di pubblico. Seleziona **[!UICONTROL Crea pubblico]** e viene aperto [!UICONTROL Generatore di pubblico]. |
-   | Da una visualizzazione in Analysis Workspace | Molte visualizzazioni in Analysis Workspace consentono di creare un pubblico utilizzando il menu di scelta rapida. È ad esempio possibile selezionare **[!UICONTROL Crea pubblico]** dal menu di scelta rapida di un elemento in una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o un nodo nell&#39;[area di lavoro Percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>L’utilizzo di questo metodo precompila il segmento in Audience Builder con la dimensione o l’elemento dimensione selezionato.</p><p>Le seguenti visualizzazioni ti consentono di creare un pubblico utilizzando il menu di scelta rapida:</p><ul><li>[Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Mappa &#x200B;](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** questa visualizzazione è in fase di test limitato della versione e potrebbe non essere ancora disponibile nel tuo ambiente.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** i tipi di pubblico non possono includere metriche calcolate. Se tenti di creare un pubblico che contiene una metrica calcolata, questa non viene inclusa nella definizione del pubblico.</p> |
+   | Da una visualizzazione in Analysis Workspace | Molte visualizzazioni in Analysis Workspace consentono di creare un pubblico utilizzando il menu di scelta rapida. È ad esempio possibile selezionare **[!UICONTROL Crea pubblico]** dal menu di scelta rapida di un elemento in una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o un nodo nell&#39;[area di lavoro Percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>L’utilizzo di questo metodo precompila il segmento in Audience Builder con la dimensione o l’elemento dimensione selezionato.</p><p>Le seguenti visualizzazioni ti consentono di creare un pubblico utilizzando il menu di scelta rapida:</p><ul><li>[Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Mappa ](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** questa visualizzazione è in fase di test limitato della versione e potrebbe non essere ancora disponibile nel tuo ambiente.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** i tipi di pubblico non possono includere metriche calcolate. Se tenti di creare un pubblico che contiene una metrica calcolata, questa non viene inclusa nella definizione del pubblico.</p> |
    | Dall’interfaccia utente di creazione/modifica del segmento | Seleziona la casella che riporta **[!UICONTROL Crea un pubblico da questo segmento]**. Usando questo metodo il segmento viene precompilato. Per ulteriori informazioni, consulta [Creare i segmenti](/help/components/segments/seg-create.md). |
 
    {style="table-layout:auto"}
@@ -206,7 +212,7 @@ I tipi di pubblico di Customer Journey Analytics non sono inclusi nel processo d
 * **Conteggi deterministici in Real-Time Customer Data Platform**: il conteggio in Real-Time Customer Data Platform è fisso e non cambia fino al successivo intervallo di pubblicazione.
 * **Frammentazione dei profili**: tieni presente che i profili esistenti in Real-Time Customer Data Platform potrebbero non contribuire a nuovi conteggi di profili durante l’importazione da Customer Journey Analytics.
 
-Differenziando chiaramente questi aspetti, puoi comprendere e gestire meglio i dati del pubblico in Customer Journey Analytics e Real-Time Customer Data Platform.--->
+Differenziando chiaramente questi aspetti, puoi comprendere e gestire meglio i dati sul pubblico in Customer Journey Analytics e Real-Time Customer Data Platform.—>
 
 ## Domande frequenti {#faq}
 

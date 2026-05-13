@@ -4,10 +4,15 @@ title: Didascalie intelligenti
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/cMpmTT8WWewDiKtkAwKnEMqogY-yOeXf97nPu79avBE
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 81%
+source-wordcount: 802
+ht-degree: 82%
 
 ---
 
@@ -37,7 +42,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 Per avviare le didascalie intelligenti generate automaticamente per una visualizzazione, seleziona ![Didascalie intelligenti](/help/assets/icons/AI.svg) in alto a destra della visualizzazione. Questa selezione genera informazioni approfondite sul linguaggio naturale.
 
-![Finestra di avvio analisi che mostra le didascalie intelligenti per la tendenza delle visualizzazioni del prodotto. &#x200B;](assets/intelligent-captions.gif)
+![Finestra di avvio analisi che mostra le didascalie intelligenti per la tendenza delle visualizzazioni del prodotto. ](assets/intelligent-captions.gif)
 
 
 Tieni presente che:
@@ -60,7 +65,7 @@ Le didascalie intelligenti sono supportate nelle seguenti visualizzazioni:
 * [A barre orizzontali](horizontal-bar.md)
 * [Area](area.md) (incluse più linee di area)
 * [Ad anello](donut.md)
-* [Abbandono](fallout/fallout-flow.md)
+* [Fallout](fallout/fallout-flow.md)
 * [Flusso](c-flow/flow.md)
 
 <!--

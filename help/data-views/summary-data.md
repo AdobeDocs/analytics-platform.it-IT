@@ -5,9 +5,14 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+TQID: https://experienceleague.adobe.com/Le3nM2krrdqEqvPORV1iv4egFsLSBkdxup2q5Owh2OA
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: 1166
 ht-degree: 94%
 
 ---
@@ -106,7 +111,7 @@ Il fuso orario dei dati di riepilogo è definito a livello di schema di riepilog
 - Per la granularità giornaliera, Experience Platform attribuisce valori UTC, a meno che la marca temporale non includa uno scostamento di fuso orario. Quando si aggiunge il set di dati di riepilogo contenente i dati di riepilogo giornalieri, Customer Journey Analytics ignora la definizione del fuso orario impostata nello schema e rispetta il giorno associato alla marca temporale dai dati nel set di dati.
 - Per la granularità oraria, Customer Journey Analytics rispetta il fuso orario configurato nello schema dei dati di riepilogo in Experience Platform durante l’interpretazione della marca temporale. La tabella seguente fornisce alcuni esempi di tale interpretazione.
 
-  | Marca temporale <br/>dati di origine | Schema<br/>fuso orario  | Marca temporale<br/>Experience<br/>Platform | Visualizzazione<br/> dati<br/>fuso orario | Marca temporale<br/>Customer<br/>Journey<br>Analytics |
+  | Marca temporale <br/>dati di origine | Schema<br/>fuso orario | Marca temporale<br/>Experience<br/>Platform | Visualizzazione<br/> dati<br/>fuso orario | Marca temporale<br/>Customer<br/>Journey<br>Analytics |
   |---|---|---|:---|---|
   | 2024-07-29T01:00:00 | *GMT predefinito* | 2024-07-29T01:00:00 | GMT | 2024-07-29T01:00:00 |
   | 2024-07-29T01:00:00 | *GMT predefinito* | 2024-07-29T01:00:00 | PST | 2024-07-28T18:00:00 |
@@ -154,5 +159,5 @@ Assicurati che le impostazioni dei componenti per un gruppo di dati di riepilogo
 >[!MORELIKETHIS]
 >
 >- Consulta l’articolo [Utilizzare i dati di riepilogo](/help/use-cases/data-views/summary-data.md) per un esempio dettagliato di caso d’uso su come utilizzare i dati di riepilogo e generare rapporti su di essi.
->- Blog: [Come i dati di riepilogo migliorano i set di dati di Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635?profile.language=it)
+>- Blog: [Come i dati di riepilogo migliorano i set di dati di Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635)
 

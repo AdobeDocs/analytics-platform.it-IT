@@ -6,9 +6,14 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: 973e999b611d578da12018e60becf48efd7a76f8
+TQID: https://experienceleague.adobe.com/9PqVAdD1FP8I5rNimNfSoUrVNOTmMAXaPgMMsYT8gGQ
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: c38ed341-fab2-46df-9d72-88d8166edebbid: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: 838
 ht-degree: 47%
 
 ---
@@ -39,7 +44,7 @@ Per inviare un file ai destinatari tramite e-mail:
 1. Aggiungi destinatari o gruppi. Puoi anche immettere indirizzi e-mail.
 1. (Solo per i clienti Healthcare Shield) Fornisci una password per [proteggere con password un report pianificato](#password-protect-a-new-scheduled-project).
 1. (Facoltativo) Seleziona **[!UICONTROL Mostra opzioni di pianificazione]** per [pianificare un&#39;esportazione di file](#schedule-file-export).
-1. Fai clic su **[!UICONTROL Invia ora]**. Seleziona **[!UICONTROL Annulla]** per annullare.
+1. Fai clic su **[!UICONTROL Send Now]** (Invia subito). Seleziona **[!UICONTROL Annulla]** per annullare.
 
 
 ## Pianificare l’esportazione di file {#schedule}
@@ -86,7 +91,7 @@ Per inviare un file ai destinatari in base a una pianificazione tramite e-mail:
 
 >[!NOTE]
 >
->L’opzione per proteggere un progetto pianificato tramite password viene visualizzata solo per i clienti Customer Journey Analytics che hanno acquistato il prodotto aggiuntivo [Healthcare Shield](https://business.adobe.com/it/solutions/industries/healthcare.html?lang=it).
+>L’opzione per proteggere un progetto pianificato tramite password viene visualizzata solo per i clienti Customer Journey Analytics che hanno acquistato il prodotto aggiuntivo [Healthcare Shield](https://business.adobe.com/solutions/industries/healthcare.html?lang=it).
 
 Adobe utilizza la password per crittografare i progetti pianificati, sia che siano inviati in formato .pdf o .csv.
 
@@ -103,7 +108,7 @@ I requisiti relativi alla password sono conformi agli standard Adobe che richied
 ### Proteggere un nuovo progetto pianificato tramite password
 
 1. Dopo aver salvato il progetto, vai a **[!UICONTROL Condividi]** > **[!UICONTROL Invia il file ora]** oppure **[!UICONTROL Condividi]** > **[!UICONTROL Invia il file secondo programma]**.
-1. Segui le istruzioni precedenti, in [Invia il file ora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#now) o [Invia il file secondo pianificazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#schedule).
+1. Segui le istruzioni precedenti, in [Invia il file ora](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now) o [Invia il file secondo pianificazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule).
 
 ### Proteggere un progetto pianificato esistente tramite password
 

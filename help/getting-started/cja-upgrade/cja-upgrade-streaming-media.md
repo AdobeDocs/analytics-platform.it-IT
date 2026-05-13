@@ -5,10 +5,15 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: b807099d-a61d-48f9-9fec-94ecc6b76213
-source-git-commit: 380ed5c9ee0c21ea9855a41728afec040637ce65
+TQID: https://experienceleague.adobe.com/CmL9Bz88xTynv-W-wfo3PhTjPga572pSw6URbThcQRY
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 20%
+source-wordcount: 391
+ht-degree: 18%
 
 ---
 
@@ -31,13 +36,13 @@ Durante i passaggi per l’aggiornamento da Adobe Analytics a Customer Journey A
 
 * Durante la creazione dello schema per Customer Journey Analytics, includere il gruppo di campi `MediaAnalytics Interaction Details`.
 
-  Per ulteriori informazioni sull&#39;aggiunta di questo gruppo di campi, vedere [Configurare lo schema in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#set-up-the-schema-in-adobe-experience-platform) nella Guida alla raccolta di contenuti multimediali in streaming.
+  Per ulteriori informazioni sull&#39;aggiunta di questo gruppo di campi, vedere [Configurare lo schema in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#set-up-the-schema-in-adobe-experience-platform) nella Guida alla raccolta di contenuti multimediali in streaming.
 
   Per informazioni sulla creazione dello schema, vedere [Creare uno schema personalizzato da utilizzare con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
 
 * Durante la configurazione dello stream di dati per Customer Journey Analytics, abilita Media Analytics.
 
-  Per ulteriori informazioni sull&#39;abilitazione di questa opzione, vedere [Configurare uno stream di dati in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#configure-a-datastream-in-adobe-experience-platform) nella Guida alla raccolta di contenuti multimediali in streaming.
+  Per ulteriori informazioni sull&#39;abilitazione di questa opzione, vedere [Configurare uno stream di dati in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#configure-a-datastream-in-adobe-experience-platform) nella Guida alla raccolta di contenuti multimediali in streaming.
 
   Per informazioni sulla creazione dello stream di dati, vedere [Creare uno stream di dati da utilizzare con Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md).
 
@@ -65,17 +70,17 @@ Streaming Media Collection can be implemented in Adobe Analytics in either of th
 
 * [Adobe Analytics-only implementations for the Streaming Media Collection](#adobe-analytics-only-implementations)
 
-For more information about the differences between these implementation methods, see [Implement the Streaming Media Collection](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/overview) in the Streaming Media Collection Guide.
+For more information about the differences between these implementation methods, see [Implement the Streaming Media Collection](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview) in the Streaming Media Collection Guide.
 
 ## Edge Network implementations for the Streaming Media Collection
 
-If the Streaming Media Collection is [implemented using the Edge Network in your Adobe Analytics implementation](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/overview#edge-implementation-methods), this means that some steps that are required to upgrade the Streaming Media Collection to Customer Journey Analytics have already been completed as part of your Adobe Analytics implementation. Following are the completed steps:
+If the Streaming Media Collection is [implemented using the Edge Network in your Adobe Analytics implementation](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview#edge-implementation-methods), this means that some steps that are required to upgrade the Streaming Media Collection to Customer Journey Analytics have already been completed as part of your Adobe Analytics implementation. Following are the completed steps:
 
-* [Set up the schema in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#set-up-the-schema-in-adobe-experience-platform)
+* [Set up the schema in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#set-up-the-schema-in-adobe-experience-platform)
 
-* [Create a dataset in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#create-a-dataset-in-adobe-experience-platform)
+* [Create a dataset in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#create-a-dataset-in-adobe-experience-platform)
 
-* [Configure a datastream in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#configure-a-datastream-in-adobe-experience-platform)
+* [Configure a datastream in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#configure-a-datastream-in-adobe-experience-platform)
 
 The following additional steps need to be completed as part of the upgrade to Customer Journey Analytics:
 
@@ -90,19 +95,19 @@ The following additional steps need to be completed as part of the upgrade to Cu
 
 ## Adobe Analytics-only implementations for the Streaming Media Collection
 
-If the Streaming Media Collection is [implemented using an Adobe Analytics-only implementation in your Adobe Analytics environment](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/overview#adobe-analytics-only-implementation-methods), this means that Streaming Media data is not yet going to Edge Network. 
+If the Streaming Media Collection is [implemented using an Adobe Analytics-only implementation in your Adobe Analytics environment](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview#adobe-analytics-only-implementation-methods), this means that Streaming Media data is not yet going to Edge Network. 
 
 As you create the schema, dataset, datastream, connection, and data view as part of your upgrade from Adobe Analytics to Customer Journey Analytics, make the following selections to account for Streaming Media Collection data:
 
 * When creating the schema for Customer Journey Analytics, include the `MediaAnalytics Interaction Details` field group.
 
-  For more information about adding this field group, see [Set up the schema in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#set-up-the-schema-in-adobe-experience-platform) in the Streaming Media Collection Guide.
+  For more information about adding this field group, see [Set up the schema in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#set-up-the-schema-in-adobe-experience-platform) in the Streaming Media Collection Guide.
 
   For information about creating the schema, see [Create a custom schema to use with Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
 
 * When configuring the datastream for Customer Journey Analytics, enable Media Analytics. 
 
-  For more information about enabling this option, see [Configure a datastream in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#configure-a-datastream-in-adobe-experience-platform) in the Streaming Media Collection Guide.
+  For more information about enabling this option, see [Configure a datastream in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#configure-a-datastream-in-adobe-experience-platform) in the Streaming Media Collection Guide.
 
   For information about creating the datastream, see [Create a datastream to use with Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md).
 

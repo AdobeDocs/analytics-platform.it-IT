@@ -4,9 +4,13 @@ description: Scopri come utilizzare la preparazione dati per combinare suite di 
 exl-id: 2656cc21-3980-4654-bffb-b10908cb21f5
 feature: Use Cases
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/FFiLA3xBgA-xA3PMXX-sMPy7fTLfHhrSDAvLq0KA3g4
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: 1390
 ht-degree: 55%
 
 ---
@@ -59,7 +63,7 @@ La funzionalità Preparazione dati di Experience Platform è integrata con il co
    | Classe **XDM ExperienceEvent** |
    | Gruppo di campi **Modello Adobe Analytics ExperienceEvent** |
 
-1. Aggiungi un altro gruppo di campi allo schema o [creare un gruppo di campi personalizzato](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=it#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail) e aggiungilo allo schema. Creeremo un nuovo gruppo di campi e lo chiameremo **Campi unificati**, quindi aggiungeremo i seguenti campi al nuovo gruppo di campi:
+1. Aggiungi un altro gruppo di campi allo schema o [creare un gruppo di campi personalizzato](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail) e aggiungilo allo schema. Creeremo un nuovo gruppo di campi e lo chiameremo **Campi unificati**, quindi aggiungeremo i seguenti campi al nuovo gruppo di campi:
 
    | Gruppo di campi personalizzato “Campi unificati”  |
    | --- |
@@ -158,6 +162,6 @@ Utilizzando la preparazione dati, puoi combinare la categoria di clienti in eVar
 
 ## Preparazione dati e ID componente
 
-Come descritto in precedenza, la preparazione dati ti consente di mappare diversi campi tra loro in più suite di rapporti di Adobe Analytics. Questa funzione è utile in Customer Journey Analytics quando desideri combinare dati provenienti da più set di dati in una singola connessione Customer Journey Analytics. Tuttavia, se desideri mantenere le suite di rapporti in connessioni Customer Journey Analytics separate, ma desideri utilizzare un set di rapporti su tali connessioni e visualizzazioni dati, la modifica dell’ID componente sottostante in Customer Journey Analytics consente di rendere i rapporti compatibili anche se gli schemi sono diversi. Consulta [Component Settings](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html?lang=it) (Impostazioni dei componenti) per ulteriori informazioni.
+Come descritto in precedenza, la preparazione dati ti consente di mappare diversi campi tra loro in più suite di rapporti di Adobe Analytics. Questa funzione è utile in Customer Journey Analytics quando desideri combinare dati provenienti da più set di dati in una singola connessione Customer Journey Analytics. Tuttavia, se desideri mantenere le suite di rapporti in connessioni Customer Journey Analytics separate, ma desideri utilizzare un set di rapporti su tali connessioni e visualizzazioni dati, la modifica dell’ID componente sottostante in Customer Journey Analytics consente di rendere i rapporti compatibili anche se gli schemi sono diversi. Consulta [Component Settings](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html) (Impostazioni dei componenti) per ulteriori informazioni.
 
 La modifica dell’ID componente è una funzione esclusiva di Customer Journey Analytics e non influisce sui dati provenienti dal connettore di origine di Analytics che vengono inviati a Real-time Customer Profile e RTCDP.

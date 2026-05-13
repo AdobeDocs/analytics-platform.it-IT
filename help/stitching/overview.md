@@ -5,10 +5,14 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: 1c42efac-b3d2-437b-8b0b-9c6fdfed8520
 role: Admin
-source-git-commit: d1ba2d203738ca9bf74d17bb93712eff26f88f25
+TQID: https://experienceleague.adobe.com/ovkuHhI-eEqKyD3dYuZgivexC4VQ0AIMZuIa3GokO6M
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 54%
+source-wordcount: 1022
+ht-degree: 58%
 
 ---
 
@@ -36,7 +40,7 @@ Customer Journey Analytics supporta due tipi di unione delle identità: [unione 
 
 Prima di utilizzare l’unione delle identità, assicurati che la tua organizzazione sia preparata con quanto segue:
 
-- L’unione delle identità include l’unione di dati utente autenticati e non autenticati. Prima di attivare l’unione su un set di dati evento, assicurati di rispettare le leggi e le normative applicabili, incluso l’ottenimento delle autorizzazioni necessarie per l’utente finale.
+- L’unione delle identità include l’unione di dati utente autenticati e non autenticati. Prima di attivare l’unione delle identità per un set di dati evento, assicurati di rispettare le leggi e normative applicabili, incluso l’ottenimento delle autorizzazioni necessarie per l’utente finale.
 
 - Importa i dati desiderati in Adobe Experience Platform:
 
@@ -96,9 +100,9 @@ L’unione supporta i seguenti set di dati di Journey Optimizer generati automat
 
 >[!MORELIKETHIS]
 >
->[Unione delle identità basata sui campi](fbs.md)
+>[Unione basata sui campi](fbs.md)
 >[Unione delle identità basata su grafo](gbs.md)
->[Utilizzare l’unione delle identità](use-stitching.md)
+>[Utilizzare l’unione](use-stitching.md)
 >[Convalidare l’unione delle identità](validate.md)
 >[Domande frequenti sull’unione delle identità](faq.md)
 

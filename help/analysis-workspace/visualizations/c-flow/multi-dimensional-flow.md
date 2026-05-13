@@ -4,10 +4,15 @@ title: Flussi interdimensionali
 feature: Visualizations
 exl-id: 459166b1-a522-45b6-9d2c-69e3409e442e
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+TQID: https://experienceleague.adobe.com/kH0wOKJkxXN879g-yhXe0Znq-h7M6SKJDTydb9ouD0w
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 4%
+source-wordcount: 338
+ht-degree: 5%
 
 ---
 
@@ -23,11 +28,11 @@ A dimension label at the top of each Flow column makes using multiple dimensions
 
 ## Interazioni ed eventi delle app mobili
 
-La dimensione [!UICONTROL Screen Name] viene utilizzata in questo flusso di esempio per vedere come gli utenti utilizzano le varie schermate (scene) nell&#39;app. La schermata superiore restituita è **[!UICONTROL luma: content: ios: en: home]**, che è la home page dell&#39;app:
+La dimensione [!UICONTROL Nome schermo] viene utilizzata in questo flusso di esempio per vedere come gli utenti utilizzano le varie schermate (scene) nell&#39;app. La schermata superiore restituita è **[!UICONTROL luma: content: ios: en: home]**, che è la home page dell&#39;app:
 
 ![Un flusso che mostra l&#39;elemento aggiunto.](assets/flowapp.png)
 
-Per esplorare l&#39;interazione tra schermate e tipi di evento (come aggiungi al carrello, acquisti e altri) in questa app, trascina e rilascia la dimensione **[!UICONTROL Event Types]**:
+Per esplorare l&#39;interazione tra schermate e tipi di evento (come aggiungi al carrello, acquisti e altri) in questa app, trascina e rilascia la dimensione **[!UICONTROL Tipi di evento]**:
 
 * Per sostituire la dimensione, esegui le operazioni riportate di seguito.
 
@@ -37,17 +42,17 @@ Per esplorare l&#39;interazione tra schermate e tipi di evento (come aggiungi al
 
   ![Flusso che mostra la dimensione Pagina trascinata nello spazio vuoto alla fine.](assets/flowapp-add.png)
 
-La visualizzazione di flusso seguente mostra il risultato dell&#39;aggiunta della dimensione **[!UICONTROL Event Types]**. La visualizzazione fornisce informazioni su come gli utenti dell’app mobile si spostano attraverso le varie schermate dell’app prima di aggiungere prodotti al carrello, chiudere l’applicazione, visualizzare un’offerta e altro ancora.
+La visualizzazione di flusso seguente mostra il risultato dell&#39;aggiunta della dimensione **[!UICONTROL Tipi di evento]**. La visualizzazione fornisce informazioni su come gli utenti dell’app mobile si spostano attraverso le varie schermate dell’app prima di aggiungere prodotti al carrello, chiudere l’applicazione, visualizzare un’offerta e altro ancora.
 
 ![Un fLow che mostra i risultati della dimensione Pagina nella parte superiore dell&#39;elenco.](assets/flowapp-result.png)
 
 ## Come le campagne guidano le visite web
 
-Desideri analizzare quali campagne sono all’origine delle visite al sito web. Si crea una visualizzazione di flusso con **[!UICONTROL Campaign Name]** come dimensione
+Desideri analizzare quali campagne sono all’origine delle visite al sito web. Crea una visualizzazione di flusso con **[!UICONTROL Nome campagna]** come dimensione
 
 ![Dimensione nome campagna Web flusso](assets/flowweb.png)
 
-L&#39;ultima dimensione **[!UICONTROL Campaign Name]** viene sostituita con la dimensione **[!UICONTROL Formatted Page Name]** e viene aggiunta un&#39;altra dimensione **[!UICONTROL Formatted Page Name]** alla fine della visualizzazione del flusso.
+Sostituisci l&#39;ultima dimensione **[!UICONTROL Nome campagna]** con la dimensione **[!UICONTROL Nome pagina formattato]** e aggiungi un&#39;altra dimensione **[!UICONTROL Nome pagina formattato]** alla fine della visualizzazione del flusso.
 
 ![Nome campagna Web di flusso e dimensione pagina Web](assets/flowweb-replace.png)
 

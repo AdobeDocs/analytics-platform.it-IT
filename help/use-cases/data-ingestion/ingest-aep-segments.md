@@ -5,10 +5,16 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
 role: Admin
-source-git-commit: a30b4286207eb72f7674bb4f6ba4cf0a1aecd280
+TQID: https://experienceleague.adobe.com/cyNvsdN-bSBY2VqCdxAZvWhyTx8--sOUMifbuYrZKTM
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 9%
+source-wordcount: 1680
+ht-degree: 11%
 
 ---
 
@@ -19,7 +25,7 @@ Questo caso d’uso descrive una soluzione provvisoria per acquisire il pubblico
 ## Prerequisiti
 
 * Accesso a [Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home), in particolare al profilo cliente in tempo reale.
-* Accesso per creare e gestire [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview) di Experience Platform.
+* Accesso per creare e gestire [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) di Experience Platform.
 * Accesso a [Experience Platform Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home) (e possibilità di scrivere codice SQL).
 * Accesso a uno strumento in grado di eseguire alcune trasformazioni di dati.
 * Accesso a Customer Journey Analytics. Devi essere un [amministratore di prodotto Customer Journey Analytics](/help/technotes/access-control.md) per creare e modificare connessioni e visualizzazioni dati di Customer Journey Analytics.
@@ -39,7 +45,7 @@ La soluzione provvisoria prevede i seguenti passaggi:
 1. [Report and analyze (Interfaccia utente di Customer Journey Analytics)](#report-and-analyze).
 
 
-### Seleziona i tipi di pubblico
+### Seleziona tipi di pubblico
 
 La soluzione inizia con l’identificazione dei tipi di pubblico che desideri acquisire in Customer Journey Analytics.
 
@@ -47,8 +53,8 @@ La soluzione inizia con l’identificazione dei tipi di pubblico che desideri ac
 
 Nell’interfaccia utente di Experience Platform:
 
-1. Selezionare **[!UICONTROL Customer]** > ![SegmentAudience](/help/assets/icons2/SegmentAudience.svg) **[!UICONTROL Audiences]**.
-1. Selezionare **[!UICONTROL Browse]** e cercare i tipi di pubblico da acquisire e utilizzare in Customer Journey Analytics. Prendi nota di **[!UICONTROL Audience Id]** per ciascuno dei tipi di pubblico per un utilizzo successivo.
+1. Seleziona **[!UICONTROL Cliente]** > ![SegmentAudience](/help/assets/icons2/SegmentAudience.svg) **[!UICONTROL Tipi di pubblico]**.
+1. Seleziona **[!UICONTROL Sfoglia]** e cerca i tipi di pubblico da acquisire e utilizzare in Customer Journey Analytics. Prendi nota del **[!UICONTROL ID pubblico]** per ciascuno dei tipi di pubblico per un utilizzo successivo.
 
    ![Tipi di pubblico](assets/audiences.png)
 
@@ -56,7 +62,7 @@ Nell’interfaccia utente di Experience Platform:
 
 ### Creare un set di dati abilitato per il profilo
 
-È necessario creare un set di dati basato sullo schema **[!UICONTROL XDM Individual Profile]** basato su core. Non è possibile selezionare tale profilo individuale XDM basato su core come schema quando si crea un set di dati nell’interfaccia utente di Experience Platform. Utilizza invece l&#39;API [Catalog Service per creare un set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/create#create-a-dataset) basato sullo schema `_xdm.context.profile__union`.
+Devi creare un set di dati basato sullo schema **[!UICONTROL XDM Individual Profile]** basato su core. Non è possibile selezionare tale profilo individuale XDM basato su core come schema quando si crea un set di dati nell’interfaccia utente di Experience Platform. Utilizza invece l&#39;API [Catalog Service per creare un set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create#create-a-dataset) basato sullo schema `_xdm.context.profile__union`.
 
 +++ Crea richiesta set di dati
 
@@ -102,7 +108,7 @@ Dove:
 
 ### Esporta tipi di pubblico
 
-Esporta il pubblico selezionato nel set di dati appena creato. Utilizza l&#39;API del servizio di segmentazione [&#x200B; per creare un processo di esportazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/api/export-jobs#create) che invia i tipi di pubblico al set di dati.
+Esporta il pubblico selezionato nel set di dati appena creato. Utilizza l&#39;API del servizio di segmentazione [ per creare un processo di esportazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#create) che invia i tipi di pubblico al set di dati.
 
 +++ Esporta richiesta processo
 
@@ -170,7 +176,7 @@ Dove
 
 +++
 
-Utilizza l&#39;API del servizio di segmentazione [&#x200B; per controllare lo stato del processo di esportazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/api/export-jobs#get).
+Utilizza l&#39;API del servizio di segmentazione [ per controllare lo stato del processo di esportazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#get).
 
 +++ Recuperare una richiesta di processo di esportazione specifica
 
@@ -204,13 +210,13 @@ Dopo il completamento del processo di esportazione, verifica se il set di dati c
 
 Nell’interfaccia utente di Experience Platform:
 
-1. Selezionare **[!UICONTROL Data Management]** > ![Dati](/help/assets/icons2/Data.svg) **[!UICONTROL Datasets]**.
-1. Selezionare il set di dati creato, ad esempio: **[!UICONTROL Segment Export Job Dataset for CJA]**.
+1. Seleziona **[!UICONTROL Gestione dati]** > ![Dati](/help/assets/icons2/Data.svg) **[!UICONTROL Set di dati]**.
+1. Selezionare il set di dati creato, ad esempio: **[!UICONTROL Set di dati processo di esportazione segmento per CJA]**.
 
    ![Attività set di dati](assets/dataset-activity.png)
 
-1. Verifica i batch acquisiti. Se il set di dati contiene batch non riusciti, utilizzare **[!UICONTROL Data Management]** > ![Monitoraggio](/help/assets/icons2/Monitoring.svg) **[!UICONTROL Monitoring]** per verificare il motivo. Ad esempio, hai utilizzato un nome di campo che non esiste nello schema.
-1. Copia il **[!UICONTROL Table name]** del set di dati. Esempio: **[!UICONTROL segment_export_job_dataset_for_cja]**.  Usa questo nome nel passaggio successivo.
+1. Verifica i batch acquisiti. Se il set di dati contiene batch non riusciti, utilizzare **[!UICONTROL Gestione dati]** > ![Monitoraggio](/help/assets/icons2/Monitoring.svg) **[!UICONTROL Monitoraggio]** per verificare il motivo. Ad esempio, hai utilizzato un nome di campo che non esiste nello schema.
+1. Copia il **[!UICONTROL nome tabella]** del set di dati. Ad esempio: **[!UICONTROL segment_export_job_dataset_for_cja]**.  Usa questo nome nel passaggio successivo.
 
 +++
 
@@ -225,8 +231,8 @@ Utilizza un client PSQL che si connette a Experience Platform Query Service.
 
 Nell’interfaccia utente di Experience Platform:
 
-1. Selezionare **[!UICONTROL Data Management]** > ![DataSearch](/help/assets/icons2/DataSearch.svg) **[!UICONTROL Queries]**.
-1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Credentials]**.
+1. Seleziona **[!UICONTROL Gestione dati]** > ![Ricerca dati](/help/assets/icons2/DataSearch.svg) **[!UICONTROL Query]**.
+1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Credenziali]**.
 
 Utilizzare le credenziali per configurare il client PSQL per la connessione a Customer Journey Analytics Query Service.
 
@@ -328,22 +334,22 @@ Per creare lo schema:
 
 Nell’interfaccia utente di Experience Platform:
 
-1. Selezionare **[!UICONTROL Data Management]** > ![Schema](/help/assets/icons2/Schema.svg) **[!UICONTROL Schemas]**.
-1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create schema]**. Selezionare **[!UICONTROL Standard]** dal menu a discesa.
-1. Selezionare **[!UICONTROL Manual]** nella finestra di dialogo **[!UICONTROL Create a schema]** e utilizzare **[!UICONTROL Select]** per continuare.
-1. Nella procedura guidata **[!UICONTROL Create schema]**, nel passaggio **[!UICONTROL Select a class]**:
-   1. Seleziona **[!UICONTROL Individual Profile]** (Aggiungi set di dati).
-   1. Seleziona **[!UICONTROL Next]** (Salva).
-1. Nella procedura guidata **[!UICONTROL Create schema]**, nel passaggio **[!UICONTROL Name and review]**:
-   1. Immetti **[!UICONTROL Schema display name]**. Ad esempio: `Audience Export for CJA Schema`.
-   1. (facoltativo) Immettere **[!UICONTROL Description]**.
-   1. Seleziona **[!UICONTROL Finish]**.
-1. Impostare lo schema in modo che contenga un gruppo di campi personalizzato, denominato ad esempio **[!UICONTROL Audience Membership]**, contenente due campi denominati **[!UICONTROL audienceMembershipId]** e **[!UICONTROL audienceMembershipName]**.
-1. Assicurarsi che il campo **[!UICONTROL personID]** sia un **[!UICONTROL Identity]**, **[!UICONTROL Primary Identity]** e che abbia **[!UICONTROL Email]** come I&#x200B;**[!UICONTROL dentity namespace]**.
+1. Seleziona **[!UICONTROL Gestione dati]** > ![Schema](/help/assets/icons2/Schema.svg) **[!UICONTROL Schemi]**.
+1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Crea schema]**. Seleziona **[!UICONTROL Standard]** dal menu a discesa.
+1. Seleziona **[!UICONTROL Manuale]** nella finestra di dialogo **[!UICONTROL Crea schema]** e utilizza **[!UICONTROL Seleziona]** per continuare.
+1. Nella procedura guidata **[!UICONTROL Crea schema]**, nel passaggio **[!UICONTROL Seleziona una classe]**:
+   1. Selezionare **[!UICONTROL Profilo individuale]**.
+   1. Seleziona **[!UICONTROL Avanti]**.
+1. Nella procedura guidata **[!UICONTROL Crea schema]**, nel passaggio **[!UICONTROL Nome e revisione]**:
+   1. Immettere un nome visualizzato per lo schema ****. Ad esempio: `Audience Export for CJA Schema`.
+   1. (facoltativo) Immetti una **[!UICONTROL Descrizione]**.
+   1. Seleziona **[!UICONTROL Fine]**.
+1. Imposta lo schema in modo che contenga un gruppo di campi personalizzato (denominato, ad esempio, **[!UICONTROL Appartenenza pubblico]**) contenente due campi denominati **[!UICONTROL audienceMembershipId]** e **[!UICONTROL audienceMembershipName]**.
+1. Assicurati che il campo **[!UICONTROL personID]** sia un **[!UICONTROL Identity]**, **[!UICONTROL Primary Identity]** e che contenga **[!UICONTROL Email]** come I**[!UICONTROL dentity namespace]**.
 
    ![Segmento per esportazione](assets/segment-for-export.png)
 
-1. **[!UICONTROL Apply]** tutte le modifiche. Selezionare **[!UICONTROL Save]** per salvare lo schema.
+1. **[!UICONTROL Applica]** tutte le modifiche. Seleziona **[!UICONTROL Salva]** per salvare lo schema.
 
 +++
 
@@ -353,18 +359,18 @@ Crea un set di dati e utilizzalo per acquisire i dati JSON trasformati.
 
 Nell’interfaccia utente di Experience Platform:
 
-1. Selezionare **[!UICONTROL Data Management]** > ![Dati](/help/assets/icons2/Data.svg) **[!UICONTROL Datasets]**.
-1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create dataset]**.
-1. Seleziona **[!UICONTROL Create dataset from schema]**.
-1. Nella procedura guidata **[!UICONTROL Create dataset from schema]**, nel passaggio **[!UICONTROL Select schema]**:
-   1. Seleziona lo schema appena creato. Ad esempio: **[!UICONTROL Audience Export for CJA Schema]**.
-   1. Seleziona **[!UICONTROL Next]**.
-1. Nella procedura guidata **[!UICONTROL Create dataset from schema]**, nel passaggio **[!UICONTROL Configure dataset]**:
-   1. Immetti **[!UICONTROL Name]** per il set di dati.
-   1. (facoltativo) Immetti **[!UICONTROL Description]** per il set di dati.
-   1. Seleziona **[!UICONTROL Finish]**.
-1. In **[!UICONTROL Datasets]** > **[!UICONTROL _nome del set di dati_]**, trascina il file di dati JSON trasformato e rilascia il file in **[!UICONTROL Drag and drop files]**. Questa azione avvia l’acquisizione dei dati JSON esportati nel set di dati.
-1. Verifica i batch acquisiti. Se il set di dati contiene batch non riusciti, utilizzare **[!UICONTROL Data Management]** > ![Monitoraggio](/help/assets/icons2/Monitoring.svg) **[!UICONTROL Monitoring]** per verificare il motivo. Ad esempio, hai definito un nome di campo nel JSON che non esiste nello schema.
+1. Seleziona **[!UICONTROL Gestione dati]** > ![Dati](/help/assets/icons2/Data.svg) **[!UICONTROL Set di dati]**.
+1. Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Crea set di dati]**.
+1. Seleziona **[!UICONTROL Crea set di dati dallo schema]**.
+1. Nella procedura guidata **[!UICONTROL Crea set di dati dallo schema]**, nel passaggio **[!UICONTROL Seleziona schema]**:
+   1. Seleziona lo schema appena creato. Ad esempio: **[!UICONTROL Esportazione pubblico per schema CJA]**.
+   1. Seleziona **[!UICONTROL Avanti]**.
+1. Nella procedura guidata **[!UICONTROL Crea set di dati dallo schema]**, nel passaggio **[!UICONTROL Configura set di dati]**:
+   1. Immetti un **[!UICONTROL Nome]** per il set di dati.
+   1. (facoltativo) Immetti una **[!UICONTROL Descrizione]** per il set di dati.
+   1. Seleziona **[!UICONTROL Fine]**.
+1. In **[!UICONTROL Set di dati]** > **[!UICONTROL _nome del set di dati_]**, trascina il file di dati JSON trasformato e rilascia il file in **[!UICONTROL Trascina e rilascia i file]**. Questa azione avvia l’acquisizione dei dati JSON esportati nel set di dati.
+1. Verifica i batch acquisiti. Se il set di dati contiene batch non riusciti, utilizzare **[!UICONTROL Gestione dati]** > ![Monitoraggio](/help/assets/icons2/Monitoring.svg) **[!UICONTROL Monitoraggio]** per verificare il motivo. Ad esempio, hai definito un nome di campo nel JSON che non esiste nello schema.
 
 
 +++
@@ -377,15 +383,15 @@ Una volta acquisiti correttamente i dati JSON trasformati che contengono i dati 
 
 Nell’interfaccia utente di Customer Journey Analytics:
 
-1. Seleziona **[!UICONTROL Data Management]** > **[!UICONTROL Connections]**.
-1. Crea una nuova connessione/ Definisci **[!UICONTROL Connection settings]** e **[!UICONTROL Data settings]**. In alternativa, selezionare una connessione esistente e utilizzare ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit Connection]** per modificare la connessione.
-1. Selezionare ![DataAdd](/help/assets/icons/DataAdd.svg) **[!UICONTROL Add datasets]**.
+1. Selezionare **[!UICONTROL Gestione dati]** > **[!UICONTROL Connessioni]**.
+1. Crea una nuova connessione/ Definisci **[!UICONTROL Impostazioni connessione]** e **[!UICONTROL Impostazioni dati]**. In alternativa, selezionare una connessione esistente e utilizzare ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica connessione]** per modificare la connessione.
+1. Selezionare ![DataAdd](/help/assets/icons/DataAdd.svg) **[!UICONTROL Aggiungi set di dati]**.
 1. Seleziona il set di dati creato e in cui sono stati acquisiti i dati JSON trasformati.
 1. Configura il set di dati. Ad esempio:
 
    ![Connessione - Set di dati con dati del pubblico esportati](assets/connection-add-dataset.png)
 
-1. **[!UICONTROL Save]** connessione.
+1. **[!UICONTROL Salva]** la connessione.
 
 +++
 
@@ -395,13 +401,13 @@ Configura una visualizzazione dati per la connessione appena creata o modificata
 
 +++ Definire i componenti del pubblico
 
-1. Seleziona **[!UICONTROL Data Management]** > **[!UICONTROL Data views]**.
+1. Seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Visualizzazioni dati]**.
 1. Modificare una visualizzazione dati esistente o crearne una nuova.
-1. Nella scheda **[!UICONTROL Components]** della visualizzazione dati, accertati che **[!UICONTROL Audience Membership Id]** e **[!UICONTROL Audience Membership Name]** siano aggiunti come componenti dimensione.
+1. Nella scheda **[!UICONTROL Componenti]** della visualizzazione dati, verifica che **[!UICONTROL ID appartenenza pubblico]** e **[!UICONTROL Nome appartenenza pubblico]** siano aggiunti come componenti dimensione.
 
    ![Componenti della visualizzazione dati](assets/dataview-components.png)
 
-1. Selezionare **[!UICONTROL Save and Continue]** per salvare la visualizzazione dati.
+1. Seleziona **[!UICONTROL Salva e continua]** per salvare la visualizzazione dati.
 
 +++
 
@@ -415,7 +421,7 @@ Infine, utilizza Analysis Workspace per creare rapporti sui dati del pubblico di
 
 ## Step 1: Select audiences in Real-time Customer Profile {#audience}
 
-Experience Platform [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it) lets you see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. 
+Experience Platform [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) lets you see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. 
 
 You likely already have audiences in RTCP that may have come from various sources. Select one or more audiences to ingest into Customer Journey Analytics. For example, WKND Fly Platinum and Gold Fly Club Members.
 
@@ -424,19 +430,19 @@ You likely already have audiences in RTCP that may have come from various source
 
 ## Step 2: Create a Profile Union dataset for the export
 
-In order to export the audience to a dataset that you can ingest in Customer Journey Analytics as profiles, create a dataset whose schema is a Profile [Union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it#understanding-union-schemas).
+In order to export the audience to a dataset that you can ingest in Customer Journey Analytics as profiles, create a dataset whose schema is a Profile [Union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
 
 Union schemas are composed of multiple schemas that share the same class and have been enabled for Profile. The union schema enables you to see an amalgamation of all of the fields contained within schemas sharing the same class. Real-time Customer Profile uses the union schema to create a holistic view of each individual customer.
 
 ## Step 3: Export an audience to the Profile Union dataset via API call {#export}
 
-Before you can bring an audience into Customer Journey Analytics, you need to export it to an Adobe Experience Platform dataset. This can only be done using the Segmentation API, and specifically the [Export Jobs API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=it). 
+Before you can bring an audience into Customer Journey Analytics, you need to export it to an Adobe Experience Platform dataset. This can only be done using the Segmentation API, and specifically the [Export Jobs API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html). 
 
 You can create an export job using the audience ID of your choice, and put the results in the Profile Union Adobe Experience Platform dataset you created in Step 2. Although you can export various attributes/events for the audience, you only need to export the specific profile ID field that matches the person ID field used in the Customer Journey Analytics connection you will be leveraging (see below in Step 5).
 
 ## Step 4: Edit the export output 
 
-The results of the export job need to be transformed into a separate Profile dataset in order to be ingested into Customer Journey Analytics.  This transformation can be done with [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it), or another transformation tool of your choice. We only need the Profile ID (that will match the Person ID in Customer Journey Analytics) and one or more audience ID(s) to do the reporting in Customer Journey Analytics.
+The results of the export job need to be transformed into a separate Profile dataset in order to be ingested into Customer Journey Analytics.  This transformation can be done with [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html), or another transformation tool of your choice. We only need the Profile ID (that will match the Person ID in Customer Journey Analytics) and one or more audience ID(s) to do the reporting in Customer Journey Analytics.
 
 The standard export job, however, contains more data and so we need to edit this output to remove extraneous data, as well as move some things around.  Also, you need to create a schema/dataset first before you add the transformed data to it.
 

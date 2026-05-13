@@ -5,9 +5,13 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 7c8d01ac-47a3-4348-83ef-fea66695fbb2
-source-git-commit: a0251638e66d5a2524418fc17f56dddc4e48accd
+TQID: https://experienceleague.adobe.com/AmEmpnAOSXDh66SqWGOD4CY0Q-JRm9dnq2Q85-PkplA
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: 1549
 ht-degree: 1%
 
 ---
@@ -50,7 +54,7 @@ Un esempio di pannello **[!UICONTROL Più Dimension classificati]** per il caso 
    1. Seleziona **[!UICONTROL somma acquisti]**
 
 1. Per modificare il grafico a barre verticale in un oggetto Table, verificare che la tabella sia selezionata e selezionare **[!UICONTROL Matrice]** dal riquadro **[!UICONTROL Visualizzazioni]**.
-   * Trascina **[!UICONTROL product_name]** da **[!UICONTROL Columns]** e rilascia il campo sotto **[!UICONTROL product_categor]**&#x200B;y in **[!UICONTROL Rows]** nel riquadro **[!UICONTROL Visualization]**.
+   * Trascina **[!UICONTROL product_name]** da **[!UICONTROL Columns]** e rilascia il campo sotto **[!UICONTROL product_categor]**y in **[!UICONTROL Rows]** nel riquadro **[!UICONTROL Visualization]**.
 
 1. Per limitare il numero di prodotti visualizzati all&#39;interno della tabella, selezionare **[!UICONTROL product_name is (All)]** nel riquadro **[!UICONTROL Filters]**.
 

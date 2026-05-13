@@ -5,10 +5,16 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: 1bba52c332f1594b0b07466b499e24b5c62726fd
+TQID: https://experienceleague.adobe.com/0y2eqwQxkHefcODFhxXCuioMnL-YCXm21335Z2upPB0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 81%
+source-wordcount: 2341
+ht-degree: 79%
 
 ---
 
@@ -23,8 +29,8 @@ Di seguito sono riportate alcune domande frequenti sull’unione delle identità
 Puoi utilizzare una visualizzazione Flusso con la dimensione ID set di dati.
 
 1. Accedi a [Customer Journey Analytics](https://analytics.adobe.com) e crea un progetto Workspace vuoto.
-2. Seleziona la scheda **[!UICONTROL ** Visualizzazioni **]** a sinistra e trascina una visualizzazione **[!UICONTROL **&#x200B; Flusso &#x200B;**]** sull’area di lavoro a destra.
-3. Seleziona la scheda **[!UICONTROL ** Componenti **]** a sinistra e trascina la dimensione **[!UICONTROL ** ID set di dati **]** nella posizione centrale denominata **[!UICONTROL **&#x200B; Dimensione o elemento &#x200B;**]**.
+2. Seleziona la scheda **[!UICONTROL ** Visualizzazioni **]** a sinistra e trascina una visualizzazione **[!UICONTROL ** Flusso **]** sull’area di lavoro a destra.
+3. Seleziona la scheda **[!UICONTROL ** Componenti **]** a sinistra e trascina la dimensione **[!UICONTROL ** ID set di dati **]** nella posizione centrale denominata **[!UICONTROL ** Dimensione o elemento **]**.
 4. Questo rapporto di flusso è interattivo. Per espandere i flussi alle pagine successive o precedenti, seleziona uno qualsiasi dei valori. Utilizza il menu di scelta rapida per espandere o comprimere le colonne. Possono essere utilizzate anche dimensioni diverse all’interno dello stesso rapporto di flusso.
 
 Se desideri rinominare gli elementi dimensione ID set di dati, puoi utilizzare un set di dati di ricerca.
@@ -87,7 +93,7 @@ L’unione delle identità live è disponibile circa una settimana dopo l’abil
 
 +++ Qual è la differenza tra cross-device analytics (una funzione nella versione tradizionale di Analytics) e l’analisi cross-channel?
 
-[Cross-device analytics](https://experienceleague.adobe.com/it/docs/analytics/components/cda/overview) è una funzione specifica della versione tradizionale di Adobe Analytics che consente di comprendere il modo in cui le persone operano tra i dispositivi. Offre due flussi di lavoro per collegare i dati dei dispositivi: unione basata sui campi e grafo dei dispositivi.
+[Cross-device analytics](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview) è una funzione specifica della versione tradizionale di Adobe Analytics che consente di comprendere il modo in cui le persone operano tra i dispositivi. Offre due flussi di lavoro per collegare i dati dei dispositivi: unione basata sui campi e grafo dei dispositivi.
 
 L’analisi cross-channel è una funzione specifica di Customer Journey Analytics che consente di comprendere il modo in cui le persone operano sia sui dispositivi che sui canali. Unisce le identità di un ID persona di un set di dati, consentendo di combinare facilmente quest’ultimo con altri set di dati. Questa funzione opera in modo simile all’unione delle identità basata sui campi di Cross-Device Analytics, anche se l’implementazione è diversa a causa della diversa architettura dei dati tra Analytics e Customer Journey Analytics. Per ulteriori informazioni, consulta [Unione delle identità](overview.md) e il caso d’uso [Analisi cross-channel](../use-cases/cross-channel/cross-channel.md).
 
@@ -217,11 +223,11 @@ Alcune metriche in Customer Journey Analytics sono simili alle metriche in Analy
 
 | **Dati uniti di Customer Journey Analytics** | **Dati non uniti di Customer Journey Analytics** | **Adobe Analytics** | **Analytics Ultimate con CDA** |
 | ----- | ----- | ----- | ----- |
-| **Persone** = numero di ID persona distinti in cui l&#39;ID risultante viene scelto come ID persona. **Persone** può essere superiore o inferiore a **Visitatori univoci** in Adobe Analytics tradizionale, a seconda del risultato del processo di unione delle identità. | **Persone** = numero di ID persona distinti in base alla colonna selezionata come ID persona. **Persone** nei set di dati del connettore di origine di Analytics è simile a **Visitatori univoci** in Adobe Analytics tradizionale se `endUserIDs._experience.aaid.id` viene utilizzato come ID persona in Customer Journey Analytics. | **Visitatori univoci** = numero di ID visitatore distinti. Il numero di **Visitatori univoci** potrebbe essere diverso dal conteggio di valori **ECID** distinti. | Consulta [Persone](https://experienceleague.adobe.com/it/docs/analytics/components/metrics/people). |
-| **Sessioni**: definite in base alle impostazioni di sessione nella visualizzazione dati di Customer Journey Analytics. Il processo di unione può combinare sessioni singole da più dispositivi in una singola sessione. | **Sessioni**: definite in base alle impostazioni di sessione specificate nella visualizzazione dati di Customer Journey Analytics. | **Visite**: consulta [Visite](https://experienceleague.adobe.com/it/docs/analytics/components/metrics/visits). | **Visite**: definito in base alle impostazioni di sessione specificate nella [suite di rapporti virtuali CDA](https://experienceleague.adobe.com/it/docs/analytics/components/cda/setup). |
-| **Eventi** = numero di righe nei dati uniti in Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Tieni presente, tuttavia, le domande frequenti di cui sopra relative alle righe con un ID persistente vuoto. | **Eventi** = numero di righe nei dati non uniti in Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Tieni presente, tuttavia, che se uno qualsiasi degli eventi dispone di un ID persona vuoto nei dati di identità non unite nel data lake di Experience Platform, questi eventi non vengono inclusi in Customer Journey Analytics. | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/it/docs/analytics/components/metrics/occurrences). | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/it/docs/analytics/components/metrics/occurrences). |
+| **Persone** = numero di ID persona distinti in cui l&#39;ID risultante viene scelto come ID persona. **Persone** può essere superiore o inferiore a **Visitatori univoci** in Adobe Analytics tradizionale, a seconda del risultato del processo di unione delle identità. | **Persone** = numero di ID persona distinti in base alla colonna selezionata come ID persona. **Persone** nei set di dati del connettore di origine di Analytics è simile a **Visitatori univoci** in Adobe Analytics tradizionale se `endUserIDs._experience.aaid.id` viene utilizzato come ID persona in Customer Journey Analytics. | **Visitatori univoci** = numero di ID visitatore distinti. Il numero di **Visitatori univoci** potrebbe essere diverso dal conteggio di valori **ECID** distinti. | Consulta [Persone](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/people). |
+| **Sessioni**: definite in base alle impostazioni di sessione nella visualizzazione dati di Customer Journey Analytics. Il processo di unione può combinare sessioni singole da più dispositivi in una singola sessione. | **Sessioni**: definite in base alle impostazioni di sessione specificate nella visualizzazione dati di Customer Journey Analytics. | **Visite**: consulta [Visite](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/visits). | **Visite**: definito in base alle impostazioni di sessione specificate nella [suite di rapporti virtuali CDA](https://experienceleague.adobe.com/en/docs/analytics/components/cda/setup). |
+| **Eventi** = numero di righe nei dati uniti in Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Tieni presente, tuttavia, le domande frequenti di cui sopra relative alle righe con un ID persistente vuoto. | **Eventi** = numero di righe nei dati non uniti in Customer Journey Analytics. Questa metrica è in genere vicina a **Occorrenze** in Adobe Analytics tradizionale. Tieni presente, tuttavia, che se uno qualsiasi degli eventi dispone di un ID persona vuoto nei dati di identità non unite nel data lake di Experience Platform, questi eventi non vengono inclusi in Customer Journey Analytics. | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/occurrences). | **Occorrenze**: consulta [Occorrenze](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/occurrences). |
 
-Altre metriche possono essere simili in Customer Journey Analytics e in Adobe Analytics. Ad esempio, il numero totale degli [eventi personalizzati](https://experienceleague.adobe.com/it/docs/analytics/components/metrics/custom-events) 1-100 di Adobe Analytics in genere è comparabile in Adobe Analytics tradizionale e in Customer Journey Analytics (identità uniti o non unite). Le [differenze di funzionalità](/help/getting-started/aa-vs-cja/cja-aa.md), ad esempio la deduplicazione degli eventi tra Customer Journey Analytics e Adobe Analytics, possono causare discrepanze tra i due prodotti.
+Altre metriche possono essere simili in Customer Journey Analytics e in Adobe Analytics. Ad esempio, il numero totale degli [eventi personalizzati](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/custom-events) 1-100 di Adobe Analytics in genere è comparabile in Adobe Analytics tradizionale e in Customer Journey Analytics (identità uniti o non unite). Le [differenze di funzionalità](/help/getting-started/aa-vs-cja/cja-aa.md), ad esempio la deduplicazione degli eventi tra Customer Journey Analytics e Adobe Analytics, possono causare discrepanze tra i due prodotti.
 
 +++
 
@@ -281,7 +287,7 @@ curl -X PATCH \
 
 Qualsiasi utilizzo del tag `unifiedProfile` nella richiesta, anche se non disponi della licenza per Real-Time Customer Data Profile, restituisce un errore.
 
-Per ulteriori informazioni, consulta [Creare un set di dati abilitato per profilo e identità](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/enable-for-profile#enable-the-dataset).
+Per ulteriori informazioni, consulta [Creare un set di dati abilitato per profilo e identità](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile#enable-the-dataset).
 
 +++ 
 

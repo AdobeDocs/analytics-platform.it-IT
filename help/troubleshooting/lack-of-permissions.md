@@ -5,10 +5,15 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Troubleshooting
 exl-id: 341123b9-f4d6-4ef7-96f1-789850261b96
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+TQID: https://experienceleague.adobe.com/XwJDsOhTuITeyXd9htSUUQb37KnPuxyR9Css0sEikA0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: 218
+ht-degree: 75%
 
 ---
 
@@ -21,7 +26,7 @@ Ad esempio, dopo la creazione di [Connessione](../connections/overview.md) e [Vi
 
 >[!BEGINSHADEBOX]
 
-*[!UICONTROL Something went wrong retrieving DULE policies. Please verify account permissions, policies, or labels. Message: Forbidden.]*
+*[!UICONTROL Si è verificato un errore durante il recupero dei criteri DULE. Verifica le autorizzazioni, i criteri o le etichette dell’account. Messaggio: Non consentito.]*
 
 >[!ENDSHADEBOX]
 
@@ -35,14 +40,14 @@ Ad esempio, dopo la creazione di [Connessione](../connections/overview.md) e [Vi
 
 1. Passa all&#39;interfaccia utente di Adobe Experience Platfom.
 
-1. Seleziona **[!UICONTROL Permissions]** nella barra a sinistra.
+1. Seleziona **[!UICONTROL Autorizzazioni]** dalla barra a sinistra.
 
-1. Seleziona **[!UICONTROL Roles]**.
+1. Seleziona **[!UICONTROL Ruoli]**.
 
 1. Passa al ruolo pertinente.
 
-1. Seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Edit]** per modificare il ruolo.
+1. Seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Modifica]** per modificare il ruolo.
 
-1. Assicurati che **[!UICONTROL Manage Data Usage Policies]** e **[!UICONTROL View Data Usage Policies]** siano aggiunti al contenitore di **[!UICONTROL Data Governance]**.
+1. Accertati che **[!UICONTROL Gestisci criteri utilizzo dati]** e **[!UICONTROL Visualizza criteri utilizzo dati]** siano aggiunti al contenitore **[!UICONTROL Governance dati]**.
 
-1. Seleziona **[!UICONTROL Save]** per salvare le modifiche.
+1. Seleziona **[!UICONTROL Salva]** per salvare le modifiche.

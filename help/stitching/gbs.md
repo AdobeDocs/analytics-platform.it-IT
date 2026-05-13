@@ -5,10 +5,15 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: 4cb54c684c76c2581b1f3f9aa00fcb743d7c6387
+TQID: https://experienceleague.adobe.com/eeNrn3hVytufmz195UHNakznBoVRQ0A-qfOYucFF-X0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 4%
+source-wordcount: 1899
+ht-degree: 70%
 
 ---
 
@@ -19,22 +24,22 @@ Nell’unione basata su grafico, specifica un set di dati evento, l’ID persist
 Se non è possibile recuperare le informazioni sull&#39;ID persona per un evento, viene utilizzato l&#39;ID persistente per l&#39;evento *unstitched*. Di conseguenza, in una [visualizzazione dati](/help/data-views/data-views.md) associata a una [connessione](/help/connections/overview.md) che contiene il set di dati abilitato per l&#39;unione, il componente della visualizzazione dati ID persona contiene il valore ID persona o il valore ID persistente a livello di evento.
 
 
-![Unione basata su grafico](/help/stitching/assets/gbs.svg)
+![Unione delle identità basata su grafo](/help/stitching/assets/gbs.svg)
 
 ## IdentityMap
 
-L&#39;unione basata su grafico supporta l&#39;utilizzo del gruppo di campi [`identityMap`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
+L’unione delle identità basata su grafo supporta l’utilizzo del [`identityMap`gruppo di campi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
 
-- Utilizzo dell&#39;identità primaria negli spazi dei nomi `identityMap` per definire l&#39;ID persistente:
+- Utilizzo dell’identità primaria negli spazi dei nomi `identityMap` per definire l’ID persistente:
    - Se più identità primarie si trovano in spazi dei nomi diversi, le identità negli spazi dei nomi vengono ordinate lessicograficamente e la prima identità viene selezionata.
-   - Se più identità primarie si trovano in un singolo spazio dei nomi, viene selezionata la prima identità primaria disponibile lessicografica.
+   - Se più identità primarie si trovano all’interno di un singolo spazio dei nomi, viene selezionata la prima identità primaria lessicografica disponibile.
 
   Nell’esempio seguente, gli spazi dei nomi e le identità restituiscono un elenco di identità primarie ordinato e, infine, l’identità selezionata.
 
   <table style="table-layout:auto">
      <tr>
        <th>Spazi dei nomi</th>
-       <th>Elenco identità</th>
+       <th>Elenco delle identità</th>
      </tr>
      <tr>
        <td>ECID</td>
@@ -48,7 +53,7 @@ L&#39;unione basata su grafico supporta l&#39;utilizzo del gruppo di campi [`ide
 
   <table style="table-layout:auto">
     <tr>
-      <th>Elenco identità ordinate</th>
+      <th>Elenco delle identità ordinate</th>
       <th>Identità selezionata</th>
     </tr>
     <tr>
@@ -57,15 +62,15 @@ L&#39;unione basata su grafico supporta l&#39;utilizzo del gruppo di campi [`ide
     </tr>
   </table>
 
-- Utilizzo dello spazio dei nomi `identityMap` per definire l&#39;ID persistente:
-   - Se in uno spazio dei nomi `identityMap` sono presenti più valori per persistentID, viene utilizzata la prima identità disponibile lessicografica.
+- Utilizzo dello spazio dei nomi `identityMap` per definire l’ID persistente:
+   - Se in uno spazio dei nomi `identityMap` sono presenti più valori per persistentID, viene utilizzata la prima identità lessicografica disponibile.
 
-  Nell’esempio seguente, hai selezionato ECID come namespace da utilizzare. La selezione determina un elenco di identità ordinate e, infine, l’identità selezionata.
+  Nell’esempio seguente, hai selezionato ECID come spazio dei nomi da utilizzare. La selezione determina un elenco di identità ordinate e, infine, l’identità selezionata.
 
   <table style="table-layout:auto">
      <tr>
        <th>Spazi dei nomi</th>
-       <th>Elenco identità</th>
+       <th>Elenco delle identità</th>
      </tr>
      <tr>
        <td>ECID</td>
@@ -79,7 +84,7 @@ L&#39;unione basata su grafico supporta l&#39;utilizzo del gruppo di campi [`ide
 
   <table style="table-layout:auto">
     <tr>
-      <th>Elenco identità ordinate</th>
+      <th>Elenco delle identità ordinate</th>
       <th>Identità selezionata</th>
     </tr>
     <tr>
@@ -89,48 +94,48 @@ L&#39;unione basata su grafico supporta l&#39;utilizzo del gruppo di campi [`ide
   </table>
 
 
-## Funzionamento dell’unione basata su grafico
+## Come funziona l’unione delle identità basata su grafo
 
-L’unione esegue almeno due passaggi sui dati in un determinato set di dati.
+L’unione delle identità esegue almeno due passaggi sui dati in un determinato set di dati.
 
-- **Unione live**: tenta di unire ogni hit (evento) nel momento in cui arriva, utilizzando l&#39;ID persistente per cercare l&#39;ID persona per lo spazio dei nomi selezionato eseguendo una query sul grafico delle identità. Se l’ID persona è disponibile dalla ricerca, viene immediatamente unito.
+- **Unione delle identità live**: tenta di unire ogni hit (evento) nel momento in cui arriva, utilizzando l&#39;ID persistente per risalire all&#39;ID persona dello spazio dei nomi selezionato tramite il grafo identità. Se la ricerca restituisce un ID persona, l’unione avviene istantaneamente.
 
-- **Unione ripetizioni**: *riproduce* i dati in base alle identità aggiornate dal grafico delle identità. In questa fase, gli hit da dispositivi precedentemente sconosciuti (ID persistenti) vengono uniti in quanto il grafo delle identità ha risolto l’identità per uno spazio dei nomi. Due parametri determinano la ripetizione: **frequenza** e **intervallo di lookback**. Adobe offre le seguenti combinazioni di questi parametri:
-   - **Lookback giornaliero su una frequenza giornaliera**: i dati vengono ripetuti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione offre un vantaggio in quanto le ripetizioni sono molto più frequenti, ma i profili non autenticati devono autenticarsi lo stesso giorno in cui visitano il sito.
-   - **Lookback settimanale su una frequenza settimanale**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback settimanale (vedi [opzioni](overview.md#options)). Questa opzione offre un vantaggio che consente alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di una settimana non vengono rielaborati fino alla successiva riproduzione settimanale.
-   - **Lookback bisettimanale con frequenza settimanale**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback bisettimanale (vedi [opzioni](overview.md#options)). Questa opzione offre un vantaggio che consente alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di due settimane non vengono rielaborati fino alla successiva riproduzione settimanale.
-   - **Lookback mensile su una frequenza settimanale**: i dati vengono ripetuti ogni settimana con un intervallo di lookback mensile (vedi [opzioni](overview.md#options)). Questa opzione offre un vantaggio che consente alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di un mese non vengono rielaborati fino alla successiva riproduzione settimanale.
+- **Ripetizione dell’unione delle identità**: *ripete* i dati in base alle identità aggiornate dal grafo identità. In questa fase, gli hit provenienti da dispositivi precedentemente sconosciuti (ID persistenti) vengono uniti, poiché il grafo identità ha associato l’identità a uno spazio dei nomi. Due parametri determinano la ripetizione: **frequenza** e **intervallo di lookback**. Adobe offre le seguenti combinazioni di questi parametri:
+   - **Lookback giornaliero con frequenza giornaliera**: i dati vengono ripetuti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione è vantaggiosa poiché gestisce ripetizioni molto frequenti; tuttavia, richiede che i profili non autenticati effettuino l&#39;autenticazione nello stesso giorno della visita al sito.
+   - **Lookback settimanale con frequenza settimanale**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback settimanale (vedi [opzioni](overview.md#options)). Questa opzione offre il vantaggio di concedere alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di una settimana non vengono rielaborati fino alla successiva ripetizione settimanale.
+   - **Lookback bisettimanale con frequenza settimanale**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback bisettimanale (vedi [opzioni](overview.md#options)). Questa opzione offre il vantaggio di concedere alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non sottoposti a unione delle identità risalenti a meno di due settimane non vengono rielaborati fino alla successiva ripetizione settimanale.
+   - **Lookback mensile con frequenza settimanale**: i dati vengono ripetuti ogni settimana con un intervallo di lookback mensile (vedi [opzioni](overview.md#options)). Questa opzione offre il vantaggio di concedere alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di un mese non vengono rielaborati fino alla successiva ripetizione settimanale.
 
-- **Privacy**: quando vengono ricevute richieste relative alla privacy, oltre a rimuovere l&#39;identità richiesta dal set di dati di origine, è necessario annullare l&#39;unione di tale identità tra eventi non autenticati. Inoltre, l’identità deve essere rimossa dal grafo delle identità per evitare future unioni basate su grafo per tale identità specifica.
+- **Privacy**: quando si ricevono richieste relative alla privacy, oltre a rimuovere l&#39;identità richiesta dal set di dati di origine, è necessario annullare l&#39;unione di tale identità tra eventi non autenticati. Inoltre, l’identità deve essere rimossa dal grafo identità per evitare future unioni per tale identità specifica.
 
   >[!IMPORTANT]
   >
-  >Il processo di separazione, come parte delle richieste di accesso a dati personali, cambia all’inizio del 2025. Il processo di rimozione delle unioni corrente riavvia gli eventi utilizzando la versione più recente delle identità note. Questa riassegnazione degli eventi a un’altra identità potrebbe avere conseguenze legali indesiderate. Per risolvere questi problemi, a partire dal 2025 il nuovo processo di rimozione delle unioni aggiorna gli eventi che sono oggetto della richiesta di privacy con l’ID persistente.
+  >Il processo di annullamento unione delle identità, come parte delle richieste di privacy, cambia all’inizio del 2025. Il processo di annullamento unione delle identità corrente riunisce gli eventi utilizzando la versione più recente delle identità note. Questa riassegnazione degli eventi a un’altra identità potrebbe comportare conseguenze legali indesiderate. Per risolvere questi problemi, a partire dal 2025 il nuovo processo di annullamento dell’unione delle identità aggiorna gli eventi oggetto della richiesta di privacy con l’ID persistente.
   > 
 
-I dati oltre l’intervallo di lookback non vengono riprodotti. Affinché una visita non autenticata e una visita autenticata siano identificate insieme, un profilo deve essere autenticato all’interno di un determinato intervallo di lookback. Una volta riconosciuto, il dispositivo è live stitched da quel momento in poi.
+I dati che superano l’intervallo di lookback non vengono ripetuti. Affinché una visita non autenticata e una visita autenticata siano identificate insieme, un profilo deve essere autenticato all’interno di un determinato intervallo di lookback. A partire dal riconoscimento del dispositivo, le sue identità vengono unite in tempo reale.
 
-Considera i due aggiornamenti del grafo delle identità seguenti nel tempo per il visitatore A (con ID persistente `246`) e il visitatore B (con ID persistente `3579`) e come questi aggiornamenti influiscono sui passaggi nell&#39;unione basata sul grafo.
+Prendi in considerazione i due aggiornamenti del grafo identità seguenti nel tempo per il visitatore A (con ID persistente `246`) e il visitatore B (con ID persistente `3579`) e come questi aggiornamenti influiscono sull&#39;unione delle identità basata su grafo.
 
-![Grafico identità 3579](assets/identity-graphs.svg)
+![Grafo identità 3579](assets/identity-graphs.svg)
 
-È possibile visualizzare un grafo delle identità nel tempo per un profilo specifico utilizzando [Visualizzatore grafo identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-viewer). Consulta anche [Logica di collegamento del servizio Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-linking-logic) per comprendere meglio la logica utilizzata durante il collegamento delle identità.
+Puoi visualizzare un grafo identità nel tempo per un profilo specifico utilizzando il [Visualizzatore del grafo identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-viewer). Consulta anche [Logica di collegamento di Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-linking-logic) per comprendere meglio la logica utilizzata durante il collegamento delle identità.
 
-### Passaggio 1: live stitching
+### Passaggio 1: Unione delle identità live
 
-L’unione live tenta di unire ogni evento, al momento della raccolta, alle informazioni note in quel momento provenienti dal grafico delle identità.
+L’unione delle identità live tenta di unire ogni evento, al momento della raccolta, alle informazioni note in quel momento provenienti dal grafo identità.
 
 +++ Dettagli
 
-| | Tempo | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![MappingDati](/help/assets/icons/DataMapping.svg) | ID risultante (dopo unione live) |
+| | Ora | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![DataMapping](/help/assets/icons/DataMapping.svg) | ID risultante (dopo unione live) |
 |--:|---|---|---|---|
-| 1 | 11/05/2023:00 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) *non definito* | `246` |
-| 2 | 14/05/2023:00 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 3 | 15:00 12/05/2023 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 4 | 17/05/2023:00 | `3579` | `3579` ![Ramo1](/help/assets/icons/Branch1.svg) *non definito* | `3579` |
-| 5 | 19:00 del 12/05/2023 | `3579` | `3579` ![Ramo1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `ted.w@gmail.com` |
-| 6 | 15:00 13/05/2023 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 7 | 16/05/2023:30 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` |
+| 1 | 12/05/2023 11:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) *non definito* | `246` |
+| 2 | 12/05/2023 14:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 3 | 12/05/2023 15:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 4 | 12/05/2023 17:00 | `3579` | `3579` ![Branch1](/help/assets/icons/Branch1.svg) *non definito* | `3579` |
+| 5 | 12/05/2023 19:00 | `3579` | `3579` ![Branch1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `ted.w@gmail.com` |
+| 6 | 13/05/2023 15:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 7 | 13/05/2023 16:30 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
@@ -139,60 +144,60 @@ Quando la ricerca viene risolta in più di un ID risultante (come per l&#39;even
 
 +++
 
-### Passaggio 2: ripetere l’unione
+### Passaggio 2: Ripetizione dell’unione delle identità
 
-A intervalli regolari (in base all’intervallo di lookback scelto), l’unione ripetuta ricalcola i dati storici in base alla versione più recente del grafico delle identità, al momento dell’intervallo.
+A intervalli regolari (a seconda dell’intervallo di lookback scelto), la ripetizione dell’unione ricalcola i dati storici in base alla versione più recente del grafo identità al momento dell’intervallo.
 
 +++ Dettagli
 
-Con un&#39;unione di ripetizione che si verifica al 16:30 del 2023-05-2024, con una configurazione dell&#39;intervallo di lookback di 24 ore, alcuni eventi dell&#39;esempio vengono ricollegati (indicati da ![Ripetizione](/help/assets/icons/Replay.svg)).
+Con una ripetizione dell&#39;unione che si verifica il 13/05/2023 alle 16:00:30, con una configurazione dell&#39;intervallo di lookback di 24 ore, alcuni eventi dell&#39;esempio vengono uniti nuovamente (come indicato dalla dicitura ![Ripetizione](/help/assets/icons/Replay.svg)).
 
-| | Tempo | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![MappingDati](/help/assets/icons/DataMapping.svg) | ID risultante<br/>(dopo unione live) | ID risultante<br/>(dopo la ripetizione 24 ore) |
+| | Ora | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![DataMapping](/help/assets/icons/DataMapping.svg) | ID risultante<br/>(dopo unione live) | ID risultante<br/>(dopo la ripetizione 24 ore) |
 |---|---|---|---|---|---|
-| 2 | 14/05/2023:00 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 3 | 15:00 12/05/2023 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
-| ![Riproduci](/help/assets/icons/Replay.svg) 4 | 17/05/2023:00 | `3579` | `3579` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
-| ![Riproduci](/help/assets/icons/Replay.svg) 5 | 19:00 del 12/05/2023 | `3579` | `3579` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
-| ![Riproduci](/help/assets/icons/Replay.svg) 6 | 15:00 13/05/2023 | `246` | `246` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![Riproduci](/help/assets/icons/Replay.svg) 7 | 16/05/2023:30 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg)`a.b@yahoo.co.uk`<br/>`246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
+| 2 | 12/05/2023 14:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 3 | 12/05/2023 15:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
+| ![Ripetizione](/help/assets/icons/Replay.svg) 4 | 12/05/2023 17:00 | `3579` | `3579` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
+| ![Ripetizione](/help/assets/icons/Replay.svg) 5 | 12/05/2023 19:00 | `3579` | `3579` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
+| ![Ripetizione](/help/assets/icons/Replay.svg) 6 | 13/05/2023 15:00 | `246` | `246` ![Collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![Ripetizione](/help/assets/icons/Replay.svg) 7 | 13/05/2023 16:30 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg)`a.b@yahoo.co.uk`<br/>`246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
 
-Con la ripetizione dell’unione che si verifica al 16:30 del 2023-05-2023, con una configurazione dell’intervallo di lookback di 7 giorni, tutti gli eventi dell’esempio vengono ricollegati.
+Con una ripetizione dell’unione che si verifica il 13/05/2023 alle 16:00:30, con una configurazione dell’intervallo di lookback di 7 giorni, tutti gli eventi dell’esempio vengono uniti nuovamente.
 
 
-| | Tempo | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![MappingDati](/help/assets/icons/DataMapping.svg) | ID risultante<br/>(dopo unione live) | ID risultante<br/>(dopo la ripetizione 7 giorni) |
+| | Ora | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![DataMapping](/help/assets/icons/DataMapping.svg) | ID risultante<br/>(dopo unione live) | ID risultante<br/>(dopo la ripetizione 7 giorni) |
 |---|---|---|---|---|---|
-| ![Riproduci](/help/assets/icons/Replay.svg) 1 | 11/05/2023:00 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) *non definito* | `246` | `a.b@yahoo.co.uk` |
-| ![Riproduci](/help/assets/icons/Replay.svg) 2 | 14/05/2023:00 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![Riproduci](/help/assets/icons/Replay.svg) 3 | 15:00 12/05/2023 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![Riproduci](/help/assets/icons/Replay.svg) 4 | 17/05/2023:00 | `3579` | `3579` ![Ramo1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
-| ![Riproduci](/help/assets/icons/Replay.svg) 5 | 19:00 del 12/05/2023 | `3579` | `3579` ![Ramo1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
-| ![Riproduci](/help/assets/icons/Replay.svg) 6 | 15:00 13/05/2023 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![Riproduci](/help/assets/icons/Replay.svg) 7 | 16/05/2023:30 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
+| ![Ripetizione](/help/assets/icons/Replay.svg) 1 | 12/05/2023 11:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) *non definito* | `246` | `a.b@yahoo.co.uk` |
+| ![Ripetizione](/help/assets/icons/Replay.svg) 2 | 12/05/2023 14:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![Ripetizione](/help/assets/icons/Replay.svg) 3 | 12/05/2023 15:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![Ripetizione](/help/assets/icons/Replay.svg) 4 | 12/05/2023 17:00 | `3579` | `3579` ![Branch1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
+| ![Ripetizione](/help/assets/icons/Replay.svg) 5 | 12/05/2023 19:00 | `3579` | `3579` ![Branch1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
+| ![Ripetizione](/help/assets/icons/Replay.svg) 6 | 13/05/2023 15:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![Ripetizione](/help/assets/icons/Replay.svg) 7 | 13/05/2023 16:30 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
 +++
 
-### Passaggio 3: richiesta di accesso a dati personali
+### Passaggio 3: Richiesta sulla privacy
 
 Quando ricevi una richiesta di accesso a dati personali, l’ID risultante viene eliminato in tutti i record relativi all’oggetto della richiesta di accesso a dati personali.
 
 +++ Dettagli
 
-La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra l’effetto di una richiesta di accesso a dati personali (ad esempio al 2023-05-13 18:00) per gli eventi di esempio.
+La tabella seguente mostra gli stessi dati di cui sopra, ma include anche l’effetto di una richiesta sulla privacy (ad esempio del 13/05/2023 alle 18:00:00) per gli eventi di esempio.
 
-| | Tempo | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![MappingDati](/help/assets/icons/DataMapping.svg) | ID risultante (dopo la richiesta di accesso a dati personali) |
+| | Ora | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![DataMapping](/help/assets/icons/DataMapping.svg) | ID risultante (dopo la richiesta di accesso a dati personali) |
 |--:|---|---|---|---|
-| ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) 1 | 11/05/2023:00 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
-| ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) 2 | 14/05/2023:00 | `246` | `246`![Ramo1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
-| ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) 3 | 15:00 12/05/2023 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
-| ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) 4 | 17/05/2023:00 | `3579` | `3579` ![Ramo1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` |
-| ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) 5 | 19:00 del 12/05/2023 | `3579` | `3579` ![Ramo1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` |
-| ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) 6 | 15:00 13/05/2023 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
-| ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) 7 | 16/05/2023:30 | `246` | `246` ![Ramo1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![Ramo1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `246` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 1 | 12/05/2023 11:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 2 | 12/05/2023 14:00 | `246` | `246`![Branch1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 3 | 12/05/2023 15:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 4 | 12/05/2023 17:00 | `3579` | `3579` ![Branch1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 5 | 12/05/2023 19:00 | `3579` | `3579` ![Branch1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 6 | 13/05/2023 15:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) 7 | 13/05/2023 16:30 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `246` |
 
 {style="table-layout:auto"}
 
@@ -200,31 +205,31 @@ La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra l’effe
 
 ## Prerequisiti
 
-I seguenti prerequisiti si applicano in modo specifico all’unione basata su grafico:
+I seguenti prerequisiti si applicano in modo specifico all’unione delle identità basata su grafo:
 
-- Il set di dati evento in Adobe Experience Platform, a cui si desidera applicare l&#39;unione, deve avere una colonna che identifica un profilo su ogni riga, l&#39;**ID persistente**. Ad esempio, un ID visitatore generato da una libreria AppMeasurement di Adobe Analytics o un ECID generato dal servizio Experience Platform Identity.
+- Il set di dati evento in Adobe Experience Platform, a cui si desidera applicare l&#39;unione delle identità, deve avere una colonna che identifica un profilo per ogni riga, l&#39;**ID persistente**. Ad esempio, un ID visitatore generato da una libreria AppMeasurement di Adobe Analytics o un ECID generato da Experience Platform Identity Service.
 - Il grafo delle identità da Experience Platform Identity Service deve essere impostato a livello di sandbox, prima di abilitare l’unione basata su grafo.
    - Il grafo delle identità deve avere uno spazio dei nomi (ad esempio `Email` o `Phone`) che si desidera utilizzare durante l&#39;unione per risolvere l&#39;ID persona.
    - Il grafo delle identità deve essere compilato con le informazioni sulle identità provenienti da qualsiasi set di dati rilevante (di tipo *event* o *profile* e che contengono almeno due spazi dei nomi utili con valori ID).
    - Tutti i set di dati che contengono queste identità rilevanti devono essere [abilitati per l&#39;acquisizione dei dati del grafico delle identità](faq.md#enable-a-dataset-for-the-identity-service). Questa abilitazione assicura che le identità in ingresso vengano aggiunte al grafico nel tempo da tutte le origini necessarie.
    - Se utilizzi già Real-Time Customer Data Profile o Adobe Journey Optimizer da un po’, il grafico dovrebbe essere già configurato in una certa misura.<br/>Se è richiesta anche la retrocompilazione dell&#39;unione storica per il set di dati abilitato con l&#39;unione basata su grafico, il grafico deve già contenere identità storiche per l&#39;intero periodo, per ottenere i risultati di unione desiderati.
 - Se si desidera utilizzare l&#39;unione basata su grafico e si prevede che il set di dati evento contribuirà al grafico delle identità, è necessario [abilitare il set di dati per il servizio Identity](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service).
-- L&#39;ID persistente e l&#39;ID persona possono essere utilizzati con [identityMap](#identitymap). Oppure l&#39;ID persistente e l&#39;ID persona possono essere campi dello schema XDM, nel qual caso i campi devono essere [definiti come identità](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity?lang=en) nello schema.
+- L&#39;ID persistente e l&#39;ID persona possono essere utilizzati con [identityMap](#identitymap). Oppure l&#39;ID persistente e l&#39;ID persona possono essere campi dello schema XDM, nel qual caso i campi devono essere [definiti come identità](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en) nello schema.
 
 >[!NOTE]
 >
->**not** richiede una licenza di Real-time Customer Data Platform per l&#39;unione basata su grafico. Il pacchetto **Prime** o versione successiva di Customer Journey Analytics include i diritti richiesti dal servizio Experience Platform Identity.
+>L&#39;unione delle identità basata su grafo **non** richiede una licenza di Real-time Customer Data Platform. Il pacchetto **Prime** o superiore di Customer Journey Analytics include i diritti richiesti da Experience Platform Identity Service.
 
 
 ## Limitazioni
 
-Le seguenti limitazioni si applicano in modo specifico all’unione basata su grafico:
+Le seguenti limitazioni si applicano in modo specifico all’unione delle identità basata su grafo:
 
-- Le marche temporali non vengono prese in considerazione quando si esegue una query per l’ID della persona utilizzando lo spazio dei nomi specificato. Pertanto, è possibile che un ID persistente sia unito a un ID persona di un record che ha una marca temporale precedente.
-- Negli scenari di dispositivi condivisi, in cui lo spazio dei nomi nel grafico contiene più identità, viene utilizzata la prima identità lessicografica. Se i limiti e le priorità dello spazio dei nomi sono configurati come parte del rilascio delle regole di collegamento del grafico, viene utilizzata l’identità dell’ultimo utente autenticato. Per ulteriori informazioni, vedere [Dispositivi condivisi](/help/use-cases/stitching/shared-devices.md).
-- Esiste un limite rigido di tre mesi per la retrocompilazione delle identità nel grafico delle identità. Puoi utilizzare le identità di backfill nel caso in cui non utilizzi un’applicazione Experience Platform, come Real-time Customer Data Platform, per compilare il grafico delle identità.
-- Si applicano le [protezioni del servizio Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/guardrails). Vedi, ad esempio, i seguenti [limiti statici](https://experienceleague.adobe.com/it/docs/experience-platform/identity/guardrails#static-limits):
-   - Numero massimo di identità in un grafico: 50.
-   - Numero massimo di collegamenti a un’identità per una singola acquisizione batch: 50.
-   - Numero massimo di identità in un record XDM per l’acquisizione del grafico: 20.
-   - Numero minimo di identità in un record XDM per l’acquisizione del grafico: 2.
+- Le marche temporali non vengono prese in considerazione quando si esegue una query per l’ID persona utilizzando lo spazio dei nomi specificato. Pertanto, è possibile che un ID persistente sia unito a un ID persona di un record che ha una marca temporale precedente.
+- Per i dispositivi condivisi in cui lo spazio dei nomi nel grafo contiene più identità, viene utilizzata la prima identità lessicografica. Se i limiti e le priorità dello spazio dei nomi sono definiti nelle regole di collegamento del grafo, il sistema utilizzerà l’identità dell’ultimo utente autenticato. Per ulteriori informazioni, consulta [Dispositivi condivisi](/help/use-cases/stitching/shared-devices.md).
+- Esiste un limite rigido di tre mesi per la retrocompilazione delle identità nel grafo identità. Nel caso in cui non utilizzi un’applicazione Experience Platform, come Real-time Customer Data Platform, puoi utilizzare le identità di retrocompilazione per compilare il grafo identità.
+- Si applicano i [guardrail di Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/guardrails). Vedi, ad esempio, i seguenti [limiti statici](https://experienceleague.adobe.com/it/docs/experience-platform/identity/guardrails#static-limits):
+   - Numero massimo di identità in un grafo: 50.
+   - Numero massimo di collegamenti a un’identità per una singola acquisizione in batch: 50.
+   - Numero massimo di identità in un record XDM per l’acquisizione del grafo: 20.
+   - Numero minimo di identità in un record XDM per l’acquisizione del grafo: 2.

@@ -6,13 +6,18 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: a9c22cfd7077fd9e1ac4b9ea4ec0e016e9d2425b
+TQID: https://experienceleague.adobe.com/pXiDvk--5tAJYGj8lfq7KQfVLQqVOePbBZqCXT10rZ0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: 1485
 ht-degree: 2%
 
 ---
-
 
 # Concetti e funzionalità di B2B edition
 
@@ -55,7 +60,7 @@ La gerarchia e le relazioni tra i contenitori sono predeterminate. Opportunità,
 | Account | Un&#39;azienda cliente o potenziale cliente della tua attività. La società potrebbe essere una filiale o una divisione di un&#39;organizzazione più grande. Conto rappresenta l&#39;organizzazione per la quale si effettua la vendita e di cui si desidera tenere traccia a livello di organizzazione. |
 | Account globale (facoltativo) | Società capogruppo di un gruppo di società collegate. Un conto globale non ha una società madre, ma può avere affiliate o divisioni appartenenti al conto globale. Quando nella connessione è configurato il contenitore Account globale, un account che non ha padre o affiliate deve essere elencato sia nel campo account che nel campo account globale. |
 | Opportunità (facoltativo) | Una raccolta di prodotti e servizi venduti insieme. Un&#39;opportunità spesso coinvolgeva varie fasi del ciclo di vendita fino alla chiusura della vendita.<br>I dati verranno utilizzati per misurare la progressione dell&#39;opportunità attraverso il funnel di vendita. Ad esempio, un rapporto che fornisce dettagli sulle principali opportunità che sono state spostate dalla fase 3 alla fase 4. |
-| Gruppo di acquisto (facoltativo) | Una raccolta di persone all’interno di un’organizzazione coinvolte nel processo decisionale per l’acquisto di un prodotto o di un servizio. <br/>Puoi utilizzare i dati del gruppo di acquisto per tenere traccia dei gruppi di acquisto tramite la gestione delle campagne. Ad esempio, crea un segmento di pubblico di gruppi di acquisto chiave.<br/> È probabile che si desideri una ricerca dal gruppo di acquisto ai dati del profilo, in modo da poter creare rapporti sulle persone in un gruppo di acquisto. |
+| Gruppo di acquisto (facoltativo) | Una raccolta di persone all’interno di un’organizzazione coinvolte nel processo decisionale per l’acquisto di un prodotto o di un servizio. <br/>Puoi utilizzare i dati del gruppo di acquisto per tenere traccia dei gruppi di acquisto tramite la gestione delle campagne. Ad esempio, crea un segmento di pubblico di gruppi di acquisto chiave.<br/> Probabilmente desideri una ricerca dal gruppo di acquisto per visualizzare i dati del profilo, in modo da poter creare rapporti sulle persone in un gruppo di acquisto. |
 | Persona | Un individuo, spesso identificato da un indirizzo e-mail univoco che ha interagito con l&#39;azienda. <br/>Utilizzare i dati del profilo per identificare le persone che lavorano per un account. Ad esempio: esegui il targeting di tutte le persone di un account che si sono iscritte a una conferenza. |
 
 >[!IMPORTANT]
