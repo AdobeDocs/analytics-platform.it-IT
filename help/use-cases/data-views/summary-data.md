@@ -5,9 +5,25 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: b54083d85c0e07605c567a8d44824884cdc18c4d
+TQID: https://experienceleague.adobe.com/ST-1vL8gbeSqaYYHakxjYWcDOryNucEVHiONAQk7gU4
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '5014'
+source-wordcount: 4858
 ht-degree: 15%
 
 ---
@@ -50,7 +66,7 @@ Per questo caso d’uso utilizzi i seguenti dati di riepilogo di esempio, che mo
 | 17 | Campagna 321 | 20 | 2500 | def321 | facebook | def-adgroup | 2024-07-18T18:20:39.000Z |
 | 18 | Campagna 321 | 15 | 2250 | ghi321 | facebook | ghi-adgroup | 2024-07-18T18:20:39.000Z |
 
-[![Download dati](/help/assets/icons/DataDownload.svg)](./assets/summary-data.csv)
+[![DataDownload](/help/assets/icons/DataDownload.svg) Scarica dati di riepilogo di esempio](./assets/summary-data.csv)
 
 +++
 
@@ -249,7 +265,7 @@ I dati evento sono disponibili nel set di dati evento di esempio. I dati di esem
 | 2024-07-18T19:15:39+00:00 | 178 | pagina di conferma | person-142def654 |  | 1 | 174,25 |
 | 2024-07-18T19:15:39+00:00 | 179 | pagina home | person-143ghi654 | ghi654 |  |  |
 
-[![Download dati](/help/assets/icons/DataDownload.svg)](./assets/event-data.csv)
+[![DataDownload](/help/assets/icons/DataDownload.svg) Scarica dati evento di esempio](./assets/event-data.csv)
 
 +++
 
@@ -278,7 +294,7 @@ I dati di ricerca sono disponibili nel set di dati di ricerca di esempio. I dati
 | 17 | def321 | def-adgroup | Campagna 321 |
 | 18 | ghi321 | ghi-adgroup | Campagna 321 |
 
-[![Download dati](/help/assets/icons/DataDownload.svg)](./assets/lookup-data.csv)
+[![DataDownload](/help/assets/icons/DataDownload.svg) Scarica dati di ricerca di esempio](./assets/lookup-data.csv)
 +++
 
 >[!INFO]
@@ -293,7 +309,7 @@ I dati di riepilogo richiedono uno schema di riepilogo in Experience Platform. U
 
 Per creare uno schema di riepilogo in Experience Platform:
 
-1. Seleziona **[!UICONTROL Experience Platform]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
+1. Seleziona **[!UICONTROL Experience Platform]** dal commutatore di app ![App](/help/assets/icons/Apps.svg).
 1. Seleziona **[!UICONTROL Schemi]** dalla barra a sinistra.
 1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Crea schema]**.
 1. Selezionare **[!UICONTROL Manuale]** nella finestra di dialogo **[!UICONTROL Crea schema]**. Quindi usa **[!UICONTROL Seleziona]** per continuare.
@@ -342,7 +358,7 @@ Per memorizzare i dati di riepilogo in Experience Platform, devi innanzitutto cr
 
 Per creare un set di dati:
 
-1. Seleziona **[!UICONTROL Experience Platform]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
+1. Seleziona **[!UICONTROL Experience Platform]** dal commutatore di app ![App](/help/assets/icons/Apps.svg).
 1. Seleziona **[!UICONTROL Set di dati]** dalla barra a sinistra.
 1. Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Crea set di dati]**.
 1. Nella schermata **[!UICONTROL Set di dati]** > **[!UICONTROL Crea set di dati]**, seleziona **[!UICONTROL Crea set di dati dallo schema]**.
@@ -356,7 +372,7 @@ Viene visualizzata una schermata con i dettagli del nuovo set di dati.
 
 Per caricare i dati di esempio in questo set di dati:
 
-1. Seleziona **[!UICONTROL Experience Platform]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
+1. Seleziona **[!UICONTROL Experience Platform]** dal commutatore di app ![App](/help/assets/icons/Apps.svg).
 1. Seleziona **[!UICONTROL Flussi di lavoro]** dalla barra a sinistra.
    1. Seleziona **[!UICONTROL Mappa CSV su schema XDM]** dalle opzioni **[!UICONTROL Acquisizione dati]** nella schermata **[!UICONTROL Flussi di lavoro]**.
    1. Seleziona **[!UICONTROL Avvia]** dal pannello **[!UICONTROL Mappa CSV a schema XDM]**.
@@ -386,7 +402,7 @@ In **[!UICONTROL Origini]** > **[!UICONTROL Flusso di dati - XX/XX/XXXX, XX:XX X
 Per utilizzare i dati di esempio in Customer Journey Analytics, crea una connessione che include il set di dati di riepilogo di esempio da Experience Platform.
 
 
-1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
+1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal commutatore ![App](/help/assets/icons/Apps.svg).
 1. Seleziona **[!UICONTROL Connessioni]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
 1. Seleziona **[!UICONTROL Crea nuova connessione]**.
 1. In **[!UICONTROL Connessioni]** > **[!UICONTROL Connessione senza titolo]**:
@@ -427,7 +443,7 @@ I dati dei set di dati vengono aggiunti a Customer Journey Analytics, che può r
 
 Dopo un po’, verifica che i dati dei set di dati siano caricati correttamente in Customer Journey Analytics.
 
-1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
+1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal commutatore ![App](/help/assets/icons/Apps.svg).
 1. Seleziona **[!UICONTROL Connessioni]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
 1. Seleziona la tua connessione, ad esempio **[!UICONTROL Connessione di esempio tramite dati di riepilogo]**.
 1. Selezionare un intervallo di date appropriato nei dettagli **[!UICONTROL Connessione]** > **[!UICONTROL Connessione di esempio utilizzando dati di riepilogo]**.
@@ -442,7 +458,7 @@ Nell&#39;elenco dei **[!UICONTROL Set di dati]**, i valori nella colonna **[!UIC
 
 Per poter creare rapporti sui dati corretti in Workspace, devi creare una visualizzazione dati contenente le metriche e le dimensioni pertinenti.
 
-1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
+1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal commutatore ![App](/help/assets/icons/Apps.svg).
 1. Seleziona **[!UICONTROL Visualizzazioni dati]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
 1. Selezionare **[!UICONTROL Crea nuova visualizzazione dati]**.
 1. In **[!UICONTROL Visualizzazioni dati]**, passa attraverso le schermate della procedura guidata per configurare la visualizzazione dati.
@@ -541,7 +557,7 @@ Ora hai impostato la visualizzazione dati per la generazione di rapporti corrett
 
 Per creare un rapporto sui dati di riepilogo, crea un nuovo progetto in Analysis Workspace.
 
-1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal   ![App](/help/assets/icons/Apps.svg)   commutatore app.
+1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal commutatore ![App](/help/assets/icons/Apps.svg).
 1. Seleziona **[!UICONTROL Workspace]** dal menu principale.
 1. Seleziona **[!UICONTROL Crea progetto]**.
 1. Seleziona **[!UICONTROL Progetto Workspace vuoto]** dalla finestra di dialogo con le opzioni per creare un progetto Workspace vuoto.
@@ -571,7 +587,7 @@ Desideri utilizzare la potenza della generazione rapporti sui dati di riepilogo 
    1. Specificare `Return on Ad Spend` per **[!UICONTROL Name]**.
    1. Seleziona **[!UICONTROL Valuta]** per **[!UICONTROL Formato]**.
    1. Seleziona `2` per **[!UICONTROL Cifre decimali]**.
-   1. Utilizza ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Ricavi (Ultimo Contatto | 30 Giorni)]** **[!UICONTROL −]** ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo]** come **[!UICONTROL Definizione]**.
+   1. Usa ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Ricavi (Ultimo Contatto | 30 giorni)]** **[!UICONTROL −]** ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Costo]** come **[!UICONTROL Definizione]**.
    1. Seleziona **[!UICONTROL Salva]**.
 
 Aggiungi le metriche calcolate al rapporto.

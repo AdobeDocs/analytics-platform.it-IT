@@ -5,11 +5,26 @@ role: Developer, Admin
 solution: Customer Journey Analytics
 exl-id: dd273c71-fb5b-459f-b593-1aa5f3e897d2
 feature: Troubleshooting
-keywords: servizio query;servizio Query;sintassi SQL
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+keywords: servizio query;Query Service;sintassi SQL
+TQID: https://experienceleague.adobe.com/WT2Phz0aaiJ0Jp403fr6byx9QkncKjvRJpxl9yxPKLE
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 97%
+source-wordcount: 770
+ht-degree: 98%
 
 ---
 
@@ -40,7 +55,7 @@ Considera i seguenti possibili motivi per cui i dati potrebbero differire tra le
 
 Se tutte le impostazioni precedenti sono simili e desideri convalidare almeno il numero di record tra i prodotti, puoi utilizzare la procedura seguente:
 
-1. In [Servizi di query](https://experienceleague.adobe.com/it/docs/experience-platform/query/home) di Adobe Experience Platform, esegui la query Totale record in base alla marca temporale seguente:
+1. In [Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home) di Adobe Experience Platform, esegui la query Totale record in base alla marca temporale seguente:
 
    ```sql
    SELECT
@@ -63,4 +78,4 @@ Se tutte le impostazioni precedenti sono simili e desideri convalidare almeno il
 
    Le righe che corrispondono a uno dei criteri precedenti sono escluse dal flusso di lavoro di acquisizione del connettore di origine di Analytics e devono pertanto essere escluse anche durante il conteggio delle righe del feed di dati.
 
-1. I record totali nei Servizi di query devono corrispondere al numero di righe in un feed di dati per lo stesso periodo di tempo.
+1. I record totali in Query Service devono corrispondere al numero di righe in un feed di dati per lo stesso periodo di tempo.

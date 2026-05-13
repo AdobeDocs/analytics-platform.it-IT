@@ -6,13 +6,27 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B Edition"
 exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
-source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+TQID: https://experienceleague.adobe.com/s2qVXxi4n5SFhMVIxRAVLERoIs6YKEswZkXnZmTeIkk
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 100%
+source-wordcount: 483
+ht-degree: 94%
 
 ---
-
 
 # Customer Journey Analytics B2B Edition
 
@@ -20,8 +34,8 @@ ht-degree: 100%
 
 Adobe Analytics è nato come strumento di analisi web e digitale per i marketer, mentre Customer Journey Analytics ha ampliato l’ambito per includere dati multicanale, offline e multipiattaforma.  Entrambi gli strumenti aiutano le aziende B2C (Business to Consumer) ad analizzare e ottimizzare le proprie attività di marketing e le esperienze della clientela. Inoltre, sono incentrati sul **reporting e l’analisi basati su persona**: comprendono il percorso cliente, ovvero la persona che interagisce con il tuo brand su più canali.
 
-![Immagine hero di B2B](assets/b2b-image.png)
-Customer Journey Analytics B2B Edition aggiunge **l’analisi e il reporting basati su account**. Nelle vendite B2B (business-to-business), il percorso di acquisto coinvolge più parti, punti di contatto, online e offline, e fasi chiave prima della conclusione di un’affare. Le aziende B2B hanno bisogno di tracciare tutte queste interazioni in un percorso unificato, così da analizzare e ottimizzare in modo efficace le attività di marketing e le esperienze degli account.
+![Immagine protagonista B2B](assets/b2b-image.png)
+Customer Journey Analytics B2B edition aggiunge **reporting e analisi basati sull&#39;account**. Nelle vendite B2B (business-to-business), il percorso di acquisto coinvolge più parti, punti di contatto, online e offline, e fasi chiave prima della conclusione di un’affare. Le aziende B2B hanno bisogno di tracciare tutte queste interazioni in un percorso unificato, così da analizzare e ottimizzare in modo efficace le attività di marketing e le esperienze degli account.
 
 Le caratteristiche tipiche della vendita B2B sono:
 
@@ -43,8 +57,8 @@ Customer Journey Analytics B2B Edition aiuta le aziende B2B ad allineare i team 
 
 >[!MORELIKETHIS]
 >
->[Concetti e funzioni B2B](cja-b2b-concepts-features.md)
->>[Guida rapida B2B](cja-b2b-quick-start-guide.md)
->>[Guida alla transizione B2B](cja-b2b-transition.md)
->>[Casi d’uso B2B](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
+>Concetti e funzionalità di [B2B](cja-b2b-concepts-features.md)
+>[Guida rapida B2B](cja-b2b-quick-start-guide.md)
+>[Guida alla transizione B2B](cja-b2b-transition.md)
+>[Casi d’uso B2B](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
 >

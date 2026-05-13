@@ -4,10 +4,27 @@ title: Panoramica Dei Pannelli In Analysis Workspace
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 11df56f5d757602403098d1c6b4330e935a438a2
+TQID: https://experienceleague.adobe.com/4UiJUXEOGW3paTCi293AADuY1VYiu2egk0A4Oyv5uD8
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 31%
+source-wordcount: 2809
+ht-degree: 30%
 
 ---
 
@@ -83,7 +100,7 @@ Puoi gestire un pannello nei modi seguenti:
 
 * Per comprimere un pannello, seleziona ![ChevronDown](/help/assets/icons/ChevronDown.svg).
 * Per visualizzare un pannello compresso, seleziona ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
-* Per eliminare un pannello, seleziona ![CrossSize400](/help/assets/icons/CrossSize200.svg). Per annullare, selezionare **[!UICONTROL Modifica]** > **[!UICONTROL Annulla]** (**[!UICONTROL *comando+z *]**|**[!UICONTROL * ctrl+z *]**).
+* Per eliminare un pannello, seleziona ![CrossSize400](/help/assets/icons/CrossSize200.svg). Per annullare, selezionare **[!UICONTROL Modifica]** > **[!UICONTROL Annulla]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
 * Per spostare un pannello, trascina e rilascia il pannello ogni volta che è visibile un ![Sposta](/help/assets/icons/Move.svg) (in genere quando passi il cursore sull&#39;intestazione).
 
 
@@ -228,7 +245,7 @@ Per qualsiasi componente *dimension* a cui viene rilasciato **mentre tieni premu
 
 Per qualsiasi componente *dimension* a cui viene rilasciato **mentre si tiene** ⇧, viene creato un menu a discesa dei segmenti. Puoi configurare il menu a discesa per suddividere il pannello in base agli elementi disponibili per gli elementi dimensionali eliminati (menu a discesa con raggruppamento [statico](#static)) o per il componente dimensione (menu a discesa con raggruppamento [dinamico](#dynamic)). Per configurare esplicitamente il menu a discesa in modo da suddividere un pannello utilizzando le suddivisioni:
 
-* Seleziona ![Filtro](/help/assets/icons/Filter.svg) e ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Raggruppamento]** | **[!UICONTROL Raggruppa i dati nel pannello]** dal menu di scelta rapida per il componente ❾.
+* Seleziona ![Filtro](/help/assets/icons/Filter.svg) e ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Raggruppamento]** | **[!UICONTROL Suddivide i dati nel pannello]** dal menu di scelta rapida per il componente ❾.
 
 >[!IMPORTANT]
 >

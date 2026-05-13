@@ -5,10 +5,32 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/UXeVx5LF0ww0guz-62swqmGapSfjiTduYjojcZqqIYQ
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 13%
+source-wordcount: 1129
+ht-degree: 14%
 
 ---
 
@@ -31,7 +53,7 @@ Vedi [confronto dei rapporti](#reporting-comparison) per ulteriori dettagli.
 
 Per creare rapporti sui dati Marketo Engage in Customer Journey Analytics:
 
-+++ &#x200B;1. Mappa i campi dati di origine di Marketo ai relativi target XDM
++++ &#x200B;1. Mappare i campi dati di origine di Marketo alle relative destinazioni XDM
 
 Mappa gli oggetti [Persons](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Persone) e [Activities](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Attività) ai rispettivi campi di destinazione dello schema XDM.
 
@@ -90,7 +112,7 @@ Customer Journey Analytics è uno strumento di analisi cross-channel avanzato ba
 
 #### Funzionalità chiave
 
-* **Origini dati**: può combinare più set di dati (web, CRM, e-mail, call center, offline, Marketo, ecc.) per il reporting a 360° del percorso di clienti.
+* **Origini dati**: può combinare più set di dati (Web, CRM, e-mail, call center, offline, Marketo, ecc.) per il reporting a 360° del percorso del cliente.
 * **Analisi self-service**: area di lavoro con dashboard e visualizzazioni altamente interattive e personalizzabili.
 * **Attribuzione avanzata**: supporta modelli di attribuzione complessi, multi-touch e personalizzati in tutti i dati connessi, non solo nei programmi di marketing.
 * **Analisi del pubblico e dei percorsi**: segmentazione approfondita, coorte e analisi dei percorsi tra percorsi di acquirenti.

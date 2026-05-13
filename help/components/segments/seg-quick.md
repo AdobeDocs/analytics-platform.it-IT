@@ -4,9 +4,24 @@ title: Segmenti rapidi
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/DvRdeldUVvvaUfzWVV-vTflR1iZvMUH68pZQTL1d8D8
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: 1200
 ht-degree: 17%
 
 ---
@@ -97,7 +112,7 @@ L’area delle condizioni specifica le condizioni (fino a un massimo di tre). Pe
 | **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | Disponibile solo quando si definiscono più condizioni. Selezionare dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg) tra le condizioni. La selezione determina la logica booleana per il segmento rapido. Non è possibile combinare la logica quando si hanno tre condizioni. La logica booleana è **[!UICONTROL AND]** o **[!UICONTROL OR]**. |
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | Aggiunge un’altra condizione al segmento rapido. Questo pulsante è disponibile solo quando sono state definite una o due condizioni per il segmento rapido. |
 | **[!UICONTROL Applica]** | Applica le modifiche al segmento rapido. |
-| **[!UICONTROL Apri generatore]** | Viene richiesta una conferma con **[!UICONTROL Continuare?Finestra di dialogo]**. Se si seleziona **[!UICONTROL OK]**, non sarà più possibile modificare il segmento nel [Generatore di segmenti rapidi](#quick-segment-builder). Il segmento rapido verrà rinominato in **[!UICONTROL Segmento]** e ora presenta una barra sinistra blu più scura.<br/>Viene aperto il [Generatore di segmenti](seg-builder.md) regolare con l&#39;opzione di **[!UICONTROL Rendere questo segmento disponibile per tutti i progetti e aggiungerlo all&#39;elenco dei componenti]**. <ul><li>Se si seleziona questa opzione e si seleziona **[!UICONTROL Applica]**, il segmento verrà aggiunto all&#39;elenco dei componenti ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** nel pannello dei componenti.</li><li>Se non si seleziona questa opzione e si seleziona **[!UICONTROL Applica]**, il segmento rimane un segmento solo progetto di Workspace.</li></ul> |
+| **[!UICONTROL Apri generatore]** | Ti viene richiesta una conferma con un **[!UICONTROL Continuare?]** . Se si seleziona **[!UICONTROL OK]**, non sarà più possibile modificare il segmento nel [Generatore di segmenti rapidi](#quick-segment-builder). Il segmento rapido verrà rinominato in **[!UICONTROL Segmento]** e ora presenta una barra sinistra blu più scura.<br/>Viene aperto il [Generatore di segmenti](seg-builder.md) regolare con l&#39;opzione di **[!UICONTROL Rendere questo segmento disponibile per tutti i progetti e aggiungerlo all&#39;elenco dei componenti]**. <ul><li>Se si seleziona questa opzione e si seleziona **[!UICONTROL Applica]**, il segmento verrà aggiunto all&#39;elenco dei componenti ![Segmento](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** nel pannello dei componenti.</li><li>Se non si seleziona questa opzione e si seleziona **[!UICONTROL Applica]**, il segmento rimane un segmento solo progetto di Workspace.</li></ul> |
 | **[!UICONTROL Annulla]** | Seleziona per annullare la creazione o la modifica di un segmento rapido. |
 
 ## Segmenti rapidi e segmenti

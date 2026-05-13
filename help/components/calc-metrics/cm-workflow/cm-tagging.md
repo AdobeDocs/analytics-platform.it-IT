@@ -3,10 +3,22 @@ description: Scopri come assegnare tag alle metriche calcolate per organizzarle.
 title: Assegnare tag alle metriche calcolate
 feature: Calculated Metrics
 exl-id: 25c9299b-34ae-475f-8e7f-5cc8540dab8a
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+TQID: https://experienceleague.adobe.com/ymEFNzduCIcnoCnyf6jKFOtxFb-Pb6r9o5zqwFHgNXQ
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 3%
+source-wordcount: 170
+ht-degree: 4%
 
 ---
 
@@ -19,7 +31,7 @@ Per assegnare tag a una o più metriche calcolate:
 
 1. In [Gestione metriche calcolate](cm-manager.md), selezionare una o più delle metriche calcolate a cui si desidera assegnare il tag.
 1. Dalla barra delle azioni, seleziona ![Etichette](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
-1. Nella finestra di dialogo **[!UICONTROL Tag Calculated metrics]**
+1. Nella finestra di dialogo **[!UICONTROL Assegna tag alle metriche calcolate]**
 
    ![Finestra di dialogo Tag metrica calcolata](assets/tag-calculated-metric-dialog.png)
 
@@ -28,9 +40,9 @@ Per assegnare tag a una o più metriche calcolate:
    2. In base all’elenco dei tag:
 
       * seleziona uno o più tag esistenti dall’elenco, oppure
-      * immettere un nuovo tag e premere **[!UICONTROL ENTER]**. Ripeti l’operazione per aggiungere più di un nuovo tag.
+      * immettere un nuovo tag e premere **[!UICONTROL INVIO]**. Ripeti l’operazione per aggiungere più di un nuovo tag.
 
-1. Selezionare **[!UICONTROL Save]** per salvare i tag per le metriche calcolate. Seleziona **[!UICONTROL Cancel]** per annullare.
+1. Seleziona **[!UICONTROL Salva]** per salvare i tag per le metriche calcolate. Seleziona **[!UICONTROL Annulla]** per annullare.
 
 Una volta salvati, i tag sono elencati nel campo [!UICONTROL Tag] per la metrica calcolata selezionata nel [Generatore di metriche calcolate](cm-tagging.md).
 

@@ -4,10 +4,24 @@ description: Scopri come utilizzare e interpretare il pannello Pubblico medio pe
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+TQID: https://experienceleague.adobe.com/d5xE5n-OpioBQy-j3wGrxO7GBcOJrqbNZ1C0lS1iAYM
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 83%
+source-wordcount: 1708
+ht-degree: 80%
 
 ---
 
@@ -33,7 +47,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive il pannello Pubblico medio per minuto del file multimediale in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulta [Pannello Pubblico medio per minuto del file multimediale](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_In questo articolo viene documentato il pannello del pubblico medio per minuto in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Vedere [Pannello del pubblico medio per minuto](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -81,7 +95,7 @@ Utilizza le impostazioni di input descritte in questa sezione per configurare il
 
    | Impostazione | Descrizione |
    |---------|------------|
-   | **Intervallo date del pannello** | L’intervallo di date predefinito del pannello è [!UICONTROL **Questo mese**]. Puoi modificarlo per visualizzare un solo giorno o più mesi alla volta. <br></br> Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto). Se una combinazione di intervallo di date e granularità genera più di 1440 righe, la granularità viene aggiornata automaticamente per adattarsi all’intero intervallo di date. |
+   | **Intervallo date del pannello** | L’intervallo di date predefinito del pannello è [!UICONTROL **Questo mese**]. È possibile modificarlo per visualizzare uno o più mesi alla volta. <br></br> Questa visualizzazione è limitata a 1440 righe di dati (ad esempio, 24 ore con granularità al minuto). Se una combinazione di intervallo di date e granularità genera più di 1440 righe, la granularità viene aggiornata automaticamente per adattarsi all’intero intervallo di date. |
    | [!UICONTROL **Trascina qui un segmento (o qualsiasi altro componente)**] | Come altri pannelli, questa impostazione segmenta le selezioni in base ai segmenti creati. È un ottimo modo per esaminare piattaforme specifiche, live stream o altri segmenti di file multimediali comuni. |
    | [!UICONTROL **Calcola metrica per**] | Scegli se visualizzare il pubblico medio per minuto di [**[!UICONTROL Contenuto specifico]**](#specific-content). Oppure se desideri visualizzare il pubblico medio per minuto per un [**[!UICONTROL periodo di tempo personalizzato]**](#custom-time-period).<br/><br/>Seleziona [!UICONTROL **Periodo di tempo personalizzato**]: <ul><li>Se la durata non è disponibile, oppure </li><li>se desideri visualizzare il pubblico medio per minuto di una serie temporale con più parti di contenuto, oppure</li><li>per contenuti senza una specifica durata assegnata (come durante un live stream o un evento)</li></ul></li></li></ul> <p>Questa impostazione modifica il flusso di lavoro e l’output del rapporto.</p> |
 
@@ -186,7 +200,7 @@ Il pannello Pubblico medio per minuto del file multimediale utilizza solo la met
 
 >[!MORELIKETHIS]
 >
-> [Creare un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+> [Crea un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 > [Pannello Visualizzatori simultanei di file multimediali](media-concurrent-viewers.md)
 > [Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
 >

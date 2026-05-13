@@ -5,10 +5,25 @@ exl-id: e23ce27a-77ab-4641-a126-93f00d4e6e14
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+TQID: https://experienceleague.adobe.com/r4-Y3zJ51tsClEQFdjQnBYH-D2XQ8cibGYLkSmi3Ttc
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 55%
+source-wordcount: 779
+ht-degree: 63%
 
 ---
 
@@ -56,7 +71,7 @@ Componenti standard opzionali disponibili in **[!UICONTROL Visualizzazioni dati]
 | [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL ID account] | Dimensione | L&#39;[!UICONTROL ID account], quando si utilizza il contenitore Account nella connessione. |
 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL ID opportunità] | Dimensione | L&#39;[!UICONTROL ID opportunità], quando si utilizza il contenitore Opportunità nella connessione. |
 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>[!UICONTROL ID gruppo acquisti] | Dimensione | L&#39;[!UICONTROL ID gruppo di acquisto], quando si utilizza il contenitore Gruppo di acquisto nella connessione. |
-| [!UICONTROL Trimestre dell&#39;anno] | Dimensione suddivisa in base al tempo | Q1, Q2, Q3, Q4 |
+| [!UICONTROL Trimestre dell’anno] | Dimensione suddivisa in base al tempo | Q1, Q2, Q3, Q4 |
 | [!UICONTROL Ripeti sessione] | Metrica | Il numero di sessioni che non sono state le prime sessioni di una persona. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) |
 | [!UICONTROL Tipo di sessione] | Dimensione | Questa dimensione ha due valori: 1. [!UICONTROL Prima volta] e 2. di ritorno. L&#39;elemento riga [!UICONTROL Prima volta] include tutti i comportamenti (metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nella riga [!UICONTROL Restituzione] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket “Non applicabile” per questa dimensione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views-usecases.html?lang=it#new-repeat) |
 | [!UICONTROL Tempo trascorso per evento] | Dimensione | Intervalli della metrica [!UICONTROL Tempo trascorso] in [!UICONTROL Evento] bucket. |

@@ -4,10 +4,25 @@ description: Inserire i dati generati da Adobe Journey Optimizer e analizzarli u
 exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: 830e16ecd4c43da114c63af51e4bb6e88bbb4ff8
+TQID: https://experienceleague.adobe.com/kmZ-AYMcKxwZftFSqJQpTH3zDTDT1CxlNw-MVO6Ikn4
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '3770'
-ht-degree: 93%
+source-wordcount: 3841
+ht-degree: 92%
 
 ---
 
@@ -83,7 +98,7 @@ La visualizzazione dati porta il nome **Abilita visualizzazione dati di AJO (*no
 
   | Compatibilità | Valore |
   |---|---|
-  | [!UICONTROL Imposta come predefinito una visualizzazione dati in Adobe Journey Optimizer] | Abilitato (impostazione predefinita).<br/><br/>Questa opzione di configurazione consente di designare una visualizzazione dati da utilizzare con AJO, senza la necessità di eseguire la configurazione manuale. Per informazioni su come abilitare questa opzione di configurazione (se non è già abilitata per impostazione predefinita), consultare la sezione [Compatibilità](/help/data-views/create-dataview.md#compatibility) in [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md). <br/><br/>Quando si disattiva l’opzione, viene visualizzata una finestra di dialogo in cui viene richiesto se si desidera continuare a modificare la visualizzazione dati predefinita. Quando selezioni **[!UICONTROL Continua]**, devi selezionare un’altra visualizzazione dati come predefinita. Seleziona **[!UICONTROL Conferma]** per confermare la selezione. Seleziona **[!UICONTROL Annulla]** per annullare la modifica alla visualizzazione dati predefinita. |
+  | [!UICONTROL Imposta come predefinito una visualizzazione dati in Adobe Journey Optimizer] | Abilitata (impostazione predefinita).<br/><br/>Questa opzione di configurazione consente di designare una visualizzazione dati da utilizzare con Journey Optimizer, senza la necessità di eseguire la configurazione manuale. Per informazioni su come abilitare questa opzione di configurazione (se non è già abilitata per impostazione predefinita), consultare la sezione [Compatibilità](/help/data-views/create-dataview.md#compatibility) in [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md). <br/><br/>Quando si disattiva l’opzione, viene visualizzata una finestra di dialogo in cui viene richiesto se si desidera continuare a modificare la visualizzazione dati predefinita. Quando selezioni **[!UICONTROL Continua]**, devi selezionare un’altra visualizzazione dati come predefinita. Seleziona **[!UICONTROL Conferma]** per confermare la selezione. Seleziona **[!UICONTROL Annulla]** per annullare la modifica alla visualizzazione dati predefinita. |
 
   | Contenitori | Valore |
   |---|---|
@@ -131,7 +146,7 @@ Seleziona e configura i seguenti set di dati:
 | Set di dati evento di feedback messaggi AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di consegna dei messaggi, ad esempio “[!UICONTROL Invii]” e “[!UICONTROL Mancati recapiti]”. |
 | Set di dati evento esperienza di tracciamento e-mail AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento e-mail come “[!UICONTROL Aperture]”, “[!UICONTROL Clic]” e “[!UICONTROL Annullamenti iscrizioni]”. |
 | Set di dati evento esperienza di tracciamento push AJO | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento push, come “[!UICONTROL Avvii app]”. |
-| Eventi passaggio percorso | Evento | ID persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventi che mostrano quali profili hanno partecipato a ciascun nodo del percorso. |
+| Eventi passaggio percorso | Evento | ID persona: `_experience.journeyOrchestration.`<br>`stepEvents.profileID` | Contiene eventi che mostrano quali profili hanno partecipato a ciascun nodo del percorso. |
 | Set di dati di entità AJO | Ricerca | Chiave: `_id`<br>Chiave corrispondente: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene classificazioni che associano i metadati di percorso e campagna a tutti i dati evento AJO. |
 | Set Di Dati Evento Feedback Messaggio Di AJO - Non Profilo | Evento | ID persona: `IdentityMap` | Contiene eventi di feedback per la consegna di messaggi non di profilo. Disponibile solo quando il componente aggiuntivo [Messaggistica transazionale ad alta velocità](#high-throughput-add-on-datasets) è abilitato. |
 | Set Di Dati Dell’Evento Di Tracciamento E-Mail In AJO - Non Profilo | Evento | ID persona: `IdentityMap` | Contiene eventi di esperienza di tracciamento e-mail non di profilo. Disponibile solo quando il componente aggiuntivo [Messaggistica transazionale ad alta velocità](#high-throughput-add-on-datasets) è abilitato. |

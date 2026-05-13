@@ -6,10 +6,18 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
-source-git-commit: cd3baec708f1811a7cbc37dfe0a9c3af75eb97c3
+TQID: https://experienceleague.adobe.com/rcgrYTjQHpf0C79aQxqr5PfUvZv-yLY2neH0nZ-HBjs
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 2%
+source-wordcount: 604
+ht-degree: 6%
 
 ---
 
@@ -55,7 +63,7 @@ Per impostare il connettore di origine sulle soluzioni native di data warehouse 
 
 Per l&#39;autenticazione rispetto alla soluzione nativa data warehouse supportata, consulta la documentazione Experience Platform pertinente:
 
-* [Database di Azure](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks)
+* [Azure Databricks](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks)
 * [Google BigQuery](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/bigquery)
 * [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake)
 
@@ -65,7 +73,7 @@ Per l&#39;autenticazione rispetto alla soluzione nativa data warehouse supportat
 Una volta connessa correttamente alla soluzione nativa del data warehouse, selezionare la tabella dalla soluzione nativa del data warehouse che si desidera utilizzare per il mirroring dei dati. Una volta selezionata, viene visualizzata un’anteprima del contenuto dei dati.
 
 
-### Dettagli del flusso di dati
+### Dettaglio del flusso di dati
 
 Assicurati di abilitare l’acquisizione dei dati di modifica. Viene visualizzato un pannello di informazioni che illustra i requisiti per l&#39;acquisizione dei dati di modifica.
 

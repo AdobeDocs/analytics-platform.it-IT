@@ -4,10 +4,24 @@ description: Scopri la trasformazione dei dati utilizzando le regole di elaboraz
 exl-id: 049ad97e-0b4f-4163-a022-32661e48bf13
 feature: Basics
 role: User
-source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
+TQID: https://experienceleague.adobe.com/MuJbtTwSbGbKBifnyWz6SNybYX9JsMpIL9QwVJv031Y
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 97%
+source-wordcount: 632
+ht-degree: 92%
 
 ---
 
@@ -22,7 +36,7 @@ La [preparazione dati](https://experienceleague.adobe.com/docs/experience-platfo
 I dati raccolti da Adobe Analytics e in esso memorizzati possono essere trasformati tramite regole di elaborazione o regole VISTA oppure entrambe. Tuttavia, le suite dei rapporti che vengono successivamente inoltrate a Platform tramite il connettore di origine di Analytics possono essere trasformate un’altra volta utilizzando la preparazione dati. Ciò può essere opportuno per una serie di scopi:
 
 * **Risoluzione delle differenze di schema tra le suite di rapporti per l’utilizzo in Customer Journey Analytics e/o RTCDP**. Ad esempio, la suite di rapporti A definisce `eVar1` come “Termine di ricerca” e la suite di rapporti B definisce `eVar2` come “Termine di ricerca”. È possibile utilizzare la preparazione dati per mappare le due diverse eVar in un campo comune che contiene i dati di entrambe le eVar. Ciò rende possibile [combinare suite di rapporti con schemi diversi](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/combine-report-suites.html?lang=it) in una [connessione Customer Journey Analytics](/help/connections/overview.md) o per l’utilizzo in [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=it).
-* **Mappatura dei campi `eVars` con nomi significativi dal punto di vista semantico**. `eVars` e `props` provenienti dal connettore di origine di Analytics sono mappati nei campi come _\_experience.analytics.customDimensions.eVars.eVar1_. La preparazione dati può essere utilizzata per mappare i campi `eVar` e `prop` su nuovi campi con nomi più significativi per gli utenti o corrispondenti ai nomi provenienti da altre origini dati. (Questa operazione può essere eseguita anche tramite altri metodi, ad esempio rinominando i campi in una [visualizzazione dati di Customer Journey Analytics](/help/data-views/create-dataview.md).)
+* **Mappatura dei campi `eVars` con nomi significativi dal punto di vista semantico**. `eVars` e `props` provenienti dal connettore di origine di Analytics sono mappati nei campi come _\_ experience.analytics.customDimensions.eVars.eVar1_. La preparazione dati può essere utilizzata per mappare i campi `eVar` e `prop` su nuovi campi con nomi più significativi per gli utenti o corrispondenti ai nomi provenienti da altre origini dati. (Questa operazione può essere eseguita anche tramite altri metodi, ad esempio rinominando i campi in una [visualizzazione dati di Customer Journey Analytics](/help/data-views/create-dataview.md).)
 * **Trasformazione generale dei dati**. La preparazione dati dispone di centinaia di funzioni di mappatura che possono essere utilizzate per calcolare nuovi campi in base ai dati provenienti dal connettore di origine di Analytics. Puoi suddividere i campi delimitati in campi separati, combinare i campi, manipolare le stringhe, Puoi estrarre informazioni da un campo, in base a espressioni regolari e molto altro.
 
 ## Preparazione dati e classificazione {#classifications}
@@ -31,4 +45,4 @@ In alcune situazioni, la preparazione dati ha un crossover con le [classificazio
 
 Ad esempio, in un campo delimitato puoi utilizzare la preparazione dati per suddividere tale campo in più campi singoli senza utilizzare le classificazioni. In genere, le classificazioni sono un modo per aggiungere metadati a un campo caricando un file di ricerca fornito al di fuori del flusso degli eventi di Analytics in arrivo.
 
-Ad esempio, puoi caricare un file di classificazione che raggruppa gli SKU in “dimensione”, “brand”, “colore”, ecc. Un’altra differenza tra le classificazioni e la preparazione dati è che le classificazioni si applicano ai dati _sia storicamente che in futuro_. Le mappature della preparazione dati, invece, sono applicate ai dati _in futuro_ dal momento in cui viene creata la mappatura.
+Ad esempio, puoi caricare un file di classificazione che raggruppa le SKU in &quot;dimensioni&quot;, &quot;marchio&quot;, &quot;colore&quot;, ecc. Un&#39;altra differenza tra le classificazioni e la preparazione dati è che le classificazioni si applicano ai dati _sia storicamente che in futuro_. Le mappature della preparazione dati, invece, sono applicate ai dati _in futuro_ dal momento in cui viene creata la mappatura.

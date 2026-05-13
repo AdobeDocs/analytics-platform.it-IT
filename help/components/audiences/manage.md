@@ -4,10 +4,20 @@ description: Scopri come gestire i tipi di pubblico in Customer Journey Analytic
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/SVEj1knpMzmtkIlwAYSb6o0PYBR9wf7JbrLMcMM2V8g
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 82%
+source-wordcount: 774
+ht-degree: 86%
 
 ---
 
@@ -104,7 +114,7 @@ Il pannello dei filtri è costituito dalle sezioni seguenti.
 
 | Visualizzazione dati | Descrizione |
 |---|---|
-| ![Proprietari](/help/components/audiences/assets/audiences-filter-dataviews.png){width="300"} | La sezione **[!UICONTROL Visualizzazione dati]** consente di filtrare le visualizzazioni dati. <ul><li>Utilizzi ![Cerca](/help/assets/icons/Search.svg) per cercare le visualizzazioni dati da utilizzare per filtrare.</li><li>Puoi selezionare più di una visualizzazione dati.</li></ul> |
+| ![Proprietari](/help/components/audiences/assets/audiences-filter-dataviews.png){width="300"} | La sezione **[!UICONTROL Visualizzazione dati]** consente di filtrare in base alle visualizzazioni dati. <ul><li>Utilizzi ![Cerca](/help/assets/icons/Search.svg) per cercare le visualizzazioni dati da utilizzare per filtrare.</li><li>Puoi selezionare più di una visualizzazione dati.</li></ul> |
 
 ### Proprietari
 
@@ -123,4 +133,4 @@ Il pannello dei filtri è costituito dalle sezioni seguenti.
 
 | Tag | Descrizione |
 |---|---|
-| ![Tag](/help/components/audiences/assets/audiences-filter-tags.png){width="300"} | La sezione **[!UICONTROL Tag]** consente di filtrare i tag. <ul><li>Utilizzi ![Cerca](/help/assets/icons/Search.svg) per cercare i tag da utilizzare per filtrare. |
+| ![Tag](/help/components/audiences/assets/audiences-filter-tags.png){width="300"} | La sezione **[!UICONTROL Tag]** consente di filtrare in base ai tag. <ul><li>Utilizzi ![Cerca](/help/assets/icons/Search.svg) per cercare i tag da utilizzare per filtrare. |

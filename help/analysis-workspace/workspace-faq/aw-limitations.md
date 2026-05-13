@@ -4,10 +4,24 @@ title: Limitazioni note
 feature: Workspace Basics
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+TQID: https://experienceleague.adobe.com/rbguvYCSFfbmMVr5IBC1M9OD0wDIG0Z4p28Z2dOerBc
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 100%
+source-wordcount: 309
+ht-degree: 54%
 
 ---
 
@@ -24,27 +38,27 @@ Elenco delle limitazioni note in Analysis Workspace e dei relativi componenti:
 
 ## Visualizzazioni
 
-* Le visualizzazioni che sfruttano i segmenti, come [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort] e [!UICONTROL Histogram], non possono accettare le metriche calcolate come input.
-* [!UICONTROL Flow]: dimensioni di entrata/uscita, ad esempio [!UICONTROL Entry page], non possono essere utilizzate in Flusso.
-* [!UICONTROL Cohort]: i valori non interi non possono essere utilizzati come criteri di coorte.
+* Le visualizzazioni che sfruttano i segmenti, come [!UICONTROL Abbandono], [!UICONTROL Flusso], [!UICONTROL Coorte] e [!UICONTROL Istogramma], non possono accettare metriche calcolate come input.
+* [!UICONTROL Flusso]: le dimensioni di entrata/uscita, ad esempio [!UICONTROL Pagina di ingresso], non possono essere utilizzate in Flusso.
+* [!UICONTROL Coorte]: i valori non interi non possono essere utilizzati come criteri di coorte.
 
 ## Segmenti
 
-* Alcune metriche e dimensioni non possono essere segmentate, ad esempio [!UICONTROL Events], [!UICONTROL Persons], ecc.
+* Alcune metriche e dimensioni non possono essere segmentate, ad esempio [!UICONTROL Eventi], [!UICONTROL Persone], ecc.
 * I segmenti ad hoc creati nella [zona di rilascio del pannello](/help/analysis-workspace/c-panels/panels.md) sono un tipo di segmento rapido. Non vengono visualizzati nel pannello a sinistra di Workspace o in Gestione segmenti, a meno che non vengano resi pubblici. Per ulteriori informazioni, consulta [Segmenti rapidi](/help/components/segments/seg-quick.md).
 
 ## Metriche calcolate
 
 * Le metriche calcolate non possono essere utilizzate in alcune visualizzazioni. Consulta [Visualizzazioni](#visualizations).
-* Le metriche calcolate non possono essere utilizzate nel pannello [!UICONTROL Attribution], poiché possono includere modelli di attribuzione separati.
-* Alcuni componenti e operatori non sono disponibili se una metrica calcolata viene creata da Workspace (anziché da [!UICONTROL Components > segments], ovvero Componenti > Segmenti). Ad esempio, [!UICONTROL IP Address].
+* Le metriche calcolate non possono essere utilizzate nel pannello [!UICONTROL Attribuzione], in quanto possono includere modelli di attribuzione separati.
+* Alcuni componenti e operatori non sono disponibili se una metrica calcolata viene creata da Workspace (anziché da [!UICONTROL Componenti > segmenti]). Ad esempio, [!UICONTROL Indirizzo IP].
 
 ## Intervalli di date
 
-* Gli intervalli di date personalizzati non supportano [!UICONTROL This day last year], [!UICONTROL This day last month], ecc.
+* Gli intervalli di date personalizzati non supportano [!UICONTROL Questo giorno lo scorso anno], [!UICONTROL Questo giorno lo scorso mese], ecc.
 
 
 ## Impostazioni dei rapporti
 
-* Alcune delle impostazioni sulla pagina [!UICONTROL Report Settings] non sono applicabili. Analysis Workspace utilizza solo le impostazioni [!UICONTROL Language/Currency/Encoding] in basso: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding] e [!UICONTROL CSV Separator Character].
+* Alcune delle impostazioni nella pagina [!UICONTROL Impostazioni report] non sono applicabili. Analysis Workspace utilizza solo le impostazioni [!UICONTROL Lingua/Valuta/Codifica] in basso: [!UICONTROL Separatore delle migliaia], [!UICONTROL Codifica report pianificata] e [!UICONTROL Carattere separatore CSV].
 

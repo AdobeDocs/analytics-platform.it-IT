@@ -4,10 +4,21 @@ description: Inserire i dati generati dalla gestione delle decisioni di Adobe Jo
 exl-id: fde45264-46cf-4c68-9872-7fb739748f21
 feature: Experience Platform Integration
 role: Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/kSBDrh6xQ-vi59JbirhxURFLIiG3BNQWeBZFJgygaG8
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 97%
+source-wordcount: 753
+ht-degree: 98%
 
 ---
 
@@ -35,7 +46,7 @@ Seleziona e configura i seguenti set di dati:
 | ODE DecisonEvents - decisioning della _sandbox_ | Evento | ID persona: `IdentityMap` | Contiene dati generati automaticamente per gli eventi di decisione della gestione delle decisioni. _Sandbox_ fa riferimento al nome specifico della sandbox. |
 | Set di dati evento feedback messaggio Adobe Journey Optimizer | Evento | ID persona: `IdentityMap` | Contiene eventi di consegna dei messaggi. |
 | Set di dati evento esperienza tracciamento e-mail di Adobe Journey Optimizer | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento e-mail. |
-| Set di dati evento esperienza tracciamento push di Adobe Journey Optimizer | Evento | ID Persona: `IdentityMap` | Contiene eventi di tracciamento push. |
+| Set di dati evento esperienza tracciamento push di Adobe Journey Optimizer | Evento | ID persona: `IdentityMap` | Contiene eventi di tracciamento push. |
 | Set di dati di entità di Adobe Journey Optimizer | Ricerca | Chiave: `_id`<br>Chiave corrispondente: `_experience.decisioning.propositions.`<br>`scopeDetails.correlationID` | Contiene classificazioni che associano i metadati di percorso e campagna a tutti i dati evento Adobe Journey Optimizer. |
 
 {style="table-layout:auto"}

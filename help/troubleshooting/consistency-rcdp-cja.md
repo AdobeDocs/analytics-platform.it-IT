@@ -4,13 +4,24 @@ title: Coerenza di metriche e appartenenza a un pubblico
 role: Admin
 feature: Basics
 exl-id: 13d972bc-3d32-414e-a67d-845845381c3e
-source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
+TQID: https://experienceleague.adobe.com/IYlFUArrqejRjs5uDJ0MNGixQG4IP6ly4qLQBMALCjA
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 90%
+source-wordcount: 671
+ht-degree: 100%
 
 ---
-
 
 # Coerenza di metriche e appartenenza a un pubblico
 
@@ -22,7 +33,7 @@ Quando si confrontano i conteggi di appartenenza a un pubblico tra Real-Time CDP
 
 Real-Time CDP e Customer Journey Analytics attualmente non condividono la stessa definizione di persona. Real-Time CDP si basa interamente sulle informazioni contenute nel [grafo delle identità](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/understanding-identity-and-identity-graphs.html?lang=it) per generare un profilo unito.
 
-È possibile configurare Customer Journey Analytics per utilizzare l’[unione](../stitching/overview.md). Se si utilizza [Unione basata sui campi](/help/stitching/fbs.md) come meccanismo di unione, specificare un identificatore da un set di dati nel data lake per unire i dati in tale set di dati allo scopo di elevare il set di dati con profili uniti migliorati. Se si utilizza l&#39;unione basata su [Graph](/help/stitching/gbs.md) come meccanismo di unione, un processo simile sta utilizzando il grafo delle identità, in base a uno spazio dei nomi identità specificato.
+È possibile configurare Customer Journey Analytics per utilizzare l’[unione](../stitching/overview.md). Se utilizzi l’[unione delle identità basata su campi](/help/stitching/fbs.md) come meccanismo di unione, è necessario specificare un identificatore da un set di dati del data lake per unire i dati in tale set di dati con lo scopo di arricchire il set di dati con profili uniti migliorati. Se utilizzi l’[unione delle identità basata su grafo](/help/stitching/gbs.md) come meccanismo di unione, un processo simile utilizza il grafo identità in base a uno spazio dei nomi identità specificato.
 
 
 ## Differenze nella configurazione dei set di dati

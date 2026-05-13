@@ -4,10 +4,20 @@ title: Progetti aperti
 feature: Workspace Basics
 role: User
 exl-id: 5ef235e2-50d8-4202-bad7-06090102cf73
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+TQID: https://experienceleague.adobe.com/iqhe-qsJLj6il8IDhb8ZAkINpww7oKZYj-r2oyjTxGY
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 97%
+source-wordcount: 375
+ht-degree: 67%
 
 ---
 
@@ -19,36 +29,36 @@ Puoi aprire un progetto direttamente dalla pagina [Progetti](/help/analysis-work
 
 Puoi aprire un progetto anche mentre lavori su un altro progetto.
 
-* Seleziona **[!UICONTROL Open]** dal menu **[!UICONTROL Project]**. Viene visualizzata una finestra di dialogo simile alla pagina [Progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md).  Utilizza [ricerca](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) o il [pannello segmenti](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel) per restringere l’elenco.
+* Seleziona **[!UICONTROL Apri]** dal menu **[!UICONTROL Progetto]**. Viene visualizzata una finestra di dialogo simile alla pagina [Progetti](/help/analysis-workspace/build-workspace-project/freeform-overview.md).  Utilizza [ricerca](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) o il [pannello segmenti](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel) per restringere l’elenco.
 * Seleziona il titolo del progetto per aprirlo in Analysis Workspace.
 
-Se non riesci a trovare il progetto e vuoi avviare un nuovo progetto, seleziona **[!UICONTROL Create new]**.
+Se non riesci a trovare il progetto e vuoi avviare un nuovo progetto, seleziona **[!UICONTROL Crea nuovo]**.
 
 ## Aprire la versione precedente
 
 Per aprire una versione salvata in precedenza di un progetto:
 
-1. Seleziona **[!UICONTROL Open previous version]** dal menu **[!UICONTROL Project]**.
+1. Seleziona **[!UICONTROL Apri versione precedente]** dal menu **[!UICONTROL Progetto]**.
 
    ![L’elenco delle versioni del progetto salvate in precedenza e le opzioni per mostrare Tutte le versioni o Solo le versioni con note.](assets/open-previously-saved.png)
 
-1. Esamina l’elenco delle versioni precedenti disponibili nella finestra di dialogo **[!UICONTROL Previously saved versions]**. Puoi passare da **[!UICONTROL All versions]** a **[!UICONTROL Only versions with notes]**.
+1. Rivedi l&#39;elenco delle versioni precedenti disponibili nella finestra di dialogo **[!UICONTROL Versioni salvate in precedenza]**. È possibile passare da **[!UICONTROL Tutte le versioni]** a **[!UICONTROL Solo le versioni con note]**.
 
    Per ogni versione, l’elenco mostra una marca temporale, l’editor e le note salvate.
 
 
-1. Seleziona una versione precedente e fai clic su **[!UICONTROL Load]** (Carica).
-La versione precedente viene quindi caricata con una notifica. La versione precedente diventa la versione salvata corrente del progetto solo dopo aver fatto clic su **[!UICONTROL Save]**. Se esci dalla versione caricata, viene visualizzata l’ultima versione salvata quando desideri aprire di nuovo una versione precedente.
+1. Selezionare una versione precedente e fare clic su **[!UICONTROL Carica]**.
+La versione precedente viene quindi caricata con una notifica. La versione precedente diventa la versione salvata corrente del progetto solo dopo aver fatto clic su **[!UICONTROL Salva]**. Se esci dalla versione caricata, viene visualizzata l’ultima versione salvata quando desideri aprire di nuovo una versione precedente.
 
 
 ## Visualizzazione dati incompatibile
 
-Quando apri un progetto, è possibile che venga visualizzata una finestra di dialogo di avviso **[!UICONTROL Incompatible data view]**. Questa finestra di dialogo spiega che alcuni componenti all’interno del progetto non sono abilitati nella visualizzazione dati selezionata per uno dei pannelli del progetto.
+Quando apri un progetto, potresti visualizzare una **[!UICONTROL visualizzazione dati incompatibile]** finestra di avviso. Questa finestra di dialogo spiega che alcuni componenti all’interno del progetto non sono abilitati nella visualizzazione dati selezionata per uno dei pannelli del progetto.
 
 ![Incompatibile](assets/incompatible-data-view.png)
 
 Per correggere questo avviso, è possibile:
 
-* **[!UICONTROL Change the data view]**. Selezionare una visualizzazione dati corretta da **[!UICONTROL Change data view:]** ![Dati](/help/assets/icons/Data.svg). Se la visualizzazione dati selezionata è valida, il progetto viene aperto in Analysis Workspace.
-* **[!UICONTROL Return to landing page]**. Il progetto selezionato non viene aperto e puoi selezionare un altro progetto.
-* **[!UICONTROL Continue anyway]**. Il progetto viene aperto in Analysis Workspace, ma mostra errori in alcune visualizzazioni e le visualizzazioni dati incompatibili mostrano un avviso ![Avviso](/help/assets/icons/Alert.svg) prima del nome della visualizzazione dati.
+* **[!UICONTROL Modifica la visualizzazione dati]**. Selezionare una visualizzazione dati corretta da **[!UICONTROL Modifica visualizzazione dati:]** ![Dati](/help/assets/icons/Data.svg). Se la visualizzazione dati selezionata è valida, il progetto viene aperto in Analysis Workspace.
+* **[!UICONTROL Torna alla pagina di destinazione]**. Il progetto selezionato non viene aperto e puoi selezionare un altro progetto.
+* **[!UICONTROL Continua comunque]**. Il progetto viene aperto in Analysis Workspace, ma mostra errori in alcune visualizzazioni e le visualizzazioni dati incompatibili mostrano un avviso ![Avviso](/help/assets/icons/Alert.svg) prima del nome della visualizzazione dati.

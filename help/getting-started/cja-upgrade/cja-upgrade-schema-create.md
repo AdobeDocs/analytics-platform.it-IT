@@ -5,10 +5,20 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 3dc53d6955eab3048ebf8a7c9d232b4b5739c6bd
+TQID: https://experienceleague.adobe.com/XzezXkqEK9-P8nffVN-Qe6k60Foxdz0csMNk0qKNzHw
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 79%
+source-wordcount: 1294
+ht-degree: 80%
 
 ---
 
@@ -24,12 +34,12 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create-default-aa"
 >title="Creare uno schema utilizzando il gruppo di campi ExperienceEvent di Adobe Analytics"
->abstract="Utilizza il gruppo di campi “ExperienceEvent di Adobe Analytics” per creare uno schema in Adobe Experience Platform che contiene tutti i campi utilizzati da Adobe Analytics.<br><br>La creazione di uno schema basato sul gruppo di campi ExperienceEvent di Adobe Analytics è semplice e richiede solo pochi minuti per essere completata."
+>abstract="Utilizza il gruppo di campi “ExperienceEvent di Adobe Analytics” per creare uno schema in Adobe Experience Platform che contenga tutti i campi utilizzati da Adobe Analytics.<br><br>La creazione di uno schema basato sul gruppo di campi ExperienceEvent di Adobe Analytics è semplice e può essere completata in pochi minuti."
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
 >title="Abilitare lo schema per il profilo"
->abstract="Abilita il profilo nello schema per l’utilizzo in Adobe Real-time CDP. Questo passaggio viene visualizzato perché è stato selezionato che desideri integrazione con Adobe Real-time CDP.<br><br>Poiché questo passaggio comporta la selezione di una singola casella, l’operazione richiede solo alcuni minuti."
+>abstract="Abilita il profilo nello schema per l’utilizzo in Adobe Real-time CDP. Questo passaggio viene visualizzato perché hai selezionato che desideri l’integrazione con Adobe Real-time CDP.<br><br>Poiché comporta la selezione di una singola casella, l’operazione richiede solo alcuni minuti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -138,7 +148,7 @@ Per creare uno schema personalizzato:
 
    Stai specificando l’Experience Cloud Identity come identità principale che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) il comportamento dei profili con lo stesso ECID.
 
-   Selezionare **[!UICONTROL Applica]**. Nell’attributo ecid viene visualizzata l’icona di un’impronta digitale.
+   Seleziona **[!UICONTROL Applica]**. Nell’attributo ecid viene visualizzata l’icona di un’impronta digitale.
 
 1. Seleziona il campo **[!UICONTROL email]** nell&#39;oggetto di identificazione appena aggiunto, quindi seleziona **[!UICONTROL Identity]** e **[!UICONTROL Email]** dall&#39;elenco [!UICONTROL Identity namespace] nel pannello [!UICONTROL Field Properties].
 
@@ -146,7 +156,7 @@ Per creare uno schema personalizzato:
 
    Stai specificando l’indirizzo e-mail come un’altra identità che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) il comportamento dei profili.
 
-   Selezionare **[!UICONTROL Applica]**. Nell’attributo e-mail viene visualizzata l’icona di un’impronta digitale.
+   Seleziona **[!UICONTROL Applica]**. Nell’attributo e-mail viene visualizzata l’icona di un’impronta digitale.
 
    Seleziona **[!UICONTROL Salva]**.
 

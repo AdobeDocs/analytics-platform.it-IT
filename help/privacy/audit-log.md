@@ -4,10 +4,22 @@ description: Scopri come visualizzare e gestire i registri di controllo di Custo
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 2ef96ad194f8c7acec35bd7635c650af4370531a
+TQID: https://experienceleague.adobe.com/3oW5GW8jG-YJSoHP7zeBaenJXWG9yC8GZI-VEed93b0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 80%
+source-wordcount: 999
+ht-degree: 81%
 
 ---
 
@@ -134,19 +146,19 @@ La tabella seguente presenta le azioni che vengono riportate nei registri di con
 
 | Tipo di componente | Azioni |
 | --- | --- |
-| [!UICONTROL Annotazione] | <ul><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
-| [!UICONTROL Pubblico] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li><li>Esportare</li><li>Aggiornamento</li></ul> |
-| [!UICONTROL Metrica calcolata] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
-| [!UICONTROL Connessione] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
-| [!UICONTROL Visualizzazione dati] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
-| [!UICONTROL Intervallo date] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
-| [!UICONTROL Filtro] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
-| [!UICONTROL Organizzazione IMS] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
-| [!UICONTROL Progetto] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
+| [!UICONTROL Annotazione] | <ul><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
+| [!UICONTROL Pubblico] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li><li>Esporta</li><li>Aggiornamento</li></ul> |
+| [!UICONTROL Metrica calcolata] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
+| [!UICONTROL Connessione] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
+| [!UICONTROL Visualizzazione dati] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
+| [!UICONTROL Intervallo date] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
+| [!UICONTROL Filtro] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
+| [!UICONTROL Organizzazione IMS] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
+| [!UICONTROL Progetto] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
 | [!UICONTROL Rapporto] | <ul><li>Richiesta API</li></ul> |
-| [!UICONTROL Progetto pianificato] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
-| [!UICONTROL Utente] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
-| [!UICONTROL Gruppo utenti] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
+| [!UICONTROL Progetto pianificato] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
+| [!UICONTROL Utente] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
+| [!UICONTROL Gruppo utenti] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
 
 {style="table-layout:auto"}
 

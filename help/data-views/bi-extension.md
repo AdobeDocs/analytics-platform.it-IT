@@ -5,10 +5,27 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: 79b3ca663af6c383eed7ec81e9c430855669d19b
+TQID: https://experienceleague.adobe.com/RrX-gp2IY-Ny1D1yzR2whV2GuU98mysma8tQmUEubF8
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '3462'
-ht-degree: 75%
+source-wordcount: 3756
+ht-degree: 74%
 
 ---
 
@@ -330,7 +347,7 @@ Quando si utilizza l’estensione BI, vengono applicati i seguenti predefiniti e
 * L’estensione BI richiede un limite di righe per i risultati della query. Il valore predefinito è 50, ma è possibile sovrascriverlo in SQL utilizzando `LIMIT n`, dove `n` è compreso tra 1 e 50000.
 * L’estensione BI richiede un intervallo di date per limitare le righe utilizzate per i calcoli. L’impostazione predefinita corrisponde agli ultimi 30 giorni, ma è possibile sovrascriverla nella clausola SQL `WHERE` utilizzando le colonne speciali [`timestamp`](#timestamp) o [`daterange`](#date-range).
 * L’estensione BI richiede query aggregate. Impossibile utilizzare SQL come `SELECT * FROM ...` per ottenere la riga, le righe sottostanti. A un livello avanzato, le query aggregate dovrebbero utilizzare:
-   * Seleziona i totali utilizzando `SUM` e/o `COUNT`.<br/> Ad esempio, `SELECT SUM(metric1), COUNT(*) FROM ...`
+   * Seleziona i totali utilizzando `SUM` e/o `COUNT`.<br/> Ad esempio: `SELECT SUM(metric1), COUNT(*) FROM ...`
    * Seleziona le metriche suddivise per dimensione. <br/>Ad esempio, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
    * Seleziona valori di metrica distinti.<br/>Ad esempio, `SELECT DISTINCT dimension1 FROM ...`
 
@@ -389,8 +406,8 @@ HAVING m1 > 100</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Valori distinti e principali 
-della dimensione </td>
+            <td>Distinct, top 
+valori di dimensione </td>
             <td>
                 <pre><code>SELECT DISTINCT dim1 FROM dv1</code></pre>
                 <pre><code>SELECT dim1 AS dv1
@@ -414,9 +431,9 @@ WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</code></pre>
             </td>
         </tr>
         <tr>
-            <td>raggruppamenti 
-multidimensionali 
-e distinti principali </td>
+            <td>Multidimensionale
+raggruppamenti
+e top-distinct </td>
             <td>
                 <pre><code>SELECT dim1, dim2, SUM(metric1) AS m1
 FROM dv1
@@ -432,9 +449,9 @@ FROM dv1</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Sottoseleziona: 
-filtra risultati 
-aggiuntivi </td>
+            <td>Sottoseleziona:
+Filtra informazioni aggiuntive
+risultati </td>
             <td>
                 <pre><code>SELECT dim1, m1
 FROM (
@@ -442,12 +459,12 @@ FROM (
   FROM dv1
   WHERE `timestamp` BETWEEN '2022-01-01' AND '2022-01-02'</br>  RAGGRUPPA PER dim1
 )
-DOVE dim1 in ('A', 'B')</code></pre>
+WHERE dim1 in ('A', 'B')</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Sottoseleziona: 
-query tra 
+            <td>Sottoseleziona:
+Query tra
 visualizzazioni dati </td>
             <td>
                 <pre><code>SELECT key, SUM(m1) AS total
@@ -469,9 +486,9 @@ ORDER BY total</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Sottoseleziona 
-origine con livelli 
-filtro 
+            <td>Sottoseleziona: 
+Origine con livelli, 
+filtraggio, 
 e aggregazione </td>
             <td>Livellato con sottoselezioni:
 <pre><code>SELECT rows.dim1, SUM(rows.m1) AS total
@@ -500,9 +517,9 @@ GROUP BY rows.item</code></pre>
         </td>
         </tr>
         <tr>
-            <td>Seleziona la posizione in cui le 
-metriche precedono 
- o sono combinate con 
+            <td>Seleziona dove
+le metriche vengono prima
+ o sono miscelati con
 le dimensioni </td>
             <td>
                 <pre><code>SELECT SUM(metric1) AS m1, dim1
@@ -675,6 +692,6 @@ Alcune funzionalità SQL sono supportate solo parzialmente con l’estensione BI
 
 | Funzione | Esempio | Dettagli |
 |---|---|---|
-| MIN() E MAX() | ``MIN(daterange)`` o <br/> ``MAX(daterange)`` | `MIN()` in `timestamp`, `daterange` o uno qualsiasi dei `daterangeX` come `daterangeday` restituirà 2 anni fa.<br/><br/> `MAX()` in `timestamp`, `daterange` o uno qualsiasi dei `daterangeX` come `daterangeday` restituirà la data/ora corrente.<br/><br/>`MIN()` o `MAX()` su qualsiasi altra dimensione, metrica o espressione restituirà 0. |
+| MIN() E MAX() | ``MIN(daterange)`` o <br/> ``MAX(daterange)`` | `MIN()` in `timestamp`, `daterange` o uno qualsiasi dei `daterangeX` come `daterangeday` restituirà 2 anni fa.<br/><br/> `MAX()` il `timestamp`, `daterange` o uno qualsiasi dei `daterangeX` come `daterangeday` restituirà la data/ora corrente.<br/><br/>`MIN()` o `MAX()` su qualsiasi altra dimensione, metrica o espressione restituirà 0. |
 
 {style="table-layout:auto"}

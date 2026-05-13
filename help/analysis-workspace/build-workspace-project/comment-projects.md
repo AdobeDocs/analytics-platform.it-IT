@@ -4,9 +4,20 @@ title: Aggiungere E Gestire Commenti Nei Progetti
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
+TQID: https://experienceleague.adobe.com/DWntPKJ6AU2MKBWWVc3MxWYFYXUPlmoMbk8pAdrKYg4
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: 1900
 ht-degree: 1%
 
 ---
@@ -59,7 +70,7 @@ Per nascondere tutti i badge di commento da un progetto:
 
 1. Con il progetto aperto in Analysis Workspace, seleziona l&#39;icona dell&#39;area commenti ![icona dell&#39;area commenti](/help/assets/icons/Comment.svg) nella barra a destra di Analysis Workspace.
 
-1. Nella parte inferiore dell&#39;area dei commenti abilitare l&#39;opzione **[!UICONTROL Hide placed badges]**.
+1. Nella parte inferiore dell&#39;area dei commenti, abilita l&#39;opzione **[!UICONTROL Nascondi badge inseriti]**.
 
 ## Aggiungi commenti
 
@@ -79,15 +90,15 @@ Per aggiungere un commento a un’area specifica del progetto (ad esempio un val
 
    <!--add screenshot-->
 
-1. Seleziona **[!UICONTROL Add comment]**.
+1. Seleziona **[!UICONTROL Aggiungi commento]**.
 
-1. Nel campo **[!UICONTROL New comment]**, specifica il commento.
+1. Nel campo **[!UICONTROL Nuovo commento]**, specifica il commento.
 
    I commenti possono contenere fino a 15.000 caratteri e possono includere markup di base, collegamenti ipertestuali, elenchi puntati e numerati ed emoticon.
 
 1. (Facoltativo) Informa un&#39;altra persona del tuo commento digitando il simbolo @ seguito dal suo nome. Per ulteriori informazioni sull&#39;utilizzo del simbolo @ per notificare altri utenti, vedere [Includere altri utenti in un commento](#include-others-in-a-comment).
 
-1. Seleziona **[!UICONTROL Submit]**.
+1. Seleziona **[!UICONTROL Invia]**.
 
    Un **badge di commento** ![badge di commento](assets/comment-indicator.png) è posizionato nell&#39;area del progetto Workspace in cui hai aggiunto il commento, come descritto in [Visualizza badge di commento in un progetto](#view-comment-badges-in-a-project). Il commento viene visualizzato anche nella parte superiore dell’area commenti nella barra a destra.
 
@@ -97,13 +108,13 @@ Per aggiungere commenti a un progetto in Analysis Workspace:
 
 1. Con il progetto aperto in Analysis Workspace, seleziona l&#39;icona dell&#39;area commenti ![icona dell&#39;area commenti](/help/assets/icons/Comment.svg) nella barra a destra di Analysis Workspace. <!-- add screen shot -->
 
-1. Nel campo **[!UICONTROL New comment]**, specifica il commento.
+1. Nel campo **[!UICONTROL Nuovo commento]**, specifica il commento.
 
    I commenti possono contenere fino a 15.000 caratteri e possono includere markup di base, collegamenti ipertestuali, elenchi puntati e numerati ed emoticon.
 
 1. (Facoltativo) Informa un&#39;altra persona del tuo commento digitando il simbolo @ seguito dal suo nome. Per ulteriori informazioni sull&#39;utilizzo del simbolo @ per notificare altri utenti, vedere [Includere altri utenti in un commento](#include-others-in-a-comment).
 
-1. Seleziona **[!UICONTROL Submit]**.
+1. Seleziona **[!UICONTROL Invia]**.
 
    Il commento verrà visualizzato nella parte superiore dell&#39;area commenti, come descritto in [Visualizza commenti nell&#39;area commenti](#view-comments-in-the-comments-area).
 
@@ -131,21 +142,21 @@ Per includere un&#39;altra persona nel commento:
 
 1. In Analysis Workspace, apri il progetto in cui desideri aggiungere un commento.
 
-1. Seleziona l&#39;icona dell&#39;area commenti ![Icona dell&#39;area commenti](/help/assets/icons/Comment.svg) nella barra a destra di Analysis Workspace, quindi seleziona **[!UICONTROL Reply]** accanto al commento a cui desideri rispondere.
+1. Seleziona l&#39;icona dell&#39;area commenti ![Icona dell&#39;area commenti](/help/assets/icons/Comment.svg) nella barra a destra di Analysis Workspace, quindi seleziona **[!UICONTROL Rispondi]** accanto al commento a cui desideri rispondere.
 
-   Per includere il testo del commento a cui si risponde, con il testo originale racchiuso in un tag di virgolette, selezionare l&#39;icona a tre punti accanto al commento o alla risposta specifica a cui si desidera rispondere, quindi selezionare **[!UICONTROL Quote reply]**. Una risposta a un preventivo è un buon modo per indicare a quale commento o risposta si riferisce il commento.
+   Per includere il testo del commento a cui si sta rispondendo, con il testo originale racchiuso in un tag di virgolette, selezionare l&#39;icona a tre punti accanto al commento o alla risposta specifica a cui si desidera rispondere, quindi selezionare **[!UICONTROL Risposta al preventivo]**. Una risposta a un preventivo è un buon modo per indicare a quale commento o risposta si riferisce il commento.
 
    Oppure
 
-   Selezionare l&#39;icona del commento nel pannello o nella visualizzazione in cui è stato creato, quindi selezionare **[!UICONTROL Reply]**.
+   Seleziona l&#39;icona del commento nel pannello o nella visualizzazione in cui è stato creato, quindi seleziona **[!UICONTROL Rispondi]**.
 
-1. Nel campo **[!UICONTROL New comment]**, specifica il commento.
+1. Nel campo **[!UICONTROL Nuovo commento]**, specifica il commento.
 
    I commenti possono contenere fino a 15.000 caratteri e possono includere markup di base, collegamenti ipertestuali, elenchi puntati e numerati ed emoticon.
 
 1. (Facoltativo) Informa un&#39;altra persona del tuo commento digitando il simbolo @ seguito dal suo nome. Per ulteriori informazioni sull&#39;utilizzo del simbolo @ per notificare altri utenti, vedere [Includere altri utenti in un commento](#include-others-in-a-comment).
 
-1. Seleziona **[!UICONTROL Submit]**.
+1. Seleziona **[!UICONTROL Invia]**.
 
 ## Ricevi notifiche sui commenti
 
@@ -159,7 +170,7 @@ Se un commento è disponibile nell’area commenti nella barra a destra, ma non 
 
 1. Con il progetto aperto in Analysis Workspace, seleziona l&#39;icona dell&#39;area commenti ![icona dell&#39;area commenti](/help/assets/icons/Comment.svg) nella barra a destra di Analysis Workspace.
 
-1. Seleziona l&#39;icona Altro ![Icona Altro](/help/assets/icons/MoreSmallList.svg) accanto al commento per il quale vuoi inserire un distintivo, quindi seleziona **[!UICONTROL Place badge]**.
+1. Seleziona l&#39;icona Altro ![Icona Altro](/help/assets/icons/MoreSmallList.svg) accanto al commento per il quale vuoi inserire un distintivo, quindi seleziona **[!UICONTROL Badge Luogo]**.
 
 1. Seleziona l’area del progetto in cui desideri inserire il badge per il commento esistente.
 
@@ -169,7 +180,7 @@ Se un commento è disponibile nell’area commenti nella barra a destra, ma non 
 
 Per rimuovere un badge:
 
-1. Selezionare il badge da rimuovere, quindi selezionare **[!UICONTROL Remove badge]**.
+1. Selezionare il badge da rimuovere, quindi selezionare **[!UICONTROL Rimuovi badge]**.
 
    Il badge viene rimosso, ma il commento è ancora disponibile nell’area commenti nella barra a destra.
 
@@ -179,7 +190,7 @@ Puoi spostare un badge di commento già inserito per un commento esistente.
 
 1. Con il progetto aperto in Analysis Workspace, individua il badge del commento da spostare.
 
-1. Fare clic con il pulsante destro del mouse sul badge, quindi selezionare **[!UICONTROL Move placement]**.
+1. Fai clic con il pulsante destro del mouse sul badge, quindi seleziona **[!UICONTROL Sposta posizionamento]**.
 
 1. Seleziona l’area del progetto in cui desideri inserire il badge.
 
@@ -193,7 +204,7 @@ Per copiare il collegamento in un commento:
 
 1. Con il progetto aperto in Analysis Workspace, seleziona l&#39;icona dell&#39;area commenti ![icona dell&#39;area commenti](/help/assets/icons/Comment.svg) nella barra a destra di Analysis Workspace.
 
-1. Seleziona l&#39;icona Altro ![Icona Altro](/help/assets/icons/MoreSmallList.svg) accanto al commento di cui desideri copiare il collegamento, quindi seleziona **[!UICONTROL Copy link]**.
+1. Fai clic sull&#39;icona Altro ![Icona Altro](/help/assets/icons/MoreSmallList.svg) accanto al commento di cui desideri copiare il collegamento, quindi seleziona **[!UICONTROL Copia collegamento]**.
 
    Il collegamento viene copiato negli Appunti di sistema. Puoi incollare il collegamento in un’e-mail o in un altro tipo di messaggio.
 
@@ -205,7 +216,7 @@ Per copiare il corpo del testo di un commento:
 
 1. Con il progetto aperto in Analysis Workspace, seleziona l&#39;icona dell&#39;area commenti ![icona dell&#39;area commenti](/help/assets/icons/Comment.svg) nella barra a destra di Analysis Workspace.
 
-1. Seleziona l&#39;icona Altro ![Icona Altro](/help/assets/icons/MoreSmallList.svg) accanto al commento contenente il testo da copiare, quindi seleziona **[!UICONTROL Copy body text]**.
+1. Seleziona l&#39;icona Altro ![Icona Altro](/help/assets/icons/MoreSmallList.svg) accanto al commento contenente il testo da copiare, quindi seleziona **[!UICONTROL Copia corpo del testo]**.
 
    Il corpo del testo del commento viene copiato negli Appunti di sistema.
 
@@ -213,7 +224,7 @@ Per copiare il corpo del testo di un commento:
 
 1. Con il progetto aperto in Analysis Workspace, seleziona l&#39;icona dell&#39;area commenti ![icona dell&#39;area commenti](/help/assets/icons/Comment.svg) nella barra a destra di Analysis Workspace.
 
-1. Selezionare **[!UICONTROL Like]** sotto il commento che si desidera avallare.
+1. Seleziona **[!UICONTROL Mi piace]** sotto il commento che desideri approvare.
 
 ## Eliminare un commento
 
@@ -225,9 +236,9 @@ Per eliminare un commento:
 
 1. Con il progetto aperto in Analysis Workspace, seleziona l&#39;icona dell&#39;area commenti ![icona dell&#39;area commenti](/help/assets/icons/Comment.svg) nella barra a destra di Analysis Workspace.
 
-1. Seleziona l&#39;icona Altro ![Icona Altro](/help/assets/icons/MoreSmallList.svg) accanto al commento da eliminare, quindi seleziona **[!UICONTROL Delete]**.
+1. Seleziona l&#39;icona Altro ![Icona Altro](/help/assets/icons/MoreSmallList.svg) accanto al commento da eliminare, quindi seleziona **[!UICONTROL Elimina]**.
 
-1. Selezionare nuovamente **[!UICONTROL Delete]** per confermare l&#39;eliminazione.
+1. Seleziona di nuovo **[!UICONTROL Elimina]** per confermare l&#39;eliminazione.
 
 ## Risolvere un commento
 
@@ -237,10 +248,10 @@ Per risolvere un commento:
 
 1. Con il progetto aperto in Analysis Workspace, seleziona l&#39;icona dell&#39;area commenti ![icona dell&#39;area commenti](/help/assets/icons/Comment.svg) nella barra a destra di Analysis Workspace.
 
-1. Seleziona l&#39;icona Altro ![Icona Altro](/help/assets/icons/MoreSmallList.svg) accanto al commento da risolvere, quindi seleziona **[!UICONTROL Resolve]**.
+1. Seleziona l&#39;icona Altro ![Icona Altro](/help/assets/icons/MoreSmallList.svg) accanto al commento da risolvere, quindi seleziona **[!UICONTROL Risolvi]**.
 
-1. Seleziona di nuovo **[!UICONTROL Resolve]** per confermare.
+1. Seleziona di nuovo **[!UICONTROL Risolvi]** per confermare.
 
 Per impostazione predefinita, i commenti risolti sono nascosti dall&#39;area commenti. Per visualizzare i commenti risolti:
 
-1. Selezionare l&#39;icona del filtro nell&#39;area commenti, quindi deselezionare l&#39;opzione **[!UICONTROL Hide resolved comments]**.
+1. Selezionare l&#39;icona del filtro nell&#39;area commenti, quindi deselezionare l&#39;opzione **[!UICONTROL Nascondi commenti risolti]**.

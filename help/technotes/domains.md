@@ -3,9 +3,18 @@ title: Domini utilizzati da Customer Journey Analytics
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP provenienti da Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 role: Admin
 exl-id: 0c3e7b2e-cb48-4e14-ae18-65258ebce1b4
-source-git-commit: 8ffbca5dd83987a90d7b744d236e0556314000dd
+TQID: https://experienceleague.adobe.com/d-nNfumskelDKrgCPQpyoZIagJrGcniXyQgACaHh5tA
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: 170
 ht-degree: 3%
 
 ---
@@ -21,8 +30,8 @@ Alcune configurazioni del firewall bloccano i domini su cui Customer Journey Ana
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
 | Gainsight | `esp.aptrinsic.com`, `esp-m.aptrinsic.com` |
 | LaunchDark | `app.launchdarkly.com` |
-| Archiviazione BLOB di Microsoft® Azure | `awaascicdprodva7.blob.core.windows.net` |
-| CDN di Microsoft® Azure | `aauicdnva7.azureedge.net` |
+| Archiviazione BLOB Microsoft® Azure | `awaascicdprodva7.blob.core.windows.net` |
+| CDN MICROSOFT® AZURE | `aauicdnva7.azureedge.net` |
 
 {style="table-layout:auto"}
 

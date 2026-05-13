@@ -5,10 +5,32 @@ feature: Workspace Basics
 exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
-source-git-commit: c84e18bcaf7687deada7086bfe1a85a4b83f216b
+TQID: https://experienceleague.adobe.com/5rXDQ-Ygp3TrEMbpK1UaUcRwSrc81VkUKauxth4-AUs
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+  - id: aff2ef09-fc60-4018-9197-e2befd623064
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '4015'
-ht-degree: 84%
+source-wordcount: 4356
+ht-degree: 85%
 
 ---
 
@@ -101,15 +123,15 @@ Alcune di queste preferenze possono essere personalizzate anche per singoli prog
 | Sezione | Preferenza | Opzioni |
 | --- | --- | --- |
 | **Visualizzazione** | | |
-|  | [Densità di visualizzazione](/help/analysis-workspace/build-workspace-project/view-density.md) | Scegli il contenuto da visualizzare sullo schermo riducendo la spaziatura verticale del pannello di sinistra, tabelle a forma libera e tabelle coorte. <ul><li>Compatta</li><li>Comoda</li><li>Espansa (impostazione predefinita)</li></ul> |
+|  | [Densità di visualizzazione](/help/analysis-workspace/build-workspace-project/view-density.md) | Scegli il contenuto da visualizzare sullo schermo riducendo la spaziatura verticale del pannello di sinistra, tabelle a forma libera e tabelle coorte. <ul><li>Compatta</li><li>Comodo</li><li>Espansa (impostazione predefinita)</li></ul> |
 | | [Tavolozza dei colori](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Scegli le palette di colori di visualizzazione utilizzate in Analysis Workspace e nell’analisi guidata. <ul><li> Palette per categorie: applicata a molte visualizzazioni in Analysis Workspace e nell’analisi guidata. Ogni colore rappresenta un valore di categoria distinto. Scegli tra le opzioni fornite da Adobe o immetti una palette personalizzata definita da valori esadecimali delimitati da virgole.</li><li> Palette divergente: applicata alla tabella coorte in Analysis Workspace e nell’analisi guidata della crescita degli utenti. Questa palette contiene un significato numerico con due estremi e una linea di base al centro.<li> Palette sequenziale: applicata all’analisi guidata delle tendenze di frequenza (barre sovrapposte). Questa palette contiene un significato numerico che va dal chiaro allo scuro.</li></ul> |
 | **Dati** | | |
 |  | [Visualizzazione dati](/help/analysis-workspace/c-panels/panels.md#data-view) | Scegli i dati da cui le tabelle e le visualizzazioni ricavano i propri dati. <ul><li>Più recente (impostazione predefinita)</li><li>Visualizzazione dati specifica selezionata da un elenco</li></ul> |
 |  | [Calendario](/help/analysis-workspace/c-panels/panels.md#calendar) | Seleziona da un elenco di: <ul><li>Intervalli forniti da Adobe (l’impostazione predefinita è Questo mese)</li><li>Per impostazione predefinita, è possibile abilitare [!UICONTROL Creare componenti intervallo di date relativi al calendario del pannello].</li></ul> |
-|  | [Tipo di pannello](/help/analysis-workspace/c-panels/panels.md#panel-types) | <ul><li>A forma libera (impostazione predefinita)</li><li>Vuoto</li><li>Quick Insights</li></ul> |
+|  | [Tipo di pannello](/help/analysis-workspace/c-panels/panels.md#panel-types) | <ul><li>A forma libera (impostazione predefinita)</li><li>Vuoto</li><li>Insight rapidi</li></ul> |
 |  | Conteggio istanze | Abilita [!UICONTROL Conta istanze ripetute] per specificare se le istanze ripetute vengono conteggiate nei report. Ad esempio, se questa opzione è abilitata, più visualizzazioni consecutive della stessa pagina vengono trattate come visualizzazioni di più pagine. Se questa opzione è disabilitata, più visualizzazioni consecutive della stessa pagina vengono conteggiate come una singola pagina. <p>**Nota:** questa impostazione influisce solo su determinate metriche (ad esempio Sessioni) e non si applica alle visualizzazioni Flusso o Fallout.</p> |
-|  | Formato dei numeri | <ul><li>1.000,00 (impsotazione predefinita)</li><li>1.000,00</li><li>1 000,00</li></ul> |
-|  | Carattere separatore CSV | <ul><li>Virgola (impostazione predefinita)</li><li>Punto e virgola</li><li>Due punti</li><li>Barra verticale</li><li>Punto</li><li>Spazio</li><li>Scheda</li></ul> |
+|  | Formato numeri | <ul><li>1.000,00 (impostazione predefinita)</li><li>1.000,00</li><li>1 000,00</li></ul> |
+|  | Carattere separatore CSV | <ul><li>Virgola (impostazione predefinita)</li><li>Punto e virgola</li><li>Due punti</li><li>Barra verticale</li><li>Periodo</li><li>Spazio</li><li>Scheda</li></ul> |
 |  | Mostra annotazioni | Scegli se rendere visibili le annotazioni nei progetti. Per ulteriori informazioni sulle annotazioni, consulta la sezione [Panoramica delle annotazioni](/help/components/annotations/overview.md). |
 
 
@@ -226,7 +248,7 @@ Seleziona i titoli della sezione collegata per ulteriori informazioni e contesto
 | | Mostra asse Y | Visualizza l’asse y sul grafico combinato. |
 | | Visualizza i manubri sulle linee | Mostra i manubri sulle linee nei grafici combinati. |
 | **[Riepilogo delle metriche chiave](/help/analysis-workspace/visualizations/key-metric.md)** | | |
-| | Tipo di visualizzazione sintetico | <ul><li>Enfatizza la variazione percentuale</li><li>Enfatizza il valore numerico</li></ul> |
+| | Tipo di visualizzazione sintetico | <ul><li>Evidenzia variazione percentuale</li><li>Enfatizza il valore numerico</li></ul> |
 | | Mostra sparkline | Mostra o nascondi i grafici a linee nella parte inferiore del grafico. Quando è nascosta, la legenda non fa più riferimento visivamente alle linee. |
 | | Mostra max e min su sparkline | Mostra i valori minimi e massimi nei grafici a linee principali e a linee di confronto. |
 | | Mostra confronto | Mostra i dati di confronto. Quando sono nascosti, non vengono visualizzati gli oggetti Grafico a linee di confronto e Variazione di riepilogo. |
@@ -236,7 +258,7 @@ Seleziona i titoli della sezione collegata per ulteriori informazioni e contesto
 | **[Flusso](/help/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
 | | Contenitore | Seleziona il contenitore preferito da analizzare. Il contenitore preferito ti aiuta a comprendere il coinvolgimento dell’account a vari livelli di contenitore B2B [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, il coinvolgimento della persona a livello di persona (tra sessioni) o a vincolare l’analisi a una singola sessione. <p>Sono disponibili le seguenti opzioni:</p> <ul><li>Account globali [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>Account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>Gruppi acquisti [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>Opportunità [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}</li><li>Sessione</li><li>Persona</li></ul> |
 | | Etichette wrap | Di norma, le etichette degli elementi di Flusso vengono troncate per risparmiare spazio sullo schermo, ma selezionando questa casella puoi rendere visibile l’intera etichetta. Impostazione predefinita = non selezionata. |
-| | Includi istanze ripetute | Le visualizzazioni di Flusso si basano su istanze di una dimensione. Questa impostazione offre la possibilità di includere o escludere istanze ripetute, ad esempio i ricaricamenti delle pagine. Tuttavia, le ripetizioni non possono essere rimosse dalle visualizzazioni Flusso che includono dimensioni con più valori, come listVars, listProp, s.product, eVar di merchandising, ecc. Impostazione predefinita = non selezionata. |
+| | Includi istanze ripetute | Le visualizzazioni di Flusso si basano su istanze di una dimensione. Questa impostazione offre la possibilità di includere o escludere istanze ripetute, ad esempio i ricaricamenti delle pagine. Tuttavia, le ripetizioni non possono essere rimosse dalle visualizzazioni Flusso che includono dimensioni con più valori, come listVars, listProp, s.product, eVar di merchandising, ecc. Predefinito = non selezionato. |
 | | Mostra descrizioni comandi | Determina se visualizzare le descrizioni comandi contenenti i dati dei nodi quando si passa il puntatore del mouse sui singoli nodi all’interno di una visualizzazione del flusso. |
 | | Numero di colonne | Determina il numero di colonne desiderato nel diagramma di flusso. |
 | | Elementi espansi per colonna | Il numero di elementi che desideri inserire in ogni colonna. |

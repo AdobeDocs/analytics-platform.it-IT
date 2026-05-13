@@ -5,10 +5,21 @@ title: Panoramica dei progetti
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+TQID: https://experienceleague.adobe.com/VKMyO7uNXu1Gj5QpJMxPD7WRBs2mHSLBg5H4iTgMI6w
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 76%
+source-wordcount: 1675
+ht-degree: 79%
 
 ---
 
@@ -114,14 +125,14 @@ Il pannello dei filtri è costituito dalle sezioni seguenti.
 
 | Tag | Descrizione |
 |---|---|
-| ![Tag](/help/analysis-workspace/build-workspace-project/assets/projects-filters-tags.png){width="300"} | La sezione **[!UICONTROL Tag]** consente di filtrare i tag. <ul><li>Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca tag* per cercare i tag in base ai quali applicare il filtro.</li><li>Puoi selezionare più di un tag. I tag disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**2︎⃣**: numero di tag disponibili per i progetti, risultanti dal filtro corrente.</li><li>7︎⃣: numero di progetti associati al tag specifico.</li></ul></li></ul> |
+| ![Tag](/help/analysis-workspace/build-workspace-project/assets/projects-filters-tags.png){width="300"} | La sezione **[!UICONTROL Tag]** consente di filtrare in base ai tag. <ul><li>Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca tag* per cercare i tag in base ai quali applicare il filtro.</li><li>Puoi selezionare più di un tag. I tag disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**2︎⃣**: numero di tag disponibili per i progetti, risultanti dal filtro corrente.</li><li>7︎⃣: numero di progetti associati al tag specifico.</li></ul></li></ul> |
 
 
 ### Visualizzazione dati
 
 | Visualizzazione dati | Descrizione |
 |---|---|
-| ![Visualizzazioni dati](/help/analysis-workspace/build-workspace-project/assets/projects-filters-dataviews.png){width="300"} | La sezione **[!UICONTROL Visualizzazione dati]** consente di filtrare le visualizzazioni dati. <ul><li>Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca visualizzazioni dati* per cercare le visualizzazioni dati in base alle quali applicare il filtro.</li><li>Puoi selezionare più di una visualizzazione dati. Le visualizzazioni dati disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**3︎⃣**: numero di visualizzazioni dati disponibili per i progetti, risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati alla visualizzazione dati specifica.</li></ul></li></ul> |
+| ![Visualizzazioni dati](/help/analysis-workspace/build-workspace-project/assets/projects-filters-dataviews.png){width="300"} | La sezione **[!UICONTROL Visualizzazione dati]** consente di filtrare in base alle visualizzazioni dati. <ul><li>Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca visualizzazioni dati* per cercare le visualizzazioni dati in base alle quali applicare il filtro.</li><li>Puoi selezionare più di una visualizzazione dati. Le visualizzazioni dati disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**3︎⃣**: numero di visualizzazioni dati disponibili per i progetti, risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati alla visualizzazione dati specifica.</li></ul></li></ul> |
 
 
 ### Proprietari
@@ -142,7 +153,7 @@ Il pannello dei filtri è costituito dalle sezioni seguenti.
 
 | Altri filtri | Descrizione |
 |---|---|
-| ![Altri filtri](/help/analysis-workspace/build-workspace-project/assets/projects-filters-others.png){width="300"} | La sezione **[!UICONTROL Altri filtri]** ti consente di filtrare in base ad un altro filtro predefinito.<ul><li>È possibile scegliere una o più delle opzioni seguenti:<ul><li> **[!UICONTROL Mostra tutti]**</li><li>**[!UICONTROL Condiviso con me]**</li><li>**[!UICONTROL Mio]**</li><li>**[!UICONTROL Approvato]**</li><li>**[!UICONTROL Preferiti]**</li></ul> Ciò che puoi selezionare dipende dal tuo ruolo e dalle autorizzazioni.</li><li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**5︎⃣**: numero di altri filtri disponibili per i progetti risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati all’altro filtro specifico.</li></ul></li></ul> |
+| ![Altri filtri](/help/analysis-workspace/build-workspace-project/assets/projects-filters-others.png){width="300"} | La sezione **[!UICONTROL Altri filtri]** consente di filtrare in base ad altri filtri predefiniti.<ul><li>È possibile scegliere una o più delle opzioni seguenti:<ul><li> **[!UICONTROL Mostra tutti]**</li><li>**[!UICONTROL Condivisi con me]**</li><li>**[!UICONTROL I miei]**</li><li>**[!UICONTROL Approvato]**</li><li>**[!UICONTROL Preferiti]**</li></ul> Ciò che puoi selezionare dipende dal tuo ruolo e dalle autorizzazioni.</li><li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**5︎⃣**: numero di altri filtri disponibili per i progetti risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati all’altro filtro specifico.</li></ul></li></ul> |
 
 ## Ricerca
 

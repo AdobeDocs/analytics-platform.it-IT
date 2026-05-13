@@ -4,10 +4,23 @@ description: Scopri le funzioni avanzate delle metriche calcolate.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 76b4ac60c8e3ae2dd62f86a35bdf1c582f60b10f
+TQID: https://experienceleague.adobe.com/aXOUGaFZ-hlW9ROWRUWuCFh0d4UKIyjKNsypmAZIsbE
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '5286'
-ht-degree: 91%
+source-wordcount: 5381
+ht-degree: 90%
 
 ---
 
@@ -766,7 +779,7 @@ Incremento del rapporto rispetto al valore di controllo.
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE LINEARE: COEFFICIENTE DI CORRELAZIONE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce il coefficiente di correlazione.
+[!BADGE Tabella]{type="Neutral"} Regressione lineare: Y = a X + b.  Restituisce il coefficiente di correlazione.
 
 
 | Argomento | Descrizione |
@@ -878,13 +891,13 @@ Incremento del rapporto rispetto al valore di controllo.
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-log"
 >title="Regressione logaritmica: coefficiente di correlazione"
->abstract="Regressione logaritmica: Y = a In(X) + b. Restituisce il coefficiente di correlazione."
+>abstract="Regressione logaritmica: Y = a ln(X) + b. Restituisce il coefficiente di correlazione."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE REGISTRO: COEFFICIENTE DI CORRELAZIONE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"} Regressione logaritmica: Y = a In(X) + b. Restituisce il coefficiente di correlazione.
+[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce il coefficiente di correlazione.
 
 | Argomento | Descrizione |
 |---|---|
@@ -906,7 +919,7 @@ Incremento del rapporto rispetto al valore di controllo.
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE REGISTRO: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"} Regressione logaritmica: Y = a ln(X) + b. Restituisce b.
+[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce b.
 
 | Argomento | Descrizione |
 |---|---|
@@ -929,7 +942,7 @@ Incremento del rapporto rispetto al valore di controllo.
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE DEL REGISTRO: Y PREVISTO(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"} Regressione logaritmica: Y = a ln(X) + b. Restituisce Y.
+[!BADGE Riga]{type="Neutral"} Regressione registro: Y = a ln(X) + b. Restituisce Y.
 
 | Argomento | Descrizione |
 |---|---|
@@ -946,13 +959,13 @@ Incremento del rapporto rispetto al valore di controllo.
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-log"
 >title="Regressione logaritmica: pendenza"
->abstract="Regressione logaritmo: Y = a ln(X) + b. Restituisce a."
+>abstract="Regressione logaritmica: Y = a ln(X) + b. Restituisce a."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL REGRESSIONE REGISTRO: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"} Regressione logaritmo: Y = a ln(X) + b. Restituisce a.
+[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|
@@ -1355,7 +1368,7 @@ Restituisce Pi: 3,14159...
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANZA DI ESEMPIO(contenitore-normalizzazione, metrica-successo)]**
 
-Calcola una stima della varianza di esempio utilizzando la formula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)), dove N è il conteggio del contenitore di normalizzazione.<br/>Questa è utilizzata come parte dei calcoli di affidabilità *validi in qualsiasi momento*. In genere questa funzione non è utile da sola, ma può essere utilizzata per verificare i calcoli o per eseguire i calcoli di affidabilità *manualmente*.
+Calcola una stima della varianza di esempio utilizzando la formula (sum(metric^2) / (N - 1)) - (sum(metric))^2/(N*(N-1)), in cui N è il conteggio del contenitore di normalizzazione.<br/>Questa è utilizzata come parte dei calcoli di affidabilità *validi in qualsiasi momento*. In genere questa funzione non è utile da sola, ma può essere utilizzata per verificare i calcoli o per eseguire i calcoli di affidabilità *manualmente*.
 
 | Argomento | Descrizione |
 | --- | --- |

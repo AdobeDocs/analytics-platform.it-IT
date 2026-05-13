@@ -5,9 +5,26 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: aa29067a244c588e6d830f0a039db90e99eaf5d3
+TQID: https://experienceleague.adobe.com/zpiJFUF8RnIdFQWf29FBpRznWO3Ejs-j2szx69kdMNE
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '10297'
+source-wordcount: 10489
 ht-degree: 99%
 
 ---
@@ -103,7 +120,7 @@ Quando definisci una regola nel generatore di regole, utilizzi l’interfaccia r
 
 ## Modificare un campo derivato {#edit}
 
-1. Seleziona una visualizzazione dati esistente. Per ulteriori informazioni, consulta [Visualizzazione dati](../data-views.md).
+1. Seleziona una visualizzazione dati esistente. Per ulteriori informazioni, consulta [Visualizzazioni dati](../data-views.md).
 
 2. Seleziona la scheda **[!UICONTROL **&#x200B; Componenti &#x200B;**]** della visualizzazione dati.
 
@@ -139,7 +156,7 @@ In alternativa, se hai utilizzato un campo derivato come componente per dimensio
 
 ## Eliminare un campo derivato {#delete}
 
-1. Seleziona una visualizzazione dati esistente. Per ulteriori informazioni, consulta [Visualizzazione dati](../data-views.md).
+1. Seleziona una visualizzazione dati esistente. Per ulteriori informazioni, consulta [Visualizzazioni dati](../data-views.md).
 
 2. Seleziona la scheda **[!UICONTROL **&#x200B; Componenti &#x200B;**]** della visualizzazione dati.
 
@@ -431,7 +448,7 @@ Per utilizzare il modello, è necessario specificare i parametri corretti per og
 +++
 
 
-### Analisi dei parametri UTM
+### Analisi parametri UTM
 
 Questo modello di funzione estrae il valore dei parametri di query UTM specificati (ad esempio, `utm_source`, `utm_campaign`) dal campo URL selezionato. Utilizza questa funzione per etichettare e raggruppare gli eventi in base all’attribuzione della campagna per i rapporti di marketing.
 
@@ -495,7 +512,7 @@ Applica i condizionali, in base a criteri definiti da uno o più campi. Tali cri
 
 | Tipo di dati di input | Input | Operatori inclusi | Limitazioni | Output |
 |---|---|---|---|---|
-| <ul><li>Stringa</li><li>Numerico</li><li>Data</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] contenitore:</p><ul><li>[!UICONTROL Valore]</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul><li>[!UICONTROL Criterio] (consulta operatori inclusi, in base al tipo di valore selezionato)</li></ul></li><li>[!UICONTROL Imposta quindi il valore su], [!UICONTROL altrimenti imposta il valore su]:</p><ul><li>[!UICONTROL Valore]</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></ul></li></ul> | <p>Stringhe</p><ul><li>È uguale a</li><li>È uguale a qualsiasi termine</li><li>Contiene la frase</li><li>Contiene qualsiasi termine</li><li>Contiene tutti i termini</li><li>Inizia con</li><li>Inizia con qualsiasi termine</li><li>Termina con</li><li>Termina con qualsiasi termine</li><li>Non è uguale a</li><li>Non è uguale a nessun termine</li><li>Non contiene la frase</li><li>Non contiene alcun termine</li><li>Non contiene tutti i termini</li><li>Non inizia con</li><li>Non inizia con nessun termine</li><li>Non termina con</li><li>Non termina con nessun termine</li><li>È impostata</li><li>Non è impostata</li></ul><p>Numerico</p><ul><li>È uguale a</li><li>Non è uguale a</li><li>È maggiore di</li><li>È maggiore di o uguale a</li><li>È minore di</li><li>È minore di o uguale a</li><li>È impostata</li><li>Non è impostata</li></ul><p>Date</p><ul><li>È uguale a</li><li>Non è uguale a</li><li>È successivo a</li><li>È successivo o uguale a</li><li>È precedente a</li><li>È precedente o uguale a</li><li>È impostata</li><li>Non è impostata</li></ul> | <ul><li>5 funzioni per campo derivato</li><li>200 [operatori](#operators) per campo derivato. Un esempio di un singolo operatore è “Il dominio di riferimento contiene google”. </li></ul> | <p>Nuovo campo derivato</p> |
+| <ul><li>Stringa</li><li>Numerico</li><li>Data</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] contenitore:</p><ul><li>[!UICONTROL Valore]</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul><li>[!UICONTROL Criterio] (consulta operatori inclusi, in base al tipo di valore selezionato)</li></ul></li><li>[!UICONTROL Imposta quindi il valore su], [!UICONTROL altrimenti imposta il valore su]:</p><ul><li>[!UICONTROL Valore]</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></ul></li></ul> | <p>Stringhe</p><ul><li>È uguale a</li><li>È uguale a qualsiasi termine</li><li>Contiene la frase</li><li>Contiene qualsiasi termine</li><li>Contiene tutti i termini</li><li>Inizia con</li><li>Inizia con qualsiasi termine</li><li>Termina con</li><li>Termina con qualsiasi termine</li><li>Non è uguale a</li><li>Non è uguale a nessun termine</li><li>Non contiene la frase</li><li>Non contiene alcun termine</li><li>Non contiene tutti i termini</li><li>Non inizia con</li><li>Non inizia con nessun termine</li><li>Non termina con</li><li>Non termina con nessun termine</li><li>È impostato</li><li>Non è impostato</li></ul><p>Numerico</p><ul><li>È uguale a</li><li>Non è uguale a</li><li>È maggiore di</li><li>È maggiore di o uguale a</li><li>È minore di</li><li>È minore di o uguale a</li><li>È impostato</li><li>Non è impostato</li></ul><p>Date</p><ul><li>È uguale a</li><li>Non è uguale a</li><li>È successivo a</li><li>È successivo o uguale a</li><li>È prima di</li><li>È precedente o uguale a</li><li>È impostato</li><li>Non è impostato</li></ul> | <ul><li>5 funzioni per campo derivato</li><li>200 [operatori](#operators) per campo derivato. Un esempio di un singolo operatore è “Il dominio di riferimento contiene google”. </li></ul> | <p>Nuovo campo derivato</p> |
 
 {style="table-layout:auto"}
 
@@ -961,7 +978,7 @@ Restituisce la differenza tra due date o campi data-ora.
 
 | Tipo di dati di input | Input | Operatori inclusi | Limitazioni | Output |
 |---|---|---|---|---|
-| <ul><li>Data</li><li>Data e ora</li></ul> | <ul><li>[!UICONTROL Ambito]<ul><li>Evento</li><li>Sessione</li><li>Persona</li></ul></li><li>[!UICONTROL Valore]:<ul><li>Data</li><li>Data e ora</li><li>Data statica (immessa dall&#39;utente)</li><li>Data e ora statiche (immesse dall&#39;utente)</li><li>Data dinamica<ul><li>Oggi</li></ul></li><li>Data e ora dinamiche<ul><li>Adesso</li></ul></li></ul></li><li>[!UICONTROL Granularità]:<ul><li>Seconds</li><li>Minutes</li><li>Ore</li><li>Days</li><li>Weeks</li><li>Months</li><li>Trimestri</li><li>Anni</li></ul></li><li>Per ogni valore Data o Data-ora restituito:<ul><li>Primo (all’interno della sessione o della persona)</li><li>Ultimo (all’interno della sessione o della persona)</li></ul></li></ul> | <p>N/D</p> | <p>2 funzioni per campo derivato</p> | <p>Nuovo campo derivato</p> |
+| <ul><li>Data</li><li>Data e ora</li></ul> | <ul><li>[!UICONTROL Ambito]<ul><li>Evento</li><li>Sessione</li><li>Persona</li></ul></li><li>[!UICONTROL Valore]:<ul><li>Data</li><li>Data e ora</li><li>Data statica (immessa dall&#39;utente)</li><li>Data e ora statiche (immesse dall&#39;utente)</li><li>Data dinamica<ul><li>Oggi</li></ul></li><li>Data e ora dinamiche<ul><li>Adesso</li></ul></li></ul></li><li>[!UICONTROL Granularità]:<ul><li>Seconds</li><li>Minuti</li><li>Ore</li><li>Giorni</li><li>Settimane</li><li>Mesi</li><li>trimestri</li><li>Anni</li></ul></li><li>Per ogni valore Data o Data-ora restituito:<ul><li>Primo (all’interno della sessione o della persona)</li><li>Ultimo (all’interno della sessione o della persona)</li></ul></li></ul> | <p>N/D</p> | <p>2 funzioni per campo derivato</p> | <p>Nuovo campo derivato</p> |
 
 {style="table-layout:auto"}
 
@@ -1588,7 +1605,7 @@ Sostituisce un valore di un campo utilizzando un’espressione regolare in un nu
 
 | Tipo di dati di input | Input | Operatori inclusi | Limite | Output |
 |---|---|---|---|---|
-| <ul><li>Stringa</li><li>Numerico</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></ul><ul><li>[!UICONTROL Regex]:</li><ul><li>Stringa</li></ul></li><li>[!UICONTROL Formato di output]:<ul><li>Stringa</li></ul></ul><ul><li>Maiuscole/minuscole</li><ul><li>Booleani</li></ul></li></ul></li> | <p>N/D</p> | <p>1 funzione per campo derivato</p> | <p>Nuovo campo derivato</p> |
+| <ul><li>Stringa</li><li>Numerico</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></ul><ul><li>[!UICONTROL Regex]:</li><ul><li>Stringa</li></ul></li><li>[!UICONTROL Formato di output]:<ul><li>Stringa</li></ul></ul><ul><li>Distinzione maiuscole/minuscole</li><ul><li>Booleani</li></ul></li></ul></li> | <p>N/D</p> | <p>1 funzione per campo derivato</p> | <p>Nuovo campo derivato</p> |
 
 {style="table-layout:auto"}
 
@@ -1863,7 +1880,7 @@ Taglia spazi vuoti, caratteri speciali o il numero di caratteri dall’inizio o 
 
 | Tipo di dati di input | Input | Operatori inclusi | Limite | Output |
 |---|---|---|---|---|
-| <ul><li>Stringa</li></ul> | <ul><li>[!UICONTROL Campo]<ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></li><li>Taglia spazio vuoto</li><li>Taglia caratteri speciali<ul><li>Inserimento di caratteri speciali</li></ul></li><li>Taglia da sinistra<ul><li>Da<ul><li>Inizio stringa</li><li>Posizione<ul><li>Posizione #</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag per includere la stringa</li></ul></li></ul></li><li>A<ul><li>Fine stringa</li><li>Posizione<ul><li>Posizione #</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag per includere la stringa</li></ul></li><li>Lunghezza</li></ul></li></ul></li><li>Taglia da destra<ul><li>Da<ul><li>Fine stringa</li><li>Posizione<ul><li>Posizione #</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag per includere la stringa</li></ul></li></ul></li><li>A<ul><li>Inizio stringa</li><li>Posizione<ul><li>Posizione #</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag per includere la stringa</li></ul></li><li>Lunghezza</li></ul></li></ul></li></ul> | <p>N/D</p> | <p>1 funzione per campo derivato</p> | <p>Nuovo campo derivato</p> |
+| <ul><li>Stringa</li></ul> | <ul><li>[!UICONTROL Campo]<ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></li><li>Taglia spazio vuoto</li><li>Taglia caratteri speciali<ul><li>Inserimento di caratteri speciali</li></ul></li><li>Taglia da sinistra<ul><li>Da <ul><li>Inizio stringa</li><li>Posizione<ul><li>Posizione #</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag per includere la stringa</li></ul></li></ul></li><li>A<ul><li>Fine stringa</li><li>Posizione<ul><li>Posizione #</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag per includere la stringa</li></ul></li><li>Lunghezza</li></ul></li></ul></li><li>Taglia da destra<ul><li>Da <ul><li>Fine stringa</li><li>Posizione<ul><li>Posizione #</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag per includere la stringa</li></ul></li></ul></li><li>A<ul><li>Inizio stringa</li><li>Posizione<ul><li>Posizione #</li></ul></li><li>Stringa<ul><li>Valore stringa</li><li>Indice</li><li>Flag per includere la stringa</li></ul></li><li>Lunghezza</li></ul></li></ul></li></ul> | <p>N/D</p> | <p>1 funzione per campo derivato</p> | <p>Nuovo campo derivato</p> |
 
 
 ## Caso d’uso 1 {#trim-uc1}
@@ -2116,7 +2133,7 @@ Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in ge
 
 | Funzione | Limitazioni |
 |---|---|
-| <p>Caso When</p> | <ul><li>5 casi di funzioni When per campo derivato</li><li>200 [operatori](#operators) per campo derivato</li></ul> |
+| <p>Case When</p> | <ul><li>5 casi di funzioni When per campo derivato</li><li>200 [operatori](#operators) per campo derivato</li></ul> |
 | <p>Classifica</p> | <ul><li>5 funzioni Classifica per campo derivato</li><li>200 [operatori](#operators) per campo derivato</li></ul> |
 | <p>Concatena</p> | <ul><li>2 funzioni Concatena per campo derivato</li><li>3 valori per funzione Concatena</ul> |
 | <p>Calcolo della data</p> | <ul><li>2 funzioni di calcolo della data per campo derivato</li></ul> |
@@ -2124,16 +2141,16 @@ Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in ge
 | <p>Profondità</p> | <ul><li>3 funzioni Profondità per campo derivato</li></ul> |
 | <p>Trova e sostituisci</p> | <ul><li>2 funzioni Trova e sostituisci per campo derivato</li></ul> |
 | <p>Ricerca</p> | <ul><li>5 funzioni Ricerca per campo derivato</li></ul> |
-| <p>In minuscolo</p> | <ul><li>2 funzioni In minuscolo per campo derivato</li></ul> |
+| <p>Minuscolo</p> | <ul><li>2 funzioni In minuscolo per campo derivato</li></ul> |
 | <p>Matematica</p> | <ul><li>25 operazioni per campo derivato</li><li>5 funzioni matematiche per campo derivato</li></ul> |
 | <p>Unisci campi</p> | <ul><li>2 funzioni Unisci campi per campo derivato</li></ul> |
 | <p>Successivo o Precedente</p> | <ul><li>3 funzioni Successivo o Precedente per campo derivato</li></ul> |
-| <p>Sostituzione Regex</p> | <ul><li>1 funzione Sostituzione Regex per campo derivato</li></ul> |
-| <p>Suddivisione</p> | <ul><li>2 funzioni Suddivisione per campo derivato</li><li>Vengono restituiti un massimo di 10 valori</ul> |
+| <p>Sostituzione regex</p> | <ul><li>1 funzione Sostituzione Regex per campo derivato</li></ul> |
+| <p>Dividi</p> | <ul><li>2 funzioni Suddivisione per campo derivato</li><li>Vengono restituiti un massimo di 10 valori</ul> |
 | <p>Riepilogo</p> | <ul><li>3 funzioni Riepilogo per campo derivato</li></ul> |
 | <p>Taglia</p> | <ul><li>1 funzione Taglia per campo derivato</li></ul> |
 | <p>Converti tipo</p> | <ul><li>3 funzioni Converti tipo per campo derivato</li></ul> |
-| <p>Analisi URL</p> | <ul><li>5 Funzioni di analisi URL per campo derivato</li></ul> |
+| <p>Parsing URL</p> | <ul><li>5 Funzioni di analisi URL per campo derivato</li></ul> |
 
 {style="table-layout:auto"}
 

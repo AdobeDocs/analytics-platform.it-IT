@@ -4,10 +4,27 @@ title: Usare i componenti in un progetto
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+TQID: https://experienceleague.adobe.com/kXVC79sHZMIdUELOC6KjtT7tJdh9pVySu-jApef-8lk
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: df28738e-9c71-4aa8-929e-edde22340cc6
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 100%
+source-wordcount: 954
+ht-degree: 90%
 
 ---
 
@@ -27,7 +44,7 @@ Per informazioni sui tipi di componenti che è possibile aggiungere, consulta [P
 
 1. [Aggiungi un pannello](/help/analysis-workspace/c-panels/panels.md#create-a-panel) o [aggiungi una visualizzazione](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) al progetto in Analysis Workspace. Se aggiungi un componente a un progetto vuoto, viene già creata una visualizzazione con tabella a forma libera.
 
-1. Seleziona ![Cura](/help/assets/icons/Curate.svg) **[!UICONTROL Components]** dal pannello dei pulsanti. Tutti i componenti disponibili sono visualizzati nel pannello a sinistra. Per ulteriori dettagli, consulta [Interfaccia](/help/analysis-workspace/home.md#interface).
+1. Seleziona ![Cura](/help/assets/icons/Curate.svg) **[!UICONTROL Componenti]** dal pannello del pulsante. Tutti i componenti disponibili sono visualizzati nel pannello a sinistra. Per ulteriori dettagli, consulta [Interfaccia](/help/analysis-workspace/home.md#interface).
 
 1. Scorri fino al componente che desideri aggiungere oppure cercalo, quindi trascinalo su un pannello o su una visualizzazione all’interno del progetto.
 
@@ -96,11 +113,11 @@ I [segmenti](/help/components/segments/seg-overview.md) ti consentono di identif
 Puoi utilizzare i segmenti in Analysis Workspace in uno dei seguenti modi:
 
 * Aggiungere segmenti a un pannello
-Quando aggiungi segmenti a un pannello, questi vengono applicati a tutto il contenuto al suo interno.
-Per informazioni su come utilizzare la zona di rilascio dei segmenti in un pannello per segmentare il pannello, consulta [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
+Quando aggiungi segmenti a un pannello, i segmenti vengono applicati a tutto il contenuto al suo interno.
+Per informazioni su come utilizzare la zona di rilascio dei segmenti in un pannello al fine di segmentarlo, consulta [Zona di rilascio](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panoramica dei pannelli](/help/analysis-workspace/c-panels/panels.md).
 
 * Aggiungere segmenti a una visualizzazione
-Quando aggiungi segmenti a una colonna in una tabella a forma libera, i segmenti si applicano a tutto il contenuto della colonna. Puoi anche aggiungere segmenti come parte di una visualizzazione del fallout.
+Quando aggiungi segmenti a una colonna di una tabella a forma libera, i segmenti si applicano a tutto il contenuto della colonna della tabella. Puoi anche aggiungere segmenti come parte di una visualizzazione del fallout.
 
 * Utilizzare i segmenti nei componenti
 Quando definisci componenti come [metriche calcolate](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md), [annotazioni](/help/components/annotations/create-annotations.md#annotation-builder) o anche [segmenti](/help/components/segments/seg-builder.md) puoi utilizzare i segmenti come parte della definizione.
@@ -132,5 +149,5 @@ Puoi passare il puntatore su qualunque componente per visualizzare ![Ulteriori i
 
 In base al controllo degli accessi, puoi:
 
-* Accedere alla definizione ![Segnalibro](/help/assets/icons/Bookmark.svg) [!UICONTROL Data dictionary] per il componente.
+* Accedi alla definizione del ![segnalibro](/help/assets/icons/Bookmark.svg) [!UICONTROL dizionario dati] per il componente.
 * Accedere al generatore di componenti ![Modifica](/help/assets/icons/Edit.svg) o alla visualizzazione dati in cui è definito il componente.

@@ -5,10 +5,31 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 976170212fb9904a32db93368fbda5f143f4a462
+TQID: https://experienceleague.adobe.com/vNCqAk1-4e34AJrXqzHJgrTDtly-FZTqOGRISjkX5Q8
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2281'
-ht-degree: 7%
+source-wordcount: 2441
+ht-degree: 9%
 
 ---
 
@@ -88,7 +109,7 @@ Alcune delle funzioni e il valore associato per il limite dipendono dal pacchett
 | Frequenza aggiornamento pubblico | 4 | Guardrail imposto dal sistema | Frequenza massima in ore un [pubblico](../components/audiences/audiences-overview.md) può essere aggiornato. |
 | Intervallo di lookback aggiornamento pubblico | 90 | Guardrail imposto dal sistema | Numero massimo di giorni per l’intervallo di lookback dell’aggiornamento. |
 | Aggiornamento della data di scadenza del pubblico | 13 | Guardrail imposto dal sistema | Numero massimo di mesi in cui il pubblico non viene più aggiornato dalla data di creazione. I clienti possono estenderla per altri 13 mesi. |
-| Numero di tipi di pubblico di aggiornamento | 74, 150 | Guardrail imposto dal sistema | Numero massimo di tipi di pubblico di aggiornamento. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Numero di tipi di pubblico di aggiornamento | 75, 150 | Guardrail imposto dal sistema | Numero massimo di tipi di pubblico di aggiornamento. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 {style="table-layout:auto"}
 
@@ -111,7 +132,7 @@ Consulta anche Experience Platform [Real-time Customer Data Platform Guardrail](
 |---|--:|---|---|
 | Progetti | 50.000 | Guardrail imposto dal sistema | Numero massimo di progetti per un’organizzazione. |
 | Visualizzazioni dati | 2.000 | Guardrail imposto dal sistema | Numero massimo di [visualizzazioni dati](../data-views/data-views.md) per un&#39;organizzazione. |
-| Visualizzazioni dati | 500 - 1000 | Guardrail imposto dal sistema | Numero massimo di visualizzazioni dati per una connessione. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Visualizzazioni dati | 500-1000 | Guardrail imposto dal sistema | Numero massimo di visualizzazioni dati per una connessione. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 | Set di dati | 100 | Guardrail imposto dal sistema | Numero massimo di [set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it) per connessione. |
 | Connessioni | 1000 | Guardrail imposto dal sistema | Numero massimo di [connessioni](../connections/overview.md) per un&#39;organizzazione. |
 | Titolo connessione | 500 | Guardrail imposto dal sistema | Numero massimo di caratteri per un titolo di connessione. |
@@ -169,7 +190,7 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
 | Set di dati uniti | 5 - 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
-| Lunghezza retrocompilazione | 6 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di backfill. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Lunghezza retrocompilazione | 6 - 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di backfill. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 | Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 {style="table-layout:auto"}
@@ -179,8 +200,8 @@ Vedi anche Experience Platform [Guide di esportazione set di dati](https://exper
 
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
-| Set di dati uniti | 15 — 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
-| Lunghezza retrocompilazione | 6 — 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di backfill. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Set di dati uniti | 15 - 50 | Guardrail imposto dal sistema | Numero massimo di set di dati uniti per cliente. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Lunghezza retrocompilazione | 6 - 25 | Guardrail imposto dal sistema | Numero massimo di mesi di dati di backfill. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 | Intervallo di lookback/Frequenza di ripetizione | 1/1 - 30/7 | Guardrail imposto dal sistema | Intervallo di lookback massimo in giorni/Frequenza di ripetizione. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 

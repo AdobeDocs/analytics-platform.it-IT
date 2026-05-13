@@ -5,10 +5,22 @@ role: Admin
 solution: Customer Journey Analytics
 exl-id: 5411f843-be3b-4059-a3b9-a4e1928ee8a9
 feature: Experience Platform Integration
-source-git-commit: ed7e9a6c34c5f8ba9ba4f75be05768409cbc158d
+TQID: https://experienceleague.adobe.com/zpptSfNRGiYd0850P01C03FtTv5CUuZh1qD6NfEsnJc
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 97%
+source-wordcount: 983
+ht-degree: 93%
 
 ---
 
@@ -35,7 +47,7 @@ IA per l’analisi dei clienti si integra con Customer Journey Analytics nella m
    * Esempio: marketer di una catena alberghiera desidera comprendere quali clienti dell’hotel sono stati inizialmente identificati come clienti con una bassa tendenza ad acquistare un biglietto per lo spettacolo, ma nel tempo sono diventati clienti con un’elevata tendenza ad acquistare un biglietto per lo spettacolo.
 * **Osservare la distribuzione della tendenza**.
    * Caso d’uso: comprendere la distribuzione dei punteggi di tendenza per usare una maggiore precisione nella definizione dei segmenti.
-   * Esempio: un rivenditore desidera effettuare una promozione specifica di 50 $ di sconto su un prodotto. Potrebbe voler gestire solo una promozione molto limitata per questioni di budget, ecc. Analizza i dati e decide di eseguire il targeting solo dell’80%+ della sua clientela.
+   * Esempio: un rivenditore desidera effettuare una promozione specifica di 50 $ di sconto su un prodotto. Potrebbe voler gestire solo una promozione molto limitata per questioni di budget, ecc. Analizza i dati e decide di eseguire il targeting solo dell’80%+ dei suoi clienti.
 * **Osservare la tendenza a eseguire un’azione per una particolare coorte nel tempo**.
    * Caso d’uso: tracciare una coorte specifica nel tempo.
    * Esempio: un marketer di una catena alberghiera desidera tracciare il livello bronzo rispetto al livello argento, o il livello argento rispetto al livello oro nel tempo. In seguito, può osservare la tendenza di ogni coorte a prenotare l’hotel nel tempo.
@@ -53,7 +65,7 @@ Dopo aver preparato i dati e aver impostato tutte le credenziali e gli schemi, i
 
 ## Passaggio 2: configurare una connessione Customer Journey Analytics nei set di dati di IA per l’analisi dei clienti
 
-In Customer Journey Analytics, ora puoi [creare una o più connessioni](/help/connections/create-connection.md) ai set di dati di Experience Platform che sono stati strumentati per IA per l’analisi dei clienti. Ogni previsione, ad esempio “Likelihood to upgrade account” (Probabilità di aggiornamento dell’account), equivale a un set di dati. Questi set di dati vengono visualizzati con il prefisso “Customer AI Scores in EE Format – name_of_application” (Punteggi di IA per l’analisi dei clienti in formato EE, name_of_application).
+In Customer Journey Analytics, ora puoi [creare una o più connessioni](/help/connections/create-connection.md) ai set di dati di Experience Platform che sono stati strumentati per IA per l’analisi dei clienti. Ogni previsione, ad esempio “Probabilità di aggiornamento dell’account”, equivale a un set di dati. Questi set di dati vengono visualizzati con il prefisso “Customer AI Scores in EE Format – name_of_application” (Punteggi di IA per l’analisi dei clienti in formato EE, name_of_application).
 
 >[!IMPORTANT]
 >
@@ -67,7 +79,7 @@ Di seguito è riportato un esempio di schema XDM che Customer Journey Analytics 
 
 ![Schema IA per l’analisi dei clienti](assets/cai-schema.png)
 
-(L’esempio è un set di dati del profilo; lo stesso set di oggetti di schema farebbe parte di un set di dati Evento esperienza che Customer Journey Analytics acquisirebbe. Il set di dati di Experience Event includerebbe marche temporali come data di punteggio. Ogni cliente valutato in questo modello avrebbe un punteggio, una data di punteggio e così via. a lui associati.
+(L’esempio è un set di dati del profilo; lo stesso set di oggetti di schema farebbe parte di un set di dati Evento esperienza che Customer Journey Analytics acquisirebbe. Il set di dati di Experience Event includerebbe marche temporali come data di punteggio. A ogni cliente valutato in questo modello verrebbero associati un punteggio, una data di punteggio e così via.
 
 ## Passaggio 3: creare visualizzazioni dati in base a queste connessioni
 

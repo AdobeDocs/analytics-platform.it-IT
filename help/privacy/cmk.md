@@ -4,10 +4,22 @@ description: Scopri come configurare chiavi gestite dal cliente per Customer Jou
 exl-id: 08ece1cb-22b7-4b8d-be76-5414a810feb6
 feature: Privacy
 role: Admin
-source-git-commit: cdc8d889a05c55d2f4765d0837023d007a5a230d
+TQID: https://experienceleague.adobe.com/5V0LlfmD8CqPp4Sfr43txnke84eJN-pHUaACK7vE1N8
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 91%
+source-wordcount: 561
+ht-degree: 87%
 
 ---
 

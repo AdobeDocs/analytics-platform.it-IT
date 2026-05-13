@@ -4,10 +4,24 @@ title: Pannello Sperimentazione
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: b013518d8f1782219dd2cf9e5b5a89b877e3b92d
+TQID: https://experienceleague.adobe.com/oXojotjMV8EEF3S31JyO4eFIn62iYH0zPHGO6ylhFR0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 89%
+source-wordcount: 2318
+ht-degree: 85%
 
 ---
 
@@ -26,7 +40,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo descrive il pannello Sperimentazione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Consulta il [pannello Analytics for Target](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) per informazioni su come analizzare le attività e le esperienze Adobe Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._
+_Questo articolo documenta il pannello Sperimentazione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Per informazioni su come analizzare le attività e le esperienze Adobe Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**, consulta il [pannello Analytics for Target](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)._
 
 >[!ENDSHADEBOX]
 
@@ -107,7 +121,7 @@ Per utilizzare il pannello Sperimentazione:
 
 Il pannello Sperimentazione restituisce set completi di dati e visualizzazioni per consentirti di comprendere meglio le prestazioni degli esperimenti. Nella parte superiore del pannello trovi le visualizzazioni [Variazione di riepilogo](../visualizations/summary-number-change.md) che ti ricordano le impostazioni del pannello selezionate. In qualsiasi momento, puoi modificare il pannello selezionando l’icona Modifica a forma di matita, in alto a destra.
 
-Viene inoltre visualizzato un riepilogo testuale che indica se l’esperimento è conclusivo o meno e riassume il risultato. La conclusione si basa sulla rilevanza statistica (consulta [Metodologia statistica](#adobes-statistical-methodology)). Puoi visualizzare i numeri di riepilogo per la variante con le prestazioni migliori, con l’incremento e l’affidabilità più elevati.
+Viene inoltre visualizzato un riepilogo testuale che indica se l’esperimento è conclusivo o meno e riassume il risultato. La conclusione si basa sulla rilevanza statistica (vedere [Metodologia statistica](#adobes-statistical-methodology)). Puoi visualizzare i numeri di riepilogo per la variante con le prestazioni migliori, con i valori di incremento e affidabilità più elevati.
 
 Per ogni metrica di successo selezionata, vengono mostrate una visualizzazione [tabella a forma libera](../visualizations/freeform-table/freeform-table.md) e una [riga](../visualizations/line.md) per il tasso di conversione.
 
@@ -146,7 +160,7 @@ Una sequenza con affidabilità al 95% includerà il valore “vero” relativo a
 
 Customer Journey Analytics consente agli analisti di selezionare qualsiasi dimensione come esperimento. Tuttavia, come viene interpretata un’analisi in cui la dimensione scelta come esperimento non è quella per cui le persone sono randomizzate?
 
-Ad esempio, considera un annuncio visualizzato da una persona. Potresti essere interessato a misurare il cambiamento di una metrica (ad esempio, il ricavo medio) se decidi di mostrare alle persone *annuncio B* invece di *annuncio A*. L’effetto causale della visualizzazione dell’annuncio B invece che dell’annuncio A, è di fondamentale importanza per giungere a una decisione di marketing. Questo effetto causale può essere misurato come il ricavo medio sull’intera popolazione, se sostituisci lo status quo di mostrare l’annuncio A con la strategia alternativa di mostrare l’annuncio B.
+Ad esempio, considera un annuncio visualizzato da una persona. Puoi essere interessato a misurare la modifica in alcune metriche (ad esempio, ricavi medi) se decidi di mostrare le persone *ad B* invece di *ad A*. L’effetto causale della visualizzazione dell’ad B, invece dell’ad A, è di fondamentale importanza per giungere alla decisione di marketing. Questo effetto causale può essere misurato come il ricavo medio sull’intera popolazione, se sostituisci lo status quo di mostrare l’annuncio A con la strategia alternativa di mostrare l’annuncio B.
 
 Il test A/B è lo standard d’oro all’interno del settore per misurare obiettivamente gli effetti di tali interventi. La ragione fondamentale per cui un test A/B dà luogo a una stima causale è dovuta alla randomizzazione delle persone nel ricevere una delle possibili varianti.
 

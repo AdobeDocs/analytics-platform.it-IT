@@ -5,10 +5,26 @@ solution: Customer Journey Analytics
 feature: Basics
 role: Admin
 exl-id: 17b5842f-dc81-481f-8b21-dc90a133adcf
-source-git-commit: c9d7a4596a842ab7d949364e3469747d20ca15b4
+TQID: https://experienceleague.adobe.com/eqmDvuaNGFj8q2pfKNCzf5-affyrUTYP7MA5UgsRrCI
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: c38ed341-fab2-46df-9d72-88d8166edebb
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 15%
+source-wordcount: 1674
+ht-degree: 17%
 
 ---
 
@@ -76,7 +92,7 @@ Per avviare il flusso di lavoro:
 
       1. Seleziona **[!UICONTROL Fine]**.
 
-Una volta preparati e caricati correttamente i dati, verrai reindirizzato a **[!UICONTROL Set di dati]** nell&#39;interfaccia di Experience Platform.<br/> Viene visualizzata l&#39;**[!UICONTROL Attività set di dati]** per i tuoi **[!UICONTROL Dati di esempio dal set di dati CSV]** con stato ![StatoArancione](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Elaborazione]**.
+Una volta preparati e caricati correttamente i dati, sei reindirizzato a **[!UICONTROL Set di dati]** nell&#39;interfaccia di Experience Platform.<br/> Viene visualizzata l&#39;**[!UICONTROL attività del set di dati]** per i tuoi **[!UICONTROL dati di esempio dal set di dati CSV]** con stato ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Elaborazione]**.
 
 ![Attività set di dati per dati ad hoc](assets/datasets-dataset-activity.png)
 
@@ -114,7 +130,7 @@ Per creare la connessione:
 
 1. Nell&#39;interfaccia utente di Customer Journey Analytics, seleziona **[!UICONTROL Connessioni]**, facoltativamente da **[!UICONTROL Gestione dati]**, nel menu principale.
 
-1. Selezionare **[!UICONTROL Crea nuova connessione]**.
+1. Seleziona **[!UICONTROL Crea nuova connessione]**.
 
 1. Nella schermata **[!UICONTROL Connessione senza titolo]**:
 
@@ -155,7 +171,7 @@ Consulta [Impostazioni set di dati ad hoc](/help/connections/create-connection.m
 
 >[!IMPORTANT]
 >
->Oltre al consiglio generale di non utilizzare set di dati e schemi ad hoc per i dati delle serie temporali, non è possibile utilizzare **[!UICONTROL Crea set di dati dal flusso di lavoro CSV]** per i dati delle serie temporali. Questo flusso di lavoro definisce tutti i campi come di tipo String che non è possibile modificare successivamente. Quando si aggiunge un set di dati basato su serie temporali (evento o riepilogo) a una connessione, questo tipo di set di dati richiede la definizione di almeno un campo di tipo DateTime.<br/>Se è necessario utilizzare dati di serie temporali ad hoc, valutare l&#39;opportunità di [utilizzare l&#39;API per creare uno schema ad hoc](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) e quindi utilizzare il [Crea set di dati dal flusso di lavoro dello schema](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#schema).
+>Oltre al consiglio generale di non utilizzare set di dati e schemi ad hoc per i dati delle serie temporali, non è possibile utilizzare **[!UICONTROL Crea set di dati dal flusso di lavoro CSV]** per i dati delle serie temporali. Questo flusso di lavoro definisce tutti i campi come di tipo String che non è possibile modificare successivamente. Quando si aggiunge un set di dati basato su serie temporali (evento o riepilogo) a una connessione, questo tipo di set di dati richiede la definizione di almeno un campo di tipo DateTime.<br/>Se è necessario utilizzare dati di serie temporali ad hoc, valutare l&#39;opportunità di [utilizzare l&#39;API per creare uno schema ad hoc](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) e quindi utilizzare il flusso di lavoro [Crea set di dati dallo schema](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#schema).
 
 
 Dopo aver creato una [connessione](/help/connections/overview.md), è possibile eseguire varie attività di gestione, ad esempio [selezionare e combinare i set di dati](/help/connections/combined-dataset.md), [controllare lo stato dei set di dati di una connessione e lo stato dell&#39;acquisizione dei dati](/help/connections/manage-connections.md) e altro ancora.

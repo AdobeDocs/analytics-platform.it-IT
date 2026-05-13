@@ -6,10 +6,25 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: cd3baec708f1811a7cbc37dfe0a9c3af75eb97c3
+TQID: https://experienceleague.adobe.com/DhV4VNrG4WR1iQP9VqjvV16iEpfShbBir7N1JfeRbCM
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: c38ed341-fab2-46df-9d72-88d8166edebb
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 10%
+source-wordcount: 2356
+ht-degree: 11%
 
 ---
 
@@ -51,7 +66,7 @@ All&#39;interno di [!DNL Google BigQuery], i seguenti dati di esempio vengono me
 
 +++ Dettagli dei dati evento di esempio
 
-| timestamp | id | pagename | personid | trackingcode | ordini | importo ricavi |
+| timestamp | ID | pagename | personid | trackingcode | ordini | importo ricavi |
 | :---                      |  ---: | :---              | :---            | :---          |   ---: | :---           |
 | 06/03/2025 T19:15:39+00:00 | 10001 | pagina home | person-1abc123 | abc123 |        |                |
 | 06/03/2025 T19:15:39+00:00 | 10002 | pagina di conferma | person-1abc123 |               | 1 | 174,25 |
@@ -241,7 +256,7 @@ Nel passaggio **[!UICONTROL Seleziona dati]**:
 1. Seleziona **[!UICONTROL Avanti]** per continuare.
 
 
-### Dettagli del flusso di dati
+### Dettaglio del flusso di dati
 
 Nel passaggio **[!UICONTROL Dettagli flusso di dati]**:
 
@@ -299,7 +314,7 @@ In questa guida rapida puoi creare una nuova connessione per utilizzare i dati c
 Nell’interfaccia di Customer Journey Analytics:
 
 1. Selezionare **[!UICONTROL Connessioni]** dal menu **[!UICONTROL Gestione dati]**.
-1. Selezionare **[!UICONTROL Crea nuova connessione]**.
+1. Seleziona **[!UICONTROL Crea nuova connessione]**.
 1. Specifica il **[!UICONTROL nome connessione]**, **[!UICONTROL Sandbox]**, **[!UICONTROL numero medio di eventi giornalieri]** e altri parametri facoltativi richiesti.
 1. Seleziona **[!UICONTROL Aggiungi set di dati]**.
 

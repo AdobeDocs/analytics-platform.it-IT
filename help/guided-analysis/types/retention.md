@@ -5,9 +5,23 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: product analytics
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/6cjieHRKJPeLix2qWLjI8GT5uZtdCRSbJmX7JCF2dtI
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: 1278
 ht-degree: 68%
 
 ---
@@ -60,7 +74,7 @@ La barra delle query consente di configurare i seguenti componenti:
    * **[!UICONTROL Ogni]**: il periodo di tempo desiderato per ogni bucket di durata. Le opzioni includono:
       * **[!UICONTROL Giorno/Settimana/Mese]**: le opzioni disponibili dipendono dall&#39;intervallo di date selezionato. Queste opzioni sono identiche all&#39;impostazione **[!UICONTROL Intervallo]** quando si seleziona l&#39;intervallo di date e si aggiorna automaticamente tale impostazione.
       * **[!UICONTROL Parentesi graffe personalizzate]**: questa opzione è disponibile solo per l&#39;impostazione &quot;Su ogni&quot;. Consente di contare gli utenti in un arco temporale più ampio, ad esempio Giorno 7-10, anziché solo Giorno 7.
-   * **[!UICONTROL Impostazioni durata]**: consente di controllare i bucket di durata visualizzati nel grafico e nella tabella. Una durata è il periodo di tempo successivo all’evento di inizio in cui si è verificato l’evento di ritorno. Nota: gli utenti idonei per i bucket di durata si basano sul tempo trascorso e non sui giorni del calendario. Ad esempio, se un utente è idoneo per un evento alle 23:00 del 6 settembre e poi per un evento di ritorno alle 00:00 del 7 settembre, non verrà visualizzato nel bucket di durata di 1 giorno. :55:05 Devono trascorrere 24 ore prima che l’utente possa qualificarsi per il bucket di durata di 1 giorno. I bucket di durata disponibili dipendono dall’intervallo di date impostato.
+   * **[!UICONTROL Impostazioni durata]**: consente di controllare i bucket di durata visualizzati nel grafico e nella tabella. Una durata è il periodo di tempo successivo all’evento di inizio in cui si è verificato l’evento di ritorno. Nota: gli utenti idonei per i bucket di durata si basano sul tempo trascorso e non sui giorni del calendario. Ad esempio, se un utente è idoneo per un evento alle 23:00 del 6 settembre e poi per un evento di ritorno alle 00:00 del 7 settembre, non verrà visualizzato nel bucket di durata di 1 giorno. :55:05Devono trascorrere 24 ore prima che l’utente possa qualificarsi per il bucket di durata di 1 giorno. I bucket di durata disponibili dipendono dall’intervallo di date impostato.
       * **[!UICONTROL Durate automatiche]** definisce automaticamente i periodi fissi di durata in base alla lunghezza dell&#39;intervallo di date e alla vicinanza al giorno corrente in cui si trova l&#39;intervallo di date.
       * **[!UICONTROL Le durate personalizzate]** ti consentono di personalizzare i quattro bucket di durata visualizzati nel grafico e nella tabella.
 * **[!UICONTROL Segmenti]**: i segmenti che desideri misurare. Ogni segmento selezionato aggiunge una riga alla tabella coorte. Puoi includere fino a tre segmenti.

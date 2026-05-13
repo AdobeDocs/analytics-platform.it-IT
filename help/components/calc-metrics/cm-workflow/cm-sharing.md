@@ -3,10 +3,23 @@ description: Scopri come condividere le metriche con l’intera organizzazione, 
 title: Condividere le metriche calcolate
 feature: Calculated Metrics
 exl-id: b2a3e4e3-f0aa-4505-b3f5-7d9f14dc1640
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+TQID: https://experienceleague.adobe.com/UkWYd20lqGIhLaBNUGQyy2sstXDBjcBttIwfMP41wNI
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 6%
+source-wordcount: 326
+ht-degree: 7%
 
 ---
 
@@ -20,16 +33,16 @@ In [Gestione metriche calcolate](cm-manager.md) è possibile condividere le metr
 Per condividere una o più metriche calcolate:
 
 1. In [Gestione metriche calcolate](cm-manager.md), selezionare una o più delle metriche calcolate che si desidera condividere.
-1. Dalla barra delle azioni, seleziona ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]**.
-1. Nella finestra di dialogo **[!UICONTROL Share Calculated metric]** (Crea elemento dati):
+1. Dalla barra delle azioni, seleziona ![Condividi](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Condividi]**.
+1. Nella finestra di dialogo **[!UICONTROL Condividi metrica calcolata]**:
 
    ![Finestra di dialogo Condividi metriche calcolate](assets/share-calculated-metrics-dialog.png)
 
    1. (facoltativamente) utilizzare ![Cerca](/help/assets/icons/Search.svg) per *Cerca singoli utenti o gruppi* e limita l&#39;elenco di gruppi o singoli utenti con cui si desidera condividere le metriche calcolate.
 
-   1. Selezionare una o più opzioni dalla sezione **[!UICONTROL Organization]** o **[!UICONTROL Groups]** oppure cercare e selezionare uno o più utenti. Le opzioni disponibili dipendono dal ruolo.
+   1. Seleziona una o più opzioni dalla sezione **[!UICONTROL Organizzazione]** o **[!UICONTROL Gruppi]** oppure cerca e seleziona uno o più utenti. Le opzioni disponibili dipendono dal ruolo.
 
-   1. Selezionare **[!UICONTROL Save]** per condividere le metriche calcolate. Seleziona **[!UICONTROL Cancel]** per annullare.
+   1. Seleziona **[!UICONTROL Salva]** per condividere le metriche calcolate. Seleziona **[!UICONTROL Annulla]** per annullare.
 
 ## Best practice
 

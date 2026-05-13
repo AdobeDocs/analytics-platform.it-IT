@@ -5,10 +5,19 @@ title: Creare cartelle
 feature: Workspace Basics
 exl-id: c83c3526-a8d0-4094-b4c4-46cf70e1a365
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+TQID: https://experienceleague.adobe.com/j0ZWCh2AjJbMJyXEqyjCVe1E9zBsL2N0AFYk0uQ3jts
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 81%
+source-wordcount: 116
+ht-degree: 69%
 
 ---
 
@@ -26,9 +35,9 @@ Per creare una nuova cartella,
 
 1. Fai clic su **Crea cartella**.
 
-1. Nella finestra di dialogo **[!UICONTROL Create New Folder]**, immetti un nome per la nuova cartella. Ad esempio: `Second Week Reports`.
+1. Nella finestra di dialogo **[!UICONTROL Crea nuova cartella]** immettere un nome per la nuova cartella. Ad esempio: `Second Week Reports`.
 
-1. Selezionare i tag o immettere nuovi tag dal menu a discesa **[!UICONTROL Tags]**.
+1. Seleziona i tag o immetti nuovi tag dal menu a discesa **[!UICONTROL Tag]**.
 
    ![Creare una nuova cartella](../assets/create-new-folder.png)
 

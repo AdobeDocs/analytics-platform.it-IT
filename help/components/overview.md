@@ -5,10 +5,33 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
+TQID: https://experienceleague.adobe.com/91yF4rq5CqbAtgfY9X31FmgiCynSJFHaNF1KKsKDycg
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+  - id: df28738e-9c71-4aa8-929e-edde22340cc6
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+  - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 100%
+source-wordcount: 972
+ht-degree: 92%
 
 ---
 
@@ -18,8 +41,8 @@ I componenti sono funzioni di Customer Journey Analytics che possono essere util
 
 Per gestire i componenti dall’interfaccia principale di Customer Journey Analytics:
 
-1. Seleziona **[!UICONTROL Components]** nella barra superiore.
-1. Seleziona **[!UICONTROL Components]** per visualizzare una panoramica dei componenti che puoi gestire oppure seleziona direttamente il componente che desideri gestire dal menu.
+1. Seleziona **[!UICONTROL Componenti]** dalla barra superiore.
+1. Seleziona **[!UICONTROL Componenti]** per visualizzare una panoramica dei componenti che puoi gestire oppure seleziona direttamente il componente che desideri gestire dal menu.
 
 Puoi gestire i seguenti componenti:
 
@@ -38,7 +61,7 @@ Puoi gestire i seguenti componenti:
 
 I componenti in Analysis Workspace costituiscono metriche, dimensioni, segmenti e intervalli di date che puoi trascinare su pannelli e visualizzazioni nel progetto Workspace. I componenti creati, come ad esempio una metrica calcolata, vengono aggiunti a questi pannelli o a un intervallo di date personalizzato.
 
-Per accedere al pannello Componenti, seleziona ![Cura](/help/assets/icons/Curate.svg) **[!UICONTROL Components]** nel pannello del pulsante.
+Per accedere al pannello Componenti, seleziona ![Cura](/help/assets/icons/Curate.svg) **[!UICONTROL Componenti]** nel pannello pulsante.
 
 ![Pannello Workspace con l’icona Componenti evidenziata nella barra a sinistra](assets/components.png)
 
@@ -47,7 +70,7 @@ Consulta [Creare un progetto](/help/analysis-workspace/home.md) per informazioni
 
 ## Gestire i componenti {#actions}
 
-È possibile creare rapidamente un nuovo componente utilizzando il menu **[!UICONTROL Components]** in Analysis Workspace. Per ulteriori dettagli, consulta il [menu Analysis Workspace](/help/analysis-workspace/home.md#menu).
+Puoi creare rapidamente un nuovo componente utilizzando il menu **[!UICONTROL Componenti]** in Analysis Workspace. Per ulteriori dettagli, consulta il [menu Analysis Workspace](/help/analysis-workspace/home.md#menu).
 
 Puoi gestire i componenti (singolarmente o selezionandone più di uno).
 
@@ -58,7 +81,7 @@ Puoi gestire i componenti (singolarmente o selezionandone più di uno).
 
    >[!TIP]
    >
-   >Per selezionare più componenti, tieni premuto **[!UICONTROL Shift]** oppure **[!UICONTROL Command]** (su macOS) o **[!UICONTROL Ctrl]** (su Windows).
+   >Per selezionare più componenti, tieni premuto **[!UICONTROL Maiusc]** oppure tieni premuto **[!UICONTROL Comando]** (su macOS) o **[!UICONTROL Ctrl]** (su Windows).
 
 
    ![Elenco Azioni componenti che mostra Tag, Preferiti, Approva, Condividi ed Elimina.](assets/component-menu.gif){width=100%}
@@ -67,7 +90,7 @@ Puoi gestire i componenti (singolarmente o selezionandone più di uno).
    |--- |--- |
    | ![Etichetta](/help/assets/icons/Label.svg) [!UICONTROL **Tag**] | Organizzare o gestire i componenti tramite l’applicazione di tag. Puoi eseguire la ricerca nel pannello a sinistra facendo clic sul filtro ![Filtra](/help/assets/icons/Filter.svg) o digitando `#`. I tag fungono anche da filtri nei gestori dei componenti. |
    | ![Stella](/help/assets/icons/Star.svg) [!UICONTROL **Preferiti**] | Aggiunge il componente all’elenco dei preferiti. Come per i tag, puoi cercare i Preferiti nel pannello a sinistra e filtrarli nei gestori dei componenti. |
-   | ![StarOutline](/help/assets/icons/StarOutline.svg) **[!UICONTROL Un-favorite]** | Rimuovi il componente dall’elenco dei preferiti. |
+   | ![StarOutline](/help/assets/icons/StarOutline.svg) **[!UICONTROL Non preferito]** | Rimuovi il componente dall’elenco dei preferiti. |
    | ![Segno di spunta](/help/assets/icons/Checkmark.svg) [!UICONTROL **Approva**] | Contrassegna i componenti come approvati per segnalare agli utenti che sono approvati dall’organizzazione. Come per i tag, puoi cercare e filtrare per Approvato nel pannello a sinistra. Un ![Segno di spunta](/help/assets/icons/Checkmark.svg) identifica i componenti approvati. |
    | ![Condividi](/help/assets/icons/ShareAlt.svg) [!UICONTROL **Condividi**] | Condividi i componenti con gli utenti della tua organizzazione. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio segmenti o metriche calcolate. |
    | ![Elimina](/help/assets/icons/Delete.svg) [!UICONTROL **Elimina**] | Elimina i componenti non più necessari. Questa opzione è disponibile solo per i componenti personalizzati, ad esempio segmenti o metriche calcolate. |
@@ -98,12 +121,12 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nel pannello a sinis
 
    | Icona | Opzione filtro | Descrizione |
    |---------|---|----------|
-   | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | **[!UICONTROL Approved]** | Mostra solo i componenti contrassegnati come approvati da un amministratore. |
-   | ![Stella](/help/assets/icons/Star.svg) | **[!UICONTROL Favorites]** | Mostra solo i componenti inclusi nell’elenco dei Preferiti. <br/>Per informazioni sull’aggiunta di componenti all’elenco dei preferiti, consulta [Gestire i componenti](#manage-components). |
-   | ![Dimensioni](/help/assets/icons/Dimensions.svg) | **[!UICONTROL Dimensions]** | Mostra solo i componenti che sono Dimensioni. |
-   | ![Evento](/help/assets/icons/Event.svg) | **[!UICONTROL Metrics]** | Mostra solo i componenti che sono Metriche. |
-   | ![Segmentazione](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Segments]** | Mostra solo i componenti che sono segmenti. |
-   | ![Calendario](/help/assets/icons/Calendar.svg) | **[!UICONTROL Date ranges]** | Mostra solo i componenti che sono Intervalli di date. |
+   | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | **[!UICONTROL Approvato]** | Mostra solo i componenti contrassegnati come approvati da un amministratore. |
+   | ![Stella](/help/assets/icons/Star.svg) | **[!UICONTROL Preferiti]** | Mostra solo i componenti inclusi nell’elenco dei Preferiti. <br/>Per informazioni sull’aggiunta di componenti all’elenco dei preferiti, consulta [Gestire i componenti](#manage-components). |
+   | ![Dimensioni](/help/assets/icons/Dimensions.svg) | **[!UICONTROL Dimensioni]** | Mostra solo i componenti che sono Dimensioni. |
+   | ![Evento](/help/assets/icons/Event.svg) | **[!UICONTROL Metriche]** | Mostra solo i componenti che sono Metriche. |
+   | ![Segmentazione](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Segmenti]** | Mostra solo i componenti che sono segmenti. |
+   | ![Calendario](/help/assets/icons/Calendar.svg) | **[!UICONTROL Intervalli di date]** | Mostra solo i componenti che sono Intervalli di date. |
    | ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL *Nome tag *]** | Mostra solo i componenti con i tag selezionati specifici. È disponibile un tag dedicato Adobe Template, per le [metriche calcolate predefinite](/help/components/calc-metrics/default-calcmetrics.md) fornite da Adobe. |
 
    Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) in un filtro per rimuovere il filtro.

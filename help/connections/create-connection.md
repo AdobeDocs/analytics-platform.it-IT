@@ -5,9 +5,25 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: 3524a7f62fa509c477e60d4d586ed2de52191b73
+TQID: https://experienceleague.adobe.com/90JULA8fFxPQSbVLHr3hJ8o5algJAfNz9SjjLFecyJc
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '10330'
+source-wordcount: 10330
 ht-degree: 89%
 
 ---
@@ -82,7 +98,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="connection_change_accountid"
 >title="Cambiare ID account"
->abstract="Una modifica dell’ID account elimina tutti i dati esistenti nella connessione e riacquisisce tutti i dati dal set di dati in base al nuovo ID account. Questa azione può avere implicazioni in termini di costi. <br/><br/>Se selezioni **[!UICONTROL Continua]**, è possibile ritardare la creazione di report fino al completamento del processo."
+>abstract="Una modifica dell’ID account elimina tutti i dati esistenti nella connessione e riacquisisce tutti i dati dal set di dati in base al nuovo ID account. Questa azione può avere implicazioni in termini di costi. <br/><br/>Se selezioni **[!UICONTROL Continua]**, la creazione di report può essere ritardata fino al completamento del processo."
 
 >[!CONTEXTUALHELP]
 >id="connection_change_globalaccountid"
@@ -117,7 +133,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="connections_useincja_exl_ajo"
 >title="Utilizza questa connessione in Customer Journey Analytics"
->abstract="Questa opzione consente di sfruttare le funzionalità di reporting avanzate di Customer Journey Analytics con la connessione Journey Optimizer. Queste funzionalità consentono di:<ul><li>Eseguire un’analisi approfondita dei dati di Journey Optimizer all’interno di Customer Journey Analytics.</li><li>Modificare la connessione Journey Optimizer e le visualizzazioni dati associate.</li><li>Analizzare gli eventi dei percorsi, i percorsi di conversazione e le prestazioni delle campagne.</li></ul>**Quando questa opzione è abilitata, ogni riga di dati della connessione viene conteggiata ogni mese nelle righe di dati della licenza per Customer Journey Analytics. E viene visualizzato nell&#39;interfaccia utente per l&#39;utilizzo delle connessioni.**<br><br/> Esplora questa opzione solo se hai familiarità con l&#39;utilizzo aggiuntivo di righe di dati in Customer Journey Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/integrations/ajo){target="_blank"}."
+>abstract="Questa opzione consente di sfruttare le funzionalità di reporting avanzate di Customer Journey Analytics con la connessione Journey Optimizer. Queste funzionalità consentono di:<ul><li>Eseguire un’analisi approfondita dei dati di Journey Optimizer all’interno di Customer Journey Analytics.</li><li>Modificare la connessione Journey Optimizer e le visualizzazioni dati associate.</li><li>Analizzare gli eventi del percorso, i percorsi della conversazione e le prestazioni della campagna.</li></ul>**Quando questa opzione è abilitata, ogni riga di dati della connessione viene conteggiata ogni mese nelle righe di dati della licenza per Customer Journey Analytics. E viene visualizzato nell&#39;interfaccia utente per l&#39;utilizzo delle connessioni.**<br><br/> Esplora questa opzione solo se hai familiarità con l&#39;utilizzo aggiuntivo di righe di dati in Customer Journey Analytics. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/integrations/ajo){target="_blank"}."
 
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_exl_ajo"
@@ -142,7 +158,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="connections_disableuseincja_exl_product_usage"
 >title="Rimuovere questa connessione da Customer Journey Analytics"
->abstract="Questa connessione di utilizzo del prodotto è attualmente utilizzata in Customer Journey Analytics. La connessione consente di:<ul><li>Eseguire un’analisi approfondita dei dati di utilizzo del prodotto all’interno di Customer Journey Analytics.</li><li>Modifica la connessione di utilizzo del prodotto e le visualizzazioni dati associate.</li></ul>**Se rimuovi la connessione, non sarà più possibile eseguire analisi approfondite in Customer Journey Analytics. La connessione ed eventuali visualizzazioni dati associate vengono ripristinate allo stato predefinito e non possono più essere modificate.**<br/><br/>**La fatturazione per questa connessione in Customer Journey Analytics include l’intero mese durante il quale la connessione viene rimossa.**<br/><br/> La connessione rimane abilitata per l’utilizzo del prodotto. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/tools/product-usage/usage-overview){target="_blank"}."
+>abstract="Questa connessione di utilizzo del prodotto è attualmente utilizzata in Customer Journey Analytics. La connessione consente di:<ul><li>Eseguire un’analisi approfondita dei dati di utilizzo del prodotto all’interno di Customer Journey Analytics.</li><li>Modificare la connessione di utilizzo del prodotto e le visualizzazioni dati associate.</li></ul>**Se rimuovi la connessione, non sarà più possibile eseguire analisi approfondite in Customer Journey Analytics. La connessione ed eventuali visualizzazioni dati associate vengono ripristinate allo stato predefinito e non possono più essere modificate.**<br/><br/>**La fatturazione per questa connessione in Customer Journey Analytics include l’intero mese durante il quale la connessione viene rimossa.**<br/><br/> La connessione rimane abilitata per l’utilizzo del prodotto. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/tools/product-usage/usage-overview){target="_blank"}."
 
 >[!CONTEXTUALHELP]
 >id="connections_useincja_legal_section_section"
@@ -236,7 +252,7 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
    | Colonna | Descrizione |
    |---|---|
    | **[!UICONTROL Nome del set di dati]** | Seleziona uno o più set di dati da richiamare in Customer Journey Analytics e seleziona **[!UICONTROL Aggiungi]**.<p>Se sono presenti molti set di dati tra cui scegliere, puoi cercare quelli giusti utilizzando la barra di ricerca apposita sopra l’elenco dei set di dati. |
-   | ![Altro](/help/assets/icons/More.svg) | Seleziona ![Altro](/help/assets/icons/More.svg) per aprire un menu di scelta rapida per il set di dati selezionato. In base al tipo di set di dati, puoi selezionare:<ul><li>![CrossSize75](/help/assets/icons/CrossSize400.svg)  **[!UICONTROL Elimina set di dati]** per [eliminare un set di dati](#delete-a-dataset).</li><li>![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica set di dati]** per [modificare un set di dati](#edit-a-dataset).</li><li>![Cronologia](/help/assets/icons/History.svg) **[!UICONTROL Retrocompilazioni precedenti]** per visualizzare le [retrocompilazioni precedenti del set di dati](#past-backfills). |
+   | ![Altro](/help/assets/icons/More.svg) | Seleziona ![Altro](/help/assets/icons/More.svg) per aprire un menu di scelta rapida per il set di dati selezionato. In base al tipo di set di dati, puoi selezionare:<ul><li>![CrossSize75](/help/assets/icons/CrossSize400.svg)  **[!UICONTROL Elimina set di dati]** per [eliminare un set di dati](#delete-a-dataset).</li><li>![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica set di dati]** per [modificare un set di dati](#edit-a-dataset).</li><li>![Cronologia](/help/assets/icons/History.svg) **[!UICONTROL Retrocompilazioni precedenti]** per visualizzare le [retrocompilazioni precedenti del set di dati](#past-backfills). |
    | **[!UICONTROL Ultimo aggiornamento]** | Solo per i set di dati evento, questa impostazione viene impostata automaticamente sul campo marca temporale predefinito dagli schemi basati su eventi in Experience Platform. “N/A” significa che il set di dati non contiene dati. |
    | **[!UICONTROL Numero di record]** | Totale dei record del mese precedente per il set di dati in Experience Platform. |
    | **[!UICONTROL Schema]** | Lo [schema](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition) in base al quale è stato creato il set di dati in Adobe Experience Platform. |

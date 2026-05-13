@@ -5,10 +5,25 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 14a90758-91eb-4610-8802-1edfdb8b9689
-source-git-commit: 20ead546897ad517840f95a5ec4dcd7f830afe8c
+TQID: https://experienceleague.adobe.com/J-5oxLDw4sLVFcXYQhN5cpTkH76C5wAfWFECrIydb-s
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2642'
-ht-degree: 2%
+source-wordcount: 3355
+ht-degree: 4%
 
 ---
 
@@ -47,7 +62,7 @@ Prima di utilizzare la funzionalità descritta in questo caso d’uso, assicurat
 
 Experience Platform Query Service consente di eseguire query e unire qualsiasi set di dati nel data lake di Experience Platform come se si trattasse di una tabella di database. Puoi quindi acquisire i risultati come nuovo set di dati da utilizzare ulteriormente nel reporting o per l’esportazione.
 
-È possibile utilizzare l&#39;interfaccia utente di Query Service [1&rbrace;, un client &#x200B;](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/overview)connesso tramite il protocollo PostgresQL[&#x200B; o &#x200B;](https://experienceleague.adobe.com/it/docs/experience-platform/query/clients/overview)API RESTful[&#x200B; per creare e pianificare query che raccolgono i dati per il feed di dati.](https://experienceleague.adobe.com/it/docs/experience-platform/query/api/getting-started)
+È possibile utilizzare l&#39;interfaccia utente di Query Service [&#128279;](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/overview)1&rbrace;, un client [connesso tramite il protocollo PostgresQL](https://experienceleague.adobe.com/it/docs/experience-platform/query/clients/overview) o [API RESTful](https://experienceleague.adobe.com/it/docs/experience-platform/query/api/getting-started) per creare e pianificare query che raccolgono i dati per il feed di dati.
 
 ### Crea query
 
@@ -360,8 +375,8 @@ Dopo aver creato e pianificato la query e verificato i risultati, puoi esportare
 
 Sono supportate le seguenti destinazioni di archiviazione cloud:
 
-- [Archiviazione Azure Data Lake Gen2](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2)
-- [Area di destinazione dati](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone)
+- [Azure Data Lake Storage Gen2](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2)
+- [Data Landing Zone](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone)
 - [Google Cloud Storage](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage)
 - [Amazon S3](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
 - [BLOB di Azure](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob)

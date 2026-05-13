@@ -4,9 +4,19 @@ title: Usa reporting in tempo reale
 feature: Real-time Reporting
 role: User
 exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
-source-git-commit: 0e5a64e78e5a471f8b7c9fc32fdbae2b2e70230a
+TQID: https://experienceleague.adobe.com/tQgkfejYepjtgY4eN6cmT4K49I8VUb6les1abWXGGa0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: 239
 ht-degree: 12%
 
 ---
@@ -25,7 +35,7 @@ Per utilizzare la generazione rapporti in tempo reale, abilita l&#39;opzione **[
 * [Attribuzione](/help/analysis-workspace/c-panels/attribution.md)
 * [Elemento successivo o precedente](/help/analysis-workspace/c-panels/next-previous.md)
 
-Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Ad esempio: [!UICONTROL &#x200B; *Ultimo aggiornamento alle 17:02:00:55.*]
+Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Ad esempio: [!UICONTROL &#x200B; *Ultimo aggiornamento alle 17:02:00*].:55
 
 Dal menu a discesa, seleziona il periodo in tempo reale su cui desideri creare un rapporto. Le opzioni disponibili sono:
 

@@ -4,10 +4,21 @@ title: Pagina di destinazione di Customer Journey Analytics
 role: User, Admin
 feature: Basics
 exl-id: 65c7bc26-7160-4bba-b764-5b0fa8686fca
-source-git-commit: 1741b2f3fc0588aaf0f403c6f3863ce837e376e9
+TQID: https://experienceleague.adobe.com/yj0864tQCuKNQocyhuqyi-N647uoy2IeqhT9RHmrRK0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 29%
+source-wordcount: 680
+ht-degree: 26%
 
 ---
 
@@ -39,7 +50,7 @@ La sezione **[!UICONTROL Progetti]** nella barra a sinistra funge da home page p
 
 Per accedere ai progetti in Customer Journey Analytics:
 
-1. Seleziona la scheda [!UICONTROL **Workspace**].
+1. Selezionare la scheda [!UICONTROL **Workspace**].
 
 1. Seleziona [!UICONTROL **Progetti**] nella barra a sinistra.
 
@@ -57,7 +68,7 @@ Per ulteriori informazioni, consulta [Progetti](/help/analysis-workspace/build-w
 
 Per accedere ai modelli in Customer Journey Analytics:
 
-1. Seleziona la scheda [!UICONTROL **Workspace**].
+1. Selezionare la scheda [!UICONTROL **Workspace**].
 
 1. Nella sezione [!UICONTROL **Modelli**] della barra a sinistra, puoi selezionare modelli Adobe o modelli aziendali.
 
@@ -127,7 +138,7 @@ La sezione **[!UICONTROL Apprendimento]** nella scheda [!UICONTROL **Workspace**
 
 Per accedere alle informazioni sui percorsi di apprendimento in Customer Journey Analytics:
 
-1. Seleziona la scheda [!UICONTROL **Workspace**].
+1. Selezionare la scheda [!UICONTROL **Workspace**].
 
 1. Nella sezione [!UICONTROL **Apprendimento**] nella barra a sinistra, seleziona [!UICONTROL **Percorsi di apprendimento**].
 
@@ -147,7 +158,7 @@ La pagina [!UICONTROL **Percorsi di apprendimento**] offre le seguenti caratteri
 
 Per accedere alle informazioni sull&#39;aggiornamento a Customer Journey Analytics:
 
-1. Seleziona la scheda [!UICONTROL **Workspace**].
+1. Selezionare la scheda [!UICONTROL **Workspace**].
 
 1. Nella sezione [!UICONTROL **Apprendimento**] nella barra a sinistra, seleziona [!UICONTROL **Esegui l&#39;aggiornamento a Customer Journey Analytics**].
 

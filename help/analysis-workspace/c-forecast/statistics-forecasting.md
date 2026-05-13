@@ -4,9 +4,19 @@ title: Tecniche di statistica
 feature: Visualizations
 role: User
 exl-id: f042a6dd-6af5-4bdd-afc9-07546d8ded6e
-source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
+TQID: https://experienceleague.adobe.com/hbfehTAPC7nw96Wdm47bdX-D5c4cfTCeCtlHlINBBxI
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: d13dba12-733d-4914-8d92-d643658bbe5d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: 552
 ht-degree: 4%
 
 ---
@@ -54,6 +64,6 @@ Il servizio non fa alcuna supposizione sui dati utente. Ad esempio, il servizio 
 
 ## Riferimenti
 
-1. Taylor, Sean J. e Benjamin Letham: *Previsione su larga scala.* Statistico americano 72.1 (2018): 37-45.
-1. Triebe, Oskar, et al.: *Neuralprophet: previsione spiegabile su scala.* pre-stampa arXiv arXiv:2111.15397(2021).
-1. Zhang e Arbor: *Rilevamento anomalie della serie temporale.* domanda di brevetto USA #18/057883.
+1. Taylor, Sean J. e Benjamin Letham: *Previsione su larga scala.* The American Statistician 72.1 (2018): 37-45.
+1. Triebe, Oskar, et al.: *Neuralprophet: previsioni spiegabili su scala.* prestampa arXiv arXiv:2111.15397(2021).
+1. Zhang e Arbor: *Rilevamento anomalie della serie temporale.* Domanda di brevetto USA #18/057883.

@@ -4,10 +4,35 @@ title: Ottimizzare le prestazioni di Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 226afef7-00da-4ac2-be4e-e19995621c61
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+TQID: https://experienceleague.adobe.com/gJaQPkkWeGrjTxlsBV5UoaY8H9quRqc-XrJAxRMSeEU
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+  - id: aff2ef09-fc60-4018-9197-e2befd623064
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: c38ed341-fab2-46df-9d72-88d8166edebb
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+  - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: '2470'
-ht-degree: 40%
+source-wordcount: 2547
+ht-degree: 39%
 
 ---
 
@@ -51,7 +76,7 @@ I fattori del browser includono:
 | Velocità di calcolo | Velocità del computer per l’esecuzione di un test di elaborazione. La soglia consigliata è inferiore a 750 millisecondi. | Su questo fattore incidono l&#39;hardware e i programmi simultanei. | Apri Gestione attività (PC) o Monitoraggio attività (Mac) per determinare se è possibile chiudere alcuni dei programmi aperti. Quindi, chiudi le schede del browser inutilizzate o altri programmi. <br><br>Se tali azioni non migliorano le prestazioni, rivolgiti al tuo team IT per valutare i dettagli hardware. |
 | Memoria utilizzata | Disponibile solo per Google Chrome. Ogni scheda di Workspace in un browser Google Chrome condivide 4 GB di memoria in totale. La memoria utilizzata rappresenta la percentuale di tale quota di memoria utilizzata dal progetto corrente. La soglia consigliata è di 3500 MB, ovvero il punto in cui Workspace inizia a presentare errori di memoria. | L’utilizzo di più schede o il download di 50000 righe di dati contribuisce a un maggiore utilizzo della memoria. | Se ricevi un errore di memoria, chiudi le altre schede di Workspace e/o esegui un download di 50000 righe alla volta. |
 | Archiviazione locale utilizzata | I dati archiviati localmente nel computer per l&#39;utilizzo nel browser. Ogni origine (ad esempio, experience.adobe.com) dispone di una tolleranza di 10 MB. | Analysis Workspace utilizza l’archiviazione locale per diverse funzioni, quali l’archiviazione dei salvataggi automatici di progetti esistenti, le impostazioni utente e i flag delle funzioni. | Per evitare l’interruzione delle funzionalità di Analysis Workspace, cancella l’archiviazione locale per il dominio experience.adobe.com. |
-| Velocità di rendering | FPS è l’acronimo di Frame al secondo, ossia quante volte al secondo il browser disegna la pagina sullo schermo. L’occhio può osservare 24 FPS; se il valore FPS è inferiore a 24 FPS, in Workspace si osservano problemi di rendering. | FPS è influenzato dal multitasking in molti progetti Workspace contemporaneamente e dalle dimensioni del progetto visualizzato. È influenzato inoltre dall’esecuzione di altri programmi sul computer, come streaming, scanner in background, ecc. Inoltre, l&#39;hardware influisce su questo fattore. | Apri Gestione attività (PC) o Monitoraggio attività (Mac) per determinare se è possibile chiudere alcuni dei programmi aperti. Quindi, chiudi le schede del browser inutilizzate o altri programmi. <br><br>Se tali azioni non migliorano le prestazioni, rivolgiti al tuo team IT per valutare i dettagli hardware. |
+| Velocità di rendering | FPS è l’acronimo di Frame al secondo, ossia quante volte al secondo il browser disegna la pagina sullo schermo. L’occhio può osservare 24 FPS; se il valore FPS è inferiore a 24 FPS, in Workspace si osservano problemi di rendering. | FPS è influenzato dal multitasking in molti progetti Workspace contemporaneamente e dalle dimensioni del progetto visualizzato. Altri programmi in esecuzione nel computer possono avere un impatto, ad esempio streaming, scanner in background e così via. Inoltre, l&#39;hardware influisce su questo fattore. | Apri Gestione attività (PC) o Monitoraggio attività (Mac) per determinare se è possibile chiudere alcuni dei programmi aperti. Quindi, chiudi le schede del browser inutilizzate o altri programmi. <br><br>Se tali azioni non migliorano le prestazioni, rivolgiti al tuo team IT per valutare i dettagli hardware. |
 
 ## Fattori del progetto
 
