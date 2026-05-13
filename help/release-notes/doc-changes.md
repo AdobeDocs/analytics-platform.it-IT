@@ -4,10 +4,10 @@ description: Elenco degli aggiornamenti dei contenuti della documentazione di Cu
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 43beba33f185e81fcebb4c18acfaa1c236ccd0c7
+source-git-commit: d15d85f5904bbada26bfd74fdc45217efeddd723
 workflow-type: tm+mt
-source-wordcount: '6886'
-ht-degree: 94%
+source-wordcount: '6910'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 |---|---|
 | **Maggio 2026** | |
+| Configurazione agnostica dei tag per Content Analytics | [Documentazione](/help/content-analytics/config/tags-agnostic.md) su come implementare Content Analytics per il canale web senza richiedere i tag di raccolta dati di Experience Platform. |
 | Considerazioni su Data Mirror | [Documentazione](/help/data-mirror/considerations.md) che descrive i fattori da considerare durante la configurazione di [set di dati Data Mirror](/help/data-mirror/data-mirror.md). |
 | Canale mobile Content Analytics | È stata aggiornata la [documentazione di Content Analytics](/help/content-analytics/content-analytics.md) per descrivere le funzionalità e la configurazione del canale mobile Content Analytics. |
 | **Aprile 2026** | |
