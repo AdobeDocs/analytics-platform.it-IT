@@ -5,26 +5,14 @@ feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
 TQID: https://experienceleague.adobe.com/pC3wjv6Q7RHRfDfHq75CP2Lqd-HzN-s7iLZ9t4N4ZR0
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: aff2ef09-fc60-4018-9197-e2befd623064
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 11f60dbdd2858f173896a131c08229e0c7f29a69
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5513a755345188e6f7ff5d4c566d807d09e25f68
 workflow-type: tm+mt
-source-wordcount: 6456
+source-wordcount: 6457
 ht-degree: 91%
 
 ---
@@ -466,7 +454,7 @@ Quando applichi un raggruppamento, tieni presente quanto segue:
 
 * I dati del raggruppamento vengono aggiornati se vengono apportate modifiche in un punto precedente del percorso.
 
-#### Applicare un raggruppamento a uno o più nodi o frecce
+#### Applicare un raggruppamento a nodi, frecce o dati di abbandono
 
 1. In una visualizzazione con area di lavoro di Percorso, effettua una delle seguenti operazioni:
 
@@ -572,7 +560,7 @@ Per visualizzare i dati di tendenza:
 
 1. Seleziona [!UICONTROL **Tendenza**].
 
-### Creare un segmento basato su un nodo o una freccia
+### Creare un segmento in base a un nodo, una freccia o a dati di fallout
 
 L’opzione per creare un segmento è disponibile per i seguenti oggetti nell’area di lavoro:
 
@@ -612,7 +600,7 @@ Per eliminare i nodi nell’area di lavoro del percorso:
 
 ### Escludi nodi
 
-Quando escludi un nodo da un percorso, i dati del percorso vengono aggiornati per escludere gli utenti che hanno visitato quel nodo. Anche la definizione del segmento per il percorso viene aggiornata per escludere gli utenti che hanno attraversato quel nodo.
+Quando escludi un nodo da un percorso, i dati del percorso vengono aggiornati per escludere i percorsi che hanno attraversato quel nodo. Anche la definizione del segmento del percorso viene aggiornata per escludere i percorsi che hanno attraversato quel nodo.
 
 Per escludere un nodo da un percorso:
 
