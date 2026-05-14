@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+source-git-commit: 11f60dbdd2858f173896a131c08229e0c7f29a69
 workflow-type: tm+mt
-source-wordcount: 6252
-ht-degree: 98%
+source-wordcount: 6456
+ht-degree: 91%
 
 ---
 
@@ -454,6 +454,8 @@ L’opzione per applicare un raggruppamento ai dati è disponibile per i seguent
 
 * Più frecce tra nodi
 
+* Dati di fallout (quando l’abbandono è mostrato su un nodo)
+
 Quando applichi un raggruppamento, tieni presente quanto segue:
 
 * I raggruppamenti vengono applicati alla metrica primaria. La metrica secondaria non verrà interessata.
@@ -466,13 +468,15 @@ Quando applichi un raggruppamento, tieni presente quanto segue:
 
 #### Applicare un raggruppamento a uno o più nodi o frecce
 
-1. In una visualizzazione area di lavoro del percorso, seleziona uno o più nodi in cui applicare un raggruppamento, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
+1. In una visualizzazione con area di lavoro di Percorso, effettua una delle seguenti operazioni:
 
-   Oppure
+   * Fai clic con il pulsante destro del mouse sull’abbandono che fuoriesce da un nodo (quando viene visualizzato l’abbandono) per il quale desideri applicare un raggruppamento.
 
-   In una visualizzazione area di lavoro del percorso, seleziona una o più frecce tra 2 nodi in cui applicare il raggruppamento, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
+   * Seleziona uno o più nodi per i quali desideri applicare un raggruppamento, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
 
-   Per selezionare più nodi o frecce, tieni premuto Comando (su Mac) o Ctrl (su Windows).
+   * Selezionare una o più frecce tra 2 nodi per cui si desidera applicare un raggruppamento, quindi fare clic con il pulsante destro del mouse su una delle frecce selezionate.
+
+     Per selezionare più nodi o frecce, tieni premuto Comando (su Mac) o Ctrl (su Windows).
 
 1. Seleziona [!UICONTROL **Raggruppamento**].
 
@@ -514,17 +518,21 @@ L’opzione per creare un pubblico è disponibile per i seguenti oggetti nell’
 
 * Più frecce tra nodi
 
+* Dati di fallout (quando l’abbandono è mostrato su un nodo)
+
 Quando crei un pubblico da più nodi o frecce, questi vengono uniti con l’operatore OR.
 
 Per creare un pubblico:
 
-1. In una visualizzazione area di lavoro del percorso, seleziona uno o più nodi in cui creare un pubblico, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
+1. In una visualizzazione con area di lavoro di Percorso, effettua una delle seguenti operazioni:
 
-   Oppure
+   * Fai clic con il pulsante destro del mouse sull’abbandono che fuoriesce da un nodo (quando viene visualizzato l’abbandono) per il quale desideri creare un pubblico.
 
-   In una visualizzazione area di lavoro del percorso, seleziona una o più frecce tra 2 nodi in cui creare un pubblico, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
+   * Seleziona uno o più nodi per i quali desideri creare un pubblico, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
 
-   Per selezionare più nodi o frecce, tieni premuto Comando (su Mac) o Ctrl (su Windows).
+   * Seleziona una o più frecce tra 2 nodi per i quali desideri creare un pubblico, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
+
+     Per selezionare più nodi o frecce, tieni premuto Comando (su Mac) o Ctrl (su Windows).
 
    >[!NOTE]
    >
@@ -548,21 +556,33 @@ L’opzione tendenza è disponibile per i seguenti oggetti nell’area di lavoro
 
 * Più frecce tra nodi
 
+* Dati di fallout (quando l’abbandono è mostrato su un nodo)
+
 Per visualizzare i dati di tendenza:
 
-1. In una visualizzazione area di lavoro del percorso, seleziona uno o più nodi per i quali visualizzare i dati di tendenza, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
+1. In una visualizzazione con area di lavoro di Percorso, effettua una delle seguenti operazioni:
 
-   Oppure
+   * Fai clic con il pulsante destro del mouse sull’abbandono che fuoriesce da un nodo (quando viene visualizzato l’abbandono) per il quale desideri visualizzare i dati delle tendenze.
 
-   In una visualizzazione area di lavoro del percorso, seleziona una o più frecce tra 2 nodi per le quali visualizzare i dati di tendenza, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
+   * Selezionare uno o più nodi per i quali si desidera visualizzare i dati sulle tendenze, quindi fare clic con il pulsante destro del mouse su uno dei nodi selezionati.
 
-   Per selezionare più nodi o frecce, tieni premuto Comando (su Mac) o Ctrl (su Windows).
+   * Selezionare una o più frecce tra 2 nodi per i quali si desidera visualizzare i dati di tendenza, quindi fare clic con il pulsante destro del mouse su una delle frecce selezionate.
+
+     Per selezionare più nodi o frecce, tieni premuto Comando (su Mac) o Ctrl (su Windows).
 
 1. Seleziona [!UICONTROL **Tendenza**].
 
 ### Creare un segmento basato su un nodo o una freccia
 
-Puoi creare un nuovo segmento basato su un nodo o una freccia all’interno di un percorso. Una volta creato il segmento, puoi utilizzarlo ovunque in Analysis Workspace.
+L’opzione per creare un segmento è disponibile per i seguenti oggetti nell’area di lavoro:
+
+* Singoli nodi
+
+* Frecce tra i nodi
+
+* Dati di fallout (quando l’abbandono è mostrato su un nodo)
+
+Una volta creato il segmento, puoi utilizzarlo ovunque in Analysis Workspace.
 
 I segmenti creati dall’area di lavoro del percorso utilizzano la [segmentazione sequenziale](/help/components/segments/seg-sequential-build.md). Significa che il segmento utilizza l’operatore THEN per collegare la sequenza di eventi (il percorso) che le persone hanno attraversato, fino al nodo o alla freccia selezionati. Tutti gli eventi che corrispondono al nodo o alla freccia selezionato sono inclusi nel segmento.
 
@@ -570,11 +590,11 @@ Se crei un segmento basato su un nodo in cui confluiscono più percorsi, tutti i
 
 Per creare un segmento:
 
-1. In una visualizzazione area di lavoro del percorso, fai clic con il pulsante destro del mouse sul nodo o sulla freccia da utilizzare per creare il segmento.
+1. In una visualizzazione dell’area di lavoro del Percorso, fai clic con il pulsante destro del mouse sul nodo, sulla freccia o sui dati di abbandono che desideri utilizzare per creare il segmento.
 
-1. Seleziona [!UICONTROL **Crea segmento dal nodo**] o [!UICONTROL **Crea segmento dalla freccia**].
+1. Seleziona [!UICONTROL **Crea segmento da nodo**], [!UICONTROL **Crea segmento da freccia**] o [!UICONTROL **Crea segmento da abbandono**].
 
-   Viene visualizzato il Generatore di segmenti. Nella sezione [!UICONTROL **Definizione**], la definizione del segmento viene creata in base al nodo o alla freccia selezionato e al relativo contesto all’interno del percorso.
+   Viene visualizzato il Generatore di segmenti. Nella sezione [!UICONTROL **Definizione**], la definizione del segmento viene creata in base al nodo, alla freccia o all&#39;abbandono selezionato e al relativo contesto all&#39;interno del percorso.
 
 1. Specifica un titolo per il segmento e apporta eventuali altre modifiche. Per ulteriori informazioni sulla creazione di un segmento, consulta [Generatore di segmenti](/help/components/segments/seg-builder.md).
 
@@ -589,6 +609,22 @@ Per eliminare i nodi nell’area di lavoro del percorso:
 1. In una visualizzazione area di lavoro del percorso, seleziona uno o più nodi da eliminare, quindi fai clic con il pulsante destro del mouse su uno dei nodi selezionati.
 
 1. Seleziona [!UICONTROL **Elimina**].
+
+### Escludi nodi
+
+Quando escludi un nodo da un percorso, i dati del percorso vengono aggiornati per escludere gli utenti che hanno visitato quel nodo. Anche la definizione del segmento per il percorso viene aggiornata per escludere gli utenti che hanno attraversato quel nodo.
+
+Per escludere un nodo da un percorso:
+
+1. In una visualizzazione area di lavoro Percorso, fai clic con il pulsante destro del mouse sul nodo da escludere.
+
+1. Selezionare [!UICONTROL **Escludi dal percorso**].
+
+Per includere nuovamente un nodo escluso nel percorso:
+
+1. In una visualizzazione con area di lavoro Percorso, fai clic con il pulsante destro del mouse sul nodo escluso.
+
+1. Selezionare [!UICONTROL **Rimuovi esclusione percorso**].
 
 ### Eliminare frecce tra nodi
 
