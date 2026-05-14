@@ -3,10 +3,10 @@ title: Creare un feed dati
 description: Scopri come creare un feed di dati e le informazioni sui file da fornire ad Adobe.
 hide: true
 feature: Components
-source-git-commit: 46d54e388fecac0b62eccfe54fe91620a46474a7
+source-git-commit: da47de2de52a3cc0d9aa768141bd7368042e1c66
 workflow-type: tm+mt
-source-wordcount: '2724'
-ht-degree: 15%
+source-wordcount: '2466'
+ht-degree: 23%
 
 ---
 
@@ -18,7 +18,7 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
 * Dati da includere in ciascun file
 
-* La frequenza con cui il feed di dati deve essere inviato (incluso l’intervallo di lookback se scegli di includere hit in arrivo tardivo)
+* La frequenza con cui il feed di dati deve essere inviato (incluso il ritardo di elaborazione per acquisire gli hit in arrivo)
 
 Prima di creare un feed di dati, è importante avere una conoscenza di base dei feed di dati e assicurarsi di soddisfare tutti i prerequisiti. Per ulteriori informazioni, consulta [Panoramica sui feed di dati](data-feed-overview.md).
 
@@ -51,11 +51,9 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
 <!-- markdownlint-enable MD034 -->
 
-<!-- added help for Dynamic lookups to this page: help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md -->
-
 1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali Adobe ID.
 
-1. Seleziona l&#39;icona a 9 quadrati in alto a destra, quindi seleziona [!UICONTROL **Customer Journey Analytics**].
+1. Seleziona [!UICONTROL **Customer Journey Analytics**] dal selettore di app ![App](/help/assets/icons/Apps.svg) in alto a destra nell’interfaccia.
 
 1. Nella barra di navigazione superiore, passa a [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
 
@@ -69,30 +67,28 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Nome**] | Nome del feed dati. I nomi devono essere univoci nella suite di rapporti selezionata e possono contenere fino a 255 caratteri. <!--[Learn more](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)--> |
+   | [!UICONTROL **Nome**] | Nome del feed dati. I nomi devono essere univoci all’interno della visualizzazione dati selezionata e possono contenere fino a 255 caratteri. <!--[Learn more](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)--> |
    | [!UICONTROL **Tag**] | Applica eventuali tag al feed dati per facilitarne la classificazione. <!--You can filter on tags as described in [Filter and search the list of data feeds](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) in [Manage data feeds](/help/export/analytics-data-feed/df-manage-feeds.md).--> |
    | [!UICONTROL **Descrizione**] | Specifica una descrizione per il feed dati. La descrizione aggiunta è visibile quando si modifica il feed dati. |
    | [!UICONTROL **Visualizzazione dati**] | Selezionare la visualizzazione dati contenente i dati che si desidera esportare. |
 
 1. Nella sezione [!UICONTROL **Data structure**], assicurati che nel campo **[!UICONTROL Data view]** sia selezionata la visualizzazione dati corretta. <p>Quando selezioni una visualizzazione dati, tieni presente quanto segue:</p> <ul><li>Se vengono creati più feed di dati per la stessa visualizzazione dati, ogni feed di dati deve avere definizioni di colonne diverse.</li><li>L’elenco delle colonne disponibili dipende dalla società di accesso a cui appartiene la visualizzazione dati selezionata. Se modifichi la visualizzazione dati, l’elenco delle colonne disponibili può cambiare. </li></ul>
 
-1. Aggiungi colonne alla configurazione del feed dati. Nella sezione **[!UICONTROL Disponibile]** a sinistra, seleziona le colonne da includere, quindi seleziona **[!UICONTROL Includi]**. Sono disponibili tutte le colonne di dati in Adobe Analytics. Per selezionare più colonne, tieni premuto **[!UICONTROL Maiusc]** oppure tieni premuto **[!UICONTROL Comando]** (su macOS) o **[!UICONTROL Ctrl]** (su Windows). Fare clic su **[!UICONTROL Aggiungi tutto]** per includere tutte le colonne in un feed di dati.
-
-   Le colonne aggiunte vengono visualizzate nella sezione **[!UICONTROL Included]** a destra.
+1. Aggiungi colonne alla configurazione del feed dati. Nella sezione della barra dei componenti a sinistra, individua le colonne da includere, quindi trascinale nell’area di lavoro per creare la struttura dati. Per selezionare più colonne, tieni premuto **[!UICONTROL Maiusc]** oppure tieni premuto **[!UICONTROL Comando]** (su macOS) o **[!UICONTROL Ctrl]** (su Windows).
 
    Utilizza le seguenti informazioni per comprendere le dimensioni sempre incluse, le dimensioni che non possono essere incluse e le metriche che devono essere sostituite:
 
    +++ Dimensioni sempre incluse nei feed di dati
 
-   In ogni feed di dati devono essere inclusi i seguenti componenti:
+   Le seguenti dimensioni sono incluse per impostazione predefinita in ogni feed di dati e non possono essere rimosse:
 
-   | Nome componente | Note | Feed di dati | Altre attività di reporting |
+   | Nome dimensione | Note | Feed di dati | Altre attività di reporting |
    |---|---|---|---|
-   | Marca temporale | Timestamp del periodo dell’evento. Granularità in millisecondi. Rappresentata in UTC. | Obbligatorio | Non disponibile |
+   | Marca temporale | Timestamp del periodo dell’evento. Granularità al microsecondo. Rappresentata in UTC. | Obbligatorio | Non disponibile |
    | ID riga | Identificatore di riga univoco | Obbligatorio | Non disponibile |
    | ID sessione | Identificatore univoco per ogni sessione | Obbligatorio | Non disponibile |
    | ID persona | Identificatore della persona per la visualizzazione dati e la connessione | Obbligatorio | Standard opzionale |
-   | ID account (B2B) | ID account quando si utilizza il contenitore Account | Obbligatorio (solo B2B) | Standard opzionale (solo B2B) |
+   | ID account [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | ID account quando si utilizza il contenitore Account | Obbligatorio | Standard opzionale |
 
    +++
 
@@ -100,7 +96,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
    Le dimensioni standard di Customer Journey Analytics non possono essere incluse nei feed di dati. Nella tabella seguente sono elencate queste dimensioni:
 
-   | Nome componente | Note | Feed di dati |
+   | Nome dimensione | Note | Feed di dati |
    |---|---|---|
    | 5 minuti | Intervalli di cinque minuti quando si sono verificati gli eventi (arrotondati per difetto) | Non disponibile |
    | 15 minuti | Intervalli di quindici minuti quando si sono verificati gli eventi (arrotondati per difetto) | Non disponibile |
@@ -128,13 +124,13 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
    Le metriche di Customer Journey Analytics seguenti devono essere sostituite:
 
-   | Nome componente | Note | Feed di dati |
+   | Nome della metrica | Note | Feed di dati |
    |---|---|---|
-   | Account | [B2B edition] in base all&#39;ID account specificato nella connessione | Non disponibile. Utilizza il conteggio distinto dall’ID account. |
-   | Gruppo acquisti | [B2B edition] gruppi di acquisto basati sull&#39;ID gruppo di acquisto nella connessione | Non disponibile. Utilizza il conteggio distinto dall’ID del gruppo di acquisto. |
+   | Account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | In base all’ID account specificato nella connessione | Non disponibile. Utilizza il conteggio distinto dall’ID account. |
+   | Acquisto del gruppo [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Comprare gruppi in base all’ID gruppo di acquisto nella connessione | Non disponibile. Utilizza il conteggio distinto dall’ID del gruppo di acquisto. |
    | Eventi | Numero di righe da tutti i set di dati evento in una connessione | Non disponibile. Utilizza il conteggio distinto dall’ID riga. |
-   | Account globali | [B2B edition] in base all&#39;ID account globale nella connessione | Non disponibile. Utilizza il conteggio distinto dall’ID account globale. |
-   | Opportunità | [Opportunità B2B edition] basate sull&#39;ID opportunità nella connessione | Non disponibile. Utilizza il conteggio distinto dall’ID opportunità. |
+   | Account globali [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | In base all’ID account globale nella connessione | Non disponibile. Utilizza il conteggio distinto dall’ID account globale. |
+   | Opportunità [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Opportunità basate sull’ID opportunità nella connessione | Non disponibile. Utilizza il conteggio distinto dall’ID opportunità. |
    | Persone | In base all’ID persona specificato in una connessione | Non disponibile. Utilizza il conteggio distinto dall’ID persona. |
    | Conversazioni | Numero di conversazioni | Non disponibile. Utilizza il conteggio distinto dall’ID conversazione. |
    | Fine della sessione | Numero di eventi che sono stati l’ultimo evento di una sessione | Non disponibile |
@@ -158,12 +154,10 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | Mese dell’anno | Dimensione suddivisa in base al tempo | Gennaio-Dicembre | Non disponibile |
    | Prime sessioni | Metrica | Prima sessione definita da una persona all’interno dell’intervallo di reporting | Non disponibile |
    | Sessioni di ritorno | Metrica | Sessioni che non sono state la prima sessione di una persona | Non disponibile |
-   | ID persona | Dimensione | Identificatore della persona per la visualizzazione dati e la connessione | **Obbligatorio** |
    | Spazio dei nomi ID persona | Dimensione | Tipo di ID costituito dall’ID persona (ad esempio, e-mail o ID cookie) | Disponibile |
-   | ID account globale | [B2B edition] Dimension | ID account globale quando si utilizza il contenitore Account globale | Disponibile |
-   | ID account | [B2B edition] Dimension | ID account quando si utilizza il contenitore Account | **Obbligatorio** (solo B2B) |
-   | ID opportunità | [B2B edition] Dimension | ID opportunità quando si utilizza il contenitore Opportunità | Disponibile |
-   | ID gruppo acquisti | [B2B edition] Dimension | ID gruppo di acquisto quando si utilizza il contenitore Gruppo di acquisto | Disponibile |
+   | ID account globale [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Dimensione | ID account globale quando si utilizza il contenitore Account globale | Disponibile |
+   | ID opportunità [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Dimensione | ID opportunità quando si utilizza il contenitore Opportunità | Disponibile |
+   | ID gruppo acquisti [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | Dimensione | ID gruppo di acquisto quando si utilizza il contenitore Gruppo di acquisto | Disponibile |
    | Trimestre dell’anno | Dimensione suddivisa in base al tempo | Q1, Q2, Q3, Q4 | Non disponibile |
    | Ripeti sessione | Metrica | Sessioni che non sono state le prime sessioni di una persona | Non disponibile |
    | Tipo di sessione | Dimensione | Due valori: Primo tentativo o Restituzione | Non disponibile |
@@ -182,9 +176,9 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | [!UICONTROL **Tipo di feed**] | Seleziona il tipo di feed da creare:<ul><li>[!UICONTROL **Feed live**]: esporta dati correnti e futuri.</li><li>[!UICONTROL **Feed di backfill**]: esporta dati storici tra due date precedenti.</li></ul> |
    | [!UICONTROL **Data di inizio**] | Specifica la data di inizio del feed di dati. Per iniziare immediatamente a elaborare i feed di dati per i dati storici, assicurati che sia selezionato [!UICONTROL **Feed di backfill**], quindi imposta questa data su una data nel passato in cui vengono raccolti i dati. La data di inizio è basata sul fuso orario della visualizzazione dati. |
    | [!UICONTROL **Data di fine**] | Specifica la data in cui desideri che termini il feed dati. La data di fine si basa sul fuso orario della visualizzazione dati. |
-   | [!UICONTROL **Frequenza**] | Seleziona la frequenza con cui inviare il feed di dati. Gli eventi con marche temporali che rientrano nella finestra di frequenza sono inclusi nella consegna del feed di dati. I campi [!UICONTROL **Intervallo date di lookback**] e [!UICONTROL **Ritardo elaborazione**] possono anche influenzare gli eventi inclusi nei dati per la frequenza di consegna scelta.<p>Selezionare questa opzione per includere un&#39;ora di dati o un giorno di dati:</p><ul><li>**Giornaliero**: i feed contengono dati relativi a un intero giorno, dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati. Utilizza questa opzione per i feed di backfill o per i feed live.</li><li>**Oraria**: i feed contengono dati relativi a una sola ora. Utilizza questa opzione per i feed live.</li></ul> |
+   | [!UICONTROL **Frequenza**] | Seleziona la frequenza con cui inviare il feed di dati. Gli eventi con marche temporali che rientrano nella finestra di frequenza sono inclusi nella consegna del feed di dati. I campi [!UICONTROL **Intervallo date di lookback**] e [!UICONTROL **Ritardo elaborazione**] possono anche influenzare gli eventi inclusi nei dati per la frequenza di consegna scelta.<p>Per i feed live, seleziona questa opzione per includere dati relativi a un’ora o a un giorno. I feed di backfill devono essere giornalieri.</p><ul><li>**Giornaliero**: i feed contengono dati relativi a un intero giorno, dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati. Utilizza questa opzione per i feed di backfill o per i feed live.</li><li>**Oraria**: i feed contengono dati relativi a una sola ora. Utilizza questa opzione per i feed live.</li></ul> |
    | [!UICONTROL **Intervallo date lookback**] | Controlla l’aspetto indietro di Customer Journey Analytics durante l’elaborazione della consegna del feed dati. <p>Questa impostazione non altera la finestra di frequenza (ora o giorno), che definisce l’intervallo di tempo degli eventi da includere nell’output del feed di dati. Tuttavia, l’intervallo di date di lookback può influenzare i dati consegnati nei seguenti modi: </p><ul><li>**Qualificazione del segmento**: quando un segmento viene applicato alla definizione del feed dati, tutti gli eventi all&#39;interno dell&#39;intervallo di date di lookback determinano se una persona è idonea. L’impostazione del contenitore del segmento determina l’ambito. (I contenitori possibili sono: Persona, Sessione o Evento. Il B2B ha i seguenti contenitori aggiuntivi: account globale, account, opportunità, gruppo di acquisto.)  <p>Ad esempio, se viene utilizzato un contenitore Persona e la persona risulta idonea durante l’intervallo di date del lookback, vengono qualificati anche tutti gli eventi di quella persona durante l’intervallo di frequenza.</p></li><li>**Calcolo sessione**: i limiti della sessione vengono calcolati utilizzando i dati all&#39;interno dell&#39;intervallo di date del lookback.</li><li>**Trasformazioni di campo derivate**: tutte le funzioni di campo derivate che fanno riferimento a contenitori (come le funzioni Riepiloga, Deduplica e Profondità) utilizzano l&#39;intervallo di date del lookback nelle esportazioni di feed di dati.</li><li>**Persistenza Dimension**: se scegli di impostare la persistenza su una singola dimensione, scegli anche una scadenza per determinare per quanto tempo un elemento dimensione persiste oltre l&#39;evento su cui è impostato. <p>L’intervallo di date di lookback influisce sulla persistenza delle dimensioni quando la scadenza viene impostata su una delle seguenti opzioni nella visualizzazione dati:</p><ul><li>Per ogni dimensione nella definizione del feed dati che utilizza [!UICONTROL **Finestra di reporting**] come scadenza, l&#39;intervallo di date del lookback diventa il nuovo intervallo di reporting.</li><li>Per ogni dimensione nella definizione del feed dati che utilizza [!UICONTROL **Ora personalizzata**] come scadenza e se l&#39;ora personalizzata selezionata si estende oltre l&#39;intervallo di date del lookback, l&#39;ora personalizzata viene ignorata e l&#39;intervallo di date del lookback viene utilizzato per la scadenza della dimensione.<p>Per ulteriori informazioni sull&#39;impostazione della persistenza sulle dimensioni all&#39;interno della visualizzazione dati, vedere [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md).</p></li></ul> |
-   | [!UICONTROL **Ritardo elaborazione**] | Scegli se attendere un determinato periodo di tempo prima di elaborare un file di feed dati. Eventuali hit in ritardo che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati.<p>Un ritardo può essere utile per dare alle implementazioni mobili l’opportunità ai dispositivi offline di connettersi e inviare dati. Può essere utilizzato anche per adattarsi ai processi lato server della tua organizzazione nella gestione dei file elaborati in precedenza. Nella maggior parte dei casi, non è necessario attendere. Puoi ritardare un feed fino a 8 ore (480 minuti) o anche di più se selezioni una quantità di tempo personalizzata (9.999 minuti di ritardo o circa 1 settimana).<p>Se non viene impostato alcun ritardo, vengono inclusi nel feed solo gli eventi che rientrano nella finestra di frequenza (ultimo giorno o ora).</p> <p>Per essere incluse, le visite devono iniziare dopo questo limite; le visite che iniziano prima del limite e terminano entro il ritardo di elaborazione non sono incluse.</p> <p>Richiesto per sessioni, persistenza e segmenti.</p><p>Non viene utilizzato per le dimensioni. Le dimensioni sono controllate per dimensione in base all’allocazione e alla scadenza della dimensione. I lookback Dimension non possono superare il ritardo di elaborazione.</p> |
+   | [!UICONTROL **Ritardo elaborazione**] | Scegli la quantità di tempo di attesa prima di elaborare un file di feed dati. Eventuali hit in ritardo che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati. <p>Un ritardo può essere utile per dare alle implementazioni mobili l’opportunità ai dispositivi offline di connettersi e inviare dati. Può essere utilizzato anche per adattarsi ai processi lato server della tua organizzazione nella gestione dei file elaborati in precedenza. </p><p>È possibile ritardare un feed di 2, 3, 4 o 8 ore.<p>Per poter essere incluse, le sessioni devono iniziare dopo il cut-off del ritardo di elaborazione; le sessioni che iniziano prima del cut-off e terminano entro il ritardo di elaborazione non sono incluse.</p> |
 
 1. Nella sezione [!UICONTROL **Destinazione**] configura la destinazione in cui desideri inviare i dati.
 
@@ -210,59 +204,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
 1. Seleziona **[!UICONTROL Salva]**.
 
-## Gestisci modelli di colonna
 
-I modelli consentono di riutilizzare le stesse colonne per i feed di dati futuri creati.
-
-Durante la gestione dei modelli è possibile creare nuovi modelli, utilizzare modelli già creati, copiarli, modificarli ed eliminarli.
-
-**[!UICONTROL Amministratore]** > **[!UICONTROL Feed dati]** > **[!UICONTROL Gestione modelli]**
-
-![Gestisci modelli di colonna](assets/data-feed-template-manage.png)
-
-### Creare un modello di colonna
-
-Quando crei più feed di dati che utilizzano le stesse colonne, Adobe consiglia di creare modelli di colonna. Tutti i modelli di colonna creati possono essere utilizzati da qualsiasi utente dell’organizzazione.
-
-Per creare un modello di colonna:
-
-1. In Adobe Analytics, vai a [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**] > **[!UICONTROL Gestisci modelli]**.
-
-1. Selezionare **[!UICONTROL Crea nuovo modello]** per creare un nuovo modello di colonna.
-
-   ![Crea modello colonna](assets/data-feed-template-create.png)
-
-1. Nel campo **[!UICONTROL Nome modello]**, specificare un nome per il modello.
-
-1. Nella sezione **[!UICONTROL Disponibile]** a sinistra, seleziona le colonne da includere, quindi seleziona **[!UICONTROL Includi]**. Sono disponibili tutte le colonne di dati disponibili in Adobe Analytics. Per selezionare più colonne, tieni premuto **[!UICONTROL Maiusc]** oppure tieni premuto **[!UICONTROL Comando]** (su macOS) o **[!UICONTROL Ctrl]** (su Windows). Fare clic su **[!UICONTROL Aggiungi tutto]** per includere tutte le colonne in un feed di dati.
-
-   Le colonne aggiunte vengono visualizzate nella sezione **[!UICONTROL Included]** a destra.
-
-1. Seleziona **[!UICONTROL Salva]**.
-
-### Modificare un modello di colonna
-
-1. In Adobe Analytics, vai a [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**] > **[!UICONTROL Gestisci modelli]**.
-
-1. Seleziona il modello da modificare, quindi seleziona **[!UICONTROL Modifica]**.
-
-1. Apporta le modifiche necessarie, quindi seleziona **[!UICONTROL Salva]**.
-
-### Copiare un modello di colonna
-
-1. In Adobe Analytics, vai a [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**] > **[!UICONTROL Gestisci modelli]**.
-
-1. Seleziona il modello da copiare, quindi seleziona **[!UICONTROL Copia]**.
-
-1. Nel campo **[!UICONTROL Nome modello]**, specificare un nome per il modello.
-
-1. Apporta eventuali modifiche aggiuntive, quindi seleziona **[!UICONTROL Salva]**.
-
-### Eliminare i modelli di colonna
-
-1. In Adobe Analytics, vai a [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**] > **[!UICONTROL Gestisci modelli]**.
-
-1. Seleziona uno o più modelli da eliminare, quindi seleziona **[!UICONTROL Elimina]**.
 
 
 <!-- why would you want to do this? -->
