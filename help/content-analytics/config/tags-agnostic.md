@@ -1,20 +1,20 @@
 ---
-title: Configurazione Agnosite Dei Tag Content Analytics
-description: Scopri come configurare Content Analytics senza utilizzare i tag di raccolta dati di Experience Platform.
+title: Content Analytics JavaScript Kibrary
+description: Scopri come configurare Content Analytics senza utilizzare i tag di raccolta dati di Experience Platform e utilizzare invece la libreria JavaScript di Content Analytics.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-source-git-commit: d15d85f5904bbada26bfd74fdc45217efeddd723
+source-git-commit: 8fc9bde3d0b9eebfcc8185aff78ce0f7f2e7704f
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
 
-# Configurazione agnostica dei tag Content Analytics
+# Libreria JavaScript di Content Analytics
 
-La libreria JavaScript di Adobe Content Analytics consente il tracciamento di eventi relativi ai contenuti sui siti web inviando dati sui contenuti a Adobe Experience Platform tramite Experience Platform Edge Network. Utilizza questa libreria per implementare Content Analytics senza i tag di Adobe Experience Platform (Launch).
+La libreria JavaScript di Adobe Content Analytics consente il tracciamento di eventi relativi ai contenuti sui siti web inviando dati sui contenuti a Adobe Experience Platform tramite Experience Platform Edge Network. Utilizza questa libreria per implementare Content Analytics senza i tag Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ La libreria JavaScript di Adobe Content Analytics consente il tracciamento di ev
 >
 >* È necessario inizializzare Adobe Experience Platform Web SDK (Alloy) nella pagina prima di chiamare `initializeContentLibrary`.
 >* Completa la configurazione guidata di Content Analytics per conoscere tutti i passaggi necessari per impostare i prerequisiti per una configurazione di Content Analytics.
->* Al termine della configurazione guidata, le impostazioni di JavaScript specifiche della configurazione sono disponibili in tale vista di configurazione.
+>* Al termine della configurazione guidata, le impostazioni JavaScript sono disponibili per l’uso.
 
 
 ## Installazione
@@ -52,7 +52,7 @@ Utilizza `npm` per installare la libreria.
 
 Carica la libreria direttamente dal CDN.
 
-1. Inizializza la [libreria Web SDK JavaScript](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/install/library) e carica il bundle Content Analytics:
+1. Inizializza la [libreria Web SDK JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library) e carica il bundle Content Analytics:
 
    ```html
    <!-- 1. Load and configure Alloy first -->
@@ -74,7 +74,7 @@ Carica la libreria direttamente dal CDN.
    ```
 
    dove
-   * `alloy/2.x.x` fa riferimento alla versione che si desidera utilizzare della [libreria Web SDK JavaScript](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/install/library).
+   * `alloy/2.x.x` fa riferimento alla versione che si desidera utilizzare della [libreria Web SDK JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library).
    * `content-analytics/1.x.x` fa riferimento alla versione che si desidera utilizzare della libreria SDK di Content Analytics.
 
 2. La compilazione autonoma espone `window.contentAnalytics` come funzione di inizializzazione.
@@ -94,7 +94,7 @@ initializeContentLibrary({
 });
 ```
 
-## Acquisizione e definizione delle esperienze
+## Acquisizione e definizione dell’esperienza
 
 Abilita il tracciamento dell’esperienza e controlla come le esperienze vengono identificate sul tuo sito web. Le esperienze sono definite combinando un&#39;**espressione regolare di dominio** con **parametri di query** facoltativi che distinguono un&#39;esperienza da un&#39;altra nelle pagine corrispondenti.
 
