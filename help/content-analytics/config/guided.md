@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: add42fb00c3ce65d9c40bb023bd6bf8bdd397ee1
 workflow-type: tm+mt
 source-wordcount: 4111
-ht-degree: 38%
+ht-degree: 53%
 
 ---
 
@@ -92,7 +92,7 @@ La procedura guidata di configurazione è costituita da quattro sezioni ([Dettag
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_header"
 >title="Connessione"
->abstract="Seleziona una connessione esistente da Customer Journey Analytics con cui desideri unire i dati di Content Analytics."
+>abstract="Seleziona una connessione esistente di Customer Journey Analytics con cui desideri unire i dati di Content Analytics."
 
 Ogni configurazione richiede un nome univoco. Ad esempio, `Example Content Analytics configuration`. Il nome è necessario per salvare o implementare una configurazione.
 
@@ -164,37 +164,37 @@ Se è già stata selezionata una connessione, ma si desidera modificarla:
 >[!CONTEXTUALHELP]
 >id="ac_onboarding_dataviews_button"
 >title="Visualizzazione dati"
->abstract="Per la configurazione di Content Analytics è necessario selezionare una o più visualizzazioni dati. In questo modo, puoi unire i dati di Content Analytics con altri dati."
+>abstract="Per la configurazione di Content Analytics è necessario selezionare almeno una vista dati esistente. In questo modo, puoi unire i dati di Content Analytics con altri dati."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_header"
 >title="Visualizzazioni dati"
->abstract="Seleziona una o più visualizzazioni dati esistenti da Customer Journey Analytics con cui desideri unire i dati di Content Analytics."
+>abstract="Seleziona almeno una visualizzazione dati esistente di Customer Journey Analytics con cui desideri unire i dati di Content Analytics."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_header_alt"
 >title="Visualizzazioni dati"
->abstract="Selezionare una o più visualizzazioni dati esistenti da Customer Journey Analytics con cui si desidera unire i dati di Content Analytics.<br/>"
+>abstract="Seleziona almeno una visualizzazione dati esistente di Customer Journey Analytics con cui desideri unire i dati di Content Analytics.<br/>"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_new_dialog"
 >title="Visualizzazioni dati selezionate"
->abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate precedenti che non sono più selezionate.<br/><br/>Se alle visualizzazioni dati selezionate è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
+>abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate originariamente che sono deselezionate.<br/><br/>Se alle visualizzazioni dati selezionate è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_change_dialog"
 >title="Visualizzazioni dati selezionate"
->abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate precedenti che non sono più selezionate.<br/><br/>Se alle visualizzazioni dati selezionate è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
+>abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate originariamente che sono deselezionate.<br/><br/>Se alla visualizzazione selezionata dati è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_current_cleanup_labels_dialog"
 >title="Visualizzazioni dati selezionate"
->abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate in precedenza che non sono più selezionate.<br/><br/>Se alle visualizzazioni dati selezionate è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
+>abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate originariamente che sono deselezionate.<br/><br/>Se alla visualizzazione selezionata dati è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_prev_cleanup_labels_dialog"
 >title="Visualizzazioni dati selezionate"
->abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate in precedenza che non sono più selezionate.<br/><br/>Se alle visualizzazioni dati selezionate è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
+>abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate originariamente che sono deselezionate.<br/><br/>Se alla visualizzazione selezionata dati è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_channels_button"
@@ -244,33 +244,33 @@ Puoi quindi configurare il canale in modo più dettagliato. La configurazione va
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_experience_locations_boldheader"
->title="Raccolta dati posizioni esperienza mobile"
->abstract="**Percorsi esperienza da escludere**"
+>title="Raccolta dati sulle posizioni nell’esperienza per dispositivi mobili"
+>abstract="**Posizioni dell’esperienza da escludere**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_experience_locations_header"
->title="Raccolta dati posizioni esperienza mobile"
->abstract="Indica i percorsi esperienza da **escludere** durante la raccolta dei dati per Content Analytics. Assicurati di escludere le posizioni di esperienza che consentono l’identificazione personale."
+>title="Raccolta dati sulle posizioni nell’esperienza per dispositivi mobili"
+>abstract="Indica quali posizioni delle risorse devono essere **escluse** durante la raccolta dei dati per Content Analytics. Assicurati di escludere le posizioni di esperienza che consentono l’identificazione personale."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_locations_boldheader"
->title="Raccolta dati posizioni risorse mobili"
->abstract="**Posizioni risorse da escludere**"
+>title="Raccolta dati sulle posizioni delle risorse per dispositivi mobili"
+>abstract="**Posizioni dell’esperienza da escludere**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_locations_header"
->title="Raccolta dati posizioni risorse mobili"
->abstract="Indica le posizioni delle risorse da **escludere** durante la raccolta dei dati per Content Analytics. Assicurati di escludere le posizioni delle risorse personali."
+>title="Raccolta dati sulle posizioni delle risorse per dispositivi mobili"
+>abstract="Indica quali posizioni delle risorse devono essere **escluse** durante la raccolta dei dati per Content Analytics. Assicurati di escludere le posizioni delle risorse personali."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_boldheader"
->title="Raccolta dati URL risorse mobili"
->abstract="**URL risorse da escludere**"
+>title="Raccolta dati degli URL delle risorse per dispositivi mobili"
+>abstract="**URL delle risorse da escludere**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_header"
->title="Raccolta dati URL risorse mobili"
->abstract="Indica gli URL della risorsa da **escludere** durante la raccolta di dati per Content Analytics. Assicurati di escludere gli URL delle risorse personali."
+>title="Raccolta dati degli URL delle risorse per dispositivi mobili"
+>abstract="Indica quali URL delle risorse devono essere **escluse** durante la raccolta dei dati per Content Analytics. Assicurati di escludere gli URL delle risorse personali."
 
 Per il canale mobile, puoi configurare [acquisizione e definizione esperienza](#experience-capture-and-definition), [raccolta dati](#data-collection) e [sostituzioni intestazione](#header-overrides).
 
@@ -396,7 +396,7 @@ Per il canale web, puoi configurare [acquisizione e definizione esperienza](#exp
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_header"
 >title="Raccolta dati"
->abstract="Indica quali risorse devono essere **incluse** o **escluse** durante la raccolta dei dati per Content Analytics. Assicurati di escludere le risorse personali."
+>abstract="Indica quali risorse devono essere **incluse** o **escluse** durante la raccolta dati per Content Analytics. Assicurati di escludere le risorse personali."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_experiences_edit_button"
@@ -418,23 +418,23 @@ Per il canale web, puoi configurare [acquisizione e definizione esperienza](#exp
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_web_pages_boldheader"
->title="Raccolta dati di pagine Web"
+>title="Raccolta dati delle pagine Web"
 >abstract="**Pagine da includere/escludere**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_web_pages_header"
->title="Raccolta dati di pagine Web"
+>title="Raccolta dati delle pagine Web"
 >abstract="Indica quali pagine devono essere **incluse** o **escluse** durante la raccolta dei dati per Content Analytics."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_web_assets_boldheader"
->title="Raccolta dati di risorse web"
+>title="Raccolta dati delle risorse web"
 >abstract="**Risorse da includere/escludere**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_web_assets_header"
->title="Raccolta dati di risorse web"
->abstract="Indica quali risorse devono essere **incluse** o **escluse** durante la raccolta dei dati per Content Analytics. Assicurati di escludere le risorse personali."
+>title="Raccolta dati delle risorse web"
+>abstract="Indica quali risorse devono essere **incluse** o **escluse** durante la raccolta dati per Content Analytics. Assicurati di escludere le risorse personali."
 
 
 ##### Acquisizione e definizione dell’esperienza {#web-experience-capture-and-definition}
@@ -523,12 +523,12 @@ Per configurare la raccolta dati:
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_header_overrides_boldheader"
 >title="Sostituzioni intestazione"
->abstract="**Sostituzioni intestazione**"
+>abstract="**Sostituzioni delle intestazioni**"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_header_overrides_header"
 >title="Sostituzioni intestazione"
->abstract="Funzione avanzata per ignorare il rilevamento di bot o il traffico del gate. Content Analytics include le intestazioni HTTP personalizzate durante la chiamata degli endpoint."
+>abstract="Funzione avanzata per ignorare il rilevamento di bot o gestire il traffico. Content Analytics include le intestazioni HTTP personalizzate durante la chiamata agli endpoint."
 
 <!-- needs modification for mobile channel -->
 

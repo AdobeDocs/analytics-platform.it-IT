@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 3307
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="cja-export-file-name"
 >title="Nome e percorso del file"
->abstract="Specifica un nome di file personalizzato dinamico da utilizzare per le esportazioni automatizzate inviate a questa posizione. Puoi anche anteporre al nome del file un percorso file personalizzato dinamico. <br/>Utilizzare le variabili nel nome e nel percorso del file per renderle dinamiche. <br/>Ad esempio, se si specifica `${yyyy}/${MM}/${dd}/my-report-${instance_id}-${idx}`, un&#39;esportazione inviata automaticamente a questa destinazione il 15 gennaio 2026 avrà il percorso e il nome di file seguenti: `[prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv` <br/>Fare clic sul collegamento seguente per un elenco delle variabili disponibili."
+>abstract="Specifica un nome di file personalizzato dinamico da utilizzare per le esportazioni automatizzate inviate a questa posizione. Puoi anche anteporre al nome del file un percorso file personalizzato dinamico. <br/>Utilizza le variabili nel nome e nel percorso del file per renderli dinamici. <br/>Ad esempio, se specifichi `${yyyy}/${MM}/${dd}/my-report-${instance_id}-${idx}`, un’esportazione inviata automaticamente a questa destinazione il 15 gennaio 2026 avrà il percorso e il nome file seguenti: `[prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv`<br/>Fai clic sul collegamento sottostante per un elenco delle variabili disponibili."
 
 <!-- markdownlint-enable MD034 -->
 

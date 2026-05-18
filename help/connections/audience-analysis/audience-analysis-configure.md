@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
 exl-id: 0db3f6f7-9d7e-41bf-8eb5-02e439bab10a
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 28%
+source-wordcount: '1391'
+ht-degree: 32%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="cja-audience-analysis-sandbox"
 >title="Sandbox"
->abstract="Seleziona la sandbox che contiene i set di dati di profilo di Experience Platform corretti. Questi set di dati devono contenere i dati del pubblico su cui desideri creare rapporti in Analysis Workspace. "
+>abstract="Seleziona la sandbox che contiene i set di dati di profilo di Experience Platform corretti. Tali set di dati devono contenere i dati del pubblico su cui desideri creare rapporti in Analysis Workspace. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -46,7 +46,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="cja-audience-namespace"
 >title="Utilizza lo spazio dei nomi identità primaria"
->abstract="Abilita questa opzione se desideri che Customer Journey Analytics individui l’identità nella mappa delle identità contrassegnata con l’attributo primary=true, quindi utilizzala come ID persona per quella riga. L’identità è la chiave primaria utilizzata in Experience Platform per il partizionamento. <br/>Se questa opzione viene lasciata disabilitata, selezionare uno spazio dei nomi dal campo dello spazio dei nomi Identity sottostante. Customer Journey Analytics cerca la mappa delle identità di ogni riga per questa chiave di spazio dei nomi e utilizza l’identità in tale spazio dei nomi come ID persona per tale riga."
+>abstract="Abilita questa opzione se desideri che Customer Journey Analytics individui l’identità nella mappa delle identità contrassegnata con l’attributo primary=true, quindi utilizzala come ID persona per quella riga. L’identità è la chiave primaria utilizzata in Experience Platform per il partizionamento. <br/>Se lasci questa opzione disabilitata, seleziona uno spazio dei nomi dal campo Spazio dei nomi identità sottostante. Customer Journey Analytics cerca la mappa delle identità di ogni riga per questa chiave di spazio dei nomi e utilizza l’identità in tale spazio dei nomi come ID persona per tale riga."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -79,7 +79,7 @@ Per creare una configurazione di analisi del pubblico:
    | Campo | Descrizione |
    |---------|----------|
    | **[!UICONTROL Nome]** | Specifica un nome per la configurazione. |
-   | **[!UICONTROL Sandbox]** | Seleziona la sandbox di Experience Platform che contiene il set di dati profilo da aggiungere alla connessione. Una singola sandbox può supportare fino a 100 configurazioni di analisi del pubblico. <p>Adobe Experience Platform fornisce [sandbox](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) che permettono di suddividere una singola istanza Platform in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. Puoi considerare le sandbox come “silos di dati” che contengono set di dati. Le sandbox vengono utilizzate per controllare l’accesso ai set di dati.</p> |
+   | **[!UICONTROL Sandbox]** | Seleziona la sandbox di Experience Platform che contiene il set di dati profilo da aggiungere alla connessione. Una singola sandbox può supportare fino a 100 configurazioni di analisi del pubblico. <p>Adobe Experience Platform fornisce [sandbox](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) che permettono di suddividere una singola istanza di Platform in ambienti virtuali separati, utili per le attività di sviluppo ed evoluzione delle applicazioni dell’esperienza digitale. Puoi considerare le sandbox come “silos di dati” che contengono set di dati. Le sandbox vengono utilizzate per controllare l’accesso ai set di dati.</p> |
 
 1. Nella sezione **[!UICONTROL Set di dati profilo]**, specifica le seguenti informazioni:
 

@@ -17,7 +17,7 @@ role_v2:
 source-git-commit: caf1e4497d5dbe370ce23481ee1fbf1b6db59bf6
 workflow-type: tm+mt
 source-wordcount: 1788
-ht-degree: 14%
+ht-degree: 20%
 
 ---
 
@@ -106,12 +106,12 @@ Puoi abilitare l&#39;unione delle identità quando [aggiungi](/help/connections/
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
 >title="ID persona"
->abstract="Seleziona un ID persona (l’identificatore univoco di una persona) tra le identità disponibili. Se la licenza include l&#39;unione basata su grafico e si desidera utilizzare il metodo di unione, selezionare **[!UICONTROL Grafico identità]**."
+>abstract="Seleziona un ID persona (l’identificatore univoco di una persona) tra le identità disponibili. Se la licenza include l’unione basata su grafo e desideri utilizzare questo metodo di unione delle identità, seleziona **[!UICONTROL Grafo identità]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics"
 >title="Metriche di unione delle identità"
->abstract="Le metriche di unione vengono calcolate utilizzando un set di dati campione con marche temporali dell’evento degli ultimi 7 giorni.<br>Questo set di dati di esempio è in genere diverso dai dati di esempio utilizzati nella tabella **[!UICONTROL Anteprima]**."
+>abstract="Le metriche di unione delle identità vengono calcolate utilizzando un set di dati di esempio con marche temporali degli eventi degli ultimi 7 giorni.<br>Questo set di dati di esempio è in genere diverso dai dati di esempio utilizzati nella tabella **[!UICONTROL Anteprima]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_gbs_personidcoverage"
@@ -126,7 +126,7 @@ Puoi abilitare l&#39;unione delle identità quando [aggiungi](/help/connections/
 >[!CONTEXTUALHELP]
 >id="connection_stitchingmetrics_persistentidcoverage"
 >title="Copertura ID persistente"
->abstract="Questo valore viene utilizzato per l’identificazione durante il processo di unione (live e replay), nel caso in cui non sia possibile rilevare un ID persona. <br/>Gli eventi senza ID persistente e senza ID persona vengono eliminati dai dati. Per risultati ottimali di unione delle identità, in tutti gli eventi deve essere presente un ID persistente."
+>abstract="Questo valore è utilizzato per l’identificazione durante il processo di unione delle identità (in tempo reale e riprodotto successivamente) qualora non sia possibile rilevare un ID persona. <br/>Gli eventi senza ID persistente e senza ID persona vengono rimossi dai dati. Per risultati ottimali di unione delle identità, in tutti gli eventi deve essere presente un ID persistente."
 
 
 >[!CONTEXTUALHELP]
