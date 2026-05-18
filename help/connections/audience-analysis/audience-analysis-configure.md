@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
 exl-id: 0db3f6f7-9d7e-41bf-8eb5-02e439bab10a
-source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
+source-git-commit: ba9ae0e5084aaf1b14cff0ac89abd9b9f3569cc0
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 28%
+source-wordcount: '1391'
+ht-degree: 32%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="cja-audience-analysis-sandbox"
 >title="Sandbox"
->abstract="Seleziona la sandbox che contiene i set di dati di profilo di Experience Platform corretti. Questi set di dati devono contenere i dati del pubblico su cui desideri creare rapporti in Analysis Workspace. "
+>abstract="Seleziona la sandbox che contiene i set di dati di profilo di Experience Platform corretti. Tali set di dati devono contenere i dati del pubblico su cui desideri creare rapporti in Analysis Workspace. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -46,7 +46,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="cja-audience-namespace"
 >title="Utilizza lo spazio dei nomi identità primaria"
->abstract="Abilita questa opzione se desideri che Customer Journey Analytics individui l’identità nella mappa delle identità contrassegnata con l’attributo primary=true, quindi utilizzala come ID persona per quella riga. L’identità è la chiave primaria utilizzata in Experience Platform per il partizionamento. <br/>Se questa opzione viene lasciata disabilitata, selezionare uno spazio dei nomi dal campo dello spazio dei nomi Identity sottostante. Customer Journey Analytics cerca la mappa delle identità di ogni riga per questa chiave di spazio dei nomi e utilizza l’identità in tale spazio dei nomi come ID persona per tale riga."
+>abstract="Abilita questa opzione se desideri che Customer Journey Analytics individui l’identità nella mappa delle identità contrassegnata con l’attributo primary=true, quindi utilizzala come ID persona per quella riga. L’identità è la chiave primaria utilizzata in Experience Platform per il partizionamento. <br/>Se lasci questa opzione disabilitata, seleziona uno spazio dei nomi dal campo Spazio dei nomi identità sottostante. Customer Journey Analytics cerca la mappa delle identità di ogni riga per questa chiave di spazio dei nomi e utilizza l’identità in tale spazio dei nomi come ID persona per tale riga."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -79,14 +79,14 @@ Per creare una configurazione di analisi del pubblico:
    | Campo | Descrizione |
    |---------|----------|
    | **[!UICONTROL Nome]** | Specifica un nome per la configurazione. |
-   | **[!UICONTROL Sandbox]** | Seleziona la sandbox di Experience Platform che contiene il set di dati profilo da aggiungere alla connessione. Una singola sandbox può supportare fino a 100 configurazioni di analisi del pubblico. <p>Adobe Experience Platform fornisce [sandbox](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) che permettono di suddividere una singola istanza Platform in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. Puoi considerare le sandbox come “silos di dati” che contengono set di dati. Le sandbox vengono utilizzate per controllare l’accesso ai set di dati.</p> |
+   | **[!UICONTROL Sandbox]** | Seleziona la sandbox di Experience Platform che contiene il set di dati profilo da aggiungere alla connessione. Una singola sandbox può supportare fino a 100 configurazioni di analisi del pubblico. <p>Adobe Experience Platform fornisce [sandbox](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) che permettono di suddividere una singola istanza di Platform in ambienti virtuali separati, utili per le attività di sviluppo ed evoluzione delle applicazioni dell’esperienza digitale. Puoi considerare le sandbox come “silos di dati” che contengono set di dati. Le sandbox vengono utilizzate per controllare l’accesso ai set di dati.</p> |
 
 1. Nella sezione **[!UICONTROL Set di dati profilo]**, specifica le seguenti informazioni:
 
    | Campo | Descrizione |
    |---------|----------|
    | **[!UICONTROL Criterio di unione]** | Seleziona il criterio di unione che corrisponde al set di dati del profilo da utilizzare per l’analisi del pubblico. <p>I criteri di unione determinano il modo in cui Adobe Experience Platform combina i dati di profilo da più set di dati in profili cliente unificati utilizzati per la creazione di tipi di pubblico. Il criterio di unione selezionato influisce sugli attributi del profilo inclusi nei tipi di pubblico. Ogni giorno in Experience Platform viene generata un’istantanea di questi dati. Questa istantanea fornisce una visualizzazione statica dei dati in un momento specifico e non include dati di eventi.</p><p>Selezionare il criterio di unione **[!UICONTROL Basato su tempo predefinito]** se sono presenti più criteri di unione e non si è sicuri di quale scegliere. Puoi anche consultare il team di dati per capire meglio quali tipi di pubblico sono associati a ciascun criterio di unione.</p> |
-   | **[!UICONTROL Set di dati profilo]** | Set di dati profilo associato al criterio di unione selezionato. Questo set di dati profilo include i dati del pubblico di Experience Platform che desideri analizzare. Questo set di dati profilo viene aggiunto alla connessione selezionata.<p>Dopo aver scelto un criterio di unione, viene visualizzata l’esportazione dello snapshot del profilo. Ad esempio: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>Per ulteriori informazioni, consulta [Set di dati di attributi di profilo](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/query#profile-attribute-datasets) nella Guida dei dashboard di Experience Platform.</p> |
+   | **[!UICONTROL Set di dati profilo]** | Set di dati profilo associato al criterio di unione selezionato. Questo set di dati profilo include i dati del pubblico di Experience Platform che desideri analizzare. Questo set di dati profilo viene aggiunto alla connessione selezionata.<p>Dopo aver scelto un criterio di unione, viene visualizzata l’esportazione dello snapshot del profilo. Ad esempio: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>Per ulteriori informazioni, consulta [Set di dati di attributi di profilo](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/query#profile-attribute-datasets) nella Guida dei dashboard di Experience Platform.</p> |
 
 1. Nella sezione **[!UICONTROL Connessione]** fare clic su **[!UICONTROL Seleziona una connessione]**.
 
@@ -102,7 +102,7 @@ Per creare una configurazione di analisi del pubblico:
    | **[!UICONTROL Usa spazio dei nomi identità primaria]** | Questa opzione mostra se hai selezionato **[!UICONTROL Mappa identità]** per l&#39;ID persona. <p>Abilita questa opzione se desideri che Customer Journey Analytics individui l’identità nella mappa delle identità contrassegnata con l’attributo primary=true, quindi utilizzala come ID persona per quella riga. L’identità è la chiave primaria utilizzata in Experience Platform per il partizionamento. E questa identità è anche il candidato principale per l’utilizzo come ID persona di Customer Journey Analytics (a seconda di come il set di dati è configurato in una connessione Customer Journey Analytics).</p> |
    | **[!UICONTROL Spazio dei nomi identità]** | Questa opzione mostra se hai selezionato **[!UICONTROL Mappa identità]** per l&#39;ID persona. Questa opzione è disabilitata se utilizzi lo spazio dei nomi dell’ID primario. <p>Gli spazi dei nomi delle identità sono un componente del [servizio Identity di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces). Gli spazi dei nomi fungono da indicatori del contesto a cui si riferisce un’identità. Se specifichi uno spazio dei nomi, Customer Journey Analytics cerca la chiave dello spazio dei nomi in Identity Map di ogni riga e utilizza l’identità in tale spazio dei nomi come ID persona per tale riga. Poiché Customer Journey Analytics non è in grado di eseguire una scansione completa del set di dati di tutte le righe per determinare quali spazi di nomi sono presenti, nel menu a discesa vengono visualizzati tutti i possibili spazi di nomi. È necessario sapere quali spazi dei nomi sono specificati nei dati; questi spazi dei nomi non vengono rilevati automaticamente.</p> |
 
-   <!-- Add this when B2B releases for AuA **[!UICONTROL Account ID]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}|  (only displayed for account-based connections) The Account ID that is used to support account-based reporting for the dataset. -->
+   <!-- Add this when B2B releases for AuA **[!UICONTROL Account ID]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}|  (only displayed for account-based connections) The Account ID that is used to support account-based reporting for the dataset. -->
 
 1. Nella sezione **[!UICONTROL Visualizzazioni dati]**, fai clic su **[!UICONTROL Seleziona visualizzazioni dati]**.
 
