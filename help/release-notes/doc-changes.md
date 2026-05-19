@@ -6,11 +6,33 @@ solution: Customer Journey Analytics
 feature: Release Notes
 autotag-review: '2026-05-19T11:00:09.733Z'
 TQID: 'https://experienceleague.adobe.com/hHcvSYqGtYuKbPLvtu2qALBNLA0cogWxEUYxu-ktUvM'
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46dbid: e634a07b-b7ca-4af3-a124-3024ce559e17id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5eid: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2: id: a8e39571-4463-4aa3-8b3f-4e2341ecf3b3
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
+  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2:
+  - id: a8e39571-4463-4aa3-8b3f-4e2341ecf3b3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 6915
@@ -36,7 +58,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | È stata aggiunta la documentazione mancante per due set di dati che possono essere inclusi durante l’integrazione di Journey Optimizer | [Nella connessione sono inclusi altri due set di dati generati dal sistema e non di profilo](/help/integrations/ajo.md#high-throughput-add-on-datasets) quando per l&#39;organizzazione IMS è abilitato il componente aggiuntivo Messaggistica transazionale ad alta velocità. |
 | Casi di utilizzo aggiornati per l’analisi per coorte | In base al feedback, sono stati aggiunti esempi di Workspace per i casi di utilizzo dell’analisi per coorte. |
 | **Marzo 2026** | |
-| Suddividere un pannello | È stata ristrutturata la documentazione intorno alla zona di rilascio [ per un pannello](/help/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità [suddividi](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
+| Suddividere un pannello | È stata ristrutturata la documentazione intorno alla zona di rilascio [&#x200B; per un pannello](/help/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità [suddividi](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | Nota tecnica sugli ID non validi (BAVID) | Nuova [nota tecnica sugli ID non validi](/help/technotes/badids.md). La nota tecnica spiega la definizione di ID errato, la posizione in cui vengono utilizzati gli ID errati nell’interfaccia di Customer Journey Analytics e come individuare la presenza di ID errati nei dati della connessione. |
 | Riprogettazione dell’anteprima dei set di dati in Connessioni | È stata aggiornata la documentazione per migliorare l&#39;esperienza di anteprima dei dati quando [aggiungi](/help/connections/create-connection.md#add-datasets) o [modifichi](/help/connections/create-connection.md#edit-a-dataset) set di dati in una connessione basata su persona, inclusa la documentazione su [informazioni di anteprima di unione](/help/stitching/use-stitching-ui.md#datasets-preview) aggiuntive per i set di dati abilitati per l&#39;unione. |
 | Miniature e anteprime Content Analytics | Documentazione su [miniature](/help/content-analytics/report/report.md#thumbnails) e [anteprime](/help/content-analytics/report/report.md#previews) per visualizzazioni aggiuntive in Content Analytics. |
@@ -337,7 +359,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Settembre 2021 | [Supporto per l’ora legale nella generazione rapporti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#calendar) |
 | Settembre 2021 | Documentazione sui [Calendari dei clienti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it#calendar) |
 | Settembre 2021 | Documentazione sui [campi booleani](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/behavior.html?lang=it) |
-| Settembre 2021 | Suddivisione delle impostazioni dei componenti nelle visualizzazioni dati in singoli file:<ul><li>[[!UICONTROL Panoramica delle impostazioni del componente]](/help/data-views/component-settings/overview.md)</li><li>[[!UICONTROL Impostazioni del componente Attribution]](/help/data-views/component-settings/attribution.md)</li><li>[[!UICONTROL Comportamento] impostazioni componente](/help/data-views/component-settings/behavior.md)</li><li>[[!UICONTROL Formatta] impostazioni componente](/help/data-views/component-settings/format.md)</li><li>[[!UICONTROL Includi/escludi] impostazioni componente](/help/data-views/component-settings/include-exclude-values.md)</li><li>[[!UICONTROL Impostazioni del componente di deduplicazione delle metriche]](/help/data-views/component-settings/metric-deduplication.md)</li><li>[[!UICONTROL Nessun valore] impostazioni componente](/help/data-views/component-settings/no-value-options.md)</li><li>[[!UICONTROL Impostazioni del componente Persistenza]](/help/data-views/component-settings/persistence.md)</li><li>[[!UICONTROL Impostazioni del componente ] nel bucket dei valori](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
+| Settembre 2021 | Suddivisione delle impostazioni dei componenti nelle visualizzazioni dati in singoli file:<ul><li>[[!UICONTROL Panoramica delle impostazioni del componente]](/help/data-views/component-settings/overview.md)</li><li>[[!UICONTROL Impostazioni del componente Attribution]](/help/data-views/component-settings/attribution.md)</li><li>[[!UICONTROL Comportamento] impostazioni componente](/help/data-views/component-settings/behavior.md)</li><li>[[!UICONTROL Formatta] impostazioni componente](/help/data-views/component-settings/format.md)</li><li>[[!UICONTROL Includi/escludi] impostazioni componente](/help/data-views/component-settings/include-exclude-values.md)</li><li>[[!UICONTROL Impostazioni del componente di deduplicazione delle metriche]](/help/data-views/component-settings/metric-deduplication.md)</li><li>[[!UICONTROL Nessun valore] impostazioni componente](/help/data-views/component-settings/no-value-options.md)</li><li>[[!UICONTROL Impostazioni del componente Persistenza]](/help/data-views/component-settings/persistence.md)</li><li>[[!UICONTROL Impostazioni del componente &#x200B;] nel bucket dei valori](/help/data-views/component-settings/value-bucketing.md)</li></ul> |
 | Settembre 2021 | Nuova sezione sulle [implicazioni dell’unione di suite di rapporti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#6.-considerations-when-merging-report-suites-in-cja) in Customer Journey Analytics. |
 | **Agosto 2021** | |
 | Agosto 2021 | Nuova sezione sull’esperienza avanzata [Connessioni](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=it) in Customer Journey Analytics. |
