@@ -6,31 +6,15 @@ exl-id: 6a934be7-0612-41ff-964e-77abc0b1efda
 solution: Customer Journey Analytics
 role: User
 TQID: https://experienceleague.adobe.com/5rXDQ-Ygp3TrEMbpK1UaUcRwSrc81VkUKauxth4-AUs
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: aff2ef09-fc60-4018-9197-e2befd623064
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: fa6ac035-8403-478b-9ce1-3fe29d211fca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e634a07b-b7ca-4af3-a124-3024ce559e17
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: fa6ac035-8403-478b-9ce1-3fe29d211fca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
 source-wordcount: 4356
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -69,8 +53,8 @@ Le preferenze generali si applicano all’esperienza Customer Journey Analytics 
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
->title="Richiedere l’autenticazione Experience Cloud"
->abstract="Quando questa opzione è abilitata, gli utenti a cui viene dato accesso a un progetto dall’opzione **[!UICONTROL Condividi con chiunque]** in Analysis Workspace devono eseguire l’autenticazione utilizzando le credenziali di Experience Cloud."
+>title="Richiedi autenticazione CX Enterprise"
+>abstract="Se questa opzione è abilitata, gli utenti a cui viene concesso l&#39;accesso a un progetto dall&#39;opzione **[!UICONTROL Condividi con chiunque]** in Analysis Workspace devono eseguire l&#39;autenticazione utilizzando le credenziali CX Enterprise."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
@@ -86,7 +70,7 @@ Puoi aggiornare le preferenze aziendali che si applicano a tutti gli utenti e ai
 |  | Nascondi scheda Modelli | Nasconde la scheda Modelli per tutti gli utenti dell’organizzazione. |
 | **Condivisione dei progetti** | | |
 | | Consenti la condivisione solo con gli utenti di Workspace | Se questa opzione è abilitata, gli utenti dell&#39;organizzazione non potranno visualizzare l&#39;opzione **[!UICONTROL Condividi con altri utenti]** nel menu **[!UICONTROL Condividi]**. Ciò significa che gli utenti non possono condividere i progetti con persone che non dispongono di un account Analysis Workspace nell’organizzazione come descritto in [Condividere un progetto con chiunque (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).<br/>Questa opzione è disabilitata per impostazione predefinita per tutte le organizzazioni (gli utenti possono condividere i progetti con persone esterne all’organizzazione), ad eccezione della clientela che dispone di una licenza Healthcare Shield. <p>Quando abiliti o disabiliti questa opzione, prendi in considerazione quanto segue:<ul><li>Quando abiliti questa opzione, gli utenti che in precedenza hanno ricevuto l&#39;accesso a un progetto tramite l&#39;opzione di condivisione [!UICONTROL Condividi con chiunque] non potranno più accedere al progetto.</li><li>Se questa opzione è abilitata (per consentire solo la condivisione con gli utenti di Workspace) e successivamente disabilitata (per consentire la condivisione con chiunque), gli utenti che in precedenza hanno ricevuto l&#39;accesso a un progetto tramite l&#39;opzione di condivisione [!UICONTROL Condividi con chiunque] non recuperano automaticamente l&#39;accesso al progetto. In questo caso, l&#39;utente che ha condiviso il progetto deve abilitare l&#39;opzione [!UICONTROL **Il collegamento è attivo**] disponibile quando condivide un progetto con qualcuno **([!UICONTROL Condividi]** > **[!UICONTROL Condividi con chiunque]**), come descritto in [Condividi un progetto con chiunque (non è richiesto l&#39;accesso)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividi progetti](/help/analysis-workspace/curate-share/share-projects.md).</li><li>**Per chi dispone di una licenza Healthcare Shield:** questa opzione è abilitata per impostazione predefinita e non può essere disabilitata. Prima di poter disabilitare questa opzione in modo che gli utenti possano utilizzare l&#39;opzione di condivisione [!UICONTROL Condividi con chiunque], devi innanzitutto aggiungere l&#39;autorizzazione [!UICONTROL Condividi i collegamenti del progetto con chiunque] (che si trova in [!UICONTROL Strumenti di reporting]) in Adobe Admin Console. Dopo aver aggiunto l’autorizzazione, puoi disabilitare questa opzione, quindi accettarne l’avviso legale. Per informazioni su come aggiungere un’autorizzazione in Admin Console, consulta [Gestione delle autorizzazioni del prodotto in Admin Console](https://helpx.adobe.com/it/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
-| | Richiedere l’autenticazione Experience Cloud | Quando questa opzione è abilitata, gli utenti a cui viene concesso l&#39;accesso a un progetto dall&#39;opzione **[!UICONTROL Condividi con chiunque]** in Analysis Workspace devono eseguire l&#39;autenticazione utilizzando le credenziali Experience Cloud.<p>Quando questa opzione è abilitata, ogni volta che un utente condivide un progetto utilizzando l&#39;opzione di condivisione [!UICONTROL Condividi con chiunque], l&#39;opzione [!UICONTROL Richiedi autenticazione Experience Cloud] è abilitata nella finestra di dialogo di condivisione e non può essere disabilitata dall&#39;utente che condivide il progetto. Per informazioni su come gli utenti possono condividere i progetti con chiunque, consulta [Condividere un progetto con chiunque (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).) <p> <p>Quando abiliti questa opzione, prendi in considerazione quanto segue: <ul><li>Quando abiliti questa opzione, vengono disattivati tutti i progetti precedentemente condivisi con l&#39;opzione di condivisione [!UICONTROL Condividi con altri] e per i quali non è abilitata l&#39;opzione [!UICONTROL Richiedi autenticazione Experience Cloud].<p>Se questa opzione è abilitata (per richiedere l&#39;autenticazione Experience Cloud) e successivamente disabilitata (per consentire a chiunque disponga del collegamento di accedere al progetto), gli utenti che in precedenza hanno ricevuto l&#39;accesso a un progetto tramite l&#39;opzione di condivisione [!UICONTROL Condividi con chiunque] non riacquistano automaticamente l&#39;accesso al progetto. In questo caso, l&#39;utente che ha condiviso il progetto deve abilitare l&#39;opzione [!UICONTROL Collegamento attivo] disponibile quando condivide un progetto con un utente **([!UICONTROL Condividi]** > **[!UICONTROL Condividi con un utente]** > **[!UICONTROL Il collegamento è attivo]**), come descritto in [Condividi un progetto con un utente (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividi progetti](/help/analysis-workspace/curate-share/share-projects.md).</li><li>Questa opzione è disponibile solo se SSO è implementato nell’organizzazione. Per informazioni su come gli amministratori di sistema possono abilitare SSO per l’organizzazione, consulta [Configurare identità e Single Sign-On](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html).</p><p>Se SSO è configurato per l’organizzazione, verifica se nella console è implementato qualsiasi tipo di creazione automatica dell’account. In genere, questa configurazione viene configurata da un amministratore di sistema, come descritto in [Abilitare la creazione automatica dell’account](https://helpx.adobe.com/it/enterprise/using/automatic-account-creation.html).</li><li>Se l’organizzazione dispone della licenza Healthcare Shield, questa opzione è abilitata per impostazione predefinita e non può essere disabilitata.</li></ul> |
+| | Richiedi autenticazione CX Enterprise | Quando questa opzione è abilitata, gli utenti a cui viene concesso l&#39;accesso a un progetto dall&#39;opzione **[!UICONTROL Condividi con chiunque]** in Analysis Workspace devono eseguire l&#39;autenticazione utilizzando le credenziali CX Enterprise.<p>Dopo l&#39;attivazione di questa opzione, ogni volta che un utente condivide un progetto utilizzando l&#39;opzione di condivisione [!UICONTROL Condividi con chiunque], l&#39;opzione [!UICONTROL Richiedi autenticazione CX Enterprise] è abilitata nella finestra di dialogo di condivisione e non può essere disabilitata dall&#39;utente che condivide il progetto. Per informazioni su come gli utenti possono condividere i progetti con chiunque, consulta [Condividere un progetto con chiunque (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividere progetti](/help/analysis-workspace/curate-share/share-projects.md).) <p> <p>Quando abiliti questa opzione, prendi in considerazione quanto segue: <ul><li>Quando si abilita questa opzione, tutti i progetti precedentemente condivisi con l&#39;opzione di condivisione [!UICONTROL Condividi con chiunque] e per i quali l&#39;opzione [!UICONTROL Richiedi autenticazione CX Enterprise] non è abilitata, verranno disattivati.<p>Se questa opzione è abilitata (per richiedere l&#39;autenticazione di CX Enterprise) e successivamente disabilitata (per consentire a chiunque disponga del collegamento di accedere al progetto), gli utenti che in precedenza hanno ricevuto l&#39;accesso a un progetto tramite l&#39;opzione di condivisione [!UICONTROL Condividi con chiunque] non recuperano automaticamente l&#39;accesso al progetto. In questo caso, l&#39;utente che ha condiviso il progetto deve abilitare l&#39;opzione [!UICONTROL Collegamento attivo] disponibile quando condivide un progetto con un utente **([!UICONTROL Condividi]** > **[!UICONTROL Condividi con un utente]** > **[!UICONTROL Il collegamento è attivo]**), come descritto in [Condividi un progetto con un utente (accesso non richiesto)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Condividi progetti](/help/analysis-workspace/curate-share/share-projects.md).</li><li>Questa opzione è disponibile solo se SSO è implementato nell’organizzazione. Per informazioni su come gli amministratori di sistema possono abilitare SSO per l’organizzazione, consulta [Configurare identità e Single Sign-On](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html).</p><p>Se SSO è configurato per l’organizzazione, verifica se nella console è implementato qualsiasi tipo di creazione automatica dell’account. In genere, questa configurazione viene configurata da un amministratore di sistema, come descritto in [Abilitare la creazione automatica dell’account](https://helpx.adobe.com/it/enterprise/using/automatic-account-creation.html).</li><li>Se l’organizzazione dispone della licenza Healthcare Shield, questa opzione è abilitata per impostazione predefinita e non può essere disabilitata.</li></ul> |
 | Commenti sul progetto | Consenti commenti sui progetti | Quando questa opzione è abilitata, nella barra a destra di ciascun progetto in Analysis Workspace è disponibile un’area commenti. <p>I proprietari dei progetti possono disabilitare l’area commenti per un determinato progetto, come descritto in [Creare progetti](/help/analysis-workspace/build-workspace-project/create-projects.md).</p> <p>Per ulteriori informazioni sui commenti nei progetti Analysis Workspace, consulta [Aggiungere e gestire i commenti nei progetti](/help/analysis-workspace/build-workspace-project/comment-projects.md).</p> |
 
 {style="table-layout:auto"}
@@ -115,7 +99,7 @@ Alcune di queste preferenze possono essere personalizzate anche per singoli prog
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/it/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -305,7 +289,7 @@ Questa azione non può essere annullata.
 
 Se preferisci uno sfondo scuro per l&#39;interfaccia utente di Customer Journey Analytics, puoi passare a [!UICONTROL Tema scuro].
 
-1. Seleziona l’icona utente Experience Cloud in alto a destra.
+1. Selezionare l&#39;icona utente di CX Enterprise in alto a destra.
 
    ![tema scuro](assets/dark-theme.png)
 
