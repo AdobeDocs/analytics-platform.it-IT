@@ -45,7 +45,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
 source-wordcount: 3109
 ht-degree: 99%
@@ -136,7 +136,7 @@ Nella tabella seguente sono elencate le funzioni disponibili in Customer Journey
 | **Generatore regole di classificazione** | Supportato utilizzando le [sottostringhe](/help/data-views/component-settings/substring.md) in Customer Journey Analytics. Invece dei set di dati di ricerca, vengono utilizzate manipolazioni delle stringhe al momento della generazione del rapporto. |
 | **Lunghezza della sessione personalizzata** | La lunghezza della sessione può essere configurata tramite le [Impostazioni sessione](../../data-views/create-dataview.md#session-settings) in una Visualizzazione dati. Per ulteriori informazioni, consulta le [Impostazioni sessione](../../data-views/session-settings.md). <br/>La gestione degli eventi in background per dispositivi mobili è supportata tramite Adobe Experience Platform Mobile SDK. Consulta [Ciclo di vita della rete Edge](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/) per ulteriori informazioni. |
 | **Conversione valuta** | Supportata come parte della [formattazione di un componente metrico](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-settings/format) in una visualizzazione dati. |
-| **Attributi cliente** | I set di dati profilo corrispondono all’attribuzione del cliente. I set di dati profilo non vengono importati automaticamente da Experience Cloud, ma devono essere caricati in Experience Platform prima di poter essere disponibili in Customer Journey Analytics. |
+| **Attributi cliente** | I set di dati profilo corrispondono all’attribuzione del cliente. I set di dati profilo non vengono importati automaticamente da CX Enterprise, ma devono essere caricati in Experience Platform prima di poter essere disponibili in Customer Journey Analytics. |
 | **Feed dati** | L’esportazione dei set di dati di prima generazione è disponibile tramite l’[API di accesso ai dati di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/data-access/api) e attraverso le [destinazioni di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets). Queste opzioni forniscono l’esportazione a livello di evento/riga di tutti i dati raccolti o acquisiti nel data lake di Experience Platform. Le colonne dei dati di post-elaborazione non sono disponibili perché le colonne post vengono calcolate in fase di query. L’esportazione delle colonne post è disponibile tramite il reporting. |
 | **Reporting di Data Warehouse** | L’[Esportazione tabella completa di Customer Journey Analytics](/help/analysis-workspace/export/export-cloud.md) è l’evoluzione dei rapporti Data Warehouse in Adobe Analytics, con molte nuove funzioni, spesso richieste, che oggi non sono disponibili in Data Warehouse. |
 | **Dimensioni e metriche per entrata, uscita e tempo trascorso** | Supportate (le entrate e le uscite sono ora denominate Inizio sessione e Fine sessione) e calcolate in modo leggermente diverso. |

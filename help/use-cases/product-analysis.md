@@ -25,7 +25,7 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
 source-wordcount: 894
 ht-degree: 3%
@@ -117,10 +117,10 @@ Le seguenti funzionalità di Customer Journey Analytics consentono di monitorare
 
 Gli approfondimenti forniscono valore solo quando guidano l&#39;azione. Converti i risultati delle analisi in azioni che migliorano l’esperienza utente e supportano la crescita dei prodotti a lungo termine.
 
-Le seguenti funzionalità di Experience Cloud consentono di agire in modo efficace sulle informazioni:
+Le seguenti funzionalità di CX Enterprise consentono di agire in modo efficace in base alle informazioni:
 
 * [Crea e pubblica tipi di pubblico](/help/components/audiences/publish.md)&#x200B; per l&#39;attivazione da Customer Journey Analytics
-* Attiva i tipi di pubblico tramite i prodotti Experience Cloud:
+* Attivare i tipi di pubblico tramite i prodotti CX Enterprise:
    * [Esegui esperimenti](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment) in AJO e Adobe Target e misura l&#39;impatto delle varianti in Customer Journey Analytics utilizzando il [pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md)
    * [Distribuisci impegni in-app](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/in-app/get-started-in-app) agli utenti in AJO
 * [Attiva tipi di pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activation-overview) in destinazioni esterne con Adobe Real-time CDP&#x200B;

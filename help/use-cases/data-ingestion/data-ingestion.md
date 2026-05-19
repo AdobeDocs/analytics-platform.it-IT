@@ -5,10 +5,10 @@ exl-id: 4a47c587-f48e-4e29-b97f-00c7d7e6972c
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 46d799ad2621d83906908a3f60a59a1027c6518c
+source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 89%
+source-wordcount: '827'
+ht-degree: 85%
 
 ---
 
@@ -29,12 +29,12 @@ Questo flusso di lavoro utilizza il connettore di origine di Analytics e varia a
 
 ## Inserire dati tramite SDK per Web di Adobe Experience Platform e la rete Edge
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) è una libreria JavaScript lato client che consente ai clienti di Adobe Experience Cloud di interagire con i vari servizi Experience Cloud tramite la rete Edge di Adobe Experience Platform.
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) è una libreria JavaScript lato client che consente ai clienti di Adobe CX Enterprise di interagire con i vari servizi di CX Enterprise tramite Adobe Experience Platform Edge Network.
 
-1. [Configura l&#39;estensione Adobe Experience Platform Web SDK nei tag](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it) per inviare dati a Adobe Experience Cloud dalle proprietà Web tramite Adobe Experience Platform Edge Network.
+1. [Configurare l&#39;estensione Adobe Experience Platform Web SDK nei tag](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it) per inviare dati a CX Enterprise dalle proprietà Web tramite Adobe Experience Platform Edge Network.
 1. Utilizza [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-getting-started.html?lang=it) per creare una o più [connessioni](/help/connections/create-connection.md) e [visualizzazioni dati](/help/data-views/data-views.md) necessarie per il reporting tra canali diversi.
 
-## Acquisire dati in modalità batch e in streaming
+## Acquisire dati in batch e in streaming
 
 Adobe Experience Platform riunisce dati provenienti da più origini per aiutare gli esperti di marketing a comprendere meglio il comportamento dei loro clienti. L’acquisizione dei dati di Adobe Experience Platform comprende sia i diversi metodi utilizzati da Platform per acquisire i dati da tali sorgenti, sia il modo in cui i dati vengono memorizzati nel data lake per poter essere utilizzati dai servizi Platform a valle.
 

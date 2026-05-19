@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
 workflow-type: tm+mt
 source-wordcount: 720
-ht-degree: 65%
+ht-degree: 61%
 
 ---
 
@@ -34,7 +34,7 @@ In alcuni casi, gli utenti direzionali potrebbero aver bisogno di ulteriore assi
 
 ## Assicurarsi che gli utenti dell’app abbiano accesso ad Adobe Analytics
 
-1. Imposta i nuovi utenti in [Admin Console di Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=it).
+1. Configurare nuovi utenti in [CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=it).
 
 1. Per poter condividere le scorecard, devi concedere agli utenti dell’app le autorizzazioni di accesso ai componenti delle scorecard come Analysis Workspace, alle visualizzazioni dati su cui sono basate le scorecard, nonché ai segmenti, alle metriche e alle dimensioni.
 
@@ -75,7 +75,7 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
 
    Viene visualizzata la schermata **[!UICONTROL Scegli un&#39;azienda]**. Questa schermata elenca le aziende di accesso a cui appartiene l’utente direzionale.
 
-1. Chiedi loro di toccare il nome dell’azienda o dell’organizzazione Experience Cloud applicabile alla scorecard condivisa.
+1. Chiedi loro di toccare il nome della società di accesso o dell’organizzazione CX Enterprise applicabile alla scorecard condivisa.
 
    Vengono quindi elencate tutte le scorecard che sono state condivise con l’utente direzionale per l’azienda con cui è stato eseguito l’accesso.
 

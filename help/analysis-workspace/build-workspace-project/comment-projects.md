@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
-source-wordcount: 1900
+source-wordcount: 1898
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ La funzione di commento in Analysis Workspace semplifica la collaborazione con a
 
 Quando si utilizza il simbolo @ per includere le persone in un commento, tenere presente quanto segue:
 
-* Le persone incluse ricevono le notifiche in base alle impostazioni di notifica di Adobe Experience Cloud.
+* Le persone incluse ricevono le notifiche in base alle impostazioni di notifica CX Enterprise.
 
   Per ulteriori informazioni, vedere [Ricevere notifiche sui commenti](#receive-notifications-about-comments).
 
@@ -160,9 +160,9 @@ Per includere un&#39;altra persona nel commento:
 
 ## Ricevi notifiche sui commenti
 
-I proprietari del progetto e [le persone specifiche menzionate](#include-others-in-a-comment) ricevono le notifiche in base alle impostazioni di notifica di Adobe Experience Cloud. Per impostazione predefinita, ricevono una notifica in-app, visibile dall&#39;[icona di notifica Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#view-notifications) ![icona di notifica Experience Cloud](assets/experience-cloud-notification.svg) in Customer Journey Analytics.
+I proprietari del progetto e [le persone specifiche menzionate](#include-others-in-a-comment) ricevono le notifiche in base alle impostazioni di notifica dell&#39;organizzazione CX. Per impostazione predefinita, ricevono una notifica in-app, visibile dall&#39;[icona di notifica CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#view-notifications) ![icona di notifica CX Enterprise](assets/experience-cloud-notification.svg) in Customer Journey Analytics.
 
-Inoltre, gli utenti possono configurare le proprie impostazioni di notifica di Experience Cloud per ricevere notifiche e-mail e notifiche Slack [abbonandosi alle notifiche e-mail](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) e [abbonandosi alle notifiche Slack](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#slack).
+Inoltre, gli utenti possono configurare le impostazioni di notifica CX Enterprise per ricevere notifiche e-mail e Slack mediante [abbonamento a notifiche e-mail](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) e [abbonamento a notifiche Slack](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#slack).
 
 ## Inserisci un badge per un commento esistente
 

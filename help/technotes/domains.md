@@ -12,10 +12,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
-source-wordcount: 170
-ht-degree: 3%
+source-wordcount: 163
+ht-degree: 1%
 
 ---
 
@@ -35,12 +35,12 @@ Alcune configurazioni del firewall bloccano i domini su cui Customer Journey Ana
 
 {style="table-layout:auto"}
 
-## Domini di Adobe Experience Cloud
+## Domini aziendali CX
 
-Oltre ai domini di cui sopra, Adobe Experience Cloud si basa su diversi domini per la raccolta dei dati e l’esportazione dei rapporti. Vedere [Domini utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/domains) per questo elenco di domini.
+Oltre ai domini di cui sopra, CX Enterprise si basa su diversi domini per la raccolta dei dati e l&#39;esportazione dei report. Per l&#39;elenco dei domini, vedere [Domini utilizzati da CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/domains).
 
 >[!MORELIKETHIS]
 >
 >[Indirizzi IP utilizzati da Customer Journey Analytics](ip-addresses.md)
 >
->[Domini utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/domains)
+>[Domini utilizzati da CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/domains)

@@ -26,10 +26,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
-source-wordcount: 2185
-ht-degree: 78%
+source-wordcount: 2181
+ht-degree: 72%
 
 ---
 
@@ -80,9 +80,9 @@ Puoi condividere un ruolo specifico con utenti o gruppi, oppure un collegamento.
 
 Quando condividi un ruolo di progetto specifico con utenti e gruppi dell’organizzazione, considera quanto segue:
 
-* I ruoli del progetto (**[!UICONTROL Modifica originale]**, **[!UICONTROL Modifica copia]** e **[!UICONTROL Sola lettura]**) sono collegati all’utente e all’ID specifico del progetto. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite in [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/admin-getting-started).
+* I ruoli del progetto (**[!UICONTROL Modifica originale]**, **[!UICONTROL Modifica copia]** e **[!UICONTROL Sola lettura]**) sono collegati all’utente e all’ID specifico del progetto. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite in [CX Enterprise Admin Console](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/admin-getting-started).
 
-* In Customer Journey Analytics, i gruppi sono definiti dai profili di prodotto in [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/admin-getting-started). Gli amministratori possono condividere con qualsiasi gruppo, incluso *Tutti*. I non amministratori possono condividere con i gruppi di cui sono membri, ad eccezione di *Tutti*.
+* In Customer Journey Analytics, i gruppi sono definiti dai profili di prodotto in [CX Enterprise Admin Console](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/admin-getting-started). Gli amministratori possono condividere con qualsiasi gruppo, incluso *Tutti*. I non amministratori possono condividere con i gruppi di cui sono membri, ad eccezione di *Tutti*.
 
 * Un utente inserito in più ruoli, avrà sempre l’esperienza di livello più elevato. Questo scenario potrebbe verificarsi se un utente viene aggiunto sia come singolo utente che come parte di un gruppo. Ad esempio, se a un utente viene assegnato il ruolo **[!UICONTROL Modifica originale]** come singolo utente e il ruolo **[!UICONTROL Sola lettura]** come membro di un gruppo, l&#39;utente riceve un&#39;esperienza di progetto **[!UICONTROL Modifica originale]**.
 
@@ -152,8 +152,8 @@ Per condividere il collegamento del progetto con gli utenti dell’organizzazion
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="Richiedere l’autenticazione Experience Cloud"
->abstract="La tua organizzazione richiede che gli utenti abbiano effettuato l’accesso ad Experience Cloud per utilizzare questo collegamento."
+>title="Richiedi autenticazione CX Enterprise"
+>abstract="Per utilizzare questo collegamento, la tua organizzazione richiede agli utenti di accedere a CX Enterprise."
 
 
 Puoi consentire l’[accesso in sola lettura](/help/analysis-workspace/curate-share/view-only-projects.md) ai progetti di Analysis Workspace a coloro che non hanno accesso a Customer Journey Analytics. Questo accesso concesso può includere:
@@ -176,7 +176,7 @@ Puoi consentire l’[accesso in sola lettura](/help/analysis-workspace/curate-sh
 >
 >* Un progetto potrebbe diventare inaccessibile se molti utenti tentano di accedere contemporaneamente a un determinato collegamento. Per impostazione predefinita, più di 190 persone possono accedere a un singolo collegamento ogni 5 minuti. Se l’organizzazione raggiunge questo limite, attendi 5 minuti e prova di nuovo ad accedere al collegamento.
 >
->* Per entrambe le licenze [!DNL Healthcare Shield] e [!DNL Privacy & Security Shield], la funzionalità [!UICONTROL Condividi con chiunque] richiede l&#39;autenticazione Experience Cloud. Per chi usa [!DNL Healthcare Shield], viene visualizzato un avviso di “conformità HIPAA”, ma è comunque possibile utilizzare questa funzione dopo l’autenticazione in Experience Cloud.
+>* Per entrambe le licenze [!DNL Healthcare Shield] e [!DNL Privacy & Security Shield], la funzionalità [!UICONTROL Condividi con chiunque] richiede l&#39;autenticazione CX Enterprise. Per i clienti [!DNL Healthcare Shield], viene visualizzato un avviso di &quot;conformità HIPAA&quot;, ma è comunque possibile utilizzare questa funzione dopo l&#39;autenticazione a CX Enterprise.
 
 >[!BEGINSHADEBOX]
 
@@ -203,15 +203,15 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
 1. Scegli se abilitare la seguente opzione di sicurezza (questa opzione può essere controllata dall’amministratore di Customer Journey Analytics):
 
-   * **[!UICONTROL Richiedi autenticazione Experience Cloud]:**
+   * **[!UICONTROL Richiedi autenticazione CX Enterprise]:**
 
-     Quando questa opzione è abilitata, gli unici utenti che possono accedere al progetto sono quelli che possono accedere all’organizzazione Adobe Experience Cloud in cui è stato creato il progetto condiviso. Tuttavia, gli utenti con cui condividi non hanno bisogno di avere l’accesso ad Adobe Analytics.
+     Quando questa opzione è attivata, gli unici utenti che possono accedere al progetto sono quelli che possono accedere all&#39;organizzazione CX Enterprise in cui è stato creato il progetto condiviso. Tuttavia, gli utenti con cui condividi non hanno bisogno di avere l’accesso ad Adobe Analytics.
 
      Gli amministratori di Customer Journey Analytics possono configurare questa preferenza per l’azienda, come descritto in [Preferenze](/help/analysis-workspace/user-preferences.md). A seconda della configurazione di questa opzione da parte dell’amministratore, potrebbero verificarsi gli scenari seguenti:
 
       * Se questa opzione non è visibile, l’amministratore di Customer Journey Analytics non ha abilitato questa funzione.
 
-      * Se questa opzione è abilitata e non puoi disabilitarla, l’opzione bloccata significa che l’amministratore di Customer Journey Analytics richiede l’autenticazione di Experience Cloud per tutti coloro che accedono ai progetti Analysis Workspace. Questo è sempre il caso delle organizzazioni che dispongono della licenza Healthcare Shield.
+      * Se questa opzione è abilitata e non è possibile disabilitarla, significa che l’amministratore di Customer Journey Analytics richiede l’autenticazione CX Enterprise per tutti coloro che accedono ai progetti Analysis Workspace. Questo è sempre il caso delle organizzazioni che dispongono della licenza Healthcare Shield.
 
 1. Accanto al campo **[!UICONTROL Condividi con chiunque (accesso non richiesto)]**, seleziona ![Collegamento](/help/assets/icons/Link.svg) per copiare il collegamento negli Appunti di sistema.
 

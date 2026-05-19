@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 11f60dbdd2858f173896a131c08229e0c7f29a69
+source-git-commit: 373deaea2b7d73484a3983bde490a86e950c2c0e
 workflow-type: tm+mt
-source-wordcount: 819
+source-wordcount: 818
 ht-degree: 45%
 
 ---
@@ -77,5 +77,5 @@ Queste note sulla versione coprono il periodo di rilascio di maggio 2026. I rila
 * [Note sulle versioni precedenti di Customer Journey Analytics per il 2025](/help/release-notes/2025.md)
 * [Note sulla versione di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=it)
 * [Note sulla versione di Streaming Media Collection](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=it)
-* [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)
+* [Note sulla versione di CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)
 * [Aggiornamenti della documentazione di Customer Journey Analytics](/help/release-notes/doc-changes.md)
