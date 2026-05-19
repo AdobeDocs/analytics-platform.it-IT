@@ -44,10 +44,10 @@ Alcune configurazioni del firewall bloccano i domini su cui Customer Journey Ana
 
 ## Domini aziendali CX
 
-Oltre ai domini di cui sopra, CX Enterprise si basa su diversi domini per la raccolta dei dati e l&#39;esportazione dei report. Per l&#39;elenco dei domini, vedere [Domini utilizzati da CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains).
+Oltre ai domini di cui sopra, CX Enterprise si basa su diversi domini per la raccolta dei dati e l&#39;esportazione dei report. Per l&#39;elenco dei domini, vedere [Domini utilizzati da CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/domains).
 
 >[!MORELIKETHIS]
 >
 >[Indirizzi IP utilizzati da Customer Journey Analytics](ip-addresses.md)
 >
->[Domini utilizzati da CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
+>[Domini utilizzati da CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/domains)

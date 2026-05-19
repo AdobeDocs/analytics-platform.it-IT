@@ -70,7 +70,7 @@ I seguenti parametri regolano l’accesso alla funzione dell’Assistente IA:
 
 * **Accesso contrattuale**: se non puoi utilizzare l’Assistente IA, contatta l’amministratore della tua organizzazione o il rappresentante dell’account Adobe. Prima che la tua organizzazione possa utilizzare l’Assistente IA, è necessario accettare alcuni termini legali relativi a GenAI.
 
-* **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Assistente AI: conoscenza del prodotto]** determina l&#39;accesso a questo strumento. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console]:
+* **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Assistente AI: conoscenza del prodotto]** determina l&#39;accesso a questo strumento. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve seguire questi passaggi in [!UICONTROL Admin Console]:
    1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti e servizi]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Profili di prodotto]**
    1. Selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso all&#39;[!UICONTROL Assistente AI: conoscenza del prodotto].
    1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Autorizzazioni]**.
