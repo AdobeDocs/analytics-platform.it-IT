@@ -7,27 +7,15 @@ exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
 TQID: https://experienceleague.adobe.com/mzyzOOuWJ1gOiLnUGvjQGrxysdoAMFm2RrXYQutiMT8
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5771edbe491ceeeaf487dd5eeb2ffb67ef880f96
 workflow-type: tm+mt
-source-wordcount: 1526
-ht-degree: 99%
+source-wordcount: 1530
+ht-degree: 97%
 
 ---
 
@@ -159,7 +147,7 @@ Sincronizza le visualizzazioni per controllare quale tabella dati oppure origine
 
 Per iniziare a utilizzare Analysis Workspace:
 
-1. Accedi ad [Adobe Experience Cloud](https://experience.adobe.com).
+1. Accedi a [Adobe CX Enterprise](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
 1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal selettore di app ![App](/help/assets/icons/Apps.svg) in alto a destra nell’interfaccia.
 1. La pagina **[!UICONTROL Progetti]** di Analysis Workspace viene visualizzata per impostazione predefinita. Se è stato selezionato per un progetto specifico o hai lavorato sul progetto di recente, questo viene mostrato per impostazione predefinita.
 
@@ -181,5 +169,5 @@ Una volta che il progetto è stato completato e sta raccogliendo informazioni ap
 
 - La pagina di destinazione [Apprendimento](/help/getting-started/landing.md#learning) in Customer Journey Analytics. Questa pagina è un ottimo modo per acquisire familiarità con Analysis Workspace. In particolare la parte Apprendimento delle nozioni di base di Workspace. Questo modello spiega la terminologia e i passaggi comuni per la realizzazione della prima analisi in Workspace
 - Adobe offre centinaia di [tutorial di formazione video per Analytics](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/overview).
-- Per aggiornamenti sulle nuove funzioni, consulta [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/release-notes/experience-cloud/current).
+- Per aggiornamenti sulle nuove funzioni, consulta le [note sulla versione di CX Enterprise](https://experienceleague.adobe.com/it/docs/release-notes/experience-cloud/current).
 
