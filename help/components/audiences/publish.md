@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 2478
 ht-degree: 84%
@@ -153,7 +153,7 @@ Quando si utilizzano tipi di pubblico pubblicati da Customer Journey Analytics a
 
 In diversi intervalli precedenti, durante e dopo la pubblicazione del pubblico, possono verificarsi alcune latenze. Ecco una panoramica delle latenze che possono verificarsi.
 
-![Latenze nella pubblicazione del pubblico come descritto in questa sezione.](assets/latency-diagram.svg)
+![Latenze nella pubblicazione del pubblico come descritto in questa sezione.](assets/latency-diagram.png)
 
 |  | Punto di latenza | Durata della latenza |
 | --- | --- | --- |

@@ -19,10 +19,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: 776
-ht-degree: 76%
+source-wordcount: 780
+ht-degree: 75%
 
 ---
 
@@ -33,10 +33,9 @@ Questo articolo illustra, ad alto livello, come configurare Content Analytics.
 
 Prima di configurare Content Analytics, è necessario verificare che i [prerequisiti](#prerequisites) siano soddisfatti, che di disporre del [controllo degli accessi](#access-control) richiesto e conoscendone le [limitazioni](#limitations).
 
+I passaggi per configurare Content Analytics sono i seguenti:
 
-Passaggi di alto livello
-
-![Configurazione di Content Analytics](../assets/aca-configuration.svg){zoomable="yes"}
+![Configurazione di Content Analytics](../assets/aca-configuration.png){zoomable="yes"}
 
 1. Utilizza la [configurazione guidata](guided.md) di Content Analytics per eseguire tutti i passaggi necessari per impostare i prerequisiti per una configurazione di Content Analytics. Puoi salvare le configurazioni in qualsiasi momento e tornare in seguito.
 1. Una volta che hai acquisito dimestichezza con i valori di configurazione, puoi procedere con l’implementazione. Questa implementazione crea tutti gli artefatti richiesti, in base a ciò che hai configurato nella procedura guidata.

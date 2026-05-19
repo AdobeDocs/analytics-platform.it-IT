@@ -23,7 +23,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 1485
 ht-degree: 2%
@@ -55,7 +55,7 @@ Customer Journey Analytics si basa sul concetto di tre contenitori: Persona, Ses
 
 È possibile ridefinire il modo in cui questi contenitori vengono denominati quando si configura una visualizzazione dati, ma la gerarchia e le relazioni tra i contenitori sono predeterminate. Il contenitore Sessione viene generato in base alla modalità di definizione di una sessione nelle [Impostazioni sessione](/help/data-views/session-settings.md) nella visualizzazione dati.
 
-![B2C](assets/b2c-containers.svg){zoomable="yes"}
+![B2C](assets/b2c-containers.png){zoomable="yes"}
 
 
 ### Contenitori B2B
@@ -64,7 +64,7 @@ In Customer Journey Analytics B2B edition, all’elenco dei contenitori generati
 
 La gerarchia e le relazioni tra i contenitori sono predeterminate. Opportunità, Gruppo di acquisto e Persona sono tutti contenitori di pari livello del contenitore Account. In questa gerarchia il contenitore Sessione tra il contenitore Persona e il contenitore Evento viene generato in base alla modalità di definizione di una sessione nelle [Impostazioni sessione](/help/data-views/session-settings.md) nella visualizzazione dati. Contenitori di sessioni aggiuntivi, ad esempio tra il contenitore Account e il contenitore Evento, non sono attualmente generati e supportati. Consulta la tabella seguente per una descrizione e un utilizzo di base dei contenitori B2B.
 
-![B2B](assets/b2b-containers.svg){zoomable="yes"}
+![B2B](assets/b2b-containers.png){zoomable="yes"}
 
 | Contenitore B2B | Descrizione<br/>Caso d&#39;uso di base |
 |---|---|
@@ -109,7 +109,7 @@ Il B2B di Customer Journey Analytics distingue tra i seguenti tipi di dati e set
 
 Esempio di connessione basata su account in Customer Journey Analytics B2B edition:
 
-![Esempio di connessione basata sull&#39;account](assets/b2b-datasets.svg)
+![Esempio di connessione basata sull&#39;account](assets/b2b-datasets.png)
 
 Customer Journey Analytics B2B edition offre l&#39;interfaccia [Connection Map](/help/connections/create-connection.md#connection-map) per fornire una panoramica delle relazioni tra i set di dati presenti nella connessione.
 

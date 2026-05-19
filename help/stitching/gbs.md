@@ -15,7 +15,7 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 1899
 ht-degree: 70%
@@ -29,7 +29,7 @@ Nell’unione basata su grafico, specifica un set di dati evento, l’ID persist
 Se non è possibile recuperare le informazioni sull&#39;ID persona per un evento, viene utilizzato l&#39;ID persistente per l&#39;evento *unstitched*. Di conseguenza, in una [visualizzazione dati](/help/data-views/data-views.md) associata a una [connessione](/help/connections/overview.md) che contiene il set di dati abilitato per l&#39;unione, il componente della visualizzazione dati ID persona contiene il valore ID persona o il valore ID persistente a livello di evento.
 
 
-![Unione delle identità basata su grafo](/help/stitching/assets/gbs.svg)
+![Unione delle identità basata su grafo](/help/stitching/assets/gbs.png)
 
 ## IdentityMap
 
@@ -122,7 +122,7 @@ I dati che superano l’intervallo di lookback non vengono ripetuti. Affinché u
 
 Prendi in considerazione i due aggiornamenti del grafo identità seguenti nel tempo per il visitatore A (con ID persistente `246`) e il visitatore B (con ID persistente `3579`) e come questi aggiornamenti influiscono sull&#39;unione delle identità basata su grafo.
 
-![Grafo identità 3579](assets/identity-graphs.svg)
+![Grafo identità 3579](assets/identity-graphs.png)
 
 Puoi visualizzare un grafo identità nel tempo per un profilo specifico utilizzando il [Visualizzatore del grafo identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-viewer). Consulta anche [Logica di collegamento di Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-linking-logic) per comprendere meglio la logica utilizzata durante il collegamento delle identità.
 
@@ -134,10 +134,10 @@ L’unione delle identità live tenta di unire ogni evento, al momento della rac
 
 | | Ora | ID persistente<br/>`ECID` | Spazio dei nomi<br/>`Email` ![DataMapping](/help/assets/icons/DataMapping.svg) | ID risultante (dopo unione live) |
 |--:|---|---|---|---|
-| 1 | 12/05/2023 11:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) *non definito* | `246` |
+| 1 | 12/05/2023 11:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) *non definito* | `246` |
 | 2 | 12/05/2023 14:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
 | 3 | 12/05/2023 15:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 4 | 12/05/2023 17:00 | `3579` | `3579` ![Branch1](/help/assets/icons/Branch1.svg) *non definito* | `3579` |
+| 4 | 12/05/2023 17:00 | `3579` | `3579` ![Branch1](/help/assets/icons/Branch1.svg) *non definito* | `3579` |
 | 5 | 12/05/2023 19:00 | `3579` | `3579` ![Branch1](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `ted.w@gmail.com` |
 | 6 | 13/05/2023 15:00 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
 | 7 | 13/05/2023 16:30 | `246` | `246` ![Branch1](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![Branch1](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` |

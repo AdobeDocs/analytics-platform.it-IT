@@ -14,7 +14,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 154
 ht-degree: 33%
@@ -31,7 +31,7 @@ Questo articolo illustra come utilizzare [!DNL Customer Journey Analytics BI ext
 
 L&#39;esportazione di dati tramite [!DNL Customer Journey Analytics BI extension] consente di esportare dati dalle visualizzazioni dati di Customer Journey Analytics.
 
-![Estensione BI](../assets/bi-extension.svg)
+![Estensione BI](../assets/bi-extension.png)
 
 ## Ulteriori informazioni
 

@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 1417
 ht-degree: 8%
@@ -60,7 +60,7 @@ La relazione tra gli schemi di ricerca B2B, lo schema di profilo e lo schema eve
 
 Per garantire una configurazione corretta di una connessione che supporta le ricerche basate su persone dei dati B2B, utilizza la seguente illustrazione per una panoramica e segui questi passaggi:
 
-![Schemi B2B con annotazioni](assets/b2b-schemas-annotated.svg)
+![Schemi B2B con annotazioni](assets/b2b-schemas-annotated.png)
 
 1. Aggiungi alla connessione i set di dati della tabella precedente.
 1. Per ogni set di dati di ricerca aggiunto alla connessione, è necessario definire esplicitamente la relazione con un set di dati evento utilizzando **[!UICONTROL Key]** e **[!UICONTROL Matching key]** nella finestra di dialogo **[!UICONTROL Edit dataset]**.

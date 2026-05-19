@@ -15,7 +15,7 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 1902
 ht-degree: 82%
@@ -30,14 +30,14 @@ Se non è possibile recuperare le informazioni sull&#39;ID persona per un evento
 
 È possibile utilizzare l’unione basata sui campi quando si utilizza Customer Journey Analytics come soluzione indipendente (senza avere accesso al servizio Experience Platform Identity e al grafo delle identità associato). Oppure, quando non desideri utilizzare il grafo identità disponibile.
 
-![Unione delle identità basata sui campi](/help/stitching/assets/fbs.svg)
+![Unione delle identità basata sui campi](/help/stitching/assets/fbs.png)
 
 
 ## IdentityMap
 
 L&#39;unione delle identità basata sui campi supporta l&#39;utilizzo del [`identityMap`gruppo di campi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
 
-- Utilizzo dell&#39;identità primaria negli spazi dei nomi `identityMap` per definire il persistentID:
+- Utilizzo dell’identità primaria negli spazi dei nomi `identityMap` per definire l’ID persistente:
    - Se più identità primarie si trovano in spazi dei nomi diversi, le identità negli spazi dei nomi vengono ordinate lessicograficamente e la prima identità viene selezionata.
    - Se più identità primarie si trovano all’interno di un singolo spazio dei nomi, viene selezionata la prima identità primaria lessicografica disponibile.
 

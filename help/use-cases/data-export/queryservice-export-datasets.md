@@ -20,7 +20,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 3355
 ht-degree: 4%
@@ -45,7 +45,7 @@ L’esportazione dei dati tramite Query Service (Data Distiller) e l’esportazi
 - definizione di una **query pianificata** che genera i dati per il feed dati come set di dati di output ![set di dati di output](../assets/output-dataset.svg), utilizzando **Query Service**.
 - definizione di un&#39;**esportazione pianificata del set di dati** che esporta il set di dati di output in una destinazione di archiviazione cloud, utilizzando **esportazione del set di dati**.
 
-![Feed dati](../assets/queryservice-export-datasets.svg)
+![Feed dati](../assets/queryservice-export-datasets.png)
 
 
 ## Prerequisiti

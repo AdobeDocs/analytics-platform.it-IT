@@ -12,7 +12,7 @@ feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 116
 ht-degree: 6%
@@ -30,7 +30,7 @@ Questo articolo illustra come utilizzare [!DNL Customer Journey Analytics BI ext
 
 L&#39;esportazione di dati tramite [!DNL Customer Journey Analytics Full Table Export] consente di esportare dati dalle tabelle a forma libera in Customer Journey Analytics Analysis Workspace.
 
-![Estensione BI](../assets/export-full-table.svg)
+![Estensione BI](../assets/export-full-table.png)
 
 ## Ulteriori informazioni
 
