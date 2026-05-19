@@ -6,15 +6,11 @@ feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
 TQID: https://experienceleague.adobe.com/Jj2ZXUQocZs5QtKkDhEuySQjf1oR01uae9vcy6U4jxg
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
 source-wordcount: 1129
 ht-degree: 100%
@@ -32,7 +28,7 @@ Esistono diverse opzioni per acquisire dati in Customer Journey Analytics. Alcun
 
 L’architettura di alto livello di Customer Journey Analytics è mostrata qui:
 
-![Architettura di Customer Journey Analytics](/help/getting-started/assets/cja-overview.svg)
+![Architettura di Customer Journey Analytics](/help/getting-started/assets/cja-overview.png)
 
 Questa architettura illustra come Customer Journey Analytics consente di:
 
@@ -123,5 +119,5 @@ Consulta [Acquisire e utilizzare dati ad hoc](./adhoc.md)
 
 >[!MORELIKETHIS]
 >
->Blog: [Informazioni più approfondite sull’elaborazione e l’acquisizione dei dati in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091?profile.language=it)
+>Blog: [Informazioni più approfondite sull’elaborazione e l’acquisizione dei dati in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
 
