@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: d122a415-fb22-48f7-9377-8349dba274e5
-TQID: https://experienceleague.adobe.com/HPvTvrapyxOEwxewBLNpLTRYZK-dfpfj1Y8rjJyL-IU
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+autotag-review: '2026-05-19T09:45:42.786Z'
+TQID: 'https://experienceleague.adobe.com/snwj7xbkzdBzHE073kpVyfNQ0iWxHBrxhm58NJOiwy8'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: f24857a4-4b64-4b25-b237-d43026362144
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 2021
 ht-degree: 9%
@@ -68,7 +68,7 @@ Nei casi d’uso, sostituisci questi oggetti di esempio con oggetti appropriati 
       1. Selezionare **[!UICONTROL OK]**.
    1. Nella finestra di dialogo **[!UICONTROL Database PostgreSQL]** - **[!UICONTROL Database]**:
       ![Utente e password di PowerBI Desktop](../assets/powerbi-userpassword.png)
-      1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare i valori **[!UICONTROL Nome utente]** e **[!UICONTROL Password]** dal pannello Experience Platform **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** nei campi **[!UICONTROL Nome utente]** e **[!UICONTROL Password]**. Se si utilizza una [credenziale senza scadenza](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect), utilizzare la password delle credenziali senza scadenza.
+      1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare i valori **[!UICONTROL Nome utente]** e **[!UICONTROL Password]** dal pannello Experience Platform **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** nei campi **[!UICONTROL Nome utente]** e **[!UICONTROL Password]**. Se si utilizza una [credenziale senza scadenza](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect), utilizzare la password delle credenziali senza scadenza.
       1. Verificare che il menu a discesa per **[!UICONTROL Selezionare il livello a cui applicare queste impostazioni]** sia impostato sul **[!UICONTROL server]** definito in precedenza.
       1. Seleziona **[!UICONTROL Connetti]**.
    1. Nella finestra di dialogo **[!UICONTROL Navigator]**, le visualizzazioni dati vengono recuperate. Questo recupero può richiedere del tempo. Una volta recuperato, in Power BI Desktop viene visualizzato quanto segue.
@@ -123,7 +123,7 @@ Power BI Desktop supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
       1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare il **[!UICONTROL Database]** dal pannello Experience Platform **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** nel **[!UICONTROL Database]**. Aggiungere `%3FFLATTEN` al valore incollato. Ad esempio: `prod:cja%3FFLATTEN`.
       1. Selezionare **[!UICONTROL Nome utente e password]** dal menu a discesa **[!UICONTROL Autenticazione]**.
       1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare il **[!UICONTROL Nome utente]** dal pannello **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** di Experience Platform nel **[!UICONTROL Nome utente]**.
-      1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare la **[!UICONTROL Password]** dal pannello **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** di Experience Platform nella **[!UICONTROL Password]**. Se si utilizza una [credenziale senza scadenza](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect), utilizzare la password delle credenziali senza scadenza.
+      1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare la **[!UICONTROL Password]** dal pannello **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** di Experience Platform nella **[!UICONTROL Password]**. Se si utilizza una [credenziale senza scadenza](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect), utilizzare la password delle credenziali senza scadenza.
       1. Verificare che sia selezionato **[!UICONTROL Richiedi SSL]**.
       1. Seleziona **[!UICONTROL Accedi]**.
 
@@ -349,7 +349,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 
 1. Avviare Studio.
 1. Crea un nuovo file Markdown R o scarica [questo file Markdown R di esempio](../assets/BI-Extension.Rmd.zip).
-1. Nel primo blocco immettere le istruzioni seguenti comprese tra ` ` ``{r} ` e ` `` ` `. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare i valori dal pannello **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** di Experience Platform nei valori richiesti per i vari parametri, come `host`, `dbname` e `user`. Ad esempio:
+1. Nel primo blocco immettere le istruzioni seguenti comprese tra ` ```{r} ` e ` ``` `. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare i valori dal pannello **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** di Experience Platform nei valori richiesti per i vari parametri, come `host`, `dbname` e `user`. Ad esempio:
 
    ```R
    library(rstudioapi)
@@ -370,7 +370,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 
    ![Passaggio di configurazione RStudio 1](../assets/rstudio-config-step1.png)
 
-1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ` `` {r} ` e ` `` ` `.
+1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ``` {r} ` e ` ``` `.
 
    ```R
    con <- dbConnect(
@@ -387,7 +387,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 1. Esegui il blocco. Se la connessione ha esito positivo, non verrà visualizzato alcun output.
 
 
-1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ` `` {r} ` e ` `` ` `.
+1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ``` {r} ` e ` ``` `.
 
    ```R
    views <- dbListTables(con)
@@ -397,7 +397,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 1. Esegui il blocco. Dovresti vedere `character(0)` come unico output.
 
 
-1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ` `` {r} ` e ` `` ` `.
+1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ``` {r} ` e ` ``` `.
 
    ```R
    glimpse(dv)

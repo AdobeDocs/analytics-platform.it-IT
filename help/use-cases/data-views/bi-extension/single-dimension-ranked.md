@@ -5,14 +5,14 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: e66ad7c4-0d49-41fe-a9fc-661fd31e8c68
-TQID: https://experienceleague.adobe.com/EVPmiuXJyxiWDVLZWyl2pbEla-1Icb4ONUwnNK-oZt4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+autotag-review: '2026-05-19T09:43:29.052Z'
+TQID: 'https://experienceleague.adobe.com/Sh1xJ0RXluNN0HlY2xlLVBs5-sahCwkcahQaThFCJpA'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: f24857a4-4b64-4b25-b237-d43026362144
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 1337
 ht-degree: 1%
@@ -186,7 +186,7 @@ Un esempio di **[!UICONTROL pannello con classificazione Dimension singola]** pe
    1. Selezionare la scheda **[!UICONTROL Serie]**.
    1. Scorri verso il basso per visualizzare **[!UICONTROL Acquisti]** e cambia **[!UICONTROL Tipo]** in **[!UICONTROL Riga]**.
    1. Selezionare la scheda **[!UICONTROL Y]**.
-   1. Trascina **[!UICONTROL Purchases]** dal contenitore **[!UICONTROL Left 1]** nel punto in cui si legge **[!UICONTROL *Trascina qui la serie per creare un nuovo asse sinistro *]**. Questa azione crea un contenitore&#x200B;**[!UICONTROL &#x200B; Left 2 &#x200B;]**.
+   1. Trascina **[!UICONTROL Purchases]** dal contenitore **[!UICONTROL Left 1]** nel punto in cui si legge **[!UICONTROL *Trascina qui la serie per creare un nuovo asse sinistro *]**. Questa azione crea un contenitore**[!UICONTROL  Left 2 ]**.
       ![Configurazione visualizzazione ricerca](../assets/uc5-looker-visualization.png)
    1. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) accanto a **[!UICONTROL Modifica]** per nascondere la finestra di dialogo a comparsa
 

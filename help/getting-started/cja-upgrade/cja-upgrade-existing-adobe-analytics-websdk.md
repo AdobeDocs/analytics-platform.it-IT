@@ -5,20 +5,14 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 1459a512-bfa8-4805-97e8-5b6acc6e4ac9
-TQID: https://experienceleague.adobe.com/Kv-jIN0GPIy-7285aKkLQT6R6l9lULtkFrSmr57w644
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
+autotag-review: '2026-05-19T08:14:03.113Z'
+TQID: 'https://experienceleague.adobe.com/pexrlZnVd2fHINcn6W3XC7el5jnCrDZ08c-TLgX1L4E'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 1050
 ht-degree: 63%
@@ -55,7 +49,7 @@ Considera i seguenti vantaggi e svantaggi della configurazione dell’implementa
 
 1. Inizia a inviare dati da Edge Network a Platform. Invia tutte le variabili in formato AppMeasurement tramite l’oggetto dati.
 
-   Per ulteriori informazioni, vedere [Mappatura della variabile dell&#39;oggetto dati in Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/data-var-mapping).
+   Per ulteriori informazioni, vedere [Mappatura della variabile dell&#39;oggetto dati in Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/data-var-mapping).
 
 1. Scegli lo schema.
 
@@ -81,6 +75,6 @@ Considera i seguenti vantaggi e svantaggi della configurazione dell’implementa
 
 1. Utilizza la mappatura dello stream di dati per mappare tutti i campi nell’oggetto dati sullo schema XDM.
 
-   Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
+   Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
 
 {{upgrade-final-step}}

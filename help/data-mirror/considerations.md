@@ -5,9 +5,16 @@ solution: Customer Journey Analytics
 feature: Basics
 role: Admin
 badgePremium: label="Beta"
-source-git-commit: 725ec404666d706801f06eb4ea46628b02506d59
+autotag-review: '2026-05-19T06:55:09.938Z'
+TQID: 'https://experienceleague.adobe.com/uZjXZUKUMeXLxxpTRrkCZrPsGhxseSxOtJ9X0ZjG5wU'
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: bfef374d-acfd-4c57-bf74-a2b36053c545id: e1471301-a189-438e-8d48-264a8db508a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: 832
 ht-degree: 1%
 
 ---
@@ -74,7 +81,7 @@ La differenza tra identità primaria e chiave primaria introduce un modello di r
 
 ## Differenze di governance
 
-In [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition) XDM e concetti sottostanti come [gruppi di campi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#field) definito all&#39;interno di un gruppo di campi propaga le etichette in tutti i set di dati in cui viene utilizzato il gruppo di campi. Ad esempio, un campo e-mail `emailID` in un gruppo di campi `identities`, è etichettato come lo stesso in tutti i set di dati in cui viene utilizzato il gruppo di campi `identities`.
+In [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition) XDM e concetti sottostanti come [gruppi di campi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field) definito all&#39;interno di un gruppo di campi propaga le etichette in tutti i set di dati in cui viene utilizzato il gruppo di campi. Ad esempio, un campo e-mail `emailID` in un gruppo di campi `identities`, è etichettato come lo stesso in tutti i set di dati in cui viene utilizzato il gruppo di campi `identities`.
 
 In uno schema relazionale, il nome di una colonna è indipendente. Una colonna denominata `email` nella tabella `customers` è indipendente e distinta da una colonna denominata `email` in una tabella `prospects`. Questo comportamento implica che le etichette (come le etichette di utilizzo DULE, i criteri) devono essere applicate singolarmente ai campi nei set di dati con mirroring. In base all&#39;esempio precedente, è necessario applicare etichette sia al campo `email` nel set di dati `customers` che al campo `email` nel set di dati `prospects`.
 
@@ -95,5 +102,5 @@ Gli schemi relazionali hanno le seguenti considerazioni in quanto si riferiscono
 
 Le considerazioni seguenti si applicano alle chiavi di sistema e ai campi:
 
-* Il descrittore della chiave primaria, del descrittore della versione e della marca temporale deve essere un campo di livello principale nello schema XDM relazionale. Utilizza [mappatura campi](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante l&#39;acquisizione per supportare questo requisito.
-* È possibile omettere i campi di origine appropriati durante la [fase di mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
+* Il descrittore della chiave primaria, del descrittore della versione e della marca temporale deve essere un campo di livello principale nello schema XDM relazionale. Utilizza [mappatura campi](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante l&#39;acquisizione per supportare questo requisito.
+* È possibile omettere i campi di origine appropriati durante la [fase di mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
