@@ -20,10 +20,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: ff99ee131e9bae9fc2815fb54e5b5c14577450f7
 workflow-type: tm+mt
-source-wordcount: 988
+source-wordcount: 994
 ht-degree: 2%
 
 ---
@@ -36,7 +35,7 @@ Senza l’unione degli account, qualsiasi evento che non contiene un ID account 
 
 >[!NOTE]
 >
->L’unione di account B2B richiede che la funzionalità sia disponibile nell’ambiente prima di poterla configurare.
+>L&#39;unione di account B2B richiede l&#39;accesso a [Customer Journey Analytics B2B edition](/help/getting-started/cja-b2b-edition.md) nell&#39;ambiente prima di poter configurare la funzionalità.
 
 L’unione di account esegue le seguenti operazioni sui set di dati:
 
