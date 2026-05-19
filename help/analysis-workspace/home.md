@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 5771edbe491ceeeaf487dd5eeb2ffb67ef880f96
 workflow-type: tm+mt
-source-wordcount: 1526
-ht-degree: 99%
+source-wordcount: 1530
+ht-degree: 97%
 
 ---
 
@@ -159,7 +159,7 @@ Sincronizza le visualizzazioni per controllare quale tabella dati oppure origine
 
 Per iniziare a utilizzare Analysis Workspace:
 
-1. Accedi ad [Adobe Experience Cloud](https://experience.adobe.com).
+1. Accedi a [Adobe CX Enterprise](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
 1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal selettore di app ![App](/help/assets/icons/Apps.svg) in alto a destra nell’interfaccia.
 1. La pagina **[!UICONTROL Progetti]** di Analysis Workspace viene visualizzata per impostazione predefinita. Se è stato selezionato per un progetto specifico o hai lavorato sul progetto di recente, questo viene mostrato per impostazione predefinita.
 
@@ -181,5 +181,5 @@ Una volta che il progetto è stato completato e sta raccogliendo informazioni ap
 
 - La pagina di destinazione [Apprendimento](/help/getting-started/landing.md#learning) in Customer Journey Analytics. Questa pagina è un ottimo modo per acquisire familiarità con Analysis Workspace. In particolare la parte Apprendimento delle nozioni di base di Workspace. Questo modello spiega la terminologia e i passaggi comuni per la realizzazione della prima analisi in Workspace
 - Adobe offre centinaia di [tutorial di formazione video per Analytics](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/overview).
-- Per aggiornamenti sulle nuove funzioni, consulta [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/release-notes/experience-cloud/current).
+- Per aggiornamenti sulle nuove funzioni, consulta le [note sulla versione di CX Enterprise](https://experienceleague.adobe.com/it/docs/release-notes/experience-cloud/current).
 

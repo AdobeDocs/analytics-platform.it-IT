@@ -14,9 +14,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 5771edbe491ceeeaf487dd5eeb2ffb67ef880f96
 workflow-type: tm+mt
-source-wordcount: 198
+source-wordcount: 196
 ht-degree: 1%
 
 ---
@@ -153,4 +153,4 @@ Questa pagina include gli indirizzi IP da aggiungere al inserisco nell&#39;elenc
 >
 >[Domini utilizzati da Customer Journey Analytics](domains.md)
 >
->[Indirizzi IP utilizzati da Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/ip-addresses)
+>[Indirizzi IP utilizzati da CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/ip-addresses)

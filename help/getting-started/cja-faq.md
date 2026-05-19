@@ -25,10 +25,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 5771edbe491ceeeaf487dd5eeb2ffb67ef880f96
 workflow-type: tm+mt
-source-wordcount: 2321
-ht-degree: 97%
+source-wordcount: 2320
+ht-degree: 95%
 
 ---
 
@@ -206,7 +206,7 @@ Se prevedi di acquisire dati Adobe Analytics tramite il [connettore di origine A
 
 ## &#x200B;8. [!UICONTROL Componenti Adobe Analytics]
 
-+++**Posso condividere/pubblicare [!UICONTROL tipi di pubblico] da [!DNL Customer Journey Analytics] a Experience Platform Real-Time CDP o altre applicazioni Experience Cloud?**
++++**Posso condividere/pubblicare [!UICONTROL tipi di pubblico] da [!DNL Customer Journey Analytics] ad Experience Platform Real-Time CDP o altre applicazioni CX Enterprise?**
 
 Puoi [creare e pubblicare i tipi di pubblico](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/audiences/publish) identificati in Customer Journey Analytics su Profilo cliente in tempo reale in Adobe Experience Platform per la personalizzazione e il targeting della clientela.
 
@@ -267,7 +267,7 @@ Ulteriori informazioni sulle [implicazioni dell&#39;eliminazione del set di dati
 
 ## &#x200B;12. Raccolta di dati per area geografica
 
-Adobe Experience Cloud utilizza la raccolta dati regionali (Regional Data Collection, RDC) in modo che le interazioni tra i visitatori e le soluzioni Adobe e non Adobe si verifichino il più vicino possibile ai visitatori. Una volta raccolti i dati a livello regionale in un centro di raccolta dati (Data Collection Center, DCC, noto anche come sito Edge, parte della rete Edge di Platform), questi vengono inoltrati tramite una connessione sicura alle soluzioni pertinenti in base alla configurazione dello stream di dati e/o all’inoltro eventi.
+Adobe CX Enterprise utilizza la raccolta dati regionali (Regional Data Collection, RDC) in modo che le interazioni tra i visitatori e le soluzioni Adobe e non Adobe si verifichino il più vicino possibile ai visitatori. Una volta raccolti i dati a livello regionale in un centro di raccolta dati (Data Collection Center, DCC, noto anche come sito Edge, parte della rete Edge di Platform), questi vengono inoltrati tramite una connessione sicura alle soluzioni pertinenti in base alla configurazione dello stream di dati e/o all’inoltro eventi.
 
 ![Flusso di dati con reti Edge](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
 
