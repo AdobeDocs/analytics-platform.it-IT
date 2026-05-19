@@ -4,9 +4,13 @@ title: Strategia di rilascio delle funzionalità di Customer Journey Analytics
 exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
 TQID: https://experienceleague.adobe.com/KTMrEfZBHkdpRHlEGj8s4hfAtlPPjAqQrh6mtS-yAWM
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
 source-wordcount: 402
@@ -32,7 +36,7 @@ Con ogni rilascio di funzioni, la timeline da RTP a GA può variare. L’obietti
 
 ## Flag di funzioni
 
-I flag di funzioni consentono di controllare la visibilità delle nuove funzioni durante la fase di rilascio. Adobe consiglia di consentire `app.launchdarkly.com` attraverso il firewall della tua organizzazione per un’esperienza ottimale durante i rilasci. Questi contrassegni vengono rimossi dopo che una funzionalità viene rilasciata a tutti. Consulta[ Domini utilizzati da Customer Journey Analytics](../technotes/domains.md) per maggiori informazioni.
+I flag di funzioni consentono di controllare la visibilità delle nuove funzioni durante la fase di rilascio. Adobe consiglia di consentire `app.launchdarkly.com` attraverso il firewall della tua organizzazione per un’esperienza ottimale durante i rilasci. Questi contrassegni vengono rimossi dopo che una funzionalità viene rilasciata a tutti. Consulta[&#x200B; Domini utilizzati da Customer Journey Analytics](../technotes/domains.md) per maggiori informazioni.
 
 Puoi visualizzare i flag di funzioni attivi in qualsiasi momento, da **Aiuto > Informazioni su Workspace > Flag di funzioni attivi**.
 
