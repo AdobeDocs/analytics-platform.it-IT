@@ -6,28 +6,12 @@ role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
 autotag-review: '2026-05-19T09:53:18.849Z'
 TQID: 'https://experienceleague.adobe.com/wZ8vtE4BFc1ahBKdblSEAXBofZBPObbSJi4bA9MtxPY'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bdc5b3671b5810419b13a42b0ba138f9dffc34cb
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 18fb93e93ec714e6a9d64010309eba0f2ff5593a
 workflow-type: tm+mt
 source-wordcount: 21144
 ht-degree: 98%
@@ -406,7 +390,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="Scopri quali sono i contenuti e gli attributi di contenuto con le migliori prestazioni."
->abstract="**Questo può aiutarti** a comprendere le prestazioni del contenuto a un livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici. Content Analytics utilizza l’intelligenza artificiale per generare automaticamente gli attributi e assegnarli ai contenuti tramite tag. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/content-analytics){target="_blank"}.<br/>**In base a ciò che hai appreso, potresti** fare diverse cose, come promuovere risorse ad alte prestazioni nella tua pagina Home, personalizzare il contenuto per segmenti specifici in modo da includere attributi ad alte prestazioni o sostituire il contenuto che ha iniziato a diventare obsoleto."
+>abstract="**Questo può aiutarti** a comprendere le prestazioni del contenuto a un livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici. Content Analytics utilizza l’intelligenza artificiale per generare automaticamente gli attributi e assegnarli ai contenuti tramite tag. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/content-analytics).<br/>**In base a ciò che hai appreso, potresti** fare diverse cose, come promuovere risorse ad alte prestazioni nella tua pagina Home, personalizzare il contenuto per segmenti specifici in modo da includere attributi ad alte prestazioni o sostituire il contenuto che ha iniziato a diventare obsoleto."
 
 
 Sono disponibili i modelli seguenti:
@@ -968,7 +952,7 @@ Sono disponibili i modelli seguenti:
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Minuto dell’ora**] | Visualizza il numero di eventi, sessioni e persone sul sito, suddivisi per minuto. Ad esempio, se disponi di un rapporto con un arco temporale di un singolo giorno, il primo minuto di ogni ora del giorno viene raggruppato nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio le tendenze a livello granulare.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio ottimizzare le risorse per le ore di punta, minuto per minuto.</p><p>Questo modello utilizza la dimensione Minuto dell’ora.</p> |
-| **Ora del giorno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per ora del giorno. Ad esempio, se disponi di un rapporto che copre il periodo dal 1° gennaio al 7 gennaio, la prima ora di ogni giorno viene raggruppata nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio l’ora del giorno in cui il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse di elaborazione al sito durante le ore con più traffico.</p><p>Questo modello utilizza la dimensione Ora del giorno.</p> |
+| **Ora del giorno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per ora del giorno. Ad esempio, se disponi di un rapporto che copre il periodo dal 1° gennaio al 7 gennaio, la prima ora di ogni giorno viene raggruppata nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio l’ora del giorno in cui il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse di elaborazione al sito durante le ore con traffico elevato.</p><p>Questo modello utilizza la dimensione Ora del giorno.</p> |
 | **AM/PM** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per ore AM e PM. Ad esempio, se disponi di un rapporto che copre il periodo dal 1° gennaio al 7 gennaio, le ore prima di mezzogiorno di ciascun giorno vengono raggruppate nello stesso elemento della dimensione.<p>**Questo può aiutarti** a comprendere meglio l’ora del giorno in cui il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse di elaborazione al sito durante le ore con più traffico.</p><p>Questo modello utilizza la dimensione AM/PM.</p> |
 | **Giorno della settimana** | Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno della settimana. Ad esempio, se disponi di un rapporto che copre il mese di gennaio, ogni giorno della settimana viene raggruppato nello stesso elemento della dimensione. <p>**Questo può aiutarti** a comprendere meglio quali giorni della settimana il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno della settimana.</p> |
 | **Giorno del mese** | Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno del mese. Ad esempio, se disponi di un rapporto che copre un intero anno, ogni giorno del mese viene raggruppato nello stesso elemento della dimensione. <p>**Questo può aiutarti** a comprendere meglio quali giorni di ogni mese il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno del mese.</p> |
