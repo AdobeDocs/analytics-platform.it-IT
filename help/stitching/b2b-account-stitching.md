@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ff99ee131e9bae9fc2815fb54e5b5c14577450f7
+source-git-commit: 5964c5f87364e5ba78e866d753819d7e7f605b30
 workflow-type: tm+mt
-source-wordcount: 994
+source-wordcount: 1169
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Senza l’unione degli account, qualsiasi evento che non contiene un ID account 
 
 L’unione di account esegue le seguenti operazioni sui set di dati:
 
-* **Elevare l&#39;identità della persona**: l&#39;ID persona in ogni evento è elevato allo spazio dei nomi dell&#39;identità desiderata utilizzando il grafico delle identità.
+* **Elevare l&#39;identità della persona**: l&#39;ID persona in ogni evento è elevato allo spazio dei nomi dell&#39;identità configurato utilizzando il grafico delle identità.
 * **Aggiungi informazioni account mancanti**: per gli eventi che contengono un ID persona, viene utilizzata la [mappatura persona-account](#prerequisites) per derivare e aggiungere le informazioni sull&#39;account. Tutte le informazioni sull’account relative all’evento vengono utilizzate come metodo di fallback.
 
 ## Prerequisiti
@@ -54,11 +54,44 @@ Prima di abilitare l’unione di account B2B, prepara i seguenti set di dati in 
 >
 >Il campo ID persona nel set di dati **[!UICONTROL persona per account]** deve essere contrassegnato come identità nello schema.
 
-## Abilita unione account
+## Abilita unione account {#enable-account-stitching}
 
 Abilita e configura l’unione di account B2B a livello di connessione, quindi attiva l’unione di account sui singoli set di dati evento all’interno di tale connessione.
 
-### Configurare le impostazioni di unione B2B
+### Configurare le impostazioni di unione B2B {#configure-b2b-stitching-settings}
+
+>[!CONTEXTUALHELP]
+>id="connection_b2b_stitching_open_configuration"
+>title="Configurare l’unione di account B2B"
+>abstract="Seleziona **[!UICONTROL Apri configurazione unione B2B]** per configurare l&#39;unione degli account B2B. Se la connessione non è ancora stata salvata, la configurazione sarà contrassegnata con **[!UICONTROL _Modifiche non salvate_]**."
+
+>[!CONTEXTUALHELP]
+>id="connection_b2b_stitching_person_identifier_namespace"
+>title="Spazio dei nomi identificatore della persona"
+>abstract="Seleziona uno spazio dei nomi dell’identificatore della persona, ad esempio E-mail, al quale desideri che venga elevato qualsiasi ID persona."
+
+>[!CONTEXTUALHELP]
+>id="connection_b2b_stitching_person_to_account_dataset"
+>title="Set di dati da persona a account"
+>abstract="Seleziona il set di dati di ricerca che associa gli ID persona agli ID account."
+
+>[!CONTEXTUALHELP]
+>id="connection_b2b_stitching_person"
+>title="Persona"
+>abstract="Seleziona il campo nel set di dati che contiene l’ID persona. Il campo deve essere contrassegnato come identità e non può essere uguale al campo **[!UICONTROL Account]** o **[!UICONTROL Ora inizio]**."
+
+>[!CONTEXTUALHELP]
+>id="connection_b2b_stitching_account"
+>title="Account"
+>abstract="Seleziona il campo nel set di dati che contiene l’ID account. Il campo non può essere uguale al campo **[!UICONTROL Persona]** o **[!UICONTROL Ora inizio]**."
+
+>[!CONTEXTUALHELP]
+>id="connection_b2b_stitching_start_time"
+>title="Ora di inizio"
+>abstract="Selezionare un campo timestamp che indichi quando la relazione persona-account è diventata attiva."
+>additional-url=""
+>additional-url=""
+
 
 1. In Customer Journey Analytics, passa a **[!UICONTROL Connessioni]** e [crea una nuova connessione](/help/connections/create-connection.md#create-a-connection) o [modifica una connessione esistente](/help/connections/create-connection.md#edit-a-connection).
 
@@ -85,9 +118,9 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
       | Campo | Obbligatorio | Descrizione |
       |---|:---:|---|
       | **[!UICONTROL Set di dati da persona a account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona la ricerca (record o set di dati di serie non temporali) che mappa le persone sugli account. |
-      | **[!UICONTROL Campo persona]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID persona. Il campo deve essere contrassegnato come identità e non può essere uguale al campo **[!UICONTROL Account]** o **[!UICONTROL Ora inizio]**. |
-      | **[!UICONTROL Campo account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID account. Il campo non può essere uguale al campo **[!UICONTROL Persona]** o **[!UICONTROL Ora inizio]**. |
-      | **Campo ora inizio** | | Selezionare un campo timestamp che indichi quando la relazione persona-account è diventata attiva. |
+      | **[!UICONTROL Persona]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID persona. Il campo deve essere contrassegnato come identità e non può essere uguale al campo **[!UICONTROL Account]** o **[!UICONTROL Ora inizio]**. |
+      | **[!UICONTROL Account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID account. Il campo non può essere uguale al campo **[!UICONTROL Persona]** o **[!UICONTROL Ora inizio]**. |
+      | **Ora di inizio** | | Selezionare un campo timestamp che indichi quando la relazione persona-account è diventata attiva. |
 
       >[!NOTE]
       >
@@ -99,6 +132,15 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 
 
 ### Abilitare l’unione B2B nei set di dati evento
+
+
+>[!CONTEXTUALHELP]
+>id="connection_b2b_stitching_enable_person_to_account"
+>title="Abilita unione persona-account"
+>abstract="Se abilitato, questo set di dati utilizza l’unione di account B2B. L’ID persona selezionato viene utilizzato per cercare l’ID account in base al set di dati da persona a account.<br/>Se disabilitato, questo set di dati *non* utilizza l&#39;unione di account B2B."
+>additional-url=""
+>additional-url=""
+
 
 Dopo aver configurato l’unione B2B a livello di connessione, devi abilitare l’unione degli account B2B singolarmente per ogni set di dati evento da unire.
 
@@ -112,7 +154,7 @@ Dopo aver configurato l’unione B2B a livello di connessione, devi abilitare l�
 
 Quando **[!UICONTROL Abilita unione persona a account]** è **su**, hai configurato l&#39;unione di account B2B per il set di dati.
 
-* È necessario configurare un ID persona. L&#39;ID persona viene utilizzato per cercare l&#39;ID account in base al [set di dati da persona a account](#prerequisites).
+* È necessario configurare un ID persona. L&#39;ID persona viene utilizzato per cercare l&#39;ID account in base al [set di dati persona-account](#prerequisites).
 * La configurazione di un ID account è facoltativa.
 
 ![Unione di account B2B nel set di dati dell&#39;evento il](assets/b2b-event-dataset-stitching-on.png)
