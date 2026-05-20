@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c808412ce401447d356a896b1caef7872106ddc
+source-git-commit: bdc5b3671b5810419b13a42b0ba138f9dffc34cb
 workflow-type: tm+mt
-source-wordcount: 21132
+source-wordcount: 21144
 ht-degree: 98%
 
 ---
@@ -406,7 +406,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="Scopri quali sono i contenuti e gli attributi di contenuto con le migliori prestazioni."
->abstract="**Questo può aiutarti** a comprendere le prestazioni del contenuto a un livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici. Content Analytics utilizza l’intelligenza artificiale per generare automaticamente gli attributi e assegnarli ai contenuti tramite tag. [Ulteriori informazioni &#x200B;](/help/content-analytics/content-analytics.md)<br/>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come promuovere le risorse ad alte prestazioni nella tua home page, personalizzare il contenuto per segmenti specifici in modo da includere attributi ad alte prestazioni o ruotare il contenuto che ha iniziato a diventare obsoleto."
+>abstract="**Questo può aiutarti** a comprendere le prestazioni del contenuto a un livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici. Content Analytics utilizza l’intelligenza artificiale per generare automaticamente gli attributi e assegnarli ai contenuti tramite tag. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/content-analytics){target="_blank"}.<br/>**In base a ciò che hai appreso, potresti** fare diverse cose, come promuovere risorse ad alte prestazioni nella tua pagina Home, personalizzare il contenuto per segmenti specifici in modo da includere attributi ad alte prestazioni o sostituire il contenuto che ha iniziato a diventare obsoleto."
 
 
 Sono disponibili i modelli seguenti:
@@ -969,7 +969,7 @@ Sono disponibili i modelli seguenti:
 | --- | --- |
 | [!UICONTROL **Minuto dell’ora**] | Visualizza il numero di eventi, sessioni e persone sul sito, suddivisi per minuto. Ad esempio, se disponi di un rapporto con un arco temporale di un singolo giorno, il primo minuto di ogni ora del giorno viene raggruppato nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio le tendenze a livello granulare.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio ottimizzare le risorse per le ore di punta, minuto per minuto.</p><p>Questo modello utilizza la dimensione Minuto dell’ora.</p> |
 | **Ora del giorno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per ora del giorno. Ad esempio, se disponi di un rapporto che copre il periodo dal 1° gennaio al 7 gennaio, la prima ora di ogni giorno viene raggruppata nello stesso elemento dimensionale.<p>**Questo può aiutarti** a comprendere meglio l’ora del giorno in cui il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse di elaborazione al sito durante le ore con più traffico.</p><p>Questo modello utilizza la dimensione Ora del giorno.</p> |
-| **AM/PM** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per ore AM e PM. Ad esempio, se disponi di un rapporto che copre il periodo dal 1° gennaio al 7 gennaio, le ore prima di mezzogiorno di ciascun giorno vengono raggruppate nello stesso elemento della dimensione.<p>**Questo può aiutarti** a comprendere meglio l’ora del giorno in cui il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse di elaborazione al sito durante le ore con traffico elevato.</p><p>Questo modello utilizza la dimensione AM/PM.</p> |
+| **AM/PM** | Visualizza eventi, sessioni e persone sul tuo sito, suddivisi per ore AM e PM. Ad esempio, se disponi di un rapporto che copre il periodo dal 1° gennaio al 7 gennaio, le ore prima di mezzogiorno di ciascun giorno vengono raggruppate nello stesso elemento della dimensione.<p>**Questo può aiutarti** a comprendere meglio l’ora del giorno in cui il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio assegnare più risorse di elaborazione al sito durante le ore con più traffico.</p><p>Questo modello utilizza la dimensione AM/PM.</p> |
 | **Giorno della settimana** | Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno della settimana. Ad esempio, se disponi di un rapporto che copre il mese di gennaio, ogni giorno della settimana viene raggruppato nello stesso elemento della dimensione. <p>**Questo può aiutarti** a comprendere meglio quali giorni della settimana il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno della settimana.</p> |
 | **Giorno del mese** | Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno del mese. Ad esempio, se disponi di un rapporto che copre un intero anno, ogni giorno del mese viene raggruppato nello stesso elemento della dimensione. <p>**Questo può aiutarti** a comprendere meglio quali giorni di ogni mese il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno del mese.</p> |
 | **Giorno dell’anno** | Visualizza eventi, sessioni e persone sul sito, suddivisi per giorno dell’anno. Ad esempio, se disponi di un rapporto che ricopre più anni, ogni giorno dell’anno viene raggruppato nello stesso elemento della dimensione. <p>**Questo può aiutarti** a comprendere meglio quali giorni di ogni anno il tuo sito viene visitato più e meno frequentemente.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio predisporre in maniera più appropriata il personale del call center nei giorni con traffico elevato.</p><p>Questo modello utilizza la dimensione Giorno dell’anno.&lt;/> |
@@ -985,7 +985,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="cja-template--multiChannelOverview"
 >title="Visualizza la distribuzione del traffico su più canali."
->abstract="**Questo può aiutarti** a comprendere meglio quali canali favoriscono maggior traffico e coinvolgimento con successo. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sui canali che ottengono il massimo ritorno sugli investimenti.<br/>Questo modello utilizza le metriche utente, sessione ed evento."
+>abstract="**Questo può aiutarti** a capire meglio quali canali sono più efficaci nel portare traffico e coinvolgimento. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sui canali che ottengono il massimo ritorno sugli investimenti.<br/>Questo modello utilizza le metriche utente, sessione ed evento."
 
 >[!CONTEXTUALHELP]
 >id="cja-template--callCenterDeflection"
@@ -1072,7 +1072,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-channel"
 >title="Visualizza un riepilogo completo delle metriche di traffico e coinvolgimento per tutte le campagne e i percorsi all’interno del tuo ambiente."
->abstract="**Questo può aiutarti** a capire meglio l’efficacia di alto livello delle tue campagne e dei tuoi percorsi. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio regolare le campagne e i percorsi in base ai livelli di coinvolgimento del pubblico target."
+>abstract="**Questo può aiutarti** a comprendere meglio l’efficacia ad alto livello delle tue campagne e dei tuoi percorsi. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio regolare le campagne e i percorsi in base ai livelli di coinvolgimento del pubblico target."
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-subscription"
