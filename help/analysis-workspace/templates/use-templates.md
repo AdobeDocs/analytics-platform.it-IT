@@ -985,7 +985,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="cja-template--multiChannelOverview"
 >title="Visualizza la distribuzione del traffico su più canali."
->abstract="**Questo può aiutarti** a capire meglio quali canali sono più efficaci nel portare traffico e coinvolgimento. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sui canali che ottengono il massimo ritorno sugli investimenti.<br/>Questo modello utilizza le metriche utente, sessione ed evento."
+>abstract="**Questo può aiutarti** a comprendere meglio quali canali favoriscono maggior traffico e coinvolgimento con successo. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sui canali che ottengono il massimo ritorno sugli investimenti.<br/>Questo modello utilizza le metriche utente, sessione ed evento."
 
 >[!CONTEXTUALHELP]
 >id="cja-template--callCenterDeflection"
@@ -1072,7 +1072,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-channel"
 >title="Visualizza un riepilogo completo delle metriche di traffico e coinvolgimento per tutte le campagne e i percorsi all’interno del tuo ambiente."
->abstract="**Questo può aiutarti** a comprendere meglio l’efficacia ad alto livello delle tue campagne e dei tuoi percorsi. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio regolare le campagne e i percorsi in base ai livelli di coinvolgimento del pubblico target."
+>abstract="**Questo può aiutarti** a capire meglio l’efficacia di alto livello delle tue campagne e dei tuoi percorsi. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio regolare le campagne e i percorsi in base ai livelli di coinvolgimento del pubblico target."
 
 >[!CONTEXTUALHELP]
 >id="cja-template--ajo-subscription"
