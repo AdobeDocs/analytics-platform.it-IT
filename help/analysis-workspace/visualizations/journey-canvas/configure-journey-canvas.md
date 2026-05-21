@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5513a755345188e6f7ff5d4c566d807d09e25f68
+source-git-commit: c6b215f9fe718d0d3e8f81b7f55421c909b69c5a
 workflow-type: tm+mt
-source-wordcount: 6457
-ht-degree: 91%
+source-wordcount: 6499
+ht-degree: 90%
 
 ---
 
@@ -87,6 +87,15 @@ Per ulteriori informazioni sull’area di lavoro del percorso, consulta [Panoram
 
 
 ## Configurare le impostazioni di visualizzazione
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_percentage_value"
+>title="Scegli come vengono calcolate le percentuali"
+>abstract="Le percentuali visualizzate su ciascun nodo si basano sulle metriche primarie e secondarie configurate. Puoi scegliere se le percentuali si riferiscono al nodo iniziale, al nodo precedente o a tutti i dati nella suite di rapporti."
+
+<!-- markdownlint-enable MD034 -->
 
 Nell’intestazione dell’area di lavoro del percorso sono disponibili varie opzioni di configurazione.
 
