@@ -16,10 +16,10 @@ subfeature_v2:
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 69%
+source-wordcount: 532
+ht-degree: 71%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 69%
 
 L&#39;analisi dell&#39;impatto sulla versione ![Release](/help/assets/icons/Release.svg) **[!UICONTROL Release]** mostra un confronto tra le prestazioni degli indicatori chiave prima e dopo una data specifica. L’asse orizzontale di questo rapporto è un intervallo di tempo, mentre l’asse verticale misura gli indicatori chiave desiderati. Una barra verticale al centro del grafico rappresenta la data che si desidera confrontare prima e dopo. In genere, questa data rappresenta una modifica rilevante del prodotto su cui desideri effettuare la misurazione, ad esempio un aggiornamento del prodotto o il lancio di una campagna.
 
->[!VIDEO](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/guided-analysis/release-impact)
+>[!VIDEO](https://video.tv.adobe.com/v/3423450/?captions=ita&quality=12&learn=on)
 
 ## Casi d’uso
 

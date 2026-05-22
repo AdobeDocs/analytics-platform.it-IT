@@ -20,10 +20,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 73%
+source-wordcount: 685
+ht-degree: 74%
 
 ---
 
@@ -40,12 +40,7 @@ ht-degree: 73%
 
 L&#39;analisi ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Funnel &#x200B;]**&#x200B;fornisce una rappresentazione visiva di un percorso di utenti critico nel prodotto. L’asse orizzontale rappresenta ogni passaggio che un utente deve attraversare. L’asse verticale rappresenta la percentuale di utenti o sessioni in ogni passaggio. Tutti i passaggi devono essere eseguiti in ordine finale, ma possono avvenire in qualsiasi momento all’interno dell’intervallo di reporting.
 
->[!BEGINSHADEBOX]
-
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi attrito Funnel](https://video.tv.adobe.com/v/3431274/?captions=ita&quality=12&learn=onn){target="_blank"}.
-
->[!ENDSHADEBOX]
-
+>[!VIDEO](https://video.tv.adobe.com/v/3431274/?captions=ita&quality=12&learn=on)
 
 ## Casi d’uso
 

@@ -21,10 +21,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 594
-ht-degree: 68%
+source-wordcount: 582
+ht-degree: 69%
 
 ---
 
@@ -50,9 +50,7 @@ L&#39;analisi della ![Timeline](/help/assets/icons/Timeline.svg) **[!UICONTROL T
 >* **Amministratori**: *per questa analisi è necessaria la proprietà PersonID. Aggiungi l’ID persona alla visualizzazione dati.*
 >* **Non amministratori**: *per questa analisi è necessaria la proprietà PersonID. Collabora con l’amministratore di Customer Journey Analytics per aggiungere l’ID persona alla visualizzazione dati.*
 
->[!VIDEO](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/guided-analysis/timeline)
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/3435775/?captions=ita&quality=12&learn=on)
 
 ## Casi d’uso
 

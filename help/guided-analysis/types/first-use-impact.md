@@ -16,10 +16,10 @@ subfeature_v2:
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 692
-ht-degree: 67%
+source-wordcount: 678
+ht-degree: 69%
 
 ---
 
@@ -36,9 +36,7 @@ ht-degree: 67%
 
 L&#39;analisi ![FirstUse](/help/assets/icons/FirstUse.svg) **[!UICONTROL First use impact]** mostra un confronto tra le prestazioni degli indicatori chiave prima e dopo che un utente utilizza una funzione di prodotto per la prima volta. L’asse orizzontale di questo rapporto è un intervallo di tempo relativo prima e dopo l’evento, mentre l’asse verticale misura gli indicatori chiave desiderati. Una barra verticale al centro del grafico rappresenta il giorno 0 del primo utilizzo di una caratteristica da parte di un utente specifico. Poiché gli utenti non adottano sempre le funzioni nello stesso giorno e i rollout possono potenzialmente verificarsi in più giorni, il giorno 0 può avere un significato diverso per ogni singolo utente.
 
-
->[!VIDEO](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/guided-analysis/first-use-impact)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3423497/?captions=ita&quality=12&learn=on)
 
 ## Casi d’uso
 

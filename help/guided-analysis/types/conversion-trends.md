@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 550
-ht-degree: 76%
+source-wordcount: 537
+ht-degree: 77%
 
 ---
 
@@ -39,9 +39,7 @@ ht-degree: 76%
 
 L&#39;analisi delle ![tendenze di conversione](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL tendenze di conversione]** fornisce una visualizzazione delle tendenze dei tassi di conversione nel tempo. L’asse orizzontale è un intervallo di tempo, mentre l’asse verticale rappresenta il tasso di conversione.
 
-
->[!VIDEO](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/guided-analysis/conversion-trends)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3423488/?captions=ita&quality=12&learn=on)
 
 ## Casi d’uso
 

@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 1278
+source-wordcount: 1266
 ht-degree: 68%
 
 ---
@@ -44,8 +44,7 @@ L&#39;analisi di ![Mantenimento](/help/assets/icons/Retention.svg) **[!UICONTROL
 
 In questa analisi, l’asse x del grafico rappresenta il tempo trascorso dall’evento iniziale di un utente e l’asse y rappresenta la percentuale di utenti che interagiscono con uno o più eventi di ritorno. È possibile visualizzare sia la fidelizzazione che l’abbandono tra le diverse durate, e le durate visualizzate possono essere personalizzate tramite le impostazioni della query. Sotto il grafico, una tabella fornisce dati aggregati con l’opzione di mostrare le singole coorti, che sono un gruppo di persone che hanno attivato l’evento iniziale nella stessa data.
 
->[!VIDEO](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/guided-analysis/retention)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3435786/?captions=ita&quality=12&learn=on)
 
 ## Casi d’uso
 
