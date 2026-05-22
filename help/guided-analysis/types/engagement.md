@@ -6,20 +6,14 @@ keywords: product analytics
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
 TQID: https://experienceleague.adobe.com/sqRGQu7Vg5jdCGXT-NWIeExSrBeMVK5hXg0VvD2LtIM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 766
-ht-degree: 78%
+source-wordcount: 758
+ht-degree: 79%
 
 ---
 
@@ -44,11 +38,7 @@ Le funzioni che si posizionano nella parte superiore di questa visualizzazione i
 * Le funzioni in basso a sinistra della matrice sono le funzioni a **basso impatto**; non sono ampiamente adottate, né utilizzate di frequente.
 * Le funzioni nella parte inferiore destra della matrice sono le funzioni **una tantum**; sono ampiamente adottate, ma non utilizzate di frequente.
 
->[!BEGINSHADEBOX]
-
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi del coinvolgimento](https://video.tv.adobe.com/v/3447475?captions=ita){target="_blank"}.
-
->[!ENDSHADEBOX]
+>[!VIDEO](https://video.tv.adobe.com/v/3429489/?quality=12&learn=on)
 
 ## Casi d’uso
 
