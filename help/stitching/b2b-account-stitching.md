@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: d95b7e2710fac7ce851c1c5ecba229a4221f08ac
+source-git-commit: 11156e1f2db094595cc3333ccb0b896037da4715
 workflow-type: tm+mt
 source-wordcount: 1178
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 L’unione degli account B2B arricchisce i set di dati dell’evento con le informazioni sull’account e consente un’analisi completa nell’intero percorso di clienti in Customer Journey Analytics. Quando gli eventi non dispongono di un ID account, richiesto da Customer Journey Analytics B2B edition per l&#39;acquisizione, l&#39;unione degli account deriva e aggiunge automaticamente tali informazioni utilizzando un [set di dati di mappatura persona-account](#prerequisites) fornito.
 
-Senza l’unione degli account, qualsiasi evento che non contiene un ID account viene eliminato durante l’acquisizione. l’unione di account elimina questa barriera ricercando l’account associato alla persona in ogni evento, aggiungendo l’ID account sia durante l’acquisizione dell’evento che retroattivamente.
+Senza l’unione degli account, qualsiasi evento che non contiene un ID account viene eliminato durante l’acquisizione. L’unione degli account elimina questa barriera ricercando l’account associato alla persona in ogni evento, aggiungendo l’ID account sia durante l’acquisizione dell’evento che retroattivamente.
 
 >[!NOTE]
 >
