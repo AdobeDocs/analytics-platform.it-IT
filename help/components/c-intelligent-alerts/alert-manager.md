@@ -5,24 +5,14 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
 TQID: https://experienceleague.adobe.com/oKewVodxYwDlnsuqGclK6ZYEmN-pXNqbc5ud6OkIUK4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: de8f8e06f074fdcb0219ce7286785d870c2093b4
 workflow-type: tm+mt
-source-wordcount: 599
+source-wordcount: 589
 ht-degree: 17%
 
 ---
@@ -45,7 +35,9 @@ Gestione avvisi dispone dei seguenti elementi dell’interfaccia:
 
 ### Elenco avvisi
 
-Nell&#39;elenco degli avvisi ➊ vengono visualizzati tutti gli avvisi di cui sei proprietario, quelli con ambito di tutti i tuoi progetti e quelli condivisi con te. L’elenco dispone delle seguenti colonne:
+Nell&#39;elenco avvisi ➊ vengono visualizzati gli avvisi creati dall&#39;utente. Se sei un amministratore, puoi visualizzare tutti gli avvisi.
+
+L’elenco dispone delle seguenti colonne:
 
 | Colonna | Descrizione |
 |---|---|
@@ -54,7 +46,7 @@ Nell&#39;elenco degli avvisi ➊ vengono visualizzati tutti gli avvisi di cui se
 | **[!UICONTROL Tipo]** | Indica se l&#39;avviso è un avviso di dati di Customer Journey Analytics o un avviso di utilizzo di chiamate al server. |
 | **[!UICONTROL Abilitato]** | Indica se l&#39;avviso è abilitato o disabilitato. |
 | **[!UICONTROL Visualizzazione dati]** | Visualizzazioni dati a cui si applica questo avviso. |
-| **[!UICONTROL Proprietario]** | Proprietario dell&#39;avviso. In qualità di non amministratore, puoi visualizzare solo gli avvisi di tua proprietà o che sono condivisi con te. |
+| **[!UICONTROL Proprietario]** | Proprietario dell&#39;avviso. In qualità di non amministratore, puoi visualizzare solo gli avvisi di tua proprietà. Un amministratore può visualizzare tutti gli avvisi. |
 | **[!UICONTROL Tag]** | Tag per l&#39;avviso. |
 | **[!UICONTROL Expiration Date (Data di scadenza)]** | La data e l’ora in cui l’avviso è impostato per scadere. |
 | **[!UICONTROL Data di modifica]** | Data e ora dell’ultima modifica apportata all’avviso. |
