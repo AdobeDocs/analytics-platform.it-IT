@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: de8f8e06f074fdcb0219ce7286785d870c2093b4
 workflow-type: tm+mt
-source-wordcount: 599
+source-wordcount: 589
 ht-degree: 17%
 
 ---
@@ -45,7 +45,9 @@ Gestione avvisi dispone dei seguenti elementi dell’interfaccia:
 
 ### Elenco avvisi
 
-Nell&#39;elenco degli avvisi ➊ vengono visualizzati tutti gli avvisi di cui sei proprietario, quelli con ambito di tutti i tuoi progetti e quelli condivisi con te. L’elenco dispone delle seguenti colonne:
+Nell&#39;elenco avvisi ➊ vengono visualizzati gli avvisi creati dall&#39;utente. Se sei un amministratore, puoi visualizzare tutti gli avvisi.
+
+L’elenco dispone delle seguenti colonne:
 
 | Colonna | Descrizione |
 |---|---|
@@ -54,7 +56,7 @@ Nell&#39;elenco degli avvisi ➊ vengono visualizzati tutti gli avvisi di cui se
 | **[!UICONTROL Tipo]** | Indica se l&#39;avviso è un avviso di dati di Customer Journey Analytics o un avviso di utilizzo di chiamate al server. |
 | **[!UICONTROL Abilitato]** | Indica se l&#39;avviso è abilitato o disabilitato. |
 | **[!UICONTROL Visualizzazione dati]** | Visualizzazioni dati a cui si applica questo avviso. |
-| **[!UICONTROL Proprietario]** | Proprietario dell&#39;avviso. In qualità di non amministratore, puoi visualizzare solo gli avvisi di tua proprietà o che sono condivisi con te. |
+| **[!UICONTROL Proprietario]** | Proprietario dell&#39;avviso. In qualità di non amministratore, puoi visualizzare solo gli avvisi di tua proprietà. Un amministratore può visualizzare tutti gli avvisi. |
 | **[!UICONTROL Tag]** | Tag per l&#39;avviso. |
 | **[!UICONTROL Expiration Date (Data di scadenza)]** | La data e l’ora in cui l’avviso è impostato per scadere. |
 | **[!UICONTROL Data di modifica]** | Data e ora dell’ultima modifica apportata all’avviso. |

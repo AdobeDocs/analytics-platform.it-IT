@@ -22,9 +22,9 @@ subfeature_v2:
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: de8f8e06f074fdcb0219ce7286785d870c2093b4
 workflow-type: tm+mt
-source-wordcount: 965
+source-wordcount: 997
 ht-degree: 3%
 
 ---
@@ -51,6 +51,7 @@ Considera le seguenti implicazioni prima di eliminare set di dati o batch o quan
 
 | Azione | Implicazioni |
 | --- | --- |
+| Elimina uno o più record da un set di dati in [!UICONTROL Experience Platform] | I record vengono eliminati dalle connessioni Customer Journey Analytics che hanno il set di dati definito come parte della configurazione della connessione. |
 | Elimina un set di dati in [!UICONTROL Experience Platform] | Il flusso di dati da tale set di dati in Experience Platform si arresta su qualsiasi connessione che include tale set di dati. Eventuali dati provenienti da tale set di dati vengono eliminati automaticamente dalle connessioni Customer Journey Analytics associate. |
 | Eliminare un batch da un set di dati in [!UICONTROL Experience Platform] | Se un batch viene eliminato da un set di dati [!UICONTROL Adobe Experience Platform], lo stesso batch viene rimosso da qualsiasi connessione [!UICONTROL Customer Journey Analytics] che contiene tale batch specifico. [!UICONTROL Customer Journey Analytics] è informato dei batch eliminati in [!UICONTROL Adobe Experience Platform]. |
 | Elimina un batch da [!UICONTROL Experience Platform] **durante l&#39;acquisizione** in [!UICONTROL Customer Journey Analytics] | Se nel set di dati è presente un solo batch, in [!UICONTROL Customer Journey Analytics] non verranno visualizzati dati o dati parziali da tale batch. L’acquisizione viene annullata e viene ripristinato lo stato precedente. Se, ad esempio, nel set di dati sono presenti 5 batch e 3 di essi sono già stati acquisiti al momento dell&#39;eliminazione del quarto batch, i dati di questi 3 batch verranno visualizzati in [!UICONTROL Customer Journey Analytics]. |
