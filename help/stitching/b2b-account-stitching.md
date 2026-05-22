@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5964c5f87364e5ba78e866d753819d7e7f605b30
+source-git-commit: d95b7e2710fac7ce851c1c5ecba229a4221f08ac
 workflow-type: tm+mt
-source-wordcount: 1169
+source-wordcount: 1178
 ht-degree: 2%
 
 ---
@@ -137,7 +137,7 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Abilita unione persona-account"
->abstract="Se abilitato, questo set di dati utilizza l’unione di account B2B. L’ID persona selezionato viene utilizzato per cercare l’ID account in base al set di dati da persona a account.<br/>Se disabilitato, questo set di dati *non* utilizza l&#39;unione di account B2B."
+>abstract="Se abilitato, questo set di dati utilizza l’unione di account B2B. Seleziona un **[!UICONTROL ID persona]** richiesto per ricercare l&#39;ID account in base al set di dati da persona a account.<br/>Se disabilitato, questo set di dati *non* utilizza l&#39;unione di account B2B e devi selezionare un **[!UICONTROL ID account]** richiesto."
 >additional-url=""
 >additional-url=""
 
