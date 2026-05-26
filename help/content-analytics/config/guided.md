@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 4111
-ht-degree: 53%
+ht-degree: 55%
 
 ---
 
@@ -160,7 +160,7 @@ Se è già stata selezionata una connessione, ma si desidera modificarla:
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_prev_cleanup_labels_dialog"
 >title="Pulizia della visualizzazione dati precedente"
->abstract="Hai selezionato una nuova visualizzazione dati. La configurazione Content Analytics per la visualizzazione dati selezionata in precedenza viene rimossa."
+>abstract="Hai selezionato una nuova visualizzazione dati. La configurazione di Content Analytics per la visualizzazione dati selezionata in precedenza è rimossa."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_new_dialog"
@@ -186,7 +186,7 @@ Se è già stata selezionata una connessione, ma si desidera modificarla:
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_new_dialog"
 >title="Visualizzazioni dati selezionate"
->abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate originariamente che sono deselezionate.<br/><br/>Se alle visualizzazioni dati selezionate è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
+>abstract="Hai modificato le visualizzazioni dati selezionate per questa configurazione. Le visualizzazioni dati selezionate verranno aggiornate per includere le metriche e le dimensioni di Content Analytics. Queste metriche e dimensioni verranno rimosse dalle visualizzazioni dati selezionate originariamente che sono deselezionate.<br/><br/>Se alla visualizzazione dati selezionata è associata una connessione diversa, la connessione verrà aggiornata per includere i set di dati di Content Analytics. I set di dati di Content Analytics non vengono rimossi dalla connessione selezionata originariamente.<br/><br/>Tutte le visualizzazioni dati selezionate ereditano i canali che fanno parte di questa configurazione."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataviews_change_dialog"
@@ -257,7 +257,7 @@ Puoi quindi configurare il canale in modo più dettagliato. La configurazione va
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_experience_locations_header"
 >title="Raccolta dati sulle posizioni nell’esperienza per dispositivi mobili"
->abstract="Indica quali posizioni delle risorse devono essere **escluse** durante la raccolta dei dati per Content Analytics. Assicurati di escludere le posizioni di esperienza che consentono l’identificazione personale."
+>abstract="Indica quali posizioni delle risorse devono essere **escluse** durante la raccolta dei dati per Content Analytics. Assicurati di escludere le posizioni relative a esperienze che contengono dati di identificazione personale."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_locations_boldheader"
@@ -267,7 +267,7 @@ Puoi quindi configurare il canale in modo più dettagliato. La configurazione va
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_locations_header"
 >title="Raccolta dati sulle posizioni delle risorse per dispositivi mobili"
->abstract="Indica quali posizioni delle risorse devono essere **escluse** durante la raccolta dei dati per Content Analytics. Assicurati di escludere le posizioni delle risorse personali."
+>abstract="Indica quali posizioni delle risorse devono essere **escluse** durante la raccolta dei dati per Content Analytics. Assicurati di escludere le posizioni relative a risorse che contengono dati di identificazione personale."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_boldheader"
@@ -277,7 +277,7 @@ Puoi quindi configurare il canale in modo più dettagliato. La configurazione va
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_mobile_asset_urls_header"
 >title="Raccolta dati degli URL delle risorse per dispositivi mobili"
->abstract="Indica quali URL delle risorse devono essere **escluse** durante la raccolta dei dati per Content Analytics. Assicurati di escludere gli URL delle risorse personali."
+>abstract="Indica quali URL delle risorse devono essere **escluse** durante la raccolta dei dati per Content Analytics. Assicurati di escludere gli URL delle risorse che contengono dati di identificazione personale."
 
 Per il canale mobile, puoi configurare [acquisizione e definizione esperienza](#experience-capture-and-definition), [raccolta dati](#data-collection) e [sostituzioni intestazione](#header-overrides).
 
@@ -309,15 +309,15 @@ Per configurare la raccolta dati:
       1. Specifica un **[!UICONTROL nome tag]**, ad esempio `ACA Test for Documentation`.
       1. Specificare **[!UICONTROL Domini]**, ad esempio `example.com`.
 
-* Indica le posizioni di esperienza da escludere durante la raccolta dei dati per Content Analytics. Assicurati di escludere le posizioni di esperienza che consentono l’identificazione personale.
+* Indica le posizioni di esperienza da escludere durante la raccolta dei dati per Content Analytics. Assicurati di escludere le posizioni relative a esperienze che contengono dati di identificazione personale.
 
   Specifica una **[!UICONTROL stringa di espressione regolare]** per **[!UICONTROL percorsi esperienza da escludere]**. <br/>Ad esempio: `^(?!.*documentation).*` per escludere da Content Analytics tutte le posizioni di esperienza di documentazione.
 
-* Indica le posizioni delle risorse da escludere durante la raccolta dei dati per Content Analytics. Assicurati di escludere le posizioni delle risorse personali.
+* Indica le posizioni delle risorse da escludere durante la raccolta dei dati per Content Analytics. Assicurati di escludere le posizioni relative a risorse che contengono dati di identificazione personale.
 
   Specifica una **[!UICONTROL stringa di espressione regolare]** per **[!UICONTROL posizioni risorse da escludere]**. <br/>Ad esempio: `^(?!.*(logo\.jpg)).*$` per escludere da Content Analytics tutte le posizioni delle risorse con il logo JPEG.
 
-* Indica gli URL della risorsa da escludere durante la raccolta di dati per Content Analytics. Assicurati di escludere gli URL delle risorse personali.
+* Indica gli URL della risorsa da escludere durante la raccolta di dati per Content Analytics. Assicurati di escludere gli URL delle risorse che contengono dati di identificazione personale.
 
   Specifica una **[!UICONTROL stringa di espressione regolare]** per **[!UICONTROL URL risorse da escludere]**. <br/>Ad esempio: `^(?!.*(logo\.jpg)).*$` per escludere da Content Analytics tutti gli URL delle risorse che fanno riferimento alle immagini JPEG del logo.
 
@@ -393,7 +393,7 @@ Per il canale web, puoi configurare [acquisizione e definizione esperienza](#exp
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_pages_excluded_header"
 >title="Raccolta dati"
->abstract="Indica quali pagine devono essere **incluse** o **escluse** durante la raccolta dei dati per Content Analytics. Assicurati di escludere le pagine personali."
+>abstract="Indica quali pagine devono essere **incluse** o **escluse** durante la raccolta dei dati per Content Analytics. Assicurati di escludere le pagine che contengono dati di identificazione personale."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_boldheader"
@@ -403,7 +403,7 @@ Per il canale web, puoi configurare [acquisizione e definizione esperienza](#exp
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_header"
 >title="Raccolta dati"
->abstract="Indica quali risorse devono essere **incluse** o **escluse** durante la raccolta dati per Content Analytics. Assicurati di escludere le risorse personali."
+>abstract="Indica quali risorse devono essere **incluse** o **escluse** durante la raccolta dati per Content Analytics. Assicurati di escludere le risorse che contengono dati di identificazione personale."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_experiences_edit_button"
@@ -441,7 +441,7 @@ Per il canale web, puoi configurare [acquisizione e definizione esperienza](#exp
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_web_assets_header"
 >title="Raccolta dati delle risorse web"
->abstract="Indica quali risorse devono essere **incluse** o **escluse** durante la raccolta dati per Content Analytics. Assicurati di escludere le risorse personali."
+>abstract="Indica quali risorse devono essere **incluse** o **escluse** durante la raccolta dati per Content Analytics. Assicurati di escludere le risorse che contengono dati di identificazione personale."
 
 
 ##### Acquisizione e definizione dell’esperienza {#web-experience-capture-and-definition}
@@ -516,11 +516,11 @@ Per configurare la raccolta dati:
 
      Utilizzare una nuova proprietà Tags se si desidera creare un&#39;implementazione indipendente dai tag per il canale Web, utilizzando la [libreria JavaScript di Content Analytics](/help/content-analytics/config/tags-agnostic.md). La proprietà Tags viene creata, ma non la utilizzerai nell’implementazione agnostica. Tuttavia, l’implementazione agnostica richiede di aver eseguito la configurazione guidata almeno una volta.
 
-* Indica quali pagine devono essere incluse o escluse durante la raccolta dei dati per Content Analytics. Assicurati di escludere le pagine personali.
+* Indica quali pagine devono essere incluse o escluse durante la raccolta dei dati per Content Analytics. Assicurati di escludere le pagine che contengono dati di identificazione personale.
 
   Specifica una **[!UICONTROL stringa di espressione regolare]** per **[!UICONTROL pagine da includere/escludere]**. <br/>Ad esempio: `^(?!.*documentation).*` per escludere tutte le pagine della documentazione da Content Analytics.
 
-* Indica quali risorse devono essere incluse o escluse durante la raccolta dati per Content Analytics. Assicurati di escludere le risorse personali.
+* Indica quali risorse devono essere incluse o escluse durante la raccolta dati per Content Analytics. Assicurati di escludere le risorse che contengono dati di identificazione personale.
 
   Specifica una **[!UICONTROL stringa di espressione regolare]** per **[!UICONTROL risorsa da includere/escludere]**. <br/>Ad esempio: `^(?!.*(logo\.jpg)).*$` per escludere tutte le immagini JPEG con logo da Content Analytics.
 
