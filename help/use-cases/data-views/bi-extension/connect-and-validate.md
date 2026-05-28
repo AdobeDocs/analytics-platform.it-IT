@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 65ddb8af8bf2fdb45eaaef0ad5d824314c35087e
 workflow-type: tm+mt
-source-wordcount: 2021
+source-wordcount: 1963
 ht-degree: 9%
 
 ---
@@ -355,7 +355,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 
 1. Avviare Studio.
 1. Crea un nuovo file Markdown R o scarica [questo file Markdown R di esempio](../assets/BI-Extension.Rmd.zip).
-1. Nel primo blocco immettere le istruzioni seguenti comprese tra ` ` ``{r} ` e ` `` ` `. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare i valori dal pannello **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** di Experience Platform nei valori richiesti per i vari parametri, come `host`, `dbname` e `user`. Ad esempio:
+1. Nel primo blocco, immetti le istruzioni seguenti. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare i valori dal pannello **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** di Experience Platform nei valori richiesti per i vari parametri, come `host`, `dbname` e `user`. Ad esempio:
 
    ```R
    library(rstudioapi)
@@ -376,7 +376,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 
    ![Passaggio di configurazione RStudio 1](../assets/rstudio-config-step1.png)
 
-1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ` `` {r} ` e ` `` ` `.
+1. Crea un nuovo blocco e immetti le istruzioni seguenti.
 
    ```R
    con <- dbConnect(
@@ -393,7 +393,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 1. Esegui il blocco. Se la connessione ha esito positivo, non verrà visualizzato alcun output.
 
 
-1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ` `` {r} ` e ` `` ` `.
+1. Crea un nuovo blocco e immetti le istruzioni seguenti.
 
    ```R
    views <- dbListTables(con)
@@ -403,7 +403,7 @@ Jupyter Notebook supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
 1. Esegui il blocco. Dovresti vedere `character(0)` come unico output.
 
 
-1. Creare un nuovo blocco e immettere le istruzioni seguenti tra ` ` `` {r} ` e ` `` ` `.
+1. Crea un nuovo blocco e immetti le istruzioni seguenti.
 
    ```R
    glimpse(dv)

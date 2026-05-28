@@ -20,9 +20,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: df1ab1af7757ef012b4c233e6206ee6c6cde6686
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 889
 ht-degree: 1%
 
 ---
@@ -112,3 +112,7 @@ Le considerazioni seguenti si applicano alle chiavi di sistema e ai campi:
 
 * Il descrittore della chiave primaria, del descrittore della versione e della marca temporale deve essere un campo di livello principale nello schema XDM relazionale. Utilizza [mappatura campi](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante l&#39;acquisizione per supportare questo requisito.
 * È possibile omettere i campi di origine appropriati durante la [fase di mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
+
+## Dimensione batch dei dati con mirroring
+
+Per qualsiasi set di dati con mirroring configurato come parte di una connessione, è necessario assicurarsi che ogni batch per acquisire i dati per il set di dati con mirroring non superi i 100 GB. Per ulteriori dettagli, vedi [Guardrail per l&#39;acquisizione batch](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"}.
