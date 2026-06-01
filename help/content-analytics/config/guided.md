@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 4111
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -376,7 +376,7 @@ Per il canale web, puoi configurare [acquisizione e definizione esperienza](#exp
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_button"
 >title="Raccolta dati"
->abstract="Definisci la proprietà dei tag da utilizzare o creane una nuova. Definisci inoltre le pagine e le risorse da includere o escludere utilizzando espressioni regolari.<br/>Per un&#39;implementazione indipendente dai tag, selezionare **[!UICONTROL Crea nuovo]**.  Viene creata una proprietà Tags, ma non è necessario utilizzarla."
+>abstract="Definisci la proprietà dei tag da utilizzare o creane una nuova. Definisci inoltre le pagine e le risorse da includere o escludere utilizzando espressioni regolari.<br/>Per un’implementazione indipendente da tag, seleziona **[!UICONTROL Crea nuovo]**.  Viene creata una proprietà Tag, ma non è necessario utilizzarla."
 >additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/configuration/tags-agnostic" text="Libreria JavaScript di Content Analytics"
 
 
