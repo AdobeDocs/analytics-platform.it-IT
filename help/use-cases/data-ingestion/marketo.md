@@ -93,13 +93,13 @@ Per verificare questa strategia ID, devi eseguire un progetto pilota di unione b
 
 +++Mappare i campi dati di origine di Marketo alle relative destinazioni XDM
 
-Mappa gli oggetti [Persons](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Persone) e [Activities](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Attività) ai rispettivi campi di destinazione dello schema XDM.
+Mappa gli oggetti [Persons](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Persone) e [Activities](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Attività) ai rispettivi campi di destinazione dello schema XDM.
 
 +++
 
 +++Inserire dati Marketo in Adobe Experience Platform
 
-Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni Experience Platform.
+Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni Experience Platform.
 
 +++
 
