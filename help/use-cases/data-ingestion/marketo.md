@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: e430f26e2b6357a288adb4389a266f26acab68c4
 workflow-type: tm+mt
-source-wordcount: 1129
-ht-degree: 14%
+source-wordcount: 1448
+ht-degree: 8%
 
 ---
 
@@ -51,34 +51,72 @@ Vedi [confronto dei rapporti](#reporting-comparison) per ulteriori dettagli.
 >
 
 
-Per creare rapporti sui dati Marketo Engage in Customer Journey Analytics:
+Per generare rapporti sui dati di Marketo Engage in Customer Journey Analytics, effettua le seguenti operazioni:
 
-+++ &#x200B;1. Mappare i campi dati di origine di Marketo alle relative destinazioni XDM
++++Seleziona strategia ID
+
+Se desideri acquisire in Customer Journey Analytics i dati delle attività di Marketo, devi selezionare una strategia ID appropriata per garantire che i dati di Marketo possano essere collegati ai dati di Customer Journey Analytics.
+
+I dati di Marketo non contengono un ECID in modo nativo, ma il campo ECID può essere aggiunto come campo personalizzato raccolto con la libreria `munchkin.js`. Questa aggiunta crea un identificatore condiviso tra Marketo e i dati web esistenti del Percorso del cliente Analytics.
+
+Per collegare i dati di Marketo e Customer Journey Analytics, utilizza [unione basata su grafico](/help/stitching/gbs.md) nei set di dati rilevanti. Puoi utilizzare diversi ID disponibili, in base all’implementazione:
+
+* ECID, fornito dal servizio Experience Platform Identity
+* E-mail
+* Munchkin ID, fornito da Marketo Engage
+* ID Rivenditore
+* Dunn &amp; Bradstreet Duns\#
+* ID Demandbase
+* (potenzialmente altri)
+
+L’unione basata su grafico consente di effettuare le seguenti operazioni:
+
+* Mantiene un ID persistente negli eventi web.
+* Utilizza il grafo delle identità per risolvere le identità note (come e-mail), quando possibile.
+* Se non esiste alcuna corrispondenza deterministica, l’unione basata su grafo viene riportata sull’ID persistente, invece di rilasciare l’evento.
+
+L’unione basata su grafico è una soluzione valida per collegare dati Marketo e Customer Journey Analytics perché:
+
+* I dati dell’evento web hanno un ID persistente su ogni riga (ad esempio, ECID).
+* I dati Marketo contengono ID affidabili nei dati con Munckin ID, ECID ed e-mail.
+* L’unione basata su grafico collega in modo deterministico ECID a Munchkin ID, e-mail o qualsiasi altro ID disponibile nei dati di Marketo.
+* L’unione basata su grafico utilizza le regole di collegamento e gli spazi dei nomi del grafico delle identità configurati in modo esplicito.
+
+Per verificare questa strategia ID, devi eseguire un progetto pilota di unione basata su grafico controllato.
+
+1. Aggiungi ECID come campo personalizzato in Marketo e aggiungi il campo personalizzato al codice JavaScript lato client munckin.js per la raccolta dati di Marketo Engage.
+1. Imposta una connessione temporanea del Percorso clienti che includa almeno un set di dati Marketo e un set di dati evento web.
+1. Definisci un intervallo di dati ristretto per inserire una quantità di dati limitata ma rappresentativa.
+1. Verifica l’unione tramite la configurazione di una visualizzazione dati e di rapporti in Workspace. Per ulteriori informazioni, consulta i passaggi seguenti.
+
++++
+
++++Mappare i campi dati di origine di Marketo alle relative destinazioni XDM
 
 Mappa gli oggetti [Persons](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Persone) e [Activities](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Attività) ai rispettivi campi di destinazione dello schema XDM.
 
 +++
 
-+++ &#x200B;2. Inserire dati Marketo in Adobe Experience Platform
++++Inserire dati Marketo in Adobe Experience Platform
 
-Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni connesse a Platform.
+Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni Experience Platform.
 
 +++
 
-+++ &#x200B;3. Configurare una connessione a questo set di dati in Customer Journey Analytics
++++ Configurare una connessione a questo set di dati in Customer Journey Analytics
 
 Per creare rapporti sui set di dati di Experience Platform devi prima stabilire una connessione tra i set di dati in Experience Platform e Customer Journey Analytics. Vedi [Creare o modificare una connessione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-connections/create-connection).
 
 +++
 
 
-+++ &#x200B;4. Creare una o più visualizzazioni dati
++++Creare una o più visualizzazioni dati
 
 Una [visualizzazione dati](/help/data-views/data-views.md) è un contenitore specifico di Customer Journey Analytics che consente di determinare come interpretare i dati di una connessione. Specifica tutte le dimensioni e le metriche disponibili in Analysis Workspace; in questo caso, si tratta delle metriche e dimensioni specifiche di Marketo. Inoltre, specifica le colonne dalle quali le dimensioni e le metriche ottengono i loro dati. Le visualizzazioni dati sono definite in preparazione alle attività di reporting in Analysis Workspace.
 
 +++ 
 
-+++ &#x200B;5. Rapporto in Analysis Workspace
++++Rapporto in Analysis Workspace
 
 Un caso d’uso che potresti esplorare è: quante visite alle pagine web da parte dei lead hai avuto nel periodo aprile-giugno 2020?
 
