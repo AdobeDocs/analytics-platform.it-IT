@@ -26,10 +26,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: b4547b6c48adb97f6749ef54147f369632c44fa9
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 4%
+source-wordcount: 496
+ht-degree: 3%
 
 ---
 
@@ -62,6 +62,13 @@ Consulta anche la [documentazione di Experience Platform su Data Mirror](https:/
 >Data Mirror è una funzionalità attualmente in versione beta che supporta la sincronizzazione dei dati da data warehouse selezionati tramite Change Data Capture (CDC) per l&#39;analisi in Customer Journey Analytics.<br/>Questa funzionalità sarà generalmente disponibile per Customer Journey Analytics il 18 giugno 2026. Fai riferimento alla descrizione del prodotto applicabile per capire come potrebbe influenzare in futuro il consumo del limite di acquisizione annuale. Tieni presente che la tua organizzazione continuerà ad avere accesso a questa funzione quando Data Mirror passerà dalla versione beta a quella di disponibilità generale.
 >
 
+>[!IMPORTANT]
+>
+>I set di dati di acquisizione dei dati di modifica creati in Experience Platform ai fini di Data Mirror per Customer Journey Analytics non devono essere riutilizzati in altre soluzioni Experience Platform come Real-Time Customer Data Platform o Journey Optimizer. Se desideri utilizzare gli stessi dati per queste soluzioni, considera di creare set di dati alternativi con gli stessi dati.
+>
+
+
+
 Experience Platform Data Mirror for Customer Journey Analytics è disponibile per le soluzioni native data warehouse selezionate ([!DNL Azure Databricks], [!DNL Google BigQuery] e [!DNL Snowflake]). La versione Customer Journey Analytics di Experience Platform Data Mirror richiede la corretta configurazione delle seguenti applicazioni o componenti:
 
 * [Soluzioni native per data warehouse](datawarehouse.md)
@@ -72,4 +79,4 @@ Experience Platform Data Mirror for Customer Journey Analytics è disponibile pe
 >
 >[Guida rapida di Data Mirror: mirroring e utilizzo dei dati relazionali](relational.md)
 >[Data Mirror (documentazione Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/data-mirror/overview)
->[Schemi relazionali (documentazione di Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational)
+>[Schemi relazionali (documentazione Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational)
