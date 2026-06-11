@@ -24,9 +24,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4882eaa340d1139b8f93affb645219c999d293f0
+source-git-commit: 3b6264a1e159632e5a3246554c055488cfc6b39b
 workflow-type: tm+mt
-source-wordcount: 5865
+source-wordcount: 5863
 ht-degree: 93%
 
 ---
@@ -62,9 +62,9 @@ Dopo aver [creato o modificato una o più connessioni](/help/connections/create-
 
 L’interfaccia **[!UICONTROL Elenco]** è l’interfaccia predefinita per Connessioni. Se non è selezionata, seleziona la scheda **[!UICONTROL Elenco]** per accedere all’interfaccia.
 
-L’interfaccia **[!UICONTROL Elenco]** mostra una tabella di tutte le connessioni disponibili.
-
-![vista a elenco](assets/list-view.png)
+L&#39;interfaccia **[!UICONTROL List]** mostra una tabella di tutte le connessioni disponibili.
+△
+![visualizzazione elenco](assets/list-view.png)
 
 Nella tabella sono disponibili le colonne o le icone seguenti.
 
@@ -434,7 +434,7 @@ Quando una riga di set di dati viene selezionata nella tabella dei set di dati, 
 
 
 >[!CONTEXTUALHELP]
->id="connections_extendeddatacapacitiyrows"
+>id="connections_extendeddatacapacityrows"
 >title="Righe con capacità dati estesa"
 >abstract="Il numero totale di righe disponibili in un periodo antecedente ai 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale precedente a gennaio 2023."
 
@@ -460,7 +460,7 @@ Quando una riga di set di dati viene selezionata nella tabella dei set di dati, 
 
 
 >[!CONTEXTUALHELP]
->id="connections_b2b_correportablebpp"
+>id="connections_b2b_coreportablebpp"
 >title="Righe segnalabili del profilo aziendale principale"
 >abstract="Numero totale di righe del profilo aziendale da segnalare disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024."
 
