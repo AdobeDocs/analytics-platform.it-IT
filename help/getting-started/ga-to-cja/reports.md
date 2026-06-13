@@ -234,7 +234,7 @@ Trascina una di queste dimensioni dal pannello Componenti in una [[!UICONTROL ta
 
 >[!NOTE]
 >
->Poiché i browser moderni hanno ridotto i dettagli nella stringa dell&#39;agente utente, i valori completi e precisi dipendono dalla raccolta di [User-Agent Client Hints](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints) nella configurazione del Web SDK.
+>Poiché i browser moderni hanno ridotto i dettagli nella stringa dell&#39;agente utente, i valori completi e precisi dipendono dalla raccolta di [User-Agent Client Hints](https://experienceleague.adobe.com/it/docs/experience-platform/collection/use-cases/client-hints) nella configurazione del Web SDK.
 
 +++
 
