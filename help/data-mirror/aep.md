@@ -4,7 +4,6 @@ description: Come configurare schemi e set di dati per Experience Platform Data 
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
 autotag-review: '2026-05-19T07:18:47.007Z'
 TQID: 'https://experienceleague.adobe.com/nAfDMtaQvsVRAEm31fRwleirW8LaS-yS0tGTdReux0Y'
@@ -21,16 +20,14 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: 571
 ht-degree: 6%
 
 ---
 
 # Configurare Experience Platform
-
-{{release-limited-testing}}
 
 Experience Platform Data Mirror per Customer Journey Analytics richiede la corretta configurazione di diversi componenti Experience Platform:
 
@@ -109,4 +106,4 @@ Una volta completata l’impostazione del connettore di origine, viene creato un
 >
 >[Guida rapida di Data Mirror: mirroring e utilizzo dei dati relazionali](relational.md)
 >[Data Mirror (documentazione Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/data-mirror/overview)
->[Schemi relazionali (documentazione di Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational)
+>[Schemi relazionali (documentazione Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational)

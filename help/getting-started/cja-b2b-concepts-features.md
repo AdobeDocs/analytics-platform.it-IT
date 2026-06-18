@@ -23,10 +23,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+source-git-commit: 9c87ce4fb30c7d1d66ce88174443369ef44a7377
 workflow-type: tm+mt
-source-wordcount: 1485
-ht-degree: 2%
+source-wordcount: 1545
+ht-degree: 3%
 
 ---
 
@@ -95,6 +95,9 @@ Puoi anche impostare il contenitore predefinito per queste visualizzazioni nelle
 
 Segmenti, attribuzione e visualizzazioni insieme ai contenitori B2B ti supportano nelle analisi e nelle informazioni B2B approfondite.
 
+## Schemi
+
+L&#39;editor B2B di Customer Journey Analytics utilizza [Adobe Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it) per standardizzare i dati B2B e definire schemi per i dati B2B. È possibile basare gli schemi sulle [classi standard fornite in Real-time CDP B2B edition](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/schemas/b2b) oppure utilizzare classi e schemi personalizzati. Gli articoli [casi d&#39;uso](/help/use-cases/b2b/b2b-edition/use-cases-overview.md) utilizzano classi e schemi di Real-time CDP B2B edition. Tuttavia, per utilizzare le classi e gli schemi standard non è necessaria una licenza di Real-time CDP B2B edition.
 
 ## Set di dati
 
