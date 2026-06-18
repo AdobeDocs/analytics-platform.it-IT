@@ -88,7 +88,7 @@ La differenza tra identità primaria e chiave primaria introduce un modello di r
 
 ## Differenze di governance
 
-In [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition) XDM e concetti sottostanti come [gruppi di campi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field) definito all&#39;interno di un gruppo di campi propaga le etichette in tutti i set di dati in cui viene utilizzato il gruppo di campi. Ad esempio, un campo e-mail `emailID` in un gruppo di campi `identities`, è etichettato come lo stesso in tutti i set di dati in cui viene utilizzato il gruppo di campi `identities`.
+In [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition) XDM e concetti sottostanti come [gruppi di campi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#field-group), un [campo](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#field) definito all&#39;interno di un gruppo di campi propaga le etichette in tutti i set di dati in cui viene utilizzato il gruppo di campi. Ad esempio, un campo e-mail `emailID` in un gruppo di campi `identities`, è etichettato come lo stesso in tutti i set di dati in cui viene utilizzato il gruppo di campi `identities`.
 
 In uno schema relazionale, il nome di una colonna è indipendente. Una colonna denominata `email` nella tabella `customers` è indipendente e distinta da una colonna denominata `email` in una tabella `prospects`. Questo comportamento implica che le etichette (come le etichette di utilizzo DULE, i criteri) devono essere applicate singolarmente ai campi nei set di dati con mirroring. In base all&#39;esempio precedente, è necessario applicare etichette sia al campo `email` nel set di dati `customers` che al campo `email` nel set di dati `prospects`.
 
@@ -109,9 +109,9 @@ Gli schemi relazionali hanno le seguenti considerazioni in quanto si riferiscono
 
 Le considerazioni seguenti si applicano alle chiavi di sistema e ai campi:
 
-* Il descrittore della chiave primaria, del descrittore della versione e della marca temporale deve essere un campo di livello principale nello schema XDM relazionale. Utilizza [mappatura campi](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante l&#39;acquisizione per supportare questo requisito.
-* È possibile omettere i campi di origine appropriati durante la [fase di mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
+* Il descrittore della chiave primaria, del descrittore della versione e della marca temporale deve essere un campo di livello principale nello schema XDM relazionale. Utilizza [mappatura campi](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema) durante l&#39;acquisizione per supportare questo requisito.
+* È possibile omettere i campi di origine appropriati durante la [fase di mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/dataflow/databases#map-data-fields-to-an-xdm-schema).
 
 ## Dimensione batch dei dati con mirroring
 
-Per qualsiasi set di dati con mirroring configurato come parte di una connessione, è necessario assicurarsi che ogni batch per acquisire i dati per il set di dati con mirroring non superi i 100 GB. Per ulteriori dettagli, vedi [Guardrail per l&#39;acquisizione batch](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"}.
+Per qualsiasi set di dati con mirroring configurato come parte di una connessione, è necessario assicurarsi che ogni batch per acquisire i dati per il set di dati con mirroring non superi i 100 GB. Per ulteriori dettagli, vedi [Guardrail per l&#39;acquisizione batch](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/guardrails#guardrails-for-batch-ingestion){target="_blank"}.
