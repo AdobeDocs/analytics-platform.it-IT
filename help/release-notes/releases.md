@@ -5,23 +5,15 @@ exl-id: aebe709a-4cc7-4197-86e9-b26ab2874375
 feature: Release Notes
 autotag-review: '2026-05-19T09:19:46.530Z'
 TQID: 'https://experienceleague.adobe.com/nNV-qOa3LVmHUMLf-R2MwNHY0N67hxG2DWbVrpA-ZpI'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: a8e39571-4463-4aa3-8b3f-4e2341ecf3b3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: a8e39571-4463-4aa3-8b3f-4e2341ecf3b3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 402
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,19 +23,19 @@ I rilasci di Customer Journey Analytics funzionano su un modello di distribuzion
 
 ## Strategia di rilascio
 
-[!UICONTROL Analysis Workspace] utilizza i flag di funzionalità (noti anche come &quot;interruttori&quot;) per controllare la visibilità delle nuove funzionalità, consentendo test su scala controllati prima del rilascio completo. Questa strategia di rilascio include le seguenti fasi:
+[!UICONTROL Analysis Workspace] utilizza i flag di funzione (noti anche come “pulsanti di attivazione”) per verificare la visibilità delle nuove funzioni, consentendo test su scala controllati prima del rilascio completo. Questa strategia di rilascio include le seguenti fasi:
 
 * **Test limitati**: un rilascio graduale inizia con il test da parte di utenti Adobe interni. Viene quindi reso disponibile a un piccolo gruppo di account cliente per garantire che la funzione soddisfi le loro esigenze e aspettative.
 
 * **Inizio del rollout**: il rollout di un rilascio graduale inizia con la fase di test limitato. La versione viene quindi scalata dallo 0% al 100% di disponibilità ai clienti nel corso di un paio di mesi. Il rollout graduale avviene a livello di organizzazione CX Enterprise, in modo che tutti gli utenti autorizzati in un’organizzazione ricevano la stessa esperienza.
 
-* **Disponibilità generale (GA)**: la funzionalità è disponibile per il 100% delle organizzazioni CX Enterprise autorizzate e il rilascio è completo.
+* **Disponibilità generale (GA, General Availability)**: la funzione è disponibile per il 100% delle organizzazioni CX Enterprise autorizzate e il rilascio è completo.
 
 Con ogni rilascio di funzioni, la timeline da RTP a GA può variare. L’obiettivo è mantenere i rilasci brevi, in modo che entro 2 mesi dall’inizio del rilascio (RTP) una funzione sarà in GA.
 
 ## Flag di funzioni
 
-I flag di funzioni consentono di controllare la visibilità delle nuove funzioni durante la fase di rilascio. Adobe consiglia di consentire `app.launchdarkly.com` attraverso il firewall della tua organizzazione per un’esperienza ottimale durante i rilasci. Questi contrassegni vengono rimossi dopo che una funzionalità viene rilasciata a tutti. Consulta[&#x200B; Domini utilizzati da Customer Journey Analytics](../technotes/domains.md) per maggiori informazioni.
+I flag di funzioni consentono di controllare la visibilità delle nuove funzioni durante la fase di rilascio. Adobe consiglia di consentire `app.launchdarkly.com` attraverso il firewall della tua organizzazione per un’esperienza ottimale durante i rilasci. Questi contrassegni vengono rimossi dopo che una funzionalità viene rilasciata a tutti. Consulta[ Domini utilizzati da Customer Journey Analytics](../technotes/domains.md) per maggiori informazioni.
 
 Puoi visualizzare i flag di funzioni attivi in qualsiasi momento, da **Aiuto > Informazioni su Workspace > Flag di funzioni attivi**.
 
