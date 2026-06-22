@@ -22,10 +22,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 236959f0e060e35a285777f40b8d1ef90855ed5c
+source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
 workflow-type: tm+mt
-source-wordcount: 1438
-ht-degree: 27%
+source-wordcount: 1215
+ht-degree: 29%
 
 ---
 
@@ -74,18 +74,11 @@ Le miniature vengono visualizzate quando passi il cursore su un punto dati in un
 
 ### Linee
 
-{{release-limited-testing-section}}
-
 ![Miniature Content Analytics per la riga](/help/content-analytics/assets/aca-line-thumbnail.png)
 
 Le miniature vengono visualizzate quando passi il cursore su un punto dati in una [riga](/help/analysis-workspace/visualizations/line.md).
 
 ## Anteprime
-
->[!AVAILABILITY]
->
->Le visualizzazioni a barre e a dispersione descritte in questa sezione sono in Test limitati e potrebbero non essere disponibili nel tuo ambiente. Questa nota viene rimossa quando la funzionalità è generalmente disponibile. Per informazioni sul processo di rilascio di Customer Journey Analytics, consulta [Rilascio delle funzioni di Customer Journey Analytics](/help/release-notes/releases.md).
->
 
 È possibile aprire una finestra a comparsa di anteprima. A tale scopo, effettua le seguenti operazioni:
 
@@ -129,7 +122,7 @@ Un progetto **[!UICONTROL Panoramica di Content Analytics]** viene aperto in [An
 
 I quattro pannelli sono:
 
-* **Quale contenuto offre le prestazioni migliori?**
+* **Quale contenuto offre prestazioni migliori?**
 Questo pannello identifica le esperienze e le risorse che determinano il coinvolgimento e la conversione. Le esperienze sono pagine web complete acquisite in un momento specifico, oppure una combinazione di testo, risorse e chiamate all’azione definite in un’app mobile.
 
    * **Esperienze**.
@@ -149,12 +142,12 @@ Questo pannello identifica le esperienze e le risorse che determinano il coinvol
 Una visualizzazione [summary change](/help/analysis-workspace/visualizations/summary-number-change.md) che mostra Asset CTR.
       * **Conversione in alto delle risorse**
 Visualizzazione [a barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra le principali risorse in conversione in base alla metrica di conversione selezionata.
-      * **Risorse con prestazioni migliori**
+      * **Risorse dalle prestazioni migliori**
 Una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluse [miniature](#thumbnails) e [anteprime](#previews)) per le risorse con prestazioni migliori.
 Assets: visualizzazioni rispetto alla conversione.
 Visualizzazione [grafico a dispersione](/help/analysis-workspace/visualizations/scatterplot.md) che mostra un grafico a dispersione delle visualizzazioni delle risorse rispetto alle conversioni delle risorse.
 
-* **Quali attributi delle risorse contribuiscono alle conversioni?**
+* **Quali attributi di risorsa contribuiscono alle conversioni?**
 Content Analytics utilizza AI e GenAI per assegnare automaticamente metadati e attributi, come soggetti, scene e colori di primo piano, a ogni risorsa.
 
    * **Primi attributi di conversione risorse**
@@ -190,10 +183,10 @@ Una visualizzazione [riga](/help/analysis-workspace/visualizations/line.md) che 
    * **Parole chiave esperienza**
 Una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) che mostra le parole chiave dell&#39;esperienza principale in base alla metrica di conversione selezionata.
 
-* **Dove vengono visualizzate le risorse sul sito?**
+* **Dove vengono visualizzate le risorse nel sito?**
 Questa tabella a forma libera specifica dove vengono visualizzate le risorse più visualizzate. Utilizza questa analisi per identificare le pagine con prestazioni elevate e ottimizzare il posizionamento delle risorse.
 
-   * **Dove si trovano le risorse più visualizzate?**
+   * **Dove vengono visualizzate le risorse più visualizzate?**
 Puoi suddividere qualsiasi risorsa per dimensioni per capire meglio dove viene visualizzata l’immagine.
 
      Nell&#39;esempio [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluse [miniature](#thumbnails) e [anteprime](#previews)) viene utilizzato **[!UICONTROL ID percezione risorsa]** anziché [!UICONTROL ID risorsa]. A volte, la stessa esatta immagine può essere duplicata sul sito con un URL immagine diverso. L&#39;attributo [!UICONTROL ID percezione risorsa] consente di raggruppare questi duplicati in un singolo ID.
@@ -206,5 +199,5 @@ Puoi suddividere qualsiasi risorsa per dimensioni per capire meglio dove viene v
 >[!MORELIKETHIS]
 >
 >[Componenti Content Analytics](components.md)
->[Utilizzare i modelli](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>[Usa modelli](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >
