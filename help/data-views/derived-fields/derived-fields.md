@@ -22,10 +22,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 536a1c7151521b26fccd486704d5c9426b039f53
 workflow-type: tm+mt
-source-wordcount: 10489
-ht-degree: 99%
+source-wordcount: 10387
+ht-degree: 97%
 
 ---
 
@@ -349,7 +349,7 @@ Per utilizzare il modello, è necessario specificare i parametri corretti per og
 
 ### Ottieni parametro della stringa di query {#querystring}
 
-Questo modello di funzione estrae i valori della stringa di query.
+Questo modello di funzione estrae i valori della stringa di query per il parametro di query specificato. Il parametro query fa distinzione tra maiuscole e minuscole. Inserisci una funzione [Minuscola](#lowercase) per garantire che vengano considerate tutte le varianti maiuscole e minuscole del parametro di query.
 
 +++ Dettagli
 
@@ -512,7 +512,7 @@ Applica i condizionali, in base a criteri definiti da uno o più campi. Tali cri
 
 | Tipo di dati di input | Input | Operatori inclusi | Limitazioni | Output |
 |---|---|---|---|---|
-| <ul><li>Stringa</li><li>Numerico</li><li>Data</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] contenitore:</p><ul><li>[!UICONTROL Valore]</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul><li>[!UICONTROL Criterio] (consulta operatori inclusi, in base al tipo di valore selezionato)</li></ul></li><li>[!UICONTROL Imposta quindi il valore su], [!UICONTROL altrimenti imposta il valore su]:</p><ul><li>[!UICONTROL Valore]</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></ul></li></ul> | <p>Stringhe</p><ul><li>È uguale a</li><li>È uguale a qualsiasi termine</li><li>Contiene la frase</li><li>Contiene qualsiasi termine</li><li>Contiene tutti i termini</li><li>Inizia con</li><li>Inizia con qualsiasi termine</li><li>Termina con</li><li>Termina con qualsiasi termine</li><li>Non è uguale a</li><li>Non è uguale a nessun termine</li><li>Non contiene la frase</li><li>Non contiene alcun termine</li><li>Non contiene tutti i termini</li><li>Non inizia con</li><li>Non inizia con nessun termine</li><li>Non termina con</li><li>Non termina con nessun termine</li><li>È impostato</li><li>Non è impostato</li></ul><p>Numerico</p><ul><li>È uguale a</li><li>Non è uguale a</li><li>È maggiore di</li><li>È maggiore di o uguale a</li><li>È minore di</li><li>È minore di o uguale a</li><li>È impostato</li><li>Non è impostato</li></ul><p>Date</p><ul><li>È uguale a</li><li>Non è uguale a</li><li>È successivo a</li><li>È successivo o uguale a</li><li>È prima di</li><li>È precedente o uguale a</li><li>È impostato</li><li>Non è impostato</li></ul> | <ul><li>5 funzioni per campo derivato</li><li>200 [operatori](#operators) per campo derivato. Un esempio di un singolo operatore è “Il dominio di riferimento contiene google”. </li></ul> | <p>Nuovo campo derivato</p> |
+| <ul><li>Stringa</li><li>Numerico</li><li>Data</li></ul> | <ul><li>[!UICONTROL If], [!UICONTROL Else If] contenitore:</p><ul><li>[!UICONTROL Valore]</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul><li>[!UICONTROL Criterio] (consulta operatori inclusi, in base al tipo di valore selezionato)</li></ul></li><li>[!UICONTROL Imposta quindi il valore su], [!UICONTROL altrimenti imposta il valore su]:</p><ul><li>[!UICONTROL Valore]</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></ul></li></ul> | <p>Stringhe</p><ul><li>È uguale a</li><li>È uguale a qualsiasi termine</li><li>Contiene la frase</li><li>Contiene qualsiasi termine</li><li>Contiene tutti i termini</li><li>Inizia con</li><li>Inizia con qualsiasi termine</li><li>Termina con</li><li>Termina con qualsiasi termine</li><li>Non è uguale a</li><li>Non è uguale a nessun termine</li><li>Non contiene la frase</li><li>Non contiene alcun termine</li><li>Non contiene tutti i termini</li><li>Non inizia con</li><li>Non inizia con nessun termine</li><li>Non termina con</li><li>Non termina con nessun termine</li><li>È impostata</li><li>Non è impostata</li></ul><p>Numerico</p><ul><li>È uguale a</li><li>Non è uguale a</li><li>È maggiore di</li><li>È maggiore di o uguale a</li><li>È minore di</li><li>È minore di o uguale a</li><li>È impostata</li><li>Non è impostata</li></ul><p>Date</p><ul><li>È uguale a</li><li>Non è uguale a</li><li>È successivo a</li><li>È successivo o uguale a</li><li>È precedente a</li><li>È precedente o uguale a</li><li>È impostata</li><li>Non è impostata</li></ul> | <ul><li>5 funzioni per campo derivato</li><li>200 [operatori](#operators) per campo derivato. Un esempio di un singolo operatore è “Il dominio di riferimento contiene google”. </li></ul> | <p>Nuovo campo derivato</p> |
 
 {style="table-layout:auto"}
 
@@ -755,8 +755,8 @@ Definisce un insieme di valori che vengono sostituiti dai valori corrispondenti 
 
 ## Caso d’uso 1 {#classify-uc1}
 
-Disponi di un file CSV che include una colonna chiave per `hotelID` e una o più colonne aggiuntive associate a `hotelID`: `city`, `rooms`, `hotel name`.
-Stai inserendo [!DNL Hotel ID] in una dimensione, ma desideri creare una dimensione [!DNL Hotel Name] derivata da `hotelID` nel file CSV.
+Si dispone di un file CSV che include una colonna chiave per `hotelID` e una o più colonne aggiuntive associate a `hotelID`: `city`, `rooms`, `hotel name`.
+Stai raccogliendo [!DNL Hotel ID] in una dimensione ma desideri creare una dimensione [!DNL Hotel Name] derivata da `hotelID` nel file CSV.
 
 **Struttura e contenuto del file CSV**
 
@@ -978,7 +978,7 @@ Restituisce la differenza tra due date o campi data-ora.
 
 | Tipo di dati di input | Input | Operatori inclusi | Limitazioni | Output |
 |---|---|---|---|---|
-| <ul><li>Data</li><li>Data e ora</li></ul> | <ul><li>[!UICONTROL Ambito]<ul><li>Evento</li><li>Sessione</li><li>Persona</li></ul></li><li>[!UICONTROL Valore]:<ul><li>Data</li><li>Data e ora</li><li>Data statica (immessa dall&#39;utente)</li><li>Data e ora statiche (immesse dall&#39;utente)</li><li>Data dinamica<ul><li>Oggi</li></ul></li><li>Data e ora dinamiche<ul><li>Adesso</li></ul></li></ul></li><li>[!UICONTROL Granularità]:<ul><li>Seconds</li><li>Minuti</li><li>Ore</li><li>Giorni</li><li>Settimane</li><li>Mesi</li><li>trimestri</li><li>Anni</li></ul></li><li>Per ogni valore Data o Data-ora restituito:<ul><li>Primo (all’interno della sessione o della persona)</li><li>Ultimo (all’interno della sessione o della persona)</li></ul></li></ul> | <p>N/D</p> | <p>2 funzioni per campo derivato</p> | <p>Nuovo campo derivato</p> |
+| <ul><li>Data</li><li>Data e ora</li></ul> | <ul><li>[!UICONTROL Ambito]<ul><li>Evento</li><li>Sessione</li><li>Persona</li></ul></li><li>[!UICONTROL Valore]:<ul><li>Data</li><li>Data e ora</li><li>Data statica (immessa dall&#39;utente)</li><li>Data e ora statiche (immesse dall&#39;utente)</li><li>Data dinamica<ul><li>Oggi</li></ul></li><li>Data e ora dinamiche<ul><li>Adesso</li></ul></li></ul></li><li>[!UICONTROL Granularità]:<ul><li>Seconds</li><li>Minutes</li><li>Ore</li><li>Days</li><li>Weeks</li><li>Months</li><li>Trimestri</li><li>Anni</li></ul></li><li>Per ogni valore Data o Data-ora restituito:<ul><li>Primo (all’interno della sessione o della persona)</li><li>Ultimo (all’interno della sessione o della persona)</li></ul></li></ul> | <p>N/D</p> | <p>2 funzioni per campo derivato</p> | <p>Nuovo campo derivato</p> |
 
 {style="table-layout:auto"}
 
@@ -1014,8 +1014,8 @@ In alternativa, puoi utilizzare l&#39;intervallo di date dinamico Adesso per cal
 
 Desideri comprendere il tempo di ricerca (in minuti) che precede l&#39;ordine di un cliente all&#39;interno di una sessione.
 
-Definisci un nuovo campo derivato `Time Between Search And Order In Minutes` che è il risultato di due funzioni [[!UICONTROL CASE WHEN]](#case-when) per definire i valori [!UICONTROL Orario della ricerca] e [!UICONTROL Orario dell&#39;ordine].
-Quindi utilizzi questi due valori per calcolare la differenza con una funzione [!UICONTROL CALCOLO DELLA DATA] con [!UICONTROL Ambito] impostato su [!UICONTROL Sessione], valori impostati su [!UICONTROL Orario della ricerca] e [!UICONTROL Orario dell&#39;ordine] e [!UICONTROL Granularità di output] impostato su [!UICONTROL Minuto]. Per entrambi i valori selezioni [!UICONTROL Restituisci il primo] per avere la certezza che vengano restituiti i primi riferimenti di [!UICONTROL Orario della ricerca] e [!UICONTROL Orario dell&#39;ordine].
+Definisci un nuovo campo derivato `Time Between Search And Order In Minutes` che è il risultato di due funzioni [[!UICONTROL CASE WHEN]](#case-when) per definire i valori [!UICONTROL Tempo di ricerca] e [!UICONTROL Tempo ordine].
+Quindi puoi utilizzare questi due valori per calcolare la differenza con una funzione [!UICONTROL DATE MATH] con [!UICONTROL Scope] impostato su [!UICONTROL Session], valori impostati su [!UICONTROL Search Time] e [!UICONTROL Order Time] e [!UICONTROL Output granularity] impostato su [!UICONTROL Minute]. Per entrambi i valori si seleziona [!UICONTROL Restituisci il primo] per assicurarsi che vengano restituiti i primi [!UICONTROL Tempo di ricerca] e [!UICONTROL Orario ordine].
 
 ![Schermata della regola Calcolo della data 3](assets/datemath-3.png)
 
@@ -1287,7 +1287,7 @@ Puoi inserire rapidamente una funzione [!UICONTROL Ricerca] nel generatore di re
 1. Seleziona **[!UICONTROL Campi dello schema]** dal selettore.
 1. Seleziona ![Icona campo schema](assets/Smock_Folder_18_N.svg) **[!UICONTROL Set di dati di ricerca]**.
 1. Seleziona il set di dati di ricerca e trova il campo da utilizzare per la ricerca.
-1. Trascina e rilascia il campo di ricerca in uno qualsiasi dei campi di input disponibili per una funzione (ad esempio, Caso When). Quando è valido, una casella blu, con etichetta **[!UICONTROL + Aggiungi]**, consente di rilasciare il campo e inserire automaticamente una funzione di ricerca prima della funzione su cui hai rilasciato il campo di ricerca. La funzione di ricerca inserita viene compilata automaticamente con i valori rilevanti per tutti i campi.
+1. Trascina e rilascia il campo di ricerca in uno qualsiasi dei campi di input disponibili per una funzione (ad esempio, Caso Quando). Quando è valida, una casella blu, etichettata **[!UICONTROL + Aggiungi]**, ti consente di rilasciare il campo e inserire automaticamente una funzione di ricerca prima della funzione su cui hai rilasciato il campo di ricerca. La funzione di ricerca inserita viene compilata automaticamente con i valori rilevanti per tutti i campi.
    ![Trascinamento ricerca](assets/lookup-drag.png)
 
 +++
@@ -1409,7 +1409,7 @@ Definisci un campo derivato `Corrected Annual Revenue`. Utilizzi la funzione [!U
 
 Per creare una formula:
 
-1. Inizia semplicemente a digitare nel campo Formula e i campi numerici che corrispondono a ciò che digiti verranno visualizzati in un menu a comparsa. In alternativa, puoi trascinare un campo numerico dai campi disponibili nel riquadro a sinistra.
+1. È sufficiente iniziare a digitare nel campo Formula e nei campi numerici che corrispondono a ciò che si digita verrà visualizzato in un menu a comparsa. In alternativa, puoi trascinare un campo numerico dai campi disponibili nel riquadro a sinistra.
    ![Matematica: Ulteriori informazioni 1](assets/math-more-info-1.png)
 
 1. Aggiungi l’operando (ad esempio `*` per moltiplicare) seguito da un altro campo o da un valore statico. Puoi utilizzare le parentesi per definire formule più complesse.
@@ -1605,7 +1605,7 @@ Sostituisce un valore di un campo utilizzando un’espressione regolare in un nu
 
 | Tipo di dati di input | Input | Operatori inclusi | Limite | Output |
 |---|---|---|---|---|
-| <ul><li>Stringa</li><li>Numerico</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></ul><ul><li>[!UICONTROL Regex]:</li><ul><li>Stringa</li></ul></li><li>[!UICONTROL Formato di output]:<ul><li>Stringa</li></ul></ul><ul><li>Distinzione maiuscole/minuscole</li><ul><li>Booleani</li></ul></li></ul></li> | <p>N/D</p> | <p>1 funzione per campo derivato</p> | <p>Nuovo campo derivato</p> |
+| <ul><li>Stringa</li><li>Numerico</li></ul> | <ul><li>[!UICONTROL Campo]:</li><ul><li>Regole</li><li>Campi standard</li><li>Campi</li></ul></ul><ul><li>[!UICONTROL Regex]:</li><ul><li>Stringa</li></ul></li><li>[!UICONTROL Formato di output]:<ul><li>Stringa</li></ul></ul><ul><li>Maiuscole/minuscole</li><ul><li>Booleani</li></ul></li></ul></li> | <p>N/D</p> | <p>1 funzione per campo derivato</p> | <p>Nuovo campo derivato</p> |
 
 {style="table-layout:auto"}
 
@@ -2133,7 +2133,7 @@ Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in ge
 
 | Funzione | Limitazioni |
 |---|---|
-| <p>Case When</p> | <ul><li>5 casi di funzioni When per campo derivato</li><li>200 [operatori](#operators) per campo derivato</li></ul> |
+| <p>Caso When</p> | <ul><li>5 casi di funzioni When per campo derivato</li><li>200 [operatori](#operators) per campo derivato</li></ul> |
 | <p>Classifica</p> | <ul><li>5 funzioni Classifica per campo derivato</li><li>200 [operatori](#operators) per campo derivato</li></ul> |
 | <p>Concatena</p> | <ul><li>2 funzioni Concatena per campo derivato</li><li>3 valori per funzione Concatena</ul> |
 | <p>Calcolo della data</p> | <ul><li>2 funzioni di calcolo della data per campo derivato</li></ul> |
@@ -2141,16 +2141,16 @@ Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in ge
 | <p>Profondità</p> | <ul><li>3 funzioni Profondità per campo derivato</li></ul> |
 | <p>Trova e sostituisci</p> | <ul><li>2 funzioni Trova e sostituisci per campo derivato</li></ul> |
 | <p>Ricerca</p> | <ul><li>5 funzioni Ricerca per campo derivato</li></ul> |
-| <p>Minuscolo</p> | <ul><li>2 funzioni In minuscolo per campo derivato</li></ul> |
+| <p>In minuscolo</p> | <ul><li>2 funzioni In minuscolo per campo derivato</li></ul> |
 | <p>Matematica</p> | <ul><li>25 operazioni per campo derivato</li><li>5 funzioni matematiche per campo derivato</li></ul> |
 | <p>Unisci campi</p> | <ul><li>2 funzioni Unisci campi per campo derivato</li></ul> |
 | <p>Successivo o Precedente</p> | <ul><li>3 funzioni Successivo o Precedente per campo derivato</li></ul> |
-| <p>Sostituzione regex</p> | <ul><li>1 funzione Sostituzione Regex per campo derivato</li></ul> |
-| <p>Dividi</p> | <ul><li>2 funzioni Suddivisione per campo derivato</li><li>Vengono restituiti un massimo di 10 valori</ul> |
+| <p>Sostituzione Regex</p> | <ul><li>1 funzione Sostituzione Regex per campo derivato</li></ul> |
+| <p>Suddivisione</p> | <ul><li>2 funzioni Suddivisione per campo derivato</li><li>Vengono restituiti un massimo di 10 valori</ul> |
 | <p>Riepilogo</p> | <ul><li>3 funzioni Riepilogo per campo derivato</li></ul> |
 | <p>Taglia</p> | <ul><li>1 funzione Taglia per campo derivato</li></ul> |
 | <p>Converti tipo</p> | <ul><li>3 funzioni Converti tipo per campo derivato</li></ul> |
-| <p>Parsing URL</p> | <ul><li>5 Funzioni di analisi URL per campo derivato</li></ul> |
+| <p>Analisi URL</p> | <ul><li>5 Funzioni di analisi URL per campo derivato</li></ul> |
 
 {style="table-layout:auto"}
 
