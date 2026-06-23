@@ -27,16 +27,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
+source-git-commit: 9d0d572a176bf61f2b02ba1c98f0fc4202797692
 workflow-type: tm+mt
-source-wordcount: 229
-ht-degree: 51%
+source-wordcount: 298
+ht-degree: 39%
 
 ---
 
 # Note sulla versione corrente di Customer Journey Analytics (giugno 2026)
 
-**Ultimo aggiornamento**: 22 giugno 2026
+**Ultimo aggiornamento**: 23 giugno 2026
 
 Queste note sulla versione coprono il periodo di rilascio di giugno 2026. I rilasci di Adobe Customer Journey Analytics funzionano su un [modello di consegna continua](releases.md) che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -45,6 +45,7 @@ Queste note sulla versione coprono il periodo di rilascio di giugno 2026. I rila
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | -----------|-----------|-----------|
 | **Data Mirror** <br/>[Data Mirror](/help/data-mirror/data-mirror.md) è una funzionalità di Experience Platform che consente l&#39;acquisizione delle modifiche a livello di riga (acquisizione dei dati di modifica) da soluzioni data warehouse esterne ([!DNL Snowflake], [!DNL Azure Databricks] e [!DNL Google BigQuery]) in Customer Journey Analytics utilizzando schemi relazionali. Mantiene le relazioni tra i dati, applica l’univocità e supporta il controllo delle versioni senza richiedere processi ETL (Extract, Transform, and Load) a monte. | 25 marzo 2026 | 17 giugno 2026 |
+| **Convalida i dati nell&#39;Assistente di intelligenza artificiale** <br/>Puoi utilizzare l&#39;Assistente di intelligenza artificiale per [convalidare la qualità dei tuoi set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/data-validation). Grazie alla tecnologia di Agent Orchestrator, la funzionalità di convalida dei dati può eseguire convalide statistiche e semantiche sui set di dati, analizzare i campi dei set di dati, identificare i problemi di qualità dei dati e restituire riepiloghi in linguaggio naturale con informazioni fruibili. | | 22 giugno 2026 |
 
 ### Correzioni in Customer Journey Analytics
 
