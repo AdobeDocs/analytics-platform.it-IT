@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 4d42c345b98683ef7d4b802262bd7f0f24b45692
 workflow-type: tm+mt
 source-wordcount: 5868
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -435,64 +435,64 @@ Quando una riga di set di dati viene selezionata nella tabella dei set di dati, 
 
 >[!CONTEXTUALHELP]
 >id="connections_extendeddatacapacityrows"
->title="Righe con capacità dati estesa"
+>title="Righe di capacità di dati estesa"
 >abstract="Il numero totale di righe disponibili in un periodo antecedente ai 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale precedente a gennaio 2023."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_extendeddatacapacityrows"
->title="Righe con capacità dati estesa"
+>title="Righe di capacità di dati estesa"
 >abstract="Le righe di capacità dati estesa sono valori di snapshot, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
 
 >[!CONTEXTUALHELP]
 >id="connections_aca_corereportablerows"
->title="Righe Content Analytics principali da segnalare"
->abstract="Numero totale di righe specifiche di Content Analytics disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024."
+>title="Righe di base per il reporting di Content Analytics"
+>abstract="Il numero totale di righe specifiche di Content Analytics disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024."
 
 >[!CONTEXTUALHELP]
 >id="connections_usage_aca_monthlyreportablerows"
->title="Righe Content Analytics mensili"
->abstract="Tiene traccia del numero di righe Content Analytics disponibili per il reporting. Le righe da riportare sono le righe acquisite meno quelle ignorate ed eliminate durante l’acquisizione. Le righe da riportare fungono da metrica chiave per la fatturazione e l’utilizzo dei dati."
+>title="Righe mensili di Content Analytics"
+>abstract="Traccia il numero di righe di Content Analytics disponibili per il reporting. Le righe da riportare sono le righe acquisite meno quelle ignorate ed eliminate durante l’acquisizione. Le righe da riportare fungono da metrica chiave per la fatturazione e l’utilizzo dei dati."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_aca_corereportablerows"
->title="Righe Content Analytics principali da segnalare"
->abstract="Le righe principali dei report di Content Analytics sono valori di snapshot, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
+>title="Righe di base per il reporting di Content Analytics"
+>abstract="Le righe di base per il reporting di Content Analytics presentano valori istantanei non totali aggregati. Questi valori si aggiornano in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
 
 
 >[!CONTEXTUALHELP]
 >id="connections_b2b_coreportablebpp"
->title="Righe segnalabili del profilo aziendale principale"
->abstract="Numero totale di righe del profilo aziendale da segnalare disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024."
+>title="Righe di base per il reporting di persone aziendali"
+>abstract="Il numero totale di righe per il reporting del profilo aziendale disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024."
 
 >[!CONTEXTUALHELP]
 >id="connections_b2b_historicalreportablebpp"
->title="Righe cronologiche segnalabili del profilo aziendale"
->abstract="Numero totale di righe del profilo aziendale da segnalare disponibili in un periodo più vecchio di 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale precedente a gennaio 2023."
+>title="Righe storiche per il reporting del profilo aziendale"
+>abstract="Il numero totale di righe per il reporting del profilo aziendale disponibili in un periodo antecedente ai 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale precedente a gennaio 2023."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_corereportablebpp"
->title="Righe segnalabili del profilo aziendale di base"
->abstract="Le righe segnalabili del profilo aziendale di base sono valori snapshot, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
+>title="Righe di base per il reporting del profilo aziendale"
+>abstract="Le righe di base per il reporting del profilo aziendale presentano valori istantanei, non totali aggregati. Questi valori si aggiornano in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_b2b_historicalreportablebpp"
->title="Righe cronologiche segnalabili del profilo aziendale"
->abstract="Le righe segnalabili cronologiche del profilo aziendale sono valori di snapshot, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
+>title="Righe storiche per il reporting del profilo aziendale"
+>abstract="Le righe storiche per il reporting del profilo aziendale presentano valori ottenuti istantanei, non totali aggregati. Questi valori si aggiornano in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
 
 >[!CONTEXTUALHELP]
 >id="connections_monthlymediastarts"
->title="Inizio media mensile"
->abstract="Il numero totale di media mensili che iniziano a essere disponibili negli ultimi 13 mesi per il mese in corso, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024, il numero mostra il totale degli avvii dei contenuti multimediali disponibili con una marca temporale dell’evento da gennaio 2023 a gennaio 2024."
+>title="Avvii mensili dei file multimediali"
+>abstract="Il numero totale di avvii mensili dei file multimediali disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale di avvii dei file multimediali disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_monthlymediastarts"
->title="Inizio media mensile"
->abstract="Gli avvii mensili dei file multimediali sono valori di istantanea, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
+>title="Avvii mensili dei file multimediali"
+>abstract="Gli avvii mensili dei file multimediali presentano valori istantanei, non totali aggregati. Questi valori si aggiornano in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
 
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_aca_monthlyreportablerows"
->title="Righe Content Analytics mensili"
+>title="Righe mensili di Content Analytics"
 >abstract="Le righe mensili di Content Analytics sono valori di snapshot, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
 
 
