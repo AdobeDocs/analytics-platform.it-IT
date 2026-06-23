@@ -25,10 +25,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: e557971b741732dae55ba56ee4a44c039a5e3d78
 workflow-type: tm+mt
-source-wordcount: 4111
-ht-degree: 56%
+source-wordcount: 4177
+ht-degree: 55%
 
 ---
 
@@ -546,6 +546,13 @@ Facoltativamente, puoi specificare nella sezione **[!UICONTROL Overrides di inte
 1. Abilita **[!UICONTROL Configurare le sostituzioni di intestazione]**.
 1. Immetti il **[!UICONTROL nome intestazione]**. Ad esempio: `x-asset-service`.
 1. Immetti il **[!UICONTROL valore intestazione]**. Qualsiasi valore specificato è segreto e non visibile nell&#39;interfaccia utente (a meno che non si selezioni esplicitamente di divulgare ![Visibilità](/help/assets/icons/Visibility.svg) il valore durante l&#39;input).
+
+
+>[!CONTEXTUALHELP]
+>id="aca_onboarding_paidmedia_adplatforms_nosourceconnectors"
+>title="Nessun connettore di origine"
+>abstract="I file multimediali a pagamento richiedono i connettori di origine di Experience Platform per gli editori di annunci. In questa sandbox non è disponibile alcun connettore Google Ads o Meta Ads. Configura uno o più di questi connettori nell&#39;interfaccia **[!UICONTROL Experience Platform]** > **[!UICONTROL Sources]** e torna a questo passaggio per continuare la configurazione di Content Analytics paid media."
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/advertising/ads" text="Origine Google Ads"
 
 #### Salva {#web-save}
 
