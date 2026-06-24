@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e557971b741732dae55ba56ee4a44c039a5e3d78
+source-git-commit: 6af3e9063dc192814c888e786ca61ff1703aedf5
 workflow-type: tm+mt
 source-wordcount: 4177
 ht-degree: 55%
@@ -554,7 +554,7 @@ Facoltativamente, puoi specificare nella sezione **[!UICONTROL Overrides di inte
 >abstract="I file multimediali a pagamento richiedono i connettori di origine di Experience Platform per gli editori di annunci. In questa sandbox non è disponibile alcun connettore Google Ads o Meta Ads. Configura uno o più di questi connettori nell&#39;interfaccia **[!UICONTROL Experience Platform]** > **[!UICONTROL Sources]** e torna a questo passaggio per continuare la configurazione di Content Analytics paid media."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/advertising/ads" text="Origine Google Ads"
 
-#### Salva {#web-save}
+##### Salva {#web-save}
 
 Dopo aver specificato i dettagli per il canale Web, seleziona **[!UICONTROL Salva]** per salvare la configurazione. Seleziona **[!UICONTROL Annulla]** per annullare la configurazione.
 
