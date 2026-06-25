@@ -7,20 +7,14 @@ hide: true
 exl-id: 32b71016-7c53-409f-9ce4-521a40e2eb96
 autotag-review: '2026-05-19T08:44:26.806Z'
 TQID: 'https://experienceleague.adobe.com/R7c5-VutwSkyghNvwC2gZv2KUEJoa263AN0Tkdg3w4o'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 8c577ff8508f15944ced77aaf20b692c911fdd3e
 workflow-type: tm+mt
-source-wordcount: 934
+source-wordcount: 933
 ht-degree: 2%
 
 ---
@@ -45,7 +39,7 @@ I feed di dati sia in Customer Journey Analytics che in Adobe Analytics consento
 | **Metriche calcolate**<br/> | Non disponibile | Non disponibile |
 | **Modello di persistenza** | Flessibile. Le impostazioni di persistenza dalla visualizzazione dati (allocazione e scadenza) vengono applicate al momento della generazione del feed. Supporta tutte le impostazioni di allocazione disponibili in una visualizzazione dati: **Originale**, **Più recente**, **Tutto**, **Primo noto** e **Ultimo noto**. | Sono rappresentati solo i modelli di attribuzione **più recenti (ultimo contatto)** e **originali (primo contatto)**. L’allocazione lineare viene gestita come l’ultimo contatto. |
 | **Formato file di output** | Parquet<p>Supporta in modalità nativa dati nidificati e strutturati complessi. Gli elenchi di prodotti sono rappresentati come array strutturati/oggetti nidificati. </p><p>Richiede uno strumento che riconosca il Parquet per leggere, come BigQuery, Snowflake o Apache Spark.</p> | TSV<p>Righe piatte leggibili dall&#39;utente. Non supporta i dati strutturati in modo nativo; i campi complessi come gli elenchi di prodotti devono essere codificati come stringhe delimitate proprietarie che richiedono una logica di analisi personalizzata.</p> |
-| **Destinazioni di consegna** | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform, Snowflake. | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform. Supporta anche **SFTP**. |
+| **Destinazioni di consegna** | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform. | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform. Supporta anche **SFTP**. |
 
 {style="table-layout:auto"}
 
