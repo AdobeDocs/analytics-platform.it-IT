@@ -7,20 +7,14 @@ hide: true
 exl-id: 32b71016-7c53-409f-9ce4-521a40e2eb96
 autotag-review: '2026-05-19T08:44:26.806Z'
 TQID: 'https://experienceleague.adobe.com/R7c5-VutwSkyghNvwC2gZv2KUEJoa263AN0Tkdg3w4o'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 9c3546c33914feb7a00b5bb78a575dd511cabb5f
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 840107d7c99277b0d75a5344b59109c6690b0596
 workflow-type: tm+mt
-source-wordcount: 933
+source-wordcount: 954
 ht-degree: 2%
 
 ---
@@ -35,7 +29,7 @@ I feed di dati sia in Customer Journey Analytics che in Adobe Analytics consento
 | **Elaborazione dati**<br/> I dati vengono elaborati in fasi diverse, a seconda del prodotto in uso. | I dati vengono elaborati al **momento del rapporto**, pertanto molte funzionalità di reporting possono essere utilizzate per modificare i dati storici, ad esempio unione, campi derivati e segmentazione. | I dati vengono elaborati al **momento della raccolta**, pertanto le funzionalità di reporting come le regole di elaborazione e le regole VISTA non influiscono sui dati storici. |
 | **Frequenza di consegna**<br/> Determina la frequenza con cui il feed di dati viene inviato e la finestra di tempo inclusa nel feed. | **Giornaliero** (dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati) o **Orario**. | **Giornaliero** (dalla mezzanotte alla mezzanotte nel fuso orario della suite di rapporti) o **Orario**. I feed di 15 minuti sono possibili ma non disponibili per impostazione predefinita. |
 | **Risultati con arrivo in ritardo**<br/> I cui timestamp appartengono a una finestra di frequenza di consegna precedente, ma arrivano dopo che tale finestra è già trascorsa. <p>Ad esempio, gli hit in arrivo tardivo potrebbero provenire da un’app mobile che memorizza in buffer gli eventi mentre è offline e li invia quando si riconnette.</p> | L&#39;impostazione **Ritardo elaborazione** controlla per quanto tempo il sistema attende dopo la chiusura della finestra di frequenza prima di attivare l&#39;esportazione, consentendo un tempo supplementare per l&#39;arrivo dei dati ritardati. | Gli hit in arrivo possono essere **inclusi o esclusi** tramite l&#39;opzione di configurazione **Hit in arrivo ritardato**. <p>L&#39;impostazione dell&#39;**Intervallo di lookback** controlla la distanza che il sistema raggiunge per includere i dati ritardati.</p> |
-| **Risultati fuori servizio**<br/> I cui timestamp non corrispondono all&#39;ordine in cui sono stati ricevuti. | Poiché Customer Journey Analytics accetta sia dati in streaming che in batch, non c’è garanzia che gli eventi per una determinata persona arrivino in ordine di marca temporale. Customer Journey Analytics riordina i dati per marca temporale per persona al momento del rapporto. <p>L&#39;impostazione **Ritardo elaborazione** consente di ridurre gli eventi fuori servizio nell&#39;output del feed dati, dando più tempo per l&#39;arrivo dei dati batch prima dell&#39;esportazione. L’ordine degli eventi nella consegna non è garantito.</p><p>**Importante**: il consumatore finale dei dati del feed di dati deve essere in grado di gestire marche temporali non ordinate, per persona, perché l&#39;ordine degli hit nella consegna del feed di dati non è garantito.</p> | Adobe Analytics richiede che i dati arrivino in ordine per visitatore al momento della raccolta, ma l’ordine degli hit nella consegna del feed di dati non è garantito.</p> |
+| **Risultati fuori servizio**<br/> I cui timestamp non corrispondono all&#39;ordine in cui sono stati ricevuti. | Poiché Customer Journey Analytics accetta sia dati in streaming che in batch, non c’è garanzia che gli eventi per una determinata persona arrivino in ordine di marca temporale. Anche se Customer Journey Analytics riordina per marca temporale per persona, può esportare solo i dati arrivati. Ciò significa che gli hit in arrivo tardivo potrebbero essere esportati dopo gli hit con una marca temporale successiva.<p>L&#39;impostazione **Ritardo elaborazione** consente di ridurre gli eventi fuori servizio nell&#39;output del feed dati, dando più tempo per l&#39;arrivo dei dati batch prima dell&#39;esportazione. L’ordine degli eventi nella consegna non è garantito.</p><p>**Importante**: il consumatore finale dei dati del feed di dati deve essere in grado di gestire marche temporali non ordinate, per persona, perché l&#39;ordine degli hit nella consegna del feed di dati non è garantito.</p> | Adobe Analytics richiede che i dati arrivino in ordine per visitatore al momento della raccolta, ma l’ordine degli hit nella consegna del feed di dati non è garantito.</p> |
 | **Finestra di backfill**<br/> Esporta i dati storici tra due date precedenti. | Limitato alla finestra continua dei dati della connessione. | Limitato al limite di conservazione dei dati della suite di rapporti: **25 mesi** per impostazione predefinita. |
 | **Segmentazione** | I segmenti possono essere applicati ai feed di dati tramite il segmento della visualizzazione dati, un segmento specifico del feed o entrambi. | I segmenti non possono essere applicati. |
 | **Stitching** | Supportato. Abilita la risoluzione delle identità tra dispositivi, collegando gli eventi tra dispositivi a una singola persona. | Non supportato. I dati uniti non possono essere esportati tramite feed di dati di Adobe Analytics. |
