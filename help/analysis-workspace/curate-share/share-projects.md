@@ -26,9 +26,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
+source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
-source-wordcount: 2168
+source-wordcount: 2183
 ht-degree: 73%
 
 ---
@@ -102,8 +102,7 @@ Per condividere un ruolo di progetto specifico con utenti o gruppi dell’organi
 
    Oppure
 
-   Per condividere solo un singolo progetto, puoi aprire il progetto che desideri condividere, quindi selezionare **[!UICONTROL Condividi]** > **[!UICONTROL Condividi con utenti Workspace]**.
-Se sono presenti modifiche non salvate, viene richiesto di salvare prima il progetto.
+   Per condividere solo un singolo progetto, puoi aprire il progetto che desideri condividere, quindi selezionare **[!UICONTROL Condividi]** > **[!UICONTROL Condividi con utenti Workspace]**.In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il progetto.
 
    Viene visualizzata la finestra di dialogo Condividi progetto. Le sezioni [!UICONTROL **Condividi tramite collegamento**] e [!UICONTROL **Impostazioni**] della finestra di dialogo sono visibili solo quando si condivide un singolo progetto.
 
@@ -203,9 +202,9 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
 1. Scegli se abilitare la seguente opzione di sicurezza (questa opzione può essere controllata dall’amministratore di Customer Journey Analytics):
 
-   * **[!UICONTROL Richiedi autenticazione CX Enterprise]:**
+   * **[!UICONTROL Richiedi autenticazione Experience Cloud]:**
 
-     Quando questa opzione è attivata, gli unici utenti che possono accedere al progetto sono quelli che possono accedere all&#39;organizzazione CX Enterprise in cui è stato creato il progetto condiviso. Tuttavia, gli utenti con cui condividi non hanno bisogno di avere l’accesso ad Adobe Analytics.
+     Quando questa opzione è abilitata, gli unici utenti che possono accedere al progetto sono quelli che possono accedere all&#39;organizzazione CX Enterprise (Experience Cloud) in cui è stato creato il progetto condiviso. Tuttavia, gli utenti con cui condividi non hanno bisogno di avere l’accesso ad Adobe Analytics.
 
      Gli amministratori di Customer Journey Analytics possono configurare questa preferenza per l’azienda, come descritto in [Preferenze](/help/analysis-workspace/user-preferences.md). A seconda della configurazione di questa opzione da parte dell’amministratore, potrebbero verificarsi gli scenari seguenti:
 

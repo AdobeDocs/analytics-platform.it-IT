@@ -15,10 +15,10 @@ subfeature_v2:
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
+source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 27%
+source-wordcount: 590
+ht-degree: 23%
 
 ---
 
@@ -105,15 +105,7 @@ L&#39;[elenco di intervalli di date](#date-ranges-list) viene aggiornato automat
 
 * Nell&#39;elenco [[!UICONTROL Intervalli di date]](#date-ranges-list), selezionare il titolo dell&#39;intervallo di date.
 
-Utilizza il generatore di intervalli di date [1&rbrace; per modificare l&#39;intervallo di date.](/help/components/date-ranges/create.md#date-range-builder)
-
-
-
-
-Utilizza il gestore degli intervalli di date per condividere, rinominare o eliminare intervalli di date. Per raggiungere il gestore delle date:
-
-1. Accedi a [analytics.adobe.com](https://analytics.adobe.com) utilizzando le credenziali Adobe ID.
-1. Passa a [!UICONTROL Componenti] > [!UICONTROL Intervalli di date].
+Utilizza [Generatore di intervalli di date](/help/components/date-ranges/create.md#date-range-builder) per modificare l&#39;intervallo di date.Utilizza il [gestore degli intervalli di date](/help/components/date-ranges/manage.md) per condividere, rinominare o eliminare intervalli di date.
 
 
 <!--
