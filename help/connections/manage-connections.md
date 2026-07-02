@@ -26,8 +26,8 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 4d42c345b98683ef7d4b802262bd7f0f24b45692
 workflow-type: tm+mt
-source-wordcount: 5868
-ht-degree: 95%
+source-wordcount: 5884
+ht-degree: 97%
 
 ---
 
@@ -62,9 +62,8 @@ Dopo aver [creato o modificato una o più connessioni](/help/connections/create-
 
 L’interfaccia **[!UICONTROL Elenco]** è l’interfaccia predefinita per Connessioni. Se non è selezionata, seleziona la scheda **[!UICONTROL Elenco]** per accedere all’interfaccia.
 
-L&#39;interfaccia **[!UICONTROL List]** mostra una tabella di tutte le connessioni disponibili.
-△
-![visualizzazione elenco](assets/list-view.png)
+L’interfaccia **[!UICONTROL Elenco]** mostra una tabella di tutte le connessioni disponibili.△
+![vista elenco](assets/list-view.png)
 
 Nella tabella sono disponibili le colonne o le icone seguenti.
 
@@ -420,17 +419,17 @@ Quando una riga di set di dati viene selezionata nella tabella dei set di dati, 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_corereportablerows"
 >title="Righe di base per reporting"
->abstract="Le righe di base per reporting sono istantanee di valori, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
+>abstract="Le righe di base per reporting sono istantanee di valori, non totali aggregati. Questi valori si aggiornano in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_historicalreportablerows"
 >title="Righe storiche per reporting"
->abstract="Le righe storiche per reporting sono istantanee di valori, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
+>abstract="Le righe storiche per reporting sono istantanee di valori, non totali aggregati. Questi valori si aggiornano in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_cumulativereportablerows"
 >title="Righe cumulative per reporting"
->abstract="Le righe cumulative per reporting sono istantanee di valori, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
+>abstract="Le righe cumulative per reporting sono istantanee di valori, non totali aggregati. Questi valori si aggiornano in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
 
 
 >[!CONTEXTUALHELP]
@@ -441,7 +440,7 @@ Quando una riga di set di dati viene selezionata nella tabella dei set di dati, 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_extendeddatacapacityrows"
 >title="Righe di capacità di dati estesa"
->abstract="Le righe di capacità dati estesa sono valori di snapshot, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
+>abstract="Le righe di capacità di dati estesa presentano valori istantanei, non totali aggregati. Questi valori si aggiornano in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
 
 >[!CONTEXTUALHELP]
 >id="connections_aca_corereportablerows"
@@ -493,7 +492,7 @@ Quando una riga di set di dati viene selezionata nella tabella dei set di dati, 
 >[!CONTEXTUALHELP]
 >id="connections_breakdown_aca_monthlyreportablerows"
 >title="Righe mensili di Content Analytics"
->abstract="Le righe mensili di Content Analytics sono valori di snapshot, non totali aggregati. Questi valori vengono aggiornati in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
+>abstract="Le righe mensili di Content Analytics presentano valori istantanei, non totali aggregati. Questi valori si aggiornano in modo dinamico in base all’ultimo mese nell’intervallo di date selezionato. I valori riflettono l’istantanea per il mese selezionato."
 
 
 
@@ -584,6 +583,5 @@ L’interfaccia Utilizzo è costituita da due pannelli:
 
 >[!MORELIKETHIS]
 >
->Esercitazione su [Visualizzare, risolvere e modificare le impostazioni di connessione](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja).
->[Gestione dell&#39;utilizzo di Customer Journey Analytics](/help/technotes/estimate-usage.md)
+>Tutorial: [Visualizzare, risolvere i problemi e modificare le impostazioni di connessione](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja).Gestire l’utilizzo di Customer Journey Analytics&rbrack;(/help/technotes/estimate-usage.md)
 >
