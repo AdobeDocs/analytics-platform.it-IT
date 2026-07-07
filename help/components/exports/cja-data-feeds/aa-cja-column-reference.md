@@ -28,14 +28,16 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
 workflow-type: tm+mt
-source-wordcount: 3912
+source-wordcount: 3920
 ht-degree: 34%
 
 ---
 
 # Mappare le colonne del feed dati di Adobe Analytics su Customer Journey Analytics
+
+{{release-limited-testing}}
 
 Non è possibile eseguire una mappatura true 1:1 tra le colonne dei feed dati di Adobe Analytics e Customer Journey Analytics. I due prodotti sono sostanzialmente diversi e l&#39;implementazione di ogni organizzazione può variare in modo significativo.
 
