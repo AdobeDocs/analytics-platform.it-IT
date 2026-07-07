@@ -14,10 +14,10 @@ subfeature_v2:
   - id: df28738e-9c71-4aa8-929e-edde22340cc6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b7493ad9283b5830c36b8e3ac942bf9295b693f8
+source-git-commit: 7c679fcbf52d2a5832d16bf138bd197f11f4ceb7
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 88%
+source-wordcount: 434
+ht-degree: 87%
 
 ---
 
@@ -39,9 +39,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="datadictionary_share_primary"
 >title="Condividi componente primario"
->abstract="Quando questa opzione è selezionata, il componente primario viene condiviso con tutti coloro che hanno accesso ai componenti duplicati (sia i proprietari che gli utenti con cui i componenti sono stati condivisi). Tali utenti potranno quindi selezionare il componente principale dall’elenco dei componenti per i progetti futuri. Tuttavia, non potranno modificare il componente, anche se erano i proprietari di un componente duplicato che è stato consolidato. <br/>Questa opzione è disponibile solo quando il componente primario è un segmento, una metrica calcolata o un intervallo di date. Le metriche e le dimensioni sono sempre disponibili per tutti gli utenti."
->
->When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
+>abstract="Quando questa opzione è selezionata, il componente primario viene condiviso con tutti coloro che hanno accesso ai componenti duplicati (sia i proprietari che gli utenti con cui i componenti sono stati condivisi). Tali utenti potranno quindi selezionare il componente principale dall’elenco dei componenti per i progetti futuri. Tuttavia, non potranno modificare il componente, anche se erano i proprietari di un componente duplicato che è stato consolidato."
 
 <!-- markdownlint-disable MD034 -->
 
