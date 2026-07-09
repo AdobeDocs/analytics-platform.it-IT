@@ -38,7 +38,7 @@ Questa guida introduttiva spiega come utilizzare in Customer Journey Analytics i
 >
 >Hai ottenuto la licenza di Adobe Analytics e l’hai implementato su uno o più siti web utilizzando uno dei metodi di implementazione documentati:
 >
->- [Implementare Analytics tramite Experience Platform Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
+>- [Implementare Analytics tramite Experience Platform Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html?lang=it)
 >- [Implementare Analytics tramite l’estensione Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=it)
 >- [Implementare Analytics tramite JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=it)
 
