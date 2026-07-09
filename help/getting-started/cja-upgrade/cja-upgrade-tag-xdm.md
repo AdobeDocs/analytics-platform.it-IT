@@ -7,22 +7,15 @@ feature: Basics
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
 autotag-review: '2026-05-19T08:20:10.493Z'
 TQID: 'https://experienceleague.adobe.com/CZMnHpY8nofEV8fbpLSe7TUZCR7nOd8xKWoMkCzfH0I'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
-source-wordcount: 1664
-ht-degree: 67%
+source-wordcount: 1377
+ht-degree: 65%
 
 ---
 
@@ -47,9 +40,9 @@ Gli elementi dati sono i blocchi costitutivi per il dizionario dati (o mappa dat
 
 Le sezioni seguenti descrivono gli elementi dati consigliati e altri elementi dati comuni che puoi configurare.
 
-Esistono diversi tipi di elementi dati. Due elementi dati comuni che potresti voler configurare sono: uno che acquisisce il nome della pagina che le persone stanno visualizzando sul tuo sito e un altro che acquisisce l’ID Experience Cloud di ogni persona che visita il tuo sito.
+Esistono diversi tipi di elementi dati. Un elemento dati comune che potresti voler configurare è un elemento che acquisisce il nome della pagina che gli utenti visualizzano sul sito.
 
-Dopo aver configurato questi due elementi dati, puoi configurare elementi dati aggiuntivi per i dati specifici che desideri acquisire.
+Dopo aver configurato l&#39;elemento dati nome pagina, puoi configurare elementi dati aggiuntivi per i dati specifici che desideri acquisire.
 
 Infine, dopo aver definito tutti gli elementi dati desiderati, devi assegnare gli elementi dati allo [schema creato](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) in precedenza. A questo scopo, definisci un elemento dati XDM che fornisce una rappresentazione dello schema XDM.
 
@@ -93,55 +86,11 @@ Per creare un elemento dati Nome pagina:
 
 1. Seleziona **[!UICONTROL Salva]**.
 
-   Ora immagina di voler impostare un elemento dati che faccia riferimento all’ID Experience Cloud fornito automaticamente dall’SDK per Web Adobe Experience Platform e disponibile tramite l’estensione Experience Cloud ID Service.
-
-1. Continua con [elemento dati ECID](#ecid-data-element).
-
-#### Elemento dati ECID
-
-Un elemento dati comune che si applica alla maggior parte delle organizzazioni è un elemento dati che acquisisce l’Experience Cloud ID di ogni persona che visita il sito.
-
-Per creare un elemento dati ECID:
-
-1. Accedi a experience.adobe.com utilizzando le credenziali Adobe ID.
-
-1. In Adobe Experience Platform, vai a **[!UICONTROL Raccolta dati]** > **[!UICONTROL Tag]**.
-
-1. Seleziona il tag appena creato dall&#39;elenco di [!UICONTROL Proprietà tag] per aprirlo.
-
-1. (Condizionale) Installa l’estensione del servizio Experience Cloud ID se non è già installata:
-
-   1. Seleziona **[!UICONTROL Estensioni]** nella barra a sinistra.
-
-   1. La scheda **[!UICONTROL Installato]** è selezionata per impostazione predefinita. Se il riquadro **[!UICONTROL Servizio Experience Cloud ID]** è elencato, andare al passaggio 5.
-
-   1. Se il riquadro **[!UICONTROL Servizio Experience Cloud ID]** non è elencato, selezionare la scheda **[!UICONTROL Catalogo]**.
-
-   1. Nel campo di ricerca, cerca **[!UICONTROL Experience Cloud ID Service]**, quindi seleziona il riquadro quando viene visualizzato
-
-   1. Seleziona **[!UICONTROL Installa]** > **[!UICONTROL Salva]**.
-
-1. Seleziona **[!UICONTROL Elementi dati]** nella barra a sinistra.
-
-1. Selezionare **[!UICONTROL Aggiungi elemento dati]**.
-
-1. Nella finestra di dialogo **[!UICONTROL Crea elemento dati]**, specifica le seguenti informazioni:
-
-   * **[!UICONTROL Name]**: nome dell&#39;elemento dati. Ad esempio `ECID`.
-
-   * **[!UICONTROL Estensione]**: seleziona **[!UICONTROL Servizio Experience Cloud ID]** dall&#39;elenco.
-
-   * **[!UICONTROL Tipo di elemento dati]**: selezionare **[!UICONTROL ECID]** dall&#39;elenco.
-
-     ![Elemento dati ECID](assets/ecid-dataelement.png)
-
-1. Seleziona **[!UICONTROL Salva]**.
-
 1. Continua con [Creare elementi dati aggiuntivi](#create-additional-data-elements).
 
 ### Creare elementi dati aggiuntivi
 
-Crea un elemento dati per ogni tipo di dati che desideri raccogliere. Utilizza lo stesso processo descritto in [Elemento dati Nome pagina](#page-name-data-element) e [Elemento dati ECID](#ecid-data-element) per creare ogni elemento dati aggiuntivo.
+Crea un elemento dati per ogni tipo di dati che desideri raccogliere. Utilizzare lo stesso processo descritto in [Elemento dati nome pagina](#page-name-data-element) per creare ogni elemento dati aggiuntivo.
 
 Per ogni elemento dati creato deve essere presente un campo correlato nello schema.
 
@@ -200,12 +149,6 @@ Per definire un elemento dati oggetto XDM:
    * **[!UICONTROL Sandbox]**: seleziona la sandbox dall&#39;elenco.
 
    * **[!UICONTROL Schema]**: seleziona lo schema dall&#39;elenco.
-
-1. Mappa l’attributo `identification > core > ecid` all’elemento dati ECID, definito nello schema. Seleziona l’icona del cilindro per scegliere facilmente l’elemento dati ECID dall’elenco degli elementi dati.
-
-   ![Scegli l’elemento dati ECID](assets/pick-ecid-dataelement.png)
-
-   ![Mappa l’elemento dati ECID](assets/map-ecid.png)
 
 1. Mappa l’attributo `web > webPageDetails > name` all’elemento dati Page Name (Nome pagina), definito nello schema.
 

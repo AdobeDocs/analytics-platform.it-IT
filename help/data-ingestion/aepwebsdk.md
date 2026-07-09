@@ -6,30 +6,15 @@ feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
 TQID: https://experienceleague.adobe.com/BuizkumbeMPhg7dWvJrFta3CYfQnqivOlXd2RtX9gm4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df28738e-9c71-4aa8-929e-edde22340cc6
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df28738e-9c71-4aa8-929e-edde22340cc6id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
-source-wordcount: 3648
-ht-degree: 62%
+source-wordcount: 3523
+ht-degree: 60%
 
 ---
 
@@ -57,7 +42,6 @@ A questo scopo, è necessario:
 >
 > Questa guida rapida è una guida semplificata su come acquisire in Adobe Experience Platform i dati raccolti dal sito e utilizzarli in Customer Journey Analytics. Ti consigliamo vivamente di esaminare le informazioni aggiuntive quando vi fai riferimento.
 
-
 ## Configurare uno schema e un set di dati
 
 Per acquisire i dati in Adobe Experience Platform, devi innanzitutto definire quali dati desideri raccogliere. Tutti i dati inseriti in Adobe Experience Platform devono essere conformi a una struttura standard e denormalizzata affinché vengano riconosciuti e utilizzati dalle capacità e funzionalità a valle. Experience Data Model (XDM) è il framework standard che fornisce questa struttura sotto forma di schemi.
@@ -68,15 +52,14 @@ Tutti i dati inseriti in Adobe Experience Platform devono essere conformi a uno 
 
 ### Configurare uno schema
 
-Immagina di voler tenere traccia di alcuni dati minimi provenienti dai profili che visitano il tuo sito Web, ad esempio il nome della pagina o l’identificazione.
-Devi innanzitutto definire uno schema che modella questi dati.
+Immagina di voler tenere traccia di alcuni dati minimi provenienti dai profili che visitano il tuo sito Web, ad esempio il nome della pagina o l’identificazione.Devi innanzitutto definire uno schema che modella questi dati.
 
 Per configurare lo schema:
 
 1. Nell&#39;interfaccia utente di Adobe Experience Platform, nella barra a sinistra, seleziona **[!UICONTROL Schemi]** in [!UICONTROL GESTIONE DATI].
 
 1. Seleziona **[!UICONTROL Crea schema]**.
-.
+
 1. Nel passaggio Selezionare una classe della procedura guidata Crea schema:
 
    1. Seleziona **[!UICONTROL Evento esperienza]**.
@@ -299,9 +282,9 @@ Per creare e configurare l’estensione Adobe Experience Platform Web SDK:
 
    Seleziona **[!UICONTROL Salva]**.
 
-Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=it).
+Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html).
 
-Il Web SDK include il [!UICONTROL servizio Adobe Experience Cloud ID] in modo nativo, pertanto non è necessario aggiungere l&#39;estensione del servizio ID al tag.
+Il Web SDK include il servizio Experience Platform Identity, pertanto non è necessario aggiungere l&#39;estensione tag [!UICONTROL Servizio Experience Cloud ID] alla proprietà.
 
 #### **Elementi dati**
 
@@ -333,27 +316,7 @@ Per definire un elemento dati nome pagina:
 
    - Seleziona **[!UICONTROL Salva]**.
 
-Ora immagina di voler impostare un elemento dati che faccia riferimento all’ID Experience Cloud fornito automaticamente dall’SDK per Web Adobe Experience Platform e disponibile tramite l’estensione Experience Cloud ID Service.
-
-Per definire un elemento dati ECID:
-
-1. Seleziona **[!UICONTROL Elementi dati]** nella barra a sinistra.
-
-2. Selezionare **[!UICONTROL Aggiungi elemento dati]**.
-
-3. Nella finestra di dialogo [!UICONTROL Crea elemento dati]:
-
-   - Assegna un nome all’elemento dati, ad esempio `ECID` (Nome pagina).
-
-   - Seleziona **[!UICONTROL Servizio Experience Cloud ID]** dall&#39;elenco [!UICONTROL Estensione].
-
-   - Selezionare **[!UICONTROL ECID]** dall&#39;elenco [!UICONTROL Data Element Type].
-
-     ![Elemento dati ECID](./assets/ecid-dataelement.png)
-
-   - Seleziona **[!UICONTROL Salva]**.
-
-Infine, ora immagina di voler mappare uno qualsiasi degli elementi dati specifici allo schema definito in precedenza. Puoi definire un altro elemento dati che fornisce una rappresentazione dello schema XDM.
+Ora vuoi mappare uno qualsiasi degli elementi dati specifici allo schema definito in precedenza. Puoi definire un altro elemento dati che fornisce una rappresentazione dello schema XDM.
 
 Per definire un elemento dati oggetto XDM:
 
@@ -372,13 +335,6 @@ Per definire un elemento dati oggetto XDM:
    - Seleziona la sandbox dall&#39;elenco [!UICONTROL Sandbox].
 
    - Seleziona lo schema dall&#39;elenco [!UICONTROL Schema].
-
-   - Mappa l’attributo `identification > core > ecid` all’elemento dati ECID, definito nello schema. Seleziona l’icona del cilindro per scegliere facilmente l’elemento dati ECID dall’elenco degli elementi dati.
-
-     ![Scegli l’elemento dati ECID](./assets/pick-ecid-dataelement.png)
-
-     ![Mappa l’elemento dati ECID](./assets/map-ecid.png)
-
 
    - Mappa l’attributo `web > webPageDetails > name` all’elemento dati Page Name (Nome pagina), definito nello schema.
 
@@ -621,4 +577,4 @@ Per ulteriori informazioni su come creare progetti e generare analisi utilizzand
 
 >[!SUCCESS]
 >
->Hai completato tutti i passaggi. A partire dalla definizione dei dati da raccogliere (schema) e della posizione in cui memorizzarli (set di dati) in Adobe Experience Platform. Hai quindi configurato un flusso di dati in Edge Network per garantire che i dati possano essere inoltrati a tale set di dati. Quindi hai definito e implementato il tag contenente le estensioni (Adobe Experience Platform Web SDK, Experience Cloud ID Service), gli elementi dati e le regole per acquisire i dati dal tuo sito Web e inviarli al tuo flusso di dati. Hai definito una connessione in Customer Journey Analytics per utilizzare i dati di tracciamento del tuo sito Web e altri dati. La definizione della visualizzazione dati ti consente di specificare la dimensione e le metriche da utilizzare e infine hai creato il tuo primo progetto per la visualizzazione e l’analisi dei dati.
+>Hai completato tutti i passaggi. A partire dalla definizione dei dati da raccogliere (schema) e della posizione in cui memorizzarli (set di dati) in Adobe Experience Platform. Hai quindi configurato un flusso di dati in Edge Network per garantire che i dati possano essere inoltrati a tale set di dati. Quindi hai definito e implementato il tag contenente l’estensione Adobe Experience Platform Web SDK, gli elementi di dati e le regole per acquisire i dati dal sito web e inviarli allo stream di dati. Hai definito una connessione in Customer Journey Analytics per utilizzare i dati di tracciamento del tuo sito Web e altri dati. La definizione della visualizzazione dati ti consente di specificare la dimensione e le metriche da utilizzare e infine hai creato il tuo primo progetto per la visualizzazione e l’analisi dei dati.
