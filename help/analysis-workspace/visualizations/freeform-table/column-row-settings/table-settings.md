@@ -4,6 +4,7 @@ title: Impostazioni riga
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
+hold: true
 TQID: https://experienceleague.adobe.com/qQKmobJ4J1RPezRG-hk38l7JNioIshzjMaKXWVoUWsM
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -16,10 +17,10 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 5da7d5ec554e61244e839fb1affebc0be9ecb109
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 11%
+source-wordcount: 1596
+ht-degree: 9%
 
 ---
 
@@ -76,24 +77,33 @@ Quando si selezionano uno o più elementi dimensionali (prima colonna) o una o p
 
 | Opzione | Descrizione |
 | --- | --- |
+| **[!UICONTROL Copia selezione negli Appunti]** | Copia le informazioni nelle celle selezionate della tabella a forma libera. |
+| **[!UICONTROL Scarica elementi come CSV (*nome dimensione*)]** | Scarica immediatamente gli elementi dimensionali (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Un massimo di 50.000 elementi dimensionali per la dimensione selezionata. |
 | **[!UICONTROL Crea collegamento ipertestuale]** | Crea un collegamento ipertestuale per l&#39;elemento. Vedi [Collegamenti ipertestuali per le dimensioni in una tabella a forma libera](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL Modifica collegamento ipertestuale]** | Modificare un collegamento ipertestuale per l&#39;elemento. Vedi [Collegamenti ipertestuali per le dimensioni in una tabella a forma libera](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL Rimuovi collegamento ipertestuale]** | Rimuove un collegamento ipertestuale per l&#39;elemento. Vedi [Collegamenti ipertestuali per le dimensioni in una tabella a forma libera](../freeform-table-hyperlinks.md) |
+| **[!UICONTROL Scarica la selezione come CSV]** | Scarica immediatamente gli elementi dimensionali della visualizzazione sul dispositivo locale. |
+| **[!UICONTROL Elimina selezionati]** | Elimina le righe selezionate. |
+| **[!UICONTROL Crea avviso da selezione]** | Apri [Generatore di avvisi](/help/components/c-intelligent-alerts/alert-builder.md) per generare un avviso dalla selezione. |
 | **[!UICONTROL Raggruppamento]** | Suddividi l’elemento dimensione. Seleziona dall&#39;elenco di **[!UICONTROL Dimensioni]**, **[!UICONTROL Metriche]**, **[!UICONTROL Segmenti]** o **[!UICONTROL Intervalli di date]**. Ricerca alternativa per un componente, utilizzando *Ricerca*. |
-| **[!UICONTROL Elimina selezionati]** | Elimina le righe (elementi) selezionate. |
+| **[!UICONTROL Visualizza]** | Visualizza la selezione utilizzando una qualsiasi delle visualizzazioni disponibili. |
 | **[!UICONTROL Selezione tendenze]** | Crea una visualizzazione con grafico a linee di tendenza per la selezione. |
 | **[!UICONTROL Visualizza solo le righe selezionate]** | Visualizza solo le righe selezionate nella visualizzazione. |
 | **[!UICONTROL Visualizza tutte le righe]** | Visualizza tutte le righe della visualizzazione. |
-| **[!UICONTROL Crea segmento da selezione]** | Apri **[!UICONTROL Generatore di segmenti]** per creare un segmento dalla selezione. |
-| **[!UICONTROL Crea pubblico da selezione]** | Apri la finestra di dialogo **[!UICONTROL Crea pubblico]** per creare un pubblico dalla selezione. |
+| **[!UICONTROL Rinomina la riga selezionata]** | Rinomina la riga selezionata. Immetti un **[!UICONTROL Nome]** nella **[!UICONTROL finestra di dialogo Rinomina riga selezionata]**. Seleziona **[!UICONTROL OK]** per confermare o **[!UICONTROL Annulla]** per annullare. Una volta rinominata una riga in una tabella a forma libera, al nome della dimensione nella colonna dell&#39;intestazione vengono aggiunti **[!UICONTROL (modificato)]** e un&#39;icona ![Ingranaggio](/help/assets/icons/Gear.svg) è disponibile per ripristinare le righe rinominate nella colonna dell&#39;intestazione della dimensione. Vedi [Esempio di classificazione in linea](#inline-classifications-example). |
+| **[!UICONTROL Combina righe selezionate]** | Combina le righe selezionate. Immetti un **[!UICONTROL Nome]** nella finestra di dialogo **[!UICONTROL Combina righe selezionate]**. Seleziona **[!UICONTROL OK]** per confermare o **[!UICONTROL Annulla]** per annullare. Una volta combinate le righe di una tabella a forma libera, il nome della dimensione nella colonna dell&#39;intestazione viene aggiunto con **[!UICONTROL (modificato)]** e un&#39;icona ![Ingranaggio](/help/assets/icons/Gear.svg) è disponibile per reimpostare le righe rinominate nella colonna dell&#39;intestazione della dimensione. Vedi [Esempio di classificazione in linea](#inline-classifications-example). |
+| **[!UICONTROL Crea come campo derivato]** | *Per visualizzare questa opzione del menu di scelta rapida, è necessario essere un amministratore di prodotto Customer Journey Analytics.*<br/> Disponibile su qualsiasi riga selezionata di una tabella a forma libera modificata in seguito alla ridenominazione o alla combinazione di righe. Se questa opzione è selezionata, viene aperta l&#39;[Interfaccia campo derivato](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field) con le modifiche apportate alla tabella a forma libera già precompilata. Vedi [Esempio di classificazione in linea](#inline-classifications-example). |
+| **[!UICONTROL Crea annotazione da selezione]** | Apri [Generatore di annotazioni](/help/components/annotations/create-annotations.md#annotation-builder) per creare un&#39;annotazione per la selezione. |
+| **[!UICONTROL Crea segmento da selezione]** | Apri [Generatore di segmenti](/help/components/segments/seg-builder.md) per creare un segmento dalla selezione. |
+| **[!UICONTROL Crea pubblico da selezione]** | Apri [Generatore di pubblico](/help/components/audiences/publish.md#audience-builder) per creare un pubblico dalla selezione. |
 
 Quando si seleziona un’intestazione di colonna di una metrica, sono disponibili le seguenti opzioni aggiuntive del menu di scelta rapida.
 
 | Opzione | Descrizione |
 |---|---|
 | **[!UICONTROL Crea metrica da selezione]** | Crea una nuova metrica dalla metrica selezionata. La metrica può essere Media, Media, Colonna max, Colonna min, Somma colonna. Puoi anche selezionare Apri nel generatore di metriche calcolate per creare una metrica calcolata. |
-| **[!UICONTROL Aggiungi colonna periodo di tempo]** | Aggiungi una colonna Periodo di tempo. Sono disponibili diverse opzioni, in cui l&#39;intervallo di calendario del pannello determina l&#39;*intervallo di date*: <li>**[!UICONTROL Precedente *intervallo di date* a questo intervallo di date]**</li><li>**[!UICONTROL Questo *intervallo di date* va a questo intervallo]**.</li><li>**[!UICONTROL Intervallo date personalizzato per questo intervallo di date]**. Apre **[!UICONTROL Generatore di intervalli di date]** per specificare l&#39;intervallo di date.</li>Per ulteriori informazioni, consulta [Confronto date](/help/components/date-ranges/time-comparison.md). |
-| **[!UICONTROL Confronta periodi di tempo]** | Aggiunge le colonne del periodo di tempo di confronto. Disponibile solo quando la dimensione non è basata sul tempo. Sono disponibili diverse opzioni che determinano l&#39;*intervallo di date*: <li>**[!UICONTROL Precedente *intervallo di date* a questo intervallo di date]**</li><li>**[!UICONTROL Intervallo date personalizzato per questo intervallo di date]**. Apre **[!UICONTROL Generatore di intervalli di date]** per specificare l&#39;intervallo di date.</li>Per ulteriori informazioni, consulta [Confronto date](/help/components/date-ranges/time-comparison.md). |
+| **[!UICONTROL Aggiungi colonna periodo di tempo]** | Aggiungi una colonna Periodo di tempo. Sono disponibili diverse opzioni, in cui l&#39;intervallo di calendario del pannello determina l&#39;*intervallo di date*: <ul><li>**[!UICONTROL Precedente *intervallo di date* a questo intervallo di date]**</li><li>**[!UICONTROL Questo *intervallo di date* va a questo intervallo]**.</li><li>**[!UICONTROL Intervallo date personalizzato per questo intervallo di date]**. Apre **[!UICONTROL Generatore di intervalli di date]** per specificare l&#39;intervallo di date.</li></ul>Per ulteriori informazioni, consulta [Confronto date](/help/components/date-ranges/time-comparison.md). |
+| **[!UICONTROL Confronta periodi di tempo]** | Aggiunge le colonne del periodo di tempo di confronto. Disponibile solo quando la dimensione non è basata sul tempo. Sono disponibili diverse opzioni che determinano l&#39;*intervallo di date*: <ul><li>**[!UICONTROL Precedente *intervallo di date* a questo intervallo di date]**</li><li>**[!UICONTROL Intervallo date personalizzato per questo intervallo di date]**. Apre **[!UICONTROL Generatore di intervalli di date]** per specificare l&#39;intervallo di date.</li></ul>Per ulteriori informazioni, consulta [Confronto date](/help/components/date-ranges/time-comparison.md). |
 | **[!UICONTROL Modifica modelli di attribuzione]** | Modifica il modello di attribuzione per la colonna. |
 | **[!UICONTROL Confronta modello di attribuzione]** | Specifica un nuovo modello di attribuzione e confrontalo con il modello di attribuzione per la colonna selezionata. Viene aggiunta una nuova colonna con le nuove metriche del modello di attribuzione. Inoltre, viene aggiunta una colonna Percentuale di variazione per il confronto. |
 | **[!UICONTROL Reimposta larghezza colonne]** | Ripristina la larghezza predefinita delle colonne. |
@@ -101,6 +111,57 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 | **[!UICONTROL Crea segmento da selezione]** | Apri **[!UICONTROL Generatore di segmenti]** per creare un segmento dalla selezione. |
 | **[!UICONTROL Crea pubblico da selezione]** | Apri la finestra di dialogo **[!UICONTROL Crea pubblico]** per creare un pubblico dalla selezione. |
 
+
 ## Modificare l&#39;altezza delle righe
 
 È possibile impostare la [densità di visualizzazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) di un progetto su **[!UICONTROL Compatto]**, **[!UICONTROL Comoda]** e **[!UICONTROL Espansa]**.
+
+
+## Esempio di classificazioni in linea
+
+Questo esempio illustra come utilizzare le opzioni del menu di scelta rapida **[!UICONTROL Rinomina riga selezionata]**, **[!UICONTROL Combina righe selezionate]** e **[!UICONTROL Crea come campo derivato]**. E come ripristinare la tabella a forma libera modificata.
+
+* Rinomina **[!UICONTROL Nessun valore]** riga in **[!UICONTROL Altro]**.
+
+   1. Selezionare **[!UICONTROL Rinomina riga selezionata]** dal menu di scelta rapida nella riga **[!UICONTROL Nessun valore]** selezionata.
+
+      ![Selezionare l&#39;opzione di menu di scelta rapida Rinomina righe selezionate](assets/context-rename.png)
+
+   1. Nella finestra di dialogo **[!UICONTROL Rinomina riga selezionata]**:
+
+      ![Finestra di dialogo Rinomina riga selezionata](assets/dialog-rename.png)
+
+      1. Immetti <code>Altro</code> per **[!UICONTROL Name]**.
+      1. Selezionare **[!UICONTROL OK]**.
+
+* Combina **[!UICONTROL righe da uomo]** a **[!UICONTROL da donna]** in una **[!UICONTROL da adulto]**.
+
+   1. Selezionare la riga **[!UICONTROL Uomini]** e **[!UICONTROL Donne]**.
+   1. Selezionare **[!UICONTROL Combina righe selezionate]** dal menu di scelta rapida da una delle righe selezionate.
+
+      ![Selezionare l&#39;opzione di menu Combina righe selezionate](assets/context-combine.png)
+
+   1. Nella finestra di dialogo **[!UICONTROL Combina righe selezionate]**:
+
+      ![Finestra di dialogo Combina righe selezionate](assets/dialog-combine.png)
+
+      1. Immetti <code> adulti</code> per **[!UICONTROL Name]**.
+      1. Selezionare **[!UICONTROL OK]**.
+
+* Crea un campo derivato dalle modifiche nella tabella a forma libera.
+
+   1. Selezionare **[!UICONTROL Crea come campo derivato]** dal menu di scelta rapida per qualsiasi riga selezionata nella tabella modificata.
+
+      ![Seleziona l&#39;opzione di menu Crea come campo derivato](assets/context-derived.png)
+
+   1. Ispeziona, modifichi e salva la definizione del campo derivato in base a tutte le modifiche apportate nella tabella.
+
+      ![Finestra di dialogo Crea campo derivato](assets/dialog-derived.png)
+
+* Ripristina lo stato della tabella a forma libera prima delle modifiche.
+
+   1. Seleziona ![Ingranaggio](/help/assets/icons/Gear.svg) accanto a **[!UICONTROL _nome dimensione _(modificato)]**.
+   1. Selezionare **[!UICONTROL Reimposta righe rinominate]** dal popup **[!UICONTROL Righe rinominate]**.
+
+      ![Ripristina tabella a forma libera](assets/popup-reset.png)
+
