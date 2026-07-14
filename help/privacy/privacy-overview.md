@@ -4,25 +4,18 @@ description: Descrive il funzionamento della governance dei dati nel Customer Jo
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
+hold: true
 autotag-review: '2026-05-19T09:18:17.400Z'
 TQID: 'https://experienceleague.adobe.com/oDdNRwjtEU2vmeDvQ3DcM8w6XKQTBoTaXAIhmgjSoBk'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 116c169326e98f4e3d649c2fe72dbff44eaa0225
 workflow-type: tm+mt
-source-wordcount: 469
-ht-degree: 100%
+source-wordcount: 560
+ht-degree: 88%
 
 ---
 
@@ -42,6 +35,12 @@ Questa integrazione consente di gestire più facilmente la conformità. Gli ammi
 
 [Ulteriori informazioni](/help/data-views/data-governance.md)
 
+## Reporting e filtro del consenso
+
+Customer Journey Analytics può utilizzare i dati di iscrizione al criterio di consenso nei set di dati del profilo Experience Platform per generare rapporti sul consenso dei visitatori e, facoltativamente, escludere i visitatori non consenzienti prima che i loro dati vengano acquisiti. La generazione di rapporti sul consenso rende i criteri di consenso disponibili come componenti in Analysis Workspace e il filtraggio del consenso esclude i visitatori non consenzienti al momento dell’acquisizione in base alle azioni di marketing configurate.
+
+[Ulteriori informazioni](/help/connections/consent-reporting-filtering/consent-overview.md)
+
 ## Richieste di privacy
 
 Adobe gestisce le richieste di privacy in conformità alle leggi locali e internazionali applicabili.
@@ -54,10 +53,8 @@ Customer Journey Analytics non aderirà direttamente al servizio centrale del re
 
 ## CCPA
 
-Il California Consumer Privacy Act (CCPA) migliora i diritti alla privacy e la protezione dei consumatori dei residenti in California, Stati Uniti. La legge è entrata in vigore il 1° gennaio 2020.
-Il CCPA conferisce ai residenti della California nuovi diritti sulla privacy dei dati, come il diritto di accesso e cancellazione dei propri dati personali, di sapere se i propri dati personali vengono venduti o divulgati (e a chi) e di rifiutare la vendita degli stessi.
-In conformità al CCPA, Privacy Service supporta le richieste di rinuncia alla vendita di dati personali.
+Il California Consumer Privacy Act (CCPA) migliora i diritti alla privacy e la protezione dei consumatori dei residenti in California, Stati Uniti. La legge è entrata in vigore il 1° gennaio 2020.Il CCPA conferisce ai residenti della California nuovi diritti sulla privacy dei dati, come il diritto di accesso e cancellazione dei propri dati personali, di sapere se i propri dati personali vengono venduti o divulgati (e a chi) e di rifiutare la vendita degli stessi.In conformità al CCPA, Privacy Service supporta le richieste di rinuncia alla vendita di dati personali.
 
 >[!MORELIKETHIS]
 >
->* [Blog: Come mantenere una governance efficace in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4?profile.language=it)
+>* [Blog: Come mantenere una governance efficace in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4)
