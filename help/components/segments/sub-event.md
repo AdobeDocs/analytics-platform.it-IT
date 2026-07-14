@@ -4,11 +4,9 @@ description: Scopri come l’analisi dei sub-eventi consente di filtrare singoli
 feature: Segmentation
 hold: true
 hide: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 53fa238b78adc0acabbba3059342e51ba9c23aac
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: c504a631398d14479c9a2b70d9ef43ac88e35704
 workflow-type: tm+mt
 source-wordcount: 565
 ht-degree: 0%
@@ -49,7 +47,7 @@ Di conseguenza, vengono considerati tutti gli ordini contenenti almeno una **[!U
 
 >[!TAB Analisi sub-evento]
 
-Nel generatore di segmentazione o come parte di un **[!UICONTROL segmento rapido]**, si specifica di **[!UICONTROL includere]** la **[!UICONTROL Dimension]** **[!UICONTROL categoria_prodotto]** **[!UICONTROL uguale a]** **[!UICONTROL suite professionali]** nel contenitore **[!UICONTROL Prodotti]**.
+Nel generatore di segmentazione o come parte di un **[!UICONTROL segmento rapido]**, si specifica di **[!UICONTROL includere]** il **[!UICONTROL Dimension]** **[!UICONTROL product_category]** **[!UICONTROL equals]** **[!UICONTROL Professional Suits]** nel contenitore **[!UICONTROL Products]**.
 
 ![Pannello che mostra la segmentazione a livello di evento secondario per le tute professionali della categoria di prodotti](./assets/product-category-segmentation-subevents.png)
 
