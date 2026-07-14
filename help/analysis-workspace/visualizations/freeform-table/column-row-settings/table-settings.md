@@ -17,7 +17,7 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 5da7d5ec554e61244e839fb1affebc0be9ecb109
+source-git-commit: 8a63b9948d58c4057db7fa74b36e9d0e0210f946
 workflow-type: tm+mt
 source-wordcount: 1596
 ht-degree: 9%
@@ -164,4 +164,3 @@ Questo esempio illustra come utilizzare le opzioni del menu di scelta rapida **[
    1. Selezionare **[!UICONTROL Reimposta righe rinominate]** dal popup **[!UICONTROL Righe rinominate]**.
 
       ![Ripristina tabella a forma libera](assets/popup-reset.png)
-
