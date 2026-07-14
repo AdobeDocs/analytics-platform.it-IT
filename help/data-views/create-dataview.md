@@ -5,29 +5,17 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
+hold: true
 TQID: https://experienceleague.adobe.com/EXiKrWVfmMRgZ4GF0OR410Mr2-P5IEjPy3Hf0FmRDJ8
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: b342654b753f679f86750e43efbed1eb149e1b17
 workflow-type: tm+mt
-source-wordcount: 2959
-ht-degree: 93%
+source-wordcount: 3278
+ht-degree: 84%
 
 ---
 
@@ -38,7 +26,7 @@ Per creare una visualizzazione dati occorre creare metriche e dimensioni dagli e
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare o modificare una visualizzazione dati](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/overview-of-configuring-data-views-for-cja){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -63,11 +51,16 @@ Per configurare una visualizzazione dati nuova o esistente:
 
 ![Configurare una visualizzazione dati B2B](assets/dataview-configure-b2b.png)
 
+>[!TAB Scheda Contenitori separati]
+
+![Configurare la visualizzazione dati con la scheda dei contenitori separati](assets/data-view-configure-containers.png)
+
+
 >[!ENDTABS]
 
 
 1. Seleziona la scheda **[!UICONTROL Configura]**, se non è già attiva.
-1. Specifica i dettagli di [!UICONTROL Impostazioni], [!UICONTROL Contenitore] e [!UICONTROL Calendario] (vedi di seguito).
+1. Specifica i dettagli di **[!UICONTROL Impostazioni]**, **[!UICONTROL Contenitore]** e **[!UICONTROL Calendario]** (vedi di seguito).
 1. Seleziona **[!UICONTROL Salva e continua]** per continuare a configurare la visualizzazione dati nuova o esistente. Seleziona **[!UICONTROL Salva]** per salvare la configurazione per la visualizzazione dati esistente.
 
 
@@ -116,15 +109,18 @@ Definisce il nome dei contenitori per la visualizzazione dati. I nomi dei conten
 
 | Impostazione | Descrizione |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Nome contenitore account globale &#x200B;]** | `Global Account` (impostazione predefinita). Il contenitore [!UICONTROL Account globale] include ogni sessione ed evento di account globali entro l’arco temporale specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Nome contenitore account &#x200B;]** | `Account` (impostazione predefinita). Il contenitore [!UICONTROL Account] include ogni sessione ed evento di account entro l’arco temporale specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Nome contenitore account globale ]** | `Global Account` (impostazione predefinita). Il contenitore [!UICONTROL Account globale] include ogni sessione ed evento di account globali entro l’arco temporale specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Nome contenitore account ]** | `Account` (impostazione predefinita). Il contenitore [!UICONTROL Account] include ogni sessione ed evento di account entro l’arco temporale specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
 | [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Nome contenitore opportunità&#x200B;]** | `Opportunity` (impostazione predefinita). Il contenitore [!UICONTROL Opportunità] include ogni sessione ed evento di opportunità entro l’arco temporale specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Nome contenitore gruppo acquisti &#x200B;]** | `Buying Group` (impostazione predefinita). Il contenitore [!UICONTROL Gruppo acquisti] include ogni sessione ed evento di gruppi acquisti entro l’arco temporale specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Nome contenitore gruppo acquisti ]** | `Buying Group` (impostazione predefinita). Il contenitore [!UICONTROL Gruppo acquisti] include ogni sessione ed evento di gruppi acquisti entro l’arco temporale specificato. Se la tua organizzazione utilizza un termine diverso, qui puoi rinominare il contenitore. |
 | **[!UICONTROL Nome contenitore persona]** | `Person` (impostazione predefinita). Il contenitore [!UICONTROL Persona] include ogni sessione ed evento per le persone entro l’arco temporale specificato. Se l’organizzazione utilizza un termine diverso (ad esempio, “Visitatore” o “Utente”), qui puoi rinominare il contenitore. |
 | **[!UICONTROL Nome contenitore sessione]** | `Session` (impostazione predefinita). Il contenitore [!UICONTROL Sessione] consente di identificare le interazioni nelle pagine, le campagne o le conversioni per una sessione specifica. Puoi rinominarlo in “Visita” o con qualsiasi altro termine preferito dalla tua organizzazione. |
 | **[!UICONTROL Nome contenitore eventi]** | `Event` (impostazione predefinita). Il contenitore [!UICONTROL Evento] definisce singoli eventi in un set di dati. Se l’organizzazione utilizza un termine diverso (ad esempio, “Hit” o “Visualizzazioni pagine”), qui puoi rinominare il contenitore. |
 
 {style="table-layout:auto"}
+
+Quando vedi **[!UICONTROL i contenitori sono stati spostati. I contenitori sono ora disponibili nella scheda Contenitori dedicata]**. È possibile definire i contenitori in una scheda [Contenitori](#containers-1) separata.
+
 
 ### Impostazioni IA
 
@@ -145,6 +141,77 @@ Indica il formato del calendario da applicare alla visualizzazione dati. Puoi av
 
 {style="table-layout:auto"}
 
+## Contenitori
+
+{{release-limited-testing-section}}
+
+
+>[!BEGINTABS]
+
+>[!TAB Standard]
+
+![Configurare una visualizzazione dati](assets/data-view-containers-b2c.png)
+
+>[!TAB B2B Edition]
+
+![Configurare una visualizzazione dati B2B](assets/data-view-containers-b2b.png)
+
+>[!ENDTABS]
+
+Nella scheda **[!UICONTROL Contenitori]** è possibile rinominare i contenitori di sistema e aggiungere contenitori personalizzati.
+
+Aggiungi contenitori personalizzati alla visualizzazione dati in modo da poter utilizzare questi contenitori per [analisi sub-evento](/help/components/segments/sub-event.md). I contenitori personalizzati possono essere definiti da:
+
+* oggetti o array disponibili nei set di dati che fanno parte della connessione. Ad esempio, **[!UICONTROL productListItems]**, **[!UICONTROL content_assets]** o **[!UICONTROL placeContext.activePOIs]**.
+* campi derivati che restituiscono un array tramite la funzione [Split](/help/data-views/derived-fields/derived-fields.md#split).
+* componenti di visualizzazione dati configurati per restituire un array utilizzando le impostazioni del componente [Substring](/help/data-views/component-settings/substring.md) con l&#39;opzione [Delimiter](/help/data-views/component-settings/substring.md#delimiter).
+
+### Contenitori di sistema
+
+Per rinominare i contenitori di sistema:
+
+1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare **[!UICONTROL Nome visualizzato]** del contenitore.
+1. Definisci un nuovo nome per il contenitore.
+1. Seleziona **[!UICONTROL Salva]**.
+
+
+### Contenitori personalizzati
+
+Per aggiungere un contenitore personalizzato:
+
+1. Seleziona **[!UICONTROL Aggiungi contenitore personalizzato]**.
+1. Nella finestra di dialogo **[!UICONTROL Aggiungi contenitore]**:
+   1. Selezionare un contenitore dal menu a discesa **[!UICONTROL Contenitore]**. Ad esempio: **[!UICONTROL productListItems.productCategories]**. Al momento della selezione, vengono visualizzati i valori aggiornati per **[!UICONTROL Percorso schema]** e **[!UICONTROL Tipo schema]**.
+
+   1. Immetti un **[!UICONTROL Nome visualizzato]** per il contenitore. Ad esempio: `Product Categories`.
+   1. Seleziona **[!UICONTROL Salva]**.
+
+Per modificare un contenitore personalizzato:
+
+1. Selezionare ![Altro](/help/assets/icons/More.svg) per il contenitore personalizzato nella colonna **[!UICONTROL Nome visualizzato]**.
+1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica]** dal menu di scelta rapida.
+1. Nella finestra di dialogo **[!UICONTROL Modifica contenitore]**:
+   1. Modificare **[!UICONTROL Contenitore]** o **[!UICONTROL Nome visualizzato]** o entrambi.
+   1. Seleziona **[!UICONTROL Salva]**.
+
+Per eliminare un contenitore personalizzato:
+
+1. Selezionare ![Altro](/help/assets/icons/More.svg) per il contenitore personalizzato nella colonna Nome visualizzato.
+1. Selezionare ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Elimina]** dal menu di scelta rapida.
+
+   >[!NOTE]
+   >
+   >Il contenitore personalizzato viene eliminato senza conferma.
+   >
+
+Per modificare l’elenco dei contenitori personalizzati:
+
+1. Selezionare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg).
+1. In **[!UICONTROL Personalizza tabella]**:
+   1. Selezionare le colonne da visualizzare.
+   1. Seleziona **[!UICONTROL Salva]**.
+
+
 ## Componenti
 
 Successivamente, puoi impostare i componenti di una visualizzazione dati e quindi creare metriche e dimensioni dagli elementi dello schema. Puoi anche utilizzare i componenti standard.
@@ -157,13 +224,11 @@ Successivamente, puoi impostare i componenti di una visualizzazione dati e quind
 
    ![Scheda Componenti](assets/dataview-components.png)
 
-   La [!UICONTROL Connessione] è visibile in alto a sinistra, e contiene i set di dati e i relativi [!UICONTROL Campi dello schema] di seguito.  I componenti già inclusi sono componenti standard (generati dal sistema) necessari per tutte le visualizzazioni dati (come Eventi, Persone, Metriche sessioni e dimensioni Minuto, Trimestre, Settimana). Per impostazione predefinita, Adobe applica anche il filtro **[!UICONTROL Contiene dati]** e **[!UICONTROL non è obsoleto]**, in modo che vengano visualizzati solo i campi dello schema che contengono dati e che non sono obsoleti.
+   La [!UICONTROL Connessione] è visibile in alto a sinistra, e contiene i set di dati e i relativi [!UICONTROL Campi dello schema] di seguito.  I componenti già inclusi sono componenti standard (generati dal sistema) necessari per tutte le visualizzazioni dati (come Eventi, Persone, Metriche sessioni e dimensioni Minuto, Trimestre, Settimana).<ul><li>Dopo aver definito c[contenitori personalizzati](#containers-1), le metriche per questi contenitori vengono aggiunte e identificate automaticamente utilizzando ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL _nome contenitore personalizzato _Occorrenze]**.</li><li>Il filtro **[!UICONTROL non è obsoleto]** è applicato per impostazione predefinita, pertanto vengono visualizzati solo i campi schema che non sono obsoleti.</li></ul>
 
 1. Cerca un campo dello schema utilizzando ![icona Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Cerca campi dello schema]** o trova un campo spostandoti in una delle raccolte di set di dati, ad esempio ![Cartella](/help/assets/icons/Folder.svg) **[!UICONTROL Set di dati evento]** o ![Cartella](/help/assets/icons/Folder.svg) **[!UICONTROL Set di dati di ricerca]**. Per i set di dati evento, sono disponibili raccolte separate per ![Cartella](/help/assets/icons/Folder.svg) **[!UICONTROL Campi XDM]** e ![Cartella](/help/assets/icons/Folder.svg) **[!UICONTROL Campi ad hoc e relazionali]**.<br/>In alternativa, è possibile creare un campo derivato utilizzando ![Icona dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **Crea campo derivato**. Per ulteriori informazioni, consulta [Campi derivati](./derived-fields/derived-fields.md).
 
-1. Una volta trovato il campo dello schema specifico o definito il campo derivato, trascinalo, ad esempio ![icona Gestisci](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Nome pagina]**, dalla barra a sinistra alla sezione **[!UICONTROL Metriche]** o **[!UICONTROL Dimensioni]** in **[!UICONTROL Componenti inclusi]**.
-Puoi trascinare più volte lo stesso campo dello schema nelle sezioni delle dimensioni o metriche, e configurare una stessa dimensione o metrica in modi diversi. Ad esempio, dal campo pageName, puoi creare una dimensione denominata `Product Pages` e un’altra denominata `Error pages`, utilizzando diverse [Impostazioni componenti](component-settings/overview.md) a destra.
-Se trascini una cartella campo dello schema dalla barra a sinistra, i campi nella cartella vengono ordinati automaticamente nelle sezioni appropriate. I campi stringa finiscono nella sezione [!UICONTROL Dimensioni], mentre i tipi di schema numerico finiscono nella sezione [!UICONTROL Metriche]. Se fai clic su **[!UICONTROL Aggiungi tutto]**, tutti i campi dello schema vengono aggiunti alle rispettive sezioni.
+1. Una volta trovato il campo dello schema specifico o definito il campo derivato, trascinalo, ad esempio ![icona Gestisci](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Nome pagina]**, dalla barra a sinistra alla sezione **[!UICONTROL Metriche]** o **[!UICONTROL Dimensioni]** in **[!UICONTROL Componenti inclusi]**.Puoi trascinare più volte lo stesso campo dello schema nelle sezioni delle dimensioni o metriche, e configurare una stessa dimensione o metrica in modi diversi. Ad esempio, dal campo pageName, puoi creare una dimensione denominata `Product Pages` e un’altra denominata `Error pages`, utilizzando diverse [Impostazioni componenti](component-settings/overview.md) a destra.Se trascini una cartella campo dello schema dalla barra a sinistra, i campi nella cartella vengono ordinati automaticamente nelle sezioni appropriate. I campi stringa finiscono nella sezione [!UICONTROL Dimensioni], mentre i tipi di schema numerico finiscono nella sezione [!UICONTROL Metriche]. Se fai clic su **[!UICONTROL Aggiungi tutto]**, tutti i campi dello schema vengono aggiunti alle rispettive sezioni.
 
 1. Quando selezioni il componente, a destra vengono visualizzate le impostazioni.
 
