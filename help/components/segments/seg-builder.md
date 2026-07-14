@@ -6,10 +6,18 @@ role: User
 hold: true
 exl-id: 160021f1-6942-4682-9114-d375307d9912
 TQID: https://experienceleague.adobe.com/MFqcgWkCqZbtbI58nF8boBZU3YzfcuAAsJxXbjBcT5E
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: b342654b753f679f86750e43efbed1eb149e1b17
 workflow-type: tm+mt
 source-wordcount: 1851
@@ -86,7 +94,7 @@ Per aggiungere un componente:
 
 1. Trascina e rilascia un componente dal pannello dei componenti su **[!UICONTROL Trascina e rilascia qui]** metriche, segmenti e/o dimensioni.
    * Puoi usare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare componenti specifici.
-   * Puoi usare ![Filtro](/help/assets/icons/Filter.svg) nella barra dei componenti per filtrare in base a ![Segno di spunta](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approvato]**, ![Stella](/help/assets/icons/Star.svg) **[!UICONTROL Preferiti]**, ![Dimensione dati](/help/assets/icons2/DataDimension.svg) **[!UICONTROL Dimensioni]**, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Metriche]**, ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmenti]**, ![Calendario](/help/assets/icons/Calendar.svg) **[!UICONTROL Intervalli date]** e ![Layer](/help/assets/icons/Layer.svg) **[!UICONTROL *container *]**componenti (come Prodotti, Contenuto Assets). È inoltre possibile filtrare i tag ![Label](/help/assets/icons/Label.svg).
+   * Puoi usare ![Filtro](/help/assets/icons/Filter.svg) nella barra dei componenti per filtrare in base a ![Segno di spunta](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approvato]**, ![Stella](/help/assets/icons/Star.svg) **[!UICONTROL Preferiti]**, ![Dimensione dati](/help/assets/icons2/DataDimension.svg) **[!UICONTROL Dimensioni]**, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Metriche]**, ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmenti]**, ![Calendario](/help/assets/icons/Calendar.svg) **[!UICONTROL Intervalli date]** e ![Layer](/help/assets/icons/Layer.svg) **[!UICONTROL *container *]**&#x200B;componenti (come Prodotti, Contenuto Assets). È inoltre possibile filtrare i tag ![Label](/help/assets/icons/Label.svg).
 1. Specifica i dettagli del componente. Ad esempio, selezionare un valore da **[!UICONTROL Seleziona valore]**. Oppure inserisci un valore. Cosa e come specificare uno o più valori dipende dal componente e dall’operatore.
 1. Facoltativamente, modifica l’operatore predefinito. Ad esempio, da **[!UICONTROL equals]** a **[!UICONTROL equals any of]**. Consulta [Operatori](seg-operators.md) per una panoramica dettagliata degli operatori disponibili.
 
