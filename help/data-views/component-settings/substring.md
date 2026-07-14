@@ -5,6 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
+hold: true
 autotag-review: '2026-05-19T09:11:52.108Z'
 TQID: 'https://experienceleague.adobe.com/zvIcmaZiq3dtL-6b8fal6l2pWVLUbfVcOGWgyuqMqjE'
 product_v2:
@@ -17,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 65ed91c47b271257451243db6f7e50e127ff4b68
 workflow-type: tm+mt
-source-wordcount: 930
-ht-degree: 57%
+source-wordcount: 955
+ht-degree: 56%
 
 ---
 
@@ -62,7 +63,7 @@ Utilizza questo metodo per i campi che utilizzano un delimitatore per separare p
 * **[!UICONTROL Criterio]**: come trattare l&#39;elenco di valori delimitato.
    * **[!UICONTROL Da sinistra]**: inizia dall&#39;inizio dell&#39;elenco delimitato e conta in avanti.
    * **[!UICONTROL Da destra]**: inizia dalla fine dell&#39;elenco delimitato e conta all&#39;indietro.
-   * **[!UICONTROL Converti in array]**: considera questa dimensione come un elemento schema di tipo array di oggetti.
+   * **[!UICONTROL Converti in array]**: considera questa dimensione come un elemento schema di tipo array di oggetti. La dimensione diventa disponibile come [contenitore personalizzato](/help/data-views/create-dataview.md#containers-1) che puoi selezionare nella visualizzazione dati e utilizzare per [analisi sub-evento](/help/components/segments/sub-event.md) in un progetto Workspace.
 * **[!UICONTROL Delimitatore]**: delimitatore utilizzato dal campo.
 * **[!UICONTROL Indice]**: disponibile solo se il criterio è From the Left/Right (Da sinistra/Da destra). Numero dell’elemento come se si trovasse in un array. Ad esempio, se l’input della stringa è `"Fox,Turtle,Rabbit,Wolf"` con un indice pari a 3, l’output è `"Rabbit"`. Se l’indice è superiore al numero di elementi delimitati, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md).
 
