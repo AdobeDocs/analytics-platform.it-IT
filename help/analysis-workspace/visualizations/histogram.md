@@ -79,5 +79,5 @@ Come parte della visualizzazione, sono disponibili impostazioni specifiche dellâ
 
 >[!MORELIKETHIS]
 >
->[Aggiungi una visualizzazione a un pannelloImpostazioni di visualizzazioneMenu di scelta rapida visualizzazioneUtilizzo di istogrammi per identificare valori di dati imprevisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
+>[Aggiungi una visualizzazione a un pannelloImpostazioni di visualizzazioneMenu di scelta rapida visualizzazioneUtilizzo di istogrammi per identificare valori di dati imprevisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=it)
 
