@@ -4,6 +4,7 @@ description: Scopri in che modo le etichette per dati e i criteri definiti in Ad
 exl-id: 1de5070f-a91c-4fe6-addb-a89d59a280b7
 feature: Data Views, Data Governance
 role: Admin
+hold: true
 autotag-review: '2026-05-19T08:59:31.818Z'
 TQID: 'https://experienceleague.adobe.com/SoIHLRSx90B4j8EkHWBVt3rVtt-968TN8ocWU2zuYN4'
 product_v2:
@@ -22,22 +23,27 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 1254207526535e44c848dfeed0052339fbd8d65d
 workflow-type: tm+mt
-source-wordcount: 622
-ht-degree: 72%
+source-wordcount: 745
+ht-degree: 48%
 
 ---
 
-# Etichette e criteri
+# Etichette, criteri e azioni di marketing
 
 Quando crei un set di dati in Experience Platform, puoi creare [etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference) per alcuni o tutti gli elementi del set di dati. Puoi visualizzare queste etichette e criteri in Customer Journey Analytics.
 
-Le seguenti etichette sono di particolare interesse per Customer Journey Analytics:
+Le etichette e le azioni di marketing seguenti sono di particolare interesse per Customer Journey Analytics:
 
-* Etichetta `C8` - **[!UICONTROL Nessuna misurazione]**. Questa etichetta indica che i dati non possono essere utilizzati per analisi sui siti web o sulle app dell’organizzazione.
 
-* Etichetta `C12` - **[!UICONTROL Nessuna esportazione dati generale]**. I campi dello schema etichettati in questo modo non possono essere esportati o scaricati da Customer Journey Analytics (tramite reporting, esportazione, API, ecc.)
+| Etichetta | Azione di marketing | Definizione |
+|---------|----------|---------|
+| `C2` | [!UICONTROL Esporta a terze parti] | L’etichetta e l’azione di marketing associata indicano che i dati non possono essere esportati a terzi, se è abilitato il criterio DULE corrispondente. |
+| `C3` | [!UICONTROL Combinazione con dati direttamente identificabili] | L’etichetta e la relativa azione di marketing indicano che i dati non possono essere combinati o altrimenti utilizzati con informazioni direttamente identificabili, se è abilitato il corrispondente criterio DULE. |
+| `C8` | [!UICONTROL Analytics] | L’etichetta e l’azione di marketing associata indicano che i dati non possono essere utilizzati per l’analisi sui siti web o sulle app della tua organizzazione, se è abilitato il criterio DULE corrispondente. |
+| `C9` | [!UICONTROL Data Science] | L’etichetta e l’azione di marketing associata indicano che i dati non possono essere utilizzati nei flussi di lavoro di data science, se è abilitato il corrispondente criterio DULE. |
+| `C12` | [!UICONTROL Esportazione dati] | L’etichetta e l’azione di marketing associata indicano che i campi dello schema etichettati in questo modo non possono essere esportati o scaricati da Customer Journey Analytics (tramite reporting, esportazione, API e così via), se è abilitato il corrispondente criterio DULE. |
 
 >[!NOTE]
 >
@@ -45,10 +51,17 @@ Le seguenti etichette sono di particolare interesse per Customer Journey Analyti
 
 L’etichettatura di per sé non significa che queste etichette di utilizzo dei dati siano applicate. Per questo vengono utilizzati i criteri. Puoi creare i tuoi criteri utilizzando l’[Interfaccia utente Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/policies/user-guide) o tramite l’[API di Privacy Service](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/api/overview) in Experience Platform.
 
-In Adobe sono disponibili due criteri definiti da Experience Platform che possono emergere in Customer Journey Analytics e influire sul reporting e sull’esportazione dei dati:
+In Experience Platform sono disponibili cinque criteri definiti da Adobe che possono emergere in Customer Journey Analytics e influire sulla generazione di rapporti e sull’esportazione dei dati:
 
-* **[!UICONTROL Limita analisi dell&#39;utilizzo e misurazione basata su utente]** criteri, utilizzando l&#39;etichetta `C8` e
-* **[!UICONTROL Limita i criteri di esportazione dei dati]**, utilizzando l&#39;etichetta `C12`.
+
+| Criterio | Etichetta |
+|---------|----------|
+| [!UICONTROL Limita l&#39;esportazione di dati di terze parti] | `C2` |
+| [!UICONTROL Limita la combinazione di dati direttamente identificabili] | `C3` |
+| [!UICONTROL Limita analisi utilizzo e misurazione basata su utente] | `C8` |
+| [!UICONTROL Limita data science] | `C9` |
+| [!UICONTROL Limita l&#39;esportazione dei dati] | `C12` |
+
 
 ## Visualizzare le etichette dati nelle visualizzazioni dati di Customer Journey Analytics
 
@@ -82,7 +95,7 @@ Fai clic su **[!UICONTROL Applica]** per vedere quali criteri sono abilitati.
 
 ## Effetti dei criteri abilitati sulle visualizzazioni dati
 
-Se uno o più criteri sono attivati con etichette C8 o C12, i componenti dello schema a cui sono applicate determinate etichette dati non possono essere aggiunti alle visualizzazioni dati.
+Se uno o più criteri sono attivati con etichette C1, C2, C3, C8, C9 o C12, i componenti dello schema a cui sono applicate determinate etichette dati non possono essere aggiunti alle visualizzazioni dati.
 
 Questi componenti sono disattivati nella barra a sinistra [!UICONTROL Elenco campi schema]:
 

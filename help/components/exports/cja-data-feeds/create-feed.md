@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
+source-git-commit: 0cc15e1c3dcbd8609a47954af8602ad617c67a51
 workflow-type: tm+mt
-source-wordcount: 2675
+source-wordcount: 2774
 ht-degree: 24%
 
 ---
@@ -68,6 +68,15 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_datafeed_user-agent"
+>title=""
+>abstract="I dati dell’agente utente e i dati di ricerca del dispositivo non possono esistere nella stessa configurazione di feed dati."
+
+<!-- markdownlint-enable MD034 -->
+
 1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali Adobe ID.
 
 1. Seleziona [!UICONTROL **Customer Journey Analytics**] dal selettore di app ![App](/help/assets/icons/Apps.svg) in alto a destra nell’interfaccia.
@@ -101,6 +110,11 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
 1. Aggiungi componenti alla configurazione del feed dati. Nella barra a sinistra, individua i componenti da includere, quindi trascinali nell’area di lavoro per creare la struttura dati. Per selezionare più componenti, tieni premuto **[!UICONTROL Maiusc]** oppure tieni premuto **[!UICONTROL Comando]** (su macOS) o **[!UICONTROL Ctrl]** (su Windows).
 
+   >[!NOTE]
+   >
+   >I dati dell’agente utente e i dati di ricerca del dispositivo non possono esistere nella stessa configurazione di feed dati. Se tenti di aggiungere componenti in conflitto, viene visualizzato un errore. Per ulteriori informazioni, vedere [Configurare la ricerca del dispositivo](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure#geolocation-device-lookup) in [Creare e configurare gli stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure) nella guida alla raccolta dati.
+
+
    Utilizza le seguenti informazioni per comprendere le dimensioni sempre incluse, le dimensioni che non possono essere incluse e le metriche che devono essere sostituite:
 
    +++ Dimensioni sempre incluse nei feed di dati
@@ -109,9 +123,9 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
    | Nome dimensione | Note | Feed di dati | Altre attività di reporting |
    |---|---|---|---|
-   | Marca temporale | Timestamp del periodo dell’evento. Granularità al microsecondo. Rappresentata in UTC. | Obbligatorio | Non disponibile |
-   | ID riga | Identificatore di riga univoco | Obbligatorio | Non disponibile |
-   | ID sessione | Identificatore univoco per ogni sessione | Obbligatorio | Non disponibile |
+   | Timestamp UTC | La data e l’ora in cui si è verificato l’evento, rappresentate nel fuso orario UTC. Supporta la granularità al secondo secondario (microsecondo). | Obbligatorio | Non disponibile |
+   | ID riga | L’identificatore univoco di ogni riga inclusa nel feed di dati. | Obbligatorio | Non disponibile |
+   | ID sessione | L’identificatore univoco di ogni sessione inclusa nel feed di dati. | Obbligatorio | Non disponibile |
    | ID persona | Identificatore della persona per la visualizzazione dati e la connessione | Obbligatorio | Standard opzionale |
    | ID account [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} | ID account quando si utilizza il contenitore Account | Obbligatorio | Standard opzionale |
 
