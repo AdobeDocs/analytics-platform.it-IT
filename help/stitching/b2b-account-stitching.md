@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 11156e1f2db094595cc3333ccb0b896037da4715
+source-git-commit: 8f55bd26df5d06a459b275beb9c92669e15b2fd0
 workflow-type: tm+mt
-source-wordcount: 1178
-ht-degree: 24%
+source-wordcount: 1203
+ht-degree: 19%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 24%
 
 L’unione degli account B2B arricchisce i set di dati dell’evento con le informazioni sull’account e consente un’analisi completa nell’intero percorso di clienti in Customer Journey Analytics. Quando gli eventi non dispongono di un ID account, richiesto da Customer Journey Analytics B2B edition per l&#39;acquisizione, l&#39;unione degli account deriva e aggiunge automaticamente tali informazioni utilizzando un [set di dati di mappatura persona-account](#prerequisites) fornito.
 
-Senza l’unione degli account, qualsiasi evento che non contiene un ID account viene eliminato durante l’acquisizione. L’unione degli account elimina questa barriera ricercando l’account associato alla persona in ogni evento, aggiungendo l’ID account sia durante l’acquisizione dell’evento che retroattivamente.
+Senza l’unione degli account, qualsiasi evento che non contiene un ID account viene eliminato durante l’acquisizione. L’unione di account risolve questo limite ricercando l’account associato alla persona in ogni evento, aggiungendo l’ID account sia durante l’acquisizione dell’evento sia retroattivamente.
 
 >[!NOTE]
 >
@@ -68,12 +68,12 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
 >title="Spazio dei nomi identificatori persona"
->abstract="Seleziona uno spazio dei nomi per gli identificatore delle persone, ad esempio E-mail, al quale desideri che venga elevato qualsiasi ID di persona."
+>abstract="Seleziona lo spazio dei nomi dell’identità della persona più rilevante per la generazione dei rapporti. Ad esempio, E-mail."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
 >title="Set di dati Persona ad account"
->abstract="Seleziona il set di dati di ricerca per la mappatura degli ID di persona agli ID di account."
+>abstract="Seleziona il campo nel set di dati che contiene gli ID persona. Lo spazio dei nomi di questo campo può essere diverso o uguale allo spazio dei nomi dell’identificatore persona selezionato (configurazione dell’unione B2B). Se i due spazi dei nomi sono diversi, collegali nel grafo delle identità."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person"
@@ -83,14 +83,12 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_account"
 >title="Account"
->abstract="Seleziona il campo nel set di dati che contiene l’ID di account. Il campo non può essere uguale al campo **[!UICONTROL Persona]** o **[!UICONTROL Ora di inizio]**."
+>abstract="Seleziona il campo nel set di dati che contiene i valori dell’identificatore univoco dell’account. Le informazioni sull’ID account saranno rese disponibili sulle righe di qualsiasi set di dati evento con l’unione abilitata."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
 >title="Ora di inizio"
 >abstract="Seleziona un campo di marca temporale che indichi quando la relazione persona-account è diventata attiva."
->additional-url=""
->additional-url=""
 
 
 1. In Customer Journey Analytics, passa a **[!UICONTROL Connessioni]** e [crea una nuova connessione](/help/connections/create-connection.md#create-a-connection) o [modifica una connessione esistente](/help/connections/create-connection.md#edit-a-connection).
@@ -138,8 +136,6 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Abilita unione delle identità persona-account"
 >abstract="Se questa opzione è abilitata, questo set di dati utilizza l’unione delle identità in account B2B. Seleziona un **[!UICONTROL ID persona]** richiesto per cercare l’ID account in base al set di dati da persona ad account.<br/>Se è disabilitata, questo set di dati *non* utilizza l’unione delle identità di account B2B e devi quindi selezionare un **[!UICONTROL ID account]** richiesto."
->additional-url=""
->additional-url=""
 
 
 Dopo aver configurato l’unione B2B a livello di connessione, devi abilitare l’unione degli account B2B singolarmente per ogni set di dati evento da unire.
@@ -180,7 +176,7 @@ Dopo aver configurato la configurazione dell&#39;unione B2B e aver completato l&
 
 >[!IMPORTANT]
 >
->Una volta salvata una connessione, la configurazione dell’unione B2B diventa immutabile. Per visualizzare le impostazioni dopo il salvataggio, selezionare **Apri configurazione di unione B2B**. Tutti i campi verranno visualizzati in sola lettura. Inoltre, se il set di dati utilizzato per il [mapping tra persone e account](#prerequisites) viene eliminato in Experience Platform, la connessione verrà eliminata.
+>Una volta salvata una connessione, la configurazione dell’unione B2B diventa immutabile. Per visualizzare le impostazioni dopo il salvataggio, selezionare **Apri configurazione di unione B2B**. Tutti i campi sono di sola lettura. Inoltre, se il set di dati utilizzato per [il mapping tra persone e account](#prerequisites) viene eliminato in Experience Platform, la connessione verrà eliminata.
 
 ## Pianificazione aggiornamento dati
 
@@ -195,7 +191,7 @@ L&#39;unione di account deriva la mappa di identità dal [set di dati persona-ac
 
 L’unione degli account rispetta le richieste standard di privacy e igiene per le identità delle persone, in linea con il comportamento dell’unione B2C. Se un ID persona viene successivamente rimosso tramite una richiesta di accesso a dati personali o di igiene, l’unione associata eseguita utilizzando il grafico delle identità viene annullata.
 
-Le entità B2B come account, ID account e ID account globali che vengono aggiunti agli eventi tramite l’unione non vengono rimosse come parte delle richieste di privacy o igiene. Questi valori non contengono informazioni personali identificabili, pertanto non esiste alcun obbligo legale di rimuovere tali valori.
+Le entità B2B come account, ID account e ID account globali aggiunti agli eventi tramite l’unione non vengono rimosse durante le richieste di privacy o igiene. Questi valori non contengono informazioni personali identificabili, pertanto non esiste alcun obbligo legale di rimuovere tali valori.
 
 >[!MORELIKETHIS]
 >

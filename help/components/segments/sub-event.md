@@ -2,16 +2,15 @@
 title: Analisi degli eventi secondari
 description: Scopri come l’analisi dei sub-eventi consente di filtrare singoli prodotti o altri contenitori all’interno di un evento in Customer Percorsi Analytics, eliminando il bleed di attribuzione nei rapporti sui prodotti.
 feature: Segmentation
-hold: true
 hide: true
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: c504a631398d14479c9a2b70d9ef43ac88e35704
+source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 0%
+source-wordcount: 630
+ht-degree: 9%
 
 ---
 
@@ -23,10 +22,10 @@ L’analisi dei sottoeventi consente di analizzare i dati dell’evento a un liv
 
 - Segmentazione per una categoria di prodotti specifica senza includere tutti gli altri prodotti acquistati nello stesso ordine
 - Segmentare una categoria di risorse specifica nei dati di analisi dei contenuti?
-- Segmentazione su un canale multimediale specifico all’interno dei dati di analisi dei contenuti multimediali.
+- Segmentazione su un canale multimediale specifico all’interno dei dati di analisi multimediale.
 
 
-In Customer Journey Analytics, all’interno di una visualizzazione dati puoi definire i contenitori per i quali desideri utilizzare l’analisi degli eventi secondari. Senza analisi di eventi secondari, la segmentazione su un attributo di elemento contenitore restituisce tutti gli eventi in cui qualsiasi elemento all’interno di un evento corrisponde all’attributo di elemento contenitore. Il risultato è un’attribuzione errata e metriche di ricavi gonfiate. L’analisi degli eventi secondari prende in esame il filtro per singole righe di elementi all’interno di un evento e risolve questi problemi.
+In Customer Journey Analytics, all’interno di una visualizzazione dati puoi definire i contenitori per i quali desideri utilizzare l’analisi degli eventi secondari. Senza analisi di eventi secondari, la segmentazione su un attributo di elemento contenitore restituisce tutti gli eventi, le sessioni, le persone, gli account (globali) [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, i gruppi di acquisto [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, le opportunità [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} o altri [contenitori](/help/data-views/create-dataview.md#containers-1) definiti. Il risultato è un’attribuzione errata e metriche di ricavi gonfiate. L’analisi sub-evento esamina il filtro in singole righe del contenitore all’interno di un evento e risolve questi problemi.
 
 Nell’analisi dei sottoeventi, la logica di esclusione si comporta in modo diverso rispetto all’esclusione standard a livello di evento rispetto al contenitore. Quando si escludono gli attributi di elementi all&#39;interno del contenitore, il segmento restituisce eventi che **contengono elementi** all&#39;interno del contenitore ma non corrispondono ai criteri di esclusione. Il segmento non restituisce alcun evento senza elementi.
 
