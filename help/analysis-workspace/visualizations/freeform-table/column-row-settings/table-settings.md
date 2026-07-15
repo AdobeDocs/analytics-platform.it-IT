@@ -4,22 +4,14 @@ title: Impostazioni riga
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-hold: true
 TQID: https://experienceleague.adobe.com/qQKmobJ4J1RPezRG-hk38l7JNioIshzjMaKXWVoUWsM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a63b9948d58c4057db7fa74b36e9d0e0210f946
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
 workflow-type: tm+mt
-source-wordcount: 1596
+source-wordcount: 1602
 ht-degree: 9%
 
 ---
@@ -38,7 +30,7 @@ Le Impostazioni riga variano a seconda del componente che hai trascinato all’i
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}.
 
 {{videoaa}}
 
@@ -90,9 +82,9 @@ Quando si selezionano uno o più elementi dimensionali (prima colonna) o una o p
 | **[!UICONTROL Selezione tendenze]** | Crea una visualizzazione con grafico a linee di tendenza per la selezione. |
 | **[!UICONTROL Visualizza solo le righe selezionate]** | Visualizza solo le righe selezionate nella visualizzazione. |
 | **[!UICONTROL Visualizza tutte le righe]** | Visualizza tutte le righe della visualizzazione. |
-| **[!UICONTROL Rinomina la riga selezionata]** | Rinomina la riga selezionata. Immetti un **[!UICONTROL Nome]** nella **[!UICONTROL finestra di dialogo Rinomina riga selezionata]**. Seleziona **[!UICONTROL OK]** per confermare o **[!UICONTROL Annulla]** per annullare. Una volta rinominata una riga in una tabella a forma libera, al nome della dimensione nella colonna dell&#39;intestazione vengono aggiunti **[!UICONTROL (modificato)]** e un&#39;icona ![Ingranaggio](/help/assets/icons/Gear.svg) è disponibile per ripristinare le righe rinominate nella colonna dell&#39;intestazione della dimensione. Vedi [Esempio di classificazione in linea](#inline-classifications-example). |
-| **[!UICONTROL Combina righe selezionate]** | Combina le righe selezionate. Immetti un **[!UICONTROL Nome]** nella finestra di dialogo **[!UICONTROL Combina righe selezionate]**. Seleziona **[!UICONTROL OK]** per confermare o **[!UICONTROL Annulla]** per annullare. Una volta combinate le righe di una tabella a forma libera, il nome della dimensione nella colonna dell&#39;intestazione viene aggiunto con **[!UICONTROL (modificato)]** e un&#39;icona ![Ingranaggio](/help/assets/icons/Gear.svg) è disponibile per reimpostare le righe rinominate nella colonna dell&#39;intestazione della dimensione. Vedi [Esempio di classificazione in linea](#inline-classifications-example). |
-| **[!UICONTROL Crea come campo derivato]** | *Per visualizzare questa opzione del menu di scelta rapida, è necessario essere un amministratore di prodotto Customer Journey Analytics.*<br/> Disponibile su qualsiasi riga selezionata di una tabella a forma libera modificata in seguito alla ridenominazione o alla combinazione di righe. Se questa opzione è selezionata, viene aperta l&#39;[Interfaccia campo derivato](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field) con le modifiche apportate alla tabella a forma libera già precompilata. Vedi [Esempio di classificazione in linea](#inline-classifications-example). |
+| **[!UICONTROL Rinomina la riga selezionata]** | *Disponibilità limitata dei test*<br/> Rinominare la riga selezionata. Immetti un **[!UICONTROL Nome]** nella **[!UICONTROL finestra di dialogo Rinomina riga selezionata]**. Seleziona **[!UICONTROL OK]** per confermare o **[!UICONTROL Annulla]** per annullare. Una volta rinominata una riga in una tabella a forma libera, al nome della dimensione nella colonna dell&#39;intestazione vengono aggiunti **[!UICONTROL (modificato)]** e un&#39;icona ![Ingranaggio](/help/assets/icons/Gear.svg) è disponibile per ripristinare le righe rinominate nella colonna dell&#39;intestazione della dimensione. Vedi [Esempio di classificazione in linea](#inline-classifications-example). |
+| **[!UICONTROL Combina righe selezionate]** | *Disponibilità limitata dei test*<br/> Combinare le righe selezionate. Immetti un **[!UICONTROL Nome]** nella finestra di dialogo **[!UICONTROL Combina righe selezionate]**. Seleziona **[!UICONTROL OK]** per confermare o **[!UICONTROL Annulla]** per annullare. Una volta combinate le righe di una tabella a forma libera, il nome della dimensione nella colonna dell&#39;intestazione viene aggiunto con **[!UICONTROL (modificato)]** e un&#39;icona ![Ingranaggio](/help/assets/icons/Gear.svg) è disponibile per reimpostare le righe rinominate nella colonna dell&#39;intestazione della dimensione. Vedi [Esempio di classificazione in linea](#inline-classifications-example). |
+| **[!UICONTROL Crea come campo derivato]** | *Disponibilità limitata dei test *<br/>*Per visualizzare questa opzione del menu di scelta rapida, è necessario essere un amministratore del prodotto Customer Journey Analytics.*<br/> Disponibile su qualsiasi riga selezionata di una tabella a forma libera modificata in seguito alla ridenominazione o alla combinazione di righe. Se questa opzione è selezionata, viene aperta l&#39;[Interfaccia campo derivato](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field) con le modifiche apportate alla tabella a forma libera già precompilata. Vedi [Esempio di classificazione in linea](#inline-classifications-example). |
 | **[!UICONTROL Crea annotazione da selezione]** | Apri [Generatore di annotazioni](/help/components/annotations/create-annotations.md#annotation-builder) per creare un&#39;annotazione per la selezione. |
 | **[!UICONTROL Crea segmento da selezione]** | Apri [Generatore di segmenti](/help/components/segments/seg-builder.md) per creare un segmento dalla selezione. |
 | **[!UICONTROL Crea pubblico da selezione]** | Apri [Generatore di pubblico](/help/components/audiences/publish.md#audience-builder) per creare un pubblico dalla selezione. |
@@ -114,10 +106,12 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 
 ## Modificare l&#39;altezza delle righe
 
-È possibile impostare la [densità di visualizzazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) di un progetto su **[!UICONTROL Compatto]**, **[!UICONTROL Comoda]** e **[!UICONTROL Espansa]**.
+È possibile impostare la [densità di visualizzazione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) di un progetto su **[!UICONTROL Compatto]**, **[!UICONTROL Comoda]** e **[!UICONTROL Espansa]**.
 
 
 ## Esempio di classificazioni in linea
+
+{{release-limited-testing-section}}
 
 Questo esempio illustra come utilizzare le opzioni del menu di scelta rapida **[!UICONTROL Rinomina riga selezionata]**, **[!UICONTROL Combina righe selezionate]** e **[!UICONTROL Crea come campo derivato]**. E come ripristinare la tabella a forma libera modificata.
 
