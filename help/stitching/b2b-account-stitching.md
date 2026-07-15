@@ -7,20 +7,12 @@ hide: true
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ddbeb022f4850c2f872f612c86fb37a94b43a73d
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8f55bd26df5d06a459b275beb9c92669e15b2fd0
 workflow-type: tm+mt
 source-wordcount: 1203
 ht-degree: 19%
@@ -89,8 +81,6 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 >id="connection_b2b_stitching_start_time"
 >title="Ora di inizio"
 >abstract="Seleziona un campo di marca temporale che indichi quando la relazione persona-account è diventata attiva."
->additional-url=""
->additional-url=""
 
 
 1. In Customer Journey Analytics, passa a **[!UICONTROL Connessioni]** e [crea una nuova connessione](/help/connections/create-connection.md#create-a-connection) o [modifica una connessione esistente](/help/connections/create-connection.md#edit-a-connection).
@@ -138,8 +128,6 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Abilita unione delle identità persona-account"
 >abstract="Se questa opzione è abilitata, questo set di dati utilizza l’unione delle identità in account B2B. Seleziona un **[!UICONTROL ID persona]** richiesto per cercare l’ID account in base al set di dati da persona ad account.<br/>Se è disabilitata, questo set di dati *non* utilizza l’unione delle identità di account B2B e devi quindi selezionare un **[!UICONTROL ID account]** richiesto."
->additional-url=""
->additional-url=""
 
 
 Dopo aver configurato l’unione B2B a livello di connessione, devi abilitare l’unione degli account B2B singolarmente per ogni set di dati evento da unire.
