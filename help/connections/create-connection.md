@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ddbeb022f4850c2f872f612c86fb37a94b43a73d
+source-git-commit: 3eae7d76014165ec03151b7c2ec87952f357d4a3
 workflow-type: tm+mt
-source-wordcount: 10413
+source-wordcount: 10479
 ht-degree: 90%
 
 ---
@@ -404,12 +404,22 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
 >[!CONTEXTUALHELP]
 >id="connection_personid"
 >title="ID persona"
->abstract="Seleziona un campo di tipo identityMap o identityMap con una copertura completa degli eventi. I valori contenuti sono elevati a quelli dello spazio dei nomi dell’identificatore persona configurato in precedenza (nella configurazione dell’unione B2B)."
+>abstract="Seleziona un ID persona tra le identità disponibili definite negli schemi di set di dati in Experience Platform."
 
 >[!CONTEXTUALHELP]
 >id="connection_accountid"
 >title="ID account"
 >abstract="Seleziona un ID account (identificatore univoco per un account) dalle identità disponibili definite nello schema del set di dati in Experience Platform."
+
+>[!CONTEXTUALHELP]
+>id="connection_b2bstitching_personid"
+>title="ID persona"
+>abstract="Seleziona un campo di tipo identityMap o identityMap con una copertura completa degli eventi. I valori contenuti saranno elevati a quelli dello spazio dei nomi dell’identificatore della persona configurato in precedenza."
+
+>[!CONTEXTUALHELP]
+>id="connection_b2bstitching_accountid"
+>title="ID account"
+>abstract="Facoltativamente, seleziona un ID account dai campi di identità non di identità o non di persona disponibili definiti nello schema del set di dati. I valori contenuti verranno utilizzati come identificatore univoco dell’account a livello di riga, ogni volta che le informazioni sull’ID account correlate non sono disponibili nel set di dati da persona a account."
 
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"
