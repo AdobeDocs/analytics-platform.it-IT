@@ -3,8 +3,10 @@ title: Analisi degli eventi secondari
 description: Scopri come l’analisi dei sub-eventi consente di filtrare singoli prodotti o altri contenitori all’interno di un evento in Customer Percorsi Analytics, eliminando il bleed di attribuzione nei rapporti sui prodotti.
 feature: Segmentation
 hide: true
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
 source-git-commit: babf5a87458103ca962113114d18b9dd8e1ab303
 workflow-type: tm+mt
 source-wordcount: 680
