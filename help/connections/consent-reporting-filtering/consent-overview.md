@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: eafeab50e86b3e98f372c70a0fd43494015ca002
+source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
 workflow-type: tm+mt
-source-wordcount: 990
+source-wordcount: 1058
 ht-degree: 2%
 
 ---
@@ -29,6 +29,15 @@ ht-degree: 2%
 # Panoramica sulla generazione di rapporti e sui filtri di consenso
 
 La funzione di reporting e filtro del consenso utilizza i dati di iscrizione al criterio di consenso memorizzati nei set di dati del profilo Adobe Experience Platform per aiutarti a generare rapporti sul consenso dei visitatori e, facoltativamente, per escludere i visitatori non consenzienti prima che i loro dati vengano acquisiti in Customer Journey Analytics.
+
+## Prerequisiti
+
+Prima di configurare la generazione di rapporti e i filtri per il consenso, assicurati che:
+
+* La tua organizzazione ha concesso la licenza ad Adobe Healthcare Shield o Privacy &amp; Security Shield.
+* Si dispone delle autorizzazioni di amministratore di sistema in Customer Journey Analytics.
+* La sandbox che desideri utilizzare contiene un set di dati profilo con dati di appartenenza ai criteri di consenso nel campo `consentPoliciesIDMap`.
+* La connessione da configurare esiste già. Per ulteriori informazioni, vedere [Creare o modificare una connessione](/help/connections/create-connection.md).
 
 Il diagramma seguente e la tabella associata mostrano una rappresentazione di alto livello del modo in cui la generazione rapporti e i filtri di consenso rendono i dati dei criteri di consenso disponibili in Analysis Workspace e filtrano i dati dei visitatori al momento dell’acquisizione:
 

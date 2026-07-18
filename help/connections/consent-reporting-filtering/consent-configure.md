@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: eafeab50e86b3e98f372c70a0fd43494015ca002
+source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
 workflow-type: tm+mt
-source-wordcount: 759
+source-wordcount: 728
 ht-degree: 1%
 
 ---
@@ -32,14 +32,6 @@ Gli amministratori di sistema possono abilitare la segnalazione del consenso e, 
 >[!IMPORTANT]
 >
 >Il filtro del consenso esclude i dati dei visitatori non consentiti al momento del caricamento. I dati esclusi dal filtro non vengono memorizzati in Customer Journey Analytics e non possono essere recuperati per le date passate. Rivedi attentamente le selezioni delle azioni di marketing prima di abilitare il filtro.
-
-## Prerequisiti
-
-Prima di configurare la generazione di rapporti e i filtri per il consenso, assicurati che:
-
-* Si dispone delle autorizzazioni di amministratore di sistema in Customer Journey Analytics.
-* La sandbox che desideri utilizzare contiene un set di dati profilo con dati di appartenenza ai criteri di consenso nel campo `consentPoliciesIDMap`.
-* La connessione da configurare esiste già. Per ulteriori informazioni, vedere [Creare o modificare una connessione](/help/connections/create-connection.md).
 
 ## Creare una configurazione
 
@@ -58,17 +50,21 @@ Per creare una configurazione di reporting e filtro del consenso:
    | **[!UICONTROL Nome]** | Specifica un nome per la configurazione. |
    | **[!UICONTROL Sandbox]** | Seleziona la sandbox di Experience Platform che contiene il set di dati Profilo con i dati di iscrizione al criterio di consenso. <p>Esiste un massimo di un set di dati di ricerca dei criteri di consenso per sandbox. Più configurazioni nella stessa sandbox condividono lo stesso set di dati di ricerca.</p> |
 
-1. Nella sezione **[!UICONTROL Set di dati profilo]**, seleziona il set di dati profilo che contiene i dati di appartenenza ai criteri di consenso (campo `consentPoliciesIDMap`) su cui desideri creare un rapporto. Questo set di dati profilo viene aggiunto alla connessione selezionata.
+1. Nella sezione **[!UICONTROL Set di dati profilo]**, seleziona il set di dati profilo che contiene i dati di appartenenza ai criteri di consenso (campo `consentPoliciesIDMap`) su cui desideri creare un rapporto. Quando abiliti la segnalazione del consenso, questo set di dati profilo viene aggiunto alla connessione selezionata, se non ne fa già parte.
 
 1. Nella sezione **[!UICONTROL Connessione]**, seleziona **[!UICONTROL Seleziona una connessione]**, seleziona la casella di controllo accanto a una o più connessioni da configurare, quindi seleziona **[!UICONTROL Usa connessione]**.
 
    La generazione di rapporti e i filtri di consenso vengono applicati a livello di connessione. Tutte le visualizzazioni dati in una connessione configurata ereditano lo stesso comportamento.
 
+1. Nella sezione **[!UICONTROL Visualizzazioni dati]**, fai clic su **[!UICONTROL Seleziona visualizzazioni dati]**.
+
+1. Nella finestra di dialogo Visualizzazioni dati, seleziona la casella di controllo accanto a una o più visualizzazioni dati che desideri utilizzare per la segnalazione del consenso. Queste visualizzazioni dati vengono configurate automaticamente con i dati di consenso di Experience Platform per il reporting.
+
+1. Selezionare **[!UICONTROL Usa visualizzazioni dati]**.
+
 1. (Facoltativo) Nella sezione **[!UICONTROL Filtro]**, puoi abilitare il filtro per le seguenti azioni di marketing:
 
    >[!NOTE]
-   >
-   >Lascia entrambe le opzioni deselezionate per abilitare la segnalazione del consenso senza filtrarle.
    >
    >Quando il filtro per un&#39;azione di marketing è abilitato, Customer Journey Analytics acquisisce i dati di un visitatore solo se il visitatore corrisponde a **tutti** i criteri di consenso che si applicano a tale azione di marketing. Per ulteriori informazioni, vedere [Filtro del consenso](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering) in [Panoramica sui report e i filtri del consenso](/help/connections/consent-reporting-filtering/consent-overview.md).
 
@@ -79,12 +75,11 @@ Per creare una configurazione di reporting e filtro del consenso:
 
 1. Seleziona **[!UICONTROL Crea]** per creare la configurazione.
 
-   Customer Journey Analytics automaticamente:
+   Se hai abilitato la generazione rapporti, Customer Journey Analytics automaticamente:
 
    * Aggiunge il set di dati profilo selezionato alla connessione.
    * Crea un set di dati di ricerca dei criteri di consenso per la sandbox (se non ne esiste già uno) e sincronizza i nomi e le descrizioni dei criteri da Experience Platform.
    * Aggiunge i componenti dei criteri di consenso (dimensioni, metriche e un campo derivato) alle visualizzazioni dati all’interno della connessione configurata.
-   * Applica l&#39;etichetta interna **consent** ai nuovi componenti in modo da poterli filtrare nella visualizzazione dati. Per ulteriori informazioni sulle etichette interne, vedere [Etichette e criteri](/help/data-views/data-governance.md).
 
 1. Al termine della configurazione, [visualizza i componenti dei criteri di consenso nella visualizzazione dati](#view-consent-policy-components-in-the-data-view) per verificare che siano disponibili.
 

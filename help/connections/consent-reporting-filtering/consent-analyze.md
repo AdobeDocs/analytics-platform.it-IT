@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: eafeab50e86b3e98f372c70a0fd43494015ca002
+source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: 388
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 Puoi acquisire i dati dei criteri di consenso dai set di dati del profilo di Experience Platform in una connessione Customer Journey Analytics.
 
-Dopo aver [creato una configurazione di reporting e filtro del consenso](/help/connections/consent-reporting-filtering/consent-configure.md), i dati dei criteri di consenso diventano disponibili come nuovi componenti nelle visualizzazioni dati nella connessione configurata. Puoi utilizzare questi componenti ovunque in Analysis Workspace, se hai accesso a una visualizzazione dati in cui esistono.
+Dopo aver [creato una configurazione di reporting e filtro del consenso](/help/connections/consent-reporting-filtering/consent-configure.md) e abilitato il reporting, i dati dei criteri di consenso diventano disponibili come nuovi componenti nelle visualizzazioni dati nella connessione configurata. Puoi utilizzare questi componenti ovunque in Analysis Workspace, se hai accesso a una visualizzazione dati in cui esistono.
 
 ## Componenti dei criteri di consenso
 
