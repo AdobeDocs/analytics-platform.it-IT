@@ -5,20 +5,13 @@ feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
 TQID: https://experienceleague.adobe.com/qQKmobJ4J1RPezRG-hk38l7JNioIshzjMaKXWVoUWsM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c2d922af3eaf86e487e6c2a5318c7693f1be3dcc
 workflow-type: tm+mt
-source-wordcount: 1602
+source-wordcount: 1626
 ht-degree: 9%
 
 ---
@@ -37,7 +30,7 @@ Le Impostazioni riga variano a seconda del componente che hai trascinato all’i
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}.
 
 {{videoaa}}
 
@@ -89,9 +82,9 @@ Quando si selezionano uno o più elementi dimensionali (prima colonna) o una o p
 | **[!UICONTROL Selezione tendenze]** | Crea una visualizzazione con grafico a linee di tendenza per la selezione. |
 | **[!UICONTROL Visualizza solo le righe selezionate]** | Visualizza solo le righe selezionate nella visualizzazione. |
 | **[!UICONTROL Visualizza tutte le righe]** | Visualizza tutte le righe della visualizzazione. |
-| **[!UICONTROL Rinomina la riga selezionata]** | *Disponibilità limitata dei test*<br/> Rinominare la riga selezionata. Immetti un **[!UICONTROL Nome]** nella **[!UICONTROL finestra di dialogo Rinomina riga selezionata]**. Seleziona **[!UICONTROL OK]** per confermare o **[!UICONTROL Annulla]** per annullare. Una volta rinominata una riga in una tabella a forma libera, al nome della dimensione nella colonna dell&#39;intestazione vengono aggiunti **[!UICONTROL (modificato)]** e un&#39;icona ![Ingranaggio](/help/assets/icons/Gear.svg) è disponibile per ripristinare le righe rinominate nella colonna dell&#39;intestazione della dimensione. Vedi [Esempio di classificazione in linea](#inline-classifications-example). |
-| **[!UICONTROL Combina righe selezionate]** | *Disponibilità limitata dei test*<br/> Combinare le righe selezionate. Immetti un **[!UICONTROL Nome]** nella finestra di dialogo **[!UICONTROL Combina righe selezionate]**. Seleziona **[!UICONTROL OK]** per confermare o **[!UICONTROL Annulla]** per annullare. Una volta combinate le righe di una tabella a forma libera, il nome della dimensione nella colonna dell&#39;intestazione viene aggiunto con **[!UICONTROL (modificato)]** e un&#39;icona ![Ingranaggio](/help/assets/icons/Gear.svg) è disponibile per reimpostare le righe rinominate nella colonna dell&#39;intestazione della dimensione. Vedi [Esempio di classificazione in linea](#inline-classifications-example). |
-| **[!UICONTROL Crea come campo derivato]** | *Disponibilità limitata dei test *<br/>*Per visualizzare questa opzione del menu di scelta rapida, è necessario essere un amministratore del prodotto Customer Journey Analytics.*<br/> Disponibile su qualsiasi riga selezionata di una tabella a forma libera modificata in seguito alla ridenominazione o alla combinazione di righe. Se questa opzione è selezionata, viene aperta l&#39;[Interfaccia campo derivato](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field) con le modifiche apportate alla tabella a forma libera già precompilata. Vedi [Esempio di classificazione in linea](#inline-classifications-example). |
+| **[!UICONTROL Rinomina la riga selezionata]** | Rinomina la riga selezionata. Immetti un **[!UICONTROL Nome]** nella **[!UICONTROL finestra di dialogo Rinomina riga selezionata]**. Seleziona **[!UICONTROL OK]** per confermare o **[!UICONTROL Annulla]** per annullare. Una volta rinominata una riga in una tabella a forma libera, al nome della dimensione nella colonna di intestazione vengono aggiunti **[!UICONTROL (modificato)]** e un&#39;icona ![Ingranaggio](/help/assets/icons/Gear.svg) è disponibile per reimpostare le righe modificate nella colonna di intestazione della dimensione. Vedi [Classificazioni in linea](#inline-classifications). |
+| **[!UICONTROL Combina righe selezionate]** | Combina le righe selezionate. Immetti un **[!UICONTROL Nome]** nella finestra di dialogo **[!UICONTROL Combina righe selezionate]**. Seleziona **[!UICONTROL OK]** per confermare o **[!UICONTROL Annulla]** per annullare. Una volta combinate le righe di una tabella a forma libera, al nome della dimensione nella colonna di intestazione vengono aggiunti **[!UICONTROL (modificato)]** e un&#39;icona ![Ingranaggio](/help/assets/icons/Gear.svg) è disponibile per reimpostare le righe modificate nella colonna di intestazione della dimensione. Vedi [Classificazioni in linea](#inline-classifications). |
+| **[!UICONTROL Crea righe modificate come campo derivato]** | *Per visualizzare questa opzione del menu di scelta rapida, è necessario essere un amministratore di prodotto Customer Journey Analytics.*<br/> Disponibile su qualsiasi riga selezionata di una tabella a forma libera modificata in seguito alla ridenominazione o alla combinazione di righe. Se questa opzione è selezionata, viene aperta l&#39;[Interfaccia campo derivato](/help/data-views/derived-fields/derived-fields.md#create-a-derived-field) con le modifiche apportate alla tabella a forma libera già precompilata. Vedi [Classificazioni in linea](#inline-classifications). |
 | **[!UICONTROL Crea annotazione da selezione]** | Apri [Generatore di annotazioni](/help/components/annotations/create-annotations.md#annotation-builder) per creare un&#39;annotazione per la selezione. |
 | **[!UICONTROL Crea segmento da selezione]** | Apri [Generatore di segmenti](/help/components/segments/seg-builder.md) per creare un segmento dalla selezione. |
 | **[!UICONTROL Crea pubblico da selezione]** | Apri [Generatore di pubblico](/help/components/audiences/publish.md#audience-builder) per creare un pubblico dalla selezione. |
@@ -113,55 +106,55 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 
 ## Modificare l&#39;altezza delle righe
 
-È possibile impostare la [densità di visualizzazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) di un progetto su **[!UICONTROL Compatto]**, **[!UICONTROL Comoda]** e **[!UICONTROL Espansa]**.
+È possibile impostare la [densità di visualizzazione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) di un progetto su **[!UICONTROL Compatto]**, **[!UICONTROL Comoda]** e **[!UICONTROL Espansa]**.
 
 
-## Esempio di classificazioni in linea
+## Classificazioni in linea
 
-{{release-limited-testing-section}}
+Le classificazioni in linea consentono di rinominare o combinare le righe in una tabella a forma libera. E per creare un campo derivato dalle righe modificate di una tabella.
 
-Questo esempio illustra come utilizzare le opzioni del menu di scelta rapida **[!UICONTROL Rinomina riga selezionata]**, **[!UICONTROL Combina righe selezionate]** e **[!UICONTROL Crea come campo derivato]**. E come ripristinare la tabella a forma libera modificata.
+L&#39;esempio seguente illustra come utilizzare le opzioni del menu di scelta rapida **[!UICONTROL Rinomina riga selezionata]**, **[!UICONTROL Combina righe selezionate]** e **[!UICONTROL Crea come campo derivato]**. E come ripristinare la tabella a forma libera modificata.
 
 * Rinomina **[!UICONTROL Nessun valore]** riga in **[!UICONTROL Altro]**.
 
-   1. Selezionare **[!UICONTROL Rinomina riga selezionata]** dal menu di scelta rapida nella riga **[!UICONTROL Nessun valore]** selezionata.
+  1. Selezionare **[!UICONTROL Rinomina riga selezionata]** dal menu di scelta rapida nella riga **[!UICONTROL Nessun valore]** selezionata.
 
-      ![Selezionare l&#39;opzione di menu di scelta rapida Rinomina righe selezionate](assets/context-rename.png)
+     ![Selezionare l&#39;opzione di menu di scelta rapida Rinomina righe selezionate](assets/context-rename.png)
 
-   1. Nella finestra di dialogo **[!UICONTROL Rinomina riga selezionata]**:
+  1. Nella finestra di dialogo **[!UICONTROL Rinomina riga selezionata]**:
 
-      ![Finestra di dialogo Rinomina riga selezionata](assets/dialog-rename.png)
+     ![Finestra di dialogo Rinomina riga selezionata](assets/dialog-rename.png)
 
-      1. Immetti <code>Altro</code> per **[!UICONTROL Name]**.
-      1. Selezionare **[!UICONTROL OK]**.
+     1. Immetti <code>Altro</code> per **[!UICONTROL Name]**.
+     1. Selezionare **[!UICONTROL OK]**.
 
 * Combina **[!UICONTROL righe da uomo]** a **[!UICONTROL da donna]** in una **[!UICONTROL da adulto]**.
 
-   1. Selezionare la riga **[!UICONTROL Uomini]** e **[!UICONTROL Donne]**.
-   1. Selezionare **[!UICONTROL Combina righe selezionate]** dal menu di scelta rapida da una delle righe selezionate.
+  1. Selezionare la riga **[!UICONTROL Uomini]** e **[!UICONTROL Donne]**.
+  1. Selezionare **[!UICONTROL Combina righe selezionate]** dal menu di scelta rapida da una delle righe selezionate.
 
-      ![Selezionare l&#39;opzione di menu Combina righe selezionate](assets/context-combine.png)
+     ![Selezionare l&#39;opzione di menu Combina righe selezionate](assets/context-combine.png)
 
-   1. Nella finestra di dialogo **[!UICONTROL Combina righe selezionate]**:
+  1. Nella finestra di dialogo **[!UICONTROL Combina righe selezionate]**:
 
-      ![Finestra di dialogo Combina righe selezionate](assets/dialog-combine.png)
+     ![Finestra di dialogo Combina righe selezionate](assets/dialog-combine.png)
 
-      1. Immetti <code> adulti</code> per **[!UICONTROL Name]**.
-      1. Selezionare **[!UICONTROL OK]**.
+     1. Immetti <code> adulti</code> per **[!UICONTROL Name]**.
+     1. Selezionare **[!UICONTROL OK]**.
 
 * Crea un campo derivato dalle modifiche nella tabella a forma libera.
 
-   1. Selezionare **[!UICONTROL Crea come campo derivato]** dal menu di scelta rapida per qualsiasi riga selezionata nella tabella modificata.
+  1. Selezionare **[!UICONTROL Crea righe modificate come campo derivato]** dal menu di scelta rapida per ogni riga selezionata nella tabella modificata.
 
-      ![Seleziona l&#39;opzione di menu Crea come campo derivato](assets/context-derived.png)
+     ![Selezionare l&#39;opzione di menu Crea righe modificate come campo derivato](assets/context-derived.png)
 
-   1. Ispeziona, modifichi e salva la definizione del campo derivato in base a tutte le modifiche apportate nella tabella.
+  1. Ispeziona, modifichi e salva la definizione del campo derivato in base a tutte le modifiche apportate nella tabella.
 
-      ![Finestra di dialogo Crea campo derivato](assets/dialog-derived.png)
+     ![Finestra di dialogo Crea campo derivato](assets/dialog-derived.png)
 
 * Ripristina lo stato della tabella a forma libera prima delle modifiche.
 
-   1. Seleziona ![Ingranaggio](/help/assets/icons/Gear.svg) accanto a **[!UICONTROL _nome dimensione _(modificato)]**.
-   1. Selezionare **[!UICONTROL Reimposta righe rinominate]** dal popup **[!UICONTROL Righe rinominate]**.
+  1. Seleziona ![Ingranaggio](/help/assets/icons/Gear.svg) accanto a **[!UICONTROL _nome dimensione _(modificato)]**.
+  1. Selezionare **[!UICONTROL Reimposta righe modificate]** dal popup **[!UICONTROL Righe rinominate]**.
 
-      ![Ripristina tabella a forma libera](assets/popup-reset.png)
+     ![Ripristina tabella a forma libera](assets/popup-reset.png)
