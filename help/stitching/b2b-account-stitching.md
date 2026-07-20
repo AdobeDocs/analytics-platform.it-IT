@@ -7,22 +7,14 @@ hide: true
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8348295450f9901c74de7a8188d370e0fc612723
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 2a7629993e235d66844db036ccce88e57fc20562
 workflow-type: tm+mt
-source-wordcount: 1205
+source-wordcount: 1239
 ht-degree: 13%
 
 ---
@@ -68,7 +60,7 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
 >title="Spazio dei nomi identificatori persona"
->abstract="Seleziona lo spazio dei nomi dell’identità della persona più rilevante per la generazione dei rapporti. Ad esempio, E-mail."
+>abstract="Seleziona lo spazio dei nomi dell’identità della persona più rilevante per la generazione dei rapporti. Ad esempio, E-mail. Qualsiasi set di dati evento con **[!UICONTROL unione da persona a account]** abilitata avrà l&#39;ID persona elevato a questo spazio dei nomi dell&#39;identificatore della persona."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
@@ -83,7 +75,7 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_account"
 >title="Account"
->abstract="Seleziona il campo nel set di dati che contiene i valori dell’identificatore univoco dell’account. Le informazioni sull’ID account saranno rese disponibili nelle righe di qualsiasi set di dati evento con l’unione da persona a account abilitata."
+>abstract="Seleziona il campo nel set di dati che contiene i valori dell’identificatore univoco dell’account. Le informazioni sull&#39;ID account saranno rese disponibili nelle righe di qualsiasi set di dati evento con **[!UICONTROL unione da persona a account]** abilitata."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
@@ -135,7 +127,8 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Abilita unione delle identità persona-account"
->abstract="Se abilitato, questo set di dati utilizza la persona B2B per l’unione degli account. I valori **[!UICONTROL ID persona]** verranno elevati a quelli dello spazio dei nomi dell&#39;identificatore della persona configurato, quindi verranno utilizzati per ricercare l&#39;ID account in base al **[!UICONTROL set di dati da persona a account]** (interfaccia di configurazione dell&#39;unione B2B).<br/>Se disabilitato, questo set di dati non utilizza l&#39;unione da persona B2B a account e devi selezionare invece un **[!UICONTROL ID account]** richiesto."
+>abstract="Se abilitato, questo set di dati utilizza la persona B2B per l’unione degli account. I valori **[!UICONTROL ID persona]** verranno elevati a quelli configurati dello spazio dei nomi **[!UICONTROL Identificatore persona]**, quindi verranno utilizzati per cercare l&#39;ID account in base al set di dati da persona a account.<br/>Se disabilitato, questo set di dati non utilizza la persona B2B per l&#39;unione degli account. Devi selezionare invece un **[!UICONTROL ID account]** richiesto."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="Configurare le impostazioni di unione delle identità B2B"
 
 Dopo aver configurato l’unione B2B a livello di connessione, devi abilitare l’unione degli account B2B singolarmente per ogni set di dati evento da unire.
 
