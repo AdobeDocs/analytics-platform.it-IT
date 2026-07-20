@@ -21,7 +21,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3eae7d76014165ec03151b7c2ec87952f357d4a3
+source-git-commit: 2a7629993e235d66844db036ccce88e57fc20562
 workflow-type: tm+mt
 source-wordcount: 10479
 ht-degree: 90%
@@ -419,7 +419,7 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_accountid"
 >title="ID account"
->abstract="Facoltativamente, seleziona un ID account dai campi di identità non di identità o non di persona disponibili definiti nello schema del set di dati. I valori contenuti verranno utilizzati come identificatore univoco dell’account a livello di riga, ogni volta che le informazioni sull’ID account correlate non sono disponibili nel set di dati da persona a account."
+>abstract="Facoltativamente, seleziona un ID account dai campi di identità non di identità o non di persone disponibili definiti nello schema XDM. I valori contenuti verranno utilizzati come identificatore univoco dell’account a livello di riga, ogni volta che le informazioni sull’ID account correlate non sono disponibili nel set di dati da persona a account."
 
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"
@@ -582,8 +582,8 @@ Puoi aggiungere uno o più set di dati di Experience Platform quando crei o modi
    * Per visualizzare gli spazi dei nomi per ciascuna colonna della tabella, abilitare **[!UICONTROL Mostra spazio dei nomi colonna]**.
    * Per eseguire ricerche nei dati di esempio, utilizzare ![Cerca](/help/assets/icons/Search.svg).
    * Per configurare le colonne da visualizzare, selezionare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg). <br/>Nella finestra di dialogo **[!UICONTROL Personalizza tabella]**:
-      1. Seleziona le colonne da mostrare nella tabella.
-      1. Selezionare **[!UICONTROL Applica]** per applicare la selezione oppure **[!UICONTROL Annulla]** per annullare la selezione.
+     1. Seleziona le colonne da mostrare nella tabella.
+     1. Selezionare **[!UICONTROL Applica]** per applicare la selezione oppure **[!UICONTROL Annulla]** per annullare la selezione.
    * Per visualizzare i dati per le colonne che contengono dati di matrice o oggetto, selezionare **[!UICONTROL Valori]**.
 
    Nel riquadro **[!UICONTROL Informazioni sul set di dati]** sono visualizzati i dettagli relativi al set di dati. Seleziona il valore per **[!UICONTROL Schema]** o **[!UICONTROL Set di dati]** per aprire l&#39;interfaccia pertinente in Experience Platform in una nuova scheda del browser.
@@ -674,8 +674,8 @@ Per modificare un set di dati già configurato per una connessione, in **[!UICON
    * Per visualizzare gli spazi dei nomi per ciascuna colonna della tabella, abilitare **[!UICONTROL Mostra spazio dei nomi colonna]**.
    * Per eseguire ricerche nei dati di esempio, utilizzare ![Cerca](/help/assets/icons/Search.svg).
    * Per configurare le colonne da visualizzare, selezionare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg). <br/>Nella finestra di dialogo **[!UICONTROL Personalizza tabella]**:
-      1. Seleziona le colonne da mostrare nella tabella.
-      1. Selezionare **[!UICONTROL Applica]** per applicare la selezione oppure **[!UICONTROL Annulla]** per annullare la selezione.
+     1. Seleziona le colonne da mostrare nella tabella.
+     1. Selezionare **[!UICONTROL Applica]** per applicare la selezione oppure **[!UICONTROL Annulla]** per annullare la selezione.
    * Per visualizzare i dati per le colonne che contengono dati di matrice o oggetto, selezionare **[!UICONTROL Valori]**.
 
    Nel riquadro **[!UICONTROL Informazioni sul set di dati]** sono visualizzati i dettagli relativi al set di dati. Seleziona il valore per **[!UICONTROL Schema]** o **[!UICONTROL Set di dati]** per aprire l&#39;interfaccia pertinente in Experience Platform in una nuova scheda del browser.
