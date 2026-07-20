@@ -5,27 +5,15 @@ feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
 TQID: https://experienceleague.adobe.com/pC3wjv6Q7RHRfDfHq75CP2Lqd-HzN-s7iLZ9t4N4ZR0
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: aff2ef09-fc60-4018-9197-e2befd623064
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c6b215f9fe718d0d3e8f81b7f55421c909b69c5a
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: aff2ef09-fc60-4018-9197-e2befd623064id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 782311939794bab0f04da1df3dccdc3a9847449f
 workflow-type: tm+mt
-source-wordcount: 6499
-ht-degree: 91%
+source-wordcount: 6697
+ht-degree: 88%
 
 ---
 
@@ -92,8 +80,44 @@ Per ulteriori informazioni sull’area di lavoro del percorso, consulta [Panoram
 
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_percentage_value"
->title="Scegli come vengono calcolate le percentuali"
+>title="Valore percentuale"
 >abstract="Le percentuali visualizzate su ciascun nodo si basano sulle metriche primarie e secondarie che hai configurato. Puoi scegliere se le percentuali si riferiscono al nodo iniziale, al nodo precedente o a tutti i dati della suite di rapporti."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_arrow_settings"
+>title="Impostazioni freccia"
+>abstract="Scegliere se mostrare o nascondere le etichette nell&#39;area di lavoro. Le etichette sono nomi personalizzati creati nell’area di lavoro del Percorso."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_arrow_settings_ajo"
+>title="Impostazioni freccia"
+>abstract="Scegli se mostrare o nascondere etichette e valori nell’area di lavoro. Le etichette possono essere nomi personalizzati creati nell’area di lavoro del Percorso oppure etichette o condizioni create in Journey Optimizer. I valori sono numeri e percentuali che indicano le persone o le sessioni che sono state spostate da un nodo al successivo nel percorso. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_show_fallout"
+>title="Mostra i fallout"
+>abstract="I dati di fallout mostrano la percentuale e il numero di persone o sessioni in ciascun nodo del percorso che non sono mai arrivate al nodo successivo del percorso. Potrebbero aver eseguito altre azioni sul sito, ma non hanno mai soddisfatto i criteri definiti dal nodo successivo nel percorso.<br/>I dati di fallout mostrano persone o sessioni (indipendentemente dalla metrica principale scelta) e si basano sull&#39;impostazione del contenitore Area di lavoro del Percorso."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_journeycanvas_compare"
+>title="Confronta con"
+>abstract="L’intervallo di date utilizzato per confrontare i dati correnti del percorso con un periodo precedente. Quando selezioni un intervallo di date di confronto, ogni nodo del percorso mostra la variazione percentuale tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica principale. "
 
 <!-- markdownlint-enable MD034 -->
 
