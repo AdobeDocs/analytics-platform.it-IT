@@ -16,9 +16,9 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f51766fdcb891b8cea93ea047b011792dc3c0ae6
+source-git-commit: b988d8cee94e40c6bed62f7ef22f209b7e38f46c
 workflow-type: tm+mt
-source-wordcount: 1628
+source-wordcount: 1630
 ht-degree: 9%
 
 ---
@@ -106,9 +106,9 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 | **[!UICONTROL Modifica modelli di attribuzione]** | Modifica il modello di attribuzione per la colonna. |
 | **[!UICONTROL Confronta modello di attribuzione]** | Specifica un nuovo modello di attribuzione e confrontalo con il modello di attribuzione per la colonna selezionata. Viene aggiunta una nuova colonna con le nuove metriche del modello di attribuzione. Inoltre, viene aggiunta una colonna Percentuale di variazione per il confronto. |
 | **[!UICONTROL Reimposta larghezza colonne]** | Ripristina la larghezza predefinita delle colonne. |
-| **[!UICONTROL Crea annotazione da selezione]** | Apri **[!UICONTROL Dettagli annotazione]** per aggiungere un&#39;annotazione. |
-| **[!UICONTROL Crea segmento da selezione]** | Apri **[!UICONTROL Generatore di segmenti]** per creare un segmento dalla selezione. |
-| **[!UICONTROL Crea pubblico da selezione]** | Apri la finestra di dialogo **[!UICONTROL Crea pubblico]** per creare un pubblico dalla selezione. |
+| **[!UICONTROL Crea annotazione da selezione]** | Apri [Generatore di annotazioni](/help/components/annotations/create-annotations.md#annotation-builder) per creare un&#39;annotazione per la selezione. |
+| **[!UICONTROL Crea segmento da selezione]** | Apri [Generatore di segmenti](/help/components/segments/seg-builder.md) per creare un segmento dalla selezione. |
+| **[!UICONTROL Crea pubblico da selezione]** | Apri [Generatore di pubblico](/help/components/audiences/publish.md#audience-builder) per creare un pubblico dalla selezione. |
 
 
 ## Modificare l&#39;altezza delle righe
@@ -116,7 +116,9 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 È possibile impostare la [densità di visualizzazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) di un progetto su **[!UICONTROL Compatto]**, **[!UICONTROL Comoda]** e **[!UICONTROL Espansa]**.
 
 
-## Classificazioni in linea
+## Classificazioni in linea {#inline-classifications-example}
+
+{{release-limited-testing-section}}
 
 Le classificazioni in linea consentono di rinominare o combinare le righe in una tabella a forma libera. E per creare un campo derivato dalle righe modificate di una tabella.
 
@@ -162,6 +164,6 @@ L&#39;esempio seguente illustra come utilizzare le opzioni del menu di scelta ra
 * Ripristina lo stato della tabella a forma libera prima delle modifiche.
 
   1. Seleziona ![Ingranaggio](/help/assets/icons/Gear.svg) accanto a **[!UICONTROL _nome dimensione _(modificato)]**.
-  1. Selezionare **[!UICONTROL Reimposta righe modificate]** dal popup **[!UICONTROL Righe rinominate]**.
+  1. Selezionare **[!UICONTROL Reimposta righe modificate]** dal popup **[!UICONTROL Righe modificate]**.
 
      ![Ripristina tabella a forma libera](assets/popup-reset.png)

@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 587265d7613f732af811a77a947b0ce96ccad9bf
+source-git-commit: b988d8cee94e40c6bed62f7ef22f209b7e38f46c
 workflow-type: tm+mt
-source-wordcount: 696
+source-wordcount: 699
 ht-degree: 39%
 
 ---
@@ -49,7 +49,7 @@ Queste note sulla versione coprono il periodo di rilascio di luglio 2026. I rila
 | **Content Analytics: dati multimediali a pagamento** <br/>I file multimediali a pagamento sono ora disponibili come terzo canale per Content Analytics.<p>Il collegamento alla documentazione seguirà a breve.</p> | | 31 luglio 2026 |
 | **Aggiornamento dell&#39;interfaccia di utilizzo delle connessioni** <br/>Nell&#39;interfaccia di utilizzo durante la gestione delle connessioni è ora possibile visualizzare i dettagli di utilizzo per ogni singolo modulo, ad esempio Customer Journey Analytics o Customer Journey Analytics B2B edition. <p>Inoltre, ora puoi suddividere i rapporti sull’utilizzo per ciascuno dei moduli per mese.</p><p>Il collegamento alla documentazione seguirà a breve.</p> | | 31 luglio 2026 |
 | **CX Enterprise Coworker: convalida i dati durante la migrazione da Adobe Analytics a Customer Journey Analytics** <br/>Una nuova abilità in CX Enterprise Coworker consente di convalidare i dati dell&#39;implementazione Customer Journey Analytics rispetto ai dati dell&#39;implementazione Adobe Analytics esistente. <p>Questa abilità confronta automaticamente ogni dimensione, metrica e tendenza singolarmente in base alle esigenze. Può anche confrontare tutte le suite di rapporti di Adobe Analytics con tutte le visualizzazioni dati di Customer Journey Analytics. L’abilità genera quindi informazioni basate sull’intelligenza artificiale e consigli da implementare per facilitare la migrazione a Customer Journey Analytics.</p><p>Il collegamento alla documentazione seguirà a breve.</p> | | Fine di luglio 2026 |
-| **Le classificazioni in linea**<br/>[&#x200B; Classificazioni in linea](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications) consentono di rinominare o combinare le righe in una tabella a forma libera. E per creare un campo derivato dalle righe modificate di una tabella. | | 20 luglio 2026 |
+| **Le classificazioni in linea**<br/>[&#x200B; Classificazioni in linea](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications) consentono di rinominare o combinare le righe in una tabella a forma libera. E per creare un campo derivato dalle righe modificate di una tabella. | 20 luglio 2026 | 25 luglio 2026 |
 
 ### Correzioni in Customer Journey Analytics
 
