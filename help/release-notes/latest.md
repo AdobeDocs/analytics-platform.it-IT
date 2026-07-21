@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b988d8cee94e40c6bed62f7ef22f209b7e38f46c
+source-git-commit: 3fcb9c403ace295c1a7e62c21d8bb444a4f9c011
 workflow-type: tm+mt
-source-wordcount: 699
+source-wordcount: 696
 ht-degree: 39%
 
 ---
@@ -44,7 +44,7 @@ Queste note sulla versione coprono il periodo di rilascio di luglio 2026. I rila
 
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | -----------|-----------|-----------|
-| **Analisi sub-evento** <br/>L&#39;analisi sub-evento consente di analizzare i dati a un livello più granulare rispetto al livello dell&#39;evento. Invece di filtrare eventi interi, puoi segmentare singoli contenitori all’interno di un evento. <p>Ad esempio, puoi creare segmenti per una categoria di prodotti specifica senza includere tutti gli altri prodotti acquistati nello stesso ordine. È inoltre possibile definire oggetti o array che fanno parte dei dati evento come contenitori separati all’interno di una visualizzazione dati.</p><p>Il collegamento alla documentazione seguirà a breve.</p> | 15 luglio 2026 | Fine di luglio 2026 |
+| **Analisi sub-evento** <br/>[Analisi sub-evento](/help/components/segments/sub-event.md) consente di analizzare i dati a un livello più granulare del livello evento. Invece di filtrare eventi interi, puoi segmentare singoli contenitori all’interno di un evento. <p>Ad esempio, puoi creare segmenti per una categoria di prodotti specifica senza includere tutti gli altri prodotti acquistati nello stesso ordine. È inoltre possibile definire oggetti o array che fanno parte dei dati evento come [contenitori personalizzati](/help/data-views/create-dataview.md#custom-containers) separati all&#39;interno di una visualizzazione dati. | 21 luglio 2026 | Fine di luglio 2026 |
 | **B2B edition: supporto per set di dati ad hoc e relazionali** <br/>I set di dati ad hoc e relazionali sono ora supportati anche nelle connessioni basate su account in Customer Journey Analytics B2B edition.<p>Il collegamento alla documentazione seguirà a breve.</p> | | 20 luglio 2026 |
 | **Content Analytics: dati multimediali a pagamento** <br/>I file multimediali a pagamento sono ora disponibili come terzo canale per Content Analytics.<p>Il collegamento alla documentazione seguirà a breve.</p> | | 31 luglio 2026 |
 | **Aggiornamento dell&#39;interfaccia di utilizzo delle connessioni** <br/>Nell&#39;interfaccia di utilizzo durante la gestione delle connessioni è ora possibile visualizzare i dettagli di utilizzo per ogni singolo modulo, ad esempio Customer Journey Analytics o Customer Journey Analytics B2B edition. <p>Inoltre, ora puoi suddividere i rapporti sull’utilizzo per ciascuno dei moduli per mese.</p><p>Il collegamento alla documentazione seguirà a breve.</p> | | 31 luglio 2026 |

@@ -22,10 +22,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
+source-git-commit: 3fcb9c403ace295c1a7e62c21d8bb444a4f9c011
 workflow-type: tm+mt
-source-wordcount: 10573
-ht-degree: 98%
+source-wordcount: 10442
+ht-degree: 97%
 
 ---
 
@@ -481,16 +481,16 @@ Per utilizzare il modello, è necessario specificare i parametri per ogni funzio
 Per ciascuna funzione supportata, di seguito trovi i dettagli su:
 
 - specifiche:
-   - tipo di dati di input: tipo di dati supportati,
-   - input: possibili valori di input,
-   - operatori inclusi: operatori supportati per questa funzione (se presenti),
-   - limitazioni: limitazioni applicabili a questa funzione specifica,
-   - output
+  - tipo di dati di input: tipo di dati supportati,
+  - input: possibili valori di input,
+  - operatori inclusi: operatori supportati per questa funzione (se presenti),
+  - limitazioni: limitazioni applicabili a questa funzione specifica,
+  - output
 
 - casi d’uso, tra cui:
-   - dati prima della definizione del campo derivato,
-   - come definire il campo derivato,
-   - dati dopo la definizione del campo derivato.
+  - dati prima della definizione del campo derivato,
+  - come definire il campo derivato,
+  - dati dopo la definizione del campo derivato.
 
 - vincoli (se applicabili).
 
@@ -756,7 +756,8 @@ Definisce un insieme di valori che vengono sostituiti dai valori corrispondenti 
 
 ## Caso d’uso 1 {#classify-uc1}
 
-Disponi di un file CSV che include una colonna chiave per `hotelID` e una o più colonne aggiuntive associate a `hotelID`: `city`, `rooms`, `hotel name`.Stai inserendo [!DNL Hotel ID] in una dimensione, ma desideri creare una dimensione [!DNL Hotel Name] derivata da `hotelID` nel file CSV.
+Si dispone di un file CSV che include una colonna chiave per `hotelID` e una o più colonne aggiuntive associate a `hotelID`: `city`, `rooms`, `hotel name`.
+Stai raccogliendo [!DNL Hotel ID] in una dimensione ma desideri creare una dimensione [!DNL Hotel Name] derivata da `hotelID` nel file CSV.
 
 **Struttura e contenuto del file CSV**
 
@@ -1014,7 +1015,8 @@ In alternativa, puoi utilizzare l&#39;intervallo di date dinamico Adesso per cal
 
 Desideri comprendere il tempo di ricerca (in minuti) che precede l&#39;ordine di un cliente all&#39;interno di una sessione.
 
-Definisci un nuovo campo derivato `Time Between Search And Order In Minutes` che è il risultato di due funzioni [[!UICONTROL CASE WHEN]](#case-when) per definire i valori [!UICONTROL Orario della ricerca] e [!UICONTROL Orario dell&#39;ordine].Quindi utilizzi questi due valori per calcolare la differenza con una funzione [!UICONTROL CALCOLO DELLA DATA] con [!UICONTROL Ambito] impostato su [!UICONTROL Sessione], valori impostati su [!UICONTROL Orario della ricerca] e [!UICONTROL Orario dell&#39;ordine] e [!UICONTROL Granularità di output] impostato su [!UICONTROL Minuto]. Per entrambi i valori selezioni [!UICONTROL Restituisci il primo] per avere la certezza che vengano restituiti i primi riferimenti di [!UICONTROL Orario della ricerca] e [!UICONTROL Orario dell&#39;ordine].
+Definisci un nuovo campo derivato `Time Between Search And Order In Minutes` che è il risultato di due funzioni [[!UICONTROL CASE WHEN]](#case-when) per definire i valori [!UICONTROL Tempo di ricerca] e [!UICONTROL Tempo ordine].
+Quindi puoi utilizzare questi due valori per calcolare la differenza con una funzione [!UICONTROL DATE MATH] con [!UICONTROL Scope] impostato su [!UICONTROL Session], valori impostati su [!UICONTROL Search Time] e [!UICONTROL Order Time] e [!UICONTROL Output granularity] impostato su [!UICONTROL Minute]. Per entrambi i valori si seleziona [!UICONTROL Restituisci il primo] per assicurarsi che vengano restituiti i primi [!UICONTROL Tempo di ricerca] e [!UICONTROL Orario ordine].
 
 ![Schermata della regola Calcolo della data 3](assets/datemath-3.png)
 
@@ -1286,7 +1288,8 @@ Puoi inserire rapidamente una funzione [!UICONTROL Ricerca] nel generatore di re
 1. Seleziona **[!UICONTROL Campi dello schema]** dal selettore.
 1. Seleziona ![Icona campo schema](assets/Smock_Folder_18_N.svg) **[!UICONTROL Set di dati di ricerca]**.
 1. Seleziona il set di dati di ricerca e trova il campo da utilizzare per la ricerca.
-1. Trascina e rilascia il campo di ricerca in uno qualsiasi dei campi di input disponibili per una funzione (ad esempio, Caso When). Quando è valido, una casella blu, con etichetta **[!UICONTROL + Aggiungi]**, consente di rilasciare il campo e inserire automaticamente una funzione di ricerca prima della funzione su cui hai rilasciato il campo di ricerca. La funzione di ricerca inserita viene compilata automaticamente con i valori rilevanti per tutti i campi.   ![Trascinamento ricerca](assets/lookup-drag.png)
+1. Trascina e rilascia il campo di ricerca in uno qualsiasi dei campi di input disponibili per una funzione (ad esempio, Caso Quando). Quando è valida, una casella blu, etichettata **[!UICONTROL + Aggiungi]**, ti consente di rilasciare il campo e inserire automaticamente una funzione di ricerca prima della funzione su cui hai rilasciato il campo di ricerca. La funzione di ricerca inserita viene compilata automaticamente con i valori rilevanti per tutti i campi.
+   ![Trascinamento ricerca](assets/lookup-drag.png)
 
 +++
 
@@ -1407,7 +1410,8 @@ Definisci un campo derivato `Corrected Annual Revenue`. Utilizzi la funzione [!U
 
 Per creare una formula:
 
-1. Inizia semplicemente a digitare nel campo Formula e i campi numerici che corrispondono a ciò che digiti verranno visualizzati in un menu a comparsa. In alternativa, puoi trascinare un campo numerico dai campi disponibili nel riquadro a sinistra.   ![Matematica: Ulteriori informazioni 1](assets/math-more-info-1.png)
+1. È sufficiente iniziare a digitare nel campo Formula e nei campi numerici che corrispondono a ciò che si digita verrà visualizzato in un menu a comparsa. In alternativa, puoi trascinare un campo numerico dai campi disponibili nel riquadro a sinistra.
+   ![Matematica: Ulteriori informazioni 1](assets/math-more-info-1.png)
 
 1. Aggiungi l’operando (ad esempio `*` per moltiplicare) seguito da un altro campo o da un valore statico. Puoi utilizzare le parentesi per definire formule più complesse.
 
@@ -1423,11 +1427,11 @@ Durante l’utilizzo di numeri statici nella funzione [!UICONTROL CALCOLO], è n
 - Non puoi utilizzare l’operatore per l’elevamento a potenza (`ˆ`) su un valore statico.
 - Se stai utilizzando più valori statici in una formula, questi devono essere raggruppati utilizzando le parentesi affinché la formula sia valida. Ad esempio:
 
-   - Questa formula restituisce un errore.
-     ![Matematica: Ulteriori informazioni 4](assets/math-more-info-4.png)
+  - Questa formula restituisce un errore.
+    ![Matematica: Ulteriori informazioni 4](assets/math-more-info-4.png)
 
-   - Questa formula è valida.
-     ![Matematica: Ulteriori informazioni 5](assets/math-more-info-5.png)
+  - Questa formula è valida.
+    ![Matematica: Ulteriori informazioni 5](assets/math-more-info-5.png)
 
 Utilizza la funzione Matematica per i calcoli basati a livello di hit. Utilizza la funzione [Riepilogo](#summarize) per i calcoli basati su eventi, sessioni o persone.
 
@@ -1783,6 +1787,10 @@ Crei un campo derivato `Second Response` per prendere l&#39;ultimo valore dal ca
 
 {style="table-layout:auto"}
 
+## Contenitore personalizzato
+
+Il campo derivato diventa disponibile come [contenitore personalizzato](/help/data-views/create-dataview.md#containers-1) che puoi selezionare nella visualizzazione dati e utilizzare per [analisi sub-evento](/help/components/segments/sub-event.md) in un progetto Workspace.
+
 +++
 
 <!-- SUMMARIZE -->
@@ -1996,7 +2004,7 @@ Modifica il tipo di campo di un campo per renderlo disponibile per ulteriori tra
 
 | Tipo di dati di input | Input | Operatori inclusi | Limite | Output |
 |---|---|---|---|---|
-| <ul><li>Numerico</li><li>Data</li><li>Data e ora</li><li>Stringa</li></ul> | <ul><li>[!UICONTROL Campo] | <p><ul><li>Numero intero<ul><li>A stringa</li></ul></li><li>Doppio<ul><li>A stringa<ul><li>Includi il numero di posizioni decimali da ereditare (massimo 5?)</li></ul></li><li>A numero intero</li></ul></li><li>Byte<ul><li>A stringa</li></ul></li><li>Lungo<ul><li>A stringa</li></ul></li><li>Data<ul><li>A stringa<ul><li>Consente di definire il formato di output</li></ul></li><li>Esempi<ul><li>Data (esempio del 7 gennaio 2025)<ul><li data-stringify-indent="1" data-stringify-border="0">MM-GG-AA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 01-07-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM-GG-AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 01-07-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">GG-MM-AA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 07-01-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">GG-MM-AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 07-01-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AA-MM-GG<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 25-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AAAA-MM-GG<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 2025-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM/GG/AA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 01/07/25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">GG/MM/AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 01/07/2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AAAA/MM/GG<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 2025/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AA/MM/GG<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 25/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MMM GG, AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 7 gennaio 2025</li></ul></li></ul></li></ul></li></ul></li><li>Data e ora<ul><li>A stringa<ul><li>Consente di definire il formato di output</li></ul></li><li>Esempi<ul><li data-stringify-indent="0" data-stringify-border="0">Data-ora (esempio del 7 gennaio 2025 alle 13:30pm, 52 secondi)<ul><li data-stringify-indent="2" data-stringify-border="0">MM-GG-AA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 01-07-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM-GG-AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 01-07-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">GG-MM-AA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 07-01-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">GG-MM-AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 07-01-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">AA-MM-GG hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 25-01-07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">AAAA-MM-GG hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 2025-01-07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM/GG/AA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 01/07/25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">GG/MM/AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 01/07/2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">AAAA/MM/GG hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 2025/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">AA/MM/GG hh:mm :ss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 25/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MMM GG, AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 7 gennaio 2025 13:30:52</li></ul></li></ul></li></ul></li><li>Stringa<ul><li>A Numerico<ul><li>Se i valori non sono numerici, restituiranno nullo.</li><li>L&#39;utente dovrà immettere la precisione e la lingua da utilizzare. </li></ul></li></ul></li></ul></li></ul></p> | <p>3 funzioni per campo derivato</p> | <p>Nuovo campo derivato</p> |
+| <ul><li>Numerico</li><li>Data</li><li>Data e ora</li><li>Stringa</li></ul> | <ul><li>[!UICONTROL Campo] | <p><ul><li>Numero intero<ul><li>A stringa</li></ul></li><li>Doppio<ul><li>A stringa<ul><li>Includi il numero di posizioni decimali da ereditare (massimo 5?)</li></ul></li><li>A numero intero</li></ul></li><li>Byte<ul><li>A stringa</li></ul></li><li>Lungo<ul><li>A stringa</li></ul></li><li>Data<ul><li>A stringa<ul><li>Consente di definire il formato di output</li></ul></li><li>Esempi<ul><li>Data (esempio del 7 gennaio 2025)<ul><li data-stringify-indent="1" data-stringify-border="0">MM-GG-AA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 01-07-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM-GG-AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 01-07-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">GG-MM-AA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 07-01-25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">GG-MM-AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 07-01-2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AA-MM-GG<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 25-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AAAA-MM-GG<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 2025-01-07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MM/GG/AA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 01/07/25</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">GG/MM/AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 01/07/2025</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AAAA/MM/GG<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 2025/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">AA/MM/GG<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 25/01/07</li></ul></li><li data-stringify-indent="1" data-stringify-border="0">MMM GG, AAAA<ul><li data-stringify-indent="2" data-stringify-border="0">Esempio 7 gennaio 2025</li></ul></li></ul></li></ul></li></ul></li><li>Data e ora<ul><li>A stringa<ul><li>Consente di definire il formato di output</li></ul></li><li>Esempi<ul><li data-stringify-indent="0" data-stringify-border="0">Data-ora (esempio del 7 gennaio 2025 alle 13:30, 52 secondi)<ul><li data-stringify-indent="2" data-stringify-border="0">MM-GG-AA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 01-07-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM-GG-AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 01-07-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">GG-MM-AA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 07-01-25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">GG-MM-AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 07-01-2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">AA-MM-GG hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 25-01-07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">AAAA-MM-GG hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 2025-01-07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MM/GG/AA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 01/07/25 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">GG/MM/AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 01/07/2025 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">AAAA/MM/GG hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 2025/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">AA/MM/GG hh:mm :ss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 25/01/07 13:30:52</li></ul></li><li data-stringify-indent="2" data-stringify-border="0">MMM GG, AAAA hhmmss<ul><li data-stringify-indent="3" data-stringify-border="0">Esempio 7 gennaio 2025 13:30:52</li></ul></li></ul></li></ul></li><li>Stringa<ul><li>A Numerico<ul><li>Se i valori non sono numerici, restituiranno nullo.</li><li>L&#39;utente dovrà immettere la precisione e la lingua da utilizzare. </li></ul></li></ul></li></ul></li></ul></p> | <p>3 funzioni per campo derivato</p> | <p>Nuovo campo derivato</p> |
 
 {style="table-layout:auto"}
 
@@ -2122,7 +2130,7 @@ Definisci un campo derivato `Query String CID`. Utilizzi la funzione [!UICONTROL
 Le seguenti limitazioni si applicano alla funzionalità del campo Derivato in generale:
 
 - Puoi utilizzare un massimo di dieci campi schema diversi (esclusi i campi standard) durante la definizione delle regole per un campo derivato.
-   - Da questo massimo di dieci campi schema diversi, sono consentiti solo un massimo di tre campi schema di ricerca o campi schema di profilo.
+  - Da questo massimo di dieci campi schema diversi, sono consentiti solo un massimo di tre campi schema di ricerca o campi schema di profilo.
 - Puoi avere un numero massimo di campi derivati per connessione di Customer Journey Analytics a seconda del pacchetto di cui hai la licenza. Per ulteriori informazioni, consulta la [Descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/customer-journey-analytics.html){target="_blank"}.
 
 
