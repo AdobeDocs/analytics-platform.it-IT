@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2a7629993e235d66844db036ccce88e57fc20562
+source-git-commit: 1dce83d0b5c760830084c1bf4e14f613b998dc10
 workflow-type: tm+mt
-source-wordcount: 1239
-ht-degree: 13%
+source-wordcount: 1245
+ht-degree: 10%
 
 ---
 
@@ -77,12 +77,12 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person"
->title="Persona"
+>title="ID persona"
 >abstract="Seleziona il campo nel set di dati che contiene gli ID persona. Lo spazio dei nomi di questo campo può essere diverso o uguale allo spazio dei nomi dell’identificatore della persona selezionato. Se differiscono, i due spazi dei nomi devono essere collegati nel grafo delle identità."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_account"
->title="Account"
+>title="ID account"
 >abstract="Seleziona il campo nel set di dati che contiene i valori dell’identificatore univoco dell’account. Le informazioni sull&#39;ID account saranno rese disponibili nelle righe di qualsiasi set di dati evento con **[!UICONTROL unione da persona a account]** abilitata."
 
 >[!CONTEXTUALHELP]
@@ -116,8 +116,8 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
       | Campo | Obbligatorio | Descrizione |
       |---|:---:|---|
       | **[!UICONTROL Set di dati da persona a account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona la ricerca (record o set di dati di serie non temporali) che mappa le persone sugli account. |
-      | **[!UICONTROL Persona]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID di persona. Il campo deve essere contrassegnato come identità e non può essere uguale al campo **[!UICONTROL Account]** o **[!UICONTROL Ora di inizio]**. |
-      | **[!UICONTROL Account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID di account. Il campo non può essere uguale al campo **[!UICONTROL Persona]** o **[!UICONTROL Ora di inizio]**. |
+      | **[!UICONTROL ID persona]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID di persona. Il campo deve essere contrassegnato come identità e non può essere uguale al campo **[!UICONTROL ID account]** o **[!UICONTROL Ora inizio]**. |
+      | **[!UICONTROL ID account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID di account. Il campo non può essere uguale al campo **[!UICONTROL ID persona]** o **[!UICONTROL Ora inizio]**. |
       | **Ora di inizio** | | Seleziona un campo di marca temporale che indichi quando la relazione persona-account è diventata attiva. |
 
       >[!NOTE]
