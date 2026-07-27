@@ -6,25 +6,12 @@ feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
 TQID: https://experienceleague.adobe.com/7Bqz2dh9v-BhLey5fWNjnQkgFAXQd3QDnTzz8rd7BFA
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: c7fc5df2a0fd7393b48bfe6bdfa7dccdfffde46c
 workflow-type: tm+mt
 source-wordcount: 3268
 ht-degree: 59%
@@ -166,7 +153,7 @@ Per esportare tabelle complete da Analysis Workspace:
    | Data di fine | Giorno e ora di scadenza dell’esportazione pianificata. L’esportazione pianificata non viene più eseguita dopo la data e l’ora impostate. <p>Questa opzione è disponibile solo quando si sceglie una frequenza di esportazione pianificata.</p> |
    | Visualizza le destinazioni per tutti gli utenti | Gli amministratori di sistema possono selezionare questa opzione per visualizzare tutti gli account e le posizioni, indipendentemente da chi li ha creati. |
    | Account | Seleziona l’account di esportazione cloud in cui desideri inviare i dati. <p>In alternativa, se non hai già configurato un account cloud da utilizzare, puoi configurare un nuovo account:<ol><li>Nel menu a discesa **[!UICONTROL Account]**, seleziona **[!UICONTROL Aggiungi account]**, quindi specifica le seguenti informazioni:<ul><li>**[!UICONTROL Nome account di posizione]**: specifica un nome per l’account di posizione. Questo nome viene visualizzato durante la creazione di una posizione </li><li>**[!UICONTROL Descrizione account di posizione]**: fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo.</li><li>**Rendi l&#39;account disponibile a tutti gli utenti dell&#39;organizzazione**: seleziona questa opzione se desideri consentire ad altri utenti dell&#39;organizzazione di utilizzare l&#39;account.</li><li>**[!UICONTROL Tipo di account]**: seleziona il tipo di account cloud in cui desideri esportare i dati. I tipi di account disponibili sono Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake e AEP Data Landing Zone.</li></ul><li>Per completare la configurazione dell’account, continua con il collegamento seguente corrispondente al **[!UICONTROL tipo di account]** selezionato:<ul><li>[AEP Data Landing Zone](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone)</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
-   | Posizione | Seleziona la posizione dell’account in cui desideri inviare i dati di esportazione.<p>In alternativa, se non hai già configurato un account cloud da utilizzare, puoi configurare un nuovo account:<ol><li>Nel menu a discesa **[!UICONTROL Posizione]**, seleziona **[!UICONTROL Aggiungi posizione]**, quindi specifica le seguenti informazioni:<ul><li>**[!UICONTROL Nome]**: il nome della posizione.</li><li>**[!UICONTROL Descrizione]**: fornisci una breve descrizione della posizione per distinguerla da altre posizioni nell’account.</li><li>**Rendi la posizione disponibile a tutti gli utenti dell&#39;organizzazione**: seleziona questa opzione se desideri consentire ad altri utenti dell&#39;organizzazione di utilizzare la posizione.</li><li>**[!UICONTROL Account di posizione]**: seleziona l’account in cui desideri creare la posizione.</li></ul><li>Per completare la configurazione della posizione, continua con il collegamento seguente corrispondente al tipo di account selezionato nel campo **[!UICONTROL Account di posizione]**:<ul><li>[Data Landing Zone di AEP](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone).</li><li>[Amazon S3 Role ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
+   | Posizione | Seleziona la posizione dell’account in cui desideri inviare i dati di esportazione.<p>In alternativa, se non hai già configurato un account cloud da utilizzare, puoi configurare un nuovo account:<ol><li>Nel menu a discesa **[!UICONTROL Posizione]**, seleziona **[!UICONTROL Aggiungi posizione]**, quindi specifica le seguenti informazioni:<ul><li>**[!UICONTROL Nome]**: il nome della posizione.</li><li>**[!UICONTROL Descrizione]**: fornisci una breve descrizione della posizione per distinguerla da altre posizioni nell’account.</li><li>**Rendi la posizione disponibile a tutti gli utenti dell&#39;organizzazione**: seleziona questa opzione se desideri consentire ad altri utenti dell&#39;organizzazione di utilizzare la posizione.</li><li>**[!UICONTROL Account di posizione]**: seleziona l’account in cui desideri creare la posizione.</li></ul><li>Per completare la configurazione della posizione, continua con il collegamento seguente corrispondente al tipo di account selezionato nel campo **[!UICONTROL Account di posizione]**:<ul><li>[Data Landing Zone di AEP](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone).</li><li>[Amazon S3 con ruolo ARN](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[Snowflake](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
    | Notifiche | Aggiungi gli utenti e i gruppi che dovranno ricevere notifiche in caso di esportazione non riuscita o in scadenza. Inizia a digitare il nome o l’indirizzo e-mail di un utente oppure inizia a digitare il nome di un gruppo, quindi selezionalo quando viene visualizzato nell’elenco a discesa. |
 
    {style="table-layout:auto"}
@@ -238,22 +225,22 @@ Le seguenti funzioni non sono supportate e vengono rimosse automaticamente dalle
 
 I seguenti componenti non sono supportati e Analysis Workspace richiede di rimuoverli dalla tabella durante un’esportazione di tabella completa:
 
-* Metriche calcolate che utilizzano funzioni non supportate nella definizione della metrica (vedere [Funzioni metriche calcolate non supportate](#unsupported-calculated-metric-functions) per ulteriori informazioni)
+* Metriche calcolate che utilizzano funzioni non supportate nella definizione della metrica (vedere [Funzioni metriche calcolate non supportate](#calculated-metric-functions-support) per ulteriori informazioni)
 * Non è possibile esportare i componenti per i quali un amministratore ha impostato un limite (per ulteriori informazioni, consulta la sezione *Segmento sui criteri di governance dei dati nelle visualizzazioni dati* in [Etichette e criteri](/help/data-views/data-governance.md))
 * Qualsiasi dimensione che soddisfi tutti i seguenti criteri:
-   * Viene creato da un campo che fa parte di un [array di oggetti](/help/use-cases/object-arrays.md) (simile alle variabili con più valori in Adobe Analytics).
-   * Ha [persistenza abilitata](/help/data-views/component-settings/persistence.md).
-   * Non utilizza una [dimensione di binding](/help/use-cases/data-views/binding-dimensions-metrics.md).
+  * Viene creato da un campo che fa parte di un [array di oggetti](/help/use-cases/object-arrays.md) (simile alle variabili con più valori in Adobe Analytics).
+  * Ha [persistenza abilitata](/help/data-views/component-settings/persistence.md).
+  * Non utilizza una [dimensione di binding](/help/use-cases/data-views/binding-dimensions-metrics.md).
 * Più dimensioni provenienti da campi che fanno riferimento a [array di oggetti](/help/use-cases/object-arrays.md) diversi. (Sono consentite più dimensioni che fanno riferimento allo stesso array di oggetti.)
 * Più di 10 dimensioni e 10 metriche per rapporto (sono supportate fino a 10 dimensioni e 10 metriche)
 * Nelle colonne della tabella:
-   * Intervalli di date
-   * Dimensioni
+  * Intervalli di date
+  * Dimensioni
 * Nelle righe della tabella:
-   * Metriche calcolate
-   * Metriche
-   * Intervalli di date
-   * Segmenti
+  * Metriche calcolate
+  * Metriche
+  * Intervalli di date
+  * Segmenti
 
 ## Supporto delle funzioni metriche calcolate
 
