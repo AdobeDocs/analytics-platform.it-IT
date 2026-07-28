@@ -17,10 +17,10 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
+source-git-commit: 859a195e89c44d3951ca79ce7f93f9dd77cd4f5c
 workflow-type: tm+mt
-source-wordcount: 1851
-ht-degree: 43%
+source-wordcount: 1812
+ht-degree: 40%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Anteprima dati"
->abstract="Confronta i dati di questo segmento con i dati della visualizzazione dati. La percentuale di anteprima è basata sul numero totale della visualizzazione dati a partire dagli **ultimi 90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
+>abstract="Confronta i dati dei segmenti con i dati della visualizzazione dati. La percentuale di anteprima riflette il numero totale nella visualizzazione dati dagli **ultimi 90 giorni**.<br><br/>Se l&#39;anteprima non viene caricata, la connessione è in esecuzione."
 
 La finestra di dialogo **[!UICONTROL Generatore di segmenti]** viene utilizzata per creare nuovi segmenti o modificare quelli esistenti. La finestra di dialogo si chiama **[!UICONTROL Nuovo segmento]** o **[!UICONTROL Modifica segmento]** per i segmenti creati o gestiti dal gestore [[!UICONTROL Segmento]](/help/components/segments/seg-manage.md).
 
@@ -78,8 +78,8 @@ Utilizza il Generatore di definizioni per creare la definizione del segmento. In
 
 Puoi configurare il tipo e l’ambito della definizione:
 
-1. Per specificare il tipo di definizione, indica se desideri creare una definizione di inclusione o esclusione. Seleziona ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Opzioni]** e dal menu a discesa **[!UICONTROL Includi]** o **[!UICONTROL Escludi]**.
-1. Per specificare l&#39;ambito della definizione, selezionare dal menu a discesa **[!UICONTROL Includi]** o **[!UICONTROL Escludi]** se si desidera che l&#39;ambito della definizione sia **[!UICONTROL Evento]**, **[!UICONTROL Sessione]**, **[!UICONTROL Persona]**, **[!UICONTROL Account globale]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Opportunità]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} o **[!UICONTROL Acquisto Gruppo]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}
+1. Per specificare il tipo di definizione, specificare se si desidera creare una definizione di inclusione o esclusione. Seleziona ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Opzioni]** e dal menu a discesa **[!UICONTROL Includi]** o **[!UICONTROL Escludi]**.
+1. Seleziona l&#39;ambito della definizione dal menu a discesa **[!UICONTROL Includi]** o **[!UICONTROL Escludi]**: **[!UICONTROL Evento]**, **[!UICONTROL Sessione]**, **[!UICONTROL Persona]**, **[!UICONTROL Account globale]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Opportunità]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} o **[!UICONTROL Gruppo acquisti]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}.
 
 È sempre possibile modificare queste impostazioni in un secondo momento.
 
@@ -130,13 +130,13 @@ Puoi raggruppare più componenti in uno o più contenitori e definire la logica 
 | **[!UICONTROL Contenitore nome]** | Rinomina il contenitore dalla relativa descrizione predefinita. Digita un nome nel campo di testo. Se non fornisci alcun input, viene utilizzata la descrizione predefinita. |
 | **[!UICONTROL Elimina contenitore]** | Elimina il contenitore dalla definizione. |
 
-Quando trascini una dimensione o una metrica definita come [contenitore](/help/data-views/create-dataview.md#containers-1) nel Generatore di segmenti o nel pannello Segmenti rapidi, il sistema seleziona automaticamente il contenitore corretto e non utilizza il contenitore predefinito **[!UICONTROL Evento]**. Questo comportamento mantiene l’ambito del segmento sul singolo contenitore anziché sull’intero evento.
+Trascinare una dimensione o una metrica definita come [contenitore](/help/data-views/create-dataview.md#containers-1) nel Generatore di segmenti seleziona automaticamente il contenitore corretto invece del contenitore predefinito **[!UICONTROL Evento]**. Questo comportamento mantiene l’ambito del segmento sul singolo contenitore anziché sull’intero evento.
 
 Quando si trascinano in una singola regola di segmento sia i componenti di livello [contenitore](/help/data-views/create-dataview.md#containers-1) che quelli di livello evento, il sistema utilizza il contenitore **[!UICONTROL Evento]**, che è il contenitore condiviso più alto (meno granulare). Se tutti i componenti che fanno parte di una regola di segmento si trovano allo stesso livello di contenitore, viene utilizzato tale contenitore.
 
 ## Intervalli di date
 
-Puoi creare segmenti che contengono intervalli di date continui. In questo modo, potrai rispondere a domande su campagne o eventi in corso. Ad esempio, puoi creare un segmento che include *tutti coloro che hanno effettuato un acquisto online negli ultimi 60 giorni*.
+Puoi creare segmenti che contengono intervalli di date continui. In questo modo, potrai rispondere a domande su campagne o eventi in corso. Ad esempio, puoi creare un segmento che include *tutte le persone che hanno effettuato un acquisto online negli ultimi 60 giorni*.
 
 ![Segmento con intervallo di date continuo](assets/filter-rolling-date-range.gif)
 
@@ -152,11 +152,11 @@ Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoChe
 
 Puoi creare un segmento utilizzando i segmenti. Quando utilizzi i segmenti in un segmento, puoi ottimizzare il segmento e ridurne la complessità.
 
-Immagina di voler segmentare sulla combinazione di tipo di dispositivo (2) e stati degli Stati Uniti (50). Puoi creare 100 segmenti, ciascuno per la combinazione unica di tipo di dispositivo (telefono cellulare rispetto a tablet) e stato degli Stati Uniti. Per ottenere gli utenti del tablet in California, puoi utilizzare uno dei 100 segmenti:
+Immagina di voler segmentare sulla combinazione di tipo di dispositivo (2) e stati degli Stati Uniti (50). Puoi creare 100 segmenti, ciascuno per la combinazione unica di tipo di dispositivo (telefono cellulare rispetto a tablet) e stato degli Stati Uniti. Per ottenere gli utenti del tablet in California, utilizza uno dei 100 segmenti:
 
 ![Segmento semplice per California e tablet](assets/filter-ca-tablet-single.png)
 
-Oppure potresti definire 52 segmenti: 50 segmenti per gli Stati Uniti, uno per il cellulare e uno per il tablet. Quindi impilare i segmenti per ottenere gli stessi risultati. Per ottenere gli utenti del tablet della California, puoi impilare due segmenti:
+Oppure, definisci 52 segmenti: 50 segmenti per gli Stati Uniti, uno per il telefono cellulare e uno per il tablet. Per ottenere gli stessi risultati, impilate i segmenti. Per ottenere gli utenti del tablet della California, sovrapponi due segmenti:
 
 ![Segmento in pila per CA e tablet](assets/filter-ca-tablet-stacked.png)
 
@@ -208,10 +208,10 @@ Come parte della definizione di un segmento hai specificato la seguente condizio
 La tabella seguente spiega, per ogni modello di attribuzione, quali eventi in arrivo sono qualificati ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) per tale condizione.
 
 
-| Pagina Donne - Attribuzione - <br/>*modello di attribuzione* | Evento 1:<br/>Il Nome pagina è uguale a<br/>Donne | Evento 2:<br/>Il Nome pagina è uguale a<br/>Uomini | Evento 3:<br/>Il Nome pagina è uguale a<br/>Donne | Evento 4:<br/>Il Nome pagina è uguale a<br/>Donne<br/>(persistente) | Evento 5:<br/>Il Nome pagina è uguale a<br/>Pagamento | Evento 6:<br/>Il Nome pagina è uguale a<br/>Donne | Evento 7:<br/>Il Nome pagina è uguale a<br/>Pagina Home |
+| Pagina Donne - Attribuzione - <br/>*modello di attribuzione* | Evento 1:<br/>Il Nome pagina è uguale a<br/>Donne | Evento 2:<br/>Il Nome pagina è uguale a<br/>Uomini | Evento 3:<br/>Il Nome pagina è uguale a<br/>Donne | Evento 4:<br/>Il Nome pagina è uguale a<br/>Donne<br/>(persistente) | Evento 5:<br/>Il Nome pagina è uguale a<br/>Pagamento | Evento 6:<br/>Il Nome pagina è uguale a<br/>Donne | Evento 7:<br/>Il nome pagina è uguale a<br/>Donne (impostato in modo esplicito) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| Ripetizione (per impostazione predefinita) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) |
-| Istanza | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) |
+| Ripetizione (per impostazione predefinita) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| Istanza | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | Istanza non ripetuta | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) |
 
 Un esempio di rapporto sugli eventi che utilizzano i tre segmenti è simile al seguente:
