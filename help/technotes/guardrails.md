@@ -26,7 +26,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: df1ab1af7757ef012b4c233e6206ee6c6cde6686
+source-git-commit: e686fca2c77a8f9739298ece01ccf0fa2fe87b3b
 workflow-type: tm+mt
 source-wordcount: 2441
 ht-degree: 9%
@@ -250,8 +250,8 @@ Vedi anche guardrail di esportazione del set di dati di Experience Platform [&#1
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
 | Righe per report | 3 milioni - 300 milioni | Guarddrail imposto dal sistema | Numero massimo di righe di reporting per report. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
-| Raggruppamenti per tabella | 5 | Guarddrail imposto dal sistema | Numero massimo di raggruppamenti per tabella. |
-| Metriche per tabella | 5 | Guarddrail imposto dal sistema | Numero massimo di metriche per tabella. |
+| Dimensioni per tabella | 10 | Guarddrail imposto dal sistema | Numero massimo di dimensioni per tabella. |
+| Metriche per tabella | 10 | Guarddrail imposto dal sistema | Numero massimo di metriche per tabella. |
 | Frequenza Schedule | 1 | Guarddrail imposto dal sistema | Le esportazioni possono essere programmate una volta (1) al giorno o con una pianificazione più lunga (ad esempio, una volta ogni 2 giorni o settimanalmente). |
 
 {style="table-layout:auto"}
