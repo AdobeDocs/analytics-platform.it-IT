@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1dce83d0b5c760830084c1bf4e14f613b998dc10
+source-git-commit: 593dc8e9eb32e092545b74882ce2a85bcecc3c56
 workflow-type: tm+mt
-source-wordcount: 1245
-ht-degree: 10%
+source-wordcount: 1349
+ht-degree: 9%
 
 ---
 
@@ -68,7 +68,7 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
 >title="Spazio dei nomi identificatori persona"
->abstract="Seleziona lo spazio dei nomi dell’identità della persona più rilevante per la generazione dei rapporti. Ad esempio, E-mail. Qualsiasi set di dati evento con **[!UICONTROL unione da persona a account]** abilitata avrà l&#39;ID persona elevato a questo spazio dei nomi dell&#39;identificatore della persona."
+>abstract="Seleziona lo spazio dei nomi dell’identità della persona più rilevante per la generazione dei rapporti. Ad esempio, E-mail. Qualsiasi set di dati evento con **[!UICONTROL unione da persona a account]** abilitata ha l&#39;ID persona elevato a questo spazio dei nomi dell&#39;identificatore della persona."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_to_account_dataset"
@@ -89,6 +89,12 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 >id="connection_b2b_stitching_start_time"
 >title="Ora di inizio"
 >abstract="Seleziona un campo di marca temporale che indichi quando la relazione persona-account è diventata attiva."
+
+
+>[!CONTEXTUALHELP]
+>id="connection_b2b_stitching_mapping_creation_time"
+>title="Tempo di creazione della mappatura"
+>abstract="È possibile selezionare il campo che rappresenta la data e l&#39;ora di creazione del mapping persona-conto. Utile per scenari in cui una persona cambia più account nel tempo."
 
 
 1. In Customer Journey Analytics, passa a **[!UICONTROL Connessioni]** e [crea una nuova connessione](/help/connections/create-connection.md#create-a-connection) o [modifica una connessione esistente](/help/connections/create-connection.md#edit-a-connection).
@@ -118,7 +124,7 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
       | **[!UICONTROL Set di dati da persona a account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona la ricerca (record o set di dati di serie non temporali) che mappa le persone sugli account. |
       | **[!UICONTROL ID persona]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID di persona. Il campo deve essere contrassegnato come identità e non può essere uguale al campo **[!UICONTROL ID account]** o **[!UICONTROL Ora inizio]**. |
       | **[!UICONTROL ID account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID di account. Il campo non può essere uguale al campo **[!UICONTROL ID persona]** o **[!UICONTROL Ora inizio]**. |
-      | **Ora di inizio** | | Seleziona un campo di marca temporale che indichi quando la relazione persona-account è diventata attiva. |
+      | **Ora di creazione mappatura** | | È possibile selezionare il campo che rappresenta la data e l&#39;ora di creazione del mapping persona-conto. Utile per scenari in cui una persona cambia più account nel tempo.<br/><br/>**Esempio** (quando è selezionato il campo **update_date**):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** prima del 1° maggio 2026: a@b.com è mappato ad Apple.</li><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** il o dopo il 1° maggio 2026: a@b.com è mappato ad Adobe.</li><ul> |
 
       >[!NOTE]
       >
@@ -127,7 +133,6 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
    1. Seleziona **[!UICONTROL Salva]** per chiudere la finestra di dialogo **[!UICONTROL Configurazione di unione B2B]** e tornare alle impostazioni di connessione.
 
    1. L&#39;indicatore **[!UICONTROL _Modifiche non salvate_]** viene visualizzato accanto al pulsante **Apri configurazione unione B2B** fino a quando non si [salva](#save) la connessione.
-
 
 ### Abilitare l’unione delle identità B2B nei set di dati evento
 
