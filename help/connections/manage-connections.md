@@ -8,26 +8,15 @@ feature: Connections
 role: Admin
 autotag-review: '2026-05-19T08:50:02.853Z'
 TQID: 'https://experienceleague.adobe.com/iJ5jp3wtWSrJzCnJqIceIHwwLideF-U2puXvit5GFac'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4d42c345b98683ef7d4b802262bd7f0f24b45692
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
 workflow-type: tm+mt
-source-wordcount: 5884
-ht-degree: 97%
+source-wordcount: 7300
+ht-degree: 87%
 
 ---
 
@@ -44,9 +33,9 @@ ht-degree: 97%
 >abstract="Annulla le funzionalità avanzate di reporting di Customer Journey Analytics con Journey Optimizer."
 
 
-Dopo aver [creato o modificato una o più connessioni](/help/connections/create-connection.md), puoi gestirle in **[!UICONTROL Connessioni]**. L’interfaccia [!UICONTROL Connessioni] ti consente di:
+Dopo aver [creato o modificato una o più connessioni](/help/connections/create-connection.md), puoi gestirle in **[!UICONTROL Connessioni]**. L&#39;interfaccia [!UICONTROL Connections] consente di:
 
-* Visualizzare immediatamente tutte le tue connessioni, inclusi il proprietario, la sandbox e quando sono state create e modificate.
+* Visualizza tutte le connessioni, inclusi il proprietario, la sandbox e quando sono state create e modificate.
 * Modificare una connessione.
 * Eliminare una connessione.
 * Creare una visualizzazione dati a partire da una connessione.
@@ -62,8 +51,9 @@ Dopo aver [creato o modificato una o più connessioni](/help/connections/create-
 
 L’interfaccia **[!UICONTROL Elenco]** è l’interfaccia predefinita per Connessioni. Se non è selezionata, seleziona la scheda **[!UICONTROL Elenco]** per accedere all’interfaccia.
 
-L’interfaccia **[!UICONTROL Elenco]** mostra una tabella di tutte le connessioni disponibili.△
-![vista elenco](assets/list-view.png)
+L&#39;interfaccia **[!UICONTROL List]** mostra una tabella di tutte le connessioni disponibili.
+△
+![visualizzazione elenco](assets/list-view.png)
 
 Nella tabella sono disponibili le colonne o le icone seguenti.
 
@@ -73,14 +63,14 @@ Nella tabella sono disponibili le colonne o le icone seguenti.
 | ![Informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | Per visualizzare le informazioni su [!UICONTROL Set di dati inclusi], [!UICONTROL Sandbox], [!UICONTROL Proprietario] e altro ancora, seleziona ![Informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) accanto al nome della connessione.<p>Una finestra a comparsa mostra i dettagli sul set di dati. <p>![Finestra a comparsa con informazioni sulla connessione](assets/connection-info-popup.png) |
 | ![Visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | Per [creare una visualizzazione dati](#create-a-data-view) per la connessione, seleziona ![Visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg). Questa icona viene visualizzata solo se alla connessione non è già associata alcuna visualizzazione dati. |
 | ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) per aprire un menu di scelta rapida. Puoi selezionare: <p>![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Modifica]** per [modificare](#edit-a-connection) una connessione.<p>![Elimina](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Elimina]** per [eliminare](#delete-a-connection) una connessione.<p>![Visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL Crea nuova visualizzazione dati]** per [creare una nuova visualizzazione dati](#create-a-data-view) per la connessione.<p>![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Mappa connessione]** per visualizzare una [mappa della connessione](#map-a-connection) per la connessione. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Tipo di connessione &#x200B;]** | Il tipo di connessione: **[!UICONTROL Connessione basata su Persona]** o **[!UICONTROL Connessione basata su Account]**. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Tipo di connessione ]** | Il tipo di connessione: **[!UICONTROL Connessione basata su Persona]** o **[!UICONTROL Connessione basata su Account]**. |
 | **[!UICONTROL Set di dati]** | Uno o più collegamenti ai set di dati che fanno parte della connessione. Puoi selezionare il collegamento ipertestuale del set di dati per visualizzare il set di dati nella connessione. Se della connessione selezionata fanno parte più set di dati, seleziona **[!UICONTROL +*x* più]** per visualizzare un pannello **[!UICONTROL Set di dati inclusi]**. Questo pannello mostra i collegamenti a tutti i set di dati e l’opzione ![Ricerca](/help/assets/icons/Search.svg), che consente di cercare un set di dati specifico che fa parte della connessione.<p>![Set di dati inclusi](assets/datasets-included.png)<p>Seleziona un nome per un set di dati per aprire il set di dati nell’interfaccia utente di Experience Platform in una nuova scheda. |
 | **[!UICONTROL Sandbox]** | La [sandbox di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) da cui questa connessione estrae i relativi set di dati. Selezioni questa sandbox al momento della creazione della connessione. Una volta salvata una connessione, non è possibile modificare la sandbox. |
 | **[!UICONTROL Proprietario]** | La persona che ha creato la connessione. |
-| **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per i set di dati: <p>![Stato attivo](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;per i set di dati configurati per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** per i set di dati non configurati per l’importazione di nuovi dati. |
+| **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per i set di dati: <p>![Stato attivo](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**per i set di dati configurati per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** per i set di dati non configurati per l’importazione di nuovi dati. |
 | **[!UICONTROL Data creazione]** | La marca temporale della creazione della connessione. |
 | **[!UICONTROL Ultima modifica]** | La marca temporale dell’ultimo aggiornamento della connessione. |
-| **[!UICONTROL Retrocompilazione dei dati]** | Stato dei dati di retrocompilazione tra set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite tra set di dati,<p>![Stato arancione](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione tra set di dati,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate per i set di dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui non siano definite retrocompilazioni per i set di dati nella connessione. |
+| **[!UICONTROL Retrocompilazione dei dati]** | Stato dei dati di retrocompilazione tra set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite tra set di dati,<p>![Stato arancione](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione tra set di dati,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate per i set di dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui non siano definite retrocompilazioni per i set di dati nella connessione. |
 | **[!UICONTROL Integrazioni]** | Mostra tutte le applicazioni Experience Platform abilitate con la connessione. |
 | **[!UICONTROL Utilizza in CJA]** | Mostra se la connessione è stata abilitata per l’utilizzo con Customer Journey Analytics. |
 
@@ -164,11 +154,11 @@ Per ulteriori informazioni, consulta [Creare o modificare una visualizzazione da
 
 ### Connessioni Journey Optimizer
 
-Puoi utilizzare una connessione Journey Optimizer in Customer Journey Analytics per inserire il seguente valore aggiuntivo alla connessione:
+È possibile utilizzare una connessione Journey Optimizer in Customer Journey Analytics per fornire il seguente valore aggiuntivo alla connessione:
 
 * Esegui analisi approfondite dei dati Journey Optimizer in Customer Journey Analytics, utilizzando il pulsante **[!UICONTROL Analizza in CJA]** in Journey Optimizer.
 
-  Per ulteriori informazioni, consulta [Analizzare in Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template) nella documentazione di Journey Optimizer.
+  Per ulteriori informazioni, vedere [Analizzare in Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template).
 
 * Modificare la connessione Journey Optimizer e le visualizzazioni dati associate.
 
@@ -177,7 +167,7 @@ Puoi utilizzare una connessione Journey Optimizer in Customer Journey Analytics 
 
 >[!IMPORTANT]
 >
->Quando abiliti una connessione Journey Optimizer per l’utilizzo con Customer Journey Analytics come descritto in questa sezione, ogni riga di dati all’interno della connessione viene conteggiata ogni mese nelle righe di dati con licenza per Customer Journey Analytics e visualizzata nell’interfaccia utente Utilizzo delle connessioni. Seleziona l’opzione **[!UICONTROL Utilizza in CJA]** sulla connessione solo se sei certo dell’ulteriore utilizzo di righe di dati in Customer Journey Analytics.
+>Quando abiliti una connessione Journey Optimizer per Customer Journey Analytics, ogni riga conta per le righe con licenza mensile e viene visualizzata nell’interfaccia utente di utilizzo delle connessioni. Seleziona l’opzione **[!UICONTROL Utilizza in CJA]** sulla connessione solo se sei certo dell’ulteriore utilizzo di righe di dati in Customer Journey Analytics.
 >
 >**Se disponevi dei diritti per Customer Journey Analytics e Journey Optimizer tra ottobre 2024 e ottobre 2025, consulta il seguente documento sulle [Connessioni abilitate per AJO](https://view.adobe.com/viewer/1ed94fc35c7860b260766c620889e7a0#1)**.
 
@@ -297,9 +287,9 @@ Per ciascun set di dati, la tabella visualizza le colonne riportate di seguito:
 | **[!UICONTROL Tipo di set di dati]** | Il [tipo di set di dati](create-connection.md#dataset-types). Il tipo può essere **[!UICONTROL Evento]**, **[!UICONTROL Profilo]**, **[!UICONTROL Ricerca]**, **[!UICONTROL Riepilogo]**. Un set di dati ad hoc o relazionale è identificato da **[!UICONTROL (Ad hoc)]** o **[!UICONTROL (Relazionale)]**. Ad esempio, **[!UICONTROL Evento (Ad hoc)]** o **[!UICONTROL Ricerca (Relazionale)]**. |
 | **[!UICONTROL Uniti]** | Se un set di dati è [abilitato per l&#39;unione nell&#39;interfaccia utente della connessione](/help/stitching/use-stitching-ui.md), il valore è **[!UICONTROL true]**. In caso contrario, il valore è **[!UICONTROL false]**. I set di dati uniti che sono il risultato della [richiesta di unione](/help/stitching//use-stitching.md) non sono identificati come uniti in questa tabella e per impostazione predefinita hanno un valore di **[!UICONTROL false]**. |
 | **[!UICONTROL Schema]** | Lo schema di Adobe Experience Platform su cui si basa il set di dati. |
-| **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati non è configurato per l’importazione di nuovi dati. |
-| **[!UICONTROL Trasforma dati]** | Stato di trasformazione dei set di dati di ricerca B2B applicabili. Per ulteriori informazioni, consulta [Trasformare i set di dati per le ricerche B2B](transform-datasets-b2b-lookups.md).<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;per i set di dati applicabili abilitati per la trasformazione, <p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** per i set di dati applicabili non abilitati per la trasformazione e<p>**[!UICONTROL N/D]** per tutti gli altri set di dati, non applicabili per la trasformazione. |
-| **[!UICONTROL Retrocompilazione dei dati]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui le retrocompilazioni non siano configurate. |
+| **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati non è configurato per l’importazione di nuovi dati. |
+| **[!UICONTROL Trasforma dati]** | Stato di trasformazione dei set di dati di ricerca B2B applicabili. Per ulteriori informazioni, consulta [Trasformare i set di dati per le ricerche B2B](transform-datasets-b2b-lookups.md).<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**per i set di dati applicabili abilitati per la trasformazione, <p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** per i set di dati applicabili non abilitati per la trasformazione e<p>**[!UICONTROL N/D]** per tutti gli altri set di dati, non applicabili per la trasformazione. |
+| **[!UICONTROL Retrocompilazione dei dati]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui le retrocompilazioni non siano configurate. |
 
 >[!IMPORTANT]
 >
@@ -320,12 +310,12 @@ Quando nella tabella dei set di dati non è selezionato alcun singolo set di dat
 | **[!UICONTROL Descrizione connessione]** | Una descrizione più dettagliata che illustra lo scopo di questa connessione. |
 | **[!UICONTROL Sandbox]** | La [sandbox di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) da cui questa connessione estrae i relativi set di dati. Selezioni questa sandbox al momento della creazione della connessione. Una volta salvata una connessione, non è possibile modificare la sandbox. |
 | **[!UICONTROL ID connessione]** | Un identificatore generato per la connessione. Puoi usare ![Copia](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) per copiare il valore. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Tipo di ID primario &#x200B;]** | Il tipo di ID primario per la connessione: **[!UICONTROL Persona]** per una connessione basata su persona, **[!UICONTROL Account]** per una connessione basata su account. |
-| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Contenitori &#x200B;]** | I contenitori configurati per la connessione. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Tipo di ID primario ]** | Il tipo di ID primario per la connessione: **[!UICONTROL Persona]** per una connessione basata su persona, **[!UICONTROL Account]** per una connessione basata su account. |
+| [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Contenitori ]** | I contenitori configurati per la connessione. |
 | **[!UICONTROL Visualizzazioni dati che usano questa connessione]** | Le visualizzazioni dati che utilizzano questa connessione. |
-| **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per i set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;per il numero di set di dati configurati per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** per il numero di set di dati per il quale viene disattivata l’importazione di nuovi dati. |
-| **[!UICONTROL Retrocompilazione dei dati]** | Stato dei dati di retrocompilazione per i set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite tra set di dati,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione tra set di dati,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate per i set di dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui non siano definite retrocompilazioni per i set di dati nella connessione. |
-| **[!UICONTROL Trasforma dati]** | Stato di trasformazione dei set di dati di ricerca B2B applicabili. Per ulteriori informazioni, consulta [Trasformare i set di dati per le ricerche B2B](transform-datasets-b2b-lookups.md).<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;per il numero di set di dati abilitati per la trasformazione. |
+| **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per i set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**per il numero di set di dati configurati per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** per il numero di set di dati per il quale viene disattivata l’importazione di nuovi dati. |
+| **[!UICONTROL Retrocompilazione dei dati]** | Stato dei dati di retrocompilazione per i set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite tra set di dati,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione tra set di dati,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate per i set di dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** nel caso in cui non siano definite retrocompilazioni per i set di dati nella connessione. |
+| **[!UICONTROL Trasforma dati]** | Stato di trasformazione dei set di dati di ricerca B2B applicabili. Per ulteriori informazioni, consulta [Trasformare i set di dati per le ricerche B2B](transform-datasets-b2b-lookups.md).<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**per il numero di set di dati abilitati per la trasformazione. |
 | **[!UICONTROL Creata da]** | Il nome della persona che ha creato la connessione. |
 | **[!UICONTROL Ultima modifica]** | La marca temporale dell’ultima modifica apportata alla connessione. |
 | **[!UICONTROL Ultima modifica di]** | Il nome della persona che ha modificato la connessione. |
@@ -336,8 +326,8 @@ Quando una riga di set di dati viene selezionata nella tabella dei set di dati, 
 
 | Dettagli | Descrizione |
 | --- | --- |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL ID account globale &#x200B;]** | L’identità specificata come ID account globale per la connessione. Applicabile solo per una connessione basata su account per la quale hai configurato un contenitore account globale. |
-| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL ID account &#x200B;]** | L’identità specificata come ID account per la connessione. Applicabile solo per una connessione basata su account per la quale non hai configurato alcun contenitore account globale. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL ID account globale ]** | L’identità specificata come ID account globale per la connessione. Applicabile solo per una connessione basata su account per la quale hai configurato un contenitore account globale. |
+| [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL ID account ]** | L’identità specificata come ID account per la connessione. Applicabile solo per una connessione basata su account per la quale non hai configurato alcun contenitore account globale. |
 | **[!UICONTROL ID persona]** | L’identità specificata come ID persona per la connessione. |
 | **[!UICONTROL Chiave]** | La chiave specificata per un set di dati di ricerca. |
 | **[!UICONTROL Chiave corrispondente]** | La chiave corrispondente specificata per un set di dati di ricerca. |
@@ -348,8 +338,8 @@ Quando una riga di set di dati viene selezionata nella tabella dei set di dati, 
 | **[!UICONTROL Batch aggiunti]** | Il numero di batch aggiunti a una connessione. |
 | **[!UICONTROL Record eliminati]** | Il numero di record set di dati (righe) rimossi da una connessione durante l’intervallo di date selezionato. |
 | **[!UICONTROL Ultima aggiunta]** | La marca temporale dell’ultimo batch aggiunto a una connessione. |
-| **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
-| **[!UICONTROL Retrocompilazione dei dati]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione.<p>Per visualizzare una finestra di dialogo con una panoramica delle precedenti retrocompilazioni relative al set di dati, selezionare <img src="./assets/pastbackfill.svg" alt="Retrocompilazioni precedenti" width="15"/> **[!UICONTROL Retrocompilazioni precedenti]**. |
+| **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
+| **[!UICONTROL Retrocompilazione dei dati]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione.<p>Per visualizzare una finestra di dialogo con una panoramica delle precedenti retrocompilazioni relative al set di dati, selezionare <img src="./assets/pastbackfill.svg" alt="Retrocompilazioni precedenti" width="15"/> **[!UICONTROL Retrocompilazioni precedenti]**. |
 | **[!UICONTROL Tipo di origine dati]** | Il tipo di origine dati definito durante l’aggiunta del set di dati alla connessione. |
 | **[!UICONTROL Tipo di set di dati]** | Il [tipo di set di dati](create-connection.md#dataset-types). Il tipo può essere **[!UICONTROL Evento]**, **[!UICONTROL Profilo]**, **[!UICONTROL Ricerca]**, **[!UICONTROL Riepilogo]**. Un set di dati ad hoc o relazionale è identificato da **[!UICONTROL (Ad hoc)]** o **[!UICONTROL (Relazionale)]**. Ad esempio, **[!UICONTROL Evento (Ad hoc)]** o **[!UICONTROL Ricerca (Relazionale)]**. |
 | **[!UICONTROL Schema]** | Lo schema di Adobe Experience Platform su cui si basa questo set di dati. |
@@ -498,9 +488,13 @@ Quando una riga di set di dati viene selezionata nella tabella dei set di dati, 
 
 L’interfaccia [!UICONTROL Utilizzo] mostra l’utilizzo delle righe acquisite e per reporting in tutte le connessioni. Se non è selezionata, seleziona la scheda **[!UICONTROL Utilizzo]** per accedere all’interfaccia.
 
-Questa interfaccia consente di determinare se l’utilizzo di Customer Journey Analytics è conforme a quanto stabilito contrattualmente. Oltre a scopi di monitoraggio, è possibile utilizzare l’interfaccia Utilizzo per pianificare il rinnovo della licenza di Customer Journey Analytics.
+Questa interfaccia consente di determinare se l&#39;utilizzo di Customer Journey Analytics è conforme a quanto stabilito contrattualmente. Oltre a scopi di monitoraggio, è possibile utilizzare l’interfaccia Utilizzo per pianificare il rinnovo della licenza di Customer Journey Analytics.
 
-L’interfaccia Utilizzo utilizza le metriche seguenti:
+Per ogni modulo a cui hai diritto, è disponibile una sezione comprimibile con i dettagli di utilizzo.
+
+### Utilizzo di CJA
+
+L&#39;interfaccia **[!UICONTROL Utilizzo di CJA]** utilizza le metriche seguenti:
 
 | Nome della metrica | Descrizione |
 |---|---|
@@ -517,23 +511,21 @@ L’interfaccia Utilizzo utilizza le metriche seguenti:
 >I dati vengono raccolti a partire da luglio 2024 per i record principali, storici e totali. Per informazioni sui dati storici precedenti, contatta il tuo account manager.
 >
 
-L’interfaccia Utilizzo è costituita da due pannelli:
+L&#39;interfaccia **[!UICONTROL Utilizzo di CJA]** è costituita da due pannelli:
 
 * Il pannello **[!UICONTROL Metriche chiave di utilizzo]** che visualizza:
 
-   * Quattro visualizzazioni di riepilogo che visualizzano le modifiche totali e percentuali rispetto al mese precedente per:
+  * Quattro visualizzazioni di riepilogo che visualizzano le modifiche totali e percentuali rispetto al mese precedente per:
 
-      * **[!UICONTROL Righe di dati di base per reporting]** Il numero totale di righe disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024.
-      * **[!UICONTROL Righe di dati storici per reporting]** Il numero totale di righe disponibili in un periodo antecedente ai 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale precedente a gennaio 2023.
-      * **[!UICONTROL Volume dati di base]** La quantità totale di dati memorizzati su disco con marca temporale per il mese corrente (in TB), con una variazione percentuale rispetto al mese precedente.
-      * **[!UICONTROL Dimensione riga media]**. La quantità media di spazio di archiviazione utilizzato da ogni riga di dati acquisiti e memorizzati per il mese corrente (in KB), con una variazione percentuale rispetto al mese precedente.
+    * **[!UICONTROL Righe di dati di base per reporting]** Il numero totale di righe disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024.
+    * **[!UICONTROL Righe capacità dati estesa]**. Il numero totale di righe disponibili in un periodo antecedente ai 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale precedente a gennaio 2023.
+    * **[!UICONTROL Righe acquisite mensilmente]**. Righe acquisite durante il mese di fatturazione, con una variazione percentuale rispetto al mese precedente
+    * **[!UICONTROL Volume dati di base]** La quantità totale di dati memorizzati su disco con marca temporale per il mese corrente (in TB), con una variazione percentuale rispetto al mese precedente.
+    * **[!UICONTROL Dimensione riga media]**. Memoria media consumata da ogni riga acquisita per il mese corrente (in kB), con variazione percentuale rispetto al mese precedente.
 
-   * Una visualizzazione a barra verticale sovrapposta che visualizza le **[!UICONTROL righe di dati storici e di base per reporting]** per gli ultimi 13 mesi.
+  * Visualizzazione a due barre verticali che visualizza le **[!UICONTROL righe dei dati core segnalabili]** e **[!UICONTROL righe della capacità dati estesa]** per gli ultimi 13 mesi.
 
-     Quando passi il puntatore su una barra sovrapposta nella visualizzazione, una finestra a comparsa mostra il numero di righe relativo a quella parte specifica della barra. Nell’esempio seguente, vengono mostrate le righe dei dati di base per reporting per il mese corrente: agosto 2025: 936 M (936.347.325).
-
-
-     ![Metriche di utilizzo chiave](assets/usage-key-usage-metrics.png)
+    Quando passi il puntatore su una barra sovrapposta nella visualizzazione, una finestra a comparsa mostra il numero di righe relativo a quella parte specifica della barra.
 
 * Un pannello combinato che mostra tre pannelli secondari per:
 
@@ -541,9 +533,7 @@ L’interfaccia Utilizzo è costituita da due pannelli:
 
   Il pannello secondario **[!UICONTROL Righe acquisite]** misura il numero totale di record aggiunti al sistema ogni mese, per fornire insight sulla crescita dei dati e sui tassi di acquisizione. Il pannello secondario fornisce un riepilogo del totale delle righe acquisite di questo mese e della modifica rispetto al mese precedente.
 
-  ![Righe acquisite](assets/usage-ingested-rows.png)
-
-  Puoi passare il puntatore sui punti dati nella visualizzazione per visualizzare una finestra a comparsa con ulteriori dettagli.
+  Puoi passare il puntatore sui punti dati nelle visualizzazioni per visualizzare un pop-up con ulteriori dettagli. È possibile selezionare un **[!UICONTROL intervallo di tempo]** che si applica sia alle **[!UICONTROL righe acquisite]** che alle **[!UICONTROL righe segnalabili]**. Utilizza ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l’intervallo di tempo.
 
   +++
 
@@ -551,12 +541,175 @@ L’interfaccia Utilizzo è costituita da due pannelli:
 
   La visualizzazione **[!UICONTROL Righe per reporting]** tiene traccia del numero di righe disponibili per il reporting sottraendo le righe ignorate ed eliminate dalle righe acquisite, fungendo da metrica chiave per la fatturazione e l’utilizzo dei dati. Il pannello secondario fornisce due riepiloghi:
 
-   * **[!UICONTROL Totale ultimo mese]**: riepilogo del totale righe per reporting fino al mese corrente.
-   * **[!UICONTROL Questo mese]**: riepilogo delle righe totali del mese corrente e della modifica rispetto al mese precedente.
+  * **[!UICONTROL Totale righe segnalabili]**: riepilogo del totale delle righe segnalabili fino al mese corrente.
+  * **[!UICONTROL Mese da segnalare]**: riepilogo del totale delle righe da segnalare di questo mese e della modifica rispetto al mese precedente.
 
-  ![Righe segnalabili](assets/usage-reportable-rows.png)
+  Puoi passare il puntatore sui punti dati nelle visualizzazioni per visualizzare un pop-up con ulteriori dettagli. È possibile selezionare un **[!UICONTROL intervallo di tempo]** che si applica sia alle **[!UICONTROL righe acquisite]** che alle **[!UICONTROL righe segnalabili]**. Utilizza ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l’intervallo di tempo.
 
-  Puoi passare il puntatore sui punti dati nelle visualizzazioni per visualizzare un pop-up con ulteriori dettagli.
+  +++
+
+  +++ Raggruppamento in dettaglio.
+
+  Puoi utilizzare la tabella **[!UICONTROL Raggruppamento dettagliato]** per visualizzare metriche dettagliate per connessione, set di dati, sandbox e tag. I set di dati vengono indicati utilizzando ID anziché nomi, in quanto i nomi dei set di dati possono essere modificati nel corso di un periodo di reporting. Le connessioni o i set di dati sconosciuti vengono indicati utilizzando i relativi ID.
+
+  Per i mesi precedenti a settembre 2024, i dati sono stati raccolti a livello di set di dati e vengono visualizzati come [!UICONTROL Altri set di dati] per maggiore chiarezza. A partire da settembre 2024, i dati vengono raccolti a livello di set di dati granulari e [!UICONTROL Altri set di dati] non vengono più visualizzati.
+
+  * Per modificare il raggruppamento, seleziona una combinazione per **[!UICONTROL Visualizza per]** e **[!UICONTROL Raggruppa per]**.
+
+    | Opzioni relative a **[!UICONTROL Visualizza per]** | Opzioni relative a **[!UICONTROL Raggruppa per]** |
+    |---|---|
+    | **[!UICONTROL Connessione]** | **[!UICONTROL -]** e **[!UICONTROL Set di dati]** |
+    | **[!UICONTROL Set di dati]** | **[!UICONTROL -]** |
+    | **[!UICONTROL Sandbox]** | **[!UICONTROL Connessione]** |
+    | **[!UICONTROL Tag]** | **[!UICONTROL Connessione]** |
+
+  È possibile selezionare un mese per il quale si desidera ottenere il raggruppamento. Seleziona un mese da **[!UICONTROL Mese raggruppamento]**.
+
+
+  +++
+
+### Utilizzo di Content Analytics
+
+L&#39;interfaccia **[!UICONTROL Utilizzo di Content Analytics]** utilizza le metriche seguenti:
+
+| Nome della metrica | Descrizione |
+|---|---|
+| **Righe reportabili principali di Content Analytics** | Il numero totale di righe specifiche di Content Analytics disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024. |
+| **Righe Content Analytics mensili** | Traccia il numero di righe di Content Analytics disponibili per il reporting. Le righe da riportare sono le righe acquisite meno quelle ignorate ed eliminate durante l’acquisizione. Le righe da riportare fungono da metrica chiave per la fatturazione e l’utilizzo dei dati. |
+
+>[!NOTE]
+>
+>I dati vengono raccolti a partire da luglio 2024 per i record principali, storici e totali. Per informazioni sui dati storici precedenti, contatta il tuo account manager.
+>
+
+L&#39;interfaccia **[!UICONTROL Utilizzo di Content Analytics]** è costituita da due pannelli:
+
+* Il pannello **[!UICONTROL Metriche chiave di utilizzo]** che visualizza:
+
+  * Due visualizzazioni di riepilogo che visualizzano le modifiche totali e percentuali rispetto al mese precedente per:
+
+    * **[!UICONTROL Righe principali di Analytics da segnalare]**. Il numero totale di righe specifiche di Content Analytics disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024.
+    * **Righe Content Analytics mensili**. Traccia il numero di righe di Content Analytics disponibili per il reporting. Le righe da riportare sono le righe acquisite meno quelle ignorate ed eliminate durante l’acquisizione. Le righe da riportare fungono da metrica chiave per la fatturazione e l’utilizzo dei dati.
+
+  * Visualizzazione a barre verticali sovrapposte che visualizza le **[!UICONTROL righe principali di Content Analytics da segnalare]** per gli ultimi 13 mesi.
+
+    Quando passi il puntatore su una barra sovrapposta nella visualizzazione, una finestra a comparsa mostra il numero di righe relativo a quella parte specifica della barra.
+
+* Un pannello combinato che mostra due pannelli secondari per:
+
+  +++ Righe mensili di Content Analytics
+
+  Il pannello secondario **[!UICONTROL Righe mensili di Content Analytics]** misura il numero totale di record mensili di Content Analytics aggiunti al sistema ogni mese, fornendo ad insight la crescita dei dati e i tassi di acquisizione. Il pannello secondario fornisce un riepilogo del totale delle righe acquisite di questo mese e della modifica rispetto al mese precedente.
+
+  Puoi passare il puntatore sui punti dati nella visualizzazione per visualizzare una finestra a comparsa con ulteriori dettagli. È possibile selezionare un **[!UICONTROL intervallo di tempo]** o utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l&#39;intervallo di tempo.
+
+  +++
+
+  +++ Raggruppamento in dettaglio.
+
+  Puoi utilizzare la tabella **[!UICONTROL Raggruppamento dettagliato]** per visualizzare metriche dettagliate per connessione, set di dati, sandbox e tag. I set di dati vengono indicati utilizzando ID anziché nomi, in quanto i nomi dei set di dati possono essere modificati nel corso di un periodo di reporting. Le connessioni o i set di dati sconosciuti vengono indicati utilizzando i relativi ID.
+
+  Per i mesi precedenti a settembre 2024, i dati sono stati raccolti a livello di set di dati e vengono visualizzati come [!UICONTROL Altri set di dati] per maggiore chiarezza. A partire da settembre 2024, i dati vengono raccolti a livello di set di dati granulari e [!UICONTROL Altri set di dati] non vengono più visualizzati.
+
+  * Per modificare il raggruppamento, seleziona una combinazione per **[!UICONTROL Visualizza per]** e **[!UICONTROL Raggruppa per]**.
+
+    | Opzioni relative a **[!UICONTROL Visualizza per]** | Opzioni relative a **[!UICONTROL Raggruppa per]** |
+    |---|---|
+    | **[!UICONTROL Connessione]** | **[!UICONTROL -]** e **[!UICONTROL Set di dati]** |
+    | **[!UICONTROL Set di dati]** | **[!UICONTROL -]** |
+    | **[!UICONTROL Sandbox]** | **[!UICONTROL Connessione]** |
+    | **[!UICONTROL Tag]** | **[!UICONTROL Connessione]** |
+
+  È possibile selezionare un mese per il quale si desidera ottenere il raggruppamento. Seleziona un mese da **[!UICONTROL Mese raggruppamento]**.
+
+  +++
+
+
+### Utilizzo della B2B Edition di CJA
+
+L&#39;interfaccia **[!UICONTROL Utilizzo di CJA B2B edition]** utilizza le metriche seguenti:
+
+| Nome della metrica | Descrizione |
+|---|---|
+| **BPP Core da segnalare** | Numero totale di righe segnalabili del profilo aziendale disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024. |
+| **BPP cronologico da segnalare** | Il numero totale di righe segnalabili del profilo aziendale disponibili in un periodo più vecchio di 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale precedente a gennaio 2023. |
+
+>[!NOTE]
+>
+>I dati vengono raccolti a partire da luglio 2024 per i record principali, storici e totali. Per informazioni sui dati storici precedenti, contatta il tuo account manager.
+>
+
+L&#39;interfaccia **[!UICONTROL Utilizzo di CJA B2B edition]** è costituita da un pannello che visualizza i pannelli secondari per:
+
++++ BPP Core da segnalare.
+
+Il pannello secondario **[!UICONTROL Core BPP]** segnalabile misura il numero totale di record mensili del profilo aziendale segnalabile principali aggiunti al sistema ogni mese, fornendo ad insight tassi di crescita e di acquisizione dei dati. Il pannello secondario fornisce un riepilogo del totale delle righe acquisite di questo mese e della modifica rispetto al mese precedente.
+
+Puoi passare il cursore del mouse sui punti dati nella visualizzazione per visualizzare un popup con ulteriori dettagli applicabili sia a **[!UICONTROL BPP Core segnalabile]** che a **[!UICONTROL BPP storico segnalabile]**. Utilizza ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l’intervallo di tempo.
+
++++
+
++++ BPP da segnalare cronologico.
+
+Il pannello secondario **[!UICONTROL Historical Reportable BPP]** misura il numero totale di record mensili del profilo Business Reporting cronologico aggiunti al sistema ogni mese, fornendo ad insight la crescita dei dati e i tassi di acquisizione. Il pannello secondario fornisce un riepilogo del totale delle righe acquisite di questo mese e della modifica rispetto al mese precedente.
+
+Puoi passare il cursore del mouse sui punti dati nella visualizzazione per visualizzare un popup con ulteriori dettagli applicabili sia a **[!UICONTROL BPP Core segnalabile]** che a **[!UICONTROL BPP storico segnalabile]**. Utilizza ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l’intervallo di tempo.
+
++++
+
++++ Raggruppamento in dettaglio.
+
+Puoi utilizzare la tabella **[!UICONTROL Raggruppamento dettagliato]** per visualizzare metriche dettagliate per connessione, set di dati, sandbox e tag. I set di dati vengono indicati utilizzando ID anziché nomi, in quanto i nomi dei set di dati possono essere modificati nel corso di un periodo di reporting. Le connessioni o i set di dati sconosciuti vengono indicati utilizzando i relativi ID.
+
+Per i mesi precedenti a settembre 2024, i dati sono stati raccolti a livello di set di dati e vengono visualizzati come [!UICONTROL Altri set di dati] per maggiore chiarezza. A partire da settembre 2024, i dati vengono raccolti a livello di set di dati granulari e [!UICONTROL Altri set di dati] non verranno più visualizzati.
+
+* Per modificare il raggruppamento, seleziona una combinazione per **[!UICONTROL Visualizza per]** e **[!UICONTROL Raggruppa per]**.
+
+  | Opzioni relative a **[!UICONTROL Visualizza per]** | Opzioni relative a **[!UICONTROL Raggruppa per]** |
+  |---|---|
+  | **[!UICONTROL Connessione]** | **[!UICONTROL -]** e **[!UICONTROL Set di dati]** |
+  | **[!UICONTROL Set di dati]** | **[!UICONTROL -]** |
+  | **[!UICONTROL Sandbox]** | **[!UICONTROL Connessione]** |
+  | **[!UICONTROL Tag]** | **[!UICONTROL Connessione]** |
+
+È possibile selezionare un mese per il quale si desidera ottenere il raggruppamento. Seleziona un mese da **[!UICONTROL Mese raggruppamento]**.
+
++++
+
+
+### Utilizzo di file multimediali in streaming
+
+L&#39;interfaccia **[!UICONTROL Utilizzo di contenuti multimediali in streaming]** utilizza le metriche seguenti:
+
+| Nome della metrica | Descrizione |
+|---|---|
+| **Avvio mensile file multimediali** | Il numero totale di avvii mensili dei file multimediali disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale di avvii dei file multimediali disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024. |
+
+>[!NOTE]
+>
+>I dati vengono raccolti a partire da luglio 2024 per i record principali, storici e totali. Per informazioni sui dati storici precedenti, contatta il tuo account manager.
+>
+
+
+L&#39;interfaccia **[!UICONTROL Utilizzo contenuti multimediali in streaming]** è costituita da due pannelli:
+
+* Il pannello **[!UICONTROL Metriche chiave di utilizzo]** che visualizza:
+
+  * Visualizzazione di riepilogo che visualizza le modifiche totali e percentuali rispetto al mese precedente per **[!UICONTROL Avvio mensile file multimediali]**.
+
+    Il numero totale di avvii mensili dei file multimediali disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale di avvii dei file multimediali disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024.
+
+  * Visualizzazione a barre verticali sovrapposte che visualizza **[!UICONTROL Avvio elemento multimediale mensile]** negli ultimi 13 mesi.
+
+    Quando passi il puntatore su una barra sovrapposta nella visualizzazione, una finestra a comparsa mostra il numero di righe relativo a quella parte specifica della barra.
+
+* Un pannello combinato che mostra due pannelli secondari per:
+
+  +++ Avvii mensili di file multimediali
+
+  Il pannello secondario **[!UICONTROL Avvio file multimediale mensile]** misura il numero totale di record mensili di avvio del file multimediale aggiunti al sistema ogni mese, fornendo ad insight la crescita dei dati e i tassi di acquisizione. Il pannello secondario fornisce un riepilogo del totale delle righe acquisite di questo mese e della modifica rispetto al mese precedente.
+
+  Puoi passare il puntatore sui punti dati nella visualizzazione per visualizzare una finestra a comparsa con ulteriori dettagli. È possibile selezionare un **[!UICONTROL intervallo di tempo]** o utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l&#39;intervallo di tempo.
 
   +++
 
@@ -566,22 +719,22 @@ L’interfaccia Utilizzo è costituita da due pannelli:
 
   Per i mesi precedenti a settembre 2024, i dati sono stati raccolti a livello di set di dati e vengono visualizzati come [!UICONTROL Altri set di dati] per maggiore chiarezza. A partire da settembre 2024, i dati vengono raccolti a livello di set di dati granulari e [!UICONTROL Altri set di dati] non verranno più visualizzati.
 
-   * Per modificare il raggruppamento, seleziona una combinazione per **[!UICONTROL Visualizza per]** e **[!UICONTROL Raggruppa per]**.
+  * Per modificare il raggruppamento, seleziona una combinazione per **[!UICONTROL Visualizza per]** e **[!UICONTROL Raggruppa per]**.
 
-     | Opzioni relative a **[!UICONTROL Visualizza per]** | Opzioni relative a **[!UICONTROL Raggruppa per]** |
-     |---|---|
-     | **[!UICONTROL Connessione]** | **[!UICONTROL -]** e **[!UICONTROL Set di dati]** |
-     | **[!UICONTROL Set di dati]** | **[!UICONTROL -]** |
-     | **[!UICONTROL Sandbox]** | **[!UICONTROL Connessione]** |
-     | **[!UICONTROL Tag]** | **[!UICONTROL Connessione]** |
+    | Opzioni relative a **[!UICONTROL Visualizza per]** | Opzioni relative a **[!UICONTROL Raggruppa per]** |
+    |---|---|
+    | **[!UICONTROL Connessione]** | **[!UICONTROL -]** e **[!UICONTROL Set di dati]** |
+    | **[!UICONTROL Set di dati]** | **[!UICONTROL -]** |
+    | **[!UICONTROL Sandbox]** | **[!UICONTROL Connessione]** |
+    | **[!UICONTROL Tag]** | **[!UICONTROL Connessione]** |
 
-  ![Raggruppamento dettagliato](assets/usage-detail-breakdown.png)
+  È possibile selezionare un mese per il quale si desidera ottenere il raggruppamento. Seleziona un mese da **[!UICONTROL Mese raggruppamento]**.
 
   +++
 
-  Puoi definire un **[!UICONTROL Intervallo di tempo]** espresso in mesi per il quale generare il rapporto. Utilizza ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l’intervallo di tempo.
 
 >[!MORELIKETHIS]
 >
->Tutorial: [Visualizzare, risolvere i problemi e modificare le impostazioni di connessione](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja).Gestire l’utilizzo di Customer Journey Analytics&rbrack;(/help/technotes/estimate-usage.md)
+>Esercitazione su [Visualizzare, risolvere e modificare le impostazioni di connessione](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja).
+>[Gestione dell&#39;utilizzo di Customer Journey Analytics](/help/technotes/estimate-usage.md)
 >

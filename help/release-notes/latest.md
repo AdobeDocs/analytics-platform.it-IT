@@ -4,32 +4,14 @@ description: Visualizza le note sulla versione più recente di Customer Journey 
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5f347e3dc3080e47f0dd81d34aa6f4341a892061
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d16eaa5e7939585f7ade164ef0c680095b8ed2c3
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: 799
 ht-degree: 33%
 
 ---
@@ -47,10 +29,10 @@ Queste note sulla versione coprono il periodo di rilascio di luglio 2026. I rila
 | **Analisi sub-evento** <br/>[Analisi sub-evento](/help/components/segments/sub-event.md) consente di analizzare i dati a un livello più granulare del livello evento. Invece di filtrare eventi interi, puoi segmentare singoli contenitori all’interno di un evento. <p>Ad esempio, puoi creare segmenti per una categoria di prodotti specifica senza includere tutti gli altri prodotti acquistati nello stesso ordine. È inoltre possibile definire oggetti o array che fanno parte dei dati evento come [contenitori personalizzati](/help/data-views/create-dataview.md#custom-containers) separati all&#39;interno di una visualizzazione dati. | 21 luglio 2026 | Fine di luglio 2026 |
 | **B2B edition: supporto per set di dati ad hoc e relazionali** <br/>I set di dati ad hoc e relazionali sono ora supportati anche nelle connessioni basate su account in Customer Journey Analytics B2B edition.<p>Il collegamento alla documentazione seguirà a breve.</p> | | 20 luglio 2026 |
 | **Collaboratore aziendale CX: Analizza dati Customer Journey Analytics** <br/>La chat di Collaboratore aziendale CX Adobe ora può eseguire analisi avanzate dei dati che in precedenza erano possibili solo in Analysis Workspace. Chat con collaboratori accede ai dati dalle visualizzazioni dati di Customer Journey Analytics, consentendoti di esplorarli e ottenere risposte a prompt in linguaggio naturale.<p>Per ulteriori informazioni, vedere [Analizzare i dati di Customer Journey Analytics tramite Chat con coworking](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/analytics-chat).</p> | | 23 luglio 2026 |
-| **CX Enterprise Coworker: convalida i dati durante la migrazione da Adobe Analytics a Customer Journey Analytics** <br/>Una nuova abilità in CX Enterprise Coworker consente di convalidare i dati dell&#39;implementazione Customer Journey Analytics rispetto ai dati dell&#39;implementazione Adobe Analytics esistente. <p>Questa abilità confronta automaticamente ogni dimensione, metrica e tendenza singolarmente in base alle esigenze. Può anche confrontare tutte le suite di rapporti di Adobe Analytics con tutte le visualizzazioni dati di Customer Journey Analytics. L’abilità genera quindi informazioni basate sull’intelligenza artificiale e consigli da implementare per facilitare la migrazione a Customer Journey Analytics.</p><p>Per ulteriori informazioni, vedere [Convalidare i dati con Coworker durante l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/data-validation-aa-cja).</p> | | 24 luglio 2026 |
-| **Le classificazioni in linea**<br/>[&#x200B; Classificazioni in linea](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications) consentono di rinominare o combinare le righe in una tabella a forma libera. E per creare un campo derivato dalle righe modificate di una tabella. | 20 luglio 2026 | 25 luglio 2026 |
+| **CX Enterprise Coworker: convalida i dati durante la migrazione da Adobe Analytics a Customer Journey Analytics** <br/>Una nuova abilità in CX Enterprise Coworker consente di convalidare i dati dell&#39;implementazione Customer Journey Analytics rispetto ai dati dell&#39;implementazione Adobe Analytics esistente. <p>Questa abilità confronta automaticamente ogni dimensione, metrica e tendenza singolarmente in base alle esigenze. Può anche confrontare tutte le suite di rapporti di Adobe Analytics con tutte le visualizzazioni dati di Customer Journey Analytics. L’abilità genera quindi informazioni basate sull’intelligenza artificiale e consigli da implementare per facilitare la migrazione a Customer Journey Analytics.</p><p>Per ulteriori informazioni, vedere [Convalidare i dati con Coworker durante l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/data-validation-aa-cja).</p> | | 24 luglio 2026 |
+| **Le classificazioni in linea**<br/>[ Classificazioni in linea](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications) consentono di rinominare o combinare le righe in una tabella a forma libera. E per creare un campo derivato dalle righe modificate di una tabella. | 20 luglio 2026 | 25 luglio 2026 |
 | **Content Analytics: dati multimediali a pagamento** <br/>I file multimediali a pagamento sono ora disponibili come terzo canale per Content Analytics.<p>Il collegamento alla documentazione seguirà a breve.</p> | | 31 luglio 2026 |
-| **Aggiornamento dell&#39;interfaccia di utilizzo delle connessioni** <br/>Nell&#39;interfaccia di utilizzo durante la gestione delle connessioni è ora possibile visualizzare i dettagli di utilizzo per ogni singolo modulo, ad esempio Customer Journey Analytics o Customer Journey Analytics B2B edition. <p>Inoltre, ora puoi suddividere i rapporti sull’utilizzo per ciascuno dei moduli per mese.</p><p>Il collegamento alla documentazione seguirà a breve.</p> | | 31 luglio 2026 |
+| **Aggiornamento dell&#39;interfaccia di utilizzo delle connessioni** <br/>Nell&#39;interfaccia [Utilizzo](/help/connections/manage-connections.md#usage) durante la gestione delle connessioni è ora possibile visualizzare i dettagli di utilizzo per ogni singolo modulo, ad esempio Customer Journey Analytics o Customer Journey Analytics B2B edition. <br/>È inoltre possibile suddividere i report sull&#39;utilizzo per ciascuno dei moduli per mese. | 23 luglio 2026 | 30 luglio 2026 |
 
 ### Correzioni in Customer Journey Analytics
 

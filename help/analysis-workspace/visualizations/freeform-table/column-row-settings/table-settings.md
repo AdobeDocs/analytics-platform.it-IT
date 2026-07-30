@@ -5,20 +5,13 @@ feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
 TQID: https://experienceleague.adobe.com/qQKmobJ4J1RPezRG-hk38l7JNioIshzjMaKXWVoUWsM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 54e64aeb652d41a39e52b01c0a54edd1ecfd0cdc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: 1650
 ht-degree: 9%
 
 ---
@@ -37,7 +30,7 @@ Le Impostazioni riga variano a seconda del componente che hai trascinato all’i
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni riga e colonna in una tabella a forma libera](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}.
 
 {{videoaa}}
 
@@ -51,7 +44,7 @@ Per modificare il numero di righe visualizzate:
 
    ![Tabella a forma libera che mostra il menu a discesa di per il numero di righe visualizzate. 400 righe selezionate.](assets/change-row-count.gif)
 
-1. Dal menu a discesa, seleziona il numero di righe che si desidera visualizzare nella tabella.
+1. Dal menu a discesa, seleziona il numero di righe da visualizzare nella tabella.
 
 
 ## Menu di scelta rapida
@@ -113,12 +106,10 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 
 ## Modificare l&#39;altezza delle righe
 
-È possibile impostare la [densità di visualizzazione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) di un progetto su **[!UICONTROL Compatto]**, **[!UICONTROL Comoda]** e **[!UICONTROL Espansa]**.
+È possibile impostare la [densità di visualizzazione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) di un progetto su **[!UICONTROL Compatto]**, **[!UICONTROL Comoda]** e **[!UICONTROL Espansa]**.
 
 
 ## Classificazioni in linea {#inline-classifications-example}
-
-{{release-limited-testing-section}}
 
 Le classificazioni in linea consentono di rinominare o combinare le righe in una tabella a forma libera. E per creare un campo derivato dalle righe modificate di una tabella.
 
@@ -139,7 +130,7 @@ L&#39;esempio seguente illustra come utilizzare le opzioni del menu di scelta ra
 
 * Combina **[!UICONTROL righe da uomo]** a **[!UICONTROL da donna]** in una **[!UICONTROL da adulto]**.
 
-  1. Selezionare la riga **[!UICONTROL Uomini]** e **[!UICONTROL Donne]**.
+  1. Selezionare **[!UICONTROL righe di tipo Men]** e **[!UICONTROL Women]**.
   1. Selezionare **[!UICONTROL Combina righe selezionate]** dal menu di scelta rapida da una delle righe selezionate.
 
      ![Selezionare l&#39;opzione di menu Combina righe selezionate](assets/context-combine.png)
@@ -152,6 +143,11 @@ L&#39;esempio seguente illustra come utilizzare le opzioni del menu di scelta ra
      1. Selezionare **[!UICONTROL OK]**.
 
 * Crea un campo derivato dalle modifiche nella tabella a forma libera.
+
+  >[!NOTE]
+  >
+  >  Puoi creare un campo derivato dalle modifiche apportate alla tabella a forma libera solo se sei un amministratore di prodotto Customer Journey Analytics.
+
 
   1. Selezionare **[!UICONTROL Crea righe modificate come campo derivato]** dal menu di scelta rapida per ogni riga selezionata nella tabella modificata.
 
