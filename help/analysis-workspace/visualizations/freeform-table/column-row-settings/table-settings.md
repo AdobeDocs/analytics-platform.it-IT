@@ -16,9 +16,9 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 54e64aeb652d41a39e52b01c0a54edd1ecfd0cdc
+source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: 1650
 ht-degree: 9%
 
 ---
@@ -51,7 +51,7 @@ Per modificare il numero di righe visualizzate:
 
    ![Tabella a forma libera che mostra il menu a discesa di per il numero di righe visualizzate. 400 righe selezionate.](assets/change-row-count.gif)
 
-1. Dal menu a discesa, seleziona il numero di righe che si desidera visualizzare nella tabella.
+1. Dal menu a discesa, seleziona il numero di righe da visualizzare nella tabella.
 
 
 ## Menu di scelta rapida
@@ -118,8 +118,6 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 
 ## Classificazioni in linea {#inline-classifications-example}
 
-{{release-limited-testing-section}}
-
 Le classificazioni in linea consentono di rinominare o combinare le righe in una tabella a forma libera. E per creare un campo derivato dalle righe modificate di una tabella.
 
 L&#39;esempio seguente illustra come utilizzare le opzioni del menu di scelta rapida **[!UICONTROL Rinomina riga selezionata]**, **[!UICONTROL Combina righe selezionate]** e **[!UICONTROL Crea righe modificate come campo derivato]**. E come ripristinare la tabella a forma libera modificata.
@@ -139,7 +137,7 @@ L&#39;esempio seguente illustra come utilizzare le opzioni del menu di scelta ra
 
 * Combina **[!UICONTROL righe da uomo]** a **[!UICONTROL da donna]** in una **[!UICONTROL da adulto]**.
 
-  1. Selezionare la riga **[!UICONTROL Uomini]** e **[!UICONTROL Donne]**.
+  1. Selezionare **[!UICONTROL righe di tipo Men]** e **[!UICONTROL Women]**.
   1. Selezionare **[!UICONTROL Combina righe selezionate]** dal menu di scelta rapida da una delle righe selezionate.
 
      ![Selezionare l&#39;opzione di menu Combina righe selezionate](assets/context-combine.png)
@@ -152,6 +150,11 @@ L&#39;esempio seguente illustra come utilizzare le opzioni del menu di scelta ra
      1. Selezionare **[!UICONTROL OK]**.
 
 * Crea un campo derivato dalle modifiche nella tabella a forma libera.
+
+  >[!NOTE]
+  >
+  >  Puoi creare un campo derivato dalle modifiche apportate alla tabella a forma libera solo se sei un amministratore di prodotto Customer Journey Analytics.
+
 
   1. Selezionare **[!UICONTROL Crea righe modificate come campo derivato]** dal menu di scelta rapida per ogni riga selezionata nella tabella modificata.
 

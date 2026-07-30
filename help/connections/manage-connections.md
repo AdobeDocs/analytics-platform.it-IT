@@ -24,10 +24,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4d42c345b98683ef7d4b802262bd7f0f24b45692
+source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
 workflow-type: tm+mt
-source-wordcount: 5884
-ht-degree: 97%
+source-wordcount: 7300
+ht-degree: 87%
 
 ---
 
@@ -44,9 +44,9 @@ ht-degree: 97%
 >abstract="Annulla le funzionalità avanzate di reporting di Customer Journey Analytics con Journey Optimizer."
 
 
-Dopo aver [creato o modificato una o più connessioni](/help/connections/create-connection.md), puoi gestirle in **[!UICONTROL Connessioni]**. L’interfaccia [!UICONTROL Connessioni] ti consente di:
+Dopo aver [creato o modificato una o più connessioni](/help/connections/create-connection.md), puoi gestirle in **[!UICONTROL Connessioni]**. L&#39;interfaccia [!UICONTROL Connections] consente di:
 
-* Visualizzare immediatamente tutte le tue connessioni, inclusi il proprietario, la sandbox e quando sono state create e modificate.
+* Visualizza tutte le connessioni, inclusi il proprietario, la sandbox e quando sono state create e modificate.
 * Modificare una connessione.
 * Eliminare una connessione.
 * Creare una visualizzazione dati a partire da una connessione.
@@ -62,8 +62,9 @@ Dopo aver [creato o modificato una o più connessioni](/help/connections/create-
 
 L’interfaccia **[!UICONTROL Elenco]** è l’interfaccia predefinita per Connessioni. Se non è selezionata, seleziona la scheda **[!UICONTROL Elenco]** per accedere all’interfaccia.
 
-L’interfaccia **[!UICONTROL Elenco]** mostra una tabella di tutte le connessioni disponibili.△
-![vista elenco](assets/list-view.png)
+L&#39;interfaccia **[!UICONTROL List]** mostra una tabella di tutte le connessioni disponibili.
+△
+![visualizzazione elenco](assets/list-view.png)
 
 Nella tabella sono disponibili le colonne o le icone seguenti.
 
@@ -164,11 +165,11 @@ Per ulteriori informazioni, consulta [Creare o modificare una visualizzazione da
 
 ### Connessioni Journey Optimizer
 
-Puoi utilizzare una connessione Journey Optimizer in Customer Journey Analytics per inserire il seguente valore aggiuntivo alla connessione:
+È possibile utilizzare una connessione Journey Optimizer in Customer Journey Analytics per fornire il seguente valore aggiuntivo alla connessione:
 
 * Esegui analisi approfondite dei dati Journey Optimizer in Customer Journey Analytics, utilizzando il pulsante **[!UICONTROL Analizza in CJA]** in Journey Optimizer.
 
-  Per ulteriori informazioni, consulta [Analizzare in Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template) nella documentazione di Journey Optimizer.
+  Per ulteriori informazioni, vedere [Analizzare in Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/reporting/channel-report/report-cja-manage#cja-template).
 
 * Modificare la connessione Journey Optimizer e le visualizzazioni dati associate.
 
@@ -177,7 +178,7 @@ Puoi utilizzare una connessione Journey Optimizer in Customer Journey Analytics 
 
 >[!IMPORTANT]
 >
->Quando abiliti una connessione Journey Optimizer per l’utilizzo con Customer Journey Analytics come descritto in questa sezione, ogni riga di dati all’interno della connessione viene conteggiata ogni mese nelle righe di dati con licenza per Customer Journey Analytics e visualizzata nell’interfaccia utente Utilizzo delle connessioni. Seleziona l’opzione **[!UICONTROL Utilizza in CJA]** sulla connessione solo se sei certo dell’ulteriore utilizzo di righe di dati in Customer Journey Analytics.
+>Quando abiliti una connessione Journey Optimizer per Customer Journey Analytics, ogni riga conta per le righe con licenza mensile e viene visualizzata nell’interfaccia utente di utilizzo delle connessioni. Seleziona l’opzione **[!UICONTROL Utilizza in CJA]** sulla connessione solo se sei certo dell’ulteriore utilizzo di righe di dati in Customer Journey Analytics.
 >
 >**Se disponevi dei diritti per Customer Journey Analytics e Journey Optimizer tra ottobre 2024 e ottobre 2025, consulta il seguente documento sulle [Connessioni abilitate per AJO](https://view.adobe.com/viewer/1ed94fc35c7860b260766c620889e7a0#1)**.
 
@@ -498,9 +499,13 @@ Quando una riga di set di dati viene selezionata nella tabella dei set di dati, 
 
 L’interfaccia [!UICONTROL Utilizzo] mostra l’utilizzo delle righe acquisite e per reporting in tutte le connessioni. Se non è selezionata, seleziona la scheda **[!UICONTROL Utilizzo]** per accedere all’interfaccia.
 
-Questa interfaccia consente di determinare se l’utilizzo di Customer Journey Analytics è conforme a quanto stabilito contrattualmente. Oltre a scopi di monitoraggio, è possibile utilizzare l’interfaccia Utilizzo per pianificare il rinnovo della licenza di Customer Journey Analytics.
+Questa interfaccia consente di determinare se l&#39;utilizzo di Customer Journey Analytics è conforme a quanto stabilito contrattualmente. Oltre a scopi di monitoraggio, è possibile utilizzare l’interfaccia Utilizzo per pianificare il rinnovo della licenza di Customer Journey Analytics.
 
-L’interfaccia Utilizzo utilizza le metriche seguenti:
+Per ogni modulo a cui hai diritto, è disponibile una sezione comprimibile con i dettagli di utilizzo.
+
+### Utilizzo di CJA
+
+L&#39;interfaccia **[!UICONTROL Utilizzo di CJA]** utilizza le metriche seguenti:
 
 | Nome della metrica | Descrizione |
 |---|---|
@@ -517,23 +522,21 @@ L’interfaccia Utilizzo utilizza le metriche seguenti:
 >I dati vengono raccolti a partire da luglio 2024 per i record principali, storici e totali. Per informazioni sui dati storici precedenti, contatta il tuo account manager.
 >
 
-L’interfaccia Utilizzo è costituita da due pannelli:
+L&#39;interfaccia **[!UICONTROL Utilizzo di CJA]** è costituita da due pannelli:
 
 * Il pannello **[!UICONTROL Metriche chiave di utilizzo]** che visualizza:
 
-   * Quattro visualizzazioni di riepilogo che visualizzano le modifiche totali e percentuali rispetto al mese precedente per:
+  * Quattro visualizzazioni di riepilogo che visualizzano le modifiche totali e percentuali rispetto al mese precedente per:
 
-      * **[!UICONTROL Righe di dati di base per reporting]** Il numero totale di righe disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024.
-      * **[!UICONTROL Righe di dati storici per reporting]** Il numero totale di righe disponibili in un periodo antecedente ai 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale precedente a gennaio 2023.
-      * **[!UICONTROL Volume dati di base]** La quantità totale di dati memorizzati su disco con marca temporale per il mese corrente (in TB), con una variazione percentuale rispetto al mese precedente.
-      * **[!UICONTROL Dimensione riga media]**. La quantità media di spazio di archiviazione utilizzato da ogni riga di dati acquisiti e memorizzati per il mese corrente (in KB), con una variazione percentuale rispetto al mese precedente.
+    * **[!UICONTROL Righe di dati di base per reporting]** Il numero totale di righe disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024.
+    * **[!UICONTROL Righe capacità dati estesa]**. Il numero totale di righe disponibili in un periodo antecedente ai 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale precedente a gennaio 2023.
+    * **[!UICONTROL Righe acquisite mensilmente]**. Righe acquisite durante il mese di fatturazione, con una variazione percentuale rispetto al mese precedente
+    * **[!UICONTROL Volume dati di base]** La quantità totale di dati memorizzati su disco con marca temporale per il mese corrente (in TB), con una variazione percentuale rispetto al mese precedente.
+    * **[!UICONTROL Dimensione riga media]**. Memoria media consumata da ogni riga acquisita per il mese corrente (in kB), con variazione percentuale rispetto al mese precedente.
 
-   * Una visualizzazione a barra verticale sovrapposta che visualizza le **[!UICONTROL righe di dati storici e di base per reporting]** per gli ultimi 13 mesi.
+  * Visualizzazione a due barre verticali che visualizza le **[!UICONTROL righe dei dati core segnalabili]** e **[!UICONTROL righe della capacità dati estesa]** per gli ultimi 13 mesi.
 
-     Quando passi il puntatore su una barra sovrapposta nella visualizzazione, una finestra a comparsa mostra il numero di righe relativo a quella parte specifica della barra. Nell’esempio seguente, vengono mostrate le righe dei dati di base per reporting per il mese corrente: agosto 2025: 936 M (936.347.325).
-
-
-     ![Metriche di utilizzo chiave](assets/usage-key-usage-metrics.png)
+    Quando passi il puntatore su una barra sovrapposta nella visualizzazione, una finestra a comparsa mostra il numero di righe relativo a quella parte specifica della barra.
 
 * Un pannello combinato che mostra tre pannelli secondari per:
 
@@ -541,9 +544,7 @@ L’interfaccia Utilizzo è costituita da due pannelli:
 
   Il pannello secondario **[!UICONTROL Righe acquisite]** misura il numero totale di record aggiunti al sistema ogni mese, per fornire insight sulla crescita dei dati e sui tassi di acquisizione. Il pannello secondario fornisce un riepilogo del totale delle righe acquisite di questo mese e della modifica rispetto al mese precedente.
 
-  ![Righe acquisite](assets/usage-ingested-rows.png)
-
-  Puoi passare il puntatore sui punti dati nella visualizzazione per visualizzare una finestra a comparsa con ulteriori dettagli.
+  Puoi passare il puntatore sui punti dati nelle visualizzazioni per visualizzare un pop-up con ulteriori dettagli. È possibile selezionare un **[!UICONTROL intervallo di tempo]** che si applica sia alle **[!UICONTROL righe acquisite]** che alle **[!UICONTROL righe segnalabili]**. Utilizza ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l’intervallo di tempo.
 
   +++
 
@@ -551,12 +552,175 @@ L’interfaccia Utilizzo è costituita da due pannelli:
 
   La visualizzazione **[!UICONTROL Righe per reporting]** tiene traccia del numero di righe disponibili per il reporting sottraendo le righe ignorate ed eliminate dalle righe acquisite, fungendo da metrica chiave per la fatturazione e l’utilizzo dei dati. Il pannello secondario fornisce due riepiloghi:
 
-   * **[!UICONTROL Totale ultimo mese]**: riepilogo del totale righe per reporting fino al mese corrente.
-   * **[!UICONTROL Questo mese]**: riepilogo delle righe totali del mese corrente e della modifica rispetto al mese precedente.
+  * **[!UICONTROL Totale righe segnalabili]**: riepilogo del totale delle righe segnalabili fino al mese corrente.
+  * **[!UICONTROL Mese da segnalare]**: riepilogo del totale delle righe da segnalare di questo mese e della modifica rispetto al mese precedente.
 
-  ![Righe segnalabili](assets/usage-reportable-rows.png)
+  Puoi passare il puntatore sui punti dati nelle visualizzazioni per visualizzare un pop-up con ulteriori dettagli. È possibile selezionare un **[!UICONTROL intervallo di tempo]** che si applica sia alle **[!UICONTROL righe acquisite]** che alle **[!UICONTROL righe segnalabili]**. Utilizza ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l’intervallo di tempo.
 
-  Puoi passare il puntatore sui punti dati nelle visualizzazioni per visualizzare un pop-up con ulteriori dettagli.
+  +++
+
+  +++ Raggruppamento in dettaglio.
+
+  Puoi utilizzare la tabella **[!UICONTROL Raggruppamento dettagliato]** per visualizzare metriche dettagliate per connessione, set di dati, sandbox e tag. I set di dati vengono indicati utilizzando ID anziché nomi, in quanto i nomi dei set di dati possono essere modificati nel corso di un periodo di reporting. Le connessioni o i set di dati sconosciuti vengono indicati utilizzando i relativi ID.
+
+  Per i mesi precedenti a settembre 2024, i dati sono stati raccolti a livello di set di dati e vengono visualizzati come [!UICONTROL Altri set di dati] per maggiore chiarezza. A partire da settembre 2024, i dati vengono raccolti a livello di set di dati granulari e [!UICONTROL Altri set di dati] non vengono più visualizzati.
+
+  * Per modificare il raggruppamento, seleziona una combinazione per **[!UICONTROL Visualizza per]** e **[!UICONTROL Raggruppa per]**.
+
+    | Opzioni relative a **[!UICONTROL Visualizza per]** | Opzioni relative a **[!UICONTROL Raggruppa per]** |
+    |---|---|
+    | **[!UICONTROL Connessione]** | **[!UICONTROL -]** e **[!UICONTROL Set di dati]** |
+    | **[!UICONTROL Set di dati]** | **[!UICONTROL -]** |
+    | **[!UICONTROL Sandbox]** | **[!UICONTROL Connessione]** |
+    | **[!UICONTROL Tag]** | **[!UICONTROL Connessione]** |
+
+  È possibile selezionare un mese per il quale si desidera ottenere il raggruppamento. Seleziona un mese da **[!UICONTROL Mese raggruppamento]**.
+
+
+  +++
+
+### Utilizzo di Content Analytics
+
+L&#39;interfaccia **[!UICONTROL Utilizzo di Content Analytics]** utilizza le metriche seguenti:
+
+| Nome della metrica | Descrizione |
+|---|---|
+| **Righe reportabili principali di Content Analytics** | Il numero totale di righe specifiche di Content Analytics disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024. |
+| **Righe Content Analytics mensili** | Traccia il numero di righe di Content Analytics disponibili per il reporting. Le righe da riportare sono le righe acquisite meno quelle ignorate ed eliminate durante l’acquisizione. Le righe da riportare fungono da metrica chiave per la fatturazione e l’utilizzo dei dati. |
+
+>[!NOTE]
+>
+>I dati vengono raccolti a partire da luglio 2024 per i record principali, storici e totali. Per informazioni sui dati storici precedenti, contatta il tuo account manager.
+>
+
+L&#39;interfaccia **[!UICONTROL Utilizzo di Content Analytics]** è costituita da due pannelli:
+
+* Il pannello **[!UICONTROL Metriche chiave di utilizzo]** che visualizza:
+
+  * Due visualizzazioni di riepilogo che visualizzano le modifiche totali e percentuali rispetto al mese precedente per:
+
+    * **[!UICONTROL Righe principali di Analytics da segnalare]**. Il numero totale di righe specifiche di Content Analytics disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024.
+    * **Righe Content Analytics mensili**. Traccia il numero di righe di Content Analytics disponibili per il reporting. Le righe da riportare sono le righe acquisite meno quelle ignorate ed eliminate durante l’acquisizione. Le righe da riportare fungono da metrica chiave per la fatturazione e l’utilizzo dei dati.
+
+  * Visualizzazione a barre verticali sovrapposte che visualizza le **[!UICONTROL righe principali di Content Analytics da segnalare]** per gli ultimi 13 mesi.
+
+    Quando passi il puntatore su una barra sovrapposta nella visualizzazione, una finestra a comparsa mostra il numero di righe relativo a quella parte specifica della barra.
+
+* Un pannello combinato che mostra due pannelli secondari per:
+
+  +++ Righe mensili di Content Analytics
+
+  Il pannello secondario **[!UICONTROL Righe mensili di Content Analytics]** misura il numero totale di record mensili di Content Analytics aggiunti al sistema ogni mese, fornendo ad insight la crescita dei dati e i tassi di acquisizione. Il pannello secondario fornisce un riepilogo del totale delle righe acquisite di questo mese e della modifica rispetto al mese precedente.
+
+  Puoi passare il puntatore sui punti dati nella visualizzazione per visualizzare una finestra a comparsa con ulteriori dettagli. È possibile selezionare un **[!UICONTROL intervallo di tempo]** o utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l&#39;intervallo di tempo.
+
+  +++
+
+  +++ Raggruppamento in dettaglio.
+
+  Puoi utilizzare la tabella **[!UICONTROL Raggruppamento dettagliato]** per visualizzare metriche dettagliate per connessione, set di dati, sandbox e tag. I set di dati vengono indicati utilizzando ID anziché nomi, in quanto i nomi dei set di dati possono essere modificati nel corso di un periodo di reporting. Le connessioni o i set di dati sconosciuti vengono indicati utilizzando i relativi ID.
+
+  Per i mesi precedenti a settembre 2024, i dati sono stati raccolti a livello di set di dati e vengono visualizzati come [!UICONTROL Altri set di dati] per maggiore chiarezza. A partire da settembre 2024, i dati vengono raccolti a livello di set di dati granulari e [!UICONTROL Altri set di dati] non vengono più visualizzati.
+
+  * Per modificare il raggruppamento, seleziona una combinazione per **[!UICONTROL Visualizza per]** e **[!UICONTROL Raggruppa per]**.
+
+    | Opzioni relative a **[!UICONTROL Visualizza per]** | Opzioni relative a **[!UICONTROL Raggruppa per]** |
+    |---|---|
+    | **[!UICONTROL Connessione]** | **[!UICONTROL -]** e **[!UICONTROL Set di dati]** |
+    | **[!UICONTROL Set di dati]** | **[!UICONTROL -]** |
+    | **[!UICONTROL Sandbox]** | **[!UICONTROL Connessione]** |
+    | **[!UICONTROL Tag]** | **[!UICONTROL Connessione]** |
+
+  È possibile selezionare un mese per il quale si desidera ottenere il raggruppamento. Seleziona un mese da **[!UICONTROL Mese raggruppamento]**.
+
+  +++
+
+
+### Utilizzo della B2B Edition di CJA
+
+L&#39;interfaccia **[!UICONTROL Utilizzo di CJA B2B edition]** utilizza le metriche seguenti:
+
+| Nome della metrica | Descrizione |
+|---|---|
+| **BPP Core da segnalare** | Numero totale di righe segnalabili del profilo aziendale disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024. |
+| **BPP cronologico da segnalare** | Il numero totale di righe segnalabili del profilo aziendale disponibili in un periodo più vecchio di 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente. Ad esempio, il 1° febbraio 2024 viene mostrato il totale delle righe disponibili per eventi con marca temporale precedente a gennaio 2023. |
+
+>[!NOTE]
+>
+>I dati vengono raccolti a partire da luglio 2024 per i record principali, storici e totali. Per informazioni sui dati storici precedenti, contatta il tuo account manager.
+>
+
+L&#39;interfaccia **[!UICONTROL Utilizzo di CJA B2B edition]** è costituita da un pannello che visualizza i pannelli secondari per:
+
++++ BPP Core da segnalare.
+
+Il pannello secondario **[!UICONTROL Core BPP]** segnalabile misura il numero totale di record mensili del profilo aziendale segnalabile principali aggiunti al sistema ogni mese, fornendo ad insight tassi di crescita e di acquisizione dei dati. Il pannello secondario fornisce un riepilogo del totale delle righe acquisite di questo mese e della modifica rispetto al mese precedente.
+
+Puoi passare il cursore del mouse sui punti dati nella visualizzazione per visualizzare un popup con ulteriori dettagli applicabili sia a **[!UICONTROL BPP Core segnalabile]** che a **[!UICONTROL BPP storico segnalabile]**. Utilizza ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l’intervallo di tempo.
+
++++
+
++++ BPP da segnalare cronologico.
+
+Il pannello secondario **[!UICONTROL Historical Reportable BPP]** misura il numero totale di record mensili del profilo Business Reporting cronologico aggiunti al sistema ogni mese, fornendo ad insight la crescita dei dati e i tassi di acquisizione. Il pannello secondario fornisce un riepilogo del totale delle righe acquisite di questo mese e della modifica rispetto al mese precedente.
+
+Puoi passare il cursore del mouse sui punti dati nella visualizzazione per visualizzare un popup con ulteriori dettagli applicabili sia a **[!UICONTROL BPP Core segnalabile]** che a **[!UICONTROL BPP storico segnalabile]**. Utilizza ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l’intervallo di tempo.
+
++++
+
++++ Raggruppamento in dettaglio.
+
+Puoi utilizzare la tabella **[!UICONTROL Raggruppamento dettagliato]** per visualizzare metriche dettagliate per connessione, set di dati, sandbox e tag. I set di dati vengono indicati utilizzando ID anziché nomi, in quanto i nomi dei set di dati possono essere modificati nel corso di un periodo di reporting. Le connessioni o i set di dati sconosciuti vengono indicati utilizzando i relativi ID.
+
+Per i mesi precedenti a settembre 2024, i dati sono stati raccolti a livello di set di dati e vengono visualizzati come [!UICONTROL Altri set di dati] per maggiore chiarezza. A partire da settembre 2024, i dati vengono raccolti a livello di set di dati granulari e [!UICONTROL Altri set di dati] non verranno più visualizzati.
+
+* Per modificare il raggruppamento, seleziona una combinazione per **[!UICONTROL Visualizza per]** e **[!UICONTROL Raggruppa per]**.
+
+  | Opzioni relative a **[!UICONTROL Visualizza per]** | Opzioni relative a **[!UICONTROL Raggruppa per]** |
+  |---|---|
+  | **[!UICONTROL Connessione]** | **[!UICONTROL -]** e **[!UICONTROL Set di dati]** |
+  | **[!UICONTROL Set di dati]** | **[!UICONTROL -]** |
+  | **[!UICONTROL Sandbox]** | **[!UICONTROL Connessione]** |
+  | **[!UICONTROL Tag]** | **[!UICONTROL Connessione]** |
+
+È possibile selezionare un mese per il quale si desidera ottenere il raggruppamento. Seleziona un mese da **[!UICONTROL Mese raggruppamento]**.
+
++++
+
+
+### Utilizzo di file multimediali in streaming
+
+L&#39;interfaccia **[!UICONTROL Utilizzo di contenuti multimediali in streaming]** utilizza le metriche seguenti:
+
+| Nome della metrica | Descrizione |
+|---|---|
+| **Avvio mensile file multimediali** | Il numero totale di avvii mensili dei file multimediali disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale di avvii dei file multimediali disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024. |
+
+>[!NOTE]
+>
+>I dati vengono raccolti a partire da luglio 2024 per i record principali, storici e totali. Per informazioni sui dati storici precedenti, contatta il tuo account manager.
+>
+
+
+L&#39;interfaccia **[!UICONTROL Utilizzo contenuti multimediali in streaming]** è costituita da due pannelli:
+
+* Il pannello **[!UICONTROL Metriche chiave di utilizzo]** che visualizza:
+
+  * Visualizzazione di riepilogo che visualizza le modifiche totali e percentuali rispetto al mese precedente per **[!UICONTROL Avvio mensile file multimediali]**.
+
+    Il numero totale di avvii mensili dei file multimediali disponibili negli ultimi 13 mesi per il mese corrente, con una variazione percentuale rispetto al mese precedente.  Ad esempio, il 1° febbraio 2024 viene mostrato il totale di avvii dei file multimediali disponibili per eventi con marca temporale compresa tra gennaio 2023 e gennaio 2024.
+
+  * Visualizzazione a barre verticali sovrapposte che visualizza **[!UICONTROL Avvio elemento multimediale mensile]** negli ultimi 13 mesi.
+
+    Quando passi il puntatore su una barra sovrapposta nella visualizzazione, una finestra a comparsa mostra il numero di righe relativo a quella parte specifica della barra.
+
+* Un pannello combinato che mostra due pannelli secondari per:
+
+  +++ Avvii mensili di file multimediali
+
+  Il pannello secondario **[!UICONTROL Avvio file multimediale mensile]** misura il numero totale di record mensili di avvio del file multimediale aggiunti al sistema ogni mese, fornendo ad insight la crescita dei dati e i tassi di acquisizione. Il pannello secondario fornisce un riepilogo del totale delle righe acquisite di questo mese e della modifica rispetto al mese precedente.
+
+  Puoi passare il puntatore sui punti dati nella visualizzazione per visualizzare una finestra a comparsa con ulteriori dettagli. È possibile selezionare un **[!UICONTROL intervallo di tempo]** o utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l&#39;intervallo di tempo.
 
   +++
 
@@ -566,22 +730,22 @@ L’interfaccia Utilizzo è costituita da due pannelli:
 
   Per i mesi precedenti a settembre 2024, i dati sono stati raccolti a livello di set di dati e vengono visualizzati come [!UICONTROL Altri set di dati] per maggiore chiarezza. A partire da settembre 2024, i dati vengono raccolti a livello di set di dati granulari e [!UICONTROL Altri set di dati] non verranno più visualizzati.
 
-   * Per modificare il raggruppamento, seleziona una combinazione per **[!UICONTROL Visualizza per]** e **[!UICONTROL Raggruppa per]**.
+  * Per modificare il raggruppamento, seleziona una combinazione per **[!UICONTROL Visualizza per]** e **[!UICONTROL Raggruppa per]**.
 
-     | Opzioni relative a **[!UICONTROL Visualizza per]** | Opzioni relative a **[!UICONTROL Raggruppa per]** |
-     |---|---|
-     | **[!UICONTROL Connessione]** | **[!UICONTROL -]** e **[!UICONTROL Set di dati]** |
-     | **[!UICONTROL Set di dati]** | **[!UICONTROL -]** |
-     | **[!UICONTROL Sandbox]** | **[!UICONTROL Connessione]** |
-     | **[!UICONTROL Tag]** | **[!UICONTROL Connessione]** |
+    | Opzioni relative a **[!UICONTROL Visualizza per]** | Opzioni relative a **[!UICONTROL Raggruppa per]** |
+    |---|---|
+    | **[!UICONTROL Connessione]** | **[!UICONTROL -]** e **[!UICONTROL Set di dati]** |
+    | **[!UICONTROL Set di dati]** | **[!UICONTROL -]** |
+    | **[!UICONTROL Sandbox]** | **[!UICONTROL Connessione]** |
+    | **[!UICONTROL Tag]** | **[!UICONTROL Connessione]** |
 
-  ![Raggruppamento dettagliato](assets/usage-detail-breakdown.png)
+  È possibile selezionare un mese per il quale si desidera ottenere il raggruppamento. Seleziona un mese da **[!UICONTROL Mese raggruppamento]**.
 
   +++
 
-  Puoi definire un **[!UICONTROL Intervallo di tempo]** espresso in mesi per il quale generare il rapporto. Utilizza ![Calendario](/help/assets/icons/Calendar.svg) per selezionare l’intervallo di tempo.
 
 >[!MORELIKETHIS]
 >
->Tutorial: [Visualizzare, risolvere i problemi e modificare le impostazioni di connessione](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja).Gestire l’utilizzo di Customer Journey Analytics&rbrack;(/help/technotes/estimate-usage.md)
+>Esercitazione su [Visualizzare, risolvere e modificare le impostazioni di connessione](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/connections/connections-details-experience-in-cja).
+>[Gestione dell&#39;utilizzo di Customer Journey Analytics](/help/technotes/estimate-usage.md)
 >
