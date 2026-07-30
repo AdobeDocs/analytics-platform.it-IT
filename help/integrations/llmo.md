@@ -62,7 +62,7 @@ Il secondo modo è un bot o un agente che richiede direttamente le pagine. Ciò 
 Il connettore gestito di LLM Optimizer fornisce i dati ad Experience Platform come set di dati di riepilogo. Per misurarlo in Customer Journey Analytics, è necessario completare due passaggi di configurazione:
 
 1. Crea una connessione che includa il set di dati di LLM Optimizer. Vedi [Creare o modificare una connessione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}.
-2. Crea una visualizzazione dati sulla connessione. La visualizzazione dati rende disponibili in Analysis Workspace le dimensioni e le metriche riportate di seguito. Consulta [Creare o modificare una visualizzazione dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}.
+2. Crea una visualizzazione dati sulla connessione. La visualizzazione dati rende disponibili in Analysis Workspace le dimensioni e le metriche riportate di seguito. Consulta [Creare o modificare una visualizzazione dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}.
 
 Il set di dati:
 
@@ -187,7 +187,7 @@ Da determinare.
 
 # LLM Optimizer integration
 
-[Adobe LLM Optimizer](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home){target="_blank"} is a generative AI-first application for Generative Engine Optimization, designed to help brands enhance their visibility, accuracy, and influence in AI-driven search environments. LLM Optimizer provides insights into brand presence in AI-generated answers, offers prescriptive content recommendations, and automates optimization fixes.
+[Adobe LLM Optimizer](https://experienceleague.adobe.com/it/docs/llm-optimizer/using/home){target="_blank"} is a generative AI-first application for Generative Engine Optimization, designed to help brands enhance their visibility, accuracy, and influence in AI-driven search environments. LLM Optimizer provides insights into brand presence in AI-generated answers, offers prescriptive content recommendations, and automates optimization fixes.
 
 AI has become a primary discovery channel. LLM agents, such as ChatGPT, Claude, Copilot, and Perplexity, crawl and reference brand content. 
 
