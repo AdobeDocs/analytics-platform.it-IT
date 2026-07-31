@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 19610ab5059b070bda0066d593f3dd966702a35d
+source-git-commit: ffa9d10d58481d19627633b6a2030c11b6d5b229
 workflow-type: tm+mt
-source-wordcount: 6973
+source-wordcount: 6984
 ht-degree: 99%
 
 ---
@@ -50,6 +50,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 |---|---|
 | **Luglio 2026** | |
+| Integrazione in entrata di LLM Optimizer | Documentazione per la [integrazione in entrata di LLM Optimizer](/help/integrations/llmo.md#inbound-integration). |
 | Interfaccia di utilizzo | È stata aggiornata la documentazione dell&#39;[interfaccia di utilizzo](/help/connections/manage-connections.md#usage) per le connessioni. |
 | Analisi dei sottoeventi | Documentazione per [analisi sub-evento](/help/components/segments/sub-event.md) e [contenitori personalizzati](/help/data-views/create-dataview.md#custom-containers). |
 | Classificazioni in linea | Documentazione per [classificazioni in linea](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications). |
