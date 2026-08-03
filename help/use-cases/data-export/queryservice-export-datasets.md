@@ -22,7 +22,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
 workflow-type: tm+mt
-source-wordcount: 3355
+source-wordcount: 3315
 ht-degree: 4%
 
 ---
@@ -209,11 +209,11 @@ Di seguito è riportato un esempio per applicare correttamente l’attribuzione 
 
   Per fare questo, devi...
 
-   - Utilizzare una tabella di stato di elaborazione, `checkpoint_log`, per tenere traccia dell&#39;ora corrente rispetto all&#39;ultima acquisizione. Per ulteriori informazioni, consulta [questa guida](https://experienceleague.adobe.com/it/docs/experience-platform/query/key-concepts/incremental-load).
-   - disabilita l&#39;eliminazione delle colonne di sistema, in modo da poter utilizzare `_acp_system_metadata.ingestTime`.
-   - Utilizza un valore più interno di `SELECT` per acquisire i campi che desideri utilizzare e limitare gli eventi al periodo di lookback per i calcoli di sessionizzazione e/o attribuzione. Ad esempio, 90 giorni.
-   - Utilizzare un livello successivo `SELECT` per applicare la sessionizzazione e/o le funzioni della finestra di attribuzione e altri calcoli.
-   - Utilizza `INSERT INTO` nella tabella di output per limitare il lookback solo agli eventi arrivati dall&#39;ultima elaborazione. Per eseguire questa operazione, filtrare su `_acp_system_metadata.ingestTime ` rispetto all&#39;ultima volta memorizzata nella tabella dello stato di elaborazione.
+  - Utilizzare una tabella di stato di elaborazione, `checkpoint_log`, per tenere traccia dell&#39;ora corrente rispetto all&#39;ultima acquisizione. Per ulteriori informazioni, consulta [questa guida](https://experienceleague.adobe.com/it/docs/experience-platform/query/key-concepts/incremental-load).
+  - disabilita l&#39;eliminazione delle colonne di sistema, in modo da poter utilizzare `_acp_system_metadata.ingestTime`.
+  - Utilizza un valore più interno di `SELECT` per acquisire i campi che desideri utilizzare e limitare gli eventi al periodo di lookback per i calcoli di sessionizzazione e/o attribuzione. Ad esempio, 90 giorni.
+  - Utilizzare un livello successivo `SELECT` per applicare la sessionizzazione e/o le funzioni della finestra di attribuzione e altri calcoli.
+  - Utilizza `INSERT INTO` nella tabella di output per limitare il lookback solo agli eventi arrivati dall&#39;ultima elaborazione. Per eseguire questa operazione, filtrare su `_acp_system_metadata.ingestTime ` rispetto all&#39;ultima volta memorizzata nella tabella dello stato di elaborazione.
 
   **Esempio di funzioni della finestra di sessionizzazione**
 
@@ -365,7 +365,7 @@ Pianifica la query per assicurarti che venga eseguita e che i risultati vengano 
 #### Utilizzo dell’API Query Service
 
 In alternativa, puoi utilizzare le API RESTful per definire una query e pianificarla. Per ulteriori informazioni, consulta la [Guida API di Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/api/getting-started).
-Accertati di definire il set di dati di output come parte della proprietà facoltativa `ctasParameters` durante la creazione della query ([Crea una query](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Queries/operation/createQuery)) o durante la creazione della pianificazione di una query ([Crea una query pianificata](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Schedules/operation/createSchedule)).
+Assicurarsi di definire il set di dati di output come parte della proprietà facoltativa `ctasParameters` durante la creazione della query ([Creare una query](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Queries/operation/createQuery)) o durante la creazione della pianificazione di una query ([Creare una query pianificata](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Schedules/operation/createSchedule)).
 
 
 

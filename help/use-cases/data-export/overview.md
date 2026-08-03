@@ -68,8 +68,8 @@ In Customer Journey Analytics, gli eventi non vengono raccolti in ordine e viene
 
 * L&#39;unione può _riprodurre_ dati ogni giorno o ogni settimana, associando eventi anonimi a eventi noti. Per ulteriori informazioni, vedere [Unione](../../stitching/overview.md).
 * La sessionizzazione e i valori persistenti cambiano ogni volta
-   * vengono raccolti nuovi dati o
-   * l’unione di più aggiunge eventi alla cronologia di una persona.
+  * vengono raccolti nuovi dati o
+  * l’unione di più aggiunge eventi alla cronologia di una persona.
 
 L’elaborazione al momento del reporting influisce sull’esportazione di dati da Customer Journey Analytics. Le esportazioni che includono valori persistenti, non corrisponderanno ai rapporti di Customer Journey Analytics e i valori si allontaneranno nel tempo.
 
@@ -77,22 +77,22 @@ Per coerenza metrica, è preferibile utilizzare le nuove funzioni di Customer Jo
 
 * nuove origini dati ed elaborazione soggette all’esportazione di dati
 
-   * includere fonti di dati non digitali,
-   * applicare l’attribuzione e la sessionizzazione personalizzate in base alle regole aziendali; e
-   * aggiorna i percorsi dei clienti con l’unione.
+  * includere fonti di dati non digitali,
+  * applicare l’attribuzione e la sessionizzazione personalizzate in base alle regole aziendali; e
+  * aggiorna i percorsi dei clienti con l’unione.
 
 * realizzazione di casi d’uso personalizzati per l’esportazione di dati
 
-   * esportare i dati dove sono necessari, inclusi gli strumenti di Business Intelligence (BI) e le destinazioni cloud,
-   * mantenere i dati sincronizzati con Analysis Workspace tramite l’integrazione di strumenti di business intelligence,
-   * non è necessario replicare la logica di elaborazione nei propri sistemi,
-   * nuovo supporto per metriche calcolate, campi derivati e segmentazione, e
+  * esportare i dati dove sono necessari, inclusi gli strumenti di Business Intelligence (BI) e le destinazioni cloud,
+  * mantenere i dati sincronizzati con Analysis Workspace tramite l’integrazione di strumenti di business intelligence,
+  * non è necessario replicare la logica di elaborazione nei propri sistemi,
+  * nuovo supporto per metriche calcolate, campi derivati e segmentazione, e
 
 * valutazione della sicurezza e della governance dei dati fin dalla progettazione
 
-   * monitorare tutte le esportazioni di dati per utente e destinazione,
-   * fissare limiti ai dati disponibili per l&#39;esportazione e
-   * imposta gli avvisi per i problemi di consegna e i limiti per le finestre di consegna pianificate.
+  * monitorare tutte le esportazioni di dati per utente e destinazione,
+  * fissare limiti ai dati disponibili per l&#39;esportazione e
+  * imposta gli avvisi per i problemi di consegna e i limiti per le finestre di consegna pianificate.
 
 
 ## Casi d’uso e funzionalità
