@@ -6,22 +6,11 @@ feature: Use Cases
 role: Admin
 exl-id: 8b9c164e-01da-4b43-8e2c-99904223cae5
 TQID: https://experienceleague.adobe.com/ad4wWxqEZZxsnSTpus7pxFMlwNo3nNUpHeS9VfxrEdw
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 806
@@ -68,8 +57,8 @@ In Customer Journey Analytics, gli eventi non vengono raccolti in ordine e viene
 
 * L&#39;unione può _riprodurre_ dati ogni giorno o ogni settimana, associando eventi anonimi a eventi noti. Per ulteriori informazioni, vedere [Unione](../../stitching/overview.md).
 * La sessionizzazione e i valori persistenti cambiano ogni volta
-   * vengono raccolti nuovi dati o
-   * l’unione di più aggiunge eventi alla cronologia di una persona.
+  * vengono raccolti nuovi dati o
+  * l’unione di più aggiunge eventi alla cronologia di una persona.
 
 L’elaborazione al momento del reporting influisce sull’esportazione di dati da Customer Journey Analytics. Le esportazioni che includono valori persistenti, non corrisponderanno ai rapporti di Customer Journey Analytics e i valori si allontaneranno nel tempo.
 
@@ -77,22 +66,22 @@ Per coerenza metrica, è preferibile utilizzare le nuove funzioni di Customer Jo
 
 * nuove origini dati ed elaborazione soggette all’esportazione di dati
 
-   * includere fonti di dati non digitali,
-   * applicare l’attribuzione e la sessionizzazione personalizzate in base alle regole aziendali; e
-   * aggiorna i percorsi dei clienti con l’unione.
+  * includere fonti di dati non digitali,
+  * applicare l’attribuzione e la sessionizzazione personalizzate in base alle regole aziendali; e
+  * aggiorna i percorsi dei clienti con l’unione.
 
 * realizzazione di casi d’uso personalizzati per l’esportazione di dati
 
-   * esportare i dati dove sono necessari, inclusi gli strumenti di Business Intelligence (BI) e le destinazioni cloud,
-   * mantenere i dati sincronizzati con Analysis Workspace tramite l’integrazione di strumenti di business intelligence,
-   * non è necessario replicare la logica di elaborazione nei propri sistemi,
-   * nuovo supporto per metriche calcolate, campi derivati e segmentazione, e
+  * esportare i dati dove sono necessari, inclusi gli strumenti di Business Intelligence (BI) e le destinazioni cloud,
+  * mantenere i dati sincronizzati con Analysis Workspace tramite l’integrazione di strumenti di business intelligence,
+  * non è necessario replicare la logica di elaborazione nei propri sistemi,
+  * nuovo supporto per metriche calcolate, campi derivati e segmentazione, e
 
 * valutazione della sicurezza e della governance dei dati fin dalla progettazione
 
-   * monitorare tutte le esportazioni di dati per utente e destinazione,
-   * fissare limiti ai dati disponibili per l&#39;esportazione e
-   * imposta gli avvisi per i problemi di consegna e i limiti per le finestre di consegna pianificate.
+  * monitorare tutte le esportazioni di dati per utente e destinazione,
+  * fissare limiti ai dati disponibili per l&#39;esportazione e
+  * imposta gli avvisi per i problemi di consegna e i limiti per le finestre di consegna pianificate.
 
 
 ## Casi d’uso e funzionalità
