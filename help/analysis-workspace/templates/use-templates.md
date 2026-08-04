@@ -6,27 +6,11 @@ role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
 autotag-review: '2026-05-19T09:53:18.849Z'
 TQID: 'https://experienceleague.adobe.com/wZ8vtE4BFc1ahBKdblSEAXBofZBPObbSJi4bA9MtxPY'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f4e142a3eb5294cedd6d9e6666845dadcfcc415d
 workflow-type: tm+mt
 source-wordcount: 21144
@@ -396,7 +380,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="template--exitpagerankedreport"
 >title="Visualizza le pagine principali a cui le persone accedono immediatamente prima di lasciare il sito."
->abstract="**Questo può aiutarti** a comprendere meglio quali pagine allontanano le persone dal sito. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aggiornare le pagine di uscita comuni per ottimizzare l’esperienza che le persone hanno del sito prima di lasciarlo, oppure includere contenuti o collegamenti per incoraggiarle a rimanere sullo stesso.<br/>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni a barre e tabella a forma libera."
+>abstract="**Questo può aiutarti** a capire meglio quali pagine allontanano le persone dal sito. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aggiornare le pagine di uscita comuni per ottimizzare l’esperienza che le persone hanno del sito prima di lasciarlo, oppure includere contenuti o collegamenti per incoraggiarle a rimanere sullo stesso.<br/>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni a barre e tabella a forma libera."
 
 >[!CONTEXTUALHELP]
 >id="template--productusageoverviewreport"
@@ -425,7 +409,7 @@ Sono disponibili i modelli seguenti:
 | [!UICONTROL **Flusso pagina successivo e precedente**] | Visualizza una visualizzazione del flusso delle posizioni più comuni in cui le persone vanno immediatamente dopo aver visitato e immediatamente prima di visitare una determinata pagina. <p>**Questo può aiutarti** a comprendere come il traffico si sposta da una determinata pagina ad altre parti del sito e i percorsi seguiti dalle persone per arrivare a una determinata pagina.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se la progettazione o il layout della pagina può essere ottimizzato per indirizzare gli utenti verso le pagine più desiderate, ad esempio una pagina dove effettuare un acquisto o lasciare una recensione. Oppure valuta se le informazioni presenti nella pagina corrente sono in grado di fornire la direzione o le azioni che le persone cercano quando arrivano dalle pagine precedenti. Oppure puoi valutare se le pagine che non sono visualizzate come pagine precedenti necessitano di collegamenti più evidenti alla pagina corrente.</p><p>Questo modello utilizza il pannello Elemento successivo o precedente.</p> |
 | **Riepilogo pagina** | Visualizza informazioni chiave su qualsiasi pagina delle tue proprietà. Mostra le visualizzazioni di pagina, una linea di tendenza, una visualizzazione di flusso e altro ancora.  <p>**Questo può aiutarti** a comprendere meglio come le persone interagiscono con una determinata pagina.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come analizzare le prestazioni della pagina rispetto a un periodo di tempo o comprendere meglio cosa favorisce il traffico verso la pagina.</p><p>Questo modello utilizza la metrica Visualizzazioni pagina. Utilizza anche le visualizzazioni a linee e flusso.</p> |
 | **Pagine di ingresso** | Visualizza le pagine principali a cui gli utenti accedono quando visitano il tuo sito per la prima volta. <p>**Questo può aiutarti** a comprendere meglio quali pagine generano maggior traffico verso il tuo sito o quali sono le prime impressioni dei visitatori.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare l’esperienza iniziale o assicurarsi che le pagine visualizzate per prima, all’accesso, siano accoglienti e forniscano i collegamenti necessari verso altre aree del sito.</p><p>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni a barre e tabella a forma libera.</p> |
-| **Pagine di uscita** | Visualizza le pagine principali a cui le persone accedono immediatamente prima di lasciare il sito.<p>**Questo può aiutarti** a comprendere meglio quali pagine allontanano le persone dal sito. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aggiornare le pagine di uscita comuni per ottimizzare l’esperienza che le persone hanno del sito prima di lasciarlo, oppure includere contenuti o collegamenti per incoraggiarle a rimanere sullo stesso.</p><p>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni a barre e tabella a forma libera.</p> |
+| **Pagine di uscita** | Visualizza le pagine principali a cui le persone accedono immediatamente prima di lasciare il sito.<p>**Questo può aiutarti** a capire meglio quali pagine allontanano le persone dal sito. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aggiornare le pagine di uscita comuni per ottimizzare l’esperienza che le persone hanno del sito prima di lasciarlo, oppure includere contenuti o collegamenti per incoraggiarle a rimanere sullo stesso.</p><p>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni a barre e tabella a forma libera.</p> |
 | **Panoramica di utilizzo del prodotto** | Visualizza il modo in cui il prodotto Customer Journey Analytics viene utilizzato all’interno dell’organizzazione. <p>**Questo può aiutarti** a comprendere meglio quante persone usano Customer Journey Analytics, con quale frequenza lo usano e le tendenze di utilizzo nel tempo. Puoi anche visualizzare il numero di progetti in fase di creazione e i dettagli su tali progetti (ad esempio, quali componenti, visualizzazioni e pannelli sono più comunemente utilizzati) e molte altre statistiche di utilizzo.</p><p>**In base a ciò che hai appreso, potresti** fare diverse cose, ad esempio eliminare i progetti o i componenti inutilizzati o fornire agli utenti corsi di formazione sulle funzioni più comuni.</p> |
 | **Content Analytics** | Scopri quali sono i contenuti e gli attributi di contenuto con le migliori prestazioni.<p>**Questo può aiutarti** a comprendere le prestazioni del contenuto a un livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici. Content Analytics utilizza l’intelligenza artificiale per generare automaticamente gli attributi e assegnarli ai contenuti tramite tag. Per ulteriori informazioni, consulta [Content Analytics](/help/content-analytics/content-analytics.md){target="_blank"}.</p><p>**In base a ciò che hai appreso, potresti** fare diverse cose, come promuovere risorse ad alte prestazioni nella tua pagina Home, personalizzare il contenuto per segmenti specifici in modo da includere attributi ad alte prestazioni o sostituire il contenuto che ha iniziato a diventare obsoleto.</p> |
 
@@ -985,7 +969,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="cja-template--multichanneloverview"
 >title="Visualizza la distribuzione del traffico su più canali."
->abstract="**Questo può aiutarti** a comprendere meglio quali canali favoriscono maggior traffico e coinvolgimento con successo. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sui canali che ottengono il massimo ritorno sugli investimenti.<br/>Questo modello utilizza le metriche utente, sessione ed evento."
+>abstract="**Questo può aiutarti** a capire meglio quali canali sono più efficaci nel portare traffico e coinvolgimento. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sui canali che ottengono il massimo ritorno sugli investimenti.<br/>Questo modello utilizza le metriche utente, sessione ed evento."
 
 >[!CONTEXTUALHELP]
 >id="cja-template--callcenterdeflection"
@@ -1007,7 +991,7 @@ Sono disponibili i modelli seguenti:
 
 | Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| [!UICONTROL **Panoramica multicanale**] | Visualizza la distribuzione del traffico su più canali. <p>**Questo può aiutarti** a comprendere meglio quali canali favoriscono maggior traffico e coinvolgimento con successo. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sui canali che ottengono il massimo ritorno sugli investimenti.</p><p>Questo modello utilizza le metriche utente, sessione ed evento.</p> |
+| [!UICONTROL **Panoramica multicanale**] | Visualizza la distribuzione del traffico su più canali. <p>**Questo può aiutarti** a capire meglio quali canali sono più efficaci nel portare traffico e coinvolgimento. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing sui canali che ottengono il massimo ritorno sugli investimenti.</p><p>Questo modello utilizza le metriche utente, sessione ed evento.</p> |
 | **Web+App** | Visualizza il traffico web e il traffico sui dispositivi mobili insieme.<p>**Questo può aiutarti** a comprendere meglio la distribuzione del traffico web e sui dispositivi mobili sul tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio dedicare più risorse all’esperienza della tua app mobile quando raggiunge un certo livello di traffico.</p><p>Questo modello utilizza le metriche Sessioni web, Sessioni app per dispositivi mobili e Sessioni web+app cross-channel.</p> |
 | **Online/Offline** | Visualizza il traffico online e il traffico non in linea insieme.<p>**Questo può aiutarti** a comprendere meglio la distribuzione del traffico online e non in linea sul tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio dedicare più risorse alla tua esperienza online quando raggiunge un certo livello di traffico.</p><!-- This template uses the ... --> |
 | **Deviazione del call center** | Visualizza come il traffico web influisce sul traffico del call center.<p>**Questo può aiutarti** a comprendere meglio come il contenuto self-service del tuo sito web stia deviando il traffico verso il call center.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare i contenuti self-service in modo da ridurre il traffico verso il call center, oppure misurare il ROI dei contenuti self-service calcolando l’importo risparmiato grazie a un minor numero di chiamate di supporto.</p><p>Questo modello utilizza le metriche Sessioni web, Sessioni app per dispositivi mobili e Sessioni web+app cross-channel.</p> |
