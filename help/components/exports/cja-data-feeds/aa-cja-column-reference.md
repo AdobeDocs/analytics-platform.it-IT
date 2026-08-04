@@ -30,7 +30,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
 workflow-type: tm+mt
-source-wordcount: 3920
+source-wordcount: 3921
 ht-degree: 34%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 34%
 
 {{release-limited-testing}}
 
-Non è possibile eseguire una mappatura true 1:1 tra le colonne dei feed dati di Adobe Analytics e Customer Journey Analytics. I due prodotti sono sostanzialmente diversi e l&#39;implementazione di ogni organizzazione può variare in modo significativo.
+Non è possibile eseguire una mappatura 1:1 vera tra le colonne dei feed dati di Adobe Analytics e Customer Journey Analytics. I due prodotti sono sostanzialmente diversi e l&#39;implementazione di ogni organizzazione può variare in modo significativo.
 
 Questo riferimento consente ai data engineer di valutare le colonne dei feed dati di Adobe Analytics e identificare gli equivalenti Customer Journey Analytics più simili per i loro flussi di lavoro.
 
@@ -446,12 +446,12 @@ Alcune metriche possono utilizzare la serializzazione degli eventi, ovvero il mo
 * Se la metrica deduplica per visita in Adobe Analytics, puoi impostare l’ambito di deduplicazione sulla sessione nelle impostazioni dei componenti di quella metrica.
 * Se la metrica viene deduplicata per ID evento in Adobe Analytics, è probabile che l’oggetto XDM per tale metrica contenga sia un campo `value` che un campo `id`. Se lo schema utilizza il gruppo di campi [[!UICONTROL Dettagli Commerce]](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/commerce-details), è probabile che tali metriche risiedano in questi campi XDM, che è possibile impostare il campo **[!UICONTROL ID deduplicazione]** nelle impostazioni del componente della metrica:
 
-   * **Casse**: `xdm.commerce.checkouts.id`
-   * **Aggiunte al carrello**: `xdm.commerce.productListAdds.id`
-   * **Apertura carrello**: `xdm.commerce.productListOpens.id`
-   * **Rimozioni dal carrello**: `xdm.commerce.productListRemovals.id`
-   * **Visualizzazioni carrello**: `xdm.commerce.productListViews.id`
-   * **Visualizzazioni prodotto**: `xdm.commerce.productViews.id`
+  * **Casse**: `xdm.commerce.checkouts.id`
+  * **Aggiunte al carrello**: `xdm.commerce.productListAdds.id`
+  * **Apertura carrello**: `xdm.commerce.productListOpens.id`
+  * **Rimozioni dal carrello**: `xdm.commerce.productListRemovals.id`
+  * **Visualizzazioni carrello**: `xdm.commerce.productListViews.id`
+  * **Visualizzazioni prodotto**: `xdm.commerce.productViews.id`
 
 Per deduplicare la metrica Ordini, vedere `duplicate_purchase`.
 
