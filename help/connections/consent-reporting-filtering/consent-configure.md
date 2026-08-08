@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
+source-git-commit: 55a5bc2160a7dc426b9436116362264ab9f90390
 workflow-type: tm+mt
-source-wordcount: 728
-ht-degree: 1%
+source-wordcount: 770
+ht-degree: 0%
 
 ---
 
@@ -62,7 +62,11 @@ Per creare una configurazione di reporting e filtro del consenso:
 
 1. Selezionare **[!UICONTROL Usa visualizzazioni dati]**.
 
-1. (Facoltativo) Nella sezione **[!UICONTROL Filtro]**, puoi abilitare il filtro per le seguenti azioni di marketing:
+1. (Facoltativo) Nella sezione **[!UICONTROL Filtro]**, seleziona [!UICONTROL **Abilita filtro**] per filtrare i dati del consenso.
+
+   Quando il filtro è abilitato, Customer Journey Analytics acquisisce i dati di un visitatore solo se il visitatore corrisponde a qualsiasi criterio di consenso abilitato. Per ulteriori informazioni, vedere [Filtro del consenso](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering) in [Panoramica sui report e i filtri del consenso](/help/connections/consent-reporting-filtering/consent-overview.md).
+
+1. (Facoltativo) Abilita il filtro per le seguenti azioni di marketing:
 
    >[!NOTE]
    >
@@ -70,8 +74,8 @@ Per creare una configurazione di reporting e filtro del consenso:
 
    | Azione di marketing | Descrizione |
    |---------|----------|
-   | **[!UICONTROL Analytics]** | Filtra i dati utilizzati per il reporting standard di Customer Journey Analytics in Analysis Workspace. |
-   | **[!UICONTROL Data science]** | Filtra i dati utilizzati per casi di utilizzo di analisi avanzate, apprendimento automatico e data science. |
+   | **[!UICONTROL Dati di Analytics]** | Filtra i dati utilizzati per il reporting standard di Customer Journey Analytics in Analysis Workspace. |
+   | **[!UICONTROL Dati scientifici]** | Filtra i dati utilizzati per casi di utilizzo di analisi avanzate, apprendimento automatico e data science. |
 
 1. Seleziona **[!UICONTROL Crea]** per creare la configurazione.
 

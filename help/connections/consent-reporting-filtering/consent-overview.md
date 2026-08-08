@@ -19,10 +19,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 91cd8d3d5c290f52e4ae15713693be1fc83baa92
+source-git-commit: 55a5bc2160a7dc426b9436116362264ab9f90390
 workflow-type: tm+mt
-source-wordcount: 1058
-ht-degree: 2%
+source-wordcount: 1060
+ht-degree: 3%
 
 ---
 
@@ -81,8 +81,8 @@ Quando utilizzi il filtro del consenso, tieni presente quanto segue:
 
   | Azione di marketing | Descrizione |
   |---------|----------|
-  | **[!UICONTROL Analytics]** | Generazione di rapporti standard su Customer Journey Analytics in Analysis Workspace. |
-  | **[!UICONTROL Data science]** | Casi d’uso avanzati di analisi, apprendimento automatico e scienza dei dati. |
+  | **[!UICONTROL Dati di Analytics]** | Reporting standard di Customer Journey Analytics in Analysis Workspace. |
+  | **[!UICONTROL Dati scientifici]** | Casi d’uso di analisi avanzata, machine learning e data science. |
 
 * I dati di un visitatore vengono acquisiti solo se il visitatore corrisponde a **tutti** i criteri di consenso applicabili. Se a un visitatore mancano i criteri applicabili, i dati del visitatore vengono esclusi.
 
