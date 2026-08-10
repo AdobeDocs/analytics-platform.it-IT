@@ -7,27 +7,11 @@ exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
 autotag-review: '2026-05-19T11:02:42.011Z'
 TQID: 'https://experienceleague.adobe.com/k0nhhAy1CuLa7bEhu1XGqjsQdn9nEAnGb1LbMMeiCLM'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: f3ca85c1-72de-4df2-97ed-05753cd77c47
-  - id: e1471301-a189-438e-8d48-264a8db508a6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: f3ca85c1-72de-4df2-97ed-05753cd77c47id: e1471301-a189-438e-8d48-264a8db508a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 2842
@@ -44,11 +28,11 @@ Questo articolo fornisce linee guida (best practice, guardrail e insidie comuni)
 
 * **Ottimizza le prestazioni**: identifica i pattern che rallentano l&#39;esecuzione delle query o i limiti del sistema, per selezionare lo strumento corretto per il processo:
 
-   * [Campi derivati](/help/data-views/derived-fields/derived-fields.md)
-   * [Impostazioni della visualizzazione dati](/help/data-views/component-settings/overview.md)
-   * [Preparazione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-prep/home)
-   * [Metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md)
-   * [Set di dati di ricerca](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
+  * [Campi derivati](/help/data-views/derived-fields/derived-fields.md)
+  * [Impostazioni della visualizzazione dati](/help/data-views/component-settings/overview.md)
+  * [Preparazione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-prep/home)
+  * [Metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md)
+  * [Set di dati di ricerca](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md)
 
 * **Miglioramento della manutenibilità**: genera una logica di campo derivata chiara, modulare e facile da aggiornare.
 * **Correttezza**: evitare errori logici comuni nella classificazione, nell&#39;attribuzione e nella trasformazione dei dati.
@@ -105,8 +89,8 @@ Customer Journey Analytics applica limiti espliciti di [funzione e operatore](/h
 **Pattern**
 
 * [Caso molto grande Quando](/help/data-views/derived-fields/derived-fields.md#case-when) funziona con catene **[!UICONTROL If]** e **[!UICONTROL Else If]** complesse:
-   * Molte condizioni (ad esempio: più di 20 operatori) o nidificazione profonda (più di 3 o 4 livelli di logica [Case When](/help/data-views/derived-fields/derived-fields.md#case-when) **[!UICONTROL If]** e **[!UICONTROL Else If]** nidificata).
-   * Condizioni ripetute sullo stesso campo con valori diversi.
+  * Molte condizioni (ad esempio: più di 20 operatori) o nidificazione profonda (più di 3 o 4 livelli di logica [Case When](/help/data-views/derived-fields/derived-fields.md#case-when) **[!UICONTROL If]** e **[!UICONTROL Else If]** nidificata).
+  * Condizioni ripetute sullo stesso campo con valori diversi.
 * Corrispondenza stringa costante ripetuta.
 
   +++ Esempio
@@ -138,26 +122,26 @@ Questa sezione descrive l’utilizzo errato dei campi derivati. In particolare, 
 **Pattern**
 
 * Un campo derivato replica il comportamento già disponibile nelle impostazioni dei componenti:
-   * Normalizzazione dei casi, ritaglio o filtraggio semplice (ad esempio: escludendo `unknown`, `undefined` o `null`) senza complessità aggiuntiva.
-   * Inserimento di intervalli di numeri negli intervalli di base.
+  * Normalizzazione dei casi, ritaglio o filtraggio semplice (ad esempio: escludendo `unknown`, `undefined` o `null`) senza complessità aggiuntiva.
+  * Inserimento di intervalli di numeri negli intervalli di base.
 
-     +++ Esempio
+    +++ Esempio
 
-     ![Utilizzo errato del bucket di base](assets/best-practices-wrong-usage.png)
+    ![Utilizzo errato del bucket di base](assets/best-practices-wrong-usage.png)
 
-     +++
+    +++
 
-     Utilizza invece [bucket di valori](/help/data-views/component-settings/value-bucketing.md) in una dimensione nella visualizzazione dati.
-   * Logica di persistenza o attribuzione codificata con [Next o Previous](/help/data-views/derived-fields/derived-fields.md#next-or-previous) o logica di sequenza manuale in cui sarebbero sufficienti le impostazioni di visualizzazione dati [attribution](/help/data-views/component-settings/attribution.md) e [expiration](/help/data-views/component-settings/persistence.md).
-   * Una metrica derivata che conta semplicemente una metrica esistente in una condizione.
+    Utilizza invece [bucket di valori](/help/data-views/component-settings/value-bucketing.md) in una dimensione nella visualizzazione dati.
+  * Logica di persistenza o attribuzione codificata con [Next o Previous](/help/data-views/derived-fields/derived-fields.md#next-or-previous) o logica di sequenza manuale in cui sarebbero sufficienti le impostazioni di visualizzazione dati [attribution](/help/data-views/component-settings/attribution.md) e [expiration](/help/data-views/component-settings/persistence.md).
+  * Una metrica derivata che conta semplicemente una metrica esistente in una condizione.
 
-     +++ Esempio
+    +++ Esempio
 
-     ![Utilizzo errato della logica condizionale](assets/best-practices-wrong-usage-2.png)
+    ![Utilizzo errato della logica condizionale](assets/best-practices-wrong-usage-2.png)
 
-     +++
+    +++
 
-     Questo approccio replica ciò che potrebbe ottenere una metrica filtrata o [Includi valori di esclusione](/help/data-views/component-settings/include-exclude-values.md).
+    Questo approccio replica ciò che potrebbe ottenere una metrica filtrata o [Includi valori di esclusione](/help/data-views/component-settings/include-exclude-values.md).
 
 **Diagnosi dei rischi: qualità dei dati, manutenzione elevata**
 
@@ -172,8 +156,8 @@ Questa sezione descrive l’utilizzo errato dei campi derivati. In particolare, 
 * Attribuzione e persistenza: utilizzare le impostazioni della visualizzazione dati [Persistenza](/help/data-views/component-settings/persistence.md) (**[!UICONTROL Modello di allocazione]** e **[!UICONTROL Scadenza]**) per le dimensioni invece di simularle in un campo derivato con [Successivo o Precedente](/help/data-views/derived-fields/derived-fields.md#next-or-previous) o altra logica sequenziale.
 * Bucket numerico: mantieni numerico il campo derivato e lascia che la visualizzazione dati crei una dimensione a bucket in primo piano, invece delle etichette di intervallo a codifica fissa in una catena [Case When](/help/data-views/derived-fields/derived-fields.md#case-when).
 * Logica condizionale: converti la logica del flag semplice 0 o 1 in:
-   * la metrica originale con logica di filtro dei valori di inclusione o esclusione applicata in Analysis Workspace.
-   * una metrica filtrata utilizzando la configurazione delle impostazioni del componente della visualizzazione dati.
+  * la metrica originale con logica di filtro dei valori di inclusione o esclusione applicata in Analysis Workspace.
+  * una metrica filtrata utilizzando la configurazione delle impostazioni del componente della visualizzazione dati.
 
 ## Errori di classificazione di metriche e dimensioni
 
@@ -182,8 +166,8 @@ Questa sezione descrive le classificazioni errate di metriche e dimensioni.
 **Pattern**
 
 * Un campo derivato produce chiaramente:
-   * Output numerici (conteggio, rapporto o aritmetica) ma il componente è configurato come dimensione.
-   * Output categorici (etichette o stringhe) ma il componente è configurato come metrica.
+  * Output numerici (conteggio, rapporto o aritmetica) ma il componente è configurato come dimensione.
+  * Output categorici (etichette o stringhe) ma il componente è configurato come metrica.
 * Un campo derivato codifica i flag 0/1 come stringhe.
 
 Customer Journey Analytics consente di forzare i campi numerici per le dimensioni e i campi stringa per le metriche a livello di visualizzazione dati, ma un disallineamento può creare rapporti confusi.
@@ -195,10 +179,10 @@ Customer Journey Analytics consente di forzare i campi numerici per le dimension
 **Funzione Consigli**
 
 * Se l’output è numerico:
-   * Impostare il tipo di componente su **[!UICONTROL Metrica]** nella visualizzazione dati.
-   * Se il componente rappresenta una metrica subset (ad esempio, **[!UICONTROL Visualizzazioni pagina di checkout]**), utilizza una metrica filtrata all&#39;interno della visualizzazione dati, anziché una stringa derivata e una metrica calcolata all&#39;inizio.
+  * Impostare il tipo di componente su **[!UICONTROL Metrica]** nella visualizzazione dati.
+  * Se il componente rappresenta una metrica subset (ad esempio, **[!UICONTROL Visualizzazioni pagina di checkout]**), utilizza una metrica filtrata all&#39;interno della visualizzazione dati, anziché una stringa derivata e una metrica calcolata all&#39;inizio.
 * Se l’output è un’etichetta:
-   * Imposta il tipo di componente su **[!UICONTROL Dimension]** e configura di conseguenza le impostazioni di [Persistenza](/help/data-views/component-settings/persistence.md) (**[!UICONTROL Modello di allocazione]** e **[!UICONTROL Scadenza]**).
+  * Imposta il tipo di componente su **[!UICONTROL Dimension]** e configura di conseguenza le impostazioni di [Persistenza](/help/data-views/component-settings/persistence.md) (**[!UICONTROL Modello di allocazione]** e **[!UICONTROL Scadenza]**).
 
 ## Insidie del canale di marketing e della logica della campagna
 
@@ -212,9 +196,9 @@ Questa sezione descrive le insidie del canale di marketing e della logica della 
 
 * I canali di marketing Customer Journey Analytics vengono spesso implementati utilizzando campi derivati.
 
-   * Campi derivati che implementano il canale di marketing o il bucket di campagne in base a parametri URL, referrer, pagina di destinazione e altro ancora.
-   * Ordine sospetto: prima di applicare regole più specifiche, viene visualizzata una regola generale catch-all.
-   * Gestione incompleta di tutte le opzioni possibili: nessun ramo esplicito per **[!UICONTROL Il dominio di riferimento non è impostato]** o **[!UICONTROL Il parametro di query non è impostato]**.
+  * Campi derivati che implementano il canale di marketing o il bucket di campagne in base a parametri URL, referrer, pagina di destinazione e altro ancora.
+  * Ordine sospetto: prima di applicare regole più specifiche, viene visualizzata una regola generale catch-all.
+  * Gestione incompleta di tutte le opzioni possibili: nessun ramo esplicito per **[!UICONTROL Il dominio di riferimento non è impostato]** o **[!UICONTROL Il parametro di query non è impostato]**.
 
 **Diagnosi dei rischi: qualità dei dati**
 
@@ -301,8 +285,8 @@ Questa sezione descrive l’utilizzo della logica di stile calcolata in un campo
 **Diagnosi dei rischi: qualità dei dati**
 
 * Questione di governance e progettazione: l&#39;aritmetica può essere meglio posizionata come:
-   * Una metrica di campo derivata (se desideri che il campo derivato sia una metrica standard gestita per tutti gli utenti).
-   * Una metrica calcolata in Analysis Workspace (se la metrica calcolata è specifica per l’analisi).
+  * Una metrica di campo derivata (se desideri che il campo derivato sia una metrica standard gestita per tutti gli utenti).
+  * Una metrica calcolata in Analysis Workspace (se la metrica calcolata è specifica per l’analisi).
 
 **Funzione Consigli**
 
@@ -340,8 +324,8 @@ In questa sezione viene descritto come ignorare il contesto a livello di session
 
 * Un campo derivato presuppone implicitamente un particolare [livello contenitore](/help/getting-started/cja-b2b-concepts-features.md#containers) (evento, sessione o persona), ma:
 
-   * Il campo derivato non fa riferimento ad attributi a livello di sessione o di persona.
-   * Le impostazioni della sessione della visualizzazione dati sono in conflitto con la logica prevista.
+  * Il campo derivato non fa riferimento ad attributi a livello di sessione o di persona.
+  * Le impostazioni della sessione della visualizzazione dati sono in conflitto con la logica prevista.
 
 **Diagnosi dei rischi: qualità dei dati**
 
@@ -395,5 +379,5 @@ Controlla anche la configurazione della visualizzazione dati per ciascun compone
 
 **Funzione Consigli**
 
-* Regola il modello di allocazione [&#x200B; e la scadenza &#x200B;](/help/data-views/component-settings/persistence.md) su quella dimensione per allineare nome e comportamento. Ad esempio, una dimensione campo derivata denominata `Original Source` deve utilizzare l&#39;attribuzione Primo contatto con scadenza impostata su Persona.
+* Regola il modello di allocazione [ e la scadenza ](/help/data-views/component-settings/persistence.md) su quella dimensione per allineare nome e comportamento. Ad esempio, una dimensione campo derivata denominata `Original Source` deve utilizzare l&#39;attribuzione Primo contatto con scadenza impostata su Persona.
 * Regola il **[!UICONTROL modello di allocazione]** e la **[!UICONTROL scadenza]** nelle impostazioni di [persistenza](/help/data-views/component-settings/persistence.md) della dimensione per allineare nome e comportamento. Ad esempio, `Original Source` deve impostare **[!UICONTROL Allocation model]** su **[!UICONTROL Original]** con **[!UICONTROL Expiration]** impostato su **[!UICONTROL Person]**.
