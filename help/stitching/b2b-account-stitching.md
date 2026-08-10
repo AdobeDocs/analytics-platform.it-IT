@@ -7,29 +7,21 @@ hide: true
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 593dc8e9eb32e092545b74882ce2a85bcecc3c56
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 6e2c1271de0e1ea82820c108eec08ec815d776f3
 workflow-type: tm+mt
-source-wordcount: 1349
-ht-degree: 9%
+source-wordcount: 1921
+ht-degree: 13%
 
 ---
 
 # Unione di account B2B
 
-L’unione degli account B2B arricchisce i set di dati dell’evento con le informazioni sull’account e consente un’analisi completa nell’intero percorso di clienti in Customer Journey Analytics. Quando gli eventi non dispongono di un ID account, richiesto da Customer Journey Analytics B2B edition per l&#39;acquisizione, l&#39;unione degli account deriva e aggiunge automaticamente tali informazioni utilizzando un [set di dati di mappatura persona-account](#prerequisites) fornito.
+L’unione degli account B2B arricchisce i set di dati dell’evento con le identità dell’account e consente un’analisi completa nell’intero percorso di clienti in Customer Journey Analytics. Quando gli eventi non dispongono di un ID account, richiesto da Customer Journey Analytics B2B edition per l&#39;acquisizione, l&#39;unione degli account deriva e aggiunge automaticamente tali informazioni utilizzando un [set di dati di mappatura persona-account](#prerequisites) fornito.
 
 Senza l’unione degli account, qualsiasi evento che non contiene un ID account viene eliminato durante l’acquisizione. L’unione di account risolve questo limite ricercando l’account associato alla persona in ogni evento, aggiungendo l’ID account sia durante l’acquisizione dell’evento sia retroattivamente.
 
@@ -40,7 +32,93 @@ Senza l’unione degli account, qualsiasi evento che non contiene un ID account 
 L’unione di account esegue le seguenti operazioni sui set di dati:
 
 * **Elevare l&#39;identità della persona**: l&#39;ID persona in ogni evento è elevato allo spazio dei nomi dell&#39;identità configurato utilizzando il grafico delle identità.
-* **Aggiungi informazioni account mancanti**: per gli eventi che contengono un ID persona, viene utilizzata la [mappatura persona-account](#prerequisites) per derivare e aggiungere le informazioni sull&#39;account. Tutte le informazioni sull’account relative all’evento vengono utilizzate come metodo di fallback.
+* **Aggiungi identità account mancanti**: per gli eventi che contengono un ID persona, viene utilizzata la [mappatura persona-account](#prerequisites) per derivare e aggiungere l&#39;identità account. Qualsiasi identità account nell’evento stesso viene utilizzata come metodo di fallback.
+
+## Funzionamento dell’unione di account B2B
+
+Per illustrare il funzionamento dell’unione di account B2B, il set di dati mostrato di seguito viene utilizzato come punto di partenza.
+
+### Set di dati evento di base
+
+In Customer Journey Analytics B2B edition, gli eventi senza ID account in questo set di dati evento di esempio non unito vengono ignorati e non acquisiti (![DeleteOutline](/help/assets/icons/DeleteOutline.svg)).
+
+| Azione | Marca temporale | ID persistente | ID account | ID persona | Tipo di evento |
+|:---:|--|--|---|---|---|
+| ![AggiungiDati](/help/assets/icons/DataAdd.svg) | 1/3/25 | 1234 | Adobe | matt@adobe.com | Page view |
+| ![EliminazioneFiltro](/help/assets/icons/DeleteOutline.svg) | 1/3/25 | 5678 |  | | |
+| ![AggiungiDati](/help/assets/icons/DataAdd.svg) | 3/4/25 | 9012 | Ubiquità | cory@sky.com |  |
+| ![AggiungiDati](/help/assets/icons/DataAdd.svg) | 3/7/25 | 4321 | Cielo | emily@sky.com | Call center |
+| ![EliminazioneFiltro](/help/assets/icons/DeleteOutline.svg) | 5/5/25 | 6106 | | carmen@adobe.com |  |
+| ![AggiungiDati](/help/assets/icons/DataAdd.svg) | 6/1/25 | 8989 | Ubiquità | cassidy@ubiquity.com | |
+| ![EliminazioneFiltro](/help/assets/icons/DeleteOutline.svg) | 6/2/25 | 1111 |  | | |
+
+L’unione di account B2B impedisce che gli eventi vengano ignorati e non acquisiti utilizzando le operazioni seguenti:
+
+* [Elevare le identità della persona](#elevate-person-identities).
+* [Aggiungi identità account mancanti](#add-missing-account-identitiers).
+
+
+### Privilegiare le identità delle persone
+
++++ Dettagli
+
+Per supportare l’unione degli account B2B, fornisci un set di dati di mappatura persona-account. Ad esempio:
+
+| ID CRM | ID account |
+|---|---|
+| 12hsd123 | Adobe |
+| f82jsd32 | Cielo |
+| hg2023m2 | Cielo |
+| b978bbw9 | Ubiquità |
+| fs453ghi | Adobe |
+
+Il set di dati di mappatura persona-account è elevato utilizzando l’unione basata su grafico. Ad esempio, puoi fornire e-mail come namespace da utilizzare. Il risultato è un set di dati di mappatura persona-account aggiornato con ID persona elevati.
+
+| ID CRM | ID persona elevata | ID account |
+|---|---|---|
+| 12hsd123 | matt@adobe.com | Adobe |
+| f82jsd32 | emily@sky.com | Cielo |
+| hg2023m2 | cory@sky.com | Cielo |
+| b978bbw9 | cassidy@ubiquity.com | Ubiquità |
+| fs453ghi | carmen@adobe.com | Adobe |
+
+L’unione basata su grafico viene utilizzata anche per elevare gli ID persona nel set di dati dell’evento esperienza. Ad esempio, vedere il valore aggiornato per **emily@adobe.com**.
+
+| Marca temporale | ID persistente | ID account originale | ID persona originale | ID persona elevata |
+|--|--|---|---|---|
+| 1/3/25 | 1234 | Adobe | matt@adobe.com | matt@adobe.com |
+| 1/3/25 | 5678 |  | | **emily@adobe.com** |
+| 3/4/25 | 9012 | Ubiquità | cory@sky.com | cory@sky.com |
+| 3/7/25 | 4321 | Cielo | emily@sky.com | emily@sky.com |
+| 5/5/25 | 6106 | | carmen@adobe.com | carmen@adobe.com |
+| 6/1/25 | 8989 | Ubiquità | cassidy@ubiquity.com | cassidy@ubiquity.com |
+| 6/2/25 | 1111 |  | 111 | 111 |
+
+
++++
+
+### Aggiungi identificatori account mancanti
+
++++ Dettagli
+
+Il set di dati da persona a account viene ancora una volta utilizzato per elevare gli ID account nel set di dati dell’evento esperienza. Ad esempio, vedi il valore aggiunto **Sky** per emily@sky.com e **Adobe** per carmen@adobe.com. E il valore aggiornato **Sky** (da Ubiquity) per cory@sky.com.
+
+| Marca temporale | ID persistente | ID account originale | ID persona originale | ID account con privilegi elevati | ID persona elevata |
+|---|---|---|---|---|---|
+| 1/3/25 | 1234 | Adobe | matt@adobe.com | Adobe | matt@adobe.com |
+| 1/3/25 | 5678 | | | **Cielo** | **emily@sky.com** |
+| 3/4/25 | 9012 | Ubiquità | cory@sky.com | **Cielo** | cory@sky.com |
+| 3/7/25 | 4321 | Cielo | emily@sky.com | Cielo | emily@sky.com |
+| 5/5/25 | 6106 | | carmen@adobe.com | **Adobe** | carmen@adobe.com |
+| 6/1/25 | 8989 | Ubiquità | cassidy@ubiquity.com | Ubiquità | cassidy@ubiquity.com |
+| 6/2/25 | 1111 |  | 1111 |  | 1111 |
+
++++
+
+### Risultato
+
+Questo esempio mostra come l’unione degli account B2B aggiorna i dati dell’evento esperienza con identificatori di persona mancanti e identificatori di account mancanti o errati, in base al set di dati di mappatura persona-account fornito come input.
+
 
 ## Prerequisiti
 
@@ -56,7 +134,7 @@ Prima di abilitare l’unione di account B2B, prepara i seguenti set di dati in 
 
 ## Abilita unione account {#enable-account-stitching}
 
-Abilita e configura l’unione di account B2B a livello di connessione, quindi attiva l’unione di account sui singoli set di dati evento all’interno di tale connessione.
+Innanzitutto, abilita e configura l’unione degli account B2B a livello di connessione. Quando l’unione di account B2B è configurata per una connessione, puoi quindi attivare l’unione di account sui singoli set di dati evento all’interno di tale connessione.
 
 ### Configurare le impostazioni di unione delle identità B2B {#configure-b2b-stitching-settings}
 
@@ -101,6 +179,8 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 
 1. In **[!UICONTROL Impostazioni connessione]**, impostare **[!UICONTROL ID primario]** su ![Generazione](/help/assets/icons/Building.svg) **[!UICONTROL Account]**.
 
+1. Accertati di selezionare i **[!UICONTROL contenitori opzionali]** che desideri utilizzare nella connessione B2B. Non puoi modificare la selezione di questi contenitori dopo aver salvato una configurazione di unione B2B.
+
 1. Seleziona **[!UICONTROL Apri configurazione di unione B2B]**.
 
    ![Configurazione titolazione saccount B2B](assets/b2b-account-stitching-configuration.png)
@@ -124,7 +204,7 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
       | **[!UICONTROL Set di dati da persona a account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona la ricerca (record o set di dati di serie non temporali) che mappa le persone sugli account. |
       | **[!UICONTROL ID persona]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID di persona. Il campo deve essere contrassegnato come identità e non può essere uguale al campo **[!UICONTROL ID account]** o **[!UICONTROL Ora inizio]**. |
       | **[!UICONTROL ID account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID di account. Il campo non può essere uguale al campo **[!UICONTROL ID persona]** o **[!UICONTROL Ora inizio]**. |
-      | **Ora di creazione mappatura** | | È possibile selezionare il campo che rappresenta la data e l&#39;ora di creazione del mapping persona-conto. Utile per scenari in cui una persona cambia più account nel tempo.<br/><br/>**Esempio** (quando è selezionato il campo **update_date**):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** prima del 1° maggio 2026: a@b.com è mappato ad Apple.</li><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** il o dopo il 1° maggio 2026: a@b.com è mappato ad Adobe.</li><ul> |
+      | **Ora di creazione mappatura** | | È possibile selezionare il campo che rappresenta la data e l&#39;ora di creazione del mapping persona-conto. Utile per scenari in cui una persona cambia più account nel tempo.<br/><br/>**Esempio** (quando è selezionato il campo **update_date**):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** prima del 1° maggio 2026: a@b.com è mappato ad Apple.</li><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** il o dopo il 1° maggio 2026: a@b.com è mappato ad Adobe.</li></ul>Se non viene specificato alcun tempo di mappatura, viene utilizzato il primo account lessicografico per il quale effettuare la mappatura. Lo stesso algoritmo viene utilizzato anche quando due nomi di account diversi hanno lo stesso valore **[!UICONTROL update_date]** e viene specificato un orario di creazione della mappatura. |
 
       >[!NOTE]
       >
@@ -141,7 +221,7 @@ Abilita e configura l’unione di account B2B a livello di connessione, quindi a
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Abilita unione delle identità persona-account"
 >abstract="Se abilitato, questo set di dati utilizza la persona B2B per l’unione degli account. I valori **[!UICONTROL ID persona]** verranno elevati a quelli configurati dello spazio dei nomi **[!UICONTROL Identificatore persona]**, quindi verranno utilizzati per cercare l&#39;ID account in base al set di dati da persona a account.<br/>Se disabilitato, questo set di dati non utilizza la persona B2B per l&#39;unione degli account. Devi selezionare invece un **[!UICONTROL ID account]** richiesto."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="Configurare le impostazioni di unione delle identità B2B"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="Configurare le impostazioni di unione delle identità B2B"
 
 Dopo aver configurato l’unione B2B a livello di connessione, devi abilitare l’unione degli account B2B singolarmente per ogni set di dati evento da unire.
 
@@ -185,7 +265,7 @@ Dopo aver configurato la configurazione dell&#39;unione B2B e aver completato l&
 
 ## Pianificazione aggiornamento dati
 
-L&#39;unione di account deriva la mappa di identità dal [set di dati persona-account](#prerequisites) al giorno e utilizza queste informazioni per aggiornare i set di dati abilitati per l&#39;unione nella seguente pianificazione:
+L&#39;unione di account deriva la mappa di identità dal [set di dati persona-account](#prerequisites) al giorno e utilizza queste informazioni per aggiornare i set di dati abilitati per l&#39;unione sia a breve che a lungo termine secondo la seguente pianificazione:
 
 | Ripetizione | Frequenza | Finestra dati |
 |---|---|---|
