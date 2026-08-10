@@ -35,7 +35,7 @@ Nell’unione basata su grafico, specifica un set di dati evento, l’ID persist
 
 >[!NOTE]
 >
->[Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home) è un servizio Experience Platform di base che non richiede licenze aggiuntive. Per ulteriori informazioni, consulta [Informazioni sul ruolo del servizio Identity nell&#39;infrastruttura Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home#understanding-the-role-of-identity-service-within-the-experience-platform-infrastructure).
+>[Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home) è un servizio Experience Platform di base che non richiede licenze aggiuntive. Per ulteriori informazioni, consulta [Informazioni sul ruolo del servizio Identity nell&#39;infrastruttura Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home#understanding-the-role-of-identity-service-within-the-experience-platform-infrastructure).
 >
 
 Se non è possibile recuperare le informazioni sull&#39;ID persona per un evento, viene utilizzato l&#39;ID persistente per l&#39;evento *unstitched*. Di conseguenza, in una [visualizzazione dati](/help/data-views/data-views.md) associata a una [connessione](/help/connections/overview.md) che contiene il set di dati abilitato per l&#39;unione, il componente della visualizzazione dati ID persona contiene il valore ID persona o il valore ID persistente a livello di evento.
@@ -231,7 +231,7 @@ I seguenti prerequisiti si applicano in modo specifico all’unione delle identi
   - Tutti i set di dati che contengono queste identità rilevanti devono essere [abilitati per l&#39;acquisizione dei dati del grafico delle identità](faq.md#enable-a-dataset-for-the-identity-service). Questa abilitazione assicura che le identità in ingresso vengano aggiunte al grafico nel tempo da tutte le origini necessarie.
   - Se utilizzi già Real-Time Customer Data Profile o Adobe Journey Optimizer da un po’, il grafico dovrebbe essere già configurato in una certa misura.<br/>Se è richiesta anche la retrocompilazione dell&#39;unione storica per il set di dati abilitato con l&#39;unione basata su grafico, il grafico deve già contenere identità storiche per l&#39;intero periodo, per ottenere i risultati di unione desiderati.
 - Se si desidera utilizzare l&#39;unione basata su grafico e si prevede che il set di dati evento contribuirà al grafico delle identità, è necessario [abilitare il set di dati per il servizio Identity](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service).
-- L&#39;ID persistente e l&#39;ID persona possono essere utilizzati con [identityMap](#identitymap). Oppure l&#39;ID persistente e l&#39;ID persona possono essere campi dello schema XDM, nel qual caso i campi devono essere [definiti come identità](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en) nello schema.
+- L&#39;ID persistente e l&#39;ID persona possono essere utilizzati con [identityMap](#identitymap). Oppure l&#39;ID persistente e l&#39;ID persona possono essere campi dello schema XDM, nel qual caso i campi devono essere [definiti come identità](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity?lang=en) nello schema.
 
 >[!NOTE]
 >
