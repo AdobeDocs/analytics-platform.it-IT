@@ -4,7 +4,7 @@ description: Scopri come utilizzare la procedura guidata di provisioning per abi
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
-hold: true
+hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
 feature_v2:
@@ -18,14 +18,50 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a5bc2160a7dc426b9436116362264ab9f90390
+source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
 workflow-type: tm+mt
-source-wordcount: 770
-ht-degree: 0%
+source-wordcount: 981
+ht-degree: 13%
 
 ---
 
-# Configurare i rapporti e i filtri di consenso
+# Configurare i rapporti e i filtri di consenso {#configure-consent-reporting}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-merge-policy"
+>title="Criteri di unione"
+>abstract="I criteri di unione combinano dati di profilo da più set di dati in profili cliente unificati utilizzati per la creazione del pubblico. Se trovi più criteri di unione e non sai quale scegliere, seleziona “Basato su tempo predefinito”. In alternativa, consulta il team di dati per scoprire quali tipi di pubblico sono associati a ciascun criterio di unione."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-sandbox"
+>title="Sandbox"
+>abstract="Seleziona la sandbox che contiene i set di dati di profilo di Experience Platform corretti. Questi set di dati devono contenere i dati sul consenso che desideri segnalare in Analysis Workspace."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-person-id"
+>title="ID persona"
+>abstract="Seleziona un campo dallo schema basato su modello che rappresenta l’ID persona. La selezione è limitata all’elenco dei campi nello schema contrassegnati come &quot;Identity&quot; e che hanno uno spazio dei nomi dell’identità."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-identity-namespace"
+>title="Utilizza lo spazio dei nomi identità primaria"
+>abstract="Abilita questa opzione se desideri che Customer Journey Analytics trovi l’identità in Identity Map contrassegnata con un attributo primary=true e che utilizzi tale identità come ID persona per quella riga. L’identità è la chiave primaria utilizzata in Experience Platform per il partizionamento. <br/>Se lasci questa opzione disabilitata, seleziona uno spazio dei nomi dal campo Spazio dei nomi identità sottostante. Customer Journey Analytics cerca la mappa delle identità di ogni riga per questa chiave di spazio dei nomi e utilizza l’identità in tale spazio dei nomi come ID persona per tale riga."
+
+<!-- markdownlint-enable MD034 -->
 
 Gli amministratori di sistema possono abilitare la segnalazione del consenso e, facoltativamente, il filtro del consenso per una o più connessioni. Per informazioni generali, consulta [Panoramica sui rapporti di consenso e filtri](/help/connections/consent-reporting-filtering/consent-overview.md).
 
