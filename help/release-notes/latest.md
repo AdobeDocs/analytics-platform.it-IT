@@ -4,33 +4,15 @@ description: Visualizza le note sulla versione più recente di Customer Journey 
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
 TQID: https://experienceleague.adobe.com/EQKhna8E33DddZQGWe3ASBKMY9r-UsfuUcJg7DMwH0w
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b73d8eb73b0b65ca94f42d86b12cdfcc1ed99159
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 07846fea9f2d7fd966bcd924025aeae0c157cf9e
 workflow-type: tm+mt
-source-wordcount: 975
-ht-degree: 28%
+source-wordcount: 910
+ht-degree: 30%
 
 ---
 
@@ -48,7 +30,6 @@ Queste note sulla versione coprono il periodo di rilascio di agosto 2026. I rila
 | **Supporto per etichette di utilizzo dati aggiuntive**<br> Customer Journey Analytics ora supporta le seguenti etichette di utilizzo dati aggiuntive per gli elementi all&#39;interno di un set di dati:<ul><li>C2 - Limitare l’esportazione di dati di terze parti (disponibile ora)</li><li>C3 - Limitare la combinazione di dati direttamente identificabili (disponibile ora)</li><li>C9 - Limitare la scienza dei dati (il cui rilascio è pianificato per agosto o settembre)</li></ul><p>Per ulteriori informazioni, consulta [Etichette, criteri e azioni di marketing](/help/data-views/data-governance.md).</p> | | Agosto o settembre 2026 |
 | **Filtro e reporting dei criteri di consenso**<br> Puoi ora segnalare i visitatori che corrispondono ai tuoi criteri di consenso di Adobe Experience Platform. Le dimensioni e le metriche dei criteri di consenso vengono aggiunte alle visualizzazioni dati della connessione.<p>Inoltre, puoi escludere i visitatori non autorizzati prima che i loro dati vengano acquisiti in Customer Journey Analytics.</p><p>Per ulteriori informazioni, consulta Panoramica sulla generazione di rapporti di consenso e sui filtri.</p> | | Agosto 2026 |
 | **Content Analytics: dati multimediali a pagamento** <br/>I file multimediali a pagamento sono ora disponibili come terzo canale per Content Analytics.<p>Il collegamento alla documentazione seguirà a breve.</p> | | 31 agosto 2026 |
-| **Pianificazione della migrazione: da Adobe Analytics a Customer Journey Analytics**<br> Il Pianificatore della migrazione fornisce una procedura guidata che automatizza alcune delle attività più complesse e dispendiose in termini di tempo associate a un aggiornamento da Adobe Analytics a Customer Journey Analytics, inclusa la creazione e la migrazione dello schema XDM da AppMeasurement o dall&#39;estensione Analytics (tag) a Experience Platform Web SDK. <p>Il collegamento alla documentazione seguirà a breve.</p> | | Fine di agosto o settembre 2026 |
 | **B2B: l&#39;unione tra persone e account**<br> l&#39;unione degli account B2B arricchisce i set di dati dell&#39;evento con le informazioni sull&#39;account e consente l&#39;analisi completa in tutto il percorso di clienti di Customer Journey Analytics. <p>Quando gli eventi non dispongono di un ID account, richiesto da Customer Journey Analytics B2B edition per l’acquisizione, l’unione di account deriva e aggiunge automaticamente tali informazioni utilizzando il set di dati di mappatura persona-account fornito.</p><p>Il collegamento alla documentazione seguirà a breve.</p> | | Fine di agosto o settembre 2026 |
 | **Guida alle prime chiamate dell&#39;API di report di CJA**<br> La guida alle prime chiamate dell&#39;API di Adobe Customer Journey Analytics fornisce istruzioni ed esempi per configurare le richieste di report di base. | | 10 agosto 2026 |
 | **Guida con tendenze per la data API di report di CJA**<br> La guida con tendenze per la data API di Adobe Customer Journey Analytics fornisce istruzioni ed esempi per configurare le richieste di report di base. | | 17 agosto 2026 |
