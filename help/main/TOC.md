@@ -2,9 +2,9 @@
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 2f745f65808e47fd6c0862fe23b6de6ca12ecfff
+source-git-commit: ba83c48866308eba6148230ea08bc759951d37af
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1477'
 ht-degree: 91%
 
 ---
@@ -423,6 +423,7 @@ ht-degree: 91%
     + Feed di dati {#cja-data-feeds}
       + {hide-from-toc}[Panoramica sui feed dati](/help/components/exports/cja-data-feeds/data-feed-overview.md)
       + {hide-from-toc}[Confronto dei feed dati di Adobe Analytics](/help/components/exports/cja-data-feeds/df-comparison.md)
+      + {hide-from-toc}[Confronta Workspace e feed di dati](/help/components/exports/cja-data-feeds/df-comparison-workspace.md)
       + {hide-from-toc}[Preparare il mapping delle colonne](/help/components/exports/cja-data-feeds/df-column-mapping-prep.md)
       + {hide-from-toc}[Mappa colonne](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md)
       + {hide-from-toc}[Creare un feed di dati](/help/components/exports/cja-data-feeds/create-feed.md)
