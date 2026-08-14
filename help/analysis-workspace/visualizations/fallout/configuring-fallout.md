@@ -15,10 +15,10 @@ subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 09d8d3fd3cbc6e4ddfc30aca96b041a7c51002d0
 workflow-type: tm+mt
-source-wordcount: 921
-ht-degree: 11%
+source-wordcount: 930
+ht-degree: 10%
 
 ---
 
@@ -77,7 +77,7 @@ Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e segmenti. Si
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_container"
 >title="Contenitore Fallout"
->abstract="Seleziona un contenitore per analizzare il percorso. Questa selezione ti consente di comprendere il tipo di coinvolgimento e vincola l’analisi al contenitore selezionato."
+>abstract="Seleziona un contenitore per analizzare il percorso. Questa selezione ti aiuta a comprendere il coinvolgimento e vincola l’analisi al contenitore selezionato."
 
 Come parte della visualizzazione, sono disponibili impostazioni specifiche.
 
