@@ -23,10 +23,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 1254207526535e44c848dfeed0052339fbd8d65d
+source-git-commit: 0b6dc1d738b5f1a8aa430c990f8eb24df5d95653
 workflow-type: tm+mt
-source-wordcount: 745
-ht-degree: 48%
+source-wordcount: 770
+ht-degree: 47%
 
 ---
 
@@ -95,7 +95,9 @@ Fai clic su **[!UICONTROL Applica]** per vedere quali criteri sono abilitati.
 
 ## Effetti dei criteri abilitati sulle visualizzazioni dati
 
-Se uno o più criteri sono attivati con etichette C1, C2, C3, C8, C9 o C12, i componenti dello schema a cui sono applicate determinate etichette dati non possono essere aggiunti alle visualizzazioni dati.
+Se uno o più criteri sono attivati con C3 o C8, i componenti dello schema a cui sono applicate determinate etichette dati non possono essere aggiunti alle visualizzazioni dati.
+
+Se uno o più criteri sono attivati con C9, tutti i componenti dello schema etichettati con C9 non saranno disponibili per l&#39;utilizzo con [server MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/).
 
 Questi componenti sono disattivati nella barra a sinistra [!UICONTROL Elenco campi schema]:
 
