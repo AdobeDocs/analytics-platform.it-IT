@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f4e142a3eb5294cedd6d9e6666845dadcfcc415d
+source-git-commit: 89f0a1e54662c59d474b1fba28eb8420612e9243
 workflow-type: tm+mt
-source-wordcount: 21144
+source-wordcount: 21140
 ht-degree: 98%
 
 ---
@@ -624,8 +624,8 @@ Sono disponibili i modelli seguenti:
 
 >[!CONTEXTUALHELP]
 >id="template--consentpolicyoverview"
->title="Visualizzare il Paese da cui provengono le persone che visitano il sito."
->abstract="**Questo può aiutarti** a capire meglio quali sono i Paesi più popolari da cui provengono i visitatori del tuo sito.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing in questi Paesi, oppure assicurarti che l’esperienza sul tuo sito sia ottimale in Paesi con lingue principali diverse.<br/>Questo modello utilizza la dimensione Paesi."
+>title="Visualizza i visitatori in base ai dati di iscrizione al criterio di consenso forniti da Adobe Experience Platform."
+>abstract="**Questo ti può aiutare** come punto di partenza per la generazione di rapporti sull&#39;iscrizione ai criteri di consenso dei visitatori. Quando una visualizzazione dati è configurata per la generazione di rapporti sul consenso, Customer Journey Analytics rende automaticamente disponibile in Analysis Workspace un modello di analisi dei criteri di consenso. <br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio escludere i visitatori non consenzienti dal reporting di Analytics."
 
 >[!CONTEXTUALHELP]
 >id="template--countrygeoreport"

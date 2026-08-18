@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e686fca2c77a8f9739298ece01ccf0fa2fe87b3b
+source-git-commit: d2016e34b4b73c6eebb05097aa43f823c578c2b6
 workflow-type: tm+mt
-source-wordcount: 2441
+source-wordcount: 2440
 ht-degree: 9%
 
 ---
@@ -109,7 +109,7 @@ Alcune delle funzioni e il valore associato per il limite dipendono dal pacchett
 | Frequenza aggiornamento pubblico | 4 | Guarddrail imposto dal sistema | Frequenza massima in ore un [pubblico](../components/audiences/audiences-overview.md) può essere aggiornato. |
 | Intervallo di lookback aggiornamento pubblico | 90 | Guarddrail imposto dal sistema | Numero massimo di giorni per l’intervallo di lookback dell’aggiornamento. |
 | Aggiornamento della data di scadenza del pubblico | 13 | Guarddrail imposto dal sistema | Numero massimo di mesi in cui il pubblico non viene più aggiornato dalla data di creazione. I clienti possono estenderla per altri 13 mesi. |
-| Numero di tipi di pubblico di aggiornamento | 75, 150 | Guarddrail imposto dal sistema | Numero massimo di tipi di pubblico di aggiornamento. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
+| Numero di tipi di pubblico di aggiornamento | 75 - 150 | Guarddrail imposto dal sistema | Numero massimo di [tipi di pubblico configurati per l&#39;aggiornamento](/help/components/audiences/publish.md#audience-builder) su una frequenza pianificata (gli aggiornamenti una tantum non vengono conteggiati per questo limite). Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 
 {style="table-layout:auto"}
 
@@ -301,7 +301,7 @@ Vedi anche guardrail di esportazione del set di dati di Experience Platform [&#1
 | Unione (funzionalità facoltativa; per ulteriori informazioni, vedere [Panoramica dell&#39;unione](../stitching/overview.md)) | &lt; 4 ore |
 | Backfill del connettore Source di Adobe Analytics di meno di 10 miliardi di eventi (massimo 13 mesi di dati storici) | &lt; 4 settimane |
 | Pubblicazione di tipi di pubblico su Real-time Customer Profile, inclusa la creazione automatica del segmento di streaming e la possibilità per il segmento di essere pronto a ricevere i dati. | ≈ 60 minuti |
-| Frequenza di aggiornamento per i tipi di pubblico | Aggiornamento unico: latenza inferiore a 5 minuti.<br/>Aggiorna ogni 4 ore, ogni giorno, ogni settimana, ogni mese (la latenza è associata alla frequenza di aggiornamento). |
+| Frequenza di aggiornamento per i tipi di pubblico | Aggiorna ogni 4 ore, ogni giorno, settimana, mese. |
 
 | Latenze di reporting in tempo reale | Latenza prevista |
 |---|---|

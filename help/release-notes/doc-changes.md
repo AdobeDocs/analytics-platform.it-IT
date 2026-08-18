@@ -33,10 +33,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2f745f65808e47fd6c0862fe23b6de6ca12ecfff
+source-git-commit: e2ec268ef4a2d84d51089e7b59b3df5b0ad6f48d
 workflow-type: tm+mt
-source-wordcount: 6984
-ht-degree: 99%
+source-wordcount: 7019
+ht-degree: 98%
 
 ---
 
@@ -49,6 +49,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 |---|---|
+| **Agosto 2026** | |
+| Informazioni più chiare sull’aggiornamento dei tipi di pubblico | Quando [pubblichi tipi di pubblico](/help/components/audiences/publish.md#audience-builder), chiarisci che il numero di tipi di pubblico che possono essere pianificati per l&#39;aggiornamento dipende dall&#39;adesione a Customer Journey Analytics ed è compreso tra 75 e 150. |
 | **Luglio 2026** | |
 | Visibilità dei brand integrazione in entrata | Documentazione per l&#39;integrazione in entrata [Brand Visibility](/help/integrations/bv.md#inbound-integration). |
 | Interfaccia di utilizzo | È stata aggiornata la documentazione dell&#39;[interfaccia di utilizzo](/help/connections/manage-connections.md#usage) per le connessioni. |
