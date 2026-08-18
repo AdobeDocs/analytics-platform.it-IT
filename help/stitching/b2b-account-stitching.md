@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 6e2c1271de0e1ea82820c108eec08ec815d776f3
+source-git-commit: a4ff89823bf1e4e4aa6d299b74567ed8cb486d06
 workflow-type: tm+mt
-source-wordcount: 1921
+source-wordcount: 1924
 ht-degree: 13%
 
 ---
@@ -51,7 +51,7 @@ Per illustrare il funzionamento dell’unione di account B2B, il set di dati mos
 In Customer Journey Analytics B2B edition, gli eventi senza ID account in questo set di dati evento di esempio non unito vengono ignorati e non acquisiti (![DeleteOutline](/help/assets/icons/DeleteOutline.svg)).
 
 | Azione | Marca temporale | ID persistente | ID account | ID persona | Tipo di evento |
-|:---:|--|--|---|---|---|
+|:---:|--:|--|---|---|---|
 | ![AggiungiDati](/help/assets/icons/DataAdd.svg) | 1/3/25 | 1234 | Adobe | matt@adobe.com | Page view |
 | ![EliminazioneFiltro](/help/assets/icons/DeleteOutline.svg) | 1/3/25 | 5678 |  | | |
 | ![AggiungiDati](/help/assets/icons/DataAdd.svg) | 3/4/25 | 9012 | Ubiquità | cory@sky.com |  |
@@ -212,7 +212,7 @@ Innanzitutto, abilita e configura l’unione degli account B2B a livello di conn
       | **[!UICONTROL Set di dati da persona a account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona la ricerca (record o set di dati di serie non temporali) che mappa le persone sugli account. |
       | **[!UICONTROL ID persona]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID di persona. Il campo deve essere contrassegnato come identità e non può essere uguale al campo **[!UICONTROL ID account]** o **[!UICONTROL Ora inizio]**. |
       | **[!UICONTROL ID account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene l’ID di account. Il campo non può essere uguale al campo **[!UICONTROL ID persona]** o **[!UICONTROL Ora inizio]**. |
-      | **Ora di creazione mappatura** | | È possibile selezionare il campo che rappresenta la data e l&#39;ora di creazione del mapping persona-conto. Utile per scenari in cui una persona cambia più account nel tempo.<br/><br/>**Esempio** (quando è selezionato il campo **update_date**):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** prima del 1° maggio 2026: a@b.com è mappato ad Apple.</li><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** il o dopo il 1° maggio 2026: a@b.com è mappato ad Adobe.</li></ul>Se non viene specificato alcun tempo di mappatura, viene utilizzato il primo account lessicografico per il quale effettuare la mappatura. Lo stesso algoritmo viene utilizzato anche quando due nomi di account diversi hanno lo stesso valore **[!UICONTROL update_date]** e viene specificato un orario di creazione della mappatura. |
+      | **Ora di creazione mappatura** | | È possibile selezionare il campo che rappresenta la data e l&#39;ora di creazione del mapping persona-conto. Utile per scenari in cui una persona cambia più account nel tempo.<br/><br/>**Esempio** (quando è selezionato il campo **update_date**):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** prima del 1° maggio 2026: a@b.com è mappato ad Apple.</li><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** il o dopo il 1° maggio 2026: a@b.com è mappato ad Adobe.</li></ul>Se non viene specificato alcun tempo di mappatura, viene utilizzato il primo account lessicografico. Lo stesso algoritmo viene utilizzato anche quando due nomi di account diversi hanno lo stesso valore **[!UICONTROL update_date]** e viene specificato un orario di creazione della mappatura. |
 
       >[!NOTE]
       >
@@ -278,7 +278,7 @@ L&#39;unione di account deriva la mappa di identità dal [set di dati persona-ac
 | Ripetizione | Frequenza | Finestra dati |
 |---|---|---|
 | A breve termine | Settimanale | Ultimi 7 giorni |
-| A lungo termine | Mensile | Ultimi 3 mesi |
+| A lungo termine | Mensile | Ultimi 3 mesi (pacchetto Prime)<br/>Ultimi 6 mesi (pacchetto Ultimate) |
 
 ## Privacy e igiene dei dati
 
