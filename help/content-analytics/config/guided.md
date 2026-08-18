@@ -7,28 +7,15 @@ role: Admin
 exl-id: 4aff664c-3cd9-4591-8122-6ebff10e4a76
 autotag-review: '2026-05-19T08:54:42.845Z'
 TQID: 'https://experienceleague.adobe.com/kEqjocKd5pNypjQlF70HeF1bKuoG9Qi-AT6nJiIwuV0'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6af3e9063dc192814c888e786ca61ff1703aedf5
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6c137d20d25cff6fe4630dedb33cfa8b88c121aa
 workflow-type: tm+mt
-source-wordcount: 4177
-ht-degree: 57%
+source-wordcount: 4186
+ht-degree: 56%
 
 ---
 
@@ -84,12 +71,12 @@ La procedura guidata di configurazione è costituita da quattro sezioni ([Dettag
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_button"
 >title="Dettagli"
->abstract="Fornisci un nome per la connessione. Nelle sezioni **[!UICONTROL Visualizzazione dati]**, **[!UICONTROL Definizione e acquisizione dell’esperienza]** e **[!UICONTROL Raccolta dati]** fornisci ulteriori dettagli per garantire che Content Analytics possa essere configurato correttamente."
+>abstract="Fornisci un nome per la connessione. Specifica un nome per la configurazione e scegli la sandbox che contiene i dati di analisi del contenuto da analizzare."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
 >title="Dettagli"
->abstract="Questa guida definisce i requisiti necessari per configurare Content Analytics. Specifica un nome per questa configurazione"
+>abstract="Questa guida definisce i requisiti necessari per configurare Content Analytics. Specifica un nome per questa configurazione e seleziona la sandbox che contiene i dati di analisi del contenuto da analizzare."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_boldheader"
@@ -297,17 +284,17 @@ Per configurare la raccolta dati:
 
 * Utilizza una proprietà mobile Tags esistente o creane una nuova.
 
-   * Per utilizzare una proprietà mobile Tags esistente:
+  * Per utilizzare una proprietà mobile Tags esistente:
 
-      1. Seleziona **[!UICONTROL Scegli esistente]**.
-      2. Selezionare una proprietà esistente dal menu a discesa **[!UICONTROL Proprietà tag]**. Puoi iniziare a digitare per cercare e limitare le opzioni disponibili. Non puoi selezionare una proprietà Tags già utilizzata da un’altra configurazione di Content Analytics implementata.
+    1. Seleziona **[!UICONTROL Scegli esistente]**.
+    2. Selezionare una proprietà esistente dal menu a discesa **[!UICONTROL Proprietà tag]**. Puoi iniziare a digitare per cercare e limitare le opzioni disponibili. Non puoi selezionare una proprietà Tags già utilizzata da un’altra configurazione di Content Analytics implementata.
 
 
-   * Per creare una nuova proprietà Tag per dispositivi mobili:
+  * Per creare una nuova proprietà Tag per dispositivi mobili:
 
-      1. Seleziona **[!UICONTROL Crea nuovo]**.
-      1. Specifica un **[!UICONTROL nome tag]**, ad esempio `ACA Test for Documentation`.
-      1. Specificare **[!UICONTROL Domini]**, ad esempio `example.com`.
+    1. Seleziona **[!UICONTROL Crea nuovo]**.
+    1. Specifica un **[!UICONTROL nome tag]**, ad esempio `ACA Test for Documentation`.
+    1. Specificare **[!UICONTROL Domini]**, ad esempio `example.com`.
 
 * Indica le posizioni di esperienza da escludere durante la raccolta dei dati per Content Analytics. Assicurati di escludere le posizioni relative a esperienze che contengono dati di identificazione personale.
 
@@ -489,8 +476,8 @@ Per modificare esperienze esistenti o includerne di nuove in una configurazione 
 
 * Attiva o disattiva **[!UICONTROL Includi esperienze]**:
 
-   * Processo che genera attributi esperienza dai dati evento di Content Analytics
-   * Modello di reporting in Customer Journey Analytics.
+  * Processo che genera attributi esperienza dai dati evento di Content Analytics
+  * Modello di reporting in Customer Journey Analytics.
 
 * Seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica]** per modificare ulteriormente la configurazione della raccolta dati per le esperienze in Content Analytics. Viene effettuato il reindirizzamento all’[estensione Adobe Content Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) nella proprietà Tag associata alla configurazione corrente.
 
@@ -502,19 +489,19 @@ Per configurare la raccolta dati:
 
 * Utilizza una proprietà tag web esistente o creane una nuova.
 
-   * Per utilizzare una proprietà Web Tags esistente:
+  * Per utilizzare una proprietà Web Tags esistente:
 
-      1. Seleziona **[!UICONTROL Scegli esistente]**.
-      2. Selezionare una proprietà esistente dal menu a discesa **[!UICONTROL Proprietà tag]**. Puoi iniziare a digitare per cercare e limitare le opzioni disponibili. Non puoi selezionare una proprietà Tags già utilizzata da un’altra configurazione di Content Analytics implementata.
+    1. Seleziona **[!UICONTROL Scegli esistente]**.
+    2. Selezionare una proprietà esistente dal menu a discesa **[!UICONTROL Proprietà tag]**. Puoi iniziare a digitare per cercare e limitare le opzioni disponibili. Non puoi selezionare una proprietà Tags già utilizzata da un’altra configurazione di Content Analytics implementata.
 
 
-   * Per creare una nuova proprietà Tag Web:
+  * Per creare una nuova proprietà Tag Web:
 
-      1. Seleziona **[!UICONTROL Crea nuovo]**.
-      1. Specifica un **[!UICONTROL nome tag]**, ad esempio `ACA Test for Documentation`.
-      1. Specificare **[!UICONTROL Domini]**, ad esempio `example.com`.
+    1. Seleziona **[!UICONTROL Crea nuovo]**.
+    1. Specifica un **[!UICONTROL nome tag]**, ad esempio `ACA Test for Documentation`.
+    1. Specificare **[!UICONTROL Domini]**, ad esempio `example.com`.
 
-     Utilizzare una nuova proprietà Tags se si desidera creare un&#39;implementazione indipendente dai tag per il canale Web, utilizzando la [libreria JavaScript di Content Analytics](/help/content-analytics/config/tags-agnostic.md). La proprietà Tags viene creata, ma non la utilizzerai nell’implementazione agnostica. Tuttavia, l’implementazione agnostica richiede di aver eseguito la configurazione guidata almeno una volta.
+    Utilizzare una nuova proprietà Tags se si desidera creare un&#39;implementazione indipendente dai tag per il canale Web, utilizzando la [libreria JavaScript di Content Analytics](/help/content-analytics/config/tags-agnostic.md). La proprietà Tags viene creata, ma non la utilizzerai nell’implementazione agnostica. Tuttavia, l’implementazione agnostica richiede di aver eseguito la configurazione guidata almeno una volta.
 
 * Indica quali pagine devono essere incluse o escluse durante la raccolta dei dati per Content Analytics. Assicurati di escludere le pagine che contengono dati di identificazione personale.
 
@@ -582,24 +569,24 @@ Quando crei o modifichi una configurazione, disponi delle seguenti opzioni:
 * **[!UICONTROL Salva per dopo]**: le modifiche apportate a una configurazione vengono salvate. Puoi rivedere la configurazione in un secondo momento per apportare ulteriori modifiche o implementarla. Per salvare una configurazione è necessario solo un valore per [!UICONTROL Name].
 * **[!UICONTROL Implementa]**: le impostazioni o le modifiche apportate a una configurazione vengono salvate e implementate. Tutti i campi contrassegnati come ![obbligatori](/help/assets/icons/Required.svg) devono avere valori corretti. L’implementazione consiste in:
 
-   * Configurazione di **[!UICONTROL Customer Journey Analytics]**:
-      * La visualizzazione dati selezionata viene aggiornata per includere dimensioni e metriche di Content Analytics.
-      * La connessione associata alla visualizzazione dati selezionata viene modificata per includere i set di dati attributi ed eventi di Content Analytics.
-      * Un modello di reporting di Content Analytics viene aggiunto a Workspace.
+  * Configurazione di **[!UICONTROL Customer Journey Analytics]**:
+    * La visualizzazione dati selezionata viene aggiornata per includere dimensioni e metriche di Content Analytics.
+    * La connessione associata alla visualizzazione dati selezionata viene modificata per includere i set di dati attributi ed eventi di Content Analytics.
+    * Un modello di reporting di Content Analytics viene aggiunto a Workspace.
 
 
-   * Configurazione di **[!UICONTROL Adobe Experience Platform]**:
-      * Creazione di schemi per modellare eventi, attributi di risorse e (se configurati) attributi di esperienza di Content Analytics.
-      * Creazione di set di dati per raccogliere eventi, attributi delle risorse e (se configurati) attributi di esperienza di Content Analytics.
-      * Creazione di un flusso di dati che utilizza il servizio di funzionalità per generare e aggiornare gli attributi di contenuto dagli eventi di Content Analytics.
+  * Configurazione di **[!UICONTROL Adobe Experience Platform]**:
+    * Creazione di schemi per modellare eventi, attributi di risorse e (se configurati) attributi di esperienza di Content Analytics.
+    * Creazione di set di dati per raccogliere eventi, attributi delle risorse e (se configurati) attributi di esperienza di Content Analytics.
+    * Creazione di un flusso di dati che utilizza il servizio di funzionalità per generare e aggiornare gli attributi di contenuto dagli eventi di Content Analytics.
 
 
-   * **[!UICONTROL Configurazione raccolta dati]**:
-      * La proprietà dei tag nuova o esistente è configurata per supportare la raccolta dati di Content Analytics. Questa configurazione implica l’inclusione dell’estensione Adobe Content Analytics per i tag.
-      * Viene creato uno stream di dati per gli eventi di Content Analytics.
-      * L’estensione Adobe Content Analytics è configurata per garantire che gli eventi di analisi dei contenuti vengano inviati allo stream di dati per analisi dei contenuti.
-      * Se il Web SDK o il Mobile SDK non è configurato per la proprietà Tags, viene creata una nuova configurazione di Web SDK o Mobile SDK per inviare solo eventi Content Analytics.
-      * Se per la proprietà Tags è configurato il Web SDK o il Mobile SDK, non viene apportata alcuna modifica alla configurazione esistente di Web SDK o Mobile SDK.
+  * **[!UICONTROL Configurazione raccolta dati]**:
+    * La proprietà dei tag nuova o esistente è configurata per supportare la raccolta dati di Content Analytics. Questa configurazione implica l’inclusione dell’estensione Adobe Content Analytics per i tag.
+    * Viene creato uno stream di dati per gli eventi di Content Analytics.
+    * L’estensione Adobe Content Analytics è configurata per garantire che gli eventi di analisi dei contenuti vengano inviati allo stream di dati per analisi dei contenuti.
+    * Se il Web SDK o il Mobile SDK non è configurato per la proprietà Tags, viene creata una nuova configurazione di Web SDK o Mobile SDK per inviare solo eventi Content Analytics.
+    * Se per la proprietà Tags è configurato il Web SDK o il Mobile SDK, non viene apportata alcuna modifica alla configurazione esistente di Web SDK o Mobile SDK.
 
 
 * **[!UICONTROL Salva]**: le modifiche apportate a una configurazione implementata vengono salvate e l&#39;implementazione viene aggiornata.
