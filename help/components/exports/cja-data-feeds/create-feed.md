@@ -5,22 +5,14 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: e7c2598015d3ee271bb7e0f64937fd1c457b5433
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 8a5568b3b6136bc3f8b507f551fbb6d169e4b88a
 workflow-type: tm+mt
-source-wordcount: 4033
+source-wordcount: 4088
 ht-degree: 17%
 
 ---
@@ -111,6 +103,8 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 1. Nel menu a discesa [!UICONTROL **Segmenti**], cerca e seleziona eventuali segmenti per filtrare i dati inclusi nel feed.
 
    Quando applichi più segmenti, questi vengono uniti insieme a un operatore AND. Per unire i segmenti con un operatore OR, devi prima creare un nuovo segmento nel generatore di segmenti, quindi applicare il nuovo segmento al feed di dati.
+
+   I segmenti applicati in questo caso si aggiungono a eventuali segmenti già applicati nella visualizzazione dati.
 
 1. Aggiungi componenti alla configurazione del feed dati. La barra a sinistra mostra solo i componenti validi per i feed di dati.
 
@@ -301,8 +295,8 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | [!UICONTROL **Data di inizio**] | La data di inizio del feed di dati. Per i feed live, deve essere nella data odierna o in una data futura. Per i feed di backfill, deve essere una data passata all’interno della finestra di conservazione dei dati della visualizzazione dati. La data di inizio è basata sul fuso orario della visualizzazione dati. |
    | [!UICONTROL **Data di scadenza**] <br/>Disponibile solo per i feed attivi | La data in cui il feed dati scade e non viene più eseguito. La data è basata sul fuso orario della visualizzazione dati. |
    | [!UICONTROL **Data di fine**]<br/> Disponibile solo per i feed di backfill | La data in cui termina il feed di dati. La data di fine non può essere nel futuro. La data è basata sul fuso orario della visualizzazione dati. |
-   | [!UICONTROL **Frequenza**] | Seleziona la frequenza con cui inviare il feed di dati. Gli eventi con marche temporali che rientrano nella finestra di frequenza sono inclusi nella consegna del feed di dati. I campi [!UICONTROL **Intervallo date di lookback**] e [!UICONTROL **Ritardo elaborazione**] possono anche influenzare gli eventi inclusi nei dati per la frequenza di consegna scelta.<p>Per i feed live, seleziona questa opzione per includere dati relativi a un’ora o a un giorno. Per i feed di backfill, questo campo è bloccato su **Giornaliero** e non può essere modificato.</p><ul><li>**Giornaliero**: i feed contengono dati relativi a un intero giorno, dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati. <p>Questa opzione è obbligatoria per i feed di backfill ed è facoltativa per i feed live.</p></li><li>**Oraria**: i feed contengono dati relativi a una sola ora. <p>Questa opzione è disponibile solo per i feed live.</p></li></ul> |
-   | [!UICONTROL **Intervallo date lookback**] | Controlla quanto Customer Journey Analytics deve risalire indietro nel tempo durante l’elaborazione della consegna del feed dati. Il valore predefinito è 30 giorni. <p>L’intervallo di date del lookback influisce sulla qualificazione dei segmenti, sul calcolo della sessione, sulle trasformazioni dei campi derivati e sulla persistenza delle dimensioni. <p>Prima di configurare questa opzione, consulta i dettagli e gli esempi descritti nella sezione seguente, [Comprendere l&#39;intervallo di date del lookback](#understand-the-lookback-date-range).</p> |
+   | [!UICONTROL **Frequenza**] | Seleziona la frequenza con cui inviare il feed di dati. Gli eventi con marche temporali che rientrano nella finestra di frequenza sono inclusi nella consegna del feed di dati. I campi [!UICONTROL **Intervallo date di lookback**] e [!UICONTROL **Ritardo elaborazione**] possono anche influenzare gli eventi inclusi nei dati per la frequenza di consegna scelta.<p>Per i feed live, seleziona questa opzione per includere dati relativi a un’ora o a un giorno. Per i feed di backfill, questo campo è bloccato a **Ogni giorno**, il che significa che i dati sono raggruppati in blocchi giornalieri.</p><ul><li>**Giornaliero**: i feed contengono dati relativi a un intero giorno, dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati. <p>Questa opzione è obbligatoria per i feed di backfill ed è facoltativa per i feed live.</p></li><li>**Oraria**: i feed contengono dati relativi a una sola ora. <p>Questa opzione è disponibile solo per i feed live.</p></li></ul> |
+   | [!UICONTROL **Intervallo date lookback**] | Controlla quanto Customer Journey Analytics deve risalire indietro nel tempo durante l’elaborazione della consegna del feed dati. Il valore predefinito è 30 giorni.<p>La finestra di frequenza (ora o giorno) determina quali eventi sono inclusi nel feed di dati, mentre l&#39;**intervallo di date di lookback** fornisce il contesto storico necessario per classificare correttamente tali eventi.</p><p>Qualificazione del segmento, persistenza delle dimensioni, calcolo della sessione e trasformazioni di campo derivate possono influenzare tutti gli eventi inclusi.</p> <p>Prima di configurare questa opzione, consulta i dettagli e gli esempi descritti nella sezione seguente, [Comprendere l&#39;intervallo di date del lookback](#understand-the-lookback-date-range).</p> |
    | [!UICONTROL **Ritardo elaborazione**] | Scegli la quantità di tempo di attesa prima di elaborare un file di feed dati. Il valore predefinito è 2 ore. Eventuali eventi in ritardo che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati. <p>I ritardi di elaborazione sono utili per vari motivi, ad esempio per dare alle implementazioni mobili l’opportunità di connettere e inviare dati ai dispositivi offline o per adattarsi ai processi lato server della tua organizzazione nella gestione dei file elaborati in precedenza. </p><p>Per poter essere incluse, le sessioni devono iniziare dopo il cut-off del ritardo di elaborazione; le sessioni che iniziano prima del cut-off e terminano entro il ritardo di elaborazione non sono incluse.</p><p>Customer Journey Analytics determina in modo dinamico il ritardo ottimale in base a quanto tempo richiedono in genere gli eventi in ritardo per il feed, ma puoi impostarlo manualmente per un ritardo di 2, 3, 4 o 8 ore.</p> |
    | [!UICONTROL **Formato di compressione**] | Seleziona il formato di compressione per i file di output Parquet consegnati alla destinazione cloud. Scegli uno dei seguenti formati:<ul><li>[!UICONTROL **Snappy**]: compressione e decompressione veloci con dimensioni file moderate. Ampiamente supportato da piattaforme di dati moderne come BigQuery, Snowflake e Apache Spark.</li><li>[!UICONTROL **GZip**]: ampiamente compatibile, anche con strumenti che non supportano Snappy in modalità nativa. Consigliato se la pipeline a valle richiede uno standard di compressione ampiamente riconosciuto.</li><li>[!UICONTROL **Z Standard (Zstd)**]: elevata efficienza di compressione con decompressione rapida. Adatto se la riduzione delle dimensioni del file è una priorità e i tuoi strumenti supportano Zstd.</li></ul> |
 
