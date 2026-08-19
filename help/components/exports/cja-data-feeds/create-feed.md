@@ -5,22 +5,14 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: e2e75dda2d61cd707b2a224ec5ac43a492ffa42e
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: e7c2598015d3ee271bb7e0f64937fd1c457b5433
 workflow-type: tm+mt
-source-wordcount: 4066
+source-wordcount: 4033
 ht-degree: 17%
 
 ---
@@ -349,7 +341,7 @@ Per poter essere inclusi nella consegna, gli eventi devono ancora avere marche t
 Durante la configurazione di questa opzione, considera i seguenti concetti importanti:
 
 * Un intervallo di date di lookback più lungo in genere consente di ottenere dati più precisi; un intervallo più breve determina prestazioni di consegna migliori.
-* L’intervallo di date del lookback, insieme all’intervallo di frequenza, funziona in modo simile all’intervallo di date del reporting di Analysis Workspace. Tuttavia, sono presenti [differenze chiave](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences). Queste differenze possono causare discrepanze di dati tra i rapporti di Workspace e le consegne di feed di dati.
+* L’intervallo di date del lookback, insieme all’intervallo di frequenza, funziona in modo simile all’intervallo di date del reporting di Analysis Workspace. Tuttavia, sono presenti [differenze chiave](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences). Tali differenze possono causare discrepanze di dati tra i rapporti di Workspace e le consegne di feed di dati.
 
 La qualificazione dei segmenti, il calcolo della sessione, la persistenza delle dimensioni e le trasformazioni dei campi derivati vengono presi in considerazione durante l’elaborazione dei dati all’interno dell’intervallo di date del lookback:
 
@@ -370,13 +362,13 @@ In questo caso, gli utenti vengono inclusi nel feed di dati solo se soddisfano *
 * L’utente aveva un evento con una marca temporale all’interno della finestra della frequenza del feed dati (l’ora o il giorno specificato del feed dati).
 * L&#39;utente si è qualificato per il segmento **Campaign B _entro l&#39;intervallo di date del lookback**._
 
-  Per un evento qualificante che si è verificato 9 giorni fa, ciò significa che l&#39;utente **verrebbe incluso** nel feed di dati se l&#39;intervallo di date del lookback fosse impostato su 30 giorni, ma l&#39;utente **non verrebbe incluso** nel feed di dati se l&#39;intervallo di date del lookback fosse impostato su 7 giorni.
+  Per un evento idoneo che si è verificato 9 giorni fa, ciò significa che l&#39;utente **verrebbe incluso** nel feed di dati se l&#39;intervallo di date del lookback fosse impostato su 30 giorni, ma l&#39;utente **non verrebbe incluso** nel feed di dati se l&#39;intervallo di date del lookback fosse impostato su 7 giorni.
 
 >[!ENDSHADEBOX]
 
 ### Calcolo della sessione
 
-I limiti di sessione vengono calcolati utilizzando i dati all’interno dell’intervallo di date del lookback. Forse questo è più importante per quanto riguarda l’ID sessione? Potrebbe influire sull’ID sessione? Potrebbe avere un impatto su molti aspetti, come la persistenza basata sulle sessioni.
+I limiti di sessione vengono calcolati utilizzando i dati all’interno dell’intervallo di date del lookback. <!--Maybe this matters more regarding what the session ID is? Could it impact the Session ID? This could impact several factors, such as session-based persistence.-->
 
 ### Persistenza Dimension
 
@@ -385,7 +377,7 @@ Quando imposti la persistenza su una singola dimensione, imposti anche una scade
 L’intervallo di date di lookback influisce sulla persistenza delle dimensioni quando la scadenza viene impostata su una delle seguenti opzioni nella visualizzazione dati:
 
 * [!UICONTROL **Finestra di reporting per persona**]: l&#39;intervallo di date del lookback diventa il nuovo intervallo di reporting per ogni dimensione nella definizione del feed di dati che utilizza [!UICONTROL **Finestra di reporting per persona**] come scadenza.
-* [!UICONTROL **Ora personalizzata**]: se l&#39;ora personalizzata selezionata si estende oltre l&#39;intervallo di date del lookback, l&#39;ora personalizzata viene ignorata e l&#39;intervallo di date del lookback viene utilizzato per la scadenza della dimensione per ogni dimensione nella definizione del feed di dati che utilizza [!UICONTROL **Ora personalizzata**] come scadenza. I valori che si verificano prima dell’intervallo di date di lookback non vengono considerati.
+* [!UICONTROL **Ora personalizzata**]: se l&#39;ora personalizzata selezionata si estende oltre l&#39;intervallo di date del lookback, l&#39;ora personalizzata viene ignorata e l&#39;intervallo di date del lookback viene utilizzato per la scadenza della dimensione per ogni dimensione nella definizione del feed di dati che utilizza [!UICONTROL **Ora personalizzata**] come scadenza. I valori che si sono verificati prima dell’intervallo di date del lookback non vengono considerati.
 
   Per ulteriori informazioni sull&#39;impostazione della persistenza sulle dimensioni all&#39;interno della visualizzazione dati, vedere [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md).
 
@@ -405,13 +397,13 @@ In questo caso, la campagna originale viene visualizzata nell&#39;output del fee
 
 * L&#39;utente si è qualificato per la campagna originale **entro l&#39;intervallo di date del lookback**.
 
-  Se l&#39;utente si qualificasse per la campagna originale 9 giorni fa, la campagna originale **verrebbe inclusa** nel feed dati se l&#39;intervallo di date del lookback fosse impostato su 30 giorni, ma la campagna originale **non verrebbe inclusa** nel feed dati se l&#39;intervallo di date del lookback fosse impostato su 7 giorni.
+  Se l&#39;utente è qualificato per la campagna originale 9 giorni fa, la campagna originale **è inclusa** nel feed di dati se l&#39;intervallo di date del lookback è impostato su 30 giorni, ma la campagna originale **non è inclusa** nel feed di dati se l&#39;intervallo di date del lookback è impostato su 7 giorni.
 
 >[!ENDSHADEBOX]
 
 ### Trasformazioni di campo derivate
 
-Qualsiasi funzione di campo derivata che fa riferimento a contenitori utilizza l’intervallo di date di lookback nelle esportazioni di feed di dati. Quali funzionalità di data sono disponibili nei campi derivati? Non sono sicuro di come ciò si applichi.
+Qualsiasi funzione di campo derivata che fa riferimento a contenitori utilizza l’intervallo di date di lookback nelle esportazioni di feed di dati. Quali funzionalità di data sono disponibili nei campi derivati? <!--Not sure how this applies.-->
 
 
 
