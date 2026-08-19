@@ -5,22 +5,14 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: e2e75dda2d61cd707b2a224ec5ac43a492ffa42e
 workflow-type: tm+mt
-source-wordcount: 4036
+source-wordcount: 4066
 ht-degree: 17%
 
 ---
@@ -160,6 +152,26 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | Settimana | Settimana in cui si è verificato un evento | Non disponibile |
    | Settimana dell’anno | Settimana dell’anno in cui si è verificato un evento | Non disponibile |
    | Anno | Anno in cui si è verificato un evento | Non disponibile |
+
+   +++
+
+   +++ Metriche che non possono essere incluse nei feed dati
+
+   Le metriche standard di Customer Journey Analytics seguenti non possono essere incluse nei feed di dati:
+
+   | Nome della metrica | Note | Feed di dati |
+   |---|---|---|
+   | Profilo dei visitatori di Adobe | | Non disponibile |
+   | Unione opportunità Adobe | | Non disponibile |
+   | Profilo opportunità Adobe | | Non disponibile |
+   | Unione account Adobe | | Non disponibile |
+   | Profilo account Adobe | | Non disponibile |
+   | Unione dei gruppi di acquisto Adobe | | Non disponibile |
+   | Profilo gruppi di acquisto Adobe | | Non disponibile |
+   | Unione degli account globali di Adobe | | Non disponibile |
+   | Profilo account globali Adobe | | Non disponibile |
+   | Unione persone Adobe | | Non disponibile |
+   | Profilo Persone Adobe | | Non disponibile |
 
    +++
 
@@ -318,20 +330,20 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_lookback_date_range"
 >title="Intervallo di date di lookback"
->abstract="Controlla quanto Customer Journey Analytics deve risalire indietro nel tempo durante l’elaborazione della consegna del feed dati. Questa impostazione è simile all’intervallo di date del reporting di Analysis Workspace, ma con differenze importanti:<ul><li>Gli eventi sono inclusi nel feed di dati se dispongono di timestamp che rientrano nell’intervallo di frequenza e non nell’intervallo di date di lookback. In Analysis Workspace, gli eventi vengono inclusi in un rapporto se dispongono di marche temporali che rientrano nell’intervallo di date del rapporto.</li><li>Eventi con marche temporali che rientrano nell’intervallo di date di lookback (ma non nell’intervallo di frequenza) possono ancora influenzare i dati visualizzati nel feed attraverso la qualificazione dei segmenti, il calcolo della sessione, le trasformazioni dei campi derivate e la persistenza delle dimensioni.</li><p>Un intervallo di date di lookback più lungo in genere genera eventi più precisi; un intervallo più breve genera prestazioni di consegna migliori.</p>"
+>abstract="Controlla la distanza di Customer Journey Analytics nell’elaborazione di ogni consegna.<p>La finestra di frequenza (ora o giorno) determina quali eventi sono inclusi nel feed di dati, mentre l&#39;**intervallo di date di lookback** fornisce il contesto storico necessario per classificare correttamente tali eventi.</p><p>Qualificazione del segmento, persistenza delle dimensioni, calcolo della sessione e trasformazioni di campo derivate possono influenzare tutti gli eventi inclusi.</p><p>Un lookback più lungo migliora la precisione; un lookback più breve migliora le prestazioni.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
+L’intervallo di date del lookback controlla l’aspetto indietro di Customer Journey Analytics durante l’elaborazione di ogni consegna di feed dati.
 
-
-L’intervallo di date del lookback controlla l’aspetto di Customer Journey Analytics durante l’elaborazione della consegna del feed di dati. Il valore predefinito è 30 giorni.
+Per poter essere inclusi nella consegna, gli eventi devono ancora avere marche temporali che rientrano nell&#39;intervallo di frequenza (ora o giorno), ma i dati che rientrano nell&#39;**intervallo di date di lookback** forniscono il contesto storico necessario per classificare correttamente tali eventi.
 
 Durante la configurazione di questa opzione, considera i seguenti concetti importanti:
 
 * Un intervallo di date di lookback più lungo in genere consente di ottenere dati più precisi; un intervallo più breve determina prestazioni di consegna migliori.
-* L&#39;intervallo di date del lookback nei feed di dati è simile all&#39;intervallo di date del reporting in Analysis Workspace, ma ci sono [differenze chiave](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences). Queste differenze possono causare discrepanze di dati tra i rapporti di Workspace e le consegne di feed di dati.
-* L’intervallo di date del lookback non modifica l’intervallo di frequenza (ora o giorno), che definisce l’intervallo di tempo degli eventi da includere nell’output del feed di dati.
-* I dati che rientrano nell’intervallo di date di lookback possono influenzare ciò che viene incluso nel feed di dati (intervallo di frequenza), a seconda dei fattori descritti nelle sezioni seguenti.
+* L’intervallo di date del lookback, insieme all’intervallo di frequenza, funziona in modo simile all’intervallo di date del reporting di Analysis Workspace. Tuttavia, sono presenti [differenze chiave](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences). Queste differenze possono causare discrepanze di dati tra i rapporti di Workspace e le consegne di feed di dati.
+
+La qualificazione dei segmenti, il calcolo della sessione, la persistenza delle dimensioni e le trasformazioni dei campi derivati vengono presi in considerazione durante l’elaborazione dei dati all’interno dell’intervallo di date del lookback:
 
 ### Qualificazione segmento
 
@@ -357,10 +369,6 @@ In questo caso, gli utenti vengono inclusi nel feed di dati solo se soddisfano *
 ### Calcolo della sessione
 
 I limiti di sessione vengono calcolati utilizzando i dati all’interno dell’intervallo di date del lookback. Forse questo è più importante per quanto riguarda l’ID sessione? Potrebbe influire sull’ID sessione? Potrebbe avere un impatto su molti aspetti, come la persistenza basata sulle sessioni.
-
-### Trasformazioni di campo derivate
-
-Qualsiasi funzione di campo derivata che fa riferimento a contenitori utilizza l’intervallo di date di lookback nelle esportazioni di feed di dati. Quali funzionalità di data sono disponibili nei campi derivati? Non sono sicuro di come ciò si applichi.
 
 ### Persistenza Dimension
 
@@ -393,6 +401,9 @@ In questo caso, la campagna originale viene visualizzata nell&#39;output del fee
 
 >[!ENDSHADEBOX]
 
+### Trasformazioni di campo derivate
+
+Qualsiasi funzione di campo derivata che fa riferimento a contenitori utilizza l’intervallo di date di lookback nelle esportazioni di feed di dati. Quali funzionalità di data sono disponibili nei campi derivati? Non sono sicuro di come ciò si applichi.
 
 
 
