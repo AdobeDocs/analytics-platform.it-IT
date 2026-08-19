@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
+source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
 workflow-type: tm+mt
-source-wordcount: 221
-ht-degree: 14%
+source-wordcount: 230
+ht-degree: 13%
 
 ---
 
@@ -45,6 +45,8 @@ Prima di utilizzare i feed di dati, è necessario soddisfare tutti i seguenti re
 Per iniziare a utilizzare i feed di dati in Customer Journey Analytics, è necessario innanzitutto comprendere le differenze tra i feed di dati in Customer Journey Analytics e i feed di dati in Adobe Analytics. Dopo aver compreso le differenze, puoi mappare i feed di dati di Adobe Analytics su Customer Journey Analytics, quindi iniziare a creare un feed di dati.
 
 1. [Comprendere le differenze tra i feed di dati in Customer Journey Analytics e Adobe Analytics](/help/components/exports/cja-data-feeds/df-comparison.md).
+
+1. [Comprendere le discrepanze di dati tra i feed di dati e Analysis Workspace](/help/components/exports/cja-data-feeds/df-comparison-workspace.md).
 
 1. [Mappatura delle colonne del feed dati di Adobe Analytics su Customer Journey Analytics](/help/components/exports/cja-data-feeds/aa-cja-column-reference.md).
 

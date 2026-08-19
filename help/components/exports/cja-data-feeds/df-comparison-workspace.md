@@ -4,9 +4,9 @@ keywords: clickstream;feed dati;datafeed;feed dati
 title: Confrontare la funzionalità dei feed di dati in Customer Journey Analytics e Adobe Analytics
 feature: Components
 hide: true
-source-git-commit: a72ed21bdea40e2441443d7218d9fd7c906adc3e
+source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ I dati in un’esportazione di feed dati non sempre corrispondono esattamente ai
 
 ## Intervallo di date di lookback (Feed di dati) rispetto all’intervallo di date di reporting (Analysis Workspace)
 
-L’intervallo di date di lookback nei feed di dati determina il periodo di tempo trascorso dall’inizio della ricerca degli eventi idonei per la consegna di un feed di dati. In questo senso, l’intervallo di date del lookback è simile all’intervallo di date del reporting in Analysis Workspace. Tuttavia, esistono differenze fondamentali.
+L’intervallo di date di lookback nei feed di dati determina il periodo di tempo trascorso dall’inizio della ricerca degli eventi idonei per la consegna di un feed di dati. Per informazioni dettagliate sull&#39;intervallo di date del lookback, inclusi esempi, vedere [Comprendere l&#39;intervallo di date del lookback](/help/components/exports/cja-data-feeds/create-feed.md#understand-the-lookback-date-range).
+
+In questo senso, l’intervallo di date del lookback è simile all’intervallo di date del reporting in Analysis Workspace. Tuttavia, esistono differenze fondamentali.
 
 | Differenze chiave | Intervallo di date del rapporto (Analysis Workspace) | Intervallo date di lookback (Feed dati) |
 |---------|---------|----------|
