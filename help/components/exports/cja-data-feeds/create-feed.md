@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
+source-git-commit: 8a5568b3b6136bc3f8b507f551fbb6d169e4b88a
 workflow-type: tm+mt
-source-wordcount: 4036
+source-wordcount: 4088
 ht-degree: 17%
 
 ---
@@ -112,6 +112,8 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
    Quando applichi più segmenti, questi vengono uniti insieme a un operatore AND. Per unire i segmenti con un operatore OR, devi prima creare un nuovo segmento nel generatore di segmenti, quindi applicare il nuovo segmento al feed di dati.
 
+   I segmenti applicati in questo caso si aggiungono a eventuali segmenti già applicati nella visualizzazione dati.
+
 1. Aggiungi componenti alla configurazione del feed dati. La barra a sinistra mostra solo i componenti validi per i feed di dati.
 
    * **Trascina e rilascia**: trascina i componenti dalla barra a sinistra all&#39;area di lavoro. Tenere premuto **[!UICONTROL Maiusc]** oppure tenere premuto **[!UICONTROL Comando]** (macOS) o **[!UICONTROL Ctrl]** (Windows) per selezionare e trascinare più componenti contemporaneamente.
@@ -160,6 +162,26 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | Settimana | Settimana in cui si è verificato un evento | Non disponibile |
    | Settimana dell’anno | Settimana dell’anno in cui si è verificato un evento | Non disponibile |
    | Anno | Anno in cui si è verificato un evento | Non disponibile |
+
+   +++
+
+   +++ Metriche che non possono essere incluse nei feed dati
+
+   Le metriche standard di Customer Journey Analytics seguenti non possono essere incluse nei feed di dati:
+
+   | Nome della metrica | Note | Feed di dati |
+   |---|---|---|
+   | Profilo dei visitatori di Adobe | | Non disponibile |
+   | Unione opportunità Adobe | | Non disponibile |
+   | Profilo opportunità Adobe | | Non disponibile |
+   | Unione account Adobe | | Non disponibile |
+   | Profilo account Adobe | | Non disponibile |
+   | Unione dei gruppi di acquisto Adobe | | Non disponibile |
+   | Profilo gruppi di acquisto Adobe | | Non disponibile |
+   | Unione degli account globali di Adobe | | Non disponibile |
+   | Profilo account globali Adobe | | Non disponibile |
+   | Unione persone Adobe | | Non disponibile |
+   | Profilo Persone Adobe | | Non disponibile |
 
    +++
 
@@ -281,8 +303,8 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | [!UICONTROL **Data di inizio**] | La data di inizio del feed di dati. Per i feed live, deve essere nella data odierna o in una data futura. Per i feed di backfill, deve essere una data passata all’interno della finestra di conservazione dei dati della visualizzazione dati. La data di inizio è basata sul fuso orario della visualizzazione dati. |
    | [!UICONTROL **Data di scadenza**] <br/>Disponibile solo per i feed attivi | La data in cui il feed dati scade e non viene più eseguito. La data è basata sul fuso orario della visualizzazione dati. |
    | [!UICONTROL **Data di fine**]<br/> Disponibile solo per i feed di backfill | La data in cui termina il feed di dati. La data di fine non può essere nel futuro. La data è basata sul fuso orario della visualizzazione dati. |
-   | [!UICONTROL **Frequenza**] | Seleziona la frequenza con cui inviare il feed di dati. Gli eventi con marche temporali che rientrano nella finestra di frequenza sono inclusi nella consegna del feed di dati. I campi [!UICONTROL **Intervallo date di lookback**] e [!UICONTROL **Ritardo elaborazione**] possono anche influenzare gli eventi inclusi nei dati per la frequenza di consegna scelta.<p>Per i feed live, seleziona questa opzione per includere dati relativi a un’ora o a un giorno. Per i feed di backfill, questo campo è bloccato su **Giornaliero** e non può essere modificato.</p><ul><li>**Giornaliero**: i feed contengono dati relativi a un intero giorno, dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati. <p>Questa opzione è obbligatoria per i feed di backfill ed è facoltativa per i feed live.</p></li><li>**Oraria**: i feed contengono dati relativi a una sola ora. <p>Questa opzione è disponibile solo per i feed live.</p></li></ul> |
-   | [!UICONTROL **Intervallo date lookback**] | Controlla quanto Customer Journey Analytics deve risalire indietro nel tempo durante l’elaborazione della consegna del feed dati. Il valore predefinito è 30 giorni. <p>L’intervallo di date del lookback influisce sulla qualificazione dei segmenti, sul calcolo della sessione, sulle trasformazioni dei campi derivati e sulla persistenza delle dimensioni. <p>Prima di configurare questa opzione, consulta i dettagli e gli esempi descritti nella sezione seguente, [Comprendere l&#39;intervallo di date del lookback](#understand-the-lookback-date-range).</p> |
+   | [!UICONTROL **Frequenza**] | Seleziona la frequenza con cui inviare il feed di dati. Gli eventi con marche temporali che rientrano nella finestra di frequenza sono inclusi nella consegna del feed di dati. I campi [!UICONTROL **Intervallo date di lookback**] e [!UICONTROL **Ritardo elaborazione**] possono anche influenzare gli eventi inclusi nei dati per la frequenza di consegna scelta.<p>Per i feed live, seleziona questa opzione per includere dati relativi a un’ora o a un giorno. Per i feed di backfill, questo campo è bloccato a **Ogni giorno**, il che significa che i dati sono raggruppati in blocchi giornalieri.</p><ul><li>**Giornaliero**: i feed contengono dati relativi a un intero giorno, dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati. <p>Questa opzione è obbligatoria per i feed di backfill ed è facoltativa per i feed live.</p></li><li>**Oraria**: i feed contengono dati relativi a una sola ora. <p>Questa opzione è disponibile solo per i feed live.</p></li></ul> |
+   | [!UICONTROL **Intervallo date lookback**] | Controlla quanto Customer Journey Analytics deve risalire indietro nel tempo durante l’elaborazione della consegna del feed dati. Il valore predefinito è 30 giorni.<p>La finestra di frequenza (ora o giorno) determina quali eventi sono inclusi nel feed di dati, mentre l&#39;**intervallo di date di lookback** fornisce il contesto storico necessario per classificare correttamente tali eventi.</p><p>Qualificazione del segmento, persistenza delle dimensioni, calcolo della sessione e trasformazioni di campo derivate possono influenzare tutti gli eventi inclusi.</p> <p>Prima di configurare questa opzione, consulta i dettagli e gli esempi descritti nella sezione seguente, [Comprendere l&#39;intervallo di date del lookback](#understand-the-lookback-date-range).</p> |
    | [!UICONTROL **Ritardo elaborazione**] | Scegli la quantità di tempo di attesa prima di elaborare un file di feed dati. Il valore predefinito è 2 ore. Eventuali eventi in ritardo che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati. <p>I ritardi di elaborazione sono utili per vari motivi, ad esempio per dare alle implementazioni mobili l’opportunità di connettere e inviare dati ai dispositivi offline o per adattarsi ai processi lato server della tua organizzazione nella gestione dei file elaborati in precedenza. </p><p>Per poter essere incluse, le sessioni devono iniziare dopo il cut-off del ritardo di elaborazione; le sessioni che iniziano prima del cut-off e terminano entro il ritardo di elaborazione non sono incluse.</p><p>Customer Journey Analytics determina in modo dinamico il ritardo ottimale in base a quanto tempo richiedono in genere gli eventi in ritardo per il feed, ma puoi impostarlo manualmente per un ritardo di 2, 3, 4 o 8 ore.</p> |
    | [!UICONTROL **Formato di compressione**] | Seleziona il formato di compressione per i file di output Parquet consegnati alla destinazione cloud. Scegli uno dei seguenti formati:<ul><li>[!UICONTROL **Snappy**]: compressione e decompressione veloci con dimensioni file moderate. Ampiamente supportato da piattaforme di dati moderne come BigQuery, Snowflake e Apache Spark.</li><li>[!UICONTROL **GZip**]: ampiamente compatibile, anche con strumenti che non supportano Snappy in modalità nativa. Consigliato se la pipeline a valle richiede uno standard di compressione ampiamente riconosciuto.</li><li>[!UICONTROL **Z Standard (Zstd)**]: elevata efficienza di compressione con decompressione rapida. Adatto se la riduzione delle dimensioni del file è una priorità e i tuoi strumenti supportano Zstd.</li></ul> |
 
@@ -318,20 +340,20 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_lookback_date_range"
 >title="Intervallo di date di lookback"
->abstract="Controlla quanto Customer Journey Analytics deve risalire indietro nel tempo durante l’elaborazione della consegna del feed dati. Questa impostazione è simile all’intervallo di date del reporting di Analysis Workspace, ma con differenze importanti:<ul><li>Gli eventi sono inclusi nel feed di dati se dispongono di timestamp che rientrano nell’intervallo di frequenza e non nell’intervallo di date di lookback. In Analysis Workspace, gli eventi vengono inclusi in un rapporto se dispongono di marche temporali che rientrano nell’intervallo di date del rapporto.</li><li>Eventi con marche temporali che rientrano nell’intervallo di date di lookback (ma non nell’intervallo di frequenza) possono ancora influenzare i dati visualizzati nel feed attraverso la qualificazione dei segmenti, il calcolo della sessione, le trasformazioni dei campi derivate e la persistenza delle dimensioni.</li><p>Un intervallo di date di lookback più lungo in genere genera eventi più precisi; un intervallo più breve genera prestazioni di consegna migliori.</p>"
+>abstract="Controlla la distanza di Customer Journey Analytics nell’elaborazione di ogni consegna.<p>La finestra di frequenza (ora o giorno) determina quali eventi sono inclusi nel feed di dati, mentre l&#39;**intervallo di date di lookback** fornisce il contesto storico necessario per classificare correttamente tali eventi.</p><p>Qualificazione del segmento, persistenza delle dimensioni, calcolo della sessione e trasformazioni di campo derivate possono influenzare tutti gli eventi inclusi.</p><p>Un lookback più lungo migliora la precisione; un lookback più breve migliora le prestazioni.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
+L’intervallo di date del lookback controlla l’aspetto indietro di Customer Journey Analytics durante l’elaborazione di ogni consegna di feed dati.
 
-
-L’intervallo di date del lookback controlla l’aspetto di Customer Journey Analytics durante l’elaborazione della consegna del feed di dati. Il valore predefinito è 30 giorni.
+Per poter essere inclusi nella consegna, gli eventi devono ancora avere marche temporali che rientrano nell&#39;intervallo di frequenza (ora o giorno), ma i dati che rientrano nell&#39;**intervallo di date di lookback** forniscono il contesto storico necessario per classificare correttamente tali eventi.
 
 Durante la configurazione di questa opzione, considera i seguenti concetti importanti:
 
 * Un intervallo di date di lookback più lungo in genere consente di ottenere dati più precisi; un intervallo più breve determina prestazioni di consegna migliori.
-* L&#39;intervallo di date del lookback nei feed di dati è simile all&#39;intervallo di date del reporting in Analysis Workspace, ma ci sono [differenze chiave](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences). Queste differenze possono causare discrepanze di dati tra i rapporti di Workspace e le consegne di feed di dati.
-* L’intervallo di date del lookback non modifica l’intervallo di frequenza (ora o giorno), che definisce l’intervallo di tempo degli eventi da includere nell’output del feed di dati.
-* I dati che rientrano nell’intervallo di date di lookback possono influenzare ciò che viene incluso nel feed di dati (intervallo di frequenza), a seconda dei fattori descritti nelle sezioni seguenti.
+* L’intervallo di date del lookback, insieme all’intervallo di frequenza, funziona in modo simile all’intervallo di date del reporting di Analysis Workspace. Tuttavia, sono presenti [differenze chiave](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#differences). Tali differenze possono causare discrepanze di dati tra i rapporti di Workspace e le consegne di feed di dati.
+
+La qualificazione dei segmenti, il calcolo della sessione, la persistenza delle dimensioni e le trasformazioni dei campi derivati vengono presi in considerazione durante l’elaborazione dei dati all’interno dell’intervallo di date del lookback:
 
 ### Qualificazione segmento
 
@@ -350,17 +372,13 @@ In questo caso, gli utenti vengono inclusi nel feed di dati solo se soddisfano *
 * L’utente aveva un evento con una marca temporale all’interno della finestra della frequenza del feed dati (l’ora o il giorno specificato del feed dati).
 * L&#39;utente si è qualificato per il segmento **Campaign B _entro l&#39;intervallo di date del lookback**._
 
-  Per un evento qualificante che si è verificato 9 giorni fa, ciò significa che l&#39;utente **verrebbe incluso** nel feed di dati se l&#39;intervallo di date del lookback fosse impostato su 30 giorni, ma l&#39;utente **non verrebbe incluso** nel feed di dati se l&#39;intervallo di date del lookback fosse impostato su 7 giorni.
+  Per un evento idoneo che si è verificato 9 giorni fa, ciò significa che l&#39;utente **verrebbe incluso** nel feed di dati se l&#39;intervallo di date del lookback fosse impostato su 30 giorni, ma l&#39;utente **non verrebbe incluso** nel feed di dati se l&#39;intervallo di date del lookback fosse impostato su 7 giorni.
 
 >[!ENDSHADEBOX]
 
 ### Calcolo della sessione
 
-I limiti di sessione vengono calcolati utilizzando i dati all’interno dell’intervallo di date del lookback. Forse questo è più importante per quanto riguarda l’ID sessione? Potrebbe influire sull’ID sessione? Potrebbe avere un impatto su molti aspetti, come la persistenza basata sulle sessioni.
-
-### Trasformazioni di campo derivate
-
-Qualsiasi funzione di campo derivata che fa riferimento a contenitori utilizza l’intervallo di date di lookback nelle esportazioni di feed di dati. Quali funzionalità di data sono disponibili nei campi derivati? Non sono sicuro di come ciò si applichi.
+I limiti di sessione vengono calcolati utilizzando i dati all’interno dell’intervallo di date del lookback. <!--Maybe this matters more regarding what the session ID is? Could it impact the Session ID? This could impact several factors, such as session-based persistence.-->
 
 ### Persistenza Dimension
 
@@ -369,7 +387,7 @@ Quando imposti la persistenza su una singola dimensione, imposti anche una scade
 L’intervallo di date di lookback influisce sulla persistenza delle dimensioni quando la scadenza viene impostata su una delle seguenti opzioni nella visualizzazione dati:
 
 * [!UICONTROL **Finestra di reporting per persona**]: l&#39;intervallo di date del lookback diventa il nuovo intervallo di reporting per ogni dimensione nella definizione del feed di dati che utilizza [!UICONTROL **Finestra di reporting per persona**] come scadenza.
-* [!UICONTROL **Ora personalizzata**]: se l&#39;ora personalizzata selezionata si estende oltre l&#39;intervallo di date del lookback, l&#39;ora personalizzata viene ignorata e l&#39;intervallo di date del lookback viene utilizzato per la scadenza della dimensione per ogni dimensione nella definizione del feed di dati che utilizza [!UICONTROL **Ora personalizzata**] come scadenza. I valori che si verificano prima dell’intervallo di date di lookback non vengono considerati.
+* [!UICONTROL **Ora personalizzata**]: se l&#39;ora personalizzata selezionata si estende oltre l&#39;intervallo di date del lookback, l&#39;ora personalizzata viene ignorata e l&#39;intervallo di date del lookback viene utilizzato per la scadenza della dimensione per ogni dimensione nella definizione del feed di dati che utilizza [!UICONTROL **Ora personalizzata**] come scadenza. I valori che si sono verificati prima dell’intervallo di date del lookback non vengono considerati.
 
   Per ulteriori informazioni sull&#39;impostazione della persistenza sulle dimensioni all&#39;interno della visualizzazione dati, vedere [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md).
 
@@ -389,10 +407,13 @@ In questo caso, la campagna originale viene visualizzata nell&#39;output del fee
 
 * L&#39;utente si è qualificato per la campagna originale **entro l&#39;intervallo di date del lookback**.
 
-  Se l&#39;utente si qualificasse per la campagna originale 9 giorni fa, la campagna originale **verrebbe inclusa** nel feed dati se l&#39;intervallo di date del lookback fosse impostato su 30 giorni, ma la campagna originale **non verrebbe inclusa** nel feed dati se l&#39;intervallo di date del lookback fosse impostato su 7 giorni.
+  Se l&#39;utente è qualificato per la campagna originale 9 giorni fa, la campagna originale **è inclusa** nel feed di dati se l&#39;intervallo di date del lookback è impostato su 30 giorni, ma la campagna originale **non è inclusa** nel feed di dati se l&#39;intervallo di date del lookback è impostato su 7 giorni.
 
 >[!ENDSHADEBOX]
 
+### Trasformazioni di campo derivate
+
+Qualsiasi funzione di campo derivata che fa riferimento a contenitori utilizza l’intervallo di date di lookback nelle esportazioni di feed di dati. Quali funzionalità di data sono disponibili nei campi derivati? <!--Not sure how this applies.-->
 
 
 
