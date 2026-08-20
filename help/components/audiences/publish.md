@@ -5,23 +5,12 @@ exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
 TQID: https://experienceleague.adobe.com/BPbSzyh6eg3QC6NcAVgo06GAISzVH2CX35Z-Q32xMbE
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d2016e34b4b73c6eebb05097aa43f823c578c2b6
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: bcaa1b08-8269-4ff3-a0c2-f599783b6107id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5cid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 87de19a64e49f83c99df7980828b97a1da2c2d16
 workflow-type: tm+mt
 source-wordcount: 2520
 ht-degree: 80%
@@ -35,7 +24,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="components_audiences_refreshfrequency"
 >title="Frequenza di aggiornamento"
->abstract="La frequenza con cui l’appartenenza di un pubblico viene rivalutata.<br/>I tipi di pubblico occasionali vengono valutati una sola volta e non vengono conteggiati per il limite di aggiornamento."
+>abstract="Frequenza con cui viene rivalutata l&#39;appartenenza di un pubblico.<br/>Le richieste una tantum vengono valutate una sola volta e non vengono conteggiate per il limite di aggiornamento."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,7 +33,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="components_audiences_audiencelimit"
 >title="Aggiorna limite pubblico"
->abstract="Il numero di tipi di pubblico nell’ambiente configurati per l’aggiornamento automatico a una frequenza pianificata. I limiti sono compresi tra 75 e 150, a seconda della licenza Customer Journey Analytics. Gli aggiornamenti una tantum non rientrano in questo limite."
+>abstract="Il numero di tipi di pubblico nell’ambiente configurati per l’aggiornamento automatico a una frequenza pianificata. I limiti sono compresi tra 75 e 150, a seconda della licenza Customer Journey Analytics. Le richieste una tantum non rientrano in questo limite."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -89,7 +78,7 @@ Consulta questa [panoramica](/help/components/audiences/audiences-overview.md) p
    | Metodo di creazione | Dettagli |
    | --- | --- |
    | Dall&#39;interfaccia **[!UICONTROL Tipi di pubblico pubblicati]** | Seleziona **[!UICONTROL Componenti]** > **[!UICONTROL Pubblico pubblicato]** dal menu principale di Customer Journey Analytics. Viene visualizzata l’interfaccia Tipi di pubblico. Seleziona **[!UICONTROL Crea pubblico]** e viene aperto [!UICONTROL Generatore di pubblico]. |
-   | Da una visualizzazione in Analysis Workspace | Molte visualizzazioni in Analysis Workspace consentono di creare un pubblico utilizzando il menu di scelta rapida. È ad esempio possibile selezionare **[!UICONTROL Crea pubblico]** dal menu di scelta rapida di un elemento in una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o un nodo nell&#39;[area di lavoro Percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>L’utilizzo di questo metodo precompila il segmento in Audience Builder con la dimensione o l’elemento dimensione selezionato.</p><p>Le seguenti visualizzazioni ti consentono di creare un pubblico utilizzando il menu di scelta rapida:</p><ul><li>[Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Mappa &#x200B;](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** questa visualizzazione è in fase di test limitato della versione e potrebbe non essere ancora disponibile nel tuo ambiente.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** i tipi di pubblico non possono includere metriche calcolate. Se tenti di creare un pubblico che contiene una metrica calcolata, questa non viene inclusa nella definizione del pubblico.</p> |
+   | Da una visualizzazione in Analysis Workspace | Molte visualizzazioni in Analysis Workspace consentono di creare un pubblico utilizzando il menu di scelta rapida. È ad esempio possibile selezionare **[!UICONTROL Crea pubblico]** dal menu di scelta rapida di un elemento in una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) o un nodo nell&#39;[area di lavoro Percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).<p>L’utilizzo di questo metodo precompila il segmento in Audience Builder con la dimensione o l’elemento dimensione selezionato.</p><p>Le seguenti visualizzazioni ti consentono di creare un pubblico utilizzando il menu di scelta rapida:</p><ul><li>[Tabella coorte](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[Area di lavoro del percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Mappa ](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** questa visualizzazione è in fase di test limitato della versione e potrebbe non essere ancora disponibile nel tuo ambiente.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** i tipi di pubblico non possono includere metriche calcolate. Se tenti di creare un pubblico che contiene una metrica calcolata, questa non viene inclusa nella definizione del pubblico.</p> |
    | Dall’interfaccia utente di creazione/modifica del segmento | Seleziona la casella che riporta **[!UICONTROL Crea un pubblico da questo segmento]**. Usando questo metodo il segmento viene precompilato. Per ulteriori informazioni, consulta [Creare i segmenti](/help/components/segments/seg-create.md). |
 
    {style="table-layout:auto"}
@@ -117,7 +106,7 @@ Configura queste impostazioni per definire o aggiornare il pubblico.
 | **[!UICONTROL Nome]** | Il nome del pubblico. Ad esempio: `Really Interested in Potential Car Buyers` |
 | **[!UICONTROL Tag]** | Qualsiasi tag che desideri assegnare al pubblico per motivi organizzativi. Puoi selezionare uno o più tag preesistenti o immetterne uno nuovo. |
 | **[!UICONTROL Descrizione]** | Descrizione del pubblico, per distinguerlo dagli altri. Ad esempio: `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL Frequenza di aggiornamento]** | La frequenza con cui desideri aggiornare il pubblico.<p/><p>Puoi configurare un aggiornamento pianificato per un numero limitato di tipi di pubblico (tra 75 e 150), a seconda delle opzioni Customer Journey Analytics disponibili. </p><p>Puoi scegliere tra le seguenti opzioni:</p><ul><li>**[!UICONTROL Pubblico occasionale]**: un pubblico (predefinito) che non deve essere aggiornato. Ad esempio, potrebbe essere utile per campagne una tantum specifiche.<br/>È necessario specificare un **[!UICONTROL Intervallo date una tantum]**. Puoi utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per immettere un intervallo di date.</li><li>Un pubblico che si aggiorna. Puoi scegliere tra le seguenti opzioni di aggiornamento pianificato:<ul><li>**[!UICONTROL Ogni 4 ore]**: un pubblico che si aggiorna ogni 4 ore.</li><li>**[!UICONTROL Giornaliero]**: un pubblico che si aggiorna ogni giorno</li><li>**[!UICONTROL Ogni settimana]**: un pubblico che si aggiorna ogni settimana.</li><li>**[!UICONTROL Mensile]**: un pubblico che si aggiorna mensilmente</li></ul></li>Per i tipi di pubblico che si aggiornano, devi specificare:<ul><li>**[!UICONTROL Aggiorna intervallo di lookback]**. Definisci il numero di giorni di lookback a partire da oggi da cui viene valutato un pubblico. Puoi selezionare una delle opzioni o definire un’ora personalizzata. Il massimo è 90 giorni.</li><li>**[!UICONTROL Data di scadenza]**: definisci quando il pubblico smette di aggiornare. Puoi utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare una data. Il valore predefinito è un anno dalla data di creazione. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza. L’amministratore riceve un’e-mail un mese prima della scadenza del pubblico.</li></ul></ul> |
+| **[!UICONTROL Frequenza di aggiornamento]** | La frequenza con cui desideri aggiornare il pubblico.<p/><p>Puoi configurare un aggiornamento pianificato per un numero limitato di tipi di pubblico (tra 75 e 150), a seconda delle opzioni Customer Journey Analytics disponibili. </p><p>Puoi scegliere tra le seguenti opzioni:</p><ul><li>**[!UICONTROL Una tantum]**: una richiesta una tantum che non richiede alcun aggiornamento. Ad esempio, potrebbe essere utile per campagne una tantum specifiche.<br/>È necessario specificare un **[!UICONTROL Intervallo date una tantum]**. Puoi utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per immettere un intervallo di date.</li><li>Un pubblico che si aggiorna. Puoi scegliere tra le seguenti opzioni di aggiornamento pianificato:<ul><li>**[!UICONTROL Ogni 4 ore]**: un pubblico che si aggiorna ogni 4 ore.</li><li>**[!UICONTROL Giornaliero]**: un pubblico che si aggiorna ogni giorno</li><li>**[!UICONTROL Ogni settimana]**: un pubblico che si aggiorna ogni settimana.</li><li>**[!UICONTROL Mensile]**: un pubblico che si aggiorna mensilmente</li></ul></li>Per i tipi di pubblico che si aggiornano, devi specificare:<ul><li>**[!UICONTROL Aggiorna intervallo di lookback]**. Definisci il numero di giorni di lookback a partire da oggi da cui viene valutato un pubblico. Puoi selezionare una delle opzioni o definire un’ora personalizzata. Il massimo è 90 giorni.</li><li>**[!UICONTROL Data di scadenza]**: definisci quando il pubblico smette di aggiornare. Puoi utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare una data. Il valore predefinito è un anno dalla data di creazione. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza. L’amministratore riceve un’e-mail un mese prima della scadenza del pubblico.</li></ul></ul> |
 | **[!UICONTROL Filtro]** | I filtri sono l’input principale per il pubblico. Trascina e rilascia uno o più segmenti dal pannello ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** a sinistra nell&#39;area Segmento. Per cercare i segmenti, puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) [!UICONTROL *Ricerca segmenti*]. Puoi aggiungere fino a 20 segmenti. I segmenti possono essere uniti con **[!UICONTROL And]** o **[!UICONTROL Or]** operatori.<p>Se crei un pubblico da una visualizzazione in Analysis Workspace (ad esempio, da una tabella a forma libera o dall’area di lavoro del percorso), vengono mantenuti tutti i segmenti applicati al pannello o alla colonna. Puoi rimuovere i segmenti applicati in automatico.</p> |
 | **[!UICONTROL Anteprima dati]** | Seleziona ![Informazioni](/help/assets/icons/Info.svg) per mostrare o nascondere l’[Anteprima dati](#data-preview) per l’intervallo date selezionato. |
 

@@ -7,20 +7,14 @@ hide: true
 exl-id: 32b71016-7c53-409f-9ce4-521a40e2eb96
 autotag-review: '2026-05-19T08:44:26.806Z'
 TQID: 'https://experienceleague.adobe.com/R7c5-VutwSkyghNvwC2gZv2KUEJoa263AN0Tkdg3w4o'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 66a8a96da6710d20b01b9315fe87ba38c54c2511
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 87de19a64e49f83c99df7980828b97a1da2c2d16
 workflow-type: tm+mt
-source-wordcount: 954
+source-wordcount: 1074
 ht-degree: 2%
 
 ---
@@ -31,6 +25,43 @@ ht-degree: 2%
 
 I feed di dati sia in Customer Journey Analytics che in Adobe Analytics consentono di esportare dati non elaborati in piattaforme di terze parti. Se in precedenza hai utilizzato feed di dati in Adobe Analytics, utilizza le seguenti informazioni per comprendere le differenze nelle funzioni e nei concetti disponibili:
 
+## Funzionalità disponibile solo nei feed dati di Customer Journey Analytics
+
+* Campi derivati
+
+  Include componenti di campi derivati nei feed dati.
+
+* Unione
+
+  Abilita la risoluzione delle identità tra dispositivi, collegando gli eventi tra dispositivi a una singola persona.
+
+* Visualizzazione strutturata dei dati
+
+  Utilizza i dati strutturati sia durante la creazione di feed di dati nei file consegnati. I feed di dati di Adobe Analytics utilizzano una stringa.
+
+* Barra dei componenti con dimensioni e metriche corrispondenti a Analysis Workspace
+
+  Utilizza dimensioni e metriche disponibili nella visualizzazione dati. In Adobe Analytics, viene utilizzato un elenco predefinito di campi e colonne.
+
+* Tutti i segmenti applicati alla visualizzazione dati vengono ereditati automaticamente nel feed dati
+
+* I segmenti possono essere applicati direttamente al feed di dati (oltre a qualsiasi segmento già applicato alla visualizzazione dati).
+
+* I feed corrispondono al fuso orario della visualizzazione dati <!-- how did it work in AA? -->
+
+* Parquet
+
+  Restituisce un file Parquet moderno, che supporta in modo nativo dati nidificati e strutturati complessi. Gli elenchi di prodotti sono rappresentati come array strutturati/oggetti nidificati.
+
+* Percorsi in stile hive
+
+* Modifiche apportate ai componenti della visualizzazione dati proposta ai feed di dati
+
+<!-- * Web MCP when it's added -->
+
+
+## Confronto delle funzionalità
+
 | **Concetti e opzioni di configurazione** | **Customer Journey Analytics** | **Adobe Analytics** |
 |---------|----------|---------|
 | **Input dati**<br/> Tipo di dati che è possibile raccogliere e includere nei feed di dati. | Supporta l’input di dati cross-channel, tra cui dati web, dati dei call center, dati dei punti vendita e altro ancora. | Supporta principalmente l’input di dati web e mobili. Altri tipi di dati (come i dati dei call center o dei punti vendita) possono essere acquisiti tramite origini di dati, ma con funzionalità di elaborazione molto limitate. |
@@ -39,8 +70,6 @@ I feed di dati sia in Customer Journey Analytics che in Adobe Analytics consento
 | **Risultati con arrivo in ritardo**<br/> I cui timestamp appartengono a una finestra di frequenza di consegna precedente, ma arrivano dopo che tale finestra è già trascorsa. <p>Ad esempio, gli hit in arrivo tardivo potrebbero provenire da un’app mobile che memorizza in buffer gli eventi mentre è offline e li invia quando si riconnette.</p> | L&#39;impostazione **Ritardo elaborazione** controlla per quanto tempo il sistema attende dopo la chiusura della finestra di frequenza prima di attivare l&#39;esportazione, consentendo un tempo supplementare per l&#39;arrivo dei dati ritardati. | Gli hit in arrivo possono essere **inclusi o esclusi** tramite l&#39;opzione di configurazione **Hit in arrivo ritardato**. <p>L&#39;impostazione dell&#39;**Intervallo di lookback** controlla la distanza che il sistema raggiunge per includere i dati ritardati.</p> |
 | **Risultati fuori servizio**<br/> I cui timestamp non corrispondono all&#39;ordine in cui sono stati ricevuti. | Poiché Customer Journey Analytics accetta sia dati in streaming che in batch, non c’è garanzia che gli eventi per una determinata persona arrivino in ordine di marca temporale. Anche se Customer Journey Analytics riordina per marca temporale per persona, può esportare solo i dati arrivati. Ciò significa che gli hit in arrivo tardivo potrebbero essere esportati dopo gli hit con una marca temporale successiva.<p>L&#39;impostazione **Ritardo elaborazione** consente di ridurre gli eventi fuori servizio nell&#39;output del feed dati, dando più tempo per l&#39;arrivo dei dati batch prima dell&#39;esportazione. L’ordine degli eventi nella consegna non è garantito.</p><p>**Importante**: il consumatore finale dei dati del feed di dati deve essere in grado di gestire marche temporali non ordinate, per persona, perché l&#39;ordine degli hit nella consegna del feed di dati non è garantito.</p> | Adobe Analytics richiede che i dati arrivino in ordine per visitatore al momento della raccolta, ma l’ordine degli hit nella consegna del feed di dati non è garantito.</p> |
 | **Finestra di backfill**<br/> Esporta i dati storici tra due date precedenti. | Limitato alla finestra continua dei dati della connessione. | Limitato al limite di conservazione dei dati della suite di rapporti: **25 mesi** per impostazione predefinita. |
-| **Segmentazione** | I segmenti possono essere applicati ai feed di dati tramite il segmento della visualizzazione dati, un segmento specifico del feed o entrambi. | I segmenti non possono essere applicati. |
-| **Stitching** | Supportato. Abilita la risoluzione delle identità tra dispositivi, collegando gli eventi tra dispositivi a una singola persona. | Non supportato. I dati uniti non possono essere esportati tramite feed di dati di Adobe Analytics. |
 | **Schema**<br/> Lo schema feed dati determina quali colonne sono disponibili per l&#39;inclusione in un feed dati. | Lo schema del feed dati si basa sulla configurazione della visualizzazione dati.  I componenti disponibili per l’inclusione nello schema feed dati sono un sottoinsieme dei componenti disponibili nella configurazione della visualizzazione dati.</p> | Elenco statico predefinito di oltre 1.100 variabili. Molte colonne vengono esportate come **coppie pre- e post-elaborate** (ad esempio, `eVar1` / `post_eVar1`), che rappresenta gran parte del conteggio delle colonne. |
 | **Ricerche**<br/> Le ricerche dinamiche ti consentono di ricevere file di ricerca aggiuntivi nel feed di dati, altrimenti non disponibili. | Non necessario, perché le ricerche e le classificazioni sono entrambe disponibili come dimensioni curate direttamente nella visualizzazione dati. Quando curi una ricerca o una classificazione come dimensione nella visualizzazione dati, i valori risolti vengono visualizzati come colonne regolari nell’output Parquet, in linea con i dati dell’evento, non come file di riferimento separati. | Utilizzato per far corrispondere un numero da una colonna di feed dati a un valore effettivo. Specifiche per determinati set di elementi (browser, sistema operativo, dispositivo mobile e vengono applicate come file separato fornito con il feed di dati). |
 | **Definizione sessione**<br/> <!--(could be included in the data processing section instead)--> | Definito nella visualizzazione dati . | Definito al momento della raccolta. |
