@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d2016e34b4b73c6eebb05097aa43f823c578c2b6
+source-git-commit: 87de19a64e49f83c99df7980828b97a1da2c2d16
 workflow-type: tm+mt
 source-wordcount: 2520
 ht-degree: 80%
@@ -35,7 +35,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="components_audiences_refreshfrequency"
 >title="Frequenza di aggiornamento"
->abstract="La frequenza con cui l’appartenenza di un pubblico viene rivalutata.<br/>I tipi di pubblico occasionali vengono valutati una sola volta e non vengono conteggiati per il limite di aggiornamento."
+>abstract="Frequenza con cui viene rivalutata l&#39;appartenenza di un pubblico.<br/>Le richieste una tantum vengono valutate una sola volta e non vengono conteggiate per il limite di aggiornamento."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,7 +44,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="components_audiences_audiencelimit"
 >title="Aggiorna limite pubblico"
->abstract="Il numero di tipi di pubblico nell’ambiente configurati per l’aggiornamento automatico a una frequenza pianificata. I limiti sono compresi tra 75 e 150, a seconda della licenza Customer Journey Analytics. Gli aggiornamenti una tantum non rientrano in questo limite."
+>abstract="Il numero di tipi di pubblico nell’ambiente configurati per l’aggiornamento automatico a una frequenza pianificata. I limiti sono compresi tra 75 e 150, a seconda della licenza Customer Journey Analytics. Le richieste una tantum non rientrano in questo limite."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -117,7 +117,7 @@ Configura queste impostazioni per definire o aggiornare il pubblico.
 | **[!UICONTROL Nome]** | Il nome del pubblico. Ad esempio: `Really Interested in Potential Car Buyers` |
 | **[!UICONTROL Tag]** | Qualsiasi tag che desideri assegnare al pubblico per motivi organizzativi. Puoi selezionare uno o più tag preesistenti o immetterne uno nuovo. |
 | **[!UICONTROL Descrizione]** | Descrizione del pubblico, per distinguerlo dagli altri. Ad esempio: `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL Frequenza di aggiornamento]** | La frequenza con cui desideri aggiornare il pubblico.<p/><p>Puoi configurare un aggiornamento pianificato per un numero limitato di tipi di pubblico (tra 75 e 150), a seconda delle opzioni Customer Journey Analytics disponibili. </p><p>Puoi scegliere tra le seguenti opzioni:</p><ul><li>**[!UICONTROL Pubblico occasionale]**: un pubblico (predefinito) che non deve essere aggiornato. Ad esempio, potrebbe essere utile per campagne una tantum specifiche.<br/>È necessario specificare un **[!UICONTROL Intervallo date una tantum]**. Puoi utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per immettere un intervallo di date.</li><li>Un pubblico che si aggiorna. Puoi scegliere tra le seguenti opzioni di aggiornamento pianificato:<ul><li>**[!UICONTROL Ogni 4 ore]**: un pubblico che si aggiorna ogni 4 ore.</li><li>**[!UICONTROL Giornaliero]**: un pubblico che si aggiorna ogni giorno</li><li>**[!UICONTROL Ogni settimana]**: un pubblico che si aggiorna ogni settimana.</li><li>**[!UICONTROL Mensile]**: un pubblico che si aggiorna mensilmente</li></ul></li>Per i tipi di pubblico che si aggiornano, devi specificare:<ul><li>**[!UICONTROL Aggiorna intervallo di lookback]**. Definisci il numero di giorni di lookback a partire da oggi da cui viene valutato un pubblico. Puoi selezionare una delle opzioni o definire un’ora personalizzata. Il massimo è 90 giorni.</li><li>**[!UICONTROL Data di scadenza]**: definisci quando il pubblico smette di aggiornare. Puoi utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare una data. Il valore predefinito è un anno dalla data di creazione. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza. L’amministratore riceve un’e-mail un mese prima della scadenza del pubblico.</li></ul></ul> |
+| **[!UICONTROL Frequenza di aggiornamento]** | La frequenza con cui desideri aggiornare il pubblico.<p/><p>Puoi configurare un aggiornamento pianificato per un numero limitato di tipi di pubblico (tra 75 e 150), a seconda delle opzioni Customer Journey Analytics disponibili. </p><p>Puoi scegliere tra le seguenti opzioni:</p><ul><li>**[!UICONTROL Una tantum]**: una richiesta una tantum che non richiede alcun aggiornamento. Ad esempio, potrebbe essere utile per campagne una tantum specifiche.<br/>È necessario specificare un **[!UICONTROL Intervallo date una tantum]**. Puoi utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per immettere un intervallo di date.</li><li>Un pubblico che si aggiorna. Puoi scegliere tra le seguenti opzioni di aggiornamento pianificato:<ul><li>**[!UICONTROL Ogni 4 ore]**: un pubblico che si aggiorna ogni 4 ore.</li><li>**[!UICONTROL Giornaliero]**: un pubblico che si aggiorna ogni giorno</li><li>**[!UICONTROL Ogni settimana]**: un pubblico che si aggiorna ogni settimana.</li><li>**[!UICONTROL Mensile]**: un pubblico che si aggiorna mensilmente</li></ul></li>Per i tipi di pubblico che si aggiornano, devi specificare:<ul><li>**[!UICONTROL Aggiorna intervallo di lookback]**. Definisci il numero di giorni di lookback a partire da oggi da cui viene valutato un pubblico. Puoi selezionare una delle opzioni o definire un’ora personalizzata. Il massimo è 90 giorni.</li><li>**[!UICONTROL Data di scadenza]**: definisci quando il pubblico smette di aggiornare. Puoi utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare una data. Il valore predefinito è un anno dalla data di creazione. I tipi di pubblico in scadenza vengono trattati in modo simile ai rapporti pianificati in scadenza. L’amministratore riceve un’e-mail un mese prima della scadenza del pubblico.</li></ul></ul> |
 | **[!UICONTROL Filtro]** | I filtri sono l’input principale per il pubblico. Trascina e rilascia uno o più segmenti dal pannello ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** a sinistra nell&#39;area Segmento. Per cercare i segmenti, puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) [!UICONTROL *Ricerca segmenti*]. Puoi aggiungere fino a 20 segmenti. I segmenti possono essere uniti con **[!UICONTROL And]** o **[!UICONTROL Or]** operatori.<p>Se crei un pubblico da una visualizzazione in Analysis Workspace (ad esempio, da una tabella a forma libera o dall’area di lavoro del percorso), vengono mantenuti tutti i segmenti applicati al pannello o alla colonna. Puoi rimuovere i segmenti applicati in automatico.</p> |
 | **[!UICONTROL Anteprima dati]** | Seleziona ![Informazioni](/help/assets/icons/Info.svg) per mostrare o nascondere l’[Anteprima dati](#data-preview) per l’intervallo date selezionato. |
 
