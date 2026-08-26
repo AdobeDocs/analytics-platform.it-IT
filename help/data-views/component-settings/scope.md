@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 hide: true
-source-git-commit: a4f7eef26a019f4f8a716f44d49985290b135112
+source-git-commit: 9df4c8cff6c0c044902453e5fb8380fbb5c5ac2d
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '170'
 ht-degree: 5%
 
 ---
@@ -25,6 +25,6 @@ L’ambito di un componente metrica determina il modo in cui il componente viene
 | Ambito | Descrizione |
 |---|---|
 | In base all’evento | L’ambito del componente metrica è basato su eventi. |
-| In base al profilo | L’ambito del componente metrica è basato sul profilo. Quando il componente viene utilizzato nel reporting, negli intervalli di date, la metrica restituisce la popolazione dai dati del profilo, indipendentemente dall’intervallo di date applicato al pannello. I filtri di data e i confronti tra intervalli di date non influiscono sul reporting di questa metrica. |
+| In base al profilo | L’ambito del componente metrica è basato sul profilo. Quando il componente viene utilizzato nel reporting, la metrica restituisce la popolazione dai dati del profilo, indipendentemente dall’intervallo di date applicato al pannello. I filtri di data e i confronti tra intervalli di date non influiscono sul reporting di questa metrica. |
 | In base al totale | L’ambito del componente metrica è basato su profili ed eventi. Quando il componente viene utilizzato nel reporting, la metrica restituisce la popolazione dai dati del profilo e dell’evento, indipendentemente dall’intervallo di date applicato al pannello. I filtri di data e i confronti tra intervalli di date non influiscono sul reporting di questa metrica. |
 
