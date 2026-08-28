@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 82ccb1359540e5200641b33c3d4aef7f2447003f
+source-git-commit: 6c07f0bc3dce3155d0605619194fc6a765ac2f3e
 workflow-type: tm+mt
-source-wordcount: 1451
+source-wordcount: 1485
 ht-degree: 1%
 
 ---
@@ -35,15 +35,13 @@ Se in precedenza hai utilizzato feed di dati in Adobe Analytics, utilizza le seg
 
 ## Funzioni disponibili solo nei feed dati di Customer Journey Analytics
 
-Se esegui la migrazione da Adobe Analytics, le seguenti funzioni sono nuove nei feed dati di Customer Journey Analytics:
+Le seguenti funzionalità sono disponibili nei feed dati di Customer Journey Analytics, ma non nei feed dati di Adobe Analytics:
 
 * **Campi derivati**: componenti personalizzati creati da trasformazioni basate su regole che possono essere inclusi nello schema del feed.
 
 * **Unione**: risoluzione identità tra dispositivi che collega gli eventi tra dispositivi a una singola persona.
 
-* **Modello dati strutturato**: i feed vengono generati e consegnati utilizzando dati strutturati anziché stringhe flat.
-
-* **Barra dei componenti di Analysis Workspace**: seleziona dimensioni e metriche utilizzando la stessa barra dei componenti di Analysis Workspace, anziché un elenco statico di nomi di variabili.
+* **Modello dati strutturato**: i feed vengono generati e consegnati utilizzando dati strutturati anziché stringhe semplici come post_product_list.
 
 * **Segmentazione**: i segmenti applicati alla visualizzazione dati vengono ereditati automaticamente e altri segmenti possono essere applicati direttamente al feed.
 
@@ -55,12 +53,18 @@ Se esegui la migrazione da Adobe Analytics, le seguenti funzioni sono nuove nei 
 
 * **Propagazione aggiornamento componente**: le modifiche ai componenti nella visualizzazione dati vengono propagate automaticamente al feed.
 
+* **Ricerche**: le ricerche dinamiche ti consentono di ricevere file di ricerca aggiuntivi nel feed di dati, altrimenti non disponibili.
+
+* **Interfaccia familiare agli utenti di Analysis Workspace**: seleziona dimensioni e metriche utilizzando la stessa barra dei componenti di Analysis Workspace, anziché un elenco statico di nomi di variabili.
+
 <!-- * Web MCP when it's added -->
 
 La tabella [Confronto funzionalità](#functionality-comparison) seguente descrive in dettaglio ciascuna di queste funzionalità, insieme alle differenze nelle funzionalità esistenti in entrambi i prodotti.
 
 
 ## Confronto delle funzionalità
+
+La tabella seguente confronta i concetti chiave e le opzioni di configurazione nei feed dati di Customer Journey Analytics e nei feed dati di Adobe Analytics.
 
 | **Concetti e opzioni di configurazione** | **Customer Journey Analytics** | **Adobe Analytics** |
 |---------|----------|---------|
@@ -69,13 +73,13 @@ La tabella [Confronto funzionalità](#functionality-comparison) seguente descriv
 | **Unione**<br/> Risoluzione delle identità cross-device e cross-channel che collega gli eventi a una singola persona. | Supportato. Le identità unite possono essere incluse nelle esportazioni di feed di dati quando l’unione è configurata sulla connessione. | Non supportato. L’identità del visitatore viene determinata al momento della raccolta dai cookie dell’ID visitatore; non è disponibile alcuna risoluzione cross-device successiva alla raccolta. |
 | **Frequenza di consegna**<br/> Determina la frequenza con cui il feed di dati viene inviato e la finestra di tempo inclusa nel feed. | **Giornaliero** (dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati) o **Orario**. | **Giornaliero** (dalla mezzanotte alla mezzanotte nel fuso orario della suite di rapporti) o **Orario**. <p>I feed di 15 minuti sono possibili ma non disponibili per impostazione predefinita.</p> |
 | **Risultati con arrivo in ritardo**<br/> I cui timestamp appartengono a una finestra di frequenza di consegna precedente, ma arrivano dopo che tale finestra è già trascorsa. <p>Ad esempio, gli hit in arrivo tardivo potrebbero provenire da un’app mobile che memorizza in buffer gli eventi mentre è offline e li invia quando si riconnette.</p> | L&#39;impostazione **Ritardo elaborazione** controlla per quanto tempo il sistema attende dopo la chiusura della finestra di frequenza prima di attivare l&#39;esportazione, consentendo un tempo supplementare per l&#39;arrivo dei dati ritardati. | Gli hit in arrivo possono essere **inclusi o esclusi** tramite l&#39;opzione di configurazione **Hit in arrivo ritardato**. <p>L&#39;impostazione dell&#39;**Intervallo di lookback** controlla la distanza che il sistema raggiunge per includere i dati ritardati.</p> |
-| **Risultati fuori servizio**<br/> I cui timestamp non corrispondono all&#39;ordine in cui sono stati ricevuti. | Poiché Customer Journey Analytics accetta sia dati in streaming che in batch, non c’è garanzia che gli eventi per una determinata persona arrivino in ordine di marca temporale. Anche se Customer Journey Analytics riordina per marca temporale per persona, può esportare solo i dati arrivati. Ciò significa che gli hit in arrivo tardivo potrebbero essere esportati dopo gli hit con una marca temporale successiva.<p>L&#39;impostazione **Ritardo elaborazione** consente di ridurre gli eventi fuori servizio nell&#39;output del feed dati, dando più tempo per l&#39;arrivo dei dati batch prima dell&#39;esportazione. L’ordine degli eventi nella consegna non è garantito.</p><p>**Importante**: il consumatore finale dei dati del feed di dati deve essere in grado di gestire marche temporali non ordinate, per persona, perché l&#39;ordine degli hit nella consegna del feed di dati non è garantito.</p> | Adobe Analytics richiede che i dati arrivino in ordine per visitatore al momento della raccolta, ma l’ordine degli hit nella consegna del feed di dati non è garantito.</p> |
+| **Risultati fuori servizio**<br/> I cui timestamp non corrispondono all&#39;ordine in cui sono stati ricevuti. | Poiché Customer Journey Analytics accetta sia dati in streaming che in batch, non c’è garanzia che gli eventi per una determinata persona arrivino in ordine di marca temporale. Anche se Customer Journey Analytics riordina per marca temporale per persona, può esportare solo i dati arrivati. Ciò significa che gli hit in arrivo tardivo potrebbero essere esportati dopo gli hit con una marca temporale successiva.<p>L&#39;impostazione **Ritardo elaborazione** consente di ridurre gli eventi fuori servizio nell&#39;output del feed dati, dando più tempo per l&#39;arrivo dei dati batch prima dell&#39;esportazione. L’ordine degli eventi nella consegna non è garantito.</p><p>**Importante**: il consumatore finale dei dati del feed di dati deve essere in grado di gestire marche temporali non ordinate, per persona, perché l&#39;ordine degli hit nella consegna del feed di dati non è garantito.</p> | Adobe Analytics richiede che i dati arrivino in ordine per visitatore al momento della raccolta, ma l’ordine degli hit nella consegna del feed di dati non è garantito. |
 | **Finestra di backfill**<br/> Esporta i dati storici tra due date precedenti. | Limitato alla finestra continua dei dati della connessione. | Limitato al limite di conservazione dei dati della suite di rapporti: **25 mesi** per impostazione predefinita. |
 | **Schema**<br/> Lo schema feed dati determina quali colonne sono disponibili per l&#39;inclusione in un feed dati. | Lo schema del feed dati si basa sulla configurazione della visualizzazione dati.  I componenti disponibili per l’inclusione nello schema feed dati sono un sottoinsieme dei componenti disponibili nella configurazione della visualizzazione dati. | Elenco statico predefinito di oltre 1.100 variabili. Molte colonne vengono esportate come **coppie pre- e post-elaborate** (ad esempio, `eVar1` / `post_eVar1`), che rappresenta gran parte del conteggio delle colonne. |
 | **Generatore feed dati**<br/> Interfaccia utilizzata per configurare le colonne incluse in un feed dati. | Utilizza una barra dei componenti con le stesse dimensioni e metriche denominate disponibili nella visualizzazione dati, in base all’esperienza Analysis Workspace. | Utilizza un elenco semplice di nomi di variabili non elaborati (ad esempio `eVar1`, `prop5`) selezionati da un set predefinito di circa 1.100+ colonne. I componenti non vengono denominati o descritti oltre il loro identificatore di variabile. |
 | **Campi derivati**<br/> Componenti personalizzati definiti utilizzando trasformazioni basate su regole applicate al momento della generazione del rapporto. | Supportato. I componenti dei campi derivati possono essere inclusi nello schema del feed dati insieme a dimensioni e metriche standard. | Non supportato. |
 | **Aggiornamenti dei componenti**<br/> Indica se le modifiche alla configurazione dei componenti verranno applicate all&#39;output dei feed di dati futuri. | Le modifiche ai componenti nella visualizzazione dati (ad esempio la ridenominazione o la rimozione di una dimensione) si propagano automaticamente ai feed di dati futuri. | Non applicabile. Lo schema a colonne è predefinito e statico; non sono presenti componenti a livello di visualizzazione dati da aggiornare. |
-| **Ricerche**<br/> Le ricerche dinamiche ti consentono di ricevere file di ricerca aggiuntivi nel feed di dati, altrimenti non disponibili. | Non necessario, perché le ricerche e le classificazioni sono entrambe disponibili come dimensioni curate direttamente nella visualizzazione dati. Quando curi una ricerca o una classificazione come dimensione nella visualizzazione dati, i valori risolti vengono visualizzati come colonne regolari nell’output Parquet, in linea con i dati dell’evento, non come file di riferimento separati. | Utilizzato per far corrispondere un numero da una colonna di feed dati a un valore effettivo. Specifiche per determinati set di elementi (browser, sistema operativo, dispositivo mobile e vengono applicate come file separato fornito con il feed di dati). |
+| **Ricerche**<br/> Le ricerche dinamiche ti consentono di ricevere file di ricerca aggiuntivi nel feed di dati, altrimenti non disponibili. | Non necessario, perché le ricerche e le classificazioni sono entrambe disponibili come dimensioni curate direttamente nella visualizzazione dati. Quando curi una ricerca o una classificazione come dimensione nella visualizzazione dati, i valori risolti vengono visualizzati come colonne regolari nell’output Parquet, in linea con i dati dell’evento, non come file di riferimento separati. | Fornito come file di ricerca separato da inviare con il feed. Copre un set fisso di dimensioni, ad esempio browser, sistema operativo e dispositivo mobile. |
 | **Definizione della sessione**<br/> Definizione del limite di una visita o di una sessione, che influisce sul modo in cui gli eventi vengono raggruppati e attribuiti. | Definito nella visualizzazione dati. | Definito al momento della raccolta. |
 | **Segmentazione**<br/> La possibilità di filtrare l&#39;output del feed dati utilizzando i segmenti. | I segmenti applicati alla visualizzazione dati vengono ereditati automaticamente dal feed di dati. Ulteriori segmenti possono essere applicati direttamente a un singolo feed di dati. | Non supportato. I feed di dati esportano tutti i dati raccolti senza filtrare i segmenti. |
 | **Metriche calcolate**<br/> Metriche personalizzate che è possibile creare dalle metriche esistenti. | Non disponibile | Non disponibile |
