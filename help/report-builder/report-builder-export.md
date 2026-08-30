@@ -7,26 +7,15 @@ type: Documentation
 solution: Customer Journey Analytics
 exl-id: 1d5d87d8-1920-406b-8cce-41b89b7ae70b
 TQID: https://experienceleague.adobe.com/9oEoM8cI6Bxl-PXmiT-OhskFK3XlaPVkQSFOi4Dyajg
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-  - id: f2ef16dc-055a-4bb7-baa5-7039653f3966
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817afid: ef46ac31-f951-48d6-bae5-51c52ab47fb8id: f2ef16dc-055a-4bb7-baa5-7039653f3966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 563f5d89ee9977a956565f68cb2b75adcfb37c0f
 workflow-type: tm+mt
-source-wordcount: 1309
-ht-degree: 37%
+source-wordcount: 1343
+ht-degree: 36%
 
 ---
 
@@ -53,10 +42,6 @@ Per esportare le cartelle di lavoro da Report Builder nel cloud, attenersi alla 
 ![Processo di esportazione descritto nei passaggi da 1 a 4.](assets/report-builder-export-process.png)
 
 ## Esportare un rapporto da Report Builder
-
->[!NOTE]
->
->Prima di esportare i dati come descritto in questa sezione, ulteriori informazioni sul [processo di esportazione](#understand-the-export-process) nella sezione precedente.
 
 Per esportare rapporti da Report Builder:
 
@@ -100,6 +85,10 @@ Per esportare rapporti da Report Builder:
    I dati vengono inviati all’account cloud specificato alla frequenza specificata.
 
 1. (Facoltativo) Dopo aver creato l’esportazione, che tu scelga di inviarla ora oppure in base a una pianificazione definita, puoi visualizzarla e gestirla nella [pagina Esportazioni](/help/components/exports/manage-exports.md) e visualizzarla nei [registri di esportazione](/help/components/exports/manage-export-logs.md).</p>
+
+>[!NOTE]
+>
+>Una pianificazione esporta la versione della cartella di lavoro esistente al momento della creazione della pianificazione. Se successivamente si modifica e si salva la cartella di lavoro, la pianificazione esistente non riprende tali modifiche e continua a esportare la versione originale. Per esportare una cartella di lavoro aggiornata, creare una nuova pianificazione dopo aver salvato le modifiche.
 
 ## Gestire le esportazioni
 

@@ -7,19 +7,14 @@ type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
 TQID: https://experienceleague.adobe.com/hvK60b1ST9yjl9fz0kFnSncTRXtZQCYvDmLCUCP1Yik
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 563f5d89ee9977a956565f68cb2b75adcfb37c0f
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 14%
+source-wordcount: 934
+ht-degree: 13%
 
 ---
 
@@ -29,12 +24,15 @@ Dopo aver salvato la cartella di lavoro e completato l&#39;analisi, è possibile
 
 Puoi creare più pianificazioni per una singola cartella di lavoro. Ad esempio, si creano due pianificazioni per inviare una cartella di lavoro al team ogni giorno e al manager una volta alla settimana.
 
-La funzione di pianificazione consente inoltre di impostare la protezione tramite password per una cartella di lavoro e di modificare le cartelle di lavoro pianificate in precedenza.
+La funzione di pianificazione consente inoltre di impostare la protezione tramite password per una cartella di lavoro e di modificare la pianificazione per le cartelle di lavoro pianificate in precedenza.
 
+>[!NOTE]
+>
+>Una pianificazione invia la versione della cartella di lavoro esistente al momento della creazione della pianificazione. Se successivamente si modifica e si salva la cartella di lavoro, la pianificazione esistente non riprende tali modifiche e continua a inviare la versione originale. Per distribuire una cartella di lavoro aggiornata, creare una nuova pianificazione dopo aver salvato le modifiche.
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica cartelle di lavoro](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/schedule-cja-workbooks-using-report-builder){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica cartelle di lavoro](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/exporting/report-builder/schedule-cja-workbooks-using-report-builder){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
