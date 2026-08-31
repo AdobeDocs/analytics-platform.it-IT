@@ -23,10 +23,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 563f5d89ee9977a956565f68cb2b75adcfb37c0f
 workflow-type: tm+mt
-source-wordcount: 1309
-ht-degree: 37%
+source-wordcount: 1343
+ht-degree: 36%
 
 ---
 
@@ -53,10 +53,6 @@ Per esportare le cartelle di lavoro da Report Builder nel cloud, attenersi alla 
 ![Processo di esportazione descritto nei passaggi da 1 a 4.](assets/report-builder-export-process.png)
 
 ## Esportare un rapporto da Report Builder
-
->[!NOTE]
->
->Prima di esportare i dati come descritto in questa sezione, ulteriori informazioni sul [processo di esportazione](#understand-the-export-process) nella sezione precedente.
 
 Per esportare rapporti da Report Builder:
 
@@ -100,6 +96,10 @@ Per esportare rapporti da Report Builder:
    I dati vengono inviati all’account cloud specificato alla frequenza specificata.
 
 1. (Facoltativo) Dopo aver creato l’esportazione, che tu scelga di inviarla ora oppure in base a una pianificazione definita, puoi visualizzarla e gestirla nella [pagina Esportazioni](/help/components/exports/manage-exports.md) e visualizzarla nei [registri di esportazione](/help/components/exports/manage-export-logs.md).</p>
+
+>[!NOTE]
+>
+>Una pianificazione esporta la versione della cartella di lavoro esistente al momento della creazione della pianificazione. Se successivamente si modifica e si salva la cartella di lavoro, la pianificazione esistente non riprende tali modifiche e continua a esportare la versione originale. Per esportare una cartella di lavoro aggiornata, creare una nuova pianificazione dopo aver salvato le modifiche.
 
 ## Gestire le esportazioni
 
