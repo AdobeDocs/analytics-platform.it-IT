@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+source-git-commit: 3e9a9042bfe707971c4e37d319a23ab9bdc80075
 workflow-type: tm+mt
-source-wordcount: 1023
-ht-degree: 86%
+source-wordcount: 1869
+ht-degree: 55%
 
 ---
 
@@ -38,6 +38,7 @@ Content Analytics aggiunge le seguenti categorie di componenti (dimensioni, metr
 * [Metadati per risorse](#asset-metadata)
 * [Attributi delle risorse](#asset-attributes)
 * [Eventi per risorse](#asset-events)
+* [Paid Media](#paid-media)
 * [Metriche calcolate](#calculated-metrics)
 
 Nelle tabelle seguenti, ![Generato dall’IA](/help/assets/icons/AI.svg) indica una coppia attributo/valore generata mediante IA/ML.
@@ -47,7 +48,7 @@ Nelle tabelle seguenti, ![Generato dall’IA](/help/assets/icons/AI.svg) indica 
 | Titolo | Descrizione | Tipo |
 |---|---|---|
 | ID SOURCE | Per Content Analytics, il valore è `ContentAnalytics`. | Dimensione |
-| Canale | Canale per l’esperienza. Valore `Web` o `Mobile`. | Dimensione |
+| Canale | Canale per l’esperienza. Valore `Web`, `Mobile` o `Paid Media`. | Dimensione |
 | ID esperienza contenuti | ID univoco per l’esperienza. <br>Per **web**: URL della pagina Web. <br/>Per **web granulare**: hash calcolato sul lato client in base al payload del contenuto (testi, immagini, ctas) con prefisso `web-`. <br/>Per **mobile**: hash calcolato sul lato client in base al payload del contenuto (testi, immagini, ctas) con prefisso `mobile-`. | Dimensione |
 | Content Experience Source | Per **web**: l&#39;URL della pagina Web.<br/>Per **mobile**: il nome dello schermo, trasmesso tramite Experience Platform Mobile SDK. | Dimensione |
 | Canale esperienza (obsoleto) | Canale per l’esperienza. Valore `Web` o `Mobile`. | Dimensione |
@@ -156,6 +157,116 @@ Nelle tabelle seguenti, ![Generato dall’IA](/help/assets/icons/AI.svg) indica 
 
 {style="table-layout:fixed"}
 -->
+
+## Paid Media
+
+Questi componenti vengono aggiunti a una visualizzazione dati quando il canale **File multimediali a pagamento** è abilitato tramite un [connettore di origine di file multimediali a pagamento di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home) (ad esempio, Meta Ads o Google Ads). Ti consentono di creare rapporti sulle entità multimediali a pagamento, sulla creatività e di spendere insieme ai contenuti web e mobili.
+
+Gli **attributi di risorse** e **attributi di esperienza** generati dall&#39;intelligenza artificiale sopra descritti sono disponibili anche per i creativi di contenuti multimediali a pagamento: la stessa funzionalità viene eseguita sui canali Web, Mobile e Paid Media.
+
+### Dimensioni per file multimediali a pagamento
+
+| Titolo | Descrizione | Tipo |
+|---|---|---|
+| Ad network | La piattaforma pubblicitaria da cui sono stati acquisiti i dati multimediali a pagamento. | Dimensione |
+| Nome account | Nome dell’account dell’annuncio. | Dimensione |
+| Nome della campagna | Nome della campagna multimediale a pagamento. | Dimensione |
+| Nome gruppo di annunci | Nome del gruppo di annunci (set di annunci Meta / gruppo di annunci Google). | Dimensione |
+| Nome annuncio | Nome del singolo annuncio. | Dimensione |
+| Nome esperienza | Nome dell’esperienza annuncio (composizione creativa). | Dimensione |
+| Nome della risorsa | Nome della risorsa creativa. | Dimensione |
+| Stato della campagna | Stato della campagna. | Dimensione |
+| Stato del gruppo di annunci | Stato del gruppo di annunci. | Dimensione |
+| Stato annuncio | Stato dell’annuncio. | Dimensione |
+| Stato server | Stato dettagliato del servizio che indica se l’entità sta effettuando la consegna. | Dimensione |
+| Valuta conto | Valuta del conto dell’annuncio. | Dimensione |
+| Fuso orario dell’account | Fuso orario dell’account dell’annuncio. | Dimensione |
+| Tipo di account | Tipo dell’account dell’annuncio. | Dimensione |
+| Nome azienda account | Nome aziendale associato all’account dell’annuncio. | Dimensione |
+| Tipo di campagna | Tipo di canale principale della campagna. | Dimensione |
+| Obiettivo campagna | Obiettivo della campagna. | Dimensione |
+| Strategia di offerta della campagna | Strategia di offerta per la campagna. | Dimensione |
+| Tipo di budget campagna | Tipo di allocazione di budget per la campagna. | Dimensione |
+| Budget giornaliero campagna | Importo budget giornaliero, nella valuta del conto pubblicitario. | Dimensione |
+| Budget del ciclo di vita della campagna | Importo budget ciclo di vita, nella valuta del conto pubblicitario. | Dimensione |
+| Ora di inizio della campagna | Quando è iniziata la campagna. | Dimensione |
+| Ora di fine campagna | Quando la campagna è terminata. | Dimensione |
+| Tipo di gruppo di annunci | Tipo del gruppo di annunci. | Dimensione |
+| Strategia di offerta del gruppo di annunci | Strategia di offerta per il gruppo di annunci. | Dimensione |
+| Obiettivo di ottimizzazione del gruppo di annunci | Obiettivo di ottimizzazione per il gruppo di annunci. | Dimensione |
+| Ora di inizio del gruppo di annunci | Quando il gruppo di annunci è iniziato. | Dimensione |
+| Ora di fine del gruppo di annunci | Al termine del gruppo di annunci. | Dimensione |
+| Tipo di annuncio | Tipo/formato dell’annuncio. | Dimensione |
+| Stato revisione annuncio | Stato di revisione/approvazione dell’annuncio. | Dimensione |
+| Tipo di annuncio Creative | Tipo di creatività utilizzato dall’annuncio. | Dimensione |
+| Titolo annuncio | Titolo della creatività dell’annuncio. | Dimensione |
+| Ad Call to action | Call-to-action della creatività dell’annuncio. | Dimensione |
+| URL di destinazione dell’annuncio | URL di destinazione dell’annuncio. | Dimensione |
+| URL di visualizzazione annuncio | Visualizza l’URL visualizzato nell’annuncio. | Dimensione |
+| Tipo di esperienza | Tipo/formato dell’esperienza dell’annuncio. | Dimensione |
+| URL della pagina di destinazione dell’esperienza | URL della pagina di destinazione per l’esperienza. | Dimensione |
+| Experience Call to action | Call-to-action dell’esperienza. | Dimensione |
+| Tipo di risorsa | Tipo di risorsa creativa (ad esempio immagine o video). | Dimensione |
+| Larghezza risorsa | Larghezza della risorsa, in pixel. | Dimensione |
+| Altezza risorsa | Altezza della risorsa, in pixel. | Dimensione |
+| Proporzioni risorse | Proporzioni della risorsa. | Dimensione |
+| Orientamento della risorsa | Orientamento della risorsa. | Dimensione |
+| Tipo di dispositivo | Suddivisione per tipo di dispositivo per le metriche riportate. | Dimensione |
+| Posizionamento | Suddivisione del posizionamento per le metriche riportate. | Dimensione |
+| Piattaforma | Suddivisione della piattaforma per le metriche riportate. | Dimensione |
+| Paese | Suddivisione per paese delle metriche riportate. | Dimensione |
+| Area geografica | Raggruppamento per regione per le metriche riportate. | Dimensione |
+
+{style="table-layout:fixed"}
+
+### Metriche per media a pagamento
+
+| Titolo | Descrizione | Tipo |
+|---|---|---|
+| Impression | Numero di volte in cui l’annuncio è stato visualizzato. | Metrica |
+| Clic | Numero di clic sull’annuncio. | Metrica |
+| Spesa | Importo speso, nella valuta del conto dell’annuncio. | Metrica |
+| Conversioni | Numero totale di conversioni. | Metrica |
+| Valore di conversione | Valore totale delle conversioni. | Metrica |
+| Raggiungi | Numero di persone univoche che hanno visto l’annuncio. | Metrica |
+| Coinvolgimenti | Numero di impegni con l’annuncio. | Metrica |
+| Visualizzazioni video | Numero di visualizzazioni video. | Metrica |
+| Completamenti video | Numero di video guardati fino al completamento. | Metrica |
+| Riproduzioni video | Numero di riproduzioni video. | Metrica |
+| Acquisti | Numero di conversioni di acquisto. | Metrica |
+| Aggiungi al carrello | Numero di conversioni da aggiungere al carrello. | Metrica |
+| Lead | Numero di conversioni di lead. | Metrica |
+| Registrazioni | Numero di conversioni di registrazione. | Metrica |
+| Download | Numero di conversioni da scaricare. | Metrica |
+| Abbonamenti | Numero di conversioni di abbonamento. | Metrica |
+| Visualizzazioni pagina di destinazione | Numero di visualizzazioni della pagina di destinazione. | Metrica |
+| Conversioni post-clic | Conversioni attribuite a un clic. | Metrica |
+| Conversioni post-visualizzazione | Conversioni attribuite a una visualizzazione. | Metrica |
+| Valore ordine totale | Valore totale degli ordini. | Metrica |
+| Clic sui collegamenti | Numero di clic sul collegamento. | Metrica |
+| Clic in uscita | Numero di clic in uscita. | Metrica |
+| Installazioni app | Numero di installazioni dell’app. | Metrica |
+| Invii lead | Numero di invii di moduli lead. | Metrica |
+
+{style="table-layout:fixed"}
+
+### Metriche calcolate per elementi multimediali a pagamento
+
+| Titolo | Descrizione | Tipo |
+|---|---|---|
+| Percentuale di click-through | Clic divisi per impression. | Metrica calcolata |
+| Costo per clic | Spesa divisa per clic. | Metrica calcolata |
+| Costo per Mille | Costo per mille impression. | Metrica calcolata |
+| Costo per conversione | Spesa divisa per le conversioni. | Metrica calcolata |
+| Ritorno sulla spesa pubblicitaria | Valore di conversione diviso per la spesa. | Metrica calcolata |
+| Frequenza | Impression divise per portata. | Metrica calcolata |
+| Tasso di coinvolgimento | Coinvolgimenti divisi per impression. | Metrica calcolata |
+| Percentuale di completamento video | Completamenti video divisi per riproduzioni video. | Metrica calcolata |
+| Tasso di conversione | Conversioni divise per clic. | Metrica calcolata |
+| Valore medio ordine | Il valore totale dell&#39;ordine diviso per gli acquisti. | Metrica calcolata |
+
+{style="table-layout:fixed"}
+
 
 ## Metriche calcolate
 
