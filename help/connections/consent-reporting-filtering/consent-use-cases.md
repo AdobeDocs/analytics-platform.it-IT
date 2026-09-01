@@ -5,21 +5,14 @@ solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
 hide: true
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
-source-wordcount: 585
+source-wordcount: 590
 ht-degree: 0%
 
 ---
@@ -53,7 +46,7 @@ Scopri quanti visitatori corrispondono a ciascun criterio di consenso prima di d
 
 1. Crea una configurazione e seleziona la sandbox, il set di dati profilo e la connessione che contengono i dati di iscrizione al criterio di consenso.
 
-1. Lascia entrambi i filtri **[!UICONTROL Analytics]** e **[!UICONTROL Data science]** disattivati.
+1. Lascia entrambi i filtri **[!UICONTROL Dati di Analytics]** e **[!UICONTROL Dati scientifici]** disattivati.
 
 1. In Analysis Workspace, crea una tabella a forma libera con la dimensione **[!UICONTROL Nome criterio]** e la metrica **[!UICONTROL Visitatori con consenso]** per visualizzare la copertura per criterio.
 
@@ -70,7 +63,7 @@ Assicurati che il reporting standard includa solo i visitatori che hanno acconse
 
 1. Crea o modifica una configurazione per la connessione che abilita i rapporti di analisi.
 
-1. Abilita l&#39;opzione di filtro **[!UICONTROL Analytics]**.
+1. Attiva/disattiva filtro **[!UICONTROL Dati di Analytics]**.
 
 1. Conferma la configurazione. Da questo momento in poi, Customer Journey Analytics acquisisce i dati di un visitatore solo se il visitatore corrisponde a tutti i criteri di consenso applicabili all’azione di marketing Analytics.
 
@@ -86,7 +79,7 @@ Applica requisiti di consenso diversi alla generazione di rapporti standard e ai
 
 1. Crea o modifica una configurazione per la connessione pertinente.
 
-1. Attiva l&#39;interruttore **[!UICONTROL Analytics]**, l&#39;interruttore **[!UICONTROL Data science]** o entrambi, a seconda dei requisiti di consenso per ogni caso d&#39;uso.
+1. Attiva l&#39;interruttore **[!UICONTROL Dati di Analytics]**, l&#39;interruttore **[!UICONTROL Dati scientifici]** o entrambi, a seconda dei requisiti di consenso per ogni caso d&#39;uso.
 
 1. Conferma la configurazione. Customer Journey Analytics valuta in modo indipendente i criteri di consenso applicabili a ogni azione di marketing abilitata.
 
