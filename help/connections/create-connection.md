@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2a7629993e235d66844db036ccce88e57fc20562
+source-git-commit: 9c0ddbb48c5cb1c62bded02d1455f2631ab1679f
 workflow-type: tm+mt
-source-wordcount: 10479
+source-wordcount: 10488
 ht-degree: 90%
 
 ---
@@ -413,8 +413,8 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
 
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_personid"
->title="ID persona"
->abstract="Seleziona un campo di tipo identityMap o identityMap con una copertura completa degli eventi. I valori contenuti saranno elevati a quelli dello spazio dei nomi dell’identificatore della persona configurato in precedenza."
+>title="ID persona persistente"
+>abstract="Seleziona un campo di tipo identityMap o identityMap disponibile su tutti gli eventi, ad esempio il campo contenente gli ECID. Questi identificatori verranno elevati agli ID persona dallo spazio dei nomi dell’identificatore della persona configurato in precedenza."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_accountid"
