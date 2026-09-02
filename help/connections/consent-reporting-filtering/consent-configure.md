@@ -1,6 +1,6 @@
 ---
 title: Configurare reporting e filtro del consenso
-description: Scopri come utilizzare la procedura guidata di provisioning per abilitare i rapporti sul consenso e i filtri facoltativi in fase di acquisizione per una connessione in Customer Journey Analytics.
+description: Scopri come creare una configurazione per abilitare i rapporti sul consenso e i filtri facoltativi in fase di acquisizione per una connessione in Customer Journey Analytics.
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
+source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
-source-wordcount: 981
-ht-degree: 13%
+source-wordcount: 1326
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="cja-consent-merge-policy"
 >title="Criteri di unione"
->abstract="I criteri di unione combinano dati di profilo da più set di dati in profili cliente unificati utilizzati per la creazione del pubblico. Se trovi più criteri di unione e non sai quale scegliere, seleziona “Basato su tempo predefinito”. In alternativa, consulta il team di dati per scoprire quali tipi di pubblico sono associati a ciascun criterio di unione."
+>abstract="I criteri di unione combinano dati di profilo da più set di dati in profili cliente unificati utilizzati per la creazione del pubblico. Selezionare il criterio di unione corrispondente al set di dati profilo contenente i dati di appartenenza ai criteri di consenso (campo `consentPoliciesIDMap`) che si desidera includere nel rapporto. In alternativa, consulta il team di dati per scoprire quali tipi di pubblico sono associati a ciascun criterio di unione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -63,6 +63,24 @@ ht-degree: 13%
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-enable-reporting"
+>title="Abilita reporting"
+>abstract="Abilita questa opzione per utilizzare Analysis Workspace per generare rapporti sui dati del consenso disponibili nella connessione. Le dimensioni e le metriche dei criteri di consenso vengono aggiunte alle visualizzazioni dati selezionate."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-consent-enable-filtering"
+>title="Abilita filtro"
+>abstract="Abilita questa opzione per escludere i dati dei visitatori non consenzienti dall’acquisizione in Customer Journey Analytics. Quando è abilitata, i dati di un visitatore vengono acquisiti solo se il visitatore corrisponde a tutti i criteri di consenso abilitati di seguito. <br>Questa opzione è destinata alle organizzazioni che devono escludere i dati dei visitatori non autorizzati al momento dell&#39;acquisizione."
+
+<!-- markdownlint-enable MD034 -->
+
 Gli amministratori di sistema possono abilitare la segnalazione del consenso e, facoltativamente, il filtro del consenso per una o più connessioni. Per informazioni generali, consulta [Panoramica sui rapporti di consenso e filtri](/help/connections/consent-reporting-filtering/consent-overview.md).
 
 >[!IMPORTANT]
@@ -71,13 +89,15 @@ Gli amministratori di sistema possono abilitare la segnalazione del consenso e, 
 
 ## Creare una configurazione
 
-Quando crei una configurazione per la generazione di rapporti e il filtro del consenso, seleziona la sandbox e il set di dati profilo che contengono i dati di iscrizione ai criteri di consenso, scegli la connessione o le connessioni da configurare e scegli se filtrare i dati per ogni azione di marketing. Customer Journey Analytics crea quindi automaticamente il set di dati di ricerca dei criteri di consenso e i componenti dei criteri di consenso.
+Quando crei una configurazione per la generazione di rapporti e il filtro del consenso, seleziona la sandbox e il criterio di unione che contengono i dati di iscrizione al criterio di consenso, scegli la connessione o le connessioni da configurare e scegli se filtrare i dati per ogni azione di marketing. Customer Journey Analytics crea quindi automaticamente il set di dati di ricerca dei criteri di consenso e i componenti dei criteri di consenso.
 
 Per creare una configurazione di reporting e filtro del consenso:
 
 1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Generazione rapporti di consenso e filtro]**.
 
 1. Selezionare **[!UICONTROL Crea configurazione]**.
+
+   ![pagina di configurazione del consenso](assets/consent-configure.png)
 
 1. Nella sezione **[!UICONTROL Dettagli]**, specifica le seguenti informazioni:
 
@@ -86,32 +106,50 @@ Per creare una configurazione di reporting e filtro del consenso:
    | **[!UICONTROL Nome]** | Specifica un nome per la configurazione. |
    | **[!UICONTROL Sandbox]** | Seleziona la sandbox di Experience Platform che contiene il set di dati Profilo con i dati di iscrizione al criterio di consenso. <p>Esiste un massimo di un set di dati di ricerca dei criteri di consenso per sandbox. Più configurazioni nella stessa sandbox condividono lo stesso set di dati di ricerca.</p> |
 
-1. Nella sezione **[!UICONTROL Set di dati profilo]**, seleziona il set di dati profilo che contiene i dati di appartenenza ai criteri di consenso (campo `consentPoliciesIDMap`) su cui desideri creare un rapporto. Quando abiliti la segnalazione del consenso, questo set di dati profilo viene aggiunto alla connessione selezionata, se non ne fa già parte.
+1. Nella sezione **[!UICONTROL Set di dati profilo]**, nel campo **[!UICONTROL Criterio di unione]**, selezionare il criterio di unione corrispondente al set di dati profilo che contiene i dati di appartenenza ai criteri di consenso (campo `consentPoliciesIDMap`) su cui si desidera creare un rapporto. Quando abiliti la segnalazione del consenso, questo set di dati profilo viene aggiunto alla connessione selezionata, se non ne fa già parte.<p>I criteri di unione determinano il modo in cui Adobe Experience Platform combina i dati del profilo da più set di dati in profili cliente unificati utilizzati per i dati di iscrizione ai criteri di consenso. Ogni giorno in Experience Platform viene generata un’istantanea di questi dati. Questa istantanea fornisce una visualizzazione statica dei dati in un momento specifico e non include dati di eventi.</p><p>Selezionare il criterio di unione **[!UICONTROL Basato su tempo predefinito]** se sono presenti più criteri di unione e non si è sicuri di quale scegliere. Puoi anche consultare il team di dati per comprendere meglio quali dati sul consenso sono associati a ciascun criterio di unione.</p>
 
-1. Nella sezione **[!UICONTROL Connessione]**, seleziona **[!UICONTROL Seleziona una connessione]**, seleziona la casella di controllo accanto a una o più connessioni da configurare, quindi seleziona **[!UICONTROL Usa connessione]**.
+1. Nella sezione **[!UICONTROL Connessione]**, seleziona **[!UICONTROL Seleziona una connessione]**, seleziona la casella di controllo accanto alla connessione da configurare, quindi seleziona **[!UICONTROL Usa connessione]**.
 
    La generazione di rapporti e i filtri di consenso vengono applicati a livello di connessione. Tutte le visualizzazioni dati in una connessione configurata ereditano lo stesso comportamento.
 
-1. Nella sezione **[!UICONTROL Visualizzazioni dati]**, fai clic su **[!UICONTROL Seleziona visualizzazioni dati]**.
+1. Nel campo **[!UICONTROL ID persona]**, selezionare un campo dallo schema basato sul modello che rappresenta l&#39;ID persona. La selezione è limitata all’elenco dei campi nello schema contrassegnati come &quot;Identity&quot; e che hanno uno spazio dei nomi dell’identità.
 
-1. Nella finestra di dialogo Visualizzazioni dati, seleziona la casella di controllo accanto a una o più visualizzazioni dati che desideri utilizzare per la segnalazione del consenso. Queste visualizzazioni dati vengono configurate automaticamente con i dati di consenso di Experience Platform per il reporting.
+1. Scegli se abilitare la generazione di rapporti per i dati del consenso.
 
-1. Selezionare **[!UICONTROL Usa visualizzazioni dati]**.
+   Per informazioni su quando abilitare il reporting, vedi [Generazione rapporti di consenso e filtro](/help/connections/consent-reporting-filtering/consent-overview.md#consent-reporting-vs-filtering).
 
-1. (Facoltativo) Nella sezione **[!UICONTROL Filtro]**, seleziona [!UICONTROL **Abilita filtro**] per filtrare i dati del consenso.
+   Per abilitare e configurare la generazione rapporti:
 
-   Quando il filtro è abilitato, Customer Journey Analytics acquisisce i dati di un visitatore solo se il visitatore corrisponde a qualsiasi criterio di consenso abilitato. Per ulteriori informazioni, vedere [Filtro del consenso](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering) in [Panoramica sui report e i filtri del consenso](/help/connections/consent-reporting-filtering/consent-overview.md).
+   1. Nella sezione **[!UICONTROL Reporting]**, seleziona **[!UICONTROL Abilita reporting]**.
 
-1. (Facoltativo) Abilita il filtro per le seguenti azioni di marketing:
+   1. Seleziona le visualizzazioni dati associate alla tua connessione che desideri utilizzare durante l’analisi dei dati di consenso della piattaforma in Analysis Workspace. Nella sezione **[!UICONTROL Visualizzazioni dati]**, fai clic su **[!UICONTROL Seleziona visualizzazioni dati]**.
 
-   >[!NOTE]
-   >
-   >Quando il filtro per un&#39;azione di marketing è abilitato, Customer Journey Analytics acquisisce i dati di un visitatore solo se il visitatore corrisponde a **tutti** i criteri di consenso che si applicano a tale azione di marketing. Per ulteriori informazioni, vedere [Filtro del consenso](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering) in [Panoramica sui report e i filtri del consenso](/help/connections/consent-reporting-filtering/consent-overview.md).
+   1. Nella finestra di dialogo Visualizzazioni dati, seleziona la casella di controllo accanto a una o più visualizzazioni dati che desideri utilizzare per la segnalazione del consenso. Queste visualizzazioni dati vengono configurate automaticamente con i dati di consenso di Experience Platform per il reporting.
 
-   | Azione di marketing | Descrizione |
-   |---------|----------|
-   | **[!UICONTROL Dati di Analytics]** | Filtra i dati utilizzati per il reporting standard di Customer Journey Analytics in Analysis Workspace. |
-   | **[!UICONTROL Dati scientifici]** | Filtra i dati utilizzati per casi di utilizzo di analisi avanzate, apprendimento automatico e data science. |
+   1. Selezionare **[!UICONTROL Usa visualizzazioni dati]**.
+
+1. Scegli se abilitare il filtro, che esclude i visitatori non consenzienti al momento dell’acquisizione.
+
+   Quando il filtro è abilitato, Customer Journey Analytics acquisisce i dati di un visitatore solo se il visitatore corrisponde a tutti i criteri di consenso abilitati.
+
+   Per informazioni su quando abilitare il filtro, vedi [Generazione rapporti di consenso e filtro](/help/connections/consent-reporting-filtering/consent-overview.md#consent-reporting-vs-filtering).
+
+   Per abilitare e configurare il filtro:
+
+   1. Nella sezione **[!UICONTROL Filtro]**, seleziona **[!UICONTROL Abilita filtro]** per filtrare i dati del consenso.
+
+   1. Abilita il filtro per una o entrambe le seguenti azioni di marketing:
+
+      >[!NOTE]
+      >
+      >Quando il filtro per un&#39;azione di marketing è abilitato, Customer Journey Analytics acquisisce i dati di un visitatore solo se il visitatore corrisponde a **tutti** i criteri di consenso che si applicano a tale azione di marketing. Per ulteriori informazioni, vedere [Filtro del consenso](/help/connections/consent-reporting-filtering/consent-overview.md#consent-filtering) in [Panoramica sui report e i filtri del consenso](/help/connections/consent-reporting-filtering/consent-overview.md).
+
+      Le azioni di marketing sono legate alle etichette di utilizzo dei dati e ai criteri configurati in Experience Platform. Per ulteriori informazioni, consulta [Etichette, criteri e azioni di marketing](/help/data-views/data-governance.md).
+
+      | Azione di marketing | Descrizione |
+      | --------- | ---------- |
+      | **[!UICONTROL Dati di Analytics]** | Filtra i dati utilizzati per il reporting standard di Customer Journey Analytics in Analysis Workspace. |
+      | **[!UICONTROL Dati scientifici]** | Filtra i dati utilizzati per casi di utilizzo di analisi avanzate, apprendimento automatico e data science. |
 
 1. Seleziona **[!UICONTROL Crea]** per creare la configurazione.
 

@@ -27,10 +27,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 89f0a1e54662c59d474b1fba28eb8420612e9243
+source-git-commit: e8f86da8d18cfa6a30e4a8330ae5492e9d0aa2f0
 workflow-type: tm+mt
-source-wordcount: 21140
-ht-degree: 98%
+source-wordcount: 21213
+ht-degree: 97%
 
 ---
 
@@ -677,6 +677,7 @@ Sono disponibili i modelli seguenti:
 
 &#x200B;| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
+| [!UICONTROL **Panoramica sui criteri di consenso**] | Visualizza i visitatori in base ai dati di iscrizione al criterio di consenso forniti da Adobe Experience Platform.<p>**Questo ti può aiutare** come punto di partenza per la generazione di rapporti sull&#39;iscrizione ai criteri di consenso dei visitatori. Quando una visualizzazione dati è configurata per la generazione di rapporti sul consenso, Customer Journey Analytics rende automaticamente disponibile in Analysis Workspace un modello di analisi dei criteri di consenso. <br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio escludere i visitatori non consenzienti dal reporting di Analytics.</p> |
 | **[!UICONTROL Panoramica del pubblico]** | Visualizza i tipi di pubblico rappresentati tra le persone che visitano il tuo sito.<p>**Questo può aiutarti** comprendere meglio le informazioni generali sui tipi di pubblico, la loro origine (RTCDP, Customer Journey Analytics, e così via), la sovrapposizione del pubblico e altro ancora.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing destinate a questi tipi di pubblico specifici, oppure creare esperienze su misura per i clienti che appartengono a più tipi di pubblico.</p><p>Questo modello utilizza le dimensioni Audience Name, Audience Origin, Exited Audience Name e Exited Audience Origin.</p><p>Per ulteriori informazioni, consulta [Analizzare il pubblico di Experience Platform in Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).</p> |
 | [!UICONTROL **Visitatori nuovi e ripetuti**] | Visualizza un confronto tra visitatori nuovi e visitatori ripetuti. <p>**Questo può aiutarti** a comprendere meglio l’efficacia del tuo sito nel mantenere la fedeltà della clientela oppure la velocità con cui ne acquisisci di nuova.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio offrire ai nuovi visitatori degli incentivi per acquisti futuri, così da invogliarli a ritornare.</p><!-- This template uses the --> |
 | **ID persona** | Visualizza il comportamento di singoli utenti su vari canali.<p>**Questo può aiutarti** a comprendere meglio il percorso cliente completo e le interazioni tra più punti di contatto.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come personalizzare le attività di marketing in base alle preferenze degli utenti.</p><!-- This template uses the --> |
@@ -707,7 +708,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="aa-template--searchenginerankrankedreport"
 >title="Visualizza quale pagina dei risultati di ricerca su cui un visitatore ha fatto clic per arrivare sul sito. Ad esempio, se il sito viene visualizzato nella seconda pagina dei risultati di ricerca di un motore di ricerca, l’elemento della dimensione per questa variabile è Pagina di ricerca 2."
->abstract="**Questo può aiutarti** a comprendere meglio il posizionamento delle pagine nei risultati di ricerca.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la strategia SEO per garantire che i tuoi contenuti vengano visualizzati nella prima pagina dei risultati di ricerca."
+>abstract="**Questo può aiutarti** a comprendere meglio il ranking delle pagine nei risultati di ricerca.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la strategia SEO per garantire che i tuoi contenuti vengano visualizzati nella prima pagina dei risultati di ricerca."
 
 
 <!--Both AA and CJA-->
