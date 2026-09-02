@@ -5,23 +5,15 @@ hide: true
 feature: Components
 autotag-review: '2026-05-19T08:45:44.870Z'
 TQID: 'https://experienceleague.adobe.com/QgBD7vCkw4YA568XOLlwTnw8eZVZybXr3DFbM1ZKYDw'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 8a5568b3b6136bc3f8b507f551fbb6d169e4b88a
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f5a7272f80aaba167974f2218bc84408d47f62d4
 workflow-type: tm+mt
-source-wordcount: 4088
-ht-degree: 17%
+source-wordcount: 4217
+ht-degree: 18%
 
 ---
 
@@ -73,7 +65,16 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_user-agent"
 >title=""
->abstract="I dati dell’agente utente e i dati di ricerca del dispositivo non possono esistere nella stessa configurazione di feed dati."
+>abstract="I dati dell’agente utente e i dati di ricerca del dispositivo non possono esistere nella stessa configurazione di feed di dati."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_datafeed_required_dimensions"
+>title="Dimensioni richieste"
+>abstract="Ogni feed di dati deve includere determinate dimensioni, identificate da un&#39;etichetta **Obbligatorio** accanto al nome della dimensione. Queste dimensioni forniscono la struttura minima necessaria per l’analisi a livello di evento."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -113,6 +114,14 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    Quando applichi più segmenti, questi vengono uniti insieme a un operatore AND. Per unire i segmenti con un operatore OR, devi prima creare un nuovo segmento nel generatore di segmenti, quindi applicare il nuovo segmento al feed di dati.
 
    I segmenti applicati in questo caso si aggiungono a eventuali segmenti già applicati nella visualizzazione dati.
+
+1. (Facoltativo) Nella barra a sinistra, utilizza il campo **search** per individuare componenti specifici. In alternativa, selezionare l&#39;icona **Ordina** ![Ordina icona componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) per applicare una delle seguenti opzioni di ordinamento:
+
+   | Opzione | Funzione |
+   | --------- | ---------- |
+   | [!UICONTROL **Consigliato**] | Ordina i componenti a partire da quelli consigliati. I componenti utilizzati più di frequente e più di recente da te o da altri nella tua organizzazione vengono visualizzati più in alto nell’elenco. |
+   | [!UICONTROL **Alfabetico**] | Ordina alfabeticamente i componenti. |
+   | [!UICONTROL **Per categorie**] | Ordina componenti simili a [!UICONTROL **Consigliato**], con la differenza che le metriche calcolate e le metriche standard sono raggruppate separatamente invece di essere combinate tra loro. |
 
 1. Aggiungi componenti alla configurazione del feed dati. La barra a sinistra mostra solo i componenti validi per i feed di dati.
 
