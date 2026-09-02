@@ -2,9 +2,9 @@
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 144df28d7146435a225d5e8eefb3b10fee702045
+source-git-commit: 6b14b7df4c897c42c963fb93c48e7331b0264589
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1484'
 ht-degree: 91%
 
 ---
@@ -467,11 +467,12 @@ ht-degree: 91%
   + [Panoramica](/help/stitching/overview.md)
   + [Unione delle identità basata sui campi](/help/stitching/fbs.md)
   + [Unione delle identità basata su grafo](/help/stitching/gbs.md)
-  + {hide-from-toc}[Unione account B2B](/help/stitching/b2b-account-stitching.md)
   + [Richiedere l’unione delle identità](/help/stitching/use-stitching.md)
   + [Abilitare l’unione delle identità](/help/stitching/use-stitching-ui.md)
   + [Convalidare l’unione delle identità](/help/stitching/validate.md)
   + [Domande frequenti](/help/stitching/faq.md)
+  + B2B {#b2b}
+    + [Unione da persona a account](/help/stitching/b2b/b2b-person-to-account-stitching.md)
 
 + Segnalazione popolazione totale {#tpr}
   + {hide-from-toc}[Panoramica](/help/tpr/tpr.md)
@@ -586,3 +587,4 @@ ht-degree: 91%
 
 + [API di Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/)
 + [Server MCP Customer Journey Analytics](https://developer.adobe.com/analytics-mcp/docs/cja/)
+
