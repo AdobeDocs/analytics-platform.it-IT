@@ -5,14 +5,10 @@ feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
 TQID: https://experienceleague.adobe.com/21Rc7-uX7Ie2qj5FHzjb89CTmvi79Ne-FR92okGF5uo
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: a8b1c240-f315-46e3-b813-f545c4279dd1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: a8b1c240-f315-46e3-b813-f545c4279dd1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 860
@@ -46,15 +42,15 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
 
   ![Salva progetto](assets/save-project.png)
 
-   1. Specifica:
+  1. Specifica:
 
-      * **[!UICONTROL Nome]** (obbligatorio). nome del progetto.
-      * **[!UICONTROL Descrizione]**. Descrizione del progetto.
-      * **[!UICONTROL Tag]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL INVIO]**.
-      * **[!UICONTROL Cartella]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specifichi una cartella, il progetto viene salvato nella cartella corrente dalla quale hai creato un nuovo progetto.
-      * **[!UICONTROL Note sulla versione]**. Aggiungi le note sulla versione nell’area di testo *Aggiungi note*.
+     * **[!UICONTROL Nome]** (obbligatorio). nome del progetto.
+     * **[!UICONTROL Descrizione]**. Descrizione del progetto.
+     * **[!UICONTROL Tag]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL INVIO]**.
+     * **[!UICONTROL Cartella]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specifichi una cartella, il progetto viene salvato nella cartella corrente dalla quale hai creato un nuovo progetto.
+     * **[!UICONTROL Note sulla versione]**. Aggiungi le note sulla versione nell’area di testo *Aggiungi note*.
 
-   1. Seleziona **[!UICONTROL Salva]** per salvare il progetto.
+  1. Seleziona **[!UICONTROL Salva]** per salvare il progetto.
 
   Il salvataggio del progetto in realtà salva una versione del progetto che viene memorizzata per 90 giorni.
 
@@ -62,8 +58,8 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
 
   ![Salva progetto condiviso](assets/save-project-shared.png)
 
-   * Seleziona **[!UICONTROL Salva]** per salvare il progetto.
-   * Seleziona **[!UICONTROL Salva con nome]** per salvare il progetto come progetto duplicato con un nuovo nome.
+  * Seleziona **[!UICONTROL Salva]** per salvare il progetto.
+  * Seleziona **[!UICONTROL Salva con nome]** per salvare il progetto come progetto duplicato con un nuovo nome.
 
 
 * **[!UICONTROL Salva con note]**
@@ -72,8 +68,8 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
 
   Quando salvi il progetto, aggiungi note sulle modifiche apportate al progetto. Nella finestra di dialogo Salva note sulla versione:
 
-   1. Immetti le **[!UICONTROL note sulla versione]** nell&#39;area di testo **[!UICONTROL Aggiungi note]**.
-   1. Seleziona **[!UICONTROL Salva]**.
+  1. Immetti le **[!UICONTROL note sulla versione]** nell&#39;area di testo **[!UICONTROL Aggiungi note]**.
+  1. Seleziona **[!UICONTROL Salva]**.
 
   Le note sono archiviate con la versione del progetto e sono disponibili quando [apri una versione precedente](open-projects.md#open-previous-version) del progetto. Una versione salvata con le note viene automaticamente memorizzata per un anno.
 
@@ -83,22 +79,22 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
 
   Crea un duplicato del progetto con un nuovo nome. Viene visualizzata la finestra di dialogo Salva con nome.
 
-   1. Specifica:
+  1. Specifica:
 
-      * **[!UICONTROL Nome]** (obbligatorio). nome del progetto.
-      * **[!UICONTROL Descrizione]**. Descrizione del progetto.
-      * **[!UICONTROL Tag]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL INVIO]**.
-      * **[!UICONTROL Cartella]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specifichi una cartella, il progetto viene salvato nella cartella corrente dalla quale hai creato un nuovo progetto.
-      * **[!UICONTROL Note sulla versione]**. Aggiungi le note sulla versione nell’area di testo *Aggiungi note*.
+     * **[!UICONTROL Nome]** (obbligatorio). nome del progetto.
+     * **[!UICONTROL Descrizione]**. Descrizione del progetto.
+     * **[!UICONTROL Tag]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL INVIO]**.
+     * **[!UICONTROL Cartella]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specifichi una cartella, il progetto viene salvato nella cartella corrente dalla quale hai creato un nuovo progetto.
+     * **[!UICONTROL Note sulla versione]**. Aggiungi le note sulla versione nell’area di testo *Aggiungi note*.
 
-   1. Seleziona **[!UICONTROL Salva]** per salvare il progetto.
+  1. Seleziona **[!UICONTROL Salva]** per salvare il progetto.
 
   Puoi salvare il progetto in un’altra cartella. Il progetto originale non verrà interessato.
 
 
 <!-- 
 Cannot find this option in CJA 
-| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=it) that becomes available to your organization under **[!UICONTROL Project > New]** |
+| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** |
 -->
 
 ## Salvataggio automatico

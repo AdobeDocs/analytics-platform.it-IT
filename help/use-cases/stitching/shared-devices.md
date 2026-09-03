@@ -7,27 +7,15 @@ role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
 autotag-review: '2026-05-19T09:47:24.777Z'
 TQID: 'https://experienceleague.adobe.com/8Xq8mUchtogMLiEuPVv-DWpkWtD5ubJGSQm2SRaZmps'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24bid: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 16%
+source-wordcount: 743
+ht-degree: 18%
 
 ---
 
@@ -43,11 +31,11 @@ Quando due persone utilizzano lo stesso dispositivo ed entrambe effettuano un ac
 
 | Evento | Marca temporale | Nome pagina | ID dispositivo | E-mail |
 |--:|---|---|---|---|
-| 1 | 12/05/2023 12:01 | Pagina Home | `1234` | |
-| 2 | 12/05/2023 12:02 | Pagina di prodotto | `1234` | |
-| 3 | 12/05/2023 12:03 | Ordine completato | `1234` | `ryan@a.com` |
-| 4 | 12/05/2023 12:07 | Pagina di prodotto | `1234` | |
-| 5 | 12/05/2023 12:08 | Ordine completato | `1234` | `cassidy@a.com` |
+| 1 | 2023-05-12 12:01 | Pagina Home | `1234` | |
+| 2 | 2023-05-12 12:02 | Pagina di prodotto | `1234` | |
+| 3 | 2023-05-12 12:03 | Ordine completato | `1234` | `ryan@a.com` |
+| 4 | 2023-05-12 12:07 | Pagina di prodotto | `1234` | |
+| 5 | 2023-05-12 12:08 | Ordine completato | `1234` | `cassidy@a.com` |
 
 Come puoi vedere da questa tabella, una volta che l’autenticazione si verifica sugli eventi 3 e 5, inizia a formarsi un collegamento tra un ID dispositivo e un ID persona. Per comprendere l’impatto di qualsiasi attività di marketing a livello di persona, questi eventi non autenticati devono essere attribuiti alla persona giusta.
 
@@ -68,7 +56,7 @@ Con l’unione è possibile attribuire i dati dei dispositivi condivisi utilizza
 
 ### Attribuzione ultima autenticazione
 
-Ultima autenticazione attribuisce tutte le attività sconosciute da un dispositivo condiviso all’ultimo utente autenticato. Il servizio Experience Platform Identity crea il grafico in base all’attribuzione dell’ultima autenticazione e, come tale, viene utilizzato nell’unione basata su grafico. Per ulteriori informazioni, vedere [Regole di collegamento del grafico delle identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details).
+Ultima autenticazione attribuisce tutte le attività sconosciute da un dispositivo condiviso all’ultimo utente autenticato. Il servizio Experience Platform Identity crea il grafico in base all’attribuzione dell’ultima autenticazione e, come tale, viene utilizzato nell’unione basata su grafico. Per ulteriori informazioni, vedere [Regole di collegamento del grafico delle identità](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details).
 
 Quando nell’unione viene utilizzata l’attribuzione last-auth, gli ID uniti vengono risolti come mostrato nella tabella seguente.
 

@@ -6,16 +6,11 @@ role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
 autotag-review: '2026-05-19T08:42:43.573Z'
 TQID: 'https://experienceleague.adobe.com/HnG-l4s4MLz-vmdQVtFzVQIC-lzsbAxWItNFFYHqv5I'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: ddf59f64-0e46-4986-a525-056acc143c70
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 1627
@@ -53,8 +48,8 @@ Quando crei collegamenti ipertestuali per uno o più elementi dimensionali, cons
 
 * La validità degli URL non viene verificata durante la creazione del collegamento ipertestuale. Se
 
-   * crei un collegamento ipertestuale con un URL non valido oppure
-   * crei un collegamento ipertestuale con riferimento a un elemento dimensionale che non ha un valore URL (facendo riferimento direttamente all’elemento dimensionale o utilizzando le variabili `$value` o `$breakdown`),
+  * crei un collegamento ipertestuale con un URL non valido oppure
+  * crei un collegamento ipertestuale con riferimento a un elemento dimensionale che non ha un valore URL (facendo riferimento direttamente all’elemento dimensionale o utilizzando le variabili `$value` o `$breakdown`),
 
   gli utenti che fanno clic sul collegamento ipertestuale visualizzano un messaggio di errore in cui viene indicato che l’URL non è valido.
 
@@ -68,23 +63,23 @@ Per creare collegamenti ipertestuali per uno o più elementi dimensionali:
 
    * **Crea un collegamento ipertestuale per un singolo elemento dimensionale:** fai clic con il pulsante destro del mouse sull’elemento dimensionale all’interno della tabella per il quale desideri creare il collegamento ipertestuale, quindi seleziona [!UICONTROL **Crea collegamento ipertestuale**].
 
-      1. Apri il menu di scelta rapida per l’elemento dimensionale.
-      1. Seleziona [!UICONTROL **Crea collegamento ipertestuale**] dal menu di scelta rapida.
+     1. Apri il menu di scelta rapida per l’elemento dimensionale.
+     1. Seleziona [!UICONTROL **Crea collegamento ipertestuale**] dal menu di scelta rapida.
 
-         Viene visualizzata la finestra di dialogo [!UICONTROL **Crea collegamento ipertestuale**]. Il nome dell’elemento dimensionale per il quale stai creando un collegamento ipertestuale viene visualizzato nella finestra di dialogo.
+        Viene visualizzata la finestra di dialogo [!UICONTROL **Crea collegamento ipertestuale**]. Il nome dell’elemento dimensionale per il quale stai creando un collegamento ipertestuale viene visualizzato nella finestra di dialogo.
 
-         ![Creare il collegamento ipertestuale per la finestra di dialogo di un singolo elemento](assets/hyperlink-dialog-single.png)
+        ![Creare il collegamento ipertestuale per la finestra di dialogo di un singolo elemento](assets/hyperlink-dialog-single.png)
 
    * **Crea collegamenti ipertestuali per tutti gli elementi dimensionali nella colonna di una dimensione:** fai clic con il pulsante destro del mouse sul nome della dimensione nell’intestazione della colonna della dimensione, quindi seleziona [!UICONTROL **Crea collegamenti ipertestuali per tutti gli elementi dimensionali**].
 
-      1. Apri il menu di scelta rapida dall’intestazione della colonna della dimensione.
-      1. Seleziona [!UICONTROL **Crea collegamento ipertestuale per tutti gli elementi dimensionali**] dal menu di scelta rapida.
+     1. Apri il menu di scelta rapida dall’intestazione della colonna della dimensione.
+     1. Seleziona [!UICONTROL **Crea collegamento ipertestuale per tutti gli elementi dimensionali**] dal menu di scelta rapida.
 
-         <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
+        <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
 
-         Viene visualizzata la finestra di dialogo [!UICONTROL **Crea collegamenti ipertestuali per tutti gli elementi dimensionali**]. Il nome della dimensione per la quale stai creando collegamenti ipertestuali viene visualizzato nella finestra di dialogo.
+        Viene visualizzata la finestra di dialogo [!UICONTROL **Crea collegamenti ipertestuali per tutti gli elementi dimensionali**]. Il nome della dimensione per la quale stai creando collegamenti ipertestuali viene visualizzato nella finestra di dialogo.
 
-         ![Finestra di dialogo per la creazione di collegamenti ipertestuali](assets/hyperlink-dialog-multiple.png)
+        ![Finestra di dialogo per la creazione di collegamenti ipertestuali](assets/hyperlink-dialog-multiple.png)
 
 1. Scegli tra le seguenti opzioni:
 
@@ -121,15 +116,15 @@ Puoi modificare i collegamenti ipertestuali creati su dimensioni o elementi dime
 
    * **Modifica un collegamento ipertestuale per un singolo elemento dimensionale:**
 
-      1. Apri il menu di scelta rapida per l’elemento dimensionale.
-      1. Seleziona [!UICONTROL **Modifica collegamento ipertestuale**] dal menu di scelta rapida.
+     1. Apri il menu di scelta rapida per l’elemento dimensionale.
+     1. Seleziona [!UICONTROL **Modifica collegamento ipertestuale**] dal menu di scelta rapida.
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a single dimension item](assets/hyperlink-single-edit.png)-->
 
    * **Modifica collegamenti ipertestuali per tutti gli elementi dimensionali nella colonna di una dimensione:**
 
-      1. Apri il menu di scelta rapida dall’intestazione della colonna della dimensione.
-      1. Selezionare **[!UICONTROL Modifica collegamento ipertestuale per tutti gli elementi dimensionali]** dal menu di scelta rapida.
+     1. Apri il menu di scelta rapida dall’intestazione della colonna della dimensione.
+     1. Selezionare **[!UICONTROL Modifica collegamento ipertestuale per tutti gli elementi dimensionali]** dal menu di scelta rapida.
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a dimension](assets/hyperlink-dimension-edit.png)-->
 
@@ -155,14 +150,14 @@ Per rimuovere i collegamenti ipertestuali dagli elementi dimensionali:
 
    * **Rimozione di un collegamento ipertestuale da un singolo elemento dimensionale:**
 
-      1. Apri il menu di scelta rapida per l’elemento dimensionale.
-      1. Seleziona [!UICONTROL **Rimuovi collegamento ipertestuale**] dal menu di scelta rapida.
-         <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
+     1. Apri il menu di scelta rapida per l’elemento dimensionale.
+     1. Seleziona [!UICONTROL **Rimuovi collegamento ipertestuale**] dal menu di scelta rapida.
+        <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
 
    * **Rimozione di collegamenti ipertestuali da tutti gli elementi dimensionali in una colonna dimensione:**
 
-      1. Apri il menu di scelta rapida dall’intestazione della colonna della dimensione.
-      1. Selezionare **[!UICONTROL Rimuovi collegamento ipertestuale per tutti gli elementi dimensione]** dal menu di scelta rapida.
+     1. Apri il menu di scelta rapida dall’intestazione della colonna della dimensione.
+     1. Selezionare **[!UICONTROL Rimuovi collegamento ipertestuale per tutti gli elementi dimensione]** dal menu di scelta rapida.
 
      <!-- Do we really need a screenshot? [Remove hyperlink from a dimension](assets/hyperlink-dimension-remove.png)-->
 

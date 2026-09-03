@@ -5,17 +5,10 @@ feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
 role: User
 TQID: https://experienceleague.adobe.com/-jngIXgXeFZZkfL5jSHLuX8ZmcWU5rIfLqb26ovn6QY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: b1f5d324-a668-4e51-a59b-6fc0862d7310id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 549
@@ -29,7 +22,7 @@ Customer Journey Analytics fornisce i seguenti modelli di metriche calcolate per
 
 | Nome della metrica calcolata | Descrizione<br/>Formula |
 |---------|----------|
-| **[!UICONTROL Frequenza di inizio sessione]** | La percentuale di tempo in cui si è verificato un elemento dimensionale nel primo evento di una sessione.<p>Questa metrica calcolata viene aggiunta automaticamente a Workspace quando includi il [[!UICONTROL Componente standard]](/help/data-views/component-reference.md) &rbrack; &lbrack; della sessione nella [visualizzazione dati](/help/data-views/create-dataview.md).</p>Riepilogo: **(** ![Evento](/help/assets/icons/Event.svg) **Inizio sessione** ![Dividi](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **Sessioni** **)** |
+| **[!UICONTROL Frequenza di inizio sessione]** | La percentuale di tempo in cui si è verificato un elemento dimensionale nel primo evento di una sessione.<p>Questa metrica calcolata viene aggiunta automaticamente a Workspace quando includi il [!UICONTROL Componente standard](/help/data-views/component-reference.md) ] [ della sessione nella [visualizzazione dati](/help/data-views/create-dataview.md).</p>Riepilogo: **(** ![Evento](/help/assets/icons/Event.svg) **Inizio sessione** ![Dividi](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **Sessioni** **)** |
 | **[!UICONTROL Tempo trascorso per persona]** | Il tempo medio trascorso da una persona per un dato elemento della dimensione.<p>Questa metrica calcolata viene aggiunta automaticamente a Workspace quando includi il [!UICONTROL Tempo trascorso (secondi)] [componente standard](/help/data-views/component-reference.md) nella [visualizzazione dati](/help/data-views/create-dataview.md). Il segmento Escludi ultimo evento della sessione viene applicato alla metrica Persone. Il segmento esclude l’ultimo evento di ogni sessione in un set di dati. Questa esclusione può aiutarti ad analizzare il comportamento dell’utente che porta a un evento o a un’azione, ad esempio un acquisto o l’invio di un modulo, escludendo al contempo l’azione finale stessa.</p>Riepilogo: **(** ![Evento](/help/assets/icons/Event.svg) **Tempo trascorso (secondi)** ![Dividi](/help/assets/icons/Divide.svg) ![Segmentazione](/help/assets/icons/Segmentation.svg) **Escludi ultimo evento della sessione(** ![Evento](/help/assets/icons/Event.svg) **Persone )** |
 | **[!UICONTROL Sessioni per persona]** | Numero medio di sessioni per persona<p>Riepilogo: **(** ![Evento](/help/assets/icons/Event.svg) **Sessioni** ![Dividi](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **Persone** **)** |
 | **[!UICONTROL Tempo trascorso per sessione]** | Il tempo medio trascorso da una persona in una sessione per un dato elemento della dimensione.<p>Questa metrica calcolata viene aggiunta automaticamente a Workspace quando includi il [!UICONTROL Tempo trascorso (secondi)] [componente standard](/help/data-views/component-reference.md) nella [visualizzazione dati](/help/data-views/create-dataview.md). Il segmento Escludi ultimo evento della sessione viene applicato alla metrica Sessioni. Il segmento esclude l’ultimo evento di ogni sessione in un set di dati. Questa esclusione può aiutarti ad analizzare il comportamento dell’utente che porta a un evento o a un’azione, ad esempio un acquisto o l’invio di un modulo, escludendo al contempo l’azione finale stessa.</p>Riepilogo: **(** ![Evento](/help/assets/icons/Event.svg) **Tempo trascorso (secondi)** ![Dividi](/help/assets/icons/Divide.svg) ![Segmentazione](/help/assets/icons/Segmentation.svg) **Escludi ultimo evento della sessione(** ![Evento](/help/assets/icons/Event.svg) **Sessioni )** |

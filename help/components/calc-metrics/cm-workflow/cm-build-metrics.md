@@ -4,24 +4,14 @@ title: Creare metriche
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
 TQID: https://experienceleague.adobe.com/ilqzP7cMRQqi7-zoylBlfYGv-mgRqbC-66utGrNVFdY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 1693
+source-wordcount: 1699
 ht-degree: 58%
 
 ---
@@ -84,8 +74,8 @@ La finestra di dialogo **[!UICONTROL Generatore di metriche calcolate]** viene u
    La **[!UICONTROL Compatibilità del prodotto]** indica se la metrica calcolata può essere utilizzata nella sperimentazione e nell&#39;esportazione di tabelle complete. I valori possibili sono:
    * **[!UICONTROL Ovunque in Customer Journey Analytics]**: la metrica calcolata può essere utilizzata in tutto Customer Journey Analytics.
    * **[!UICONTROL Non compatibile in:]**
-      * **[!UICONTROL Sperimentazione]**: la metrica calcolata può essere utilizzata in tutto Customer Journey Analytics, eccetto nel pannello Sperimentazione.
-      * **[!UICONTROL Esportazione tabella completa]**: la metrica calcolata può essere utilizzata in tutto Customer Journey Analytics, tranne quando si esportano tabelle complete da Workspace. Non tutte le funzioni sono supportate quando si esportano tabelle complete. Se devi includere la metrica calcolata durante l’esportazione di tabelle complete, utilizza una funzione supportata. Per ulteriori informazioni, vedere [Funzioni metriche calcolate non supportate](/help/analysis-workspace/export/export-cloud.md#unsupported-calculated-metric-functions) in [Esportare tabelle complete nel cloud](/help/analysis-workspace/export/export-cloud.md).
+     * **[!UICONTROL Sperimentazione]**: la metrica calcolata può essere utilizzata in tutto Customer Journey Analytics, eccetto nel pannello Sperimentazione.
+     * **[!UICONTROL Esportazione tabella completa]**: la metrica calcolata può essere utilizzata in tutto Customer Journey Analytics, tranne quando si esportano tabelle complete da Workspace. Non tutte le funzioni sono supportate quando si esportano tabelle complete. Se devi includere la metrica calcolata durante l’esportazione di tabelle complete, utilizza una funzione supportata. Per ulteriori informazioni, vedere [Funzioni metriche calcolate non supportate](/help/analysis-workspace/export/export-cloud.md#unsupported-calculated-metric-functions) in [Esportare tabelle complete nel cloud](/help/analysis-workspace/export/export-cloud.md).
 
 1. Seleziona:
    * **[!UICONTROL Salva]** per salvare la metrica calcolata.
@@ -155,22 +145,22 @@ Utilizza il concetto di un contenitore di segmenti per creare una [metrica segme
 
 * Per aggiungere un contenitore di segmenti da una dimensione:
 
-   1. Trascina e rilascia un componente ![Dimensioni](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensioni]** dal pannello dei componenti in **[!UICONTROL Trascina e rilascia qui]** metriche, dimensioni, elementi dimensionali, segmenti e/o funzioni. Puoi usare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare componenti specifici.
-   1. Nel popup **[!UICONTROL Crea segmento da Dimension]**, definisci la condizione per il segmento. Seleziona dall’elenco degli operatori un valore oppure immetti un valore. Ad esempio, **[!UICONTROL Mese]** **[!UICONTROL è uguale a]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
-   1. Seleziona **[!UICONTROL Fine]**. Contenitore di segmenti aggiunto alla **[!UICONTROL Definizione]**.
+  1. Trascina e rilascia un componente ![Dimensioni](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensioni]** dal pannello dei componenti in **[!UICONTROL Trascina e rilascia qui]** metriche, dimensioni, elementi dimensionali, segmenti e/o funzioni. Puoi usare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare componenti specifici.
+  1. Nel popup **[!UICONTROL Crea segmento da Dimension]**, definisci la condizione per il segmento. Seleziona dall’elenco degli operatori un valore oppure immetti un valore. Ad esempio, **[!UICONTROL Mese]** **[!UICONTROL è uguale a]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
+  1. Seleziona **[!UICONTROL Fine]**. Contenitore di segmenti aggiunto alla **[!UICONTROL Definizione]**.
 
 
 * Per aggiungere un contenitore di segmenti da un segmento, puoi:
 
-   * Trascina e rilascia un componente ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmenti]** dal pannello dei componenti in **[!UICONTROL Trascina e rilascia qui]** metriche, dimensioni, elementi dimensionali, segmenti e/o funzioni. Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare segmenti specifici.
-Automaticamente un contenitore di segmenti viene aggiunto alla **[!UICONTROL Definizione]**, utilizzando il nome del segmento.
+  * Trascina e rilascia un componente ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmenti]** dal pannello dei componenti in **[!UICONTROL Trascina e rilascia qui]** metriche, dimensioni, elementi dimensionali, segmenti e/o funzioni. Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare segmenti specifici.
+    Automaticamente un contenitore di segmenti viene aggiunto alla **[!UICONTROL Definizione]**, utilizzando il nome del segmento.
 
-   * Trascina un componente ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** dal pannello dei componenti in un contenitore generico. Il contenitore viene modificato in un contenitore di segmenti.
+  * Trascina un componente ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** dal pannello dei componenti in un contenitore generico. Il contenitore viene modificato in un contenitore di segmenti.
 
-   * Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Aggiungi]** dall&#39;interno di un contenitore:
+  * Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Aggiungi]** dall&#39;interno di un contenitore:
 
-      1. Seleziona **[!UICONTROL Segmento]**. Contenitore di segmenti aggiunto alla **[!UICONTROL Definizione]**.
-      1. Nel nuovo contenitore di segmenti, seleziona un segmento dal menu a discesa [!UICONTROL *Seleziona...*].
+    1. Seleziona **[!UICONTROL Segmento]**. Contenitore di segmenti aggiunto alla **[!UICONTROL Definizione]**.
+    1. Nel nuovo contenitore di segmenti, seleziona un segmento dal menu a discesa [!UICONTROL *Seleziona...*].
 
   >[!TIP]
   >
@@ -190,13 +180,13 @@ Per aggiungere un contenitore funzione, puoi utilizzare:
 
 * Trascina:
 
-   1. Trascina e rilascia un componente ![Funzione](/help/assets/icons/Effect.svg) **[!UICONTROL Funzioni]** dal pannello dei componenti in **[!UICONTROL Trascina e rilascia qui]** metriche, dimensioni, elementi dimensionali, segmenti e/o funzioni. Puoi usare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare funzioni specifiche.
-   1. Automaticamente un contenitore di funzioni viene aggiunto alla **[!UICONTROL Definizione]** utilizzando il nome della funzione.
+  1. Trascina e rilascia un componente ![Funzione](/help/assets/icons/Effect.svg) **[!UICONTROL Funzioni]** dal pannello dei componenti in **[!UICONTROL Trascina e rilascia qui]** metriche, dimensioni, elementi dimensionali, segmenti e/o funzioni. Puoi usare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare funzioni specifiche.
+  1. Automaticamente un contenitore di funzioni viene aggiunto alla **[!UICONTROL Definizione]** utilizzando il nome della funzione.
 
 * Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Aggiungi]** dall&#39;interno di un contenitore:
 
-   1. Selezionare **[!UICONTROL Funzione]**.
-   1. Nel contenitore, selezionare una funzione dal menu a discesa [!UICONTROL *Seleziona...*].
+  1. Selezionare **[!UICONTROL Funzione]**.
+  1. Nel contenitore, selezionare una funzione dal menu a discesa [!UICONTROL *Seleziona...*].
 
 Il contenitore funzione prende il nome dal componente funzione. ![Funzione](/help/assets/icons/Effect.svg) **[!UICONTROL RADICE QUADRATA (metrica)]**. Seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg) per visualizzare un popup con ulteriori dettagli sulla funzione. Selezionare **[!UICONTROL Ulteriori informazioni]** per ulteriori informazioni sulla funzione.
 

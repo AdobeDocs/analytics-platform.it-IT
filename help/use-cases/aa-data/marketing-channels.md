@@ -6,18 +6,11 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: User
 TQID: https://experienceleague.adobe.com/ur8f2cMDdoncdUzZ8FDAUYbJZ-8JOyAKKZ5p5Go-OkM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1089
@@ -38,7 +31,7 @@ Se la tua organizzazione utilizza il [connettore di origine Analytics](https://e
 ## Prerequisiti
 
 * I dati della suite di rapporti devono essere già importati in Adobe Experience Platform utilizzando il [connettore di origine Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/analytics). Non sono supportate altre origini di dati, poiché i canali di marketing si basano sulle regole di elaborazione di una suite di rapporti di Analytics.
-* Le regole di elaborazione del canale di marketing devono già essere configurate. Vedi [Regole di elaborazione per i canali di marketing](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules) nella guida dei componenti di Adobe Analytics.
+* Le regole di elaborazione del canale di marketing devono già essere configurate. Vedi [Regole di elaborazione per i canali di marketing](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules) nella guida dei componenti di Adobe Analytics.
 
 ## Elementi schema del canale di marketing
 
@@ -46,8 +39,8 @@ Una volta stabilito il connettore di origine di Analytics per la suite di rappor
 
 1. [Crea una connessione](/help/connections/create-connection.md) che includa un set di dati basato sul connettore di origine di Analytics.
 2. [Crea una visualizzazione dati](/help/data-views/create-dataview.md) che includa le dimensioni seguenti:
-   * **`channel.typeAtSource`**: equivalente alla dimensione [Canale di marketing](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/marketing-channel).
-   * **`channel._id`**: equivalente ai [dettagli del canale di marketing](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/marketing-detail)
+   * **`channel.typeAtSource`**: equivalente alla dimensione [Canale di marketing](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-channel).
+   * **`channel._id`**: equivalente ai [dettagli del canale di marketing](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-detail)
 3. Assegna a ciascuna dimensione il modello di attribuzione e la persistenza desiderati. Se desideri entrambe le dimensioni Primo contatto e Ultimo contatto, trascina più volte ciascuna dimensione del canale di marketing nell’area dei componenti. Assegna a ciascuna dimensione il modello di attribuzione e la persistenza desiderati. Adobe consiglia inoltre di assegnare a ogni dimensione un nome visualizzato che permetta di identificarla facilmente in Workspace.
 4. Crea la visualizzazione dati.
 
@@ -74,8 +67,8 @@ Le impostazioni del canale di marketing operano in modo diverso per i dati di Pl
   ![Prima pagina della visita](../assets/first-page-of-visit.png)
 
 * **Override Last-Touch Channel** (Ignora canale ultimo contatto): questa impostazione in Marketing Channel Manager in genere impedisce ad alcuni canali di ottenere il merito del canale di ultimo contatto. Platform ignora questa impostazione, consentendo a canali ampi come “Direct” (Diretto) o “Internal” (Interno) di attribuire metriche in modo potenzialmente indesiderato. Adobe consiglia di rimuovere i canali in cui l’opzione “Override Last-Touch Channel” (Ignora canale ultimo contatto) è deselezionata.
-   * Puoi eliminare il canale di marketing &quot;Direct&quot; in Marketing Channel Manager, quindi utilizzare l’elemento di dimensione &quot;No value&quot; (Nessun valore) di Customer Journey Analytics per tale canale. Puoi anche rinominare questo elemento di dimensione “Direct” (Diretto) o escludere completamente l’elemento di dimensione dalla configurazione di una visualizzazione dati.
-   * In alternativa, puoi creare una classificazione del canale di marketing, classificando ciascun valore su se stesso, a eccezione dei canali da escludere in Customer Journey Analytics. Quindi puoi utilizzare questa dimensione di classificazione quando crei una visualizzazione dati, al posto di `channel.typeAtSource`.
+  * Puoi eliminare il canale di marketing &quot;Direct&quot; in Marketing Channel Manager, quindi utilizzare l’elemento di dimensione &quot;No value&quot; (Nessun valore) di Customer Journey Analytics per tale canale. Puoi anche rinominare questo elemento di dimensione “Direct” (Diretto) o escludere completamente l’elemento di dimensione dalla configurazione di una visualizzazione dati.
+  * In alternativa, puoi creare una classificazione del canale di marketing, classificando ciascun valore su se stesso, a eccezione dei canali da escludere in Customer Journey Analytics. Quindi puoi utilizzare questa dimensione di classificazione quando crei una visualizzazione dati, al posto di `channel.typeAtSource`.
 
   ![Ignora canale ultimo contatto](../assets/override-last-touch-channel.png)
 
@@ -90,5 +83,5 @@ Poiché l’architettura di Adobe Experience Platform è diversa da quella di un
 * Verifica che le differenze di architettura elencate qui sopra non influiscano sul confronto. Queste differenze includono la rimozione dei canali che non ignorano il canale di ultimo contatto e la rimozione dei criteri delle regole che sono il primo hit di una visita (sessione).
 * Verifica che la connessione utilizzi la stessa suite di rapporti di Adobe Analytics. Se la connessione Customer Journey Analytics contiene più suite di rapporti con proprie regole di elaborazione del canale di marketing, non è possibile eseguire un confronto con Adobe Analytics. In questo caso, per confrontare i dati, puoi creare una connessione separata per ogni suite di rapporti.
 * Assicurati di confrontare gli stessi intervalli di date e verifica che l’impostazione del fuso orario nella visualizzazione dati sia identico a quello della suite di rapporti.
-* Utilizza un modello di attribuzione personalizzato quando visualizzi i dati della suite di rapporti. Ad esempio, utilizza la dimensione [Canale di marketing](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/marketing-channel) con metriche che utilizzano un modello di attribuzione non predefinito. Adobe consiglia di non confrontare le dimensioni predefinite [First touch channel](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/first-touch-channel) o [Last touch channel](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/last-touch-channel) (Canale di primo contatto, Canale di ultimo contatto), poiché si basano sull’attribuzione raccolta nella suite di rapporti. Customer Journey Analytics non si basa sui dati di attribuzione di una suite di rapporti, ma viene calcolato quando viene eseguito un rapporto di Customer Journey Analytics.
+* Utilizza un modello di attribuzione personalizzato quando visualizzi i dati della suite di rapporti. Ad esempio, utilizza la dimensione [Canale di marketing](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-channel) con metriche che utilizzano un modello di attribuzione non predefinito. Adobe consiglia di non confrontare le dimensioni predefinite [First touch channel](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/first-touch-channel) o [Last touch channel](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/last-touch-channel) (Canale di primo contatto, Canale di ultimo contatto), poiché si basano sull’attribuzione raccolta nella suite di rapporti. Customer Journey Analytics non si basa sui dati di attribuzione di una suite di rapporti, ma viene calcolato quando viene eseguito un rapporto di Customer Journey Analytics.
 * A causa delle differenze al livello di architettura tra i dati della suite di rapporti e quelli di Platform, per alcune metriche non esistono metriche paragonabili. Alcuni esempi includono visite/sessioni, persone/persone e occorrenze/eventi.

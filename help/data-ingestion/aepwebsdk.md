@@ -6,26 +6,11 @@ feature: Basics
 exl-id: 0b595e9e-0dcf-4c70-ac6d-5a2322824328
 role: Admin
 TQID: https://experienceleague.adobe.com/BuizkumbeMPhg7dWvJrFta3CYfQnqivOlXd2RtX9gm4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
-  - id: df28738e-9c71-4aa8-929e-edde22340cc6
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7id: df28738e-9c71-4aa8-929e-edde22340cc6id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
 source-wordcount: 3523
@@ -67,7 +52,8 @@ Tutti i dati inseriti in Adobe Experience Platform devono essere conformi a uno 
 
 ### Configurare uno schema
 
-Immagina di voler tenere traccia di alcuni dati minimi provenienti dai profili che visitano il tuo sito Web, ad esempio il nome della pagina o l’identificazione.Devi innanzitutto definire uno schema che modella questi dati.
+Immagina di voler tenere traccia di alcuni dati minimi provenienti dai profili che visitano il tuo sito Web, ad esempio il nome della pagina o l’identificazione.
+Devi innanzitutto definire uno schema che modella questi dati.
 
 Per configurare lo schema:
 
@@ -297,7 +283,7 @@ Per creare e configurare l’estensione Adobe Experience Platform Web SDK:
 
    Seleziona **[!UICONTROL Salva]**.
 
-Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=it).
+Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html).
 
 Il Web SDK include il servizio Experience Platform Identity, pertanto non è necessario aggiungere l&#39;estensione tag [!UICONTROL Servizio Experience Cloud ID] alla proprietà.
 
@@ -376,13 +362,13 @@ Per definire una regola:
 
    - Nella finestra di dialogo [!UICONTROL Configurazione evento]:
 
-      - Seleziona **[!UICONTROL Core]** dall&#39;elenco [!UICONTROL Estensione].
+     - Seleziona **[!UICONTROL Core]** dall&#39;elenco [!UICONTROL Estensione].
 
-      - Selezionare **[!UICONTROL Window Loaded]** dall&#39;elenco [!UICONTROL Event Type].
+     - Selezionare **[!UICONTROL Window Loaded]** dall&#39;elenco [!UICONTROL Event Type].
 
-        ![Regola - Configurazione evento](./assets/event-windowloaded-pageview.png)
+       ![Regola - Configurazione evento](./assets/event-windowloaded-pageview.png)
 
-      - Seleziona **[!UICONTROL Mantieni modifiche]**.
+     - Seleziona **[!UICONTROL Mantieni modifiche]**.
 
 
 
@@ -390,17 +376,17 @@ Per definire una regola:
 
    - Nella finestra di dialogo [!UICONTROL Configurazione azione]:
 
-      - Selezionare **[!UICONTROL Adobe Experience Platform Web SDK]** dall&#39;elenco [!UICONTROL Estensione].
+     - Selezionare **[!UICONTROL Adobe Experience Platform Web SDK]** dall&#39;elenco [!UICONTROL Estensione].
 
-      - Selezionare **[!UICONTROL Invia evento]** dall&#39;elenco [!UICONTROL Tipo azione].
+     - Selezionare **[!UICONTROL Invia evento]** dall&#39;elenco [!UICONTROL Tipo azione].
 
-      - Selezionare **[!UICONTROL web.webpagedetails.pageViews]** dall&#39;elenco [!UICONTROL Type].
+     - Selezionare **[!UICONTROL web.webpagedetails.pageViews]** dall&#39;elenco [!UICONTROL Type].
 
-      - Seleziona l&#39;icona del cilindro accanto a [!UICONTROL dati XDM] e seleziona **[!UICONTROL XDM - Visualizzazione pagina]** dall&#39;elenco degli elementi dati.
+     - Seleziona l&#39;icona del cilindro accanto a [!UICONTROL dati XDM] e seleziona **[!UICONTROL XDM - Visualizzazione pagina]** dall&#39;elenco degli elementi dati.
 
      ![Regola - Configurazione azione](./assets/action-pageview-xdm.png)
 
-      - Seleziona **[!UICONTROL Mantieni modifiche]**.
+     - Seleziona **[!UICONTROL Mantieni modifiche]**.
 
    - L’aspetto della regola dovrebbe essere il seguente:
 
@@ -511,11 +497,11 @@ Per creare la connessione:
 
    - Per ogni set di dati:
 
-      - Seleziona un [!UICONTROL ID persona] dalle identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
+     - Seleziona un [!UICONTROL ID persona] dalle identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
 
-      - Selezionare l&#39;origine dati corretta dall&#39;elenco [!UICONTROL Tipo origine dati]. Se si specifica **[!UICONTROL Altro]**, aggiungere una descrizione per l&#39;origine dati.
+     - Selezionare l&#39;origine dati corretta dall&#39;elenco [!UICONTROL Tipo origine dati]. Se si specifica **[!UICONTROL Altro]**, aggiungere una descrizione per l&#39;origine dati.
 
-      - Imposta **[!UICONTROL Importa tutti i nuovi dati]** e **[!UICONTROL Recupera i dati esistenti del set di dati]** in base alle tue preferenze.
+     - Imposta **[!UICONTROL Importa tutti i nuovi dati]** e **[!UICONTROL Recupera i dati esistenti del set di dati]** in base alle tue preferenze.
 
      ![Configurare i set di dati](./assets/cja-connections-3b.png)
 

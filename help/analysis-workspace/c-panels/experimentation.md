@@ -5,19 +5,11 @@ feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
 TQID: https://experienceleague.adobe.com/oXojotjMV8EEF3S31JyO4eFIn62iYH0zPHGO6ylhFR0
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 2318
@@ -40,7 +32,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Sperimentazione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Per informazioni su come analizzare le attività e le esperienze Adobe Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**, consulta il [pannello Analytics for Target](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)._
+_Questo articolo documenta il pannello Sperimentazione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Per informazioni su come analizzare le attività e le esperienze Adobe Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**, consulta il [pannello Analytics for Target](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)._
 
 >[!ENDSHADEBOX]
 
@@ -188,14 +180,14 @@ Le metriche calcolate che includono una delle metriche o costanti seguenti non s
 * Metriche di base divise tra loro o moltiplicate insieme (ad esempio, `Revenue`/`Orders`)
 * Costanti aggiunte o sottratte da una metrica di base (ad esempio, `Revenue+50`)
 * Una qualsiasi delle metriche di base seguenti:
-   * Persone
+  * Persone
 
 Le metriche calcolate non compatibili con il pannello Sperimentazione hanno il valore [!UICONTROL **Ovunque in Customer Journey Analytics (esclusa la sperimentazione)**] nel campo [!UICONTROL **Compatibilità prodotto**] durante la creazione della metrica calcolata. Per informazioni sulla creazione di una metrica calcolata, consulta [Genera metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 
 ## Utilizzare le metriche calcolate nel pannello Sperimentazione
 
-Consulta questo post di blog per informazioni sull’[utilizzo di metriche calcolate nel pannello Sperimentazione](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119?profile.language=it).
+Consulta questo post di blog per informazioni sull’[utilizzo di metriche calcolate nel pannello Sperimentazione](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
 
 >[!MORELIKETHIS]
->[Padroneggiare la sperimentazione in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338?profile.language=it)
+>[Padroneggiare la sperimentazione in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338)
 >

@@ -7,23 +7,15 @@ role: Admin
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
 autotag-review: '2026-05-19T07:18:47.007Z'
 TQID: 'https://experienceleague.adobe.com/nAfDMtaQvsVRAEm31fRwleirW8LaS-yS0tGTdReux0Y'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: bfef374d-acfd-4c57-bf74-a2b36053c545
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: d76b9e53-27fb-4597-933f-419cc0dd46dbid: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: bfef374d-acfd-4c57-bf74-a2b36053c545
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 6%
+source-wordcount: 605
+ht-degree: 5%
 
 ---
 
@@ -47,9 +39,9 @@ Devi creare uno [schema relazionale](https://experienceleague.adobe.com/it/docs/
 * Definisci i campi nello schema e i relativi attributi
 * Configura gli attributi richiesti per i campi in uno schema relazionale:
 
-   * **Chiave primaria**.
-   * **Descrittore di versione**, che deve essere configurato come numero sequenziale (tipo di campo Integer) o come tipo di campo DateTime. Quando si utilizza un tipo di campo DataOra, il descrittore di versione definisce il timestamp di una modifica dei dati, ad esempio per contenere un timestamp dell&#39;ultima modifica.
-   * **Descrittore marca temporale** (per dati di serie temporali), che definisce la marca temporale immutabile nel momento in cui un evento viene acquisito. Il descrittore timestamp non è necessario per uno schema relazionale basato su record.
+  * **Chiave primaria**.
+  * **Descrittore di versione**, che deve essere configurato come numero sequenziale (tipo di campo Integer) o come tipo di campo DateTime. Quando si utilizza un tipo di campo DataOra, il descrittore di versione definisce il timestamp di una modifica dei dati, ad esempio per contenere un timestamp dell&#39;ultima modifica.
+  * **Descrittore marca temporale** (per dati di serie temporali), che definisce la marca temporale immutabile nel momento in cui un evento viene acquisito. Il descrittore timestamp non è necessario per uno schema relazionale basato su record.
 
 
 
@@ -67,9 +59,9 @@ Per impostare il connettore di origine sulle soluzioni native di data warehouse 
 
 Per l&#39;autenticazione rispetto alla soluzione nativa data warehouse supportata, consulta la documentazione Experience Platform pertinente:
 
-* [Azure Databricks](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks)
-* [Google BigQuery](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/bigquery)
-* [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake)
+* [Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [Google BigQuery](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### Selezionare i dati
@@ -105,5 +97,5 @@ Una volta completata l’impostazione del connettore di origine, viene creato un
 >[!MORELIKETHIS]
 >
 >[Guida rapida di Data Mirror: mirroring e utilizzo dei dati relazionali](relational.md)
->[Data Mirror (documentazione Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/data-mirror/overview)
->[Schemi relazionali (documentazione Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational)
+>[Data Mirror (documentazione Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>[Schemi relazionali (documentazione di Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational)

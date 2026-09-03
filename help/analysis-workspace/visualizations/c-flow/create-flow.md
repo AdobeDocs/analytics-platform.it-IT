@@ -6,20 +6,14 @@ exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
 autotag-review: '2026-05-19T08:39:50.563Z'
 TQID: 'https://experienceleague.adobe.com/QqjZAQQWPWP8ykksBH5k9TrW8Cgd-Lt6mSnczBREGfs'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: ddf59f64-0e46-4986-a525-056acc143c70
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 1843
+source-wordcount: 1852
 ht-degree: 37%
 
 ---
@@ -118,7 +112,7 @@ Puoi configurare l’inizio o la fine del percorso che ti interessa. Oppure anal
    | Impostazione | Descrizione |
    | --- | --- |
    | **[!UICONTROL Etichette a capo]** | Di norma, le etichette degli elementi di Flusso vengono troncate per risparmiare spazio sullo schermo, ma selezionando questa casella puoi rendere visibile l’intera etichetta.  Impostazione predefinita = non selezionata. |
-   | **[!UICONTROL Includi istanze ripetute]** | Le visualizzazioni di Flusso si basano su istanze di una dimensione. Questa impostazione offre la possibilità di includere o escludere istanze ripetute, ad esempio i ricaricamenti delle pagine. Tuttavia, le ripetizioni non possono essere rimosse dalle visualizzazioni Flusso che includono dimensioni con più valori, come listVars, listProp, s.product, eVar di merchandising, ecc. <p>Questa opzione è disabilitata per impostazione predefinita.</p> |
+   | **[!UICONTROL Includi istanze ripetute]** | Le visualizzazioni di Flusso si basano su istanze di una dimensione. Questa impostazione offre la possibilità di includere o escludere istanze ripetute, ad esempio i ricaricamenti delle pagine. Tuttavia, le ripetizioni non possono essere rimosse dalle visualizzazioni Flusso che includono dimensioni con più valori, come listVars, listProps, s.product, eVars di merchandising, ecc. <p>Questa opzione è disabilitata per impostazione predefinita.</p> |
    | **[!UICONTROL Limita alla prima/ultima occorrenza]** | Limita i percorsi ai percorsi che iniziano o terminano con la prima o l’ultima occorrenza di una dimensione, elemento o metrica. Per una spiegazione più dettagliata, vedi [Limita alla prima/ultima occorrenza](#example-scenario-for-limit-to-firstlast-occurrence). |
    | **[!UICONTROL Numero di colonne]** | Determina il numero di colonne desiderato nel diagramma Flusso. Puoi indicare un massimo di 5 colonne. |
    | **[!UICONTROL Elementi espansi per colonna]** | Il numero di elementi che desideri inserire in ogni colonna. È possibile specificare un massimo di 10 elementi espansi per colonna. |
@@ -189,7 +183,7 @@ Utilizza un menu contestuale su qualsiasi nodo della visualizzazione del flusso 
 | **[!UICONTROL Escludi elemento]** o **[!UICONTROL Ripristina elementi esclusi]** | Rimuove un nodo specifico dalla colonna e lo crea automaticamente come filtro nella parte superiore della colonna. Per ripristinare l&#39;elemento escluso, dal menu di scelta rapida selezionare **[!UICONTROL Ripristina elemento escluso]**. puoi anche aprire il segmento nella parte superiore della colonna e rimuovere la casella con l’elemento appena escluso. |
 | **[!UICONTROL Tendenza]** | Crea un diagramma di tendenza per il nodo. |
 | **[!UICONTROL Mostra colonna successiva]** / **[!UICONTROL Mostra colonna precedente]** | Mostra la colonna successiva (destra) o precedente (sinistra) della visualizzazione. |
-| **[!UICONTROL Nascondi colonna]**&#x200B;n | Nasconde la colonna selezionata dalla visualizzazione. |
+| **[!UICONTROL Nascondi colonna]**n | Nasconde la colonna selezionata dalla visualizzazione. |
 | **[!UICONTROL Espandere l&#39;intera colonna]** | Espandere una colonna per visualizzare tutti i nodi. Per impostazione predefinita, vengono visualizzati solo i primi cinque nodi. |
 | **[!UICONTROL Crea pubblico da selezione]** | Crea un pubblico in base alla colonna selezionata. |
 | **[!UICONTROL Comprimi intera colonna]** | Nasconde tutti i nodi di una colonna. |

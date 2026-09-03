@@ -6,23 +6,15 @@ feature: Content Analytics
 role: Admin
 exl-id: 2b2d1cc2-36da-4960-ab31-0a398d131ab8
 TQID: https://experienceleague.adobe.com/McecE-5AGq-IVw-rdkZpV5WgTvax-gubrpQk0ow4JJc
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 62%
+source-wordcount: 721
+ht-degree: 66%
 
 ---
 
@@ -50,13 +42,13 @@ Per interrompere la raccolta dati per una configurazione di Content Analytics im
 
 * Per **web**:
 
-   1. Rimuovi il [codice incorporato](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/environments/environments) dell’elemento `<head>` delle pagine dell’ambiente di sviluppo, di staging o di produzione, soggetto a Content Analytics.
-   1. Elimina la proprietà dei tag web associati per la configurazione Content Analytics.
+  1. Rimuovi il [codice incorporato](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/environments/environments) dell’elemento `<head>` delle pagine dell’ambiente di sviluppo, di staging o di produzione, soggetto a Content Analytics.
+  1. Elimina la proprietà dei tag web associati per la configurazione Content Analytics.
 
 * Per **mobile**:
 
-   1. Rimuovi l&#39;estensione [Content Analytics](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/) dall&#39;app.
-   1. Elimina la proprietà dei tag mobili associata per la configurazione di Content Analytics.
+  1. Rimuovi l&#39;estensione [Content Analytics](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/) dall&#39;app.
+  1. Elimina la proprietà dei tag mobili associata per la configurazione di Content Analytics.
 
 Segui il [flusso di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/overview){target="_blank"} per applicare le modifiche.
 

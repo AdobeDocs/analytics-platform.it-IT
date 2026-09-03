@@ -6,29 +6,15 @@ feature: Content Analytics
 role: Admin
 exl-id: 35d63b7d-f35a-4a88-ae14-96724d32a931
 TQID: https://experienceleague.adobe.com/gWxcD93bl5qrSNaMf1CJF4yoIUrAg6qUF8b-4RXLquQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: a67cb189-a535-41f6-afa2-448f39c4759f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: a67cb189-a535-41f6-afa2-448f39c4759f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
 source-wordcount: 2631
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -60,8 +46,8 @@ Questa guida utilizza diversi termini tecnici, da Experience Platform e Customer
 | **Connessione** | [Le connessioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-connections/overview) definiscono quali set di dati di Experience Platform vengono acquisiti. Una connessione definisce il collegamento tra il set di dati (dove i dati vengono memorizzati in AEP) e Customer Journey Analytics (dove vengono analizzati). Una connessione rende i dati raccolti disponibili per il reporting. |
 | **Visualizzazione dati** | Una [visualizzazione dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/data-views) è un contenitore che consente di determinare come interpretare i dati di una connessione. Una visualizzazione dati specifica tutte le dimensioni e le metriche disponibili per il reporting. Una visualizzazione dati è simile a una configurazione che determina le righe e le colonne disponibili per l’analisi. |
 | **Analysis Workspace** | [Analysis Workspace](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home) è un&#39;interfaccia browser con funzionalità di trascinamento della selezione che consente di creare report e analisi di Content Analytics. |
-| **Esperienza** | In Content Analytics, un&#39;[esperienza](https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/content-analytics#terminology) si riferisce a tutto il contenuto di testo in una pagina web che può essere acquisito e analizzato in base all&#39;URL della pagina. |
-| **Risorsa** | In Content Analytics, una [risorsa](https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/content-analytics#terminology) è un contenuto singolo e univoco, come un&#39;immagine. |
+| **Esperienza** | In Content Analytics, un&#39;[esperienza](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology) si riferisce a tutto il contenuto di testo in una pagina web che può essere acquisito e analizzato in base all&#39;URL della pagina. |
+| **Risorsa** | In Content Analytics, una [risorsa](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics#terminology) è un contenuto singolo e univoco, come un&#39;immagine. |
 
 
 ## Panoramica sulla configurazione
@@ -111,15 +97,15 @@ Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire gli ute
 Per utilizzare Content Analytics in modo autonomo, è necessario essere amministratore di prodotto per i seguenti prodotti e profili di prodotto:
 
 * Adobe Experience Platform
-   * AEP-Default-All-Users (profilo predefinito per l’accesso alla sandbox di produzione)
+  * AEP-Default-All-Users (profilo predefinito per l’accesso alla sandbox di produzione)
 
 * Raccolta dati di Adobe Experience Platform
-   * Accesso predefinito a tutti i tipi di raccolta dati
+  * Accesso predefinito a tutti i tipi di raccolta dati
 
 * Adobe Experience Platform Privacy Service
 
 * Customer Journey Analytics (personalizzato)
-   * Customer Journey Analytics (o qualsiasi altro profilo di prodotto con provisioning predefinito)
+  * Customer Journey Analytics (o qualsiasi altro profilo di prodotto con provisioning predefinito)
 
 Puoi definire l’accesso come amministratore del prodotto tramite Admin Console:
 
@@ -157,31 +143,31 @@ Con Content Analytics, devi verificare se le seguenti risorse e autorizzazioni a
 
 * Ruolo predefinito Tutti gli accessi alla produzione
 
-   * Raccolta dati
-      * Visualizzare gli stream di dati
-      * Gestire gli stream di dati
+  * Raccolta dati
+    * Visualizzare gli stream di dati
+    * Gestire gli stream di dati
 
-   * Gestione dati
-      * Visualizzare i set di dati
-      * Gestione set di dati
+  * Gestione dati
+    * Visualizzare i set di dati
+    * Gestione set di dati
 
-   * Modellazione dati
-      * Visualizzare gli schemi
-      * Gestire gli schemi
-      * Gestire i metadati di identità
+  * Modellazione dati
+    * Visualizzare gli schemi
+    * Gestire gli schemi
+    * Gestire i metadati di identità
 
 
 * Ruolo Amministratori sandbox
 
-   * Sandbox
-      * Prod
-      * (qualsiasi altra sandbox che desideri utilizzare per Content Analytics)
+  * Sandbox
+    * Prod
+    * (qualsiasi altra sandbox che desideri utilizzare per Content Analytics)
 
-   * Amministrazione sandbox
-      * Gestisci pacchetti
-      * Gestire le sandbox
-      * Ripristina sandbox
-      * Visualizza Sandbox
+  * Amministrazione sandbox
+    * Gestisci pacchetti
+    * Gestire le sandbox
+    * Ripristina sandbox
+    * Visualizza Sandbox
 
 
 Nell’interfaccia Autorizzazioni è possibile verificare sia i ruoli che le autorizzazioni associate. L’interfaccia mostra anche quali utenti appartengono al ruolo.
@@ -217,21 +203,21 @@ Customer Journey Analytics non supporta il controllo degli accessi basato su att
 Con Content Analytics, devi verificare se sono incluse le seguenti autorizzazioni del profilo di prodotto Customer Journey Analytics:
 
 * Visualizzazioni dati
-   * Tutte le visualizzazioni dati disponibili.
+  * Tutte le visualizzazioni dati disponibili.
 
 * Strumenti di reporting
-   * Creazione di metriche calcolate
-   * Creazione di segmenti
-   * Creazione di annotazioni
-   * Accesso a registri di audit
-   * Condividi i collegamenti al progetto con chiunque
-   * Previsioni
-   * Assistente IA: conoscenza del prodotto
-   * Agente Data Insights
-   * Didascalie intelligenti
+  * Creazione di metriche calcolate
+  * Creazione di segmenti
+  * Creazione di annotazioni
+  * Accesso a registri di audit
+  * Condividi i collegamenti al progetto con chiunque
+  * Previsioni
+  * Assistente IA: conoscenza del prodotto
+  * Agente Data Insights
+  * Didascalie intelligenti
 
 * Strumenti di visualizzazione dati
-   * Esportazione tabella completa
+  * Esportazione tabella completa
 
 Per verificare e aggiornare queste autorizzazioni per Customer Journey Analytics:
 

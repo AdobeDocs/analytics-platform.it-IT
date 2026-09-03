@@ -6,23 +6,14 @@ feature: Basics
 role: Admin
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
 TQID: https://experienceleague.adobe.com/DhV4VNrG4WR1iQP9VqjvV16iEpfShbBir7N1JfeRbCM
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebbid: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
 workflow-type: tm+mt
-source-wordcount: 2355
+source-wordcount: 2375
 ht-degree: 11%
 
 ---
@@ -65,26 +56,26 @@ All&#39;interno di [!DNL Google BigQuery], i seguenti dati di esempio vengono me
 
 | timestamp | ID | pagename | personid | trackingcode | ordini | importo ricavi |
 | :---                      |  ---: | :---              | :---            | :---          |   ---: | :---           |
-| 06/03/2025 T19:15:39+00:00 | 10001 | pagina home | person-1abc123 | abc123 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10002 | pagina di conferma | person-1abc123 |               | 1 | 174,25 |
-| 06/03/2025 T19:15:39+00:00 | 10003 | pagina home | person-2def123 | def123 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10004 | pagina home | person-3ghi123 | ghi123 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10005 | pagina di conferma | person-3ghi123 |               | 1 | 149,25 |
-| 06/03/2025 T19:15:39+00:00 | 10006 | pagina home | person-4abc456 | abc456 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10007 | pagina home | person-5def456 | def456 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10008 | pagina home | person-6ghi456 | ghi456 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10009 | pagina di conferma | person-6ghi456 |               | 1 | 159,25 |
-| 06/03/2025 T19:15:39+00:00 | 10010 | pagina home | person-7abc789 | abc789 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10011 | pagina home | person-8def789 | def789 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10012 | pagina home | person-9ghi789 | ghi789 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10013 | pagina di conferma | person-9ghi789 |               | 1 | 124,25 |
-| 06/03/2025 T19:15:39+00:00 | 10014 | pagina home | person-10abc987 | abc987 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10015 | pagina home | person-11def987 | def987 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10016 | pagina home | person-12ghi987 | ghi987 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10017 | pagina home | person-13abc654 | abc654 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10018 | pagina home | person-14def654 | def654 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10019 | pagina home | person-15ghi654 | ghi654 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10020 | pagina di conferma | person-15ghi654 |               | 1 | 174,25 |
+| 2025-03-06T19:15:39+00:00 | 10001 | pagina home | person-1abc123 | abc123 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10002 | pagina di conferma | person-1abc123 |               | 1 | 174,25 |
+| 2025-03-06T19:15:39+00:00 | 10003 | pagina home | person-2def123 | def123 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10004 | pagina home | person-3ghi123 | ghi123 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10005 | pagina di conferma | person-3ghi123 |               | 1 | 149,25 |
+| 2025-03-06T19:15:39+00:00 | 10006 | pagina home | person-4abc456 | abc456 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10007 | pagina home | person-5def456 | def456 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10008 | pagina home | person-6ghi456 | ghi456 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10009 | pagina di conferma | person-6ghi456 |               | 1 | 159,25 |
+| 2025-03-06T19:15:39+00:00 | 10010 | pagina home | person-7abc789 | abc789 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10011 | pagina home | person-8def789 | def789 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10012 | pagina home | person-9ghi789 | ghi789 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10013 | pagina di conferma | person-9ghi789 |               | 1 | 124,25 |
+| 2025-03-06T19:15:39+00:00 | 10014 | pagina home | person-10abc987 | abc987 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10015 | pagina home | person-11def987 | def987 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10016 | pagina home | person-12ghi987 | ghi987 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10017 | pagina home | person-13abc654 | abc654 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10018 | pagina home | person-14def654 | def654 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10019 | pagina home | person-15ghi654 | ghi654 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10020 | pagina di conferma | person-15ghi654 |               | 1 | 174,25 |
 
 +++
 
@@ -148,7 +139,7 @@ Definisci uno schema che modella questi dati. Per configurare lo schema:
 
    1. Seleziona **[!UICONTROL Avanti]**.
 1. Nell&#39;interfaccia **[!UICONTROL Schemi]** > **[!UICONTROL Crea schema relazionale]**:
-   1. Immettere un nome visualizzato per lo schema **&#x200B;**. Ad esempio: `Sample Event Feed Schema`.
+   1. Immettere un nome visualizzato per lo schema ****. Ad esempio: `Sample Event Feed Schema`.
    1. Immetti una **[!UICONTROL Descrizione]**. Ad esempio: `Sample event feed schema for a relational schema`.
    1. Seleziona **[!UICONTROL Serie temporali]** come **[!UICONTROL Comportamento schema]**. Selezionare **[!UICONTROL Serie temporali]** per i dati basati su serie temporali e **[!UICONTROL Record]** per i dati basati su record. Il comportamento definisce la struttura dello schema e le proprietà incluse.
 
@@ -227,17 +218,17 @@ Nel passaggio **[!UICONTROL Autenticazione]**, seleziona:
 
 * **[!UICONTROL Account esistente]** quando si dispone già di un account configurato per Google BigQuery. Procedi al passaggio [Seleziona dati](#select-data).
 * **[!UICONTROL Nuovo account]** quando è necessario connettersi a Google BigQuery.
-   1. Specificare un **[!UICONTROL nome account]** e (facoltativo) **[!UICONTROL descrizione]**.
-   1. Seleziona il **[!UICONTROL tipo di autenticazione]**: **[!UICONTROL Autenticazione di base]** o **[!UICONTROL Autenticazione del servizio]**. In base alla selezione, fornisci l’input richiesto.
-   1. Seleziona **[!UICONTROL Connetti all&#39;origine]**
+  1. Specificare un **[!UICONTROL nome account]** e (facoltativo) **[!UICONTROL descrizione]**.
+  1. Seleziona il **[!UICONTROL tipo di autenticazione]**: **[!UICONTROL Autenticazione di base]** o **[!UICONTROL Autenticazione del servizio]**. In base alla selezione, fornisci l’input richiesto.
+  1. Seleziona **[!UICONTROL Connetti all&#39;origine]**
 
-      ![BigQuery Google - Autenticazione](assets/googlebg-authentication.png)
+     ![BigQuery Google - Autenticazione](assets/googlebg-authentication.png)
 
-      Verifica della connessione. Un ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) **[!UICONTROL Connesso]** ha indicato una connessione riuscita.
+     Verifica della connessione. Un ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) **[!UICONTROL Connesso]** ha indicato una connessione riuscita.
 
-   1. Seleziona **[!UICONTROL Avanti]**.
+  1. Seleziona **[!UICONTROL Avanti]**.
 
-  Consulta la documentazione di Experience Platform per informazioni dettagliate su come connettersi e autenticare quando utilizzi il connettore [Azure Databricks](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake).
+  Consulta la documentazione di Experience Platform per informazioni dettagliate su come connettersi e autenticare quando utilizzi il connettore [Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake).
 
 
 ### Selezionare i dati

@@ -7,25 +7,15 @@ role: Admin
 exl-id: 0db3f6f7-9d7e-41bf-8eb5-02e439bab10a
 autotag-review: '2026-05-19T10:44:07.732Z'
 TQID: 'https://experienceleague.adobe.com/pJMss6WVPH8LAAJXlmblmeMOHvOmk5dq0Zzy-Ab-Mt0'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071id: c73c4213-d623-4126-81f4-80b42e5e2656id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: d3fb138f-79e4-4a81-aedb-76dd93560085
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 1391
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -103,7 +93,7 @@ Per creare una configurazione di analisi del pubblico:
    | Campo | Descrizione |
    |---------|----------|
    | **[!UICONTROL Criterio di unione]** | Seleziona il criterio di unione che corrisponde al set di dati del profilo da utilizzare per l’analisi del pubblico. <p>I criteri di unione determinano il modo in cui Adobe Experience Platform combina i dati di profilo da più set di dati in profili cliente unificati utilizzati per la creazione di tipi di pubblico. Il criterio di unione selezionato influisce sugli attributi del profilo inclusi nei tipi di pubblico. Ogni giorno in Experience Platform viene generata un’istantanea di questi dati. Questa istantanea fornisce una visualizzazione statica dei dati in un momento specifico e non include dati di eventi.</p><p>Selezionare il criterio di unione **[!UICONTROL Basato su tempo predefinito]** se sono presenti più criteri di unione e non si è sicuri di quale scegliere. Puoi anche consultare il team di dati per capire meglio quali tipi di pubblico sono associati a ciascun criterio di unione.</p> |
-   | **[!UICONTROL Set di dati profilo]** | Set di dati profilo associato al criterio di unione selezionato. Questo set di dati profilo include i dati del pubblico di Experience Platform che desideri analizzare. Questo set di dati profilo viene aggiunto alla connessione selezionata.<p>Dopo aver scelto un criterio di unione, viene visualizzata l’esportazione dello snapshot del profilo. Ad esempio: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>Per ulteriori informazioni, consulta [Set di dati di attributi di profilo](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/query#profile-attribute-datasets) nella Guida dei dashboard di Experience Platform.</p> |
+   | **[!UICONTROL Set di dati profilo]** | Set di dati profilo associato al criterio di unione selezionato. Questo set di dati profilo include i dati del pubblico di Experience Platform che desideri analizzare. Questo set di dati profilo viene aggiunto alla connessione selezionata.<p>Dopo aver scelto un criterio di unione, viene visualizzata l’esportazione dello snapshot del profilo. Ad esempio: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f`.</p><p>Per ulteriori informazioni, consulta [Set di dati di attributi di profilo](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/query#profile-attribute-datasets) nella Guida dei dashboard di Experience Platform.</p> |
 
 1. Nella sezione **[!UICONTROL Connessione]** fare clic su **[!UICONTROL Seleziona una connessione]**.
 
@@ -119,7 +109,7 @@ Per creare una configurazione di analisi del pubblico:
    | **[!UICONTROL Usa spazio dei nomi identità primaria]** | Questa opzione mostra se hai selezionato **[!UICONTROL Mappa identità]** per l&#39;ID persona. <p>Abilita questa opzione se desideri che Customer Journey Analytics individui l’identità nella mappa delle identità contrassegnata con l’attributo primary=true, quindi utilizzala come ID persona per quella riga. L’identità è la chiave primaria utilizzata in Experience Platform per il partizionamento. E questa identità è anche il candidato principale per l’utilizzo come ID persona di Customer Journey Analytics (a seconda di come il set di dati è configurato in una connessione Customer Journey Analytics).</p> |
    | **[!UICONTROL Spazio dei nomi identità]** | Questa opzione mostra se hai selezionato **[!UICONTROL Mappa identità]** per l&#39;ID persona. Questa opzione è disabilitata se utilizzi lo spazio dei nomi dell’ID primario. <p>Gli spazi dei nomi delle identità sono un componente del [servizio Identity di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces). Gli spazi dei nomi fungono da indicatori del contesto a cui si riferisce un’identità. Se specifichi uno spazio dei nomi, Customer Journey Analytics cerca la chiave dello spazio dei nomi in Identity Map di ogni riga e utilizza l’identità in tale spazio dei nomi come ID persona per tale riga. Poiché Customer Journey Analytics non è in grado di eseguire una scansione completa del set di dati di tutte le righe per determinare quali spazi di nomi sono presenti, nel menu a discesa vengono visualizzati tutti i possibili spazi di nomi. È necessario sapere quali spazi dei nomi sono specificati nei dati; questi spazi dei nomi non vengono rilevati automaticamente.</p> |
 
-   <!-- Add this when B2B releases for AuA **[!UICONTROL Account ID]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}|  (only displayed for account-based connections) The Account ID that is used to support account-based reporting for the dataset. -->
+   <!-- Add this when B2B releases for AuA **[!UICONTROL Account ID]** [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}|  (only displayed for account-based connections) The Account ID that is used to support account-based reporting for the dataset. -->
 
 1. Nella sezione **[!UICONTROL Visualizzazioni dati]**, fai clic su **[!UICONTROL Seleziona visualizzazioni dati]**.
 

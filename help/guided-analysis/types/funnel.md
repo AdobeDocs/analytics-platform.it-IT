@@ -6,20 +6,11 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: product analytics
 role: User
 TQID: https://experienceleague.adobe.com/-AW7cK4fHNV58e539KKcqBx-pRpIpIRWcrS7CA9ZUYc
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
 source-wordcount: 685
@@ -38,9 +29,9 @@ ht-degree: 74%
 
 <!-- markdownlint-enable MD034 -->
 
-L&#39;analisi ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Funnel &#x200B;]**&#x200B;fornisce una rappresentazione visiva di un percorso di utenti critico nel prodotto. L’asse orizzontale rappresenta ogni passaggio che un utente deve attraversare. L’asse verticale rappresenta la percentuale di utenti o sessioni in ogni passaggio. Tutti i passaggi devono essere eseguiti in ordine finale, ma possono avvenire in qualsiasi momento all’interno dell’intervallo di reporting.
+L&#39;analisi ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Funnel ]**fornisce una rappresentazione visiva di un percorso di utenti critico nel prodotto. L’asse orizzontale rappresenta ogni passaggio che un utente deve attraversare. L’asse verticale rappresenta la percentuale di utenti o sessioni in ogni passaggio. Tutti i passaggi devono essere eseguiti in ordine finale, ma possono avvenire in qualsiasi momento all’interno dell’intervallo di reporting.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431274/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3421663/?quality=12&learn=on)
 
 ## Casi d’uso
 
@@ -62,10 +53,10 @@ La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL Visualizza]**: passa da questa analisi a [Tendenze di conversione](conversion-trends.md).
 * **[!UICONTROL Passaggi]**: i punti di contatto dell&#39;evento di cui si desidera tenere traccia. Ogni barra del grafico rappresenta un passaggio. Puoi includere fino a dieci passaggi.
-   * [!UICONTROL Confronta]: ogni passaggio fornisce un&#39;opzione per confrontare più eventi in un singolo passaggio di funnel, creando un &quot;fork funnel&quot;. Questa funzione consente di confrontare l’attrito di due percorsi uno accanto all’altro, senza creare due analisi separate. È utile quando sono presenti opzioni di passaggio o quando un esperimento A/B viene eseguito all’interno del funnel. Consulta [Funnel](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel) nei tutorial di Customer Journey Analytics per un video che spiega come confrontare i funnel.
+  * [!UICONTROL Confronta]: ogni passaggio fornisce un&#39;opzione per confrontare più eventi in un singolo passaggio di funnel, creando un &quot;fork funnel&quot;. Questa funzione consente di confrontare l’attrito di due percorsi uno accanto all’altro, senza creare due analisi separate. È utile quando sono presenti opzioni di passaggio o quando un esperimento A/B viene eseguito all’interno del funnel. Consulta [Funnel](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel) nei tutorial di Customer Journey Analytics per un video che spiega come confrontare i funnel.
 * **[!UICONTROL Conteggiato come]**: l&#39;ambito che si desidera applicare al funnel. Le opzioni includono [!UICONTROL Sessioni] e [!UICONTROL Utenti].
-   * [!UICONTROL Sessioni]: per essere conteggiati, tutti i passaggi devono avvenire nella stessa sessione.
-   * [!UICONTROL Utenti]: per essere conteggiati, tutti i passaggi devono essere eseguiti nell&#39;intervallo di reporting selezionato.
+  * [!UICONTROL Sessioni]: per essere conteggiati, tutti i passaggi devono avvenire nella stessa sessione.
+  * [!UICONTROL Utenti]: per essere conteggiati, tutti i passaggi devono essere eseguiti nell&#39;intervallo di reporting selezionato.
 * **[!UICONTROL Segmenti]**: i segmenti in cui si desidera confrontare il funnel. Ogni segmento selezionato suddivide ogni passaggio in più barre. Ogni colore rappresenta un segmento diverso. Puoi includere fino a tre segmenti.
 
 ### Impostazioni del grafico

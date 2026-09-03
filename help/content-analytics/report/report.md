@@ -6,26 +6,15 @@ feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
 TQID: https://experienceleague.adobe.com/IM7-a-jp-lLfuGKj-CM2McnFXcus2-x-ffLC8UUKAmY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
 workflow-type: tm+mt
-source-wordcount: 1215
-ht-degree: 29%
+source-wordcount: 1365
+ht-degree: 28%
 
 ---
 
@@ -109,7 +98,7 @@ Per utilizzare il modello:
 
 1. Selezionare **[!UICONTROL Workspace]** dal menu principale.
 1. Assicurati di selezionare una visualizzazione dati configurata per Content Analytics.
-1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**&#x200B;s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]**.
+1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]**.
 1. Seleziona **[!UICONTROL Usa modello]**.
 1. Nella finestra di dialogo **[!UICONTROL Configura il modello]**, seleziona una metrica dalla finestra di dialogo **[!UICONTROL Seleziona una metrica di conversione]**. Ad esempio, **[!UICONTROL CTR risorsa]**.
 1. Seleziona **[!UICONTROL Continua]**.
@@ -122,44 +111,44 @@ Un progetto **[!UICONTROL Panoramica di Content Analytics]** viene aperto in [An
 
 I quattro pannelli sono:
 
-* **Quale contenuto offre prestazioni migliori?**
+* **Quale contenuto offre le prestazioni migliori?**
 Questo pannello identifica le esperienze e le risorse che determinano il coinvolgimento e la conversione. Le esperienze sono pagine web complete acquisite in un momento specifico, oppure una combinazione di testo, risorse e chiamate all’azione definite in un’app mobile.
 
-   * **Esperienze**.
+  * **Esperienze**.
 
-     >[!NOTE]
-     >
-     >Queste visualizzazioni vengono visualizzate nel modello solo quando il sistema è stato configurato per [includere esperienze](/help/content-analytics/config/guided.md#experience-capture-and-definition) nella configurazione di Content Analytics.
-     > 
+    >[!NOTE]
+    >
+    >Queste visualizzazioni vengono visualizzate nel modello solo quando il sistema è stato configurato per [includere esperienze](/help/content-analytics/config/guided.md#experience-capture-and-definition) nella configurazione di Content Analytics.
+    > 
 
-      * **Experience CTR**: una visualizzazione [summary change](/help/analysis-workspace/visualizations/summary-number-change.md) che mostra Experience CTR.
-      * **Esperienze con più conversioni**: una visualizzazione a [barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra le esperienze con il maggior numero di conversioni in base alla metrica di conversione selezionata.
-      * **Esperienze dalle prestazioni migliori**: una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluse [miniature](#thumbnails) e [anteprime](#previews)) per le esperienze dalle prestazioni migliori.
+    * **Experience CTR**: una visualizzazione [summary change](/help/analysis-workspace/visualizations/summary-number-change.md) che mostra Experience CTR.
+    * **Esperienze con più conversioni**: una visualizzazione a [barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra le esperienze con il maggior numero di conversioni in base alla metrica di conversione selezionata.
+    * **Esperienze dalle prestazioni migliori**: una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluse [miniature](#thumbnails) e [anteprime](#previews)) per le esperienze dalle prestazioni migliori.
 
-   * **Risorse**
+  * **Risorse**
 
-      * **CTR risorsa**
-Una visualizzazione [summary change](/help/analysis-workspace/visualizations/summary-number-change.md) che mostra Asset CTR.
-      * **Conversione in alto delle risorse**
-Visualizzazione [a barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra le principali risorse in conversione in base alla metrica di conversione selezionata.
-      * **Risorse dalle prestazioni migliori**
-Una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluse [miniature](#thumbnails) e [anteprime](#previews)) per le risorse con prestazioni migliori.
-Assets: visualizzazioni rispetto alla conversione.
-Visualizzazione [grafico a dispersione](/help/analysis-workspace/visualizations/scatterplot.md) che mostra un grafico a dispersione delle visualizzazioni delle risorse rispetto alle conversioni delle risorse.
+    * **CTR risorsa**
+      Una visualizzazione [summary change](/help/analysis-workspace/visualizations/summary-number-change.md) che mostra Asset CTR.
+    * **Conversione in alto delle risorse**
+      Visualizzazione [a barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra le principali risorse in conversione in base alla metrica di conversione selezionata.
+    * **Risorse con prestazioni migliori**
+      Una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluse [miniature](#thumbnails) e [anteprime](#previews)) per le risorse con prestazioni migliori.
+      Assets: visualizzazioni rispetto alla conversione.
+      Visualizzazione [grafico a dispersione](/help/analysis-workspace/visualizations/scatterplot.md) che mostra un grafico a dispersione delle visualizzazioni delle risorse rispetto alle conversioni delle risorse.
 
-* **Quali attributi di risorsa contribuiscono alle conversioni?**
+* **Quali attributi delle risorse contribuiscono alle conversioni?**
 Content Analytics utilizza AI e GenAI per assegnare automaticamente metadati e attributi, come soggetti, scene e colori di primo piano, a ogni risorsa.
 
-   * **Primi attributi di conversione risorse**
-[barra orizzontale](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra i principali attributi di conversione delle risorse in base alla metrica di conversione selezionata.
-   * **Migliore conversione attributi risorsa rispetto ai 30 giorni precedenti**
-Visualizzazione [horizontal bar](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra i principali attributi di conversione delle risorse rispetto ai 30 giorni precedenti, in base alla metrica di conversione selezionata.
-   * **Prima conversione dei dati degli attributi delle risorse**
-Una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) che mostra i principali attributi di conversione in base alla metrica di conversione selezionata. Seleziona una riga nella tabella per aggiornare la visualizzazione della tendenza degli attributi.
-   * **Tendenza attributo**
-Una visualizzazione [riga](/help/analysis-workspace/visualizations/line.md) che mostra la tendenza dell&#39;attributo per l&#39;attributo della risorsa di conversione superiore selezionato.
-   * **Colore di primo piano risorsa**
-Esempio di [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) che confronta le prestazioni degli elementi di una singola categoria di attributi di risorsa: Colori di primo piano. Puoi sostituire questo attributo di risorsa con altre dimensioni di categoria di attributi di risorsa.
+  * **Primi attributi di conversione risorse**
+    [barra orizzontale](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra i principali attributi di conversione delle risorse in base alla metrica di conversione selezionata.
+  * **Migliore conversione attributi risorsa rispetto ai 30 giorni precedenti**
+    Visualizzazione [horizontal bar](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra i principali attributi di conversione delle risorse rispetto ai 30 giorni precedenti, in base alla metrica di conversione selezionata.
+  * **Prima conversione dei dati degli attributi delle risorse**
+    Una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) che mostra i principali attributi di conversione in base alla metrica di conversione selezionata. Seleziona una riga nella tabella per aggiornare la visualizzazione della tendenza degli attributi.
+  * **Tendenza attributo**
+    Una visualizzazione [riga](/help/analysis-workspace/visualizations/line.md) che mostra la tendenza dell&#39;attributo per l&#39;attributo della risorsa di conversione superiore selezionato.
+  * **Colore di primo piano risorsa**
+    Esempio di [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) che confronta le prestazioni degli elementi di una singola categoria di attributi di risorsa: Colori di primo piano. Puoi sostituire questo attributo di risorsa con altre dimensioni di categoria di attributi di risorsa.
 
 * **Quali attributi dell’esperienza contribuiscono alle conversioni?**
 
@@ -172,32 +161,32 @@ Esempio di [tabella a forma libera](/help/analysis-workspace/visualizations/free
 
   Il pannello è costituito dalle visualizzazioni seguenti:
 
-   * **Attributi esperienza di conversione principali**
-Visualizzazione [horizontal bar](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra i principali attributi dell&#39;esperienza di conversione in base alla metrica di conversione selezionata.
-Migliori attributi di conversione dell’esperienza rispetto ai 30 giorni precedenti
-Visualizzazione [horizontal bar](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra i principali attributi dell&#39;esperienza di conversione rispetto ai 30 giorni precedenti, in base alla metrica di conversione selezionata.
-   * **Migliore conversione dei dati attributo esperienza**
-Una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) che mostra le prime esperienze di conversione in base alla metrica di conversione selezionata. Seleziona una riga nella tabella per aggiornare la visualizzazione a linee.
-   * **Riga**
-Una visualizzazione [riga](/help/analysis-workspace/visualizations/line.md) che mostra la tendenza per l&#39;attributo esperienza di conversione superiore selezionato.
-   * **Parole chiave esperienza**
-Una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) che mostra le parole chiave dell&#39;esperienza principale in base alla metrica di conversione selezionata.
+  * **Attributi esperienza di conversione principali**
+    Visualizzazione [horizontal bar](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra i principali attributi dell&#39;esperienza di conversione in base alla metrica di conversione selezionata.
+    Migliori attributi di conversione dell’esperienza rispetto ai 30 giorni precedenti
+    Visualizzazione [horizontal bar](/help/analysis-workspace/visualizations/horizontal-bar.md) che mostra i principali attributi dell&#39;esperienza di conversione rispetto ai 30 giorni precedenti, in base alla metrica di conversione selezionata.
+  * **Migliore conversione dei dati attributo esperienza**
+    Una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) che mostra le prime esperienze di conversione in base alla metrica di conversione selezionata. Seleziona una riga nella tabella per aggiornare la visualizzazione a linee.
+  * **Riga**
+    Una visualizzazione [riga](/help/analysis-workspace/visualizations/line.md) che mostra la tendenza per l&#39;attributo esperienza di conversione superiore selezionato.
+  * **Parole chiave esperienza**
+    Una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) che mostra le parole chiave dell&#39;esperienza principale in base alla metrica di conversione selezionata.
 
-* **Dove vengono visualizzate le risorse nel sito?**
+* **Dove vengono visualizzate le risorse sul sito?**
 Questa tabella a forma libera specifica dove vengono visualizzate le risorse più visualizzate. Utilizza questa analisi per identificare le pagine con prestazioni elevate e ottimizzare il posizionamento delle risorse.
 
-   * **Dove vengono visualizzate le risorse più visualizzate?**
-Puoi suddividere qualsiasi risorsa per dimensioni per capire meglio dove viene visualizzata l’immagine.
+  * **Dove si trovano le risorse più visualizzate?**
+    Puoi suddividere qualsiasi risorsa per dimensioni per capire meglio dove viene visualizzata l’immagine.
 
-     Nell&#39;esempio [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluse [miniature](#thumbnails) e [anteprime](#previews)) viene utilizzato **[!UICONTROL ID percezione risorsa]** anziché [!UICONTROL ID risorsa]. A volte, la stessa esatta immagine può essere duplicata sul sito con un URL immagine diverso. L&#39;attributo [!UICONTROL ID percezione risorsa] consente di raggruppare questi duplicati in un singolo ID.
+    Nell&#39;esempio [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (incluse [miniature](#thumbnails) e [anteprime](#previews)) viene utilizzato **[!UICONTROL ID percezione risorsa]** anziché [!UICONTROL ID risorsa]. A volte, la stessa esatta immagine può essere duplicata sul sito con un URL immagine diverso. L&#39;attributo [!UICONTROL ID percezione risorsa] consente di raggruppare questi duplicati in un singolo ID.
 
-     Poiché le risorse possono cambiare in una pagina, il sistema suddivide ogni risorsa per **[!UICONTROL ID esperienza]** per identificare la versione della pagina in cui è apparsa la risorsa. Puoi sostituire [!UICONTROL Experience Id] con altre dimensioni che ti aiutano a capire la posizione di una risorsa sul tuo sito. [!UICONTROL Nome pagina], [!UICONTROL URL pagina] o [!UICONTROL Sezione sito].
+    Poiché le risorse possono cambiare in una pagina, il sistema suddivide ogni risorsa per **[!UICONTROL ID esperienza]** per identificare la versione della pagina in cui è apparsa la risorsa. Puoi sostituire [!UICONTROL Experience Id] con altre dimensioni che ti aiutano a capire la posizione di una risorsa sul tuo sito. [!UICONTROL Nome pagina], [!UICONTROL URL pagina] o [!UICONTROL Sezione sito].
 
-     È inoltre possibile scambiare [!UICONTROL ID percezione risorsa] con [!UICONTROL ID risorsa] per ottenere un record in cui viene fatto riferimento a URL immagine specifici.
+    È inoltre possibile scambiare [!UICONTROL ID percezione risorsa] con [!UICONTROL ID risorsa] per ottenere un record in cui viene fatto riferimento a URL immagine specifici.
 
 
 >[!MORELIKETHIS]
 >
 >[Componenti Content Analytics](components.md)
->[Usa modelli](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>[Utilizzare i modelli](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >

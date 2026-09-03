@@ -7,21 +7,14 @@ role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
 autotag-review: '2026-05-19T09:20:59.053Z'
 TQID: 'https://experienceleague.adobe.com/V2OisDuYtD0SxUo8OlCEMKJ5wYEWS7nfxOp2IOMQWJQ'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 1902
+source-wordcount: 1938
 ht-degree: 82%
 
 ---
@@ -42,8 +35,8 @@ Se non è possibile recuperare le informazioni sull&#39;ID persona per un evento
 L&#39;unione delle identità basata sui campi supporta l&#39;utilizzo del [`identityMap`gruppo di campi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity) nei seguenti scenari:
 
 - Utilizzo dell’identità primaria negli spazi dei nomi `identityMap` per definire l’ID persistente:
-   - Se più identità primarie si trovano in spazi dei nomi diversi, le identità negli spazi dei nomi vengono ordinate lessicograficamente e la prima identità viene selezionata.
-   - Se più identità primarie si trovano all’interno di un singolo spazio dei nomi, viene selezionata la prima identità primaria lessicografica disponibile.
+  - Se più identità primarie si trovano in spazi dei nomi diversi, le identità negli spazi dei nomi vengono ordinate lessicograficamente e la prima identità viene selezionata.
+  - Se più identità primarie si trovano all’interno di un singolo spazio dei nomi, viene selezionata la prima identità primaria lessicografica disponibile.
 
   Nell’esempio seguente, gli spazi dei nomi e le identità restituiscono un elenco di identità primarie ordinato e, infine, l’identità selezionata.
 
@@ -75,8 +68,8 @@ L&#39;unione delle identità basata sui campi supporta l&#39;utilizzo del [`iden
 
 
 - Utilizzo dello spazio dei nomi `identityMap` per definire l&#39;ID persistente o l&#39;ID persona o entrambi:
-   - Se in uno spazio dei nomi `identityMap` sono presenti più valori per l&#39;ID persistente o per l&#39;ID persona, viene utilizzato il primo valore lessicografico disponibile.
-   - Gli spazi dei nomi per l’ID persistente e per l’ID persona devono escludersi a vicenda.
+  - Se in uno spazio dei nomi `identityMap` sono presenti più valori per l&#39;ID persistente o per l&#39;ID persona, viene utilizzato il primo valore lessicografico disponibile.
+  - Gli spazi dei nomi per l’ID persistente e per l’ID persona devono escludersi a vicenda.
 
   Nell’esempio seguente, hai selezionato ECID come spazio dei nomi da utilizzare. La selezione determina un elenco di identità ordinate e, infine, l’identità selezionata.
 
@@ -113,10 +106,10 @@ L’unione delle identità esegue almeno due passaggi sui dati in un determinato
 - **Unione delle identità live**: tenta di unire ogni hit (evento) nel momento in cui arriva. Gli hit provenienti da dispositivi *nuovi* per il set di dati (che non si sono mai autenticati) in genere non vengono uniti questo livello. Gli hit provenienti da dispositivi già riconosciuti vengono uniti immediatamente.
 
 - **Ripetizione dell’unione delle identità**: *ripete* i dati in base a identificatori univoci (ID persona). In questa fase, gli ID provenienti da dispositivi in precedenza sconosciuti (ID persistenti) vengono uniti (agli ID persona). Due parametri determinano la ripetizione: **frequenza** e **intervallo di lookback**. Adobe offre le seguenti combinazioni di questi parametri:
-   - **Lookback giornaliero con frequenza giornaliera**: i dati vengono ripetuti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione è vantaggiosa poiché gestisce ripetizioni molto frequenti; tuttavia, richiede che i profili non autenticati effettuino l&#39;autenticazione nello stesso giorno della visita al sito.
-   - **Lookback settimanale con frequenza settimanale**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback settimanale (vedi [opzioni](overview.md#options)). Questa opzione offre il vantaggio di concedere alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di una settimana non vengono rielaborati fino alla successiva ripetizione settimanale.
-   - **Lookback bisettimanale con frequenza settimanale**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback bisettimanale (vedi [opzioni](overview.md#)). Questa opzione offre il vantaggio di concedere alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non sottoposti a unione delle identità risalenti a meno di due settimane non vengono rielaborati fino alla successiva ripetizione settimanale.
-   - **Lookback mensile con frequenza settimanale**: i dati vengono ripetuti ogni settimana con un intervallo di lookback mensile (vedi [opzioni](overview.md#options)). Questa opzione offre il vantaggio di concedere alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di un mese non vengono rielaborati fino alla successiva ripetizione settimanale.
+  - **Lookback giornaliero con frequenza giornaliera**: i dati vengono ripetuti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione è vantaggiosa poiché gestisce ripetizioni molto frequenti; tuttavia, richiede che i profili non autenticati effettuino l&#39;autenticazione nello stesso giorno della visita al sito.
+  - **Lookback settimanale con frequenza settimanale**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback settimanale (vedi [opzioni](overview.md#options)). Questa opzione offre il vantaggio di concedere alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di una settimana non vengono rielaborati fino alla successiva ripetizione settimanale.
+  - **Lookback bisettimanale con frequenza settimanale**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback bisettimanale (vedi [opzioni](overview.md#)). Questa opzione offre il vantaggio di concedere alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non sottoposti a unione delle identità risalenti a meno di due settimane non vengono rielaborati fino alla successiva ripetizione settimanale.
+  - **Lookback mensile con frequenza settimanale**: i dati vengono ripetuti ogni settimana con un intervallo di lookback mensile (vedi [opzioni](overview.md#options)). Questa opzione offre il vantaggio di concedere alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di un mese non vengono rielaborati fino alla successiva ripetizione settimanale.
 
 - **Privacy**: quando vengono ricevute richieste relative alla privacy, oltre a rimuovere l&#39;identità richiesta, è necessario annullare l&#39;unione di tale identità tra eventi non autenticati.
 
@@ -140,18 +133,18 @@ Prendi in considerazione l’esempio seguente, in cui Bob registra eventi divers
 
 | Evento | Marca temporale | ID persistente (ID cookie) | ID persona | ID risultante (dopo unione live) |
 |---|---|---|---|---|
-| 1 | 12/05/2023 12:01 | `246` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`246`** |
-| 2 | 12/05/2023 12:02 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` |
-| 3 | 12/05/2023 12:03 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) |
-| 4 | 12/05/2023 12:04 | `246` | - | **`Bob`** |
-| 5 | 12/05/2023 12:05 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
-| 6 | 12/05/2023 12:06 | `246` | - | **`Bob`** |
-| 7 | 12/05/2023 12:07 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` |
-| 8 | 12/05/2023 12:03 | `3579` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`3579`** |
-| 9 | 12/05/2023 12:09 | `3579` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`3579`** |
-| 10 | 12/05/2023 12:02 | `81911` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`81911`** |
-| 11 | 12/05/2023 12:05 | `81911` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) |
-| 12 | 12/05/2023 12:12 | `81911` | - | **`Bob`** |
+| 1 | 2023-05-12 12:01 | `246` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`246`** |
+| 2 | 2023-05-12 12:02 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` |
+| 3 | 2023-05-12 12:03 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) |
+| 4 | 2023-05-12 12:04 | `246` | - | **`Bob`** |
+| 5 | 2023-05-12 12:05 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
+| 6 | 2023-05-12 12:06 | `246` | - | **`Bob`** |
+| 7 | 2023-05-12 12:07 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` |
+| 8 | 2023-05-12 12:03 | `3579` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`3579`** |
+| 9 | 2023-05-12 12:09 | `3579` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`3579`** |
+| 10 | 2023-05-12 12:02 | `81911` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`81911`** |
+| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) |
+| 12 | 2023-05-12 12:12 | `81911` | - | **`Bob`** |
 | | | **3 dispositivi** | | **4 persone**:<br/>`246`, `Bob`, `3579`, `81911` |
 
 Sia gli eventi non autenticati che quelli autenticati su nuovi dispositivi vengono conteggiati come persone separate (temporaneamente). Gli eventi non autenticati sui dispositivi riconosciuti sono live-stitched.
@@ -174,18 +167,18 @@ La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra numeri d
 
 | Evento | Marca temporale | ID persistente (ID cookie) | ID persona | ID risultante (dopo unione live) | ID risultante (dopo la riproduzione) |
 |---|---|---|---|---|---|
-| 1 | 12/05/2023 12:01 | `246` | - | `246` | **`Bob`** |
-| 2 | 12/05/2023 12:02 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![ArrowUp](/help/assets/icons/ArrowUp.svg) |
-| 3 | 12/05/2023 12:03 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` | Roberto |
-| 4 | 12/05/2023 12:04 | `246` | - | **`Bob`** | `Bob` |
-| 5 | 12/05/2023 12:05 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) | `Bob` |
-| 6 | 12/05/2023 12:06 | `246` | - | **`Bob`** | `Bob` |
-| 7 | 12/05/2023 12:07 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` |
-| 8 | 12/05/2023 12:03 | `3579` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** |
-| 9 | 12/05/2023 12:09 | `3579` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** |
-| 10 | 12/05/2023 12:02 | `81911` | - | `81911` | **`Bob`** |
-| 11 | 12/05/2023 12:05 | `81911` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) | `Bob` ![ArrowUp](/help/assets/icons/ArrowUp.svg) |
-| 12 | 12/05/2023 12:12 | `81911` | - | **`Bob`** | `Bob` |
+| 1 | 2023-05-12 12:01 | `246` | - | `246` | **`Bob`** |
+| 2 | 2023-05-12 12:02 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![ArrowUp](/help/assets/icons/ArrowUp.svg) |
+| 3 | 2023-05-12 12:03 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` | Roberto |
+| 4 | 2023-05-12 12:04 | `246` | - | **`Bob`** | `Bob` |
+| 5 | 2023-05-12 12:05 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) | `Bob` |
+| 6 | 2023-05-12 12:06 | `246` | - | **`Bob`** | `Bob` |
+| 7 | 2023-05-12 12:07 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` |
+| 8 | 2023-05-12 12:03 | `3579` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** |
+| 9 | 2023-05-12 12:09 | `3579` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** |
+| 10 | 2023-05-12 12:02 | `81911` | - | `81911` | **`Bob`** |
+| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) | `Bob` ![ArrowUp](/help/assets/icons/ArrowUp.svg) |
+| 12 | 2023-05-12 12:12 | `81911` | - | **`Bob`** | `Bob` |
 | | | **3 dispositivi** | | **4 persone**:<br/>`246`, `Bob`, `3579`, `81911` | **2 persone**:<br/>`Bob`, `3579` |
 
 {style="table-layout:auto"}
@@ -206,18 +199,18 @@ La tabella seguente rielabora i dati precedenti, mostrando l’impatto della ric
 
 | Evento | Marca temporale | ID persistente (ID cookie) | ID persona | ID risultante (dopo unione live) | ID risultante (dopo la riproduzione) | ID persona | ID risultante (dopo la richiesta di accesso a dati personali) |
 |---|---|---|---|---|---|---|---|
-| 1 | 12/05/2023 12:01 | `246` | - | `246` | **`Bob`** | - | `246` |
-| 2 | 12/05/2023 12:02 | `246` | Roberto ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![ArrowUp](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `246` |
-| 3 | 12/05/2023 12:03 | `246` | Roberto ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) | `Bob` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `246` |
-| 4 | 12/05/2023 12:04 | `246` | - | **`Bob`** | `Bob` | - | `246` |
-| 5 | 12/05/2023 12:05 | `246` | Roberto ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) | `Bob` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `246` |
-| 6 | 12/05/2023 12:06 | `246` | - | **`Bob`** | `Bob` | - | `246` |
-| 7 | 12/05/2023 12:07 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `246` |
-| 8 | 12/05/2023 12:03 | `3579` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** | - | `3579` |
-| 9 | 12/05/2023 12:09 | `3579` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** | - | `3579` |
-| 10 | 12/05/2023 12:02 | `81911` | - | `81911` | **`Bob`** | - | `81911` |
-| 11 | 12/05/2023 12:05 | `81911` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) | `Bob` ![ArrowUp](/help/assets/icons/ArrowUp.svg) | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `81911` |
-| 12 | 12/05/2023 12:12 | `81911` | - | **`Bob`** | `Bob` | - | `81911` |
+| 1 | 2023-05-12 12:01 | `246` | - | `246` | **`Bob`** | - | `246` |
+| 2 | 2023-05-12 12:02 | `246` | Roberto ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![ArrowUp](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `246` |
+| 3 | 2023-05-12 12:03 | `246` | Roberto ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) | `Bob` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `246` |
+| 4 | 2023-05-12 12:04 | `246` | - | **`Bob`** | `Bob` | - | `246` |
+| 5 | 2023-05-12 12:05 | `246` | Roberto ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) | `Bob` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `246` |
+| 6 | 2023-05-12 12:06 | `246` | - | **`Bob`** | `Bob` | - | `246` |
+| 7 | 2023-05-12 12:07 | `246` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `246` |
+| 8 | 2023-05-12 12:03 | `3579` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** | - | `3579` |
+| 9 | 2023-05-12 12:09 | `3579` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** | - | `3579` |
+| 10 | 2023-05-12 12:02 | `81911` | - | `81911` | **`Bob`** | - | `81911` |
+| 11 | 2023-05-12 12:05 | `81911` | `Bob` ![ArrowRight](/help/assets/icons/ArrowRight.svg) | `Bob` ![ArrowDown](/help/assets/icons/ArrowDown.svg) | `Bob` ![ArrowUp](/help/assets/icons/ArrowUp.svg) | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | `81911` |
+| 12 | 2023-05-12 12:12 | `81911` | - | **`Bob`** | `Bob` | - | `81911` |
 | | | **3 dispositivi** | | **4 persone**:<br/>246, `Bob`, `3579`, `81911` | **2 persone**:<br/>Roberto, `3579` |  | **3 persone**:<br/>`246`, `3579`, `81911` |
 
 +++ 
@@ -228,11 +221,11 @@ I seguenti prerequisiti si applicano in modo specifico all’unione delle identi
 
 - Il set di dati evento in Adobe Experience Platform, a cui desideri applicare l’unione, deve avere due colonne che aiutino a identificare i profili:
 
-   - Un **ID persistente**, un identificatore presente su ogni riga. Ad esempio, un ID visitatore generato da una libreria AppMeasurement di Adobe Analytics o un ECID generato da Adobe Experience Platform Identity Service.
-   - Un **ID persona**, un identificatore presente solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash quando un profilo si autentica. Puoi utilizzare virtualmente qualsiasi identificatore che ti piace. L’unione considera questo campo come contenente le informazioni dell’ID persona effettivo. Per risultati di unione migliori, un ID persona deve essere inviato all’interno degli eventi del set di dati almeno una volta per ogni ID persistente. Se prevedi di includere questo set di dati all’interno di una connessione Customer Journey Analytics, è preferibile che anche gli altri set di dati abbiano un identificatore comune simile.
+  - Un **ID persistente**, un identificatore presente su ogni riga. Ad esempio, un ID visitatore generato da una libreria AppMeasurement di Adobe Analytics o un ECID generato da Adobe Experience Platform Identity Service.
+  - Un **ID persona**, un identificatore presente solo su alcune righe. Ad esempio, un nome utente o un indirizzo e-mail con hash quando un profilo si autentica. Puoi utilizzare virtualmente qualsiasi identificatore che ti piace. L’unione considera questo campo come contenente le informazioni dell’ID persona effettivo. Per risultati di unione migliori, un ID persona deve essere inviato all’interno degli eventi del set di dati almeno una volta per ogni ID persistente. Se prevedi di includere questo set di dati all’interno di una connessione Customer Journey Analytics, è preferibile che anche gli altri set di dati abbiano un identificatore comune simile.
 
 <!--
-- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 

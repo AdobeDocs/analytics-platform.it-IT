@@ -6,19 +6,11 @@ keywords: product analytics
 exl-id: 27eaa7c7-f1e1-4cf1-9d59-67ac552eb430
 role: User
 TQID: https://experienceleague.adobe.com/q-egeF94DZ-kxHpVBJX7A-Th0N30t7ji-V2EoXMe1P4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: bc7a5a86-1a70-451f-985c-037b65f091d1id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
 source-wordcount: 659
@@ -39,7 +31,7 @@ ht-degree: 80%
 
 L&#39;analisi ![Frequenza](/help/assets/icons/Histogram.svg) **[!UICONTROL Frequenza]** raggruppa i dati dell&#39;evento in base alla frequenza con cui si verificano gli eventi nel prodotto. L’asse verticale di questa analisi contiene bucket che rappresentano la frequenza dell’evento. L’asse orizzontale misura il numero di utenti o sessioni per ciascun bucket.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435810/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428089/?quality=12&learn=on)
 
 ## Casi d’uso
 
@@ -75,9 +67,9 @@ Determina il modo in cui l’evento viene classificato in gruppi (bucket). Nella
 
 * **[!UICONTROL Bucket automatici]**: identifica automaticamente la dimensione ottimale del bucket in base alla distribuzione dei dati.
 * **[!UICONTROL Bucket personalizzati]**: personalizzare il raggruppamento dei dati in bucket.
-   * [!UICONTROL Da]: primo bucket. La frequenza inferiore a questo valore è esclusa dalla generazione dei rapporti.
-   * [!UICONTROL A]: la frequenza maggiore di questo valore è raggruppata nell&#39;ultimo bucket.
-   * [!UICONTROL Dimensione]: intervallo di bucket.
+  * [!UICONTROL Da]: primo bucket. La frequenza inferiore a questo valore è esclusa dalla generazione dei rapporti.
+  * [!UICONTROL A]: la frequenza maggiore di questo valore è raggruppata nell&#39;ultimo bucket.
+  * [!UICONTROL Dimensione]: intervallo di bucket.
 
 ### Confronto temporale
 

@@ -5,16 +5,10 @@ feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
 TQID: https://experienceleague.adobe.com/SLxxyE8fc1OPZ1uc90jCDCE1vfnbF6Kctpbkcrk8WYs
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 530
@@ -47,8 +41,8 @@ In alternativa, in una tabella a forma libera puoi utilizzare un intervallo di d
 Utilizza l’intervallo di date come [useresti qualsiasi componente](/help/components/overview.md#analysis-workspace-components). Trascina l&#39;intervallo di date dal pannello del componente ![Calendario](/help/assets/icons/Calendar.svg) **[!UICONTROL Intervalli di date]** e rilascia il componente in:
 
 - **[!UICONTROL Calendario]**: ![Cambia](/help/assets/icons/Switch.svg) **[!UICONTROL Sostituisci]** la configurazione del calendario corrente con l&#39;intervallo di date.
-- **Intestazione colonna metrica**: ![Cambiare](/help/assets/icons/Switch.svg) **[!UICONTROL Sostituire]** la metrica, ![Aggiungere](/help/assets/icons/Add.svg)**[!UICONTROL Aggiungere &#x200B;]**&#x200B;l&#39;intervallo di date come metrica o ![Filtrare](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B; Filtrare &#x200B;]**&#x200B;la metrica utilizzando il componente intervallo di date.
-- **Intestazione colonna Dimension**: ![Cambia](/help/assets/icons/Switch.svg) **[!UICONTROL Sostituisci]** le dimensioni correnti. La nuova dimensione è ora **[!UICONTROL Intervalli di date]**. Una volta che la dimensione è Intervalli di date, puoi ![Aggiungere](/help/assets/icons/Add.svg)**[!UICONTROL Aggiungere &#x200B;]**&#x200B;intervalli di date aggiuntivi come elementi dimensione.
+- **Intestazione colonna metrica**: ![Cambiare](/help/assets/icons/Switch.svg) **[!UICONTROL Sostituire]** la metrica, ![Aggiungere](/help/assets/icons/Add.svg)**[!UICONTROL Aggiungere ]**l&#39;intervallo di date come metrica o ![Filtrare](/help/assets/icons/Filter.svg)**[!UICONTROL  Filtrare ]**la metrica utilizzando il componente intervallo di date.
+- **Intestazione colonna Dimension**: ![Cambia](/help/assets/icons/Switch.svg) **[!UICONTROL Sostituisci]** le dimensioni correnti. La nuova dimensione è ora **[!UICONTROL Intervalli di date]**. Una volta che la dimensione è Intervalli di date, puoi ![Aggiungere](/help/assets/icons/Add.svg)**[!UICONTROL Aggiungere ]**intervalli di date aggiuntivi come elementi dimensione.
 - **Elemento Dimension**: ![Suddivisione](/help/assets/icons/Breakdown.svg) **[!UICONTROL Suddivisione]** dell&#39;elemento dimensione specifico in base all&#39;intervallo di date.
 
 Puoi anche aggiungere una colonna di intervalli di date direttamente in una visualizzazione tabella a forma libera:

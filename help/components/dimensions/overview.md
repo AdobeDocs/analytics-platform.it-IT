@@ -4,18 +4,11 @@ description: Scopri cosa sono le dimensioni e come vengono utilizzate in Custome
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
 TQID: https://experienceleague.adobe.com/bMM7desF2wr71h-SR1mzD7-oSwm-8cPvmeU7SeM7-fU
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 253
@@ -31,7 +24,7 @@ In Customer Journey Analytics le dimensioni sono di tipo illimitato; i valori po
 
 Un rapporto di base in Customer Journey Analytics presenta righe di dimensioni (solitamente valori stringa) rispetto a una colonna di metriche (solitamente valori numerici).
 
-Ad esempio, se si combina la dimensione Pagina con la metrica Persone, si ottiene un rapporto di classificazione che presenta le pagine più visitate per numero di persone:
+Ad esempio, se si combina la dimensione Pagina con la metrica Persone, si ottiene un rapporto sul ranking che presenta le pagine più visitate per numero di persone:
 
 | Pagina | Persone |
 | --- | ---: |
@@ -61,6 +54,6 @@ Gli amministratori di Customer Journey Analytics possono aggiungere descrizioni 
 
 >[!MORELIKETHIS]
 >
->[Insight più approfonditi sulla clientela con la funzione Profondità evento](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947?profile.language=it#M576)
+>[Insight più approfonditi sulla clientela con la funzione Profondità evento](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
 >
 

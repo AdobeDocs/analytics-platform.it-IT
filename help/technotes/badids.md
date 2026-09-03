@@ -7,18 +7,11 @@ role: Admin
 exl-id: 4f71fbf2-290b-4076-b2ad-b086c2b854d9
 autotag-review: '2026-05-19T06:53:00.572Z'
 TQID: 'https://experienceleague.adobe.com/6vut30l-BSIxhTK96Tt3BG01q-rjHagcmer0WZ2GL-c'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 632
@@ -41,8 +34,8 @@ Questo articolo fornisce informazioni contestuali sugli ID non validi e su come 
 In Customer Journey Analytics, come parte di tutti i dati definiti in una connessione, un Bad ID è un identificatore:
 
 * con un valore ID specifico che ha origine
-   * da un campo ID persona (set di dati non uniti), **o**
-   * da un campo ID persistente o ID persona (set di dati abilitati per l’unione),
+  * da un campo ID persona (set di dati non uniti), **o**
+  * da un campo ID persistente o ID persona (set di dati abilitati per l’unione),
 
   **e**
 * si trova su più di un milione (1.000.000) eventi nei dati di connessione (conteggiati per tutti i set di dati all’interno della connessione), entro un mese.

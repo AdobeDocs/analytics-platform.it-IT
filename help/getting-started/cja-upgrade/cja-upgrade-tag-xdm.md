@@ -7,18 +7,11 @@ feature: Basics
 exl-id: bc6c7568-8bd2-4ee1-ab1b-9fa1f6138811
 autotag-review: '2026-05-19T08:20:10.493Z'
 TQID: 'https://experienceleague.adobe.com/CZMnHpY8nofEV8fbpLSe7TUZCR7nOd8xKWoMkCzfH0I'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
-subfeature_v2:
-  - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: d76b9e53-27fb-4597-933f-419cc0dd46db
+subfeature_v2: id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 9efc51843684b8cad96d01f7ada99eafc5950b42
 workflow-type: tm+mt
 source-wordcount: 1377
@@ -195,27 +188,27 @@ Per definire una regola:
 
    * **[!UICONTROL Eventi]**: Selezionare **[!UICONTROL + Aggiungi]**. Quindi, nella finestra di dialogo **[!UICONTROL Configurazione evento]**, specifica le seguenti informazioni. Al termine, selezionare **[!UICONTROL Mantieni modifiche]**.
 
-      * **[!UICONTROL Estensione]**: selezionare **[!UICONTROL Core]** dall&#39;elenco.
+     * **[!UICONTROL Estensione]**: selezionare **[!UICONTROL Core]** dall&#39;elenco.
 
-      * **[!UICONTROL Tipo evento]**: selezionare **[!UICONTROL Finestra caricata]** dall&#39;elenco.
+     * **[!UICONTROL Tipo evento]**: selezionare **[!UICONTROL Finestra caricata]** dall&#39;elenco.
 
-        ![Regola - Configurazione evento](assets/event-windowloaded-pageview.png)
+       ![Regola - Configurazione evento](assets/event-windowloaded-pageview.png)
 
    * **[!UICONTROL Azioni]**: Selezionare **[!UICONTROL + Aggiungi]**. Quindi, nella finestra di dialogo [!UICONTROL Configurazione azione], specifica le seguenti informazioni. Al termine, selezionare **[!UICONTROL Mantieni modifiche]**.
 
-      * **[!UICONTROL Estensione]**: selezionare **[!UICONTROL Adobe Experience Platform Web SDK]** dall&#39;elenco.
+     * **[!UICONTROL Estensione]**: selezionare **[!UICONTROL Adobe Experience Platform Web SDK]** dall&#39;elenco.
 
-      * **[!UICONTROL Tipo azione]**: selezionare **[!UICONTROL Invia evento]** dall&#39;elenco.
+     * **[!UICONTROL Tipo azione]**: selezionare **[!UICONTROL Invia evento]** dall&#39;elenco.
 
-      * **[!UICONTROL Tipo]**: selezionare **[!UICONTROL Visualizzazioni pagina Web Webpagedetails]** dall&#39;elenco.
+     * **[!UICONTROL Tipo]**: selezionare **[!UICONTROL Visualizzazioni pagina Web Webpagedetails]** dall&#39;elenco.
 
-      * **[!UICONTROL Dati XDM]**: seleziona l&#39;icona del cilindro, quindi seleziona **[!UICONTROL XDM - Visualizzazione pagina]** dall&#39;elenco degli elementi di dati.
+     * **[!UICONTROL Dati XDM]**: seleziona l&#39;icona del cilindro, quindi seleziona **[!UICONTROL XDM - Visualizzazione pagina]** dall&#39;elenco degli elementi di dati.
 
-        ![Regola - Configurazione azione](assets/action-pageview-xdm.png)
+       ![Regola - Configurazione azione](assets/action-pageview-xdm.png)
 
-        L’aspetto della regola dovrebbe essere il seguente:
+       L’aspetto della regola dovrebbe essere il seguente:
 
-        ![Crea regola](assets/rule-pageview.png)
+       ![Crea regola](assets/rule-pageview.png)
 
 1. Seleziona **[!UICONTROL Salva]**.
 

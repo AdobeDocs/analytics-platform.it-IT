@@ -5,20 +5,14 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: c2d8f4a1-7b3e-4c9f-a5d2-8e1b6c3f9072
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: b1f5d324-a668-4e51-a59b-6fc0862d7310
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 2125f1a16ffed79f77757120c5679dd4defa1638
 workflow-type: tm+mt
-source-wordcount: 3200
+source-wordcount: 3202
 ht-degree: 0%
 
 ---
@@ -234,7 +228,7 @@ Trascina una di queste dimensioni dal pannello Componenti in una [[!UICONTROL ta
 
 >[!NOTE]
 >
->Poiché i browser moderni hanno ridotto i dettagli nella stringa dell&#39;agente utente, i valori completi e precisi dipendono dalla raccolta di [User-Agent Client Hints](https://experienceleague.adobe.com/it/docs/experience-platform/collection/use-cases/client-hints) nella configurazione del Web SDK.
+>Poiché i browser moderni hanno ridotto i dettagli nella stringa dell&#39;agente utente, i valori completi e precisi dipendono dalla raccolta di [User-Agent Client Hints](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints) nella configurazione del Web SDK.
 
 +++
 

@@ -6,23 +6,11 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 TQID: https://experienceleague.adobe.com/Ozf-XAsirDMkZLIQCX4SLGD7SvKinu3O4fwJ4ifgSvQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
-subfeature_v2:
-  - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: c38ed341-fab2-46df-9d72-88d8166edebb
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+subfeature_v2: id: ad333ea6-e90d-4c8f-8d61-9f8690784d6fid: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: c38ed341-fab2-46df-9d72-88d8166edebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: dcc1be6e0c0e0dab19b4067232e48dc175011ed1
 workflow-type: tm+mt
 source-wordcount: 4127
@@ -77,7 +65,7 @@ Le informazioni seguenti descrivono le impostazioni utilizzate da un componente 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -108,8 +96,8 @@ I vantaggi delle etichette di contesto sono:
 * **Coerenza**: tutti gli utenti dell&#39;organizzazione che lavorano su uno o più progetti basati su una visualizzazione dati che utilizza le etichette di contesto ottengono lo stesso comportamento.
 * **Visibilità delle funzionalità e dei modelli**: alcune visualizzazioni e funzionalità vengono visualizzate solo quando viene assegnata l&#39;etichetta di contesto appropriata. Ad esempio:
 
-   * Una visualizzazione [Mappa](/help/analysis-workspace/visualizations/map.md) viene visualizzata correttamente solo se Customer Journey Analytics conosce i componenti che rappresentano latitudine e longitudine.
-   * I [modelli](/help/analysis-workspace/templates/use-templates.md) specifici sono visibili solo quando vengono applicate le etichette di contesto corrette e i componenti associati diventano disponibili.
+  * Una visualizzazione [Mappa](/help/analysis-workspace/visualizations/map.md) viene visualizzata correttamente solo se Customer Journey Analytics conosce i componenti che rappresentano latitudine e longitudine.
+  * I [modelli](/help/analysis-workspace/templates/use-templates.md) specifici sono visibili solo quando vengono applicate le etichette di contesto corrette e i componenti associati diventano disponibili.
 
 Le etichette di contesto possono essere necessarie nelle seguenti situazioni:
 
@@ -173,19 +161,19 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 
 | Nome | Descrizione |
 |------|-------------|
-| [ID contenuto](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/content) | L’identificatore univoco del contenuto in fase di riproduzione. Abilita il pulsante di scelta **[!UICONTROL ID contenuto]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Tempo contenuto trascorso](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/content-time-spent) | Tempo impiegato per visualizzare il contenuto, esclusi gli annunci. Abilita l&#39;impostazione avanzata **[!UICONTROL Tempo contenuto trascorso]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Episodio](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/episode) | Numero dell’episodio in una serie. Abilita il filtro per episodio nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [ID contenuto](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content) | L’identificatore univoco del contenuto in fase di riproduzione. Abilita il pulsante di scelta **[!UICONTROL ID contenuto]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Tempo contenuto trascorso](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent) | Tempo impiegato per visualizzare il contenuto, esclusi gli annunci. Abilita l&#39;impostazione avanzata **[!UICONTROL Tempo contenuto trascorso]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Episodio](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode) | Numero dell’episodio in una serie. Abilita il filtro per episodio nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
 | Tipo evento | Il tipo di evento multimediale, ad esempio `media.play` o `media.ping`. Obbligatorio per Customer Journey Analytics per calcolare la metrica derivata da [Visualizzatori simultanei di contenuti multimediali](/help/analysis-workspace/c-panels/media-concurrent-viewers.md). |
-| [Tempo trascorso contenuti multimediali](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/media-time-spent) | Tempo totale inclusi contenuti, annunci, buffering e pausa. Attiva l&#39;impostazione avanzata [Tempo di riproduzione trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md) e **[!UICONTROL Tempo trascorso]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Stagione](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/season) | Numero della stagione in una serie. Abilita il filtro per stagione nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Tempo trascorso contenuti multimediali](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent) | Tempo totale inclusi contenuti, annunci, buffering e pausa. Attiva l&#39;impostazione avanzata [Tempo di riproduzione trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md) e **[!UICONTROL Tempo trascorso]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Stagione](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season) | Numero della stagione in una serie. Abilita il filtro per stagione nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
 | Secondi trascorsi dall’ultima chiamata | Tempo in secondi dal ping heartbeat precedente. Necessario affinché Customer Journey Analytics possa calcolare la metrica derivata da [Visualizzatori simultanei di contenuti multimediali](/help/analysis-workspace/c-panels/media-concurrent-viewers.md) che identifica quando una sessione è ancora attiva. |
-| [Mostra](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/show) | Il nome del programma o della serie. Abilita il filtro per visualizzazione nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Ora di inizio](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/time-to-start) | Tempo trascorso dalla selezione del contenuto all’inizio della riproduzione. Incluso nel calcolo del tempo di riproduzione [dei contenuti multimediali trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
-| [Durata totale buffer](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | Tempo totale impiegato per il buffering durante una sessione. Incluso nel calcolo del tempo di riproduzione [dei contenuti multimediali trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
-| [Durata totale pausa](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/total-pause-duration) | Tempo totale trascorso in pausa durante una sessione. Incluso nel calcolo del tempo di riproduzione [dei contenuti multimediali trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
-| [Lunghezza video](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/content-length) | Durata del contenuto in secondi. Richiesto per la modalità **[!UICONTROL Contenuto specifico]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Nome video](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/content-name) | Nome visualizzato del contenuto. Abilita il pulsante di scelta **[!UICONTROL Nome video]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Mostra](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show) | Il nome del programma o della serie. Abilita il filtro per visualizzazione nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Ora di inizio](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start) | Tempo trascorso dalla selezione del contenuto all’inizio della riproduzione. Incluso nel calcolo del tempo di riproduzione [dei contenuti multimediali trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
+| [Durata totale buffer](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | Tempo totale impiegato per il buffering durante una sessione. Incluso nel calcolo del tempo di riproduzione [dei contenuti multimediali trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
+| [Durata totale pausa](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration) | Tempo totale trascorso in pausa durante una sessione. Incluso nel calcolo del tempo di riproduzione [dei contenuti multimediali trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
+| [Lunghezza video](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | Durata del contenuto in secondi. Richiesto per la modalità **[!UICONTROL Contenuto specifico]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Nome video](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | Nome visualizzato del contenuto. Abilita il pulsante di scelta **[!UICONTROL Nome video]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
 
 +++
 

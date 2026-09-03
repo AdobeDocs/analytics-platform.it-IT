@@ -6,24 +6,11 @@ solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
 TQID: https://experienceleague.adobe.com/BPrXvtXRO3WdxhjucGLGuoWL1AIvwcoUVhqIPX3NEek
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 0145475e18cfbc3ae3a83e5e3838cdec02b57bda
 workflow-type: tm+mt
 source-wordcount: 2592
@@ -47,8 +34,8 @@ L’utilizzo di Data Insights Agent per rispondere a domande incentrate sui dati
 
 | Funzione | Inclusa | Esclusa |
 | --- | --- | --- |
-| **Tipi di visualizzazione** | <ul><li>A linee</li><li>A più linee</li><li>Tabella a forma libera</li><li>Barra</li><li>Ciambella</li><li>Numero di riepilogo</li></ul> | <ul><li>Flusso</li><li>Fallout</li><li>Tabella coorte</li><li>Superfici, Superfici sovrapposte</li><li>Barre sovrapposte</li><li>Punto elenco</li><li>Combinato</li><li>Istogramma</li><li>Barre orizzontali, Barre orizzontali sovrapposte</li><li>Riepilogo delle metriche chiave</li><li>A dispersione</li><li>Variazione di riepilogo</li><li>Testo</li><li>Mappa ad albero</li><li>Venn</li><li>Analisi guidata: crescita attiva, tendenze di conversione, coinvolgimento, impatto sul primo utilizzo, frequenza, funnel, crescita netta, impatto sullle versioni, conservazione, timeline, tendenze</li></ul> |
-| **Azioni Workspace e funzionalità agente** | <ul><li>Creare e aggiornare le visualizzazioni<p>Genera una tabella a forma libera e la visualizzazione associata (ad es. a linee, a barre, ad anello, ecc.).</p><p>Ad esempio, *Qual è il profitto per le varie SKU da febbraio a maggio?*</p></li><li>Porre domande di follow-up<p>Rispondi a un prompt nel contesto di eventuali prompt precedenti. Ad esempio:</p> <ul><li>Prompt 1: *Eventi di tendenza da marzo.*</li><li>Prompt 2: *Mostra invece i dati da marzo ad aprile*</li></ul> </li><li>Rilevamento di prompt esclusi dall’ambito<p>Se invii un prompt che non rientra nell’ambito di azione dell’agente Data Insights, ad esempio *Esporta questo progetto*, l’agente risponde informandoti che la domanda è esclusa dal suo ambito.</p></li></ul> | <ul><li>Condividi</li><li>Esporta</li><li>Scarica</li><li>Gestire le preferenze utente</li><li>Gestire la visualizzazione dati</li><li>App delle dashboard di Analytics</li><li>Attribuzione</li><li>Riepilogo o risposta in linea<p>L’agente Data Insights non può rispondere in linea nella barra della chat con una risposta di riepilogo per un prompt dell’utente. Esempi di prompt esclusi dall’ambito dell’agente: *Fai un riepilogo degli insight dall’ultimo prompt* e *Riepiloga i punti principali che emergono dalla visualizzazione a linee.*</p></li></ul> |
+| **Tipi di visualizzazione** | <ul><li>A linee</li><li>A più linee</li><li>Tabella a forma libera</li><li>A barre</li><li>Ad anello</li><li>Numero di riepilogo</li></ul> | <ul><li>Flusso</li><li>Fallout</li><li>Tabella coorte</li><li>Superfici, Superfici sovrapposte</li><li>Barre sovrapposte</li><li>Bullet</li><li>Combinato</li><li>Istogramma</li><li>Barre orizzontali, Barre orizzontali sovrapposte</li><li>Riepilogo delle metriche chiave</li><li>A dispersione</li><li>Variazione di riepilogo</li><li>Testo</li><li>Mappa ad albero</li><li>Venn</li><li>Analisi guidata: crescita attiva, tendenze di conversione, coinvolgimento, impatto sul primo utilizzo, frequenza, funnel, crescita netta, impatto sullle versioni, conservazione, timeline, tendenze</li></ul> |
+| **Azioni Workspace e funzionalità agente** | <ul><li>Creare e aggiornare le visualizzazioni<p>Genera una tabella a forma libera e la visualizzazione associata (ad es. a linee, a barre, ad anello, ecc.).</p><p>Ad esempio, *Qual è il profitto per le varie SKU da febbraio a maggio?*</p></li><li>Porre domande di follow-up<p>Rispondi a un prompt nel contesto di eventuali prompt precedenti. Ad esempio:</p> <ul><li>Prompt 1: *Eventi di tendenza da marzo.*</li><li>Prompt 2: *Mostra invece i dati da marzo ad aprile*</li></ul> </li><li>Rilevamento di prompt esclusi dall’ambito<p>Se invii un prompt che non rientra nell’ambito di azione dell’agente Data Insights, ad esempio *Esporta questo progetto*, l’agente risponde informandoti che la domanda è esclusa dal suo ambito.</p></li></ul> | <ul><li>Condividere</li><li>Esportare</li><li>Scaricare</li><li>Gestire le preferenze utente</li><li>Gestire la visualizzazione dati</li><li>App delle dashboard di Analytics</li><li>Attribuzione</li><li>Riepilogo o risposta in linea<p>L’agente Data Insights non può rispondere in linea nella barra della chat con una risposta di riepilogo per un prompt dell’utente. Esempi di prompt esclusi dall’ambito dell’agente: *Fai un riepilogo degli insight dall’ultimo prompt* e *Riepiloga i punti principali che emergono dalla visualizzazione a linee.*</p></li></ul> |
 | **Domande chiarificatrici** | Se poni una domanda troppo generica o priva del contesto necessario affinché l’agente Data Insights possa rispondere, l’agente Data Insights risponde con una domanda chiarificatrice o con opzioni suggerite. <p>Alcuni esempi di domande chiarificatrici relative ai componenti:</p><ul><li>Metrica: *Quale metrica “entrate” intendevi?*</li><li>Dimensione: *Quali delle seguenti “aree geografiche” ti interessano?*</li><li>Segmento: *Quale segmento “Account” volevi applicare?*</li><li>Intervallo date: *Per “ultimo mese”, intendi l’ultimo mese completo o gli ultimi 30 giorni?*</li></ul><p>Esempio di domanda chiarificatrice relativa a elementi dimensionali:</p> <ul><li>Quale “nome negozio” intendi? (es.: Negozio #5274, Negozio #2949 e così via.)</li></ul> | Le domande chiarificatrici sono limitate ai componenti e agli elementi dimensionali. L’agente Data Insights non è in grado di chiarire elementi quali visualizzazioni dati, visualizzazioni, granularità dei dati, confronto e ambito. Quando non è possibile utilizzare una domanda chiarificatrice, per impostazione predefinita l’agente considera ciò che è più probabile che tu chieda. Se restituisce una visualizzazione o una granularità dei dati imprevista, puoi porre una domanda di follow-up o regolare la visualizzazione e i dati. |
 | **Verificabilità e correttezza dei dati** | La verificabilità e la correttezza dei dati possono essere confermate visualizzando la tabella a forma libera e la visualizzazione dei dati generate. <p>Ad esempio, se chiedi all’agente Data Insights la *tendenza degli ordini dell’ultimo mese*, puoi verificare se la metrica corretta (“ordini”) e l’intervallo di date (“ultimo mese”) sono selezionati nel pannello, nella visualizzazione dati e nella tabella a forma libera appena generati.</p> | L’agente Data Insights non risponde informandoti su quali componenti o visualizzazioni sono stati aggiunti. |
 | **Meccanismi di feedback** | <ul><li>Pollice in su</li><li>Pollice in giù</li><li>Segnalazione</li></ul> |  |
@@ -73,23 +60,23 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
 * **Autorizzazioni**: per consentire agli utenti di accedere a Data Insights Agent, è necessario concedere le autorizzazioni necessarie in [!UICONTROL Adobe Admin Console].
 
-  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
-   1. In **[!UICONTROL Admin Console]**, seleziona la scheda **[!UICONTROL Prodotti]** per visualizzare la pagina **[!UICONTROL Tutti i prodotti e i servizi]**.
-   1. Seleziona **[!UICONTROL Customer Journey Analytics]**.
-   1. Nella scheda **[!UICONTROL Profili di prodotto]**, selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso all&#39;[!UICONTROL Assistente AI: Conoscenza del prodotto].
-   1. Nel profilo di prodotto specifico, seleziona la scheda **[!UICONTROL Autorizzazioni]**.
+  Per concedere le autorizzazioni, un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve completare i seguenti passaggi in [!UICONTROL Admin Console]:
+  1. In **[!UICONTROL Admin Console]**, seleziona la scheda **[!UICONTROL Prodotti]** per visualizzare la pagina **[!UICONTROL Tutti i prodotti e i servizi]**.
+  1. Seleziona **[!UICONTROL Customer Journey Analytics]**.
+  1. Nella scheda **[!UICONTROL Profili di prodotto]**, selezionare il titolo del profilo di prodotto per il quale si desidera fornire l&#39;accesso all&#39;[!UICONTROL Assistente AI: Conoscenza del prodotto].
+  1. Nel profilo di prodotto specifico, seleziona la scheda **[!UICONTROL Autorizzazioni]**.
 
-      ![Scheda Autorizzazioni in Admin Console](assets/ai-assistant-permissions-tab.png)
+     ![Scheda Autorizzazioni in Admin Console](assets/ai-assistant-permissions-tab.png)
 
-   1. Nella riga **[!UICONTROL Strumenti di reporting]** nella tabella fornita, seleziona l&#39;icona di modifica ![Modifica](/help/assets/icons/Edit.svg).
-   1. Scorri fino a o cerca **[!UICONTROL Assistente AI: conoscenza del prodotto]**, quindi seleziona l&#39;icona più (![AddCircle](/help/assets/icons/AddCircle.svg)) accanto a questa autorizzazione.
-   1. Scorri fino a o cerca **[!UICONTROL Data Insights Agent]**, quindi seleziona l&#39;icona più (![AddCircle](/help/assets/icons/AddCircle.svg)) accanto a questa autorizzazione.
+  1. Nella riga **[!UICONTROL Strumenti di reporting]** nella tabella fornita, seleziona l&#39;icona di modifica ![Modifica](/help/assets/icons/Edit.svg).
+  1. Scorri fino a o cerca **[!UICONTROL Assistente AI: conoscenza del prodotto]**, quindi seleziona l&#39;icona più (![AddCircle](/help/assets/icons/AddCircle.svg)) accanto a questa autorizzazione.
+  1. Scorri fino a o cerca **[!UICONTROL Data Insights Agent]**, quindi seleziona l&#39;icona più (![AddCircle](/help/assets/icons/AddCircle.svg)) accanto a questa autorizzazione.
 
-      L&#39;autorizzazione **[!UICONTROL AI Assistant: Product Knowledge]** e l&#39;autorizzazione **[!UICONTROL Data Insights Agent]** sono state aggiunte alla colonna **[!UICONTROL Included permission items]**.
+     L&#39;autorizzazione **[!UICONTROL AI Assistant: Product Knowledge]** e l&#39;autorizzazione **[!UICONTROL Data Insights Agent]** sono state aggiunte alla colonna **[!UICONTROL Included permission items]**.
 
-      ![Aggiungi autorizzazione](assets/ai-assistant-permissions.png).
+     ![Aggiungi autorizzazione](assets/ai-assistant-permissions.png).
 
-   1. Seleziona **[!UICONTROL Salva]** per salvare le autorizzazioni.
+  1. Seleziona **[!UICONTROL Salva]** per salvare le autorizzazioni.
 
   Per ulteriori informazioni sul controllo degli accessi, consulta [Controllo degli accessi](/help/technotes/access-control.md#access-control).
 
@@ -104,21 +91,21 @@ I seguenti parametri regolano l’accesso all’agente Data Insights in Customer
 
   Per abilitare le visualizzazioni dati dell’agente Data Insights:
 
-   1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Visualizzazioni dati]**.
+  1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Visualizzazioni dati]**.
 
-   1. Selezionare una o più visualizzazioni dati da abilitare per Data Insights Agent, quindi selezionare **[!UICONTROL Abilita per Data Insights Agent]**.
+  1. Selezionare una o più visualizzazioni dati da abilitare per Data Insights Agent, quindi selezionare **[!UICONTROL Abilita per Data Insights Agent]**.
 
-      ![Abilitare le visualizzazioni dati per l’agente Data Insights](assets/data-view-enable-dia.png)
+     ![Abilitare le visualizzazioni dati per l’agente Data Insights](assets/data-view-enable-dia.png)
 
-      Per ulteriori informazioni sull&#39;abilitazione delle visualizzazioni dati per Data Insights Agent, vedere [Impostazioni IA per una visualizzazione dati](/help/data-views/create-dataview.md#ai-settings).
+     Per ulteriori informazioni sull&#39;abilitazione delle visualizzazioni dati per Data Insights Agent, vedere [Impostazioni IA per una visualizzazione dati](/help/data-views/create-dataview.md#ai-settings).
 
   Per visualizzare il numero di visualizzazioni dati abilitate per l’agente Data Insights nell’organizzazione IMS:
 
-   1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Visualizzazioni dati]**.
+  1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Visualizzazioni dati]**.
 
-   1. Seleziona l&#39;icona info nella parte superiore della colonna **[!UICONTROL Data Insights Agent]**.
+  1. Seleziona l&#39;icona info nella parte superiore della colonna **[!UICONTROL Data Insights Agent]**.
 
-      ![Icona delle informazioni dell’agente Data Insights](assets/data-insights-agent-tooltip.png)
+     ![Icona delle informazioni dell’agente Data Insights](assets/data-insights-agent-tooltip.png)
 
 
 ## Accedere all’agente Data Insights nell’Assistente IA
@@ -197,7 +184,7 @@ Adobe Experience Platform Agent Orchestrator consente di accedere alle funzional
 
 Agent Orchestrator interpreta la richiesta, determina quali agenti specializzati sono necessari e li orchestra per fornire la risposta giusta. Tiene traccia del contesto nelle interazioni a più turni, in modo da poter sfruttare naturalmente le query precedenti.
 
-Per ulteriori informazioni, consulta [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/it/products/experience-platform/agent-orchestrator.html).
+Per ulteriori informazioni, consulta [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
 
 ## Esempi di prompt per le visualizzazioni dati
 

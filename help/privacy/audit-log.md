@@ -6,20 +6,11 @@ feature: Privacy
 role: Admin
 autotag-review: '2026-05-19T07:58:20.300Z'
 TQID: 'https://experienceleague.adobe.com/eI0cv42QWTm0NqS-4FTuudTDefQ-MZBUMFsyy5-VLaM'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
-subfeature_v2:
-  - id: c1cf8502-455a-452a-9f49-d22dfdff8033
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+subfeature_v2: id: c1cf8502-455a-452a-9f49-d22dfdff8033
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 999
@@ -68,7 +59,7 @@ In Customer Journey Analytics, passa a **[!UICONTROL Strumenti]** > **[!UICONTRO
 
 Per impostazione predefinita vengono visualizzati i registri di controllo relativi alla data odierna e al giorno precedente.
 
-![Registro di controllo in cui sono evidenziati Oggi e Ieri. &#x200B;](assets/audit_ui.png)
+![Registro di controllo in cui sono evidenziati Oggi e Ieri. ](assets/audit_ui.png)
 
 Per specificare quali colonne devono essere visibili, utilizza il selettore delle colonne in alto a destra.
 
@@ -76,54 +67,54 @@ Per specificare quali colonne devono essere visibili, utilizza il selettore dell
 
 Fai doppio clic sul pulsante Info (i) accanto a una descrizione.
 
-![Registro di controllo in cui è evidenziato il pulsante Informazioni. &#x200B;](assets/info-button-audit.png)
+![Registro di controllo in cui è evidenziato il pulsante Informazioni. ](assets/info-button-audit.png)
 
 Vengono visualizzati i seguenti elementi:
 
 * **[!UICONTROL Nome azione]**: l&#39;azione intrapresa. I valori possibili includono:
-   * API_REQUEST: qualsiasi azione attiva una richiesta API back-end. Vengono visualizzati i dettagli relativi alla richiesta API.
-   * APPROVE: è stata eseguita un’azione di “approvazione”.
-   * CREATE: è stata eseguita un’azione “crea”.
-   * DELETE: è stata eseguita un’azione “elimina”.
-   * EDIT: è stata eseguita un’azione di “modifica”.
-   * EMBARGO: quando viene limitata una richiesta in [Reporting Activity Manager](https://experienceleague.adobe.com/it/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests), l’azione viene registrata nel Registro di controllo in EMBARGO.
-   * EXPORT: è stata eseguita un’azione di “esportazione”.
-   * ORG_CHANGE: è stata eseguita un’azione di modifica dell’organizzazione.
-   * REFRESH: è stata eseguita un’azione di “aggiornamento”.
-   * SHARE: È stata eseguita un’azione “condividi”.
-   * TRANSFER: è stata eseguita un’azione di trasferimento.
-   * UNAPPROVE: è stata eseguita un’azione “annulla approvazione”.
-   * UNSHARE: è stata eseguita un’azione “annulla condivisione”.
+  * API_REQUEST: qualsiasi azione attiva una richiesta API back-end. Vengono visualizzati i dettagli relativi alla richiesta API.
+  * APPROVE: è stata eseguita un’azione di “approvazione”.
+  * CREATE: è stata eseguita un’azione “crea”.
+  * DELETE: è stata eseguita un’azione “elimina”.
+  * EDIT: è stata eseguita un’azione di “modifica”.
+  * EMBARGO: quando viene limitata una richiesta in [Reporting Activity Manager](https://experienceleague.adobe.com/it/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests), l’azione viene registrata nel Registro di controllo in EMBARGO.
+  * EXPORT: è stata eseguita un’azione di “esportazione”.
+  * ORG_CHANGE: è stata eseguita un’azione di modifica dell’organizzazione.
+  * REFRESH: è stata eseguita un’azione di “aggiornamento”.
+  * SHARE: È stata eseguita un’azione “condividi”.
+  * TRANSFER: è stata eseguita un’azione di trasferimento.
+  * UNAPPROVE: è stata eseguita un’azione “annulla approvazione”.
+  * UNSHARE: è stata eseguita un’azione “annulla condivisione”.
 * **[!UICONTROL Data di creazione]**: la data e l&#39;ora in cui è stata eseguita l&#39;azione.
 * **[!UICONTROL Descrizione]**: riepilogo dell&#39;azione.
 * **[!UICONTROL Nome utente]**: l&#39;utente che ha eseguito l&#39;azione. A volte, il nome utente potrebbe mancare. Valuta l’utilizzo della funzionalità [Utilizzo prodotto](https://experienceleague.adobe.com/it/docs/analytics-platform/using/tools/product-usage/usage-overview), in quanto include sempre il nome utente di accesso.
 * **[!UICONTROL E-mail]**: l&#39;indirizzo e-mail dell&#39;utente che ha eseguito l&#39;azione.
 * **[!UICONTROL Nome componente]**: il componente su cui l&#39;utente ha eseguito l&#39;azione.
 * **[!UICONTROL Tipo di componente]**: il tipo di componente. I valori possibili includono:
-   * ANNOTATION
-   * PUBBLICO
-   * CALCULATED_METRIC
-   * CONNECTION
-   * DATA_GROUP
-   * DATA_VIEW
-   * DATASET_STITCHING
-   * DATE_RANGE
-   * FEATURE_ACCESS
-   * FILTRO
-   * IMS_ORG
-   * MOBILE
-   * PROJECT (Workspace)
-   * REPORT
-   * SCHEDULED_PROJECT
-   * USER
-   * USER_GROUP
+  * ANNOTATION
+  * PUBBLICO
+  * CALCULATED_METRIC
+  * CONNECTION
+  * DATA_GROUP
+  * DATA_VIEW
+  * DATASET_STITCHING
+  * DATE_RANGE
+  * FEATURE_ACCESS
+  * FILTRO
+  * IMS_ORG
+  * MOBILE
+  * PROJECT (Workspace)
+  * REPORT
+  * SCHEDULED_PROJECT
+  * USER
+  * USER_GROUP
 * **[!UICONTROL ID componente]**: ID del componente su cui l&#39;utente ha eseguito l&#39;azione.
 * **[!UICONTROL ID organizzazione IMS]**: ID IMS dell&#39;organizzazione, nel formato `ABC123@AdobeOrg`.
 * **[!UICONTROL ID registro]**: ID univoco che identifica la voce del registro.
 * **[!UICONTROL ID utente]**: ID univoco che identifica l&#39;utente che ha eseguito l&#39;azione.
 * **[!UICONTROL Tipo utente]**: tipo di autenticazione utilizzato. I valori validi includono:
-   * IMS
-   * OKTA
+  * IMS
+  * OKTA
 
 ### Filtrare i registri di controllo
 
@@ -150,19 +141,19 @@ La tabella seguente presenta le azioni che vengono riportate nei registri di con
 
 | Tipo di componente | Azioni |
 | --- | --- |
-| [!UICONTROL Annotazione] | <ul><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
-| [!UICONTROL Pubblico] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li><li>Esporta</li><li>Aggiornamento</li></ul> |
-| [!UICONTROL Metrica calcolata] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
-| [!UICONTROL Connessione] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
-| [!UICONTROL Visualizzazione dati] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
-| [!UICONTROL Intervallo date] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
-| [!UICONTROL Filtro] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
-| [!UICONTROL Organizzazione IMS] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
-| [!UICONTROL Progetto] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
+| [!UICONTROL Annotazione] | <ul><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
+| [!UICONTROL Pubblico] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li><li>Esportare</li><li>Aggiornamento</li></ul> |
+| [!UICONTROL Metrica calcolata] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
+| [!UICONTROL Connessione] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
+| [!UICONTROL Visualizzazione dati] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
+| [!UICONTROL Intervallo date] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
+| [!UICONTROL Filtro] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
+| [!UICONTROL Organizzazione IMS] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
+| [!UICONTROL Progetto] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
 | [!UICONTROL Rapporto] | <ul><li>Richiesta API</li></ul> |
-| [!UICONTROL Progetto pianificato] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
-| [!UICONTROL Utente] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
-| [!UICONTROL Gruppo utenti] | <ul><li>Richiesta API</li><li>Crea</li><li>Elimina</li><li>Modifica</li></ul> |
+| [!UICONTROL Progetto pianificato] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
+| [!UICONTROL Utente] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
+| [!UICONTROL Gruppo utenti] | <ul><li>Richiesta API</li><li>Creazione</li><li>Eliminazione</li><li>Modifica</li></ul> |
 
 {style="table-layout:auto"}
 

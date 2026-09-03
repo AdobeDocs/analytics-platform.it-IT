@@ -5,15 +5,10 @@ exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
 TQID: https://experienceleague.adobe.com/SVEj1knpMzmtkIlwAYSb6o0PYBR9wf7JbrLMcMM2V8g
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 774
@@ -90,9 +85,9 @@ Di seguito sono riportate le azioni comuni di Gestione progetti programmati: Puo
 
 | Icona | Azione | Descrizione |
 |:---:|---|---|
-| ![Etichette](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Assegna tag ai tipi di pubblico selezionati. Nella finestra di dialogo **[!UICONTROL Aggiorna tag: *nome pubblico *]**, seleziona i tag dal menu a discesa o digita uno o più nuovi tag. Seleziona&#x200B;**[!UICONTROL Salva &#x200B;]**&#x200B;per salvare. |
+| ![Etichette](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Assegna tag ai tipi di pubblico selezionati. Nella finestra di dialogo **[!UICONTROL Aggiorna tag: *nome pubblico *]**, seleziona i tag dal menu a discesa o digita uno o più nuovi tag. Seleziona**[!UICONTROL Salva ]**per salvare. |
 | ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Elimina]** | Elimina i tipi di pubblico selezionati. |
-| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rinomina]** | Rinomina il tipo di pubblico selezionato. Utilizza la finestra di dialogo **[!UICONTROL Rinomina: *nome pubblico *]**&#x200B;per rinominare il pubblico e seleziona&#x200B;**[!UICONTROL Salva &#x200B;]**&#x200B;per salvarlo. |
+| ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rinomina]** | Rinomina il tipo di pubblico selezionato. Utilizza la finestra di dialogo **[!UICONTROL Rinomina: *nome pubblico *]**per rinominare il pubblico e seleziona**[!UICONTROL Salva ]**per salvarlo. |
 
 Quando selezioni uno o più progetti pianificati, nella barra blu delle azioni sono disponibili le azioni seguenti.
 

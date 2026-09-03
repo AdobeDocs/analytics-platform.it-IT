@@ -40,6 +40,6 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="conversation-insights_config_dataview"
->title="Visualizzazione dati"
+>title="Visualizzazione dati
 >abstract="Seleziona la visualizzazione dati associata alla connessione che desideri utilizzare per l’analisi di Informazioni sulla conversazione. Le metriche e le dimensioni di Informazioni sulla conversazione verranno aggiunte alla visualizzazione dati selezionata."
 

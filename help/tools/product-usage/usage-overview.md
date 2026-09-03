@@ -3,21 +3,11 @@ title: Panoramica di utilizzo del prodotto
 description: Visualizza approfondimenti e rapporti sull’utilizzo di Customer Journey Analytics da parte della tua organizzazione.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
 TQID: https://experienceleague.adobe.com/1E5nOGTKA3Fietx0ofNmabmmE3r0Zf3twn5vMQME-zc
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
 source-wordcount: 660
@@ -53,100 +43,100 @@ Passando a questa sezione dell’interfaccia in Customer Journey Analytics arriv
 Quando abiliti Utilizzo del prodotto, sono disponibili le seguenti dimensioni. Se desideri modificare le impostazioni di dimensione, crea una copia della visualizzazione dati di proprietà del sistema e utilizza la visualizzazione dati copiata in Analysis Workspace.
 
 * **[!UICONTROL Nome azione]**: tipo di azione eseguita dall&#39;utente. Puoi utilizzare questa dimensione come qualsiasi metrica desiderata creando una copia nelle impostazioni della visualizzazione dati. Gli elementi dimensionali includono:
-   * [!UICONTROL Aggiungi attribuzione]
-   * [!UICONTROL Aggiungi componente]
-   * [!UICONTROL Aggiungi pannello]
-   * [!UICONTROL Aggiungi visualizzazione]
-   * [!UICONTROL Crea nuova analisi guidata]
-   * [!UICONTROL Crea nuovo progetto]
-   * [!UICONTROL Cura componenti]
-   * [!UICONTROL Scarica CSV]
-   * [!UICONTROL Scarica PDF]
-   * [!UICONTROL Carica analisi guidata]
-   * [!UICONTROL Carica progetto]
-   * [!UICONTROL Nuova scorecard caricata]
-   * [!UICONTROL Apri dizionario dati]
-   * [!UICONTROL Apri didascalie intelligenti]
-   * [!UICONTROL Condivisione progetto]
-   * [!UICONTROL Esegui pannello Sperimentazione]
-   * [!UICONTROL Salva progetto]
-   * [!UICONTROL Scorecard salvata]
-   * [!UICONTROL Invia file]
-   * [!UICONTROL Invia file secondo programma]
-   * [!UICONTROL Condividi progetto con qualcuno]
-   * [!UICONTROL Condividi progetto con utenti Workspace]
-   * [!UICONTROL Cambia visualizzazione dati]
+  * [!UICONTROL Aggiungi attribuzione]
+  * [!UICONTROL Aggiungi componente]
+  * [!UICONTROL Aggiungi pannello]
+  * [!UICONTROL Aggiungi visualizzazione]
+  * [!UICONTROL Crea nuova analisi guidata]
+  * [!UICONTROL Crea nuovo progetto]
+  * [!UICONTROL Cura componenti]
+  * [!UICONTROL Scarica CSV]
+  * [!UICONTROL Scarica PDF]
+  * [!UICONTROL Carica analisi guidata]
+  * [!UICONTROL Carica progetto]
+  * [!UICONTROL Nuova scorecard caricata]
+  * [!UICONTROL Apri dizionario dati]
+  * [!UICONTROL Apri didascalie intelligenti]
+  * [!UICONTROL Condivisione progetto]
+  * [!UICONTROL Esegui pannello Sperimentazione]
+  * [!UICONTROL Salva progetto]
+  * [!UICONTROL Scorecard salvata]
+  * [!UICONTROL Invia file]
+  * [!UICONTROL Invia file secondo programma]
+  * [!UICONTROL Condividi progetto con qualcuno]
+  * [!UICONTROL Condividi progetto con utenti Workspace]
+  * [!UICONTROL Cambia visualizzazione dati]
 * **[!UICONTROL Modello di attribuzione utilizzato]**: tipo di modello di attribuzione utilizzato dal componente. Gli elementi dimensionali includono:
-   * [!UICONTROL Ultimo contatto]
-   * [!UICONTROL Primo contatto]
-   * [!UICONTROL Lineare]
-   * [!UICONTROL Partecipazione]
-   * [!UICONTROL Stesso contatto]
-   * [!UICONTROL A forma di U]
-   * [!UICONTROL J curva]
-   * [!UICONTROL J inversa]
-   * [!UICONTROL Decadimento nel tempo]
-   * [!UICONTROL Personalizzato]
-   * [!UICONTROL Algoritmico]
+  * [!UICONTROL Ultimo contatto]
+  * [!UICONTROL Primo contatto]
+  * [!UICONTROL Lineare]
+  * [!UICONTROL Partecipazione]
+  * [!UICONTROL Stesso contatto]
+  * [!UICONTROL A forma di U]
+  * [!UICONTROL J curva]
+  * [!UICONTROL J inversa]
+  * [!UICONTROL Decadimento nel tempo]
+  * [!UICONTROL Personalizzato]
+  * [!UICONTROL Algoritmico]
 * **[!UICONTROL ID componente]**: ID del componente aggiunto, rimosso o modificato.
 * **[!UICONTROL Nome componente]**: il nome descrittivo del componente aggiunto, rimosso o modificato.
 * **[!UICONTROL Tipo di componente]**: tipo di componente aggiunto, rimosso o modificato. Gli elementi dimensionali includono:
-   * [!UICONTROL Dimensione]
-   * [!UICONTROL Metrica]
-   * [!UICONTROL Segmento]
-   * [!UICONTROL Metrica calcolata]
-   * [!UICONTROL Intervallo date]
-   * [!UICONTROL Annotazione]
-   * [!UICONTROL Avviso]
+  * [!UICONTROL Dimensione]
+  * [!UICONTROL Metrica]
+  * [!UICONTROL Segmento]
+  * [!UICONTROL Metrica calcolata]
+  * [!UICONTROL Intervallo date]
+  * [!UICONTROL Annotazione]
+  * [!UICONTROL Avviso]
 * **[!UICONTROL ID visualizzazione dati]**: ID della visualizzazione dati.
 * **[!UICONTROL Nome visualizzazione dati]**: il nome descrittivo della visualizzazione dati.
 * **[!UICONTROL Utente di accesso]**: l&#39;utente che ha eseguito l&#39;azione.
 * **[!UICONTROL Pannello utilizzato]**: pannello aggiunto, rimosso o modificato. Gli elementi dimensionali includono:
-   * [!UICONTROL Attribuzione]
-   * [!UICONTROL Pannello vuoto]
-   * [!UICONTROL Sperimentazione]
-   * [!UICONTROL A forma libera]
-   * [!UICONTROL Elemento successivo o precedente]
-   * [!UICONTROL Quick Insights]
-   * [!UICONTROL Tendenze]
-   * [!UICONTROL Funnel]
-   * [!UICONTROL Crescita utenti]
-   * [!UICONTROL Impatto]
-   * [!UICONTROL Flusso utente]
-   * [!UICONTROL Mantenimento]
-   * [!UICONTROL Matrice di funzioni]
+  * [!UICONTROL Attribuzione]
+  * [!UICONTROL Pannello vuoto]
+  * [!UICONTROL Sperimentazione]
+  * [!UICONTROL A forma libera]
+  * [!UICONTROL Elemento successivo o precedente]
+  * [!UICONTROL Quick Insights]
+  * [!UICONTROL Tendenze]
+  * [!UICONTROL Funnel]
+  * [!UICONTROL Crescita utenti]
+  * [!UICONTROL Impatto]
+  * [!UICONTROL Flusso utente]
+  * [!UICONTROL Mantenimento]
+  * [!UICONTROL Matrice di funzioni]
 * **[!UICONTROL ID progetto]**: ID del progetto.
 * **[!UICONTROL Nome progetto]**: il nome descrittivo del progetto.
 * **[!UICONTROL Tipo di progetto]**: il tipo di progetto. Gli elementi dimensionali includono:
-   * `workspace-projects`
-   * `guided-analysis`
-   * `mobile-scorecard-builder`
+  * `workspace-projects`
+  * `guided-analysis`
+  * `mobile-scorecard-builder`
 * **[!UICONTROL Visualizzazione utilizzata]**: visualizzazione aggiunta, rimossa o modificata. Gli elementi dimensionali includono:
-   * [!UICONTROL Tabella a forma libera]
-   * [!UICONTROL Tabella coorte]
-   * [!UICONTROL Fallout]
-   * [!UICONTROL Flusso]
-   * [!UICONTROL reportlet area di lavoro Percorsi]
-   * [!UICONTROL Superfici]
-   * [!UICONTROL Area sovrapposta]
-   * [!UICONTROL Barre]
-   * [!UICONTROL Barre sovrapposte]
-   * [!UICONTROL Bullet]
-   * [!UICONTROL Combinato]
-   * [!UICONTROL Anello]
-   * [!UICONTROL Istogramma]
-   * [!UICONTROL Barre orizzontali]
-   * [!UICONTROL Barra orizzontale sovrapposta]
-   * [!UICONTROL Riepilogo delle metriche chiave]
-   * [!UICONTROL Linee]
-   * [!UICONTROL Mappa]
-   * [!UICONTROL A dispersione]
-   * [!UICONTROL Intestazione di sezione]
-   * [!UICONTROL Variazione di riepilogo]
-   * [!UICONTROL Numero di riepilogo]
-   * [!UICONTROL Testo]
-   * [!UICONTROL Mappa ad albero]
-   * [!UICONTROL Venn]
+  * [!UICONTROL Tabella a forma libera]
+  * [!UICONTROL Tabella coorte]
+  * [!UICONTROL Fallout]
+  * [!UICONTROL Flusso]
+  * [!UICONTROL reportlet area di lavoro Percorsi]
+  * [!UICONTROL Superfici]
+  * [!UICONTROL Area sovrapposta]
+  * [!UICONTROL Barre]
+  * [!UICONTROL Barre sovrapposte]
+  * [!UICONTROL Bullet]
+  * [!UICONTROL Combinato]
+  * [!UICONTROL Anello]
+  * [!UICONTROL Istogramma]
+  * [!UICONTROL Barre orizzontali]
+  * [!UICONTROL Barra orizzontale sovrapposta]
+  * [!UICONTROL Riepilogo delle metriche chiave]
+  * [!UICONTROL Linee]
+  * [!UICONTROL Mappa]
+  * [!UICONTROL A dispersione]
+  * [!UICONTROL Intestazione di sezione]
+  * [!UICONTROL Variazione di riepilogo]
+  * [!UICONTROL Numero di riepilogo]
+  * [!UICONTROL Testo]
+  * [!UICONTROL Mappa ad albero]
+  * [!UICONTROL Venn]
 
 L’utilizzo del prodotto non tiene traccia dei singoli componenti del progetto quando questo viene semplicemente aperto o visualizzato. Tuttavia, viene tenuta traccia dell’azione dell’utente di apertura di un progetto.
 

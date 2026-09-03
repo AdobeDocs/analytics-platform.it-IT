@@ -6,19 +6,14 @@ exl-id: ef606c53-b370-419a-904b-573ee6d70a8d
 role: User
 autotag-review: '2026-05-19T08:31:00.048Z'
 TQID: 'https://experienceleague.adobe.com/y3VfcvJp8lCmBLHy4-zPEb6Y7dzjfcDPjSMlKGPNR-A'
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-subfeature_v2:
-  - id: ddf59f64-0e46-4986-a525-056acc143c70
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+subfeature_v2: id: ddf59f64-0e46-4986-a525-056acc143c70
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 960
+source-wordcount: 969
 ht-degree: 65%
 
 ---
@@ -33,7 +28,7 @@ ht-degree: 65%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione del riepilogo delle metriche chiave in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vedere [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_Questo articolo documenta la visualizzazione del riepilogo delle metriche chiave in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vedere [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/key-metric) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -77,7 +72,7 @@ Questa visualizzazione tratta diversi casi d’uso comuni, tra cui:
    >
    >Quando il campo [!UICONTROL **Intervallo date primario**] è impostato su [!UICONTROL **Intervallo date pannello**], l&#39;intervallo di date **[!UICONTROL Confronto]** può essere aggiornato automaticamente, a seconda che l&#39;opzione **[!UICONTROL Intervallo date confronto]** scelta sia relativa all&#39;intervallo date primario o fissa.
    >
-   >* **Relativo:** Se il campo **[!UICONTROL Intervallo date di confronto]** è impostato su un&#39;opzione relativa all&#39;intervallo date primario (ad esempio [!UICONTROL **Giorno precedente**], [!UICONTROL **Stesso giorno ultima settimana**], [!UICONTROL **Stesso giorno 4 settimane prima**] e così via), eventuali aggiornamenti al campo [!UICONTROL **Intervallo date primario**] causeranno l&#39;aggiornamento automatico dell&#39;intervallo date di confronto **[!UICONTROL 13&rbrace; al periodo immediatamente successivo all&#39;intervallo date del pannello.]**
+   >* **Relativo:** Se il campo **[!UICONTROL Intervallo date di confronto]** è impostato su un&#39;opzione relativa all&#39;intervallo date primario (ad esempio [!UICONTROL **Giorno precedente**], [!UICONTROL **Stesso giorno ultima settimana**], [!UICONTROL **Stesso giorno 4 settimane prima**] e così via), eventuali aggiornamenti al campo [!UICONTROL **Intervallo date primario**] causeranno l&#39;aggiornamento automatico dell&#39;intervallo date di confronto **[!UICONTROL 13} al periodo immediatamente successivo all&#39;intervallo date del pannello.]**
    >* **Fisso:** se il campo [!UICONTROL **Intervallo date di confronto**] è impostato su un intervallo di date fisso (ad esempio **3 febbraio 2023**), le modifiche apportate al campo [!UICONTROL **Intervallo di date principale**] o all’intervallo date del pannello non hanno alcun effetto sull’[!UICONTROL **Intervallo date di confronto**]. Tuttavia, eventuali aggiornamenti all’intervallo di date del pannello causano l’aggiornamento automatico dell’[!UICONTROL **Intervallo di date principale**].
 
 1. Seleziona **[!UICONTROL Genera]**.
@@ -151,7 +146,7 @@ Come parte delle impostazioni di visualizzazione, sono disponibili impostazioni 
 | **[!UICONTROL Mostra percentuale di confronto e linea di tendenza]** | Mostra o nascondi i dati di confronto. Quando sono nascosti, non vengono visualizzati gli oggetti Grafico a linee di confronto e Variazione di riepilogo. |
 | **[!UICONTROL Mostra numero totale]** | Mostrare o nascondere il numero di riepilogo |
 | **[!UICONTROL Mostra differenza raw]** | Mostra o nascondi la differenza non elaborata tra il valore totale della metrica nell’intervallo di date principale e l’intervallo di date secondario. |
-| **[!UICONTROL Abbrevia valore]** | Seleziona **[!UICONTROL Abbrevia valore]** per abbreviare in modo intelligente il valore numerico. Se questa opzione è selezionata, immetti un numero per definire la quantità di abbreviazione. Ad esempio:<br/><table><tr><td>**Valore originale**</td><td>**Abbreviazione**</td><td>**Risultato**</td></tr><tr><td>$12,011,141.25</td><td>Non selezionato</td><td align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>Selezionato, impostato su 1</td><td align="right">12 milioni $</td></tr><tr><td>$12,011,141.25</td><td>Selezionato, impostato su 2</td><td align="right">12,0 milioni $</td></tr><tr><td>$12,011,141.25</td><td>Selezionato, impostato su 2</td><td align="right">12,011 milioni $</td></tr><tr><td>$12,011,141.25</td><td>Seleziona, imposta su 3</td><td align="right">12,011 milioni $</td></tr></table> |
+| **[!UICONTROL Abbrevia valore]** | Seleziona **[!UICONTROL Abbrevia valore]** per abbreviare in modo intelligente il valore numerico. Se questa opzione è selezionata, immetti un numero per definire la quantità di abbreviazione. Ad esempio:<br/><table><tr><td>**Valore originale**</td><td>**Abbreviazione**</td><td>**Risultato**</td></tr><tr><td>12.011.141,25 $</td><td>Non selezionato</td><td align="right">12.011.141,25 $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su 1</td><td align="right">12 milioni $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su 2</td><td align="right">12,0 milioni $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su 2</td><td align="right">12,011 milioni $</td></tr><tr><td>12.011.141,25 $</td><td>Seleziona, imposta su 3</td><td align="right">12,011 milioni $</td></tr></table> |
 
 ## Visualizzazione Modifica
 

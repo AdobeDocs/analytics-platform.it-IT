@@ -7,15 +7,10 @@ type: Documentation
 exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/JAuvA8NU9j1Jx4bSw-JTHYF0c6mW249C6MWvzti-kB0
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 539
@@ -43,9 +38,9 @@ Report Builder per Customer Journey Analytics è supportato nei seguenti sistemi
 
   Per utilizzare il componente aggiuntivo, tutti gli utenti di Windows Desktop Excel devono installare Microsoft Edge Webview2. Per installare:
 
-   1. Vai a <https://developer.microsoft.com/en-us/microsoft-edge/webview2/>.
-   1. Selezionare e scaricare la versione appropriata di **[!UICONTROL Evergreen Standalone Installer]** per la piattaforma.
-   1. Eseguire il programma di installazione e seguire le istruzioni di installazione.
+  1. Vai a <https://developer.microsoft.com/en-us/microsoft-edge/webview2/>.
+  1. Selezionare e scaricare la versione appropriata di **[!UICONTROL Evergreen Standalone Installer]** per la piattaforma.
+  1. Eseguire il programma di installazione e seguire le istruzioni di installazione.
 
 ### Ufficio web
 
