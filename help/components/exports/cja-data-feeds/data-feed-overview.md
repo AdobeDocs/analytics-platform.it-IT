@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: de8748a1dddbc0ddaadca4c805c9b4aba99a4267
+source-git-commit: 4872f0078640fbd358a60a6d7baeb3ea575d3559
 workflow-type: tm+mt
-source-wordcount: 230
-ht-degree: 13%
+source-wordcount: 252
+ht-degree: 12%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 13%
 {{release-limited-testing}}
 
 I feed di dati sono un modo potente per estrarre dati non elaborati da Customer Journey Analytics. Puoi utilizzare questi dati non elaborati in altre piattaforme al di fuori di Adobe, a discrezione della tua organizzazione. I dati vengono consegnati in batch orari alla conclusione di ogni ora oppure in batch giornalieri alla conclusione di ogni giorno.
+
+Per un confronto tra i feed di dati e altri metodi di esportazione di Customer Journey Analytics, ad esempio Esportazione tabella completa, vedere [Confronto tra i prodotti Analytics](/help/getting-started/analytics-product-comparison.md).
 
 ## Prerequisiti
 

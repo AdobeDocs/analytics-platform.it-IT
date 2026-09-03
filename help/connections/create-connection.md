@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 9c0ddbb48c5cb1c62bded02d1455f2631ab1679f
 workflow-type: tm+mt
 source-wordcount: 10488
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -339,7 +339,7 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountid"
 >title="ID account"
->abstract="Seleziona un ID account dai campi di identità non di identità o non di persona disponibili, definiti nello schema del set di dati in Experience Platform. I valori contenuti vengono utilizzati come identificatori di account univoci a livello di riga, ogni volta che le informazioni sull’ID account correlate non sono disponibili nel set di dati Persona all’account."
+>abstract="Seleziona un ID account tra i campi di identità non di persona o non di identità disponibili definite negli schemi di set di dati in Experience Platform. I valori contenuti vengono utilizzati come identificatori di account univoci a livello di riga, ogni volta che le informazioni sull’ID account correlate non sono disponibili nel set di dati Da persona ad account."
 
 >[!CONTEXTUALHELP]
 >id="cja_connection_accountfield"
@@ -419,7 +419,7 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_accountid"
 >title="ID account"
->abstract="Facoltativamente, seleziona un ID account dai campi di identità non di identità o non di persone disponibili definiti nello schema XDM. I valori contenuti verranno utilizzati come identificatore univoco dell’account a livello di riga, ogni volta che le informazioni sull’ID account correlate non sono disponibili nel set di dati da persona a account."
+>abstract="Facoltativamente, seleziona un ID account dai campi di identità non di identità o non di persone disponibili definiti nello schema XDM. I valori contenuti verranno utilizzati come identificatore univoco dell’account a livello di riga, ogni volta che le informazioni sull’ID account correlate non sono disponibili nel set di dati da persona ad account."
 
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"
@@ -742,7 +742,7 @@ Per un set di dati evento in una connessione basata su account, puoi specificare
 
 | Impostazione | Descrizione |
 | --- | --- |
-| **[!UICONTROL ID account globale]** | Applicabile quando hai aggiunto l’account globale come contenitore alla connessione.<br/>Seleziona un ID account globale (l&#39;identificatore univoco di un account) dai campi di identità non di identità o non di persona disponibili definiti nello schema del set di dati in Experience Platform. I valori contenuti vengono utilizzati come identificatori di account univoci a livello di riga, ogni volta che le informazioni sull’ID account correlate non sono disponibili nel set di dati Persona all’account.  <p>Se un record non contiene un valore per l’identità selezionata come ID account per il set di dati evento, il record viene ignorato. |
+| **[!UICONTROL ID account globale]** | Applicabile quando hai aggiunto l’account globale come contenitore alla connessione.<br/>Seleziona un ID account globale (l&#39;identificatore univoco di un account) dai campi di identità non di identità o non di persona disponibili definiti nello schema del set di dati in Experience Platform. I valori contenuti vengono utilizzati come identificatori di account univoci a livello di riga, ogni volta che le informazioni sull’ID account correlate non sono disponibili nel set di dati Da persona ad account.  <p>Se un record non contiene un valore per l’identità selezionata come ID account per il set di dati evento, il record viene ignorato. |
 | **[!UICONTROL ID account]** | Seleziona un ID account (identificatore univoco per un account) dalle identità disponibili definite nello schema del set di dati in Experience Platform. Applicabile quando non hai aggiunto l’account globale come contenitore alla connessione. |
 | **[!UICONTROL ID opportunità]** | Seleziona un ID opportunità (identificatore univoco per un’opportunità) dalle identità disponibili definite nello schema del set di dati in Experience Platform. |
 | **[!UICONTROL ID gruppo acquisti]** | Seleziona un ID gruppo acquisti (identificatore univoco per un gruppo acquisti) dalle identità disponibili definite nello schema del set di dati in Experience Platform. |

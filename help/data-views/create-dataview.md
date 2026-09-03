@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
 workflow-type: tm+mt
 source-wordcount: 3152
-ht-degree: 74%
+ht-degree: 77%
 
 ---
 
@@ -67,7 +67,7 @@ Per configurare una visualizzazione dati nuova o esistente:
 >[!CONTEXTUALHELP]
 >id="dataview_externalid"
 >title="ID esterno"
->abstract="La modifica dell’ID esterno influisce sul modo in cui il nome della visualizzazione dati viene visualizzato nelle origini esterne, ad esempio negli strumenti di business intelligence."
+>abstract="La modifica dell’ID esterno può influire sul modo in cui il nome della visualizzazione dati appare nelle origini esterne, per esempio negli strumenti di business intelligence."
 
 
 Impostazioni generali per la visualizzazione dati.
@@ -87,7 +87,7 @@ Impostazioni generali per la visualizzazione dati.
 >[!CONTEXTUALHELP]
 >id="dataview_dataviewsinadobejourneyoptimizer"
 >title="Visualizzazioni dati in Journey Optimizer"
->abstract="Customer Journey Analytics richiede una connessione e una visualizzazione dati compatibili con Adobe Journey Optimizer. Per impostazione predefinita, il sistema crea una connessione e una visualizzazione dati. In alternativa, abilita questa opzione per impostare questa come visualizzazione dati predefinita per il reporting di Adobe Journey Optimizer, che aggiunge i componenti necessari alla visualizzazione dati e i set di dati alla connessione."
+>abstract="Customer Journey Analytics richiede una connessione e una visualizzazione dati compatibili con Adobe Journey Optimizer. Per impostazione predefinita, il sistema crea una connessione e una visualizzazione dati. In alternativa, abilita questa opzione per impostare questa visualizzazione dati come predefinita per il reporting di Adobe Journey Optimizer, che aggiunge i componenti necessari alla visualizzazione dati e i set di dati alla connessione."
 >additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/integrations/ajo#connection" text="Quali componenti e set di dati vengono aggiunti."
 
 
@@ -292,7 +292,7 @@ Puoi filtrare i campi dello schema ![icona Filtro](https://spectrum.adobe.com/st
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_policies"
 >title="Criteri"
->abstract="Per supportare la conformità dei dati, implementa le policy di utilizzo dei dati. Questi criteri descrivono azioni di marketing consentite o limitate sui dati in Experience Platform. I filtri Criteri applicano il criterio abilitato alla visualizzazione dati."
+>abstract="Per supportare la conformità dei dati, implementa i criteri di utilizzo dei dati. Questi criteri descrivono azioni di marketing consentite o limitate sui dati in Experience Platform. I filtri Criteri applicano il criterio abilitato alla visualizzazione dati."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview" text="Panoramica sulle etichette di utilizzo dei dati"
 
 
@@ -312,10 +312,10 @@ La sezione **[!UICONTROL Componenti inclusi]** contiene l&#39;elenco di **[!UICO
 
   Nella finestra di dialogo **[!UICONTROL Filtra campo per]**, puoi filtrare in base alle seguenti categorie:
 
-   * **[!UICONTROL Tipo di dati]**: puoi selezionare uno o più dei seguenti tipi di dati: [!UICONTROL Stringa], [!UICONTROL Numero intero], [!UICONTROL Breve], [!UICONTROL Booleano], [!UICONTROL Doppio], [!UICONTROL Byte], [!UICONTROL Lungo], [!UICONTROL Data] o [!UICONTROL Data e ora].
-   * **[!UICONTROL Set di dati]**: seleziona uno o più set di dati.
-   * **[!UICONTROL Governance dei dati]**: selezionare una o più etichette dalle sottocategorie [!UICONTROL Etichette personalizzate], [!UICONTROL Etichette contratto], [!UICONTROL Etichette identità], [!UICONTROL Etichette sensibilità], [!UICONTROL Ecosistema partner] o [!UICONTROL Criteri].
-   * **[!UICONTROL Altro]**: seleziona una o più opzioni tra [!UICONTROL Contiene dati], [!UICONTROL È identità] o [!UICONTROL Non è obsoleto].
+  * **[!UICONTROL Tipo di dati]**: puoi selezionare uno o più dei seguenti tipi di dati: [!UICONTROL Stringa], [!UICONTROL Numero intero], [!UICONTROL Breve], [!UICONTROL Booleano], [!UICONTROL Doppio], [!UICONTROL Byte], [!UICONTROL Lungo], [!UICONTROL Data] o [!UICONTROL Data e ora].
+  * **[!UICONTROL Set di dati]**: seleziona uno o più set di dati.
+  * **[!UICONTROL Governance dei dati]**: selezionare una o più etichette dalle sottocategorie [!UICONTROL Etichette personalizzate], [!UICONTROL Etichette contratto], [!UICONTROL Etichette identità], [!UICONTROL Etichette sensibilità], [!UICONTROL Ecosistema partner] o [!UICONTROL Criteri].
+  * **[!UICONTROL Altro]**: seleziona una o più opzioni tra [!UICONTROL Contiene dati], [!UICONTROL È identità] o [!UICONTROL Non è obsoleto].
 
   Seleziona **[!UICONTROL Applica]** per applicare i filtri.
 
