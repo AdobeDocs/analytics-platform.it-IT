@@ -5,11 +5,20 @@ exl-id: 9333ada2-b4d6-419e-9ee1-5c96f06a3bfd
 feature: Experience Platform Integration
 role: Admin
 TQID: https://experienceleague.adobe.com/kmZ-AYMcKxwZftFSqJQpTH3zDTDT1CxlNw-MVO6Ikn4
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: cb6c7d24-631f-46e5-9e39-3a2705f73962id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 3841
@@ -50,7 +59,7 @@ La connessione è denominata **[!UICONTROL Connessione abilitata per AJO (*nome 
 | Nome del set di dati | Schema | Tipo di set di dati | Tipo di origine dati | ID persona | Chiave | Chiave corrispondente | Importa nuovi dati | Retrocompilazione dei dati |
 |---|---|---|---|---|---|---|---|---|
 | [!UICONTROL Set di dati di entità AJO] | [!UICONTROL Schema record entità AJO] | [!UICONTROL Ricerca] | [!UICONTROL Altre] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
-| [!UICONTROL Eventi passaggio percorso] | [!UICONTROL Schema evento passaggio percorso per Journey Orchestration] | [!UICONTROL Evento] | [!UICONTROL Altre] | [!UICONTROL  IdentityMap(\&lt;primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
+| [!UICONTROL Eventi passaggio percorso] | [!UICONTROL Schema evento passaggio percorso per Journey Orchestration] | [!UICONTROL Evento] | [!UICONTROL Altre] | [!UICONTROL &#x200B; IdentityMap(\&lt;primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
 | [!UICONTROL Set di dati evento esperienza di tracciamento e-mail di AJO] | [!UICONTROL Schema evento esperienza di tracciamento e-mail di AJO] | [!UICONTROL Evento] | [!UICONTROL Altre] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
 | [!UICONTROL Set di dati evento di feedback messaggi AJO] | [!UICONTROL Set di dati evento di feedback messaggi AJO] | [!UICONTROL Evento] | [!UICONTROL Altre] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
 | [!UICONTROL Set di dati evento esperienza di tracciamento push AJO] | [!UICONTROL Schema evento esperienza di tracciamento push AJO] | [!UICONTROL Evento] | [!UICONTROL Altre] | [!UICONTROL IdentityMap(\&lt;primary\>)] | - | - | ![Stato verde](assets/../../connections/assets/status-green.svg) Attiva | ![Stato grigio](assets/../../connections/assets/status-gray.svg) Disattiva |
