@@ -1,36 +1,28 @@
 ---
 title: Unione Persona-Account B2B
-description: Scopri come la persona B2B che deve contare l’unione in Customer Journey Analytics arricchisce i set di dati dell’evento con le informazioni sull’account e consente un’analisi completa del percorso tra i dati B2B.
+description: Scopri come l’unione di persone B2B e account in Customer Journey Analytics arricchisce i set di dati evento con le informazioni sull’account e consente un’analisi completa del percorso tra i dati B2B.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 autotag-review: '2026-05-19T11:01:07.331Z'
 TQID: 'https://experienceleague.adobe.com/-7rHOhYVCp-nSMqdE7YlAlCJ0zRQYvPOViMHSCNuKV8'
-product_v2:
-  - id: d3f42e9e-bb51-4077-a732-358b801d8b29
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b3197353-f189-4932-8378-3f3bc40e6071
-subfeature_v2:
-  - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a971b268208ec49b5ccd84b11543263ff3a1abea
+product_v2: id: d3f42e9e-bb51-4077-a732-358b801d8b29id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b3197353-f189-4932-8378-3f3bc40e6071
+subfeature_v2: id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 62ee184e96a1f22e97bafaae6e71d6bef1267cb4
 workflow-type: tm+mt
-source-wordcount: 2100
+source-wordcount: 2120
 ht-degree: 15%
 
 ---
 
 # Unione persona-account B2B
 
-L’unione da persona a account B2B arricchisce i set di dati dell’evento con le identità dell’account e consente un’analisi completa nell’intero percorso di clienti in Customer Journey Analytics. Quando gli eventi non dispongono di un ID account, richiesto da Customer Journey Analytics B2B edition per l&#39;acquisizione, l&#39;unione persona-account deriva e aggiunge automaticamente tali informazioni utilizzando un [set di dati di mappatura persona-account](#prerequisites) fornito.
+L’unione da persona a account B2B arricchisce i set di dati dell’evento con le identità dell’account e consente un’analisi completa nell’intero percorso di clienti in Customer Journey Analytics. Quando gli eventi non dispongono di un ID account, richiesto da Customer Journey Analytics B2B edition per l&#39;acquisizione, l&#39;unione da persona a account deriva e aggiunge automaticamente tali informazioni utilizzando un [set di dati di mappatura da persona a account](#prerequisites) fornito.
 
-Senza unione da persona a account, qualsiasi evento che non contiene un ID account viene eliminato durante l’acquisizione. L’unione di dati da persona a account risolve questo limite ricercando l’account associato alla persona in ogni evento, aggiungendo l’ID account sia durante l’acquisizione dell’evento che retroattivamente.
+Senza unione da persona a account, qualsiasi evento che non contiene un ID account viene eliminato durante l’acquisizione. L’unione da persona a account risolve questo limite ricercando l’account associato alla persona in ogni evento, aggiungendo l’ID account sia durante l’acquisizione dell’evento che retroattivamente.
 
 >[!NOTE]
 >
@@ -39,11 +31,11 @@ Senza unione da persona a account, qualsiasi evento che non contiene un ID accou
 L’unione da persona a account esegue le seguenti operazioni sui set di dati:
 
 * **Elevare l&#39;identità della persona**: in modo analogo all&#39;approccio di unione [B2C](/help/stitching/overview.md), verrà configurato un campo contenente gli ID persona persistenti. Utilizzando il grafo delle identità, l’ID persona persistente in ogni evento è elevato a un ID persona dallo spazio dei nomi dell’identificatore della persona configurato.
-* **Aggiungi identità account mancanti**: dopo aver ottenuto le informazioni sull&#39;ID persona per un evento, viene utilizzata la [mappatura persona-account](#prerequisites) per derivare e aggiungere le informazioni sull&#39;identità dell&#39;account. Qualsiasi identità di account disponibile nell’evento stesso viene utilizzata come metodo di fallback.&quot;
+* **Aggiungi identità account mancanti**: dopo aver ottenuto le informazioni sull&#39;ID persona per un evento, viene utilizzata la [mappatura persona-account](#prerequisites) per derivare e aggiungere le informazioni sull&#39;identità dell&#39;account. Qualsiasi identità account disponibile nell’evento stesso viene utilizzata come metodo di fallback.
 
 ## Funzionamento dell’unione di persone e account B2B
 
-Per illustrare il funzionamento dell’unione di account B2B, il set di dati mostrato di seguito viene utilizzato come punto di partenza.
+Per illustrare il funzionamento dell’unione di persona B2B con l’account, come punto di partenza viene utilizzato il set di dati mostrato di seguito.
 
 ### Set di dati evento di base
 
@@ -69,7 +61,7 @@ L’unione da persona a account B2B impedisce che gli eventi vengano ignorati e 
 
 +++ Dettagli
 
-Per supportare l’unione di persone e account B2B, fornisci un set di dati di mappatura persona-account. Ad esempio:
+Per supportare l’unione di persona-account B2B, fornisci un set di dati di mappatura persona-account. Ad esempio:
 
 | ID CRM | ID account |
 |---|---|
@@ -126,12 +118,12 @@ Il set di dati da persona a account viene ancora una volta utilizzato per elevar
 
 ### Risultato
 
-Questo esempio mostra come l’unione degli account B2B aggiorna i dati dell’evento esperienza con identificatori di persona mancanti o identificatori di account mancanti o errati, in base al set di dati di mappatura persona-account fornito come input.
+Questo esempio mostra come l’unione di persone B2B e account aggiorna i dati dell’evento esperienza con identificatori di persona mancanti o identificatori di account mancanti o errati, in base al set di dati di mappatura persona-account fornito come input.
 
 
 ## Prerequisiti
 
-Prima di abilitare l’unione di account B2B, prepara i seguenti set di dati in Adobe Experience Platform:
+Prima di abilitare la persona B2B all’unione di account, prepara i seguenti set di dati in Adobe Experience Platform:
 
 | Set di dati | Obbligatorio | Descrizione |
 |---|---|---|
@@ -149,8 +141,8 @@ Innanzitutto, abilita e configura l’unione B2B a livello di connessione. Quand
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_open_configuration"
->title="Configurare l’unione delle identità in account B2B"
->abstract="Seleziona **[!UICONTROL Apri configurazione di unione identità B2B]** per configurare l’unione delle identità in account B2B. Se la connessione non è ancora stata salvata, la configurazione sarà etichettata con **[!UICONTROL _Modifiche non salvate_]**."
+>title="Configurare l’unione B2B"
+>abstract="Seleziona **[!UICONTROL Apri configurazione unione B2B]** per configurare la persona B2B per l&#39;unione account. Se la connessione non è ancora stata salvata, la configurazione sarà etichettata con **[!UICONTROL _Modifiche non salvate_]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
@@ -204,7 +196,7 @@ Innanzitutto, abilita e configura l’unione B2B a livello di connessione. Quand
 
    1. Configura la sezione **[!UICONTROL Persona]**:
 
-      * Seleziona lo spazio dei nomi dell’identità della persona più rilevante per la generazione dei rapporti, ad esempio E-mail. Qualsiasi set di dati evento con unione da persona a account abilitata ha l’ID persona persistente elevato a questo spazio dei nomi dell’identificatore della persona. Questo campo è obbligatorio.
+      * Seleziona lo spazio dei nomi dell’identità della persona più rilevante per la generazione dei rapporti, ad esempio E-mail. Qualsiasi set di dati evento con l’unione da persona a account abilitata ha l’ID persona persistente elevato a questo spazio dei nomi dell’identificatore della persona. Questo campo è obbligatorio.
 
    1. Configura la sezione **[!UICONTROL Account]** sotto **[!UICONTROL Persona all&#39;account]**.
 
@@ -230,33 +222,33 @@ Innanzitutto, abilita e configura l’unione B2B a livello di connessione. Quand
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Abilita unione delle identità persona-account"
 >abstract="Se questa opzione è abilitata, questo set di dati utilizza l’unione delle identità B2B Da persona ad account. I valori **[!UICONTROL ID persona persistente]** verranno elevati a quelli configurati per lo spazio dei nomi **[!UICONTROL Identificatore persona]**, quindi verranno utilizzati per ricercare l&#39;ID account in base al set di dati da persona a account.<br/>Se disabilitato, questo set di dati non utilizza la persona B2B per l&#39;unione degli account. Devi selezionare invece un **[!UICONTROL ID account]** richiesto."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/b2b-account-stitching#configure-b2b-stitching-settings" text="Configurare le impostazioni di unione della persona B2B con l’account"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="Configurare le impostazioni di unione della persona B2B con l’account"
 
 Dopo aver configurato la persona B2B per l’unione di account a livello di connessione, devi abilitare la persona B2B per l’unione di account singolarmente per ogni set di dati evento che desideri unire.
 
 1. In Impostazioni connessione selezionare **[!UICONTROL Aggiungi set di dati]** o aprire le impostazioni per un set di dati evento esistente.<br/>Per ulteriori informazioni, vedere [Aggiungere set di dati](/help/connections/create-connection.md#add-datasets) o [Modificare un set di dati](/help/connections/create-connection.md#edit-a-dataset).
 
-1. Per il set di dati evento specifico per il quale si desidera configurare l&#39;unione dell&#39;account B2B, attivare **[!UICONTROL Attiva unione da persona a account]**.
+1. Per il set di dati evento specifico per il quale si desidera configurare la persona B2B per l&#39;unione di account, attivare **[!UICONTROL Attiva unione da persona a account]**.
 
 >[!BEGINTABS]
 
 >[!TAB Il]
 
-Quando **[!UICONTROL Abilita unione persona a account]** è **su**, hai configurato l&#39;unione di account B2B per il set di dati.
+Quando **[!UICONTROL Abilita unione persona per account]** è **su**, hai configurato una persona B2B per l&#39;unione account per il set di dati.
 
 * È necessario configurare un ID persona. L&#39;ID persona viene utilizzato per cercare l&#39;ID account in base al [set di dati persona-account](#prerequisites).
 * La configurazione di un ID account è facoltativa.
 
-![Unione di account B2B nel set di dati dell&#39;evento il](../assets/b2b-event-dataset-stitching-on.png)
+![Unione di persona B2B con account nel set di dati evento il](../assets/b2b-event-dataset-stitching-on.png)
 
 >[!TAB Disattivato]
 
-Quando **[!UICONTROL Abilita unione persona a account]** è **off**, l&#39;unione dell&#39;account B2B per il set di dati è configurata da *not*.
+Quando **[!UICONTROL Abilita unione persona per account]** è **off**, *not* ha configurato una persona B2B per l&#39;unione account per il set di dati.
 
 * È necessaria la configurazione di un ID account.
 * La configurazione di un ID persona è facoltativa.
 
-![Unione account B2B nel set di dati evento disattivata](../assets/b2b-event-dataset-stitching-off.png)
+![Unione di persona B2B con account nel set di dati evento disattivata](../assets/b2b-event-dataset-stitching-off.png)
 
 >[!ENDTABS]
 
