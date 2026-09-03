@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1395
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -119,7 +119,7 @@ Per modificare un account:
 
 1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Selezionare la scheda [!UICONTROL **Account località**].
+1. Seleziona la scheda [!UICONTROL **Account posizione**].
 
    ![Finestra Esporta con la scheda Account località](assets/account-add.png)
 
@@ -137,7 +137,7 @@ Per visualizzare le chiavi associate a un account di esportazione:
 
 1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Selezionare la scheda [!UICONTROL **Account località**].
+1. Seleziona la scheda [!UICONTROL **Account posizione**].
 
    ![Finestra Esporta con la scheda Account località](assets/account-add.png)
 
@@ -149,7 +149,7 @@ Per visualizzare le chiavi associate a un account di esportazione:
 
 1. In Customer Journey Analytics, selezionare [!UICONTROL **Componenti**] > [!UICONTROL **Esportazioni**].
 
-1. Selezionare la scheda [!UICONTROL **Account località**].
+1. Seleziona la scheda [!UICONTROL **Account posizione**].
 
    ![Finestra Esporta con la scheda Account località](assets/account-add.png)
 

@@ -49,15 +49,15 @@ Dopo aver creato un progetto Workspace vuoto, assicurati di avere familiarità c
 * Aggiungi dei [pannelli](/help/analysis-workspace/c-panels/panels.md) al progetto. Ad esempio, **[!DNL Example Panel]** ➊.
 
 * Aggiungi [visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ai pannelli. Ad esempio:
-   * **[!DNL Line Graph]** Visualizzazione [a linee](/help/analysis-workspace/visualizations/line.md) ➋
-   * **[!DNL Countries]** Visualizzazione [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) ➌
+  * **[!DNL Line Graph]** Visualizzazione [a linee](/help/analysis-workspace/visualizations/line.md) ➋
+  * **[!DNL Countries]** Visualizzazione [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) ➌
 * Aggiungi [componenti](/help/components/overview.md) alle visualizzazioni. Ad esempio:
-   * **[!DNL Store Country]** [Dimensione](/help/components/dimensions/overview.md) ➍
-   * **[!DNL People]** [Metrica](/help/components/apply-create-metrics.md) ➎
-   * **[!DNL Avg Order Value]** [Metrica calcolata](/help/components/calc-metrics/calc-metr-overview.md) ➏
-   * **[!DNL Mobile App Sessions]** [Segmento](/help/components/segments/seg-overview.md) ➐
-   * **[!DNL Last Month]** [Intervallo di date](/help/components/date-ranges/overview.md) ➑
-   * **[!DNL Example]** [Annotazione](/help/components/annotations/overview.md) ➒
+  * **[!DNL Store Country]** [Dimensione](/help/components/dimensions/overview.md) ➍
+  * **[!DNL People]** [Metrica](/help/components/apply-create-metrics.md) ➎
+  * **[!DNL Avg Order Value]** [Metrica calcolata](/help/components/calc-metrics/calc-metr-overview.md) ➏
+  * **[!DNL Mobile App Sessions]** [Segmento](/help/components/segments/seg-overview.md) ➐
+  * **[!DNL Last Month]** [Intervallo di date](/help/components/date-ranges/overview.md) ➑
+  * **[!DNL Example]** [Annotazione](/help/components/annotations/overview.md) ➒
 
 
 ## Informazioni e impostazioni progetto {#project-info-settings}

@@ -43,7 +43,7 @@ topic_v2:
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1661
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -124,16 +124,16 @@ Oltre a essere stato aggiunto come amministratore di prodotto nel **profilo di p
 
   Per consentire agli utenti di utilizzare l’estensione BI, un amministratore di prodotto
 
-   * deve garantire che le autorizzazioni di Experience Platform per l’utente includano un ruolo che disponga della risorsa Query Service con le opzioni Gestisci query e Gestisci integrazione Query Service. Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta [Gestire le autorizzazioni per un profilo di prodotto](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/permissions).
+  * deve garantire che le autorizzazioni di Experience Platform per l’utente includano un ruolo che disponga della risorsa Query Service con le opzioni Gestisci query e Gestisci integrazione Query Service. Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta [Gestire le autorizzazioni per un profilo di prodotto](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/permissions).
 
-     | Categoria | Autorizzazione | Descrizione |
-     |---|---|---|
-     | [!UICONTROL Query Service] | [!UICONTROL Gestisci query] | Accesso per leggere, creare, modificare ed eliminare query SQL strutturate per i dati di Platform. |
-     | [!UICONTROL Query Service] | [!UICONTROL Gestisci integrazione Query Service] | Accesso per creare, aggiornare ed eliminare credenziali senza scadenza per l’accesso a Query Service. |
+    | Categoria | Autorizzazione | Descrizione |
+    |---|---|---|
+    | [!UICONTROL Query Service] | [!UICONTROL Gestisci query] | Accesso per leggere, creare, modificare ed eliminare query SQL strutturate per i dati di Platform. |
+    | [!UICONTROL Query Service] | [!UICONTROL Gestisci integrazione Query Service] | Accesso per creare, aggiornare ed eliminare credenziali senza scadenza per l’accesso a Query Service. |
 
-   * deve garantire le autorizzazioni Customer Journey Analytics appropriate per l’utente:
-      * l’autorizzazione ad accedere alle visualizzazioni dati pertinenti. Consulta [!UICONTROL Visualizzazioni dati] in [Accesso a livello di utente](#user-level-access).
-      * l’autorizzazione ad accedere all’estensione BI di Customer Journey Analytics. Consulta [!UICONTROL Strumenti di visualizzazione dati] in [Accesso a livello di utente](#user-level-access).
+  * deve garantire le autorizzazioni Customer Journey Analytics appropriate per l’utente:
+    * l’autorizzazione ad accedere alle visualizzazioni dati pertinenti. Consulta [!UICONTROL Visualizzazioni dati] in [Accesso a livello di utente](#user-level-access).
+    * l’autorizzazione ad accedere all’estensione BI di Customer Journey Analytics. Consulta [!UICONTROL Strumenti di visualizzazione dati] in [Accesso a livello di utente](#user-level-access).
 
 ### Ruolo di amministratore del profilo di prodotto
 

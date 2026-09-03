@@ -33,7 +33,7 @@ Sentiti libero di sperimentare e trascinare dimensioni e metriche, modificane im
 
 Ecco un esempio di visualizzazioni di base in Workspace. Potrai, ad esempio
 
-* Creare un rapporto di classificazione delle sorgenti di dati che includono il maggior numero di eventi, sessioni e persone.
+* Creare un rapporto sul ranking delle origini di dati che includono il maggior numero di eventi, sessioni e persone.
 
 * Creare un rapporto con le tendenze delle entrate online e in negozio che confronta le due origini di dati nel tempo.
 

@@ -25,8 +25,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 743
-ht-degree: 62%
+source-wordcount: 1063
+ht-degree: 64%
 
 ---
 
@@ -50,7 +50,7 @@ Ora puoi suddividere un pannello in Analysis Workspace. Esistono scenari in cui 
 
 >[!TAB Colonne di più dimensioni]
 
-Puoi includere fino a 5 colonne di dimensione in una tabella a forma libera, consentendoti di visualizzare più elementi dimensionali uno accanto all’altro. Ogni riga di elementi dimensionali si comporta come un singolo elemento dimensionale concatenato.
+Puoi includere fino a 5 colonne di dimensione in una tabella a forma libera, consentendoti di visualizzare più elementi dimensionali uno accanto all’altro. Ogni riga degli elementi dimensione si comporta come un singolo elemento dimensione concatenato.
 
 [![immagine](assets/learn-more-button.svg)](/help/analysis-workspace/visualizations/freeform-table/freeform-table-multidimensions.md)
 

@@ -21,15 +21,15 @@ role_v2:
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 837
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 # Includere più colonne di dimensione in una tabella a forma libera
 
-Puoi includere fino a 5 colonne di dimensione in una tabella a forma libera, consentendoti di visualizzare più elementi dimensionali uno accanto all’altro. Ogni riga di elementi dimensionali si comporta come un singolo elemento dimensionale concatenato.
+Puoi includere fino a 5 colonne di dimensione in una tabella a forma libera, consentendoti di visualizzare più elementi dimensionali uno accanto all’altro. Ogni riga degli elementi dimensione si comporta come un singolo elemento dimensione concatenato.
 
-Puoi applicare filtri, ordinamento, raggruppamenti e altro ancora alle tabelle a forma libera con più colonne di dimensioni per creare un’analisi più approfondita e personalizzata.
+Puoi applicare filtri, ordinamento, raggruppamenti e altro ancora alle tabelle a forma libera con più colonne dimensione per creare un’analisi più approfondita e personalizzata.
 
 ## Elementi dimensionali concatenati
 

@@ -22,7 +22,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
 workflow-type: tm+mt
-source-wordcount: 2355
+source-wordcount: 2375
 ht-degree: 11%
 
 ---
@@ -65,26 +65,26 @@ All&#39;interno di [!DNL Google BigQuery], i seguenti dati di esempio vengono me
 
 | timestamp | ID | pagename | personid | trackingcode | ordini | importo ricavi |
 | :---                      |  ---: | :---              | :---            | :---          |   ---: | :---           |
-| 06/03/2025 T19:15:39+00:00 | 10001 | pagina home | person-1abc123 | abc123 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10002 | pagina di conferma | person-1abc123 |               | 1 | 174,25 |
-| 06/03/2025 T19:15:39+00:00 | 10003 | pagina home | person-2def123 | def123 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10004 | pagina home | person-3ghi123 | ghi123 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10005 | pagina di conferma | person-3ghi123 |               | 1 | 149,25 |
-| 06/03/2025 T19:15:39+00:00 | 10006 | pagina home | person-4abc456 | abc456 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10007 | pagina home | person-5def456 | def456 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10008 | pagina home | person-6ghi456 | ghi456 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10009 | pagina di conferma | person-6ghi456 |               | 1 | 159,25 |
-| 06/03/2025 T19:15:39+00:00 | 10010 | pagina home | person-7abc789 | abc789 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10011 | pagina home | person-8def789 | def789 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10012 | pagina home | person-9ghi789 | ghi789 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10013 | pagina di conferma | person-9ghi789 |               | 1 | 124,25 |
-| 06/03/2025 T19:15:39+00:00 | 10014 | pagina home | person-10abc987 | abc987 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10015 | pagina home | person-11def987 | def987 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10016 | pagina home | person-12ghi987 | ghi987 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10017 | pagina home | person-13abc654 | abc654 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10018 | pagina home | person-14def654 | def654 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10019 | pagina home | person-15ghi654 | ghi654 |        |                |
-| 06/03/2025 T19:15:39+00:00 | 10020 | pagina di conferma | person-15ghi654 |               | 1 | 174,25 |
+| 2025-03-06T19:15:39+00:00 | 10001 | pagina home | person-1abc123 | abc123 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10002 | pagina di conferma | person-1abc123 |               | 1 | 174,25 |
+| 2025-03-06T19:15:39+00:00 | 10003 | pagina home | person-2def123 | def123 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10004 | pagina home | person-3ghi123 | ghi123 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10005 | pagina di conferma | person-3ghi123 |               | 1 | 149,25 |
+| 2025-03-06T19:15:39+00:00 | 10006 | pagina home | person-4abc456 | abc456 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10007 | pagina home | person-5def456 | def456 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10008 | pagina home | person-6ghi456 | ghi456 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10009 | pagina di conferma | person-6ghi456 |               | 1 | 159,25 |
+| 2025-03-06T19:15:39+00:00 | 10010 | pagina home | person-7abc789 | abc789 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10011 | pagina home | person-8def789 | def789 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10012 | pagina home | person-9ghi789 | ghi789 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10013 | pagina di conferma | person-9ghi789 |               | 1 | 124,25 |
+| 2025-03-06T19:15:39+00:00 | 10014 | pagina home | person-10abc987 | abc987 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10015 | pagina home | person-11def987 | def987 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10016 | pagina home | person-12ghi987 | ghi987 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10017 | pagina home | person-13abc654 | abc654 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10018 | pagina home | person-14def654 | def654 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10019 | pagina home | person-15ghi654 | ghi654 |        |                |
+| 2025-03-06T19:15:39+00:00 | 10020 | pagina di conferma | person-15ghi654 |               | 1 | 174,25 |
 
 +++
 
@@ -227,15 +227,15 @@ Nel passaggio **[!UICONTROL Autenticazione]**, seleziona:
 
 * **[!UICONTROL Account esistente]** quando si dispone già di un account configurato per Google BigQuery. Procedi al passaggio [Seleziona dati](#select-data).
 * **[!UICONTROL Nuovo account]** quando è necessario connettersi a Google BigQuery.
-   1. Specificare un **[!UICONTROL nome account]** e (facoltativo) **[!UICONTROL descrizione]**.
-   1. Seleziona il **[!UICONTROL tipo di autenticazione]**: **[!UICONTROL Autenticazione di base]** o **[!UICONTROL Autenticazione del servizio]**. In base alla selezione, fornisci l’input richiesto.
-   1. Seleziona **[!UICONTROL Connetti all&#39;origine]**
+  1. Specificare un **[!UICONTROL nome account]** e (facoltativo) **[!UICONTROL descrizione]**.
+  1. Seleziona il **[!UICONTROL tipo di autenticazione]**: **[!UICONTROL Autenticazione di base]** o **[!UICONTROL Autenticazione del servizio]**. In base alla selezione, fornisci l’input richiesto.
+  1. Seleziona **[!UICONTROL Connetti all&#39;origine]**
 
-      ![BigQuery Google - Autenticazione](assets/googlebg-authentication.png)
+     ![BigQuery Google - Autenticazione](assets/googlebg-authentication.png)
 
-      Verifica della connessione. Un ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) **[!UICONTROL Connesso]** ha indicato una connessione riuscita.
+     Verifica della connessione. Un ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) **[!UICONTROL Connesso]** ha indicato una connessione riuscita.
 
-   1. Seleziona **[!UICONTROL Avanti]**.
+  1. Seleziona **[!UICONTROL Avanti]**.
 
   Consulta la documentazione di Experience Platform per informazioni dettagliate su come connettersi e autenticare quando utilizzi il connettore [Azure Databricks](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake).
 

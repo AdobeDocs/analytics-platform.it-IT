@@ -23,7 +23,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 239
+source-wordcount: 242
 ht-degree: 12%
 
 ---
@@ -42,7 +42,7 @@ Per utilizzare la generazione rapporti in tempo reale, abilita l&#39;opzione **[
 * [Attribuzione](/help/analysis-workspace/c-panels/attribution.md)
 * [Elemento successivo o precedente](/help/analysis-workspace/c-panels/next-previous.md)
 
-Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Ad esempio: [!UICONTROL &#x200B; *Ultimo aggiornamento alle 17:02:00*].:55
+Viene visualizzato un messaggio con la marca temporale dell’aggiornamento più recente dei dati. Esempio: [!UICONTROL &#x200B; *Ultimo aggiornamento alle 19:55*].
 
 Dal menu a discesa, seleziona il periodo in tempo reale su cui desideri creare un rapporto. Le opzioni disponibili sono:
 
@@ -54,7 +54,7 @@ Dal menu a discesa, seleziona il periodo in tempo reale su cui desideri creare u
 
 Tutte le visualizzazioni nel pannello ora vengono aggiornate ogni minuto per un massimo di 30 minuti mentre è attiva la scheda del browser con il pannello con aggiornamento in tempo reale abilitato.
 
-Ad esempio, di seguito trovi un&#39;istantanea di un **[!UICONTROL pannello di reporting in tempo reale]** che aggiorna la visualizzazione a barre **[!UICONTROL Ricavi totali/Ora]** e la tabella a forma libera **[!UICONTROL Ricavi totali/Ora]** con lo spostamento dell&#39;ora da **[!UICONTROL *06:26pm*]** a **[!UICONTROL *06:27 pm *]**.
+Ad esempio, di seguito trovi un&#39;istantanea di un **[!UICONTROL pannello di reporting in tempo reale]** che aggiorna la visualizzazione a barre **[!UICONTROL Ricavi totali/Ora]** e la tabella a forma libera **[!UICONTROL Ricavi totali/Ora]** con lo spostamento dell&#39;ora dalle **[!UICONTROL *06:26 pm *]**&#x200B;alle&#x200B;**[!UICONTROL * 06:27 pm *]**.
 
 ![Aggiornamento in tempo reale](assets/real-time-refresh.gif)
 

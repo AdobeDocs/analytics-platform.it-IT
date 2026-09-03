@@ -22,7 +22,7 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 19cf20236196ab9c2518bf299a36d32f65210227
 workflow-type: tm+mt
-source-wordcount: 2373
+source-wordcount: 2383
 ht-degree: 71%
 
 ---
@@ -230,16 +230,16 @@ Presta attenzione alla “compressione persona” che si verifica quando l’uni
 
 | Evento | Marca temporale | ID persistente (ID cookie) | ID transitorio | ID risultante (dopo la ripetizione) |
 |---|---|---|---|---|
-| 1 | 12/05/2023 12:01 | 123 | - | **Corrado** |
-| 2 | 12/05/2023 12:02 | 123 | Corrado | **Corrado** |
-| 3 | 12/05/2023 12:03 | 456 | Non definito | **Non definito** |
-| 4 | 12/05/2023 12:04 | 456 | - | **Non definito** |
-| 5 | 12/05/2023 12:05 | 789 | Non definito | **Non definito** |
-| 6 | 12/05/2023 12:06 | 012 | Non definito | **Non definito** |
-| 7 | 12/05/2023 12:07 | 012 | - | **Non definito** |
-| 8 | 12/05/2023 12:03 | 789 | Non definito | **Non definito** |
-| 9 | 12/05/2023 12:09 | 456 | - | **Non definito** |
-| 10 | 12/05/2023 12:02 | 123 | - | **Corrado** |
+| 1 | 2023-05-12 12:01 | 123 | - | **Corrado** |
+| 2 | 2023-05-12 12:02 | 123 | Corrado | **Corrado** |
+| 3 | 2023-05-12 12:03 | 456 | Non definito | **Non definito** |
+| 4 | 2023-05-12 12:04 | 456 | - | **Non definito** |
+| 5 | 2023-05-12 12:05 | 789 | Non definito | **Non definito** |
+| 6 | 2023-05-12 12:06 | 012 | Non definito | **Non definito** |
+| 7 | 2023-05-12 12:07 | 012 | - | **Non definito** |
+| 8 | 2023-05-12 12:03 | 789 | Non definito | **Non definito** |
+| 9 | 2023-05-12 12:09 | 456 | - | **Non definito** |
+| 10 | 2023-05-12 12:02 | 123 | - | **Corrado** |
 | | | **4 dispositivi** | **2 persone**:<br/>eventi 1, 4, 7, 9, 10 rilasciati | **2 persone**:<br/>Corrado, non autenticato (compresso a una persona) |
 
 +++

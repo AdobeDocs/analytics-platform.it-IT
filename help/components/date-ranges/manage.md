@@ -105,7 +105,8 @@ L&#39;[elenco di intervalli di date](#date-ranges-list) viene aggiornato automat
 
 * Nell&#39;elenco [[!UICONTROL Intervalli di date]](#date-ranges-list), selezionare il titolo dell&#39;intervallo di date.
 
-Utilizza [Generatore di intervalli di date](/help/components/date-ranges/create.md#date-range-builder) per modificare l&#39;intervallo di date.Utilizza il [gestore degli intervalli di date](/help/components/date-ranges/manage.md) per condividere, rinominare o eliminare intervalli di date.
+Utilizza [Generatore di intervalli di date](/help/components/date-ranges/create.md#date-range-builder) per modificare l&#39;intervallo di date.
+Utilizza il [gestore degli intervalli di date](/help/components/date-ranges/manage.md) per condividere, rinominare o eliminare intervalli di date.
 
 
 <!--

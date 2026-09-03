@@ -61,8 +61,8 @@ Per abilitare la trasformazione per un set di dati di ricerca B2B:
 
 * Verificare per ogni set di dati i valori suggeriti per **[!UICONTROL Chiave]** e **[!UICONTROL Chiave corrispondente]**. Se si modificano i valori dai valori suggeriti, verrà visualizzato un avviso che richiede di continuare. Devi accertarti che:
 
-   * Il valore selezionato per **Chiave** si basa sul tipo di dati ID persona.
-   * Il valore selezionato per **Chiave corrispondente** è definito come campo di identità principale per il set di dati dell&#39;evento.
+  * Il valore selezionato per **Chiave** si basa sul tipo di dati ID persona.
+  * Il valore selezionato per **Chiave corrispondente** è definito come campo di identità principale per il set di dati dell&#39;evento.
 
 * Seleziona le opzioni per importare nuovi dati e la retrocompilazione del set di dati.
 

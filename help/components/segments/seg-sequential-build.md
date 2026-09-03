@@ -20,7 +20,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 2491
+source-wordcount: 2496
 ht-degree: 4%
 
 ---
@@ -47,8 +47,8 @@ Un segmento sequenziale ha alcune [funzionalità di base](#basics) e opzioni agg
 
 * Quali dati [includere](#include) come parte della sequenza complessiva per la definizione del segmento. Oppure per una sequenza definita come parte di un contenitore. Per impostazione predefinita, vengono considerati tutti i dati corrispondenti. Tali dati sono identificati da ![UserGroup](/help/assets/icons/UserGroup.svg) [!UICONTROL Include Everyone].
 
-   * Seleziona ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** per considerare solo i dati precedenti alla sequenza.
-   * Seleziona ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Solo dopo la sequenza]** per considerare solo i dati dopo la sequenza.
+  * Seleziona ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** per considerare solo i dati precedenti alla sequenza.
+  * Seleziona ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Solo dopo la sequenza]** per considerare solo i dati dopo la sequenza.
 
 * Quali dati [escludere](#exclude) come parte della definizione del segmento sequenziale.
 
@@ -129,7 +129,7 @@ Identifica le persone che hanno visitato una pagina e poi un’altra solo dopo d
 
 ![Sequenza dopo](assets/sequence-after.png)
 
-Se una visualizzazione di pagina per la Home si verifica il 1° giugno 2024, alle 00:01, allora una visualizzazione di pagina per le donne | Le scarpe corrispondono finché la visualizzazione della pagina si verifica dopo il 15 giugno 2024 00:01.
+Se una visualizzazione di pagina per la Home si verifica il 1° giugno 2024, alle 00:01, allora una visualizzazione di pagina per le donne | Le scarpe corrisponderanno finché la visualizzazione della pagina si verifica dopo il 15 giugno 2024 alle 00:01.
 
 ##### Operatore [!UICONTROL Within]
 
@@ -145,7 +145,7 @@ Identifica le persone che hanno visitato una pagina e poi un’altra pagina dopo
 
 ![Sequenza dopo ma entro](assets/sequence-afterbutwithin.png)
 
-Tutte le persone che hanno raggiunto la Home Page il 1° giugno 2024 e che stanno tornando a visitare le Donne | Scarpe pagina dopo il 15 giugno 2019 00:01, ma prima del 1 luglio 2019 si qualifica per il segmento.
+Tutte le persone che hanno raggiunto la Home Page il 1° giugno 2024 e che stanno tornando a visitare le Donne | La pagina delle scarpe dopo il 15 giugno 2019 alle 00:01, ma prima del 1° luglio 2019 si qualifica per il segmento.
 
 
 ### [!UICONTROL Evento], [!UICONTROL Sessione] e [!UICONTROL Dimension] vincoli

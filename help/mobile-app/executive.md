@@ -112,9 +112,9 @@ Per utilizzare le dashboard:
 
    * La granularità dei grafici sparkline dipende dalla lunghezza dell’intervallo date:
 
-      * Un giorno mostra una tendenza oraria
-      * Più di un giorno e meno di un anno mostra una tendenza giornaliera.
-      * Un anno o più mostra una tendenza settimanale.
+     * Un giorno mostra una tendenza oraria
+     * Più di un giorno e meno di un anno mostra una tendenza giornaliera.
+     * Un anno o più mostra una tendenza settimanale.
 
    * La formula della variazione percentuale del valore è metrica totale (intervallo date attuale) – metrica totale (intervallo date di confronto)/metrica totale (intervallo date di confronto).
 

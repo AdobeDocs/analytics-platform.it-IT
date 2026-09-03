@@ -36,8 +36,8 @@ Per comprendere questo aspetto, è necessario analizzare ed esplorare i seguenti
 
 * Impatto sul marketing:
 
-   * Tra campagne, canali e contenuti.
-   * Per gruppi di acquisto all’interno di account,
+  * Tra campagne, canali e contenuti.
+  * Per gruppi di acquisto all’interno di account,
 
 * Progressione della pipeline di vendita.
 * Opportunità di upselling e cross-selling.

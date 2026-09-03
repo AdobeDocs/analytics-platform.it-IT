@@ -24,7 +24,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 3756
+source-wordcount: 3763
 ht-degree: 74%
 
 ---
@@ -347,11 +347,11 @@ Quando si utilizza l’estensione BI, vengono applicati i seguenti predefiniti e
 * L’estensione BI richiede un limite di righe per i risultati della query. Il valore predefinito è 50, ma è possibile sovrascriverlo in SQL utilizzando `LIMIT n`, dove `n` è compreso tra 1 e 50000.
 * L’estensione BI richiede un intervallo di date per limitare le righe utilizzate per i calcoli. L’impostazione predefinita corrisponde agli ultimi 30 giorni, ma è possibile sovrascriverla nella clausola SQL `WHERE` utilizzando le colonne speciali [`timestamp`](#timestamp) o [`daterange`](#date-range).
 * L’estensione BI richiede query aggregate. Impossibile utilizzare SQL come `SELECT * FROM ...` per ottenere la riga, le righe sottostanti. A un livello avanzato, le query aggregate dovrebbero utilizzare:
-   * Seleziona i totali utilizzando `SUM` e/o `COUNT`.<br/> Ad esempio: `SELECT SUM(metric1), COUNT(*) FROM ...`
-   * Seleziona le metriche suddivise per dimensione. <br/>Ad esempio, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
-   * Seleziona valori di metrica distinti.<br/>Ad esempio, `SELECT DISTINCT dimension1 FROM ...`
+  * Seleziona i totali utilizzando `SUM` e/o `COUNT`.<br/> Ad esempio: `SELECT SUM(metric1), COUNT(*) FROM ...`
+  * Seleziona le metriche suddivise per dimensione. <br/>Ad esempio, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
+  * Seleziona valori di metrica distinti.<br/>Ad esempio, `SELECT DISTINCT dimension1 FROM ...`
 
-     Per ulteriori dettagli, consulta [SQL supportato](#supported-sql).
+    Per ulteriori dettagli, consulta [SQL supportato](#supported-sql).
 
 
 ### SQL supportato
@@ -377,7 +377,7 @@ Per esempi di SQL utilizzabili, consulta la tabella seguente.
             </td>
         </tr>
         <tr>
-            <td>Classifica o raggruppamento </td>
+            <td>Ranking o raggruppamento </td>
             <td>
                 <pre><code>SELECT dim1, SUM(metric1) AS m1
 FROM dv1

@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
 source-wordcount: 2631
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -111,15 +111,15 @@ Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire gli ute
 Per utilizzare Content Analytics in modo autonomo, è necessario essere amministratore di prodotto per i seguenti prodotti e profili di prodotto:
 
 * Adobe Experience Platform
-   * AEP-Default-All-Users (profilo predefinito per l’accesso alla sandbox di produzione)
+  * AEP-Default-All-Users (profilo predefinito per l’accesso alla sandbox di produzione)
 
 * Raccolta dati di Adobe Experience Platform
-   * Accesso predefinito a tutti i tipi di raccolta dati
+  * Accesso predefinito a tutti i tipi di raccolta dati
 
 * Adobe Experience Platform Privacy Service
 
 * Customer Journey Analytics (personalizzato)
-   * Customer Journey Analytics (o qualsiasi altro profilo di prodotto con provisioning predefinito)
+  * Customer Journey Analytics (o qualsiasi altro profilo di prodotto con provisioning predefinito)
 
 Puoi definire l’accesso come amministratore del prodotto tramite Admin Console:
 
@@ -157,31 +157,31 @@ Con Content Analytics, devi verificare se le seguenti risorse e autorizzazioni a
 
 * Ruolo predefinito Tutti gli accessi alla produzione
 
-   * Raccolta dati
-      * Visualizzare gli stream di dati
-      * Gestire gli stream di dati
+  * Raccolta dati
+    * Visualizzare gli stream di dati
+    * Gestire gli stream di dati
 
-   * Gestione dati
-      * Visualizzare i set di dati
-      * Gestione set di dati
+  * Gestione dati
+    * Visualizzare i set di dati
+    * Gestione set di dati
 
-   * Modellazione dati
-      * Visualizzare gli schemi
-      * Gestire gli schemi
-      * Gestire i metadati di identità
+  * Modellazione dati
+    * Visualizzare gli schemi
+    * Gestire gli schemi
+    * Gestire i metadati di identità
 
 
 * Ruolo Amministratori sandbox
 
-   * Sandbox
-      * Prod
-      * (qualsiasi altra sandbox che desideri utilizzare per Content Analytics)
+  * Sandbox
+    * Prod
+    * (qualsiasi altra sandbox che desideri utilizzare per Content Analytics)
 
-   * Amministrazione sandbox
-      * Gestisci pacchetti
-      * Gestire le sandbox
-      * Ripristina sandbox
-      * Visualizza Sandbox
+  * Amministrazione sandbox
+    * Gestisci pacchetti
+    * Gestire le sandbox
+    * Ripristina sandbox
+    * Visualizza Sandbox
 
 
 Nell’interfaccia Autorizzazioni è possibile verificare sia i ruoli che le autorizzazioni associate. L’interfaccia mostra anche quali utenti appartengono al ruolo.
@@ -217,21 +217,21 @@ Customer Journey Analytics non supporta il controllo degli accessi basato su att
 Con Content Analytics, devi verificare se sono incluse le seguenti autorizzazioni del profilo di prodotto Customer Journey Analytics:
 
 * Visualizzazioni dati
-   * Tutte le visualizzazioni dati disponibili.
+  * Tutte le visualizzazioni dati disponibili.
 
 * Strumenti di reporting
-   * Creazione di metriche calcolate
-   * Creazione di segmenti
-   * Creazione di annotazioni
-   * Accesso a registri di audit
-   * Condividi i collegamenti al progetto con chiunque
-   * Previsioni
-   * Assistente IA: conoscenza del prodotto
-   * Agente Data Insights
-   * Didascalie intelligenti
+  * Creazione di metriche calcolate
+  * Creazione di segmenti
+  * Creazione di annotazioni
+  * Accesso a registri di audit
+  * Condividi i collegamenti al progetto con chiunque
+  * Previsioni
+  * Assistente IA: conoscenza del prodotto
+  * Agente Data Insights
+  * Didascalie intelligenti
 
 * Strumenti di visualizzazione dati
-   * Esportazione tabella completa
+  * Esportazione tabella completa
 
 Per verificare e aggiornare queste autorizzazioni per Customer Journey Analytics:
 

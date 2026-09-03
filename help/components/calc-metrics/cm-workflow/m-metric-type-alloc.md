@@ -20,7 +20,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 622
 ht-degree: 63%
 
 ---
@@ -43,16 +43,16 @@ Puoi configurare il tipo di metrica e il [modello di attribuzione](#attribution-
 
    * Specificare **[!UICONTROL Attribuzione]**.
 
-      1. Puoi:
+     1. Puoi:
 
-         * Disabilita **[!UICONTROL Usa modello di attribuzione non predefinito]** per utilizzare il modello di attribuzione colonna predefinito, ovvero Ultimo contatto, con un intervallo di lookback di 30 giorni.
-         * Abilita **[!UICONTROL Usa modello di attribuzione non predefinito]**. Nella finestra di dialogo **[!UICONTROL Modello di attribuzione colonna]**,
+        * Disabilita **[!UICONTROL Usa modello di attribuzione non predefinito]** per utilizzare il modello di attribuzione colonna predefinito, ovvero Ultimo contatto, con un intervallo di lookback di 30 giorni.
+        * Abilita **[!UICONTROL Usa modello di attribuzione non predefinito]**. Nella finestra di dialogo **[!UICONTROL Modello di attribuzione colonna]**,
 
-            * Seleziona un **[!UICONTROL modello]** dai [modelli di attribuzione](#attribution-models).
-            * Seleziona un **[!UICONTROL contenitore]** dalle opzioni [contenitore](#container).
-            * Seleziona un **[!UICONTROL intervallo di lookback]** dalle opzioni [intervallo di lookback](#lookback-window). Se selezioni **[!UICONTROL Ora personalizzata]**, puoi definire il periodo di tempo in **[!UICONTROL Minuti]** fino a **[!UICONTROL Trimestri]**.
+          * Seleziona un **[!UICONTROL modello]** dai [modelli di attribuzione](#attribution-models).
+          * Seleziona un **[!UICONTROL contenitore]** dalle opzioni [contenitore](#container).
+          * Seleziona un **[!UICONTROL intervallo di lookback]** dalle opzioni [intervallo di lookback](#lookback-window). Se selezioni **[!UICONTROL Ora personalizzata]**, puoi definire il periodo di tempo in **[!UICONTROL Minuti]** fino a **[!UICONTROL Trimestri]**.
 
-      1. Seleziona **[!UICONTROL Applica]** per applicare il modello di attribuzione non predefinito. Seleziona Annulla per annullare.
+     1. Seleziona **[!UICONTROL Applica]** per applicare il modello di attribuzione non predefinito. Seleziona Annulla per annullare.
 
      Se hai già definito un modello di attribuzione non predefinito, seleziona **[!UICONTROL Modifica]** per modificare la selezione.
 

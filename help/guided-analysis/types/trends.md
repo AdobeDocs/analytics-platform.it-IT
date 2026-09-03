@@ -76,9 +76,9 @@ Aggiungi altri dati al grafico. Quando sul grafico sono visibili più serie, le 
 
 * **[!UICONTROL Rilevamento delle anomalie]**: esegue [il rilevamento delle anomalie](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) nell&#39;analisi con tendenze. I valori anomali vengono visualizzati sotto forma di punti su cui è possibile passare il puntatore per ottenere ulteriori informazioni.
 * **[!UICONTROL Sovrapposizione linea di tendenza]**: aggiunge una linea di tendenza al grafico per meglio evidenziare un pattern nei dati.
-   * [!UICONTROL Lineare]: crea una linea di regressione retta. Consigliata per dati lineari semplici che aumentano o diminuiscono a un tasso costante. Equazione: `y = a + b * x`
-   * [!UICONTROL Logaritmica]: crea una linea di regressione curva. Consigliata per i dati che aumentano o diminuiscono rapidamente, quindi si livellano. Equazione: `y = a + b * log(x)`
-   * [!UICONTROL Media mobile]: crea una linea di tendenza uniforme basata su un insieme di medie. Nota anche come media continua, la media mobile utilizza un numero specifico di punti di dati precedenti (determinati dalla selezione), ne calcola la media e utilizza tale media come punto sulla linea. Gli esempi includono la media mobile di sette giorni o la media mobile di quattro settimane. Le opzioni disponibili per la media mobile dipendono dall’intervallo e dall’intervallo di date selezionati.
+  * [!UICONTROL Lineare]: crea una linea di regressione retta. Consigliata per dati lineari semplici che aumentano o diminuiscono a un tasso costante. Equazione: `y = a + b * x`
+  * [!UICONTROL Logaritmica]: crea una linea di regressione curva. Consigliata per i dati che aumentano o diminuiscono rapidamente, quindi si livellano. Equazione: `y = a + b * log(x)`
+  * [!UICONTROL Media mobile]: crea una linea di tendenza uniforme basata su un insieme di medie. Nota anche come media continua, la media mobile utilizza un numero specifico di punti di dati precedenti (determinati dalla selezione), ne calcola la media e utilizza tale media come punto sulla linea. Gli esempi includono la media mobile di sette giorni o la media mobile di quattro settimane. Le opzioni disponibili per la media mobile dipendono dall’intervallo e dall’intervallo di date selezionati.
 
 ### Confronto temporale
 

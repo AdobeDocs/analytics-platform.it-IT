@@ -62,10 +62,10 @@ La barra delle query consente di configurare i seguenti componenti:
 
 * **[!UICONTROL Visualizza]**: passa da questa analisi a [Tendenze di conversione](conversion-trends.md).
 * **[!UICONTROL Passaggi]**: i punti di contatto dell&#39;evento di cui si desidera tenere traccia. Ogni barra del grafico rappresenta un passaggio. Puoi includere fino a dieci passaggi.
-   * [!UICONTROL Confronta]: ogni passaggio fornisce un&#39;opzione per confrontare più eventi in un singolo passaggio di funnel, creando un &quot;fork funnel&quot;. Questa funzione consente di confrontare l’attrito di due percorsi uno accanto all’altro, senza creare due analisi separate. È utile quando sono presenti opzioni di passaggio o quando un esperimento A/B viene eseguito all’interno del funnel. Consulta [Funnel](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel) nei tutorial di Customer Journey Analytics per un video che spiega come confrontare i funnel.
+  * [!UICONTROL Confronta]: ogni passaggio fornisce un&#39;opzione per confrontare più eventi in un singolo passaggio di funnel, creando un &quot;fork funnel&quot;. Questa funzione consente di confrontare l’attrito di due percorsi uno accanto all’altro, senza creare due analisi separate. È utile quando sono presenti opzioni di passaggio o quando un esperimento A/B viene eseguito all’interno del funnel. Consulta [Funnel](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel) nei tutorial di Customer Journey Analytics per un video che spiega come confrontare i funnel.
 * **[!UICONTROL Conteggiato come]**: l&#39;ambito che si desidera applicare al funnel. Le opzioni includono [!UICONTROL Sessioni] e [!UICONTROL Utenti].
-   * [!UICONTROL Sessioni]: per essere conteggiati, tutti i passaggi devono avvenire nella stessa sessione.
-   * [!UICONTROL Utenti]: per essere conteggiati, tutti i passaggi devono essere eseguiti nell&#39;intervallo di reporting selezionato.
+  * [!UICONTROL Sessioni]: per essere conteggiati, tutti i passaggi devono avvenire nella stessa sessione.
+  * [!UICONTROL Utenti]: per essere conteggiati, tutti i passaggi devono essere eseguiti nell&#39;intervallo di reporting selezionato.
 * **[!UICONTROL Segmenti]**: i segmenti in cui si desidera confrontare il funnel. Ogni segmento selezionato suddivide ogni passaggio in più barre. Ogni colore rappresenta un segmento diverso. Puoi includere fino a tre segmenti.
 
 ### Impostazioni del grafico

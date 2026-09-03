@@ -46,9 +46,9 @@ I casi d’uso per questa analisi includono:
 * **Rollout graduali**: poiché l’analisi cerca il primo utilizzo della funzionalità anziché una data fissa, questa analisi è utile se si esegue il rollout graduale delle funzionalità nel tempo.
 * **Analisi della versione del nuovo prodotto**: se stai avviando una nuova versione del prodotto, puoi confrontare le prestazioni degli indicatori chiave prima e dopo l’esposizione degli utenti alla nuova versione per la prima volta. Seleziona “qualsiasi evento” come evento di primo utilizzo e filtralo nella proprietà Numero versione.
 * **Miglioramenti di funzionalità esistenti**: se stai apportando miglioramenti a una funzionalità esistente all’interno del prodotto, puoi confrontare le prestazioni degli indicatori chiave prima e dopo l’esposizione degli utenti a tali nuovi miglioramenti per la prima volta. Puoi eseguire questa analisi in uno o più modi, a seconda della strumentazione della funzionalità.
-   * Seleziona un evento che rappresenta il miglioramento come evento di primo utilizzo
-   * Seleziona la data in cui è iniziato il rollout delle modifiche
-   * Segmenta l’analisi per il gruppo di persone esposte ai miglioramenti
+  * Seleziona un evento che rappresenta il miglioramento come evento di primo utilizzo
+  * Seleziona la data in cui è iniziato il rollout delle modifiche
+  * Segmenta l’analisi per il gruppo di persone esposte ai miglioramenti
 * **Efficacia di una campagna**: quando un utente fa clic su una determinata campagna, puoi confrontare le prestazioni degli indicatori chiave prima e dopo l’interazione dell’utente con tale campagna.
 
 ## Interfaccia
@@ -63,8 +63,8 @@ La barra delle query consente di configurare i seguenti componenti:
 * **[!UICONTROL Indicatori chiave]**: gli eventi che si desidera misurare per utente. Ogni indicatore chiave selezionato viene rappresentato da una linea colorata. Alla tabella viene aggiunta una riga che rappresenta l’evento. Puoi includere fino a tre eventi.
 * **[!UICONTROL Conteggiato come]**: metodo di conteggio che desideri applicare agli eventi selezionati. Le opzioni includono [!UICONTROL Eventi per utente], [!UICONTROL Eventi], [!UICONTROL Sessioni] e [!UICONTROL Utenti].
 * **[!UICONTROL Fattori]**: per questa analisi sono disponibili due fattori:
-   * **[!UICONTROL Data]**: quanto indietro vuoi iniziare a cercare il primo evento di utilizzo che si è verificato.
-   * **[!UICONTROL Evento]**: l&#39;evento che si desidera cercare per il primo utilizzo, su cui basare l&#39;analisi.
+  * **[!UICONTROL Data]**: quanto indietro vuoi iniziare a cercare il primo evento di utilizzo che si è verificato.
+  * **[!UICONTROL Evento]**: l&#39;evento che si desidera cercare per il primo utilizzo, su cui basare l&#39;analisi.
 * **[!UICONTROL Segmenti]**: il segmento che si desidera misurare. Il segmento selezionato filtra i dati in modo da concentrarti solo sui singoli utenti che corrispondono ai criteri del segmento. Per questa analisi è supportato un singolo segmento.
 
 ### Impostazioni del grafico

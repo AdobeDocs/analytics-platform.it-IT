@@ -19,7 +19,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 534
+source-wordcount: 543
 ht-degree: 47%
 
 ---
@@ -62,7 +62,7 @@ Come parte delle impostazioni di visualizzazione, sono disponibili opzioni speci
 
 | Opzione | Definizione |
 |--- |--- |
-| **[!UICONTROL Abbrevia valore]** | Seleziona **[!UICONTROL Abbrevia valore]** per abbreviare in modo intelligente il valore numerico. Se questa opzione è selezionata, immetti un numero per definire la quantità di abbreviazione. Ad esempio:<br/><table><tr><td>**Valore originale**</td><td>**Valore abbreviazione**</td><td>**Risultato**</td></tr><tr><td>$12,011,141.25</td><td>Non selezionato</td><td  align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>Selezionato, impostato su `0`</td><td align="right">12 milioni $</td></tr><tr><td>$12,011,141.25</td><td> Selezionato, impostato su `1`</td><td  align="right">12,0 milioni $</td></tr><tr><td>$12,011,141.25</td><td>Selezionato, impostato su `2`</td><td align="right">12,01 milioni $</td></tr><tr><td>$12,011,141.25</td><td>Selezionato, impostato su `3`</td><td align="right">12,011 milioni $</td></tr></table> |
+| **[!UICONTROL Abbrevia valore]** | Seleziona **[!UICONTROL Abbrevia valore]** per abbreviare in modo intelligente il valore numerico. Se questa opzione è selezionata, immetti un numero per definire la quantità di abbreviazione. Ad esempio:<br/><table><tr><td>**Valore originale**</td><td>**Valore abbreviazione**</td><td>**Risultato**</td></tr><tr><td>12.011.141,25 $</td><td>Non selezionato</td><td  align="right">12.011.141,25 $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su `0`</td><td align="right">12 milioni $</td></tr><tr><td>12.011.141,25 $</td><td> Selezionato, impostato su `1`</td><td  align="right">12,0 milioni $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su `2`</td><td align="right">12,01 milioni $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su `3`</td><td align="right">12,011 milioni $</td></tr></table> |
 | **[!UICONTROL Riepiloga valore per]** | Scegli di visualizzare il massimo, il minimo, la media, la mediana o la somma per una selezione di dati. |
 
 ## Variazione di riepilogo {#summary-change}
@@ -102,7 +102,7 @@ Come parte delle impostazioni di visualizzazione, sono disponibili **[!UICONTROL
 |--- |--- |
 | **[!UICONTROL Mostra variazione percentuale]** | Mostra la variazione percentuale tra i 2 numeri. |
 | **[!UICONTROL Mostra differenza raw]** | Mostra la differenza grezza tra i 2 numeri. Con questa opzione è inoltre possibile abbreviare i valori e visualizzare fino a 3 posizioni decimali. |
-| **[!UICONTROL Abbrevia valore]** | Selezionare **[!UICONTROL Abbrevia valore]** per abbreviare in modo intelligente il valore modificato. Se questa opzione è selezionata, immetti un numero per definire la quantità di abbreviazione. Ad esempio:<br/><table><tr><td>**Valore originale**</td><td>**Valore abbreviazione**</td><td>**Risultato**</td></tr><tr><td>$12,011,141.25</td><td>Non selezionato</td><td  align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>Selezionato, impostato su `0`</td><td align="right">12 milioni $</td></tr><tr><td>$12,011,141.25</td><td> Selezionato, impostato su `1`</td><td  align="right">12,0 milioni $</td></tr><tr><td>$12,011,141.25</td><td>Selezionato, impostato su `2`</td><td align="right">12,01 milioni $</td></tr><tr><td>$12,011,141.25</td><td>Selezionato, impostato su `3`</td><td align="right">12,011 milioni $</td></tr></table> |
+| **[!UICONTROL Abbrevia valore]** | Selezionare **[!UICONTROL Abbrevia valore]** per abbreviare in modo intelligente il valore modificato. Se questa opzione è selezionata, immetti un numero per definire la quantità di abbreviazione. Ad esempio:<br/><table><tr><td>**Valore originale**</td><td>**Valore abbreviazione**</td><td>**Risultato**</td></tr><tr><td>12.011.141,25 $</td><td>Non selezionato</td><td  align="right">12.011.141,25 $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su `0`</td><td align="right">12 milioni $</td></tr><tr><td>12.011.141,25 $</td><td> Selezionato, impostato su `1`</td><td  align="right">12,0 milioni $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su `2`</td><td align="right">12,01 milioni $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su `3`</td><td align="right">12,011 milioni $</td></tr></table> |
 
 >[!MORELIKETHIS]
 >

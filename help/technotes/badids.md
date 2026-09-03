@@ -41,8 +41,8 @@ Questo articolo fornisce informazioni contestuali sugli ID non validi e su come 
 In Customer Journey Analytics, come parte di tutti i dati definiti in una connessione, un Bad ID è un identificatore:
 
 * con un valore ID specifico che ha origine
-   * da un campo ID persona (set di dati non uniti), **o**
-   * da un campo ID persistente o ID persona (set di dati abilitati per l’unione),
+  * da un campo ID persona (set di dati non uniti), **o**
+  * da un campo ID persistente o ID persona (set di dati abilitati per l’unione),
 
   **e**
 * si trova su più di un milione (1.000.000) eventi nei dati di connessione (conteggiati per tutti i set di dati all’interno della connessione), entro un mese.

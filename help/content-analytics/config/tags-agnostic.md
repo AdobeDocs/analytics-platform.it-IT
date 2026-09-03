@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
 source-wordcount: 484
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -121,7 +121,7 @@ Ogni voce in `experienceConfigurations` accetta:
 
 | Proprietà | Tipo | Descrizione |
 |----------|------|-------------|
-| `regEx` | string | Espressione regolare del dominio corrispondente all&#39;URL della pagina (esempio: `^(?!.*\b(store\|help\|admin)\b)`) |
+| `regEx` | stringa | Espressione regolare del dominio corrispondente all&#39;URL della pagina (esempio: `^(?!.*\b(store\|help\|admin)\b)`) |
 | `queryParameters` | array | Nomi di parametri di query i cui valori distinguono le esperienze nelle pagine corrispondenti (esempio: `["outdoors", "patio", "kitchen"]`) |
 
 ### Esempio

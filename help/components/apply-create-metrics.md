@@ -44,9 +44,9 @@ Adobe offre diversi tipi di metriche da utilizzare in Analysis Workspace:
 
   A differenza di Adobe Analytics, Customer Journey Analytics consente di definire le metriche standard in modo flessibile all’interno dell’ambito di una connessione e di una visualizzazione dati.
 
-   * **Persone**: la metrica Persone in Customer Journey Analytics è il conteggio distinto degli ID persona. A seconda di quello che scegli come ID persona quando configuri i set di dati nella connessione, la metrica Persone può significare cose diverse.
-   * **Sessioni**: la metrica Sessioni in Customer Journey Analytics è ciò che si definisce come parte della configurazione delle Impostazioni sessioni nella visualizzazione dati. Vedere [Impostazioni sessione](/help/data-views/session-settings.md).
-   * **Eventi**: la metrica Eventi in Customer Journey Analytics è costituita dagli eventi che fanno parte di qualsiasi set di dati evento configurato come parte della connessione.
+  * **Persone**: la metrica Persone in Customer Journey Analytics è il conteggio distinto degli ID persona. A seconda di quello che scegli come ID persona quando configuri i set di dati nella connessione, la metrica Persone può significare cose diverse.
+  * **Sessioni**: la metrica Sessioni in Customer Journey Analytics è ciò che si definisce come parte della configurazione delle Impostazioni sessioni nella visualizzazione dati. Vedere [Impostazioni sessione](/help/data-views/session-settings.md).
+  * **Eventi**: la metrica Eventi in Customer Journey Analytics è costituita dagli eventi che fanno parte di qualsiasi set di dati evento configurato come parte della connessione.
 
   Per l&#39;elenco completo delle metriche standard, vedere [Metriche standard](#standard-metrics).
 

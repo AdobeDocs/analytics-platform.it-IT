@@ -46,16 +46,16 @@ Se desideri aggiungere una nuova colonna, esistono due opzioni, a seconda che si
 
 * Retroattività:
 
-   * Rimuovi il set di dati corrente.
-   * Configura nuovamente il connettore con la colonna aggiornata.
+  * Rimuovi il set di dati corrente.
+  * Configura nuovamente il connettore con la colonna aggiornata.
 
   In questo modo i dati vengono recuperati in modo più efficiente e tempestivo.
 
 * Nessuna retrocompilazione retroattiva:
 
-   * Aggiungi la colonna nella tabella di origine.
-   * Aggiungi la colonna nello schema del set di dati di destinazione.
-   * Aggiorna il mapping per includere il nuovo campo (colonna) dalla tabella di origine al set di dati di destinazione.
+  * Aggiungi la colonna nella tabella di origine.
+  * Aggiungi la colonna nello schema del set di dati di destinazione.
+  * Aggiorna il mapping per includere il nuovo campo (colonna) dalla tabella di origine al set di dati di destinazione.
 
 Questa strategia:
 

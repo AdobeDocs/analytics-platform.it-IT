@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 859
+source-wordcount: 860
 ht-degree: 7%
 
 ---
@@ -63,10 +63,10 @@ Per definire le date di rotazione:
 
    - Dopo aver selezionato **[!UICONTROL Inizio di]** o **[!UICONTROL Fine di]**, puoi creare un&#39;espressione completa. Ad esempio: **[!UICONTROL Fine di]** **[!UICONTROL anno corrente]** **[!UICONTROL più]** `1` **[!UICONTROL giorno]**. Seleziona il valore appropriato per ogni singola parte dell’espressione.
 
-      - Seleziona un valore corrente. Ad esempio, **[!UICONTROL anno corrente]**.
-      - Selezionare un valore per un calcolo aggiuntivo facoltativo. Ad esempio, **[!UICONTROL più]**.
-      - Dopo aver specificato un calcolo aggiuntivo, specifica un valore. Ad esempio: `1`.
-      - Dopo aver specificato un calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio, **[!UICONTROL giorno]**.
+     - Seleziona un valore corrente. Ad esempio, **[!UICONTROL anno corrente]**.
+     - Selezionare un valore per un calcolo aggiuntivo facoltativo. Ad esempio, **[!UICONTROL più]**.
+     - Dopo aver specificato un calcolo aggiuntivo, specifica un valore. Ad esempio: `1`.
+     - Dopo aver specificato un calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio, **[!UICONTROL giorno]**.
 
    - Dopo aver selezionato **[!UICONTROL Giorno fisso]**, specificare un giorno fisso o utilizzare il selettore per selezionare un giorno.
 

@@ -26,8 +26,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 16%
+source-wordcount: 743
+ht-degree: 18%
 
 ---
 
@@ -43,11 +43,11 @@ Quando due persone utilizzano lo stesso dispositivo ed entrambe effettuano un ac
 
 | Evento | Marca temporale | Nome pagina | ID dispositivo | E-mail |
 |--:|---|---|---|---|
-| 1 | 12/05/2023 12:01 | Pagina Home | `1234` | |
-| 2 | 12/05/2023 12:02 | Pagina di prodotto | `1234` | |
-| 3 | 12/05/2023 12:03 | Ordine completato | `1234` | `ryan@a.com` |
-| 4 | 12/05/2023 12:07 | Pagina di prodotto | `1234` | |
-| 5 | 12/05/2023 12:08 | Ordine completato | `1234` | `cassidy@a.com` |
+| 1 | 2023-05-12 12:01 | Pagina Home | `1234` | |
+| 2 | 2023-05-12 12:02 | Pagina di prodotto | `1234` | |
+| 3 | 2023-05-12 12:03 | Ordine completato | `1234` | `ryan@a.com` |
+| 4 | 2023-05-12 12:07 | Pagina di prodotto | `1234` | |
+| 5 | 2023-05-12 12:08 | Ordine completato | `1234` | `cassidy@a.com` |
 
 Come puoi vedere da questa tabella, una volta che l’autenticazione si verifica sugli eventi 3 e 5, inizia a formarsi un collegamento tra un ID dispositivo e un ID persona. Per comprendere l’impatto di qualsiasi attività di marketing a livello di persona, questi eventi non autenticati devono essere attribuiti alla persona giusta.
 

@@ -225,21 +225,21 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 
    * **Zoom in**: è possibile ingrandire la mappa per ingrandire determinate aree in uno dei modi seguenti:
 
-      * Fare doppio clic sulla mappa con il mouse.
+     * Fare doppio clic sulla mappa con il mouse.
 
-      * Usa la rotellina del mouse o un&#39;azione simile sul trackpad.
+     * Usa la rotellina del mouse o un&#39;azione simile sul trackpad.
 
-      * Seleziona l&#39;icona più ![icona di zoom avanti](assets/map-zoomin-icon.png) nella visualizzazione mappa.
+     * Seleziona l&#39;icona più ![icona di zoom avanti](assets/map-zoomin-icon.png) nella visualizzazione mappa.
 
      La mappa si ingrandisce di conseguenza. La dimensione richiesta (paese > stato > città) viene aggiornata automaticamente in base al livello di zoom.
 
    * **Zoom indietro**: è possibile ridurre la visualizzazione della mappa per visualizzare aree più grandi in uno dei modi seguenti:
 
-      * Tenere premuto il tasto Maiusc e fare doppio clic sulla mappa con il mouse.
+     * Tenere premuto il tasto Maiusc e fare doppio clic sulla mappa con il mouse.
 
-      * Usa la rotellina del mouse o un&#39;azione simile sul trackpad.
+     * Usa la rotellina del mouse o un&#39;azione simile sul trackpad.
 
-      * Seleziona l&#39;icona meno ![icona zoom indietro](assets/map-zoomout-icon.png) nella visualizzazione mappa.
+     * Seleziona l&#39;icona meno ![icona zoom indietro](assets/map-zoomout-icon.png) nella visualizzazione mappa.
 
      La mappa si ingrandisce di conseguenza. La dimensione richiesta (paese > stato > città) viene aggiornata automaticamente in base al livello di zoom.
 
@@ -255,13 +255,13 @@ La visualizzazione mappa in Customer Journey Analytics differisce dalla visualiz
 
    * **Mostra confronti periodo su periodo (ad esempio anno su anno)**:
 
-      * Mostra numeri negativi.
+     * Mostra numeri negativi.
 
-        Ad esempio, per un grafico su base annua, la mappa può mostrare un valore pari a -33% su New York.
+       Ad esempio, per un grafico su base annua, la mappa può mostrare un valore pari a -33% su New York.
 
-      * Con metriche di tipo *percent*, il clustering calcola la media delle percentuali insieme.
+     * Con metriche di tipo *percent*, il clustering calcola la media delle percentuali insieme.
 
-      * Una combinazione di colori verde e rosso indica positivo e negativo.
+     * Una combinazione di colori verde e rosso indica positivo e negativo.
 
    * **Altre impostazioni di visualizzazione**: seleziona l&#39;icona Impostazioni ![Impostazioni](/help/assets/icons/Setting.svg) nell&#39;intestazione della visualizzazione per visualizzare le impostazioni aggiuntive per la visualizzazione mappa. Per ulteriori informazioni, consulta [Configurare le impostazioni di visualizzazione](#configure-visualization-settings).
 

@@ -67,7 +67,8 @@ Tutti i dati inseriti in Adobe Experience Platform devono essere conformi a uno 
 
 ### Configurare uno schema
 
-Immagina di voler tenere traccia di alcuni dati minimi provenienti dai profili che visitano il tuo sito Web, ad esempio il nome della pagina o l’identificazione.Devi innanzitutto definire uno schema che modella questi dati.
+Immagina di voler tenere traccia di alcuni dati minimi provenienti dai profili che visitano il tuo sito Web, ad esempio il nome della pagina o l’identificazione.
+Devi innanzitutto definire uno schema che modella questi dati.
 
 Per configurare lo schema:
 
@@ -376,13 +377,13 @@ Per definire una regola:
 
    - Nella finestra di dialogo [!UICONTROL Configurazione evento]:
 
-      - Seleziona **[!UICONTROL Core]** dall&#39;elenco [!UICONTROL Estensione].
+     - Seleziona **[!UICONTROL Core]** dall&#39;elenco [!UICONTROL Estensione].
 
-      - Selezionare **[!UICONTROL Window Loaded]** dall&#39;elenco [!UICONTROL Event Type].
+     - Selezionare **[!UICONTROL Window Loaded]** dall&#39;elenco [!UICONTROL Event Type].
 
-        ![Regola - Configurazione evento](./assets/event-windowloaded-pageview.png)
+       ![Regola - Configurazione evento](./assets/event-windowloaded-pageview.png)
 
-      - Seleziona **[!UICONTROL Mantieni modifiche]**.
+     - Seleziona **[!UICONTROL Mantieni modifiche]**.
 
 
 
@@ -390,17 +391,17 @@ Per definire una regola:
 
    - Nella finestra di dialogo [!UICONTROL Configurazione azione]:
 
-      - Selezionare **[!UICONTROL Adobe Experience Platform Web SDK]** dall&#39;elenco [!UICONTROL Estensione].
+     - Selezionare **[!UICONTROL Adobe Experience Platform Web SDK]** dall&#39;elenco [!UICONTROL Estensione].
 
-      - Selezionare **[!UICONTROL Invia evento]** dall&#39;elenco [!UICONTROL Tipo azione].
+     - Selezionare **[!UICONTROL Invia evento]** dall&#39;elenco [!UICONTROL Tipo azione].
 
-      - Selezionare **[!UICONTROL web.webpagedetails.pageViews]** dall&#39;elenco [!UICONTROL Type].
+     - Selezionare **[!UICONTROL web.webpagedetails.pageViews]** dall&#39;elenco [!UICONTROL Type].
 
-      - Seleziona l&#39;icona del cilindro accanto a [!UICONTROL dati XDM] e seleziona **[!UICONTROL XDM - Visualizzazione pagina]** dall&#39;elenco degli elementi dati.
+     - Seleziona l&#39;icona del cilindro accanto a [!UICONTROL dati XDM] e seleziona **[!UICONTROL XDM - Visualizzazione pagina]** dall&#39;elenco degli elementi dati.
 
      ![Regola - Configurazione azione](./assets/action-pageview-xdm.png)
 
-      - Seleziona **[!UICONTROL Mantieni modifiche]**.
+     - Seleziona **[!UICONTROL Mantieni modifiche]**.
 
    - L’aspetto della regola dovrebbe essere il seguente:
 
@@ -511,11 +512,11 @@ Per creare la connessione:
 
    - Per ogni set di dati:
 
-      - Seleziona un [!UICONTROL ID persona] dalle identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
+     - Seleziona un [!UICONTROL ID persona] dalle identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
 
-      - Selezionare l&#39;origine dati corretta dall&#39;elenco [!UICONTROL Tipo origine dati]. Se si specifica **[!UICONTROL Altro]**, aggiungere una descrizione per l&#39;origine dati.
+     - Selezionare l&#39;origine dati corretta dall&#39;elenco [!UICONTROL Tipo origine dati]. Se si specifica **[!UICONTROL Altro]**, aggiungere una descrizione per l&#39;origine dati.
 
-      - Imposta **[!UICONTROL Importa tutti i nuovi dati]** e **[!UICONTROL Recupera i dati esistenti del set di dati]** in base alle tue preferenze.
+     - Imposta **[!UICONTROL Importa tutti i nuovi dati]** e **[!UICONTROL Recupera i dati esistenti del set di dati]** in base alle tue preferenze.
 
      ![Configurare i set di dati](./assets/cja-connections-3b.png)
 

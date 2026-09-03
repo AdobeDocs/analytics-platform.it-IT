@@ -18,7 +18,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: 857
 ht-degree: 86%
 
 ---
@@ -43,7 +43,7 @@ Il trasferimento delle risorse richiede l’autorizzazione dell’amministratore
 
    >[!IMPORTANT]
    >
-   >È possibile eseguire solo un trasferimento 1:1 da un utente a un altro. I trasferimenti uno-a-molti o molti-a-uno non sono supportati.
+   >È possibile effettuare un trasferimento solo 1:1, da un utente all&#39;altro. I trasferimenti uno-a-molti o molti-a-uno non sono supportati.
 
 
 1. Dopo aver selezionato un utente, nella parte inferiore della schermata viene visualizzata l’opzione Transfer assets (Trasferisci risorse).

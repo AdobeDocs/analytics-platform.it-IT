@@ -19,7 +19,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 1022
+source-wordcount: 1024
 ht-degree: 58%
 
 ---
@@ -52,8 +52,8 @@ Prima di utilizzare l’unione delle identità, assicurati che la tua organizzaz
 
 - Importa i dati desiderati in Adobe Experience Platform:
 
-   - Per i dati di Adobe Analytics, consulta [Utilizzo dei dati della suite di rapporti di Adobe Analytics in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
-   - Per altri tipi di dati, consulta [Creare uno schema](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/create-schema-ui) e [Acquisire i dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home) nella documentazione di Adobe Experience Platform.
+  - Per i dati di Adobe Analytics, consulta [Utilizzo dei dati della suite di rapporti di Adobe Analytics in Customer Journey Analytics](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
+  - Per altri tipi di dati, consulta [Creare uno schema](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/create-schema-ui) e [Acquisire i dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home) nella documentazione di Adobe Experience Platform.
 
 Per trarre vantaggio dall’analisi cross-channel, è necessario combinare uno o più set di dati con unione delle identità con altri set di dati (ad esempio, con i dati del call center) durante la definizione della connessione Customer Journey Analytics. Questa configurazione della connessione presuppone che gli altri set di dati contengano già un ID persona dallo stesso spazio dei nomi nel maggior numero di righe possibile.
 

@@ -75,9 +75,9 @@ Determina il modo in cui l’evento viene classificato in gruppi (bucket). Nella
 
 * **[!UICONTROL Bucket automatici]**: identifica automaticamente la dimensione ottimale del bucket in base alla distribuzione dei dati.
 * **[!UICONTROL Bucket personalizzati]**: personalizzare il raggruppamento dei dati in bucket.
-   * [!UICONTROL Da]: primo bucket. La frequenza inferiore a questo valore è esclusa dalla generazione dei rapporti.
-   * [!UICONTROL A]: la frequenza maggiore di questo valore è raggruppata nell&#39;ultimo bucket.
-   * [!UICONTROL Dimensione]: intervallo di bucket.
+  * [!UICONTROL Da]: primo bucket. La frequenza inferiore a questo valore è esclusa dalla generazione dei rapporti.
+  * [!UICONTROL A]: la frequenza maggiore di questo valore è raggruppata nell&#39;ultimo bucket.
+  * [!UICONTROL Dimensione]: intervallo di bucket.
 
 ### Confronto temporale
 

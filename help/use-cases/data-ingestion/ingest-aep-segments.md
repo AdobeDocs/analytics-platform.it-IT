@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
 source-wordcount: 1680
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -497,7 +497,7 @@ You can now report on `audienceMembershipId`, `audienceMembershipIdName` and `pe
 
 * Esegui questo processo a cadenza regolare, in modo che i dati del pubblico vengano costantemente aggiornati in Customer Journey Analytics.
 * Puoi importare più tipi di pubblico all’interno di una singola connessione Customer Journey Analytics. Il processo sarà un po’ più complesso, ma è possibile. Dovrai apportare alcune modifiche al processo di cui sopra:
-   1. Esegui questo processo per ogni pubblico desiderato nella raccolta di tipi di pubblico in RTCP.
-   1. Customer Journey Analytics supporta array/array di oggetti nei set di dati profilo. L&#39;utilizzo di un array [di oggetti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=it) per `audienceMembershipId` o `audienceMembershipIdName` è l&#39;opzione migliore.
-   1. Nella visualizzazione dati, crea una nuova dimensione utilizzando la trasformazione Substring (Sottostringa) nel campo `audienceMembershipId` per convertire la stringa di valori separati da virgola in un array. NOTA: attualmente un array può contenere un massimo di 10 valori.
-   1. È ora possibile creare rapporti sulla nuova dimensione `audienceMembershipIds` in Customer Journey Analytics Workspace.
+  1. Esegui questo processo per ogni pubblico desiderato nella raccolta di tipi di pubblico in RTCP.
+  1. Customer Journey Analytics supporta array/array di oggetti nei set di dati profilo. L&#39;utilizzo di un array [di oggetti](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=it) per `audienceMembershipId` o `audienceMembershipIdName` è l&#39;opzione migliore.
+  1. Nella visualizzazione dati, crea una nuova dimensione utilizzando la trasformazione Substring (Sottostringa) nel campo `audienceMembershipId` per convertire la stringa di valori separati da virgola in un array. NOTA: attualmente un array può contenere un massimo di 10 valori.
+  1. È ora possibile creare rapporti sulla nuova dimensione `audienceMembershipIds` in Customer Journey Analytics Workspace.

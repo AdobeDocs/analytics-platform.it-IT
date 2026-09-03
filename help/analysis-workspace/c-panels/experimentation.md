@@ -188,7 +188,7 @@ Le metriche calcolate che includono una delle metriche o costanti seguenti non s
 * Metriche di base divise tra loro o moltiplicate insieme (ad esempio, `Revenue`/`Orders`)
 * Costanti aggiunte o sottratte da una metrica di base (ad esempio, `Revenue+50`)
 * Una qualsiasi delle metriche di base seguenti:
-   * Persone
+  * Persone
 
 Le metriche calcolate non compatibili con il pannello Sperimentazione hanno il valore [!UICONTROL **Ovunque in Customer Journey Analytics (esclusa la sperimentazione)**] nel campo [!UICONTROL **Compatibilità prodotto**] durante la creazione della metrica calcolata. Per informazioni sulla creazione di una metrica calcolata, consulta [Genera metriche](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 

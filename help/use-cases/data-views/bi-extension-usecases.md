@@ -39,26 +39,26 @@ Questo articolo illustra come eseguire una serie di casi d’uso (15) utilizzand
 Sono documentati i seguenti casi d’uso:
 
 * **Connetti**
-   * [Connettere ed elencare le visualizzazioni dati](bi-extension/connect-and-validate.md)
+  * [Connettere ed elencare le visualizzazioni dati](bi-extension/connect-and-validate.md)
 
 * **Report e analisi**
-   * [Tendenza giornaliera](bi-extension/daily-trend.md)
-   * [Tendenza oraria](bi-extension/hourly-trend.md)
-   * [Tendenza mensile](bi-extension/monthly-trend.md)
-   * [Classificazione dimensione singola](bi-extension/single-dimension-ranked.md)
-   * [Classificazione di più dimensioni](bi-extension/multiple-dimension-ranked.md)
-   * [Conta valori di dimensione distinti](bi-extension/count-distinct-dimension-values.md)
-   * [Utilizzare i nomi degli intervalli di date per filtrare](bi-extension/use-date-range-names-to-filter.md)
-   * [Utilizzare i nomi dei segmenti per segmentare](bi-extension/use-segment-names-to-segment.md)
-   * [Utilizzare i valori di quota per segmentare](bi-extension/use-dimension-values-to-segment.md)
-   * [Ordina](bi-extension/sort.md)
-   * [Limiti](bi-extension/limits.md)
+  * [Tendenza giornaliera](bi-extension/daily-trend.md)
+  * [Tendenza oraria](bi-extension/hourly-trend.md)
+  * [Tendenza mensile](bi-extension/monthly-trend.md)
+  * [Classificazione dimensione singola](bi-extension/single-dimension-ranked.md)
+  * [Classificazione di più dimensioni](bi-extension/multiple-dimension-ranked.md)
+  * [Conta valori di dimensione distinti](bi-extension/count-distinct-dimension-values.md)
+  * [Utilizzare i nomi degli intervalli di date per filtrare](bi-extension/use-date-range-names-to-filter.md)
+  * [Utilizzare i nomi dei segmenti per segmentare](bi-extension/use-segment-names-to-segment.md)
+  * [Utilizzare i valori di quota per segmentare](bi-extension/use-dimension-values-to-segment.md)
+  * [Ordina](bi-extension/sort.md)
+  * [Limiti](bi-extension/limits.md)
 
 * **Comprendere**
 
-   * [Trasformazioni](bi-extension/transformations.md)
-   * [Visualizzazioni](bi-extension/visualizations.md)
-   * [Avvertenze](bi-extension/caveats.md)
+  * [Trasformazioni](bi-extension/transformations.md)
+  * [Visualizzazioni](bi-extension/visualizations.md)
+  * [Avvertenze](bi-extension/caveats.md)
 
 Il caso d&#39;uso **connect** è incentrato sulla modalità di connessione degli strumenti BI tramite l&#39;estensione Customer Journey Analytics BI.
 

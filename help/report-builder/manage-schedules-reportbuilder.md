@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 383
+source-wordcount: 387
 ht-degree: 5%
 
 ---
@@ -78,7 +78,7 @@ Puoi visualizzare la cronologia e lo stato delle cartelle di lavoro pianificate 
    ![Cronologia pianificata](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
    Utilizzare ![Cerca](/help/assets/icons/Search.svg) per cercare cartelle di lavoro specifiche nell&#39;elenco.
-Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le colonne da visualizzare.
+   Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le colonne da visualizzare.
 
    La scheda **[!UICONTROL Cronologia]** consente di rivedere lo stato di ogni attività pianificata. Una riga separata documenta la modifica dello stato per ogni attività pianificata.
 

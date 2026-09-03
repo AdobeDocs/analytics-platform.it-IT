@@ -20,7 +20,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
 workflow-type: tm+mt
-source-wordcount: 1708
+source-wordcount: 1714
 ht-degree: 80%
 
 ---
@@ -131,7 +131,7 @@ Utilizza le impostazioni di input descritte in questa sezione per configurare il
 
    | Opzioni | Descrizione |
    |---------|------------|
-   | **[!UICONTROL Granularity (Granularità)]** | La granularità predefinita è [!UICONTROL **5 minuti**], ma è possibile scegliere una qualsiasi delle granularità utilizzate come denominatore per la serie temporale all’interno del periodo di tempo selezionato. Ad esempio, selezionando dalle 12:00 alle 12:30 con una granularità di 5 minuti, viene restituito il pubblico medio per minuto nell&#39;intera mezz&#39;ora, nonché sei righe contenenti il pubblico medio per minuto per ogni periodo di 5 minuti. Queste righe vengono utilizzate come punti dati per il grafico delle serie temporali. |
+   | **[!UICONTROL Granularity (Granularità)]** | La granularità predefinita è [!UICONTROL **5 minuti**], ma è possibile scegliere una qualsiasi delle granularità utilizzate come denominatore per la serie temporale all’interno del periodo di tempo selezionato. Ad esempio, selezionando dalle 12:00 alle 12:30 con una granularità di 5 minuti, viene restituito il pubblico medio per minuto nell’intera mezz’ora, nonché sei righe contenenti il pubblico medio per minuto per ogni periodo di 5 minuti. Queste righe vengono utilizzate come punti dati per il grafico delle serie temporali. |
    | [!UICONTROL **Filtra il contenuto per (facoltativo)**] | Puoi filtrare il contenuto specifico in base alla visualizzazione desiderata o alla struttura dei dati. <ul>[!UICONTROL **Spettacolo, stagione, episodio**]: visualizza gli spettacoli disponibili nel menu a discesa, che puoi filtrare utilizzando una ricerca (oppure trascinando e rilasciando il nome dello spettacolo dalla colonna di sinistra). Puoi terminare la selezione per visualizzare tutte le stagioni dello spettacolo oppure filtrare per singole stagioni e poi per singoli episodi. Questa impostazione mostra i dati relativi a spettacoli, stagioni o episodi per il periodo di tempo selezionato.</li><li>[!UICONTROL **Dimensione personalizzata**]: se il nome dello spettacolo si trova in una dimensione personalizzata, puoi trovarlo eseguendo una ricerca nel menu della dimensione (facoltativo) o utilizzando la ricerca nella colonna sinistra. L’elemento dimensionale si popola automaticamente in base a tale selezione e viene trattato come un episodio.</li><li>[!UICONTROL **Nessuno**]: mostra tutti i nomi dei video con dati del pubblico medio per minuto per la selezione scelta. (Questa opzione è selezionata per impostazione predefinita.)</li></ul> |
 
 1. Continua con [Impostazioni avanzate del periodo di tempo personalizzato](#custom-time-period-advanced-settings) per configurare le impostazioni avanzate.

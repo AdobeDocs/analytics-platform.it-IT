@@ -195,27 +195,27 @@ Per definire una regola:
 
    * **[!UICONTROL Eventi]**: Selezionare **[!UICONTROL + Aggiungi]**. Quindi, nella finestra di dialogo **[!UICONTROL Configurazione evento]**, specifica le seguenti informazioni. Al termine, selezionare **[!UICONTROL Mantieni modifiche]**.
 
-      * **[!UICONTROL Estensione]**: selezionare **[!UICONTROL Core]** dall&#39;elenco.
+     * **[!UICONTROL Estensione]**: selezionare **[!UICONTROL Core]** dall&#39;elenco.
 
-      * **[!UICONTROL Tipo evento]**: selezionare **[!UICONTROL Finestra caricata]** dall&#39;elenco.
+     * **[!UICONTROL Tipo evento]**: selezionare **[!UICONTROL Finestra caricata]** dall&#39;elenco.
 
-        ![Regola - Configurazione evento](assets/event-windowloaded-pageview.png)
+       ![Regola - Configurazione evento](assets/event-windowloaded-pageview.png)
 
    * **[!UICONTROL Azioni]**: Selezionare **[!UICONTROL + Aggiungi]**. Quindi, nella finestra di dialogo [!UICONTROL Configurazione azione], specifica le seguenti informazioni. Al termine, selezionare **[!UICONTROL Mantieni modifiche]**.
 
-      * **[!UICONTROL Estensione]**: selezionare **[!UICONTROL Adobe Experience Platform Web SDK]** dall&#39;elenco.
+     * **[!UICONTROL Estensione]**: selezionare **[!UICONTROL Adobe Experience Platform Web SDK]** dall&#39;elenco.
 
-      * **[!UICONTROL Tipo azione]**: selezionare **[!UICONTROL Invia evento]** dall&#39;elenco.
+     * **[!UICONTROL Tipo azione]**: selezionare **[!UICONTROL Invia evento]** dall&#39;elenco.
 
-      * **[!UICONTROL Tipo]**: selezionare **[!UICONTROL Visualizzazioni pagina Web Webpagedetails]** dall&#39;elenco.
+     * **[!UICONTROL Tipo]**: selezionare **[!UICONTROL Visualizzazioni pagina Web Webpagedetails]** dall&#39;elenco.
 
-      * **[!UICONTROL Dati XDM]**: seleziona l&#39;icona del cilindro, quindi seleziona **[!UICONTROL XDM - Visualizzazione pagina]** dall&#39;elenco degli elementi di dati.
+     * **[!UICONTROL Dati XDM]**: seleziona l&#39;icona del cilindro, quindi seleziona **[!UICONTROL XDM - Visualizzazione pagina]** dall&#39;elenco degli elementi di dati.
 
-        ![Regola - Configurazione azione](assets/action-pageview-xdm.png)
+       ![Regola - Configurazione azione](assets/action-pageview-xdm.png)
 
-        L’aspetto della regola dovrebbe essere il seguente:
+       L’aspetto della regola dovrebbe essere il seguente:
 
-        ![Crea regola](assets/rule-pageview.png)
+       ![Crea regola](assets/rule-pageview.png)
 
 1. Seleziona **[!UICONTROL Salva]**.
 

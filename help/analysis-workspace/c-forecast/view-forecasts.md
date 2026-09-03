@@ -56,8 +56,8 @@ Le previsioni vengono visualizzate nel grafico a linee come segue:
 
 * I valori correnti per le metriche nel grafico a linee sono indicati da una barra verticale. Se passi il cursore del mouse su quella linea verticale, viene visualizzato un pop-up con l’ultima data corrente.
 * I valori previsti per una o più metriche vengono visualizzati a destra della barra verticale utilizzando linee tratteggiate. Puoi passare il cursore sopra qualsiasi punto dati per una metrica. Verrà visualizzata una finestra a comparsa con:
-   * data della previsione
-   * valore previsto per la metrica
-   * limite superiore del valore previsto per la metrica
-   * limite inferiore del valore previsto per la metrica
+  * data della previsione
+  * valore previsto per la metrica
+  * limite superiore del valore previsto per la metrica
+  * limite inferiore del valore previsto per la metrica
 * L&#39;area ombreggiata mostra la fascia di affidabilità della previsione.

@@ -46,15 +46,15 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
 
   ![Salva progetto](assets/save-project.png)
 
-   1. Specifica:
+  1. Specifica:
 
-      * **[!UICONTROL Nome]** (obbligatorio). nome del progetto.
-      * **[!UICONTROL Descrizione]**. Descrizione del progetto.
-      * **[!UICONTROL Tag]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL INVIO]**.
-      * **[!UICONTROL Cartella]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specifichi una cartella, il progetto viene salvato nella cartella corrente dalla quale hai creato un nuovo progetto.
-      * **[!UICONTROL Note sulla versione]**. Aggiungi le note sulla versione nell’area di testo *Aggiungi note*.
+     * **[!UICONTROL Nome]** (obbligatorio). nome del progetto.
+     * **[!UICONTROL Descrizione]**. Descrizione del progetto.
+     * **[!UICONTROL Tag]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL INVIO]**.
+     * **[!UICONTROL Cartella]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specifichi una cartella, il progetto viene salvato nella cartella corrente dalla quale hai creato un nuovo progetto.
+     * **[!UICONTROL Note sulla versione]**. Aggiungi le note sulla versione nell’area di testo *Aggiungi note*.
 
-   1. Seleziona **[!UICONTROL Salva]** per salvare il progetto.
+  1. Seleziona **[!UICONTROL Salva]** per salvare il progetto.
 
   Il salvataggio del progetto in realtà salva una versione del progetto che viene memorizzata per 90 giorni.
 
@@ -62,8 +62,8 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
 
   ![Salva progetto condiviso](assets/save-project-shared.png)
 
-   * Seleziona **[!UICONTROL Salva]** per salvare il progetto.
-   * Seleziona **[!UICONTROL Salva con nome]** per salvare il progetto come progetto duplicato con un nuovo nome.
+  * Seleziona **[!UICONTROL Salva]** per salvare il progetto.
+  * Seleziona **[!UICONTROL Salva con nome]** per salvare il progetto come progetto duplicato con un nuovo nome.
 
 
 * **[!UICONTROL Salva con note]**
@@ -72,8 +72,8 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
 
   Quando salvi il progetto, aggiungi note sulle modifiche apportate al progetto. Nella finestra di dialogo Salva note sulla versione:
 
-   1. Immetti le **[!UICONTROL note sulla versione]** nell&#39;area di testo **[!UICONTROL Aggiungi note]**.
-   1. Seleziona **[!UICONTROL Salva]**.
+  1. Immetti le **[!UICONTROL note sulla versione]** nell&#39;area di testo **[!UICONTROL Aggiungi note]**.
+  1. Seleziona **[!UICONTROL Salva]**.
 
   Le note sono archiviate con la versione del progetto e sono disponibili quando [apri una versione precedente](open-projects.md#open-previous-version) del progetto. Una versione salvata con le note viene automaticamente memorizzata per un anno.
 
@@ -83,15 +83,15 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
 
   Crea un duplicato del progetto con un nuovo nome. Viene visualizzata la finestra di dialogo Salva con nome.
 
-   1. Specifica:
+  1. Specifica:
 
-      * **[!UICONTROL Nome]** (obbligatorio). nome del progetto.
-      * **[!UICONTROL Descrizione]**. Descrizione del progetto.
-      * **[!UICONTROL Tag]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL INVIO]**.
-      * **[!UICONTROL Cartella]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specifichi una cartella, il progetto viene salvato nella cartella corrente dalla quale hai creato un nuovo progetto.
-      * **[!UICONTROL Note sulla versione]**. Aggiungi le note sulla versione nell’area di testo *Aggiungi note*.
+     * **[!UICONTROL Nome]** (obbligatorio). nome del progetto.
+     * **[!UICONTROL Descrizione]**. Descrizione del progetto.
+     * **[!UICONTROL Tag]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL INVIO]**.
+     * **[!UICONTROL Cartella]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specifichi una cartella, il progetto viene salvato nella cartella corrente dalla quale hai creato un nuovo progetto.
+     * **[!UICONTROL Note sulla versione]**. Aggiungi le note sulla versione nell’area di testo *Aggiungi note*.
 
-   1. Seleziona **[!UICONTROL Salva]** per salvare il progetto.
+  1. Seleziona **[!UICONTROL Salva]** per salvare il progetto.
 
   Puoi salvare il progetto in un’altra cartella. Il progetto originale non verrà interessato.
 

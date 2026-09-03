@@ -115,10 +115,10 @@ La visualizzazione dati porta il nome **Abilita visualizzazione dati di AJO (*no
 
 
 * Nella scheda **Componenti**:
-   * Tutte le metriche e dimensioni che hanno [!UICONTROL (AJO)] aggiunto al nome vengono aggiunte automaticamente come parte di questa configurazione automatica.
-   * Alcune metriche o dimensioni che sono state aggiunte automaticamente si basano su campi derivati. Questi campi derivati sono creati in modo specifico per questa integrazione. Ad esempio, la metrica [!UICONTROL Clic sulla pagina di destinazione (AJO)], si basa sul campo derivato [!UICONTROL Clic sulla pagina di destinazione].
-   * Alcune metriche o dimensioni hanno una configurazione aggiuntiva. Ad esempio, [!UICONTROL Segnalazione di spam (AJO)] non dispone delle impostazioni [!UICONTROL Formato] e [!UICONTROL Includi valori di esclusione] applicate.
-   * Tutte le metriche e le dimensioni aggiunte automaticamente hanno un’etichetta di contesto denominata `:`*`name_of_metric_or_dimension`*. Ad esempio, la metrica [!UICONTROL Clic sulla pagina di destinazione (AJO)] dispone dell’etichetta contesto `:Landing page clicks (AJO)`.
+  * Tutte le metriche e dimensioni che hanno [!UICONTROL (AJO)] aggiunto al nome vengono aggiunte automaticamente come parte di questa configurazione automatica.
+  * Alcune metriche o dimensioni che sono state aggiunte automaticamente si basano su campi derivati. Questi campi derivati sono creati in modo specifico per questa integrazione. Ad esempio, la metrica [!UICONTROL Clic sulla pagina di destinazione (AJO)], si basa sul campo derivato [!UICONTROL Clic sulla pagina di destinazione].
+  * Alcune metriche o dimensioni hanno una configurazione aggiuntiva. Ad esempio, [!UICONTROL Segnalazione di spam (AJO)] non dispone delle impostazioni [!UICONTROL Formato] e [!UICONTROL Includi valori di esclusione] applicate.
+  * Tutte le metriche e le dimensioni aggiunte automaticamente hanno un’etichetta di contesto denominata `:`*`name_of_metric_or_dimension`*. Ad esempio, la metrica [!UICONTROL Clic sulla pagina di destinazione (AJO)] dispone dell’etichetta contesto `:Landing page clicks (AJO)`.
 
 * Nella scheda **[!UICONTROL Impostazioni]**, non vengono applicati valori di configurazione specifici
 

@@ -82,20 +82,20 @@ Il seguente evento è un oggetto JSON che rappresenta un acquisto effettuato da 
 Quando si crea una visualizzazione dati, sono disponibili le dimensioni e le metriche seguenti (in base allo schema):
 
 * **Dimensioni:**
-   * ID
-   * product : SKU
-   * product : name
-   * product : order_id
-   * product : warranty : coverage
-   * product : warranty : length
-   * product : warranty : name
-   * product : warranty : type
+  * ID
+  * product : SKU
+  * product : name
+  * product : order_id
+  * product : warranty : coverage
+  * product : warranty : length
+  * product : warranty : name
+  * product : warranty : type
 * **Metriche:**
-   * product : orders
-   * product : units
-   * product : revenue
-   * product : warranty
-   * product : warranty : revenue
+  * product : orders
+  * product : units
+  * product : revenue
+  * product : warranty
+  * product : warranty : revenue
 
 ### Stessi esempi di eventi (comportamento di reporting)
 

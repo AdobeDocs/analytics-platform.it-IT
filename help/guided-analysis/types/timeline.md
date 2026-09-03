@@ -23,7 +23,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 7f8ab656c7dbf508b2a78fd2022592faf883c56e
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: 583
 ht-degree: 69%
 
 ---
@@ -76,9 +76,9 @@ La barra delle query consente di configurare i seguenti componenti:
 L&#39;analisi [!UICONTROL Timeline] offre le seguenti impostazioni del grafico, che possono essere regolate nel menu sopra il grafico:
 
 * **[!UICONTROL Mostra come]**: mostra i valori di proprietà desiderati.
-   * [!UICONTROL Mostra tutto]: mostra tutti i valori delle proprietà in una sessione.
-   * [!UICONTROL Evidenzia]: evidenzia visivamente i valori delle proprietà in una sessione che corrispondono ai filtri della query.
-   * [!UICONTROL Visualizza solo]: mostra solo i valori delle proprietà in una sessione che corrispondono ai filtri della query.
+  * [!UICONTROL Mostra tutto]: mostra tutti i valori delle proprietà in una sessione.
+  * [!UICONTROL Evidenzia]: evidenzia visivamente i valori delle proprietà in una sessione che corrispondono ai filtri della query.
+  * [!UICONTROL Visualizza solo]: mostra solo i valori delle proprietà in una sessione che corrispondono ai filtri della query.
 
 ### Intervallo date
 

@@ -65,7 +65,8 @@ Gli elementi tra parentesi &lt;> rappresentano i luoghi in cui apparirebbero i v
 
 All’interno di identityMap:
 
-* Se ECID è presente, viene contrassegnato come identità primaria dell’evento. In questo caso AAID può essere basato su ECID come da spiegazione precedente.In caso contrario, AAID è contrassegnato come identità primaria dell’evento.
+* Se ECID è presente, viene contrassegnato come identità primaria dell’evento. In questo caso AAID può essere basato su ECID come da spiegazione precedente.
+In caso contrario, AAID è contrassegnato come identità primaria dell’evento.
 * AACUSTOMID non viene mai contrassegnato come ID primario dell’evento. Tuttavia, se AACUSTOMID è presente, AAID è basato su AACUSTOMID come da spiegazione precedente.
 
 Quando vengono copiate la o le identità in `identityMap`, anche l’`endUserIDs._experience.mcid.namespace.code` è impostato sullo stesso evento:

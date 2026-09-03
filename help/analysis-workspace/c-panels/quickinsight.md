@@ -139,13 +139,13 @@ Altri utili suggerimenti vengono visualizzati in [!UICONTROL Quick Insights Buil
 
   ![Generatore di risultati di insight rapidi](assets/qibuilder-result.png)
 
-   * **[!UICONTROL Analizza]** dimensione **[!UICONTROL Suddivisa per]**: puoi utilizzare fino a 3 livelli di suddivisioni sulle dimensioni per eseguire il drill-down dei dati effettivamente necessari. Vedere ➊, ➋ e ➌.
+  * **[!UICONTROL Analizza]** dimensione **[!UICONTROL Suddivisa per]**: puoi utilizzare fino a 3 livelli di suddivisioni sulle dimensioni per eseguire il drill-down dei dati effettivamente necessari. Vedere ➊, ➋ e ➌.
 
-   * Aggiungi altre metriche **[!UICONTROL per]**: puoi aggiungere fino a 2 ulteriori metriche. Vedere ➍ e ➎.
+  * Aggiungi altre metriche **[!UICONTROL per]**: puoi aggiungere fino a 2 ulteriori metriche. Vedere ➍ e ➎.
 
-   * **[!UICONTROL segmento per]**: puoi aggiungere fino a 2 ulteriori segmenti. Ad esempio, aggiungi il segmento Prenotazioni e combinalo con i segmenti Prenotazioni frequenti e Nuovi viaggiatori per confrontarli. Vedere ➏, ➐ e ➑.
+  * **[!UICONTROL segmento per]**: puoi aggiungere fino a 2 ulteriori segmenti. Ad esempio, aggiungi il segmento Prenotazioni e combinalo con i segmenti Prenotazioni frequenti e Nuovi viaggiatori per confrontarli. Vedere ➏, ➐ e ➑.
 
-   * on: puoi specificare l’intervallo di date. Vedere ➒.
+  * on: puoi specificare l’intervallo di date. Vedere ➒.
 
 ## Limitazioni note
 

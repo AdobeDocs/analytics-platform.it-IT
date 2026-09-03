@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
 workflow-type: tm+mt
 source-wordcount: 1093
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -35,13 +35,13 @@ Questo articolo spiega nei dettagli come Content Analytics raccoglie i dati
 Nel contesto del presente articolo sono utilizzate le definizioni seguenti:
 
 * **Esperienza**:
-   * Per il canale **web**, per esperienza si intende il contenuto di testo di un&#39;intera pagina Web. Per la raccolta dati, Content Analytics registra l’Experience ID che si basa sull’URL della pagina. Successivamente, il testo sulla pagina viene acquisito tramite il servizio di recupero.
-   * Per il canale **mobile**, viene definita e tracciata un&#39;esperienza nell&#39;app mobile tramite l&#39;estensione Content Analytics per Adobe Experience Platform Mobile SDK.
+  * Per il canale **web**, per esperienza si intende il contenuto di testo di un&#39;intera pagina Web. Per la raccolta dati, Content Analytics registra l’Experience ID che si basa sull’URL della pagina. Successivamente, il testo sulla pagina viene acquisito tramite il servizio di recupero.
+  * Per il canale **mobile**, viene definita e tracciata un&#39;esperienza nell&#39;app mobile tramite l&#39;estensione Content Analytics per Adobe Experience Platform Mobile SDK.
 * **ID esperienza**:
-   * Per il canale web, l&#39;ID esperienza è una combinazione univoca di URL rilevanti (URL di base più eventuali parametri che determinano il contenuto della pagina) e [versione esperienza](manual.md#versioning).
-      * Specifica, come parte della [configurazione](configuration.md), quali parametri sono rilevanti per ogni URL completo specificato.
-      * Puoi definire un [identificatore di versione](manual.md#versioning) da utilizzare, in modo da raccogliere correttamente le modifiche apportate alle esperienze.
-   * Per il canale **mobile**, l&#39;ID esperienza è il valore restituito dall&#39;utilizzo della chiamata API `registerExperience`.
+  * Per il canale web, l&#39;ID esperienza è una combinazione univoca di URL rilevanti (URL di base più eventuali parametri che determinano il contenuto della pagina) e [versione esperienza](manual.md#versioning).
+    * Specifica, come parte della [configurazione](configuration.md), quali parametri sono rilevanti per ogni URL completo specificato.
+    * Puoi definire un [identificatore di versione](manual.md#versioning) da utilizzare, in modo da raccogliere correttamente le modifiche apportate alle esperienze.
+  * Per il canale **mobile**, l&#39;ID esperienza è il valore restituito dall&#39;utilizzo della chiamata API `registerExperience`.
 * **Risorsa**: un’immagine. Content Analytics registra l’URL della risorsa.
 * **ID risorsa**: l’URL della risorsa.
 * **URL pertinente**: l’URL di base più eventuali parametri che determinano il contenuto della pagina.
@@ -64,8 +64,8 @@ Questa sezione descrive le specifiche per gli eventi Web Content Analytics. Cons
 Un evento di Content Analytics è costituito da:
 
 * Campi standard
-   * Marca temporale
-   * Identità
+  * Marca temporale
+  * Identità
 * Visualizzazioni esperienza (se presenti e se configurate)
 * Clic sull’esperienza (se presenti e se configurati)
 * Visualizzazioni risorse (se presenti e se configurate)
@@ -107,11 +107,11 @@ Per ridurre il numero di richieste di rete inviate dalla pagina, Content Analyti
 
 * Web SDK o Adobe AppMeasurement inviano un evento.
 * La visibilità viene cambiata in nascosta, ad esempio:
-   * Scaricamenti della pagina
-   * Passaggio a un’altra scheda
-   * Riduzione a icona del browser
-   * Chiusura del browser
-   * Blocco dello schermo
+  * Scaricamenti della pagina
+  * Passaggio a un’altra scheda
+  * Riduzione a icona del browser
+  * Chiusura del browser
+  * Blocco dello schermo
 * Cambio dell’URL che determina la modifica dell’URL pertinente.
 * Le visualizzazioni delle risorse registrate e pronte per l’invio superano 32.
 
@@ -164,7 +164,7 @@ Per garantire che i dati di identità di Content Analytics e i dati di identità
 
 ### Mobile
 
-Per ulteriori informazioni su come utilizzare le identità nell&#39;app mobile, consulta l&#39;estensione [Identità per il servizio Experience Cloud ID](https://developer.adobe.com/client-sdks/home/base/mobile-core/identity/) e l&#39;estensione [Identità per Edge Network mobile](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/).
+Per ulteriori informazioni su come utilizzare le identità nell&#39;app mobile, consulta l&#39;estensione [Identity per il servizio Experience Cloud ID](https://developer.adobe.com/client-sdks/home/base/mobile-core/identity/) e l&#39;estensione [Identity per Edge Network mobile](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/).
 
 Non appena l&#39;identità cambia nell&#39;app mobile, il [batch](https://developer.adobe.com/client-sdks/solution/adobe-content-analytics/#batching-settings) corrente dei dati di Content Analytics viene reimpostato per avviare una nuova raccolta di dati di Content Analytics per la nuova identità.
 

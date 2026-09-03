@@ -108,8 +108,8 @@ I vantaggi delle etichette di contesto sono:
 * **Coerenza**: tutti gli utenti dell&#39;organizzazione che lavorano su uno o più progetti basati su una visualizzazione dati che utilizza le etichette di contesto ottengono lo stesso comportamento.
 * **Visibilità delle funzionalità e dei modelli**: alcune visualizzazioni e funzionalità vengono visualizzate solo quando viene assegnata l&#39;etichetta di contesto appropriata. Ad esempio:
 
-   * Una visualizzazione [Mappa](/help/analysis-workspace/visualizations/map.md) viene visualizzata correttamente solo se Customer Journey Analytics conosce i componenti che rappresentano latitudine e longitudine.
-   * I [modelli](/help/analysis-workspace/templates/use-templates.md) specifici sono visibili solo quando vengono applicate le etichette di contesto corrette e i componenti associati diventano disponibili.
+  * Una visualizzazione [Mappa](/help/analysis-workspace/visualizations/map.md) viene visualizzata correttamente solo se Customer Journey Analytics conosce i componenti che rappresentano latitudine e longitudine.
+  * I [modelli](/help/analysis-workspace/templates/use-templates.md) specifici sono visibili solo quando vengono applicate le etichette di contesto corrette e i componenti associati diventano disponibili.
 
 Le etichette di contesto possono essere necessarie nelle seguenti situazioni:
 

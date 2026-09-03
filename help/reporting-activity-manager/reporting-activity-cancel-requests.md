@@ -155,7 +155,7 @@ Puoi annullare tutte le richieste associate a uno o più progetti. Quando annull
       | [!UICONTROL **Utente &amp; progetto**] | I progetti selezionati saranno temporaneamente esclusi da qualsiasi richiesta di reporting effettuata dagli utenti associati.<p>Questa è l’opzione meno restrittiva.</p> |
       | [!UICONTROL **Utente**] | Agli utenti associati ai progetti selezionati sarà impedito di effettuare qualsiasi richiesta di reporting. |
       | [!UICONTROL **Progetto**] | I progetti selezionati saranno temporaneamente esclusi da qualunque richiesta di reporting effettuata da qualsiasi utente. |
-      | [!UICONTROL **Limitato per**] | Scegli per quanto tempo le richieste saranno limitate. Puoi scegliere 1 minuto (impostazione predefinita), 5 minuti, 10 minuti, 15 minuti o 30 minuti. <!--double-check this--> <p>Non puoi rimuovere una restrizione subito dopo averla impostata.</p> |
+      | [!UICONTROL **Esclusi per**] | Scegli per quanto tempo le richieste saranno limitate. Puoi scegliere 1 minuto (impostazione predefinita), 5 minuti, 10 minuti, 15 minuti o 30 minuti. <!--double-check this--> <p>Non puoi rimuovere una restrizione subito dopo averla impostata.</p> |
 
       {style="table-layout:auto"}
 

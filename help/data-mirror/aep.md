@@ -22,8 +22,8 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 2b0204c229a7d53c0a497fe448c165acf84536ad
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 6%
+source-wordcount: 605
+ht-degree: 5%
 
 ---
 
@@ -47,9 +47,9 @@ Devi creare uno [schema relazionale](https://experienceleague.adobe.com/it/docs/
 * Definisci i campi nello schema e i relativi attributi
 * Configura gli attributi richiesti per i campi in uno schema relazionale:
 
-   * **Chiave primaria**.
-   * **Descrittore di versione**, che deve essere configurato come numero sequenziale (tipo di campo Integer) o come tipo di campo DateTime. Quando si utilizza un tipo di campo DataOra, il descrittore di versione definisce il timestamp di una modifica dei dati, ad esempio per contenere un timestamp dell&#39;ultima modifica.
-   * **Descrittore marca temporale** (per dati di serie temporali), che definisce la marca temporale immutabile nel momento in cui un evento viene acquisito. Il descrittore timestamp non è necessario per uno schema relazionale basato su record.
+  * **Chiave primaria**.
+  * **Descrittore di versione**, che deve essere configurato come numero sequenziale (tipo di campo Integer) o come tipo di campo DateTime. Quando si utilizza un tipo di campo DataOra, il descrittore di versione definisce il timestamp di una modifica dei dati, ad esempio per contenere un timestamp dell&#39;ultima modifica.
+  * **Descrittore marca temporale** (per dati di serie temporali), che definisce la marca temporale immutabile nel momento in cui un evento viene acquisito. Il descrittore timestamp non è necessario per uno schema relazionale basato su record.
 
 
 
@@ -106,4 +106,4 @@ Una volta completata l’impostazione del connettore di origine, viene creato un
 >
 >[Guida rapida di Data Mirror: mirroring e utilizzo dei dati relazionali](relational.md)
 >[Data Mirror (documentazione Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/data-mirror/overview)
->[Schemi relazionali (documentazione Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational)
+>[Schemi relazionali (documentazione di Experience Platform)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational)

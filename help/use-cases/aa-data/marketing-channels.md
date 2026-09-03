@@ -74,8 +74,8 @@ Le impostazioni del canale di marketing operano in modo diverso per i dati di Pl
   ![Prima pagina della visita](../assets/first-page-of-visit.png)
 
 * **Override Last-Touch Channel** (Ignora canale ultimo contatto): questa impostazione in Marketing Channel Manager in genere impedisce ad alcuni canali di ottenere il merito del canale di ultimo contatto. Platform ignora questa impostazione, consentendo a canali ampi come “Direct” (Diretto) o “Internal” (Interno) di attribuire metriche in modo potenzialmente indesiderato. Adobe consiglia di rimuovere i canali in cui l’opzione “Override Last-Touch Channel” (Ignora canale ultimo contatto) è deselezionata.
-   * Puoi eliminare il canale di marketing &quot;Direct&quot; in Marketing Channel Manager, quindi utilizzare l’elemento di dimensione &quot;No value&quot; (Nessun valore) di Customer Journey Analytics per tale canale. Puoi anche rinominare questo elemento di dimensione “Direct” (Diretto) o escludere completamente l’elemento di dimensione dalla configurazione di una visualizzazione dati.
-   * In alternativa, puoi creare una classificazione del canale di marketing, classificando ciascun valore su se stesso, a eccezione dei canali da escludere in Customer Journey Analytics. Quindi puoi utilizzare questa dimensione di classificazione quando crei una visualizzazione dati, al posto di `channel.typeAtSource`.
+  * Puoi eliminare il canale di marketing &quot;Direct&quot; in Marketing Channel Manager, quindi utilizzare l’elemento di dimensione &quot;No value&quot; (Nessun valore) di Customer Journey Analytics per tale canale. Puoi anche rinominare questo elemento di dimensione “Direct” (Diretto) o escludere completamente l’elemento di dimensione dalla configurazione di una visualizzazione dati.
+  * In alternativa, puoi creare una classificazione del canale di marketing, classificando ciascun valore su se stesso, a eccezione dei canali da escludere in Customer Journey Analytics. Quindi puoi utilizzare questa dimensione di classificazione quando crei una visualizzazione dati, al posto di `channel.typeAtSource`.
 
   ![Ignora canale ultimo contatto](../assets/override-last-touch-channel.png)
 

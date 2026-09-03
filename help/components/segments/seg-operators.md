@@ -43,7 +43,7 @@ L&#39;unico carattere jolly supportato per gli operatori che supportano i caratt
 Ad esempio, hai un nome di pagina denominato *My cool product*.
 
 * La regola del segmento **[!UICONTROL Nome pagina]** **[!UICONTROL corrisponde]** `* product` corrisponderà al nome della pagina indicato sopra.
-* Tuttavia, la regola **[!UICONTROL Nome pagina]** **[!UICONTROL corrisponde]** `My \* product` corrisponde solo al nome pagina *Il mio* Prodotto*.
+* Tuttavia, la regola **[!UICONTROL Nome pagina]** **[!UICONTROL corrisponde]** `My \* product` corrisponde solo al nome pagina *Prodotto* personale*.
 
 ## Operatori standard
 

@@ -296,7 +296,7 @@ Per aggiungere nuove diapositive, passa il puntatore oppure fai clic su una diap
    * Tocca l’icona Duplica per duplicare la diapositiva esistente.
 1. Se crei una diapositiva vuota, trascina i componenti dalla barra a sinistra oppure scegli un layout per popolare automaticamente la diapositiva con i dati della sezione.
    ![Crea una storia di dati](assets/data-story2.png)
-Per eliminare una diapositiva, tocca l’icona del cestino.
+   Per eliminare una diapositiva, tocca l’icona del cestino.
 
 ### Personalizzare una presentazione di dati {#customize-data-story}
 
@@ -308,7 +308,7 @@ Le presentazioni di dati sono interamente personalizzabili, per condividere le i
 1. Modifica il titolo, il tipo di grafico e altre opzioni della sezione.
 1. Trascina un componente sulla sezione.
    ![Crea una storia di dati](assets/data-story3.png)
-Quando trascini un componente, ad esempio una visualizzazione, su una tessera, il componente viene applicato a tutte le diapositive della storia di dati.
+   Quando trascini un componente, ad esempio una visualizzazione, su una tessera, il componente viene applicato a tutte le diapositive della storia di dati.
 1. Per applicare una modifica solo al titolo, tieni premuto il tasto Maiusc per applicarla.
    ![Creare di una presentazione di dati](assets/data-story4.png)
 

@@ -31,7 +31,7 @@ In Customer Journey Analytics le dimensioni sono di tipo illimitato; i valori po
 
 Un rapporto di base in Customer Journey Analytics presenta righe di dimensioni (solitamente valori stringa) rispetto a una colonna di metriche (solitamente valori numerici).
 
-Ad esempio, se si combina la dimensione Pagina con la metrica Persone, si ottiene un rapporto di classificazione che presenta le pagine più visitate per numero di persone:
+Ad esempio, se si combina la dimensione Pagina con la metrica Persone, si ottiene un rapporto sul ranking che presenta le pagine più visitate per numero di persone:
 
 | Pagina | Persone |
 | --- | ---: |

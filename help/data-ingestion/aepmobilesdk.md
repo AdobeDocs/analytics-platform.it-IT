@@ -357,27 +357,27 @@ Per definire una regola:
 
    - Nella finestra di dialogo [!UICONTROL Configurazione evento]:
 
-      - Seleziona **[!UICONTROL Mobile Core]** dall&#39;elenco [!UICONTROL Extension].
+     - Seleziona **[!UICONTROL Mobile Core]** dall&#39;elenco [!UICONTROL Extension].
 
-      - Seleziona **[!UICONTROL Primo piano]** dall&#39;elenco [!UICONTROL Tipo evento].
+     - Seleziona **[!UICONTROL Primo piano]** dall&#39;elenco [!UICONTROL Tipo evento].
 
-      - Seleziona **[!UICONTROL Mantieni modifiche]**.
+     - Seleziona **[!UICONTROL Mantieni modifiche]**.
 
    - Fai clic su ![Plus](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) accanto a [!UICONTROL Mobile Core - Foreground].
 
-      - Seleziona **[!UICONTROL Mobile Core]** dall&#39;elenco [!UICONTROL Extension].
+     - Seleziona **[!UICONTROL Mobile Core]** dall&#39;elenco [!UICONTROL Extension].
 
-      - Selezionare **[!UICONTROL Sfondo]** dall&#39;elenco [!UICONTROL Tipo evento].
+     - Selezionare **[!UICONTROL Sfondo]** dall&#39;elenco [!UICONTROL Tipo evento].
 
-      - Seleziona **[!UICONTROL Mantieni modifiche]**.
+     - Seleziona **[!UICONTROL Mantieni modifiche]**.
 
    - Fai clic su ![Più](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) Aggiungi sotto [!UICONTROL AZIONI]. Nella finestra di dialogo [!UICONTROL Configurazione azione]:
 
-      - Seleziona **[!UICONTROL Adobe Experience Platform Edge Network]** dall&#39;elenco [!UICONTROL Estensione].
+     - Seleziona **[!UICONTROL Adobe Experience Platform Edge Network]** dall&#39;elenco [!UICONTROL Estensione].
 
-      - Seleziona **[!UICONTROL Inoltra evento ad Edge Network]** dall&#39;elenco [!UICONTROL Tipo azione].
+     - Seleziona **[!UICONTROL Inoltra evento ad Edge Network]** dall&#39;elenco [!UICONTROL Tipo azione].
 
-      - Seleziona **[!UICONTROL Mantieni modifiche]**.
+     - Seleziona **[!UICONTROL Mantieni modifiche]**.
 
    - L’aspetto della regola dovrebbe essere il seguente:
 
@@ -448,7 +448,7 @@ Ora puoi distribuire il codice all’interno dell’app mobile. Una volta implem
 
 Convalida l’implementazione, correggila laddove necessario e una volta corretta, implementala nell’ambiente di staging e di produzione utilizzando la funzione di flusso di lavoro di pubblicazione dei tag.
 
-Per informazioni molto più dettagliate, consulta l&#39;[esercitazione sull&#39;implementazione di Adobe Experience Cloud nelle app per dispositivi mobili](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=it).
+Per informazioni molto più dettagliate, consulta l&#39;esercitazione sull&#39;implementazione di Adobe Experience Cloud nelle app per dispositivi mobili[&#128279;](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=it).
 
 ## Configurare una connessione
 
@@ -484,11 +484,11 @@ Per creare la connessione:
 
    - Per ogni set di dati:
 
-      - Seleziona un [!UICONTROL ID persona] dalle identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
+     - Seleziona un [!UICONTROL ID persona] dalle identità disponibili definite negli schemi di set di dati in Adobe Experience Platform.
 
-      - Selezionare l&#39;origine dati corretta dall&#39;elenco [!UICONTROL Tipo origine dati]. Se si specifica **[!UICONTROL Altro]**, aggiungere una descrizione per l&#39;origine dati.
+     - Selezionare l&#39;origine dati corretta dall&#39;elenco [!UICONTROL Tipo origine dati]. Se si specifica **[!UICONTROL Altro]**, aggiungere una descrizione per l&#39;origine dati.
 
-      - Imposta **[!UICONTROL Importa tutti i nuovi dati]** e **[!UICONTROL Recupera i dati esistenti del set di dati]** in base alle tue preferenze.
+     - Imposta **[!UICONTROL Importa tutti i nuovi dati]** e **[!UICONTROL Recupera i dati esistenti del set di dati]** in base alle tue preferenze.
 
      ![Configurare i set di dati](./assets/cja-connections-ajopushid.png)
 

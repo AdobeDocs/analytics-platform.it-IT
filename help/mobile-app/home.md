@@ -38,11 +38,11 @@ Per ulteriori informazioni sulle [!UICONTROL dashboard] di Customer Journey Anal
 
 * [Risorse per il curatore](/help/mobile-app/curator.md): queste risorse aiutano i curatori di dati a configurare le scorecard per i loro utenti esecutivi sulle [!UICONTROL dashboard]. I curatori possono essere amministratori organizzativi o persone con altri ruoli responsabili della configurazione delle scorecard:
 
-   * [Creare scorecard](/help/mobile-app/create-scorecard.md)
-   * [Aiutare i dirigenti a configurare e utilizzare l’app](/help/mobile-app/set-up-execs.md)
-   * Per una panoramica video dell’esperienza per il curatore, consulta [Creazione di scorecard per dashboard di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=it).
+  * [Creare scorecard](/help/mobile-app/create-scorecard.md)
+  * [Aiutare i dirigenti a configurare e utilizzare l’app](/help/mobile-app/set-up-execs.md)
+  * Per una panoramica video dell’esperienza per il curatore, consulta [Creazione di scorecard per dashboard di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=it).
 
 
 * [Guida introduttiva rapida per utenti esecutivi](/help/mobile-app/executive.md): questa guida ha lo scopo di aiutare gli utenti esecutivi a leggere e interpretare le scorecard nelle [!UICONTROL dashboard]. L’app consente agli utenti direzionali di visualizzare una rappresentazione generale di importanti dati riassuntivi in modo semplice e veloce sui propri dispositivi mobili.
 
-   * Per guardare un video che evidenzia queste informazioni, consulta [Esperienza in-app per le dashboard di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=it).
+  * Per guardare un video che evidenzia queste informazioni, consulta [Esperienza in-app per le dashboard di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=it).
