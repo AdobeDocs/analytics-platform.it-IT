@@ -51,7 +51,7 @@ In Customer Journey Analytics vengono visualizzati due criteri definiti da Adobe
 
 I componenti soggetti a questi criteri sono disattivati e dispongono di un&#39;icona ![InfoOutline](/help/assets/icons/InfoOutline.svg). Quando passi il cursore sull&#39;icona delle informazioni, viene visualizzata una nota per indicare che a questo campo sono stati applicati **[!UICONTROL criteri che impediscono l&#39;utilizzo di questi dati]**.
 
-Per ulteriori informazioni, vedere [Etichette e criteri](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance).
+Per ulteriori informazioni, vedere [Etichette e criteri](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/data-governance).
 
 
 ![Nota del criterio che indica l&#39;utilizzo non consentito dei dati.](assets/restricted-label.png){zoomable="yes"}

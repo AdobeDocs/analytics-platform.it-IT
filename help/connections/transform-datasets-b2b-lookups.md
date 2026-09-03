@@ -34,10 +34,10 @@ Per supportare le ricerche basate su persone sui dati B2B (tra cui account, oppo
 
 Questa trasformazione è disponibile solo per i set di dati con dati per schemi di ricerca B2B, in base alle classi seguenti:
 
-* [Relazione della persona dell’account aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [Relazione della persona dell’opportunità aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [Membri dell’elenco di marketing aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [Membri della campagna aziendale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [Relazione della persona dell’account aziendale XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [Relazione della persona dell’opportunità aziendale XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [Membri dell’elenco di marketing aziendale XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [Membri della campagna aziendale XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >
