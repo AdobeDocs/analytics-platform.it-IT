@@ -22,10 +22,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
-source-wordcount: 1365
-ht-degree: 28%
+source-wordcount: 1643
+ht-degree: 24%
 
 ---
 
@@ -99,7 +99,11 @@ Vengono visualizzati i dettagli seguenti.
 | **[!UICONTROL Attributi esperienza]**: gli [attributi](/help/content-analytics/report/components.md#experience-attributes) dell&#39;esperienza. | **[!UICONTROL Attributi risorsa]**: gli [attributi](/help/content-analytics/report/components.md#asset-attributes) della risorsa. |
 
 
-## Modello
+## Modelli
+
+Content Analytics offre due modelli di progetto in Workspace per creare rapidamente un progetto.
+
+### Modello Content Analytics
 
 È disponibile un [modello](/help/analysis-workspace/templates/use-templates.md) di Content Analytics per aiutarti a capire quali sono i contenuti e gli attributi di contenuto con prestazioni migliori. Il modello fa parte del [caso d’uso Canale web e coinvolgimento](/help/analysis-workspace/templates/use-templates.md#web-engagement) e descrive le prestazioni dei contenuti a livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici.
 
@@ -195,6 +199,21 @@ Questa tabella a forma libera specifica dove vengono visualizzate le risorse pi�
 
     È inoltre possibile scambiare [!UICONTROL ID percezione risorsa] con [!UICONTROL ID risorsa] per ottenere un record in cui viene fatto riferimento a URL immagine specifici.
 
+
+### Modello per Content Analytics per contenuti multimediali a pagamento
+
+È disponibile un [modello](/help/analysis-workspace/templates/use-templates.md) di Paid Media Content Analytics per aiutarti a capire quali sono i contenuti multimediali a pagamento e gli attributi di contenuto con prestazioni migliori. Il modello fa parte del caso d&#39;uso [Canale web e coinvolgimento](/help/analysis-workspace/templates/use-templates.md#web-engagement) e ti aiuta a comprendere le prestazioni del contenuto multimediale a pagamento a livello granulare. Puoi esaminare la portata, il coinvolgimento, la spesa e l’efficienza dei media a pagamento su reti, account, campagne, esperienze e risorse. Le metriche e le dimensioni in questo pannello rimangono intenzionalmente nella grana di riepilogo delle risorse multimediali a pagamento. Non combinare i set di dati di riepilogo dei pannelli in questo modello con i dati evento.
+
+In base a ciò che apprendi, puoi fare un certo numero di cose, come concentrarsi su come spendi i soldi per i canali di media a pagamento, spendere più soldi per campagne a basse prestazioni o spendere più soldi per campagne con risorse ad alte prestazioni.
+
+Per utilizzare il modello:
+
+1. Selezionare **[!UICONTROL Workspace]** dal menu principale.
+1. Assicurati di selezionare una visualizzazione dati configurata per Content Analytics.
+1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**&#x200B;s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]** per contenuti multimediali a pagamento.
+1. Seleziona **[!UICONTROL Usa modello]**.
+
+Un progetto **[!UICONTROL Content Analytics - Paid Media Summary Data]** si apre in [Analysis Workspace](/help/analysis-workspace/home.md). Il progetto è costituito da **[!UICONTROL Paid Media Performance]** [panel](/help/analysis-workspace/c-panels/panels.md), con [tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) e [visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). Utilizza il pannello per rivedere la portata, il coinvolgimento, la spesa e l’efficienza dei media a pagamento su reti, account, campagne, esperienze e risorse. Le metriche e le dimensioni nel pannello rimangono intenzionalmente nella grana di riepilogo delle risorse multimediali a pagamento; non combinare i set di dati di riepilogo con i dati dell’evento.
 
 >[!MORELIKETHIS]
 >

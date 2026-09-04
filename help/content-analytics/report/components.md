@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 3e9a9042bfe707971c4e37d319a23ab9bdc80075
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 1869
 ht-degree: 55%
@@ -38,8 +38,8 @@ Content Analytics aggiunge le seguenti categorie di componenti (dimensioni, metr
 * [Metadati per risorse](#asset-metadata)
 * [Attributi delle risorse](#asset-attributes)
 * [Eventi per risorse](#asset-events)
-* [Paid Media](#paid-media)
 * [Metriche calcolate](#calculated-metrics)
+* [Paid Media](#paid-media)
 
 Nelle tabelle seguenti, ![Generato dall’IA](/help/assets/icons/AI.svg) indica una coppia attributo/valore generata mediante IA/ML.
 
@@ -158,11 +158,23 @@ Nelle tabelle seguenti, ![Generato dall’IA](/help/assets/icons/AI.svg) indica 
 {style="table-layout:fixed"}
 -->
 
+
+## Metriche calcolate
+
+| Titolo | Descrizione | Tipo |
+|---|---|---|
+| Click-through rate della risorsa | Clic su risorsa per Visualizzazioni risorsa | Metrica calcolata |
+| Percentuale di click-through esperienza | Clic su esperienza per Visualizzazioni esperienza | Metrica calcolata |
+
+{style="table-layout:fixed"}
+
+
+
 ## Paid Media
 
 Questi componenti vengono aggiunti a una visualizzazione dati quando il canale **File multimediali a pagamento** è abilitato tramite un [connettore di origine di file multimediali a pagamento di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home) (ad esempio, Meta Ads o Google Ads). Ti consentono di creare rapporti sulle entità multimediali a pagamento, sulla creatività e di spendere insieme ai contenuti web e mobili.
 
-Gli **attributi di risorse** e **attributi di esperienza** generati dall&#39;intelligenza artificiale sopra descritti sono disponibili anche per i creativi di contenuti multimediali a pagamento: la stessa funzionalità viene eseguita sui canali Web, Mobile e Paid Media.
+Gli [attributi risorsa](#asset-attributes) e [attributi esperienza](#experience-attributes) generati dall&#39;intelligenza artificiale descritti sopra sono disponibili anche per i creativi di media a pagamento. La stessa funzionalità viene eseguita sui canali Web, Mobile e Paid Media.
 
 ### Dimensioni per file multimediali a pagamento
 
@@ -266,14 +278,3 @@ Gli **attributi di risorse** e **attributi di esperienza** generati dall&#39;int
 | Valore medio ordine | Il valore totale dell&#39;ordine diviso per gli acquisti. | Metrica calcolata |
 
 {style="table-layout:fixed"}
-
-
-## Metriche calcolate
-
-| Titolo | Descrizione | Tipo |
-|---|---|---|
-| Click-through rate della risorsa | Clic su risorsa per Visualizzazioni risorsa | Metrica calcolata |
-| Percentuale di click-through esperienza | Clic su esperienza per Visualizzazioni esperienza | Metrica calcolata |
-
-{style="table-layout:fixed"}
-

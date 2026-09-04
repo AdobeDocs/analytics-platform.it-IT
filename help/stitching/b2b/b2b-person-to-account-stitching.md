@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1ef12bfccbecc74a0b437c9c582fe0f6c1c1e9e5
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 2116
 ht-degree: 15%
@@ -91,7 +91,7 @@ Il set di dati di mappatura persona-account è elevato utilizzando l’unione ba
 
 L’unione basata su grafico viene utilizzata anche per elevare gli ID persona nel set di dati dell’evento esperienza. Ad esempio, vedere il valore aggiornato per **emily@adobe.com**.
 
-L’unione basata su grafico viene utilizzata anche per elevare gli ID persona nel set di dati dell’evento esperienza. Ad esempio, puoi configurare il campo ID persistente (ECID) da utilizzare come ID persona persistente quando [attivi l&#39;unione nel set di dati](#enable-b2b-stitching-on-event-datasets). In base a `5678` come valore ECID e `emily@adobe.com` come valore E-mail, `emily@adobe.com` viene impostato come ID persona con privilegi elevati per l&#39;evento correlato.
+L’unione basata su grafico viene utilizzata anche per elevare gli ID persona nel set di dati dell’evento esperienza. Ad esempio, puoi configurare il campo ID persistente (ECID) da utilizzare come ID persona persistente quando [attivi l&#39;unione nel set di dati](#enable-b2b-person-to-account-stitching-on-event-datasets). In base a `5678` come valore ECID e `emily@adobe.com` come valore E-mail, `emily@adobe.com` viene impostato come ID persona con privilegi elevati per l&#39;evento correlato.
 
 | Marca temporale | ID persistente | ID account originale | ID persona originale | ID persona elevata |
 |--|--|---|---|---|
