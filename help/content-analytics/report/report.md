@@ -4,28 +4,18 @@ description: Scopri come creare rapporti su Content Analytics utilizzando visual
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
+hold: true
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
 TQID: https://experienceleague.adobe.com/IM7-a-jp-lLfuGKj-CM2McnFXcus2-x-ffLC8UUKAmY
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 537fc30db0f6e6bddc54df7bbcc04d802226958f
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: bc7a5a86-1a70-451f-985c-037b65f091d1id: d3c978ee-1ff0-4475-968a-721e2dd99ef1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8490c4128ac906ba9421b91f9b9da433b91d084d
 workflow-type: tm+mt
-source-wordcount: 1365
-ht-degree: 28%
+source-wordcount: 1642
+ht-degree: 24%
 
 ---
 
@@ -99,7 +89,11 @@ Vengono visualizzati i dettagli seguenti.
 | **[!UICONTROL Attributi esperienza]**: gli [attributi](/help/content-analytics/report/components.md#experience-attributes) dell&#39;esperienza. | **[!UICONTROL Attributi risorsa]**: gli [attributi](/help/content-analytics/report/components.md#asset-attributes) della risorsa. |
 
 
-## Modello
+## Modelli
+
+Content Analytics offre due modelli di progetto in Workspace per creare rapidamente un progetto.
+
+### Modello Content Analytics
 
 È disponibile un [modello](/help/analysis-workspace/templates/use-templates.md) di Content Analytics per aiutarti a capire quali sono i contenuti e gli attributi di contenuto con prestazioni migliori. Il modello fa parte del [caso d’uso Canale web e coinvolgimento](/help/analysis-workspace/templates/use-templates.md#web-engagement) e descrive le prestazioni dei contenuti a livello granulare. Puoi esaminare le prestazioni di singole risorse o attributi specifici.
 
@@ -109,7 +103,7 @@ Per utilizzare il modello:
 
 1. Selezionare **[!UICONTROL Workspace]** dal menu principale.
 1. Assicurati di selezionare una visualizzazione dati configurata per Content Analytics.
-1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**&#x200B;s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]**.
+1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]**.
 1. Seleziona **[!UICONTROL Usa modello]**.
 1. Nella finestra di dialogo **[!UICONTROL Configura il modello]**, seleziona una metrica dalla finestra di dialogo **[!UICONTROL Seleziona una metrica di conversione]**. Ad esempio, **[!UICONTROL CTR risorsa]**.
 1. Seleziona **[!UICONTROL Continua]**.
@@ -195,6 +189,21 @@ Questa tabella a forma libera specifica dove vengono visualizzate le risorse pi�
 
     È inoltre possibile scambiare [!UICONTROL ID percezione risorsa] con [!UICONTROL ID risorsa] per ottenere un record in cui viene fatto riferimento a URL immagine specifici.
 
+
+### Modello MediaContent Analytics a pagamento
+
+È disponibile un [modello](/help/analysis-workspace/templates/use-templates.md) di Paid Media Content Analytics per aiutarti a capire quali sono i contenuti multimediali a pagamento e gli attributi di contenuto con prestazioni migliori. Il modello fa parte del caso d&#39;uso [Canale web e coinvolgimento](/help/analysis-workspace/templates/use-templates.md#web-engagement) e ti aiuta a comprendere le prestazioni del contenuto multimediale a pagamento a livello granulare. Puoi esaminare la portata, il coinvolgimento, la spesa e l’efficienza dei media a pagamento su reti, account, campagne, esperienze e risorse. Le metriche e le dimensioni in questo pannello rimangono intenzionalmente nella grana di riepilogo delle risorse multimediali a pagamento. Non combinare i set di dati di riepilogo dei pannelli in questo modello con i dati evento.
+
+In base a ciò che apprendi, puoi fare un certo numero di cose, come concentrarsi su come spendi i soldi per i canali di media a pagamento, spendere più soldi per campagne a basse prestazioni o spendere più soldi per campagne con risorse ad alte prestazioni.
+
+Per utilizzare il modello:
+
+1. Selezionare **[!UICONTROL Workspace]** dal menu principale.
+1. Assicurati di selezionare una visualizzazione dati configurata per Content Analytics.
+1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]** per contenuti multimediali a pagamento.
+1. Seleziona **[!UICONTROL Usa modello]**.
+
+Un progetto **[!UICONTROL Content Analytics - Paid Media Summary Data]** si apre in [Analysis Workspace](/help/analysis-workspace/home.md). Il progetto è costituito da **[!UICONTROL Paid Media Performance]** [panel](/help/analysis-workspace/c-panels/panels.md), con [tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) e [visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). Utilizza il pannello per rivedere la portata, il coinvolgimento, la spesa e l’efficienza dei media a pagamento su reti, account, campagne, esperienze e risorse. Le metriche e le dimensioni nel pannello rimangono intenzionalmente nella grana di riepilogo delle risorse multimediali a pagamento; non combinare i set di dati di riepilogo con i dati dell’evento.
 
 >[!MORELIKETHIS]
 >

@@ -4,23 +4,15 @@ description: Scopri i dettagli dei componenti Content Analytics specifici, come 
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
+hold: true
 exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
 TQID: https://experienceleague.adobe.com/grwbNht938ivCsnzlFBzP8Ga8h1udmQLcZngxY6s0-4
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 3e9a9042bfe707971c4e37d319a23ab9bdc80075
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8490c4128ac906ba9421b91f9b9da433b91d084d
 workflow-type: tm+mt
 source-wordcount: 1869
 ht-degree: 55%
@@ -38,8 +30,8 @@ Content Analytics aggiunge le seguenti categorie di componenti (dimensioni, metr
 * [Metadati per risorse](#asset-metadata)
 * [Attributi delle risorse](#asset-attributes)
 * [Eventi per risorse](#asset-events)
-* [Paid Media](#paid-media)
 * [Metriche calcolate](#calculated-metrics)
+* [Paid Media](#paid-media)
 
 Nelle tabelle seguenti, ![Generato dall’IA](/help/assets/icons/AI.svg) indica una coppia attributo/valore generata mediante IA/ML.
 
@@ -158,11 +150,23 @@ Nelle tabelle seguenti, ![Generato dall’IA](/help/assets/icons/AI.svg) indica 
 {style="table-layout:fixed"}
 -->
 
+
+## Metriche calcolate
+
+| Titolo | Descrizione | Tipo |
+|---|---|---|
+| Click-through rate della risorsa | Clic su risorsa per Visualizzazioni risorsa | Metrica calcolata |
+| Percentuale di click-through esperienza | Clic su esperienza per Visualizzazioni esperienza | Metrica calcolata |
+
+{style="table-layout:fixed"}
+
+
+
 ## Paid Media
 
 Questi componenti vengono aggiunti a una visualizzazione dati quando il canale **File multimediali a pagamento** è abilitato tramite un [connettore di origine di file multimediali a pagamento di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home) (ad esempio, Meta Ads o Google Ads). Ti consentono di creare rapporti sulle entità multimediali a pagamento, sulla creatività e di spendere insieme ai contenuti web e mobili.
 
-Gli **attributi di risorse** e **attributi di esperienza** generati dall&#39;intelligenza artificiale sopra descritti sono disponibili anche per i creativi di contenuti multimediali a pagamento: la stessa funzionalità viene eseguita sui canali Web, Mobile e Paid Media.
+Gli [attributi risorsa](#asset-attributes) e [attributi esperienza](#experience-attributes) generati dall&#39;intelligenza artificiale descritti sopra sono disponibili anche per i creativi di media a pagamento. La stessa funzionalità viene eseguita sui canali Web, Mobile e Paid Media.
 
 ### Dimensioni per file multimediali a pagamento
 
@@ -266,14 +270,3 @@ Gli **attributi di risorse** e **attributi di esperienza** generati dall&#39;int
 | Valore medio ordine | Il valore totale dell&#39;ordine diviso per gli acquisti. | Metrica calcolata |
 
 {style="table-layout:fixed"}
-
-
-## Metriche calcolate
-
-| Titolo | Descrizione | Tipo |
-|---|---|---|
-| Click-through rate della risorsa | Clic su risorsa per Visualizzazioni risorsa | Metrica calcolata |
-| Percentuale di click-through esperienza | Clic su esperienza per Visualizzazioni esperienza | Metrica calcolata |
-
-{style="table-layout:fixed"}
-

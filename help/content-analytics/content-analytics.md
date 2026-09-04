@@ -4,32 +4,18 @@ description: Scopri il valore e la terminologia di Content Analytics e come funz
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
+hold: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 TQID: https://experienceleague.adobe.com/x5FpRmZ-Wv6pPxYBEAyDzRqUSUpmwHFwbi55FwVKT5A
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d9715c3da9893e1c47b702acb4daef5e666bedd7
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8490c4128ac906ba9421b91f9b9da433b91d084d
 workflow-type: tm+mt
-source-wordcount: 906
-ht-degree: 52%
+source-wordcount: 1019
+ht-degree: 41%
 
 ---
 
@@ -63,13 +49,21 @@ Content Analytics utilizza i seguenti termini chiave:
 
 ## Come funziona
 
-Content Analytics utilizza i dati di visualizzazione delle immagini web e mobili dai set di dati dell&#39;evento Experience Platform per [raccogliere i dati dell&#39;evento contenuto](config/datacollection.md). Questi eventi di esperienza dei contenuti richiedono la raccolta dei dati con Experience Platform Edge Network (Web SDK, Mobile SDK, API server). I dati comportamentali possono essere raccolti con Web SDK, Mobile SDK o il connettore Source di Analytics.
+Content Analytics utilizza i dati di visualizzazione delle immagini web e mobili e i dati multimediali a pagamento dai set di dati dell&#39;evento Experience Platform per [raccogliere i dati dell&#39;evento contenuto](config/datacollection.md). Questi eventi di esperienza dei contenuti richiedono che i dati vengano raccolti con Experience Platform Edge Network (Web SDK, Mobile SDK, Server API) o tramite i connettori di origine di Experience Platform.
 
-![Content Analytics: come funziona](assets/aca-overview-new.gif)
+* I dati comportamentali possono essere raccolti con Web SDK, Mobile SDK o il connettore Source di Analytics.
+* Per gli elementi multimediali a pagamento, i dati sull’esperienza vengono ricostruiti dalle origini dati dell’evento multimediale a pagamento raccolte in Experience Platform tramite i connettori di origini per elementi multimediali a pagamento disponibili.
 
-1. Quando un utente visita un sito o un&#39;app, [configurata per Content Analytics](config/configuration.md), il SDK Web o mobile di Experience Platform registra le impression e le interazioni con i contenuti.
-1. Il servizio Identity and Feature elabora queste interazioni. Tale processo consiste in un servizio di recupero che rivede le versioni pubbliche degli URL configurati che definiscono le interazioni. Per tutti questi URL recuperati, il servizio di identità identifica in modo univoco le esperienze e le risorse. Inoltre, il servizio di funzionalità applica i servizi AI/ML per scoprire l’esperienza e i metadati e gli attributi delle risorse.
-1. I risultati di questi servizi ([componenti, attributi e identità](/help/content-analytics/report/components.md)) vengono utilizzati per aggiornare i set di dati di Content Analytics specifici e pertinenti in Experience Platform.
+![Content Analytics: come funziona](assets/aca-overview-new-paid-media.gif)
+
+
+1. Quando un utente visita un sito o un&#39;app, [configurata per Content Analytics](config/configuration.md), il SDK Web o mobile di Experience Platform registra le impression e le interazioni con il contenuto.
+I dati multimediali a pagamento vengono raccolti in set di dati ogni giorno dai connettori di origine (ad esempio a Google e Meta). Content Analytics monitora i [set di dati di paid media configurati](config/configuration.md) per risorse ed esperienze nuove e non supportate e utilizza i metadati del set di dati di annunci per comporre experience HTML. L’esperienza HTML è combinata con i dettagli della risorsa come esperienza multimediale a pagamento.
+
+1. Il servizio di identità e funzionalità elabora queste interazioni (dal web e dai dispositivi mobili) ed esperienze (dai media a pagamento). Tale processo consiste in un servizio di recupero che rivede le versioni pubbliche degli URL configurati che definiscono le interazioni e del HTML che definisce l’esperienza. Per tutti questi URL e HTML recuperati, il servizio Identity identifica in modo univoco le esperienze e le risorse. Inoltre, il servizio di funzionalità applica i servizi AI/ML per scoprire l’esperienza e i metadati e gli attributi delle risorse.
+
+1. I risultati dei servizi Identity e Feature ([componenti, attributi e identità](/help/content-analytics/report/components.md)) vengono utilizzati per aggiornare i set di dati specifici di Content Analytics pertinenti in Experience Platform.
+
 1. È possibile utilizzare i dati di Content Analytics insieme ai dati comportamentali e ad altri dati di ricerca in una configurazione di Customer Journey Analytics ([Connessione](/help/connections/overview.md), [Visualizzazione dati](/help/data-views/data-views.md) e [Workspace](/help/analysis-workspace/home.md)). Tale configurazione fornisce le basi per ottenere informazioni univoche a livello macro sul contenuto. <br/>È possibile avviare rapidamente i report e l&#39;analisi di Content Analytics utilizzando il [modello Content Analytics](/help/content-analytics/report/report.md#template).
 
 
@@ -95,6 +89,6 @@ Content Analytics utilizza i dati di visualizzazione delle immagini web e mobili
 >
 >[Generazione rapporti Content Analytics](report/report.md)
 >[Configurare Content Analytics](config/configuration.md)
->[Calcolo dei mancati recapiti e del tasso di mancato recapito in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722?profile.language=it)
+>[Calcolo dei mancati recapiti e del tasso di mancato recapito in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722)
 >
 
