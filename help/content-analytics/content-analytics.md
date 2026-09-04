@@ -4,30 +4,14 @@ description: Scopri il valore e la terminologia di Content Analytics e come funz
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
-hold: true
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
 TQID: https://experienceleague.adobe.com/x5FpRmZ-Wv6pPxYBEAyDzRqUSUpmwHFwbi55FwVKT5A
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-  - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8490c4128ac906ba9421b91f9b9da433b91d084d
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: ad5685a0-8296-4a0c-814c-658c10b4af12id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: 1019
 ht-degree: 41%
@@ -49,7 +33,7 @@ Content Analytics fornisce valore a un livello crescente:
 
 1. **Utilizzo** del contenuto: con Content Analytics puoi ottenere informazioni sulle risorse che ricevono impression e sulle aree in cui le risorse ricevono impression. Queste informazioni consentono di verificare se le risorse sono sottoutilizzate o sovrautilizzate nelle proprietà web e mobili.
 1. **Coinvolgimento** del contenuto: Content Analytics può fornire informazioni sul coinvolgimento come il tasso medio di click-through per le risorse con determinati attributi. Queste informazioni ti aiutano a determinare se tipi specifici di esperienze sono ancora efficaci.
-1. Percorsi di contenuti: inoltre, se combinato con tutti gli altri dati disponibili in Experience Platform, puoi ottenere informazioni aggiuntive sui percorsi di contenuti; ad esempio, se contenuti specifici portano a conversioni, oltre al coinvolgimento. Ad esempio, se un contenuto specifico porta a conversioni, oltre al coinvolgimento. E con questa conoscenza puoi determinare il ROI sui tipi di contenuto.
+1. Contenuto **percorsi**: inoltre, se combinato con tutti gli altri dati disponibili in Experience Platform, puoi ottenere ulteriori informazioni sui percorsi di contenuti; ad esempio, se contenuti specifici portano a conversioni, oltre al coinvolgimento. Ad esempio, se un contenuto specifico porta a conversioni, oltre al coinvolgimento. E con questa conoscenza puoi determinare il ROI sui tipi di contenuto.
 1. **Personalizzazione** del contenuto: in ultima analisi, Content Analytics ti consente di agire in base alle informazioni e di utilizzarle per determinare come spendere denaro per i contenuti. Ad esempio, devo inviare tipi specifici di contenuto a tipi di pubblico specifici? Quali contenuti mi offrono opportunità di personalizzazione elevate?
 
 ## Terminologia
@@ -104,6 +88,6 @@ I dati multimediali a pagamento vengono raccolti in set di dati ogni giorno dai 
 >
 >[Generazione rapporti Content Analytics](report/report.md)
 >[Configurare Content Analytics](config/configuration.md)
->[Calcolo dei mancati recapiti e del tasso di mancato recapito in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722?profile.language=it)
+>[Calcolo dei mancati recapiti e del tasso di mancato recapito in Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/calculating-bounces-bounce-rate-in-adobe-customer-journey-analytics-options-and-implications-12722)
 >
 
