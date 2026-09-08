@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ae08f7a010c6c8cdb262bd96e51c2b677a4cb70a
+source-git-commit: 4ab8bb6c0f68ae49128a2fe2a1eb9e87ccfa52a1
 workflow-type: tm+mt
-source-wordcount: 2230
-ht-degree: 16%
+source-wordcount: 2268
+ht-degree: 15%
 
 ---
 
@@ -69,7 +69,7 @@ L’unione da persona a account B2B impedisce che gli eventi vengano ignorati e 
 
 +++ Dettagli
 
-Per supportare l&#39;unione tra persona B2B e account, quando [configuri le impostazioni di unione B2B](#configure-b2b-person-to-account-stitching-settings), fornisci uno spazio dei nomi dell&#39;identificatore della persona principale (ad esempio E-mail) e un set di dati di mappatura tra persona e account.
+Per supportare l&#39;unione tra persona B2B e account, quando [configuri le impostazioni di unione B2B](#configure-b2b-stitching-settings), fornisci uno spazio dei nomi dell&#39;identificatore della persona principale (ad esempio E-mail) e un set di dati di mappatura tra persona e account.
 Lo spazio dei nomi ID persona dal set di dati persona all’account può essere lo stesso di quello principale (E-mail), oppure può differire. Nell’esempio seguente, viene impostato come ID del sistema di gestione delle relazioni con i clienti (che dovrà essere collegato a E-mail nel grafico delle identità).
 
 | ID CRM | ID account |
@@ -93,7 +93,7 @@ Nel nostro esempio, utilizzando i collegamenti del grafico delle identità tra l
 | b978bbw9 | cassidy@ubiquity.com | Ubiquità |
 | fs453ghi | carmen@adobe.com | Adobe |
 
-L’unione basata su grafico viene utilizzata anche per elevare gli ID persona nel set di dati dell’evento esperienza. Ad esempio, puoi configurare il campo ID persistente (ECID) da utilizzare come ID persona persistente quando [attivi l&#39;unione nel set di dati](#enable-b2b-person-to-account-stitching-on-event-datasets). In base al set di dati di mappatura da persona a account `emily@adobe.com` con privilegi elevati viene impostato come ID persona con privilegi elevati nell&#39;evento correlato.
+L’unione basata su grafico viene utilizzata anche per elevare gli ID persona nel set di dati dell’evento esperienza. Ad esempio, puoi configurare il campo ID persistente (ECID) da utilizzare come ID persona persistente quando [attivi l&#39;unione nel set di dati](#enable-b2b-person-to-account-stitching-on-event-datasets). Supponendo che `5678` (ID persistente) sia collegato a `emily@adobe.com` (ID persona) nel grafo delle identità, `emily@adobe.com` è impostato come ID persona elevato nell&#39;evento correlato.
 
 | Marca temporale | ID persistente | ID account originale | ID persona originale | ID persona elevata |
 |--|--|---|---|---|
@@ -112,7 +112,7 @@ L’unione basata su grafico viene utilizzata anche per elevare gli ID persona n
 
 +++ Dettagli
 
-Il set di dati da persona a account viene ancora una volta utilizzato per elevare gli ID account nel set di dati dell’evento esperienza. Ad esempio, vedi il valore aggiunto **Sky** per emily@sky.com e **Adobe** per carmen@adobe.com e emily@adobe.com. E il valore aggiornato **Sky** (da Ubiquity) per cory@sky.com.
+Il set di dati da persona a account viene utilizzato per elevare gli ID account nel set di dati dell’evento esperienza. Ad esempio, vedere il valore aggiunto **Adobe** per carmen@adobe.com e emily@adobe.com. E il valore aggiornato **Sky** (da Ubiquity) per cory@sky.com.
 
 | Marca temporale | ID persistente | ID account originale | ID persona originale | ID account con privilegi elevati | ID persona elevata |
 |---|---|---|---|---|---|
@@ -128,7 +128,7 @@ Il set di dati da persona a account viene ancora una volta utilizzato per elevar
 
 ### Risultato
 
-Questo esempio mostra come l’unione di persona B2B con account aggiorna i dati dell’evento esperienza con identificatori di persona mancanti o identificatori di account mancanti o errati, in base al set di dati di mappatura persona-account fornito come input.
+Questo esempio mostra come l’unione di persone B2B e account aggiorna i dati dell’evento esperienza con identificatori di persone mancanti e identificatori di account mancanti o errati, in base ai dati del grafico delle identità e al set di dati di mappatura da persona a account fornito come input.
 
 
 ## Prerequisiti
@@ -246,8 +246,8 @@ Dopo aver configurato l’unione B2B a livello di connessione, devi abilitare la
 
 Quando **[!UICONTROL Abilita unione persona per account]** è **su**, hai configurato una persona B2B per l&#39;unione account per il set di dati.
 
-* È necessario configurare un ID persona. L&#39;ID persona viene utilizzato per cercare l&#39;ID account in base al set di dati [da persona a account](#prerequisites).
-* La configurazione di un ID account è facoltativa.
+* È necessaria la configurazione di un ID persona persistente. L&#39;ID persona persistente viene elevato all&#39;ID persona dallo spazio dei nomi dell&#39;identificatore persona configurato in precedenza e quindi utilizzato per cercare l&#39;ID account in base al set di dati [persona per account](#prerequisites).
+* La configurazione di un ID account è facoltativa. Questa configurazione viene utilizzata come metodo di fallback, ogni volta che le informazioni sull’ID account correlate non sono disponibili nel set di dati da persona a account.
 
 ![Unione di persona B2B con account nel set di dati evento il](../assets/b2b-event-dataset-stitching-on.png)
 
