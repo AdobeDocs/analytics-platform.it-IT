@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4ab8bb6c0f68ae49128a2fe2a1eb9e87ccfa52a1
+source-git-commit: ac22a504d6182897438b3724d57c837ab2995f1b
 workflow-type: tm+mt
-source-wordcount: 2268
+source-wordcount: 2270
 ht-degree: 15%
 
 ---
@@ -213,8 +213,8 @@ Innanzitutto, abilita e configura l’unione B2B a livello di connessione. Quand
       | Campo | Obbligatorio | Descrizione |
       |---|:---:|---|
       | **[!UICONTROL Set di dati da persona a account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona la ricerca (record o set di dati di serie non temporali) che mappa le persone sugli account. |
-      | **[!UICONTROL ID persona]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene gli ID persona. Lo spazio dei nomi di questo campo può essere diverso o uguale allo spazio dei nomi dell’identificatore della persona selezionato. Se differiscono, i due spazi dei nomi devono essere collegati nel grafo di identità.  Il campo deve essere contrassegnato come identità e non può essere uguale al campo **[!UICONTROL ID account]** o **[!UICONTROL Ora inizio]**. |
-      | **[!UICONTROL ID account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene i valori dell’identificatore univoco dell’account. Le informazioni sull’ID account saranno rese disponibili nelle righe di eventuali set di dati evento con abilitata l’unione delle identità Da persona ad account. Il campo non può essere uguale al campo **[!UICONTROL ID persona]** o **[!UICONTROL Ora inizio]**. |
+      | **[!UICONTROL ID persona]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene gli ID persona. Lo spazio dei nomi di questo campo può essere diverso o uguale allo spazio dei nomi dell’identificatore della persona selezionato. Se differiscono, i due spazi dei nomi devono essere collegati nel grafo di identità.  Il campo deve essere contrassegnato come identità e non può essere uguale al campo **[!UICONTROL ID account]** o **[!UICONTROL Data di creazione mapping]**. |
+      | **[!UICONTROL ID account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene i valori dell’identificatore univoco dell’account. Le informazioni sull’ID account saranno rese disponibili nelle righe di eventuali set di dati evento con abilitata l’unione delle identità Da persona ad account. Il campo non può essere uguale al campo **[!UICONTROL ID persona]** o **[!UICONTROL Data di creazione mappatura]**. |
       | **Ora di creazione mappatura** | | È possibile selezionare il campo che rappresenta la data e l&#39;ora di creazione del mapping persona-conto. Utile per scenari in cui una persona cambia più account nel tempo.<br/><br/>**Esempio** (quando è selezionato il campo **update_date**):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** prima del 1° maggio 2026: a@b.com è mappato ad Apple.</li><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** il o dopo il 1° maggio 2026: a@b.com è mappato ad Adobe.</li></ul>Se non viene specificato alcun tempo di mappatura, viene utilizzato il primo account lessicografico. Lo stesso algoritmo viene utilizzato anche quando due nomi di account diversi hanno lo stesso valore **[!UICONTROL update_date]** e viene specificato un orario di creazione della mappatura. |
 
       >[!NOTE]
