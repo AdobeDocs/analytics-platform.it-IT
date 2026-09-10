@@ -18,18 +18,18 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 34593a4407e6334e9abab6034accd84fc5a70d33
 workflow-type: tm+mt
-source-wordcount: 410
-ht-degree: 44%
+source-wordcount: 452
+ht-degree: 40%
 
 ---
 
 # Generazione rapporti di Target
 
-La funzione di reporting di Target in Customer Journey Analytics consente di misurare e creare rapporti sulle attività di Adobe Target direttamente in Customer Journey Analytics. Questa funzionalità è paragonabile a quella eseguita in Adobe Analytics (AA) tramite Analytics for Target (A4T), ma con la connettività a Adobe Experience Platform (AEP).
+La funzione di reporting di Target in Customer Journey Analytics consente di misurare e creare rapporti sulle attività di Adobe Target direttamente in Customer Journey Analytics. Questa funzionalità è paragonabile a quella eseguita in Adobe Analytics (AA) tramite Analytics for Target (A4T), ma con la connettività a Adobe Experience Platform (AEP). Dopo aver creato un’attività Target che utilizza Customer Journey Analytics come origine per la generazione di rapporti, nella sandbox corrispondente viene creato un set di dati di ricerca denominato Eventi di classificazione di Adobe Target. Questo set di dati di ricerca arricchisce i rapporti classificando gli ID attività di Target con i loro attributi facili da usare (come Nome attività e Nome esperienza).
 
-Aggiungendo il set di dati di ricerca di Classificazione di Target (disponibile per impostazione predefinita in Experience Platform) in una connessione Customer Journey Analytics, gli utenti ora dispongono della corretta esposizione agli strumenti di reporting di Target, all’attribuzione dell’ordine di Target e ad altre funzioni. Con solo alcune lievi preparazioni e modifiche effettuate all’interno della visualizzazione dati di Customer Journey Analytics, queste attività possono essere rese immediatamente disponibili per qualsiasi utente che desideri inviare i dati di Target direttamente in CJA.
+Aggiungendo questo set di dati di ricerca a una connessione Customer Journey Analytics, gli utenti ora hanno un’esposizione corretta agli strumenti di reporting di Target, all’attribuzione degli ordini di Target e ad altre funzioni. Con solo alcune lievi preparazioni e modifiche effettuate all’interno della visualizzazione dati di Customer Journey Analytics, queste attività possono essere rese immediatamente disponibili per qualsiasi utente che desideri inviare i dati di Target direttamente in Customer Journey Analytics.
 
 ## Vantaggi principali
 
@@ -41,7 +41,7 @@ Aggiungendo il set di dati di ricerca di Classificazione di Target (disponibile 
 
 L&#39;attività di Target deve [utilizzare Customer Journey Analytics come origine per la generazione di rapporti](https://experienceleague.adobe.com/it/docs/target/using/integrate/cja/target-reporting-in-cja).
 
-Una volta aggiunto il set di dati dell’evento di classificazione di Target a una connessione, è necessario apportare alcune modifiche minori alla visualizzazione dati dopo l’aggiunta di questi componenti come dimensioni, tra cui:
+Dopo che il set di dati di ricerca degli eventi di classificazione di Adobe Target è stato aggiunto a una connessione, è necessario apportare alcune piccole modifiche all’interno della visualizzazione dati dopo l’aggiunta di questi componenti come dimensioni, tra cui:
 
 * Impostare la persistenza in modo che sia simile a come viene tracciata in Target (rivolgiti a un consulente di Target o al cliente per verificare le impostazioni corrette).
 
