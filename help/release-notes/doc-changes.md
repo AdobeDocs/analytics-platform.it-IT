@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e2ec268ef4a2d84d51089e7b59b3df5b0ad6f48d
+source-git-commit: 18b3b42cafd437749041bc1d408e60e77b42e1fc
 workflow-type: tm+mt
-source-wordcount: 7019
+source-wordcount: 7045
 ht-degree: 98%
 
 ---
@@ -49,6 +49,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 |---|---|
+| **Settembre 2026** | |
+| Nuove azioni di collegamento di ridimensionamento | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [ridimensionare un pannello o una visualizzazione](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization) in modo più ampio, ridotto, più alto o più breve. |
 | **Agosto 2026** | |
 | Informazioni più chiare sull’aggiornamento dei tipi di pubblico | Quando [pubblichi tipi di pubblico](/help/components/audiences/publish.md#audience-builder), chiarisci che il numero di tipi di pubblico che possono essere pianificati per l&#39;aggiornamento dipende dall&#39;adesione a Customer Journey Analytics ed è compreso tra 75 e 150. |
 | **Luglio 2026** | |
