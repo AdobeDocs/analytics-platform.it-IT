@@ -39,7 +39,7 @@ A un livello elevato di Informazioni sulla conversazione, una [conversazione](#c
 Informazioni sulla conversazione analizza le interazioni dell&#39;agente a due livelli:
 
 * [Livello di conversazione](#conversation): l&#39;interazione completa tra un utente e un agente, che contiene più giri.
-* [Livello ](#turn): un ciclo di interazione all&#39;interno della conversazione, costituito da un prompt utente e una risposta dell&#39;agente.
+* [Livello &#x200B;](#turn): un ciclo di interazione all&#39;interno della conversazione, costituito da un prompt utente e una risposta dell&#39;agente.
 
 L’applicazione o il servizio agente genera in Experience Platform eventi di esperienza relativi alla conversazione. I dati dell’evento di richiesta, risposta e feedback possono arrivare in modo indipendente. I servizi di Platform correlano e combinano tali eventi in un record a livello di svolta, arricchiscono facoltativamente i dati con i segnali estratti e rendono disponibili i dati risultanti per il reporting di Customer Journey Analytics.
 
