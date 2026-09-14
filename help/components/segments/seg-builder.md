@@ -7,23 +7,29 @@ exl-id: 160021f1-6942-4682-9114-d375307d9912
 TQID: https://experienceleague.adobe.com/MFqcgWkCqZbtbI58nF8boBZU3YzfcuAAsJxXbjBcT5E
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: e65b2ec10593c19ab056ecf72716a9267cfc0528
 workflow-type: tm+mt
-source-wordcount: 1932
-ht-degree: 39%
-
+source-wordcount: '1932'
+ht-degree: 40%
 ---
-
 # Generare i segmenti {#build-segments}
 
 >[!CONTEXTUALHELP]
@@ -34,7 +40,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Anteprima dati"
->abstract="Confronta i dati dei segmenti con i dati della visualizzazione dati. La percentuale di anteprima riflette il numero totale nella visualizzazione dati dagli **ultimi 90 giorni**.<br><br/>Se l&#39;anteprima non viene caricata, la connessione è in esecuzione."
+>abstract="Confronta i dati dei segmenti con i dati della visualizzazione dati. La percentuale di anteprima riflette il numero totale della visualizzazione dati a partire dagli **ultimi 90 giorni**.<br><br/>Se l’anteprima non viene caricata, la connessione è in fase di retrocompilazione."
 
 La finestra di dialogo **[!UICONTROL Generatore di segmenti]** viene utilizzata per creare nuovi segmenti o modificare quelli esistenti. La finestra di dialogo si chiama **[!UICONTROL Nuovo segmento]** o **[!UICONTROL Modifica segmento]** per i segmenti creati o gestiti dal gestore [[!UICONTROL Segmento]](/help/components/segments/seg-manage.md).
 
@@ -93,7 +99,7 @@ Per aggiungere un componente:
 
 1. Trascina e rilascia un componente dal pannello dei componenti su **[!UICONTROL Trascina e rilascia qui]** metriche, segmenti e/o dimensioni.
    * Puoi usare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare componenti specifici.
-   * Puoi usare ![Filtro](/help/assets/icons/Filter.svg) nella barra dei componenti per filtrare in base a ![Segno di spunta](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approvato]**, ![Stella](/help/assets/icons/Star.svg) **[!UICONTROL Preferiti]**, ![Dimensione dati](/help/assets/icons2/DataDimension.svg) **[!UICONTROL Dimensioni]**, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Metriche]**, ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmenti]**, ![Calendario](/help/assets/icons/Calendar.svg) **[!UICONTROL Intervalli date]** e ![Layer](/help/assets/icons/Layer.svg) **[!UICONTROL *container *]**&#x200B;componenti (come Prodotti, Contenuto Assets). È inoltre possibile filtrare i tag ![Label](/help/assets/icons/Label.svg).
+   * Puoi usare ![Filtro](/help/assets/icons/Filter.svg) nella barra dei componenti per filtrare in base a ![Segno di spunta](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approvato]**, ![Stella](/help/assets/icons/Star.svg) **[!UICONTROL Preferiti]**, ![Dimensione dati](/help/assets/icons2/DataDimension.svg) **[!UICONTROL Dimensioni]**, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Metriche]**, ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmenti]**, ![Calendario](/help/assets/icons/Calendar.svg) **[!UICONTROL Intervalli date]** e ![Layer](/help/assets/icons/Layer.svg) **[!UICONTROL *container *]**componenti (come Prodotti, Contenuto Assets). È inoltre possibile filtrare i tag ![Label](/help/assets/icons/Label.svg).
 
 1. Specifica i dettagli del componente. Ad esempio, selezionare un valore da **[!UICONTROL Seleziona valore]**. Oppure inserisci un valore. Cosa e come specificare uno o più valori dipende dal componente e dall’operatore.
 
@@ -157,7 +163,7 @@ Puoi creare segmenti che contengono intervalli di date continui. In questo modo,
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalli di date continui nei segmenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalli di date continui nei segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

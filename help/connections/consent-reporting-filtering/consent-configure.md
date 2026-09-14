@@ -7,32 +7,38 @@ role: Admin
 hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+    internal-label: Privacy
   - id: d3fb138f-79e4-4a81-aedb-76dd93560085
+    internal-label: Experience Platform integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 10%
-
+source-wordcount: '1326'
+ht-degree: 27%
 ---
-
-# Configurare i rapporti e i filtri di consenso {#configure-consent-reporting}
+# Configurare il filtro e il reporting sul consenso {#configure-consent-reporting}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-consent-merge-policy"
 >title="Criteri di unione"
->abstract="I criteri di unione combinano dati di profilo da più set di dati in profili cliente unificati utilizzati per la creazione del pubblico. Selezionare il criterio di unione corrispondente al set di dati profilo contenente i dati di appartenenza ai criteri di consenso (campo `consentPoliciesIDMap`) che si desidera includere nel rapporto. In alternativa, consulta il team di dati per scoprire quali tipi di pubblico sono associati a ciascun criterio di unione."
+>abstract="I criteri di unione combinano dati di profilo da più set di dati in profili cliente unificati utilizzati per la creazione del pubblico. Seleziona il criterio di unione che corrisponde al set di dati del profilo che contiene i dati di iscrizione ai criteri di consenso (il campo `consentPoliciesIDMap`) da utilizzare per generare un rapporto. In alternativa, consulta il team di dati per scoprire quali tipi di pubblico sono associati a ciascun criterio di unione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -41,7 +47,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="cja-consent-sandbox"
 >title="Sandbox"
->abstract="Seleziona la sandbox che contiene i set di dati di profilo di Experience Platform corretti. Questi set di dati devono contenere i dati sul consenso che desideri segnalare in Analysis Workspace."
+>abstract="Seleziona la sandbox che contiene i set di dati di profilo di Experience Platform corretti. Tali set di dati devono contenere i dati di consenso su cui desideri generare un rapporto in Analysis Workspace."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,7 +56,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="cja-consent-person-id"
 >title="ID persona"
->abstract="Seleziona un campo dallo schema basato su modello che rappresenta l’ID persona. La selezione è limitata all’elenco dei campi nello schema contrassegnati come &quot;Identity&quot; e che hanno uno spazio dei nomi dell’identità."
+>abstract="Seleziona un campo dallo schema basato sul modello che rappresenta l’ID persona. La selezione è limitata all’elenco dei campi presenti nello schema contrassegnati come “Identità” e che hanno uno spazio dei nomi identità."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -59,7 +65,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="cja-consent-identity-namespace"
 >title="Utilizza lo spazio dei nomi identità primaria"
->abstract="Abilita questa opzione se desideri che Customer Journey Analytics trovi l’identità in Identity Map contrassegnata con un attributo primary=true e che utilizzi tale identità come ID persona per quella riga. L’identità è la chiave primaria utilizzata in Experience Platform per il partizionamento. <br/>Se lasci questa opzione disabilitata, seleziona uno spazio dei nomi dal campo Spazio dei nomi identità sottostante. Customer Journey Analytics cerca la mappa delle identità di ogni riga per questa chiave di spazio dei nomi e utilizza l’identità in tale spazio dei nomi come ID persona per tale riga."
+>abstract="Abilita questa opzione se desideri che Customer Journey Analytics individui l’identità nella mappa delle identità contrassegnata con l’attributo primary=true, quindi utilizzala come ID persona per quella riga. L’identità è la chiave primaria utilizzata in Experience Platform per il partizionamento. <br/>Se lasci questa opzione disabilitata, seleziona uno spazio dei nomi dal campo Spazio dei nomi identità sottostante. Customer Journey Analytics cerca la mappa delle identità di ogni riga per questa chiave di spazio dei nomi e utilizza l’identità in tale spazio dei nomi come ID persona per tale riga."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -68,7 +74,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="cja-consent-enable-reporting"
 >title="Abilita reporting"
->abstract="Abilita questa opzione per utilizzare Analysis Workspace per generare rapporti sui dati del consenso disponibili nella connessione. Le dimensioni e le metriche dei criteri di consenso vengono aggiunte alle visualizzazioni dati selezionate."
+>abstract="Abilita questa opzione per utilizzare Analysis Workspace per generare un rapporto sui dati di consenso disponibili nella connessione. Le metriche e le dimensioni dei criteri di consenso vengono aggiunte alle visualizzazioni dati selezionate."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -77,7 +83,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="cja-consent-enable-filtering"
 >title="Abilita filtro"
->abstract="Abilita questa opzione per escludere i dati dei visitatori non consenzienti dall’acquisizione in Customer Journey Analytics. Quando è abilitata, i dati di un visitatore vengono acquisiti solo se il visitatore corrisponde a tutti i criteri di consenso abilitati di seguito. <br>Questa opzione è destinata alle organizzazioni che devono escludere i dati dei visitatori non autorizzati al momento dell&#39;acquisizione."
+>abstract="Abilita questa opzione per escludere i dati dei visitatori senza consenso dall’acquisizione in Customer Journey Analytics. Quando è abilitata, i dati di un visitatore vengono acquisiti solo se il visitatore corrisponde a tutti i criteri di consenso abilitati di seguito. <br>Questa opzione è destinata alle organizzazioni con requisiti di esclusione dei dati dei visitatori senza consenso al momento dell’acquisizione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -112,7 +118,7 @@ Per creare una configurazione di reporting e filtro del consenso:
 
    La generazione di rapporti e i filtri di consenso vengono applicati a livello di connessione. Tutte le visualizzazioni dati in una connessione configurata ereditano lo stesso comportamento.
 
-1. Nel campo **[!UICONTROL ID persona]**, selezionare un campo dallo schema basato sul modello che rappresenta l&#39;ID persona. La selezione è limitata all’elenco dei campi nello schema contrassegnati come &quot;Identity&quot; e che hanno uno spazio dei nomi dell’identità.
+1. Nel campo **[!UICONTROL ID persona]**, selezionare un campo dallo schema basato sul modello che rappresenta l&#39;ID persona. La selezione è limitata all’elenco dei campi presenti nello schema contrassegnati come “Identità” e che hanno uno spazio dei nomi identità.
 
 1. Scegli se abilitare la generazione di rapporti per i dati del consenso.
 
