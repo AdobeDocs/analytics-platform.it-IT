@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 hold: true
-source-git-commit: 8e446c15e998e660b42a09681fe78b885711e41f
+source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 6%
@@ -18,8 +18,9 @@ Questo articolo documenta i passaggi di implementazione richiesti.
 
 >[!PREREQUISITES]
 >
->Per raccogliere i dati è necessario disporre di un ambiente Experience Platform (organizzazione e sandbox).
->L’organizzazione Adobe deve essere abilitata per i gruppi di campi agente sperimentale e di conversazione.
+>* Per raccogliere i dati è necessario disporre di un ambiente Experience Platform (organizzazione e sandbox).
+>* L’organizzazione Adobe deve essere abilitata per i gruppi di campi agente sperimentale e di conversazione.
+>
 
 ## Schema e set di dati
 
@@ -304,6 +305,10 @@ Un segnale ha i seguenti campi.
 | `metadata[]` | Metadati chiave/valore facoltativi definiti dal produttore. |
 
 
+Il servizio di estrazione del segnale popola l&#39;oggetto `signals` per il set di dati dei segnali.
+
+Il contenitore `signals[].attributes.{subjects,intents,tones,sentiment}` precedente è obsoleto.
+
 #### Conversazione
 
 Per informazioni complete su un oggetto di conversazione, vedere di seguito.
@@ -356,9 +361,6 @@ Per informazioni complete su un oggetto di conversazione, vedere di seguito.
 +++
 
 
-Il servizio di estrazione del segnale popola l&#39;oggetto `signals` per il set di dati dei segnali.
-
-Il contenitore `signals[].attributes.{subjects,intents,tones,sentiment}` precedente è obsoleto.
 
 
 ### Gruppi di campi aggiuntivi

@@ -1,22 +1,21 @@
 ---
-title: Configura configurazione di Informazioni sulla conversazione
+title: Creare O Modificare Una Configurazione Di Informazioni Sulla Conversazione
 description: Scopri come configurare le configurazioni di Informazioni sulla conversazione.
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 hold: true
-source-git-commit: 8e446c15e998e660b42a09681fe78b885711e41f
+source-git-commit: b29ee2f04a1775dca6a8fd93c3ac3050b67f0ceb
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '638'
 ht-degree: 8%
 ---
-# Configurare le configurazioni di Informazioni sulla conversazione
+# Creare o modificare configurazioni
 
 
 Conversation Insights consente di analizzare le conversazioni (da modelli di linguaggio di grandi dimensioni (LLM, Large Language Model) o umani) su larga scala e di contestualizzarle all’interno dell’intero percorso di clienti. Tramite Informazioni sulla conversazione sei in grado di comprendere l’impatto dei rappresentanti sui risultati effettivi degli utenti.
 
-
-## Creare o modificare la configurazione
+Tramite l’interfaccia di configurazione di Informazioni sulla conversazione puoi creare o modificare rapidamente una configurazione e gli artefatti associati (connessione, visualizzazioni dati e altro).
 
 Quando crei o modifichi una configurazione di Informazioni sulla conversazione, specifichi la sandbox e i set di dati dell’evento che contengono prompt, risposte e dati di feedback. Seleziona anche la connessione Customer Journey Analytics alla quale desideri aggiungere questi set di dati. E la visualizzazione dati a cui desideri aggiungere le metriche e le dimensioni di Informazioni sulla conversazione.
 
@@ -24,12 +23,12 @@ Solo gli amministratori di sistema possono creare o modificare le configurazioni
 
 Puoi creare o modificare le configurazioni dall&#39;interfaccia [Configurazioni approfondimenti conversazione](./conversation-insights-manage.md).
 
-### Ripristina set di dati combinato mancante
+## Ripristina set di dati combinato mancante
 
 Se si modifica una configurazione e il set di dati di blend generato per la configurazione non esiste più, selezionare **[!UICONTROL Ripristina]** per rigenerare il set di dati di blend.
 
 
-### Passaggi di configurazione
+## Passaggi di configurazione
 
 Per ogni configurazione:
 
