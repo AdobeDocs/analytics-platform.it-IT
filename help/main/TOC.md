@@ -2,13 +2,11 @@
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 2983f972813a84a141109c5d14c81394802f226c
+source-git-commit: 8e446c15e998e660b42a09681fe78b885711e41f
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1493'
 ht-degree: 90%
-
 ---
-
 # Guida di Adobe Customer Journey Analytics {#using}
 
 + [Guida di Adobe Customer Journey Analytics](../getting-started/cja-landing.md)
@@ -342,8 +340,12 @@ ht-degree: 90%
   + [Domande frequenti](../guided-analysis/faq.md)
 
 + Approfondimenti conversazione {#conversation-insights}
-  + {hide-from-toc}[Panoramica](/help/conversatiion-insights/conversation-insights.md)
-  + {hide-from-toc}[Configurazione](/help/conversatiion-insights/config/guided.md)
+  + {hide-from-toc}[Panoramica](/help/conversation-insights/conversation-insights-overview.md)
+  + {hide-from-toc}[Configura](/help/conversation-insights/conversation-insights-configure.md)
+  + {hide-from-toc}[Gestisci](/help/conversation-insights/conversation-insights-manage.md)
+  + {hide-from-toc}[Implementa](/help/conversation-insights/conversation-insights-implement.md)
+  + {hide-from-toc}[Analizza](/help/conversation-insights/conversation-insights-analyze.md)
+
 
 + Componenti {#cja-components}
   + [Panoramica](../components/overview.md)
