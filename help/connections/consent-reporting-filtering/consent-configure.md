@@ -4,7 +4,6 @@ description: Scopri come creare una configurazione per abilitare i rapporti sul 
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
-hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -26,9 +25,9 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
+source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1325'
 ht-degree: 27%
 ---
 # Configurare il filtro e il reporting sul consenso {#configure-consent-reporting}
@@ -87,6 +86,8 @@ ht-degree: 27%
 
 <!-- markdownlint-enable MD034 -->
 
+{{release-limited-testing}}
+
 Gli amministratori di sistema possono abilitare la segnalazione del consenso e, facoltativamente, il filtro del consenso per una o più connessioni. Per informazioni generali, consulta [Panoramica sui rapporti di consenso e filtri](/help/connections/consent-reporting-filtering/consent-overview.md).
 
 >[!IMPORTANT]
@@ -99,7 +100,7 @@ Quando crei una configurazione per la generazione di rapporti e il filtro del co
 
 Per creare una configurazione di reporting e filtro del consenso:
 
-1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Generazione rapporti di consenso e filtro]**.
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Segnalazione consenso e filtro]**.
 
 1. Selezionare **[!UICONTROL Crea configurazione]**.
 
