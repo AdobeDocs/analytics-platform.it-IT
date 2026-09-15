@@ -7,28 +7,38 @@ exl-id: 53984934-6fba-4f15-aeeb-d91039260553
 TQID: https://experienceleague.adobe.com/pC3wjv6Q7RHRfDfHq75CP2Lqd-HzN-s7iLZ9t4N4ZR0
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: aff2ef09-fc60-4018-9197-e2befd623064
+    internal-label: Anomaly detection, Anomaly detection (CJA)
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 397c62d5090deede87a7ce31129b6afe6c9351ee
 workflow-type: tm+mt
-source-wordcount: 7316
-ht-degree: 79%
-
+source-wordcount: '7316'
+ht-degree: 83%
 ---
-
 # Configurare una visualizzazione dell’area di lavoro del percorso
 
 La visualizzazione dell’area di lavoro del percorso consente di analizzare e ottenere informazioni approfondite sui percorsi forniti agli utenti e alla clientela.
@@ -101,8 +111,8 @@ Per ulteriori informazioni sull’area di lavoro del percorso, consulta [Panoram
 
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_arrow_settings"
->title="Impostazioni freccia"
->abstract="Scegliere se mostrare o nascondere le etichette nell&#39;area di lavoro. Le etichette sono nomi personalizzati creati nell’area di lavoro del Percorso."
+>title="Impostazioni delle frecce"
+>abstract="Scegli se mostrare o nascondere le etichette nell’area di lavoro. Le etichette sono nomi personalizzati creati nell’area di lavoro del percorso."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -110,8 +120,8 @@ Per ulteriori informazioni sull’area di lavoro del percorso, consulta [Panoram
 
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_arrow_settings_ajo"
->title="Impostazioni freccia"
->abstract="Scegli se mostrare o nascondere etichette e valori nell’area di lavoro. Le etichette possono essere nomi personalizzati creati nell’area di lavoro del Percorso oppure etichette o condizioni create in Journey Optimizer. I valori sono numeri e percentuali che indicano le persone o le sessioni che sono state spostate da un nodo al successivo nel percorso. "
+>title="Impostazioni delle frecce"
+>abstract="Scegli se mostrare o nascondere le etichette e i valori nell’area di lavoro. Le etichette possono essere nomi personalizzati creati nell’area di lavoro del percorso oppure etichette o condizioni create in Journey Optimizer. I valori sono i numeri e le percentuali che indicano le persone o le sessioni che si sono spostate da un nodo a quello successivo nel percorso. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -120,7 +130,7 @@ Per ulteriori informazioni sull’area di lavoro del percorso, consulta [Panoram
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_show_fallout"
 >title="Mostra i fallout"
->abstract="I dati di fallout mostrano la percentuale e il numero di persone o sessioni in ciascun nodo del percorso che non sono mai arrivate al nodo successivo del percorso. Potrebbero aver eseguito altre azioni sul sito, ma non hanno mai soddisfatto i criteri definiti dal nodo successivo nel percorso.<br/>I dati di fallout mostrano persone o sessioni (indipendentemente dalla metrica principale scelta) e si basano sull&#39;impostazione del contenitore Area di lavoro del Percorso."
+>abstract="I dati di fallout mostrano la percentuale e il numero di persone o sessioni in ciascun nodo del percorso che non sono mai arrivate al nodo successivo del percorso. Questi potrebbero aver eseguito altre azioni sul sito, ma non hanno mai soddisfatto i criteri definiti dal nodo successivo nel percorso.<br/>I dati di fallout mostrano persone o sessioni (indipendentemente dalla metrica principale scelta) e si basano sull’impostazione del contenitore Area di lavoro del percorso."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -129,7 +139,7 @@ Per ulteriori informazioni sull’area di lavoro del percorso, consulta [Panoram
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_compare"
 >title="Confronta con"
->abstract="L’intervallo di date utilizzato per confrontare i dati correnti del percorso con un periodo precedente. Quando selezioni un intervallo di date di confronto, ogni nodo del percorso mostra la variazione percentuale tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica principale. "
+>abstract="L’intervallo di date utilizzato per confrontare i dati del percorso correnti con un periodo precedente. Quando selezioni un intervallo di date di confronto, ogni nodo del percorso mostra la variazione percentuale tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica primaria. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -149,7 +159,7 @@ Configurare le impostazioni per la visualizzazione dell’area di lavoro del per
    |---------|----------|
    | [!UICONTROL **Valore percentuale**] | Il valore percentuale mostrato su ciascun nodo del percorso.<p>![valore percentuale](assets/journey-canvas-percentage.png)</p> <p>Quando configuri i valori percentuali mostrati sui nodi del percorso, considera quanto segue:</p><ul><li>Su ciascun nodo viene mostrata una percentuale per la metrica primaria. Viene mostrata anche una percentuale per la metrica secondaria, se ne è stata configurata una. Per ulteriori informazioni sulle impostazioni delle metriche primaria e secondaria, consulta [Inizia a creare una visualizzazione area di lavoro del percorso](#begin-building-a-journey-canvas-visualization).</li><li>Le percentuali includono tutte le persone o le sessioni incluse nella visualizzazione dati all’interno dell’intervallo di date del pannello. L’utilizzo di _persone_ o _sessioni_ dipende dall’impostazione del contenitore. Per ulteriori informazioni sull’impostazione del contenitore, consulta [Inizia a creare una visualizzazione area di lavoro del percorso](#begin-building-a-journey-canvas-visualization).</li></ul> <p>Scegli tra le seguenti opzioni:</p> <ul><li>[!UICONTROL **Percentuale del nodo iniziale**]: calcola le percentuali mostrate in ciascun nodo in relazione al nodo iniziale. Le percentuali si basano sulla metrica primaria e secondaria selezionata. <p>Un nodo _iniziale_ è un nodo che non dispone di nodi connessi che lo precedono.</p><p>Un percorso può contenere più nodi iniziali. Tuttavia, viene utilizzata la [!UICONTROL **Percentuale del totale**] se il percorso contiene 2 o più nodi iniziali che conducono a un nodo comune. Per utilizzare la [!UICONTROL **Percentuale del nodo iniziale**], aggiorna il percorso in modo che ciascun nodo del percorso possa essere ricondotto a un singolo nodo iniziale.</p></li><li>[!UICONTROL **Percentuale del nodo precedente**]: calcola le percentuali mostrate in ciascun nodo in relazione al nodo precedente. Le percentuali si basano sulla metrica primaria e secondaria selezionata.</li><li>[!UICONTROL **Percentuale del totale**]: calcola le percentuali mostrate in ciascun nodo in relazione a tutti i dati nella visualizzazione dati. Le percentuali si basano sulla metrica primaria e secondaria selezionata.</li></ul> |
    | [!UICONTROL **Impostazioni freccia**] | Le frecce visualizzate tra i nodi nell’area di lavoro del percorso possono essere configurate per mostrare etichette e valori personalizzati. <p>![impostazioni freccia](assets/journey-canvas-arrow-settings.png)</p><p>_Le etichette_ sono nomi personalizzati visualizzati sulle frecce. Su una determinata freccia viene mostrata una sola etichetta. Le etichette possono essere una qualsiasi delle seguenti e sono mostrate in questo ordine di preferenza:</p><ol><li>Nome personalizzato aggiunto dall’area di lavoro del percorso, come descritto in [Aggiungere o aggiornare un’etichetta su una freccia](#add-or-update-a-label-on-an-arrow)</li><li>Etichetta Journey Optimizer</li><li>Una condizione Journey Optimizer</li></ol><p>_I valori_ sono i numeri e le percentuali visualizzati sulle frecce e indicano le persone o le sessioni che si sono spostate da un nodo al nodo successivo nel percorso. In altre parole, coloro che non sono usciti dal percorso in un determinato momento. </p><p>Le seguenti opzioni sono disponibili per i percorsi che non provengono da Journey Optimizer e per i percorsi Journey Optimizer che non sono stati modificati in modo significativo nell’area di lavoro del percorso. Le modifiche significative includono l’aggiunta o la rimozione di nodi, l’aggiunta o la rimozione di frecce o la modifica dei componenti di un nodo.</p><ul><li>[!UICONTROL **Nessuna etichetta**]: nessuna etichetta visualizzata sulle frecce del percorso. </br> Questa opzione è disponibile solo se il percorso è stato modificato in </li><li>[!UICONTROL **Solo etichette**]: le etichette sono mostrate sulle frecce del percorso.</li></ul><p>Per i percorsi Journey Optimizer che sono stati modificati in modo significativo nell&#39;area di lavoro del Percorso sono disponibili le seguenti opzioni: (Le modifiche significative includono l&#39;aggiunta o la rimozione di nodi, l&#39;aggiunta o la rimozione di frecce o la modifica dei componenti di un nodo.)(**Nota**: queste opzioni vengono visualizzate solo quando vengono rilevati dati Journey Optimizer nella stessa visualizzazione dati selezionata nel pannello Analysis Workspace in cui si sta aggiungendo la visualizzazione. Per informazioni sulla modifica della visualizzazione dati in un pannello di Analysis Workspace, consulta [Panoramica di Analysis Workspace](/help/analysis-workspace/home.md).</p><ul><li>[!UICONTROL **Nessuna etichetta o valore**]: nessuna etichetta o valore mostrato sulle frecce del percorso.</li><li>[!UICONTROL **Solo etichette**]: sulle frecce del percorso vengono mostrate solo le etichette. I valori non vengono mostrati.</li><li>[!UICONTROL **Solo valori**]: sulle frecce del percorso vengono mostrati solo i valori. Le etichette non vengono mostrate.</li><li>[!UICONTROL **Valori ed etichette**]: le etichette e i valori sono mostrati sulle frecce nel percorso.</li></ul> |
-   | [!UICONTROL **Confronta con**] | L’intervallo di date utilizzato per confrontare i dati correnti del percorso con un periodo precedente. Puoi scegliere uno dei seguenti intervalli di date per il confronto:<ul><li>**[!UICONTROL 4 settimane prima]**</li><li>**[!UICONTROL 2 trimestri precedenti]**</li><li>**[!UICONTROL 1 anno prima]**</li><li>**[!UICONTROL Intervallo date personalizzato]**</li></ul><p>Quando selezioni un intervallo di date di confronto, ogni nodo del percorso mostra la variazione percentuale tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica principale. Questo consente di identificare se le prestazioni del percorso sono migliori o peggiori rispetto a un periodo di tempo precedente.</p> |
+   | [!UICONTROL **Confronta con**] | L’intervallo di date utilizzato per confrontare i dati del percorso correnti con un periodo precedente. Puoi scegliere uno dei seguenti intervalli di date per il confronto:<ul><li>**[!UICONTROL 4 settimane prima]**</li><li>**[!UICONTROL 2 trimestri precedenti]**</li><li>**[!UICONTROL 1 anno prima]**</li><li>**[!UICONTROL Intervallo date personalizzato]**</li></ul><p>Quando selezioni un intervallo di date di confronto, ogni nodo del percorso mostra la variazione percentuale tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica primaria. Questo consente di identificare se le prestazioni del percorso sono migliori o peggiori rispetto a un periodo di tempo precedente.</p> |
    | [!UICONTROL **Mostra i fallout**] | I dati di fallout mostrano una percentuale e un numero che non rientrano in ciascun nodo del percorso. I dati di fallout si basano sulla metrica associata alle impostazioni del contenitore del percorso; non si basano sulla metrica primaria o secondaria. <p>![fallout](assets/journey-canvas-fallout.png)</p><p>Per impostazione predefinita, il contenitore è _Persona_, quindi la metrica utilizzata per i dati di fallout è _Persone_. Se il contenitore viene modificato in _Sessione_, la metrica utilizzata per i dati di fallout sarà _Sessioni_ e così via.</p><p>Ad esempio, se l’impostazione del contenitore è _Persona_, il fallout mostra la percentuale e il numero di persone in ciascun nodo del percorso che non sono mai arrivate ai nodi immediatamente successivi. Tale persona potrebbe aver eseguito altre azioni sul sito, ma non ha soddisfatto i criteri definiti da nessuno dei nodi immediatamente successivi.</p> <p>Per ulteriori informazioni sull’impostazione del contenitore area di lavoro del percorso, consulta [Iniziare a creare una visualizzazione area di lavoro del percorso](#begin-building-a-journey-canvas-visualization). |
    | **Controlli** | Nell’angolo superiore destro dell’area di lavoro sono disponibili i seguenti controlli:<ul><li>**Adatta schermo** ![icona Adatta schermo](assets/fill-screen-icon.png): regola le impostazioni correnti di zoom e scorrimento per riempire lo schermo con la visualizzazione completa.</li><li>**Organizza** ![organizza icona](assets/organize.svg): riorganizza i nodi per ridurre al minimo le frecce incrociate e ottimizzare la spaziatura, in base alle connessioni dei nodi. </li><li>**Ingrandisci** ![icona Ingrandisci](assets/zoom-in-icon.png): ingrandisce aree specifiche della visualizzazione.<p>Puoi inoltre utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</li><li>**Riduci** ![icona Riduci](assets/zoom-out-icon.png): riduce la visualizzazione per avere più spazio nell’area di lavoro.<p>Puoi inoltre utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</p></li></ul><p>Per spostarti nell’area di lavoro dopo aver ingrandito o ridotto, fai clic con il mouse e trascina nella posizione che desideri.</p> |
 

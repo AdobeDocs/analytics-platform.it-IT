@@ -8,26 +8,34 @@ role: Admin
 TQID: https://experienceleague.adobe.com/90JULA8fFxPQSbVLHr3hJ8o5algJAfNz9SjjLFecyJc
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 9c0ddbb48c5cb1c62bded02d1455f2631ab1679f
 workflow-type: tm+mt
-source-wordcount: 10488
+source-wordcount: '10488'
 ht-degree: 91%
-
 ---
-
 # Creare o modificare una connessione {#create-or-edit-a-connection}
 
 >[!CONTEXTUALHELP]
@@ -414,12 +422,12 @@ Nella schermata **[!UICONTROL Connessioni]** > **[!UICONTROL *Nome della conness
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_personid"
 >title="ID persona persistente"
->abstract="Seleziona un campo di tipo identityMap o identityMap disponibile su tutti gli eventi, ad esempio il campo contenente gli ECID. Questi identificatori verranno elevati agli ID persona dallo spazio dei nomi dell’identificatore della persona configurato in precedenza."
+>abstract="Seleziona un campo di tipo identità o identityMap disponibile su tutti gli eventi, ad esempio il campo contenente gli ECID. Questi identificatori saranno elevati agli ID persona dello spazio dei nomi dell’identificatore della persona configurato in precedenza."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2bstitching_accountid"
 >title="ID account"
->abstract="Facoltativamente, seleziona un ID account dai campi di identità non di identità o non di persone disponibili definiti nello schema XDM. I valori contenuti verranno utilizzati come identificatore univoco dell’account a livello di riga, ogni volta che le informazioni sull’ID account correlate non sono disponibili nel set di dati da persona ad account."
+>abstract="Facoltativamente, seleziona un ID account dai campi di identità non di persona o non di identità disponibili definiti nello schema XDM. I valori contenuti verranno utilizzati come identificatore univoco dell’account a livello di riga, ogni volta che le informazioni sull’ID account correlate non sono disponibili nel set di dati da persona ad account."
 
 >[!CONTEXTUALHELP]
 >id="connection_accountfield"

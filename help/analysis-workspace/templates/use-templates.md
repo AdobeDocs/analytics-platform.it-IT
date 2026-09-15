@@ -8,32 +8,46 @@ autotag-review: '2026-05-19T09:53:18.849Z'
 TQID: 'https://experienceleague.adobe.com/wZ8vtE4BFc1ahBKdblSEAXBofZBPObbSJi4bA9MtxPY'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+    internal-label: Templates, Templates (CJA)
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: bac086b2636f835a5dc494b9cd05eb7b560f0bed
 workflow-type: tm+mt
-source-wordcount: 21458
-ht-degree: 96%
-
+source-wordcount: '21458'
+ht-degree: 97%
 ---
-
 # Utilizzare i modelli
 
 I modelli (o i modelli aziendali) in Analysis Workspace forniscono informazioni rapide sugli scenari di reporting più comuni. Di seguito sono riportati alcuni esempi di domande a cui puoi rispondere con i modelli:
@@ -638,7 +652,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="template--consentpolicyoverview"
 >title="Visualizza i visitatori in base ai dati di iscrizione al criterio di consenso forniti da Adobe Experience Platform."
->abstract="**Questo ti può aiutare** come punto di partenza per la generazione di rapporti sull&#39;iscrizione ai criteri di consenso dei visitatori. Quando una visualizzazione dati è configurata per la generazione di rapporti sul consenso, Customer Journey Analytics rende automaticamente disponibile in Analysis Workspace un modello di analisi dei criteri di consenso. <br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio escludere i visitatori non consenzienti dal reporting di Analytics."
+>abstract="**Questo può aiutarti** come punto di partenza per il reporting sull’iscrizione ai criteri di consenso dei visitatori. Quando viene configurata una visualizzazione dati per il reporting sul consenso, Customer Journey Analytics rende automaticamente disponibile in Analysis Workspace un modello di analisi dei criteri di consenso. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come escludere i visitatori senza consenso dal reporting di analisi."
 
 >[!CONTEXTUALHELP]
 >id="template--countrygeoreport"
@@ -690,7 +704,7 @@ Sono disponibili i modelli seguenti:
 
 &#x200B;| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| [!UICONTROL **Panoramica sui criteri di consenso**] | Visualizza i visitatori in base ai dati di iscrizione al criterio di consenso forniti da Adobe Experience Platform.<p>**Questo ti può aiutare** come punto di partenza per la generazione di rapporti sull&#39;iscrizione ai criteri di consenso dei visitatori. Quando una visualizzazione dati è configurata per la generazione di rapporti sul consenso, Customer Journey Analytics rende automaticamente disponibile in Analysis Workspace un modello di analisi dei criteri di consenso. <br/>**In base a ciò che apprendi, potresti** fare un certo numero di cose, ad esempio escludere i visitatori non consenzienti dal reporting di Analytics.</p> |
+| [!UICONTROL **Panoramica sui criteri di consenso**] | Visualizza i visitatori in base ai dati di iscrizione al criterio di consenso forniti da Adobe Experience Platform.<p>**Questo può aiutarti** come punto di partenza per il reporting sull’iscrizione ai criteri di consenso dei visitatori. Quando viene configurata una visualizzazione dati per il reporting sul consenso, Customer Journey Analytics rende automaticamente disponibile in Analysis Workspace un modello di analisi dei criteri di consenso. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come escludere i visitatori senza consenso dal reporting di analisi.</p> |
 | **[!UICONTROL Panoramica del pubblico]** | Visualizza i tipi di pubblico rappresentati tra le persone che visitano il tuo sito.<p>**Questo può aiutarti** comprendere meglio le informazioni generali sui tipi di pubblico, la loro origine (RTCDP, Customer Journey Analytics, e così via), la sovrapposizione del pubblico e altro ancora.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio utilizzare i dati per concentrarti sulle attività di marketing destinate a questi tipi di pubblico specifici, oppure creare esperienze su misura per i clienti che appartengono a più tipi di pubblico.</p><p>Questo modello utilizza le dimensioni Audience Name, Audience Origin, Exited Audience Name e Exited Audience Origin.</p><p>Per ulteriori informazioni, consulta [Analizzare il pubblico di Experience Platform in Customer Journey Analytics](/help/connections/audience-analysis/analyze-audiences.md).</p> |
 | [!UICONTROL **Visitatori nuovi e ripetuti**] | Visualizza un confronto tra visitatori nuovi e visitatori ripetuti. <p>**Questo può aiutarti** a comprendere meglio l’efficacia del tuo sito nel mantenere la fedeltà della clientela oppure la velocità con cui ne acquisisci di nuova.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio offrire ai nuovi visitatori degli incentivi per acquisti futuri, così da invogliarli a ritornare.</p><!-- This template uses the --> |
 | **ID persona** | Visualizza il comportamento di singoli utenti su vari canali.<p>**Questo può aiutarti** a comprendere meglio il percorso cliente completo e le interazioni tra più punti di contatto.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come personalizzare le attività di marketing in base alle preferenze degli utenti.</p><!-- This template uses the --> |

@@ -8,17 +8,15 @@ hide: true
 source-git-commit: 9df4c8cff6c0c044902453e5fb8380fbb5c5ac2d
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 5%
-
+ht-degree: 19%
 ---
 
-
-# Impostazioni componente ambito {#scope-component-settings}
+# Impostazioni ambito del componente {#scope-component-settings}
 
 >[!CONTEXTUALHELP]
 >id="dataview_component_metric_scope"
 >title="Ambito"
->abstract="Determina il modo in cui un componente viene valutato quando viene utilizzato nei rapporti. Puoi scegliere tra basato su evento, basato su profilo o basato su totale."
+>abstract="Determina come viene definito un componente quando viene utilizzato nei rapporti. Puoi selezionare tra basato su evento, basato su profilo o basato su totale."
 
 L’ambito di un componente metrica determina il modo in cui il componente viene utilizzato nei rapporti.
 
