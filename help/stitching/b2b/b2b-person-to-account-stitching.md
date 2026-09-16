@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ac22a504d6182897438b3724d57c837ab2995f1b
+source-git-commit: 76379e1cd9a42f2b2651a66768c195776eabecff
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 21%
+source-wordcount: '2292'
+ht-degree: 20%
 ---
 # Unione persona-account B2B
 
@@ -219,8 +219,8 @@ Innanzitutto, abilita e configura l’unione B2B a livello di connessione. Quand
       | Campo | Obbligatorio | Descrizione |
       |---|:---:|---|
       | **[!UICONTROL Set di dati da persona a account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona la ricerca (record o set di dati di serie non temporali) che mappa le persone sugli account. |
-      | **[!UICONTROL ID persona]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene gli ID persona. Lo spazio dei nomi di questo campo può essere diverso o uguale allo spazio dei nomi dell’identificatore della persona selezionato. Se differiscono, i due spazi dei nomi devono essere collegati nel grafo di identità.  Il campo deve essere contrassegnato come identità e non può essere uguale al campo **[!UICONTROL ID account]** o **[!UICONTROL Data di creazione mapping]**. |
-      | **[!UICONTROL ID account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene i valori dell’identificatore univoco dell’account. Le informazioni sull’ID account saranno rese disponibili nelle righe di eventuali set di dati evento con abilitata l’unione delle identità Da persona ad account. Il campo non può essere uguale al campo **[!UICONTROL ID persona]** o **[!UICONTROL Data di creazione mappatura]**. |
+      | **[!UICONTROL ID persona]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene gli ID persona. Lo spazio dei nomi di questo campo può essere diverso o uguale allo spazio dei nomi dell’identificatore della persona selezionato. Se differiscono, i due spazi dei nomi devono essere collegati nel grafo di identità.  Il campo deve essere contrassegnato come identità e non può essere uguale al campo **[!UICONTROL ID account]** o **[!UICONTROL Data di creazione mapping]**. Il percorso completo del campo è mostrato sotto il campo. |
+      | **[!UICONTROL ID account]** | ![Obbligatorio](/help/assets/icons/Required.svg) | Seleziona il campo nel set di dati che contiene i valori dell’identificatore univoco dell’account. Le informazioni sull’ID account saranno rese disponibili nelle righe di eventuali set di dati evento con abilitata l’unione delle identità Da persona ad account. Il campo non può essere uguale al campo **[!UICONTROL ID persona]** o **[!UICONTROL Data di creazione mappatura]**. Il percorso completo del campo è mostrato sotto il campo. |
       | **Ora di creazione mappatura** | | Facoltativamente, seleziona il campo che rappresenta la data e l’ora di creazione della mappatura Da persona ad account. Utile per scenari in cui una persona cambia più account nel tempo.<br/><br/>**Esempio** (quando è selezionato il campo **update_date**):<table><thead><tr><th>update_date</th><th>persona</th><th>account</th></tr></thead><tbody><tr><td>20260401</td><td>a@b.com</td><td>Apple</td></tr><tr><td>20260501</td><td>a@b.com</td><td>Adobe</td></tr></tbody></table><ul><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** prima del 1° maggio 2026: a@b.com è mappato ad Apple.</li><li>Per tutti gli eventi con una marca temporale nel campo **[!UICONTROL update_date]** il o dopo il 1° maggio 2026: a@b.com è mappato ad Adobe.</li></ul>Se non viene specificato alcun tempo di mappatura, viene utilizzato il primo account lessicografico. Lo stesso algoritmo viene utilizzato anche quando due nomi di account diversi hanno lo stesso valore **[!UICONTROL update_date]** e viene specificato un orario di creazione della mappatura. |
 
       >[!NOTE]
@@ -238,7 +238,7 @@ Innanzitutto, abilita e configura l’unione B2B a livello di connessione. Quand
 >id="connection_b2b_stitching_enable_person_to_account"
 >title="Abilita unione delle identità persona-account"
 >abstract="Se questa opzione è abilitata, questo set di dati utilizza l’unione delle identità B2B Da persona ad account. I valori **[!UICONTROL ID persona persistente]** verranno elevati a quelli configurati per lo spazio dei nomi **[!UICONTROL Identificatore persona]**, quindi verranno utilizzati per ricercare l&#39;ID account in base al set di dati da persona a account.<br/>Se è disabilitata, questo set di dati non utilizza l’unione delle identità Da persona ad account B2B e dovrai invece selezionare un **[!UICONTROL ID account]** obbligatorio."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="Configurare le impostazioni di unione della persona B2B con l’account"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="Configurare le impostazioni di unione della persona B2B con l’account"
 
 Dopo aver configurato l’unione B2B a livello di connessione, devi abilitare la persona B2B per l’unione di account singolarmente per ogni set di dati evento da unire.
 
