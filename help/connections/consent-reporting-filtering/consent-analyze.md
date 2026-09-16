@@ -4,27 +4,33 @@ description: Scopri come utilizzare dimensioni, metriche e modelli dei criteri d
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin, User
-hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
 subfeature_v2:
   - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+    internal-label: Privacy
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
+    internal-label: Governance
+source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 2%
-
+source-wordcount: '388'
+ht-degree: 7%
 ---
-
 # Analizzare i dati dei criteri di consenso
+
+{{release-limited-testing}}
 
 Puoi acquisire i dati dei criteri di consenso dai set di dati del profilo di Experience Platform in una connessione Customer Journey Analytics.
 
@@ -68,6 +74,6 @@ Per generare rapporti sull’iscrizione ai criteri di consenso:
 
 ## Utilizzare il modello di analisi dei criteri di consenso
 
-Quando una visualizzazione dati è configurata per la generazione di rapporti sul consenso, Customer Journey Analytics rende automaticamente disponibile in Analysis Workspace un modello di analisi dei criteri di consenso. Questo modello fornisce un punto di partenza per la generazione di rapporti sull’iscrizione ai criteri di consenso dei visitatori.
+Quando viene configurata una visualizzazione dati per il reporting sul consenso, Customer Journey Analytics rende automaticamente disponibile in Analysis Workspace un modello di analisi dei criteri di consenso. Questo modello fornisce un punto di partenza per la generazione di rapporti sull’iscrizione ai criteri di consenso dei visitatori.
 
 Per informazioni su come accedere ai modelli, vedere [Accedere ed eseguire un modello](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template).

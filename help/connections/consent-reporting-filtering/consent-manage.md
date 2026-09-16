@@ -4,26 +4,31 @@ description: Scopri come visualizzare, modificare ed eliminare le configurazioni
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
-hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
 subfeature_v2:
   - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+    internal-label: Privacy
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bb16378fc8813ca126cb786c5d36bf9daa0fe7d
+    internal-label: Privacy
+source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: '449'
 ht-degree: 5%
-
 ---
-
 # Gestione delle configurazioni di reporting e filtro del consenso
+
+{{release-limited-testing}}
 
 Dopo aver [creato una configurazione di reporting e filtro del consenso](/help/connections/consent-reporting-filtering/consent-configure.md), puoi visualizzarla, modificarla o eliminarla.
 
@@ -35,7 +40,7 @@ Per informazioni generali, consulta [Panoramica sui rapporti di consenso e filtr
 
 Per visualizzare le configurazioni esistenti:
 
-1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Generazione rapporti di consenso e filtro]**.
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Segnalazione consenso e filtro]**.
 
    Per ogni configurazione sono disponibili le seguenti colonne di informazioni:
 
@@ -73,7 +78,7 @@ Per visualizzare le configurazioni esistenti:
 
 Per modificare una configurazione esistente:
 
-1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Generazione rapporti di consenso e filtro]**.
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Segnalazione consenso e filtro]**.
 
 1. Seleziona il nome della configurazione da modificare.
 
@@ -87,7 +92,7 @@ Per modificare una configurazione esistente:
 
 Per eliminare una configurazione esistente:
 
-1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Generazione rapporti di consenso e filtro]**.
+1. In Customer Journey Analytics, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Segnalazione consenso e filtro]**.
 
 1. Selezionare la casella di controllo accanto alla configurazione da eliminare, quindi selezionare **[!UICONTROL Elimina]**.
 

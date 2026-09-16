@@ -4,29 +4,37 @@ description: Scopri come creare rapporti sull’iscrizione alla politica di cons
 solution: Customer Journey Analytics
 feature: Privacy
 role: Admin
-hide: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: eb00932f-4d46-46bc-b1d8-10de7588db8d
+    internal-label: Data governance
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: ffe2fd81-0630-49b3-a33b-4b8899e89c51
+    internal-label: Privacy
   - id: d3fb138f-79e4-4a81-aedb-76dd93560085
+    internal-label: Experience Platform integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4661a066f90991e6fb149c6909ef4a9f75cf02ac
+    internal-label: Privacy
+source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
 workflow-type: tm+mt
-source-wordcount: 1311
-ht-degree: 1%
-
+source-wordcount: '1311'
+ht-degree: 2%
 ---
-
 # Panoramica sulla generazione di rapporti e sui filtri di consenso
+
+{{release-limited-testing}}
 
 La funzione di reporting e filtro del consenso utilizza i dati di iscrizione al criterio di consenso memorizzati nei set di dati del profilo Adobe Experience Platform per facilitarti la generazione di rapporti sul consenso dei visitatori. Inoltre, puoi scegliere di escludere i visitatori non consenzienti prima che i loro dati vengano acquisiti in Customer Journey Analytics.
 
@@ -104,7 +112,7 @@ Quando utilizzi il filtro del consenso, tieni presente quanto segue:
 
 * I dati di un visitatore vengono acquisiti solo se il visitatore corrisponde a **tutti** i criteri di consenso applicabili. Se a un visitatore mancano i criteri applicabili, i dati del visitatore vengono esclusi.
 
-## Configurare i rapporti e i filtri di consenso
+## Configurare il filtro e il reporting sul consenso
 
 Quando configuri la generazione rapporti e i filtri per il consenso, seleziona la sandbox e il set di dati profilo che contengono i dati di iscrizione ai criteri di consenso, scegli la connessione o le connessioni da configurare e scegli se filtrare i dati per ogni azione di marketing. Customer Journey Analytics crea quindi automaticamente il set di dati di ricerca dei criteri di consenso e i componenti dei criteri di consenso.
 
@@ -130,7 +138,7 @@ Per la generazione di rapporti e filtri sul consenso sono necessari i seguenti r
 |---------|----------|----------|
 | [Creare configurazioni di reporting e filtro del consenso](/help/connections/consent-reporting-filtering/consent-configure.md) | Amministratore di sistema | <ul><li>Set di dati: lettura, scrittura</li><li>Schemi: lettura, scrittura</li></ul> <p>L’accesso in lettura è necessario per il set di dati profilo che contiene i dati di appartenenza ai criteri di consenso. È necessario l’accesso in scrittura perché viene creato e mantenuto sincronizzato un set di dati di ricerca dei criteri di consenso.</p> |
 | Visualizzare i componenti dei criteri di consenso nella visualizzazione dati | Amministratore del profilo di prodotto per il profilo di prodotto a cui è assegnata la visualizzazione dati <p>Per ulteriori informazioni, vedere [Controllo degli accessi](/help/technotes/access-control.md).</p> | N/D |
-| Utilizzare i componenti dei criteri di consenso in Analysis Workspace | Accesso a una visualizzazione dati in cui sono stati aggiunti i componenti del criterio di consenso | N/D |
+| [Utilizzare i componenti dei criteri di consenso in Analysis Workspace](/help/connections/consent-reporting-filtering/consent-analyze.md#use-consent-policy-components-in-analysis-workspace) | Accesso a una visualizzazione dati in cui sono stati aggiunti i componenti del criterio di consenso | N/D |
 
 ## Casi d’uso di reporting e filtraggio del consenso
 
