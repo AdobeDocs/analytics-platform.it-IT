@@ -41,7 +41,7 @@ topic_v2:
 source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
 workflow-type: tm+mt
 source-wordcount: '4806'
-ht-degree: 48%
+ht-degree: 49%
 ---
 
 # Configurazione guidata di Content Analytics
@@ -100,7 +100,7 @@ La configurazione guidata include quattro sezioni: [Dettagli](#details), [Connes
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_details_name_header"
 >title="Dettagli"
->abstract="Questa guida definisce i requisiti per configurare Content Analytics. Specifica un nome per questa configurazione e seleziona la sandbox che contiene i dati di analisi del contenuto da analizzare."
+>abstract="Questa guida definisce i requisiti necessari per configurare Content Analytics. Fornisci un nome per questa configurazione e seleziona la sandbox che contiene i dati di Content Analytics che desideri analizzare."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_boldheader"
@@ -110,7 +110,7 @@ La configurazione guidata include quattro sezioni: [Dettagli](#details), [Connes
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_connection_header"
 >title="Connessione"
->abstract="Seleziona una connessione esistente da Customer Journey Analytics con cui unire i dati di Content Analytics."
+>abstract="Seleziona una connessione esistente di Customer Journey Analytics con cui desideri unire i dati di Content Analytics."
 
 Ogni configurazione richiede un nome univoco. Ad esempio, `Example Content Analytics configuration`. Il nome è necessario per salvare o implementare una configurazione.
 
@@ -151,7 +151,7 @@ Se è già stata selezionata una connessione, ma si desidera modificarla:
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header"
 >title="Visualizzazione dati"
->abstract="Seleziona una visualizzazione dati esistente da Customer Journey Analytics con cui unire i dati di Content Analytics."
+>abstract="Seleziona una visualizzazione dati esistente di Customer Journey Analytics con cui desideri unire i dati di Content Analytics."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_dataview_header_alt"
@@ -570,7 +570,7 @@ Dopo aver specificato i dettagli per il canale Web, seleziona **[!UICONTROL Salv
 
 +++
 
-#### Paid Media {#paid-media}
+#### Paid media {#paid-media}
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_paidmedia_adplatforms_nosourceconnectors"
