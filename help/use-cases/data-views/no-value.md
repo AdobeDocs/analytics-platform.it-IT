@@ -202,4 +202,4 @@ Non tutte le voci **[!UICONTROL Nessun valore]** segnalano un problema. Per inte
 
 >[!MORELIKETHIS]
 >
->[Playbook completo per la gestione di **[!UICONTROL Nessun valore]** in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769)
+>[Playbook completo per la gestione di **[!UICONTROL Nessun valore]** in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=it)
