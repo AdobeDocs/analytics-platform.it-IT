@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: f5a7272f80aaba167974f2218bc84408d47f62d4
 workflow-type: tm+mt
 source-wordcount: '4217'
-ht-degree: 27%
+ht-degree: 28%
 ---
 # Creare un feed di dati
 
@@ -87,8 +87,8 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_required_dimensions"
->title="Dimensioni richieste"
->abstract="Ogni feed di dati deve includere determinate dimensioni, identificate da un&#39;etichetta **Obbligatorio** accanto al nome della dimensione. Queste dimensioni forniscono la struttura minima necessaria per l’analisi a livello di evento."
+>title="Dimensioni obbligatorie"
+>abstract="Ogni feed di dati deve includere determinate dimensioni, identificate da un’etichetta **Obbligatorio** accanto al nome della dimensione. Queste dimensioni forniscono la struttura minima necessaria per l’analisi a livello di evento."
 
 <!-- markdownlint-enable MD034 -->
 

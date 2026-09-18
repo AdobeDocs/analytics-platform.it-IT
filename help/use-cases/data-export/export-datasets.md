@@ -9,24 +9,30 @@ autotag-review: '2026-05-19T09:38:40.111Z'
 TQID: 'https://experienceleague.adobe.com/az0B0Gzzu0pbb0TbpiZjW0Y-GysEptIETtg2bBFl-Uw'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases, Use cases (CJA)
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: 06d3fa4838d48567f1b9804992aa0f718937916d
 workflow-type: tm+mt
-source-wordcount: 1187
+source-wordcount: '1185'
 ht-degree: 3%
-
 ---
-
 # Esportare i set di dati
 
 Questo articolo illustra come utilizzare [!DNL Customer Journey Analytics Export datasets] per implementare il seguente [caso d&#39;uso per l&#39;esportazione dei dati](overview.md):
@@ -37,11 +43,13 @@ Questo articolo illustra come utilizzare [!DNL Customer Journey Analytics Export
 
 L&#39;esportazione di dati tramite [!DNL Experience Platform Export datasets] consente di esportare dati dalle visualizzazioni dati di Customer Journey Analytics a qualsiasi destinazione di archiviazione cloud.
 
+A differenza di altri metodi di esportazione, i set di dati di esportazione non hanno un limite di righe fisso. La capacità della destinazione di archiviazione cloud limita le dimensioni dell’esportazione, rendendola la funzionalità preferita quando hai bisogno di una copia completa e non elaborata dei dati.
+
 ![Estensione BI](../assets/export-datasets.png)
 
 ## Ulteriori informazioni
 
-Puoi esportare i set di dati non elaborati dal data lake in Experience Platform nelle destinazioni di archiviazione cloud. Questa esportazione si trova nella terminologia di Experience Platform Destinations, o destinazioni di esportazione del set di dati. Per una panoramica, consulta [Esportare i set di dati nelle destinazioni dell&#39;archiviazione cloud](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets).
+Per esportare i set di dati non elaborati dal data lake in Experience Platform, utilizza le destinazioni dell’archiviazione cloud. Questa esportazione è definita &quot;destinazioni di esportazione del set di dati&quot; nella terminologia Destinazioni di Experience Platform. Per una panoramica, consulta [Esportare i set di dati nelle destinazioni dell&#39;archiviazione cloud](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets).
 
 Sono supportate le seguenti destinazioni di archiviazione cloud:
 
@@ -74,14 +82,14 @@ Dopo aver selezionato la destinazione, nel prossimo passaggio **[!UICONTROL Sele
 
 #### Pianificare l’esportazione di set di dati
 
-Infine, pianificare l&#39;esportazione del set di dati come parte del passaggio **[!UICONTROL Pianificazione]**. In questo passaggio puoi definire la pianificazione e se l’esportazione del set di dati deve essere incrementale o meno. Per ulteriori informazioni, consulta [Pianificazione esportazione set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets#scheduling).
+Infine, pianifica l&#39;esportazione del set di dati come parte del passaggio **[!UICONTROL Pianificazione]**. In questo passaggio, definisci la pianificazione e se l’esportazione del set di dati è incrementale. Per ulteriori informazioni, consulta [Pianificazione esportazione set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets#scheduling).
 
 
 #### Passaggi finali
 
 [Rivedi](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets#review) la selezione e, se corretto, inizia a esportare il set di dati nella destinazione dell&#39;archiviazione cloud.
 
-Innanzitutto, devi [verificare](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets#verify) che l&#39;esportazione dei dati sia andata a buon fine. Durante l&#39;esportazione dei set di dati, Experience Platform crea uno o più file `.json` o `.parquet` nel percorso di archiviazione definito nella destinazione. I nuovi file verranno archiviati nel percorso di archiviazione in base alla pianificazione di esportazione configurata. Experience Platform crea una struttura di cartelle nel percorso di archiviazione specificato come parte della destinazione selezionata, dove deposita i file esportati. Viene creata una nuova cartella per ogni esportazione, seguendo il modello: `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM`. Il nome di file predefinito viene generato in modo casuale e garantisce che i nomi di file esportati siano univoci.
+Innanzitutto, devi [verificare](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets#verify) che l&#39;esportazione dei dati sia andata a buon fine. Durante l&#39;esportazione dei set di dati, Experience Platform crea uno o più file `.json` o `.parquet` nel percorso di archiviazione della destinazione. I nuovi file verranno archiviati nel percorso di archiviazione in base alla pianificazione di esportazione configurata. Experience Platform crea una struttura di cartelle nel percorso di archiviazione specificato come parte della destinazione selezionata, dove deposita i file esportati. Viene creata una nuova cartella per ogni esportazione, seguendo il modello: `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM`. Il nome di file predefinito viene generato in modo casuale e garantisce che i nomi di file esportati siano univoci.
 
 ### API del servizio Flusso
 
@@ -89,32 +97,32 @@ In alternativa, puoi esportare e pianificare l’esportazione dei set di dati ut
 
 #### Introduzione
 
-Per esportare i set di dati, assicurati di disporre delle [autorizzazioni richieste](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#permissions). Verifica inoltre che la destinazione in cui desideri inviare il set di dati supporti l’esportazione dei set di dati. È quindi necessario [raccogliere i valori per le intestazioni obbligatorie e facoltative](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#gather-values-headers) utilizzate nelle chiamate API. È inoltre necessario [identificare la specifica di connessione e gli ID delle specifiche di flusso della destinazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#gather-connection-spec-flow-spec) in cui si desidera esportare i set di dati.
+Per esportare i set di dati, assicurati di disporre delle [autorizzazioni richieste](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#permissions). Verifica inoltre che la destinazione supporti l’esportazione dei set di dati. Puoi inviare il set di dati a questa destinazione. È quindi necessario [raccogliere i valori per le intestazioni obbligatorie e facoltative](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#gather-values-headers) utilizzate nelle chiamate API. È inoltre necessario [identificare la specifica di connessione e gli ID delle specifiche di flusso della destinazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#gather-connection-spec-flow-spec) in cui si desidera esportare i set di dati.
 
 #### Recuperare i set di dati idonei
 
-È possibile [recuperare un elenco di set di dati idonei](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#retrieve-list-of-available-datasets) per l&#39;esportazione e verificare se il set di dati fa parte di tale elenco utilizzando l&#39;API [`GET /connectionSpecs/{id}/configs`](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Configurations/operation/getDatasets).
+È possibile [recuperare un elenco di set di dati idonei](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#retrieve-list-of-available-datasets) per l&#39;esportazione e verificare se il set di dati fa parte di tale elenco utilizzando l&#39;API [`GET /connectionSpecs/{id}/configs`](https://developer.adobe.com/experience-platform-apis/references/destinations#operation/getDatasets).
 
 
 #### Crea connessione sorgente
 
-Successivamente, è necessario [creare una connessione di origine](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#create-source-connection) per il set di dati, utilizzando il relativo ID univoco, che si desidera esportare nella destinazione dell&#39;archiviazione cloud. Utilizza l&#39;API [`POST /sourceConnections`](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Source-connections/operation/postSourceConnection).
+Successivamente, è necessario [creare una connessione di origine](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#create-source-connection) per il set di dati, utilizzando il relativo ID univoco, che si desidera esportare nella destinazione dell&#39;archiviazione cloud. Utilizza l&#39;API [`POST /sourceConnections`](https://developer.adobe.com/experience-platform-apis/references/destinations#operation/postSourceConnection).
 
 #### Autentica nella destinazione (crea connessione di base)
 
-È ora necessario [creare una connessione di base](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#create-base-connection) per autenticare e archiviare in modo sicuro le credenziali nella destinazione di archiviazione cloud utilizzando l&#39;API [`POST /targetConection`](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection).
+Per autenticare e archiviare in modo sicuro le credenziali nella destinazione di archiviazione cloud, [crea una connessione di base](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#create-base-connection) utilizzando l&#39;API [`POST /targetConnection`](https://developer.adobe.com/experience-platform-apis/references/destinations#operation/postTargetConnection).
 
 
 #### Fornire parametri di esportazione
 
-Successivamente, è necessario [creare una connessione di destinazione aggiuntiva in cui memorizzare i parametri di esportazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#create-target-connection) per il set di dati utilizzando, ancora una volta, l&#39;API [`POST /targetConection`](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection). Questi parametri di esportazione includono posizione, formato file, compressione e altro ancora.
+Successivamente, è necessario [creare una connessione di destinazione aggiuntiva che memorizzi i parametri di esportazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#create-target-connection) per il set di dati utilizzando l&#39;API [`POST /targetConnection`](https://developer.adobe.com/experience-platform-apis/references/destinations#operation/postTargetConnection). Questi parametri di esportazione includono posizione, formato file, compressione e altro ancora.
 
 #### Imposta flusso di dati
 
-Infine, [imposta il flusso di dati](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#create-dataflow) per garantire che il set di dati venga esportato nella destinazione di archiviazione cloud utilizzando l&#39;API [`POST /flows`](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Dataflows/operation/postFlow). In questo passaggio è possibile definire la pianificazione per l&#39;esportazione utilizzando il parametro `scheduleParams`.
+Per garantire che il set di dati venga esportato nella destinazione dell&#39;archiviazione cloud, [imposta il flusso di dati](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#create-dataflow) utilizzando l&#39;API [`POST /flows`](https://developer.adobe.com/experience-platform-apis/references/destinations#operation/postFlow). In questo passaggio è possibile definire la pianificazione per l&#39;esportazione utilizzando il parametro `scheduleParams`.
 
 #### Convalida flusso di dati
 
-Per [verificare le esecuzioni riuscite del flusso di dati](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#get-dataflow-runs), utilizza l&#39;API [`GET /runs`](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Dataflow-runs/operation/getFlowRuns), specificando l&#39;ID del flusso di dati come parametro di query. Questo ID del flusso di dati è un identificatore restituito quando imposti il flusso di dati.
+Per [verificare le esecuzioni riuscite del flusso di dati](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/api/export-datasets#get-dataflow-runs), utilizza l&#39;API [`GET /runs`](https://developer.adobe.com/experience-platform-apis/references/destinations#operation/getFlowRuns), specificando l&#39;ID del flusso di dati come parametro di query. Questo ID del flusso di dati è un identificatore restituito quando imposti il flusso di dati.
 
-[Verifica](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets#verify) un&#39;esportazione dei dati completata. Durante l&#39;esportazione dei set di dati, Experience Platform crea uno o più file `.json` o `.parquet` nel percorso di archiviazione definito nella destinazione. I nuovi file verranno archiviati nel percorso di archiviazione in base alla pianificazione di esportazione configurata. Experience Platform crea una struttura di cartelle nel percorso di archiviazione specificato come parte della destinazione selezionata, dove deposita i file esportati. Viene creata una nuova cartella per ogni esportazione, seguendo il modello: `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM`. Il nome di file predefinito viene generato in modo casuale e garantisce che i nomi di file esportati siano univoci.
+[Verifica](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets#verify) un&#39;esportazione dei dati completata. Durante l&#39;esportazione dei set di dati, Experience Platform crea uno o più file `.json` o `.parquet` nel percorso di archiviazione della destinazione. I nuovi file verranno archiviati nel percorso di archiviazione in base alla pianificazione di esportazione configurata. Experience Platform crea una struttura di cartelle nel percorso di archiviazione specificato come parte della destinazione selezionata, dove deposita i file esportati. Viene creata una nuova cartella per ogni esportazione, seguendo il modello: `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM`. Il nome di file predefinito viene generato in modo casuale e garantisce che i nomi di file esportati siano univoci.

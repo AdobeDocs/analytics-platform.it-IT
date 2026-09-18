@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: 76379e1cd9a42f2b2651a66768c195776eabecff
 workflow-type: tm+mt
 source-wordcount: '2292'
-ht-degree: 20%
+ht-degree: 25%
 ---
 # Unione persona-account B2B
 
@@ -153,12 +153,12 @@ Prima di abilitare la persona B2B all’unione di account, prepara i seguenti se
 
 Innanzitutto, abilita e configura l’unione B2B a livello di connessione. Quando l’unione B2B è configurata per una connessione, puoi quindi attivare l’unione da persona a account sui singoli set di dati evento all’interno di tale connessione.
 
-### Configurare le impostazioni di unione della persona B2B con l’account {#configure-b2b-stitching-settings}
+### Configurare le impostazioni di unione delle identità B2B Da persona ad account {#configure-b2b-stitching-settings}
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_open_configuration"
->title="Configurare l’unione B2B"
->abstract="Seleziona **[!UICONTROL Apri configurazione unione B2B]** per configurare la persona B2B per l&#39;unione account. Se la connessione non è ancora stata salvata, la configurazione sarà etichettata con **[!UICONTROL _Modifiche non salvate_]**."
+>title="Configurare l’unione delle identità B2B"
+>abstract="Seleziona **[!UICONTROL Apri configurazione di unione delle identità B2B]** per configurare l’unione delle identità B2B Da persona ad account. Se la connessione non è ancora stata salvata, la configurazione sarà etichettata con **[!UICONTROL _Modifiche non salvate_]**."
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_person_identifier_namespace"
@@ -183,7 +183,7 @@ Innanzitutto, abilita e configura l’unione B2B a livello di connessione. Quand
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_start_time"
 >title="Ora di inizio"
->abstract="Selezionare un campo timestamp che indichi quando la relazione persona-account è diventata attiva."
+>abstract="Seleziona un campo di marca temporale che indica quando la relazione persona-account è diventata attiva."
 
 
 >[!CONTEXTUALHELP]
@@ -231,14 +231,14 @@ Innanzitutto, abilita e configura l’unione B2B a livello di connessione. Quand
 
    1. L&#39;indicatore **[!UICONTROL _Modifiche non salvate_]** viene visualizzato accanto al pulsante **Apri configurazione unione B2B** fino a quando non si [salva](#save) la connessione.
 
-### Abilitare la persona B2B all’unione di account nei set di dati dell’evento
+### Abilitare l’unione delle identità B2B Da persona ad account nei set di dati evento
 
 
 >[!CONTEXTUALHELP]
 >id="connection_b2b_stitching_enable_person_to_account"
->title="Abilita unione delle identità persona-account"
->abstract="Se questa opzione è abilitata, questo set di dati utilizza l’unione delle identità B2B Da persona ad account. I valori **[!UICONTROL ID persona persistente]** verranno elevati a quelli configurati per lo spazio dei nomi **[!UICONTROL Identificatore persona]**, quindi verranno utilizzati per ricercare l&#39;ID account in base al set di dati da persona a account.<br/>Se è disabilitata, questo set di dati non utilizza l’unione delle identità Da persona ad account B2B e dovrai invece selezionare un **[!UICONTROL ID account]** obbligatorio."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="Configurare le impostazioni di unione della persona B2B con l’account"
+>title="Abilitare l’unione delle identità persona-account"
+>abstract="Se questa opzione è abilitata, questo set di dati utilizza l’unione delle identità B2B Da persona ad account. I valori **[!UICONTROL ID persona persistente]** verranno elevati a quelli dello **[!UICONTROL spazio dei nomi dell’identificatore persona]** configurato, quindi utilizzati per individuare l’ID account in base al set di dati Da persona ad account.<br/>Se questa opzione è disabilitata, il set di dati non utilizza l’unione delle identità Da persona ad account B2B e dovrai invece selezionare un **[!UICONTROL ID account]** obbligatorio."
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/stitching/b2b/b2b-person-to-account-stitching#configure-b2b-stitching-settings" text="Configurare le impostazioni di unione delle identità B2B Da persona ad account"
 
 Dopo aver configurato l’unione B2B a livello di connessione, devi abilitare la persona B2B per l’unione di account singolarmente per ogni set di dati evento da unire.
 

@@ -63,7 +63,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="cja-consent-identity-namespace"
->title="Utilizza lo spazio dei nomi identità primaria"
+>title="Utilizzare lo spazio dei nomi identità primario"
 >abstract="Abilita questa opzione se desideri che Customer Journey Analytics individui l’identità nella mappa delle identità contrassegnata con l’attributo primary=true, quindi utilizzala come ID persona per quella riga. L’identità è la chiave primaria utilizzata in Experience Platform per il partizionamento. <br/>Se lasci questa opzione disabilitata, seleziona uno spazio dei nomi dal campo Spazio dei nomi identità sottostante. Customer Journey Analytics cerca la mappa delle identità di ogni riga per questa chiave di spazio dei nomi e utilizza l’identità in tale spazio dei nomi come ID persona per tale riga."
 
 <!-- markdownlint-enable MD034 -->

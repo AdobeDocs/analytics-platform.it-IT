@@ -8,23 +8,28 @@ role: User
 TQID: https://experienceleague.adobe.com/qEgO-lqYk8ipVP99IBazrKAb7Jer-AN96-PY-f1KdPQ
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Reporting
+source-git-commit: 7a7ad0d310603850395e35edce7fa66c8c2ff329
 workflow-type: tm+mt
-source-wordcount: 1443
+source-wordcount: '1487'
 ht-degree: 14%
-
 ---
-
 # Casi d’uso per le visualizzazioni dati
 
 Questi casi d’uso illustrano la flessibilità e la potenza delle visualizzazioni dati in Customer Journey Analytics.
@@ -41,11 +46,15 @@ Per ulteriori dettagli, vedi il caso d&#39;uso [Dati di riepilogo](summary-data.
 
 Consulta i [casi d&#39;uso dell&#39;estensione BI](bi-extension-usecases.md) su come eseguire una serie di casi d&#39;uso utilizzando l&#39;estensione Customer Journey Analytics BI.
 
+
+## Come gestire Nessun valore
+
+Consulta l&#39;articolo [Come gestire l&#39;assenza di valore](./no-value.md) per informazioni dettagliate su come gestire vari scenari di casi di utilizzo di **[!UICONTROL Nessun valore]**.
+
+
 ## Creare una metrica da un campo schema di tipo stringa {#string}
 
 Ad esempio, quando crei una visualizzazione dati, puoi creare una metrica [!UICONTROL Ordini] da un campo schema [!UICONTROL Titolo pagina] che è una stringa.
-
-
 
 1. Nella scheda **[!UICONTROL Componenti]**, trascina **[!UICONTROL Titolo pagina]** nella sezione **[!UICONTROL Metriche]** in [!UICONTROL Componenti inclusi].
 1. Evidenzia la metrica appena trascinata e rinominala in `Orders` nelle **[!UICONTROL Impostazioni componente]** in

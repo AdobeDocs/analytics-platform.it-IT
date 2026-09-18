@@ -8,7 +8,7 @@ hide: true
 source-git-commit: 39d6847296cc385d501defda292b5b3cae98b46a
 workflow-type: tm+mt
 source-wordcount: '2338'
-ht-degree: 4%
+ht-degree: 14%
 ---
 # Migrazione dai tag a XDM {#upgrade-migration-planner}
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="migration_intro"
 >title="Panoramica sulle migrazioni"
->abstract="Eseguire la migrazione di un&#39;implementazione di tag a Adobe Experience Platform Web SDK durante l&#39;aggiornamento a Customer Journey Analytics.<br/>Continuare con una migrazione esistente o avviarne una nuova."
+>abstract="Esegui la migrazione di un’implementazione di tag ad Adobe Experience Platform Web SDK durante l’aggiornamento a Customer Journey Analytics.<br/>Puoi proseguire una migrazione esistente o avviarne una nuova."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -246,7 +246,7 @@ Ogni artefatto mostra il relativo stato, ad esempio [!UICONTROL **Pronto**] o [!
 >[!CONTEXTUALHELP]
 >id="migration_mapping_sets"
 >title="Set di mappatura"
->abstract="I set di mappatura determinano il modo in cui le variabili di Analytics vengono mappate ai campi XDM.<br/>Creare un nuovo set di mappatura o sceglierne uno esistente per applicare le stesse mappature in più migrazioni. È inoltre possibile fare riferimento ai set di mappatura in altre attività di migrazione."
+>abstract="I set di mappatura determinano il modo in cui le variabili di Analytics vengono mappate ai campi XDM.<br/>Crea un nuovo set di mappatura o scegline uno esistente per applicare le stesse mappature in più migrazioni. Puoi anche fare riferimento ai set di mappatura in altre attività di migrazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -260,8 +260,8 @@ I set di mappatura determinano il modo in cui le variabili di Analytics vengono 
 
 >[!CONTEXTUALHELP]
 >id="migration_mapping_schema"
->title="Scegli uno schema"
->abstract="I set di mappatura determinano il modo in cui le variabili di Analytics vengono mappate ai campi XDM.<br/>Creare un nuovo set di mappatura o sceglierne uno esistente per applicare le stesse mappature in più migrazioni. È inoltre possibile fare riferimento ai set di mappatura in altre attività di migrazione."
+>title="Scegliere uno schema"
+>abstract="I set di mappatura determinano il modo in cui le variabili di Analytics vengono mappate ai campi XDM.<br/>Crea un nuovo set di mappatura o scegline uno esistente per applicare le stesse mappature in più migrazioni. Puoi anche fare riferimento ai set di mappatura in altre attività di migrazione."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -269,8 +269,8 @@ I set di mappatura determinano il modo in cui le variabili di Analytics vengono 
 
 >[!CONTEXTUALHELP]
 >id="migration_mapping_field_group"
->title="Preferenza gruppo di campi"
->abstract="Scegli i gruppi di campi standard per utilizzare i gruppi di campi Adobe pubblicati, quando possibile. Ciò promuove la massima coerenza e torna ai campi tenant personalizzati quando non sono disponibili campi standard.<br/>Scegliere i gruppi di campi personalizzati per utilizzare i campi personalizzati dello spazio dei nomi del tenant, quando possibile. Ciò promuove la massima flessibilità."
+>title="Preferenze per il gruppo di campi"
+>abstract="Scegli i gruppi di campi standard per utilizzare i gruppi di campi Adobe pubblicati, quando possibile. Ciò promuove la massima coerenza e torna ai campi tenant personalizzati quando non sono disponibili campi standard.<br/>Scegli i gruppi di campi personalizzati per utilizzare i campi personalizzati dello spazio dei nomi del tenant, quando possibile. Ciò promuove la massima flessibilità."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -279,7 +279,7 @@ I set di mappatura determinano il modo in cui le variabili di Analytics vengono 
 >[!CONTEXTUALHELP]
 >id="migration_mapping_lookback"
 >title="Periodo di lookback"
->abstract="Controlla la distanza da osservare quando si determinano le variabili che ricevono attivamente i dati. Le variabili che includono dati all’interno del periodo di lookback sono incluse nello schema."
+>abstract="Controlla quanto risalire indietro nel tempo per determinare quali variabili stanno ricevendo attivamente dati. Le variabili che includono dati all’interno del periodo di lookback sono incluse nello schema."
 
 <!-- markdownlint-enable MD034 -->
 
