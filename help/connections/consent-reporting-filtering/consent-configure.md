@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
+source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 27%
@@ -85,8 +85,6 @@ ht-degree: 27%
 >abstract="Abilita questa opzione per escludere i dati dei visitatori senza consenso dall’acquisizione in Customer Journey Analytics. Quando è abilitata, i dati di un visitatore vengono acquisiti solo se il visitatore corrisponde a tutti i criteri di consenso abilitati di seguito. <br>Questa opzione è destinata alle organizzazioni con requisiti di esclusione dei dati dei visitatori senza consenso al momento dell’acquisizione."
 
 <!-- markdownlint-enable MD034 -->
-
-{{release-limited-testing}}
 
 Gli amministratori di sistema possono abilitare la segnalazione del consenso e, facoltativamente, il filtro del consenso per una o più connessioni. Per informazioni generali, consulta [Panoramica sui rapporti di consenso e filtri](/help/connections/consent-reporting-filtering/consent-overview.md).
 

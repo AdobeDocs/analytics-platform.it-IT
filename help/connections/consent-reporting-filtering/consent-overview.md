@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
+source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 2%
 ---
 # Panoramica sulla generazione di rapporti e sui filtri di consenso
-
-{{release-limited-testing}}
 
 La funzione di reporting e filtro del consenso utilizza i dati di iscrizione al criterio di consenso memorizzati nei set di dati del profilo Adobe Experience Platform per facilitarti la generazione di rapporti sul consenso dei visitatori. Inoltre, puoi scegliere di escludere i visitatori non consenzienti prima che i loro dati vengano acquisiti in Customer Journey Analytics.
 

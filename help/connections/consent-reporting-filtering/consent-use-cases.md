@@ -23,14 +23,12 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ce6f9e474d274488e218e4dbd5f0666d41978681
+source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
 ---
 # Casi d’uso di reporting e filtraggio del consenso
-
-{{release-limited-testing}}
 
 La funzione di reporting e filtro del consenso consente di creare rapporti sull’iscrizione alla politica di consenso dei visitatori e, facoltativamente, di escludere i visitatori non consenzienti prima che i loro dati entrino in Customer Journey Analytics. Per informazioni generali, consulta [Panoramica sui rapporti di consenso e filtri](/help/connections/consent-reporting-filtering/consent-overview.md).
 
