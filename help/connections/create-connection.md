@@ -5,6 +5,7 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
+hold: true
 TQID: https://experienceleague.adobe.com/90JULA8fFxPQSbVLHr3hJ8o5algJAfNz9SjjLFecyJc
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
@@ -31,7 +32,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 9c0ddbb48c5cb1c62bded02d1455f2631ab1679f
+source-git-commit: 3121bb0b99eb5b176b9a208fa242d90f6578adbd
 workflow-type: tm+mt
 source-wordcount: '10488'
 ht-degree: 91%
@@ -538,8 +539,9 @@ In alternativa, i tipi di set di dati elencati sopra possono essere basati su un
 | Tipo di set di dati | Descrizione | Marca temporale | Schema | ID persona |
 |---|---|---|---|---|
 | **[!UICONTROL Ad hoc]** | Dati ad hoc basati su uno [schema ad hoc](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/api/ad-hoc) con campi a cui viene assegnato uno spazio dei nomi per l&#39;utilizzo unicamente da un singolo set di dati. | Dipende dal tipo di set di dati selezionato per il set di dati ad hoc. | Qualsiasi schema ad hoc costruito su una classe basata sul comportamento *ad hoc* | Dipende dal tipo di set di dati selezionato per il set di dati ad hoc. |
-| **[!UICONTROL Modello]** | Dati relazionali basati su uno schema relazionale. | Dipende dal tipo di set di dati selezionato per il set di dati relazionale. | Qualsiasi schema relazionale. | Dipende dal tipo di set di dati selezionato per il set di dati relazionale. |
+| **[!UICONTROL Relazionale]** | Dati relazionali basati su uno schema relazionale. | Dipende dal tipo di set di dati selezionato per il set di dati relazionale. | Qualsiasi schema relazionale. | Dipende dal tipo di set di dati selezionato per il set di dati relazionale. |
 
+{{relational-dataset-important}}
 
 ### Aggiungere set di dati
 
@@ -721,6 +723,8 @@ Quando aggiungi set di dati o ne modifichi uno esistente, configura le impostazi
 
 Tutti i set di dati e i tipi di set di dati hanno [dettagli e impostazioni generali](#general-dataset-settings-and-details), ad esempio se importare nuovi dati e richiedere retrocompilazioni.
 
+
+
 #### Set di dati evento
 
 Le impostazioni specifiche per un set di dati evento dipendono dal tipo di connessione.
@@ -861,6 +865,8 @@ Le impostazioni specifiche per un set di dati ad hoc sono:
 >
 >I set di dati relazionali vengono utilizzati principalmente per supportare le prossime funzionalità di Experience Platform Data Mirror for Customer Journey Analytics.
 >
+
+{{relational-dataset-important}}
 
 Le impostazioni specifiche per un set di dati relazionale sono:
 

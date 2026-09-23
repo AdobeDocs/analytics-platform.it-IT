@@ -1,9 +1,8 @@
 ---
-source-git-commit: b0be8b726c4fab1bf9bb5f9462be84f39bdf184a
+source-git-commit: 3121bb0b99eb5b176b9a208fa242d90f6578adbd
 workflow-type: tm+mt
-source-wordcount: '5455'
-ht-degree: 98%
-
+source-wordcount: '5542'
+ht-degree: 97%
 ---
 # Snippet
 
@@ -326,3 +325,11 @@ Questa colonna del feed dati di Analytics contiene dati che non possono essere c
 ## Agente utente feed dati di CJA {#cja-df-ua}
 
 Non è possibile raccogliere contemporaneamente informazioni sull’agente utente e informazioni sulla ricerca del dispositivo; la popolazione di queste dimensioni si esclude a vicenda. È necessario scegliere se si desidera raccogliere direttamente l’agente utente o le informazioni di ricerca del dispositivo (in base all’agente utente) durante la [configurazione di uno stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure#geolocation-device-lookup).
+
+
+## Messaggio importante per set di dati relazionali {#relational-dataset-important}
+
+>[!IMPORTANT]
+>
+>Un set di dati relazionali è basato su un tipo di schema relazionale. I descrittori di relazione definiti in tale schema relazionale non sono rilevanti e non si applicano alla definizione e alla configurazione di una connessione Customer Journey Analytics in generale o alle impostazioni del set di dati per un set di dati relazionale in particolare. <br/><br>Per le attività di reporting e analisi di Customer Journey Analytics, è necessario configurare in modo esplicito nelle [impostazioni del set di dati](/help/connections/create-connection.md#relational-dataset) il modo in cui i dati di un set di dati relazionale vengono uniti ad altri set di dati in base a un ID persona o a un ID account comune.
+>
