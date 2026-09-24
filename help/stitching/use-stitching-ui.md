@@ -8,19 +8,21 @@ exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 TQID: https://experienceleague.adobe.com/Nj-IePDbHxBtgiSxEAobJ0DGlJSaiTwpTXIPtCxDTHw
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: caf1e4497d5dbe370ce23481ee1fbf1b6db59bf6
+    internal-label: Admin
+source-git-commit: 79f124f639c35a97991690e18f6451fc20b02da9
 workflow-type: tm+mt
-source-wordcount: 1788
+source-wordcount: '1788'
 ht-degree: 20%
-
 ---
-
 # Abilitare l’unione delle identità
 
 Puoi abilitare l’unione su uno o più set di dati evento configurati come parte della connessione. Il pacchetto Customer Journey Analytics per il quale hai concesso la licenza determina il numero di set di dati evento che puoi abilitare per l’unione.
@@ -38,58 +40,58 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 * Se desideri utilizzare i campi dello schema [Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) per l&#39;ID persistente o l&#39;ID persona, assicurati che le identità siano contrassegnate correttamente nello schema per il set di dati dell&#39;evento. [Consulta la panoramica dello spazio dei nomi delle identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces).
 * Verifica la copertura delle identità sia per l’ID persistente che per l’ID persona:
 
-   * **[!UICONTROL ID persistente]**
+  * **[!UICONTROL ID persistente]**
 
-     Esegui la query di 7 giorni di dati in cui il campo ID persistente non è nullo e dividi per una query di 7 giorni di dati per tutti gli eventi nel set di dati. Tale percentuale dovrebbe essere superiore al 95%.
+    Esegui la query di 7 giorni di dati in cui il campo ID persistente non è nullo e dividi per una query di 7 giorni di dati per tutti gli eventi nel set di dati. Tale percentuale dovrebbe essere superiore al 95%.
 
-     Esempio di query da utilizzare per la verifica:
+    Esempio di query da utilizzare per la verifica:
 
-     ```sql
-     SELECT
-       COUNT(*) AS total_events,
-       COUNT({PERSISTENT_ID_FIELD}) AS events_with_persistentid,
-       ROUND(COUNT({PERSISTENT_ID_FIELD}) / COUNT(*), 2) AS percent_with_persistentid_not_null
-     FROM 
-       {DATASET_TABLE_NAME}
-     WHERE
-       TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
-       AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
-     ```
+    ```sql
+    SELECT
+      COUNT(*) AS total_events,
+      COUNT({PERSISTENT_ID_FIELD}) AS events_with_persistentid,
+      ROUND(COUNT({PERSISTENT_ID_FIELD}) / COUNT(*), 2) AS percent_with_persistentid_not_null
+    FROM 
+      {DATASET_TABLE_NAME}
+    WHERE
+      TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
+      AND TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') < TIMESTAMP '{END_DATE}';
+    ```
 
-     Dove:
+    Dove:
 
-      * `{PERSISTENT_ID_FIELD}` è il campo per l&#39;ID persistente. Ad esempio: `identityMap.ecid[0]`.
+    * `{PERSISTENT_ID_FIELD}` è il campo per l&#39;ID persistente. Ad esempio: `identityMap.ecid[0]`.
+    * `{DATASET_TABLE_NAME}` è il nome della tabella per il set di dati evento.
+    * `{FORMAT_STRING}` è la stringa di formato per il campo timestamp. Ad esempio: `MM/DD/YY HH12:MI AM`.
+    * `{START_DATE}` è la data di inizio. Ad esempio: `2024-01-01 00:00:00`.
+    * `{END_DATE}` è la data di fine in formato standard. Ad esempio: `2024-01-08 00:00:00`.
+
+
+  * **[!UICONTROL ID persona]**
+    * Per l’unione basata su grafico, assicurati che il grafo delle identità contenga frammenti che collegano i valori ID dallo spazio dei nomi ID persistente e dallo spazio dei nomi ID persona selezionati. Puoi eseguire un test andando sul [visualizzatore grafico identità di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} ed eseguire una query sul grafico in base ad alcuni valori di ID persistenti campione. Verifica se questi valori ID persistenti sono collegati ai valori ID persona nel grafico.
+    * Per l’unione basata sui campi, esegui la query per 7 giorni di dati in cui il campo ID persona non è nullo e dividi per una query di 7 giorni di dati per tutti gli eventi nel set di dati. Questa percentuale dovrebbe idealmente superare il 5%.
+
+      Esempio di query da utilizzare per la verifica:
+
+      ```sql
+      SELECT
+        COUNT(*) AS total_events,
+        COUNT({PERSON_ID_FIELD}) AS events_with_personid,
+        ROUND(COUNT({PERSON_ID_FIELD}) / COUNT(*), 2) AS percent_with_personid_not_null
+      FROM 
+        {DATASET_TABLE_NAME}
+      WHERE
+        TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
+        AND TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') < TIMESTAMP '{END_DATE}';
+      ```
+
+      Dove:
+
+      * `{PERSON_ID_FIELD}` è il campo per l&#39;ID persona. Ad esempio: `identityMap.crmId[0]`.
       * `{DATASET_TABLE_NAME}` è il nome della tabella per il set di dati evento.
       * `{FORMAT_STRING}` è la stringa di formato per il campo timestamp. Ad esempio: `MM/DD/YY HH12:MI AM`.
       * `{START_DATE}` è la data di inizio. Ad esempio: `2024-01-01 00:00:00`.
       * `{END_DATE}` è la data di fine in formato standard. Ad esempio: `2024-01-08 00:00:00`.
-
-
-   * **[!UICONTROL ID persona]**
-      * Per l’unione basata su grafico, assicurati che il grafo delle identità contenga frammenti che collegano i valori ID dallo spazio dei nomi ID persistente e dallo spazio dei nomi ID persona selezionati. Puoi eseguire un test andando sul [visualizzatore grafico identità di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} ed eseguire una query sul grafico in base ad alcuni valori di ID persistenti campione. Verifica se questi valori ID persistenti sono collegati ai valori ID persona nel grafico.
-      * Per l’unione basata sui campi, esegui la query per 7 giorni di dati in cui il campo ID persona non è nullo e dividi per una query di 7 giorni di dati per tutti gli eventi nel set di dati. Questa percentuale dovrebbe idealmente superare il 5%.
-
-        Esempio di query da utilizzare per la verifica:
-
-        ```sql
-        SELECT
-          COUNT(*) AS total_events,
-          COUNT({PERSON_ID_FIELD}) AS events_with_personid,
-          ROUND(COUNT({PERSON_ID_FIELD}) / COUNT(*), 2) AS percent_with_personid_not_null
-        FROM 
-          {DATASET_TABLE_NAME}
-        WHERE
-          TO_TIMESTAMP(timestamp, '{FORMAT_STRING}') >= TIMESTAMP '{START_DATE}'
-          AND TO_TIMESTAMP(timestamp, 'FORMAT_STRING') < TIMESTAMP '{END_DATE}';
-        ```
-
-        Dove:
-
-         * `{PERSON_ID_FIELD}` è il campo per l&#39;ID persona. Ad esempio: `identityMap.crmId[0]`.
-         * `{DATASET_TABLE_NAME}` è il nome della tabella per il set di dati evento.
-         * `{FORMAT_STRING}` è la stringa di formato per il campo timestamp. Ad esempio: `MM/DD/YY HH12:MI AM`.
-         * `{START_DATE}` è la data di inizio. Ad esempio: `2024-01-01 00:00:00`.
-         * `{END_DATE}` è la data di fine in formato standard. Ad esempio: `2024-01-08 00:00:00`.
 
 
 
@@ -194,8 +196,8 @@ Oltre all&#39;interfaccia standard **[!UICONTROL Anteprima set di dati]**, quand
 **[!UICONTROL Le metriche di unione]** sono calcolate utilizzando un set di dati campione con marche temporali dell&#39;evento degli ultimi 7 giorni. Questo set di dati di esempio è in genere diverso dai dati di esempio utilizzati nella tabella **[!UICONTROL Anteprima]**. Le metriche di unione forniscono dettagli per:
 
 * **[!UICONTROL Copertura ID persona]**: copertura dell&#39;ID persona selezionato utilizzata per l&#39;identificazione durante il processo di unione (in tempo reale e ripetizione).
-   * Per ottenere i migliori risultati con le unioni basate sui campi, è necessario inviare un ID persona (informazioni utente) su almeno un evento per ogni ID persistente (informazioni dispositivo).
-   * Per ottenere i migliori risultati con le unioni basate su grafico, nel grafo delle identità per ogni ID persistente deve essere presente una relazione (ID persistente, ID persona).
+  * Per ottenere i migliori risultati con le unioni basate sui campi, è necessario inviare un ID persona (informazioni utente) su almeno un evento per ogni ID persistente (informazioni dispositivo).
+  * Per ottenere i migliori risultati con le unioni basate su grafico, nel grafo delle identità per ogni ID persistente deve essere presente una relazione (ID persistente, ID persona).
 
   La copertura dell’ID persona viene visualizzata come percentuale e confrontata con quanto consigliato per uno sviluppo stabile o in una configurazione di produzione. Maggiore è il valore di copertura, migliori saranno i risultati di unione ottenuti con l’ID persona selezionato.
 
