@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: f5a7272f80aaba167974f2218bc84408d47f62d4
+source-git-commit: 2391b13373992de30834f846da2fb7b71f5279ee
 workflow-type: tm+mt
-source-wordcount: '4217'
+source-wordcount: '4250'
 ht-degree: 28%
 ---
 # Creare un feed di dati
@@ -299,6 +299,10 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    +++
 
 1. (Facoltativo) Riordina i componenti nell’area di lavoro trascinandoli. L’ordine definito viene mantenuto come ordine delle colonne nel file di feed dati esportato.
+
+1. (Facoltativo) Ridimensiona le colonne nell’area di lavoro trascinando il bordo della colonna.
+
+   Le larghezze delle colonne vengono salvate in un cookie e rimangono invariate la volta successiva che ritorni a questo feed di dati nello stesso browser.
 
 1. (Facoltativo) Modifica l’ID del componente visualizzato nell’output del feed dati.
 
