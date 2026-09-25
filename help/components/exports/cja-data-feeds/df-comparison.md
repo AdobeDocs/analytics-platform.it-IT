@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 555aef15933d87e5bbb3e3ec8b15d99a96ac25fe
+source-git-commit: ede5644096e8b1169819fb94399d5360066ca529
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1746'
 ht-degree: 0%
 ---
 # Confrontare i feed di dati in Customer Journey Analytics e Adobe Analytics
@@ -93,6 +93,7 @@ La tabella seguente confronta i concetti chiave e le opzioni di configurazione n
 | **Segmentazione**<br/> La possibilità di filtrare l&#39;output del feed dati utilizzando i segmenti. | I segmenti applicati alla visualizzazione dati vengono ereditati automaticamente dal feed di dati. Ulteriori segmenti possono essere applicati direttamente a un singolo feed di dati. Per ulteriori informazioni, vedere [Segmentazione nei feed di dati](/help/components/exports/cja-data-feeds/df-segmentation.md). | Non supportato. I feed di dati esportano tutti i dati raccolti senza filtrare i segmenti. |
 | **Metriche calcolate**<br/> Metriche personalizzate che è possibile creare dalle metriche esistenti. | Non supportati | Non supportati |
 | **Modello di persistenza**<br/> Specificare se i valori delle dimensioni persistono da un evento all&#39;altro. | Flessibile. Le impostazioni di persistenza dalla visualizzazione dati (allocazione e scadenza) vengono applicate al momento della generazione del feed. Supporta tutte le impostazioni di allocazione disponibili in una visualizzazione dati: **Originale**, **Più recente**, **Tutto**, **Primo noto** e **Ultimo noto**. | Sono rappresentati solo i modelli di attribuzione **più recenti (ultimo contatto)** e **originali (primo contatto)**. L’allocazione lineare viene gestita come l’ultimo contatto. |
+| **Gestione di eventi secondari**<br/> Rappresentazione degli eventi secondari nell&#39;output del feed dati. | Rappresentato in una singola riga, ma la gerarchia relazionale viene mantenuta. Per ulteriori informazioni, vedere [Eventi secondari nei feed di dati](/help/components/exports/cja-data-feeds/df-sub-event.md). | Rappresentata in una singola riga come una stringa delimitata e appiattita. L&#39;analisi della stringa richiede una logica personalizzata. |
 | **Formato del file di output**<br/> Formato utilizzato per i file di output del feed di dati recapitati nella destinazione cloud. | Parquet<p>Supporta in modalità nativa dati nidificati e strutturati complessi. I campi come `post_product_list` sono rappresentati come array strutturati/oggetti nidificati. </p><p>Richiede uno strumento che riconosca il Parquet per leggere, come BigQuery, Snowflake o Apache Spark.</p><p>La struttura dello schema è incorporata nel file di output.</p> | TSV<p>Righe piatte leggibili dall&#39;utente. Non supporta i dati strutturati in modo nativo; i campi complessi come gli elenchi di prodotti devono essere codificati come stringhe delimitate proprietarie che richiedono una logica di analisi personalizzata.</p> |
 | **Percorsi dei file di output**<br/> Struttura di directory utilizzata per i file di output consegnati. | Utilizza **Percorsi di partizione in stile hive** (ad esempio, `year=2024/month=01/day=15/`), consentendo l&#39;eliminazione efficiente delle partizioni durante l&#39;esecuzione di query sui dati in ambienti di data lake come Databricks o Apache Spark. | Utilizza una struttura di directory piatta. I percorsi in stile hive non sono supportati. |
 | **Destinazioni di consegna**<br/> I percorsi di archiviazione cloud in cui è possibile inviare i file di output del feed di dati. | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform. | Amazon S3, Azure RBAC, Azure SAS, Google Cloud Platform. <p>Supporta anche **SFTP**.</p> |
