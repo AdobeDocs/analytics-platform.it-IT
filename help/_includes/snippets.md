@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3121bb0b99eb5b176b9a208fa242d90f6578adbd
+source-git-commit: 2caa69c9a58df756d0991dac84ba8900b2a7bc5a
 workflow-type: tm+mt
-source-wordcount: '5542'
-ht-degree: 97%
+source-wordcount: '5602'
+ht-degree: 96%
 ---
 # Snippet
 
@@ -329,7 +329,10 @@ Non è possibile raccogliere contemporaneamente informazioni sull’agente utent
 
 ## Messaggio importante per set di dati relazionali {#relational-dataset-important}
 
+Un set di dati relazionali è basato su un tipo di schema relazionale. I descrittori di relazione definiti nello schema relazionale **non si applicano** alla definizione e alla configurazione di una connessione Customer Journey Analytics in generale o alle impostazioni del set di dati per un set di dati relazionale in particolare.
+
+Inoltre, in Customer Journey Analytics, i campi degli schemi XDM standard **non si uniscono automaticamente** con campi denominati simili di schemi relazionali.
 >[!IMPORTANT]
 >
->Un set di dati relazionali è basato su un tipo di schema relazionale. I descrittori di relazione definiti in tale schema relazionale non sono rilevanti e non si applicano alla definizione e alla configurazione di una connessione Customer Journey Analytics in generale o alle impostazioni del set di dati per un set di dati relazionale in particolare. <br/><br>Per le attività di reporting e analisi di Customer Journey Analytics, è necessario configurare in modo esplicito nelle [impostazioni del set di dati](/help/connections/create-connection.md#relational-dataset) il modo in cui i dati di un set di dati relazionale vengono uniti ad altri set di dati in base a un ID persona o a un ID account comune.
+>Per le attività di reporting e analisi di Customer Journey Analytics, è necessario configurare in modo esplicito nelle [impostazioni del set di dati](/help/connections/create-connection.md#relational-dataset) il modo in cui i dati di un set di dati relazionale vengono uniti ad altri set di dati in base a un ID persona o a un ID account comune. <br/><br/>Valuta l&#39;utilizzo della funzione [Unisci campi](/help/data-views/derived-fields/derived-fields.md#merge-fields) per unire campi denominati simili (non parte di una matrice di oggetti) negli schemi XDM e negli schemi relazionali. Per i campi in un array di oggetti al momento non esiste alcuna soluzione per unire i campi tra XDM e gli schemi correlati.
 >
