@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 2caa69c9a58df756d0991dac84ba8900b2a7bc5a
+source-git-commit: 84ab190e018bc6beb9183aba038516b21289e49f
 workflow-type: tm+mt
-source-wordcount: '10488'
-ht-degree: 91%
+source-wordcount: '10597'
+ht-degree: 90%
 ---
 # Creare o modificare una connessione {#create-or-edit-a-connection}
 
@@ -844,13 +844,13 @@ Le impostazioni specifiche per un set di dati di riepilogo sono:
 
 >[!NOTE]
 >
->Sebbene la configurazione e la selezione siano consentite, è preferibile evitare l&#39;uso di set di dati ad hoc per i dati delle serie temporali (eventi, riepilogo) così da garantire prestazioni ottimali. I set di dati relazionali o generici basati su XDM sono molto più adatti per i dati di serie temporali rispetto ai set di dati ad hoc.
+>Anche se è possibile configurare e selezionare, per motivi di prestazioni è consigliabile evitare di utilizzare un set di dati ad hoc per i dati di serie temporali (evento, riepilogo). I set di dati relazionali o generici basati su XDM sono molto più adatti per i dati di serie temporali rispetto ai set di dati ad hoc.
 
 Le impostazioni specifiche per un set di dati ad hoc sono:
 
 | Impostazione | Tipo di set di dati selezionato | Descrizione |
 |---|---|---|
-| **[!UICONTROL Tipo di set di dati]** | N/D | Il tipo di dati presenti nel set di dati ad hoc. I valori possibili sono: **[!UICONTROL Evento]**, **[!UICONTROL Profilo]**, **[!UICONTROL Ricerca]** e **[!UICONTROL Riepilogo]**. |
+| **[!UICONTROL Tipo di set di dati]** | N/D | Il tipo di dati presenti nel set di dati ad hoc. I valori possibili sono: **[!UICONTROL Event]**, **[!UICONTROL Profile]** (non disponibile per [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}), **[!UICONTROL Lookup]** e **[!UICONTROL Summary]**. Se desideri utilizzare dati di profilo ad hoc per una connessione basata su account, seleziona **[!UICONTROL Ricerca]** come **[!UICONTROL Tipo set di dati]** e utilizza **[!UICONTROL Chiave]** e **[!UICONTROL Chiave corrispondente]** per inserire i dati dell&#39;account. |
 | **[!UICONTROL ID persona]** | Evento, Profilo | Seleziona un campo dallo schema ad hoc o relazionale che rappresenta l’ID persona. Questo campo può corrispondere a qualsiasi valore presente nel set di dati. Effettua la selezione da **[!UICONTROL Campi dello spazio dei nomi identità]** o da **[!UICONTROL Campi non identitari]**. <br/>Puoi selezionare un identificatore da **[!UICONTROL Spazio dei nomi identità]** solo se uno o più campi nello schema ad hoc sono etichettati come identità e dispongono di uno spazio dei nomi identità. |
 | **[!UICONTROL Spazio dei nomi identità]** | Evento | Seleziona uno spazio dei nomi identità se hai selezionato un ID persona dai campi **[!UICONTROL non identitari]**. |
 | **[!UICONTROL Marca temporale]** | Evento, Riepilogo | Seleziona un campo dallo schema ad hoc che rappresenta il campo Marca temporale. Questo campo può essere qualsiasi campo disponibile di tipo `DateTime`. |
@@ -871,7 +871,7 @@ Le impostazioni specifiche per un set di dati relazionale sono:
 
 | Impostazione | Tipo di set di dati selezionato | Descrizione |
 |---|---|---|
-| **[!UICONTROL Tipo di set di dati]** | N/D | Il tipo di dati presenti nel set di dati relazionale.<br/>Se il set di dati contiene dati di serie temporali, i valori possibili sono: **[!UICONTROL Evento]** e **[!UICONTROL Riepilogo]**. <br/>Se il set di dati contiene dati record, i valori possibili sono: **[!UICONTROL Profilo]** e **[!UICONTROL Ricerca]**. |
+| **[!UICONTROL Tipo di set di dati]** | N/D | Il tipo di dati presenti nel set di dati relazionale.<br/>Se il set di dati contiene dati di serie temporali, i valori possibili sono: **[!UICONTROL Evento]** e **[!UICONTROL Riepilogo]**. <br/>Se il set di dati contiene dati record, i valori possibili sono: **[!UICONTROL Profilo]** (non disponibile per [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}) e **[!UICONTROL Ricerca]**. Se desideri utilizzare i dati del profilo relazionale per una connessione basata su account, seleziona **[!UICONTROL Ricerca]** come **[!UICONTROL Tipo set di dati]** e utilizza **[!UICONTROL Chiave]** e **[!UICONTROL Chiave corrispondente]** per inserire i dati dell&#39;account. |
 | **[!UICONTROL ID persona]** | Evento, Profilo | Seleziona un campo dallo schema relazionale che rappresenta l’ID persona. La selezione è limitata all’elenco dei campi presenti nello schema relazionale contrassegnati come Identità e che hanno uno spazio dei nomi identità. |
 | **[!UICONTROL Marca temporale]** | Evento, Riepilogo | Campo definito come descrittore della marca temporale nello schema. Questo campo viene compilato automaticamente. |
 | **[!UICONTROL Chiave]** | Ricerca | Chiave da utilizzare per un set di dati di ricerca.<br/>Se un record non contiene un valore per la chiave selezionata per il set di dati di ricerca, il record viene ignorato. |
