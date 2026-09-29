@@ -9,23 +9,30 @@ autotag-review: '2026-05-19T09:20:59.053Z'
 TQID: 'https://experienceleague.adobe.com/V2OisDuYtD0SxUo8OlCEMKJ5wYEWS7nfxOp2IOMQWJQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: faea9abd-7024-4c5e-a5b4-87919e09b24b
+    internal-label: Stitching
+  - id: b7fb3355-1f54-4380-bce3-d444b226c0e9
+    internal-label: Cross channel analysis
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Privacy
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1938
+source-wordcount: '1938'
 ht-degree: 82%
-
 ---
-
 # Unione delle identità basata sui campi
 
 Nell’unione basata sui campi, specifica un set di dati evento, nonché l’ID persistente (cookie) e l’ID persona per tale set di dati. L’unione basata sui campi tenta di rendere le informazioni dell’ID persona disponibili per l’analisi dei dati di Customer Journey Analytics, su qualsiasi evento anonimo fornito con un ID persistente specifico.  Tali informazioni vengono recuperate dalle righe che hanno un ID persona per tale ID persistente specifico.
@@ -112,7 +119,7 @@ L’unione delle identità esegue almeno due passaggi sui dati in un determinato
 
 - **Unione delle identità live**: tenta di unire ogni hit (evento) nel momento in cui arriva. Gli hit provenienti da dispositivi *nuovi* per il set di dati (che non si sono mai autenticati) in genere non vengono uniti questo livello. Gli hit provenienti da dispositivi già riconosciuti vengono uniti immediatamente.
 
-- **Ripetizione dell’unione delle identità**: *ripete* i dati in base a identificatori univoci (ID persona). In questa fase, gli ID provenienti da dispositivi in precedenza sconosciuti (ID persistenti) vengono uniti (agli ID persona). Due parametri determinano la ripetizione: **frequenza** e **intervallo di lookback**. Adobe offre le seguenti combinazioni di questi parametri:
+- **Ripetizione dell’unione delle identità**: *ripete* i dati in base a identificatori univoci (ID persona). In questa fase, gli hit provenienti da dispositivi in precedenza sconosciuti (ID persistenti) diventano hit con unione delle identità (con gli ID di persona). Due parametri determinano la ripetizione: **frequenza** e **intervallo di lookback**. Adobe offre le seguenti combinazioni di questi parametri:
   - **Lookback giornaliero con frequenza giornaliera**: i dati vengono ripetuti ogni giorno con un intervallo di lookback di 24 ore. Questa opzione è vantaggiosa poiché gestisce ripetizioni molto frequenti; tuttavia, richiede che i profili non autenticati effettuino l&#39;autenticazione nello stesso giorno della visita al sito.
   - **Lookback settimanale con frequenza settimanale**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback settimanale (vedi [opzioni](overview.md#options)). Questa opzione offre il vantaggio di concedere alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non uniti che hanno meno di una settimana non vengono rielaborati fino alla successiva ripetizione settimanale.
   - **Lookback bisettimanale con frequenza settimanale**: i dati vengono ripetuti una volta alla settimana con un intervallo di lookback bisettimanale (vedi [opzioni](overview.md#)). Questa opzione offre il vantaggio di concedere alle sessioni non autenticate un tempo di autenticazione molto più lungo. Tuttavia, i dati non sottoposti a unione delle identità risalenti a meno di due settimane non vengono rielaborati fino alla successiva ripetizione settimanale.

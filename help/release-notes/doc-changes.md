@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 29538d06c3b4a6db567c2a84e5785cc56af3d33d
+source-git-commit: 2c0efe27451163d9fe4fe0f60bab11151a8ac6f1
 workflow-type: tm+mt
-source-wordcount: '7124'
-ht-degree: 97%
+source-wordcount: '7162'
+ht-degree: 96%
 ---
 
 # Customer Journey Analytics - Aggiornamenti della documentazione
@@ -70,6 +70,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 |---|---|
 | **Settembre 2026** | |
+| Confronto tra aree di lavoro percorsi su frecce e abbandono | È stata aggiornata l&#39;impostazione &#39;[!UICONTROL Confronta con]&#39; in [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) per mostrare che la variazione percentuale tra gli intervalli di date ora viene visualizzata su ogni nodo, freccia e abbandono nel percorso. |
 | Post di blog incorporati | Ha incorporato i seguenti post sul blog:<ul><li>[Playbook completo per gestire &#39;Nessun valore&#39; in Adobe CJA](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=it#M598)</li><li>[Indagine approfondita sui casi di utilizzo dell&#39;uscita dei dati di Adobe Experience Platform e Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725?profile.language=it)</li></ul>nei nostri [Casi d&#39;uso sull&#39;esportazione dei dati](/help/use-cases/data-export/overview.md) e un nuovo articolo del caso d&#39;uso [Nessun valore](/help/use-cases/data-views/no-value.md). |
 | Nuove azioni di collegamento di ridimensionamento | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [ridimensionare un pannello o una visualizzazione](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization) in modo più ampio, ridotto, più alto o più breve. |
 | **Agosto 2026** | |

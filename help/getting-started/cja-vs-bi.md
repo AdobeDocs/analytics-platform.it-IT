@@ -5,33 +5,49 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-TQID: https://experienceleague.adobe.com/EQ6tDK5VUq5-OQOZtLCoaqh-HBHMsU9c8Bfizy9BcPs
+TQID: 'https://experienceleague.adobe.com/EQ6tDK5VUq5-OQOZtLCoaqh-HBHMsU9c8Bfizy9BcPs'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: aff2ef09-fc60-4018-9197-e2befd623064
+    internal-label: Anomaly detection
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Machine learning
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1680
+source-wordcount: '1680'
 ht-degree: 100%
-
 ---
-
 # Confronto tra Customer Journey Analytics e soluzioni BI
 
 Con l’attuale attenzione per l’esperienza clienti, i brand richiedono soluzioni avanzate per comprendere meglio la customer journey nel suo insieme. La comprensione di questo percorso clienti completo consente di analizzare e ottenere informazioni utili su come i canali online e offline coinvolgono l’utente e contribuiscono a incrementare le conversioni, la customer retention e la fidelizzazione. In questo contesto, un percorso potrebbe essere ad esempio il semplice ordine online di un pasto presso una catena di sushi. Oppure l’acquisto di una nuova auto, con un mix di ricerche online e visite presso una concessionaria fino all’acquisto finale di persona.
@@ -84,9 +100,9 @@ In questi componenti di visualizzazione sono incorporate funzionalità avanzate 
 
 * **Funzioni di analisi avanzate** che si incentrano specificamente sulle informazioni del percorso del cliente, come [diagrammi di flusso](/help/analysis-workspace/visualizations/c-flow/flow.md), [pannello di attribuzione](/help/analysis-workspace/c-panels/attribution.md), [diagrammi di fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) e [raggruppamenti per dimensione](/help/components/dimensions/t-breakdown-fa.md). Alcuni esempi di visualizzazioni pronte all’uso sono:
 
-   * [Analisi della conservazione dei clienti tramite tabelle coorte/di latenza](/help/analysis-workspace/visualizations/cohort-table/cohort-use-cases.md), in cui puoi semplicemente trascinare metriche/dimensioni in un generatore ed eseguire le operazioni in meno di 30 secondi,
+  * [Analisi della conservazione dei clienti tramite tabelle coorte/di latenza](/help/analysis-workspace/visualizations/cohort-table/cohort-use-cases.md), in cui puoi semplicemente trascinare metriche/dimensioni in un generatore ed eseguire le operazioni in meno di 30 secondi,
 
-   * visualizzazioni di [fallout](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) / [flusso](/help/analysis-workspace/visualizations/c-flow/create-flow.md). Configurazione in meno di un minuto.
+  * visualizzazioni di [fallout](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) / [flusso](/help/analysis-workspace/visualizations/c-flow/create-flow.md). Configurazione in meno di un minuto.
 
 * **Capacità di segmentazione in ogni fase dell’esplorazione progressiva**: ogni volta che lo ritieni opportuno, puoi pubblicare nuovamente il pubblico in Experience Platform e da lì a una qualsiasi delle destinazioni supportate.
 
@@ -94,9 +110,9 @@ In questi componenti di visualizzazione sono incorporate funzionalità avanzate 
 
 * **Cura e democratizzazione**: le dashboard create in Customer Journey Analytics possono essere:
 
-   * [curate](/help/analysis-workspace/curate-share/curate.md) per altri individui dell’organizzazione per un’esplorazione continua,
-   * esportate in Excel utilizzando [Report Builder](/help/report-builder/rb-overview.md) (un plug-in dedicato),
-   * [condivise](/help/analysis-workspace/curate-share/share-projects.md) in vari formati, tra cui [PDF](/help/analysis-workspace/export/download-send.md), [CSV](/help/analysis-workspace/export/download-send.md) e attraverso una [app mobile dedicata](/help/mobile-app/home.md), con coloro che sono interessati ai rapporti finali e/o alle visualizzazioni.
+  * [curate](/help/analysis-workspace/curate-share/curate.md) per altri individui dell’organizzazione per un’esplorazione continua,
+  * esportate in Excel utilizzando [Report Builder](/help/report-builder/rb-overview.md) (un plug-in dedicato),
+  * [condivise](/help/analysis-workspace/curate-share/share-projects.md) in vari formati, tra cui [PDF](/help/analysis-workspace/export/download-send.md), [CSV](/help/analysis-workspace/export/download-send.md) e attraverso una [app mobile dedicata](/help/mobile-app/home.md), con coloro che sono interessati ai rapporti finali e/o alle visualizzazioni.
 
 Il confronto tra le funzionalità di visualizzazione di Customer Journey Analytics con quelle offerte dagli strumenti BI è difficile a causa della varietà di visualizzazioni disponibili. Alcuni strumenti BI dispongono di visualizzazioni più avanzate, ma Customer Journey Analytics si incentra sulle visualizzazioni interattive e interoperabili del percorso clienti che ti consentono di suddividere i dati in pochi secondi senza “addebitarti” ogni query aggiuntiva.
 

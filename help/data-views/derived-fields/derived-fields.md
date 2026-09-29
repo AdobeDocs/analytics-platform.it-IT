@@ -5,30 +5,43 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-TQID: https://experienceleague.adobe.com/zpiJFUF8RnIdFQWf29FBpRznWO3Ejs-j2szx69kdMNE
+TQID: 'https://experienceleague.adobe.com/zpiJFUF8RnIdFQWf29FBpRznWO3Ejs-j2szx69kdMNE'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+    internal-label: Templates
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: f3ca85c1-72de-4df2-97ed-05753cd77c47
+    internal-label: Derived fields
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 3fcb9c403ace295c1a7e62c21d8bb444a4f9c011
+    internal-label: Email marketing
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 10442
-ht-degree: 97%
-
+source-wordcount: '10602'
+ht-degree: 98%
 ---
-
 # Campi derivati {#derived-fields}
 
 >[!CONTEXTUALHELP]
@@ -756,8 +769,8 @@ Definisce un insieme di valori che vengono sostituiti dai valori corrispondenti 
 
 ## Caso d’uso 1 {#classify-uc1}
 
-Si dispone di un file CSV che include una colonna chiave per `hotelID` e una o più colonne aggiuntive associate a `hotelID`: `city`, `rooms`, `hotel name`.
-Stai raccogliendo [!DNL Hotel ID] in una dimensione ma desideri creare una dimensione [!DNL Hotel Name] derivata da `hotelID` nel file CSV.
+Disponi di un file CSV che include una colonna chiave per `hotelID` e una o più colonne aggiuntive associate a `hotelID`: `city`, `rooms`, `hotel name`.
+Stai inserendo [!DNL Hotel ID] in una dimensione, ma desideri creare una dimensione [!DNL Hotel Name] derivata da `hotelID` nel file CSV.
 
 **Struttura e contenuto del file CSV**
 
@@ -1015,8 +1028,8 @@ In alternativa, puoi utilizzare l&#39;intervallo di date dinamico Adesso per cal
 
 Desideri comprendere il tempo di ricerca (in minuti) che precede l&#39;ordine di un cliente all&#39;interno di una sessione.
 
-Definisci un nuovo campo derivato `Time Between Search And Order In Minutes` che è il risultato di due funzioni [[!UICONTROL CASE WHEN]](#case-when) per definire i valori [!UICONTROL Tempo di ricerca] e [!UICONTROL Tempo ordine].
-Quindi puoi utilizzare questi due valori per calcolare la differenza con una funzione [!UICONTROL DATE MATH] con [!UICONTROL Scope] impostato su [!UICONTROL Session], valori impostati su [!UICONTROL Search Time] e [!UICONTROL Order Time] e [!UICONTROL Output granularity] impostato su [!UICONTROL Minute]. Per entrambi i valori si seleziona [!UICONTROL Restituisci il primo] per assicurarsi che vengano restituiti i primi [!UICONTROL Tempo di ricerca] e [!UICONTROL Orario ordine].
+Definisci un nuovo campo derivato `Time Between Search And Order In Minutes` che è il risultato di due funzioni [[!UICONTROL CASE WHEN]](#case-when) per definire i valori [!UICONTROL Orario della ricerca] e [!UICONTROL Orario dell&#39;ordine].
+Quindi utilizzi questi due valori per calcolare la differenza con una funzione [!UICONTROL CALCOLO DELLA DATA] con [!UICONTROL Ambito] impostato su [!UICONTROL Sessione], valori impostati su [!UICONTROL Orario della ricerca] e [!UICONTROL Orario dell&#39;ordine] e [!UICONTROL Granularità di output] impostato su [!UICONTROL Minuto]. Per entrambi i valori selezioni [!UICONTROL Restituisci il primo] per avere la certezza che vengano restituiti i primi riferimenti di [!UICONTROL Orario della ricerca] e [!UICONTROL Orario dell&#39;ordine].
 
 ![Schermata della regola Calcolo della data 3](assets/datemath-3.png)
 
@@ -1288,7 +1301,7 @@ Puoi inserire rapidamente una funzione [!UICONTROL Ricerca] nel generatore di re
 1. Seleziona **[!UICONTROL Campi dello schema]** dal selettore.
 1. Seleziona ![Icona campo schema](assets/Smock_Folder_18_N.svg) **[!UICONTROL Set di dati di ricerca]**.
 1. Seleziona il set di dati di ricerca e trova il campo da utilizzare per la ricerca.
-1. Trascina e rilascia il campo di ricerca in uno qualsiasi dei campi di input disponibili per una funzione (ad esempio, Caso Quando). Quando è valida, una casella blu, etichettata **[!UICONTROL + Aggiungi]**, ti consente di rilasciare il campo e inserire automaticamente una funzione di ricerca prima della funzione su cui hai rilasciato il campo di ricerca. La funzione di ricerca inserita viene compilata automaticamente con i valori rilevanti per tutti i campi.
+1. Trascina e rilascia il campo di ricerca in uno qualsiasi dei campi di input disponibili per una funzione (ad esempio, Caso When). Quando è valido, una casella blu, con etichetta **[!UICONTROL + Aggiungi]**, consente di rilasciare il campo e inserire automaticamente una funzione di ricerca prima della funzione su cui hai rilasciato il campo di ricerca. La funzione di ricerca inserita viene compilata automaticamente con i valori rilevanti per tutti i campi.
    ![Trascinamento ricerca](assets/lookup-drag.png)
 
 +++
@@ -1410,7 +1423,7 @@ Definisci un campo derivato `Corrected Annual Revenue`. Utilizzi la funzione [!U
 
 Per creare una formula:
 
-1. È sufficiente iniziare a digitare nel campo Formula e nei campi numerici che corrispondono a ciò che si digita verrà visualizzato in un menu a comparsa. In alternativa, puoi trascinare un campo numerico dai campi disponibili nel riquadro a sinistra.
+1. Inizia semplicemente a digitare nel campo Formula e i campi numerici che corrispondono a ciò che digiti verranno visualizzati in un menu a comparsa. In alternativa, puoi trascinare un campo numerico dai campi disponibili nel riquadro a sinistra.
    ![Matematica: Ulteriori informazioni 1](assets/math-more-info-1.png)
 
 1. Aggiungi l’operando (ad esempio `*` per moltiplicare) seguito da un altro campo o da un valore statico. Puoi utilizzare le parentesi per definire formule più complesse.

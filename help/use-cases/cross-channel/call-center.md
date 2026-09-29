@@ -5,26 +5,35 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-TQID: https://experienceleague.adobe.com/FTWdLEx5SD4GMgi4XJKQ20-RVsg1oRFZtEMjPXkVuYQ
+TQID: 'https://experienceleague.adobe.com/FTWdLEx5SD4GMgi4XJKQ20-RVsg1oRFZtEMjPXkVuYQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
+  - id: bf2b169f-d8b2-488a-97b9-f3bc9532e35c
+    internal-label: Use cases
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1160
+source-wordcount: '1160'
 ht-degree: 79%
-
 ---
-
 # Importare dati Web e call center
 
 Customer Journey Analytics offre la preziosa e solida capacità di combinare in un unico progetto Workspace set di dati provenienti da origini diverse. Utilizza questa guida per capire come la tua organizzazione può combinare i dati dei siti Web con i dati dei call center. Ad esempio, puoi capire quali azioni intraprende un cliente, quali contenuti visualizza e quali termini cerca prima di contattare l’assistenza clienti. Puoi quindi determinare i contenuti e gli strumenti self-service da migliorare in modo che i clienti possano risolvere meglio i problemi in autonomia senza dover contattare l’assistenza.
@@ -35,14 +44,14 @@ Customer Journey Analytics offre la preziosa e solida capacità di combinare in 
 * Accedere ad Adobe Experience Platform e Customer Journey Analytics
 * Se il set di dati include i registri di un sistema di risposta vocale interattivo, Adobe consiglia di elaborare i dati in modo da includere solo le interazioni relative alle richieste prima di importarli in Platform.
 * Se il set di dati include i registri di chiamata, Adobe consiglia di includere le colonne seguenti:
-   * Data/ora di inizio della chiamata
-   * Motivo della chiamata
-   * ID del call center
-   * ID agente del call center
-   * Durata della chiamata
-   * Esito della chiamata
-   * Costo della chiamata (se disponibile)
-   * Eventuali metadati della chiamata aggiuntivi che la tua organizzazione desidera includere
+  * Data/ora di inizio della chiamata
+  * Motivo della chiamata
+  * ID del call center
+  * ID agente del call center
+  * Durata della chiamata
+  * Esito della chiamata
+  * Costo della chiamata (se disponibile)
+  * Eventuali metadati della chiamata aggiuntivi che la tua organizzazione desidera includere
 
 ## Importare dati Web e call center in Platform
 

@@ -9,29 +9,42 @@ autotag-review: '2026-05-19T08:14:03.113Z'
 TQID: 'https://experienceleague.adobe.com/pexrlZnVd2fHINcn6W3XC7el5jnCrDZ08c-TLgX1L4E'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Administration
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1050
+source-wordcount: '1050'
 ht-degree: 63%
-
 ---
-
 # Configurare l’implementazione di Adobe Analytics Web SDK esistente per inviare i dati a Platform {#existing-websdk-implementation}
 
 <!-- markdownlint-disable MD034 -->
@@ -54,7 +67,7 @@ Considera i seguenti vantaggi e svantaggi della configurazione dell’implementa
 
 | Vantaggi | Svantaggi |
 |----------|---------|
-| Questo è il percorso di aggiornamento preferito se l’implementazione di Adobe Analytics utilizza già Web SDK.<ul><li>**Offre tutti i vantaggi dei dati di hosting in Experience Edge Network**: <p>Questi vantaggi includono:</p><ul><li>Ottime prestazioni per reporting e disponibilità dei dati, perché Adobe Experience Platform è progettato per alimentare [casi d’uso di personalizzazione in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>Consolidamento dell&#39;implementazione per la raccolta dati Adobe CX Enterprise tra altri prodotti CX Enterprise (AJO, RTCDP e così via)</li><li>Non si basa sulla nomenclatura di Adobe Analytics (prop, eVar, evento, ecc.)</li></ul><li>**Utilizza l’implementazione esistente**: sebbene questo approccio richieda alcune modifiche all’implementazione, non richiede un’implementazione completamente nuova da zero. Puoi utilizzare il livello dati e il codice esistenti apportando modifiche minime alla logica di implementazione senza influire sulla reportistica di Adobe Analytics esistente.</li><li>**Fornisce un’opzione per utilizzare uno schema XDM**: puoi scegliere di utilizzare lo schema di Adobe Analytics esistente o di creare uno schema XDM e mappare i campi nell’oggetto dati per lo schema XDM. Gli [schemi XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home#xdm-schemas) consistono in uno schema flessibile per definire tutti i campi necessari e solo quelli rilevanti. <p>Per ulteriori informazioni sui vantaggi derivanti dall’utilizzo dello schema XDM, consulta “Utilizzo del proprio schema XDM” di seguito.</p></li><li>**Conserva regole ed elementi di dati**: sebbene richieda nuove azioni relative alle regole, puoi riutilizzare gli elementi di dati esistenti e le condizioni delle regole con modifiche minime.</li><li>**All’avanguardia**: se scegli di utilizzare lo schema XDM, i futuri aggiornamenti dell’implementazione saranno più semplici.</li></ul> | <ul><li>**Richiede la mappatura per inviare i dati a Platform**: quando l’organizzazione è pronta per utilizzare Customer Journey Analytics, devi inviare i dati a un set di dati in Adobe Experience Platform. Questa azione richiede che ogni campo nell’oggetto dati sia una voce nello strumento di mappatura del flusso di dati che lo assegna a un campo dello schema XDM. La mappatura deve essere eseguita solo una volta per questo flusso di lavoro e non implica l’apportazione di modifiche all’implementazione. Tuttavia, si tratta di un passaggio aggiuntivo non richiesto quando si inviano dati in un oggetto XDM.</li><li>**Introduce ulteriore complessità nel tempo**: qualsiasi campo aggiunto in futuro deve essere mappato a XDM nello stream di dati.<p>Ogni volta che un nuovo campo viene aggiunto all’implementazione, è possibile effettuare una delle seguenti operazioni:</p><ul><li>**Opzione 1:** compila una nuova eVar arbitraria o una nuova proprietà nell&#39;oggetto dati, quindi mappala al campo XDM desiderato.<p>Questo processo favorisce la coerenza per l’implementazione lato client, ma richiede la mappatura.</p></li><li>**Opzione 2:** Lascia l&#39;oggetto dati come implementazione legacy e inizia a popolare solo l&#39;oggetto XDM per tutti i nuovi campi.<p>Questo processo non richiede la mappatura, ma significa che alcune delle variabili si trovano solo in un oggetto dati, mentre altre variabili si trovano solo in un oggetto XDM. Ogni volta che hai bisogno di risolvere un problema di implementazione, devi passare a due posizioni. Assicurati che i flussi di lavoro interni siano adatti a questo scopo.</p></li></ul> |
+| Questo è il percorso di aggiornamento preferito se l’implementazione di Adobe Analytics utilizza già Web SDK.<ul><li>**Offre tutti i vantaggi dei dati di hosting in Experience Edge Network**: <p>Questi vantaggi includono:</p><ul><li>Ottime prestazioni per reporting e disponibilità dei dati, perché Adobe Experience Platform è progettato per alimentare [casi d’uso di personalizzazione in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>Consolidamento dell’implementazione per la raccolta dati di Adobe CX Enterprise tra altri prodotti CX Enterprise (AJO, RTCDP e così via)</li><li>Non si basa sulla nomenclatura di Adobe Analytics (prop, eVar, evento, ecc.)</li></ul><li>**Utilizza l’implementazione esistente**: sebbene questo approccio richieda alcune modifiche all’implementazione, non richiede un’implementazione completamente nuova da zero. Puoi utilizzare il livello dati e il codice esistenti apportando modifiche minime alla logica di implementazione senza influire sulla reportistica di Adobe Analytics esistente.</li><li>**Fornisce un’opzione per utilizzare uno schema XDM**: puoi scegliere di utilizzare lo schema di Adobe Analytics esistente o di creare uno schema XDM e mappare i campi nell’oggetto dati per lo schema XDM. Gli [schemi XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home#xdm-schemas) consistono in uno schema flessibile per definire tutti i campi necessari e solo quelli rilevanti. <p>Per ulteriori informazioni sui vantaggi derivanti dall’utilizzo dello schema XDM, consulta “Utilizzo del proprio schema XDM” di seguito.</p></li><li>**Conserva regole ed elementi di dati**: sebbene richieda nuove azioni relative alle regole, puoi riutilizzare gli elementi di dati esistenti e le condizioni delle regole con modifiche minime.</li><li>**All’avanguardia**: se scegli di utilizzare lo schema XDM, i futuri aggiornamenti dell’implementazione saranno più semplici.</li></ul> | <ul><li>**Richiede la mappatura per inviare i dati a Platform**: quando l’organizzazione è pronta per utilizzare Customer Journey Analytics, devi inviare i dati a un set di dati in Adobe Experience Platform. Questa azione richiede che ogni campo nell’oggetto dati sia una voce nello strumento di mappatura del flusso di dati che lo assegna a un campo dello schema XDM. La mappatura deve essere eseguita solo una volta per questo flusso di lavoro e non implica l’apportazione di modifiche all’implementazione. Tuttavia, si tratta di un passaggio aggiuntivo non richiesto quando si inviano dati in un oggetto XDM.</li><li>**Introduce ulteriore complessità nel tempo**: qualsiasi campo aggiunto in futuro deve essere mappato a XDM nello stream di dati.<p>Ogni volta che un nuovo campo viene aggiunto all’implementazione, è possibile effettuare una delle seguenti operazioni:</p><ul><li>**Opzione 1:** compila una nuova eVar arbitraria o una nuova proprietà nell&#39;oggetto dati, quindi mappala al campo XDM desiderato.<p>Questo processo favorisce la coerenza per l’implementazione lato client, ma richiede la mappatura.</p></li><li>**Opzione 2:** Lascia l&#39;oggetto dati come implementazione legacy e inizia a popolare solo l&#39;oggetto XDM per tutti i nuovi campi.<p>Questo processo non richiede la mappatura, ma significa che alcune delle variabili si trovano solo in un oggetto dati, mentre altre variabili si trovano solo in un oggetto XDM. Ogni volta che hai bisogno di risolvere un problema di implementazione, devi passare a due posizioni. Assicurati che i flussi di lavoro interni siano adatti a questo scopo.</p></li></ul> |
 
 {style="table-layout:auto"}
 

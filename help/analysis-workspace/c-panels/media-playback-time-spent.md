@@ -4,26 +4,33 @@ description: Scopri come utilizzare e interpretare il pannello Tempo di riproduz
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-TQID: https://experienceleague.adobe.com/aMKmtHsJjyfBC6Nh1fpfUcb1XLZ8-71td-6mlZRqgTI
+TQID: 'https://experienceleague.adobe.com/aMKmtHsJjyfBC6Nh1fpfUcb1XLZ8-71td-6mlZRqgTI'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: e634a07b-b7ca-4af3-a124-3024ce559e17
+    internal-label: Workspace panels
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Troubleshooting
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: '1119'
 ht-degree: 86%
-
 ---
-
 # Pannello Tempo trascorso per la riproduzione di file multimediali {#media-playback-time-spent-panel}
 
 <!-- markdownlint-disable MD034 -->
@@ -104,7 +111,7 @@ Puoi configurare il pannello Media Playback Time Spent (Tempo di riproduzione de
 | Panel summary numbers (Numeri di riepilogo del pannello) | Per visualizzare i dettagli di data o ora per il tempo di riproduzione trascorso, è disponibile un numero di riepilogo. Il valore Maximum (Massimo) mostra i dettagli del picco di concorrenza. Il valore Minimum (Minimo) mostra i dettagli del valore più basso. Somma effettua la somma del tempo totale di riproduzione trascorso per la selezione. Per impostazione predefinita, il pannello mostra solo il valore Maximum (Massimo), ma puoi impostarlo su Minimum (Minimo), Sum (Somma) o qualsiasi combinazione dei tre.<br>Se utilizzi i raggruppamenti, per ciascuno viene visualizzato un numero di riepilogo. |
 | Raggruppamento per serie | Facoltativamente, puoi suddividere la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date.<p>- È possibile visualizzare fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello.</p><p>- Quando viene trascinata una dimensione, gli elementi dimensionali principali vengono selezionati automaticamente in base all’intervallo di date del pannello selezionato.</p>- Per confrontare intervalli di date, trascina 2 o più intervalli di date nel segmento di raggruppamento di serie. |
 | Formato ora | È possibile visualizzare il tempo di riproduzione trascorso in `Hours:Minutes:Seconds` (impostazione predefinita) o in `Minutes` (visualizzati in numeri interi, arrotondati a 0,5). |
-| Visualizzazione della sequenza di date | Se hai inserito almeno due segmenti di intervallo di date come raggruppamenti di serie, visualizzerai l’opzione per selezionare tra sovrapposizione, (predefinita) o sequenziale. La sovrapposizione mostra le linee con un inizio comune dell’asse X, in modo che siano parallele, mentre la sequenziale mostra le linee con il proprio inizio specifico dell’asse X. Se i dati sono allineati (ad esempio, il segmento 1 termina alle 20:44 e il segmento 2 inizia alle 20:45), le righe vengono visualizzate in sequenza. |
+| Visualizzazione della sequenza di date | Se hai inserito almeno due segmenti di intervallo di date come raggruppamenti di serie, visualizzerai l’opzione per selezionare tra sovrapposizione, (predefinita) o sequenziale. La sovrapposizione mostra le linee con un inizio comune dell’asse X, in modo che siano parallele, mentre la sequenziale mostra le linee con il proprio inizio specifico dell’asse X. Se i dati sono allineati (ad esempio, il segmento 1 termina alle 20:44 e il segmento 2 inizia alle 20:45), le linee vengono visualizzate in sequenza. |
 
 
 ![Visualizzazione predefinita del tempo trascorso sul playbook dei contenuti multimediali.](assets/mpts_default_view.png)

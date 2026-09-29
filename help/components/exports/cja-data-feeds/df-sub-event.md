@@ -3,7 +3,18 @@ title: Informazioni su eventi secondari e array di oggetti nei feed di dati
 description: Scopri in che modo i feed di dati di Customer Journey Analytics esportano gli eventi secondari dagli array di schema, preservando la gerarchia invece di "appiattirli" come fa Workspace.
 hide: true
 feature: Components
-source-git-commit: afc1b55eb54b5f3342800489d0a7f63508ee8b10
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 1%

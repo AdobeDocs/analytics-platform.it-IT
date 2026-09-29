@@ -4,27 +4,37 @@ title: Panoramica reportistica in tempo reale
 feature: Real-time Reporting
 role: User
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-TQID: https://experienceleague.adobe.com/Nvg6DVqDq-IwyPJgyDH2nOmNG41-aCRAYohlj7tjrj4
+TQID: 'https://experienceleague.adobe.com/Nvg6DVqDq-IwyPJgyDH2nOmNG41-aCRAYohlj7tjrj4'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
+  - id: d1779026-aeed-458e-a1c7-839d4acac922
+    internal-label: Real-time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d682e1e729402bff7a3f6e3625402f57deee21ad
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 855
+source-wordcount: '855'
 ht-degree: 6%
-
 ---
-
 # Panoramica reportistica in tempo reale
 
 Il reporting in tempo reale in Customer Journey Analytics mostra e aggiorna dati e visualizzazioni in uno o più pannelli di Analysis Workspace in tempo reale.
@@ -43,16 +53,16 @@ Questa sezione fornisce una panoramica dei casi d’uso tipici di valore e meno 
 * I casi d’uso più importanti per la generazione di rapporti in tempo reale riguardano vendite, promozioni o lanci di prodotti importanti.
 Come parte di quel lancio, vuoi sapere:
 
-   * Qual è il rapporto tra le vendite e l&#39;ultima vendita?
-   * Quali sono le differenze tra il lancio di questo prodotto e quello dell&#39;ultimo?
-   * Le tue promozioni per questo giorno importante o evento funzionano davvero?
+  * Qual è il rapporto tra le vendite e l&#39;ultima vendita?
+  * Quali sono le differenze tra il lancio di questo prodotto e quello dell&#39;ultimo?
+  * Le tue promozioni per questo giorno importante o evento funzionano davvero?
 
 * I casi d’uso rilevanti ma meno importanti per la generazione di rapporti in tempo reale sono casi d’uso di convalida.
 Desideri convalidare, ad esempio:
 
-   * Il percorso della campagna che hai lanciato di recente funziona davvero?
-   * Quando la nuova pagina di prodotto viene pubblicata, raccogli i dati dei clienti dalla pagina?
-   * Il tuo evento multimediale in diretta va bene?
+  * Il percorso della campagna che hai lanciato di recente funziona davvero?
+  * Quando la nuova pagina di prodotto viene pubblicata, raccogli i dati dei clienti dalla pagina?
+  * Il tuo evento multimediale in diretta va bene?
 
 Non considerare la generazione di rapporti in tempo reale per i casi di utilizzo relativi al monitoraggio delle operazioni. Ad esempio, per rispondere alla domanda se un sito funziona correttamente. Poiché l&#39;[aggiornamento in tempo reale](use-real-time.md) viene disattivato automaticamente dopo 30 minuti e il report in tempo reale non viene più aggiornato, non utilizzare un report in tempo reale come origine affidabile per questi casi d&#39;uso.
 
@@ -88,5 +98,5 @@ Tieni presente le seguenti limitazioni per la generazione di rapporti in tempo r
 * Non è possibile combinare l’unione con il reporting in tempo reale. Il reporting in tempo reale riguarda i dati a livello di evento e di sessione ed è meno rilevante per i dati basati su persone.
 * Non sono disponibili metriche per elementi multimediali raccolti con heartbeat, ad eccezione delle metriche di avvio e chiusura dei contenuti multimediali. Pertanto, puoi comunque utilizzare la reportistica in tempo reale per abilitare un caso d’uso dei contenuti multimediali.
 * Quando utilizzi le [opzioni di download o esportazione](/help/analysis-workspace/export/download-send.md) per scaricare un progetto o esportare dati da una tabella a forma libera, considera quanto segue:
-   * Un progetto CSV scaricato o un file CSV esportato contiene i dati in tempo reale disponibili al momento del download o dell’esportazione.
-   * Un progetto PDF scaricato contiene dati non in tempo reale, simili a quelli visualizzati quando l’aggiornamento in tempo reale è disattivato.
+  * Un progetto CSV scaricato o un file CSV esportato contiene i dati in tempo reale disponibili al momento del download o dell’esportazione.
+  * Un progetto PDF scaricato contiene dati non in tempo reale, simili a quelli visualizzati quando l’aggiornamento in tempo reale è disattivato.
