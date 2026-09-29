@@ -2,7 +2,7 @@
 title: Creare O Modificare Una Configurazione Di Informazioni Sulla Conversazione
 description: Scopri come configurare le configurazioni di Informazioni sulla conversazione.
 solution: Customer Journey Analytics
-feature: Content Analytics
+feature: AI Tools
 role: Admin, User
 hold: true
 product_v2:
@@ -11,23 +11,22 @@ product_v2:
 feature_v2:
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
     internal-label: Components
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-    internal-label: Content Analytics
+  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
+    internal-label: AI Tools
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 8%
+source-wordcount: '654'
+ht-degree: 7%
 ---
-# Creare o modificare configurazioni
+# Creare o modificare le configurazioni
 
-
-Conversation Insights consente di analizzare le conversazioni (da modelli di linguaggio di grandi dimensioni (LLM, Large Language Model) o umani) su larga scala e di contestualizzarle all’interno dell’intero percorso di clienti. Tramite Informazioni sulla conversazione sei in grado di comprendere l’impatto dei rappresentanti sui risultati effettivi degli utenti.
+Informazioni sulla conversazione consente di analizzare le conversazioni dalle esperienze agente offerte ai clienti. Queste esperienze agente possono essere basate su modelli di linguaggio di grandi dimensioni (Large Language Model, LLM) o su conversazioni umane. Ad esempio, un chatbot che interagisce con le trascrizioni di un cliente o di un call center.
+Tramite Informazioni sulla conversazione sei in grado di comprendere l’impatto dei rappresentanti sui risultati effettivi degli utenti.
 
 Tramite l’interfaccia di configurazione di Informazioni sulla conversazione puoi creare o modificare rapidamente una configurazione e gli artefatti associati (connessione, visualizzazioni dati e altro).
 
@@ -102,7 +101,7 @@ Per ogni configurazione:
 
    * Seleziona **[!UICONTROL Elimina]** per una nuova configurazione non creata.
 
-   * Seleziona **[!UICONTROL Salva per dopo]** per una nuova configurazione da salvare, ma non desideri creare l&#39;artefatto per (ad esempio, aggiornamenti alle visualizzazioni dati). In questo modo, puoi rivedere la configurazione in un secondo momento e terminare la creazione effettiva della configurazione.
+   * Seleziona **[!UICONTROL Salva per dopo]** per una nuova configurazione da salvare, ma non desideri creare l&#39;artefatto per (ad esempio, aggiornamenti alle visualizzazioni dati). Puoi rivedere la configurazione in un secondo momento e terminare la creazione effettiva della configurazione.
 
    * Seleziona **[!UICONTROL Crea]** per creare la nuova configurazione.
 
