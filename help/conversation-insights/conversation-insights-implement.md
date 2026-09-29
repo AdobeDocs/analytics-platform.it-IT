@@ -2,7 +2,7 @@
 title: Implementare informazioni sulla conversazione
 description: Scopri come gestire l’applicazione o il servizio agente per Informazioni su conversazioni.
 solution: Customer Journey Analytics
-feature: Content Analytics
+feature: AI Tools
 role: Admin, User
 hold: true
 product_v2:
@@ -11,17 +11,16 @@ product_v2:
 feature_v2:
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
     internal-label: Components
-subfeature_v2:
-  - id: ad5685a0-8296-4a0c-814c-658c10b4af12
-    internal-label: Content Analytics
+  - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
+    internal-label: AI Tools
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2322'
 ht-degree: 6%
 ---
 # Implementare informazioni sulla conversazione
@@ -33,19 +32,19 @@ Questo articolo documenta i passaggi di implementazione richiesti.
 >[!PREREQUISITES]
 >
 >* Per raccogliere i dati è necessario disporre di un ambiente Experience Platform (organizzazione e sandbox).
->* L’organizzazione Adobe deve essere abilitata per i gruppi di campi agente sperimentale e di conversazione.
+>* L’organizzazione Adobe deve essere abilitata per i gruppi di campi agente e di conversazione.
 >
 
 ## Schema e set di dati
 
-Configura i set di dati per gli eventi di conversazione principali: prompt, risposta, feedback. Questi set di dati possono essere basati sullo stesso schema (ad esempio, uno schema generico di Informazioni sulla conversazione) o su singoli schemi.
-Puoi definire set di dati separati per prompt, risposte e feedback oppure combinare dati in set di dati. Ad esempio, utilizza un set di dati per prompt e risposte e un altro set di dati per il feedback. In alternativa, utilizza un singolo set di dati per tutti gli eventi di conversazione.
+Configura i set di dati per gli eventi di conversazione principali: prompt, risposta, feedback. I set di dati di prompt, risposta e feedback devono estendere lo schema di base dell&#39;evento esperienza XDM con il gruppo di campi [Evento di conversazione](#conversation-event-field-group) e possono facoltativamente includere il [gruppo di campi Informazioni agenti](#agentic-information-field-group) e altri [gruppi di campi aggiuntivi](#additional-field-groups).
 
-Lo schema utilizzato per i set di dati di prompt, risposta e feedback deve estendere lo schema di base XDM Experience Event con i gruppi di campi obbligatori. E può estendere lo schema di base XDM Experience Event con gruppi di campi aggiuntivi.
+Puoi definire set di dati separati per prompt, risposte e feedback oppure combinare dati in set di dati. Ad esempio, utilizza un set di dati per prompt e risposte e un altro set di dati per il feedback. In alternativa, utilizza un singolo set di dati per tutti gli eventi di conversazione.
+Utilizza lo stesso schema sottostante per i set di dati.
 
 ### Gruppo di campi Informazioni agente
 
-Il gruppo di campi **[!UICONTROL Informazioni sull&#39;agente]** è obbligatorio e utilizza l&#39;oggetto `agenticExperience`.
+Il gruppo di campi **[!UICONTROL Informazioni sull&#39;agente]** è facoltativo e utilizza l&#39;oggetto `agenticExperience`. Valuta l’utilizzo di questo gruppo di campi per tenere traccia delle informazioni sugli agenti.
 
 +++ Dettagli
 
@@ -217,7 +216,7 @@ L&#39;oggetto di conversazione acquisisce i dati per:
 
 #### Conversazione
 
-Un `conversationID` univoco identifica una conversazione. Ad esempio: `conversationID = "conv-001"`. Lo schema supporta anche `conversationName`. Nome leggibile che descrive il contesto generale della conversazione, ad esempio: `France Geography Q&A`.
+Un `conversationID` univoco identifica una conversazione. Ad esempio: `conversationID = "conv-001"`. Lo schema supporta anche `conversationName`. Nome leggibile che descrive il contesto generale della conversazione, ad esempio: `France Geography Q&A`. Il nome della conversazione viene generato automaticamente, ma puoi aggiornarlo. Il nome della conversazione viene popolato anche in `signals[].name`.
 
 `conversationID` consente di raggruppare tutti gli eventi di turni correlati nella stessa esperienza di conversazione.
 
@@ -230,7 +229,7 @@ Un turno è un ciclo di interazione all&#39;interno di una conversazione.
 `conversationID = "conv-001"`
 `turnID = "turn-001"`
 
-Gli stessi `conversationID` e `turnID` vengono utilizzati per correlare i prompt, la risposta e il feedback associati a tale turno. Tale correlazione funziona tra record consegnati separatamente o finiti in set di dati diversi.
+Gli stessi `conversationID` e `turnID` vengono utilizzati per correlare i prompt, la risposta e il feedback associati a tale turno. Tale correlazione funziona tra record consegnati separatamente o finiti in set di dati diversi. Un elemento `turnId` deve essere univoco all&#39;interno della stessa conversazione, ma può essere riutilizzato in tutte le conversazioni. Ad esempio, è possibile avere `turn-001` come `turnID` nelle conversazioni con `conversationID` `conv-001` e `conv-002`.
 
 
 #### Prompt
@@ -245,7 +244,7 @@ I campi di richiesta importanti includono:
 |---|---|
 | `prompt.source` | Chi o cosa ha prodotto il prompt, solitamente l’utente finale. |
 | `prompt.raw[]` | Uno o più segmenti di contenuto non elaborato. |
-| `prompt.raw[].text` | Il testo o il contenuto effettivo del prompt. |
+| `prompt.raw[].text` | Il testo del prompt o il collegamento al contenuto effettivo (ad esempio, una schermata). |
 | `prompt.raw[].purpose` | Lo scopo del contenuto, ad esempio Input utente o collegamento. |
 
 Un prompt può contenere più segmenti non elaborati. Ad esempio, un utente immette del testo e include un URL.
@@ -271,6 +270,8 @@ I campi di risposta importanti includono:
 | `response.raw[].purpose` | Lo scopo del segmento di contenuto. |
 
 I tipi di origine documentati includono:
+
+<!-- randy buck to provide additional details -->
 
 | Origine | Significato |
 |---|----|
@@ -301,7 +302,9 @@ Quando il feedback si applica a un particolare turno, conserva i `conversationID
 
 #### Segnale
 
-Un segnale è un’osservazione analitica strutturata sul contenuto di una conversazione. Il servizio di estrazione del segnale estrae i segnali.
+Un segnale è un’osservazione analitica strutturata sul contenuto di una conversazione. Il servizio di segnale fornisce segnali predefiniti. Non è richiesta alcuna azione per fornire i segnali, ma puoi aggiungere segnali come parte dell’integrazione.
+
+<!-- randy buck to provide additional details -->
 
 Un segnale ha i seguenti campi.
 
@@ -374,9 +377,6 @@ Per informazioni complete su un oggetto di conversazione, vedere di seguito.
 
 +++
 
-
-
-
 ### Gruppi di campi aggiuntivi
 
 Puoi aggiungere gruppi di campi facoltativi allo schema utilizzato per i set di dati di prompt, risposta e feedback. Ad esempio:
@@ -396,9 +396,9 @@ Questo documento descrive i requisiti di input di MVP per Informazioni sulla con
 
 | Valore | Spiegazione |
 |---|---|
-| `conversation turn` | Completa la conversazione con prompt e risposta |
-| `conversation recommendation` | Consigli basati su conversazioni |
-| `conversation feedback` | Evento di solo feedback |
+| `conversation.turn` | Completa la conversazione con prompt e risposta |
+| `conversation.recommendation` | Consigli basati su conversazioni |
+| `conversation.feedback` | Evento di solo feedback |
 
 
 ### Tipo di Source
@@ -415,6 +415,8 @@ Questo documento descrive i requisiti di input di MVP per Informazioni sulla con
 ### Tipo di scopo (testo non elaborato)
 
 È necessario impostare uno dei seguenti valori per l&#39;attributo `purpose` su qualsiasi elemento dell&#39;oggetto `raw` in un oggetto `prompt`, `response` o `feedback`.
+
+<!-- randy buck to provide details -->
 
 | Valore | Descrizione |
 |---|---|

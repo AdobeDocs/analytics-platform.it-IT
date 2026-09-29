@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 6acb1ca076e28e8da4bbc1920837cea9216777e1
 workflow-type: tm+mt
-source-wordcount: '10597'
-ht-degree: 90%
+source-wordcount: '10738'
+ht-degree: 89%
 ---
 # Creare o modificare una connessione {#create-or-edit-a-connection}
 
@@ -726,7 +726,29 @@ Tutti i set di dati e i tipi di set di dati hanno [dettagli e impostazioni gener
 
 
 
-#### Set di dati evento
+#### Set di dati evento {#event-dataset-settings}
+
+<!-- RIdM: Lengthy contextual help due to not yey allowed public facing docs. Modify when public facing docs are allowed. -->
+
+>[!CONTEXTUALHELP]
+>id="connection_eventdataset_rowfilter"
+>title="Abilita filtro righe"
+>abstract="I filtri di riga determinano quali eventi vengono acquisiti in Customer Journey Analytics. Vengono acquisiti solo gli eventi che corrispondono alle regole di inclusione. Tutti gli altri eventi verranno esclusi definitivamente e non saranno disponibili per il reporting, la segmentazione o l’analisi in Customer Journey Analytics.<ul><li>Puoi creare fino a 10 filtri.</li><li> Le modifiche ai filtri si applicano solo ai nuovi dati acquisiti dopo la modifica e non influiscono retroattivamente sui dati precedentemente acquisiti o attivano una retrocompilazione cronologica.</li></ul>"
+
+>[!CONTEXTUALHELP]
+>id="connection_eventdataset_rowfilter_field"
+>title="Campo"
+>abstract="Seleziona un campo dal set di dati dell’evento da utilizzare per la condizione. Puoi utilizzare qualsiasi campo di qualsiasi tipo."
+
+>[!CONTEXTUALHELP]
+>id="connection_eventdataset_rowfilter_operator"
+>title="Condizione"
+>abstract="Seleziona un operatore. L’operatore viene utilizzato per convalidare il campo selezionato in base ai valori."
+
+>[!CONTEXTUALHELP]
+>id="connection_eventdataset_rowfilter_values"
+>title="Valori"
+>abstract="Immettere uno o più valori. Viene utilizzato il valore stringa esatto. Usa una virgola per separare i valori. Ogni valore separato da virgole è considerato distinto ed è incluso nella condizione."
 
 Le impostazioni specifiche per un set di dati evento dipendono dal tipo di connessione.
 
