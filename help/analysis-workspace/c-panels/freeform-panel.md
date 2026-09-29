@@ -35,7 +35,7 @@ ht-degree: 46%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello a forma libera in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Consulta il [pannello a forma libera](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
+_Questo articolo documenta il pannello a forma libera in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Consulta il [pannello a forma libera](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

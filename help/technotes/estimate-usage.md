@@ -36,11 +36,11 @@ ht-degree: 37%
 
 >[!TIP]
 >
->Utilizza l&#39;interfaccia [**[!UICONTROL Usage ]**](/help/connections/manage-connections.md#usage) per** visualizzare **l&#39;utilizzo delle righe acquisite e segnalabili in tutte le connessioni in Customer Journey Analytics.
+>Utilizza l&#39;interfaccia [**[!UICONTROL Usage &#x200B;]**](/help/connections/manage-connections.md#usage) per **&#x200B; visualizzare &#x200B;** l&#39;utilizzo delle righe acquisite e segnalabili in tutte le connessioni in Customer Journey Analytics.
 
 
 
-Puoi gestire l&#39;utilizzo di Customer Journey Analytics nell&#39;interfaccia [**[!UICONTROL Connessioni ]**](/help/connections/create-connection.md). In questa interfaccia è possibile definire la conservazione dei dati di Customer Journey Analytics come finestra continua in mesi (1 mese, 3 mesi, 6 mesi, ecc.), a livello di connessione.
+Puoi gestire l&#39;utilizzo di Customer Journey Analytics nell&#39;interfaccia [**[!UICONTROL Connessioni &#x200B;]**](/help/connections/create-connection.md). In questa interfaccia è possibile definire la conservazione dei dati di Customer Journey Analytics come finestra continua in mesi (1 mese, 3 mesi, 6 mesi, ecc.), a livello di connessione.
 
 Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.
 

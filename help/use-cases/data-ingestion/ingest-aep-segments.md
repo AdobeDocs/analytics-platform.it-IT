@@ -126,7 +126,7 @@ Dove:
 
 ### Esporta tipi di pubblico
 
-Esporta il pubblico selezionato nel set di dati appena creato. Utilizza l&#39;API del servizio di segmentazione [ per creare un processo di esportazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#create) che invia i tipi di pubblico al set di dati.
+Esporta il pubblico selezionato nel set di dati appena creato. Utilizza l&#39;API del servizio di segmentazione [&#x200B; per creare un processo di esportazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#create) che invia i tipi di pubblico al set di dati.
 
 +++ Esporta richiesta processo
 
@@ -194,7 +194,7 @@ Dove
 
 +++
 
-Utilizza l&#39;API del servizio di segmentazione [ per controllare lo stato del processo di esportazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#get).
+Utilizza l&#39;API del servizio di segmentazione [&#x200B; per controllare lo stato del processo di esportazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#get).
 
 +++ Recuperare una richiesta di processo di esportazione specifica
 
@@ -359,11 +359,11 @@ Nell’interfaccia utente di Experience Platform:
    1. Selezionare **[!UICONTROL Profilo individuale]**.
    1. Seleziona **[!UICONTROL Avanti]**.
 1. Nella procedura guidata **[!UICONTROL Crea schema]**, nel passaggio **[!UICONTROL Nome e revisione]**:
-   1. Immettere un nome visualizzato per lo schema ****. Ad esempio: `Audience Export for CJA Schema`.
+   1. Immettere un nome visualizzato per lo schema **&#x200B;**. Ad esempio: `Audience Export for CJA Schema`.
    1. (facoltativo) Immetti una **[!UICONTROL Descrizione]**.
    1. Seleziona **[!UICONTROL Fine]**.
 1. Imposta lo schema in modo che contenga un gruppo di campi personalizzato (denominato, ad esempio, **[!UICONTROL Appartenenza pubblico]**) contenente due campi denominati **[!UICONTROL audienceMembershipId]** e **[!UICONTROL audienceMembershipName]**.
-1. Assicurati che il campo **[!UICONTROL personID]** sia un **[!UICONTROL Identity]**, **[!UICONTROL Primary Identity]** e che contenga **[!UICONTROL Email]** come I**[!UICONTROL dentity namespace]**.
+1. Assicurati che il campo **[!UICONTROL personID]** sia un **[!UICONTROL Identity]**, **[!UICONTROL Primary Identity]** e che contenga **[!UICONTROL Email]** come I&#x200B;**[!UICONTROL dentity namespace]**.
 
    ![Segmento per esportazione](assets/segment-for-export.png)
 

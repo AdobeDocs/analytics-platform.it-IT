@@ -44,7 +44,7 @@ ht-degree: 74%
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo viene documentata la visualizzazione Abbandono in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_Vedere [Abbandono](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
+_In questo articolo viene documentata la visualizzazione Abbandono in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_Vedere [Abbandono](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

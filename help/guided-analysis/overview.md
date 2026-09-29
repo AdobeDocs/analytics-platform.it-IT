@@ -68,7 +68,7 @@ Sono disponibili le seguenti analisi guidate:
 
 Puoi accedere all’Analisi guidata dalla pagina Home di Customer Journey Analytics.
 
-1. Seleziona **[!UICONTROL Analisi guidata]** dalla home page, che ti porta direttamente all&#39;analisi delle tendenze [](types/trends.md).
+1. Seleziona **[!UICONTROL Analisi guidata]** dalla home page, che ti porta direttamente all&#39;analisi delle tendenze [&#128279;](types/trends.md).
 
    ![Riquadro della pagina di destinazione](assets/landing-page-tile.png){style="border:1px solid gray"}
 

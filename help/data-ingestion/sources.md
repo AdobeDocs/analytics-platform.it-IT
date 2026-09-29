@@ -103,7 +103,7 @@ Per configurare lo schema:
 
    1. Immetti un **[!UICONTROL nome visualizzato dello schema]** per lo schema e (facoltativo) una **[!UICONTROL Descrizione]**.
 
-      ![Finestra Crea schema con i campi per denominare lo schema ](./assets/create-pr-schema-wizard-step-2.png)
+      ![Finestra Crea schema con i campi per denominare lo schema &#x200B;](./assets/create-pr-schema-wizard-step-2.png)
 
    1. Seleziona **[!UICONTROL Fine]**.
 
