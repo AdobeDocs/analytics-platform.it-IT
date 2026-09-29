@@ -5,30 +5,44 @@ exl-id: a89694c9-0909-440e-939c-b245fc4dd6bf
 solution: Customer Journey Analytics
 feature: Basics
 role: Admin
-TQID: https://experienceleague.adobe.com/95ZvIc4JM3aNY2zO6ypn-KmLrIdZ8DZga4vrOcl9Yzs
+TQID: 'https://experienceleague.adobe.com/95ZvIc4JM3aNY2zO6ypn-KmLrIdZ8DZga4vrOcl9Yzs'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+    internal-label: Content Analytics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: cc092ab1-90ba-4bbc-b4c6-6249d87daf5c
+    internal-label: Audiences
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
   - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+    internal-label: Alerts
   - id: ef46ac31-f951-48d6-bae5-51c52ab47fb8
+    internal-label: Exports
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: de8f8e06f074fdcb0219ce7286785d870c2093b4
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: '997'
 ht-degree: 3%
-
 ---
-
 # Implicazioni relative all’eliminazione e al ripristino
 
 L’eliminazione o la reimpostazione di oggetti Customer Journey Analytics o Experience Platform non ha implicazioni. Queste implicazioni sono descritte in questo articolo.
@@ -55,5 +69,5 @@ Considera le seguenti implicazioni prima di eliminare set di dati o batch o quan
 | Elimina un set di dati in [!UICONTROL Experience Platform] | Il flusso di dati da tale set di dati in Experience Platform si arresta su qualsiasi connessione che include tale set di dati. Eventuali dati provenienti da tale set di dati vengono eliminati automaticamente dalle connessioni Customer Journey Analytics associate. |
 | Eliminare un batch da un set di dati in [!UICONTROL Experience Platform] | Se un batch viene eliminato da un set di dati [!UICONTROL Adobe Experience Platform], lo stesso batch viene rimosso da qualsiasi connessione [!UICONTROL Customer Journey Analytics] che contiene tale batch specifico. [!UICONTROL Customer Journey Analytics] è informato dei batch eliminati in [!UICONTROL Adobe Experience Platform]. |
 | Elimina un batch da [!UICONTROL Experience Platform] **durante l&#39;acquisizione** in [!UICONTROL Customer Journey Analytics] | Se nel set di dati è presente un solo batch, in [!UICONTROL Customer Journey Analytics] non verranno visualizzati dati o dati parziali da tale batch. L’acquisizione viene annullata e viene ripristinato lo stato precedente. Se, ad esempio, nel set di dati sono presenti 5 batch e 3 di essi sono già stati acquisiti al momento dell&#39;eliminazione del quarto batch, i dati di questi 3 batch verranno visualizzati in [!UICONTROL Customer Journey Analytics]. |
-| Elimina i set di dati di ricerca in [!UICONTROL Experience Platform] | Anche se l&#39;eliminazione dei set di dati è possibile per altri connettori di origine, l&#39;eliminazione di [set di dati Source Connector per classificazioni di Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/classifications) non è supportata. Se elimini tale set di dati per errore, contatta l’Assistenza clienti. |
-| Eliminare o ripristinare una sandbox in Experience Platform | Quando [elimini una sandbox di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/ui/user-guide#delete-a-sandbox), vengono eliminati anche tutti gli schemi, i set di dati, i batch, i criteri e altro ancora presenti nella sandbox. La sandbox non esiste più, come anche l’identificatore e il nome della sandbox.<br/>Quando [ripristini una sandbox di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/ui/user-guide#reset-a-sandbox), tutti gli schemi, i set di dati, i batch, i criteri e altro ancora presenti nella sandbox vengono eliminati. Anche se il nome e le autorizzazioni della sandbox rimangono invariati, l’identificatore della sandbox viene modificato al termine del ripristino.<br/><br/>Customer Journey Analytics utilizza l&#39;identificatore e il nome della sandbox per associare una connessione a una sandbox. Di conseguenza: <ul><li>Le connessioni associate alla sandbox eliminata o ripristinata vengono eliminate.</li><li>Le visualizzazioni dati (e tutte le definizioni dei componenti, come i campi derivati, all’interno della visualizzazione dati) basate sulle connessioni eliminate vengono eliminate.</li><li>I componenti che si basano sulle visualizzazioni dati eliminate vengono eliminati. Ad esempio segmenti, metriche calcolate, annotazioni, avvisi, tipi di pubblico pubblicati ed esportazioni.</li><li>Nei progetti Workspace, i pannelli che fanno riferimento alle visualizzazioni dati eliminate diventano inutilizzabili. Questi pannelli mostrano **[!UICONTROL Errori di visualizzazione dati sconosciuti]**. Rimuovi questi pannelli o, se possibile, associa questi pannelli a una visualizzazione dati esistente.</li><li>Non eseguire più query sui dati (storici) dalla connessione eliminata già disponibile in Customer Journey Analytics utilizzando Query Service o strumenti che si basano sull’estensione BI. Il supporto o la progettazione di Adobe eliminano questi dati da Customer Journey Analytics.</li></ul>Poiché le implicazioni di un ripristino o di un’eliminazione di una sandbox in Experience Platform sono sostanziali, considera quanto segue prima di reimpostare o eliminare una sandbox:<ul><li>Elenca le tue connessioni per capire quali connessioni appartengono a quali sandbox.</li><li>Elencare le visualizzazioni dati per capire quali visualizzazioni dati sono associate a quali connessioni.</li><li>Identifica importanti progetti Workspace e scopri a quali visualizzazioni dati fanno riferimento questi progetti nei loro pannelli.</li><li>Identifica le integrazioni con gli strumenti che utilizzano l’estensione BI e scopri su quali visualizzazioni dati si basano queste integrazioni.</li></ul> |
+| Elimina i set di dati di ricerca in [!UICONTROL Experience Platform] | Anche se l&#39;eliminazione dei set di dati è possibile per altri connettori di origine, l&#39;eliminazione di [set di dati Source Connector per classificazioni di Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/classifications) non è supportata. Se elimini tale set di dati per errore, contatta l’Assistenza clienti. |
+| Eliminare o ripristinare una sandbox in Experience Platform | Quando [elimini una sandbox di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/user-guide#delete-a-sandbox), vengono eliminati anche tutti gli schemi, i set di dati, i batch, i criteri e altro ancora presenti nella sandbox. La sandbox non esiste più, come anche l’identificatore e il nome della sandbox.<br/>Quando [ripristini una sandbox di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/user-guide#reset-a-sandbox), tutti gli schemi, i set di dati, i batch, i criteri e altro ancora presenti nella sandbox vengono eliminati. Anche se il nome e le autorizzazioni della sandbox rimangono invariati, l’identificatore della sandbox viene modificato al termine del ripristino.<br/><br/>Customer Journey Analytics utilizza l&#39;identificatore e il nome della sandbox per associare una connessione a una sandbox. Di conseguenza: <ul><li>Le connessioni associate alla sandbox eliminata o ripristinata vengono eliminate.</li><li>Le visualizzazioni dati (e tutte le definizioni dei componenti, come i campi derivati, all’interno della visualizzazione dati) basate sulle connessioni eliminate vengono eliminate.</li><li>I componenti che si basano sulle visualizzazioni dati eliminate vengono eliminati. Ad esempio segmenti, metriche calcolate, annotazioni, avvisi, tipi di pubblico pubblicati ed esportazioni.</li><li>Nei progetti Workspace, i pannelli che fanno riferimento alle visualizzazioni dati eliminate diventano inutilizzabili. Questi pannelli mostrano **[!UICONTROL Errori di visualizzazione dati sconosciuti]**. Rimuovi questi pannelli o, se possibile, associa questi pannelli a una visualizzazione dati esistente.</li><li>Non eseguire più query sui dati (storici) dalla connessione eliminata già disponibile in Customer Journey Analytics utilizzando Query Service o strumenti che si basano sull’estensione BI. Il supporto o la progettazione di Adobe eliminano questi dati da Customer Journey Analytics.</li></ul>Poiché le implicazioni di un ripristino o di un’eliminazione di una sandbox in Experience Platform sono sostanziali, considera quanto segue prima di reimpostare o eliminare una sandbox:<ul><li>Elenca le tue connessioni per capire quali connessioni appartengono a quali sandbox.</li><li>Elencare le visualizzazioni dati per capire quali visualizzazioni dati sono associate a quali connessioni.</li><li>Identifica importanti progetti Workspace e scopri a quali visualizzazioni dati fanno riferimento questi progetti nei loro pannelli.</li><li>Identifica le integrazioni con gli strumenti che utilizzano l’estensione BI e scopri su quali visualizzazioni dati si basano queste integrazioni.</li></ul> |

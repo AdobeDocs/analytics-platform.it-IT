@@ -8,23 +8,30 @@ autotag-review: '2026-05-19T08:31:54.599Z'
 TQID: 'https://experienceleague.adobe.com/k-0eP4wFf0vl3zYmUDUOv1V9xI6utt7AOjJqCo2mAB4'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: ddf59f64-0e46-4986-a525-056acc143c70
+    internal-label: Workspace visualizations
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 802
+source-wordcount: '802'
 ht-degree: 82%
-
 ---
-
 # Didascalie intelligenti {#intelligent-captions}
 
 >[!CONTEXTUALHELP]
@@ -51,7 +58,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 Per avviare le didascalie intelligenti generate automaticamente per una visualizzazione, seleziona ![Didascalie intelligenti](/help/assets/icons/AI.svg) in alto a destra della visualizzazione. Questa selezione genera informazioni approfondite sul linguaggio naturale.
 
-![Finestra di avvio analisi che mostra le didascalie intelligenti per la tendenza delle visualizzazioni del prodotto. &#x200B;](assets/intelligent-captions.gif)
+![Finestra di avvio analisi che mostra le didascalie intelligenti per la tendenza delle visualizzazioni del prodotto. ](assets/intelligent-captions.gif)
 
 
 Tieni presente che:
@@ -152,14 +159,14 @@ I seguenti parametri regolano l’accesso alle didascalie intelligenti:
 * **Accesso contrattuale**: se non sei in grado di utilizzare Didascalie intelligenti, contatta l’amministratore della tua organizzazione o il rappresentante dell’account Adobe (Admin). Prima di poter utilizzare le didascalie intelligenti nell’organizzazione, devi accettare alcuni termini legali relativi all’intelligenza artificiale generativa.
 
 * **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Didascalie intelligenti]** determina l&#39;accesso. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) deve seguire questi passaggi in [!UICONTROL Admin Console]:
-   1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti e servizi]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Profili di prodotto]**.
-   1. Seleziona il titolo del profilo di prodotto per il quale desideri fornire accesso alle didascalie intelligenti.
-   1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Autorizzazioni]**.
-   1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare **[!UICONTROL Strumenti di reporting]**.
-   1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) per aggiungere **Didascalie intelligenti** a **[!UICONTROL Elementi di autorizzazione inclusi]**.
+  1. Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti e servizi]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Profili di prodotto]**.
+  1. Seleziona il titolo del profilo di prodotto per il quale desideri fornire accesso alle didascalie intelligenti.
+  1. Nel profilo di prodotto specifico, selezionare **[!UICONTROL Autorizzazioni]**.
+  1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare **[!UICONTROL Strumenti di reporting]**.
+  1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) per aggiungere **Didascalie intelligenti** a **[!UICONTROL Elementi di autorizzazione inclusi]**.
 
-      ![Aggiungi autorizzazione](./assets/intelligent-captions-permissions.png)
+     ![Aggiungi autorizzazione](./assets/intelligent-captions-permissions.png)
 
-   1. Seleziona **[!UICONTROL Salva]** per salvare le autorizzazioni.
+  1. Seleziona **[!UICONTROL Salva]** per salvare le autorizzazioni.
 
 Per ulteriori informazioni, consulta [Controllo degli accessi](/help/technotes/access-control.md#access-control).

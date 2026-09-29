@@ -5,7 +5,7 @@ exl-id: 6ecbae45-9add-4554-8d83-b06ad016fea9
 solution: Customer Journey Analytics
 feature: Data Views
 role: User
-TQID: https://experienceleague.adobe.com/qEgO-lqYk8ipVP99IBazrKAb7Jer-AN96-PY-f1KdPQ
+TQID: 'https://experienceleague.adobe.com/qEgO-lqYk8ipVP99IBazrKAb7Jer-AN96-PY-f1KdPQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -14,18 +14,22 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
     internal-label: Components
+  - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-    internal-label: Segments, Segments (CJA)
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
     internal-label: Dimensions
+  - id: e1471301-a189-438e-8d48-264a8db508a6
+    internal-label: Data views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7a7ad0d310603850395e35edce7fa66c8c2ff329
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 14%
@@ -82,9 +86,9 @@ In precedenza, i numeri interi venivano trattati automaticamente come metriche i
 
 ## Utilizzare dimensioni numeriche come metriche nei diagrammi di flusso {#numeric}
 
-È possibile utilizzare una dimensione numerica per inserire le metriche nella visualizzazione [!UICONTROL &#x200B; Flusso].
+È possibile utilizzare una dimensione numerica per inserire le metriche nella visualizzazione [!UICONTROL  Flusso].
 
-1. Nella scheda Visualizzazioni dati [Componenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/create-dataview), trascina il campo schema [!UICONTROL Canali di marketing] nell&#39;area [!UICONTROL Metriche] in [!UICONTROL Componenti inclusi].
+1. Nella scheda Visualizzazioni dati [Componenti](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview), trascina il campo schema [!UICONTROL Canali di marketing] nell&#39;area [!UICONTROL Metriche] in [!UICONTROL Componenti inclusi].
 2. Nel reporting di Workspace, questo flusso mostra [!UICONTROL Canali marketing] che fluiscono in [!UICONTROL Ordini]:
 
 ![Flusso canale di marketing dalle e-mail a Uscita/ordini.](../assets/flow.png)
@@ -95,7 +99,7 @@ Questa funzionalità è specifica per i campi basati su array. La funzionalità 
 
 Ad esempio, utilizza la funzionalità di inclusione/esclusione nelle visualizzazioni dati per concentrarti solo sui prodotti che hanno generato vendite superiori a 50 $. Pertanto, se un ordine include un acquisto di prodotti da 50 $ e un acquisto di prodotti da 25 $, la funzionalità di inclusione/esclusione rimuove l’acquisto di prodotti da 25 $ e non l’intero ordine.
 
-1. Nella scheda Visualizzazioni dati [Componenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/create-dataview), trascina il campo dello schema **[!UICONTROL Ricavi]** nell&#39;area **[!UICONTROL Metriche]** in [!UICONTROL Componenti inclusi].
+1. Nella scheda Visualizzazioni dati [Componenti](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview), trascina il campo dello schema **[!UICONTROL Ricavi]** nell&#39;area **[!UICONTROL Metriche]** in [!UICONTROL Componenti inclusi].
 1. Seleziona la metrica e configura quanto segue a destra:
 a. In **[!UICONTROL Formato]**, selezionare **[!UICONTROL Valuta]**.
 b. In **[!UICONTROL Valuta]**, selezionare **[!UICONTROL USD]**.
@@ -134,11 +138,11 @@ Puoi determinare se una sessione è effettivamente la prima sessione in assoluto
 
 Una dimensione e due metriche facilitano questo reporting:
 
-* [Tipo di sessione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-reference) - Questa dimensione ha due valori: [!UICONTROL Nuovo] e [!UICONTROL Restituzione]. L&#39;elemento di riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nella riga [!UICONTROL Restituzione] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket “Non applicabile” per questa dimensione.
+* [Tipo di sessione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) - Questa dimensione ha due valori: [!UICONTROL Nuovo] e [!UICONTROL Restituzione]. L&#39;elemento di riga [!UICONTROL New] include tutti i comportamenti (ovvero le metriche rispetto a questa dimensione) di una sessione che è stata determinata come prima sessione definita da una persona. Tutto il resto è incluso nella riga [!UICONTROL Restituzione] (supponendo che tutto appartenga a una sessione). Se le metriche non fanno parte di alcuna sessione, rientrano nel bucket “Non applicabile” per questa dimensione.
 
-* [Prime sessioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-reference). La metrica Prime sessioni è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting.
+* [Prime sessioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference). La metrica Prime sessioni è definita come prima sessione definita da una persona all’interno dell’intervallo di reporting.
 
-* [Sessioni di ritorno](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-reference) La metrica Sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di un utente.—>
+* [Sessioni di ritorno](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) La metrica Sessioni di ritorno è il numero di sessioni che non sono state le prime sessioni di un utente.—>
 
 Per accedere ai componenti:
 

@@ -5,13 +5,23 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 hide: true
-source-git-commit: 1ce48a6e077ee1069c55f3ef8969ed2eced4742e
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+subfeature_v2:
+  - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 4%
-
 ---
-
 # Segnalazione popolazione totale
 
 Il reporting sulla popolazione totale introduce la possibilità di analizzare e creare rapporti sulle entità definite nei set di dati di profilo e di ricerca esistenti in una connessione Customer Journey Analytics. Tale analisi e reporting vanno oltre la serie temporale di eventi dai set di dati evento. Questa funzionalità consente di abilitare nuove classi di query, metriche e definizioni di pubblico che riflettono l’intero ambito della base clienti di un’azienda.

@@ -9,28 +9,40 @@ autotag-review: '2026-05-19T08:09:26.880Z'
 TQID: 'https://experienceleague.adobe.com/IsYrCVRcY1cd2xSYV7A-iJ2jx8Ku-oZ-BtHu8If-55Y'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: eed59de6-f140-4dd2-beca-afcbb0f6a2c5
+    internal-label: Upgrade
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Personalization
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 696
+source-wordcount: '696'
 ht-degree: 54%
-
 ---
-
 # Alternativa di aggiornamento: inviare il livello dati a Customer Journey Analytics {#data-collection-data-layer}
 
 <!-- markdownlint-disable MD034 -->
@@ -74,7 +86,7 @@ Di seguito sono riportati i vantaggi e gli svantaggi dell&#39;utilizzo di questa
 
 | Vantaggi | Svantaggi |
 |----------|---------|
-| <ul><li>**Offre tutti i vantaggi dei dati di hosting in Experience Edge Network**: <p>Questi vantaggi includono:</p><ul><li>Ottime prestazioni per reporting e disponibilità dei dati, perché Adobe Experience Platform è progettato per alimentare [casi d’uso di personalizzazione in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>Consolidamento dell&#39;implementazione per la raccolta dati Adobe CX Enterprise tra altri prodotti CX Enterprise (AJO, RTCDP e così via)</li><li>Non si basa sulla nomenclatura di Adobe Analytics (prop, eVar, evento, ecc.)</li></ul><li>**Utilizza la logica del livello dati corrente**: questo metodo utilizza la logica del livello dati corrente al posto di un&#39;implementazione convenzionale di Web SDK. Anche se questo approccio richiede una certa configurazione, non richiede un’implementazione completamente nuova da zero e non richiede il popolamento di elementi di dati o regole di tag. Consente di mappare i dati dal livello dati a XDM, anziché popolare un oggetto XDM da zero.</li></ul> | <ul><li>**Richiede la mappatura per inviare i dati a Platform**: quando l’organizzazione è pronta per utilizzare Customer Journey Analytics, devi inviare i dati a un set di dati in Adobe Experience Platform. <p>Poiché questa opzione consente di inserire l’intero livello dati lato client nell’oggetto dati e inviarlo ad Adobe, si ottiene una quantità significativa di dati che Adobe non è in grado di interpretare facilmente. Per consentire ad Adobe di interpretare i dati, devi utilizzare la mappatura dello stream di dati per mappare ogni singolo campo al campo XDM desiderato.</p></li><li>**Implementazione rigida**: l&#39;implementazione è vincolata a ciò che fornisce il livello dati al momento dell&#39;invio dell&#39;hit. Questo potrebbe essere accettabile per le organizzazioni con esigenze di dati di base, ma la maggior parte delle organizzazioni dovrebbe evitare questo tipo di implementazione rigida a favore di un’implementazione più flessibile che consenta di popolare gli elementi di dati.</li><li>**Le modifiche future sono più difficili da implementare**: qualsiasi campo aggiunto ai dati in un secondo momento deve essere mappato a XDM nello stream di dati.</li></ul> |
+| <ul><li>**Offre tutti i vantaggi dei dati di hosting in Experience Edge Network**: <p>Questi vantaggi includono:</p><ul><li>Ottime prestazioni per reporting e disponibilità dei dati, perché Adobe Experience Platform è progettato per alimentare [casi d’uso di personalizzazione in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)</li><li>Consolidamento dell’implementazione per la raccolta dati di Adobe CX Enterprise tra altri prodotti CX Enterprise (AJO, RTCDP e così via)</li><li>Non si basa sulla nomenclatura di Adobe Analytics (prop, eVar, evento, ecc.)</li></ul><li>**Utilizza la logica del livello dati corrente**: questo metodo utilizza la logica del livello dati corrente al posto di un&#39;implementazione convenzionale di Web SDK. Anche se questo approccio richiede una certa configurazione, non richiede un’implementazione completamente nuova da zero e non richiede il popolamento di elementi di dati o regole di tag. Consente di mappare i dati dal livello dati a XDM, anziché popolare un oggetto XDM da zero.</li></ul> | <ul><li>**Richiede la mappatura per inviare i dati a Platform**: quando l’organizzazione è pronta per utilizzare Customer Journey Analytics, devi inviare i dati a un set di dati in Adobe Experience Platform. <p>Poiché questa opzione consente di inserire l’intero livello dati lato client nell’oggetto dati e inviarlo ad Adobe, si ottiene una quantità significativa di dati che Adobe non è in grado di interpretare facilmente. Per consentire ad Adobe di interpretare i dati, devi utilizzare la mappatura dello stream di dati per mappare ogni singolo campo al campo XDM desiderato.</p></li><li>**Implementazione rigida**: l&#39;implementazione è vincolata a ciò che fornisce il livello dati al momento dell&#39;invio dell&#39;hit. Questo potrebbe essere accettabile per le organizzazioni con esigenze di dati di base, ma la maggior parte delle organizzazioni dovrebbe evitare questo tipo di implementazione rigida a favore di un’implementazione più flessibile che consenta di popolare gli elementi di dati.</li><li>**Le modifiche future sono più difficili da implementare**: qualsiasi campo aggiunto ai dati in un secondo momento deve essere mappato a XDM nello stream di dati.</li></ul> |
 
 {style="table-layout:auto"}
 

@@ -8,22 +8,28 @@ autotag-review: '2026-05-19T08:39:50.563Z'
 TQID: 'https://experienceleague.adobe.com/QqjZAQQWPWP8ykksBH5k9TrW8Cgd-Lt6mSnczBREGfs'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: ddf59f64-0e46-4986-a525-056acc143c70
+    internal-label: Workspace visualizations
+  - id: bee1d787-7e5f-52f2-a27b-db3204cbc423
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Customer journeys
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 1852
+source-wordcount: '1852'
 ht-degree: 37%
-
 ---
-
 # Configurare una visualizzazione del flusso {#configure-a-flow-visualization}
 
 >[!CONTEXTUALHELP]
@@ -189,7 +195,7 @@ Utilizza un menu contestuale su qualsiasi nodo della visualizzazione del flusso 
 | **[!UICONTROL Escludi elemento]** o **[!UICONTROL Ripristina elementi esclusi]** | Rimuove un nodo specifico dalla colonna e lo crea automaticamente come filtro nella parte superiore della colonna. Per ripristinare l&#39;elemento escluso, dal menu di scelta rapida selezionare **[!UICONTROL Ripristina elemento escluso]**. puoi anche aprire il segmento nella parte superiore della colonna e rimuovere la casella con l’elemento appena escluso. |
 | **[!UICONTROL Tendenza]** | Crea un diagramma di tendenza per il nodo. |
 | **[!UICONTROL Mostra colonna successiva]** / **[!UICONTROL Mostra colonna precedente]** | Mostra la colonna successiva (destra) o precedente (sinistra) della visualizzazione. |
-| **[!UICONTROL Nascondi colonna]**&#x200B;n | Nasconde la colonna selezionata dalla visualizzazione. |
+| **[!UICONTROL Nascondi colonna]**n | Nasconde la colonna selezionata dalla visualizzazione. |
 | **[!UICONTROL Espandere l&#39;intera colonna]** | Espandere una colonna per visualizzare tutti i nodi. Per impostazione predefinita, vengono visualizzati solo i primi cinque nodi. |
 | **[!UICONTROL Crea pubblico da selezione]** | Crea un pubblico in base alla colonna selezionata. |
 | **[!UICONTROL Comprimi intera colonna]** | Nasconde tutti i nodi di una colonna. |

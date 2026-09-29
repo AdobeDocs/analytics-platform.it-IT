@@ -9,26 +9,36 @@ autotag-review: '2026-05-19T09:14:55.236Z'
 TQID: 'https://experienceleague.adobe.com/4SG79HyhFS5kr-kXXVGb-cTI8j3St6CwztOW-x1xXi8'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: cbde176d-5423-4c67-8a87-bc8faefd3a44
+    internal-label: Customer AI integration
+  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
+    internal-label: Experience Platform integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+    internal-label: Insights
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 983
+source-wordcount: '983'
 ht-degree: 93%
-
 ---
-
 # Integrare i dati di IA per l’analisi dei clienti
 
 {{release-limited-testing}}
@@ -42,20 +52,20 @@ IA per l’analisi dei clienti si basa su dati comportamentali individuali e dat
 IA per l’analisi dei clienti si integra con Customer Journey Analytics nella misura in cui i set di dati abilitati di IA per l’analisi dei clienti possono essere utilizzati nelle visualizzazioni dati e nel reporting in Customer Journey Analytics. È possibile:
 
 * **Tracciare i punteggi di tendenza di un segmento di utenti nel tempo**.
-   * Caso d’uso: comprendere la probabilità di conversione della clientela in un segmento specifico.
-   * Esempio: un marketer di una catena alberghiera desidera comprendere la probabilità che un cliente dell’hotel acquisti un biglietto per lo spettacolo che si terrà presso la sala concerti dell’hotel.
+  * Caso d’uso: comprendere la probabilità di conversione della clientela in un segmento specifico.
+  * Esempio: un marketer di una catena alberghiera desidera comprendere la probabilità che un cliente dell’hotel acquisti un biglietto per lo spettacolo che si terrà presso la sala concerti dell’hotel.
 * **Analizzare gli eventi di successo o gli attributi associati ai punteggi di tendenza**.
-   * Caso d’uso: comprendere gli attributi o gli eventi di successo associati ai punteggi di tendenza.
-   * Esempio: un marketer di una catena alberghiera desidera comprendere come gli acquisti dei biglietti per lo spettacolo presso la sala concerti di un hotel sono associati ai punteggi di tendenza.
+  * Caso d’uso: comprendere gli attributi o gli eventi di successo associati ai punteggi di tendenza.
+  * Esempio: un marketer di una catena alberghiera desidera comprendere come gli acquisti dei biglietti per lo spettacolo presso la sala concerti di un hotel sono associati ai punteggi di tendenza.
 * **Seguire il flusso di ingresso della tendenza della clientela su diverse esecuzioni di punteggio**.
-   * Caso d’uso: comprendere le persone che inizialmente erano utenti a bassa tendenza e, nel tempo, sono diventate utenti a tendenza elevata.
-   * Esempio: marketer di una catena alberghiera desidera comprendere quali clienti dell’hotel sono stati inizialmente identificati come clienti con una bassa tendenza ad acquistare un biglietto per lo spettacolo, ma nel tempo sono diventati clienti con un’elevata tendenza ad acquistare un biglietto per lo spettacolo.
+  * Caso d’uso: comprendere le persone che inizialmente erano utenti a bassa tendenza e, nel tempo, sono diventate utenti a tendenza elevata.
+  * Esempio: marketer di una catena alberghiera desidera comprendere quali clienti dell’hotel sono stati inizialmente identificati come clienti con una bassa tendenza ad acquistare un biglietto per lo spettacolo, ma nel tempo sono diventati clienti con un’elevata tendenza ad acquistare un biglietto per lo spettacolo.
 * **Osservare la distribuzione della tendenza**.
-   * Caso d’uso: comprendere la distribuzione dei punteggi di tendenza per usare una maggiore precisione nella definizione dei segmenti.
-   * Esempio: un rivenditore desidera effettuare una promozione specifica di 50 $ di sconto su un prodotto. Potrebbe voler gestire solo una promozione molto limitata per questioni di budget, ecc. Analizza i dati e decide di eseguire il targeting solo dell’80%+ dei suoi clienti.
+  * Caso d’uso: comprendere la distribuzione dei punteggi di tendenza per usare una maggiore precisione nella definizione dei segmenti.
+  * Esempio: un rivenditore desidera effettuare una promozione specifica di 50 $ di sconto su un prodotto. Potrebbe voler gestire solo una promozione molto limitata per questioni di budget, ecc. Analizza i dati e decide di eseguire il targeting solo dell’80%+ dei suoi clienti.
 * **Osservare la tendenza a eseguire un’azione per una particolare coorte nel tempo**.
-   * Caso d’uso: tracciare una coorte specifica nel tempo.
-   * Esempio: un marketer di una catena alberghiera desidera tracciare il livello bronzo rispetto al livello argento, o il livello argento rispetto al livello oro nel tempo. In seguito, può osservare la tendenza di ogni coorte a prenotare l’hotel nel tempo.
+  * Caso d’uso: tracciare una coorte specifica nel tempo.
+  * Esempio: un marketer di una catena alberghiera desidera tracciare il livello bronzo rispetto al livello argento, o il livello argento rispetto al livello oro nel tempo. In seguito, può osservare la tendenza di ogni coorte a prenotare l’hotel nel tempo.
 
 Per integrare effettivamente i dati di IA per l’analisi dei clienti con Customer Journey Analytics, segui questi passaggi:
 

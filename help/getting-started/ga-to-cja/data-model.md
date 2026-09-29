@@ -7,23 +7,32 @@ feature: Basics
 exl-id: a5f9e2c7-3b1d-4a8e-b6f0-2c9d7e4a5180
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
+  - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
+  - id: c0173fff-a288-46f9-94aa-2b9ca0aa9ac1
+    internal-label: Basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 2125f1a16ffed79f77757120c5679dd4defa1638
+    internal-label: Data collection
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
-source-wordcount: 692
-ht-degree: 0%
-
+source-wordcount: '704'
+ht-degree: 2%
 ---
-
 
 # Mappatura del modello dati GA4 su Customer Journey Analytics
 
@@ -79,7 +88,7 @@ GA4 raccoglie automaticamente un set di eventi tramite il proprio SDK. La tabell
 
 In GA4, gli eventi personalizzati hanno un nome e fino a 25 parametri. In Customer Journey Analytics, gli eventi personalizzati vengono mappati sui campi di schema XDM personalizzati definiti durante l’implementazione:
 
-* Il nome **evento** diventa un valore di campo in un campo XDM (in genere [`xdm.eventType`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent)).
+* Il nome **evento** diventa un valore di campo in un campo XDM (in genere [`xdm.eventType`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent)).
 * Ogni **parametro** diventa un campo di schema XDM separato. Qualsiasi campo XDM può essere esposto come dimensione o metrica durante la [configurazione di una visualizzazione dati](/help/data-views/component-settings/overview.md).
 
 >[!NOTE]

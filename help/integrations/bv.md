@@ -3,13 +3,23 @@ title: Integrazione Brand Visibility
 description: Integrare Brand Visibility con Customer Journey Analytics
 feature: Experience Platform Integration
 role: User
-source-git-commit: ab73c95a3ff0d57a4868d74266084a79c4c3721d
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+feature_v2:
+  - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
+subfeature_v2:
+  - id: d3fb138f-79e4-4a81-aedb-76dd93560085
+    internal-label: Experience Platform integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '2572'
 ht-degree: 2%
-
 ---
-
 
 # Integrazione con Adobe Brand Visibility
 
@@ -60,7 +70,7 @@ Il secondo modo è un bot o un agente che richiede direttamente le pagine. Ciò 
 Il connettore gestito Brand Visibility fornisce i dati ad Experience Platform come set di dati di riepilogo. Per misurarlo in Customer Journey Analytics, è necessario completare due passaggi di configurazione:
 
 1. Crea una connessione che includa il set di dati Brand Visibility. Vedi [Creare o modificare una connessione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}.
-2. Crea una visualizzazione dati sulla connessione. La visualizzazione dati rende disponibili in Analysis Workspace le dimensioni e le metriche riportate di seguito. Consulta [Creare o modificare una visualizzazione dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}.
+2. Crea una visualizzazione dati sulla connessione. La visualizzazione dati rende disponibili in Analysis Workspace le dimensioni e le metriche riportate di seguito. Consulta [Creare o modificare una visualizzazione dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}.
 
 Il set di dati:
 
@@ -178,4 +188,4 @@ Questo set di dati acquisisce solo il traffico da bot dai registri di accesso CD
 
 ## Integrazione in uscita
 
-Per informazioni sull&#39;integrazione in uscita, consulta [Integrazione Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"} nella documentazione relativa alla visibilità del marchio Adobe.
+Per informazioni sull&#39;integrazione in uscita, consulta [Integrazione Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"} nella documentazione relativa alla visibilità del marchio Adobe.
