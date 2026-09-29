@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6bcbf10e6bff660f57f598f6cf75b43eb75c7db3
+source-git-commit: 80ce27bcff09a23e38054e05329a2a261c8f6562
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '939'
 ht-degree: 0%
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="project_cached_results"
 >title="Utilizza i risultati memorizzati nella cache per un caricamento più rapido"
->abstract="Quando questa opzione è abilitata, i risultati vengono caricati più rapidamente per 12 ore dopo la prima apertura di un progetto da parte di un utente o dopo che un progetto è stato consegnato da una pianificazione. Chiunque apra il progetto in quel periodo di tempo vede gli stessi risultati, anche se i dati continuano a scorrere in background. Per caricare i risultati più recenti, aggiorna i singoli pannelli o l’intero progetto."
+>abstract="Quando questa opzione è abilitata, i risultati vengono caricati istantaneamente per 12 ore dopo la prima apertura di un progetto da parte di un utente o dopo la consegna da parte di una pianificazione. Chiunque apra il progetto in quel periodo di tempo vede gli stessi risultati, anche se i dati continuano a scorrere in background. Per caricare i risultati più recenti, aggiorna i singoli pannelli o l’intero progetto."
 
 Puoi configurare i progetti Analysis Workspace in modo da mostrare i risultati memorizzati nella cache per una finestra di 12 ore, che consente di caricare i risultati immediatamente per chiunque apra il progetto dopo averlo caricato inizialmente.
 
@@ -48,13 +48,11 @@ La prima volta che il progetto viene eseguito, Analysis Workspace esegue la quer
 
 Dopo 12 ore, i risultati memorizzati in cache scadono. La query successiva sul progetto, che sia aperta da un utente o eseguita da una consegna pianificata, viene caricata alla velocità normale e viene avviata una nuova finestra di 12 ore.
 
-### Chi può visualizzare i risultati memorizzati nella cache
-
-I risultati memorizzati in cache vengono condivisi con tutti coloro che hanno accesso al progetto e alle visualizzazioni dati utilizzate nel progetto.
-
 ### Quali risultati vengono memorizzati nella cache
 
-Analysis Workspace memorizza nella cache ogni query in esecuzione, non tutte le versioni possibili di un progetto. Quando qualcuno modifica la query, ad esempio selezionando un elemento da un menu a discesa del pannello o applicando un segmento, Analysis Workspace esegue una nuova query. La nuova query viene caricata la prima volta a velocità normale. Dopodiché, vengono memorizzati in cache anche i relativi risultati.
+Analysis Workspace memorizza nella cache ogni query in esecuzione, non tutte le versioni possibili di un progetto.
+
+Quando qualcuno modifica la query in un progetto, ad esempio selezionando un elemento da un menu a discesa del pannello o applicando un segmento, Analysis Workspace esegue una nuova query. La nuova query viene caricata la prima volta a velocità normale. Successivamente, anche i relativi risultati vengono memorizzati nella cache, in modo che gli utenti che eseguono la stessa query possano visualizzare i risultati all’istante.
 
 La memorizzazione nella cache di una nuova query non sovrascrive né annulla la validità dei risultati già memorizzati nella cache. La vista del progetto originale viene memorizzata nella cache insieme ad altre varianti eseguite dagli utenti.
 
@@ -67,34 +65,52 @@ Supponiamo che un progetto di prestazioni globali della campagna includa segment
 | Tempo | Azione | Velocità di carico |
 | --- | --- | --- |
 | 06:00 | Consegna pianificata del progetto | Normale (i risultati vengono memorizzati nella cache per utilizzi futuri) |
-| 07:06 | L’utente A apre il progetto | Veloce |
+| 07:06 | L’utente A apre il progetto | Istantanea |
 | 07:06 | L&#39;utente A applica il segmento delle Americhe | Normale (i risultati vengono memorizzati nella cache per utilizzi futuri) |
-| 08:01 | L&#39;utente B apre il progetto | Veloce |
-| 08:01 | L&#39;utente B applica il segmento delle Americhe | Veloce |
+| 08:01 | L&#39;utente B apre il progetto | Istantanea |
+| 08:01 | L&#39;utente B applica il segmento delle Americhe | Istantanea |
 | 08:01 | L’utente B applica il segmento EMEA | Normale (i risultati vengono memorizzati nella cache per utilizzi futuri) |
 
 >[!ENDSHADEBOX]
+
+### Chi visualizza i risultati memorizzati nella cache
+
+I risultati memorizzati in cache vengono visualizzati per impostazione predefinita per tutti coloro che:
+
+* Ha accesso al progetto
+
+* Ha accesso alle visualizzazioni dati utilizzate nel progetto
+
+* sta utilizzando gli stessi parametri di query nel progetto che sono stati precedentemente memorizzati in cache (ad esempio, il progetto che sta visualizzando utilizza gli stessi segmenti o le stesse selezioni a discesa dei pannelli di un progetto precedentemente memorizzato in cache);
+
+Durante la visualizzazione dei risultati memorizzati nella cache, puoi visualizzare i dati più recenti [aggiornando manualmente i risultati](#manually-refresh-results-on-cached-projects).
 
 ## Abilitare i risultati memorizzati nella cache per un progetto
 
 Chiunque possa aggiornare le impostazioni del progetto può abilitare i risultati memorizzati nella cache. Questo include il proprietario del progetto e chiunque abbia il ruolo **[!UICONTROL Modifica originale]** per il progetto. Per ulteriori informazioni sui ruoli di progetto, vedere [Condividere un ruolo di progetto specifico](/help/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).
 
-Nel progetto Workspace in cui desideri abilitare i risultati memorizzati nella cache per un caricamento più rapido:
+Nel progetto Workspace in cui desideri abilitare i risultati memorizzati nella cache per il caricamento quasi immediato:
 
 1. Vai a **[!UICONTROL Progetti]** > **[!UICONTROL Informazioni e impostazioni progetto]**.
 1. Seleziona **[!UICONTROL Utilizza i risultati memorizzati nella cache per un caricamento più rapido]**.
 1. Seleziona **[!UICONTROL Salva]**.
 
-## Visualizzare i timestamp dei dati nei progetti memorizzati in cache
+## Visualizza quando i risultati memorizzati in cache vengono visualizzati in un progetto
 
-Quando un progetto è configurato per l’utilizzo dei risultati memorizzati nella cache, nella parte superiore del progetto viene visualizzata una marca temporale che indica quando i risultati sono stati memorizzati nella cache:
+Quando vengono visualizzati i risultati memorizzati nella cache, nella parte superiore del progetto viene visualizzata una marca temporale. La marca temporale specifica se tutti i risultati sono memorizzati in cache o solo alcuni risultati:
 
-* **[!UICONTROL Visualizzazione dei dati da] [_data e ora_]**: tutti i pannelli del progetto mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate.
-* **[!UICONTROL Visualizzazione di alcuni dati da] [_data e ora_]**: alcuni pannelli mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora mostrate, mentre altri sono stati aggiornati più di recente.
+* **[!UICONTROL Visualizzazione dei risultati da] [_data e ora_]**: tutti i pannelli del progetto mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate.
+* **[!UICONTROL Visualizzazione di alcuni risultati da] [_data e ora_]**: alcuni pannelli mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora mostrate, mentre altri sono stati aggiornati più di recente.
+
+![Timestamp sul progetto memorizzato nella cache](assets/project-cache-timestamp.png)
 
 I pannelli visualizzano anche una marca temporale che indica quando i risultati sono stati memorizzati in cache:
 
-* **[!UICONTROL Visualizzazione dei dati da] [_data e ora_]**: il pannello mostra i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate.
+* **[!UICONTROL Visualizzazione dei risultati da] [_data e ora_]**: il pannello mostra i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate.
+
+  >[!NOTE]
+  >
+  >Questa opzione non è disponibile durante la fase alfa del rilascio.
 
 ## Aggiorna manualmente i risultati nei progetti memorizzati in cache
 
@@ -106,7 +122,7 @@ Nel progetto Workspace in cui desideri visualizzare i dati più recenti, puoi ag
 
 Per caricare i risultati più recenti per tutti i pannelli e iniziare una nuova finestra di 12 ore:
 
-1. Seleziona **[!UICONTROL Aggiorna]** nella parte superiore del progetto accanto alla marca temporale del progetto.
+1. Seleziona l&#39;icona **[!UICONTROL Aggiorna]** ![Aggiorna](/help/assets/icons/Refresh.svg) nella parte superiore del progetto accanto alla marca temporale del progetto.
 
 ### Aggiorna i risultati per un singolo pannello
 
@@ -116,5 +132,5 @@ Per caricare i risultati più recenti per tutti i pannelli e iniziare una nuova 
 
 Per caricare i risultati più recenti solo per un singolo pannello:
 
-1. Seleziona **[!UICONTROL Aggiorna]** accanto alla marca temporale di un pannello.
+1. Seleziona l&#39;icona **[!UICONTROL Aggiorna]** ![Aggiorna](/help/assets/icons/Refresh.svg) nella parte superiore del progetto accanto alla marca temporale di un pannello.
 
