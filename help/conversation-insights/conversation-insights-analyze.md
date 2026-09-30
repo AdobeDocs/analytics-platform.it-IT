@@ -18,9 +18,33 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: 34bb13891eebb12875f3e355e73aade6b3eed750
 workflow-type: tm+mt
-source-wordcount: '12'
+source-wordcount: '132'
 ht-degree: 0%
 ---
 # Analizza approfondimenti conversazione
+
+## Analisi semplice
+
+Per analizzare Informazioni sulla conversazione puoi creare o modificare un progetto in Analysis Workspace e utilizzare una delle visualizzazioni dati configurate come visualizzazione dati per uno o più pannelli del progetto.
+
++++ Progetto di esempio
+
+![Progetto di base per Informazioni sulla conversazione](assets/conversation-insights-analyze-sample-project-basic.png)
+
++++
+
+## Analisi delle conversazioni su larga scala e nel contesto
+
+Per analizzare le conversazioni su larga scala e fornire il contesto per tali conversazioni all’interno dell’intero percorso di clienti:
+
+* Combina i tuoi eventi di Informazioni sulla conversazione con altri set di dati evento e set di dati di profilo e di ricerca aggiuntivi. Aggiungi questi set di dati alla connessione selezionata per la configurazione di Informazioni sulla conversazione.
+* Aggiungi componenti aggiuntivi (metriche e dimensioni) alle visualizzazioni dati selezionate per la configurazione di Informazioni sulla conversazione.
+* ...
+
++++ Progetto di esempio
+
+Da determinare.
+
++++ 
