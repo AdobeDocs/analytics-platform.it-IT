@@ -1,39 +1,45 @@
 ---
 description: Scopri le differenze tra gli avvisi in Customer Journey Analytics e Adobe Analytics
-title: Confronto delle funzioni degli avvisi tra Customer Journey Analytics e Adobe Analytics
+title: Confronto delle funzioni di avviso tra Customer Journey Analytics e Adobe Analytics
 feature: Workspace Basics
 role: User, Admin
 exl-id: 04e819c4-9fb5-4459-9f8b-40d78385ed90
 TQID: https://experienceleague.adobe.com/NEm3Mu7q6RDKbCyG-PJzOFPrjJF4Y-unHgyBXyKd1HM
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
   - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+    internal-label: Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Reporting
+source-git-commit: 4f3c4a214bb9676ced6fe3c9627c969413013790
 workflow-type: tm+mt
-source-wordcount: 495
-ht-degree: 25%
-
+source-wordcount: '477'
+ht-degree: 23%
 ---
-
-# Confronto delle funzioni di avviso
+# Confronto delle funzioni di avviso tra Customer Journey Analytics e Adobe Analytics
 
 Il processo di utilizzo degli avvisi in Customer Journey Analytics è quasi identico a quello degli avvisi in Adobe Analytics. Tuttavia, esistono differenze importanti. Le sezioni seguenti descrivono le differenze principali.
 
-## Gli avvisi orari non sono disponibili
+## Gli avvisi orari possono risultare poco pratici per alcuni tipi di dati
 
-Gli avvisi orari sono **non** disponibili in Customer Journey Analytics, mentre gli avvisi orari sono disponibili in Adobe Analytics. In Customer Journey Analytics, gli avvisi possono essere configurati come giornalieri, settimanali o mensili.
+Poiché in Adobe Experience Platform è possibile acquisire vari tipi di dati, non tutti i dati che possono essere inclusi in un avviso sono adatti per un avviso orario. Alcuni tipi di dati non possono essere acquisiti in modo affidabile e disponibili entro i limiti di un’ora.
 
-È possibile acquisire dati in Adobe Experience Platform in vari modi. Di conseguenza, la completezza e la disponibilità dei dati non possono essere raggiunte in modo affidabile entro i limiti di un’ora.  La flessibilità dell’acquisizione dei dati implica che gli avvisi orari non sono pratici a causa dell’elevato potenziale di dati incompleti. Per ulteriori informazioni, consulta [I tempi di acquisizione dei dati variano](#data-ingestion-times-vary-in-customer-journey-analytics).
+Per ulteriori informazioni, consulta [I tempi di acquisizione dei dati variano](#data-ingestion-times-vary).
 
 ## I tempi di acquisizione dei dati variano
 
@@ -43,7 +49,7 @@ Ciò è dovuto ai seguenti motivi:
 
 * Capacità di Platform di contenere tutti i tipi di schemi e tipi di dati
 
-  A differenza di Adobe Analytics (che segnala solo i dati web), in Adobe Experience Platform[&#128279;](/help/data-ingestion/data-ingestion.md) è possibile acquisire molti tipi diversi di dati da segnalare in Customer Journey Analytics e non tutti i tipi di dati possono essere inviati in sequenza e in tempo reale.
+  A differenza di Adobe Analytics (che segnala solo i dati web), in Adobe Experience Platform](/help/data-ingestion/data-ingestion.md) è possibile acquisire molti tipi diversi di dati da segnalare in Customer Journey Analytics e non tutti i tipi di dati possono essere inviati in sequenza e in tempo reale.[
 
 * Ritardo nella consegna dei dati batch ai set di dati di Platform
 
@@ -59,8 +65,8 @@ Per ulteriori informazioni su come regolare il ritardo e sui fattori da consider
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
-## Creare un avviso
+## Meno modi per creare avvisi
 
-In Analysis Workspace in Adobe Analytics, puoi [creare avvisi da Analysis Workspace in più modi](https://experienceleague.adobe.com/it/docs/analytics/components/alerts/alert-builder). In Customer Journey Analytics, è possibile [creare un avviso](alert-builder.md) in Analysis Workspace solo da una selezione in una tabella a forma libera.
+In Analysis Workspace in Adobe Analytics, puoi [creare avvisi da Analysis Workspace in più modi](https://experienceleague.adobe.com/en/docs/analytics/components/alerts/alert-builder). In Customer Journey Analytics, è possibile [creare un avviso](alert-builder.md) in Analysis Workspace solo da una selezione in una tabella a forma libera.
 
 Sia Adobe Analytics che Customer Journey Analytics supportano la creazione di avvisi tramite [Gestione avvisi](alert-manager.md)
