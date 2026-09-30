@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7afd51cbdbfc21c8512d0e11be87a6ab8245e366
+source-git-commit: 32dfb7790f57293ea297bdcb8319c3d3b187a2ae
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1336'
 ht-degree: 0%
 ---
 
@@ -56,7 +56,7 @@ Dopo 12 ore, i risultati memorizzati in cache scadono. Al successivo caricamento
 
 Analysis Workspace memorizza nella cache i risultati del progetto così come è stato configurato originariamente, con le visualizzazioni dati selezionate, i segmenti applicati, gli intervalli di date, le selezioni a discesa del pannello e così via. Tutti coloro che aprono il progetto visualizzano questi risultati memorizzati nella cache.
 
-Se qualcuno modifica la configurazione del progetto, i risultati vengono aggiornati e viene memorizzata nella cache [una nuova variante di progetto](#project-variations-are-cached-as-the-project-is-modified).
+Se qualcuno modifica la configurazione del progetto durante la visualizzazione del progetto memorizzato in cache, i risultati vengono caricati normalmente (non immediatamente) e [viene memorizzata nella cache una nuova variante di progetto](#project-variations-are-cached-as-the-project-is-modified).
 
 #### Le varianti di progetto vengono memorizzate nella cache quando il progetto viene modificato
 
@@ -80,19 +80,21 @@ Supponiamo che un progetto di prestazioni globali della campagna includa segment
 | --- | --- | --- |
 | 06:00 | Consegna pianificata del progetto | Normale (i risultati vengono memorizzati nella cache per utilizzi futuri) |
 | 07:06 | L’utente A apre il progetto | Istantanea |
-| 07:06 | L&#39;utente A applica il segmento delle Americhe | Normale (i risultati vengono memorizzati nella cache per utilizzi futuri) |
+| 07:07 | L&#39;utente A applica il segmento delle Americhe | Normale (i risultati vengono memorizzati nella cache per utilizzi futuri) |
 | 08:01 | L&#39;utente B apre il progetto | Istantanea |
-| 08:01 | L&#39;utente B applica il segmento delle Americhe | Istantanea |
-| 08:01 | L’utente B applica il segmento EMEA | Normale (i risultati vengono memorizzati nella cache per utilizzi futuri) |
+| 08:05 | L&#39;utente B applica il segmento delle Americhe | Istantanea |
+| 08:12 | L’utente B applica il segmento EMEA | Normale (i risultati vengono memorizzati nella cache per utilizzi futuri) |
 
 >[!ENDSHADEBOX]
 
-### Modifiche che aggiornano automaticamente i risultati memorizzati nella cache
+### Modifiche che causano l’aggiornamento dei risultati memorizzati nella cache con il successivo caricamento del progetto
 
 Le seguenti modifiche alla configurazione sottostante di un progetto inducono Analysis Workspace ad aggiornare i risultati alla successiva apertura del progetto, anche se la finestra di 12 ore non è scaduta:
 
 * Modifiche a un componente nella visualizzazione dati, ad esempio la modifica delle [impostazioni del componente](/help/data-views/component-settings/overview.md) di una dimensione o di una metrica
+
 * Modifiche a un [campo derivato](/help/data-views/derived-fields/derived-fields.md)
+
 * Modifiche a una definizione di segmento utilizzata nel progetto
 
 I risultati vengono caricati a velocità normale e quindi memorizzati nella cache, che inizia una nuova finestra di 12 ore.
@@ -139,10 +141,12 @@ Chiunque possa aggiornare le impostazioni del progetto può abilitare i risultat
 >
 >I risultati memorizzati nella cache potrebbero non essere adatti se devi visualizzare immediatamente i dati del giorno corrente, quelli in arrivo o i valori di ricerca aggiornati. Prima di abilitare questa impostazione, controllare [Quando lasciare disabilitati i risultati memorizzati nella cache in un progetto](#when-to-leave-cached-results-disabled-on-a-project).
 
-Nel progetto Workspace in cui desideri abilitare i risultati memorizzati nella cache per il caricamento quasi immediato:
+Nel progetto Workspace in cui desideri abilitare i risultati memorizzati nella cache per un caricamento più rapido:
 
 1. Vai a **[!UICONTROL Progetti]** > **[!UICONTROL Informazioni e impostazioni progetto]**.
+
 1. Seleziona **[!UICONTROL Utilizza i risultati memorizzati nella cache per un caricamento più rapido]**.
+
 1. Seleziona **[!UICONTROL Salva]**.
 
 ## Visualizza quando i risultati memorizzati in cache vengono visualizzati in un progetto
@@ -150,6 +154,7 @@ Nel progetto Workspace in cui desideri abilitare i risultati memorizzati nella c
 Quando vengono visualizzati i risultati memorizzati nella cache, nella parte superiore del progetto viene visualizzata una marca temporale. La marca temporale specifica se tutti i risultati sono memorizzati in cache o solo alcuni risultati:
 
 * **[!UICONTROL Visualizzazione dei risultati da] [_data e ora_]**: tutti i pannelli del progetto mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate.
+
 * **[!UICONTROL Visualizzazione di alcuni risultati da] [_data e ora_]**: alcuni pannelli mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora mostrate, mentre altri sono stati aggiornati più di recente.
 
 ![Timestamp sul progetto memorizzato nella cache](assets/project-cache-timestamp.png)
@@ -184,5 +189,5 @@ Per caricare i risultati più recenti per tutti i pannelli e iniziare una nuova 
 
 Per caricare i risultati più recenti solo per un singolo pannello:
 
-1. Seleziona l&#39;icona **[!UICONTROL Aggiorna]** ![Aggiorna](/help/assets/icons/Refresh.svg) nella parte superiore del progetto accanto alla marca temporale di un pannello.
+1. Seleziona l&#39;icona **[!UICONTROL Aggiorna]** ![Aggiorna](/help/assets/icons/Refresh.svg) accanto al timestamp di un pannello.
 
