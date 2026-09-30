@@ -18,15 +18,15 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: 34bb13891eebb12875f3e355e73aade6b3eed750
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 7%
+source-wordcount: '824'
+ht-degree: 20%
 ---
 # Creare o modificare le configurazioni
 
 Informazioni sulla conversazione consente di analizzare le conversazioni dalle esperienze agente offerte ai clienti. Queste esperienze agente possono essere basate su modelli di linguaggio di grandi dimensioni (Large Language Model, LLM) o su conversazioni umane. Ad esempio, un chatbot che interagisce con le trascrizioni di un cliente o di un call center.
-Tramite Informazioni sulla conversazione sei in grado di comprendere l’impatto dei rappresentanti sui risultati effettivi degli utenti.
+Tramite Informazioni sulla conversazione sei in grado di comprendere l’impatto degli agenti sui risultati effettivi degli utenti.
 
 Tramite l’interfaccia di configurazione di Informazioni sulla conversazione puoi creare o modificare rapidamente una configurazione e gli artefatti associati (connessione, visualizzazioni dati e altro).
 
@@ -114,7 +114,47 @@ Per ogni configurazione:
 
 ## Verifica della visualizzazione dati
 
-(Spiega le metriche e le dimensioni visualizzate dai set di dati pertinenti)
+Le visualizzazioni dati configurate in [Passaggi di configurazione](#configuration-steps), hanno **[!UICONTROL Informazioni sulla conversazione]** come valore per **[!UICONTROL Integrazioni]** in [Visualizzazioni dati](/help/data-views/manage-dataviews.md).
+
+Per ciascuna delle visualizzazioni dati configurate:
+
+* **Contenitori**: la [scheda Contenitori](/help/data-views/create-dataview.md#containers) contiene un nuovo **[!UICONTROL Nome contenitore]**: **[!UICONTROL conversazione]** con **[!UICONTROL Nome visualizzato]**: **[!UICONTROL Contenitore]** come ulteriore **[!UICONTROL Sistema]** **[!UICONTROL Tipo contenitore]**.
+* **Componenti**: sono presenti cartelle di campi schema aggiuntive. Ad esempio: agentExperience e conversazione. Inoltre, vengono aggiunti automaticamente i seguenti componenti:
+
+  | Metriche | Tipo di dati dello schema | Percorso dello schema |
+  |---|---|---|
+  | Feedback cliente | Stringa | eventType |
+  | Sentiment positivi | Stringa | Campi derivati |
+  | Raccomandazioni | Stringa | eventType |
+  | Turni di parola | Stringa | eventType |
+
+  | Dimensioni | Tipo di dati dello schema | Percorso dello schema |
+  |---|---|---|
+  | ID agente | Stringa | `agenticExperience.agents.agentID` |
+  | Nome agente | Stringa | `agenticExperience.agents.name` |
+  | Nome concierge | Stringa | `agenticExperience.name` |
+  | Versione concierge | Stringa | `agenticExperience.version` |
+  | ID conversazione | Stringa | `conversation.conversationID` |
+  | Nome conversazione | Stringa | `conversation.conversationName` |
+  | Nome del segnale di conversazione | Stringa | `conversation.signals.name` |
+  | Valore booleano del riepilogo della conversazione | Booleani | `conversation.signals.values.booleanValue` |
+  | Affidabilità del riepilogo della conversazione | Doppio | `conversation.signals.values.confidence` |
+  | Chiave dei metadati del riepilogo della conversazione | Stringa | `conversation.signals.values.metadata.key` |
+  | Valore numerico del riepilogo della conversazione | Doppio | `conversation.signals.values.numberValue` |
+  | Qualificatori del riepilogo della conversazione | Stringa | `conversation.signals.values.qualifiers` |
+  | Segnali di tono conversazione | Stringa | `conversation.signals.attributes.tones.values` |
+  | Ambiente | Stringa | `agenticExperience.environment` |
+  | Classificazione del feedback | Stringa | Campi derivati |
+  | Classificazione della valutazione del feedback | Stringa | `conversation.feedback.rating.classification` |
+  | Scopo della sezione feedback | Stringa | `conversation.feedback.raw.purpose` |
+  | Origine del feedback | Stringa | `conversation.feedback.source` |
+  | Frase | Stringa | `conversation.signals.attributes.subjects.values.phrase` |
+  | Testo non elaborato della risposta | Stringa | `conversation.response.raw.text` |
+  | Origine risposta | Stringa | `conversation.response.source` |
+  | Classificazione del sentiment | Stringa | Campi derivati |
+  | Nome abilità | Stringa | `agenticExperience.agents.skills.name` |
+  | Versione abilità | Stringa | `agenticExperience.agents.skills.version` |
+  | Valore | Stringa | `agenticExperience.agents.skills.parameters.value` |
 
 
 <!--

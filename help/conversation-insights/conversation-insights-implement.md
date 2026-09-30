@@ -18,10 +18,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: 99e0e43c34f77b6e42f8d3c4fdf5d2773569b3e7
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 6%
+source-wordcount: '2592'
+ht-degree: 5%
 ---
 # Implementare informazioni sulla conversazione
 
@@ -39,8 +39,225 @@ Questo articolo documenta i passaggi di implementazione richiesti.
 
 Configura i set di dati per gli eventi di conversazione principali: prompt, risposta, feedback. I set di dati di prompt, risposta e feedback devono estendere lo schema di base dell&#39;evento esperienza XDM con il gruppo di campi [Evento di conversazione](#conversation-event-field-group) e possono facoltativamente includere il [gruppo di campi Informazioni agenti](#agentic-information-field-group) e altri [gruppi di campi aggiuntivi](#additional-field-groups).
 
-Puoi definire set di dati separati per prompt, risposte e feedback oppure combinare dati in set di dati. Ad esempio, utilizza un set di dati per prompt e risposte e un altro set di dati per il feedback. In alternativa, utilizza un singolo set di dati per tutti gli eventi di conversazione.
-Utilizza lo stesso schema sottostante per i set di dati.
+Puoi definire set di dati separati per prompt, risposte e feedback oppure combinare dati in set di dati. Ad esempio, utilizza un set di dati per prompt e risposte e un altro set di dati per il feedback. In alternativa, utilizzare un set di dati separato per ogni tipo di evento di conversazione come illustrato in [Funzionamento](/help/conversation-insights/conversation-insights-overview.md#how-it-works).
+
+Per illustrare, utilizza:
+
+* **Implementazione del set di dati discreto**. Set di dati separati per eventi di prompt, risposta e feedback. Segui questo approccio di implementazione se:
+
+  * Desideri mantenere uno stato inferiore nell’implementazione client.
+  * Inviare dati di richiesta indipendentemente da una risposta ritardata o inesistente.
+
+* **Implementazione set di dati combinato**. Ad esempio, un set di dati combinato di eventi di richiesta e risposta e un set di dati separato di eventi di feedback.  Segui questo approccio di implementazione se:
+
+  * Vuoi ridurre le chiamate perché l’implementazione supporta i giri completi.
+  * Non preoccuparti della latenza durante l’attesa delle risposte per l’arrivo.
+
+>[!IMPORTANT]
+>
+>Utilizza lo stesso schema sottostante per i set di dati.
+>
+
+Il layout del set di dati e la consegna di eventi di conversazione in questi set di dati sono problemi separati. Invia ogni evento di conversazione non appena i dati sono disponibili per garantire la stabilità degli identificatori di conversazione e degli identificatori di svolta. Gli identificatori stabili facilitano la corretta correlazione da parte del servizio [Conversation Blender](#data-blending) tra set di dati.
+
+
+### Gruppo di campi Evento di conversazione
+
+Il gruppo di campi **[!UICONTROL Evento di conversazione]** è obbligatorio e utilizza l&#39;oggetto `conversation`.
+
+L&#39;oggetto di conversazione acquisisce i dati per:
+
+#### Conversazione
+
+Un `conversationID` univoco identifica una conversazione. Ad esempio: `conversationID = "conv-001"`. `conversationID` consente di raggruppare tutti gli eventi di turni correlati nella stessa esperienza di conversazione.
+
+Lo schema supporta anche `conversationName`. Nome leggibile che descrive il contesto generale della conversazione, ad esempio: `France Geography Q&A`. Il nome della conversazione viene generato automaticamente, ma puoi aggiornarlo. Il nome della conversazione viene popolato anche in `signals[].name`. Adobe compila `conversationName` con lo stesso valore del segnale `signals[].name` = &quot;title&quot;. È possibile impostare `conversation.conversationName` su qualsiasi set di dati popolato e sovrascrivere il valore fornito da Adobe.
+
+#### Turno
+
+Un turno è un ciclo di interazione all&#39;interno di una conversazione.
+
+`turnID` Un `turnID` univoco identifica un turno. Ad esempio:
+
+`conversationID = "conv-001"`
+`turnID = "turn-001"`
+
+Gli stessi `conversationID` e `turnID` vengono utilizzati per correlare i prompt, la risposta e il feedback associati a tale turno. Tale correlazione funziona tra record consegnati separatamente o finiti in set di dati diversi. Un elemento `turnId` deve essere univoco all&#39;interno della stessa conversazione, ma può essere riutilizzato in tutte le conversazioni. Ad esempio, è possibile avere `turn-001` come `turnID` nelle conversazioni con `conversationID` `conv-001` e `conv-002`.
+
+
+#### Prompt
+
+Un prompt è l&#39;input inviato all&#39;agente. Nella maggior parte degli scenari dei clienti, questo input è la domanda, la richiesta, l’istruzione o il messaggio dell’utente.
+
+Il prompt utilizza la seguente rappresentazione: `conversation.prompt`
+
+I campi di richiesta importanti includono:
+
+| Campo | Significato |
+|---|---|
+| `prompt.source` | Chi o cosa ha prodotto il prompt, solitamente l’utente finale. |
+| `prompt.raw[]` | Uno o più segmenti di contenuto non elaborato. |
+| `prompt.raw[].text` | Il testo del prompt o il collegamento al contenuto effettivo (ad esempio, una schermata). |
+| `prompt.raw[].purpose` | Lo scopo del contenuto, ad esempio Input utente o collegamento. |
+
+Un prompt può contenere più segmenti non elaborati. Ad esempio, un utente immette del testo e include un URL.
+
+* `Prompt`
+  * `"What is the capital of France"`
+  * `"https://example.com/france"`
+
+
+#### Risposta
+
+Una risposta è il contenuto restituito dall&#39;agente o da un&#39;altra parte rispondente.
+
+`conversation.response` Un `responseID` univoco rappresenta la risposta.
+
+I campi di risposta importanti includono:
+
+| Campo | Significato |
+|---|---|
+| `response.source` | Chi o cosa ha prodotto la risposta. |
+| `response.raw[]` | Uno o più segmenti di contenuto di risposta |
+| `response.raw[].text` | Testo o contenuto della risposta. |
+| `response.raw[].purpose` | Lo scopo del segmento di contenuto. |
+
+I tipi di origine documentati includono:
+
+<!-- randy buck to provide additional details -->
+
+| Origine | Significato |
+|---|----|
+| `bot` | Risposta automatica dell’agente. |
+| `canned` | Risposta predefinita o basata su modelli. |
+| `concierge` | Risposta dell&#39;agente umano. |
+| `end-user` | Contenuti generati dall’utente, se applicabile. |
+
+#### Feedback
+
+Il feedback è l’esplicita valutazione o reazione dell’utente all’interazione.
+
+La struttura del feedback include: `conversation.feedback`.
+
+Esempi:
+
+* `feedback.raw[].text: "Great help"`
+* `feedback.rating.score:` 1
+* `feedback.rating.classification`: `"Thumbs Up"`
+* `feedback.rating.reasons[]: ["Accurate", "Quick response"]`
+
+L&#39;intervallo di punteggio di valutazione documentato è compreso tra `-1.0` e `1.0`.
+
+Un evento di feedback può essere rappresentato come evento di solo feedback utilizzando: `eventType = "conversation.feedback"`.
+
+Quando il feedback si applica a un particolare turno, conserva i `conversationID` e `turnID` appropriati in modo che il frullatore di conversazione possa associare il feedback all&#39;interazione rilevante.
+
+
+#### Segnale
+
+Un segnale è un’osservazione analitica strutturata sul contenuto di una conversazione. Il servizio [Estrazione segnale](#signal-extraction) fornisce segnali predefiniti. Non è richiesta alcuna azione per fornire i segnali, ma puoi aggiungere segnali come parte dell’integrazione.
+
+Un segnale ha i seguenti campi.
+
+| Campo | Significato |
+|---|----|
+| `scope` | Intervallo di input utilizzato per derivare il segnale, ad esempio la conversione o la conversione. |
+| `name` | L’identificatore del segnale, ad esempio soggetti, intenti, toni o sentiment. Sono supportati anche i nomi dei segnali definiti dal produttore. |
+| `type` | Il tipo di valore: stringa, numero o booleano. |
+| `values[]` | Uno o più valori associati al segnale. |
+| `stringValue` | Un valore di segnale stringa, ad esempio un intento, un tono o un oggetto. |
+| `numberValue` | Un valore di segnale numerico, ad esempio un punteggio sentiment. |
+| `booleanValue` | Un valore di segnale true/false. |
+| `confidence` | Affidabilità opzionale del produttore nel valore del segnale, normalmente tra 0 e 1. |
+| `qualifiers[]` | Descrittori facoltativi che aggiungono contesto a un valore di segnale. |
+| `metadata[]` | Metadati chiave/valore facoltativi definiti dal produttore. |
+
+
+Il servizio di estrazione del segnale popola l&#39;oggetto `signals` per il set di dati dei segnali.
+
+Il contenitore `signals[].attributes.{subjects,intents,tones,sentiment}` precedente è obsoleto.
+
+#### Tipo di Source
+
+È necessario impostare un valore per `source` per ogni oggetto `prompt`, `response` o `feedback` in un evento. Qualsiasi valore è accettabile. Utilizza valori che ti aiutano a capire da dove provengono i dati. Ad esempio:
+
+| Valore | Descrizione |
+|---|---|
+| `end-user` | Input utente umano. |
+| `agent` | Input agente. |
+| `bot` | Risposta automatica dell’agente. |
+| `canned-prompt` | Risposta predefinita/basata su modelli. |
+| `concierge` | Risposta dell&#39;agente umano. |
+
+#### Tipo di scopo (testo non elaborato)
+
+È necessario impostare un valore per l&#39;attributo `purpose` su qualsiasi elemento dell&#39;oggetto `raw` in un oggetto `prompt`, `response` o `feedback`. Qualsiasi valore stringa è accettabile. Questo campo viene utilizzato per differenziare ciò che è memorizzato nel testo non elaborato. Di seguito sono riportati i valori utili, mentre altri valori sono ugualmente validi:
+
+| Valore | Descrizione |
+|---|---|
+| `free-form-text` | Testo in formato libero. |
+| `screenshot` | Dettagli della schermata. |
+| `attachment` | Dettagli allegato. |
+| `link` | Collegamenti esterni. |
+| `url` | URL. |
+| `image-link` | Collegamento all&#39;immagine. |
+| `citation` | Citazione. |
+| `media` | Media. |
+
+
+
+#### Conversazione
+
+Per informazioni complete su un oggetto di conversazione, vedere di seguito.
+
++++ Dettagli 
+
+| Percorso campo (notazione punti) | Tipo | Esempio di valore | Note |
+|---|---|---|---|
+| `conversationID` | stringa | `"conv-001"` | Raggruppa più giri. |
+| `conversationName` | stringa | `"France Geography Q&A"` | **Nuovo.** Nome assegnato a una conversazione che rappresenta il contesto generale. |
+| `turnID` | stringa | `"turn-001"` | ID univoco per questo turno. |
+| `prompt.source` | stringa | `"end-user"` | Source di prompt, altre opzioni possono includere un valore memorizzato nella cache, un valore non memorizzato in cache, ecc. |
+| `prompt.raw[]` | array | Vedi l&#39;oggetto non elaborato di seguito | Dati non elaborati dei prompt. |
+| `prompt.raw[].text` | stringa | `"What is the capital of France?"` | Contenuto effettivo del testo. |
+| `prompt.raw[].purpose` | stringa | `"User Input"` | Scopo del segmento di testo. |
+| `response.source` | stringa | `"bot"` | Source di risposta. |
+| `response.raw[]` | array | Vedi l&#39;oggetto non elaborato di seguito | Dati di risposta non elaborati. |
+| `response.raw[].text` | stringa | `"The capital of France is Paris."` | Contenuto testo risposta. |
+| `response.raw[].purpose` | stringa | `"main"` | Scopo del segmento di risposta; altre opzioni possono includere collegamenti, immagini e così via. |
+| `feedback.source` | stringa | `"end-user"` | Source di feedback. |
+| `feedback.raw[]` | array | Vedi l&#39;oggetto non elaborato di seguito | Dati di feedback non elaborati . |
+| `feedback.raw[].text` | stringa | `"Great help"` | Testo del feedback. |
+| `feedback.raw[].purpose` | stringa | `"free-form text"` | Scopo del segmento di feedback; altre opzioni possono includere schermate, file multimediali, ecc. |
+| `feedback.rating.score` | numero | `1` | Punteggio di valutazione numerico da `-1.0` a `1.0`. |
+| `feedback.rating.classification` | stringa | `"Thumbs Up"` | Classificazione della valutazione. |
+| `feedback.rating.reasons[]` | array | `["Accurate", "Quick response"]` | Matrice di motivi di valutazione. |
+| `signals[]` | array | Vedi l&#39;oggetto segnale di seguito | Segnali derivati in base a questo evento e alla conversazione corrente. Ogni voce è un singolo segnale denominato con il proprio ambito. |
+| `signals[].scope` | stringa | `"turn"` | Ambito degli input da cui deriva questo insieme di segnali (passaggio, conversazione corrente, ultimi N passaggi, feedback). |
+| `signals[].attributes` | oggetto | Vedi gli attributi di seguito | **Obsoleto.** Contenitore per attributi di segnale. Ogni attributo è un oggetto contenente un valore o più valori. Ciò per soddisfare la necessità prevista di supportare la popolazione di informazioni ML/agente utilizzate per generare il segnale. |
+| `signals[].attributes.subjects` | oggetto | Vedi gli argomenti di seguito | **Obsoleto.** Contenitore Soggetti. |
+| `signals[].attributes.subjects.values[]` | array | Vedi i valori oggetto di seguito | **Obsoleto.** Matrice di valori oggetto. |
+| `signals[].attributes.subjects.values[].phrase` | stringa | `"product pricing"` | **Obsoleto.** Frase o parola chiave estratta dall&#39;input con ambito. |
+| `signals[].attributes.subjects.values[].qualifiers[]` | array | `["important", "urgent"]` | **Obsoleto.** Elenco dei qualificatori per la frase |
+| `signals[].attributes.intents` | oggetto | Vedi gli intenti di seguito | **Obsoleto.** Contenitore Intenti. |
+| `signals[].attributes.intents.values[]` | array | `["make a purchase", "learn more"]` | **Obsoleto.** Intenti derivati dall&#39;input con ambito. |
+| `signals[].attributes.tones` | oggetto | Visualizza i toni sotto | **Obsoleto.** Contenitore di toni. |
+| `signals[].attributes.tones.values[]` | array | `["thrilled", "contemplative"]` | **Obsoleto.** Toni derivati dall&#39;input con ambito. |
+| `signals[].attributes.sentiment` | oggetto | Vedi il sentiment di seguito | **Obsoleto.** Contenitore sentiment. |
+| `signals[].attributes.sentiment.value` | numero | `0.71` | **Obsoleto.** Punteggio da `-1` (negativo) a `1` (positivo) che indica il sentiment. |
+| `signals[].name` | stringa | `"sentiment"` | **Nuovo** (sostituisce il contenitore `attributes` obsoleto). Identificatore di questo segnale, ad esempio &quot;soggetti&quot;, &quot;intenti&quot;, &quot;toni&quot;, &quot;sentiment&quot; o qualsiasi nome definito dal produttore. I produttori possono aggiungere nuovi tipi di segnale senza modificare lo schema. |
+| `signals[].type` | stringa | `"number"` | **Nuovo.** Tipo di dati dei valori di questo segnale (`string`, `number` o `boolean`). Indica ai consumatori il campo del valore digitato viene popolato su ogni voce di `values[]`. |
+| `signals[].values[]` | array | Vedi l’oggetto valori seguente | Uno o più valori per questo segnale. |
+| `signals[].values[].stringValue` | stringa | `"curious"` | Compilato quando `type` è una stringa. Un valore categorico come un intento, un tono o una frase estratta/ |
+| `signals[].values[].numberValue` | numero | `0.71` | Compilato quando `type` è un numero. Ad esempio un punteggio sentiment da `-1` a `1` o un&#39;intensità/ |
+| `signals[].values[].booleanValue` | booleano | `true` | Compilato quando `type` è booleano. Un flag `true` / `false` |
+| `signals[].values[].confidence` | numero | `0.9` | **Nuovo.** Affidabilità assegnata dal produttore a questo valore, da `0` a `1`. |
+| `signals[].values[].qualifiers[]` | array | `["important", "urgent"]` | Descrittori aggiuntivi per questo valore, simili alle parole chiave ma più significativi/ |
+| `signals[].values[].metadata[]` | array | Vedi i parametri di seguito | **Nuovo.** Metadati definiti dal produttore per questo valore come coppie chiave/valore, ad esempio contesto sull&#39;agente ML/agente che ha generato il segnale/ |
+
++++
+
+
 
 ### Gruppo di campi Informazioni agente
 
@@ -77,7 +294,7 @@ Il gruppo di campi **[!UICONTROL Informazioni sull&#39;agente]** è facoltativo 
 | `skills[].score` | numero | `0.95` | Punteggio risultante dalla corrispondenza con l’abilità |
 | `skills[].failed` | booleano | `false` | Flag che indica che l’esecuzione dell’abilità non è riuscita |
 | `skills[].errorReason` | stringa | `"timeout"` | Motivo dell&#39;abilità non riuscita quando `failed` è true |
-| `skills[].sequenceNumber` | numero intero | `1` | Indice che aumenta in modo monotonico di questa chiamata di abilità all’interno di un’esecuzione di un singolo agente — non diventa globale, poiché i subagenti vengono eseguiti in parallelo. I consumatori ordinano per `agentID`, quindi `sequenceNumber` e infine `timestamp` come tiebreaker. Facoltativo |
+| `skills[].sequenceNumber` | numero intero | `1` | Indice che aumenta in modo monotonico di questa chiamata di abilità all’interno di una singola esecuzione dell’agente. Questo indice non è a livello globale, poiché i subagenti vengono eseguiti in parallelo. I consumatori ordinano per `agentID`, quindi `sequenceNumber` e infine `timestamp` come tiebreaker. Facoltativo |
 | `skills[].timestamp` | stringa (data-ora) | `"2026-09-11T00:03:15Z"` | Ora in cui è stata richiamata l’abilità, ISO 8601 UTC. Chiave di ordinamento utilizzata dopo `sequenceNumber`. I produttori devono sempre compilare questo campo |
 | `skills[].skillSource` | stringa | `"inline"` | Modalità di recapito della definizione dell&#39;abilità al runtime: `inline` (caricato in linea nel contesto) o `deferred` (caricato su richiesta) |
 | `skills[].executionContext` | stringa | `"inline"` | Dove viene eseguita l&#39;abilità relativa all&#39;agente chiamante: `inline` o `forked` (viene eseguito in un contesto di agente secondario con fork) |
@@ -207,176 +424,6 @@ Per implementare gli eventi che propagano il gruppo di campi Informazioni agente
 
 +++
 
-
-### Gruppo di campi Evento di conversazione
-
-Il gruppo di campi **[!UICONTROL Evento di conversazione]** è obbligatorio e utilizza l&#39;oggetto `conversation`.
-
-L&#39;oggetto di conversazione acquisisce i dati per:
-
-#### Conversazione
-
-Un `conversationID` univoco identifica una conversazione. Ad esempio: `conversationID = "conv-001"`. Lo schema supporta anche `conversationName`. Nome leggibile che descrive il contesto generale della conversazione, ad esempio: `France Geography Q&A`. Il nome della conversazione viene generato automaticamente, ma puoi aggiornarlo. Il nome della conversazione viene popolato anche in `signals[].name`.
-
-`conversationID` consente di raggruppare tutti gli eventi di turni correlati nella stessa esperienza di conversazione.
-
-#### Turno
-
-Un turno è un ciclo di interazione all&#39;interno di una conversazione.
-
-`turnID` Un `turnID` univoco identifica un turno. Ad esempio:
-
-`conversationID = "conv-001"`
-`turnID = "turn-001"`
-
-Gli stessi `conversationID` e `turnID` vengono utilizzati per correlare i prompt, la risposta e il feedback associati a tale turno. Tale correlazione funziona tra record consegnati separatamente o finiti in set di dati diversi. Un elemento `turnId` deve essere univoco all&#39;interno della stessa conversazione, ma può essere riutilizzato in tutte le conversazioni. Ad esempio, è possibile avere `turn-001` come `turnID` nelle conversazioni con `conversationID` `conv-001` e `conv-002`.
-
-
-#### Prompt
-
-Un prompt è l&#39;input inviato all&#39;agente. Nella maggior parte degli scenari dei clienti, questo input è la domanda, la richiesta, l’istruzione o il messaggio dell’utente.
-
-Il prompt utilizza la seguente rappresentazione: `conversation.prompt`
-
-I campi di richiesta importanti includono:
-
-| Campo | Significato |
-|---|---|
-| `prompt.source` | Chi o cosa ha prodotto il prompt, solitamente l’utente finale. |
-| `prompt.raw[]` | Uno o più segmenti di contenuto non elaborato. |
-| `prompt.raw[].text` | Il testo del prompt o il collegamento al contenuto effettivo (ad esempio, una schermata). |
-| `prompt.raw[].purpose` | Lo scopo del contenuto, ad esempio Input utente o collegamento. |
-
-Un prompt può contenere più segmenti non elaborati. Ad esempio, un utente immette del testo e include un URL.
-
-* `Prompt`
-  * `"What is the capital of France"`
-  * `"https://example.com/france"`
-
-
-#### Risposta
-
-Una risposta è il contenuto restituito dall&#39;agente o da un&#39;altra parte rispondente.
-
-`conversation.response` Un `responseID` univoco rappresenta la risposta.
-
-I campi di risposta importanti includono:
-
-| Campo | Significato |
-|---|---|
-| `response.source` | Chi o cosa ha prodotto la risposta. |
-| `response.raw[]` | Uno o più segmenti di contenuto di risposta |
-| `response.raw[].text` | Testo o contenuto della risposta. |
-| `response.raw[].purpose` | Lo scopo del segmento di contenuto. |
-
-I tipi di origine documentati includono:
-
-<!-- randy buck to provide additional details -->
-
-| Origine | Significato |
-|---|----|
-| `bot` | Risposta automatica dell’agente. |
-| `canned` | Risposta predefinita o basata su modelli. |
-| `concierge` | Risposta dell&#39;agente umano. |
-| `end-user` | Contenuti generati dall’utente, se applicabile. |
-
-#### Feedback
-
-Il feedback è l’esplicita valutazione o reazione dell’utente all’interazione.
-
-La struttura del feedback include: `conversation.feedback`.
-
-Esempi:
-
-* `feedback.raw[].text: "Great help"`
-* feedback.rating.score: 1
-* feedback.rating.classification: &quot;Miniature in alto&quot;
-* `feedback.rating.reasons[]: ["Accurate", "Quick response"]`
-
-L&#39;intervallo di punteggio di valutazione documentato è compreso tra `-1.0` e `1.0`.
-
-Un evento di feedback può essere rappresentato come evento di solo feedback utilizzando: `eventType = "conversation.feedback"`.
-
-Quando il feedback si applica a un particolare turno, conserva i `conversationID` e `turnID` appropriati in modo che il frullatore di conversazione possa associare il feedback all&#39;interazione rilevante.
-
-
-#### Segnale
-
-Un segnale è un’osservazione analitica strutturata sul contenuto di una conversazione. Il servizio di segnale fornisce segnali predefiniti. Non è richiesta alcuna azione per fornire i segnali, ma puoi aggiungere segnali come parte dell’integrazione.
-
-<!-- randy buck to provide additional details -->
-
-Un segnale ha i seguenti campi.
-
-| Campo | Significato |
-|---|----|
-| `scope` | Intervallo di input utilizzato per derivare il segnale, ad esempio la conversione o la conversione. |
-| `name` | L’identificatore del segnale, ad esempio soggetti, intenti, toni o sentiment. Sono supportati anche i nomi dei segnali definiti dal produttore. |
-| `type` | Il tipo di valore: stringa, numero o booleano. |
-| `values[]` | Uno o più valori associati al segnale. |
-| `stringValue` | Un valore di segnale stringa, ad esempio un intento, un tono o un oggetto. |
-| `numberValue` | Un valore di segnale numerico, ad esempio un punteggio sentiment. |
-| `booleanValue` | Un valore di segnale true/false. |
-| `confidence` | Affidabilità opzionale del produttore nel valore del segnale, normalmente tra 0 e 1. |
-| `qualifiers[]` | Descrittori facoltativi che aggiungono contesto a un valore di segnale. |
-| `metadata[]` | Metadati chiave/valore facoltativi definiti dal produttore. |
-
-
-Il servizio di estrazione del segnale popola l&#39;oggetto `signals` per il set di dati dei segnali.
-
-Il contenitore `signals[].attributes.{subjects,intents,tones,sentiment}` precedente è obsoleto.
-
-#### Conversazione
-
-Per informazioni complete su un oggetto di conversazione, vedere di seguito.
-
-+++ Dettagli 
-
-| Percorso campo (notazione punti) | Tipo | Esempio di valore | Note |
-|---|---|---|---|
-| `conversationID` | stringa | `"conv-001"` | Raggruppa più giri |
-| `conversationName` | stringa | `"France Geography Q&A"` | **Nuovo.** Nome assegnato a una conversazione che rappresenta il contesto generale |
-| `turnID` | stringa | `"turn-001"` | ID univoco per questo turno |
-| `prompt.source` | stringa | `"end-user"` | Source di prompt, altre opzioni possono includere un valore memorizzato nella cache, un valore non memorizzato in cache, ecc. |
-| `prompt.raw[]` | array | Vedi l&#39;oggetto non elaborato di seguito | Dati non elaborati dei prompt |
-| `prompt.raw[].text` | stringa | `"What is the capital of France?"` | Contenuto testo effettivo |
-| `prompt.raw[].purpose` | stringa | `"User Input"` | Scopo del segmento di testo |
-| `response.source` | stringa | `"bot"` | Source di risposta |
-| `response.raw[]` | array | Vedi l&#39;oggetto non elaborato di seguito | Dati di risposta non elaborati |
-| `response.raw[].text` | stringa | `"The capital of France is Paris."` | Contenuto testo risposta |
-| `response.raw[].purpose` | stringa | `"main"` | Scopo del segmento di risposta; altre opzioni possono includere collegamenti, immagini e così via. |
-| `feedback.source` | stringa | `"end-user"` | Source di feedback |
-| `feedback.raw[]` | array | Vedi l&#39;oggetto non elaborato di seguito | Dati di feedback non elaborati |
-| `feedback.raw[].text` | stringa | `"Great help"` | Testo del feedback |
-| `feedback.raw[].purpose` | stringa | `"free-form text"` | Scopo del segmento di feedback; altre opzioni possono includere schermate, file multimediali, ecc. |
-| `feedback.rating.score` | numero | `1` | Punteggio di valutazione numerico da -1,0 a 1,0 |
-| `feedback.rating.classification` | stringa | `"Thumbs Up"` | Classificazione della valutazione |
-| `feedback.rating.reasons[]` | array | `["Accurate", "Quick response"]` | Matrice di motivi di valutazione |
-| `signals[]` | array | Vedi l&#39;oggetto segnale di seguito | Segnali derivati in base a questo evento e alla conversazione corrente. Ogni voce è un singolo segnale denominato con il proprio ambito |
-| `signals[].scope` | stringa | `"turn"` | Ambito degli input da cui deriva questo insieme di segnali (passaggio, conversazione corrente, ultimi N passaggi, feedback) |
-| `signals[].attributes` | oggetto | Vedi gli attributi di seguito | **Obsoleto.** Contenitore per attributi di segnale. Ogni attributo è un oggetto contenente un valore o più valori. Ciò per soddisfare la necessità prevista di supportare la popolazione di informazioni ML/agente utilizzate per generare il segnale. |
-| `signals[].attributes.subjects` | oggetto | Vedi gli argomenti di seguito | **Obsoleto.** Contenitore Soggetti |
-| `signals[].attributes.subjects.values[]` | array | Vedi i valori oggetto di seguito | **Obsoleto.** Matrice di valori oggetto |
-| `signals[].attributes.subjects.values[].phrase` | stringa | `"product pricing"` | **Obsoleto.** Una frase o una parola chiave estratta dall’input definito nell’ambito |
-| `signals[].attributes.subjects.values[].qualifiers[]` | array | `["important", "urgent"]` | **Obsoleto.** Elenco dei qualificatori per la frase |
-| `signals[].attributes.intents` | oggetto | Vedi gli intenti di seguito | **Obsoleto.** Contenitore Intenti |
-| `signals[].attributes.intents.values[]` | array | `["make a purchase", "learn more"]` | **Obsoleto.** Intenti derivati dall&#39;input con ambito |
-| `signals[].attributes.tones` | oggetto | Visualizza i toni sotto | **Obsoleto.** Contenitore Tonalità |
-| `signals[].attributes.tones.values[]` | array | `["thrilled", "contemplative"]` | **Obsoleto.** Toni derivati dall&#39;input con ambito |
-| `signals[].attributes.sentiment` | oggetto | Vedi il sentiment di seguito | **Obsoleto.** Contenitore sentiment |
-| `signals[].attributes.sentiment.value` | numero | `0.71` | **Obsoleto.** Punteggio da -1 (negativo) a 1 (positivo) indicante il sentiment |
-| `signals[].name` | stringa | `"sentiment"` | **Nuovo** (sostituisce il contenitore `attributes` obsoleto). Identificatore per questo segnale, ad esempio &quot;soggetti&quot;, &quot;intenti&quot;, &quot;toni&quot;, &quot;sentiment&quot; o qualsiasi nome definito dal produttore — i produttori possono aggiungere nuovi tipi di segnale senza modificare lo schema |
-| `signals[].type` | stringa | `"number"` | **Nuovo.** Tipo di dati dei valori di questo segnale (`string`, `number` o `boolean`): indica ai consumatori il campo del valore digitato che viene popolato su ogni voce di `values[]` |
-| `signals[].values[]` | array | Vedi l’oggetto valori seguente | Uno o più valori per questo segnale |
-| `signals[].values[].stringValue` | stringa | `"curious"` | Compilato quando `type` è &quot;stringa&quot;: un valore categorico come un intento, un tono o una frase estratta |
-| `signals[].values[].numberValue` | numero | `0.71` | Compilato quando `type` è &quot;number&quot;, ad esempio un punteggio sentiment da -1 a 1 o un&#39;intensità |
-| `signals[].values[].booleanValue` | booleano | `true` | Compilato quando `type` è &quot;booleano&quot;: un flag true/false |
-| `signals[].values[].confidence` | numero | `0.9` | **Nuovo.** Affidabilità assegnata dal produttore a questo valore, da 0 a 1 |
-| `signals[].values[].qualifiers[]` | array | `["important", "urgent"]` | Descrittori aggiuntivi per questo valore, simili alle parole chiave ma più significativi |
-| `signals[].values[].metadata[]` | array | Vedi i parametri di seguito | **Nuovo.** Metadati definiti dal produttore per questo valore come coppie chiave/valore, ad esempio contesto sull’agente ML/agente che ha generato il segnale |
-
-+++
-
 ### Gruppi di campi aggiuntivi
 
 Puoi aggiungere gruppi di campi facoltativi allo schema utilizzato per i set di dati di prompt, risposta e feedback. Ad esempio:
@@ -396,37 +443,9 @@ Questo documento descrive i requisiti di input di MVP per Informazioni sulla con
 
 | Valore | Spiegazione |
 |---|---|
-| `conversation.turn` | Completa la conversazione con prompt e risposta |
-| `conversation.recommendation` | Consigli basati su conversazioni |
-| `conversation.feedback` | Evento di solo feedback |
-
-
-### Tipo di Source
-
-È necessario impostare uno dei seguenti valori per `source` per ogni oggetto `prompt`, `response` o `feedback` in un evento:
-
-| Valore | Descrizione |
-|---|---|
-| `end-user` | Input utente umano |
-| `bot` | Risposta automatica dell’agente |
-| `canned` | Risposta predefinita/basata su modelli |
-| `concierge` | Risposta dell’agente umano |
-
-### Tipo di scopo (testo non elaborato)
-
-È necessario impostare uno dei seguenti valori per l&#39;attributo `purpose` su qualsiasi elemento dell&#39;oggetto `raw` in un oggetto `prompt`, `response` o `feedback`.
-
-<!-- randy buck to provide details -->
-
-| Valore | Descrizione |
-|---|---|
-| `User Input` | Input utente primario |
-| `main` | Contenuto della risposta principale |
-| `advertisement` | Contenuti promozionali |
-| `citation` | Collegamenti di riferimento/sorgente |
-| `link` | Collegamenti esterni |
-| `image` | Riferimenti immagine |
-| `enum picker` | Selezione strutturata del feedback |
+| `conversation.turn` | Completa la conversazione girare con prompt e risposta. |
+| `conversation.recommendation` | Consigli basati su conversazioni. |
+| `conversation.feedback` | Evento per il solo feedback della conversazione. |
 
 
 ### Esempio
@@ -637,7 +656,25 @@ L’applicazione o il servizio agente genera ID che rimangono stabili durante i 
 
 ## Estrazione del segnale
 
-L&#39;estrazione del segnale avviene dopo la raccolta dei dati. L&#39;applicazione o il servizio agente non compila segnali aggiuntivi.
+L&#39;estrazione del segnale avviene dopo la raccolta dei dati. L&#39;applicazione o il servizio agente può compilare segnali aggiuntivi.
+
+### Nome segnale
+
+Impostare un valore per `signals[].name`. Qualsiasi valore stringa è accettabile; tuttavia, Adobe compila i seguenti nomi durante il processo di estrazione del segnale. Evitare di utilizzare questi valori per `name` per i segnali inviati, poiché questi valori verranno sovrascritti.
+
+* `intents`
+* `sentiment`
+* `tones`
+* `topics`
+* `keywords`
+* `title`
+
+### Ambito segnale
+
+Qualsiasi valore stringa è accettabile; tuttavia, Adobe compila i seguenti ambiti durante il processo di estrazione del segnale. Evitare di utilizzare questi valori per `scope` per i segnali inviati, poiché questi valori verranno sovrascritti.
+
+* `turn`
+* `feedback`
 
 +++ Evento di svolta di esempio con segnali
 
