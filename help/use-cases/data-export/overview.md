@@ -40,7 +40,7 @@ topic_v2:
 source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 1%
+ht-degree: 4%
 ---
 # Casi d’uso per l’esportazione di dati {#data-export-use-cases}
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-data-feeds-step"
 >title="Utilizzare funzioni di esportazione simili ai feed dati"
->abstract="Anche se una sostituzione esatta dei feed di dati non è ancora disponibile in Customer Journey Analytics, funzionalità simili sono disponibili tramite l’esportazione di tabelle complete, l’esportazione di set di dati di Platform, l’integrazione di strumenti BI e l’API di reporting."
+>abstract="Anche se una sostituzione esatta dei feed dati non è ancora disponibile in Customer Journey Analytics, funzionalità simili sono disponibili tramite l’esportazione di tabelle complete, l’esportazione di set di dati di Platform, l’integrazione di strumenti BI e l’API di reporting."
 
 <!-- markdownlint-enable MD034 -->
 
