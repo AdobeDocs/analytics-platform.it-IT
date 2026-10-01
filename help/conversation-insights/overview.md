@@ -17,9 +17,9 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
+source-git-commit: 3acb31df785d038def3432a9734b499810636860
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1117'
 ht-degree: 1%
 ---
 # Approfondimenti conversazione
@@ -53,7 +53,7 @@ A un livello elevato di Informazioni sulla conversazione, una [conversazione](#c
 Informazioni sulla conversazione analizza le interazioni dell&#39;agente a due livelli:
 
 * [Livello di conversazione](#conversation): l&#39;interazione completa tra un utente e un agente, che contiene più giri.
-* [Livello &#x200B;](#turn): un ciclo di interazione all&#39;interno della conversazione, costituito da un prompt utente e una risposta dell&#39;agente.
+* [Livello ](#turn): un ciclo di interazione all&#39;interno della conversazione, costituito da un prompt utente e una risposta dell&#39;agente.
 
 L’applicazione o il servizio agente genera in Experience Platform eventi di esperienza relativi alla conversazione. I dati dell’evento di richiesta, risposta e feedback possono arrivare in modo indipendente. I servizi di Platform correlano e combinano tali eventi in un record a livello di svolta, arricchiscono facoltativamente i dati con i segnali estratti e rendono disponibili i dati risultanti per il reporting di Customer Journey Analytics.
 
@@ -168,7 +168,7 @@ Il processo complessivo di raccolta dei dati, estrazione del segnale e fusione d
 | | Descrizione |
 |---|---|
 | 1 | L&#39;applicazione o il servizio dell&#39;agente viene strumentato per creare eventi che contengono ![CommentText](/help/assets/icons2/CommentText.svg), ![CommentReply](/help/assets/icons2/CommentReply.svg) e ![Feedback](/help/assets/icons2/Feedback.svg) set di dati.<br/>Per informazioni dettagliate su come gestire l&#39;applicazione o il servizio agente, consultare la [documentazione sull&#39;implementazione](./implement.md). |
-| 2 | Il servizio di estrazione segnali estrae i segnali dai prompt ![CommentText](/help/assets/icons2/CommentText.svg), dalle risposte ![CommentReply](/help/assets/icons2/CommentReply.svg) e dai set di dati di feedback ![Feedback](/help/assets/icons2/Feedback.svg) come eventi segnale ![OnAir](/help/assets/icons/OnAir.svg) e memorizza questi eventi segnale in un nuovo set di dati.<br>Questo passaggio è implementato come parte della definizione di una [configurazione di Informazioni sulla conversazione](./configure.md). |
-| 3 | Il servizio frullatore conversazioni unisce gli eventi dei prompt ![CommentText](/help/assets/icons2/CommentText.svg), delle risposte ![CommentReply](/help/assets/icons2/CommentReply.svg), del feedback ![Feedback](/help/assets/icons2/Feedback.svg) e segnala i set di dati dell&#39;evento ![OnAir](/help/assets/icons/OnAir.svg) e restituisce gli eventi ![Merge](/help/assets/icons/Merge.svg)combinati in un nuovo set di dati.<br>Questo passaggio è implementato come parte della definizione di una [configurazione di Informazioni sulla conversazione](./configure.md). |
-| 4 | Il set di dati ![Merge](/help/assets/icons/Merge.svg) di blend diventa parte della connessione e i componenti definiti nello schema utilizzato per il set di dati di blend diventano parte della visualizzazione dati.<br>Questo passaggio è implementato come parte della definizione di una [configurazione di Informazioni sulla conversazione](./configure.md). |
+| 2 | Il servizio di estrazione segnali estrae i segnali dai prompt ![CommentText](/help/assets/icons2/CommentText.svg), dalle risposte ![CommentReply](/help/assets/icons2/CommentReply.svg) e dai set di dati di feedback ![Feedback](/help/assets/icons2/Feedback.svg) come eventi segnale ![OnAir](/help/assets/icons/OnAir.svg) e memorizza questi eventi segnale in un nuovo set di dati.<br>Questo passaggio è implementato come parte della definizione di una configurazione di [Informazioni sulla conversazione](./configure.md). |
+| 3 | Il servizio frullatore conversazioni unisce gli eventi dei prompt ![CommentText](/help/assets/icons2/CommentText.svg), delle risposte ![CommentReply](/help/assets/icons2/CommentReply.svg), del feedback ![Feedback](/help/assets/icons2/Feedback.svg) e segnala i set di dati dell&#39;evento ![OnAir](/help/assets/icons/OnAir.svg) e restituisce gli eventi ![Merge](/help/assets/icons/Merge.svg)combinati in un nuovo set di dati.<br>Questo passaggio è implementato come parte della definizione di una configurazione di [Informazioni sulla conversazione](./configure.md). |
+| 4 | Il set di dati ![Merge](/help/assets/icons/Merge.svg) di blend diventa parte della connessione e i componenti definiti nello schema utilizzato per il set di dati di blend diventano parte della visualizzazione dati.<br>Questo passaggio è implementato come parte della definizione di una configurazione di [Informazioni sulla conversazione](./configure.md). |
 
