@@ -38,7 +38,7 @@ Le metriche e le dimensioni condivise forniscono una posizione centrale per gest
 Anche se le dimensioni e le metriche condivise consentono l’utilizzo di componenti comuni in più visualizzazioni dati, non possono essere condivise tra le connessioni.
 
 ## Autorizzazioni
-* [Gli amministratori di prodotto](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#product-administrator-role) necessitano inoltre delle autorizzazioni **Gestisci criteri di utilizzo dati** e **Visualizza criteri di utilizzo dati** per tutte le sandbox in [Autorizzazioni Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions).
+* [Gli amministratori di prodotto](https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/access-control#product-administrator-role) necessitano inoltre delle autorizzazioni **Gestisci criteri di utilizzo dati** e **Visualizza criteri di utilizzo dati** per tutte le sandbox in [Autorizzazioni Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home#permissions).
 
 ## Flusso di lavoro
 
