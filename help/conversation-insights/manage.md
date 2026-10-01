@@ -16,7 +16,7 @@ feature_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 6%
@@ -28,6 +28,7 @@ Dopo aver [creato le configurazioni di Informazioni sulla conversazione](/help/c
 Solo gli amministratori di sistema possono gestire le configurazioni di Informazioni sulla conversazione.
 
 Per informazioni su Informazioni sulla conversazione, vedere [Panoramica su Informazioni sulla conversazione](/help/conversation-insights/overview.md).
+
 
 ## Visualizzare e filtrare le configurazioni esistenti
 

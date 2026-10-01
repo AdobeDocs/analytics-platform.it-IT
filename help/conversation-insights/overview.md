@@ -17,7 +17,7 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 1%
@@ -53,7 +53,7 @@ A un livello elevato di Informazioni sulla conversazione, una [conversazione](#c
 Informazioni sulla conversazione analizza le interazioni dell&#39;agente a due livelli:
 
 * [Livello di conversazione](#conversation): l&#39;interazione completa tra un utente e un agente, che contiene più giri.
-* [Livello &#x200B;](#turn): un ciclo di interazione all&#39;interno della conversazione, costituito da un prompt utente e una risposta dell&#39;agente.
+* [Livello ](#turn): un ciclo di interazione all&#39;interno della conversazione, costituito da un prompt utente e una risposta dell&#39;agente.
 
 L’applicazione o il servizio agente genera in Experience Platform eventi di esperienza relativi alla conversazione. I dati dell’evento di richiesta, risposta e feedback possono arrivare in modo indipendente. I servizi di Platform correlano e combinano tali eventi in un record a livello di svolta, arricchiscono facoltativamente i dati con i segnali estratti e rendono disponibili i dati risultanti per il reporting di Customer Journey Analytics.
 
@@ -151,6 +151,7 @@ Per identificare l’applicazione o il servizio agente, è necessario fornire in
 Se l&#39;applicazione esperienza agente supporta la chiamata di abilità che rappresentano le capacità richiamate durante l&#39;elaborazione, è possibile aggiungere queste chiamate di abilità come parte del gruppo di campi informazioni agente.
 
 Per informazioni dettagliate sull&#39;implementazione, consulta il gruppo di campi [Informazioni sull&#39;agente](./implement.md#agentic-information-field-group) nella documentazione di [Implementare informazioni sulla conversazione](./implement.md).
+
 
 ## Come funziona
 
