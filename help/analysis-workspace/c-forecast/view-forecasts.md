@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '360'
 ht-degree: 2%
 ---
 # Visualizzare le previsioni
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 È possibile visualizzare le previsioni in una tabella a forma libera di serie temporali. Quando [!UICONTROL Mostra previsione] è abilitato per la tabella a forma libera nelle [preferenze utente](../user-preferences.md), la previsione viene visualizzata automaticamente per la prima colonna di metriche aggiunta alla tabella. Per qualsiasi colonna aggiuntiva:
 
-1. Seleziona l&#39;icona delle impostazioni della colonna ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) nell&#39;intestazione della colonna, quindi accertati che **[!UICONTROL Mostra previsione]** sia selezionato nell&#39;elenco delle opzioni. Per ulteriori informazioni, consulta la sezione [Impostazioni delle colonne](../visualizations/freeform-table/column-row-settings/column-settings.md).
+1. Seleziona l&#39;icona delle impostazioni della colonna ![Impostazioni colonna](/help/assets/icons2/Settings.svg) nell&#39;intestazione della colonna, quindi accertati che **[!UICONTROL Mostra previsione]** sia selezionato nell&#39;elenco delle opzioni. Per ulteriori informazioni, consulta la sezione [Impostazioni delle colonne](../visualizations/freeform-table/column-row-settings/column-settings.md).
 
 1. Fare clic all&#39;esterno del menu **[!UICONTROL Impostazioni colonna]** per salvare l&#39;impostazione e visualizzare la tabella aggiornata.
 
@@ -48,7 +48,7 @@ Le previsioni sono indicate nella tabella come segue:
 
 Un grafico a linee è l’unica visualizzazione che consente di visualizzare le previsioni.
 
-1. Seleziona l&#39;icona delle impostazioni ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) nell&#39;intestazione della visualizzazione, quindi accertati che **[!UICONTROL Mostra previsione]** sia selezionato nell&#39;elenco delle opzioni.
+1. Seleziona l&#39;icona delle impostazioni ![Impostazioni colonna](/help/assets/icons2/Settings.svg) nell&#39;intestazione della visualizzazione, quindi accertati che **[!UICONTROL Mostra previsione]** sia selezionato nell&#39;elenco delle opzioni.
 
 1. (facoltativo) Per consentire alle previsioni di scalare correttamente il grafico, selezionare **[!UICONTROL Consenti scalabilità previsione sull&#39;asse Y]**. Questa opzione non è selezionata per impostazione predefinita perché a volte può rendere un grafico meno leggibile.
 

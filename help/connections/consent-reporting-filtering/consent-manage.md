@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5e12b8f14210de969beeb664d64fadeaa0b8af2e
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 5%
+source-wordcount: '437'
+ht-degree: 2%
 ---
 # Gestione delle configurazioni di reporting e filtro del consenso
 
@@ -56,9 +56,9 @@ Per visualizzare le configurazioni esistenti:
 
    * **[!UICONTROL Stato]**: lo stato della configurazione.
 
-   È possibile nascondere le colonne selezionando l&#39;icona Colonna ![icona Colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), deselezionando le colonne che si desidera nascondere, quindi selezionando **[!UICONTROL Applica]**.
+   È possibile nascondere le colonne selezionando l&#39;icona Colonna ![icona Colonna](/help/assets/icons2/ColumnSettings.svg), deselezionando le colonne che si desidera nascondere, quindi selezionando **[!UICONTROL Applica]**.
 
-1. (Facoltativo) Per filtrare l&#39;elenco delle configurazioni, selezionare l&#39;icona **Filtro** ![Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), quindi filtrare in base a uno dei criteri seguenti:
+1. (Facoltativo) Per filtrare l&#39;elenco delle configurazioni, selezionare l&#39;icona **Filtro** ![Filtro](/help/assets/icons/Filter.svg), quindi filtrare in base a uno dei criteri seguenti:
 
    * **[!UICONTROL Connessione]**
 

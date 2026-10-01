@@ -8,31 +8,44 @@ role: User
 TQID: https://experienceleague.adobe.com/qAYUiD5wa5PhvEjTi397PC4n0xX0rWKJSYaAjCR6jtg
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
+    internal-label: Administration
 subfeature_v2:
   - id: a3b826fd-7a63-4a83-8736-83eee6668f44
+    internal-label: Curate and share, Curate and share (CJA)
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
   - id: f21d8c43-b886-433b-93ea-5982cbfc16b7
+    internal-label: FAQ
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
+    internal-label: Privacy
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 2183
+source-wordcount: '2177'
 ht-degree: 73%
-
 ---
-
 # Condividere progetti {#share-projects}
 
 >[!CONTEXTUALHELP]
@@ -176,7 +189,7 @@ Puoi consentire l’[accesso in sola lettura](/help/analysis-workspace/curate-sh
 >
 >* Un progetto potrebbe diventare inaccessibile se molti utenti tentano di accedere contemporaneamente a un determinato collegamento. Per impostazione predefinita, più di 190 persone possono accedere a un singolo collegamento ogni 5 minuti. Se l’organizzazione raggiunge questo limite, attendi 5 minuti e prova di nuovo ad accedere al collegamento.
 >
->* Per entrambe le licenze [!DNL Healthcare Shield] e [!DNL Privacy & Security Shield], la funzionalità [!UICONTROL Condividi con chiunque] richiede l&#39;autenticazione CX Enterprise. Per i clienti [!DNL Healthcare Shield], viene visualizzato un avviso di &quot;conformità HIPAA&quot;, ma è comunque possibile utilizzare questa funzione dopo l&#39;autenticazione a CX Enterprise.
+>* Per entrambe le licenze [!DNL Healthcare Shield] e [!DNL Privacy & Security Shield], la funzionalità [!UICONTROL Condividi con chiunque] richiede l&#39;autenticazione di CX Enterprise. Per i clienti [!DNL Healthcare Shield], viene visualizzato un avviso di &quot;conformità HIPAA&quot;, ma è comunque possibile utilizzare questa funzione dopo l&#39;autenticazione in CX Enterprise.
 
 >[!BEGINSHADEBOX]
 
@@ -205,13 +218,13 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
    * **[!UICONTROL Richiedi autenticazione Experience Cloud]:**
 
-     Quando questa opzione è abilitata, gli unici utenti che possono accedere al progetto sono quelli che possono accedere all&#39;organizzazione CX Enterprise (Experience Cloud) in cui è stato creato il progetto condiviso. Tuttavia, gli utenti con cui condividi non hanno bisogno di avere l’accesso ad Adobe Analytics.
+     Quando questa opzione è abilitata, gli unici utenti che possono accedere al progetto sono quelli che possono accedere all’organizzazione CX Enterprise (Experience Cloud) in cui è stato creato il progetto che stai condividendo. Tuttavia, gli utenti con cui condividi non hanno bisogno di avere l’accesso ad Adobe Analytics.
 
      Gli amministratori di Customer Journey Analytics possono configurare questa preferenza per l’azienda, come descritto in [Preferenze](/help/analysis-workspace/user-preferences.md). A seconda della configurazione di questa opzione da parte dell’amministratore, potrebbero verificarsi gli scenari seguenti:
 
      * Se questa opzione non è visibile, l’amministratore di Customer Journey Analytics non ha abilitato questa funzione.
 
-     * Se questa opzione è abilitata e non è possibile disabilitarla, significa che l’amministratore di Customer Journey Analytics richiede l’autenticazione CX Enterprise per tutti coloro che accedono ai progetti Analysis Workspace. Questo è sempre il caso delle organizzazioni che dispongono della licenza Healthcare Shield.
+     * Se questa opzione è abilitata e non puoi disabilitarla, significa che l’amministratore di Customer Journey Analytics richiede l’autenticazione di CX Enterprise per tutti coloro che accedono ai progetti Analysis Workspace. Questo è sempre il caso delle organizzazioni che dispongono della licenza Healthcare Shield.
 
 1. Accanto al campo **[!UICONTROL Condividi con chiunque (accesso non richiesto)]**, seleziona ![Collegamento](/help/assets/icons/Link.svg) per copiare il collegamento negli Appunti di sistema.
 
@@ -219,7 +232,7 @@ Per condividere un progetto Analysis Workspace con chiunque:
 
    Qualsiasi persona con cui condividi il collegamento può visualizzare il progetto Analysis Workspace.
 
-1. (Facoltativo) Puoi selezionare l’![icona Genera nuovo collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) per rimuovere l’accesso da utenti che hanno precedentemente ricevuto un collegamento al progetto. Viene generato un nuovo collegamento che puoi condividere con gli utenti che desideri accedano al progetto.
+1. (Facoltativo) Puoi selezionare l’![icona Genera nuovo collegamento](/help/assets/icons/Refresh.svg) per rimuovere l’accesso da utenti che hanno precedentemente ricevuto un collegamento al progetto. Viene generato un nuovo collegamento che puoi condividere con gli utenti che desideri accedano al progetto.
 
 1. Seleziona **[!UICONTROL Chiudi]** per chiudere la finestra di dialogo di condivisione. Le modifiche vengono salvate automaticamente.
 

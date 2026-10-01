@@ -10,27 +10,36 @@ autotag-review: '2026-05-19T08:50:02.853Z'
 TQID: 'https://experienceleague.adobe.com/iJ5jp3wtWSrJzCnJqIceIHwwLideF-U2puXvit5GFac'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
   - id: e75a4a9c-d354-4ca4-9b02-1afeca73fa5e
+    internal-label: Integrations
 subfeature_v2:
   - id: d1d3b429-e0a8-4e2f-af0a-a48d23e366b7
+    internal-label: Connections
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 88ff7c4124d4612a3411b315a605aec29bc9a218
+    internal-label: Data management
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 7319
-ht-degree: 87%
-
+source-wordcount: '7127'
+ht-degree: 86%
 ---
-
 # Gestire le connessioni {#manage-connections}
 
 >[!CONTEXTUALHELP]
@@ -71,9 +80,9 @@ Nella tabella sono disponibili le colonne o le icone seguenti.
 | Colonna o icona | Descrizione |
 | --- | --- |
 | **[!UICONTROL _Nome_]** | Il nome descrittivo della connessione. Seleziona il nome con collegamento ipertestuale per visualizzare i [dettagli della connessione](#connection-details). |
-| ![Informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) | Per visualizzare le informazioni su [!UICONTROL Set di dati inclusi], [!UICONTROL Sandbox], [!UICONTROL Proprietario] e altro ancora, seleziona ![Informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) accanto al nome della connessione.<p>Una finestra a comparsa mostra i dettagli sul set di dati. <p>![Finestra a comparsa con informazioni sulla connessione](assets/connection-info-popup.png) |
-| ![Visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) | Per [creare una visualizzazione dati](#create-a-data-view) per la connessione, seleziona ![Visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg). Questa icona viene visualizzata solo se alla connessione non è già associata alcuna visualizzazione dati. |
-| ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) per aprire un menu di scelta rapida. Puoi selezionare: <p>![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Modifica]** per [modificare](#edit-a-connection) una connessione.<p>![Elimina](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Elimina]** per [eliminare](#delete-a-connection) una connessione.<p>![Visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL Crea nuova visualizzazione dati]** per [creare una nuova visualizzazione dati](#create-a-data-view) per la connessione.<p>![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Mappa connessione]** per visualizzare una [mappa della connessione](#map-a-connection) per la connessione. |
+| ![Informazioni](/help/assets/icons/InfoOutline.svg) | Per visualizzare le informazioni su [!UICONTROL Set di dati inclusi], [!UICONTROL Sandbox], [!UICONTROL Proprietario] e altro ancora, seleziona ![Informazioni](/help/assets/icons/InfoOutline.svg) accanto al nome della connessione.<p>Una finestra a comparsa mostra i dettagli sul set di dati. <p>![Finestra a comparsa con informazioni sulla connessione](assets/connection-info-popup.png) |
+| ![Visualizzazione dati](/help/assets/icons/DataAdd.svg) | Per [creare una visualizzazione dati](#create-a-data-view) per la connessione, seleziona ![Visualizzazione dati](/help/assets/icons/DataAdd.svg). Questa icona viene visualizzata solo se alla connessione non è già associata alcuna visualizzazione dati. |
+| ![Altro](/help/assets/icons/More.svg) | Seleziona ![Altro](/help/assets/icons/More.svg) per aprire un menu di scelta rapida. Puoi selezionare: <p>![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica]** per [modificare](#edit-a-connection) una connessione.<p>![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Elimina]** per [eliminare](#delete-a-connection) una connessione.<p>![Visualizzazione dati](/help/assets/icons/DataAdd.svg) **[!UICONTROL Crea nuova visualizzazione dati]** per [creare una nuova visualizzazione dati](#create-a-data-view) per la connessione.<p>![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Mappa connessione]** per visualizzare una [mappa della connessione](#map-a-connection) per la connessione. |
 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Tipo di connessione &#x200B;]** | Il tipo di connessione: **[!UICONTROL Connessione basata su Persona]** o **[!UICONTROL Connessione basata su Account]**. |
 | **[!UICONTROL Set di dati]** | Uno o più collegamenti ai set di dati che fanno parte della connessione. Puoi selezionare il collegamento ipertestuale del set di dati per visualizzare il set di dati nella connessione. Se della connessione selezionata fanno parte più set di dati, seleziona **[!UICONTROL +*x* più]** per visualizzare un pannello **[!UICONTROL Set di dati inclusi]**. Questo pannello mostra i collegamenti a tutti i set di dati e l’opzione ![Ricerca](/help/assets/icons/Search.svg), che consente di cercare un set di dati specifico che fa parte della connessione.<p>![Set di dati inclusi](assets/datasets-included.png)<p>Seleziona un nome per un set di dati per aprire il set di dati nell’interfaccia utente di Experience Platform in una nuova scheda. |
 | **[!UICONTROL Sandbox]** | La [sandbox di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) da cui questa connessione estrae i relativi set di dati. Selezioni questa sandbox al momento della creazione della connessione. Una volta salvata una connessione, non è possibile modificare la sandbox. |
@@ -85,11 +94,11 @@ Nella tabella sono disponibili le colonne o le icone seguenti.
 | **[!UICONTROL Integrazioni]** | Mostra tutte le applicazioni Experience Platform abilitate con la connessione. |
 | **[!UICONTROL Utilizza in CJA]** | Mostra se la connessione è stata abilitata per l’utilizzo con Customer Journey Analytics. |
 
-Per configurare le colonne da visualizzare nella tabella, seleziona ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). Nella finestra di dialogo **[!UICONTROL Personalizza tabella]**, seleziona le colonne da visualizzare. Quindi selezionare **[!UICONTROL Applica]**.
+Per configurare le colonne da visualizzare nella tabella, seleziona ![Impostazioni colonna](/help/assets/icons/ColumnSetting.svg). Nella finestra di dialogo **[!UICONTROL Personalizza tabella]**, seleziona le colonne da visualizzare. Quindi selezionare **[!UICONTROL Applica]**.
 
 ### Cerca connessioni
 
-Puoi cercare rapidamente le connessioni utilizzando la casella ![Cerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
+Puoi cercare rapidamente le connessioni utilizzando la casella ![Cerca](/help/assets/icons/Search.svg).
 
 ### Filtra connessioni
 
@@ -110,14 +119,14 @@ Seleziona ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Nascondi filtri
 
 Per modificare una connessione:
 
-1. Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) accanto al nome della connessione
-1. Seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Modifica]** dal menu di scelta rapida.
+1. Seleziona ![Altro](/help/assets/icons/More.svg) accanto al nome della connessione
+1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica]** dal menu di scelta rapida.
 
 In alternativa, puoi:
 
 1. Controllare l’URL della connessione.
 
-1. Seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Modifica]** dalla barra delle azioni blu.
+1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica]** dalla barra delle azioni blu.
 
 Per ulteriori informazioni, consulta [Creare o modificare una connessione](create-connection.md).
 
@@ -126,14 +135,14 @@ Per ulteriori informazioni, consulta [Creare o modificare una connessione](creat
 
 Per eliminare una connessione:
 
-1. Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) accanto al nome della connessione.
-1. Seleziona ![Elimina](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Elimina]**.
+1. Seleziona ![Altro](/help/assets/icons/More.svg) accanto al nome della connessione.
+1. Seleziona ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Elimina]**.
 
 In alternativa, puoi:
 
 1. Controllare l’URL della connessione.
 
-1. Seleziona ![Elimina](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Elimina]** dalla barra delle azioni blu.
+1. Seleziona ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Elimina]** dalla barra delle azioni blu.
 
 Quando elimini una connessione, un pannello **[!UICONTROL Elimina connessione]** indica le visualizzazioni dati eliminate e i progetti dell’area di lavoro interessati.
 
@@ -152,14 +161,14 @@ Per ulteriori informazioni sull’eliminazione di una connessione, consulta [Imp
 
 Per creare una visualizzazione dati per una connessione:
 
-1. Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) accanto al nome della connessione.
-1. Seleziona ![Aggiungi visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL Crea nuova visualizzazione dati]**.
+1. Seleziona ![Altro](/help/assets/icons/More.svg) accanto al nome della connessione.
+1. Seleziona ![Aggiungi visualizzazione dati](/help/assets/icons/DataAdd.svg) **[!UICONTROL Crea nuova visualizzazione dati]**.
 
 In alternativa, puoi:
 
 1. Controllare l’URL della connessione.
 
-1. Seleziona ![Aggiungi visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL Crea visualizzazione dati]** dalla barra delle azioni blu.
+1. Seleziona ![Aggiungi visualizzazione dati](/help/assets/icons/DataAdd.svg) **[!UICONTROL Crea visualizzazione dati]** dalla barra delle azioni blu.
 
 Per ulteriori informazioni, consulta [Creare o modificare una visualizzazione dati](/help/data-views/create-dataview.md).
 
@@ -255,7 +264,7 @@ Per rimuovere questa connessione da Customer Journey Analytics:
 
 Per visualizzare una [mappa di connessione](/help/connections/create-connection.md#connection-map) che descrive le relazioni tra i set di dati che fanno parte di una connessione:
 
-1. Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) accanto al nome della connessione.
+1. Seleziona ![Altro](/help/assets/icons/More.svg) accanto al nome della connessione.
 1. Seleziona ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Mappa di connessione]**.
 
 ### Dettagli della connessione {#connection-detail}
@@ -272,15 +281,15 @@ L’interfaccia Dettagli connessioni fornisce una visualizzazione molto dettagli
 
 | Interfaccia utente | Descrizione |
 | --- | --- |
-| ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Modifica connessione]** | Per modificare i dettagli di una connessione, seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Modifica connessione]**. Per ulteriori informazioni, consulta [Creare o modificare una connessione](create-connection.md). |
+| ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica connessione]** | Per modificare i dettagli di una connessione, seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica connessione]**. Per ulteriori informazioni, consulta [Creare o modificare una connessione](create-connection.md). |
 | **[!UICONTROL *Selettore di set di dati *]** | Seleziona uno o tutti i set di dati per i quali mstrare i dettagli nella connessione. Non è possibile selezionare più set di dati. L’impostazione predefinita è **[!UICONTROL Tutti i set di dati]**. |
-| **[!UICONTROL *Selettore di intervalli di date *]** | Seleziona un intervallo di dati per cui mostrare i dettagli nella connessione. Modifica la data di inizio e di fine oppure seleziona ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) per aprire il selettore dell’intervallo di date. Nel selettore, seleziona un intervallo di date utilizzando uno dei periodi predefiniti, ad esempio **[!UICONTROL Ultimi 6 mesi]**, oppure utilizzando il calendario per selezionare le date di inizio e di fine. Seleziona **[!UICONTROL Applica]** per applicare il nuovo intervallo di date ai dettagli della connessione. |
+| **[!UICONTROL *Selettore di intervalli di date *]** | Seleziona un intervallo di dati per cui mostrare i dettagli nella connessione. Modifica la data di inizio e di fine oppure seleziona ![Calendario](/help/assets/icons/Calendar.svg) per aprire il selettore dell’intervallo di date. Nel selettore, seleziona un intervallo di date utilizzando uno dei periodi predefiniti, ad esempio **[!UICONTROL Ultimi 6 mesi]**, oppure utilizzando il calendario per selezionare le date di inizio e di fine. Seleziona **[!UICONTROL Applica]** per applicare il nuovo intervallo di date ai dettagli della connessione. |
 | **[!UICONTROL Record di dati evento disponibili]** | Numero totale di righe del set di dati evento disponibili per il reporting, **per l’intera connessione**. Il conteggio è indipendente da qualsiasi intervallo di date o selezione di set di dati. |
-| [!UICONTROL **[!UICONTROL Metriche]**] | Riepiloga record di set di dati di evento, ricerca, profilo e di riepilogo aggiunti, saltati ed eliminati e il numero di batch aggiunti. Queste metriche si basano sul **set di dati e intervallo di date selezionati**.<p>Seleziona **[!UICONTROL Controlla i dettagli]** per mostrare la finestra a comparsa **[!UICONTROL Controlla i dettagli ignorati]**. La finestra a comparsa elenca il numero di record saltati e il motivo per tutti i set di dati evento o per i set di dati selezionati.<p>![Record ignorati](assets/skipped-records.png)<p>Seleziona il pop-up ![Informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) con ulteriori informazioni. Per alcuni motivi per cui vengono ignorati, come [!UICONTROL ID visitatore vuoto], nella finestra a comparsa viene visualizzato **[!UICONTROL Esempio di PSQL per EQS]** (Experience Platform per Query Service) che puoi utilizzare in[Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home) per eseguire query sui record ignorati nel set di dati. Seleziona ![Copia](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) **[!UICONTROL Copia esempio PSQL per EQS]** per copiare SQL. |
+| [!UICONTROL **[!UICONTROL Metriche]**] | Riepiloga record di set di dati di evento, ricerca, profilo e di riepilogo aggiunti, saltati ed eliminati e il numero di batch aggiunti. Queste metriche si basano sul **set di dati e intervallo di date selezionati**.<p>Seleziona **[!UICONTROL Controlla i dettagli]** per mostrare la finestra a comparsa **[!UICONTROL Controlla i dettagli ignorati]**. La finestra a comparsa elenca il numero di record saltati e il motivo per tutti i set di dati evento o per i set di dati selezionati.<p>![Record ignorati](assets/skipped-records.png)<p>Seleziona il pop-up ![Informazioni](/help/assets/icons/InfoOutline.svg) con ulteriori informazioni. Per alcuni motivi per cui vengono ignorati, come [!UICONTROL ID visitatore vuoto], nella finestra a comparsa viene visualizzato **[!UICONTROL Esempio di PSQL per EQS]** (Experience Platform per Query Service) che puoi utilizzare in[Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home) per eseguire query sui record ignorati nel set di dati. Seleziona ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copia esempio PSQL per EQS]** per copiare SQL. |
 | **[!UICONTROL Record aggiunti]** | Una visualizzazione che indica quante righe sono state aggiunte nel periodo di tempo selezionato **per il set di dati e l’intervallo di date selezionati**. Viene aggiornata ogni 10 minuti. |
 | **[!UICONTROL Record ignorati]** | Una visualizzazione che indica quante righe sono state ignorate nel periodo di tempo selezionato **per il set di dati e l’intervallo di date selezionati**. I motivi per cui i record vengono ignorati comprendono: marche temporali mancanti, ID persona o ID account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} mancante o non valido, e così via. Viene aggiornata ogni 10 minuti. <p>Gli ID non validi, ad esempio `undefined`, `00000000` o qualsiasi combinazione di numeri e lettere in un [!UICONTROL ID persona] che appaiono in un evento più di 1 milione di volte in un determinato mese, non possono essere attribuiti a un utente o persona specifica. Queste righe di dati non possono essere acquisite nel sistema e causano errori nell’acquisizione e nel reporting. Per correggere gli ID persona o gli ID account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} non validi, sono disponibili 3 opzioni:<ul><li>Utilizza [Unione delle identità](/help/stitching/overview.md) per popolare gli ID utente non definiti o composti da soli zeri con ID utente validi.</li><li>Rimuovi gli ID utente, che verranno ignorati anche durante l’acquisizione, da preferire agli ID utente non validi o composti solo da zeri.</li><li>Correggi eventuali ID utente non validi nel sistema prima di acquisire i dati.</li></ul> |
 | **[!UICONTROL Record eliminati]** | Una visualizzazione che indica quante righe sono state eliminate nel periodo di tempo selezionato **per il set di dati e l’intervallo di date selezionati**. Ad esempio, qualcuno potrebbe aver eliminato un set di dati in [!DNL Experience Platform]. Viene aggiornata ogni 10 minuti.<p>In alcuni scenari, questo valore può includere anche i record sostituiti, ad esempio con l’unione, o alcuni aggiornamenti dei set di dati di ricerca. Studia questo esempio:</p><ul><li>Carichi un record in un set di dati Profilo individuale XDM, che in Customer Journey Analytics è configurato per essere acquisito come dati di ricerca profilo. Nei dettagli della connessione, questo set di dati visualizzerebbe 1 record aggiunto.</li><li>Carichi un duplicato del record originale nello stesso set di dati di AEP, che ora contiene due record. Customer Journey Analytics acquisisce il record aggiuntivo dal set di dati di ricerca del profilo o dell’account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}. Considerando che il record profilo o account è già stato acquisito nella connessione per l’ID persona o l’ID account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, Customer Journey Analytics elimina la versione precedente e aggiunge i nuovi dati del profilo. Nei dettagli della connessione, questa azione rappresenterebbe 1 record aggiunto e 1 record eliminato, perché Customer Journey Analytics mantiene solo i dati di ricerca del profilo più recenti per qualsiasi ID persona o ID account [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} acquisito.</li><li>In totale, il set di dati di AEP contiene due record che risultano identici. A parte, i dettagli della connessione a Customer Journey Analytics mostrano lo stato dei dati acquisiti: 2 record aggiunti e 1 record eliminato per questo set di dati profilo. </li></ul> |
-| ![Ricerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | Campo di ricerca del set di dati. Nella tabella dei set di dati, puoi eseguire ricerche per nome o ID set di dati. |
+| ![Ricerca](/help/assets/icons/Search.svg) | Campo di ricerca del set di dati. Nella tabella dei set di dati, puoi eseguire ricerche per nome o ID set di dati. |
 | [!UICONTROL Tabella set di dati] | Set di dati che fanno parte della connessione. Per ulteriori spiegazioni, consulta la tabella seguente. Seleziona ![SelectBox](/help/assets/icons/SelectBox.svg) un singolo set di dati per mostrare solo i dettagli della connessione per il set di dati selezionato. Equivale alla selezione di un set di dati dal **[!UICONTROL _Selettore di set di dati_]**. |
 
 Per ciascun set di dati, la tabella visualizza le colonne riportate di seguito:
@@ -313,14 +322,14 @@ Quando nella tabella dei set di dati non è selezionato alcun singolo set di dat
 
 | Opzioni | Descrizione |
 | --- | --- |
-| ![Aggiorna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Aggiorna]** | Per aggiornare la connessione e consentire la visualizzazione dei record aggiunti di recente, seleziona ![Aggiorna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Aggiorna]**. |
-| ![Elimina](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Elimina]** | [Elimina](#delete-a-connection) questa connessione. |
-| ![Aggiungi visualizzazione dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataAdd_18_N.svg) **[!UICONTROL Crea visualizzazione dati]** | [Crea una visualizzazione dati](#create-a-data-view) in base a questa connessione. Per ulteriori informazioni, consulta [Visualizzazione dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/data-views). |
+| ![Aggiorna](/help/assets/icons/Refresh.svg) **[!UICONTROL Aggiorna]** | Per aggiornare la connessione e consentire la visualizzazione dei record aggiunti di recente, seleziona ![Aggiorna](/help/assets/icons/Refresh.svg) **[!UICONTROL Aggiorna]**. |
+| ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Elimina]** | [Elimina](#delete-a-connection) questa connessione. |
+| ![Aggiungi visualizzazione dati](/help/assets/icons/DataAdd.svg) **[!UICONTROL Crea visualizzazione dati]** | [Crea una visualizzazione dati](#create-a-data-view) in base a questa connessione. Per ulteriori informazioni, consulta [Visualizzazione dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/data-views). |
 | **[!UICONTROL Utilizza in CJA]** | Utilizza una connessione Journey Optimizer in Customer Journey Analytics per aggiungere valore alla connessione Journey Optimizer. Per ulteriori informazioni, consulta [Utilizza una connessione Journey Optimizer in Customer Journey Analytics](#use-a-journey-optimizer-connection-in-customer-journey-analytics). |
 | **[!UICONTROL Nome connessione]** | Il nome descrittivo della connessione. |
 | **[!UICONTROL Descrizione connessione]** | Una descrizione più dettagliata che illustra lo scopo di questa connessione. |
 | **[!UICONTROL Sandbox]** | La [sandbox di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home) da cui questa connessione estrae i relativi set di dati. Selezioni questa sandbox al momento della creazione della connessione. Una volta salvata una connessione, non è possibile modificare la sandbox. |
-| **[!UICONTROL ID connessione]** | Un identificatore generato per la connessione. Puoi usare ![Copia](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) per copiare il valore. |
+| **[!UICONTROL ID connessione]** | Un identificatore generato per la connessione. Puoi usare ![Copia](/help/assets/icons/Copy.svg) per copiare il valore. |
 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Tipo di ID primario &#x200B;]** | Il tipo di ID primario per la connessione: **[!UICONTROL Persona]** per una connessione basata su persona, **[!UICONTROL Account]** per una connessione basata su account. |
 | [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}<br/>**[!UICONTROL Contenitori &#x200B;]** | I contenitori configurati per la connessione. |
 | **[!UICONTROL Visualizzazioni dati che usano questa connessione]** | Le visualizzazioni dati che utilizzano questa connessione. |

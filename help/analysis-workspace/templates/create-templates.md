@@ -7,26 +7,34 @@ exl-id: 23cdf02f-56a1-4465-ae7f-b3a1bcad28af
 TQID: https://experienceleague.adobe.com/xTwvC1oPjibPO1fMs1ig4CTqonTwEq20gY-FxlWgHSM
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
   - id: ad333ea6-e90d-4c8f-8d61-9f8690784d6f
+    internal-label: Templates, Templates (CJA)
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Reporting
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 1888
+source-wordcount: '1882'
 ht-degree: 69%
-
 ---
-
 # Creare e gestire i modelli
 
 Gli amministratori possono creare modelli e salvarli affinché possano essere utilizzati da altri utenti dell’azienda da cui accedi
@@ -91,7 +99,7 @@ Gli amministratori possono modificare o eliminare i modelli aziendali.
 
    1. Individua il modello che desideri modificare o eliminare.
 
-      ![Vista a schede dei modelli aziendali](assets/company-template-cards.png)
+      ![Vista a schede modello aziendale](assets/company-template-cards.png)
 
    1. Passa il puntatore del mouse sul modello, quindi seleziona **[!UICONTROL Anteprima]**.
 
@@ -130,7 +138,7 @@ Gli amministratori possono rinominare, assegnare tag e approvare i modelli azien
 
    Viene visualizzato un elenco dei modelli aziendali. Tutti i progetti regolari non vengono visualizzati, a meno che non siano fissati.
 
-   I modelli aziendali possono essere identificati dall’![icona modelli](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) che precede il nome del modello.
+   I modelli aziendali possono essere identificati dall’![icona modelli](/help/assets/icons/FileTemplate.svg) che precede il nome del modello.
 
    ![Visualizzare i filtri dei modelli aziendali](assets/company-templates-filter.png)
 
@@ -166,23 +174,23 @@ Per aggiungere componenti mancanti a un modello:
 
    * **Se visualizzi modelli in una vista a colonne** ![icona vista a colonne](assets/column-view-icon.png):
 
-      1. Passa al modello che non è ancora pronto per l’uso con la visualizzazione dati, quindi seleziona l’icona info accanto al nome del modello.
+     1. Passa al modello che non è ancora pronto per l’uso con la visualizzazione dati, quindi seleziona l’icona info accanto al nome del modello.
 
-         ![Informazioni modello aziendale](assets/company-template-info.png)
+        ![Informazioni modello aziendale](assets/company-template-info.png)
 
-      1. Selezionare **[!UICONTROL Anteprima]**.
+     1. Selezionare **[!UICONTROL Anteprima]**.
 
-         ![Pagina anteprima modello](assets/template-preview.png)
+        ![Pagina anteprima modello](assets/template-preview.png)
 
    * **Se visualizzi modelli in una vista a schede** ![icona di vista a schede](assets/card-view-icon.png):
 
-      1. Individua il modello non ancora pronto per l’utilizzo con la visualizzazione dati.
+     1. Individua il modello non ancora pronto per l’utilizzo con la visualizzazione dati.
 
-         ![Vista a schede dei modelli aziendali](assets/company-template-cards.png)
+        ![Vista a schede dei modelli aziendali](assets/company-template-cards.png)
 
-      1. Passa il puntatore del mouse sul modello, quindi seleziona **[!UICONTROL Anteprima]**.
+     1. Passa il puntatore del mouse sul modello, quindi seleziona **[!UICONTROL Anteprima]**.
 
-         ![Pagina anteprima modello](assets/template-preview.png)
+        ![Pagina anteprima modello](assets/template-preview.png)
 
 1. Nella sezione **[!UICONTROL Componenti mancanti]** viene visualizzato un elenco dei componenti mancanti nella visualizzazione dati. Seleziona **[!UICONTROL Aggiungi questi componenti alla visualizzazione dati]**.
 

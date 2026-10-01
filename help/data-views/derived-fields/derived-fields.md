@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Implementation
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '10602'
+source-wordcount: '10578'
 ht-degree: 98%
 ---
 # Campi derivati {#derived-fields}
@@ -877,10 +877,10 @@ Definisci un campo derivato `Page Name (updated)`. Utilizza la funzione [!UICONT
 
 Nell’interfaccia della regola Classificare sono disponibili le seguenti funzionalità aggiuntive:
 
-- Per cancellare rapidamente tutti i valori della tabella, seleziona ![Cancella](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Erase_18_N.svg) **[!UICONTROL Cancella tutti i valori della tabella]**.
-- Per caricare un file CSV contenente i valori originali di Quando i valori sono uguali e i nuovi valori di Sostituisci i valori con, seleziona ![CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL Carica CSV]**.
-- Per scaricare un modello per creare un file CSV con valori originali e valori nuovi da caricare, seleziona ![Scarica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL Scarica modello CSV]**.
-- Per scaricare un file CSV con tutti i valori originali e i valori nuovi popolati nell’interfaccia della regola, seleziona ![Scarica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Download_18_N.svg) **[!UICONTROL Scarica valori CSV]**.
+- Per cancellare rapidamente tutti i valori della tabella, seleziona ![Cancella](/help/assets/icons/Erase.svg) **[!UICONTROL Cancella tutti i valori della tabella]**.
+- Per caricare un file CSV contenente i valori originali di Quando i valori sono uguali e i nuovi valori di Sostituisci i valori con, seleziona ![CSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Carica CSV]**.
+- Per scaricare un modello per creare un file CSV con valori originali e valori nuovi da caricare, seleziona ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Scarica modello CSV]**.
+- Per scaricare un file CSV con tutti i valori originali e i valori nuovi popolati nell’interfaccia della regola, seleziona ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Scarica valori CSV]**.
 
 
 +++

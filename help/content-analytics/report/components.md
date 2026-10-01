@@ -8,25 +8,32 @@ exl-id: 79bf235a-6f6e-4b04-bcd8-1ff884536648
 TQID: https://experienceleague.adobe.com/grwbNht938ivCsnzlFBzP8Ga8h1udmQLcZngxY6s0-4
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+    internal-label: Content Analytics
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
+    internal-label: Metadata
+source-git-commit: fec14c8ed1f94e16423682a165198dbda760f78d
 workflow-type: tm+mt
-source-wordcount: 1869
-ht-degree: 55%
-
+source-wordcount: '1943'
+ht-degree: 58%
 ---
-
 
 # Componenti di Content Analytics
 
@@ -172,58 +179,63 @@ Nelle tabelle seguenti, ![Generato dall’IA](/help/assets/icons/AI.svg) indica 
 
 ## Paid Media
 
-Questi componenti vengono aggiunti a una visualizzazione dati quando il canale **File multimediali a pagamento** è abilitato tramite un [connettore di origine di file multimediali a pagamento di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home) (ad esempio, Meta Ads o Google Ads). Ti consentono di creare rapporti sulle entità multimediali a pagamento, sulla creatività e di spendere insieme ai contenuti web e mobili.
+Questi componenti vengono aggiunti a una visualizzazione dati quando il canale **File multimediali a pagamento** è abilitato tramite un [connettore di origine di file multimediali a pagamento di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home). Ti consentono di creare rapporti sulle campagne multimediali a pagamento, sulla creatività e di spendere insieme ai contenuti web e mobili. La disponibilità e i valori compilati dipendono dalla rete pubblicitaria e dalla granularità dei rapporti.
 
 Gli [attributi risorsa](#asset-attributes) e [attributi esperienza](#experience-attributes) generati dall&#39;intelligenza artificiale descritti sopra sono disponibili anche per i creativi di media a pagamento. La stessa funzionalità viene eseguita sui canali Web, Mobile e Paid Media.
 
 ### Dimensioni per file multimediali a pagamento
 
+Le dimensioni seguenti includono nomi, stati e altri dettagli per account di annunci, campagne, gruppi di annunci, annunci, esperienze e risorse.
+
 | Titolo | Descrizione | Tipo |
 |---|---|---|
 | Ad network | La piattaforma pubblicitaria da cui sono stati acquisiti i dati multimediali a pagamento. | Dimensione |
+| GUID account | Identificatore univoco dell’account dell’annuncio. | Dimensione |
+| GUID campagna | Identificatore univoco della campagna a pagamento. | Dimensione |
+| GUID gruppo di annunci | Identificatore univoco del gruppo di annunci. | Dimensione |
+| GUID annuncio | Identificatore univoco del singolo annuncio. | Dimensione |
 | Nome account | Nome dell’account dell’annuncio. | Dimensione |
 | Nome della campagna | Nome della campagna multimediale a pagamento. | Dimensione |
-| Nome gruppo di annunci | Nome del gruppo di annunci (set di annunci Meta / gruppo di annunci Google). | Dimensione |
+| Nome gruppo di annunci | Nome del gruppo o del set di annunci. | Dimensione |
 | Nome annuncio | Nome del singolo annuncio. | Dimensione |
 | Nome esperienza | Nome dell’esperienza annuncio (composizione creativa). | Dimensione |
-| Nome della risorsa | Nome della risorsa creativa. | Dimensione |
+| Nome risorsa (paid media) | Nome della risorsa creativa. | Dimensione |
 | Stato della campagna | Stato della campagna. | Dimensione |
-| Stato del gruppo di annunci | Stato del gruppo di annunci. | Dimensione |
+| Stato gruppo di annunci | Stato del gruppo di annunci. | Dimensione |
 | Stato annuncio | Stato dell’annuncio. | Dimensione |
-| Stato server | Stato dettagliato del servizio che indica se l’entità sta effettuando la consegna. | Dimensione |
-| Valuta conto | Valuta del conto dell’annuncio. | Dimensione |
-| Fuso orario dell’account | Fuso orario dell’account dell’annuncio. | Dimensione |
+| Valuta dell’account | Valuta del conto dell’annuncio. | Dimensione |
+| Fuso orario account | Fuso orario dell’account dell’annuncio. | Dimensione |
 | Tipo di account | Tipo dell’account dell’annuncio. | Dimensione |
 | Nome azienda account | Nome aziendale associato all’account dell’annuncio. | Dimensione |
 | Tipo di campagna | Tipo di canale principale della campagna. | Dimensione |
 | Obiettivo campagna | Obiettivo della campagna. | Dimensione |
-| Strategia di offerta della campagna | Strategia di offerta per la campagna. | Dimensione |
+| Strategia d’offerta campagna | Strategia di offerta per la campagna. | Dimensione |
 | Tipo di budget campagna | Tipo di allocazione di budget per la campagna. | Dimensione |
 | Budget giornaliero campagna | Importo budget giornaliero, nella valuta del conto pubblicitario. | Dimensione |
-| Budget del ciclo di vita della campagna | Importo budget ciclo di vita, nella valuta del conto pubblicitario. | Dimensione |
-| Ora di inizio della campagna | Quando è iniziata la campagna. | Dimensione |
+| Budget ciclo di vita campagna | Importo budget ciclo di vita, nella valuta del conto pubblicitario. | Dimensione |
+| Ora di inizio campagna | Quando è iniziata la campagna. | Dimensione |
 | Ora di fine campagna | Quando la campagna è terminata. | Dimensione |
 | Tipo di gruppo di annunci | Tipo del gruppo di annunci. | Dimensione |
-| Strategia di offerta del gruppo di annunci | Strategia di offerta per il gruppo di annunci. | Dimensione |
-| Obiettivo di ottimizzazione del gruppo di annunci | Obiettivo di ottimizzazione per il gruppo di annunci. | Dimensione |
-| Ora di inizio del gruppo di annunci | Quando il gruppo di annunci è iniziato. | Dimensione |
-| Ora di fine del gruppo di annunci | Al termine del gruppo di annunci. | Dimensione |
+| Tipo di strategia d’offerta gruppo di annunci | Strategia di offerta per il gruppo di annunci. | Dimensione |
+| Obiettivo di ottimizzazione gruppo di annunci | Obiettivo di ottimizzazione per il gruppo di annunci. | Dimensione |
+| Ora di inizio gruppo di annunci | Quando il gruppo di annunci è iniziato. | Dimensione |
+| Ora di fine gruppo di annunci | Al termine del gruppo di annunci. | Dimensione |
 | Tipo di annuncio | Tipo/formato dell’annuncio. | Dimensione |
+| Stato di consegna annuncio | Stato di consegna dell’annuncio. | Dimensione |
 | Stato revisione annuncio | Stato di revisione/approvazione dell’annuncio. | Dimensione |
-| Tipo di annuncio Creative | Tipo di creatività utilizzato dall’annuncio. | Dimensione |
+| Tipo di contenuti creativi | Tipo di creatività utilizzato dall’annuncio. | Dimensione |
 | Titolo annuncio | Titolo della creatività dell’annuncio. | Dimensione |
-| Ad Call to action | Call-to-action della creatività dell’annuncio. | Dimensione |
+| Invito all’azione annuncio | Call-to-action della creatività dell’annuncio. | Dimensione |
 | URL di destinazione dell’annuncio | URL di destinazione dell’annuncio. | Dimensione |
 | URL di visualizzazione annuncio | Visualizza l’URL visualizzato nell’annuncio. | Dimensione |
 | Tipo di esperienza | Tipo/formato dell’esperienza dell’annuncio. | Dimensione |
-| URL della pagina di destinazione dell’esperienza | URL della pagina di destinazione per l’esperienza. | Dimensione |
-| Experience Call to action | Call-to-action dell’esperienza. | Dimensione |
+| URL pagina di destinazione esperienza | URL della pagina di destinazione per l’esperienza. | Dimensione |
+| Invito all’azione esperienza | Call-to-action dell’esperienza. | Dimensione |
 | Tipo di risorsa | Tipo di risorsa creativa (ad esempio immagine o video). | Dimensione |
 | Larghezza risorsa | Larghezza della risorsa, in pixel. | Dimensione |
 | Altezza risorsa | Altezza della risorsa, in pixel. | Dimensione |
-| Proporzioni risorse | Proporzioni della risorsa. | Dimensione |
+| Proporzioni risorsa | Proporzioni della risorsa. | Dimensione |
 | Orientamento della risorsa | Orientamento della risorsa. | Dimensione |
-| Tipo di dispositivo | Suddivisione per tipo di dispositivo per le metriche riportate. | Dimensione |
 | Posizionamento | Suddivisione del posizionamento per le metriche riportate. | Dimensione |
 | Piattaforma | Suddivisione della piattaforma per le metriche riportate. | Dimensione |
 | Paese | Suddivisione per paese delle metriche riportate. | Dimensione |
@@ -237,10 +249,10 @@ Gli [attributi risorsa](#asset-attributes) e [attributi esperienza](#experience-
 |---|---|---|
 | Impression | Numero di volte in cui l’annuncio è stato visualizzato. | Metrica |
 | Clic | Numero di clic sull’annuncio. | Metrica |
-| Spesa | Importo speso, nella valuta del conto dell’annuncio. | Metrica |
+| Spesa | Importo speso, come riportato dalla piattaforma pubblicitaria. | Metrica |
 | Conversioni | Numero totale di conversioni. | Metrica |
 | Valore di conversione | Valore totale delle conversioni. | Metrica |
-| Raggiungi | Numero di persone univoche che hanno visto l’annuncio. | Metrica |
+| Raggiungi | Raggiungimento del pubblico segnalato dalla piattaforma pubblicitaria. L’aggregazione della portata tra righe di reporting non deduplica le persone. | Metrica |
 | Coinvolgimenti | Numero di impegni con l’annuncio. | Metrica |
 | Visualizzazioni video | Numero di visualizzazioni video. | Metrica |
 | Completamenti video | Numero di video guardati fino al completamento. | Metrica |
@@ -263,6 +275,8 @@ Gli [attributi risorsa](#asset-attributes) e [attributi esperienza](#experience-
 {style="table-layout:fixed"}
 
 ### Metriche calcolate per elementi multimediali a pagamento
+
+Queste metriche calcolano i rapporti dalle metriche di base aggregate per la granulosità di reporting, anziché sommare singoli tassi.
 
 | Titolo | Descrizione | Tipo |
 |---|---|---|

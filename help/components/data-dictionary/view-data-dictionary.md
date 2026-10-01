@@ -7,28 +7,38 @@ exl-id: 1e538679-12e0-487c-917f-2ff2f1cc8436
 TQID: https://experienceleague.adobe.com/b-y-D9Ba6SlV0tW8D1btQLWYU32HpKrgG3DIftie1W8
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df28738e-9c71-4aa8-929e-edde22340cc6
+    internal-label: Data Dictionary
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Experimentation
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 1364
-ht-degree: 59%
-
+source-wordcount: '1322'
+ht-degree: 58%
 ---
-
 # Visualizza informazioni sul componente
 
 Il dizionario dati consente di visualizzare informazioni su un componente, tra cui la sua descrizione, componenti simili, altri componenti con cui un componente è usato di frequente e altro ancora.
@@ -51,19 +61,19 @@ Per visualizzare informazioni su un componente nel dizionario dei dati:
 
    Il tipo di componente può essere identificato sia dal colore che dall’icona.
 
-   * **Le dimensioni** ![icona Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sono arancioni
+   * **Le dimensioni** ![icona Dimension](/help/assets/icons/Data.svg) sono arancioni
 
-   * **I segmenti** ![L&#39;icona del segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) è blu
+   * **I segmenti** ![L&#39;icona del segmento](/help/assets/icons/Segmentation.svg) è blu
 
-   * **Gli intervalli di date** ![Icona degli intervalli di date](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sono viola
+   * **Gli intervalli di date** ![Icona degli intervalli di date](/help/assets/icons/Calendar.svg) sono viola
 
-   * **Le metriche** ![l&#39;icona delle metriche](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sono verdi
+   * **Le metriche** ![l&#39;icona delle metriche](/help/assets/icons/Event.svg) sono verdi
 
    * **Icona Adobe** ![Icona Adobe](assets/default-calc-metric-icon.png) indica un modello di metrica calcolata o un modello di segmento
 
-   * **Icona Calcolatore** ![Icona Calcolatore](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indica una metrica calcolata creata da un amministratore Analytics nell&#39;organizzazione
+   * **Icona Calcolatore** ![Icona Calcolatore](/help/assets/icons/Calculator.svg) indica una metrica calcolata creata da un amministratore Analytics nell&#39;organizzazione
 
-1. (Facoltativo) Seleziona l’icona **Filtro** ![icona Filtro dizionario dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) e quindi una delle seguenti opzioni per filtrare l’elenco dei componenti:
+1. (Facoltativo) Seleziona l’icona **Filtro** ![icona Filtro dizionario dati](/help/assets/icons/Filter.svg) e quindi una delle seguenti opzioni per filtrare l’elenco dei componenti:
 
    | Opzione | Funzione |
    |---------|----------|
@@ -82,7 +92,7 @@ Per visualizzare informazioni su un componente nel dizionario dei dati:
 
    {style="table-layout:auto"}
 
-1. (Facoltativo) Seleziona l’icona **Ordina** ![icona Ordina componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) e quindi una delle seguenti opzioni per filtrare l’elenco dei componenti:
+1. (Facoltativo) Seleziona l’icona **Ordina** ![icona Ordina componenti](/help/assets/icons/SortOrderDown.svg) e quindi una delle seguenti opzioni per filtrare l’elenco dei componenti:
 
    | Opzione | Funzione |
    |---------|----------|
@@ -104,7 +114,7 @@ Per visualizzare informazioni su un componente nel dizionario dei dati:
    | [!UICONTROL **Etichetta contesto**] | Questo campo viene visualizzato solo se l’etichetta di contesto del componente è stata aggiornata nella visualizzazione dati. <p>Per ulteriori informazioni, consulta [Impostazioni dei componenti](/help/data-views/component-settings/overview.md). </p> |
    | [!UICONTROL **Descrizione**] | Descrive la funzione prevista del componente. (Queste informazioni vengono aggiunte dall’amministratore di Analytics, come descritto in [Aggiungi descrizioni dei componenti](/help/components/add-component-descriptions.md).) |
    | [!UICONTROL **Utilizzato di frequente con**] | <p>Mostra i componenti più comunemente utilizzati insieme a quello che stai visualizzando.</p><p>Tra i 5 tipi di componenti principali, ne sono mostrati fino a 5: Metrica, Metrica calcolata, Dimensione, Segmento e Intervallo di date.</p><p>Questo elenco è basato sui dati degli ultimi 90 giorni. Vengono mostrati solo i componenti a cui hai accesso alla visualizzazione.</p><p>Gli amministratori possono curare i componenti che gli utenti possono visualizzare in questa sezione, selezionandoli nei campi a discesa [!UICONTROL **Includi sempre**] e [!UICONTROL **Escludi sempre**]. Prima di curare i componenti visualizzati dagli utenti, applica il segmento **Mostra tutto** per assicurarti di visualizzare eventuali componenti non condivisi con te che potrebbero essere stati aggiunti da un altro amministratore.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all segment to make it editable. --></p> |
-   | [!UICONTROL **Simile a**] | <p>Mostra i componenti con nomi simili al componente che stai visualizzando.</p><p>Tra i 5 tipi di componenti principali, ne sono mostrati fino a 5: Metrica, Metrica calcolata, Dimensione, Segmento e Intervallo di date.</p><p>Vengono mostrati solo i componenti a cui hai accesso alla visualizzazione.</p><p>Tutti i componenti duplicati nella visualizzazione dati verranno visualizzati qui. Gli amministratori di Analytics devono identificare e rimuovere tutti i componenti duplicati, come descritto in [Monitorare l’integrità del dizionario dati](/help/components/data-dictionary/monitor-data-dictionary-health.md).</p><p>Gli amministratori possono curare i componenti che gli utenti possono visualizzare in questa sezione, selezionandoli nei campi a discesa [!UICONTROL **Includi sempre**] e [!UICONTROL **Escludi sempre**]. Prima di curare i componenti visualizzati dagli utenti, applica il segmento **Mostra tutto** per assicurarti di visualizzare eventuali componenti non condivisi con te che potrebbero essere stati aggiunti da un altro amministratore.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all segment to make it editable. --></p><p>**NOTA:** attualmente, la sezione **Simile a** include solo i componenti che hai creato e non quelli forniti da Adobe. I componenti forniti da Adobe verranno aggiunti in una versione futura.</p> |
+   | [!UICONTROL **Simile a**] | <p>Mostra i componenti con nomi simili al componente che stai visualizzando.</p><p>Tra i 5 tipi di componenti principali, ne sono mostrati fino a 5: Metrica, Metrica calcolata, Dimensione, Segmento e Intervallo di date.</p><p>Vengono mostrati solo i componenti a cui hai accesso alla visualizzazione.</p><p>Tutti i componenti duplicati nella visualizzazione dati verranno visualizzati qui. Gli amministratori di Analytics devono identificare e rimuovere tutti i componenti duplicati, come descritto in [Monitorare l’integrità del dizionario dati](/help/components/data-dictionary/monitor-data-dictionary-health.md).</p><p>Gli amministratori possono curare i componenti che gli utenti possono visualizzare in questa sezione, selezionandoli nei campi a discesa [!UICONTROL **Includi sempre**] ed [!UICONTROL **Escludi sempre**]. Prima di curare i componenti visualizzati dagli utenti, applica il segmento **Mostra tutto** per assicurarti di visualizzare eventuali componenti non condivisi con te che potrebbero essere stati aggiunti da un altro amministratore.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all segment to make it editable. --></p><p>**NOTA:** attualmente, la sezione **Simile a** include solo i componenti che hai creato e non quelli forniti da Adobe. I componenti forniti da Adobe verranno aggiunti in una versione futura.</p> |
    | [!UICONTROL **Compatibilità del prodotto**] | Indica dove può essere utilizzata questa metrica calcolata in Customer Journey Analytics. <p>I valori possibili sono:</p><ul><li>[!UICONTROL **Ovunque in Customer Journey Analytics**]: la metrica calcolata può essere utilizzata in tutto Customer Journey Analytics, inclusi Analysis Workspace, Report Builder e così via.</li><li>[!UICONTROL **Ovunque in Customer Journey Analytics (esclusa la sperimentazione)**]: la metrica calcolata può essere utilizzata in tutto Customer Journey Analytics, eccetto nel pannello Sperimentazione.</li> <p>Per informazioni sui criteri che determinano se una metrica calcolata può essere utilizzata con la sperimentazione, vedere [Utilizzare le metriche calcolate nel pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md#use-calculated-metrics-in-the-experimentation-panel) in [Pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md).</p></ul> |
    | [!UICONTROL **Tag**] | Mostra tutti i tag applicati al componente. Gli utenti con accesso amministratore possono aggiungere tag durante la modifica del componente. |
    | [!UICONTROL **Tipo di componente**] | Elenca il tipo di componente, che si tratti di Dimensione, Metrica, Segmento o Intervallo di date. |

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Governance
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '212'
 ht-degree: 75%
 ---
 # Mancanza di autorizzazioni
@@ -64,7 +64,7 @@ Ad esempio, dopo la creazione di [Connessione](../connections/overview.md) e [Vi
 
 1. Passa al ruolo pertinente.
 
-1. Seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Modifica]** per modificare il ruolo.
+1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica]** per modificare il ruolo.
 
 1. Accertati che **[!UICONTROL Gestisci criteri utilizzo dati]** e **[!UICONTROL Visualizza criteri utilizzo dati]** siano aggiunti al contenitore **[!UICONTROL Governance dati]**.
 

@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 6acb1ca076e28e8da4bbc1920837cea9216777e1
+source-git-commit: 91497f695a693fd15135dc5173e8a35537616e72
 workflow-type: tm+mt
-source-wordcount: '10738'
+source-wordcount: '10677'
 ht-degree: 89%
 ---
 # Creare o modificare una connessione {#create-or-edit-a-connection}
@@ -560,7 +560,7 @@ Puoi aggiungere uno o più set di dati di Experience Platform quando crei o modi
 
    | Colonna | Descrizione |
    |---|---|
-   | **[!UICONTROL Set di dati]** | Nome del se di dati. Seleziona il nome per indirizzarti al set di dati in Experience Platform. Seleziona ![Informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) per visualizzare un pop-up con ulteriori dettagli per il set di dati. Puoi selezionare **[!UICONTROL Modifica in Platform]** per modificare il set di dati direttamente in Experience Platform. |
+   | **[!UICONTROL Set di dati]** | Nome del se di dati. Seleziona il nome per indirizzarti al set di dati in Experience Platform. Selezionare ![InfoOutline](/help/assets/icons/InfoOutline.svg) per visualizzare un popup con ulteriori dettagli per il set di dati. Puoi selezionare **[!UICONTROL Modifica in Platform]** per modificare il set di dati direttamente in Experience Platform. |
    | **[!UICONTROL Tipo di set di dati]** | Il tipo di set di dati: [Evento](#event-dataset), [Profilo](#profile-dataset), [Ricerca](#lookup-dataset), [Riepilogo](#summary-dataset), [Ad hoc](#ad-hoc-dataset) o [Relazionale](#relational-dataset). |
    | **[!UICONTROL Numero di record]** | Totale dei record del mese precedente per il set di dati in Experience Platform. |
    | **[!UICONTROL Schema]** | Lo schema per il set di dati. Seleziona il nome per passare allo schema in Experience Platform. |
@@ -568,10 +568,10 @@ Puoi aggiungere uno o più set di dati di Experience Platform quando crei o modi
    | **[!UICONTROL ID set di dati]** | L’ID del set di dati. |
    | **[!UICONTROL Ultimo aggiornamento]** | La marca temporale dell’ultimo aggiornamento del set di dati. |
 
-   * Per modificare le colonne visualizzate per l’elenco dei set di dati, seleziona ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) e seleziona le colonne da visualizzare nella finestra di dialogo [!UICONTROL Personalizza tabella].
-   * Per cercare un set di dati specifico, utilizza il campo di ricerca ![Cerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
-   * Per attivare o disattivare le visualizzazione dei set di dati selezionati, utilizza ![Seleziona](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL Nascondi selezione]** o **[!UICONTROL Mostra selezione]**.
-   * Per rimuovere un set di dati dall’elenco dei set di dati selezionati, utilizza ![Chiudi](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg). Per rimuovere tutti i set di dati selezionati, utilizza **[!UICONTROL Cancella tutto]**.
+   * Per modificare le colonne visualizzate per l&#39;elenco dei set di dati, selezionare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) e selezionare le colonne da visualizzare nella finestra di dialogo [!UICONTROL Personalizza tabella].
+   * Per cercare un set di dati specifico, utilizza il campo di ricerca ![Cerca](/help/assets/icons/Search.svg).
+   * Per visualizzare o nascondere i set di dati selezionati, seleziona ![SelezionaBoxAll](/help/assets/icons/SelectBoxAll.svg) **[!UICONTROL Nascondi selezionati]** o **[!UICONTROL Mostra selezionati]**.
+   * Per rimuovere un set di dati dall’elenco dei set di dati selezionati, utilizza ![Chiudi](/help/assets/icons2/Close.svg). Per rimuovere tutti i set di dati selezionati, utilizza **[!UICONTROL Cancella tutto]**.
    * Per visualizzare i dettagli di un set di dati, seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg).
 
 
@@ -623,7 +623,7 @@ Puoi aggiungere uno o più set di dati di Experience Platform quando crei o modi
 
    | Colonna | Descrizione |
    |---|---|
-   | **[!UICONTROL Set di dati]** | Nome del se di dati. Seleziona il nome per indirizzarti al set di dati in Experience Platform. Seleziona ![Informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) per visualizzare un pop-up con ulteriori dettagli per il set di dati. Puoi selezionare **[!UICONTROL Modifica in Platform]** per modificare il set di dati direttamente in Experience Platform. |
+   | **[!UICONTROL Set di dati]** | Nome del se di dati. Seleziona il nome per indirizzarti al set di dati in Experience Platform. Seleziona ![Informazioni](/help/assets/icons/InfoOutline.svg) per visualizzare un pop-up con ulteriori dettagli per il set di dati. Puoi selezionare **[!UICONTROL Modifica in Platform]** per modificare il set di dati direttamente in Experience Platform. |
    | **[!UICONTROL Tipo di set di dati]** | Il tipo di set di dati: [Evento](#event-dataset), [Profilo](#profile-dataset), [Ricerca](#lookup-dataset), [Riepilogo](#summary-dataset), [Ad hoc](#ad-hoc-dataset) o [Relazionale](#relational-dataset). |
    | **[!UICONTROL Numero di record]** | Totale dei record del mese precedente per il set di dati in Experience Platform. |
    | **[!UICONTROL Schema]** | Lo schema per il set di dati. Seleziona il nome per passare allo schema in Experience Platform. |
@@ -631,10 +631,10 @@ Puoi aggiungere uno o più set di dati di Experience Platform quando crei o modi
    | **[!UICONTROL ID set di dati]** | L’ID del set di dati. |
    | **[!UICONTROL Ultimo aggiornamento]** | La marca temporale dell’ultimo aggiornamento del set di dati. |
 
-   * Per modificare le colonne visualizzate per l’elenco dei set di dati, seleziona ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) e seleziona le colonne da visualizzare nella finestra di dialogo [!UICONTROL Personalizza tabella].
-   * Per cercare un set di dati specifico, utilizza il campo di ricerca ![Cerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
-   * Per attivare o disattivare le visualizzazione dei set di dati selezionati, utilizza ![Seleziona](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL Nascondi selezione]** o **[!UICONTROL Mostra selezione]**.
-   * Per rimuovere un set di dati dall’elenco dei set di dati selezionati, utilizza ![Chiudi](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg). Per rimuovere tutti i set di dati selezionati, utilizza **[!UICONTROL Cancella tutto]**.
+   * Per modificare le colonne visualizzate per l’elenco dei set di dati, seleziona ![Impostazioni colonna](/help/assets/icons/ColumnSetting.svg) e seleziona le colonne da visualizzare nella finestra di dialogo [!UICONTROL Personalizza tabella].
+   * Per cercare un set di dati specifico, utilizza il campo di ricerca ![Cerca](/help/assets/icons/Search.svg).
+   * Per attivare o disattivare le visualizzazione dei set di dati selezionati, utilizza ![Seleziona](/help/assets/icons/SelectBoxAll.svg) **[!UICONTROL Nascondi selezione]** o **[!UICONTROL Mostra selezione]**.
+   * Per rimuovere un set di dati dall’elenco dei set di dati selezionati, utilizza ![Chiudi](/help/assets/icons/Close.svg). Per rimuovere tutti i set di dati selezionati, utilizza **[!UICONTROL Cancella tutto]**.
    * Per visualizzare i dettagli di un set di dati, seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg).
 
 

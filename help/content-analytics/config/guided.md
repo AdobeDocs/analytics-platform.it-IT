@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '4806'
+source-wordcount: '4800'
 ht-degree: 49%
 ---
 
@@ -382,7 +382,7 @@ Per il canale web, puoi configurare [acquisizione e definizione esperienza](#exp
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_include_experiences"
 >title="Acquisizione e definizione dell’esperienza"
->abstract="Quando questa opzione è abilitata, vengono raccolti i dati sull’esperienza, vengono generati gli attributi dell’esperienza e sono disponibili i rapporti sull’esperienza. <br><br/>Utilizza ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Modifica]** per modificare la configurazione della raccolta dati per le esperienze nella proprietà Tag associata alla configurazione corrente."
+>abstract="Quando questa opzione è abilitata, vengono raccolti i dati sull’esperienza, vengono generati gli attributi dell’esperienza e sono disponibili i rapporti sull’esperienza. <br><br/>Utilizza ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica]** per modificare la configurazione della raccolta dati per le esperienze nella proprietà Tag associata alla configurazione corrente."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
