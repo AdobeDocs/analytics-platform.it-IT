@@ -110,7 +110,7 @@ Utilizza il seguente procedimento per collegare un’origine e acquisire dati mu
 
 1. Verifica di disporre delle autorizzazioni di origine di Experience Platform e dell’accesso ad-platform richiesti.
 1. In Experience Platform, vai a **[!UICONTROL Origini]** > **[!UICONTROL Catalogo]** > **[!UICONTROL Advertising]**.
-1. 
+1. &#x200B;
    1. Verifica di trovarti nella sandbox che contiene i set di dati per contenuti multimediali a pagamento.
 1. Selezionare il connettore da utilizzare, ad esempio **[!DNL Meta Ads]**. Seleziona **[!UICONTROL Configura]** per creare una nuova connessione oppure seleziona **[!UICONTROL Aggiungi dati]** per aggiungere altri dati a una connessione esistente.
 1. Eseguire l&#39;autenticazione con [!DNL OAuth 2.0] effettuando l&#39;accesso con un utente che dispone dell&#39;accesso a livello di inserzionista richiesto.
