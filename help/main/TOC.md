@@ -2,7 +2,7 @@
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: 7357a8b929d72095aee7c154ea9e77791ac1a751
+source-git-commit: 4a005c03e46547810de8d27fcf85a041ab59a4d6
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 89%
@@ -316,14 +316,6 @@ ht-degree: 89%
     + [Libreria JavaScript](/help/content-analytics/config/tags-agnostic.md)
     + [Raccolta dati](/help/content-analytics/config/datacollection.md)
 
-+ Dashboard di Analytics {#cja-dashboards}
-  + [Panoramica](../mobile-app/home.md)
-  + [Attività del curatore](../mobile-app/curator.md)
-  + [Creare scorecard per dispositivi mobili](../mobile-app/create-scorecard.md)
-  + [Gestire le scorecard per dispositivi mobili](../mobile-app/manage-scorecard.md)
-  + [Preparare il management a utilizzare le dashboard](../mobile-app/set-up-execs.md)
-  + [Guida introduttiva per utenti direzionali](../mobile-app/executive.md)
-
 + Analisi guidata {#guided-analysis}
   + [Panoramica](../guided-analysis/overview.md)
   + [Crescita attiva](../guided-analysis/types/active-growth.md)
@@ -341,12 +333,19 @@ ht-degree: 89%
   + [Domande frequenti](../guided-analysis/faq.md)
 
 + Approfondimenti conversazione {#conversation-insights}
-  + {hide-from-toc}[Panoramica](/help/conversation-insights/conversation-insights-overview.md)
-  + {hide-from-toc}[Configura](/help/conversation-insights/conversation-insights-configure.md)
-  + {hide-from-toc}[Gestisci](/help/conversation-insights/conversation-insights-manage.md)
-  + {hide-from-toc}[Implementa](/help/conversation-insights/conversation-insights-implement.md)
-  + {hide-from-toc}[Analizza](/help/conversation-insights/conversation-insights-analyze.md)
+  + [Panoramica](/help/conversation-insights/overview.md)
+  + [Configurare](/help/conversation-insights/configure.md)
+  + [Gestire](/help/conversation-insights/manage.md)
+  + [Implementazione](/help/conversation-insights/implement.md)
+  + [Analizzare](/help/conversation-insights/analyze.md)
 
++ Dashboard di Analytics {#cja-dashboards}
+  + [Panoramica](../mobile-app/home.md)
+  + [Attività del curatore](../mobile-app/curator.md)
+  + [Creare scorecard per dispositivi mobili](../mobile-app/create-scorecard.md)
+  + [Gestire le scorecard per dispositivi mobili](../mobile-app/manage-scorecard.md)
+  + [Preparare il management a utilizzare le dashboard](../mobile-app/set-up-execs.md)
+  + [Guida introduttiva per utenti direzionali](../mobile-app/executive.md)
 
 + Componenti {#cja-components}
   + [Panoramica](../components/overview.md)
