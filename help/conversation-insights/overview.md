@@ -17,12 +17,14 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3acb31df785d038def3432a9734b499810636860
+source-git-commit: e550b7005c12bc5e2fb92bea44767bae0d7db3dc
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 1%
 ---
 # Approfondimenti conversazione
+
+{{release-limited-testing}}
 
 Informazioni sulla conversazione consente di analizzare le conversazioni dalle esperienze agente offerte ai clienti. Queste esperienze agente possono essere basate su modelli di linguaggio di grandi dimensioni (Large Language Model, LLM) o su conversazioni umane. Ad esempio, un chatbot che interagisce con le trascrizioni di un cliente o di un call center.
 
@@ -53,7 +55,7 @@ A un livello elevato di Informazioni sulla conversazione, una [conversazione](#c
 Informazioni sulla conversazione analizza le interazioni dell&#39;agente a due livelli:
 
 * [Livello di conversazione](#conversation): l&#39;interazione completa tra un utente e un agente, che contiene più giri.
-* [Livello &#x200B;](#turn): un ciclo di interazione all&#39;interno della conversazione, costituito da un prompt utente e una risposta dell&#39;agente.
+* [Livello ](#turn): un ciclo di interazione all&#39;interno della conversazione, costituito da un prompt utente e una risposta dell&#39;agente.
 
 L’applicazione o il servizio agente genera in Experience Platform eventi di esperienza relativi alla conversazione. I dati dell’evento di richiesta, risposta e feedback possono arrivare in modo indipendente. I servizi di Platform correlano e combinano tali eventi in un record a livello di svolta, arricchiscono facoltativamente i dati con i segnali estratti e rendono disponibili i dati risultanti per il reporting di Customer Journey Analytics.
 

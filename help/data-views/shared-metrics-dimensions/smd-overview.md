@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: 2a01268e537fb7982f698ccf9c14b831edf8437f
+source-git-commit: d16771a675504a6330a59478f15bf6112ae444d6
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 2%
@@ -38,7 +38,8 @@ Le metriche e le dimensioni condivise forniscono una posizione centrale per gest
 Anche se le dimensioni e le metriche condivise consentono l’utilizzo di componenti comuni in più visualizzazioni dati, non possono essere condivise tra le connessioni.
 
 ## Autorizzazioni
-* [Gli amministratori di prodotto](https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/access-control#product-administrator-role) necessitano inoltre delle autorizzazioni **Gestisci criteri di utilizzo dati** e **Visualizza criteri di utilizzo dati** per tutte le sandbox in [Autorizzazioni Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home#permissions).
+
+* [Gli amministratori di prodotto](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#product-administrator-role) necessitano inoltre delle autorizzazioni **Gestisci criteri di utilizzo dati** e **Visualizza criteri di utilizzo dati** per tutte le sandbox in [Autorizzazioni Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions).
 
 ## Flusso di lavoro
 
