@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 5%
+source-wordcount: '296'
+ht-degree: 2%
 ---
 # Gestire le configurazioni di analisi del pubblico{#manage-audience-analysis}
 
@@ -65,9 +65,9 @@ Per visualizzare le configurazioni esistenti dell’analisi del pubblico:
 
    * **[!UICONTROL Stato]**: lo stato della configurazione. I possibili stati sono Completo, In corso o Non riuscito. <!--true?-->
 
-   È possibile nascondere le colonne selezionando l&#39;icona Colonna ![icona Colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), deselezionando le colonne che si desidera nascondere, quindi selezionando **[!UICONTROL Applica]**.
+   È possibile nascondere le colonne selezionando l&#39;icona Colonna ![icona Colonna](/help/assets/icons2/ColumnSettings.svg), deselezionando le colonne che si desidera nascondere, quindi selezionando **[!UICONTROL Applica]**.
 
-1. (Facoltativo) Per filtrare l&#39;elenco delle configurazioni, seleziona l&#39;icona Filtro **Filtro** ![Analisi del pubblico](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), quindi filtra in base a uno dei seguenti criteri:
+1. (Facoltativo) Per filtrare l&#39;elenco delle configurazioni, seleziona l&#39;icona Filtro **Filtro** ![Analisi del pubblico](/help/assets/icons/Filter.svg), quindi filtra in base a uno dei seguenti criteri:
 
    * **[!UICONTROL Connessione]**
 

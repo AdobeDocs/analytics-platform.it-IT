@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3512'
 ht-degree: 46%
 ---
 # Acquisire dati tramite Mobile SDK
@@ -380,7 +380,7 @@ Per definire una regola:
 
      - Seleziona **[!UICONTROL Mantieni modifiche]**.
 
-   - Fai clic su ![Plus](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) accanto a [!UICONTROL Mobile Core - Foreground].
+   - Fai clic su ![Plus](/help/assets/icons/AddCircle.svg) accanto a [!UICONTROL Mobile Core - Foreground].
 
      - Seleziona **[!UICONTROL Mobile Core]** dall&#39;elenco [!UICONTROL Extension].
 
@@ -388,7 +388,7 @@ Per definire una regola:
 
      - Seleziona **[!UICONTROL Mantieni modifiche]**.
 
-   - Fai clic su ![Più](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) Aggiungi sotto [!UICONTROL AZIONI]. Nella finestra di dialogo [!UICONTROL Configurazione azione]:
+   - Fai clic su ![Più](/help/assets/icons/AddCircle.svg) Aggiungi sotto [!UICONTROL AZIONI]. Nella finestra di dialogo [!UICONTROL Configurazione azione]:
 
      - Seleziona **[!UICONTROL Adobe Experience Platform Edge Network]** dall&#39;elenco [!UICONTROL Estensione].
 
@@ -447,9 +447,9 @@ Per ottenere istruzioni sul codice che spiegano come configurare l’app mobile 
 
 1. Seleziona **[!UICONTROL Ambienti]** nella barra a sinistra.
 
-2. Dall&#39;elenco degli ambienti, selezionare il pulsante di installazione ![Box](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Box_18_N.svg) corretto.
+2. Dall&#39;elenco degli ambienti, selezionare il pulsante di installazione ![Box](/help/assets/icons/Box.svg) corretto.
 
-   Nella finestra di dialogo [!UICONTROL Istruzioni di installazione mobile], seleziona la piattaforma appropriata ([!UICONTROL iOS], [!UICONTROL Android]). Quindi utilizza il pulsante Copia ![Copia](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) accanto a ciascuno dei frammenti di codice pertinenti che desideri utilizzare per configurare e inizializzare l&#39;app mobile:
+   Nella finestra di dialogo [!UICONTROL Istruzioni di installazione mobile], seleziona la piattaforma appropriata ([!UICONTROL iOS], [!UICONTROL Android]). Quindi utilizza il pulsante Copia ![Copia](/help/assets/icons/Copy.svg) accanto a ciascuno dei frammenti di codice pertinenti che desideri utilizzare per configurare e inizializzare l&#39;app mobile:
 
    ![Ambiente](./assets/environment-mobile.png)
 
@@ -465,7 +465,7 @@ Ora puoi distribuire il codice all’interno dell’app mobile. Una volta implem
 
 Convalida l’implementazione, correggila laddove necessario e una volta corretta, implementala nell’ambiente di staging e di produzione utilizzando la funzione di flusso di lavoro di pubblicazione dei tag.
 
-Per informazioni molto più dettagliate, consulta l&#39;esercitazione sull&#39;implementazione di Adobe Experience Cloud nelle app per dispositivi mobili[&#128279;](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=it).
+Per informazioni molto più dettagliate, consulta l&#39;esercitazione sull&#39;implementazione di Adobe Experience Cloud nelle app per dispositivi mobili](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=it).[
 
 ## Configurare una connessione
 

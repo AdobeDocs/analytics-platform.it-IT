@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1672'
 ht-degree: 98%
 ---
 # Creare e configurare una connessione da utilizzare con Customer Journey Analytics {#upgrade-create-connection}
@@ -106,7 +106,7 @@ Puoi aggiungere un set di dati di Experience Platform quando crei una connession
 
    | Colonna | Descrizione |
    |---|---|
-   | Set di dati | Nome del se di dati. Seleziona il nome per indirizzarti al set di dati in Experience Platform. Seleziona ![Informazioni](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) per visualizzare un pop-up con ulteriori dettagli per il set di dati. Puoi selezionare **[!UICONTROL Modifica in Platform]** per modificare il set di dati direttamente in Experience Platform. |
+   | Set di dati | Nome del se di dati. Seleziona il nome per indirizzarti al set di dati in Experience Platform. Seleziona ![Informazioni](/help/assets/icons/InfoOutline.svg) per visualizzare un pop-up con ulteriori dettagli per il set di dati. Puoi selezionare **[!UICONTROL Modifica in Platform]** per modificare il set di dati direttamente in Experience Platform. |
    | Tipo di set di dati | Tipo di set di dati: evento, profilo, ricerca e riepilogo. |
    | Numero di record | Totale dei record del mese precedente per il set di dati in Experience Platform. |
    | Schema | Lo schema per il set di dati. Seleziona il nome per passare allo schema in Experience Platform. |
@@ -116,10 +116,10 @@ Puoi aggiungere un set di dati di Experience Platform quando crei una connession
 
 
 1. Seleziona uno o più set di dati e seleziona **[!UICONTROL Avanti]**. La connessione deve contenere almeno un set di dati evento.
-   * Per modificare le colonne visualizzate per l’elenco dei set di dati, seleziona ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) e seleziona le colonne da visualizzare nella finestra di dialogo [!UICONTROL Personalizza tabella].
-   * Per cercare un set di dati specifico, utilizza il campo di ricerca ![Cerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
-   * Per attivare o disattivare le visualizzazione dei set di dati selezionati, utilizza ![Seleziona](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SelectBoxAll_18_N.svg) **[!UICONTROL Nascondi selezione]** o **[!UICONTROL Mostra selezione]**.
-   * Per rimuovere un set di dati dall’elenco dei set di dati selezionati, utilizza ![Chiudi](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Close_18_N.svg). Per rimuovere tutti i set di dati selezionati, utilizza **[!UICONTROL Cancella tutto]**.
+   * Per modificare le colonne visualizzate per l’elenco dei set di dati, seleziona ![Impostazioni colonna](/help/assets/icons/ColumnSetting.svg) e seleziona le colonne da visualizzare nella finestra di dialogo [!UICONTROL Personalizza tabella].
+   * Per cercare un set di dati specifico, utilizza il campo di ricerca ![Cerca](/help/assets/icons/Search.svg).
+   * Per attivare o disattivare le visualizzazione dei set di dati selezionati, utilizza ![Seleziona](/help/assets/icons/SelectBoxAll.svg) **[!UICONTROL Nascondi selezione]** o **[!UICONTROL Mostra selezione]**.
+   * Per rimuovere un set di dati dall’elenco dei set di dati selezionati, utilizza ![Chiudi](/help/assets/icons/Close.svg). Per rimuovere tutti i set di dati selezionati, utilizza **[!UICONTROL Cancella tutto]**.
 
 
 
@@ -137,7 +137,7 @@ Puoi aggiungere un set di dati di Experience Platform quando crei una connession
    | **[!UICONTROL Fuso orario]** | Disponibile solo per i dati di riepilogo. Seleziona il fuso orario appropriato per i dati di riepilogo delle serie temporali. |
    | **[!UICONTROL Tipo di origine dati]** | Seleziona un tipo di origine dati. <br/>I tipi di origini dati includono: <ul><li>[!UICONTROL Dati web]</li><li>[!UICONTROL Dati da app mobili]</li><li>[!UICONTROL Dati POS]</li><li>[!UICONTROL Dati CRM]</li><li>[!UICONTROL Dati sondaggio]</li><li>[!UICONTROL Dati del call center]</li><li>[!UICONTROL Dati prodotto]</li><li> [!UICONTROL Dati degli account]</li><li> [!UICONTROL Dati transazione]</li><li>[!UICONTROL Dati di feedback cliente]</li><li> [!UICONTROL Altre]</li></ul>Questo campo viene utilizzato per esaminare i tipi di origini dati in uso. |
    | **[!UICONTROL Importa nuovi dati]** | Abilita questa opzione se desideri stabilire una connessione continua. Con una connessione continua, i nuovi batch di dati aggiunti ai set di dati sono disponibili automaticamente in Workspace. |
-   | **[!UICONTROL Retrocompilazione del set di dati]** | Abilita **[!UICONTROL Retrocompila tutti i dati esistenti]** per garantire la retrocompilazione di tutti i dati esistenti.<br/><br/>Seleziona **[!UICONTROL Richiedi retrocompilazione]** per eseguire la retrocompilazione dei dati storici per un periodo specifico. Puoi definire fino a 10 periodi di retrocompilazione dei set di dati.<ol><li>Definisci il periodo immettendo i dati di inizio e fine o selezionando le date utilizzando il ![Calendario](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>Seleziona **[!UICONTROL Retrocompilazione della coda]** per aggiungere la retrocompilazione all’elenco, oppure **[!UICONTROL Annulla]** per annullare.</li></ol>Per ogni voce, seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) per modificare il periodo oppure ![Elimina](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) per eliminare la voce.<br/><br/>Informazioni sulle retrocompilazioni:<ul><li>È possibile eseguire la retrocompilazione di ogni set di dati singolarmente.</li><li>Dai priorità ai nuovi dati aggiunti a un set di dati nella connessione in modo che questi dati abbiano la latenza più bassa.</li><li>Eventuali dati di retrocompilazione (storici) vengono importati a una velocità più bassa. La quantità di dati storici influenza la latenza.</li><li>Il connettore origine di Analytics importa fino a 13 mesi di dati (indipendentemente dalle dimensioni) per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a 3 mesi.</li></ul> |
+   | **[!UICONTROL Retrocompilazione del set di dati]** | Abilita **[!UICONTROL Retrocompila tutti i dati esistenti]** per garantire la retrocompilazione di tutti i dati esistenti.<br/><br/>Seleziona **[!UICONTROL Richiedi retrocompilazione]** per eseguire la retrocompilazione dei dati storici per un periodo specifico. Puoi definire fino a 10 periodi di retrocompilazione dei set di dati.<ol><li>Definisci il periodo immettendo i dati di inizio e fine o selezionando le date utilizzando il ![Calendario](/help/assets/icons/Calendar.svg).</li><li>Seleziona **[!UICONTROL Retrocompilazione della coda]** per aggiungere la retrocompilazione all’elenco, oppure **[!UICONTROL Annulla]** per annullare.</li></ol>Per ogni voce, seleziona ![Modifica](/help/assets/icons/Edit.svg) per modificare il periodo oppure ![Elimina](/help/assets/icons/Close.svg) per eliminare la voce.<br/><br/>Informazioni sulle retrocompilazioni:<ul><li>È possibile eseguire la retrocompilazione di ogni set di dati singolarmente.</li><li>Dai priorità ai nuovi dati aggiunti a un set di dati nella connessione in modo che questi dati abbiano la latenza più bassa.</li><li>Eventuali dati di retrocompilazione (storici) vengono importati a una velocità più bassa. La quantità di dati storici influenza la latenza.</li><li>Il connettore origine di Analytics importa fino a 13 mesi di dati (indipendentemente dalle dimensioni) per le sandbox di produzione. La retrocompilazione nelle sandbox non di produzione è limitata a 3 mesi.</li></ul> |
    | **[!UICONTROL Trasforma set di dati]** | Per set di dati di ricerca B2B specifici puoi abilitare la trasformazione di un set di dati per scenari di reporting B2B appropriati basati su persone. |
    | **[!UICONTROL Stato backfill]** | Gli indicatori di stato possibili sono:<ul><li>Success (Operazione riuscita)</li><li>X backfill(s) processing (Elaborazione di X retrocompilazioni)</li><li>Off</li></ul> |
    | **[!UICONTROL ID set di dati]** | Questo ID viene generato automaticamente. |

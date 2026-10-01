@@ -7,25 +7,32 @@ role: User
 TQID: https://experienceleague.adobe.com/omsyiimc8b3EsGvJYb0V-jHqOxUp-8S7fFQ8dXUGUxs
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Insights
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 1494
+source-wordcount: '1496'
 ht-degree: 97%
-
 ---
-
 # Panoramica sulla segmentazione
 
 Customer Journey Analytics consente di generare, gestire, condividere e applicare ai rapporti segmenti di pubblico potenti e specifici. I segmenti consentono di identificare sottoinsiemi di persone, sessioni o eventi in base a caratteristiche o interazioni. I segmenti sono progettati come insight sul pubblico codificati che puoi generare in base alle tue esigenze specifiche e quindi verificare, modificare e condividere con altri membri del gruppo.
@@ -47,9 +54,9 @@ Per gestire i segmenti, utilizza la funzione [Gestione segmenti](seg-manage.md).
 In qualità di amministratore, la corretta pianificazione di segmenti è particolarmente importante per migliorare le possibilità di utilizzo degli stessi. Quando pianifichi dei segmenti rapidi, considera quanto segue:
 
 - **Pubblico**: chi utilizzerà i tuoi segmenti? Assicurati di fornire una buona descrizione dei segmenti in modo che il tuo pubblico possa comprenderli:
-   - A cosa serve questo segmento?
+  - A cosa serve questo segmento?
 
-   - Quando dovrei usare questo segmento?
+  - Quando dovrei usare questo segmento?
 
 - **Ambito**: quale [Contenitore di segmenti](#segment-containers) rappresenta meglio i dati che ti interessano? Utilizza il contenitore più piccolo possibile.
 
@@ -97,18 +104,18 @@ I segmenti si basano su una gerarchia a livello di Persona, Sessione ed Evento c
 <table style="table-layout: fixed; border: none;" width="100%">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Persona</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="/help/assets/icons/User.svg"/> Persona</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Sessione</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="/help/assets/icons/Visit.svg"/> Sessione</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Evento</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="/help/assets/icons/Events.svg"/> Evento</td>
 </tr>
 </table>
 

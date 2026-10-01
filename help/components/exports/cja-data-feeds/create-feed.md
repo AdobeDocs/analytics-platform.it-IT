@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 2391b13373992de30834f846da2fb7b71f5279ee
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: '4250'
+source-wordcount: '4244'
 ht-degree: 28%
 ---
 # Creare un feed di dati
@@ -129,7 +129,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
    I segmenti applicati in questo caso si aggiungono a eventuali segmenti già applicati nella visualizzazione dati.
 
-1. (Facoltativo) Nella barra a sinistra, utilizza il campo **search** per individuare componenti specifici. In alternativa, selezionare l&#39;icona **Ordina** ![Ordina icona componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) per applicare una delle seguenti opzioni di ordinamento:
+1. (Facoltativo) Nella barra a sinistra, utilizza il campo **search** per individuare componenti specifici. In alternativa, selezionare l&#39;icona **Ordina** ![Ordina icona componenti](/help/assets/icons/SortOrderDown.svg) per applicare una delle seguenti opzioni di ordinamento:
 
    | Opzione | Funzione |
    | --------- | ---------- |

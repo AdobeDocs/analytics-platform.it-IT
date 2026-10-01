@@ -7,27 +7,36 @@ exl-id: 2d232811-e34a-4667-819c-cbe2a3e72702
 TQID: https://experienceleague.adobe.com/MPtF2ZOWbjayiJtMoTS705nWS-W9OdTmNOp3Wagi6io
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments, Segments (CJA)
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: df28738e-9c71-4aa8-929e-edde22340cc6
+    internal-label: Data Dictionary
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Experimentation
+source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 63%
-
+source-wordcount: '1247'
+ht-degree: 61%
 ---
-
 # Modifica voci componente
 
 Gli amministratori di Customer Journey Analytics possono modificare le voci dei componenti nel dizionario dati per una determinata visualizzazione dati. Tutte le modifiche apportate sono visibili a tutti gli utenti della visualizzazione dati.
@@ -48,19 +57,19 @@ Per modificare un componente nel dizionario dei dati:
 
    Il tipo di componente può essere identificato sia dal colore che dall’icona.
 
-   * **Le dimensioni** ![icona Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sono arancioni
+   * **Le dimensioni** ![icona Dimension](/help/assets/icons/Data.svg) sono arancioni
 
-   * **I segmenti** ![L&#39;icona del segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) è blu
+   * **I segmenti** ![L&#39;icona del segmento](/help/assets/icons/Segmentation.svg) è blu
 
-   * **Gli intervalli di date** ![Icona degli intervalli di date](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sono viola
+   * **Gli intervalli di date** ![Icona degli intervalli di date](/help/assets/icons/Calendar.svg) sono viola
 
-   * **Le metriche** ![l&#39;icona delle metriche](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sono verdi
+   * **Le metriche** ![l&#39;icona delle metriche](/help/assets/icons/Event.svg) sono verdi
 
    * **Icona Adobe** ![Icona Adobe](assets/default-calc-metric-icon.png) indica un modello di metrica calcolata o un modello di segmento
 
-   * **Icona Calcolatore** ![Icona Calcolatore](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indica una metrica calcolata creata da un amministratore Analytics nell&#39;organizzazione
+   * **Icona Calcolatore** ![Icona Calcolatore](/help/assets/icons/Calculator.svg) indica una metrica calcolata creata da un amministratore Analytics nell&#39;organizzazione
 
-1. (Facoltativo) Seleziona l’icona **Filtro** ![icona Filtro dizionario dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) e quindi una delle seguenti opzioni per filtrare l’elenco dei componenti:
+1. (Facoltativo) Seleziona l’icona **Filtro** ![icona Filtro dizionario dati](/help/assets/icons/Filter.svg) e quindi una delle seguenti opzioni per filtrare l’elenco dei componenti:
 
    | Opzione | Funzione |
    |---------|----------|
@@ -79,7 +88,7 @@ Per modificare un componente nel dizionario dei dati:
 
    {style="table-layout:auto"}
 
-1. (Facoltativo) Seleziona l&#39;icona **Ordina** ![Ordina icona componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), quindi seleziona una delle seguenti opzioni di segmento per ordinare l&#39;elenco dei componenti:
+1. (Facoltativo) Seleziona l&#39;icona **Ordina** ![Ordina icona componenti](/help/assets/icons/SortOrderDown.svg), quindi seleziona una delle seguenti opzioni di segmento per ordinare l&#39;elenco dei componenti:
 
    | Opzione | Funzione |
    |---------|----------|
@@ -91,7 +100,7 @@ Per modificare un componente nel dizionario dei dati:
 
 1. Dall’elenco dei componenti, seleziona il componente da modificare.
 
-1. Seleziona l’icona **Modifica** ![icona Modifica dizionario dei dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) accanto al nome del componente.
+1. Seleziona l’icona **Modifica** ![icona Modifica dizionario dei dati](/help/assets/icons/Edit.svg) accanto al nome del componente.
 
 1. Modifica una delle seguenti informazioni sul componente:
 
@@ -111,4 +120,4 @@ Per modificare un componente nel dizionario dei dati:
 
    {style="table-layout:auto"}
 
-1. Fai clic sull’icona **Salva** ![icona Salva del dizionario dei dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SaveFloppy_18_N.svg) per salvare le modifiche.
+1. Fai clic sull’icona **Salva** ![icona Salva del dizionario dei dati](/help/assets/icons/SaveFloppy.svg) per salvare le modifiche.
