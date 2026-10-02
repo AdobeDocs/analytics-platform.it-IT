@@ -16,9 +16,9 @@ feature_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
+source-git-commit: 7bd10643bc54f5923f590f849d05890bffd77a2e
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2563'
 ht-degree: 5%
 ---
 # Implementare informazioni sulla conversazione
@@ -275,7 +275,7 @@ Il gruppo di campi **[!UICONTROL Informazioni sull&#39;agente]** è facoltativo 
 | `agents[].name` | stringa | `"Chatbot Assistant"` | Nome agente |
 | `agents[].version` | stringa | `"2.1.3"` | Versione agente |
 | `agents[].score` | numero | `0.92` | Punteggio di affidabilità dell’agente nei valori restituiti |
-| `agents[].skills[]` | array | Vedi l’oggetto abilità di seguito | **Obsoleto**: utilizza l&#39;array `skills[]` di primo livello sottostante, che possiede l&#39;elenco ordinato completo delle chiamate di abilità e collega ognuna al proprio agente tramite `agentID` |
+| `agents[].skills[]` | array | Vedi l’oggetto abilità di seguito | **Obsoleto**. Utilizza invece l&#39;array `skills[]` di primo livello sottostante, a cui appartiene l&#39;elenco ordinato completo delle chiamate di abilità e collega ciascuna al proprio agente tramite `agentID` |
 | `agents[].skills[].name` | stringa | `"Intent Recognition"` | Nome abilità (array obsoleto) |
 | `agents[].skills[].version` | stringa | `"1.0.0"` | Versione abilità (array obsoleto) |
 | `agents[].skills[].score` | numero | `0.95` | Punteggio affidabilità abilità (0-1) (array obsoleto) |
@@ -429,11 +429,7 @@ Puoi aggiungere gruppi di campi facoltativi allo schema utilizzato per i set di 
 * **Dettagli Web** gruppo di campi. Per acquisire dettagli sulla pagina web, la conversazione è stata incorporata in.
 * **Gruppo di campi Dettagli Commerce**. Acquisire i dettagli del prodotto consigliato indicato come parte della conversazione.
 
-
-
-Il cliente è responsabile della produzione degli eventi di conversazione sorgente. Successivamente, Adobe Platform esegue l’estrazione del segnale e la fusione dei dati. Il cliente non ha bisogno di implementare i servizi di estrazione del segnale o di miscelazione.
-
-Questo documento descrive i requisiti di input di MVP per Informazioni sulla conversazione e l’aggiornamento dello schema agente corrente. Non include le funzionalità di Informazioni sulla conversazione 1.0 o i requisiti per una versione successiva.
+Il cliente è responsabile della produzione degli eventi di conversazione sorgente. Adobe esegue l’estrazione del segnale e la fusione dei dati. Il cliente non ha bisogno di implementare i servizi di estrazione del segnale o di miscelazione.
 
 ### Tipo di evento
 
