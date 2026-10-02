@@ -4,6 +4,7 @@ description: Abilita l’unione per i set di dati evento in Customer Journey Ana
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
+hold: true
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 TQID: 'https://experienceleague.adobe.com/Nj-IePDbHxBtgiSxEAobJ0DGlJSaiTwpTXIPtCxDTHw'
 product_v2:
@@ -24,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 59d79c72fd52b3eb409c2554bef9daf7094b0287
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 20%
+source-wordcount: '1952'
+ht-degree: 18%
 ---
 # Abilitare l’unione delle identità
 
@@ -41,16 +42,16 @@ Abilita l&#39;unione come parte delle [impostazioni del set di dati](/help/conne
 
 ## Controlli di verifica preliminare
 
-Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti voler eseguire alcuni controlli di verifica preliminare sui dati nel set di dati dell’evento:
+Se soddisfi i prerequisiti, esegui alcuni controlli preliminari sui dati nel set di dati dell’evento prima di abilitare l’unione di identità:
 
-* Se desideri utilizzare i campi dello schema [Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) per l&#39;ID persistente o l&#39;ID persona, assicurati che le identità siano contrassegnate correttamente nello schema per il set di dati dell&#39;evento. [Consulta la panoramica dello spazio dei nomi delle identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces).
+* Se utilizzi i campi dello schema [Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) per l&#39;ID persistente o l&#39;ID persona, assicurati che le identità siano contrassegnate correttamente nello schema per il set di dati dell&#39;evento. [Consulta la panoramica dello spazio dei nomi delle identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces).
 * Verifica la copertura delle identità sia per l’ID persistente che per l’ID persona:
 
   * **[!UICONTROL ID persistente]**
 
     Esegui la query di 7 giorni di dati in cui il campo ID persistente non è nullo e dividi per una query di 7 giorni di dati per tutti gli eventi nel set di dati. Tale percentuale dovrebbe essere superiore al 95%.
 
-    Esempio di query da utilizzare per la verifica:
+    Esempio di query per la verifica:
 
     ```sql
     SELECT
@@ -74,10 +75,10 @@ Se soddisfi i prerequisiti, prima di abilitare l’unione di identità potresti 
 
 
   * **[!UICONTROL ID persona]**
-    * Per l’unione basata su grafico, assicurati che il grafo delle identità contenga frammenti che collegano i valori ID dallo spazio dei nomi ID persistente e dallo spazio dei nomi ID persona selezionati. Puoi eseguire un test andando sul [visualizzatore grafico identità di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} ed eseguire una query sul grafico in base ad alcuni valori di ID persistenti campione. Verifica se questi valori ID persistenti sono collegati ai valori ID persona nel grafico.
-    * Per l’unione basata sui campi, esegui la query per 7 giorni di dati in cui il campo ID persona non è nullo e dividi per una query di 7 giorni di dati per tutti gli eventi nel set di dati. Questa percentuale dovrebbe idealmente superare il 5%.
+    * Per l’unione basata su grafico, assicurati che il grafo delle identità contenga frammenti che collegano i valori ID dallo spazio dei nomi ID persistente e dallo spazio dei nomi ID persona selezionati. Vai a [Visualizzatore grafico identità di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} ed esegui una query sul grafico in base ad alcuni valori di ID persistenti campione. Per verificare se, nel grafico, questi valori ID persistenti sono collegati ai valori ID persona.
+    * Per l’unione basata sui campi, esegui la query per 7 giorni di dati in cui il campo ID persona non è nullo e dividi per una query di 7 giorni di dati per tutti gli eventi nel set di dati. Questa percentuale dovrebbe idealmente essere superiore al 5%.
 
-      Esempio di query da utilizzare per la verifica:
+      Esempio di query per la verifica:
 
       ```sql
       SELECT
@@ -146,7 +147,7 @@ Puoi abilitare l&#39;unione delle identità quando [aggiungi](/help/connections/
 
 ### Impostazioni del set di dati
 
-Per abilitare l&#39;unione, nella sezione **[!UICONTROL Impostazioni dei set di dati]** dell&#39;evento **[!UICONTROL Aggiungi set di dati]** o **[!UICONTROL Modifica set di dati]**.
+Per abilitare l&#39;unione, utilizzare la sezione **[!UICONTROL Impostazioni set di dati]** dell&#39;evento **[!UICONTROL Aggiungi set di dati]** o **[!UICONTROL Modifica set di dati]**.
 
 ![Opzioni di unione identità quando si abilita la funzionalità](assets/identity-stitching-ui.png)
 
@@ -226,14 +227,14 @@ Oltre all&#39;interfaccia standard **[!UICONTROL Anteprima set di dati]**, quand
 In Customer Journey Analytics, un ID errato è un identificatore:
 
 * con un valore ID specifico che ha origine da un campo ID persistente o ID persona nei set di dati abilitati per l&#39;unione, **e**
-* si trova su più di un milione (1.000.000) eventi nei dati della connessione, entro un mese.
+* compare su più di un milione (1.000.000) di eventi mensilmente nei dati di connessione.
 
 Quando un valore ID è contrassegnato come ID errato, tutti gli eventi futuri che contengono tale valore ID vengono eliminati dai dati della connessione e non vengono visualizzati nel reporting.
 
 Esempi di casi di utilizzo di ID non validi:
 
 * Nel campo ID persona sono presenti valori personalizzati o segnaposto (ad esempio, `undefined`). Tali valori possono inoltre influire sulla [qualità dei dati di unione e reporting](/help/stitching/faq.md#undefined-person-id-values).
-* In una configurazione di unione basata sui campi, se più persone condividono un dispositivo e il numero totale di transizioni tra gli utenti supera 50.000. In questo caso, il processo di unione si interrompe per utilizzare le informazioni ID persona per quel dispositivo e utilizza solo informazioni ID persistenti. Di conseguenza, tutti gli eventi del set di dati da tale dispositivo vengono inviati ai dati di connessione con l’identità ID persistente, con un’alta probabilità di causare una situazione di ID non validi.
+* In una configurazione di unione basata sui campi, se più persone condividono un dispositivo e il numero totale di transizioni tra gli utenti supera 50.000. In questo caso, il processo di unione smette di utilizzare le informazioni ID persona per quel dispositivo e utilizza solo informazioni ID persistenti. Di conseguenza, tutti gli eventi del set di dati da tale dispositivo vengono inviati ai dati di connessione con l’identità ID persistente, probabilmente causando una situazione di ID non validi.
 
 
 >[!NOTE]
@@ -243,11 +244,21 @@ Esempi di casi di utilizzo di ID non validi:
 
 ### Salva
 
-Dopo aver salvato una connessione, il processo di unione per i set di dati abilitati viene avviato non appena inizia l’acquisizione dei dati per questi set di dati.
+Dopo aver salvato una connessione, il processo di unione per i set di dati abilitati inizia non appena inizia l’acquisizione dei dati per questi set di dati.
+
+Una volta salvata una connessione, viene attivato il processo di abilitazione dell’unione sui set di dati configurati. Una volta configurato, il servizio di unione elabora tutti i dati in streaming live, avvia la retrocompilazione dai set di dati evento in Experience Platform e successivamente li acquisisce nella connessione Customer Journey Analytics.
+
+Ogni fase del processo comporta alcuni ritardi. I tempi di elaborazione riportati di seguito sono guardrail e non accordi sui livelli di servizio (SLA) contrattuali per una configurazione di connessione iniziale valida salvata e contenente un set di dati abilitato all’unione:
+
+* I dati live vengono inizialmente visualizzati in Customer Journey Analytics dopo alcune ore (meno di 17 ore). I dati live iniziano con valori di marca temporale dell’evento che corrispondono al momento effettivo in cui l’abilitazione dell’unione è stata completata. Abilita l&#39;opzione **[!UICONTROL Importa tutti i nuovi dati]** per il set di dati. In questo modo i dati live iniziano a fluire in.
+
+  Eventuali nuovi dati acquisiti nel set di dati dell’evento sorgente in Experience Platform vengono visualizzati in Customer Journey Analytics entro quattro ore.
+
+* I dati in backfill (se inizialmente richiesti) vengono visualizzati in Customer Journey Analytics più o meno alla stessa ora dei dati live, ma l’elaborazione richiede giorni o settimane (meno di 4 settimane) a seconda dei volumi coinvolti. I dati precompilati iniziano con i valori timestamp dell’evento meno recenti.
 
 >[!CAUTION]
 >
->Per i set di dati abilitati per l&#39;unione nell&#39;interfaccia Connessioni, lo stato di backfill viene segnalato immediatamente e in modo errato come ![Stato verde](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _backfill completati]**&#x200B;per il numero di backfill completati. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
+>Per i set di dati abilitati per l’unione nell’interfaccia Connessioni, al momento non è possibile segnalare lo stato di backfill a causa di una limitazione nota. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
 >
 
 
@@ -264,5 +275,5 @@ L’unione abilitata nell’interfaccia Connessioni può coesistere senza alcun 
 
 Ad esempio, nel data lake sono presenti set di dati uniti basati sul web in seguito a richieste di unione precedenti o correnti. Puoi aggiungere dati uniti da un set di dati di call center utilizzando l’interfaccia Connessioni per combinare tali dati con quelli basati sul web.
 
-Successivamente, Adobe migrerà i set di dati uniti basati su richieste nella nuova esperienza di unione nelle connessioni.
+Infine, Adobe migra i set di dati uniti basati su richieste nella nuova esperienza di unione nelle connessioni.
 
