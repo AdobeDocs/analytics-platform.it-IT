@@ -4,21 +4,35 @@ description: Scopri come gestire l’applicazione o il servizio agente per Infor
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
+autotag-review: '2026-10-02T07:03:13.165Z'
+TQID: 'https://experienceleague.adobe.com/tjjZwA5Ayvtz35ffQAkcCwhCzBUB6X4puMjFsiJ0HUY'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
 feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-    internal-label: Components
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
     internal-label: AI Tools
+  - id: d7a261eb-f9ac-4dd6-bd60-1637efcd3d36
+    internal-label: Conversation Insights
+role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: ebc2d1d9992150683fb642862e0ea29b7f70ddb0
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2563'
 ht-degree: 5%
 ---
 # Implementare informazioni sulla conversazione
@@ -275,7 +289,7 @@ Il gruppo di campi **[!UICONTROL Informazioni sull&#39;agente]** è facoltativo 
 | `agents[].name` | stringa | `"Chatbot Assistant"` | Nome agente |
 | `agents[].version` | stringa | `"2.1.3"` | Versione agente |
 | `agents[].score` | numero | `0.92` | Punteggio di affidabilità dell’agente nei valori restituiti |
-| `agents[].skills[]` | array | Vedi l’oggetto abilità di seguito | **Obsoleto**: utilizza l&#39;array `skills[]` di primo livello sottostante, che possiede l&#39;elenco ordinato completo delle chiamate di abilità e collega ognuna al proprio agente tramite `agentID` |
+| `agents[].skills[]` | array | Vedi l’oggetto abilità di seguito | **Obsoleto**. Utilizza invece l&#39;array `skills[]` di primo livello sottostante, a cui appartiene l&#39;elenco ordinato completo delle chiamate di abilità e collega ciascuna al proprio agente tramite `agentID` |
 | `agents[].skills[].name` | stringa | `"Intent Recognition"` | Nome abilità (array obsoleto) |
 | `agents[].skills[].version` | stringa | `"1.0.0"` | Versione abilità (array obsoleto) |
 | `agents[].skills[].score` | numero | `0.95` | Punteggio affidabilità abilità (0-1) (array obsoleto) |
@@ -429,11 +443,7 @@ Puoi aggiungere gruppi di campi facoltativi allo schema utilizzato per i set di 
 * **Dettagli Web** gruppo di campi. Per acquisire dettagli sulla pagina web, la conversazione è stata incorporata in.
 * **Gruppo di campi Dettagli Commerce**. Acquisire i dettagli del prodotto consigliato indicato come parte della conversazione.
 
-
-
-Il cliente è responsabile della produzione degli eventi di conversazione sorgente. Successivamente, Adobe Platform esegue l’estrazione del segnale e la fusione dei dati. Il cliente non ha bisogno di implementare i servizi di estrazione del segnale o di miscelazione.
-
-Questo documento descrive i requisiti di input di MVP per Informazioni sulla conversazione e l’aggiornamento dello schema agente corrente. Non include le funzionalità di Informazioni sulla conversazione 1.0 o i requisiti per una versione successiva.
+Il cliente è responsabile della produzione degli eventi di conversazione sorgente. Adobe esegue l’estrazione del segnale e la fusione dei dati. Il cliente non ha bisogno di implementare i servizi di estrazione del segnale o di miscelazione.
 
 ### Tipo di evento
 
