@@ -4,20 +4,33 @@ description: Scopri il valore e la terminologia di Conversation Insights e come 
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
+autotag-review: '2026-10-02T07:02:10.598Z'
+TQID: 'https://experienceleague.adobe.com/5PahkoK4v7-PemV3onXn-CWL66hqVGuNauDBDlAeoeo'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
 feature_v2:
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-    internal-label: Components
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
     internal-label: AI Tools
+  - id: d7a261eb-f9ac-4dd6-bd60-1637efcd3d36
+    internal-label: ''
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e550b7005c12bc5e2fb92bea44767bae0d7db3dc
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: 05d993f3ae8bda2bbf9ce79d5462d47f3d507e92
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 1%
@@ -55,7 +68,7 @@ A un livello elevato di Informazioni sulla conversazione, una [conversazione](#c
 Informazioni sulla conversazione analizza le interazioni dell&#39;agente a due livelli:
 
 * [Livello di conversazione](#conversation): l&#39;interazione completa tra un utente e un agente, che contiene più giri.
-* [Livello &#x200B;](#turn): un ciclo di interazione all&#39;interno della conversazione, costituito da un prompt utente e una risposta dell&#39;agente.
+* [Livello ](#turn): un ciclo di interazione all&#39;interno della conversazione, costituito da un prompt utente e una risposta dell&#39;agente.
 
 L’applicazione o il servizio agente genera in Experience Platform eventi di esperienza relativi alla conversazione. I dati dell’evento di richiesta, risposta e feedback possono arrivare in modo indipendente. I servizi di Platform correlano e combinano tali eventi in un record a livello di svolta, arricchiscono facoltativamente i dati con i segnali estratti e rendono disponibili i dati risultanti per il reporting di Customer Journey Analytics.
 
