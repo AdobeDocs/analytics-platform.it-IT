@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 59d79c72fd52b3eb409c2554bef9daf7094b0287
+source-git-commit: 8800f7c1659785931edb7d9f7139f037a086511c
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1929'
 ht-degree: 18%
 ---
 # Abilitare l’unione delle identità
@@ -244,13 +244,17 @@ Esempi di casi di utilizzo di ID non validi:
 
 ### Salva
 
-Dopo aver salvato una connessione, il processo di unione per i set di dati abilitati inizia non appena inizia l’acquisizione dei dati per questi set di dati.
 
-Una volta salvata una connessione, viene attivato il processo di abilitazione dell’unione sui set di dati configurati. Una volta configurato, il servizio di unione elabora tutti i dati in streaming live, avvia la retrocompilazione dai set di dati evento in Experience Platform e successivamente li acquisisce nella connessione Customer Journey Analytics.
 
-Ogni fase del processo comporta alcuni ritardi. I tempi di elaborazione riportati di seguito sono guardrail e non accordi sui livelli di servizio (SLA) contrattuali per una configurazione di connessione iniziale valida salvata e contenente un set di dati abilitato all’unione:
+Una volta salvata una connessione, viene attivato il processo di abilitazione dell’unione sui set di dati configurati. Una volta configurato, il servizio di unione elabora tutti i dati in streaming live, avvia la retrocompilazione dai set di dati evento in Experience Platform e successivamente acquisisce i dati nella connessione Customer Journey Analytics.
 
-* I dati live vengono inizialmente visualizzati in Customer Journey Analytics dopo alcune ore (meno di 17 ore). I dati live iniziano con valori di marca temporale dell’evento che corrispondono al momento effettivo in cui l’abilitazione dell’unione è stata completata. Abilita l&#39;opzione **[!UICONTROL Importa tutti i nuovi dati]** per il set di dati. In questo modo i dati live iniziano a fluire in.
+Ogni fase del processo comporta alcuni ritardi. I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA).
+
+Per un’impostazione di connessione iniziale valida che viene salvata e contiene un set di dati abilitato per l’unione:
+
+* I dati live vengono inizialmente visualizzati in Customer Journey Analytics dopo alcune ore (meno di 17 ore). I dati live iniziano con valori di marca temporale dell’evento che corrispondono al momento effettivo in cui l’abilitazione dell’unione è stata completata.
+
+  Per garantire che i dati live inizino a fluire in, abilita l&#39;opzione **[!UICONTROL Importa tutti i nuovi dati]** per il set di dati.
 
   Eventuali nuovi dati acquisiti nel set di dati dell’evento sorgente in Experience Platform vengono visualizzati in Customer Journey Analytics entro quattro ore.
 
