@@ -4,7 +4,6 @@ description: Scopri come gestire le configurazioni di Informazioni sulla convers
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -13,23 +12,23 @@ feature_v2:
     internal-label: Components
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
     internal-label: AI Tools
-role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 6%
 ---
 # Gestione configurazioni
 
-Dopo aver [creato le configurazioni di Informazioni sulla conversazione](/help/conversation-insights/conversation-insights-configure.md), puoi visualizzare, modificare o eliminare queste configurazioni.
+Dopo aver [creato le configurazioni di Informazioni sulla conversazione](/help/conversation-insights/configure.md), puoi visualizzare, modificare o eliminare queste configurazioni.
 
 Solo gli amministratori di sistema possono gestire le configurazioni di Informazioni sulla conversazione.
 
-Per informazioni su Informazioni sulla conversazione, vedere [Panoramica su Informazioni sulla conversazione](/help/conversation-insights/conversation-insights-overview.md).
+Per informazioni su Informazioni sulla conversazione, vedere [Panoramica su Informazioni sulla conversazione](/help/conversation-insights/overview.md).
+
 
 ## Visualizzare e filtrare le configurazioni esistenti
 
@@ -72,7 +71,7 @@ Per visualizzare le configurazioni esistenti di Informazioni sulla conversazione
 Per creare una nuova configurazione di Informazioni sulla conversazione:
 
 1. Selezionare **[!UICONTROL Crea configurazione]**.
-1. Utilizza la finestra di dialogo [**[!UICONTROL Crea configurazione]**](./conversation-insights-configure.md) per configurare gli approfondimenti sulla conversazione.
+1. Utilizza la finestra di dialogo [**[!UICONTROL Crea configurazione]**](./configure.md) per configurare gli approfondimenti sulla conversazione.
 
 ## Modificare una configurazione
 
@@ -84,7 +83,7 @@ Per modificare una configurazione esistente di Informazioni sulla conversazione:
    * Seleziona la casella di controllo accanto alla configurazione da modificare, quindi seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica]** dalla barra delle azioni blu.
    * Seleziona ![Altro](/help/assets/icons/More.svg) per la configurazione da modificare. Dal menu di scelta rapida selezionare ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Modifica]**.
 
-1. Utilizza la finestra di dialogo [**[!UICONTROL Configurazione / _nome della configurazione_]**](./conversation-insights-configure.md) per gestire gli approfondimenti sulla conversazione.
+1. Utilizza la finestra di dialogo [**[!UICONTROL Configurazione / _nome della configurazione_]**](./configure.md) per gestire gli approfondimenti sulla conversazione.
 
 ## Eliminare una configurazione
 

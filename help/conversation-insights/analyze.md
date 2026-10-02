@@ -4,7 +4,6 @@ description: Scopri come analizzare Informazioni sulla conversazione.
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -18,11 +17,12 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 34bb13891eebb12875f3e355e73aade6b3eed750
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
 ---
+
 # Analizza approfondimenti conversazione
 
 ## Analisi semplice
@@ -41,7 +41,7 @@ Per analizzare le conversazioni su larga scala e fornire il contesto per tali co
 
 * Combina i tuoi eventi di Informazioni sulla conversazione con altri set di dati evento e set di dati di profilo e di ricerca aggiuntivi. Aggiungi questi set di dati alla connessione selezionata per la configurazione di Informazioni sulla conversazione.
 * Aggiungi componenti aggiuntivi (metriche e dimensioni) alle visualizzazioni dati selezionate per la configurazione di Informazioni sulla conversazione.
-* ...
+
 
 +++ Progetto di esempio
 

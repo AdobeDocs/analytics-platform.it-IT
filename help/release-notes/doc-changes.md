@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2c0efe27451163d9fe4fe0f60bab11151a8ac6f1
+source-git-commit: 17af5df91a28b3a6e44528f88661b6dcc86d6cae
 workflow-type: tm+mt
-source-wordcount: '7162'
+source-wordcount: '7170'
 ht-degree: 96%
 ---
 
@@ -69,6 +69,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 |---|---|
+| **Ottobre 2026** | |
+| Approfondimenti conversazione | [Documentazione](/help/conversation-insights/overview.md) per Informazioni sulla conversazione. |
 | **Settembre 2026** | |
 | Confronto tra aree di lavoro percorsi su frecce e abbandono | È stata aggiornata l&#39;impostazione &#39;[!UICONTROL Confronta con]&#39; in [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) per mostrare che la variazione percentuale tra gli intervalli di date ora viene visualizzata su ogni nodo, freccia e abbandono nel percorso. |
 | Post di blog incorporati | Ha incorporato i seguenti post sul blog:<ul><li>[Playbook completo per gestire &#39;Nessun valore&#39; in Adobe CJA](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=it#M598)</li><li>[Indagine approfondita sui casi di utilizzo dell&#39;uscita dei dati di Adobe Experience Platform e Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725?profile.language=it)</li></ul>nei nostri [Casi d&#39;uso sull&#39;esportazione dei dati](/help/use-cases/data-export/overview.md) e un nuovo articolo del caso d&#39;uso [Nessun valore](/help/use-cases/data-views/no-value.md). |
@@ -81,7 +83,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Analisi dei sottoeventi | Documentazione per [analisi sub-evento](/help/components/segments/sub-event.md) e [contenitori personalizzati](/help/data-views/create-dataview.md#custom-containers). |
 | Classificazioni in linea | Documentazione per [classificazioni in linea](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications). |
 | **Giugno 2026** | |
-| Nuova guida GA4 | Aggiunta di [Transizione da Google Analytics 4 a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home) completata. |
+| Nuova guida GA4 | Aggiunta di [Transizione da Google Analytics 4 a Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home) completata. |
 | **Maggio 2026** | |
 | Libreria JavaScript per Content Analytics | Documentazione relativa alla modalità di implementazione di Content Analytics per il canale web utilizzando la [libreria JavaScript di Content Analytics](/help/content-analytics/config/tags-agnostic.md) senza richiedere i tag della raccolta dati di Experience Platform. |
 | Considerazioni su Data Mirror | [Documentazione](/help/data-mirror/considerations.md) che descrive i fattori da considerare durante la configurazione dei [set di dati Data Mirror](/help/data-mirror/data-mirror.md). |

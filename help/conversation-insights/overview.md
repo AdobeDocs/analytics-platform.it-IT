@@ -4,7 +4,6 @@ description: Scopri il valore e la terminologia di Conversation Insights e come 
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -18,12 +17,14 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4eaf8820fd847426ba6a471e1bfbc7b397283905
+source-git-commit: e550b7005c12bc5e2fb92bea44767bae0d7db3dc
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1117'
 ht-degree: 1%
 ---
 # Approfondimenti conversazione
+
+{{release-limited-testing}}
 
 Informazioni sulla conversazione consente di analizzare le conversazioni dalle esperienze agente offerte ai clienti. Queste esperienze agente possono essere basate su modelli di linguaggio di grandi dimensioni (Large Language Model, LLM) o su conversazioni umane. Ad esempio, un chatbot che interagisce con le trascrizioni di un cliente o di un call center.
 
@@ -69,7 +70,7 @@ Una conversazione è il livello contenitore o raggruppamento. Tale contenitore �
 * Come è cambiato il sentiment in una conversazione?
 * Quali conversazioni hanno portato alla conversione?
 
-Per informazioni dettagliate sull&#39;implementazione, fare riferimento all&#39;oggetto [conversation](./conversation-insights-implement.md#conversation) nella documentazione di [Implementa approfondimenti conversazione](./conversation-insights-implement.md).
+Per informazioni dettagliate sull&#39;implementazione, fare riferimento all&#39;oggetto [conversation](./implement.md#conversation) nella documentazione di [Implementa approfondimenti conversazione](./implement.md).
 
 ### Turno
 
@@ -83,7 +84,7 @@ Una virata tipica è costituita da
 
 Il turno è l’oggetto analitico principale a scopo di reporting. Il servizio frullatore di conversazioni combina le informazioni disponibili su richiesta, risposta, feedback e segnale in record a livello di svolta.
 
-Per informazioni dettagliate sull&#39;implementazione, consulta l&#39;oggetto [turn](./conversation-insights-implement.md#turn) nella documentazione di [Implementa approfondimenti conversazione](./conversation-insights-implement.md).
+Per informazioni dettagliate sull&#39;implementazione, consulta l&#39;oggetto [turn](./implement.md#turn) nella documentazione di [Implementa approfondimenti conversazione](./implement.md).
 
 ### Prompt
 
@@ -103,7 +104,7 @@ Il prompt è l’input principale da cui Conversation Insights può derivare inf
 * Il sentiment dell’utente
 * Altri segnali supportati
 
-Per informazioni dettagliate sull&#39;implementazione, fare riferimento all&#39;oggetto [prompt](./conversation-insights-implement.md#prompt) nella documentazione [Implementare informazioni sulla conversazione](./conversation-insights-implement.md).
+Per informazioni dettagliate sull&#39;implementazione, fare riferimento all&#39;oggetto [prompt](./implement.md#prompt) nella documentazione [Implementare informazioni sulla conversazione](./implement.md).
 
 ### Risposta
 
@@ -119,7 +120,7 @@ Una risposta spesso contiene diversi tipi di contenuto. Ad esempio:
 
 Questa distinzione è utile perché l’analisi deve separare la risposta principale da collegamenti di supporto, citazioni, annunci pubblicitari o altri componenti di risposta.
 
-Per informazioni dettagliate sull&#39;implementazione, consulta l&#39;oggetto [response](./conversation-insights-implement.md#response) nella documentazione [Implement Conversation Insights](./conversation-insights-implement.md).
+Per informazioni dettagliate sull&#39;implementazione, consulta l&#39;oggetto [response](./implement.md#response) nella documentazione [Implement Conversation Insights](./implement.md).
 
 ### Feedback
 
@@ -134,13 +135,13 @@ Il feedback può contenere:
 
 Il feedback non è necessariamente disponibile contemporaneamente alla richiesta o alla risposta. Puoi inviare il feedback in un secondo momento dall’applicazione o dal servizio agente, dopo che l’utente ha valutato la risposta.
 
-Per informazioni dettagliate sull&#39;implementazione, consulta l&#39;oggetto [feedback](./conversation-insights-implement.md#feedback) nella documentazione [Implementare informazioni sulla conversazione](./conversation-insights-implement.md).
+Per informazioni dettagliate sull&#39;implementazione, consulta l&#39;oggetto [feedback](./implement.md#feedback) nella documentazione [Implementare informazioni sulla conversazione](./implement.md).
 
 ### Segnale
 
 Un segnale è un’osservazione analitica strutturata sul contenuto di una conversazione. Il servizio di estrazione del segnale estrae i segnali.
 
-Per informazioni dettagliate sull&#39;implementazione, consulta l&#39;oggetto [signal](./conversation-insights-implement.md#signal) nella documentazione di [Implementare informazioni sulla conversazione](./conversation-insights-implement.md).
+Per informazioni dettagliate sull&#39;implementazione, consulta l&#39;oggetto [signal](./implement.md#signal) nella documentazione di [Implementare informazioni sulla conversazione](./implement.md).
 
 
 ### Agente
@@ -151,7 +152,8 @@ Per identificare l’applicazione o il servizio agente, è necessario fornire in
 
 Se l&#39;applicazione esperienza agente supporta la chiamata di abilità che rappresentano le capacità richiamate durante l&#39;elaborazione, è possibile aggiungere queste chiamate di abilità come parte del gruppo di campi informazioni agente.
 
-Per informazioni dettagliate sull&#39;implementazione, consulta il gruppo di campi [Informazioni sull&#39;agente](./conversation-insights-implement.md#agentic-information-field-group) nella documentazione di [Implementare informazioni sulla conversazione](./conversation-insights-implement.md).
+Per informazioni dettagliate sull&#39;implementazione, consulta il gruppo di campi [Informazioni sull&#39;agente](./implement.md#agentic-information-field-group) nella documentazione di [Implementare informazioni sulla conversazione](./implement.md).
+
 
 ## Come funziona
 
@@ -167,8 +169,8 @@ Il processo complessivo di raccolta dei dati, estrazione del segnale e fusione d
 
 | | Descrizione |
 |---|---|
-| 1 | L&#39;applicazione o il servizio dell&#39;agente viene strumentato per creare eventi che contengono ![CommentText](/help/assets/icons2/CommentText.svg), ![CommentReply](/help/assets/icons2/CommentReply.svg) e ![Feedback](/help/assets/icons2/Feedback.svg) set di dati.<br/>Per informazioni dettagliate su come gestire l&#39;applicazione o il servizio agente, consultare la [documentazione sull&#39;implementazione](./conversation-insights-implement.md). |
-| 2 | Il servizio di estrazione segnali estrae i segnali dai prompt ![CommentText](/help/assets/icons2/CommentText.svg), dalle risposte ![CommentReply](/help/assets/icons2/CommentReply.svg) e dai set di dati di feedback ![Feedback](/help/assets/icons2/Feedback.svg) come eventi segnale ![OnAir](/help/assets/icons/OnAir.svg) e memorizza questi eventi segnale in un nuovo set di dati.<br>Questo passaggio è implementato come parte della definizione di una [configurazione di Informazioni sulla conversazione](./conversation-insights-configure.md). |
-| 3 | Il servizio frullatore conversazioni unisce gli eventi dei prompt ![CommentText](/help/assets/icons2/CommentText.svg), delle risposte ![CommentReply](/help/assets/icons2/CommentReply.svg), del feedback ![Feedback](/help/assets/icons2/Feedback.svg) e segnala i set di dati dell&#39;evento ![OnAir](/help/assets/icons/OnAir.svg) e restituisce gli eventi ![Merge](/help/assets/icons/Merge.svg)combinati in un nuovo set di dati.<br>Questo passaggio è implementato come parte della definizione di una [configurazione di Informazioni sulla conversazione](./conversation-insights-configure.md). |
-| 4 | Il set di dati ![Merge](/help/assets/icons/Merge.svg) di blend diventa parte della connessione e i componenti definiti nello schema utilizzato per il set di dati di blend diventano parte della visualizzazione dati.<br>Questo passaggio è implementato come parte della definizione di una [configurazione di Informazioni sulla conversazione](./conversation-insights-configure.md). |
+| 1 | L&#39;applicazione o il servizio dell&#39;agente viene strumentato per creare eventi che contengono ![CommentText](/help/assets/icons2/CommentText.svg), ![CommentReply](/help/assets/icons2/CommentReply.svg) e ![Feedback](/help/assets/icons2/Feedback.svg) set di dati.<br/>Per informazioni dettagliate su come gestire l&#39;applicazione o il servizio agente, consultare la [documentazione sull&#39;implementazione](./implement.md). |
+| 2 | Il servizio di estrazione segnali estrae i segnali dai prompt ![CommentText](/help/assets/icons2/CommentText.svg), dalle risposte ![CommentReply](/help/assets/icons2/CommentReply.svg) e dai set di dati di feedback ![Feedback](/help/assets/icons2/Feedback.svg) come eventi segnale ![OnAir](/help/assets/icons/OnAir.svg) e memorizza questi eventi segnale in un nuovo set di dati.<br>Questo passaggio è implementato come parte della definizione di una configurazione di [Informazioni sulla conversazione](./configure.md). |
+| 3 | Il servizio frullatore conversazioni unisce gli eventi dei prompt ![CommentText](/help/assets/icons2/CommentText.svg), delle risposte ![CommentReply](/help/assets/icons2/CommentReply.svg), del feedback ![Feedback](/help/assets/icons2/Feedback.svg) e segnala i set di dati dell&#39;evento ![OnAir](/help/assets/icons/OnAir.svg) e restituisce gli eventi ![Merge](/help/assets/icons/Merge.svg)combinati in un nuovo set di dati.<br>Questo passaggio è implementato come parte della definizione di una configurazione di [Informazioni sulla conversazione](./configure.md). |
+| 4 | Il set di dati ![Merge](/help/assets/icons/Merge.svg) di blend diventa parte della connessione e i componenti definiti nello schema utilizzato per il set di dati di blend diventano parte della visualizzazione dati.<br>Questo passaggio è implementato come parte della definizione di una configurazione di [Informazioni sulla conversazione](./configure.md). |
 

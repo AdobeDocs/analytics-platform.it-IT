@@ -70,10 +70,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2a01268e537fb7982f698ccf9c14b831edf8437f
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 96%
+source-wordcount: '1764'
+ht-degree: 74%
 ---
 # Controllo degli accessi
 
@@ -112,10 +112,10 @@ Per impostazione predefinita, gli amministratori di prodotto dispongono delle au
 
 Oltre a essere stato aggiunto come amministratore di prodotto nel **profilo di prodotto Customer Journey Analytics** in [Admin Console](https://adminconsole.adobe.com/enterprise/), sono necessarie autorizzazioni aggiuntive per completare le seguenti attività in Customer Journey Analytics:
 
-* Creare, aggiornare ed eliminare [visualizzazioni dati](/help/data-views/data-views.md).
+* Crea, aggiorna ed elimina [visualizzazioni dati](/help/data-views/data-views.md)
 * Creare, aggiornare ed eliminare [connessioni](/help/connections/overview.md)
 
-  Per eseguire questa attività, gli utenti devono far parte di un **profilo di prodotto Experience Platform** che fornisce le seguenti autorizzazioni:
+  Per eseguire questa attività, gli utenti devono far parte di un **Ruolo Experience Platform** che fornisce le seguenti autorizzazioni:
 
   | Categoria | Autorizzazione | Descrizione |
   |---|---|---|
@@ -125,10 +125,21 @@ Oltre a essere stato aggiunto come amministratore di prodotto nel **profilo di p
   | [!UICONTROL Gestione dati] | [!UICONTROL Visualizza set di dati] | Accesso in sola lettura per set di dati e schemi. |
   | [!UICONTROL Identity Management] | [!UICONTROL Visualizza spazi dei nomi delle identità] | Accesso in sola lettura per gli spazi dei nomi identità. |
 
-  Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta [Gestire le autorizzazioni per un profilo di prodotto](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/permissions).
+  Per ulteriori informazioni sui ruoli di Experience Platform, vedere [Panoramica del controllo di accesso](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home).
 
+* Gestisci [Metriche e dimensioni condivise](/help/data-views/shared-metrics-dimensions/smd-overview.md)
 
-* Se Journey Optimizer è integrato con Customer Journey Analytics in cui sono presenti connessioni Journey Optimizer, devi aggiungere anche le autorizzazioni dei percorsi per accedere alle connessioni:
+  Per accedere al gestore **Metriche e dimensioni condivise**, gli utenti devono far parte di un **ruolo Experience Platform** che fornisce le seguenti autorizzazioni:
+
+  | Categoria | Autorizzazione | Descrizione |
+  |---|---|---|
+  | [!UICONTROL Sandbox] | [!UICONTROL Tutti] | Accesso a tutte le sandbox. |
+  | [!UICONTROL Governance dei dati] | [!UICONTROL Visualizza criteri di utilizzo dati] | Accesso in sola lettura per i criteri di utilizzo dei dati appartenenti alla tua organizzazione. |
+  | [!UICONTROL Governance dei dati] | [!UICONTROL Gestisci criteri di utilizzo dati] | Accesso per leggere, creare, modificare ed eliminare i criteri di utilizzo dei dati. |
+
+  Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta [Sandbox e autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home#sandboxes-and-permissions).
+
+* Se Journey Optimizer è integrato con Customer Journey Analytics in cui sono presenti connessioni Journey Optimizer, è necessario aggiungere anche le autorizzazioni di [Percorsi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/access-control/high-low-permissions#journey-capability) per accedere alle connessioni:
 
   | Categoria | Autorizzazione | Descrizione |
   |---|---|---|
@@ -139,20 +150,21 @@ Oltre a essere stato aggiunto come amministratore di prodotto nel **profilo di p
 
 * Esporta set di dati nelle [destinazioni](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets)
 
-  Per eseguire questa attività, gli utenti devono far parte di un **profilo di prodotto Experience Platform** che fornisce le seguenti autorizzazioni:
+  Per eseguire questa attività, gli utenti devono far parte di un **Ruolo Experience Platform** che fornisce le seguenti [Autorizzazioni di destinazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/home#access-controls):
 
   | Categoria | Autorizzazione | Descrizione |
   |---|---|---|
   | [!UICONTROL Destinazioni] | [!UICONTROL Gestisci destinazioni] | Accesso per leggere, creare ed eliminare connessioni di destinazione e account di destinazione. |
   | [!UICONTROL Destinazioni] | [!UICONTROL Attiva destinazioni] | Consente agli utenti di attivare i segmenti nelle destinazioni esistenti. Abilita il passaggio di mappatura nel flusso di lavoro di attivazione. Questa autorizzazione richiede anche che l’autorizzazione Visualizza destinazioni sia concessa all’utente che desidera attivare i dati nelle destinazioni. |
 
-  Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta [Gestire le autorizzazioni per un profilo di prodotto](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/permissions).
+  Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta [Sandbox e autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home#sandboxes-and-permissions).
+
 
 * Utilizzare l’[estensione BI](../data-views/bi-extension.md)
 
   Per consentire agli utenti di utilizzare l’estensione BI, un amministratore di prodotto
 
-  * deve garantire che le autorizzazioni di Experience Platform per l’utente includano un ruolo che disponga della risorsa Query Service con le opzioni Gestisci query e Gestisci integrazione Query Service. Per ulteriori informazioni sulle autorizzazioni di Experience Platform, consulta [Gestire le autorizzazioni per un profilo di prodotto](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/permissions).
+  * deve garantire che le autorizzazioni Experience Platform per l’utente includano un ruolo che disponga della risorsa Query Service con le opzioni Manage Queries (Gestisci query) e Manage Query Service Integration (Gestisci integrazione Query Service). Per ulteriori informazioni sulle autorizzazioni di Experience Platform, vedere [Panoramica sul controllo degli accessi](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home).
 
     | Categoria | Autorizzazione | Descrizione |
     |---|---|---|
@@ -167,7 +179,7 @@ Oltre a essere stato aggiunto come amministratore di prodotto nel **profilo di p
 
 Un profilo di prodotto è un set di autorizzazioni. Gli amministratori di prodotto creano profili di prodotto e possono assegnare il ruolo di Amministratore del profilo di prodotto al fine di gestire uno o più profili di prodotto. Un amministratore del profilo di prodotto può quindi:
 
-* Gestire i profili di prodotto assegnati. Ad esempio, aggiungendo o rimuovendo utenti o gruppi di utenti e modificando le autorizzazioni per i profili di prodotto.
+* Gestisci i profili di prodotto assegnati aggiungendo o rimuovendo utenti o gruppi di utenti e modificando le autorizzazioni per i profili di prodotto.
 
 * In Customer Journey Analytics, possono modificare le visualizzazioni dati che fanno parte di un profilo di prodotto assegnato. Gli amministratori dei profili di prodotto non possono creare nuove visualizzazioni dati.
 
@@ -216,11 +228,11 @@ Di seguito sono riportati alcuni casi d’uso che illustrano come il controllo d
 
 ### Accesso di terze parti
 
-Puoi fornire l’accesso all’amministrazione del profilo di prodotto a un responsabile di team presso una terza parte con cui lavora la tua azienda. Tale amministratore può quindi aggiungere utenti del team dell’azienda a questo profilo di prodotto. Tale amministratore del profilo di prodotto può concedere l’accesso a specifiche visualizzazioni dati e aggiungere altri utenti presso una terza parte a questo profilo di prodotto. L’amministratore del profilo di prodotto può modificare le visualizzazioni dati in base ai requisiti del team presso una terza parte.
+Puoi fornire l’accesso all’amministrazione del profilo di prodotto a un team lead di una terza parte con cui lavora la tua azienda. Tale amministratore può quindi aggiungere utenti del team dell’azienda a questo profilo di prodotto. Tale amministratore del profilo di prodotto può concedere l’accesso a specifiche visualizzazioni dati e aggiungere altri utenti presso una terza parte a questo profilo di prodotto. L’amministratore del profilo di prodotto può modificare le visualizzazioni dati in base ai requisiti del team presso una terza parte.
 
 ### Controllo dell’accesso a livello di riga
 
-Supponiamo che tu voglia permettere agli utenti di accedere ai dati di un solo giorno. Ecco come limitare l’accesso a queste righe specifiche:
+Supponiamo che tu voglia permettere agli utenti di accedere ai dati di un solo giorno. Ecco come limitare l’accesso a tali righe specifiche:
 
 1. Crea un segmento in [!UICONTROL Impostazioni] di una visualizzazione dati specifica, dove [!UICONTROL Giorno] è uguale alla data i cui dati desideri siano accessibili agli utenti. Per ulteriori informazioni, consulta [Crea visualizzazione dati](/help/data-views/create-dataview.md#settings-filters).
 1. Salva la visualizzazione dati, che applica il segmento alla parte di dati dei set di dati nella connessione sottostante. Tutte le righe che non rientrano nella definizione del segmento vengono automaticamente escluse dalla visualizzazione dati e non sono disponibili in Analysis Workspace quando si utilizza questa visualizzazione dati.
@@ -228,6 +240,6 @@ Supponiamo che tu voglia permettere agli utenti di accedere ai dati di un solo g
 
 ### Controllo dell’accesso a livello di valore
 
-Gli utenti che hanno accesso a una visualizzazione dati possono lavorare solo con le metriche e le dimensioni incluse dall’amministratore in questa visualizzazione dati. Gli amministratori possono utilizzare le impostazioni del componente [Includi/Escludi funzionalità](/help/data-views/component-settings/include-exclude-values.md) o [Bucket dei valori](../data-views/component-settings/value-bucketing.md) in una visualizzazione dati per escludere o aggregare determinati valori di dimensione da una visualizzazione dati.
+Gli utenti che hanno accesso a una visualizzazione dati possono lavorare solo con le metriche e le dimensioni incluse dall’amministratore in questa visualizzazione dati. Gli amministratori possono utilizzare le impostazioni del componente [Includi/Escludi funzionalità](/help/data-views/component-settings/include-exclude-values.md) o [Bucket di valori](../data-views/component-settings/value-bucketing.md) in una visualizzazione dati per escludere o aggregare determinati valori di dimensione da una visualizzazione dati.
 
-Ad esempio: puoi creare una metrica denominata *Ipertensione* all&#39;interno di una visualizzazione dati, partendo da un componente che contiene i dati dei singoli pazienti del set di dati. L&#39;aggregazione dei dati in bucket garantisce l&#39;accesso esclusivamente a valori collettivi, impedendo agli utenti la visualizzazione dei singoli record dei pazienti.
+Ad esempio: puoi creare una metrica denominata *Ipertensione* all&#39;interno di una visualizzazione dati, partendo da un componente che contiene i dati dei singoli pazienti del set di dati. La bucket dei valori consente di accedere solo ai valori a bucket, pertanto gli utenti dei dati non visualizzano i dati dei singoli pazienti.

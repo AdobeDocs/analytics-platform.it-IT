@@ -4,7 +4,6 @@ description: Scopri come gestire l’applicazione o il servizio agente per Infor
 solution: Customer Journey Analytics
 feature: AI Tools
 role: Admin, User
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -13,12 +12,11 @@ feature_v2:
     internal-label: Components
   - id: ae3aff40-b2f6-4df1-8c01-0b0720d1510f
     internal-label: AI Tools
-role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 99e0e43c34f77b6e42f8d3c4fdf5d2773569b3e7
+source-git-commit: 84e89fe4ecbd4dd479c9dad12175a9a93e7578cb
 workflow-type: tm+mt
 source-wordcount: '2592'
 ht-degree: 5%
@@ -39,7 +37,7 @@ Questo articolo documenta i passaggi di implementazione richiesti.
 
 Configura i set di dati per gli eventi di conversazione principali: prompt, risposta, feedback. I set di dati di prompt, risposta e feedback devono estendere lo schema di base dell&#39;evento esperienza XDM con il gruppo di campi [Evento di conversazione](#conversation-event-field-group) e possono facoltativamente includere il [gruppo di campi Informazioni agenti](#agentic-information-field-group) e altri [gruppi di campi aggiuntivi](#additional-field-groups).
 
-Puoi definire set di dati separati per prompt, risposte e feedback oppure combinare dati in set di dati. Ad esempio, utilizza un set di dati per prompt e risposte e un altro set di dati per il feedback. In alternativa, utilizzare un set di dati separato per ogni tipo di evento di conversazione come illustrato in [Funzionamento](/help/conversation-insights/conversation-insights-overview.md#how-it-works).
+Puoi definire set di dati separati per prompt, risposte e feedback oppure combinare dati in set di dati. Ad esempio, utilizza un set di dati per prompt e risposte e un altro set di dati per il feedback. In alternativa, utilizzare un set di dati separato per ogni tipo di evento di conversazione come illustrato in [Funzionamento](/help/conversation-insights/overview.md#how-it-works).
 
 Per illustrare, utilizza:
 
@@ -625,7 +623,6 @@ Di seguito è riportato un esempio di utilizzo del gruppo di campi Evento di con
 ## Raccolta dati
 
 Utilizza la seguente strategia di raccolta dati per Informazioni su conversazioni.
-
 
 ### Tipi di evento
 
