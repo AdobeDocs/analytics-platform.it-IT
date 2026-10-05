@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hold: true
 role: Admin
-source-git-commit: 42b73f2843244a02fd51301d8d99282ae5f309cd
+source-git-commit: 4bb99471d256fe29dc54980a5da37cf2385b679f
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1704'
 ht-degree: 0%
 ---
 
@@ -43,7 +43,7 @@ L&#39;autenticazione al connettore utilizza [!DNL OAuth 2.0]. Durante l’instal
 
 ## Modello dati per media a pagamento
 
-I dati multimediali a pagamento utilizzano uno schema a stella. Un [set di dati di metriche di riepilogo](#summary-metrics-dataset) funge da fact table e sei set di dati di ricerca forniscono le dimensioni correlate. I set di dati di ricerca si uniscono al set di dati delle metriche di riepilogo per entità `GUID` e valori ID nativi per account, campagne, gruppi di annunci, annunci, risorse ed esperienze.
+[I set di dati delle metriche di riepilogo](#summary-metrics-datasets) fungono da tabelle dei fatti e i set di dati di ricerca forniscono le dimensioni correlate. I set di dati di ricerca si uniscono ai set di dati delle metriche di riepilogo per entità `GUID` e valori ID nativi per account, campagne, gruppi di annunci, annunci, risorse ed esperienze.
 
 I set di dati di ricerca condividono due blocchi predefiniti comuni:
 
@@ -63,9 +63,9 @@ La tabella seguente riepiloga i sei set di dati di ricerca.
 
 ### Set di dati delle metriche di riepilogo
 
-Il set di dati delle metriche di riepilogo dei file multimediali a pagamento è il set di dati di riepilogo centrale. Ogni riga in genere rappresenta un’entità per un giorno e include una marca temporale, un identificatore, un tipo di evento, gli ID entità e i nomi denormalizzati per il reporting.
+I set di dati delle metriche di riepilogo per elementi multimediali a pagamento sono i set di dati di riepilogo centrali. Ogni riga in un set di dati di riepilogo in genere rappresenta un’entità per un giorno e include una marca temporale, un identificatore, un tipo di evento, gli ID entità e i nomi denormalizzati per il reporting.
 
-Il set di dati delle metriche di riepilogo può includere i seguenti gruppi di metriche:
+Ogni set di dati delle metriche di riepilogo può includere i seguenti gruppi di metriche:
 
 * **Prestazioni di base**: impression, clic, tasso di click-through, engagement, tasso di coinvolgimento, conversioni, tasso di conversione, valore di conversione, lead, clic sui collegamenti, download e installazioni o aperture di app.
 * **Costo e budget**: spesa giornaliera, budget allocato e rimanente, ritmo, sovraccarico o sottoutilizzo, metriche dei costi medi e importi delle offerte.
@@ -79,9 +79,9 @@ Il set di dati delle metriche di riepilogo può includere i seguenti gruppi di m
 
 ### Set di dati standard
 
-Quando si collega un’origine di file multimediali a pagamento, Adobe esegue il provisioning di 12 set di dati multimediali a pagamento standard in base alle classi e ai gruppi di campi dello schema di file multimediali a pagamento globali. Questi set di dati includono sei set di dati con metriche di riepilogo, i sei set di dati di ricerca e i set di dati di supporto. Tutti i 12 set di dati di riepilogo e di ricerca devono essere presenti in modo che i dati multimediali a pagamento vengano risolti correttamente a valle.
+Quando si collega un’origine di file multimediali a pagamento, Adobe esegue il provisioning di 12 set di dati multimediali a pagamento standard in base alle classi e ai gruppi di campi dello schema di file multimediali a pagamento globali. Questi set di dati includono sei set di dati con metriche di riepilogo, sei set di dati di ricerca e set di dati di supporto. Tutti i 12 set di dati di riepilogo e di ricerca devono essere presenti in modo che i dati multimediali a pagamento vengano risolti correttamente a valle.
 
-Set di dati richiesti:
+#### Set di dati richiesti
 
 * Riepilogo account media a pagamento
 * Riepilogo campagna media a pagamento
@@ -96,7 +96,9 @@ Set di dati richiesti:
 * Ricerca esperienza multimediale a pagamento
 * Ricerca risorse multimediali a pagamento
 
-Set di dati di supporto, ad esempio:
+#### Set di dati di supporto
+
+Ad esempio
 
 * Ricerca demografica annuncio multimediale a pagamento
 * Riepilogo posizionamento esperienza multimediale a pagamento
@@ -110,8 +112,7 @@ Utilizza il seguente procedimento per collegare un’origine e acquisire dati mu
 
 1. Verifica di disporre delle autorizzazioni di origine di Experience Platform e dell’accesso ad-platform richiesti.
 1. In Experience Platform, vai a **[!UICONTROL Origini]** > **[!UICONTROL Catalogo]** > **[!UICONTROL Advertising]**.
-1. &#x200B;
-   1. Verifica di trovarti nella sandbox che contiene i set di dati per contenuti multimediali a pagamento.
+1. Verifica di trovarti nella sandbox che contiene i set di dati per contenuti multimediali a pagamento.
 1. Selezionare il connettore da utilizzare, ad esempio **[!DNL Meta Ads]**. Seleziona **[!UICONTROL Configura]** per creare una nuova connessione oppure seleziona **[!UICONTROL Aggiungi dati]** per aggiungere altri dati a una connessione esistente.
 1. Eseguire l&#39;autenticazione con [!DNL OAuth 2.0] effettuando l&#39;accesso con un utente che dispone dell&#39;accesso a livello di inserzionista richiesto.
 1. Seleziona gli account dell’annuncio, le entità e i dati insight che desideri acquisire.
@@ -186,5 +187,5 @@ Utilizza il seguente elenco di controllo per convalidare l’implementazione.
 
 >[!MORELIKETHIS]
 >
->[Connettore di origine di Meta Ads](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/advertising/meta-ads)
+>[Connettore di origine di Meta Ads](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/advertising/meta-ads)
 >
