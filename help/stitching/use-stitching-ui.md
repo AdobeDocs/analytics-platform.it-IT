@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8800f7c1659785931edb7d9f7139f037a086511c
+source-git-commit: 1ee7e0b046f370c956b083e494522cfbc892e092
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1979'
 ht-degree: 18%
 ---
 # Abilitare l’unione delle identità
@@ -244,9 +244,7 @@ Esempi di casi di utilizzo di ID non validi:
 
 ### Salva
 
-
-
-Una volta salvata una connessione, viene attivato il processo di abilitazione dell’unione sui set di dati configurati. Una volta configurato, il servizio di unione elabora tutti i dati in streaming live, avvia la retrocompilazione dai set di dati evento in Experience Platform e successivamente acquisisce i dati nella connessione Customer Journey Analytics.
+Una volta salvata una connessione, viene attivato il processo di abilitazione dell’unione sui set di dati configurati. Una volta configurato il servizio di unione, il servizio elabora i dati in streaming live ed eventuali dati di backfill richiesti dai set di dati evento in Experience Platform. Successivamente, i dati vengono acquisiti nella connessione Customer Journey Analytics.
 
 Ogni fase del processo comporta alcuni ritardi. I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA).
 
@@ -256,15 +254,16 @@ Per un’impostazione di connessione iniziale valida che viene salvata e contien
 
   Per garantire che i dati live inizino a fluire in, abilita l&#39;opzione **[!UICONTROL Importa tutti i nuovi dati]** per il set di dati.
 
-  Eventuali nuovi dati acquisiti nel set di dati dell’evento sorgente in Experience Platform vengono visualizzati in Customer Journey Analytics entro quattro ore.
+  I nuovi dati acquisiti nel set di dati dell’evento di origine di Experience Platform vengono visualizzati in Customer Journey Analytics entro quattro ore.
 
-* I dati in backfill (se inizialmente richiesti) vengono visualizzati in Customer Journey Analytics più o meno alla stessa ora dei dati live, ma l’elaborazione richiede giorni o settimane (meno di 4 settimane) a seconda dei volumi coinvolti. I dati precompilati iniziano con i valori timestamp dell’evento meno recenti.
+* I dati precompilati (se inizialmente richiesti) vengono visualizzati in Customer Journey Analytics più o meno nello stesso momento dei dati live, ma la loro elaborazione può richiedere alcuni giorni, a seconda dei volumi coinvolti. I dati precompilati iniziano con i valori timestamp dell’evento meno recenti.
 
->[!CAUTION]
->
->Per i set di dati abilitati per l’unione nell’interfaccia Connessioni, al momento non è possibile segnalare lo stato di backfill a causa di una limitazione nota. Utilizza altri modi per verificare se i dati del set di dati uniti vengono recuperati.
->
+  >[!CAUTION]
+  >
+  >Per i set di dati abilitati per l’unione nell’interfaccia Connessioni, al momento non è possibile segnalare lo stato di backfill a causa di una limitazione nota.
+  >
 
+  Utilizza metodi alternativi per verificare se i dati del set di dati uniti vengono recuperati. Ad esempio, utilizza l&#39;[interfaccia utente di Experience Platform Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/overview) per estrarre dal set di dati il conteggio degli eventi per il periodo rilevante. Confrontare il conteggio degli eventi con la metrica eventi in [Generazione rapporti Customer Journey Analytics](/help/analysis-workspace/home.md) per lo stesso intervallo di tempo. Se tali numeri corrispondono, la retrocompilazione viene completata.
 
 ## Limitazioni
 
