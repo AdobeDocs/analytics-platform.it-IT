@@ -132,7 +132,7 @@ I dati dei sottoeventi (come più dettagli di prodotto in un singolo evento di a
 
 ## Eseguire query sui dati degli eventi secondari nell’output del feed dati
 
-Poiché i dati dell&#39;evento secondario [ vengono visualizzati in modo diverso nei feed dati di Customer Journey Analytics](#view-sub-event-data-in-data-feed-output), le query utilizzate per tale evento sono diverse da quelle utilizzate per i feed dati di Adobe Analytics.
+Poiché i dati dell&#39;evento secondario [&#x200B; vengono visualizzati in modo diverso nei feed dati di Customer Journey Analytics](#view-sub-event-data-in-data-feed-output), le query utilizzate per tale evento sono diverse da quelle utilizzate per i feed dati di Adobe Analytics.
 
 Gli esempi seguenti mostrano come trovare gli eventi che includono un prodotto specifico. Negli esempi viene utilizzata la sintassi BigQuery di Google. Altri data warehouse, come Snowflake e Databricks, supportano lo stesso approccio con differenze di sintassi minori.
 
