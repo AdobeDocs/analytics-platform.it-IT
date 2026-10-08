@@ -4,12 +4,11 @@ description: Scopri la configurazione automatica di set di dati, connessioni, vi
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
-source-git-commit: f83d40d33e90ba73f26129ab416f063f361edca7
+source-git-commit: 2727dce145b996192ac873dd43d5106b011ff736
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 4%
 ---
-
 # Configurazione automatica supporti a pagamento
 
 Quando abiliti il canale dei file multimediali a pagamento in Content Analytics e salvi la configurazione, Adobe aggiorna la connessione e le visualizzazioni dati selezionate con la configurazione di reporting per i set di dati dei file multimediali a pagamento. Non è necessario ricreare personalmente le dimensioni, le metriche, la logica di ricerca o i gruppi di dati di riepilogo predefiniti.
@@ -65,7 +64,6 @@ Questa tabella descrive la copertura dei set di dati, non garantisce che ogni me
 I set di dati di ricerca separati descrivono account, campagna, gruppo di annunci, annuncio, esperienza e risorsa. Forniscono nomi e metadati utilizzando GUID di entità. Non esiste alcuna associazione uno-a-uno tra i set di dati di riepilogo e i sei set di dati di ricerca.
 
 Il raggruppamento dei dati di riepilogo riunisce dimensioni equivalenti; il raggruppamento non totalizza i sei totali della metrica delle prestazioni.
-
 
 ## Componenti
 
