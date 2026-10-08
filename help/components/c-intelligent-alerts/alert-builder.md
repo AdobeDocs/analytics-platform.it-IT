@@ -39,7 +39,7 @@ topic_v2:
 source-git-commit: 4f3c4a214bb9676ced6fe3c9627c969413013790
 workflow-type: tm+mt
 source-wordcount: '1093'
-ht-degree: 38%
+ht-degree: 41%
 ---
 # Creare avvisi {#create-alerts}
 
@@ -57,7 +57,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="components_alerts_delay"
 >title="Ritardo"
->abstract="Gli avvisi vengono attivati alla granularità temporale selezionata dopo questo ritardo. I dati provenienti dalle connessioni possono arrivare con diverse latenze, tra 1 e 24 ore. Il ritardo predefinito viene attivato 9 ore dopo ogni finestra di avviso."
+>abstract="Gli avvisi vengono attivati alla granularità temporale selezionata dopo questo ritardo. I dati provenienti dalle connessioni possono arrivare con latenze diverse, comprese tra 1 e 24 ore. Il ritardo predefinito viene attivato 9 ore dopo ogni intervallo di avviso."
 
 <!-- markdownlint-enable MD034 -->
 
