@@ -3,11 +3,12 @@ title: Configurazione automatica Content Analytics Paid Media
 description: Scopri la configurazione automatica di set di dati, connessioni, visualizzazioni dati e altro ancora.
 solution: Customer Journey Analytics
 feature: Content Analytics
+hold: true
 role: Admin
-source-git-commit: 2727dce145b996192ac873dd43d5106b011ff736
+source-git-commit: 684fef6a5e007d6dabe6518d7c7ec93a41dc6cdd
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 4%
+source-wordcount: '2179'
+ht-degree: 3%
 ---
 # Configurazione automatica supporti a pagamento
 
@@ -142,3 +143,45 @@ Per effettuare un’indagine, utilizza ulteriori suddivisioni geografiche e demo
 | Costo per clic | Riepilogo annuncio |
 
 
+### Correlazione dei dati multimediali a pagamento con le date dell’evento esperienza
+
+Combina le prestazioni dei media a pagamento con i dati comportamentali sul sito per comprendere come le campagne e gli annunci sono associati al coinvolgimento, alle conversioni e ai ricavi del sito web. Ad esempio, confronta i clic e le spese della rete pubblicitaria con gli ordini attribuiti alle visite della stessa campagna.
+
+Per configurare questo reporting, includi i set di dati di riepilogo dei file multimediali a pagamento e il set di dati dell’evento nel sito nella stessa connessione Customer Journey Analytics. Acquisisci identificatori stabili di campagne, annunci o risorse supportate dai parametri URL della pagina di destinazione o dai campi evento esistenti. Utilizza i campi derivati necessari per analizzare e mappare tali valori ai corrispondenti identificatori di elementi multimediali a pagamento, mantenendo la rete e il contesto dell’account richiesti. Usa gli identificatori come stringhe. Configura un gruppo di dati di riepilogo nella visualizzazione dati per associare l&#39;evento corrispondente e le dimensioni di riepilogo. L’abilitazione del canale Paid Media non configura automaticamente questa mappatura e tracciamento URL specifico per l’implementazione.
+
+
+| Opzione di tracciamento | Considerazioni |
+|---|---|
+| Meta Ads | Configurare i parametri dell&#39;URL di destinazione utilizzando identificatori dinamici come `campaign.id`, `adset.id` e `ad.id`, se supportati. Acquisisci i valori risolti sul tuo sito web. L’abilitazione del connettore non aggiunge automaticamente questi parametri agli URL dell’annuncio. |
+| Google Ads | |
+| Singole risorse | La segnalazione a livello di risorsa dei risultati a valle richiede un identificatore acquisito mappato alla risorsa specifica associata al clic. Un parametro URL personalizzato può supportare questa funzione se il formato dell’annuncio consente il tracciamento specifico delle risorse. Un identificatore di annuncio da solo non è in grado di distinguere più risorse all’interno di un annuncio e un parametro di risorsa statico applicato a un intero annuncio con più risorse non identifica quale risorsa è stata associata al clic. |
+
+In Analysis Workspace, utilizza le metriche **[!UICONTROL Riepilogo annuncio]** per i confronti tra campagne o annunci e le metriche **[!UICONTROL Riepilogo risorse]** per i confronti tra risorse supportati. Applica un modello di attribuzione e un intervallo di lookback alle metriche di conversione nel sito che riflettono la domanda di reporting.
+
+Tieni presente quanto segue:
+
+* I dati multimediali a pagamento sono dati di riepilogo aggregati senza un ID persona. Il comportamento nel sito è dato da un evento.
+* Il raggruppamento delle dimensioni corrispondenti supporta il reporting tra queste origini, ma non corrisponde alle conversioni di singoli annunci e di rete in conversioni di siti web o esegue unioni a livello di persona.
+* Il confronto mostra un&#39;associazione, non un incremento causale.
+* I risultati possono variare a causa delle definizioni di conversione, delle finestre di attribuzione, delle conversioni view-through o modellate, del consenso e delle date di reporting o dei fusi orari.
+* Convalida l’origine delle visite con tag della campagna, in particolare quando i parametri di tracciamento vengono riutilizzati tra i canali.
+
+
+### Esempio di confronto delle prestazioni della campagna con gli ordini in loco
+
+Un URL di pagina di destinazione può contenere diversi parametri di tracciamento. In questo esempio viene utilizzato l&#39;ID campagna in `utm_id` per confrontare la spesa della campagna con gli ordini del sito Web.
+
+https://www.example.com/offer?utm_source=facebook&utm_medium=paid_social&utm_campaign=autumn_offer&utm_id=120218706543980215
+
+Parametro utilizzato per il confronto: `utm_id=120218706543980215`. Gli altri parametri descrivono l’etichetta di origine, il supporto e la campagna, ma non vengono utilizzati come campo corrispondente utilizzato in questo esempio.
+
+Se l’URL viene acquisito nei dati dell’evento del sito web e sia il set di dati dell’evento del sito web che i set di dati a pagamento multimediali fanno parte della stessa connessione Customer Journey Analytics:
+
+1. Identifica la campagna. Utilizza un campo derivato per leggere `utm_id` dall&#39;URL e mapparne il valore all&#39;identificatore della campagna corrispondente nei dati multimediali a pagamento.
+1. Raggruppa le dimensioni corrispondenti. Nella visualizzazione dati, aggiungere la dimensione della campagna del sito Web alla dimensione della campagna a pagamento `Summary Data Group`, mantenendo tutti i membri esistenti.
+1. Confrontare spese e ordini. In Analysis Workspace, utilizza la dimensione Campagna raggruppata come righe di una tabella a forma libera. Aggiungi `Ad Summary` spesa e sito Web `Orders` come colonne. Imposta il modello di attribuzione e l&#39;intervallo di lookback per `Orders`.
+
+
+La tabella mostra le spese di rete degli annunci e gli ordini dei siti web attribuiti a ciascuna campagna. Due campagne con una spesa pubblicitaria simile potrebbero avere un numero diverso di azioni attribuite al sito web a valle. Utilizza questo confronto per identificare campagne ed esperienze di pagine di destinazione per ulteriori indagini o test, anziché valutare le prestazioni solo in base alle metriche pubblicitarie.
+
+L’esempio utilizza un ID campagna, ma lo stesso approccio può utilizzare identificatori di gruppi di annunci, annunci o risorse quando è possibile acquisire valori corrispondenti. Gli attributi di Content Analytics, ad esempio **[!UICONTROL Colori primo piano risorse]**, consentono di confrontare le caratteristiche creative con le prestazioni dei supporti a pagamento. Con il tracciamento specifico delle risorse e le dimensioni degli attributi corrispondenti configurate tra entrambe le origini, puoi estendere il confronto agli ordini attribuiti del sito web e utilizzare i risultati per guidare il test creativo.
