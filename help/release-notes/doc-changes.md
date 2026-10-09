@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 17af5df91a28b3a6e44528f88661b6dcc86d6cae
+source-git-commit: a7bea19dcd89472ee21c533e44e1f87f5d179838
 workflow-type: tm+mt
-source-wordcount: '7170'
+source-wordcount: '7183'
 ht-degree: 96%
 ---
 
@@ -71,19 +71,21 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 |---|---|
 | **Ottobre 2026** | |
 | Approfondimenti conversazione | [Documentazione](/help/conversation-insights/overview.md) per Informazioni sulla conversazione. |
+| Ottobre 2026 | |
+| Visibilità del brand | È stata aggiornata la documentazione per l&#39;integrazione in entrata [Brand Visibility](/help/integrations/bv/bv.md#inbound-integration) con ulteriori dettagli. |
 | **Settembre 2026** | |
 | Confronto tra aree di lavoro percorsi su frecce e abbandono | È stata aggiornata l&#39;impostazione &#39;[!UICONTROL Confronta con]&#39; in [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) per mostrare che la variazione percentuale tra gli intervalli di date ora viene visualizzata su ogni nodo, freccia e abbandono nel percorso. |
-| Post di blog incorporati | Ha incorporato i seguenti post sul blog:<ul><li>[Playbook completo per gestire &#39;Nessun valore&#39; in Adobe CJA](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769?profile.language=it#M598)</li><li>[Indagine approfondita sui casi di utilizzo dell&#39;uscita dei dati di Adobe Experience Platform e Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725?profile.language=it)</li></ul>nei nostri [Casi d&#39;uso sull&#39;esportazione dei dati](/help/use-cases/data-export/overview.md) e un nuovo articolo del caso d&#39;uso [Nessun valore](/help/use-cases/data-views/no-value.md). |
+| Post di blog incorporati | Ha incorporato i seguenti post sul blog:<ul><li>[Playbook completo per gestire &#39;Nessun valore&#39; in Adobe CJA](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/the-complete-playbook-for-handling-no-value-in-adobe-cja-12769#M598)</li><li>[Indagine approfondita sui casi di utilizzo dell&#39;uscita dei dati di Adobe Experience Platform e Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/adobe-analytics-3/adobe-experience-platform-customer-journey-analytics-data-egress-use-cases-deep-dive-12725)</li></ul>nei nostri [Casi d&#39;uso sull&#39;esportazione dei dati](/help/use-cases/data-export/overview.md) e un nuovo articolo del caso d&#39;uso [Nessun valore](/help/use-cases/data-views/no-value.md). |
 | Nuove azioni di collegamento di ridimensionamento | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [ridimensionare un pannello o una visualizzazione](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization) in modo più ampio, ridotto, più alto o più breve. |
 | **Agosto 2026** | |
 | Informazioni più chiare sull’aggiornamento dei tipi di pubblico | Quando [pubblichi tipi di pubblico](/help/components/audiences/publish.md#audience-builder), chiarisci che il numero di tipi di pubblico che possono essere pianificati per l&#39;aggiornamento dipende dall&#39;adesione a Customer Journey Analytics ed è compreso tra 75 e 150. |
 | **Luglio 2026** | |
-| Visibilità dei brand integrazione in entrata | Documentazione per l&#39;integrazione in entrata [Brand Visibility](/help/integrations/bv.md#inbound-integration). |
+| Visibilità del brand | Documentazione per l&#39;integrazione in entrata [Brand Visibility](/help/integrations/bv/bv.md#inbound-integration). |
 | Interfaccia di utilizzo | È stata aggiornata la documentazione dell&#39;[interfaccia di utilizzo](/help/connections/manage-connections.md#usage) per le connessioni. |
 | Analisi dei sottoeventi | Documentazione per [analisi sub-evento](/help/components/segments/sub-event.md) e [contenitori personalizzati](/help/data-views/create-dataview.md#custom-containers). |
 | Classificazioni in linea | Documentazione per [classificazioni in linea](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md#inline-classifications). |
 | **Giugno 2026** | |
-| Nuova guida GA4 | Aggiunta di [Transizione da Google Analytics 4 a Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home) completata. |
+| Nuova guida GA4 | Aggiunta di [Transizione da Google Analytics 4 a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home) completata. |
 | **Maggio 2026** | |
 | Libreria JavaScript per Content Analytics | Documentazione relativa alla modalità di implementazione di Content Analytics per il canale web utilizzando la [libreria JavaScript di Content Analytics](/help/content-analytics/config/tags-agnostic.md) senza richiedere i tag della raccolta dati di Experience Platform. |
 | Considerazioni su Data Mirror | [Documentazione](/help/data-mirror/considerations.md) che descrive i fattori da considerare durante la configurazione dei [set di dati Data Mirror](/help/data-mirror/data-mirror.md). |
@@ -118,7 +120,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Configurazione dell’attribuzione | Aggiornamenti aggiuntivi per riflettere le nuove opzioni di configurazione dell’attribuzione per modello, contenitore e intervallo di lookback. |
 | Acquisire e utilizzare i tipi di pubblico di Experience Platform | È stato aggiornato l’articolo sul caso d’uso su come [acquisire e utilizzare i tipi di pubblico di Experience Platform](/help/use-cases/data-ingestion/ingest-aep-segments.md). |
 | Preparare l’organizzazione all’aggiornamento a Customer Journey Analytics | Sono state aggiunte informazioni su come [preparare un’organizzazione all’aggiornamento a Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md). |
-| Rapporto su LLM e traffico generato da IA | È stato aggiunto l’[articolo del caso d’uso](/help/use-cases/data-views/derived-fields/ai-traffic.md) su come creare rapporti sul traffico generato da IA e LLM utilizzando come base i campi derivati. Questo documento si basa sull’articolo del blog [Tracciamento e analisi del traffico generato da IA e LLM in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=it). |
+| Rapporto su LLM e traffico generato da IA | È stato aggiunto l’[articolo del caso d’uso](/help/use-cases/data-views/derived-fields/ai-traffic.md) su come creare rapporti sul traffico generato da IA e LLM utilizzando come base i campi derivati. Questo documento si basa sull’articolo del blog [Tracciamento e analisi del traffico generato da IA e LLM in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967). |
 | **Settembre 2025** | |
 | Date precedenti al 1900 | È stata aggiunta una [nota](/help/connections/create-connection.md#datasets) sulla gestione delle date precedenti al 1900 da parte di Customer Journey Analytics. |
 | Reporting in tempo reale | La documentazione sul [reporting in tempo reale](/help/components/real-time/real-time.md) in Customer Journey Analytics è stata aggiunta. |
@@ -327,7 +329,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Dicembre 2022** |  |
 | 16 dicembre 2022 | Nuovo argomento sulla [gestione dell’utilizzo dei dati di Customer Journey Analytics](/help/technotes/estimate-usage.md). |
 | **Ottobre 2022** | |
-| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=it#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
+| Ottobre 2022 | Nuovo argomento su [protezione tramite password dei progetti programmati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#password). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Chiavi gestite dal cliente](/help/privacy/cmk.md). Questa funzione rientra nell’[ambito dell’HIPAA](https://www.adobe.com/trust/compliance/hipaa-ready.html). |
 | Ottobre 2022 | Nuovo argomento su [Registro di controllo di Customer Journey Analytics](/help/privacy/audit-log.md). |
 | Ottobre 2022 | Nuovo argomento sulla visualizzazione del [Riepilogo delle metriche chiave](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=it). |
