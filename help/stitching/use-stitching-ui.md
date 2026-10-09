@@ -265,7 +265,7 @@ Per un’impostazione di connessione iniziale valida che viene salvata e contien
   >Per i set di dati abilitati per l’unione nell’interfaccia Connessioni, al momento non è possibile segnalare lo stato di backfill a causa di una limitazione nota.
   >
 
-  Utilizza metodi alternativi per verificare se i dati del set di dati uniti vengono recuperati. Ad esempio, utilizza l&#39;[interfaccia utente di Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview) per estrarre dal set di dati il conteggio degli eventi per il periodo rilevante. Confronta il conteggio degli eventi con il valore della metrica **[!UICONTROL Eventi]** in [Generazione rapporti di Customer Journey Analytics](/help/analysis-workspace/home.md) per lo stesso intervallo di tempo. Se tali numeri corrispondono, la retrocompilazione viene completata.
+  Utilizza metodi alternativi per verificare se i dati del set di dati uniti vengono recuperati. Ad esempio, utilizza l&#39;[interfaccia utente di Experience Platform Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/overview) per estrarre dal set di dati il conteggio degli eventi per il periodo rilevante. Confronta il conteggio degli eventi con il valore della metrica **[!UICONTROL Eventi]** in [Generazione rapporti di Customer Journey Analytics](/help/analysis-workspace/home.md) per lo stesso intervallo di tempo. Se tali numeri corrispondono, la retrocompilazione viene completata.
 
 ## Limitazioni
 
