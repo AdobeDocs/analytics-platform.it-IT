@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hold: true
 role: Admin
-source-git-commit: 4bb99471d256fe29dc54980a5da37cf2385b679f
+source-git-commit: 29a21d57b6b50d873a4464d1a705c1b4855dd3ea
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1198'
 ht-degree: 0%
 ---
 
@@ -29,7 +29,7 @@ Assicurati di disporre dei seguenti diritti di accesso in Experience Platform:
 
 * Autorizzazione per visualizzare e gestire le origini.
 * Autorizzazione per creare schemi, set di dati e flussi di dati.
-* Una sandbox selezionata per funzionare in. È necessario scegliere la sandbox prima di procedere con i passaggi di configurazione.
+* Una sandbox selezionata per funzionare in. Scegli la sandbox prima di procedere con i passaggi di configurazione.
 
 Se utilizzi [!DNL Meta Ads] come origine, assicurati anche di disporre dei seguenti prerequisiti:
 
@@ -41,72 +41,13 @@ Se utilizzi [!DNL Meta Ads] come origine, assicurati anche di disporre dei segue
 
 L&#39;autenticazione al connettore utilizza [!DNL OAuth 2.0]. Durante l’installazione, accedi e concedi l’accesso al connettore. Poiché i token di accesso scadono, preparati a autorizzare nuovamente la connessione in caso di revoca della concessione.
 
-## Modello dati per media a pagamento
+## Modello dati
 
-[I set di dati delle metriche di riepilogo](#summary-metrics-datasets) fungono da tabelle dei fatti e i set di dati di ricerca forniscono le dimensioni correlate. I set di dati di ricerca si uniscono ai set di dati delle metriche di riepilogo per entità `GUID` e valori ID nativi per account, campagne, gruppi di annunci, annunci, risorse ed esperienze.
+La configurazione automatica di [Content Analytics Paid Media](/help/content-analytics/config/paid-media.md) spiega in dettaglio il modello di dati a pagamento. Tale configurazione automatica crea e configura i set di dati e i componenti richiesti in generale e per l’analisi specifica dei contenuti.
 
-I set di dati di ricerca condividono due blocchi predefiniti comuni:
+Per informazioni sul modello di dati a pagamento per file multimediali, consulta questa documentazione. Utilizzala per decidere quali set di dati utilizzare in Customer Journey Analytics. I connettori di origine configurati generano questi set di dati.
 
-* **Oggetto ID entità**: memorizza gli oggetti account, annuncio, gruppo di annunci, risorsa, campagna ed esperienza. Ogni oggetto contiene una chiave globale generata da Adobe e un ID nativo della piattaforma.
-* **Metadati principali di media a pagamento**: archivia campi descrittivi comuni quali nome, stato, obiettivo, obiettivo di ottimizzazione, strategia di offerta, tipo di budget, valori di budget, valuta, fuso orario, stato del servizio, date, rete di annunci, canale, percorso gerarchico, rete e identificatori di portfolio.
-
-La tabella seguente riepiloga i sei set di dati di ricerca.
-
-| Set di dati di ricerca | Contenuti chiave |
-|---|---|
-| Ricerca account | Metadati a livello di account come nome, valuta, fuso orario, stato, limite di spesa e date di creazione |
-| Ricerca campagna | Impostazioni della campagna per budget, pianificazione, targeting, tracciamento della conversione, attribuzione, posizionamenti, oggetti promossi, finalità e ID catalogo o store |
-| Ricerca gruppo di annunci | Metadati del gruppo di annunci come collegamento della campagna, stato, budget, obiettivi di ottimizzazione e targeting |
-| Ricerca annunci | Dettagli della creatività dell’annuncio come risorse, varianti, dimensioni, URL di tracciamento, call to action, corpo del testo, titoli, URL di destinazione, stato di consegna e stato di revisione |
-| Ricerca risorse | Proprietà della risorsa come dimensioni, dettagli dei file, proprietà delle immagini, URL dei contenuti multimediali, metadati di utilizzo, metadati video, descrizione, sottotipo, titolo e tipo |
-| Ricerca esperienza | Raggruppamenti creativi a livello di esperienza come ID esperienza, risorse, titolo, descrizione e call to action |
-
-### Set di dati delle metriche di riepilogo
-
-I set di dati delle metriche di riepilogo per elementi multimediali a pagamento sono i set di dati di riepilogo centrali. Ogni riga in un set di dati di riepilogo in genere rappresenta un’entità per un giorno e include una marca temporale, un identificatore, un tipo di evento, gli ID entità e i nomi denormalizzati per il reporting.
-
-Ogni set di dati delle metriche di riepilogo può includere i seguenti gruppi di metriche:
-
-* **Prestazioni di base**: impression, clic, tasso di click-through, engagement, tasso di coinvolgimento, conversioni, tasso di conversione, valore di conversione, lead, clic sui collegamenti, download e installazioni o aperture di app.
-* **Costo e budget**: spesa giornaliera, budget allocato e rimanente, ritmo, sovraccarico o sottoutilizzo, metriche dei costi medi e importi delle offerte.
-* **Video**: visualizzazioni video, milestone di visualizzazione e tempo medio di visualizzazione.
-* **Condivisione impression**: condivisione impression, condivisione impression superiore e metriche di condivisione impression perse.
-* **Dettagli conversione**: tipi di conversione, azioni di aggiunta al carrello, estrazioni, chiamate, richieste di indicazioni, attività modulo lead e altri eventi correlati alla conversione.
-* **Coinvolgimento social**: mi piace, commenti e segue.
-* **Attribuzione e percorso**: dettagli del modello di attribuzione, affidabilità, pesi, metriche del percorso e contributo del canale.
-* **Qualità e frode**: punteggi di qualità, indicatori di frode, tassi di traffico non validi e metriche di sicurezza del brand.
-* **Suddivisioni dimensionali**: i dati possono essere suddivisi per canale, rete di annunci, tipo di dispositivo, gruppo di età, genere, paese, città, lingua, giorno della settimana, categoria di pubblico, formato creativo e altre dimensioni a seconda della piattaforma di origine.
-
-### Set di dati standard
-
-Quando si collega un’origine di file multimediali a pagamento, Adobe esegue il provisioning di 12 set di dati multimediali a pagamento standard in base alle classi e ai gruppi di campi dello schema di file multimediali a pagamento globali. Questi set di dati includono sei set di dati con metriche di riepilogo, sei set di dati di ricerca e set di dati di supporto. Tutti i 12 set di dati di riepilogo e di ricerca devono essere presenti in modo che i dati multimediali a pagamento vengano risolti correttamente a valle.
-
-#### Set di dati richiesti
-
-* Riepilogo account media a pagamento
-* Riepilogo campagna media a pagamento
-* Riepilogo gruppi di annunci multimediali a pagamento
-* Riepilogo annunci multimediali a pagamento
-* Riepilogo esperienza multimediale a pagamento
-* Riepilogo risorse multimediali a pagamento
-* Ricerca account di file multimediali a pagamento
-* Ricerca campagna media a pagamento
-* Ricerca gruppo di annunci multimediali a pagamento
-* Ricerca annunci multimediali a pagamento
-* Ricerca esperienza multimediale a pagamento
-* Ricerca risorse multimediali a pagamento
-
-#### Set di dati di supporto
-
-Ad esempio
-
-* Ricerca demografica annuncio multimediale a pagamento
-* Riepilogo posizionamento esperienza multimediale a pagamento
-* Riepilogo geografico annuncio multimediale a pagamento
-* Riepilogo annunci multimediali a pagamento (metriche di riepilogo)
-* Riepilogo demografico risorse multimediali a pagamento
-
-## Acquisire dati multimediali a pagamento in Adobe Experience Platform
+## Acquisire dati multimediali a pagamento
 
 Utilizza il seguente procedimento per collegare un’origine e acquisire dati multimediali a pagamento in Experience Platform:
 
@@ -125,10 +66,10 @@ Prima di passare a Customer Journey Analytics, convalida i dati acquisiti:
 
 * Verificare che i valori dell&#39;entità `GUID` e dell&#39;ID nativo vengano popolati in modo coerente nelle metriche di riepilogo e nei set di dati di ricerca.
 * Conferma che ogni riga delle metriche di riepilogo includa una marca temporale.
-* Verificare che i campi di reporting chiave, quali le dimensioni (ad esempio: `channel`, `adNetwork`) e le metriche (ad esempio: `impressions`, `clicks`, `spend`) contengano valori. Alcuni campi come `region` potrebbero non essere compilati da tutte le piattaforme di origine.
+* Verificare che i campi di reporting chiave, quali le dimensioni (ad esempio: `channel`, `adNetwork`) e le metriche (ad esempio: `impressions`, `clicks`, `spend`) contengano valori. Non tutte le piattaforme di origine compilano alcuni campi come `region`.
 * Conferma che i valori di valuta e fuso orario siano coerenti tra i relativi account.
 
-## Inserire dati multimediali a pagamento in Customer Journey Analytics
+## Utilizzare dati multimediali a pagamento
 
 Customer Journey Analytics non genera rapporti diretti sui set di dati di Experience Platform. Al contrario, esponi i set di dati tramite una connessione e quindi crei una visualizzazione dati che definisce le dimensioni, le metriche e la logica utilizzate nel reporting.
 
@@ -139,7 +80,7 @@ Per creare o aggiornare una connessione, attenersi alla procedura descritta di s
 1. In Customer Journey Analytics [crea o modifica una connessione esistente](/help/connections/create-connection.md).
 1. Assicurati di selezionare la sandbox che contiene i set di dati per contenuti multimediali a pagamento come parte della configurazione della connessione.
 1. Aggiungi i set di dati delle metriche di riepilogo come dati di riepilogo. Se sono disponibili più set di dati di metriche di riepilogo, utilizza [search](/help/connections/create-connection.md#add-datasets) per filtrare in base alle classi `Paid Media` per identificare i set di dati corretti.
-1. Aggiungi ogni set di dati di ricerca come set di dati di ricerca. Unisci il set di dati di ricerca ai dati di riepilogo utilizzando gli identificatori GUID di entità corrispondenti (le chiavi globali generate da Adobe) per account, campagna, gruppo di annunci, annuncio, risorsa ed esperienza. Alcune piattaforme di origine possono inoltre supportare join su valori ID nativi.
+1. Aggiungi ogni set di dati di ricerca come set di dati di ricerca. Unisci il set di dati di ricerca ai dati di riepilogo utilizzando gli identificatori GUID di entità corrispondenti (le chiavi globali generate da Adobe) per account, campagna, gruppo di annunci, annuncio, risorsa ed esperienza. Alcune piattaforme di origine supportano anche i join sui valori ID nativi.
 1. Se necessario, aggiungi i dati dell’evento clickstream per correlare i dati multimediali a pagamento aggregati ai metadati condivisi, ad esempio ID, codici di tracciamento o parametri `UTM`.
 1. Rivedi le [impostazioni specifiche per il set di dati](/help/connections/create-connection.md#dataset-settings) per ogni set di dati.
 1. Salva la connessione e verifica che la connessione inizi a eseguire la retrocompilazione dei dati.
@@ -163,6 +104,10 @@ Includi componenti, come i seguenti:
 * **Raggruppamento di riepilogo**: [combinare valori correlati da più set di dati in un&#39;unica dimensione di reporting](/help/data-views/component-settings/summary-data-group.md), ad esempio una dimensione del canale a pagamento unificato.
 * **Metriche calcolate**: definisci metriche di efficienza riutilizzabili come CPC, CPM, CPA, CTR e tasso di conversione.
 
+### Creare un progetto
+
+Per generare rapporti e analizzare i dati multimediali a pagamento, crea un progetto in Analysis Workspace.
+
 ## Convalida
 
 Utilizza il seguente elenco di controllo per convalidare l’implementazione.
@@ -171,7 +116,7 @@ Utilizza il seguente elenco di controllo per convalidare l’implementazione.
 
 * Verifica che siano presenti le autorizzazioni di origine e l’accesso ad ad-platform.
 * Verifica che il connettore sia autenticato e che il flusso di dati sia in esecuzione secondo pianificazione.
-* Verifica che tutti i 12 set di dati standard siano presenti e compilati.
+* Verifica che tutti i set di dati a pagamento siano presenti e compilati.
 * Conferma che gli schemi utilizzino le classi globali di file multimediali a pagamento e i gruppi di campi.
 * Conferma che le chiavi di unione, le marche temporali e i campi di reporting chiave siano compilati.
 
@@ -188,4 +133,4 @@ Utilizza il seguente elenco di controllo per convalidare l’implementazione.
 >[!MORELIKETHIS]
 >
 >[Connettore di origine di Meta Ads](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/advertising/meta-ads)
->
+>[Configurazione automatica di Content Analytics Paid Media](/help/content-analytics/config/paid-media.md)

@@ -4,38 +4,55 @@ title: Ottimizzare le prestazioni di Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 226afef7-00da-4ac2-be4e-e19995621c61
-TQID: https://experienceleague.adobe.com/gJaQPkkWeGrjTxlsBV5UoaY8H9quRqc-XrJAxRMSeEU
+TQID: 'https://experienceleague.adobe.com/gJaQPkkWeGrjTxlsBV5UoaY8H9quRqc-XrJAxRMSeEU'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
   - id: aff2ef09-fc60-4018-9197-e2befd623064
+    internal-label: Anomaly detection
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+    internal-label: Freeform tables
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
   - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+    internal-label: Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Optimization
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 2547
+source-wordcount: '2547'
 ht-degree: 39%
-
 ---
-
 # Ottimizzare le prestazioni di Analysis Workspace
 
 Vari fattori influenzano le prestazioni di un progetto in Analysis Workspace.  Per comprendere questi fattori, è utile pianificare e creare i progetti nel modo più ottimale.
@@ -84,7 +101,7 @@ I fattori del progetto includono:
 
 | Fattore | Definizione | Ottimizzazione |
 | --- | --- | --- |
-| Numero di richieste | Numero totale di richieste effettuate ad Adobe per recuperare i dati visualizzati nel progetto. Le query includono richieste con classificazione per tabelle, rilevamento di anomalie, grafici sparkline, componenti visualizzati nella barra a sinistra e altri ancora. Questo numero esclude i pannelli e le visualizzazioni compressi. La soglia consigliata è 100. | Semplifica il progetto laddove possibile, suddividendo i dati in diversi progetti in base a uno scopo specifico o a un gruppo di soggetti interessati. Utilizza i tag per organizzare i progetti in temi e utilizza [collegamenti diretti](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links) per creare un sommario interno che consenta agli interessati di trovare facilmente ciò di cui hanno bisogno. |
+| Numero di richieste | Numero totale di richieste effettuate ad Adobe per recuperare i dati visualizzati nel progetto. Le query includono richieste con ranking per tabelle, rilevamento di anomalie, grafici sparkline, componenti visualizzati nella barra a sinistra e altri ancora. Questo numero esclude i pannelli e le visualizzazioni compressi. La soglia consigliata è 100. | Semplifica il progetto laddove possibile, suddividendo i dati in diversi progetti in base a uno scopo specifico o a un gruppo di soggetti interessati. Utilizza i tag per organizzare i progetti in temi e utilizza [collegamenti diretti](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links) per creare un sommario interno che consenta agli interessati di trovare facilmente ciò di cui hanno bisogno. |
 | Pannelli espansi (sul totale dei pannelli) | Numero di pannelli espansi rispetto al numero totale di pannelli nel progetto. La soglia consigliata è 5. | Dopo aver semplificato il progetto, comprimi i pannelli che non è necessario visualizzare al momento del caricamento. Quando il progetto viene aperto, vengono elaborati solo i pannelli espansi. I pannelli compressi vengono elaborati solo quando l’utente li espande. |
 | Visualizzazioni espanse (sul totale delle visualizzazioni) | Numero di tabelle e visualizzazioni espanse rispetto al totale nel progetto, incluse le origini dati nascoste. La soglia consigliata è 15. | Dopo aver semplificato il progetto, comprimi le visualizzazioni che non è necessario visualizzare al momento del caricamento. Dai priorità agli elementi visivi più importanti per chi userà il rapporto e, se necessario, suddividi gli elementi visivi di supporto in un pannello o un progetto separato e più dettagliato. |
 | Numero di celle a forma libera | Numero totale di celle di tabella a forma libera nel progetto, calcolato come righe * colonne per tutte le tabelle. Questo numero esclude le origini dati nascoste. La soglia consigliata è 4000. | Riduci il numero di colonne nella tabella, includendo solo i punti dati più rilevanti. Riduci il numero di righe nella tabella, regolando il numero di righe visualizzate, applicando un filtro tabella o applicando un segmento. |

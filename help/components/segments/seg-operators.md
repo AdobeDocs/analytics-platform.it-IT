@@ -4,24 +4,28 @@ title: Operatori
 exl-id: 744c7450-d6e9-4f78-a306-fe725ea0fa18
 feature: Filters, Segments
 role: User
-TQID: https://experienceleague.adobe.com/16SJDNJiR49Ztw0jGO8Jj3iIuoDZJKFWmGDtK26P1Ps
+TQID: 'https://experienceleague.adobe.com/16SJDNJiR49Ztw0jGO8Jj3iIuoDZJKFWmGDtK26P1Ps'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 1215
+source-wordcount: '1215'
 ht-degree: 35%
-
 ---
-
 # Operatori
 
 Il Generatore di segmenti consente di confrontare e vincolare i valori per i componenti utilizzando gli operatori selezionati. Sono disponibili tre categorie di operatori: [Standard](#standard-operators), [Data Warehouse](#data-warehouse-operators) e [Conteggio valori univoci](#distinct-count-operators).
@@ -43,7 +47,7 @@ L&#39;unico carattere jolly supportato per gli operatori che supportano i caratt
 Ad esempio, hai un nome di pagina denominato *My cool product*.
 
 * La regola del segmento **[!UICONTROL Nome pagina]** **[!UICONTROL corrisponde]** `* product` corrisponderà al nome della pagina indicato sopra.
-* Tuttavia, la regola **[!UICONTROL Nome pagina]** **[!UICONTROL corrisponde]** `My \* product` corrisponde solo al nome pagina *Prodotto* personale*.
+* Tuttavia, la regola **[!UICONTROL Nome pagina]** **[!UICONTROL corrisponde]** `My \* product` corrisponde solo al nome pagina *Il mio* Prodotto*.
 
 ## Operatori standard
 
