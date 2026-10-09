@@ -51,7 +51,7 @@ Puoi creare una metrica calcolata nei seguenti modi:
 * **D**. In un progetto di Workspace, seleziona **[!UICONTROL Componenti]** dal menu, quindi seleziona **[!UICONTROL Crea metrica]**.
 * **E**. In un progetto Workspace, utilizza il collegamento **[!UICONTROL shift+cmd+c]** (macOS) o **[!UICONTROL shift+ctrl+c]** (Windows).
 
-Per definire la nuova metrica calcolata, utilizzare il generatore di metriche calcolate [](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+Per definire la nuova metrica calcolata, utilizzare il generatore di metriche calcolate [&#128279;](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
 
 
 ## Flusso di lavoro
