@@ -1,6 +1,6 @@
 ---
-title: Integrazione Brand Visibility
-description: Integrare Brand Visibility con Customer Journey Analytics
+title: Visibilità dei brand riferimento a set di dati di integrazione in entrata
+description: Scopri tutti i dettagli dei set di dati utilizzati per l’integrazione di Brand Visibility con Customer Journey Analytics
 feature: Experience Platform Integration
 role: User
 product_v2:
@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: a7bea19dcd89472ee21c533e44e1f87f5d179838
 workflow-type: tm+mt
-source-wordcount: '2572'
+source-wordcount: '2555'
 ht-degree: 2%
 ---
 
@@ -90,11 +90,11 @@ Brand Visibility fornisce questa chiave nella dimensione **URL CDN**. Combina l�
 
 Brand Visibility legge i registri di accesso CDN sul lato server ed estrae i record in cui la parte richiedente è un bot o un agente automatizzato. Poiché i dati provengono dal livello CDN, Brand Visibility acquisisce le richieste dei bot che non attivano alcun tag JavaScript. Gli strumenti di analisi web standard non tengono conto di questo traffico.
 
-Il set di dati utilizza il gruppo di campi **Riepilogo richieste CDN**. Ogni campo si trova sotto un oggetto `cdn`, pertanto i nomi dei campi nelle tabelle seguenti assumono la forma `cdn.<name>`, ad esempio `cdn.url` e `cdn.botType`.
+Il set di dati utilizza il gruppo di campi **Riepilogo richieste CDN**. Ogni campo si trova sotto un oggetto `cdn`, pertanto i nomi dei campi nelle tabelle seguenti assumono la forma <code>cdn._name_</code>, ad esempio `cdn.url` e `cdn.botType`.
 
 Ogni record descrive una combinazione di host, percorso URL, tipo di bot, provider CDN, codice di stato, referrer, host inoltrato e tempo al primo byte per un’ora. Quando la stessa combinazione appare più di una volta all’ora, Customer Journey Analytics combina tali record in un’unica riga e aumenta il conteggio delle richieste. Utilizza la metrica **Numero richieste CDN** per misurare il volume. Non utilizzare il conteggio delle righe.
 
-### Dimensioni
+## Dimensioni
 
 Le dimensioni seguenti sono disponibili per l’utilizzo come componenti in una visualizzazione dati dopo aver impostato una connessione che include un set di dati Visibilità dei brand. La colonna **Campo** mostra il campo di origine nel gruppo di campi Riepilogo richieste CDN.
 
@@ -165,7 +165,7 @@ I codici di stato HTTP in questo set di dati indicano se l’agente di IA ha ric
 | 429 | Troppe richieste | La tariffa CDN limitava il bot. Se si verificano 429 errori persistenti sui tipi di agenti live-fetch, gli utenti che pongono agli assistenti AI domande sul contenuto riceveranno risposte incomplete o mancanti. |
 | 504 | Timeout del gateway | La rete CDN ha smesso di attendere la risposta dell’origine. Il contenuto non ha raggiunto l’intelligenza artificiale. Quando una pagina subisce un timeout, l’IA non può accedere al relativo contenuto e non può includerlo in una risposta. Un volume elevato di 504 sui tipi di agenti live-fetch costituisce un rischio diretto di visibilità AI. |
 
-### Metriche
+## Metriche
 
 Le metriche seguenti sono disponibili per l’utilizzo come componenti in una visualizzazione dati dopo aver impostato una connessione che include un set di dati Brand Visibility. La colonna **Campo** mostra il campo di origine nel gruppo di campi Riepilogo richieste CDN.
 
@@ -176,16 +176,12 @@ Le metriche seguenti sono disponibili per l’utilizzo come componenti in una vi
 | Tasso di errori CDN | Derivato dal conteggio degli errori CDN | Il conteggio degli errori come percentuale del totale delle richieste. |
 | Tempo medio CDN al primo byte | `cdn.timeToFirstByte` | Tempo medio, in millisecondi, a partire dal momento in cui la rete CDN ha ricevuto una richiesta al primo byte della risposta. Le risposte CDN memorizzate nella cache sono in genere inferiori a 50 ms. Le risposte fornite dall’origine sono in genere da 300 ms a 700 ms. Gli agenti di live-fetch basati sull’intelligenza artificiale spesso mostrano valori molto più elevati, che corrispondono a risposte di timeout o di origine molto lente. Valori medi elevati sui tipi di agenti di recupero live meritano di essere esaminati come rischio di visibilità AI. |
 
-### Limiti del set di dati
+## Limiti
 
 Questo set di dati acquisisce solo il traffico da bot dai registri di accesso CDN. Non contiene quanto segue:
 
 * **Sessioni utente, conversioni o dati di coinvolgimento.** Un utente che fa clic su da una risposta AI esegue JavaScript sulla pagina, in modo che la visita si trovi nei dati web esistenti, non in questo set di dati. Puoi inserire entrambi i set di dati in Customer Journey Analytics e confrontarli per lo stesso URL e host.
-* **Qualsiasi identificatore di persona come ECID.** Non è possibile creare un join a livello di persona da questo set di dati. Il join opera a livello di URL e host.
+* **Qualsiasi identificatore di persona come ECID.** Impossibile eseguire un join a livello di persona da questo set di dati. Il join opera a livello di URL e host.
 * **Granularità al secondo.** La marca temporale è oraria. Non è possibile suddividere il traffico in un’ora in minuti o secondi.
 * **Contenuto pagina o HTML sottoposto a rendering.** Questo set di dati registra il fatto del recupero e il relativo risultato, non ciò che l’intelligenza artificiale ha letto dalla pagina.
 * **Dati conversione.** Questo set di dati non indica se una risposta di IA ha portato una persona a visitare il sito o a convertire. Contiene dati di riepilogo CDN aggregati, non dati evento basati su persona, pertanto non collega alcuna richiesta a una singola persona o sessione.
-
-## Integrazione in uscita
-
-Per informazioni sull&#39;integrazione in uscita, consulta [Integrazione Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/brand-visibility/using/resources/customer-journey-analytics-integration){target="_blank"} nella documentazione relativa alla visibilità del marchio Adobe.

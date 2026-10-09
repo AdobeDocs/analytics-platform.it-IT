@@ -2,9 +2,9 @@
 user-guide-title: Guida di Customer Journey Analytics
 user-guide-description: Scopri Adobe Customer Journey Analytics e come utilizzare Analysis Workspace con i dati di Experience Platform.
 breadcrumb-title: Guida di Customer Journey Analytics
-source-git-commit: d7614102d54af57a3a084c8550041f8e04f4bc37
+source-git-commit: a7bea19dcd89472ee21c533e44e1f87f5d179838
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1518'
 ht-degree: 89%
 ---
 # Guida di Adobe Customer Journey Analytics {#using}
@@ -491,7 +491,10 @@ ht-degree: 89%
   + [Integrare i dati di Journey Optimizer](/help/integrations/ajo.md)
   + [Integrare i dati di gestione delle decisioni](/help/integrations/ajo-od.md)
   + [Configurare IA per l’analisi dei clienti](/help/integrations/customer-ai.md)
-  + [Integrare Brand Visibility](/help/integrations/bv.md)
+  + Integrare Brand Visibility {#bv}
+    + [Panoramica](/help/integrations/bv/bv.md)
+    + [Configurare](/help/integrations/bv/configure.md)
+    + [Riferimenti](/help/integrations/bv/reference.md)
   + [Integrare Adobe Advertising](/help/integrations/advertising.md)
 
 + Governance dei dati {#cja-privacy}
