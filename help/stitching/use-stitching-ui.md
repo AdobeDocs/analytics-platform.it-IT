@@ -4,7 +4,6 @@ description: Abilita l’unione per i set di dati evento in Customer Journey Ana
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
-hold: true
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
 TQID: 'https://experienceleague.adobe.com/Nj-IePDbHxBtgiSxEAobJ0DGlJSaiTwpTXIPtCxDTHw'
 product_v2:
@@ -25,9 +24,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e387cf97c6190e4bda66b891e02e8cf8ac05b1f2
+source-git-commit: 49795b40eab1fcd1bfd472ccb756587adf9877b8
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1989'
 ht-degree: 18%
 ---
 # Abilitare l’unione delle identità
@@ -258,14 +257,14 @@ Per un’impostazione di connessione iniziale valida che viene salvata e contien
 
 * I dati precompilati (se inizialmente richiesti) vengono visualizzati in Customer Journey Analytics più o meno nello stesso momento dei dati live, ma la loro elaborazione può richiedere alcuni giorni, a seconda dei volumi coinvolti. I dati precompilati iniziano con i valori timestamp dell’evento meno recenti.
 
-   
 
   >[!CAUTION]
   >
-  >Per i set di dati abilitati per l’unione nell’interfaccia Connessioni, al momento non è possibile segnalare lo stato di backfill a causa di una limitazione nota.
+  >Per i set di dati [abilitati per l&#39;unione](#enable-stitching) nell&#39;interfaccia Connessioni, lo stato di backfill non può essere segnalato a causa di una limitazione nota.
   >
 
-  Utilizza metodi alternativi per verificare se i dati del set di dati uniti vengono recuperati. Ad esempio, utilizza l&#39;[interfaccia utente di Experience Platform Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/overview) per estrarre dal set di dati il conteggio degli eventi per il periodo rilevante. Confronta il conteggio degli eventi con il valore della metrica **[!UICONTROL Eventi]** in [Generazione rapporti di Customer Journey Analytics](/help/analysis-workspace/home.md) per lo stesso intervallo di tempo. Se tali numeri corrispondono, la retrocompilazione viene completata.
+  Utilizza metodi alternativi per verificare se i dati del set di dati uniti vengono recuperati. Ad esempio, utilizza l&#39;[interfaccia utente di Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview) per estrarre dal set di dati il conteggio degli eventi per il periodo rilevante. Confronta il conteggio degli eventi con il valore della metrica **[!UICONTROL Eventi]** in [Generazione rapporti di Customer Journey Analytics](/help/analysis-workspace/home.md) per lo stesso intervallo di tempo. Se tali numeri corrispondono, la retrocompilazione viene completata.
+
 
 ## Limitazioni
 
