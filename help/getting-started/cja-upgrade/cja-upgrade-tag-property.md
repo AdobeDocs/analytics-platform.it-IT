@@ -1,6 +1,6 @@
 ---
-title: Creare una proprietà tag e aggiungere l’estensione Web SDK
-description: Scopri come creare una proprietà tag e aggiungere l’estensione Web SDK
+title: Creare un tag per la proprietà
+description: Scopri come creare una proprietà tag durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 84%
+source-wordcount: '315'
+ht-degree: 79%
 ---
 # Creare un tag per la proprietà {#upgrade-tag-property}
 
@@ -48,7 +48,7 @@ ht-degree: 84%
 
 Puoi utilizzare la funzione Tags (Tag) in Adobe Experience Platform per implementare sul tuo sito il codice necessario per raccogliere i dati. Questa soluzione per la gestione dei tag consente di implementare il codice e altri requisiti di assegnazione dei tag. I tag offrono un’integrazione diretta con Adobe Experience Platform tramite l’estensione dell’SDK per Web di Adobe Experience Platform.
 
-Le informazioni seguenti descrivono come creare un tag per la proprietà. Per ulteriori informazioni, consulta [Configurare l’estensione tag Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) nella documentazione di Experience Platform. Il Web SDK include il servizio Experience Platform Identity, pertanto non è necessario aggiungere l&#39;estensione del servizio [!UICONTROL Experience Cloud ID] al tag.
+Le informazioni seguenti descrivono come creare un tag per la proprietà. Per ulteriori informazioni, consulta [Configurare l’estensione tag Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) nella documentazione di Experience Platform. Il Web SDK include il servizio Experience Platform Identity, pertanto non è necessario aggiungere l&#39;estensione del servizio [!UICONTROL Experience Cloud ID] al tag.
 
 Una proprietà è fondamentalmente un contenitore che riempi con estensioni, regole, elementi dati e librerie durante la distribuzione di tag sul sito. Molte persone creano una proprietà per ciascun sito Web (o gruppo di siti strettamente correlati) in cui desiderano distribuire lo stesso set di tag. Per ulteriori informazioni sulle proprietà, consulta [Proprietà](https://experienceleague.adobe.com/it/docs/experience-platform/tags/admin/companies-and-properties) nella documentazione sulla raccolta dati di Experience Platform.
 

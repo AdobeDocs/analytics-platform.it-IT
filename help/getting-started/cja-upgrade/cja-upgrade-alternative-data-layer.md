@@ -1,6 +1,6 @@
 ---
-title: Metodi alternativi per l'aggiornamento a Customer Journey Analytics
-description: Scopri i metodi alternativi per l’aggiornamento a Customer Journey Analytics
+title: 'Alternativa di aggiornamento: inviare il livello dati a Customer Journey Analytics'
+description: Scopri come inviare l’intero livello dati a Customer Journey Analytics invece di raccogliere dati con l’oggetto XDM.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '707'
 ht-degree: 54%
 ---
 # Alternativa di aggiornamento: inviare il livello dati a Customer Journey Analytics {#data-collection-data-layer}

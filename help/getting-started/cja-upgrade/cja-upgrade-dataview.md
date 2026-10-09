@@ -1,6 +1,6 @@
 ---
 title: Creare una visualizzazione dati in Customer Journey Analytics
-description: Scopri il percorso consigliato durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics
+description: Scopri come creare una visualizzazione dati in Customer Journey Analytics durante l’aggiornamento da Adobe Analytics.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Implementation
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 89%
+source-wordcount: '404'
+ht-degree: 85%
 ---
 # Creare una visualizzazione dati in Customer Journey Analytics {#upgrade-create-dataview}
 
