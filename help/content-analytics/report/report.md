@@ -5,30 +5,39 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: User
 exl-id: 6e756ae8-b969-46f1-95b8-d8fbb0d058ed
-TQID: https://experienceleague.adobe.com/IM7-a-jp-lLfuGKj-CM2McnFXcus2-x-ffLC8UUKAmY
+TQID: 'https://experienceleague.adobe.com/IM7-a-jp-lLfuGKj-CM2McnFXcus2-x-ffLC8UUKAmY'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: ad5685a0-8296-4a0c-814c-658c10b4af12
+    internal-label: Content Analytics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+    internal-label: Freeform tables
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e3936b74ba4b4cf23e1b7235e545091a8cb546ed
+    internal-label: Insights
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 1643
-ht-degree: 24%
-
+source-wordcount: '1643'
+ht-degree: 26%
 ---
-
 
 # Panoramica del reporting di Content Analytics
 
@@ -113,7 +122,7 @@ Per utilizzare il modello:
 
 1. Selezionare **[!UICONTROL Workspace]** dal menu principale.
 1. Assicurati di selezionare una visualizzazione dati configurata per Content Analytics.
-1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**&#x200B;s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]**.
+1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]**.
 1. Seleziona **[!UICONTROL Usa modello]**.
 1. Nella finestra di dialogo **[!UICONTROL Configura il modello]**, seleziona una metrica dalla finestra di dialogo **[!UICONTROL Seleziona una metrica di conversione]**. Ad esempio, **[!UICONTROL CTR risorsa]**.
 1. Seleziona **[!UICONTROL Continua]**.
@@ -202,7 +211,7 @@ Questa tabella a forma libera specifica dove vengono visualizzate le risorse pi�
 
 ### Modello per Content Analytics per contenuti multimediali a pagamento
 
-È disponibile un [modello](/help/analysis-workspace/templates/use-templates.md) di Paid Media Content Analytics per aiutarti a capire quali sono i contenuti multimediali a pagamento e gli attributi di contenuto con prestazioni migliori. Il modello fa parte del caso d&#39;uso [Canale web e coinvolgimento](/help/analysis-workspace/templates/use-templates.md#web-engagement) e ti aiuta a comprendere le prestazioni del contenuto multimediale a pagamento a livello granulare. Puoi esaminare la portata, il coinvolgimento, la spesa e l’efficienza dei media a pagamento su reti, account, campagne, esperienze e risorse. Le metriche e le dimensioni in questo pannello rimangono intenzionalmente nella grana di riepilogo delle risorse multimediali a pagamento. Non combinare i set di dati di riepilogo dei pannelli in questo modello con i dati evento.
+È disponibile un [modello](/help/analysis-workspace/templates/use-templates.md) di Paid Media Content Analytics per aiutarti a capire quali sono i contenuti multimediali a pagamento e gli attributi di contenuto con prestazioni migliori. Il modello fa parte del caso d&#39;uso [Canale web e coinvolgimento](/help/analysis-workspace/templates/use-templates.md#web-engagement) e ti aiuta a comprendere le prestazioni del contenuto multimediale a pagamento a livello granulare. Puoi esaminare la portata, il coinvolgimento, la spesa e l’efficienza dei paid media su reti, account, campagne, esperienze e risorse. Le metriche e le dimensioni in questo pannello rimangono intenzionalmente a livello di riepilogo delle risorse paid media. Non combinare i set di dati di riepilogo dei pannelli in questo modello con i dati evento.
 
 In base a ciò che apprendi, puoi fare un certo numero di cose, come concentrarsi su come spendi i soldi per i canali di media a pagamento, spendere più soldi per campagne a basse prestazioni o spendere più soldi per campagne con risorse ad alte prestazioni.
 
@@ -210,7 +219,7 @@ Per utilizzare il modello:
 
 1. Selezionare **[!UICONTROL Workspace]** dal menu principale.
 1. Assicurati di selezionare una visualizzazione dati configurata per Content Analytics.
-1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**&#x200B;s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]** per contenuti multimediali a pagamento.
+1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]** per contenuti multimediali a pagamento.
 1. Seleziona **[!UICONTROL Usa modello]**.
 
 Un progetto **[!UICONTROL Content Analytics - Paid Media Summary Data]** si apre in [Analysis Workspace](/help/analysis-workspace/home.md). Il progetto è costituito da **[!UICONTROL Paid Media Performance]** [panel](/help/analysis-workspace/c-panels/panels.md), con [tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) e [visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). Utilizza il pannello per rivedere la portata, il coinvolgimento, la spesa e l’efficienza dei media a pagamento su reti, account, campagne, esperienze e risorse. Le metriche e le dimensioni nel pannello rimangono intenzionalmente nella grana di riepilogo delle risorse multimediali a pagamento; non combinare i set di dati di riepilogo con i dati dell’evento.

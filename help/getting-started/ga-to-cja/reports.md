@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: d76b9e53-27fb-4597-933f-419cc0dd46db
     internal-label: Administration
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
     internal-label: Dimensions
@@ -26,7 +28,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
 source-wordcount: '3202'
 ht-degree: 0%
@@ -242,7 +244,7 @@ Trascina una di queste dimensioni dal pannello Componenti in una [[!UICONTROL ta
 
 >[!NOTE]
 >
->Poiché i browser moderni hanno ridotto i dettagli nella stringa dell&#39;agente utente, i valori completi e precisi dipendono dalla raccolta di [User-Agent Client Hints](https://experienceleague.adobe.com/it/docs/experience-platform/collection/use-cases/client-hints) nella configurazione del Web SDK.
+>Poiché i browser moderni hanno ridotto i dettagli nella stringa dell&#39;agente utente, i valori completi e precisi dipendono dalla raccolta di [User-Agent Client Hints](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/client-hints) nella configurazione del Web SDK.
 
 +++
 

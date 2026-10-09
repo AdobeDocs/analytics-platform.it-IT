@@ -4,38 +4,55 @@ title: Ottimizzare le prestazioni di Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 226afef7-00da-4ac2-be4e-e19995621c61
-TQID: https://experienceleague.adobe.com/gJaQPkkWeGrjTxlsBV5UoaY8H9quRqc-XrJAxRMSeEU
+TQID: 'https://experienceleague.adobe.com/gJaQPkkWeGrjTxlsBV5UoaY8H9quRqc-XrJAxRMSeEU'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
   - id: aff2ef09-fc60-4018-9197-e2befd623064
+    internal-label: Anomaly detection
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: bcaa1b08-8269-4ff3-a0c2-f599783b6107
+    internal-label: Filters
   - id: c38ed341-fab2-46df-9d72-88d8166edebb
+    internal-label: Workspace projects
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
   - id: d3c978ee-1ff0-4475-968a-721e2dd99ef1
+    internal-label: Freeform tables
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
   - id: e4a0bad2-b448-47f1-9fa6-222ebdb3b5b0
+    internal-label: Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: Optimization
+source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
 workflow-type: tm+mt
-source-wordcount: 2547
+source-wordcount: '2547'
 ht-degree: 39%
-
 ---
-
 # Ottimizzare le prestazioni di Analysis Workspace
 
 Vari fattori influenzano le prestazioni di un progetto in Analysis Workspace.  Per comprendere questi fattori, è utile pianificare e creare i progetti nel modo più ottimale.
@@ -84,13 +101,13 @@ I fattori del progetto includono:
 
 | Fattore | Definizione | Ottimizzazione |
 | --- | --- | --- |
-| Numero di richieste | Numero totale di richieste effettuate ad Adobe per recuperare i dati visualizzati nel progetto. Le query includono richieste con classificazione per tabelle, rilevamento di anomalie, grafici sparkline, componenti visualizzati nella barra a sinistra e altri ancora. Questo numero esclude i pannelli e le visualizzazioni compressi. La soglia consigliata è 100. | Semplifica il progetto laddove possibile, suddividendo i dati in diversi progetti in base a uno scopo specifico o a un gruppo di soggetti interessati. Utilizza i tag per organizzare i progetti in temi e utilizza [collegamenti diretti](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links) per creare un sommario interno che consenta agli interessati di trovare facilmente ciò di cui hanno bisogno. |
+| Numero di richieste | Numero totale di richieste effettuate ad Adobe per recuperare i dati visualizzati nel progetto. Le query includono richieste con ranking per tabelle, rilevamento di anomalie, grafici sparkline, componenti visualizzati nella barra a sinistra e altri ancora. Questo numero esclude i pannelli e le visualizzazioni compressi. La soglia consigliata è 100. | Semplifica il progetto laddove possibile, suddividendo i dati in diversi progetti in base a uno scopo specifico o a un gruppo di soggetti interessati. Utilizza i tag per organizzare i progetti in temi e utilizza [collegamenti diretti](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links) per creare un sommario interno che consenta agli interessati di trovare facilmente ciò di cui hanno bisogno. |
 | Pannelli espansi (sul totale dei pannelli) | Numero di pannelli espansi rispetto al numero totale di pannelli nel progetto. La soglia consigliata è 5. | Dopo aver semplificato il progetto, comprimi i pannelli che non è necessario visualizzare al momento del caricamento. Quando il progetto viene aperto, vengono elaborati solo i pannelli espansi. I pannelli compressi vengono elaborati solo quando l’utente li espande. |
 | Visualizzazioni espanse (sul totale delle visualizzazioni) | Numero di tabelle e visualizzazioni espanse rispetto al totale nel progetto, incluse le origini dati nascoste. La soglia consigliata è 15. | Dopo aver semplificato il progetto, comprimi le visualizzazioni che non è necessario visualizzare al momento del caricamento. Dai priorità agli elementi visivi più importanti per chi userà il rapporto e, se necessario, suddividi gli elementi visivi di supporto in un pannello o un progetto separato e più dettagliato. |
 | Numero di celle a forma libera | Numero totale di celle di tabella a forma libera nel progetto, calcolato come righe * colonne per tutte le tabelle. Questo numero esclude le origini dati nascoste. La soglia consigliata è 4000. | Riduci il numero di colonne nella tabella, includendo solo i punti dati più rilevanti. Riduci il numero di righe nella tabella, regolando il numero di righe visualizzate, applicando un filtro tabella o applicando un segmento. |
 | Componenti disponibili | Numero totale di componenti recuperati nella barra a sinistra del progetto, per tutte le suite di rapporti presenti nel progetto. Questo numero influisce sulla velocità di caricamento della barra a sinistra e sulla velocità con cui vengono restituiti i risultati della ricerca al suo interno. La soglia consigliata è 2000. | Rivolgiti all’amministratore del prodotto per creare una suite di rapporti virtuale specifica con un set di componenti più mirato. |
 | Componenti utilizzati | Numero totale di componenti utilizzati nel progetto. La soglia consigliata è 100. | Il numero di componenti utilizzati non influisce direttamente sulle prestazioni. Tuttavia, la complessità di tali componenti contribuisce alle prestazioni del progetto. Vedi le ottimizzazioni nella sezione A[Fattori aggiuntivi](#additional-factors) di seguito. |
-| Intervallo di date più lungo | Questo fattore visualizza l’intervallo di date più lungo utilizzato nel progetto. La soglia consigliata è 1 anno. | Dove possibile, non inserire più dati del necessario. Limita il calendario del pannello alle date pertinenti per l’analisi. In alternativa, utilizza i componenti intervallo di date (componenti viola) nelle tabelle a forma libera. Gli intervalli di date utilizzati in una tabella prevalgono sull’intervallo di date del pannello. Ad esempio, puoi aggiungere alle colonne della tabella Mese scorso, Settimana scorsa e Ieri, per richiedere tali intervalli di dati specifici. Per ulteriori informazioni sulle attività con gli intervalli di date in Analysis Workspace, guarda [questo video](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace). <br><br>Inoltre, riduci al minimo il numero di confronti su base annua utilizzati nel progetto. Quando viene calcolato un confronto su base annua, il confronto esamina tutti i 13 mesi di dati tra i mesi di interesse. Questo confronto ha lo stesso impatto di un intervallo di date del pannello impostato sugli ultimi 13 mesi. |
+| Intervallo di date più lungo | Questo fattore visualizza l’intervallo di date più lungo utilizzato nel progetto. La soglia consigliata è 1 anno. | Dove possibile, non inserire più dati del necessario. Limita il calendario del pannello alle date pertinenti per l’analisi. In alternativa, utilizza i componenti intervallo di date (componenti viola) nelle tabelle a forma libera. Gli intervalli di date utilizzati in una tabella prevalgono sull’intervallo di date del pannello. Ad esempio, puoi aggiungere alle colonne della tabella Mese scorso, Settimana scorsa e Ieri, per richiedere tali intervalli di dati specifici. Per ulteriori informazioni sulle attività con gli intervalli di date in Analysis Workspace, guarda [questo video](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace). <br><br>Inoltre, riduci al minimo il numero di confronti su base annua utilizzati nel progetto. Quando viene calcolato un confronto su base annua, il confronto esamina tutti i 13 mesi di dati tra i mesi di interesse. Questo confronto ha lo stesso impatto di un intervallo di date del pannello impostato sugli ultimi 13 mesi. |
 
 ## Fattori di richiesta
 
@@ -128,7 +145,7 @@ Altri fattori non inclusi in Guida > Prestazioni:
 | Fattore | Definizione | Influenzato da | Ottimizzazione |
 | --- | --- | --- | --- |
 | Complessità del segmento | Segmenti complessi possono avere un impatto significativo sulle prestazioni del progetto. | I fattori che aggiungono complessità a un segmento (in ordine approssimativo di impatto) includono: <ul><li>Gli operatori di **[!UICONTROL contiene]**, **[!UICONTROL contiene uno di]**, **[!UICONTROL corrisponde]**, **[!UICONTROL inizia con]** o **[!UICONTROL termina con]**/ </li><li>Segmentazione sequenziale, soprattutto quando si utilizzano restrizioni di dimensione (entro/dopo) </li><li>Numero di elementi dimensionali univoci all’interno delle dimensioni utilizzate nel segmento (ad esempio, Pagina = &quot;A&quot; quando Pagina con 10 elementi univoci è più veloce di Pagina = &quot;A&quot; quando Pagina con 100000 elementi univoci) </li><li>Il numero di diverse dimensioni utilizzate (ad esempio, Pagina = &quot;Home&quot; e Pagina = &quot;Risultati ricerca&quot; sono più veloci di eVar 1 = &quot;rosso&quot; e eVar 2 = &quot;blu&quot;)</li><li>Molti operatori O (invece di E)</li><li>Contenitori nidificati di vario ambito (ad esempio, Hit all’interno di Visita all’interno di Visitatore)</li></ul> | Mentre alcuni dei fattori di complessità non possono essere evitati, cerca di individuare le opportunità di riduzione della complessità dei segmenti. In generale, più si può essere specifici con i propri criteri di segmento, meglio è. Ad esempio:<ul><li>Con i contenitori, l’utilizzo di un singolo contenitore nella parte superiore del segmento è più veloce di una serie di contenitori nidificati.</li><li>Con gli operatori, **[!UICONTROL equals]** è più veloce di **[!UICONTROL contains]** e **[!UICONTROL equals any of]** è più veloce di **[!UICONTROL contains any of]**.</li><li>Con molti criteri, gli operatori AND sono più veloci di una serie di operatori OR.</li></ul> Cercare opportunità per ridurre molte istruzioni OR in un&#39;unica istruzione **[!UICONTROL uguale a qualsiasi istruzione di]**. |
-| Complessità della visualizzazione (segmenti, metriche, filtri) | Il tipo di visualizzazione (ad esempio, abbandono rispetto a una tabella a forma libera) non influenza molto le prestazioni del progetto. La complessità della visualizzazione aumenta il tempo di elaborazione. | Fattori che aggiungono complessità a una visualizzazione includono:<ul><li>Intervallo dei dati richiesti</li><li>Numero di segmenti applicati; ovvero segmenti utilizzati come righe di una tabella a forma libera</li><li>Utilizzo di segmenti complessi</li><li>Righe o colonne [statiche di elementi](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows) in tabelle a forma libera</li><li>Filtri applicati a righe in tabelle a forma libera</li><li>Numero di metriche incluse, in particolare metriche calcolate che utilizzano segmenti</li></ul> | Se noti che i tuoi progetti non si caricano rapidamente tanto quanto vorresti, prova a sostituire alcuni segmenti con eVar e filtri, ove possibile.<br><br>Se utilizzi sempre segmenti e metriche calcolate per punti dati importanti per la tua azienda, puoi migliorare la tua implementazione per acquisire questi punti dati in modo più diretto. L’utilizzo dei tag in Adobe Experience Platform e delle regole di elaborazione di Adobe può velocizzare le modifiche e facilitarne l’implementazione. |
+| Complessità della visualizzazione (segmenti, metriche, filtri) | Il tipo di visualizzazione (ad esempio, abbandono rispetto a una tabella a forma libera) non influenza molto le prestazioni del progetto. La complessità della visualizzazione aumenta il tempo di elaborazione. | Fattori che aggiungono complessità a una visualizzazione includono:<ul><li>Intervallo dei dati richiesti</li><li>Numero di segmenti applicati; ovvero segmenti utilizzati come righe di una tabella a forma libera</li><li>Utilizzo di segmenti complessi</li><li>Righe o colonne [statiche di elementi](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows) in tabelle a forma libera</li><li>Filtri applicati a righe in tabelle a forma libera</li><li>Numero di metriche incluse, in particolare metriche calcolate che utilizzano segmenti</li></ul> | Se noti che i tuoi progetti non si caricano rapidamente tanto quanto vorresti, prova a sostituire alcuni segmenti con eVar e filtri, ove possibile.<br><br>Se utilizzi sempre segmenti e metriche calcolate per punti dati importanti per la tua azienda, puoi migliorare la tua implementazione per acquisire questi punti dati in modo più diretto. L’utilizzo dei tag in Adobe Experience Platform e delle regole di elaborazione di Adobe può velocizzare le modifiche e facilitarne l’implementazione. |
 | Dimensione della suite di rapporti | Quantità di dati raccolti nella suite di rapporti. | - | Rivolgiti al team addetto all’implementazione o a un esperto Adobe per determinare se sia possibile migliorare l’implementazione al fine di migliorare l’esperienza complessiva in Adobe Analytics. |
 | Query simultanee | Il numero di query che vengono richieste contemporaneamente dall’organizzazione ad Adobe. Ciascuna organizzazione ha diritto a un minimo di 5 query simultanee. | Se un rapporto richiede molto tempo, si trova in coda con altri rapporti, il che significa che l’organizzazione sta tentando di eseguire molte richieste simultanee su una specifica suite di rapporti. Le query possono provenire da richieste API, interfacce per la generazione di rapporti (Analysis Workspace, Report Builder), progetti pianificati, rapporti pianificati, avvisi pianificati e utenti simultanei che eseguono richieste di reporting. | Distribuisci le richieste e le pianificazioni per la suite di rapporti in modo più uniforme durante l’intera giornata. Inoltre, se possibile, rimanda le tue richieste a orari fuori picco. Lunedì mattina, martedì mattina e il primo di ogni mese sono solitamente momenti di picco per la generazione di rapporti. |
 
@@ -137,6 +154,6 @@ Altri fattori non inclusi in Guida > Prestazioni:
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suggerimenti per aumentare la produttività](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/tips-to-increase-productivity-in-analysis-workspace){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suggerimenti per aumentare la produttività](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/tips-to-increase-productivity-in-analysis-workspace){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
