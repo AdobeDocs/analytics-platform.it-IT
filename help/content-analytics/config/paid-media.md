@@ -210,7 +210,7 @@ L’esempio utilizza un ID campagna, ma lo stesso approccio può utilizzare iden
 
 Se desideri creare rapporti e analizzare le prestazioni delle risorse in relazione agli investimenti in contenuti multimediali a pagamento, puoi aggiungere un parametro UTM specifico per le risorse nella configurazione di contenuti multimediali a pagamento per la rete di annunci. Ad esempio, oltre ai parametri dinamici standard come s`ite_source_name`, `campaign.id`, `adset.id` o `placement`, aggiungi parametri personalizzati statici, come `aca_asset_id=999999`.
 
-Questo parametro personalizzato viene aggiunto all’URL della pagina di destinazione. Ad esempio: https://www.example.com/home.html?utm_content=120241705099850539%2Caca_asset_id%3D9999999%2Caca_placement%3DFacebook_Desktop_Feed&amp;aca_id_2=8888888&amp;utm_medium=paid&amp;utm_source=fb&amp;utm_id=120241705099830539&amp;utm_term=120241705099840539&amp;utm_campaign=120241705099830539
+Questo parametro personalizzato viene aggiunto all’URL della pagina di destinazione. Ad esempio: https://www.example.com/home.html?utm_content=120241705099850539%2Caca_asset_id%3D9999999%2Caca_placement%3DFacebook_Desktop_Feed&aca_id_2=8888888&utm_medium=paid&utm_source=fb&utm_id=120241705099830539&utm_term=120241705099840539&utm_campaign=120241705099830539
 
 Ora esiste una relazione tra una risorsa su una pagina e i dati multimediali a pagamento. Utilizza questa relazione in Analysis Workspace per vedere in che modo i metadati delle risorse Content Analytics (ad esempio **[!UICONTROL Colori di primo piano risorse]**) contribuiscono al successo della campagna multimediale a pagamento.
 
