@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 hold: true
 role: Admin
-source-git-commit: e9274ad7899537837723e2eb9cd842c5449530ff
+source-git-commit: 29a21d57b6b50d873a4464d1a705c1b4855dd3ea
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2502'
 ht-degree: 2%
 ---
 # Configurazione automatica supporti a pagamento
@@ -59,12 +59,28 @@ La rete di annunci specifica determina quali set di dati di riepilogo vengono cr
 | `paidmedia_asset_summary` <br/>`ad.asset.summary`<br/>`\| Asset Summary` | Risorsa<br/>none | ![Segno di spunta](/help/assets/icons2/Checkmark.svg) | ![Segno di spunta](/help/assets/icons2/Checkmark.svg) | | | ![Segno di spunta](/help/assets/icons2/Checkmark.svg) | Prestazioni giornaliere a livello di risorsa<br/>nel contesto di annuncio/campagna<br/>senza suddivisione demografica o geografica. |
 | `paidmedia_assets_demographics` <br/> `ad.asset.demographics`<br/>`\| Asset Demo` | Età della risorsa <br/>, genere | ![Segno di spunta](/help/assets/icons2/Checkmark.svg) | | | | | Prestazioni giornaliere a livello di risorsa<br/>nel contesto di annunci/campagne<br/>suddivise per età e genere. |
 
-
 Questa tabella descrive la copertura dei set di dati, non una garanzia che una particolare rete popola ogni campo di metriche o metadati. Controlla i campi necessari per l’analisi. Un campo non disponibile o un raggruppamento non supportato non corrisponde a un valore zero misurato per un campo.
+
+Il raggruppamento dei dati di riepilogo riunisce dimensioni equivalenti; il raggruppamento non totalizza i sei totali della metrica delle prestazioni.
+
+## Set di dati di ricerca
 
 I set di dati di ricerca separati descrivono account, campagna, gruppo di annunci, annuncio, esperienza e risorsa. Forniscono nomi e metadati utilizzando GUID di entità. Non esiste alcuna associazione uno-a-uno tra i set di dati di riepilogo e i sei set di dati di ricerca.
 
-Il raggruppamento dei dati di riepilogo riunisce dimensioni equivalenti; il raggruppamento non totalizza i sei totali della metrica delle prestazioni.
+I set di dati di ricerca condividono due blocchi predefiniti comuni:
+
+* **Oggetto ID entità**: memorizza gli oggetti account, annuncio, gruppo di annunci, risorsa, campagna ed esperienza. Ogni oggetto contiene una chiave globale generata da Adobe e un ID nativo della piattaforma.
+* **Metadati principali di media a pagamento**: archivia campi descrittivi comuni quali nome, stato, obiettivo, obiettivo di ottimizzazione, strategia di offerta, tipo di budget, valori di budget, valuta, fuso orario, stato del servizio, date, rete di annunci, canale, percorso gerarchico, rete e identificatori di portfolio.
+
+| Set di dati di ricerca | Contenuti chiave |
+|---|---|
+| Ricerca account | Metadati a livello di account come nome, valuta, fuso orario, stato, limite di spesa e date di creazione |
+| Ricerca campagna | Impostazioni della campagna per budget, pianificazione, targeting, tracciamento della conversione, attribuzione, posizionamenti, oggetti promossi, finalità e ID catalogo o store |
+| Ricerca gruppo di annunci | Metadati del gruppo di annunci come collegamento della campagna, stato, budget, obiettivi di ottimizzazione e targeting |
+| Ricerca annunci | Dettagli della creatività dell’annuncio come risorse, varianti, dimensioni, URL di tracciamento, call to action, corpo del testo, titoli, URL di destinazione, stato di consegna e stato di revisione |
+| Ricerca risorse | Proprietà della risorsa come dimensioni, dettagli dei file, proprietà delle immagini, URL dei contenuti multimediali, metadati di utilizzo, metadati video, descrizione, sottotipo, titolo e tipo |
+| Ricerca esperienza | Raggruppamenti creativi a livello di esperienza come ID esperienza, risorse, titolo, descrizione e call to action |
+
 
 ## Componenti
 
@@ -194,7 +210,7 @@ L’esempio utilizza un ID campagna, ma lo stesso approccio può utilizzare iden
 
 Se desideri creare rapporti e analizzare le prestazioni delle risorse in relazione agli investimenti in contenuti multimediali a pagamento, puoi aggiungere un parametro UTM specifico per le risorse nella configurazione di contenuti multimediali a pagamento per la rete di annunci. Ad esempio, oltre ai parametri dinamici standard come s`ite_source_name`, `campaign.id`, `adset.id` o `placement`, aggiungi parametri personalizzati statici, come `aca_asset_id=999999`.
 
-Questo parametro personalizzato viene aggiunto all’URL della pagina di destinazione. Ad esempio: https://www.example.com/home.html?utm_content=120241705099850539%2Caca_asset_id%3D9999999%2Caca_placement%3DFacebook_Desktop_Feed&aca_id_2=8888888&utm_medium=paid&utm_source=fb&utm_id=120241705099830539&utm_term=120241705099840539&utm_campaign=120241705099830539
+Questo parametro personalizzato viene aggiunto all’URL della pagina di destinazione. Ad esempio: https://www.example.com/home.html?utm_content=120241705099850539%2Caca_asset_id%3D9999999%2Caca_placement%3DFacebook_Desktop_Feed&amp;aca_id_2=8888888&amp;utm_medium=paid&amp;utm_source=fb&amp;utm_id=120241705099830539&amp;utm_term=120241705099840539&amp;utm_campaign=120241705099830539
 
 Ora esiste una relazione tra una risorsa su una pagina e i dati multimediali a pagamento. Utilizza questa relazione in Analysis Workspace per vedere in che modo i metadati delle risorse Content Analytics (ad esempio **[!UICONTROL Colori di primo piano risorse]**) contribuiscono al successo della campagna multimediale a pagamento.
 
