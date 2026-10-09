@@ -40,7 +40,7 @@ Verifica con Adobe entrambe le parti del passaggio di consegna:
 1. Adobe ha confermato che vengono ricevuti e rilevati i registri per il sito pertinente.
 
 L’inoltro del registro BYOCDN fornisce i dati della richiesta CDN lato server utilizzati per l’analisi del traffico automatizzato dell’agente. I dati non dipendono dai tag di JavaScript in esecuzione in un browser. Il valore richiesto
-Il feed di registro CDN garantisce che il set di dati di riepilogo a valle contenga i dati Visibilità dei brand previsti relativi al traffico agente. Per ulteriori informazioni, vedere [Riferimento inoltro registro BYOCDN](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview).
+Il feed di registro CDN garantisce che il set di dati di riepilogo a valle contenga i dati Visibilità dei brand previsti relativi al traffico agente. Per ulteriori informazioni, vedere [Riferimento inoltro registro BYOCDN](https://experienceleague.adobe.com/it/docs/brand-visibility/using/log-forwarding/log-forwarding-overview).
 
 ### Informazioni richieste
 
