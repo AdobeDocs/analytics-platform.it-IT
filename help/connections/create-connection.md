@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: cc31e50f01da63eaf1e7b6eb8465d187485b7816
 workflow-type: tm+mt
 source-wordcount: '10677'
-ht-degree: 89%
+ht-degree: 90%
 ---
 # Creare o modificare una connessione {#create-or-edit-a-connection}
 
@@ -732,8 +732,8 @@ Tutti i set di dati e i tipi di set di dati hanno [dettagli e impostazioni gener
 
 >[!CONTEXTUALHELP]
 >id="connection_eventdataset_rowfilter"
->title="Abilita filtro righe"
->abstract="I filtri di riga determinano quali eventi vengono acquisiti in Customer Journey Analytics. Vengono acquisiti solo gli eventi che corrispondono alle regole di inclusione. Tutti gli altri eventi verranno esclusi definitivamente e non saranno disponibili per il reporting, la segmentazione o l’analisi in Customer Journey Analytics.<ul><li>Puoi creare fino a 10 filtri.</li><li> Le modifiche ai filtri si applicano solo ai nuovi dati acquisiti dopo la modifica e non influiscono retroattivamente sui dati precedentemente acquisiti o attivano una retrocompilazione cronologica.</li></ul>"
+>title="Abilita filtro di riga"
+>abstract="I filtri di riga determinano quali eventi vengono acquisiti in Customer Journey Analytics. Vengono acquisiti solo gli eventi che corrispondono alle regole di inclusione. Tutti gli altri eventi saranno esclusi in modo permanente e non saranno disponibili per il reporting, la segmentazione o l’analisi in Customer Journey Analytics.<ul><li>Puoi creare fino a 10 filtri.</li><li> Le modifiche ai filtri si applicano solo ai nuovi dati acquisiti dopo la modifica e non hanno effetto retroattivo sui dati precedentemente acquisiti, né attivano una retrocompilazione storica.</li></ul>"
 
 >[!CONTEXTUALHELP]
 >id="connection_eventdataset_rowfilter_field"
@@ -743,12 +743,12 @@ Tutti i set di dati e i tipi di set di dati hanno [dettagli e impostazioni gener
 >[!CONTEXTUALHELP]
 >id="connection_eventdataset_rowfilter_operator"
 >title="Condizione"
->abstract="Seleziona un operatore. L’operatore viene utilizzato per convalidare il campo selezionato in base ai valori."
+>abstract="Seleziona un operatore. L’operatore viene utilizzato per convalidare il campo selezionato rispetto ai valori."
 
 >[!CONTEXTUALHELP]
 >id="connection_eventdataset_rowfilter_values"
 >title="Valori"
->abstract="Immettere uno o più valori. Viene utilizzato il valore stringa esatto. Usa una virgola per separare i valori. Ogni valore separato da virgole è considerato distinto ed è incluso nella condizione."
+>abstract="Inserisci uno o più valori. Viene utilizzato il valore esatto della stringa. Utilizza una virgola per separare i valori. Ciascun valore separato da virgola viene considerato distinto ed è incluso nella condizione."
 
 Le impostazioni specifiche per un set di dati evento dipendono dal tipo di connessione.
 

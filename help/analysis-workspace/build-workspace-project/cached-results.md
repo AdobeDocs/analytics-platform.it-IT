@@ -20,15 +20,15 @@ role_v2:
 source-git-commit: 32dfb7790f57293ea297bdcb8319c3d3b187a2ae
 workflow-type: tm+mt
 source-wordcount: '1336'
-ht-degree: 0%
+ht-degree: 5%
 ---
 
-# Utilizzare i risultati memorizzati nella cache nei progetti Workspace
+# Utilizza i risultati memorizzati nella cache nei progetti di Workspace
 
 >[!CONTEXTUALHELP]
 >id="project_cached_results"
 >title="Utilizza i risultati memorizzati nella cache per un caricamento più rapido"
->abstract="Quando questa opzione è abilitata, i risultati vengono caricati istantaneamente per 12 ore dopo la prima apertura di un progetto da parte di un utente o dopo la consegna da parte di una pianificazione. Chiunque apra il progetto in quel periodo di tempo vede gli stessi risultati, anche se i dati continuano a scorrere in background. Per caricare i risultati più recenti, aggiorna i singoli pannelli o l’intero progetto."
+>abstract="Quando questa opzione è abilitata, i risultati vengono caricati all’istante per 12 ore a quando un utente apre il progetto per la prima volta o da quando viene consegnato tramite pianificazione. Chiunque apra il progetto in quel periodo di tempo visualizzerà gli stessi risultati, anche se i dati continueranno ad affluire in background. Per caricare i risultati più recenti, aggiorna i singoli pannelli o l’intero progetto."
 
 {{release-limited-testing}}
 
