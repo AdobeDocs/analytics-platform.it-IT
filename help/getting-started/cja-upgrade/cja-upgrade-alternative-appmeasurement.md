@@ -101,7 +101,7 @@ I passaggi di base per la migrazione di un’implementazione di Adobe Analytics 
 
    1. Invia tutte le variabili in formato AppMeasurement tramite l’oggetto dati.
 
-      Se invii questi dati anche ad Adobe Analytics, Edge Network mappa automaticamente questi campi dell’oggetto dati sulle variabili di Adobe Analytics. Per l&#39;elenco dei campi supportati, vedere [Mappatura dei campi dell&#39;oggetto dati su Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/data-var-mapping). Customer Journey Analytics non utilizza queste mappature. In un passaggio successivo, mappi i campi dell’oggetto dati sullo schema XDM per Customer Journey Analytics.
+      Se invii questi dati anche ad Adobe Analytics, Edge Network mappa automaticamente questi campi dell’oggetto dati sulle variabili di Adobe Analytics. Per l&#39;elenco dei campi supportati, vedere [Mappatura dei campi dell&#39;oggetto dati su Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/data-var-mapping). Customer Journey Analytics non utilizza queste mappature. In un passaggio successivo, mappi i campi dell’oggetto dati sullo schema XDM per Customer Journey Analytics.
 
    1. Scegli lo schema.
 
@@ -127,7 +127,7 @@ I passaggi di base per la migrazione di un’implementazione di Adobe Analytics 
 
    1. Utilizza la mappatura dello stream di dati per mappare tutti i campi nell’oggetto dati sullo schema XDM.
 
-      Customer Journey Analytics può utilizzare solo i campi dell’oggetto dati mappati sullo schema. Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
+      Customer Journey Analytics può utilizzare solo i campi dell’oggetto dati mappati sullo schema. Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
 
 {{upgrade-final-step}}.
 
