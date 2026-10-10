@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 63%
+source-wordcount: '1117'
+ht-degree: 59%
 ---
 # Configurare l’implementazione di Adobe Analytics Web SDK esistente per inviare i dati a Platform {#existing-websdk-implementation}
 
@@ -75,7 +75,7 @@ Considera i seguenti vantaggi e svantaggi della configurazione dell’implementa
 
 1. Inizia a inviare dati da Edge Network a Platform. Invia tutte le variabili in formato AppMeasurement tramite l’oggetto dati.
 
-   Per ulteriori informazioni, vedere [Mappatura della variabile dell&#39;oggetto dati in Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/data-var-mapping).
+   Edge Network mappa automaticamente questi campi dell’oggetto dati sulle variabili di Adobe Analytics, mantenendo intatto il reporting di Adobe Analytics durante l’aggiornamento. Per l&#39;elenco dei campi supportati, vedere [Mappatura dei campi dell&#39;oggetto dati su Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/data-var-mapping). Customer Journey Analytics non utilizza queste mappature. In un passaggio successivo, mappi i campi dell’oggetto dati sullo schema XDM per Customer Journey Analytics.
 
 1. Scegli lo schema.
 
@@ -101,6 +101,6 @@ Considera i seguenti vantaggi e svantaggi della configurazione dell’implementa
 
 1. Utilizza la mappatura dello stream di dati per mappare tutti i campi nell’oggetto dati sullo schema XDM.
 
-   Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
+   Customer Journey Analytics può utilizzare solo i campi dell’oggetto dati mappati sullo schema. Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
 
 {{upgrade-final-step}}

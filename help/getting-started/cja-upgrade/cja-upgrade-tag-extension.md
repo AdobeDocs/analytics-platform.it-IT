@@ -1,6 +1,6 @@
 ---
-title: Creare una proprietà tag e aggiungere l’estensione Web SDK
-description: Scopri come creare una proprietà tag e aggiungere l’estensione Web SDK
+title: Aggiungere l’estensione Web SDK al tag
+description: Scopri come aggiungere l’estensione Web SDK alla proprietà tag durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 69%
+source-wordcount: '322'
+ht-degree: 63%
 ---
 # Aggiungere l’estensione Web SDK al tag {#upgrade-tag-extension}
 

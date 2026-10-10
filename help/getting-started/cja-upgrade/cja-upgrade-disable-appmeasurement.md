@@ -1,6 +1,6 @@
 ---
-title: Aggiungere il set di dati del connettore di origine di Analytics alla connessione
-description: Scopri come aggiungere il set di dati del connettore di origine di Analytics alla connessione
+title: Disabilitare Adobe Analytics
+description: Scopri come disabilitare la raccolta dati di Adobe Analytics dopo l’aggiornamento a Customer Journey Analytics.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 85%
 ---
 # Disabilitare Adobe Analytics {#disable-appmeasurement}
 
@@ -54,7 +54,7 @@ Prima di disabilitare Adobe Analytics, rivedi le informazioni in [Valutare quand
 
 * **Tag:** disabilita l’estensione Adobe Analytics
 
-* **AppMeasurment:** sostituisci la libreria AppMeasurement.js s=newobject
+* **AppMeasurement:** Sostituisci la libreria AppMeasurement.js s s=newobject
 
 >[!NOTE]
 >

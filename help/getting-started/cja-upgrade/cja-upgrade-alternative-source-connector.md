@@ -1,6 +1,6 @@
 ---
-title: Utilizzare il connettore di origine Analytics esclusivamente per l’aggiornamento a Customer Journey Analytics
-description: Scopri come creare il connettore di origine di Analytics e mappare i campi
+title: 'Alternativa di aggiornamento: utilizzare solo il connettore di origine di Analytics per l’aggiornamento a Customer Journey Analytics'
+description: Comprendi i vantaggi e gli svantaggi dell’utilizzo del connettore di origine Analytics come unico percorso di implementazione per Customer Journey Analytics, un approccio che Adobe non consiglia.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 94%
+source-wordcount: '437'
+ht-degree: 88%
 ---
 # Alternativa di aggiornamento: utilizzare solo il connettore di origine di Analytics per l’aggiornamento a Customer Journey Analytics {#use-source-connector-exclusively}
 

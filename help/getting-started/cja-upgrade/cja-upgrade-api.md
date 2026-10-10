@@ -1,6 +1,6 @@
 ---
-title: Creare una proprietà tag e aggiungere l’estensione Web SDK
-description: Scopri come creare una proprietà tag e aggiungere l’estensione Web SDK
+title: Installare Platform Web SDK con il pacchetto NPM
+description: Scopri come installare il Web SDK utilizzando il pacchetto NPM durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
@@ -28,12 +28,12 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 73%
+source-wordcount: '146'
+ht-degree: 47%
 ---
-# Installare Platform Web SDK con l’API Edge Network {#upgrade-manual}
+# Installare Platform Web SDK con il pacchetto NPM {#upgrade-manual}
 
 <!-- markdownlint-disable MD034 -->
 

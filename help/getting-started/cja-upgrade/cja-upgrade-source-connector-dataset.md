@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 86%
+source-wordcount: '898'
+ht-degree: 83%
 ---
 # Aggiungere il set di dati del connettore di origine di Analytics alla connessione {#upgrade-source-connector-dataset}
 
@@ -115,7 +115,7 @@ Per aggiungere il set di dati creato automaticamente alla stessa connessione cre
 
 1. Nella sezione **[!UICONTROL Recupero set di dati]**, seleziona **[!UICONTROL Richiedi backfill]**.
 
-1. Definisci il periodo che desideri includere nella retrocompilazione della connessione in Customer Journey Analytics immettendo le date di inizio e di fine o selezionando l’icona del calendario ![Calendario](/help/assets/icons/Calendar.svg).
+1. Definire il periodo che si desidera includere nella retrocompilazione della connessione in Customer Journey Analytics immettendo le date di inizio e di fine o selezionando l&#39;icona del calendario ![Calendario](/help/assets/icons/Calendar.svg).
 
    Indica in modo esplicito le date della richiesta di retrocompilazione. A seconda di diversi fattori, potresti voler effettuare una delle seguenti operazioni:
 
