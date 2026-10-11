@@ -108,7 +108,7 @@ Per informazioni su come aggiungere componenti, inclusi i componenti contenitore
 
 ## Eseguire query sui dati del contenitore secondario nell’output del feed dati
 
-Poiché i dati del contenitore secondario [ vengono visualizzati in modo diverso nei feed di dati di Customer Journey Analytics](#sub-container-differences-between-adobe-analytics-and-customer-journey-analytics), le query utilizzate per tali dati sono diverse da quelle utilizzate per i feed di dati di Adobe Analytics.
+Poiché i dati del contenitore secondario [&#x200B; vengono visualizzati in modo diverso nei feed di dati di Customer Journey Analytics](#sub-container-differences-between-adobe-analytics-and-customer-journey-analytics), le query utilizzate per tali dati sono diverse da quelle utilizzate per i feed di dati di Adobe Analytics.
 
 Gli esempi seguenti mostrano come trovare gli eventi che includono un prodotto specifico. Negli esempi viene utilizzata la sintassi BigQuery di Google. Altri data warehouse, come Snowflake e Databricks, supportano lo stesso approccio con differenze di sintassi minori.
 
