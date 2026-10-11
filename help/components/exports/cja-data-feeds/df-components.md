@@ -17,10 +17,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7614102d54af57a3a084c8550041f8e04f4bc37
+source-git-commit: adc7e85339e89c181375c0d3ea5c228d473239a7
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 42%
+source-wordcount: '1419'
+ht-degree: 41%
 ---
 # Disponibilità dei componenti nei feed di dati
 
@@ -98,6 +98,8 @@ Le metriche standard di Customer Journey Analytics seguenti non possono essere i
 
 <!-- markdownlint-disable MD034 -->
 
+<!-- pretty sure this isn't being used -->
+
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_user_agent"
 >title=""
@@ -109,14 +111,20 @@ Le metriche standard di Customer Journey Analytics seguenti non possono essere i
 >
 >Alcune dimensioni non possono essere utilizzate insieme nei set di dati di Experience Platform e pertanto non possono essere incluse nello stesso feed di dati.
 >
->Se scegli di includere le dimensioni **Agente utente** o **ID dispositivo mobile** nel feed dati, le dimensioni elencate di seguito non possono essere aggiunte al feed dati.
+>Se scegli di includere le dimensioni **Agente utente** o **ID dispositivo mobile** nel feed dati, non sarà possibile aggiungere al feed dati le dimensioni elencate di seguito.
 >
 >Se utilizzi il Web SDK, questa restrizione viene applicata nei flussi di dati prima che i dati arrivino in un set di dati di Experience Platform. Per ulteriori informazioni, vedere [Configurare la ricerca del dispositivo](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure#geolocation-device-lookup) in [Creare e configurare gli stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure) nella guida alla raccolta dati.
 
 Le dimensioni seguenti non possono essere utilizzate insieme alle dimensioni **Agente utente** o **ID dispositivo mobile**:
 
+>[!NOTE]
+>
+>Nell&#39;elenco seguente vengono utilizzati i nomi di dimensione predefiniti. Le dimensioni rinominate nella visualizzazione dati vengono visualizzate nei feed di dati con i relativi nomi personalizzati.
+
+
 * Tipo di browser
 * Browser
+* ID browser
 * Dispositivo mobile - Produttore
 * Tipo di dispositivo mobile
 * Supporto audio per dispositivi mobili
@@ -141,6 +149,7 @@ Le dimensioni seguenti non possono essere utilizzate insieme alle dimensioni **A
 * Nome dispositivo mobile
 * Tipi di sistemi operativi
 * Sistemi operativi
+* ID sistema operativo
 
 ## Metriche che richiedono un sostituto {#substitute-metrics}
 

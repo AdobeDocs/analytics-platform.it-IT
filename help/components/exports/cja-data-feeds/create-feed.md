@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: d7614102d54af57a3a084c8550041f8e04f4bc37
+source-git-commit: 93107a7cf46e5d71bcb5c588eb7395fd1b88d150
 workflow-type: tm+mt
-source-wordcount: '3881'
+source-wordcount: '3924'
 ht-degree: 9%
 ---
 # Creare un feed di dati
@@ -125,11 +125,11 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    * **Pulsante Plus**: seleziona l&#39;icona Più ![Aggiungi](/help/assets/icons/Add.svg) accanto a qualsiasi componente nella barra a sinistra per aggiungerlo all&#39;area di lavoro.
    * **[!UICONTROL Mostra tutto]**: seleziona **[!UICONTROL Mostra tutto]** nella parte inferiore dell&#39;elenco dei componenti per aprire una finestra di dialogo che mostra tutti i componenti disponibili. Selezionare la casella di controllo accanto a ogni componente che si desidera aggiungere, quindi selezionare **[!UICONTROL Aggiungi selezionati]**. Quando un termine di ricerca o un tag di filtro è attivo nella barra a sinistra, viene visualizzato anche un pulsante **[!UICONTROL Aggiungi tutto]** che consente di aggiungere tutti i risultati filtrati contemporaneamente.
 
-   Quando aggiungi un componente che appartiene a un campo array XDM (ad esempio, un campo di proposta Adobe Journey Optimizer), questo viene visualizzato nell’area di lavoro come gruppo nidificato comprimibile anziché come elemento a comparsa. Il gruppo riflette la struttura di dati sottostante e restituisce come array nidificato nel file esportato.
+   Quando aggiungi i campi, tieni presente quanto segue:
 
-   <!--add screenshot-->
+   * Alcuni componenti sono obbligatori, non supportati o soggetti a restrizioni nei feed di dati. Per informazioni dettagliate, vedere [Disponibilità dei componenti nei feed di dati](/help/components/exports/cja-data-feeds/df-components.md).
 
-   Alcuni componenti sono obbligatori, non supportati o soggetti a restrizioni nei feed di dati. Per informazioni dettagliate, vedere [Disponibilità dei componenti nei feed di dati](/help/components/exports/cja-data-feeds/df-components.md).
+   * Quando aggiungi un componente che appartiene a un campo array XDM (ad esempio, un campo proposta Adobe Journey Optimizer) o a un campo mappa, una finestra di dialogo richiede di aggiungere altri componenti dallo stesso contenitore secondario. Nell’output del feed dati, tutti questi componenti vengono visualizzati in una singola colonna. Per ulteriori informazioni, vedi [Componenti contenitore secondario nei feed di dati](/help/components/exports/cja-data-feeds/df-sub-event.md)
 
 1. (Facoltativo) Riordina i componenti nell’area di lavoro trascinandoli. L’ordine definito viene mantenuto come ordine delle colonne nel file di feed dati esportato.
 
@@ -342,9 +342,11 @@ I tempi di arrivo variano in base al tipo di dati che stai raccogliendo. Scegli 
 
 #### Fase 2: i dati vengono acquisiti dal data lake in Customer Journey Analytics
 
-L&#39;operazione può richiedere fino a 90 minuti (vedi [Latenze](/help/technotes/guardrails.md#latencies)).
+I tempi di acquisizione dei dati variano a seconda che l’unione sia abilitata o meno per il set di dati.
 
-* **Set di dati uniti**: l&#39;unione può aggiungere fino a 4 ore (vedi [Latenze](/help/technotes/guardrails.md#latencies)). Se l’unione è abilitata per la connessione, imposta il ritardo su almeno 6 ore e potenzialmente 8 ore. I dati aggiornati da una ripetizione dell’unione non sono generalmente inclusi nei file di feed dati già elaborati.
+* **Set di dati non uniti**: l&#39;operazione può richiedere fino a 90 minuti (vedere [Latenze](/help/technotes/guardrails.md#latencies)).
+
+* **Set di dati uniti**: l&#39;unione può aggiungere fino a 4 ore oltre i 90 minuti necessari per i set di dati non uniti (vedi [Latenze](/help/technotes/guardrails.md#latencies)). Se l’unione è abilitata per la connessione, imposta il ritardo su almeno 6 ore e potenzialmente 8 ore. I dati aggiornati da una ripetizione dell’unione non sono generalmente inclusi nei file di feed dati già elaborati.
 
   Quando l’unione è abilitata, il ritardo minimo di elaborazione aumenta da 2 ore a 6 ore per tenere conto dei dati uniti.
 
