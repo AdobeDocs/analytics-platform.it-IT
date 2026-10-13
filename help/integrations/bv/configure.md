@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fbbb3ffb1b0d1d5361b594e81c260dab25f44338
+source-git-commit: e3958dfbad19f5fdd78b2755817d21afad8f8e84
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '2118'
 ht-degree: 0%
 ---
 # Configurare e configurare l’integrazione in entrata
@@ -26,18 +26,18 @@ Questo articolo descrive i [prerequisiti](#prerequisites), [responsabilità](#re
 
 ## Prerequisiti
 
-Considera i seguenti prerequisiti prima di abilitare l’integrazione in entrata. E utilizza la procedura di verifica per verificare
+Considera i seguenti prerequisiti prima di abilitare l’integrazione in entrata. Utilizza la [procedura di verifica](#verification) seguente per confermare ogni prerequisito.
 
 ### Inoltro registro BYOCDN
 
 I registri di accesso CDN devono essere inoltrati e ricevuti da Adobe Brand Visibility per ciascun sito Brand Visibility prima che il connettore di origine Brand Visibility possa essere disponibile.
 
-Questo requisito si applica a ogni sito di Visibilità dei brand. Una configurazione CDN o un feed di registro per un sito, dominio o sottodominio copre solo tale sito, a meno che Adobe non confermi tale copertura per un altro sito.
+Questo requisito si applica a ogni sito di Visibilità dei brand. Una configurazione CDN o un feed di registro per un sito, dominio o sottodominio copre solo tale sito.
 
-Verifica con Adobe entrambe le parti del passaggio di consegna:
+Confermare entrambe le parti del passaggio di consegne:
 
 1. Hai configurato la CDN o la pipeline di registro pertinente per inoltrare i registri di accesso richiesti alla destinazione Amazon S3 fornita da Adobe.
-1. Adobe ha confermato che vengono ricevuti e rilevati i registri per il sito pertinente.
+1. Brand Visibility sta ricevendo e rilevando i registri per il sito pertinente. Il sito è quindi disponibile per la selezione nell’origine Adobe Brand Visibility in Experience Platform.
 
 L’inoltro del registro BYOCDN fornisce i dati della richiesta CDN lato server utilizzati per l’analisi del traffico automatizzato dell’agente. I dati non dipendono dai tag di JavaScript in esecuzione in un browser. Il valore richiesto
 Il feed di registro CDN garantisce che il set di dati di riepilogo a valle contenga i dati Visibilità dei brand previsti relativi al traffico agente. Per ulteriori informazioni, vedere [Riferimento inoltro registro BYOCDN](https://experienceleague.adobe.com/it/docs/brand-visibility/using/log-forwarding/log-forwarding-overview).
@@ -51,18 +51,18 @@ Assicurati di disporre di valori per tutti i dettagli richiesti elencati nella t
 | Visibilità dei brand sito o dominio | Conferma il sito coperto dall’inoltro del registro CDN. |
 | Provider CDN | Identifica la rete CDN utilizzata per il sito. |
 | Stato inoltro registro CDN | Prova che i registri del sito vengono inoltrati e rilevati dalla Visibilità dei brand. |
-| Visibilità dei brand conferma di preparazione | Prima di abilitare e pianificare il connettore, conferma con il team dell’account di Adobe la fattibilità. |
+| Sito disponibile in origine Visibilità dei brand | Conferma che il sito sia disponibile per la selezione nell’origine Visibilità dei brand. Un sito è disponibile in base alla disponibilità di registri CDN analizzati in Brand Visibility. |
 | Organizzazione IMS | Utilizza l’organizzazione IMS associata a Brand Visibility, Experience Platform. |
 | Sandbox | Utilizza il nome esatto della sandbox designato per l’integrazione in entrata. |
 | Connessione | Identifica la connessione al Percorso di clienti che deve includere il set di dati. |
 | Visualizzazione dati | Identifica una visualizzazione dati Customer Journey Analytics nuova o esistente che includa i componenti. |
 | Amministratore o proprietario | Specifica il nome o il team che rappresenta il contatto per la configurazione. |
 
-Prima che Adobe pianifichi il connettore gestito, il team del tuo account Adobe deve confermare che il sito è pronto per l’integrazione in entrata. Le comunicazioni di consegna si riferiscono a questo come all’approvazione della Visibilità dei brand o alla conferma della preparazione del sito. La pianificazione del connettore gestito è un requisito del servizio gestito, non un’azione self-service del cliente.
+Prima di continuare, verificare che ogni sito sia disponibile per la selezione nell&#39;origine di Adobe Brand Visibility.
 
 ### Sandbox
 
-Il connettore gestito deve creare il set di dati nella sandbox specifica denominata di AEP designata dal cliente all’interno dell’organizzazione IMS.
+Puoi aggiungere il set di dati alla connessione CJA dopo che il set di dati verrà visualizzato in **[!UICONTROL Set di dati]** nella sandbox.
 
 Conferma quanto segue:
 
@@ -82,7 +82,7 @@ Brand Visibility utilizza i registri di accesso CDN per identificare le richiest
 
 Per la descrizione dettagliata dell&#39;integrazione in entrata, della struttura del set di dati e dei campi disponibili, vedi [informazioni sul set di dati](#about-the-dataset).
 
-Il connettore gestito crea il set di dati di riepilogo in Experience Platform utilizzando:
+L’origine Visibilità dei brand crea il set di dati di riepilogo in Experience Platform utilizzando:
 
 * La classe **[!UICONTROL Metriche di riepilogo XDM]**
 * Il gruppo di campi **[!UICONTROL Riepilogo richieste CDN]**
@@ -91,7 +91,8 @@ Il connettore gestito crea il set di dati di riepilogo in Experience Platform ut
 Il connettore crea il set di dati per ogni sito Visibilità dei brand utilizzando il seguente pattern di denominazione: <code>Set di dati Adobe Brand Visibility (ABV) - _baseUrl senza schema_</code>. <br/>Ad esempio `Adobe Brand Visibility (ABV) Dataset - example.com` per il sito <https://example.com>.
 
 I set di dati creati prima dell&#39;adozione di questa convenzione per i nomi visualizzano il set di dati LLMO (Optimization) <code>LLM precedente - _baseUrl senza schema_</code>.
-In tutti i casi, i clienti devono confermare il nome esatto del set di dati o l’ID del set di dati con il proprio account team di Adobe dopo la creazione.
+
+Trova il set di dati in **[!UICONTROL Set di dati]** nella sandbox in cui hai creato il flusso di dati.
 
 Il set di dati sono dati di riepilogo aggregati. Durante l&#39;analisi del volume di richieste in Customer Journey Analytics, utilizza la metrica **[!UICONTROL Numero richieste CDN]** fornita anziché contare le righe del set di dati.
 
@@ -99,17 +100,15 @@ Verifica i campi disponibili nello schema del set di dati creato per il sito di 
 
 ## Responsabilità
 
-Adobe gestisce il connettore in entrata e, dopo la conferma dei prerequisiti:
+Dopo aver abilitato l&#39;origine Visibilità dei brand, Visibilità dei brand:
 
-* Abilita il connettore gestito ABV → AEP.
-* Crea il set di dati di riepilogo per ogni sito ABV configurato.
-* Carica il set di dati nella sandbox di AEP fornita dal cliente.
-* Fornisce al cliente il nome o l’ID del set di dati per la verifica.
+* Fornisce il set di dati di riepilogo per il sito selezionato.
+* Sposta il set di dati nella sandbox in cui hai creato il flusso di dati.
 
 Le tue responsabilità in qualità di cliente sono:
 
 * Per garantire che i registri CDN vengano inoltrati e ricevuti per Visibilità dei brand per ogni sito di Visibilità dei brand.
-* Fornire l’organizzazione IMS corretta e la sandbox Experience Platform denominata.
+* Per abilitare l’origine Visibilità dei brand nella sandbox corretta, verifica che il sito sia disponibile per la selezione e selezionalo.
 * Per selezionare la connessione Customer Journey Analytics che deve includere il set di dati.
 * Aggiungere il set di dati a tale connessione.
 * Selezionare i campi da esporre come componenti nella visualizzazione dati di Customer Journey Analytics pertinente.
@@ -122,28 +121,69 @@ Le tue responsabilità in qualità di cliente sono:
 Il set di dati non è disponibile per l’analisi Customer Journey Analytics finché non aggiungi il set di dati a una connessione. I dati
 non è disponibile agli utenti tramite una visualizzazione dati finché i campi pertinenti non sono stati aggiunti a tale visualizzazione dati.
 
+Per abilitare l&#39;origine:
+
+1. In Experience Platform, seleziona la sandbox in cui desideri il set di dati. È possibile allocare un sito una sola volta, quindi assicurati che questa sandbox sia quella desiderata.
+1. Vai a **[!UICONTROL Origini]**, quindi **[!UICONTROL Catalogo]** e infine alle applicazioni Adobe. Sulla scheda **[!UICONTROL Adobe Brand Visibility]**, seleziona **[!UICONTROL Configura]** la prima volta. Successivamente, nella scheda viene visualizzato **[!UICONTROL Aggiungi dati]**.
+
+   ![Seleziona Visibilità dei brand da origini](assets/aep-sources-select-bv.png)
+
+1. Seleziona **[!UICONTROL Aggiungi dati]**.
+
+   ![Aggiungi dati all&#39;origine Visibilità dei brand](assets/aep-sources-bv-add-data.png)
+
+1. Nel passaggio ➊ **[!UICONTROL Seleziona dati]**:
+
+   1. Selezionare il sito dalla tabella **[!UICONTROL Nome sito]**. Una volta allocato un sito a un flusso di dati, non puoi selezionarlo nuovamente in quella o in altre sandbox.
+
+      ![Passaggio 1 della configurazione di origine di Brand Visibility](assets/bv-source-step-1.png)
+
+   1. Seleziona **[!UICONTROL Avanti]**.
+
+1. Nel passaggio ➋ **[!UICONTROL Dettagli flusso di dati]**:
+
+   1. Immettere un **[!UICONTROL nome flusso di dati]** e una **[!UICONTROL descrizione]** facoltativa. È inoltre possibile sottoscrivere gli avvisi **[!UICONTROL Avvio esecuzione flusso di dati origini]**, **[!UICONTROL Completamento esecuzione flusso di dati origini]** e **[!UICONTROL Errore esecuzione flusso di dati origini]**.
+
+      ![Passaggio 2 della configurazione di origine di Brand Visibulity](assets/bv-source-step-2.png)
+
+   1. Seleziona **[!UICONTROL Avanti]**.
+
+1. Nel passaggio ➌ **[!UICONTROL Rivedi]**:
+
+   1. Controlla la connessione e l’assegnazione del set di dati.
+
+      ![Passaggio 3 della configurazione di origine di Brand Visibility](assets/bv-source-step-3.png)
+
+   1. selezionare **[!UICONTROL Fine]**.
+
+Il set di dati viene assegnato automaticamente e non è richiesta alcuna mappatura dei campi.
+
+>[!IMPORTANT]
+>
+>Un sito può essere allocato una sola volta. Per utilizzare il sito in una sandbox diversa, elimina il flusso di dati a cui è allocato il sito. L’eliminazione del flusso di dati influisce su qualsiasi connessione Customer Journey Analytics o visualizzazione dati che si basa sui dati di questa origine.
+>
+
+
 ## Verifica
 
 Per verificare l’integrazione in entrata, utilizza la procedura seguente:
 
-1. Conferma disponibilità sito ABV e registro CDN
+1. Verifica che il sito ABV e il registro CDN siano pronti.
 
    Per ogni sito ABV:
 
-   * Conferma il sito o il dominio esatto coperto dalla richiesta.
-   * Conferma il provider CDN.
-   * Conferma che la CDN o la pipeline del registro inoltrino i registri di accesso richiesti.
+   * Conferma il sito o il dominio coperto dall’inoltro del registro CDN.
+   * Verifica che il sito sia disponibile per la selezione nell’origine Visibilità dei brand in Experience Platform. Un sito è disponibile in base alla disponibilità di registri CDN analizzati in Brand Visibility.
+   * Non procedere con un&#39;istruzione generale che indica che &quot;i registri CDN sono abilitati&quot;. Procedi quando il sito ABV specifico è disponibile per la selezione.
    * Conferma che Brand Visibility riceva o rilevi i registri per quel sito.
    * Ottieni da Adobe la conferma di preparazione alla Visibilità dei brand del sito.
 
-   Non procedere con l’utilizzo di un’istruzione generale che indichi che &quot;i registri CDN sono abilitati&quot;, a meno che la conferma non riguardi il sito ABV specifico.
+1. Verifica il set di dati in Experience Platform.
 
-1. Verificare il set di dati gestito in Experience Platform
-
-   Dopo che Adobe conferma che il connettore gestito ha creato il set di dati:
+   Dopo aver creato il flusso di dati:
    1. Accedi a **[!UICONTROL Experience Platform]**.
-   1. Dall’elenco delle sandbox, seleziona la sandbox denominata fornita durante l’acquisizione.
-   1. Individua il nome o l&#39;ID del set di dati fornito da Adobe in **[!UICONTROL Set di dati]**.
+   1. Seleziona la sandbox in cui hai creato il flusso di dati.
+   1. Individua il set di dati per il sito di Visibilità dei brand in **[!UICONTROL Set di dati]**.
    1. Conferma che il set di dati sia associato al sito di Visibilità dei brand previsto.
    1. Registra **[!UICONTROL ID set di dati]** e **[!UICONTROL Schema]** collegato.
    1. Esamina il conteggio dei record del set di dati, le informazioni sull’acquisizione più recente e i dati di esempio disponibili, se consentito.
@@ -155,11 +195,11 @@ Per verificare l’integrazione in entrata, utilizza la procedura seguente:
 
 1. Aggiungere il set di dati a una connessione
 
-   L’amministratore di Customer Journey Analytics deve aggiungere il set di dati gestito alla connessione prevista:
+   L’amministratore di Customer Journey Analytics deve aggiungere il set di dati alla connessione prevista:
 
    1. Accedi a Customer Journey Analytics.
-   1. [Crea una nuova connessione o modifica la connessione esistente prevista](/help/connections/create-connection.md). Verifica che la connessione utilizzi la stessa sandbox di Experience Platform in cui è stato creato il set di dati gestito.
-   1. Cerca il set di dati utilizzando il nome o l’ID del set di dati fornito da Adobe.
+   1. [Crea una nuova connessione o modifica la connessione esistente prevista](/help/connections/create-connection.md). Verifica che la connessione utilizzi la stessa sandbox di Experience Platform in cui è stato creato il set di dati.
+   1. Cerca il set di dati per nome o ID set di dati.
    1. Aggiungi il set di dati alla connessione.
    1. Configura le impostazioni del set di dati in base alla progettazione Customer Journey Analytics del cliente.
    1. Salva la connessione.
@@ -173,13 +213,13 @@ Per verificare l’integrazione in entrata, utilizza la procedura seguente:
    1. Selezionare la connessione contenente il set di dati di Visibilità dei brand gestito.
    1. Aggiungi i campi dello schema richiesti come dimensioni o metriche.
    1. Includi i campi necessari per l’analisi pianificata, ad esempio:
-      * **[!UICONTROL Tipo bot]**
+      * **[!UICONTROL Tipo di bot CDN]**
       * **[!UICONTROL Provider CDN]**
-      * **[!UICONTROL URL]**
-      * **[!UICONTROL Host]**
-      * **[!UICONTROL Stato HTTP]**
-      * **[!UICONTROL Numero richieste]**
-      * **[!UICONTROL Tempo al primo byte]**
+      * **[!UICONTROL URL CDN]**
+      * **[!UICONTROL Host CDN]**
+      * **[!UICONTROL Stato HTTP CDN]**
+      * **[!UICONTROL Numero richieste CDN]**
+      * **[!UICONTROL Tempo medio CDN al primo byte]**
    1. Salva la visualizzazione dati.
    1. Convalida i campi in Analysis Workspace o nel flusso di lavoro di reporting selezionato dal cliente.
 
@@ -195,11 +235,11 @@ Per verificare l’integrazione in entrata, utilizza la procedura seguente:
    * Il set di dati è incluso nella connessione prevista.
    * I campi obbligatori vengono esposti nella visualizzazione dati prevista.
 
-Il tempo esatto necessario per la disponibilità dei dati dipende dall’acquisizione gestita e dal flusso di lavoro di elaborazione del Customer Journey Analytics. Il team del tuo account Adobe deve fornire tutte le aspettative di elaborazione applicabili alla tua richiesta.
+Il tempo esatto necessario per la disponibilità dei dati dipende dal flusso di lavoro di acquisizione ed elaborazione del Customer Journey Analytics.
 
 ## Risoluzione dei problemi
 
-Di seguito sono riportate le operazioni da eseguire in caso di problemi:
+In caso di problemi, controlla i seguenti passaggi:
 
 * Il set di dati non viene visualizzato in AEP.
 
@@ -207,7 +247,7 @@ Di seguito sono riportate le operazioni da eseguire in caso di problemi:
 
   * L’organizzazione IMS è corretta.
   * La sandbox di Experience Platform selezionata è corretta.
-  * Adobe ha confermato che il connettore gestito è stato abilitato.
+  * L’origine è stata abilitata dopo il funzionamento dell’inoltro del registro CDN.
   * È stato utilizzato il nome o l’ID del set di dati fornito da Adobe.
   * Il set di dati è stato creato per il sito di Visibilità dei brand corretto.
 
@@ -215,7 +255,7 @@ Di seguito sono riportate le operazioni da eseguire in caso di problemi:
 
   Verifica che:
   * I registri CDN vengono inoltrati per l’esatto sito di Visibilità dei brand.
-  * ABV ha confermato di ricevere o rilevare i registri.
+  * Brand Visibility sta ricevendo o rilevando i registri per il sito.
   * Il sito o il dominio nella configurazione CDN corrisponde al sito Visibilità dei brand.
   * Il connettore gestito è stato abilitato dopo la conferma della preparazione del registro CDN.
   * L’intervallo di date selezionato include il periodo successivo all’inizio dell’acquisizione del registro.
@@ -238,6 +278,21 @@ Di seguito sono riportate le operazioni da eseguire in caso di problemi:
   * La visualizzazione dati è stata salvata dopo l’aggiunta dei componenti.
   * Lo schema del set di dati corrisponde alla struttura prevista del gruppo di campi **[!UICONTROL Riepilogo richieste CDN]**.
 
+* Il sito non è incluso nell&#39;elenco.
+
+  Verifica che:
+
+  * È disponibile un sito per la selezione in base alla disponibilità di registri CDN analizzati in Brand Visibility.
+  * L’inoltro del registro CDN è configurato e funziona per il sito.
+
+* Impossibile selezionare il sito.
+
+  Tieni presente che una volta allocato un sito a un flusso di dati, non può più essere selezionato in quella o in altre sandbox. Per utilizzare il sito in una sandbox diversa, elimina il flusso di dati a cui è allocato il sito. Il sito può quindi essere nuovamente selezionato. L’eliminazione del flusso di dati influisce su qualsiasi connessione Customer Journey Analytics o visualizzazione dati che si basa sui dati di questa origine.
+
+* Il flusso di dati mostra uno stato di errore.
+
+  Utilizza il dashboard **[!UICONTROL Monitoraggio]**. La panoramica di **[!UICONTROL Origini]** indica che un flusso di dati di origine che genera un errore continuo per 30 giorni viene disabilitato automaticamente.
+
 
 ## Criteri di completamento
 
@@ -245,10 +300,9 @@ Di seguito sono riportate le operazioni da eseguire in caso di problemi:
 L’integrazione in entrata è pronta per la configurazione Customer Journey Analytics lato cliente quando vengono confermate tutte le seguenti operazioni:
 
 * I registri CDN vengono inoltrati e ricevuti per Visibilità dei brand per ciascun sito ABV richiesto.
-* Adobe ha confermato la disponibilità del sito per il connettore gestito.
-* È stata fornita l’organizzazione IMS.
-* È stata fornita la sandbox Experience Platform di destinazione esatta.
-* Adobe ha creato il set di dati di riepilogo per sito in tale sandbox.
+* Ogni sito di Visibilità dei brand è disponibile per la selezione nell&#39;origine Adobe Brand Visibility.
+* Hai attivato l’origine Adobe Brand Visibility nella sandbox desiderata.
+* Il set di dati di riepilogo per sito viene visualizzato in tale sandbox.
 * Hai verificato il set di dati e il relativo schema XDM.
 * Il set di dati è stato aggiunto alla connessione CJA prevista.
 * Sono stati configurati i relativi componenti Visualizzazione dati di CJA.
