@@ -1,6 +1,6 @@
 ---
-title: Componenti di contenitori secondari da array e mappe nei feed di dati
-description: Scopri in che modo i feed di dati di Customer Journey Analytics esportano i componenti contenitore secondario dai campi array e mappa e come eseguire query in data warehouse.
+title: Componenti di eventi secondari da array e mappe nei feed di dati
+description: Scopri in che modo i feed di dati di Customer Journey Analytics esportano componenti di eventi secondari da campi di array e mappe e come eseguire query in data warehouse.
 hide: true
 feature: Components
 product_v2:
@@ -14,52 +14,52 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 93107a7cf46e5d71bcb5c588eb7395fd1b88d150
+source-git-commit: 77f5caf20d2bf391563de20a572ce100cdcca61e
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 1%
 ---
-# Componenti del contenitore secondario nei feed di dati
+# Componenti di eventi secondari nei feed dati
 
 {{release-limited-testing}}
 
-I componenti dei contenitori secondari sono dimensioni e metriche basate sui campi all’interno di un array o di una mappa nello schema XDM. Ti consentono di analizzare i dati a un livello più granulare rispetto al livello dell’evento, ad esempio i singoli prodotti in un acquisto. Per informazioni sull&#39;utilizzo di questi dati nei segmenti, vedere [Eventi secondari](/help/components/segments/sub-event.md).
+I componenti dei sottoeventi sono dimensioni e metriche basate sui campi all’interno di un array o di una mappa nello schema XDM. Ti consentono di analizzare i dati a un livello più granulare rispetto al livello dell’evento, ad esempio i singoli prodotti in un acquisto. Per informazioni sull&#39;utilizzo di questi dati nei segmenti, vedere [Eventi secondari](/help/components/segments/sub-event.md).
 
-Utilizza le seguenti informazioni per comprendere come vengono visualizzati nei feed di dati Customer Journey Analytics i componenti dei contenitori secondari provenienti dai campi array e mappa.
+Utilizza le seguenti informazioni per comprendere come vengono visualizzati nei feed di dati Customer Journey Analytics i componenti di eventi secondari provenienti dai campi array e mappa.
 
-## Comprendere i componenti del contenitore secondario
+## Comprendere i componenti degli eventi secondari
 
-### Componenti del contenitore secondario nello schema XDM
+### Componenti di evento secondario nello schema XDM
 
-Nello schema XDM, ogni elemento di un array (un array di stringhe o un array di oggetti) è un contenitore secondario. Ogni voce in un campo mappa è anche un contenitore secondario, come descritto in [Campi mappa nei feed di dati](#map-fields-in-data-feeds). Le dimensioni e le metriche basate sui campi all’interno di un contenitore secondario sono componenti del contenitore secondario.
+Nello schema XDM, ogni elemento di un array (un array di stringhe o un array di oggetti) è un sottoevento. Ogni voce in un campo mappa è anche un evento secondario, come descritto in [Campi mappa nei feed di dati](#use-map-fields-in-data-feeds). Le dimensioni e le metriche basate sui campi all’interno di un evento secondario sono componenti di un evento secondario.
 
-Per visualizzare i sottocontenitori nello schema XDM in Adobe Experience Platform, seleziona [!UICONTROL **Schemi**], quindi espandi un evento che contiene i sottocontenitori.
+Per visualizzare gli eventi secondari nello schema XDM in Adobe Experience Platform, seleziona [!UICONTROL **Schemi**], quindi espandi un evento che contiene eventi secondari.
 
-Nell&#39;esempio seguente, `Product list items` è una matrice di oggetti contenente vari componenti di contenitori secondari.
+Nell&#39;esempio seguente, `Product list items` è un array di oggetti contenente vari componenti di eventi secondari.
 
-![Schema XDM contenente un array di oggetti e componenti contenitore secondario](assets/df-sub-event-schema.png)
+![Schema XDM contenente un array di oggetti e componenti di eventi secondari](assets/df-sub-event-schema.png)
 
-### Differenze tra contenitori secondari tra Analysis Workspace e feed di dati
+### Differenze tra eventi secondari tra Analysis Workspace e feed di dati
 
-In Customer Journey Analytics, i componenti dei contenitori secondari sono rappresentati in modo diverso tra Analysis Workspace e i feed di dati.
+I componenti degli eventi secondari sono rappresentati in modo diverso in Analysis Workspace e nei feed di dati in Customer Journey Analytics.
 
-| Posizione | Come vengono rappresentati i componenti del contenitore secondario |
+| Posizione | Modalità di rappresentazione dei componenti evento secondario |
 | --- | --- |
 | **Analysis Workspace (in Customer Journey Analytics)** | Selezionabile come singolo componente, separato da qualsiasi gerarchia visibile. |
 | **Feed dati (in Customer Journey Analytics)** | Rappresentata come un gruppo, con la gerarchia intatta. |
 
-### Differenze tra contenitori secondari di Adobe Analytics e Customer Journey Analytics
+### Differenze tra eventi secondari di Adobe Analytics e Customer Journey Analytics
 
-I dati del contenitore secondario (ad esempio, più dettagli di prodotto in un singolo evento di acquisto) vengono visualizzati in modo diverso nei feed di dati di Customer Journey Analytics rispetto ai feed di dati di Adobe Analytics. Nella tabella seguente viene confrontato il modo in cui ogni prodotto rappresenta i dati del contenitore secondario.
+I dati dei sottoeventi (come più dettagli di prodotto in un singolo evento di acquisto) vengono visualizzati in modo diverso nei feed dati di Customer Journey Analytics rispetto ai feed dati di Adobe Analytics. La tabella seguente confronta il modo in cui ogni prodotto rappresenta i dati dei sottoeventi.
 
-| Prodotto | Visualizzazione dei dati del contenitore secondario nei feed di dati | Esempio: elenco prodotti |
+| Prodotto | Visualizzazione dei dati di eventi secondari nei feed di dati | Esempio: elenco prodotti |
 | --- | --- | --- |
 | **Adobe Analytics** | Viene ridotta a una stringa delimitata in una singola colonna. | Un elenco di prodotti contiene più prodotti raggruppati in una singola stringa:<p>`Power Tools;Cordless Drill;1;129.99,Power Tools;Drill Battery Pack;2;39.98` <!--screenshot of what this looks like: product lists, list vars. --></p> |
-| **Customer Journey Analytics** | I componenti del contenitore secondario mantengono la gerarchia definita nello schema XDM. Raggruppati nella stessa colonna, mostrano la gerarchia relazionale dell’evento principale e dei sottocontenitori di pari livello. | Un elenco di prodotti mantiene la gerarchia definita nello schema XDM come array:<p>`[{"category":"Power Tools","product":"Cordless Drill","quantity":1,"revenue":129.99},{"category":"Power Tools","product":"Drill Battery Pack","quantity":2,"revenue":39.98}]` <!--screenshot of what this looks like: product lists, list vars. --></p> |
+| **Customer Journey Analytics** | I componenti evento secondario mantengono la gerarchia definita nello schema XDM. Raggruppati nella stessa colonna, mostrano la gerarchia relazionale all’evento principale e ai sottoeventi di pari livello. | Un elenco di prodotti mantiene la gerarchia definita nello schema XDM come array:<p>`[{"category":"Power Tools","product":"Cordless Drill","quantity":1,"revenue":129.99},{"category":"Power Tools","product":"Drill Battery Pack","quantity":2,"revenue":39.98}]` <!--screenshot of what this looks like: product lists, list vars. --></p> |
 
 {style="table-layout:auto"}
 
-### Esempio di contenitore secondario: prodotti in un evento di acquisto
+### Esempio di evento secondario: prodotti in un evento di acquisto
 
 Un cliente acquista due prodotti in un unico ordine: un trapano senza fili e due pacchi batteria per trapano. L&#39;implementazione invia un singolo evento di acquisto che include entrambi i prodotti nell&#39;array di oggetti `productListItems`:
 
@@ -77,38 +77,38 @@ Un cliente acquista due prodotti in un unico ordine: un trapano senza fili e due
 }
 ```
 
-Questo evento contiene due contenitori secondari, uno per ogni oggetto nell&#39;array `productListItems`. Nella tabella seguente vengono illustrati i campi appartenenti all&#39;evento e i relativi sottocontenitori.
+Questo evento contiene due eventi secondari, uno per ogni oggetto nell&#39;array `productListItems`. La tabella seguente mostra quali campi appartengono all’evento e quali appartengono ai suoi sottoeventi.
 
 | Livello | Campi | Descrizione dei campi |
 | --- | --- | --- |
 | **Evento** | `eventType`, `timestamp`, `commerce.purchases.value` | L’acquisto nel suo insieme. Ogni campo ha un valore per l’evento. La metrica **Ordini** conta `1` per questo evento, indipendentemente dal numero di prodotti in essa contenuti. |
-| **Contenitore secondario** | `SKU`, `name`, `quantity`, `priceTotal` in ogni oggetto `productListItems` | Un singolo prodotto nell’acquisto. Ogni campo ha un valore per prodotto. Ad esempio, `quantity` è `1` per il trapano senza fili e `2` per il pacchetto batteria del trapano. |
+| **Evento secondario** | `SKU`, `name`, `quantity`, `priceTotal` in ogni oggetto `productListItems` | Un singolo prodotto nell’acquisto. Ogni campo ha un valore per prodotto. Ad esempio, `quantity` è `1` per il trapano senza fili e `2` per il pacchetto batteria del trapano. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->I contenitori secondari includono solo i dati inviati con l’evento. Customer Journey Analytics non ricostruisce il contenuto del carrello in base a eventi precedenti, ad esempio aggiunte al carrello o estrazioni. Affinché i prodotti vengano visualizzati come contenitori secondari di un evento di acquisto, l&#39;implementazione deve includerli in `productListItems` per tale evento di acquisto.
+>I sottoeventi includono solo i dati inviati con l’evento. Customer Journey Analytics non ricostruisce il contenuto del carrello in base a eventi precedenti, ad esempio aggiunte al carrello o estrazioni. Affinché i prodotti vengano visualizzati come eventi secondari di un evento di acquisto, l&#39;implementazione deve includerli in `productListItems` per tale evento di acquisto.
 
-## Aggiungere componenti contenitore secondario a un feed di dati
+## Aggiungere componenti evento secondario a un feed di dati
 
-Quando aggiungi un componente contenitore secondario a un feed di dati, una finestra di dialogo richiede di aggiungere gli altri componenti dallo stesso contenitore secondario.
+Quando aggiungi un componente evento secondario a un feed di dati, una finestra di dialogo richiede di aggiungere gli altri componenti dallo stesso evento secondario.
 
-![Finestra di dialogo che richiede di aggiungere i componenti del contenitore secondario correlati](assets/data-feeds-add-subevent.png)
+![Finestra di dialogo che richiede di aggiungere i componenti evento secondario correlati](assets/data-feeds-add-subevent.png)
 
-I campi dello stesso contenitore secondario vengono visualizzati nell’area di lavoro come un gruppo nidificato comprimibile anziché come un elemento semplice.
+I campi dello stesso evento secondario vengono visualizzati nell’area di lavoro come un gruppo nidificato comprimibile anziché come un elemento semplice.
 
-![Gruppo di contenitori secondari](assets/data-feeds-subevent-added.png)
+![Gruppo di eventi secondari](assets/data-feeds-subevent-added.png)
 
 Questo gruppo riflette la struttura dati sottostante.
 
 Nell’output del feed dati, tutti questi componenti vengono visualizzati come array nidificati in una singola colonna.
 
-Per informazioni su come aggiungere componenti, inclusi i componenti contenitore secondario, a un feed di dati, vedere [Creare un feed di dati](/help/components/exports/cja-data-feeds/create-feed.md).
+Per informazioni su come aggiungere componenti, inclusi i componenti evento secondario, a un feed di dati, vedere [Creare un feed di dati](/help/components/exports/cja-data-feeds/create-feed.md).
 
-## Eseguire query sui dati del contenitore secondario nell’output del feed dati
+## Eseguire query sui dati degli eventi secondari nell’output del feed dati
 
-Poiché i dati del contenitore secondario [&#x200B; vengono visualizzati in modo diverso nei feed di dati di Customer Journey Analytics](#sub-container-differences-between-adobe-analytics-and-customer-journey-analytics), le query utilizzate per tali dati sono diverse da quelle utilizzate per i feed di dati di Adobe Analytics.
+Poiché i dati dell&#39;evento secondario [ vengono visualizzati in modo diverso nei feed dati di Customer Journey Analytics](#sub-event-differences-between-adobe-analytics-and-customer-journey-analytics), le query utilizzate per tale evento sono diverse da quelle utilizzate per i feed dati di Adobe Analytics.
 
 Gli esempi seguenti mostrano come trovare gli eventi che includono un prodotto specifico. Negli esempi viene utilizzata la sintassi BigQuery di Google. Altri data warehouse, come Snowflake e Databricks, supportano lo stesso approccio con differenze di sintassi minori.
 
@@ -184,7 +184,7 @@ WHERE REGEXP_CONTAINS(product_list, r'(^|,)[^;]*;Cordless Drill;')
 
 ## Utilizzare i campi mappa nei feed di dati
 
-Mappa i campi nelle coppie chiave-valore dell’archivio schemi XDM. I feed di dati esportano ogni mappa come array di oggetti, allo stesso modo degli altri [dati del contenitore secondario](#query-sub-container-data-in-data-feed-output). Ogni oggetto contiene la chiave della mappa e il relativo valore come campi separati.
+Mappa i campi nelle coppie chiave-valore dell’archivio schemi XDM. I feed di dati esportano ogni mappa come array di oggetti, allo stesso modo degli altri [dati sub-evento](#query-sub-event-data-in-data-feed-output). Ogni oggetto contiene la chiave della mappa e il relativo valore come campi separati.
 
 I nomi dei campi nell&#39;output provengono dagli ID dei componenti configurati per il feed dati, non da nomi fissi come `key` o `value`. Gli esempi in questa sezione utilizzano ID di componenti di esempio.
 
@@ -220,7 +220,7 @@ Nell&#39;output del feed dati, `survey_question` e `survey_answer` sono gli ID c
 
 ### Mappa identità
 
-Ogni identità nel campo [`identityMap`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/identitymap) viene esportata come un oggetto. L’oggetto contiene lo spazio dei nomi dell’identità (la chiave), insieme all’identificatore, allo stato autenticato e al flag primario. Lo spazio dei nomi si ripete per ogni identità in tale spazio dei nomi.
+Ogni identità nel campo [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap) viene esportata come un oggetto. L’oggetto contiene lo spazio dei nomi dell’identità (la chiave), insieme all’identificatore, allo stato autenticato e al flag primario. Lo spazio dei nomi si ripete per ogni identità in tale spazio dei nomi.
 
 Vengono esportati solo gli attributi della mappa delle identità che esistono come dimensioni nella visualizzazione dati e che aggiungi al feed di dati.
 
