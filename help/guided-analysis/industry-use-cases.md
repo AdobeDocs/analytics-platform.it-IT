@@ -9,26 +9,34 @@ autotag-review: '2026-05-19T09:14:30.932Z'
 TQID: 'https://experienceleague.adobe.com/HHtmhZ33F9iyQFlATLTiT8kTII25n11Xxfla6LRQMCE'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: b3197353-f189-4932-8378-3f3bc40e6071
+    internal-label: Data management
 subfeature_v2:
   - id: bfa38d8a-4e93-4fd8-8cd8-e72c589e3af8
+    internal-label: Guided analysis
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
 workflow-type: tm+mt
-source-wordcount: 1490
+source-wordcount: '1490'
 ht-degree: 78%
-
 ---
-
 # Casi d’uso di settore
 
 Questa pagina fornisce alcuni esempi illustrativi di settore di ciò che i team di customer experience, dagli analisti ai team di prodotto ai marketer, possono realizzare con l’analisi guidata.
@@ -76,7 +84,7 @@ Questa pagina fornisce alcuni esempi illustrativi di settore di ciò che i team 
 | **Quantificare l’impatto delle nuove funzioni del flusso di prenotazione** | Un’organizzazione utilizza l’analisi guidata per visualizzare rapidamente l’impatto di una nuova funzione del passaggio di prenotazione sui tassi di conversione. Identifica la parte dell’esperienza con i maggiori guadagni. | **Aumentare le tariffe di prenotazione.** Misura l’impatto aziendale invece dell’utilizzo delle sole funzioni. | [Analisi dell’impatto sulla versione](types/release-impact.md)<br>[Analisi funnel](types/funnel.md) |
 | **Ottimizzare l’esperienza dell’app mobile** | Un’organizzazione conosce in modo rapido e semplice gli utenti mensili attivi dell’app nel tempo e identifica l’impatto positivo per versione. | **Aumenta MAU.** Misura e aumenta l’utilizzo dell’app, che è correlato alla felicità del cliente. | [Analisi della crescita attiva](types/active-growth.md)<br>[Analisi della crescita netta](types/net-growth.md) |
 | **Trovare attrito nel flusso di check-in per dispositivi mobili** | La possibilità di vedere dove le persone hanno utilizzato correttamente o dove hanno abbandonato il processo di check-in mobile previsto consente a un’organizzazione di identificare facilmente le aree per l’ottimizzazione dell’esperienza. | **Aumentare CSAT e ridurre IROP.** La rimozione degli attriti offre un’esperienza di &quot;giorno di viaggio&quot; più fluida. | [Analisi funnel](types/funnel.md)<br>[Analisi delle tendenze della conversione](types/conversion-trends.md) |
-| **Deviare le chiamate del call center** | Osservare l’esperienza utente in una analisi funnel mostra un utente dove i visitatori incontrano attrito, cosa che porta a un volume costoso del call center. I passaggi successivi su cui concentrarsi sono chiari. | **Riduci l&#39;utilizzo del call center.** Ottieni più esperienze utente con &quot;percorso felice&quot; e riduci i costi delle chiamate. | [Analisi funnel](types/funnel.md)<br>[Analisi delle tendenze di conversione](types/conversion-trends.md) |
+| **Deviare le chiamate del call center** | Un’analisi funnel dell’esperienza utente consente di capire dove i visitatori riscontrano attrito, e quindi l’origne di un volume costoso di chiamate al call center. I passaggi successivi su cui concentrarsi sono chiari. | **Riduci l&#39;utilizzo del call center.** Ottieni più esperienze utente con &quot;percorso felice&quot; e riduci i costi delle chiamate. | [Analisi funnel](types/funnel.md)<br>[Analisi delle tendenze di conversione](types/conversion-trends.md) |
 
 {style="table-layout:auto"}
 
