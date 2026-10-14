@@ -48,7 +48,7 @@ L’esperienza interna al prodotto per Collaboratore è disponibile in un pannel
 
 ### Scegliere tra Collaboratore in Workspace e l’applicazione Collaboratore
 
-L&#39;esperienza interna al prodotto per Coworker ha molte delle stesse funzionalità dell&#39;[applicazione CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/analytics-chat), incluse le abilità a cui hai accesso. Tuttavia, esistono importanti differenze che determinano quando è possibile utilizzare uno rispetto all’altro:
+L&#39;esperienza interna al prodotto per Coworker ha molte delle stesse funzionalità dell&#39;[applicazione CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/chat/analytics-chat), incluse le abilità a cui hai accesso. Tuttavia, esistono importanti differenze che determinano quando è possibile utilizzare uno rispetto all’altro:
 
 | | Esperienza nel prodotto per il collaboratore | Applicazione di collaborazione |
 | --- | --- | --- |
