@@ -281,7 +281,7 @@ I set di mappatura determinano il modo in cui le variabili di Analytics vengono 
 
 >[!CONTEXTUALHELP]
 >id="migration_mapping_field_group"
->title="Preferenze per il gruppo di campi"
+>title="Preferenza per il gruppo di campi"
 >abstract="Scegli i gruppi di campi standard per utilizzare i gruppi di campi Adobe pubblicati, quando possibile. Ciò promuove la massima coerenza e torna ai campi tenant personalizzati quando non sono disponibili campi standard.<br/>Scegli i gruppi di campi personalizzati per utilizzare i campi personalizzati dello spazio dei nomi del tenant, quando possibile. Ciò promuove la massima flessibilità."
 
 <!-- markdownlint-enable MD034 -->
