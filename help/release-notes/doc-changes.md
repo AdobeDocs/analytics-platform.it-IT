@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a7bea19dcd89472ee21c533e44e1f87f5d179838
+source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
 workflow-type: tm+mt
-source-wordcount: '7183'
-ht-degree: 96%
+source-wordcount: '7222'
+ht-degree: 95%
 ---
 
 # Customer Journey Analytics - Aggiornamenti della documentazione
@@ -70,8 +70,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 |---|---|
 | **Ottobre 2026** | |
+| Canale multimediale a pagamento Content Analytics | [documentazione](/help/content-analytics/config/paid-media.md) completa sulla configurazione automatica dei set di dati e dei componenti della visualizzazione dati risultante dall&#39;utilizzo di un connettore di origine di file multimediali a pagamento (come Google Ads o Meta Ads) e dalla configurazione e attivazione del canale Content Analytics Paid Media. |
 | Approfondimenti conversazione | [Documentazione](/help/conversation-insights/overview.md) per Informazioni sulla conversazione. |
-| Ottobre 2026 | |
 | Visibilità del brand | È stata aggiornata la documentazione per l&#39;integrazione in entrata [Brand Visibility](/help/integrations/bv/bv.md#inbound-integration) con ulteriori dettagli. |
 | **Settembre 2026** | |
 | Confronto tra aree di lavoro percorsi su frecce e abbandono | È stata aggiornata l&#39;impostazione &#39;[!UICONTROL Confronta con]&#39; in [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) per mostrare che la variazione percentuale tra gli intervalli di date ora viene visualizzata su ogni nodo, freccia e abbandono nel percorso. |

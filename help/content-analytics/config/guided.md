@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1af0b3565fe054a5073f574d53b82f561df1abda
+source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
 workflow-type: tm+mt
-source-wordcount: '4800'
+source-wordcount: '4844'
 ht-degree: 49%
 ---
 
@@ -705,6 +705,11 @@ Quando selezioni **[!UICONTROL Salva]**, Content Analytics automaticamente:
 * Aggiorna la connessione di Customer Journey Analytics per includere set di dati per i Paid Media provenienti da tutti i connettori di origine collegati in questa sandbox.
 * Abilita le dimensioni e le metriche dei Paid Media in tutte le visualizzazioni dati selezionate.
 * Rendi visibile i canali Paid Media come dimensione filtrabile nei rapporti di Workspace.
+
+Per informazioni dettagliate su [Configurazione automatica supporti a pagamento](./paid-media.md):
+
+* La configurazione automatica dei set di dati per file multimediali a pagamento derivante dal primo utilizzo di un connettore di origine per file multimediali a pagamento.
+* I componenti della visualizzazione dati creati durante la configurazione e l’abilitazione del canale per contenuti multimediali a pagamento in Content Analytics.
 
 ### Salva {#paidmedia-save}
 
