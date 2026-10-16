@@ -44,13 +44,13 @@ L’esperienza interna al prodotto per Collaboratore è disponibile in un pannel
 
 <!-- FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME. -->
 
-* **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Collaboratore]** determina l&#39;accesso a Collaboratore. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) deve aggiungere questa autorizzazione al tuo profilo di prodotto. Per ulteriori informazioni, vedere [Controllo degli accessi](/help/technotes/access-control.md#access-control).
+* **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Collaboratore]** determina l&#39;accesso a Collaboratore. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve aggiungere questa autorizzazione al tuo profilo di prodotto. Per ulteriori informazioni, vedere [Controllo degli accessi](/help/technotes/access-control.md#access-control).
 
 * **Accesso alla visualizzazione dati**: il collaboratore utilizza le autorizzazioni esistenti per Analysis Workspace e la visualizzazione dati. Non può accedere a dati o componenti a cui non hai già accesso.
 
 ### Scegliere tra Collaboratore in Workspace e l’applicazione Collaboratore
 
-L&#39;esperienza interna al prodotto per Coworker ha molte delle stesse funzionalità dell&#39;[applicazione CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat), incluse le abilità a cui hai accesso. Tuttavia, esistono importanti differenze che determinano quando è possibile utilizzare uno rispetto all’altro:
+L&#39;esperienza interna al prodotto per Coworker ha molte delle stesse funzionalità dell&#39;[applicazione CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/analytics-chat), incluse le abilità a cui hai accesso. Tuttavia, esistono importanti differenze che determinano quando è possibile utilizzare uno rispetto all’altro:
 
 | | Esperienza nel prodotto per il collaboratore | Applicazione di collaborazione |
 | --- | --- | --- |
