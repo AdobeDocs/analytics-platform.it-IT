@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 9%
@@ -126,7 +126,7 @@ Alcune delle funzioni e il valore associato per il limite dipendono dal pacchett
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Guardrail di Real-time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/guardrails/overview).
+Consulta anche Experience Platform [Guardrail di Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview).
 
 
 ## Scadenza set di dati automatizzato
@@ -173,7 +173,7 @@ Consulta anche Experience Platform [Guardrail di Real-time Customer Data Platfor
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Esportazione dei dati delle destinazioni
@@ -185,7 +185,7 @@ Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](h
 
 {style="table-layout:auto"}
 
-Vedi anche guardrail di esportazione del set di dati di Experience Platform [&#128279;](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/guardrails#dataset-exports)
+Vedi anche guardrail di esportazione del set di dati di Experience Platform [](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Zona di destinazione dati
@@ -283,6 +283,8 @@ Vedi anche guardrail di esportazione del set di dati di Experience Platform [&#1
 
 ## Agente Data Insights
 
+<!-- FOLLOW-UP: Data Insights Agent has been replaced by Coworker, but the data view setting is still in the UI. Confirm with the SME whether this guardrail still applies. -->
+
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
 | Visualizzazioni dati | 50 | Guarddrail imposto dal sistema | Numero massimo di visualizzazioni dati che possono essere abilitate per Data Insights Agent. Quando sono abilitate più visualizzazioni dati, in Data Insights Agent sono disponibili solo le visualizzazioni dati più utilizzate. Questo guardrail non influisce sulle [guardrail che definiscono il numero massimo di visualizzazioni dati che è possibile definire per una connessione o all&#39;interno dell&#39;organizzazione](#connections-data-views-projects). |
@@ -301,7 +303,7 @@ Vedi anche guardrail di esportazione del set di dati di Experience Platform [&#1
 
 >[!NOTE]
 >
->I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+>I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 | Flusso di dati | Latenza prevista |
 |---|---|
