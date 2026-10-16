@@ -6,7 +6,7 @@ product_v2:
     internal-label: "Customer Journey Analytics"
 usetq: true
 type: Documentation
-git-repo: https://github.com/AdobeDocs/analytics-platform.en
+git-repo: https://github.com/AdobeDocs/analytics-platform.it-IT
 description: Questo file include metadati a livello di repository che passano attraverso i file TOC.md della guida utente nel repository.
 feature-set: Customer Journey Analytics
 landing-page-name: customer-journey-analytics
