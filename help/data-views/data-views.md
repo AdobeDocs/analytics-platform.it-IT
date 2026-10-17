@@ -37,7 +37,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 87%
@@ -91,7 +91,7 @@ Le visualizzazioni dati consentono di modificare spontaneamente le impostazioni 
 
 * Puoi rinominare i contenitori di una visualizzazione dati e far sì che i contenitori rinominati emergano in qualsiasi progetto Workspace basato su tale visualizzazione dati.
 
-* Puoi abilitare o disabilitare Data Insights Agent per una visualizzazione dati.
+* Puoi abilitare o disabilitare Data Insights Agent per una visualizzazione dati. <!-- FOLLOW-UP: Data Insights Agent has been replaced by Coworker, but this setting is still in the UI. Confirm with the SME. -->
 
 ## Prerequisiti per le visualizzazioni dati {#prerequisites}
 

@@ -70,10 +70,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2a01268e537fb7982f698ccf9c14b831edf8437f
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
 source-wordcount: '1764'
-ht-degree: 74%
+ht-degree: 73%
 ---
 # Controllo degli accessi
 
@@ -191,6 +191,8 @@ La scheda **[!UICONTROL Autorizzazioni]** fa parte di ciascun profilo di prodott
 
 ![autorizzazioni di admin console](assets/permissions.png)
 
+<!-- FOLLOW-UP (waiting on PM): The AI Assistant: Product Knowledge and Data Insights Agent permissions haven't been updated in the product yet. When the PM confirms the Coworker permission name and category, update both rows below. Links to the retired AI Assistant and Data Insights Agent pages were removed. -->
+
 | Categoria | Autorizzazione | Descrizione |
 | --- | --- | ---|
 | [!UICONTROL Visualizzazioni dati] | *nome visualizzazione dati* | Se imposti l&#39;opzione **[!UICONTROL Inclusione automatica]** su **[!UICONTROL Attiva]**, gli utenti che fanno parte di questo profilo di prodotto possono visualizzare tutte le visualizzazioni di dati esistenti e appena create. Se questa impostazione è impostata su **[!UICONTROL Disattiva]**, puoi selezionare visualizzazioni dati specifiche a cui gli utenti hanno accesso. |
@@ -205,8 +207,8 @@ La scheda **[!UICONTROL Autorizzazioni]** fa parte di ciascun profilo di prodott
 | [!UICONTROL Strumenti di reporting] | [!UICONTROL Accesso a registri di audit] | Applica il controllo delle autorizzazioni all’[API](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) e all’interfaccia utente dei registri di audit. |
 | [!UICONTROL Strumenti di reporting] | [!UICONTROL Condividi i collegamenti al progetto con chiunque] | Consente agli utenti [di condividere i progetti con chiunque.](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
 | [!UICONTROL Strumenti di reporting] | [!UICONTROL Previsione] | Consente agli utenti di accedere alla funzione [Previsione](../analysis-workspace/c-forecast/forecasting.md) in Analysis Workspace |
-| [!UICONTROL Strumenti di reporting] | [!UICONTROL Assistente IA: conoscenza del prodotto] | Consente agli utenti di accedere all’[Assistente IA](../ai-assistant.md) per conoscere il prodotto. |
-| [!UICONTROL Strumenti di reporting] | [!UICONTROL Agente Data Insights] | Consenti agli utenti di accedere a [Data Insights Agent](../data-analysis-ai.md) per approfondimenti sui dati basati sull&#39;intelligenza artificiale. |
+| [!UICONTROL Strumenti di reporting] | [!UICONTROL Assistente IA: conoscenza del prodotto] | Consenti agli utenti di accedere all’Assistente all’intelligenza artificiale per conoscere il prodotto. |
+| [!UICONTROL Strumenti di reporting] | [!UICONTROL Agente Data Insights] | Consenti agli utenti di accedere a Data Insights Agent per approfondimenti sui dati basati sull’intelligenza artificiale. |
 | [!UICONTROL Strumenti di reporting] | [!UICONTROL Didascalie intelligenti] | Consente agli utenti di accedere a [Didascalie intelligenti](/help/analysis-workspace/visualizations/intelligent-captions.md). |
 | [!UICONTROL Strumenti di reporting] | [!UICONTROL Accesso MCP] | Consenti agli utenti di accedere al server [Customer Journey Analytics MCP](https://developer.adobe.com/analytics-mcp/docs/cja/). |
 | [!UICONTROL Strumenti di visualizzazione dati] | [!UICONTROL Esportazione tabella completa] | Consente agli utenti di [esportare tabelle complete nel cloud](/help/analysis-workspace/export/export-cloud.md). |

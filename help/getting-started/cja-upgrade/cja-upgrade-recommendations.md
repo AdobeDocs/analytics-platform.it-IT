@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '3372'
+source-wordcount: '3367'
 ht-degree: 94%
 ---
 # Aggiornare da Adobe Analytics a Customer Journey Analytics
@@ -187,7 +187,7 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
    Utilizza [il modello di funzione canali di marketing](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"} nei campi derivati per creare rapidamente un campo derivato per i canali di marketing.
 
-1. [Confronta i dati in Adobe Analytics dalla vecchia implementazione con i dati in Customer Journey Analytics dalla nuova implementazione](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja) e accertati di comprendere le eventuali differenze e il motivo per cui esistono.
+1. [Confronta i dati in Adobe Analytics dalla vecchia implementazione con i dati in Customer Journey Analytics dalla nuova implementazione](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aa-cja) e accertati di comprendere le eventuali differenze e il motivo per cui esistono.
 
 1. Acquisisci dati storici da Adobe Analytics utilizzando il connettore di origine Analytics:
 

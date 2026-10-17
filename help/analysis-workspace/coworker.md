@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 8b1f9d95fb38c0fcb1a7f3d9b41bf3cfb9355ed9
+source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1945'
 ht-degree: 0%
 ---
 # Utilizzare l’esperienza interna al prodotto per il collaboratore
@@ -42,13 +42,15 @@ L’esperienza interna al prodotto per Collaboratore è disponibile in un pannel
 
   Se non riesci ad accedere a Collaboratore in Workspace, contatta l’amministratore. Per ulteriori informazioni, consulta [Preferenze organizzazione IMS](/help/analysis-workspace/user-preferences.md#ims-organization-preferences). <!-- need to update this section with the new toggle -->
 
-<!-- **[PLACEHOLDER: Permissions and product profile requirements. Include the Admin Console steps to grant access, if applicable.]** -->
+<!-- FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME. -->
+
+* **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Collaboratore]** determina l&#39;accesso a Collaboratore. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve aggiungere questa autorizzazione al tuo profilo di prodotto. Per ulteriori informazioni, vedere [Controllo degli accessi](/help/technotes/access-control.md#access-control).
 
 * **Accesso alla visualizzazione dati**: il collaboratore utilizza le autorizzazioni esistenti per Analysis Workspace e la visualizzazione dati. Non può accedere a dati o componenti a cui non hai già accesso.
 
 ### Scegliere tra Collaboratore in Workspace e l’applicazione Collaboratore
 
-L&#39;esperienza interna al prodotto per Coworker ha molte delle stesse funzionalità dell&#39;[applicazione CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/chat/analytics-chat), incluse le abilità a cui hai accesso. Tuttavia, esistono importanti differenze che determinano quando è possibile utilizzare uno rispetto all’altro:
+L&#39;esperienza interna al prodotto per Coworker ha molte delle stesse funzionalità dell&#39;[applicazione CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/analytics-chat), incluse le abilità a cui hai accesso. Tuttavia, esistono importanti differenze che determinano quando è possibile utilizzare uno rispetto all’altro:
 
 | | Esperienza nel prodotto per il collaboratore | Applicazione di collaborazione |
 | --- | --- | --- |
@@ -112,7 +114,7 @@ Quando chiedi a Collaboratore di creare o modificare qualcosa nel progetto, il p
 
 1. In Customer Journey Analytics, apri un progetto Workspace esistente o creane uno nuovo.
 
-1. **[SEGNAPOSTO: come aprire il pannello Collaboratore, ad esempio il nome e la posizione dell&#39;icona. Aggiungi uno screenshot.]**
+1. Seleziona l&#39;icona **Collaboratore** ![Chiedi a Collaboratore](/help/assets/icons/coworker.svg) nell&#39;angolo superiore destro dell&#39;intestazione di aprire il pannello di chat di Collaboratore.
 
 1. Nel pannello chat, descrivi cosa desideri fare in Collaboratore.
 
@@ -147,7 +149,7 @@ Quando fai domande su un progetto, Collaboratore risponde nel pannello di chat. 
 
 1. In Customer Journey Analytics, apri un progetto Workspace esistente o creane uno nuovo.
 
-1. **[SEGNAPOSTO: come aprire il pannello Collaboratore, ad esempio il nome e la posizione dell&#39;icona. Aggiungi uno screenshot.]**
+1. Seleziona l&#39;icona **Collaboratore** ![Chiedi a Collaboratore](/help/assets/icons/coworker.svg) nell&#39;angolo superiore destro dell&#39;intestazione di aprire il pannello di chat di Collaboratore.
 
 1. Nel pannello chat, descrivi cosa desideri fare in Collaboratore.
 
