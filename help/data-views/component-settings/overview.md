@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Experimentation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 6283ecbeab12a19fd5b7229dff772afaaedf3296
 workflow-type: tm+mt
-source-wordcount: '4127'
+source-wordcount: '4133'
 ht-degree: 49%
 ---
 # Impostazioni dei componenti {#component-settings}
@@ -51,7 +51,7 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="dataview_component_settings"
 >title="Impostazioni dei componenti"
->abstract="Visualizza e configura nome, descrizione e altre impostazioni relative a un componente. Seleziona questa casella affinché il componente non sia visibile nei rapporti per utenti non amministratori. Gli amministratori possono comunque accedere al componente selezionando **[!UICONTROL Mostra tutti i componenti]** in un progetto Workspace."
+>abstract="Visualizza e configura nome, descrizione e altre impostazioni relative a un componente. Seleziona questa casella per nascondere questo componente agli utenti non amministratori nell’interfaccia di Analysis Workspace. Gli amministratori possono comunque accedere al componente selezionando **[!UICONTROL Mostra tutti i componenti]** in un progetto Workspace."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -83,7 +83,7 @@ Le informazioni seguenti descrivono le impostazioni utilizzate da un componente 
 | [!UICONTROL ID componente] | Obbligatorio. L’[API Customer Journey Analytics](https://www.adobe.io/cja-apis/docs) utilizza questo campo per fare riferimento al componente. Ogni componente in una visualizzazione dati deve essere univoco. Adobe genera automaticamente un ID per ogni componente; tuttavia, puoi fare clic sull’icona di modifica e modificare l’ID del componente. La modifica dell’ID del componente interrompe tutti i progetti Workspace esistenti che contengono questo componente. Sebbene ogni componente abbia bisogno di un ID univoco in una singola visualizzazione dati, puoi usare lo stesso ID componente in altre visualizzazioni dati. Se utilizzi lo stesso ID componente in altre visualizzazioni dati, puoi rendere i progetti Workspace compatibili tra le visualizzazioni dati. <br/>Per i componenti basati su profilo e ricerca, l’ID componente ha un prefisso ID basato su quello del set di dati (ad esempio: `642b28fcc1f0ee1c074265a0.person.name.firstName`). Se desideri riutilizzare un profilo o un componente basato sulla ricerca, ad esempio `person.name.firstName` nel progetto Workspace, configurando questo componente in diverse visualizzazioni dati, assicurati di rinominare l’ID componente in modo univoco (ad esempio: `myUniqueID.person.name.firstName`) nelle visualizzazioni dati. |
 | [!UICONTROL Percorso] | Obbligatorio. Un campo non modificabile che mostra il percorso dello schema da cui proviene il componente. |
 | [!UICONTROL Etichette di utilizzo dati] | Tutte le etichette di utilizzo dei dati assegnate a questo componente in Adobe Experience Platform. [Ulteriori informazioni](/help/data-views/data-governance.md). |
-| [!UICONTROL Nascondi componente nel reporting] | Consentono di eliminare il componente dalla visualizzazione dati per i non amministratori. Gli amministratori possono comunque accedervi facendo clic su [!UICONTROL Mostra tutti i componenti] in un progetto Analysis Workspace. |
+| [!UICONTROL Nascondi componente nel reporting] | Impedisce agli utenti senza diritti di amministratore di accedere al componente in Analysis Workspace. Gli amministratori possono comunque accedervi facendo clic su [!UICONTROL Mostra tutti i componenti]. Questa impostazione si applica solo all&#39;interfaccia di Analysis Workspace e non limita l&#39;accesso tramite le [API CJA](https://developer.adobe.com/cja-apis/docs/). |
 
 {style="table-layout:auto"}
 
@@ -91,7 +91,7 @@ Le informazioni seguenti descrivono le impostazioni utilizzate da un componente 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Impostazioni del tipo di componente](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/component-type-settings-in-data-views){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -106,9 +106,9 @@ Le etichette di contesto funzionano a livello di componente (dimensione o metric
 
 Per motivi di praticità, le etichette di contesto predefinite intelligenti vengono applicate automaticamente ai componenti in base ai campi con un percorso XDM specifico. Ad esempio, l&#39;etichetta di contesto **[!UICONTROL Commerce: categoria prodotto]** viene applicata automaticamente a una dimensione **[!UICONTROL Nome categoria]** basata sul percorso dello schema `productListItems.productCategories.categoryName`. Tuttavia, puoi spostare l’etichetta di contesto in un componente diverso senza alcun problema.
 
-Per semplificare i modelli di progetto forniti da Adobe, diverse integrazioni (come Journey Optimizer, Content Analytics e altro) impostano le visualizzazioni dati in cui i componenti predefiniti sono costruiti in un modo specifico. E le etichette di contesto appropriate vengono applicate automaticamente. Di nuovo, puoi semplicemente spostare una qualsiasi di queste etichette di contesto in altri componenti creati nella visualizzazione dati e viene utilizzato il componente personalizzato.
+Per semplificare i modelli di progetto forniti da Adobe, diverse integrazioni (come Journey Optimizer, Content Analytics e altro) configurano le visualizzazioni dati e aggiungono etichette di contesto ai componenti precostruiti. Puoi spostare una qualsiasi di queste etichette di contesto in altri componenti creati nella visualizzazione dati e viene utilizzato il componente personalizzato.
 
-Le etichette di contesto sono importanti anche per la divulgazione dei modelli di progetto. I modelli di progetto realizzano rapidamente le basi per la generazione di rapporti per diversi casi d’uso specifici. Tuttavia, non tutti i modelli hanno senso per ogni visualizzazione dati e non desideri mostrare modelli non applicabili. Le etichette di contesto vengono utilizzate per mostrare i modelli a seconda che le etichette di contesto siano incluse o meno nella visualizzazione dati selezionata.  Puoi semplicemente aggiungere più etichette di contesto alla visualizzazione dati (componenti) e rendere disponibili più modelli. In alternativa, rimuovi le etichette di contesto per nascondere modelli specifici.
+Le etichette di contesto sono importanti anche per la divulgazione dei modelli di progetto. I modelli di progetto realizzano rapidamente le basi per la generazione di rapporti per diversi casi d’uso specifici. Tuttavia, non tutti i modelli sono applicabili a ogni visualizzazione dati e non desideri mostrare modelli non applicabili. Le etichette di contesto vengono utilizzate per mostrare i modelli a seconda che le etichette di contesto siano incluse o meno nella visualizzazione dati selezionata.  Puoi aggiungere più etichette di contesto alla visualizzazione dati (componenti) e rendere disponibili più modelli. In alternativa, è possibile rimuovere le etichette di contesto per nascondere modelli specifici.
 
 >[!NOTE]
 >
@@ -127,11 +127,11 @@ I vantaggi delle etichette di contesto sono:
 
 Le etichette di contesto possono essere necessarie nelle seguenti situazioni:
 
-* Per definire un set di componenti, puoi utilizzare nei rapporti sulla sperimentazione utilizzando il [Pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md) nei progetti Analysis Workspace.
+* Per definire un set di componenti da utilizzare nei rapporti sulla sperimentazione utilizzando il [pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md) nei progetti Analysis Workspace.
 
   Per ulteriori informazioni, consulta [Integrare con Journey Optimizer](/help/integrations/ajo.md#data-view) e [Reportistica di destinazione](/help/integrations/at.md).
 
-* Per definire un set di componenti, puoi utilizzare la visualizzazione [Mappa](/help/analysis-workspace/visualizations/map.md) nei progetti Analysis Workspace.
+* Per definire un set di componenti puoi utilizzare la visualizzazione [Mappa](/help/analysis-workspace/visualizations/map.md) nei progetti Analysis Workspace.
 
   Per ulteriori informazioni, vedere [Aggiungere etichette di contesto nelle visualizzazioni dati](/help/analysis-workspace/visualizations/map.md#add-context-labels-in-data-views) in [Mappa](/help/analysis-workspace/visualizations/map.md).
 
@@ -187,19 +187,19 @@ Sono disponibili i seguenti gruppi di etichette di contesto, ciascuno con un ele
 
 | Nome | Descrizione |
 |------|-------------|
-| [ID contenuto](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/content) | L’identificatore univoco del contenuto in fase di riproduzione. Abilita il pulsante di scelta **[!UICONTROL ID contenuto]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Tempo contenuto trascorso](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/content-time-spent) | Tempo impiegato per visualizzare il contenuto, esclusi gli annunci. Abilita l&#39;impostazione avanzata **[!UICONTROL Tempo contenuto trascorso]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Episodio](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/episode) | Numero dell’episodio in una serie. Abilita il filtro per episodio nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [ID contenuto](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content) | L’identificatore univoco del contenuto in fase di riproduzione. Abilita il pulsante di scelta **[!UICONTROL ID contenuto]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Tempo contenuto trascorso](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent) | Tempo impiegato per visualizzare il contenuto, esclusi gli annunci. Abilita l&#39;impostazione avanzata **[!UICONTROL Tempo contenuto trascorso]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Episodio](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode) | Numero dell’episodio in una serie. Abilita il filtro per episodio nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
 | Tipo evento | Il tipo di evento multimediale, ad esempio `media.play` o `media.ping`. Obbligatorio per Customer Journey Analytics per calcolare la metrica derivata da [Visualizzatori simultanei di contenuti multimediali](/help/analysis-workspace/c-panels/media-concurrent-viewers.md). |
-| [Tempo trascorso contenuti multimediali](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/media-time-spent) | Tempo totale inclusi contenuti, annunci, buffering e pausa. Attiva l&#39;impostazione avanzata [Tempo di riproduzione trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md) e **[!UICONTROL Tempo trascorso]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Stagione](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/season) | Numero della stagione in una serie. Abilita il filtro per stagione nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Tempo trascorso contenuti multimediali](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent) | Tempo totale inclusi contenuti, annunci, buffering e pausa. Attiva l&#39;impostazione avanzata [Tempo di riproduzione trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md) e **[!UICONTROL Tempo trascorso]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Stagione](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season) | Numero della stagione in una serie. Abilita il filtro per stagione nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
 | Secondi trascorsi dall’ultima chiamata | Tempo in secondi dal ping heartbeat precedente. Necessario affinché Customer Journey Analytics possa calcolare la metrica derivata da [Visualizzatori simultanei di contenuti multimediali](/help/analysis-workspace/c-panels/media-concurrent-viewers.md) che identifica quando una sessione è ancora attiva. |
-| [Mostra](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/show) | Il nome del programma o della serie. Abilita il filtro per visualizzazione nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Ora di inizio](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/time-to-start) | Tempo trascorso dalla selezione del contenuto all’inizio della riproduzione. Incluso nel calcolo del tempo di riproduzione [dei contenuti multimediali trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
-| [Durata totale buffer](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | Tempo totale impiegato per il buffering durante una sessione. Incluso nel calcolo del tempo di riproduzione [dei contenuti multimediali trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
-| [Durata totale pausa](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/total-pause-duration) | Tempo totale trascorso in pausa durante una sessione. Incluso nel calcolo del tempo di riproduzione [dei contenuti multimediali trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
-| [Lunghezza video](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/content-length) | Durata del contenuto in secondi. Richiesto per la modalità **[!UICONTROL Contenuto specifico]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
-| [Nome video](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/content-name) | Nome visualizzato del contenuto. Abilita il pulsante di scelta **[!UICONTROL Nome video]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Mostra](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show) | Il nome del programma o della serie. Abilita il filtro per visualizzazione nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Ora di inizio](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start) | Tempo trascorso dalla selezione del contenuto all’inizio della riproduzione. Incluso nel calcolo del tempo di riproduzione [dei contenuti multimediali trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
+| [Durata totale buffer](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration) | Tempo totale impiegato per il buffering durante una sessione. Incluso nel calcolo del tempo di riproduzione [dei contenuti multimediali trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
+| [Durata totale pausa](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration) | Tempo totale trascorso in pausa durante una sessione. Incluso nel calcolo del tempo di riproduzione [dei contenuti multimediali trascorso](/help/analysis-workspace/c-panels/media-playback-time-spent.md). |
+| [Lunghezza video](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | Durata del contenuto in secondi. Richiesto per la modalità **[!UICONTROL Contenuto specifico]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| [Nome video](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | Nome visualizzato del contenuto. Abilita il pulsante di scelta **[!UICONTROL Nome video]** nel pannello [Pubblico medio per minuto](/help/analysis-workspace/c-panels/average-minute-audience-panel.md). |
 
 +++
 
