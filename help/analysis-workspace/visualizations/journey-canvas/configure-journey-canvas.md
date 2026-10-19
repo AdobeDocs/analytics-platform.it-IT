@@ -39,7 +39,7 @@ topic_v2:
 source-git-commit: 4cdf80f86cea6a60e3b098c6efbaab0821a256c7
 workflow-type: tm+mt
 source-wordcount: '7372'
-ht-degree: 82%
+ht-degree: 83%
 ---
 # Configurare una visualizzazione dell’area di lavoro del percorso
 
@@ -150,7 +150,7 @@ Per ulteriori informazioni sull’area di lavoro del percorso, consulta [Panoram
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_compare_percentages"
 >title="Confronta percentuali"
->abstract="Confronta la modifica percentuale su ciascun nodo, freccia e fallout nel percorso tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica principale. Quando questa opzione è disattivata, viene visualizzata la percentuale del valore non elaborato anziché la variazione percentuale."
+>abstract="Confronta la variazione percentuale di ciascun nodo, freccia e fallout nel percorso tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica primaria. Quando questa opzione è disabilitata, viene visualizzata la percentuale del valore non elaborato anziché la variazione percentuale."
 
 <!-- markdownlint-enable MD034 -->
 

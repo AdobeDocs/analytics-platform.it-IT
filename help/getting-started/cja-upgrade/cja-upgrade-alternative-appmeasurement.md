@@ -41,7 +41,7 @@ topic_v2:
 source-git-commit: 614a234f8db9783dacaf9d2f3c21a5afd5ea02ef
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 55%
+ht-degree: 56%
 ---
 # Alternativa di aggiornamento: utilizzare la raccolta dati di AppMeasurement con Experience Platform Web SDK e Customer Journey Analytics {#data-collection-appmeasurement}
 
@@ -59,7 +59,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-appmeasurement-logic-step"
 >title="Modificare la logica di AppMeasurement in modo che punti a Web SDK"
->abstract="Questo passaggio viene visualizzato perché hai scelto di prendere una scorciatoia per l’implementazione. Copia o modifica la logica di AppMeasurement per popolare l’oggetto dati anziché l’oggetto s. Ad esempio, cambia l’assegnazione di s.eVar1 in data.__adobe.analytics.eVar1 e ripeti l’operazione per tutte le variabili di Analytics."
+>abstract="Questo passaggio viene visualizzato perché hai adottato una scelta rapida per l’implementazione. Copia o modifica la logica di AppMeasurement per popolare l’oggetto dati anziché l’oggetto s. Ad esempio, cambia l’assegnazione di s.eVar1 in data.__adobe.analytics.eVar1 e ripeti l’operazione per tutte le variabili di Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -101,7 +101,7 @@ I passaggi di base per la migrazione di un’implementazione di Adobe Analytics 
 
    1. Invia tutte le variabili in formato AppMeasurement tramite l’oggetto dati.
 
-      Se invii questi dati anche ad Adobe Analytics, Edge Network mappa automaticamente questi campi dell’oggetto dati sulle variabili di Adobe Analytics. Per l&#39;elenco dei campi supportati, vedere [Mappatura dei campi dell&#39;oggetto dati su Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/data-var-mapping). Customer Journey Analytics non utilizza queste mappature. In un passaggio successivo, mappi i campi dell’oggetto dati sullo schema XDM per Customer Journey Analytics.
+      Se invii questi dati anche ad Adobe Analytics, Edge Network mappa automaticamente questi campi dell’oggetto dati sulle variabili di Adobe Analytics. Per l&#39;elenco dei campi supportati, vedere [Mappatura dei campi dell&#39;oggetto dati su Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/data-var-mapping). Customer Journey Analytics non utilizza queste mappature. In un passaggio successivo, mappi i campi dell’oggetto dati sullo schema XDM per Customer Journey Analytics.
 
    1. Scegli lo schema.
 
@@ -127,7 +127,7 @@ I passaggi di base per la migrazione di un’implementazione di Adobe Analytics 
 
    1. Utilizza la mappatura dello stream di dati per mappare tutti i campi nell’oggetto dati sullo schema XDM.
 
-      Customer Journey Analytics può utilizzare solo i campi dell’oggetto dati mappati sullo schema. Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
+      Customer Journey Analytics può utilizzare solo i campi dell’oggetto dati mappati sullo schema. Per ulteriori informazioni, consulta [Mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep?lang=en#mapping) in [Preparazione per la raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep) nella documentazione di Experience Platform.
 
 {{upgrade-final-step}}.
 
