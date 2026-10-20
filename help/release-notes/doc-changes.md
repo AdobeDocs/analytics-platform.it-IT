@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: 0932da0728fd386c366b3c9b3cec45115f4e7e4b
 workflow-type: tm+mt
-source-wordcount: '7309'
-ht-degree: 95%
+source-wordcount: '7341'
+ht-degree: 94%
 ---
 
 # Customer Journey Analytics - Aggiornamenti della documentazione
@@ -70,6 +70,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 |---|---|
 | **Ottobre 2026** | |
+| Navigazione tramite tastiera per le colonne della tabella | È stato documentato come [ridimensionare](/help/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) e [ridisporre](/help/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns) le colonne della tabella in Analysis Workspace utilizzando la tastiera, incluso il feedback dell&#39;assistente vocale. Ai tasti di scelta rapida è stata aggiunta anche una sezione [Azioni colonna tabella](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions). |
 | Assistente AI e Data Insights Agent sostituiti da Collaboratore | Sono stati rimossi gli articoli di AI Assistant e Data Insights Agent. Adobe CX Enterprise Coworker sostituisce entrambe le funzionalità. Per ulteriori informazioni, consulta [Analizzare i dati con Chat con coworking](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/analytics-overview). È stato aggiornato anche il [supporto delle funzionalità di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md#cja-not-aa) per riflettere la modifica. |
 | Canale multimediale a pagamento Content Analytics | [documentazione](/help/content-analytics/config/paid-media.md) completa sulla configurazione automatica dei set di dati e dei componenti della visualizzazione dati risultante dall&#39;utilizzo di un connettore di origine di file multimediali a pagamento (come Google Ads o Meta Ads) e dalla configurazione e attivazione del canale Content Analytics Paid Media. |
 | Approfondimenti conversazione | [Documentazione](/help/conversation-insights/overview.md) per Informazioni sulla conversazione. |

@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 77f5caf20d2bf391563de20a572ce100cdcca61e
 workflow-type: tm+mt
 source-wordcount: '3924'
-ht-degree: 9%
+ht-degree: 17%
 ---
 # Creare un feed di dati
 
@@ -70,7 +70,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_frequency_granularity"
 >title="Frequenza e granularità"
->abstract="**Frequenza di consegna** (feed live): la frequenza con cui viene consegnato il feed di dati. Le consegne orarie contengono dati della durata di un’ora, mentre quelle giornaliere contengono dati della durata di un giorno. Anche l’intervallo di date del lookback e il ritardo di elaborazione possono influenzare gli eventi inclusi.<p>**Granularità** (feed di backfill): intervallo di tempo utilizzato per dividere i dati storici. Ogni blocco contiene un giorno di dati e viene consegnato il più rapidamente possibile, non una volta al giorno. Questo campo è sempre impostato su Giornaliero e non può essere modificato.</p>"
+>abstract="**Frequenza di consegna** (feed live): frequenza con cui viene consegnato il feed di dati. Le consegne orarie contengono i dati relativi a un’ora, mentre quelle giornaliere contengono i dati relativi a un giorno. Anche l’intervallo di date di lookback e il ritardo di elaborazione possono influire su quali eventi vengono inclusi.<p>**Granularità** (feed di retrocompilazione): intervallo di tempo utilizzato per dividere i dati storici. Ogni blocco contiene i dati relativi a un giorno e viene consegnato il più rapidamente possibile, non una sola volta al giorno. Questo campo è sempre impostato su Giornaliero e non può essere modificato.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -166,7 +166,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | [!UICONTROL **Frequenza**]<br/> Disponibile solo per feed live | Seleziona la frequenza con cui inviare il feed di dati. Gli eventi con marche temporali che rientrano nella finestra di frequenza sono inclusi nella consegna del feed di dati. I campi [!UICONTROL **Intervallo date di lookback**] e [!UICONTROL **Ritardo elaborazione**] possono anche influenzare gli eventi inclusi nei dati per la frequenza di consegna scelta.<p>Selezionare questa opzione per includere dati relativi a un&#39;ora o a un giorno.</p><ul><li>**Giornaliero**: i feed contengono dati relativi a un intero giorno, dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati.</li><li>**Oraria**: i feed contengono dati relativi a una sola ora.</li></ul> |
    | [!UICONTROL **Granularità**]<br/> Disponibile solo per i feed di backfill | Intervallo di tempo utilizzato per suddividere i dati storici in blocchi. Ogni blocco contiene dati relativi a un’intera giornata, dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati. <p>La granularità determina il modo in cui i dati vengono raggruppati, non la frequenza con cui vengono consegnati. I dati di backfill vengono consegnati il più rapidamente possibile, non una volta al giorno.</p><p>Questo campo è sempre impostato su [!UICONTROL **Giornaliero**] e non può essere modificato.</p> |
    | [!UICONTROL **Intervallo date lookback**] | Controlla quanto Customer Journey Analytics deve risalire indietro nel tempo durante l’elaborazione della consegna del feed dati. Il valore predefinito è 30 giorni.<p>La finestra di frequenza (ora o giorno) determina quali eventi sono inclusi nel feed di dati, mentre l’**intervallo di date di lookback** fornisce il contesto storico necessario per classificare correttamente tali eventi.</p><p>Qualificazione segmento, persistenza delle dimensioni, calcolo delle sessioni e trasformazioni dei campi derivati possono influenzare tutti gli eventi inclusi.</p> <p>Prima di configurare questa opzione, consulta i dettagli e gli esempi descritti nella sezione seguente, [Comprendere l&#39;intervallo di date del lookback](#data-feed-lookback-date-range).</p> |
-   | [!UICONTROL **Ritardo elaborazione**] | Scegli la quantità di tempo che Customer Journey Analytics attende prima di elaborare un file di feed dati. Eventuali eventi in ritardo che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati. <p>Il ritardo minimo di elaborazione è di 2 ore, ma alcuni tipi di dati richiedono un ritardo più lungo. Il ritardo scelto dipende dai tipi di dati presenti nella connessione, ad esempio dati di streaming, batch, uniti, ricerca o profilo.</p><p>Scegli un ritardo sufficientemente lungo per consentire il completamento dell’elaborazione dei dati più lenti nella connessione. Se il ritardo è troppo breve, i dati in fase di elaborazione non vengono inclusi nel file di feed dati.</p><p>Prima di configurare questa opzione, consulta i dettagli e gli esempi descritti nella sezione seguente, [Comprendere il ritardo di elaborazione](#data-feed-processing-delay).</p> |
+   | [!UICONTROL **Ritardo elaborazione**] | Scegli la quantità di tempo che Customer Journey Analytics attende prima di elaborare un file di feed dati. Nel feed di dati sono inclusi eventuali eventi che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati. <p>Il ritardo di elaborazione minimo è di 2 ore, ma alcuni tipi di dati richiedono un ritardo maggiore. Il ritardo scelto dipende dai tipi di dati presenti nella connessione, ad esempio dati di streaming, batch, uniti, ricerca o profilo.</p><p>Scegli un ritardo sufficientemente lungo per consentire il completamento dell’elaborazione dei dati più lenti nella connessione. Se il ritardo è troppo breve, i dati ancora in fase di elaborazione non verranno inclusi nel file del feed di dati.</p><p>Prima di configurare questa opzione, consulta i dettagli e gli esempi descritti nella sezione seguente, [Comprendere il ritardo di elaborazione](#data-feed-processing-delay).</p> |
    | [!UICONTROL **Formato di compressione**] | Seleziona il formato di compressione per i file di output Parquet consegnati alla destinazione cloud. Scegli uno dei seguenti formati:<ul><li>[!UICONTROL **Snappy**]: compressione e decompressione veloci con dimensioni file moderate. Ampiamente supportato da piattaforme di dati moderne come BigQuery, Snowflake e Apache Spark.</li><li>[!UICONTROL **GZip**]: ampiamente compatibile, anche con strumenti che non supportano Snappy in modalità nativa. Consigliato se la pipeline a valle richiede uno standard di compressione ampiamente riconosciuto.</li><li>[!UICONTROL **Z Standard (Zstd)**]: elevata efficienza di compressione con decompressione rapida. Adatto se la riduzione delle dimensioni del file è una priorità e i tuoi strumenti supportano Zstd.</li></ul> |
 
 1. Nella scheda [!UICONTROL **Consegna**], nella sezione [!UICONTROL **Destinazione**], configura la destinazione in cui desideri inviare i dati.
@@ -289,18 +289,18 @@ Qualsiasi funzione di campo derivata che fa riferimento a contenitori utilizza l
 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_processing_delay"
->title="Ritardo nell’elaborazione"
->abstract="Il tempo che Customer Journey Analytics attende prima di elaborare un file di feed dati. Eventuali eventi in ritardo che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati.<p>Il ritardo minimo di elaborazione è di 2 ore, ma alcuni tipi di dati richiedono un ritardo più lungo. Scegli un ritardo sufficiente affinché i dati più lenti nella connessione arrivino nel data lake di Experience Platform e vengano acquisiti in Customer Journey Analytics. Se il ritardo è troppo breve, i dati in fase di elaborazione non vengono inclusi nel file di feed dati.</p><p>L’unione può aggiungere fino a 4 ore. Per tenere conto di questo, aggiungi 4 ore al ritardo per eventuali dati uniti.</p>"
+>title="Ritardo di elaborazione"
+>abstract="Il periodo di tempo che Customer Journey Analytics attende prima di elaborare un file del feed dati. Nel feed di dati sono inclusi eventuali eventi che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati.<p>Il ritardo di elaborazione minimo è di 2 ore, ma alcuni tipi di dati richiedono un ritardo maggiore. Scegli un ritardo sufficientemente lungo da consentire ai dati più lenti nella connessione di rete di arrivare nel data lake di Experience Platform e di essere acquisiti in Customer Journey Analytics. Se il ritardo è troppo breve, i dati ancora in fase di elaborazione non verranno inclusi nel file del feed di dati.</p><p>L’unione delle identità può richiedere fino a 4 ore. Aggiungi 4 ore al ritardo per eventuali dati con identità unite, in modo da compensare questo intervallo di tempo.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
 ### Funzionamento del ritardo di elaborazione
 
-Il ritardo di elaborazione è il tempo che Customer Journey Analytics attende prima di elaborare un file di feed dati. Eventuali eventi in ritardo che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati.
+Il ritardo di elaborazione è il tempo che Customer Journey Analytics attende prima di elaborare un file di feed dati. Nel feed di dati sono inclusi eventuali eventi che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati.
 
 I ritardi di elaborazione sono necessari per vari motivi, ad esempio per tenere conto della latenza della pipeline, per dare alle implementazioni mobili l’opportunità ai dispositivi offline di connettersi e inviare dati o per adattarsi ai processi lato server della tua organizzazione nella gestione dei file elaborati in precedenza.
 
-Il ritardo minimo di elaborazione è di 2 ore, ma alcuni tipi di dati richiedono un ritardo più lungo.
+Il ritardo di elaborazione minimo è di 2 ore, ma alcuni tipi di dati richiedono un ritardo maggiore.
 
 >[!BEGINSHADEBOX]
 
@@ -314,7 +314,7 @@ Supponiamo che un feed di dati orario includa dati compresi tra le 13:00 e le 14
 
 Diversi tipi di dati richiedono tempi diversi per essere disponibili in Customer Journey Analytics. I dati attraversano due fasi di elaborazione e il tempo di ciascuna fase si aggiunge al totale.
 
-Scegli un ritardo di elaborazione sufficientemente lungo da consentire ai dati più lenti della connessione di completare entrambe le fasi. Se il ritardo è troppo breve, i dati in fase di elaborazione non vengono inclusi nel file di feed dati.
+Scegli un ritardo di elaborazione sufficientemente lungo da consentire ai dati più lenti della connessione di completare entrambe le fasi. Se il ritardo è troppo breve, i dati ancora in fase di elaborazione non verranno inclusi nel file del feed di dati.
 
 #### Fase 1: arrivo dei dati nel data lake di Experience Platform
 
@@ -356,7 +356,7 @@ I tempi di acquisizione dei dati variano a seconda che l’unione sia abilitata 
 
 Se la connessione include più tipi di dati, scegliere un ritardo che tenga conto dei dati più lenti. Nell’esempio seguente, sono circa 8 ore.
 
-L’unione può aggiungere fino a 4 ore per l’acquisizione in Customer Journey Analytics. Per tenere conto di questo, aggiungi 4 ore al ritardo per eventuali dati uniti.
+L’unione può aggiungere fino a 4 ore per l’acquisizione in Customer Journey Analytics. Aggiungi 4 ore al ritardo per eventuali dati con identità unite, in modo da compensare questo intervallo di tempo.
 
 | Origine dati | Fase 1: Arrivo nel data lake | Fase 2: acquisizione in Customer Journey Analytics | Totale |
 | --- | --- | --- | --- |
