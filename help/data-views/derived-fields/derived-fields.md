@@ -2114,8 +2114,8 @@ Desideri utilizzare il valore del parametro `cid` di una stringa di query in un 
 
 | [!DNL Page URL] |
 |----|
-| `https://www.adobe.com/?cid=abc123` |
-| `https://www.adobe.com/?em=email1234&cid=def123` |
+| `https://www.adobe.com/it/?cid=abc123` |
+| `https://www.adobe.com/it/?em=email1234&cid=def123` |
 | `https://www.adobe.com/landingpage?querystring1=test&test2=1234&cid=xyz123` |
 
 {style="table-layout:auto"}
