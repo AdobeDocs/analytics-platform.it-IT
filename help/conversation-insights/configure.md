@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: a02b8d1d6bae6ed8269668d49ed9559688001833
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 15%
+source-wordcount: '1185'
+ht-degree: 12%
 ---
 # Creare o modificare le configurazioni
 
@@ -64,7 +64,7 @@ Per ogni configurazione:
    | Campo | Descrizione |
    |---------|----------|
    | **[!UICONTROL Nome]** | Specifica un nome per la configurazione. |
-   | **[!UICONTROL Sandbox]** | Seleziona la sandbox di Experience Platform che contiene i set di dati di prompt, risposte ed eventi di feedback che desideri aggiungere alla connessione. |
+   | **[!UICONTROL Sandbox]** | Seleziona la sandbox di Experience Platform che contiene i set di dati di prompt, risposte ed eventi di feedback che desideri aggiungere alla connessione. Viene visualizzata una notifica se non sono disponibili set di dati compatibili per la sandbox selezionata. |
 
 1. Nella sezione **[!UICONTROL Set di dati]**, specifica le seguenti informazioni:
 
@@ -75,6 +75,13 @@ Per ogni configurazione:
    | **[!UICONTROL Richiede il set di dati evento]** | Seleziona il set di dati che contiene i dati dell’evento prompt. |
    | **[!UICONTROL Set di dati evento risposte]** | Seleziona il set di dati che contiene i dati dell’evento risposte. |
    | **[!UICONTROL Set di dati evento feedback]** | Seleziona il set di dati che contiene i dati dell’evento di feedback. |
+
+   Quando un set di dati contiene sia prompt che risposte, selezionare lo stesso set di dati per **[!UICONTROL Set di dati evento Prompts]** e **[!UICONTROL Set di dati evento Responses]**.
+
+   L&#39;opzione per [specificare le conversazioni di blend](#blend-specification) tramite **[!UICONTROL Configurare la specifica di blend]** è disponibile una sola volta:
+   * Configurazione completata.
+   * Sono disponibili tutti i set di dati.
+   * Hai [autorizzazioni Customer Journey Analytics per modificare le connessioni](/help/technotes/access-control.md).
 
 1. Nella sezione **[!UICONTROL Connessione]**, se non è già configurata alcuna connessione, utilizzare **[!UICONTROL Seleziona una connessione]** per selezionare una connessione.
 
@@ -123,10 +130,52 @@ Per ogni configurazione:
 
    * Seleziona **[!UICONTROL Esci]** per ignorare eventuali modifiche alla configurazione.
 
+## Specifica di fusione
+
+
+>[!CONTEXTUALHELP]
+>id="conversationinsights_blend_specification"
+>title="Configura specifica di fusione"
+>abstract="Puoi modificare la specifica di fusione solo dopo aver completato questa configurazione di Informazioni sulla conversazione, tutti i set di dati sono disponibili e disponi delle autorizzazioni di Customer Journey Analytics per modificare le connessioni."
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/access-control" text="Controllo degli accessi"
+
+
+>[!CONTEXTUALHELP]
+>id="conversationinsights_dataset_winner"
+>title="Set di dati vincitore"
+>abstract="Seleziona il set di dati che determina il valore per uno o più campi con nome corrispondente (se un contenitore) nel set di dati di conversazione blend."
+
+Dopo aver creato una configurazione, puoi configurare [il modo in cui vengono unite le conversazioni dai set di dati di prompt, risposte, feedback e segnali](/help/conversation-insights/overview.md#how-it-works).
+
+Questa specifica ti consente di selezionare il set di dati che determina il valore dei campi denominati in modo corrispondente (se un contenitore) nel set di dati di conversazione blend.
+
+Ad esempio: se desideri che il nome del campo **[!UICONTROL Prodotto da]** nel set di dati di conversazione misto sia definito da un campo denominato simile nel set di dati di feedback, seleziona **[!UICONTROL Set di dati di feedback]** dal menu a discesa **[!UICONTROL Vincitore set di dati]** per tale campo.
+
+Per specificare la conversazione di blend:
+
+1. Selezionare **[!UICONTROL Configura specifica blend]**.
+
+1. Nella finestra di dialogo **[!UICONTROL Specifica fusione]**, per ogni **[!UICONTROL Nome campo]**, controlla il **[!UICONTROL Vincitore set di dati]** suggerito e, facoltativamente, seleziona un set di dati diverso.
+
+   * Per ogni campo abilitato, selezionare un altro **[!UICONTROL vincitore del set di dati]**. Puoi selezionare tra **[!UICONTROL Set di dati Prompts]**, **[!UICONTROL Set di dati Responses]** e **[!UICONTROL Set di dati Feedback]**.
+   * Per ogni campo contenitore, è possibile selezionare un altro **[!UICONTROL vincitore del set di dati]** per aggiornare tutti i campi che appartengono al contenitore. Puoi selezionare tra **[!UICONTROL Set di dati Prompts]**, **[!UICONTROL Set di dati Responses]** e **[!UICONTROL Set di dati Feedback]**.
+   * Non puoi selezionare un **[!UICONTROL vincitore del set di dati]** per i campi condivisi tra i set di dati di conversazione (prompt, risposte, feedback e segnali). Questi campi fanno parte dei seguenti gruppi di campi:
+
+     | Nome campo: | Gruppo di campi | Set di dati vincitore |
+     |---|---|---|
+     | **[!UICONTROL prompt]** | `conversation.prompt.*` | **[!UICONTROL Richiede il set di dati]** |
+     | **[!UICONTROL risposta]** | `conversation.response.*` | **[!UICONTROL Set di dati risposte]** |
+     | **[!UICONTROL feedback]** | `conversation.feedback.*` | **[!UICONTROL Set di dati di feedback]** |
+     | **[!UICONTROL agentExperience]** | `agentExperience.*` | **[!UICONTROL Set di dati risposte]** |
+     | **[!UICONTROL segnali]** | `conversation.signals.*` | **[!UICONTROL Set di dati dei segnali]** |
+
+   * Nessuna selezione di **[!UICONTROL vincitori del set di dati]** è disponibile per campi di identità specifici, ad esempio **[!UICONTROL ID conversazione]** o **[!UICONTROL ID svolta]**.
+
+1. Seleziona **[!UICONTROL Salva]** per salvare la specifica. Selezionare **[!UICONTROL Annulla]** per annullare la specifica.
 
 ## Verifica della visualizzazione dati
 
-Le visualizzazioni dati configurate in [Passaggi di configurazione](#configuration-steps), hanno **[!UICONTROL Informazioni sulla conversazione]** come valore per **[!UICONTROL Integrazioni]** in [Visualizzazioni dati](/help/data-views/manage-dataviews.md).
+Le visualizzazioni dati configurate in [Passaggi di configurazione](#configuration-steps) hanno **[!UICONTROL Informazioni sulla conversazione]** come valore per **[!UICONTROL Integrazioni]** in [Visualizzazioni dati](/help/data-views/manage-dataviews.md).
 
 Per ciascuna delle visualizzazioni dati configurate:
 

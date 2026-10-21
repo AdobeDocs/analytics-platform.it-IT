@@ -24,9 +24,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 49795b40eab1fcd1bfd472ccb756587adf9877b8
+source-git-commit: 5f5e011198decd41ced888904b643d817959dab3
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1971'
 ht-degree: 18%
 ---
 # Abilitare l’unione delle identità
@@ -252,8 +252,6 @@ Per un’impostazione di connessione iniziale valida che viene salvata e contien
 * I dati live vengono inizialmente visualizzati in Customer Journey Analytics dopo alcune ore (meno di 14 ore). Nuovi dati live disponibili entro poche ore. I dati live iniziano con valori di marca temporale dell’evento che corrispondono al momento effettivo in cui l’abilitazione dell’unione è stata completata.
 
   Per garantire che i dati live inizino a fluire in, abilita l&#39;opzione **[!UICONTROL Importa tutti i nuovi dati]** per il set di dati.
-
-  I nuovi dati acquisiti nel set di dati dell’evento di origine di Experience Platform vengono visualizzati in Customer Journey Analytics entro quattro ore.
 
 * I dati precompilati (se inizialmente richiesti) vengono visualizzati in Customer Journey Analytics più o meno nello stesso momento dei dati live, ma la loro elaborazione può richiedere alcuni giorni, a seconda dei volumi coinvolti. I dati precompilati iniziano con i valori timestamp dell’evento meno recenti.
 
