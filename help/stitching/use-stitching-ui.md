@@ -24,9 +24,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 49795b40eab1fcd1bfd472ccb756587adf9877b8
+source-git-commit: 5f5e011198decd41ced888904b643d817959dab3
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1971'
 ht-degree: 18%
 ---
 # Abilitare l’unione delle identità
@@ -253,8 +253,6 @@ Per un’impostazione di connessione iniziale valida che viene salvata e contien
 
   Per garantire che i dati live inizino a fluire in, abilita l&#39;opzione **[!UICONTROL Importa tutti i nuovi dati]** per il set di dati.
 
-  I nuovi dati acquisiti nel set di dati dell’evento di origine di Experience Platform vengono visualizzati in Customer Journey Analytics entro quattro ore.
-
 * I dati precompilati (se inizialmente richiesti) vengono visualizzati in Customer Journey Analytics più o meno nello stesso momento dei dati live, ma la loro elaborazione può richiedere alcuni giorni, a seconda dei volumi coinvolti. I dati precompilati iniziano con i valori timestamp dell’evento meno recenti.
 
 
@@ -263,7 +261,7 @@ Per un’impostazione di connessione iniziale valida che viene salvata e contien
   >Per i set di dati [abilitati per l&#39;unione](#enable-stitching) nell&#39;interfaccia Connessioni, lo stato di backfill non può essere segnalato a causa di una limitazione nota.
   >
 
-  Utilizza metodi alternativi per verificare se i dati del set di dati uniti vengono recuperati. Ad esempio, utilizza l&#39;[interfaccia utente di Experience Platform Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/overview) per estrarre dal set di dati il conteggio degli eventi per il periodo rilevante. Confronta il conteggio degli eventi con il valore della metrica **[!UICONTROL Eventi]** in [Generazione rapporti di Customer Journey Analytics](/help/analysis-workspace/home.md) per lo stesso intervallo di tempo. Se tali numeri corrispondono, la retrocompilazione viene completata.
+  Utilizza metodi alternativi per verificare se i dati del set di dati uniti vengono recuperati. Ad esempio, utilizza l&#39;[interfaccia utente di Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview) per estrarre dal set di dati il conteggio degli eventi per il periodo rilevante. Confronta il conteggio degli eventi con il valore della metrica **[!UICONTROL Eventi]** in [Generazione rapporti di Customer Journey Analytics](/help/analysis-workspace/home.md) per lo stesso intervallo di tempo. Se tali numeri corrispondono, la retrocompilazione viene completata.
 
 
 ## Limitazioni
