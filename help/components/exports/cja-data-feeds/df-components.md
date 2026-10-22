@@ -17,10 +17,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: adc7e85339e89c181375c0d3ea5c228d473239a7
+source-git-commit: 5006a5e7f48fb107cc32cf56051062cc88f35c8e
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 41%
+source-wordcount: '1548'
+ht-degree: 38%
 ---
 # Disponibilità dei componenti nei feed di dati
 
@@ -98,8 +98,6 @@ Le metriche standard di Customer Journey Analytics seguenti non possono essere i
 
 <!-- markdownlint-disable MD034 -->
 
-<!-- pretty sure this isn't being used -->
-
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_user_agent"
 >title=""
@@ -107,20 +105,37 @@ Le metriche standard di Customer Journey Analytics seguenti non possono essere i
 
 <!-- markdownlint-enable MD034 -->
 
->[!IMPORTANT]
->
->Alcune dimensioni non possono essere utilizzate insieme nei set di dati di Experience Platform e pertanto non possono essere incluse nello stesso feed di dati.
->
->Se scegli di includere le dimensioni **Agente utente** o **ID dispositivo mobile** nel feed dati, non sarà possibile aggiungere al feed dati le dimensioni elencate di seguito.
+Alcune dimensioni non possono essere utilizzate insieme nei set di dati di Experience Platform. Un feed di dati può includere dimensioni di uno dei seguenti gruppi, ma non di entrambi:
+
+* Dimensioni **Agente utente** e **ID dispositivo mobile**. <!--UI shows "Type identifier" for device.typeID; align with docs name "Mobile ID" (open question for Danny Carmen).-->
+
+* Dimensioni di ricerca del dispositivo, come browser, dispositivo mobile e dimensioni del sistema operativo. Per l&#39;elenco completo, vedere [Dimensioni di ricerca dispositivo](#device-lookup-dimensions).
+
+>[!NOTE]
 >
 >Se utilizzi il Web SDK, questa restrizione viene applicata nei flussi di dati prima che i dati arrivino in un set di dati di Experience Platform. Per ulteriori informazioni, vedere [Configurare la ricerca del dispositivo](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure#geolocation-device-lookup) in [Creare e configurare gli stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure) nella guida alla raccolta dati.
 
-Le dimensioni seguenti non possono essere utilizzate insieme alle dimensioni **Agente utente** o **ID dispositivo mobile**:
+### Risolvere i conflitti tra dimensioni
+
+Quando aggiungi dimensioni che non possono essere utilizzate insieme, viene visualizzata una finestra di dialogo in cui sono elencate le dimensioni che verranno aggiunte e che non verranno aggiunte o rimosse. Ciò che accade dipende da dove si trova il conflitto:
+
+* **Le dimensioni che stai aggiungendo sono in conflitto con quelle già presenti nel feed di dati**: le dimensioni che stai aggiungendo hanno la priorità. Nella finestra di dialogo viene richiesto di aggiungere la selezione e rimuovere le dimensioni in conflitto dal feed di dati.
+
+* **Le dimensioni che stai aggiungendo sono in conflitto tra loro**: le dimensioni **Agente utente** e **ID dispositivo mobile** hanno la priorità. La finestra di dialogo richiede di aggiungerli; le dimensioni di ricerca del dispositivo nella selezione non vengono aggiunte.
+
+Per mantenere il feed di dati invariato, selezionare **[!UICONTROL Annulla]**.
+
+<!--Open questions for Danny Carmen: behavior when a batch contains both groups and the feed already has conflicting dimensions; whether "add all" adds the full selection or only the listed dimensions.-->
+
+### Dimensioni di ricerca del dispositivo {#device-lookup-dimensions}
+
+Le dimensioni seguenti non possono essere incluse nello stesso feed di dati delle dimensioni **Agente utente** o **ID dispositivo mobile**.
 
 >[!NOTE]
 >
 >Nell&#39;elenco seguente vengono utilizzati i nomi di dimensione predefiniti. Le dimensioni rinominate nella visualizzazione dati vengono visualizzate nei feed di dati con i relativi nomi personalizzati.
 
+<!--Engineering lists 30 device lookup fields; this list has 28. Likely missing: environment.operatingSystemIDStr and environment.browserIDStr. Confirm display names with Danny Carmen.-->
 
 * Tipo di browser
 * Browser
