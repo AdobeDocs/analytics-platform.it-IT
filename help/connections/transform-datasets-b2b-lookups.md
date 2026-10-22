@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 9e9722a8c5848cba2e657a9c538d61e9453b0d09
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '514'
 ht-degree: 9%
 ---
 # Trasformare i set di dati per le ricerche B2B
@@ -56,9 +56,9 @@ Questa trasformazione è disponibile solo per i set di dati con dati per schemi 
 
 >[!PREREQUISITES]
 >
->Per il corretto funzionamento dell’acquisizione, è necessario verificare che i set di dati di ricerca B2B includano dati compilati per i seguenti campi (come definiti negli schemi di ricerca B2B):
+>Affinché l’acquisizione funzioni correttamente, ogni set di dati nella tabella seguente deve contenere il campo specificato compilato con i dati:
 >
->| Set di dati contenente dati conformi allo schema | Campo popolato con dati |
+>| Set di dati contenente dati conformi allo schema | Campo richiesto compilato con i dati |
 >|---|---|
 >| Relazione della persona dell’account aziendale XDM | `accountPersonID` |
 >| Persona dell’opportunità di business XDM | `opportunityPersonID` |
