@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 21a2b0cc296d30de7f656a658d7e382c8c4ea835
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1216'
 ht-degree: 35%
 ---
 # Operatori
@@ -47,9 +47,15 @@ L&#39;unico carattere jolly supportato per gli operatori che supportano i caratt
 Ad esempio, hai un nome di pagina denominato *My cool product*.
 
 * La regola del segmento **[!UICONTROL Nome pagina]** **[!UICONTROL corrisponde]** `* product` corrisponderà al nome della pagina indicato sopra.
-* Tuttavia, la regola **[!UICONTROL Nome pagina]** **[!UICONTROL corrisponde]** `My \* product` corrisponde solo al nome pagina *Il mio* Prodotto*.
+* Tuttavia, la regola **[!UICONTROL Nome pagina]** **[!UICONTROL corrisponde]** `My \* product` corrisponde solo al nome pagina *Il mio* prodotto*.
 
 ## Operatori standard
+
+>[!NOTE]
+>
+>Quando si utilizzano gli operatori standard, i valori immessi restituiscono risultati indipendentemente dalla maiuscola/minuscola, ad eccezione di **[!UICONTROL corrispondenze]** e **[!UICONTROL non corrispondono]**.
+>
+>Ad esempio, **[!UICONTROL Nome pagina]** **[!UICONTROL uguale a]** `search results` restituisce *Risultati ricerca*, *Risultati ricerca* e *RISULTATI RICERCA*.
 
 | Operatore | L’evento di dimensione, segmento o metrica selezionato... |
 |--- |--- |
@@ -57,7 +63,7 @@ Ad esempio, hai un nome di pagina denominato *My cool product*.
 | **[!UICONTROL è diverso da]** | Restituisce tutti gli elementi che non contengono la corrispondenza esatta del valore inserito.  Nota: se utilizzi caratteri jolly, usa l&#39;operatore **[!UICONTROL non corrisponde]**. |
 | **[!UICONTROL è uguale a qualsiasi di]** | Restituisce elementi che corrispondono esattamente a qualsiasi valore nel campo di input (fino a 500 elementi). Ad esempio, l&#39;immissione di `Search Results, Homepage` per la dimensione **[!UICONTROL Nome pagina]** con questo operatore corrisponderebbe a *Risultati ricerca* e *Home page* e verrebbe conteggiata come 2 elementi. Il campo di input per questo operatore è delimitato da virgole. |
 | **[!UICONTROL non è uguale a nessuno di]** | Identifica gli elementi che corrispondono esattamente a qualsiasi valore nel campo di input (fino a 500 elementi) e restituisce solo gli elementi senza questi valori. Ad esempio, l&#39;immissione di `Search Results, Homepage` con questo operatore per la dimensione **[!UICONTROL Nome pagina]** identificherebbe *Risultati ricerca* e *Home page*, quindi **escluderli** dagli elementi restituiti. In questo esempio vengono conteggiati 2 elementi. Il campo di input per questo operatore è delimitato da virgole. |
-| **[!UICONTROL contiene]** | Restituisce elementi paragonabili alle sottostringhe dei valori inseriti. Ad esempio, se la regola è **[!UICONTROL Nome pagina]** **[!UICONTROL contiene]** `Search`, questa regola corrisponderà a qualsiasi pagina contenente la sottostringa `Search`, inclusi *Risultati ricerca*, *Ricerca* e *Ricerca in corso*. La clausola &quot;contains&quot; non distingue tra maiuscole e minuscole in Adobe Analytics, ma in Customer Journey Analytics distingue tra maiuscole e minuscole. |
+| **[!UICONTROL contiene]** | Restituisce elementi paragonabili alle sottostringhe dei valori inseriti. Ad esempio, se la regola è **[!UICONTROL Nome pagina]** **[!UICONTROL contiene]** `Search`, questa regola corrisponderà a qualsiasi pagina contenente la sottostringa `Search`, inclusi *Risultati ricerca*, *Ricerca* e *Ricerca in corso*. |
 | **[!UICONTROL non contiene]** | Restituisce l&#39;inverso della regola **[!UICONTROL contains]**. Nello specifico, tutti gli elementi che corrispondono al valore inserito verranno esclusi dai valori inseriti. Ad esempio, se la regola è **[!UICONTROL Nome pagina]** **[!UICONTROL non contiene]** `Search`, non corrisponderà ad alcuna pagina contenente la sottostringa `Search`, inclusi *Risultati ricerca*, *Ricerca* e *Ricerca*. Questi valori verranno esclusi dai risultati. |
 | **[!UICONTROL contiene tutti]** | Restituisce gli elementi confrontati con le sottostringhe, compresi più valori uniti tra loro. Ad esempio, l&#39;immissione di `Search Results` con questo operatore per la dimensione **[!UICONTROL Nome pagina]** corrisponde a *Risultati ricerca* e *Risultati ricerca*, ma non a *Ricerca* o *Risultati* singolarmente. La regola corrisponderebbe a *Ricerca* E *Risultati* trovati insieme. Il campo di input per questo operatore è delimitato da spazi (100 parole). |
 | **[!UICONTROL non contiene tutti]** | Identifica gli elementi confrontati con le sottostringhe, compresi più valori uniti tra loro, e restituisce solo gli elementi senza questi valori. Ad esempio, l&#39;immissione di `Search Results` con questo operatore per la dimensione **[!UICONTROL Nome pagina]** identificherebbe *Risultati ricerca* e *Risultati ricerca* (ma non *Ricerca* o *Risultati* singolarmente) e quindi escluderebbe questi elementi. Il campo di input per questo operatore è delimitato da spazi (100 parole). |
@@ -67,7 +73,7 @@ Ad esempio, hai un nome di pagina denominato *My cool product*.
 | **[!UICONTROL non inizia con]** | Restituisce tutti gli elementi che non iniziano con il valore stringa inserito. L&#39;inverso dell&#39;operatore **[!UICONTROL inizia con]**. |
 | **[!UICONTROL termina con]** | Restituisce elementi che terminano con il valore stringa immesso. |
 | **[!UICONTROL non termina con]** | Restituisce tutti gli elementi che non terminano con il valore stringa inserito. Si tratta dell&#39;inverso dell&#39;operatore **[!UICONTROL termina con]**. |
-| **[!UICONTROL corrispondenze]** | Restituisce elementi che contengono una corrispondenza esatta in base a un dato valore numerico o stringa. La clausola **[!UICONTROL matches]** fa distinzione tra maiuscole e minuscole in Adobe Analytics e Customer Journey Analytics. **Nota**: utilizza questo operatore quando utilizzi le funzionalità [jolly](#wildcards) (globbing). Esempi di globbing:<ul><li>`a*e` corrisponde a `ae`, `abcde`, `adobe` e `a whole sentence`</li><li>`adob*` corrisponde a `adobe`, `adobe analytics` e `adobo recipe`</li><li>`*dobe` corrisponde a `dobe`, `adobe` e `cute little dobe`</li></ul> |
+| **[!UICONTROL corrispondenze]** | Restituisce elementi che contengono una corrispondenza esatta in base a un dato valore numerico o stringa. **Nota**: utilizza questo operatore quando utilizzi le funzionalità [jolly](#wildcards) (globbing). Esempi di globbing:<ul><li>`a*e` corrisponde a `ae`, `abcde`, `adobe` e `a whole sentence`</li><li>`adob*` corrisponde a `adobe`, `adobe analytics` e `adobo recipe`</li><li>`*dobe` corrisponde a `dobe`, `adobe` e `cute little dobe`</li></ul> |
 | **[!UICONTROL non corrisponde]** | Restituisce tutti gli elementi che non contengono la corrispondenza esatta del valore inserito. Nota: utilizza questo operatore quando utilizzi le funzionalità [caratteri jolly](#wildcards) (globbing). |
 | **[!UICONTROL esiste]** | Restituisce il numero di elementi esistenti. Ad esempio, se valuti la dimensione **[!UICONTROL Pagine non trovate]** utilizzando l&#39;operatore **[!UICONTROL exists]**, viene restituito il numero di pagine di errore esistenti. |
 | **[!UICONTROL non esiste]** | Restituisce tutti gli elementi che non esistono. Ad esempio, se valuti la dimensione **[!UICONTROL Pagine non trovate]** utilizzando l&#39;operatore **[!UICONTROL does not exist]**, viene restituito il numero di pagine in cui la pagina di errore non esiste. |
@@ -97,6 +103,6 @@ Puoi creare segmenti in base a un numero specifico di elementi all’interno di 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteggi dimensioni distinti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/calculated-metrics/approximate-count-distinct-function-in-calculated-metrics){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteggi dimensioni distinti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/approximate-count-distinct-function-in-calculated-metrics){target="_blank"}.
 
 >[!ENDSHADEBOX]
