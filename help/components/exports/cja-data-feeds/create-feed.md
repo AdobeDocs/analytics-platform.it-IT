@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 77f5caf20d2bf391563de20a572ce100cdcca61e
+source-git-commit: 39d7aae2c47754899a2ac7d1a544a0b585d99b8b
 workflow-type: tm+mt
-source-wordcount: '3924'
-ht-degree: 17%
+source-wordcount: '4362'
+ht-degree: 13%
 ---
 # Creare un feed di dati
 
@@ -71,6 +71,24 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 >id="cja_datafeed_frequency_granularity"
 >title="Frequenza e granularità"
 >abstract="**Frequenza di consegna** (feed live): frequenza con cui viene consegnato il feed di dati. Le consegne orarie contengono i dati relativi a un’ora, mentre quelle giornaliere contengono i dati relativi a un giorno. Anche l’intervallo di date di lookback e il ritardo di elaborazione possono influire su quali eventi vengono inclusi.<p>**Granularità** (feed di retrocompilazione): intervallo di tempo utilizzato per dividere i dati storici. Ogni blocco contiene i dati relativi a un giorno e viene consegnato il più rapidamente possibile, non una sola volta al giorno. Questo campo è sempre impostato su Giornaliero e non può essere modificato.</p>"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-df-export-file-name"
+>title="Percorso o nome file"
+>abstract="Specificare un percorso o un nome di file (o entrambi) per determinare dove vengono inviati i file all&#39;interno del percorso selezionato. Per salvare i file nella cartella di primo livello del percorso, specificare `/`.<br/>Per i feed attivi, è possibile utilizzare le variabili per rendere dinamico il percorso o il nome file. <br/>Ad esempio, se si specifica `${yyyy}/${MM}/${dd}/my-feed-${instance_id}-${idx}`, un feed live consegnato il 15 gennaio 2027 avrebbe il percorso e il nome di file seguenti: `[prefix_folder_name]/2027/01/15/my-feed-[UUID]-1.parquet` <br/>Selezionare il collegamento seguente per un elenco delle variabili disponibili."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-df-export-file-name-override"
+>title="Ignora percorso o nome file predefinito"
+>abstract="Abilita questa opzione per ignorare il percorso predefinito o il nome file impostato per questa posizione. La sostituzione si applica solo a questo feed di dati e determina dove vengono inviati i file di feed dati."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -137,13 +155,24 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
    Le larghezze delle colonne vengono salvate in un cookie e rimangono invariate la volta successiva che ritorni a questo feed di dati nello stesso browser.
 
-1. (Facoltativo) Modifica l’ID del componente visualizzato nell’output del feed dati.
+1. (Facoltativo) Modifica l’ID di output di un componente. L’ID di output è il nome della colonna nell’output del feed dati.
 
-   1. Passa il puntatore del mouse su un componente nell’area di lavoro, quindi seleziona l’icona delle informazioni.
+   Per impostazione predefinita, l’ID di output è l’ID del componente in snake_case. La modifica dell’ID di output influisce solo su questo feed di dati. Non modifica l’ID del componente nella visualizzazione dati. L’anteprima dello schema mostra sia l’ID componente che l’ID output.
 
-   1. Nel campo ID componente specifica un nuovo ID componente.
+   1. Passa il puntatore del mouse su un componente nell&#39;area di lavoro, quindi seleziona l&#39;icona delle informazioni ![Informazioni](/help/assets/icons/InfoOutline.svg).
+
+   1. Seleziona l&#39;icona di modifica ![Modifica](/help/assets/icons/Edit.svg) accanto all&#39;ID, quindi specifica un nuovo ID di output.
 
       <!--add screenshot-->
+
+   Gli ID di output devono:
+
+   * Sii univoco all’interno del feed di dati.
+   * Contengono solo lettere, numeri e trattini bassi (`_`). Spazi, punti (`.`), trattini (`-`), barre (`/`) e altri caratteri speciali non sono consentiti.
+   * Inizia con una lettera o un trattino basso.
+   * Non può contenere più di 255 caratteri.
+
+   Gli ID di output non possono iniziare con `_cja`, che è riservato per l&#39;utilizzo in Adobe.
 
 1. (Facoltativo) Utilizza i pannelli **[!UICONTROL Riepilogo feed]** e **[!UICONTROL Anteprima schema]** sul lato destro della pagina per rivedere la struttura dei dati prima di procedere:
 
@@ -166,7 +195,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | [!UICONTROL **Frequenza**]<br/> Disponibile solo per feed live | Seleziona la frequenza con cui inviare il feed di dati. Gli eventi con marche temporali che rientrano nella finestra di frequenza sono inclusi nella consegna del feed di dati. I campi [!UICONTROL **Intervallo date di lookback**] e [!UICONTROL **Ritardo elaborazione**] possono anche influenzare gli eventi inclusi nei dati per la frequenza di consegna scelta.<p>Selezionare questa opzione per includere dati relativi a un&#39;ora o a un giorno.</p><ul><li>**Giornaliero**: i feed contengono dati relativi a un intero giorno, dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati.</li><li>**Oraria**: i feed contengono dati relativi a una sola ora.</li></ul> |
    | [!UICONTROL **Granularità**]<br/> Disponibile solo per i feed di backfill | Intervallo di tempo utilizzato per suddividere i dati storici in blocchi. Ogni blocco contiene dati relativi a un’intera giornata, dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati. <p>La granularità determina il modo in cui i dati vengono raggruppati, non la frequenza con cui vengono consegnati. I dati di backfill vengono consegnati il più rapidamente possibile, non una volta al giorno.</p><p>Questo campo è sempre impostato su [!UICONTROL **Giornaliero**] e non può essere modificato.</p> |
    | [!UICONTROL **Intervallo date lookback**] | Controlla quanto Customer Journey Analytics deve risalire indietro nel tempo durante l’elaborazione della consegna del feed dati. Il valore predefinito è 30 giorni.<p>La finestra di frequenza (ora o giorno) determina quali eventi sono inclusi nel feed di dati, mentre l’**intervallo di date di lookback** fornisce il contesto storico necessario per classificare correttamente tali eventi.</p><p>Qualificazione segmento, persistenza delle dimensioni, calcolo delle sessioni e trasformazioni dei campi derivati possono influenzare tutti gli eventi inclusi.</p> <p>Prima di configurare questa opzione, consulta i dettagli e gli esempi descritti nella sezione seguente, [Comprendere l&#39;intervallo di date del lookback](#data-feed-lookback-date-range).</p> |
-   | [!UICONTROL **Ritardo elaborazione**] | Scegli la quantità di tempo che Customer Journey Analytics attende prima di elaborare un file di feed dati. Nel feed di dati sono inclusi eventuali eventi che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati. <p>Il ritardo di elaborazione minimo è di 2 ore, ma alcuni tipi di dati richiedono un ritardo maggiore. Il ritardo scelto dipende dai tipi di dati presenti nella connessione, ad esempio dati di streaming, batch, uniti, ricerca o profilo.</p><p>Scegli un ritardo sufficientemente lungo per consentire il completamento dell’elaborazione dei dati più lenti nella connessione. Se il ritardo è troppo breve, i dati ancora in fase di elaborazione non verranno inclusi nel file del feed di dati.</p><p>Prima di configurare questa opzione, consulta i dettagli e gli esempi descritti nella sezione seguente, [Comprendere il ritardo di elaborazione](#data-feed-processing-delay).</p> |
+   | [!UICONTROL **Ritardo elaborazione**] | Il periodo di tempo che Customer Journey Analytics attende prima di elaborare un file del feed dati. Nel feed di dati sono inclusi eventuali eventi che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati. <p>Scegli un ritardo sufficientemente lungo per consentire il completamento dell’elaborazione dei dati più lenti nella connessione. Se il ritardo è troppo breve, i dati ancora in fase di elaborazione non verranno inclusi nel file del feed di dati.</p><p>Il ritardo di elaborazione minimo è di 2 ore. Il valore predefinito è basato sui set di dati presenti nella connessione. Ad esempio, se l’unione è abilitata, il valore predefinito è 6 ore. Alcuni tipi di dati richiedono un ritardo più lungo. Il ritardo scelto dipende dai tipi di dati presenti nella connessione, ad esempio dati di streaming, batch, uniti, ricerca o profilo.</p><p>Prima di configurare questa opzione, consulta i dettagli e gli esempi descritti nella sezione seguente, [Comprendere il ritardo di elaborazione](#data-feed-processing-delay).</p> |
    | [!UICONTROL **Formato di compressione**] | Seleziona il formato di compressione per i file di output Parquet consegnati alla destinazione cloud. Scegli uno dei seguenti formati:<ul><li>[!UICONTROL **Snappy**]: compressione e decompressione veloci con dimensioni file moderate. Ampiamente supportato da piattaforme di dati moderne come BigQuery, Snowflake e Apache Spark.</li><li>[!UICONTROL **GZip**]: ampiamente compatibile, anche con strumenti che non supportano Snappy in modalità nativa. Consigliato se la pipeline a valle richiede uno standard di compressione ampiamente riconosciuto.</li><li>[!UICONTROL **Z Standard (Zstd)**]: elevata efficienza di compressione con decompressione rapida. Adatto se la riduzione delle dimensioni del file è una priorità e i tuoi strumenti supportano Zstd.</li></ul> |
 
 1. Nella scheda [!UICONTROL **Consegna**], nella sezione [!UICONTROL **Destinazione**], configura la destinazione in cui desideri inviare i dati.
@@ -189,7 +218,9 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | [!UICONTROL **Visualizza destinazioni per tutti gli utenti**] | Se sei un amministratore di sistema, puoi abilitare questa opzione per visualizzare le destinazioni create da tutti gli utenti dell’organizzazione. Se questa opzione è disabilitata, vengono visualizzate solo le destinazioni create dall’utente. |
    | [!UICONTROL **Account**] | Esegui una delle operazioni seguenti:<ul><li>**Utilizza un account esistente:** Seleziona il menu a discesa accanto al campo **[!UICONTROL Account]**. In alternativa, inizia a digitare il nome dell’account, quindi selezionalo dal menu a discesa. <p>Gli account sono disponibili solo se sono stati configurati o se sono condivisi con un&#39;organizzazione di cui fai parte.</p></li><li>**Crea un nuovo account:** Seleziona **[!UICONTROL Aggiungi account]** nel menu a discesa **[!UICONTROL Account]**. Per informazioni su come configurare l&#39;account, vedere [Configurare gli account di esportazione cloud](/help/components/exports/cloud-export-accounts.md).</li></ul> |
    | [!UICONTROL **Posizione**] | Esegui una delle operazioni seguenti:<ul><li>**Usa una posizione esistente:** Seleziona il menu a discesa accanto al campo **[!UICONTROL Posizione]**. In alternativa, inizia a digitare il nome della posizione, quindi selezionalo dal menu a discesa.</li><li>**Crea un nuovo percorso:** Seleziona **[!UICONTROL Aggiungi percorso]** nel menu a discesa **[!UICONTROL Percorso]**. Per informazioni su come configurare il percorso, vedere [Configurare i percorsi di esportazione cloud](/help/components/exports/cloud-export-locations.md).</li></ul> |
-   | [!UICONTROL **Notifica via e-mail quando completato**] | Specifica uno o più indirizzi e-mail a cui inviare una notifica dopo che il feed di dati è stato inviato correttamente o non è stato inviato. È necessario separare più indirizzi e-mail con una virgola. |
+   | [!UICONTROL **Ignora percorso predefinito o nome file**] | Abilita questa opzione per ignorare il percorso o il nome file predefinito impostato per la posizione selezionata. La sostituzione si applica solo a questo feed di dati e determina dove vengono inviati i file di feed dati.<p>Quando questa opzione è abilitata, viene visualizzato il campo [!UICONTROL **Percorso o nome file**].</p> |
+   | [!UICONTROL **Percorso o nome file**]<br/> Disponibile solo quando [!UICONTROL **Ignora percorso predefinito o nome file**] è abilitato | Specificare un percorso o un nome di file (o entrambi) per determinare dove vengono inviati i file all&#39;interno del percorso selezionato. Per salvare i file nella cartella di primo livello del percorso, specificare `/`.<p>Per i feed live, puoi utilizzare una qualsiasi delle seguenti variabili per rendere dinamico il percorso o il nome file:</p><ul><li>**{yyyy}**: anno di calendario a 4 cifre (distinzione maiuscole/minuscole)</li><li>**{yy}**: anno di calendario a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{MM}**: mese di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{dd}**: giorno di 2 cifre (distinzione maiuscole/minuscole)</li><li>**{HH}**: ore a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{mm}**: minuti a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{ss}**: secondi a 2 cifre (distinzione maiuscole/minuscole)</li><li>**{fff}**: nanosecondi di 3 cifre (distinzione maiuscole/minuscole)</li><li>**{instance_id}**: UUID richiesta (istanza)</li><li>**{export_id}**: UUID esportazione (pianificazione)</li><li>**{idx}**: indice con inizio da 0 (incrementato per ciascun file)</li><li>**{total}**: numero totale di file per l&#39;intero processo di trasferimento</li><li>**{completion_millis}**: tempo di trasferimento in millisecondi</li></ul><p>Ad esempio, se specifichi `${yyyy}/${MM}/${dd}/my-feed-${instance_id}-${idx}`, un feed live consegnato il 15 gennaio 2027 avrà il percorso e il nome di file seguenti: `[prefix_folder_name]/2027/01/15/my-feed-[UUID]-1.parquet`</p> |
+   | [!UICONTROL **Notifica problemi, quando completato, e quando scade**] | Specifica uno o più indirizzi e-mail a cui inviare una notifica quando il feed di dati viene completato, è scaduto o riscontra problemi. Separa più indirizzi e-mail con una virgola. |
    | [!UICONTROL **Abilita manifesto**] | Scegli se includere un file manifesto con ogni consegna di feed di dati. Il file manifesto contiene informazioni per ciascun file incluso nel feed di dati. |
 
 1. Seleziona **[!UICONTROL Salva]**.
@@ -290,7 +321,7 @@ Qualsiasi funzione di campo derivata che fa riferimento a contenitori utilizza l
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_processing_delay"
 >title="Ritardo di elaborazione"
->abstract="Il periodo di tempo che Customer Journey Analytics attende prima di elaborare un file del feed dati. Nel feed di dati sono inclusi eventuali eventi che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati.<p>Il ritardo di elaborazione minimo è di 2 ore, ma alcuni tipi di dati richiedono un ritardo maggiore. Scegli un ritardo sufficientemente lungo da consentire ai dati più lenti nella connessione di rete di arrivare nel data lake di Experience Platform e di essere acquisiti in Customer Journey Analytics. Se il ritardo è troppo breve, i dati ancora in fase di elaborazione non verranno inclusi nel file del feed di dati.</p><p>L’unione delle identità può richiedere fino a 4 ore. Aggiungi 4 ore al ritardo per eventuali dati con identità unite, in modo da compensare questo intervallo di tempo.</p>"
+>abstract="Quantità di tempo che il sistema attende prima di elaborare un file di feed dati. Eventuali eventi in ritardo che arrivano durante il ritardo vengono inclusi nel feed.<p>Il ritardo minimo di elaborazione è di 2 ore, ma alcuni tipi di dati richiedono più tempo. Scegli un ritardo sufficientemente lungo per i dati più lenti nella connessione. Se il ritardo di elaborazione è troppo breve, alcuni dati potrebbero non essere inclusi nel feed.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -316,6 +347,8 @@ Diversi tipi di dati richiedono tempi diversi per essere disponibili in Customer
 
 Scegli un ritardo di elaborazione sufficientemente lungo da consentire ai dati più lenti della connessione di completare entrambe le fasi. Se il ritardo è troppo breve, i dati ancora in fase di elaborazione non verranno inclusi nel file del feed di dati.
 
+Quando crei un feed di dati, per impostazione predefinita il ritardo di elaborazione viene impostato su un valore consigliato in base ai set di dati della connessione. Ad esempio, se l’unione è abilitata per la connessione, il valore predefinito è 6 ore. Puoi scegliere un ritardo più breve, fino al minimo di 2 ore, ma viene visualizzato un avviso perché alcuni dati potrebbero non essere inclusi nel feed di dati.
+
 #### Fase 1: arrivo dei dati nel data lake di Experience Platform
 
 I tempi di arrivo variano in base al tipo di dati che stai raccogliendo. Scegli un ritardo che tenga conto del tipo di dati che stai raccogliendo.
@@ -324,7 +357,7 @@ I tempi di arrivo variano in base al tipo di dati che stai raccogliendo. Scegli 
 
 * **Set di dati del connettore di origine di Analytics**: i dati in genere arrivano nel data lake entro 2,25 ore (vedi [Latenze](/help/technotes/guardrails.md#latencies)).
 
-  <!--When using the Analytics Source Connector, the minimum processing delay increases from 2 hours to 6 hours (?) to account for the source connector data. (checking to see if this is feasible) -->
+  <!--Default delay for Analytics source connector datasets is TBD (Oct 19 decision); add when confirmed.-->
 
 * **Set di dati da altri connettori di origine**: la latenza varia in base al connettore di origine e al momento dell&#39;invio dei batch. L’elaborazione a monte in Experience Platform, come la preparazione dati, può aggiungere più tempo.
 
@@ -346,9 +379,7 @@ I tempi di acquisizione dei dati variano a seconda che l’unione sia abilitata 
 
 * **Set di dati non uniti**: l&#39;operazione può richiedere fino a 90 minuti (vedere [Latenze](/help/technotes/guardrails.md#latencies)).
 
-* **Set di dati uniti**: l&#39;unione può aggiungere fino a 4 ore oltre i 90 minuti necessari per i set di dati non uniti (vedi [Latenze](/help/technotes/guardrails.md#latencies)). Se l’unione è abilitata per la connessione, imposta il ritardo su almeno 6 ore e potenzialmente 8 ore. I dati aggiornati da una ripetizione dell’unione non sono generalmente inclusi nei file di feed dati già elaborati.
-
-  Quando l’unione è abilitata, il ritardo minimo di elaborazione aumenta da 2 ore a 6 ore per tenere conto dei dati uniti.
+* **Set di dati uniti**: l&#39;unione può aggiungere fino a 4 ore oltre i 90 minuti necessari per i set di dati non uniti (vedi [Latenze](/help/technotes/guardrails.md#latencies)). Se per la connessione è abilitata l’unione, il ritardo predefinito è di 6 ore. I dati aggiornati da una ripetizione dell’unione non sono generalmente inclusi nei file di feed dati già elaborati.
 
 >[!BEGINSHADEBOX]
 
