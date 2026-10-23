@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 39d7aae2c47754899a2ac7d1a544a0b585d99b8b
+source-git-commit: bccb25182630e18943a52ceca621cdfd6696b819
 workflow-type: tm+mt
-source-wordcount: '4362'
-ht-degree: 13%
+source-wordcount: '4243'
+ht-degree: 14%
 ---
 # Creare un feed di dati
 
@@ -71,24 +71,6 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 >id="cja_datafeed_frequency_granularity"
 >title="Frequenza e granularità"
 >abstract="**Frequenza di consegna** (feed live): frequenza con cui viene consegnato il feed di dati. Le consegne orarie contengono i dati relativi a un’ora, mentre quelle giornaliere contengono i dati relativi a un giorno. Anche l’intervallo di date di lookback e il ritardo di elaborazione possono influire su quali eventi vengono inclusi.<p>**Granularità** (feed di retrocompilazione): intervallo di tempo utilizzato per dividere i dati storici. Ogni blocco contiene i dati relativi a un giorno e viene consegnato il più rapidamente possibile, non una sola volta al giorno. Questo campo è sempre impostato su Giornaliero e non può essere modificato.</p>"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-df-export-file-name"
->title="Percorso o nome file"
->abstract="Specificare un percorso o un nome di file (o entrambi) per determinare dove vengono inviati i file all&#39;interno del percorso selezionato. Per salvare i file nella cartella di primo livello del percorso, specificare `/`.<br/>Per i feed attivi, è possibile utilizzare le variabili per rendere dinamico il percorso o il nome file. <br/>Ad esempio, se si specifica `${yyyy}/${MM}/${dd}/my-feed-${instance_id}-${idx}`, un feed live consegnato il 15 gennaio 2027 avrebbe il percorso e il nome di file seguenti: `[prefix_folder_name]/2027/01/15/my-feed-[UUID]-1.parquet` <br/>Selezionare il collegamento seguente per un elenco delle variabili disponibili."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="cja-df-export-file-name-override"
->title="Ignora percorso o nome file predefinito"
->abstract="Abilita questa opzione per ignorare il percorso predefinito o il nome file impostato per questa posizione. La sostituzione si applica solo a questo feed di dati e determina dove vengono inviati i file di feed dati."
 
 <!-- markdownlint-enable MD034 -->
 
