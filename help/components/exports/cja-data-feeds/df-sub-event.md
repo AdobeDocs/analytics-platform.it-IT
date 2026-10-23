@@ -14,10 +14,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 77f5caf20d2bf391563de20a572ce100cdcca61e
+source-git-commit: a4ea9270d5bf27234fa229e8ba3df5998ecea0e1
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 1%
+source-wordcount: '1303'
+ht-degree: 0%
 ---
 # Componenti di eventi secondari nei feed dati
 
@@ -110,7 +110,7 @@ Per informazioni su come aggiungere componenti, inclusi i componenti evento seco
 
 Poiché i dati dell&#39;evento secondario [&#x200B; vengono visualizzati in modo diverso nei feed dati di Customer Journey Analytics](#sub-event-differences-between-adobe-analytics-and-customer-journey-analytics), le query utilizzate per tale evento sono diverse da quelle utilizzate per i feed dati di Adobe Analytics.
 
-Gli esempi seguenti mostrano come trovare gli eventi che includono un prodotto specifico. Negli esempi viene utilizzata la sintassi BigQuery di Google. Altri data warehouse, come Snowflake e Databricks, supportano lo stesso approccio con differenze di sintassi minori.
+Gli esempi seguenti mostrano come trovare gli eventi che includono un prodotto specifico. Negli esempi viene utilizzata la sintassi BigQuery di Google, in cui `UNNEST` espande un array in righe. Altri data warehouse supportano lo stesso approccio con le proprie funzioni di array, ad esempio `FLATTEN` in Snowflake o `explode` in Databricks.
 
 +++ Eseguire query sui dati dei prodotti nei feed di dati di Customer Journey Analytics
 
@@ -133,7 +133,7 @@ La modalità di scrittura della query dipende dal fatto che si desideri una riga
 
 **Restituire una riga per evento**
 
-Per filtrare gli eventi senza modificare il numero di righe, utilizzare `UNNEST` all&#39;interno di una sottoquery `EXISTS`:
+Per filtrare gli eventi senza modificare il numero di righe, utilizzare una funzione di matrice come `UNNEST` all&#39;interno di una sottoquery `EXISTS`:
 
 ```sql
 SELECT row_id, timestamp_utc, product_list_items
@@ -149,7 +149,7 @@ Questa query restituisce una riga per ogni evento corrispondente, con l&#39;arra
 
 **Restituire una riga per prodotto corrispondente**
 
-Per restituire una riga per ogni prodotto corrispondente, spostare `UNNEST` nella clausola `FROM` esterna:
+Per restituire una riga per ogni prodotto corrispondente, spostare la funzione di matrice nella clausola `FROM` esterna:
 
 ```sql
 SELECT f.row_id, f.timestamp_utc, item.product, item.quantity, item.revenue

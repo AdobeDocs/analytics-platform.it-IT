@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 21a2b0cc296d30de7f656a658d7e382c8c4ea835
+source-git-commit: ef2836930bd1fefb99115d4a73b9b0d4a178ccd3
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1211'
 ht-degree: 35%
 ---
 # Operatori
@@ -53,7 +53,7 @@ Ad esempio, hai un nome di pagina denominato *My cool product*.
 
 >[!NOTE]
 >
->Quando si utilizzano gli operatori standard, i valori immessi restituiscono risultati indipendentemente dalla maiuscola/minuscola, ad eccezione di **[!UICONTROL corrispondenze]** e **[!UICONTROL non corrispondono]**.
+>Quando si utilizzano gli operatori standard, i risultati non distinguono tra maiuscole e minuscole, ad eccezione di **[!UICONTROL corrispondenze]** e **[!UICONTROL non corrisponde]**.
 >
 >Ad esempio, **[!UICONTROL Nome pagina]** **[!UICONTROL uguale a]** `search results` restituisce *Risultati ricerca*, *Risultati ricerca* e *RISULTATI RICERCA*.
 

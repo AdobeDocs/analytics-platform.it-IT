@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6bc56f504e19548e7e1cf0a6b32df54c45240749
+source-git-commit: ef2836930bd1fefb99115d4a73b9b0d4a178ccd3
 workflow-type: tm+mt
-source-wordcount: '7362'
+source-wordcount: '7364'
 ht-degree: 94%
 ---
 
@@ -70,7 +70,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 |---|---|
 | **Ottobre 2026** | |
-| Distinzione tra maiuscole e minuscole per gli operatori di segmenti | È stato chiarito che [operatori standard](/help/components/segments/seg-operators.md#standard-operators) restituiscono risultati indipendentemente dalla maiuscola/minuscola, ad eccezione di **[!UICONTROL corrispondenze]** e **[!UICONTROL non corrispondono]**. |
+| Distinzione tra maiuscole e minuscole per gli operatori di segmenti | È stato chiarito che quando si utilizzano [operatori standard](/help/components/segments/seg-operators.md#standard-operators), i risultati non distinguono tra maiuscole e minuscole, ad eccezione di **[!UICONTROL corrispondenze]** e **[!UICONTROL non corrispondono]**. |
 | Navigazione tramite tastiera per le colonne della tabella | È stato documentato come [ridimensionare](/help/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) e [ridisporre](/help/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns) le colonne della tabella in Analysis Workspace utilizzando la tastiera, incluso il feedback dell&#39;assistente vocale. Ai tasti di scelta rapida è stata aggiunta anche una sezione [Azioni colonna tabella](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions). |
 | Assistente AI e Data Insights Agent sostituiti da Collaboratore | Sono stati rimossi gli articoli di AI Assistant e Data Insights Agent. Adobe CX Enterprise Coworker sostituisce entrambe le funzionalità. Per ulteriori informazioni, consulta [Analizzare i dati con Chat con coworking](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/analytics-overview). È stato aggiornato anche il [supporto delle funzionalità di Customer Journey Analytics](/help/getting-started/aa-vs-cja/cja-aa.md#cja-not-aa) per riflettere la modifica. |
 | Canale multimediale a pagamento Content Analytics | [documentazione](/help/content-analytics/config/paid-media.md) completa sulla configurazione automatica dei set di dati e dei componenti della visualizzazione dati risultante dall&#39;utilizzo di un connettore di origine di file multimediali a pagamento (come Google Ads o Meta Ads) e dalla configurazione e attivazione del canale Content Analytics Paid Media. |
