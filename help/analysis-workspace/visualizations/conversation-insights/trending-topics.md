@@ -4,12 +4,12 @@ title: Argomenti di tendenza
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: ccaa957e79fba24292316c7447be786f57f03493
+source-git-commit: 85311bf19368560ef54a3361edf2e7c13590929c
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 7%
+source-wordcount: '424'
+ht-degree: 8%
 ---
-# Argomenti di tendenza
+# Argomenti di tendenza {#trending-topics}
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_button"
@@ -25,21 +25,26 @@ La visualizzazione ![Feed](/help/assets/icons/Feed.svg) **[!UICONTROL Argomenti 
 
 È possibile cercare argomenti specifici e confrontare il numero e la percentuale di ciascun argomento a ogni livello con altri intervalli di dati.
 
-## Creare e configurare
+## Creare e configurare {#trendimg-topics-create-and-configure}
 
 >[!CONTEXTUALHELP]
->id="workspace_trendingtopics_attribution"
->title="Attribuzione metrica per argomenti di tendenza"
->abstract="Abilita un modello di attribuzione non predefinito per la metrica selezionata."
+>id="workspace_trendingtopics_usenondefaultattributionmodel"
+>title="Usa modello di attribuzione non predefinito"
+>abstract="Abilita un modello di attribuzione non predefinito per questa metrica."
 
-Per creare e configurare una visualizzazione degli argomenti di tendenza:
+>[!CONTEXTUALHELP]
+>id="workspace_trendingtopics_usenondefaultattributionmodel_disabled"
+>title="Usa modello di attribuzione non predefinito"
+>abstract="Per questa metrica non sono disponibili modelli di attribuzione non predefiniti."
+
+Per creare e configurare una visualizzazione **[!UICONTROL Argomenti di tendenza]**:
 
 1. Aggiungi una visualizzazione ![Feed](/help/assets/icons/Feed.svg) **[!UICONTROL Argomenti di tendenza]**. Consulta [Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
 1. Nella configurazione della visualizzazione **[!UICONTROL Argomenti di tendenza]**:
 
    1. Selezionare una **[!UICONTROL metrica di classificazione]**. Ad esempio: **[!UICONTROL Conversazioni]**.
-   1. Se si desidera impostare l&#39;attribuzione [attribution](/help/analysis-workspace/attribution/models.md) sulla metrica, selezionare **[!UICONTROL Imposta attribuzione]**, quindi selezionare **[!UICONTROL Modello]**, **[!UICONTROL Contenitore]** e **[!UICONTROL Intervallo di lookback]**.
+   1. Se si desidera utilizzare un modello [attribution](/help/analysis-workspace/attribution/models.md) non predefinito nella metrica, selezionare **[!UICONTROL Usa modello di attribuzione non predefinito]**, quindi selezionare **[!UICONTROL Modello]**, **[!UICONTROL Contenitore]** e **[!UICONTROL Intervallo di lookback]**.
 1. Seleziona **[!UICONTROL Build]** per generare la visualizzazione. Selezionare **[!UICONTROL Reimposta]** per ripristinare i valori predefiniti della configurazione.
 
 Per riconfigurare la visualizzazione degli argomenti di tendenza, seleziona ![Modifica](/help/assets/icons/Edit.svg) accanto a **[!UICONTROL Metrica di classificazione: _Metrica di classificazione_ | Livelli argomento: _x_]**.
