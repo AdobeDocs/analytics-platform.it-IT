@@ -4,10 +4,10 @@ title: Riepiloghi delle conversazioni
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: ccaa957e79fba24292316c7447be786f57f03493
+source-git-commit: 2cca5dfaec6be8f22308e09a023e9e57bec387b7
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 8%
+source-wordcount: '351'
+ht-degree: 10%
 ---
 # Riepiloghi delle conversazioni {#conversation-summaries}
 
@@ -30,9 +30,14 @@ La visualizzazione mostra un riepilogo della metrica selezionata (ad esempio Con
 ## Creare e configurare {#conversation-summaries-create-configure}
 
 >[!CONTEXTUALHELP]
->id="workspace_conversationsummaries_attribution"
->title="Attribuzione riepiloghi conversazione"
->abstract="Abilita un modello di attribuzione non predefinito per la metrica selezionata."
+>id="workspace_conversationsummaries_usenondefaultattributionmodel"
+>title="Usa modello di attribuzione non predefinito"
+>abstract="Abilita un modello di attribuzione non predefinito per questa metrica."
+
+>[!CONTEXTUALHELP]
+>id="workspace_conversationsummaries_usenondefaultattributionmodel_disabled"
+>title="Usa modello di attribuzione non predefinito"
+>abstract="Per questa metrica non sono disponibili modelli di attribuzione non predefiniti."
 
 Per creare e configurare una visualizzazione **[!UICONTROL Riepiloghi conversazione]**:
 
@@ -41,12 +46,12 @@ Per creare e configurare una visualizzazione **[!UICONTROL Riepiloghi conversazi
 1. Nella configurazione della visualizzazione **[!UICONTROL Riepiloghi conversazione]**:
 
    1. Seleziona una **[!UICONTROL metrica]**. Ad esempio: **[!UICONTROL Conversazioni]**.
-   1. Se si desidera impostare l&#39;attribuzione [attribution](/help/analysis-workspace/attribution/models.md) sulla metrica, selezionare **[!UICONTROL Imposta attribuzione]**, quindi selezionare **[!UICONTROL Modello]**, **[!UICONTROL Contenitore]** e **[!UICONTROL Intervallo di lookback]**.
+   1. Se si desidera utilizzare un modello [attribution](/help/analysis-workspace/attribution/models.md) non predefinito nella metrica, selezionare **[!UICONTROL Usa modello di attribuzione non predefinito]**, quindi selezionare **[!UICONTROL Modello]**, **[!UICONTROL Contenitore]** e **[!UICONTROL Intervallo di lookback]**.
    1. Facoltativamente, puoi applicare un segmento alla visualizzazione. Seleziona un segmento dal menu a discesa **[!UICONTROL Segmenti]**.
 
 1. Seleziona **[!UICONTROL Build]** per generare la visualizzazione. Selezionare **[!UICONTROL Reimposta]** per ripristinare i valori predefiniti della configurazione. Seleziona **[!UICONTROL Annulla]** per annullare la configurazione.
 
-Per riconfigurare la visualizzazione **[!UICONTROL Riepiloghi conversazione]**, seleziona ![Modifica](/help/assets/icons/Edit.svg) accanto a **[!UICONTROL Metrica: _Metrica_]**&#x200B;o **[!UICONTROL Metrica:_Metrica_]** | **[!UICONTROL Segmenti: _segmenti_]**.
+Per riconfigurare la visualizzazione **[!UICONTROL Riepiloghi conversazione]**, seleziona ![Modifica](/help/assets/icons/Edit.svg) accanto a **[!UICONTROL Metrica: _Metrica_]**o **[!UICONTROL Metrica:_Metrica_]** | **[!UICONTROL Segmenti: _segmenti_]**.
 
 ## Utilizzo
 
