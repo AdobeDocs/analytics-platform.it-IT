@@ -51,7 +51,7 @@ Per creare e configurare una visualizzazione **[!UICONTROL Riepiloghi conversazi
 
 1. Seleziona **[!UICONTROL Build]** per generare la visualizzazione. Selezionare **[!UICONTROL Reimposta]** per ripristinare i valori predefiniti della configurazione. Seleziona **[!UICONTROL Annulla]** per annullare la configurazione.
 
-Per riconfigurare la visualizzazione **[!UICONTROL Riepiloghi conversazione]**, seleziona ![Modifica](/help/assets/icons/Edit.svg) accanto a **[!UICONTROL Metrica: _Metrica_]**&#x200B;o **[!UICONTROL Metrica:_Metrica_]** | **[!UICONTROL Segmenti: _segmenti_]**.
+Per riconfigurare la visualizzazione **[!UICONTROL Riepiloghi conversazione]**, seleziona ![Modifica](/help/assets/icons/Edit.svg) accanto a **[!UICONTROL Metrica: _Metrica_]**o **[!UICONTROL Metrica:_Metrica_]** | **[!UICONTROL Segmenti: _segmenti_]**.
 
 ## Utilizzo
 
