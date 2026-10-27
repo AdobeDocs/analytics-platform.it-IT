@@ -1,7 +1,7 @@
 ---
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: ccaa957e79fba24292316c7447be786f57f03493
 workflow-type: tm+mt
-source-wordcount: '5584'
+source-wordcount: '5605'
 ht-degree: 95%
 ---
 # Snippet
@@ -129,6 +129,7 @@ Un contenitore attribuzione definisce l’ambito desiderato per l’attribuzione
 
 * **Sessione:** esamina fino all’inizio di una sessione dal momento in cui si è verificata una conversione. Gli intervalli di lookback delle sessioni rispettano il [timeout della sessione](/help/data-views/create-dataview.md#session-settings) in una visualizzazione dati. Quando **[!UICONTROL Sessione]** è selezionata, l’[intervallo di lookback dell’attribuzione](#atribution-lookback-window) viene impostato automaticamente su **[!UICONTROL Intervallo di reporting]** e non può essere modificato.
 * **Persona**: esamina le conversioni nell’ambito del contenitore Persona.
+* **Conversazione**: esamina le conversioni dall&#39;ambito del contenitore delle conversazioni. Questo contenitore è disponibile per [Visualizzazioni e componenti di Informazioni sulla conversazione](/help/conversation-insights/overview.md).
 * **Account globale** [!BADGE B2B edition]{type=Informative}: esamina le conversioni nell’ambito del contenitore degli account globali.
 * **Account** [!BADGE B2B edition]{type=Informative}: esamina le conversioni nell’ambito del contenitore Persona.
 * **Opportunità** [!BADGE B2B edition]{type=Informative}: esamina le conversioni nell’ambito del contenitore Opportunità.

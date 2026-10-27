@@ -4,17 +4,17 @@ title: Argomenti di tendenza
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 65d4115d4c292cff7e074d37a91563d369072ba5
+source-git-commit: 85311bf19368560ef54a3361edf2e7c13590929c
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 5%
+source-wordcount: '424'
+ht-degree: 8%
 ---
-# Argomenti di tendenza
+# Argomenti di tendenza {#trending-topics}
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_button"
 >title="Argomenti di tendenza"
->abstract="Crea una visualizzazione che mostri una suddivisione gerarchica degli argomenti di tendenza, con occorrenze e percentuali, abilitata per l’espansione, per identificare i temi importanti nelle conversazioni."
+>abstract="Crea una visualizzazione che mostri una suddivisione gerarchica degli argomenti di tendenza, con occorrenze e percentuali, abilitata per l’espansione, per identificare i temi significativi nelle conversazioni."
 
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_panel"
@@ -25,22 +25,26 @@ La visualizzazione ![Feed](/help/assets/icons/Feed.svg) **[!UICONTROL Argomenti 
 
 È possibile cercare argomenti specifici e confrontare il numero e la percentuale di ciascun argomento a ogni livello con altri intervalli di dati.
 
-## Creare e configurare
+## Creare e configurare {#trendimg-topics-create-and-configure}
 
-Per creare e configurare una visualizzazione degli argomenti di tendenza:
+>[!CONTEXTUALHELP]
+>id="workspace_trendingtopics_usenondefaultattributionmodel"
+>title="Usa modello di attribuzione non predefinito"
+>abstract="Abilita un modello di attribuzione non predefinito per questa metrica."
+
+>[!CONTEXTUALHELP]
+>id="workspace_trendingtopics_usenondefaultattributionmodel_disabled"
+>title="Usa modello di attribuzione non predefinito"
+>abstract="Per questa metrica non sono disponibili modelli di attribuzione non predefiniti."
+
+Per creare e configurare una visualizzazione **[!UICONTROL Argomenti di tendenza]**:
 
 1. Aggiungi una visualizzazione ![Feed](/help/assets/icons/Feed.svg) **[!UICONTROL Argomenti di tendenza]**. Consulta [Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
 1. Nella configurazione della visualizzazione **[!UICONTROL Argomenti di tendenza]**:
 
    1. Selezionare una **[!UICONTROL metrica di classificazione]**. Ad esempio: **[!UICONTROL Conversazioni]**.
-   1. Facoltativamente, selezionare **[!UICONTROL Imposta attribuzione]** e selezionare **[!UICONTROL Modello]**, **[!UICONTROL Contenitore]** e **[!UICONTROL Intervallo di lookback]**.
-   1. Selezionare un livello per **[!UICONTROL Limita livelli argomenti secondari]**. Il valore predefinito è **[!UICONTROL Livello 5]**.
-
-      >[!NOTE]
-      >
-      >Il livello di argomento secondario **[!UICONTROL Limit]** definisce il numero massimo di livelli da espandere per gli argomenti della visualizzazione. Se non sono disponibili altri argomenti a un livello compreso nel numero massimo definito, verrà visualizzato ![DataUnavailable](/help/assets/icons/DataUnavailable.svg) **[!UICONTROL Nessun argomento trovato]**.
-
+   1. Se si desidera utilizzare un modello [attribution](/help/analysis-workspace/attribution/models.md) non predefinito nella metrica, selezionare **[!UICONTROL Usa modello di attribuzione non predefinito]**, quindi selezionare **[!UICONTROL Modello]**, **[!UICONTROL Contenitore]** e **[!UICONTROL Intervallo di lookback]**.
 1. Seleziona **[!UICONTROL Build]** per generare la visualizzazione. Selezionare **[!UICONTROL Reimposta]** per ripristinare i valori predefiniti della configurazione.
 
 Per riconfigurare la visualizzazione degli argomenti di tendenza, seleziona ![Modifica](/help/assets/icons/Edit.svg) accanto a **[!UICONTROL Metrica di classificazione: _Metrica di classificazione_ | Livelli argomento: _x_]**.
@@ -49,13 +53,24 @@ Per riconfigurare la visualizzazione degli argomenti di tendenza, seleziona ![Mo
 
 Per utilizzare la visualizzazione:
 
-* Per eseguire il drilling e visualizzare gli argomenti secondari di tendenza per un argomento di livello inferiore, selezionare un argomento di livello specifico.
+![Utilizza la visualizzazione Argomenti di tendenza](assets/trending-topics.png)
 
-* Per confrontare gli argomenti con un altro intervallo di date, selezionare un intervallo di date da Confronta con. Per utilizzare un intervallo di date personalizzato:
-  * Seleziona Intervallo date personalizzato dal menu a discesa e nella finestra di dialogo Nuovo intervallo di date definisci e salva un intervallo di date personalizzato.
+* Passa il puntatore del mouse su un argomento per visualizzare una finestra a comparsa con ulteriori dettagli. ➊
+
+* Per visualizzare gli argomenti secondari di tendenza per un argomento di livello inferiore, selezionare un argomento di livello specifico. Se non sono disponibili argomenti a un livello secondario, verrà visualizzato ![DataRemove](/help/assets/icons/DataRemove.svg) **[!UICONTROL Nessun argomento secondario trovato per _topic > sottoargomento > ...]**.
+
+* Utilizza ![Cerca](/help/assets/icons/Search.svg) **[!UICONTROL _Cerca argomenti_]** per cercare rapidamente gli argomenti. ➋
+
+* Per confrontare gli argomenti con un altro intervallo di date, selezionare un intervallo di date compreso tra **[!UICONTROL Confronta con]**. ➌
+
+  Per utilizzare un intervallo di date personalizzato:
+
+  * Seleziona **[!UICONTROL Intervallo date personalizzato]** dal menu a discesa e nella finestra di dialogo **[!UICONTROL Nuovo intervallo date]** definisci e salva un intervallo date personalizzato.
   * Seleziona l’intervallo di date personalizzato.
 
-* Per visualizzare un grafico a linee per la selezione corrente di argomenti, rilascia una visualizzazione [Riga](/help/analysis-workspace/visualizations/line.md) nella visualizzazione **[!UICONTROL Argomenti di tendenza]**. La visualizzazione **[!UICONTROL Riga]** è collegata automaticamente alla visualizzazione **[!UICONTROL Argomenti di tendenza]**.
+* Per visualizzare un grafico a linee per la selezione corrente di argomenti, rilascia una visualizzazione [Riga](/help/analysis-workspace/visualizations/line.md) nella visualizzazione **[!UICONTROL Argomenti di tendenza]**. La visualizzazione **[!UICONTROL Riga]** viene collegata automaticamente alla visualizzazione **[!UICONTROL Argomenti di tendenza]** e visualizza una riga per l&#39;argomento selezionato.
+
+  ![Visualizzazione della linea dell&#39;argomento di tendenza](assets/trending-topics-line-viz.png)
 
 ## Impostazioni
 
@@ -64,7 +79,4 @@ Sono disponibili le seguenti [impostazioni di visualizzazione specifiche](/help/
 | Impostazione | Descrizione |
 |---|---|
 | **[!UICONTROL Visualizza valore effettivo]** | Visualizza il valore effettivo di un argomento. |
-| **[!UICONTROL Percentuale di visualizzazione]** | Visualizza la percentuale per un argomento. |
-
-
-
+| **[!UICONTROL Percentuale di visualizzazione]** | Visualizza la percentuale di un argomento. |
