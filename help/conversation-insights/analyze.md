@@ -24,23 +24,37 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: d08ee4bf4c5e53e16389c5d58971a97dd5f78c0e
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '190'
 ht-degree: 0%
 ---
 
 # Analizza approfondimenti conversazione
 
-## Analisi semplice
 
 Per analizzare Informazioni sulla conversazione puoi creare o modificare un progetto in Analysis Workspace e utilizzare una delle visualizzazioni dati configurate come visualizzazione dati per uno o più pannelli del progetto.
 
+## Analisi semplice
+
+Per creare tabelle o visualizzazioni a forma libera, utilizza le metriche di conversazione (**[!UICONTROL Giri]**, **[!UICONTROL Conversazioni]**, **[!UICONTROL Sentiment]**, **[!UICONTROL Tono conversazione]** e altro) per visualizzare una panoramica delle conversazioni.
+
 +++ Progetto di esempio
 
-![Progetto di base per Informazioni sulla conversazione](assets/conversation-insights-analyze-sample-project-basic.png)
+![Progetto di base per Informazioni sulla conversazione](assets/conversation-insights-analyze-sample-project-basic.png){zoomable="yes"}
 
 +++
+
+## Analisi dettagliata
+
+Per eseguire un&#39;analisi dettagliata delle conversazioni, utilizzare le visualizzazioni [Argomenti di tendenza](/help/analysis-workspace/visualizations/conversation-insights/trending-topics.md), [Riepiloghi conversazione](/help/analysis-workspace/visualizations/conversation-insights/conversation-summaries.md) e [Revisione conversazione](/help/analysis-workspace/visualizations/conversation-insights/conversation-review.md). Queste visualizzazioni forniscono prospettive diverse sui dati della conversazione.
+
++++ Progetto di esempio
+
+![Progetto di esempio dettagliato per Informazioni sulla conversazione](assets/conversation-insights-analyze-sample-project-detailed.png){zoomable="yes"}
+
++++
+
 
 ## Analisi delle conversazioni su larga scala e nel contesto
 
@@ -52,6 +66,6 @@ Per analizzare le conversazioni su larga scala e fornire il contesto per tali co
 
 +++ Progetto di esempio
 
-Da determinare.
+In sospeso.
 
 +++ 
