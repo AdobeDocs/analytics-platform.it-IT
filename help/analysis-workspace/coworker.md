@@ -22,12 +22,16 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 67e9700015c9c8de24871feb4eedc4392ce72a3a
+source-git-commit: 88e67c92fc170b340149c9ab73ad5eea2122da2b
 workflow-type: tm+mt
-source-wordcount: '1905'
-ht-degree: 0%
+source-wordcount: '1960'
+ht-degree: 1%
 ---
 # Utilizzare l’esperienza interna al prodotto per il collaboratore
+
+>[!AVAILABILITY]
+>
+>La funzionalità descritta in questa sezione si trova nella fase di test del rilascio e potrebbe non essere ancora disponibile nell‘ambiente. Inoltre, Coworker utilizza l’intelligenza artificiale generativa, che può produrre risultati imprecisi o imprevisti. Rivedi le risposte del Collaboratore e tutte le modifiche apportate al progetto prima di agire su di esse o di condividere il progetto.
 
 L’esperienza interna al prodotto per Collaboratore è disponibile in un pannello di chat sul lato destro di Analysis Workspace. Cooker utilizza il progetto aperto come contesto, in modo da poter chiedere informazioni sull’analisi o chiedere a Cooker di creare il progetto senza dover spiegare cosa contiene.
 
@@ -44,13 +48,13 @@ L’esperienza interna al prodotto per Collaboratore è disponibile in un pannel
 <!--
 FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME.
 
-* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
+* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
 
 -->
 
 ### Scegliere tra Collaboratore in Workspace e l’applicazione Collaboratore
 
-L&#39;esperienza interna al prodotto per Coworker ha molte delle stesse funzionalità dell&#39;[applicazione CX Enterprise Coworker](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/analytics-chat), incluse le abilità a cui hai accesso. Tuttavia, esistono importanti differenze che determinano quando è possibile utilizzare uno rispetto all’altro:
+L&#39;esperienza interna al prodotto per Coworker ha molte delle stesse funzionalità dell&#39;[applicazione CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat), incluse le abilità a cui hai accesso. Tuttavia, esistono importanti differenze che determinano quando è possibile utilizzare uno rispetto all’altro:
 
 | | Esperienza nel prodotto per il collaboratore | Applicazione di collaborazione |
 | --- | --- | --- |
