@@ -19,13 +19,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+source-git-commit: 8ab47e74ee442d97e8e7b1b9e92129025a5b1d1f
 workflow-type: tm+mt
-source-wordcount: 542
-ht-degree: 32%
-
+source-wordcount: '589'
+ht-degree: 30%
 ---
-
 # Creare intervalli di date
 
 
@@ -69,6 +67,11 @@ La finestra di dialogo **[!UICONTROL Nuovo intervallo di date]** o **[!UICONTROL
 
 1. Specifica un **[!UICONTROL Titolo]** per l&#39;intervallo di date. **[!UICONTROL Trimestrale]**.
 1. Facoltativamente, specificare una **[!UICONTROL Descrizione]**.
+
+   Per fare in modo che Adobe generi una descrizione, seleziona **[!UICONTROL Genera descrizione]**. Questa opzione non è disponibile finché non crei la definizione dell’intervallo di date.
+
+   Le descrizioni generate includono il testo **[!UICONTROL Generato da Adobe utilizzando IA]** e puoi modificarle dopo averle generate. Per ulteriori informazioni, vedere [Generare automaticamente le descrizioni](/help/components/add-component-descriptions.md#automatically-generate-descriptions).
+
 1. Organizza il segmento creando o applicando uno o più **[!UICONTROL Tag]**. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL INVIO]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
 1. Seleziona un **[!UICONTROL Intervallo date]** selezionando prima la data di inizio e quindi la data di fine.
 In alternativa, è possibile selezionare un **[!UICONTROL predefinito]** dal menu a discesa [!UICONTROL *Seleziona un predefinito*].

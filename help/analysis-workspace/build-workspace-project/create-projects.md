@@ -29,10 +29,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 85%
+source-wordcount: '514'
+ht-degree: 76%
 ---
 # Creare progetti {#create-projects}
 
@@ -99,7 +99,7 @@ Le impostazioni includono:
 | Proprietario | Nome del proprietario del progetto. |
 | Ultima modifica | Data dell’ultima modifica al progetto. |
 | Tag | Elenca tutti i tag applicati a un progetto per facilitarne la classificazione. |
-| Descrizione | Una descrizione è utile per chiarire lo scopo di un progetto. Puoi fare doppio clic sulla descrizione per modificarla. |
+| Descrizione | Una descrizione è utile per chiarire lo scopo di un progetto. Puoi fare doppio clic sulla descrizione per modificarla. <p>Per fare in modo che Adobe generi una descrizione, seleziona **[!UICONTROL Genera descrizione]** sopra il campo descrizione. Adobe analizza diversi pannelli del progetto e li riepiloga in una descrizione. Le descrizioni generate includono il testo **[!UICONTROL Generato da Adobe utilizzando IA]** e possono essere modificate. Questa opzione richiede all’organizzazione di accettare determinati termini legali generativi di IA.</p> |
 | Conta istanze ripetute | Specifica se le istanze ripetute sono conteggiate o meno nei rapporti. Nota: questa impostazione non si applica alle visualizzazioni Flusso o Abbandono. |
 | Mostra annotazioni | Specifica se le annotazioni per questo progetto sono visualizzate o meno. |
 | [Palette dei colori del progetto](/help/analysis-workspace/build-workspace-project/color-palettes.md) | Per cambiare la palette di colori utilizzata per le categorie in Workspace, puoi scegliere una delle palette predefinite ottimizzate per il daltonismo o specificarne una personalizzata. Questa funzione interessa numerosi elementi in Workspace, compresa la maggior parte delle visualizzazioni. |

@@ -29,10 +29,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 30%
+source-wordcount: '997'
+ht-degree: 29%
 ---
 # Gestire i segmenti
 
@@ -85,6 +85,7 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 | ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Rinomina]** | Rinomina un singolo segmento selezionato. Se questa opzione è selezionata, è possibile rinominare il segmento in linea. |
 | ![Segno di spunta](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approva]** | Approva i segmenti selezionati. Per ulteriori informazioni, consulta [Approvare segmenti](seg-approve.md). |
 | ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copia]** | Copia il segmento selezionato. I nuovi segmenti vengono creati con lo stesso nome e suffisso `(Copy)`. |
+| ![AI](/help/assets/icons/AI.svg) **[!UICONTROL Genera descrizioni]** | <p>Genera descrizioni per i segmenti selezionati, sostituendo eventuali descrizioni esistenti.</p><p>Per evitare di sovrascrivere le descrizioni esistenti, [filtrare](#filter-panel) l&#39;elenco per visualizzare solo i segmenti senza descrizione (nel filtro, in [!UICONTROL **Altri filtri**], selezionare [!UICONTROL **Descrizione mancante**]).</p><p>Viene richiesta una conferma. Le richieste di grandi dimensioni vengono eseguite in background e al termine ricevi una notifica.</p><p>Per ulteriori informazioni, vedere [Generazione automatica delle descrizioni](/help/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Esporta in CSV]** | Esporta i segmenti in un file `Segments List.csv`. |
 
 ### Barra dei filtri attivi

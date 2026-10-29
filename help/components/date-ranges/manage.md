@@ -21,13 +21,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 28cfbe249f20361bf56f0a6216bc715dae5a6d3a
+source-git-commit: e9ee69c84d5a8992acacf44d1ba5c9231c9cda5f
 workflow-type: tm+mt
-source-wordcount: 590
-ht-degree: 23%
-
+source-wordcount: '657'
+ht-degree: 21%
 ---
-
 # Gestire gli intervalli di date
 
 
@@ -49,7 +47,7 @@ Nell&#39;elenco degli intervalli di date ➊ vengono visualizzati tutti gli inte
 | Colonna | Descrizione |
 | --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o per non favorire ![StarOutline](/help/assets/icons/StarOutline.svg) un intervallo di date. |
-| **[!UICONTROL Titolo e descrizione]** | Per modificare il titolo e la descrizione, seleziona il collegamento del titolo, che apre il generatore di intervalli di date [1&rbrace;.](/help/components/date-ranges/create.md#date-range-builder) |
+| **[!UICONTROL Titolo e descrizione]** | Per modificare il titolo e la descrizione, seleziona il collegamento del titolo, che apre il generatore di intervalli di date [1}.](/help/components/date-ranges/create.md#date-range-builder) |
 | **[!UICONTROL Proprietario]** | Proprietario dell’intervallo di date. |
 | **[!UICONTROL Tag]** | I tag per questo intervallo di date. |
 | **[!UICONTROL Condiviso con]** | Gli individui o i gruppi con cui hai condiviso l’intervallo di date. Seleziona per aprire la finestra di dialogo **[!UICONTROL Condividi intervallo di date]**. |
@@ -65,7 +63,7 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 
 | Icona | Azione | Descrizione |
 |:---:|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Aggiungi]** | Aggiungi un altro intervallo di date utilizzando il generatore di intervalli di date [1&rbrace;.](create.md#date-range-builder) |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Aggiungi]** | Aggiungi un altro intervallo di date utilizzando il generatore di intervalli di date [1}.](create.md#date-range-builder) |
 | ![Ricerca](/help/assets/icons/Search.svg) | [!UICONTROL *Ricerca per titolo*] | Se nell’elenco non è selezionato alcun intervallo di date, cerca gli intervalli di date utilizzando questo campo di ricerca. |
 | ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Assegna tag agli intervalli di date selezionati. Nella finestra di dialogo **[!UICONTROL Intervallo date tag]**, seleziona o deseleziona i tag per gli intervalli date selezionati. Seleziona **[!UICONTROL Salva]** per salvare i tag per gli intervalli di date selezionati. |
 | ![Condividi](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Condividi]** | Condividi gli intervalli di date selezionati. Nella finestra di dialogo **[!UICONTROL Intervallo date di condivisione]**, è possibile ![Cercare](/help/assets/icons/Search.svg) *Cercare singoli utenti o gruppi* oppure selezionare **[!UICONTROL Organizzazione]** o **[!UICONTROL Gruppi]**. Seleziona **[!UICONTROL Salva]** per salvare i dettagli di condivisione per gli intervalli di date selezionati. |
@@ -73,6 +71,7 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 | ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rinomina]** | Rinomina un singolo intervallo di date selezionato. Se questa opzione è selezionata, puoi rinominare l’intervallo di date in linea. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approva]** | Approva gli intervalli di date selezionati. |
 | ![Copia](/help/assets/icons/Copy.svg) | **[!UICONTROL Copia]** | Copia gli intervalli di date selezionati. Vengono creati nuovi intervalli di date con lo stesso nome e suffisso (Copia) |
+| ![IA](/help/assets/icons/AI.svg) | **[!UICONTROL Genera descrizioni]** | <p>Genera descrizioni per gli intervalli di date selezionati, sostituendo eventuali descrizioni esistenti.</p><p>Per evitare di sovrascrivere le descrizioni esistenti, [filtrare](#filter-panel) l&#39;elenco per visualizzare solo gli intervalli di date senza descrizione (nel filtro, in [!UICONTROL **Altri filtri**], selezionare [!UICONTROL **Descrizione mancante**]).</p><p>Viene richiesta una conferma. Le richieste di grandi dimensioni vengono eseguite in background e al termine ricevi una notifica.</p><p>Per ulteriori informazioni, vedere [Generazione automatica delle descrizioni](/help/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Esporta in CSV]** | Esporta gli intervalli di date selezionati in un file `Date ranges List.csv`. |
 
 ### Barra dei filtri attivi
