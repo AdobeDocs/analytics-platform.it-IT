@@ -4,7 +4,7 @@ title: Riepiloghi delle conversazioni
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 2cca5dfaec6be8f22308e09a023e9e57bec387b7
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 10%
@@ -21,6 +21,7 @@ ht-degree: 10%
 >title="Riepiloghi delle conversazioni"
 >abstract="Riepiloga un gruppo filtrato di conversazioni. Controlla la lunghezza del riepilogo. Consulta le offerte rappresentative dei clienti per convalidare l’accuratezza dei segnali estratti. Selezionare un preventivo per aprire la ripetizione completa della conversazione."
 
+{{release-limited-testing}}
 
 La visualizzazione ![Riepiloga](/help/assets/icons/Summarize.svg) **[!UICONTROL Riepiloghi conversazione]** consente di riepilogare un gruppo filtrato di conversazioni.
 
@@ -51,7 +52,7 @@ Per creare e configurare una visualizzazione **[!UICONTROL Riepiloghi conversazi
 
 1. Seleziona **[!UICONTROL Build]** per generare la visualizzazione. Selezionare **[!UICONTROL Reimposta]** per ripristinare i valori predefiniti della configurazione. Seleziona **[!UICONTROL Annulla]** per annullare la configurazione.
 
-Per riconfigurare la visualizzazione **[!UICONTROL Riepiloghi conversazione]**, seleziona ![Modifica](/help/assets/icons/Edit.svg) accanto a **[!UICONTROL Metrica: _Metrica_]**&#x200B;o **[!UICONTROL Metrica:_Metrica_]** | **[!UICONTROL Segmenti: _segmenti_]**.
+Per riconfigurare la visualizzazione **[!UICONTROL Riepiloghi conversazione]**, seleziona ![Modifica](/help/assets/icons/Edit.svg) accanto a **[!UICONTROL Metrica: _Metrica_]**o **[!UICONTROL Metrica:_Metrica_]** | **[!UICONTROL Segmenti: _segmenti_]**.
 
 ## Utilizzo
 

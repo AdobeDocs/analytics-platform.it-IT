@@ -4,7 +4,7 @@ title: Argomenti di tendenza
 feature: Visualizations
 role: User
 hide: true
-source-git-commit: 85311bf19368560ef54a3361edf2e7c13590929c
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 8%
@@ -21,6 +21,8 @@ ht-degree: 8%
 >title="Argomenti di tendenza"
 >abstract="Analizza gli argomenti di tendenza in base alla metrica di classificazione selezionata. Selezionare gli argomenti per eseguire il drill-down fino a cinque livelli di profondità. Cerca argomenti specifici e confronta gli argomenti con altri intervalli di date."
 
+{{release-limited-testing}}
+
 La visualizzazione ![Feed](/help/assets/icons/Feed.svg) **[!UICONTROL Argomenti di tendenza]** consente di esplorare e analizzare gli argomenti di tendenza come parte degli approfondimenti sulla conversazione.
 
 È possibile cercare argomenti specifici e confrontare il numero e la percentuale di ciascun argomento a ogni livello con altri intervalli di dati.
@@ -36,6 +38,7 @@ La visualizzazione ![Feed](/help/assets/icons/Feed.svg) **[!UICONTROL Argomenti 
 >id="workspace_trendingtopics_usenondefaultattributionmodel_disabled"
 >title="Usa modello di attribuzione non predefinito"
 >abstract="Per questa metrica non sono disponibili modelli di attribuzione non predefiniti."
+
 
 Per creare e configurare una visualizzazione **[!UICONTROL Argomenti di tendenza]**:
 
@@ -57,7 +60,7 @@ Per utilizzare la visualizzazione:
 
 * Passa il puntatore del mouse su un argomento per visualizzare una finestra a comparsa con ulteriori dettagli. ➊
 
-* Per visualizzare gli argomenti secondari di tendenza per un argomento di livello inferiore, selezionare un argomento di livello specifico. Se non sono disponibili argomenti a un livello secondario, verrà visualizzato ![DataRemove](/help/assets/icons/DataRemove.svg) **[!UICONTROL Nessun argomento secondario trovato per _topic > sottoargomento > ...]**.
+* Per visualizzare gli argomenti secondari di tendenza per un argomento di livello inferiore, selezionare un argomento di livello specifico. Se non sono disponibili argomenti a un livello secondario, verrà visualizzato ![DataRemove](/help/assets/icons/DataRemove.svg) **[!UICONTROL Nessun argomento secondario trovato per _argomento > argomento secondario_ > ...]**.
 
 * Utilizza ![Cerca](/help/assets/icons/Search.svg) **[!UICONTROL _Cerca argomenti_]** per cercare rapidamente gli argomenti. ➋
 

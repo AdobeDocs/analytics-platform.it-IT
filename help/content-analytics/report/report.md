@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 62a6bb436d59ab7a5a7be515afbe1f5f0f7817ee
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1650'
 ht-degree: 26%
 ---
 
@@ -122,7 +122,7 @@ Per utilizzare il modello:
 
 1. Selezionare **[!UICONTROL Workspace]** dal menu principale.
 1. Assicurati di selezionare una visualizzazione dati configurata per Content Analytics.
-1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**&#x200B;s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]**.
+1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]**.
 1. Seleziona **[!UICONTROL Usa modello]**.
 1. Nella finestra di dialogo **[!UICONTROL Configura il modello]**, seleziona una metrica dalla finestra di dialogo **[!UICONTROL Seleziona una metrica di conversione]**. Ad esempio, **[!UICONTROL CTR risorsa]**.
 1. Seleziona **[!UICONTROL Continua]**.
@@ -219,7 +219,7 @@ Per utilizzare il modello:
 
 1. Selezionare **[!UICONTROL Workspace]** dal menu principale.
 1. Assicurati di selezionare una visualizzazione dati configurata per Content Analytics.
-1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**&#x200B;s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]** per contenuti multimediali a pagamento.
+1. Cerca o utilizza segmenti (**[!UICONTROL Web]** per **[!UICONTROL Canale]** e **[!UICONTROL Coinvolgimento]** per **[!UICONTROL Caso d&#39;uso]**s) per trovare e selezionare il modello **[!UICONTROL Content Analytics]** per contenuti multimediali a pagamento.
 1. Seleziona **[!UICONTROL Usa modello]**.
 
 Un progetto **[!UICONTROL Content Analytics - Paid Media Summary Data]** si apre in [Analysis Workspace](/help/analysis-workspace/home.md). Il progetto è costituito da **[!UICONTROL Paid Media Performance]** [panel](/help/analysis-workspace/c-panels/panels.md), con [tabelle a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) e [visualizzazioni](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md). Utilizza il pannello per rivedere la portata, il coinvolgimento, la spesa e l’efficienza dei media a pagamento su reti, account, campagne, esperienze e risorse. Le metriche e le dimensioni nel pannello rimangono intenzionalmente nella grana di riepilogo delle risorse multimediali a pagamento; non combinare i set di dati di riepilogo con i dati dell’evento.
@@ -228,4 +228,5 @@ Un progetto **[!UICONTROL Content Analytics - Paid Media Summary Data]** si apre
 >
 >[Componenti Content Analytics](components.md)
 >[Utilizzare i modelli](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>[Unisci dati multimediali a pagamento con dati Web](/help/use-cases/cross-channel/paid-media-web.md)
 >

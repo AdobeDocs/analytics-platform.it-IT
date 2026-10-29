@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: a02b8d1d6bae6ed8269668d49ed9559688001833
+source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1187'
 ht-degree: 12%
 ---
 # Creare o modificare le configurazioni
+
+{{release-limited-testing}}
 
 Informazioni sulla conversazione consente di analizzare le conversazioni dalle esperienze agente offerte ai clienti. Queste esperienze agente possono essere basate su modelli di linguaggio di grandi dimensioni (Large Language Model, LLM) o su conversazioni umane. Ad esempio, un chatbot che interagisce con le trascrizioni di un cliente o di un call center.
 Tramite Informazioni sulla conversazione sei in grado di comprendere l’impatto degli agenti sui risultati effettivi degli utenti.
@@ -137,7 +139,7 @@ Per ogni configurazione:
 >id="conversationinsights_blend_specification"
 >title="Configura specifica di fusione"
 >abstract="Puoi modificare la specifica di fusione solo dopo aver completato questa configurazione di Informazioni sulla conversazione, tutti i set di dati sono disponibili e disponi delle autorizzazioni di Customer Journey Analytics per modificare le connessioni."
->additional-url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/access-control" text="Controllo degli accessi"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control" text="Controllo degli accessi"
 
 
 >[!CONTEXTUALHELP]
@@ -147,7 +149,7 @@ Per ogni configurazione:
 
 Dopo aver creato una configurazione, puoi configurare [il modo in cui vengono unite le conversazioni dai set di dati di prompt, risposte, feedback e segnali](/help/conversation-insights/overview.md#how-it-works).
 
-Questa specifica ti consente di selezionare il set di dati che determina il valore dei campi denominati in modo corrispondente (se un contenitore) nel set di dati di conversazione blend.
+Questa specifica ti consente di selezionare il set di dati che determina il valore per uno o più campi denominati in modo corrispondente (se un contenitore) nel set di dati di conversazione blend.
 
 Ad esempio: se desideri che il nome del campo **[!UICONTROL Prodotto da]** nel set di dati di conversazione misto sia definito da un campo denominato simile nel set di dati di feedback, seleziona **[!UICONTROL Set di dati di feedback]** dal menu a discesa **[!UICONTROL Vincitore set di dati]** per tale campo.
 
