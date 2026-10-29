@@ -147,4 +147,4 @@ Per generare descrizioni per più componenti nel dizionario dati:
 
    Un messaggio di conferma mostra il numero di descrizioni aggiunte.
 
-   Se hai selezionato un numero elevato di componenti, le descrizioni vengono generate in background. Una volta completata la richiesta, riceverai una [notifica](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) in-app che mostra quante descrizioni sono state generate e quante non sono riuscite.
+   Se hai selezionato un numero elevato di componenti, le descrizioni vengono generate in background. Una volta completata la richiesta, riceverai una [notifica](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#view-notifications) in-app che mostra quante descrizioni sono state generate e quante non sono riuscite.
