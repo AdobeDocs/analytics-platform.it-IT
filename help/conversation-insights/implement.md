@@ -479,7 +479,7 @@ Di seguito è riportato un esempio di utilizzo del gruppo di campi Evento di con
     ]
   },
   "web": {
-    "webPageDetails": { "URL": "https://www.adobe.com", "name": "Home Page" }
+    "webPageDetails": { "URL": "https://www.adobe.com/it", "name": "Home Page" }
   },
   "agenticExperience":{
     "conciergeID":"concierge-abc123",
@@ -519,7 +519,7 @@ Di seguito è riportato un esempio di utilizzo del gruppo di campi Evento di con
     ]
   },
   "web": {
-    "webPageDetails": { "URL": "https://www.adobe.com", "name": "Home Page" }
+    "webPageDetails": { "URL": "https://www.adobe.com/it", "name": "Home Page" }
   },
   "agenticExperience":{
     "conciergeID":"concierge-abc123",
@@ -560,7 +560,7 @@ Di seguito è riportato un esempio di utilizzo del gruppo di campi Evento di con
     ]
   },
   "web": {
-    "webPageDetails": { "URL": "https://www.adobe.com", "name": "Home Page" }
+    "webPageDetails": { "URL": "https://www.adobe.com/it", "name": "Home Page" }
   },
   "conversation": {
     "conversationID": "conv-001",
@@ -593,7 +593,7 @@ Di seguito è riportato un esempio di utilizzo del gruppo di campi Evento di con
     ]
   },
   "web": {
-    "webPageDetails": { "URL": "https://www.adobe.com", "name": "Home Page" }
+    "webPageDetails": { "URL": "https://www.adobe.com/it", "name": "Home Page" }
   },
   "agenticExperience":{
     "conciergeID":"concierge-xyz789",
@@ -698,7 +698,7 @@ Qualsiasi valore stringa è accettabile; tuttavia, Adobe compila i seguenti ambi
     ]
   },
   "web":{
-    "webPageDetails":{ "URL":"https://www.adobe.com", "name":"Home Page" }
+    "webPageDetails":{ "URL":"https://www.adobe.com/it", "name":"Home Page" }
   },
   "agenticExperience":{
     "conciergeID":"concierge-abc123",
