@@ -32,10 +32,10 @@ role_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
     internal-label: Experimentation
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 61%
+source-wordcount: '1523'
+ht-degree: 48%
 ---
 # Modifica voci componente
 
@@ -101,14 +101,15 @@ Per modificare un componente nel dizionario dei dati:
 1. Dall’elenco dei componenti, seleziona il componente da modificare.
 
 1. Seleziona l’icona **Modifica** ![icona Modifica dizionario dei dati](/help/assets/icons/Edit.svg) accanto al nome del componente.
+   ![Finestra di dialogo Modifica componente nel dizionario dati](assets/data-dictionary-edit-component.png)
 
 1. Modifica una delle seguenti informazioni sul componente:
 
    | Opzione | Funzione |
    |---------|----------|
    | **[!UICONTROL Approvato]** | <p>Indica che il componente è stato rivisto e approvato dall’amministratore.</p><p>Gli amministratori visualizzano un&#39;opzione per **[!UICONTROL annullare l&#39;approvazione]**. Selezionando questa opzione, il componente viene contrassegnato come &quot;Non approvato&quot; per gli utenti.</p> |
-   | **[!UICONTROL Non approvato]** | <p>Indica che il componente non è ancora stato rivisto e approvato dall’amministratore.</p><p>Gli amministratori visualizzano l’opzione **[!UICONTROL Approva]**. Selezionando questa opzione, il componente viene visualizzato dagli utenti come “Approvato”.</p> |
-   | **[!UICONTROL Descrizione]** | Descrive la funzione prevista del componente. (Queste informazioni vengono aggiunte dall’amministratore di Analytics, come descritto in [Aggiungi descrizioni dei componenti](/help/components/add-component-descriptions.md).) |
+   | **[!UICONTROL Approva]** | <p>Indica all’amministratore che il componente non è ancora stato rivisto e approvato dall’amministratore.</p><p>Gli utenti non amministratori visualizzano l&#39;etichetta **[!UICONTROL Non approvato]**. Selezionando questa opzione, il componente viene visualizzato dagli utenti come “Approvato”.</p> |
+   | **[!UICONTROL Descrizione]** | Descrive la funzione prevista del componente. Solo gli amministratori di Analytics possono aggiungere descrizioni dei componenti. <p>È possibile aggiungere una descrizione in uno dei modi seguenti:</p><ul><li>Digita manualmente una descrizione</li><li>Seleziona **[!UICONTROL Genera descrizione]** per fare in modo che Adobe generi una descrizione per te <p>Le descrizioni generate includono il testo **[!UICONTROL Generato da Adobe utilizzando IA]** e puoi modificarle dopo averle generate.</p><p>Per generare descrizioni per più componenti contemporaneamente, vedere [Generare descrizioni per più componenti](#generate-descriptions-for-multiple-components).</p></li></ul> <p>Per ulteriori informazioni, vedere [Generare automaticamente le descrizioni](/help/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
    | **[!UICONTROL Utilizzato di frequente con]** | <p>Mostra i componenti più comunemente utilizzati insieme a quello che stai visualizzando.</p><p>Tra i 5 tipi di componenti principali, ne sono mostrati fino a 5: Metrica, Metrica calcolata, Dimensione, Segmento e Intervallo di date.</p><p>Questo elenco è basato sui dati degli ultimi 90 giorni. Vengono mostrati solo i componenti a cui hai accesso alla visualizzazione.</p><p>Gli amministratori possono curare i componenti che gli utenti possono visualizzare in questa sezione, selezionandoli nei campi a discesa **[!UICONTROL Includi sempre]** e **[!UICONTROL Escludi sempre]**. Prima di curare i componenti visualizzati dagli utenti, applica il segmento **Mostra tutto** per assicurarti di visualizzare eventuali componenti non condivisi con te che potrebbero essere stati aggiunti da un altro amministratore.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all segment to make it editable. --></p> |
    | **[!UICONTROL Simile a]** | <p>Mostra i componenti con nomi simili al componente che stai visualizzando.</p><p>Tra i 5 tipi di componenti principali, ne sono mostrati fino a 5: Metrica, Metrica calcolata, Dimensione, Segmento e Intervallo di date.</p><p>Vengono mostrati solo i componenti a cui hai accesso alla visualizzazione.</p><p>Tutti i componenti duplicati nella visualizzazione dati verranno visualizzati qui. Gli amministratori di Analytics devono identificare e rimuovere tutti i componenti duplicati, come descritto in [Monitorare l’integrità del dizionario dati](/help/components/data-dictionary/monitor-data-dictionary-health.md).</p><p>Gli amministratori possono curare i componenti che gli utenti possono visualizzare in questa sezione, selezionandoli nei campi a discesa **[!UICONTROL Includi sempre]** ed **[!UICONTROL Escludi sempre]**. Prima di curare i componenti visualizzati dagli utenti, applica il segmento **Mostra tutto** per assicurarti di visualizzare eventuali componenti non condivisi con te che potrebbero essere stati aggiunti da un altro amministratore.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all segment to make it editable. --></p><p>**NOTA:** attualmente, la sezione **Simile a** include solo i componenti che hai creato e non quelli forniti da Adobe. I componenti forniti da Adobe verranno aggiunti in una versione futura.</p> |
    | **[!UICONTROL Compatibilità del prodotto]** | Indica dove può essere utilizzata questa metrica calcolata in Customer Journey Analytics. <p>I valori possibili sono:</p><ul><li>**[!UICONTROL Ovunque in Customer Journey Analytics]**: la metrica calcolata può essere utilizzata in tutto Customer Journey Analytics, inclusi Analysis Workspace, Report Builder e così via.</li><li>**[!UICONTROL Ovunque in Customer Journey Analytics (esclusa la sperimentazione)]**: la metrica calcolata può essere utilizzata in tutto Customer Journey Analytics, eccetto nel pannello Sperimentazione.</li> <p>Per informazioni sui criteri che determinano se una metrica calcolata può essere utilizzata con la sperimentazione, vedere [Utilizzare le metriche calcolate nel pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md#use-calculated-metrics-in-the-experimentation-panel) in [Pannello Sperimentazione](/help/analysis-workspace/c-panels/experimentation.md).</p></ul> |
@@ -121,3 +122,29 @@ Per modificare un componente nel dizionario dei dati:
    {style="table-layout:auto"}
 
 1. Fai clic sull’icona **Salva** ![icona Salva del dizionario dei dati](/help/assets/icons/SaveFloppy.svg) per salvare le modifiche.
+
+## Genera descrizioni per più componenti
+
+Gli amministratori di Customer Journey Analytics possono fare in modo che Adobe generi descrizioni per più componenti contemporaneamente. Per ulteriori informazioni, vedere [Generare automaticamente le descrizioni](/help/components/add-component-descriptions.md#automatically-generate-descriptions).
+
+>[!IMPORTANT]
+>
+>La generazione di descrizioni per più componenti sostituisce tutte le descrizioni esistenti per i componenti selezionati. Per evitare di sovrascrivere le descrizioni esistenti, filtra l’elenco in modo da visualizzare solo i componenti che non hanno ancora una descrizione prima di selezionare i componenti.
+
+Per generare descrizioni per più componenti nel dizionario dati:
+
+1. Aprire il dizionario dati come descritto in &quot;Accedere al dizionario dati&quot; in [Panoramica del dizionario dati](/help/components/data-dictionary/data-dictionary-overview.md).
+
+1. Verifica che nel menu a discesa sia selezionata la visualizzazione dati corretta.
+
+1. (Consigliato) Seleziona l&#39;icona **Filtro** ![Icona Filtro dizionario dati](/help/assets/icons/Filter.svg), quindi seleziona **[!UICONTROL Descrizione mancante]** per visualizzare solo i componenti che non hanno una descrizione.
+
+1. Seleziona i componenti in cui desideri generare le descrizioni.
+
+1. Seleziona ![AI](/help/assets/icons/AI.svg) **[!UICONTROL Genera descrizione]** sopra l&#39;elenco dei componenti.
+
+1. Seleziona **[!UICONTROL Genera descrizioni]** per confermare.
+
+   Un messaggio di conferma mostra il numero di descrizioni aggiunte.
+
+   Se hai selezionato un numero elevato di componenti, le descrizioni vengono generate in background. Una volta completata la richiesta, riceverai una [notifica](https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#view-notifications) in-app che mostra quante descrizioni sono state generate e quante non sono riuscite.

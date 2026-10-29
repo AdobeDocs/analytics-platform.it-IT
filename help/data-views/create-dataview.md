@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Governance
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '3165'
-ht-degree: 77%
+source-wordcount: '3192'
+ht-degree: 76%
 ---
 # Creare o modificare una visualizzazione di dati
 
@@ -341,7 +341,17 @@ La sezione **[!UICONTROL Componenti inclusi]** contiene l&#39;elenco di **[!UICO
   * **[!UICONTROL Tipo di dati]**: puoi selezionare uno o più dei seguenti tipi di dati: [!UICONTROL Stringa], [!UICONTROL Numero intero], [!UICONTROL Breve], [!UICONTROL Booleano], [!UICONTROL Doppio], [!UICONTROL Byte], [!UICONTROL Lungo], [!UICONTROL Data] o [!UICONTROL Data e ora].
   * **[!UICONTROL Set di dati]**: seleziona uno o più set di dati.
   * **[!UICONTROL Governance dei dati]**: selezionare una o più etichette dalle sottocategorie [!UICONTROL Etichette personalizzate], [!UICONTROL Etichette contratto], [!UICONTROL Etichette identità], [!UICONTROL Etichette sensibilità], [!UICONTROL Ecosistema partner] o [!UICONTROL Criteri].
-  * **[!UICONTROL Altro]**: seleziona una o più opzioni tra [!UICONTROL Contiene dati], [!UICONTROL È identità] o [!UICONTROL Non è obsoleto].
+  * **[!UICONTROL Altro]** - Selezionare una o più delle seguenti opzioni:
+
+    * [!UICONTROL Contiene dati]
+
+    * [!UICONTROL È identità]
+
+    * [!UICONTROL Non è obsoleto]
+
+    * [!UICONTROL Descrizione mancante]
+
+      Usare questa opzione per mostrare solo i componenti che non hanno ancora una descrizione, ad esempio prima di [generare descrizioni](/help/data-views/component-settings/overview.md) per più componenti contemporaneamente.
 
   Seleziona **[!UICONTROL Applica]** per applicare i filtri.
 

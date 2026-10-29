@@ -7,19 +7,21 @@ exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
 TQID: https://experienceleague.adobe.com/21Rc7-uX7Ie2qj5FHzjb89CTmvi79Ne-FR92okGF5uo
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: a8b1c240-f315-46e3-b813-f545c4279dd1
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: 8ab47e74ee442d97e8e7b1b9e92129025a5b1d1f
 workflow-type: tm+mt
-source-wordcount: 860
-ht-degree: 69%
-
+source-wordcount: '962'
+ht-degree: 61%
 ---
-
 # Salvare i progetti {#save-projects}
 
 <!-- markdownlint-disable MD034 -->
@@ -49,7 +51,7 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
   1. Specifica:
 
      * **[!UICONTROL Nome]** (obbligatorio). nome del progetto.
-     * **[!UICONTROL Descrizione]**. Descrizione del progetto.
+     * **[!UICONTROL Descrizione]**. Descrizione del progetto. Per fare in modo che Adobe generi una descrizione, seleziona **[!UICONTROL Genera descrizione]**. Adobe analizza diversi pannelli del progetto e li riepiloga in una descrizione. Le descrizioni generate includono il testo **[!UICONTROL Generato da Adobe utilizzando IA]** e possono essere modificate. Questa opzione richiede all’organizzazione di accettare determinati termini legali generativi di IA.
      * **[!UICONTROL Tag]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL INVIO]**.
      * **[!UICONTROL Cartella]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specifichi una cartella, il progetto viene salvato nella cartella corrente dalla quale hai creato un nuovo progetto.
      * **[!UICONTROL Note sulla versione]**. Aggiungi le note sulla versione nell’area di testo *Aggiungi note*.
@@ -86,7 +88,7 @@ Per salvare un progetto manualmente, con il progetto aperto in Analysis Workspac
   1. Specifica:
 
      * **[!UICONTROL Nome]** (obbligatorio). nome del progetto.
-     * **[!UICONTROL Descrizione]**. Descrizione del progetto.
+     * **[!UICONTROL Descrizione]**. Descrizione del progetto. Per fare in modo che Adobe generi una descrizione, seleziona **[!UICONTROL Genera descrizione]**. Adobe analizza diversi pannelli del progetto e li riepiloga in una descrizione. Le descrizioni generate includono il testo **[!UICONTROL Generato da Adobe utilizzando IA]** e possono essere modificate. Questa opzione richiede all’organizzazione di accettare determinati termini legali generativi di IA.
      * **[!UICONTROL Tag]**. Cerca i tag nel campo [!UICONTROL *Cerca tag*] o aggiungi nuovi tag utilizzando **[!UICONTROL INVIO]**.
      * **[!UICONTROL Cartella]**. Selezionare una cartella dal menu a discesa [!UICONTROL *Seleziona una cartella*]. Se non specifichi una cartella, il progetto viene salvato nella cartella corrente dalla quale hai creato un nuovo progetto.
      * **[!UICONTROL Note sulla versione]**. Aggiungi le note sulla versione nell’area di testo *Aggiungi note*.

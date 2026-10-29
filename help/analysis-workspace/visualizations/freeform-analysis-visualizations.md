@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 27b268c88c84b530d9fbbc454eae23cc43d4d041
 workflow-type: tm+mt
-source-wordcount: '1786'
-ht-degree: 78%
+source-wordcount: '2035'
+ht-degree: 69%
 ---
 # Panoramica delle visualizzazioni
 
@@ -125,6 +125,30 @@ Per modificare un’etichetta di legenda:
 1. Inserisci il nuovo testo dell’etichetta.
 1. Premi **[!UICONTROL Invio]** per salvare.
 
+### Etichette concise
+
+Quando ogni serie della visualizzazione condivide la stessa metrica, lo stesso segmento, lo stesso elemento dimensionale o lo stesso intervallo di date, ogni etichetta della legenda la ripete. Le etichette possono diventare lunghe e il testo che le differenzia è spesso visibile solo quando passi il cursore sopra ogni etichetta.
+
+L&#39;impostazione **[!UICONTROL Etichette concise]** si concentra in modo intelligente sulle informazioni che differenziano un&#39;etichetta dall&#39;altra. Rimuove qualsiasi nome di metrica, segmento, elemento dimensione o intervallo di date solo quando il nome viene visualizzato in ogni etichetta. Ad esempio, se un segmento viene applicato a ogni colonna della tabella di origine, viene rimosso dalle etichette della legenda. Se il segmento viene applicato a ogni colonna eccetto una, le etichette della legenda includono ancora il segmento. Per visualizzare l’etichetta completa, passa il cursore del mouse su un’etichetta della legenda.
+
+Le etichette concise sono disattivate per impostazione predefinita. Per attivare etichette concise per una visualizzazione:
+
+1. Seleziona ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Impostazioni]** nell&#39;intestazione della visualizzazione.
+1. Seleziona la scheda **[!UICONTROL Impostazioni]**.
+1. Assicurarsi che sia selezionato **[!UICONTROL Visibile legenda]**. **[!UICONTROL Etichette concise]** è disponibile solo quando la legenda è visibile.
+1. Selezionare **[!UICONTROL Etichette concise]**.
+
+Sono disponibili etichette concise per le seguenti visualizzazioni:
+
+* [Superfici e superfici sovrapposte](area.md)
+* [Barre e barre sovrapposte](bar.md)
+* [Combinato](combo-charts.md)
+* [Ad anello](donut.md)
+* [Istogramma](histogram.md)
+* [Barre orizzontali e barre orizzontali sovrapposte](horizontal-bar.md)
+* [Linee](line.md)
+* [Venn](venn.md)
+
 
 ## Impostazioni
 
@@ -152,6 +176,7 @@ Le impostazioni di visualizzazione disponibili dipendono dal tipo di visualizzaz
 | **[!UICONTROL Percentuali]** | Visualizza i valori in percentuale. |
 | **[!UICONTROL 100% in pila]** | Converti il grafico in una visualizzazione con sovrapposizione al 100%.  Applicabile solo a una visualizzazione ad area, barre e barre orizzontali sovrapposte. |
 | **[!UICONTROL Visualizzazione legenda]** | Mostra il testo della legenda. |
+| **[!UICONTROL Etichette concise]** | Abbreviare le etichette della legenda per concentrarsi sulle informazioni che differenziano un&#39;etichetta dall&#39;altra. I nomi di metriche, segmenti, elementi dimensionali e intervalli di date visualizzati in ogni etichetta vengono rimossi. Questa impostazione è disponibile solo quando è selezionata l&#39;opzione **[!UICONTROL Visualizzazione legenda]** e per impostazione predefinita è disattivata. Per ulteriori informazioni, vedere [Etichette concise](#concise-labels). |
 | **[!UICONTROL Limite massimo elementi]** | Consente di limitare il numero di elementi presentati in una visualizzazione. Se questa opzione è selezionata, definisci il numero massimo di elementi. |
 | **[!UICONTROL Mostra annotazioni]** | Mostra le annotazioni effettuate per questa visualizzazione. |
 | **[!UICONTROL Nascondi titolo]** | Nascondi il titolo della visualizzazione. |

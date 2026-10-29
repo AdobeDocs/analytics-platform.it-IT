@@ -7,20 +7,23 @@ role: User
 TQID: https://experienceleague.adobe.com/hXe1cEXGvuuBSd0bpavJGEJpEXng2zctXUxPinGu4es
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: cb6c7d24-631f-46e5-9e39-3a2705f73962
+    internal-label: Calendar
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8a3e3079823883d40e596680f860f8036a86baa2
+    internal-label: User
+source-git-commit: 8ab47e74ee442d97e8e7b1b9e92129025a5b1d1f
 workflow-type: tm+mt
-source-wordcount: 542
-ht-degree: 32%
-
+source-wordcount: '589'
+ht-degree: 30%
 ---
-
 # Creare intervalli di date
 
 
@@ -64,6 +67,11 @@ La finestra di dialogo **[!UICONTROL Nuovo intervallo di date]** o **[!UICONTROL
 
 1. Specifica un **[!UICONTROL Titolo]** per l&#39;intervallo di date. **[!UICONTROL Trimestrale]**.
 1. Facoltativamente, specificare una **[!UICONTROL Descrizione]**.
+
+   Per fare in modo che Adobe generi una descrizione, seleziona **[!UICONTROL Genera descrizione]**. Questa opzione non è disponibile finché non crei la definizione dell’intervallo di date.
+
+   Le descrizioni generate includono il testo **[!UICONTROL Generato da Adobe utilizzando IA]** e puoi modificarle dopo averle generate. Per ulteriori informazioni, vedere [Generare automaticamente le descrizioni](/help/components/add-component-descriptions.md#automatically-generate-descriptions).
+
 1. Organizza il segmento creando o applicando uno o più **[!UICONTROL Tag]**. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL INVIO]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
 1. Seleziona un **[!UICONTROL Intervallo date]** selezionando prima la data di inizio e quindi la data di fine.
 In alternativa, è possibile selezionare un **[!UICONTROL predefinito]** dal menu a discesa [!UICONTROL *Seleziona un predefinito*].

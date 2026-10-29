@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
     internal-label: Experimentation
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '1699'
-ht-degree: 58%
+source-wordcount: '1747'
+ht-degree: 57%
 ---
 # Generare metriche calcolate {#build-metrics}
 
@@ -77,7 +77,7 @@ La finestra di dialogo **[!UICONTROL Generatore di metriche calcolate]** viene u
    | **[!UICONTROL Metrica solo progetto]** | Nella parte superiore di questa finestra di dialogo, quando modifichi una metrica calcolata per un singolo progetto, viene visualizzata una casella di informazioni, come descritto in [Creare metriche calcolate per un singolo progetto](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). <p>Se desideri rendere disponibile questa metrica calcolata per tutti i progetti, seleziona l&#39;opzione, **[!UICONTROL Rendi questa metrica disponibile per tutti i tuoi progetti e aggiungilo all&#39;elenco dei componenti]**.</p> |
    | **[!UICONTROL Titolo]** ![Obbligatorio](/help/assets/icons/Required.svg) | Assegna un nome alla metrica calcolata, ad esempio `Conversion Rate`. |
    | **[!UICONTROL ID esterno]** ![Richiesto](/help/assets/icons/Required.svg) | Il nome della metrica calcolata quando si utilizza uno strumento BI esterno e l’estensione BI. Il valore viene automaticamente definito come `undefined_xxx` a meno che non venga ignorato. |
-   | **[!UICONTROL Descrizione]** | Fornisci una descrizione per il segmento, ad esempio `Calculated metric to define the conversion rate.` Non è necessario descrivere la formula per la metrica calcolata in quanto la formula è già disponibile automaticamente in [!UICONTROL Riepilogo]. |
+   | **[!UICONTROL Descrizione]** | <p>Fornire una descrizione per la metrica calcolata, ad esempio `Calculated metric to define the conversion rate.` Non è necessario descrivere la formula per la metrica calcolata in quanto la formula è già disponibile automaticamente in [!UICONTROL Riepilogo].</p><p>Per fare in modo che Adobe generi una descrizione, seleziona **[!UICONTROL Genera descrizione]**. Questa opzione non è disponibile finché non crei la definizione della metrica calcolata.</p><p>Le descrizioni generate includono il testo **[!UICONTROL Generato da Adobe utilizzando IA]** e puoi modificarle dopo averle generate. Per ulteriori informazioni, vedere [Generare automaticamente le descrizioni](/help/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
    | **[!UICONTROL Formato]** | Selezionare un formato per la metrica calcolata: è possibile selezionare tra **[!UICONTROL Decimal]**, **[!UICONTROL Time]**, **[!UICONTROL Percent]** e **[!UICONTROL Currency]**. |
    | **[!UICONTROL Cifre decimali]** | Specifica il numero di posizioni decimali per il formato selezionato. Questa opzione è abilitata solo se il formato selezionato è Decimale, Valuta e Percentuale. |
    | **[!UICONTROL Mostra tendenza verso l&#39;alto come]** | Specifica se una tendenza verso l&#39;alto della metrica calcolata viene visualizzata come ▲ **[!UICONTROL Buona (verde)]** o come ▼ **[!UICONTROL Buona (rossa)]**. |

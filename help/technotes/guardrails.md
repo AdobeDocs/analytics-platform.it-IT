@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: 5b0c9d764d17daa63316f8ab294aa9c8f7f94427
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 9%
@@ -144,7 +144,7 @@ Consulta anche Experience Platform [Guardrail di Real-time Customer Data Platfor
 | Nome | Valore | Tipo limite | Descrizione |
 |---|--:|---|---|
 | Progetti | 50.000 | Guarddrail imposto dal sistema | Numero massimo di progetti per un’organizzazione. |
-| Visualizzazioni dati | 2.000 | Guarddrail imposto dal sistema | Numero massimo di [visualizzazioni dati](../data-views/data-views.md) per un&#39;organizzazione. |
+| Visualizzazioni dati | 5.000 | Guarddrail imposto dal sistema | Numero massimo di [visualizzazioni dati](../data-views/data-views.md) per un&#39;organizzazione. |
 | Visualizzazioni dati | 500-1000 | Guarddrail imposto dal sistema | Numero massimo di visualizzazioni dati per una connessione. Il valore varia a seconda del pacchetto Customer Journey Analytics (vedi Descrizione del prodotto). |
 | Set di dati | 100 | Guarddrail imposto dal sistema | Numero massimo di [set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it) per connessione. |
 | Connessioni | 1000 | Guarddrail imposto dal sistema | Numero massimo di [connessioni](../connections/overview.md) per un&#39;organizzazione. |

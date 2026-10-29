@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: d16771a675504a6330a59478f15bf6112ae444d6
+source-git-commit: a80a12b061bee5165667b361a9e4bc1888d86c95
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 2%
@@ -49,7 +49,7 @@ La maggior parte delle organizzazioni utilizza il seguente flusso di lavoro gene
 1. Esamina tutti i componenti che utilizzano lo stesso ID componente ma con impostazioni diverse. Per ogni gruppo di componenti duplicati, seleziona le impostazioni di componente desiderate da applicare a tutti gli altri componenti che condividono tale ID componente.
 1. Esamina tutti i componenti che utilizzano lo stesso ID componente e che hanno anche le stesse impostazioni. Queste dimensioni o metriche possono essere unite in modo semplice e sicuro.
 
-## Gestione [!UICONTROL Metriche e dimensioni condivise]
+## Gestione [!UICONTROL Metriche e dimensioni condivise] {#smd-manager}
 
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Visualizzazioni dati]** > **[!UICONTROL Metriche e dimensioni condivise]**
 

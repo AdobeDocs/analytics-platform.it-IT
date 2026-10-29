@@ -32,10 +32,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 28%
+source-wordcount: '970'
+ht-degree: 27%
 ---
 # Gestire le metriche calcolate
 
@@ -88,6 +88,7 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 | ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rinomina]** | Rinomina una singola metrica calcolata selezionata. Se selezionata, puoi rinominare la metrica calcolata in linea. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approva]** | Approva le metriche calcolate selezionate. Vedi [Approvare le metriche calcolate](cm-approving.md). |
 | ![Copia](/help/assets/icons/Copy.svg) | **[!UICONTROL Copia]** | Copia le metriche calcolate selezionate. Le nuove metriche calcolate vengono create con lo stesso nome e suffisso `(Copy)` |
+| ![IA](/help/assets/icons/AI.svg) | **[!UICONTROL Genera descrizioni]** | <p>Genera descrizioni per le metriche calcolate selezionate, sostituendo eventuali descrizioni esistenti.</p><p>Per evitare di sovrascrivere le descrizioni esistenti, [filtrare](#filter-panel) l&#39;elenco per visualizzare solo le metriche calcolate senza descrizione (nel filtro, in [!UICONTROL **Altri filtri**], selezionare [!UICONTROL **Descrizione mancante**]).</p><p>Viene richiesta una conferma. Le richieste di grandi dimensioni vengono eseguite in background e al termine ricevi una notifica.</p><p>Per ulteriori informazioni, vedere [Generazione automatica delle descrizioni](/help/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Esporta in CSV]** | Esporta le metriche calcolate in un file `Calculated  metric List.csv`. |
 
 ### Barra dei filtri attivi

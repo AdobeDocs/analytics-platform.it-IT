@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: d29e3bac31db1a0de40a5ade47ed5ee53fcb5480
 workflow-type: tm+mt
-source-wordcount: '21458'
+source-wordcount: '21470'
 ht-degree: 98%
 ---
 # Utilizzare i modelli
@@ -1168,20 +1168,20 @@ Sono disponibili i modelli seguenti:
 | [!UICONTROL **Attività del gruppo acquisti B2B**] | Visualizza l’attività del gruppo acquisti all’interno di ogni account per informare sulle azioni di marketing relative a gruppi acquisti ed account.<p>**Questo può aiutarti** a visualizzare i gruppi acquisti e le persone più coinvolte all’interno di tali gruppi, evidenziando le lacune nella partecipazione al gruppo.</p><p>**In base a quanto appreso, potresti** fare diverse cose, ad esempio cercare di coinvolgere maggiormente le persone di gruppi acquisti che non sembrano essere coinvolte.</p> |
 
 
-### Mix Modeler {#mix-modeler-templates}
+### Marketing Campaign Analytics {#marketing-campaign-analytics-templates}
 
 <!-- CJA only -->
 
 >[!CONTEXTUALHELP]
 >id="template--mixmodeler-incremental-models-insights"
->title="Visualizza dati da specifici modelli generati da Mix Modeler."
->abstract="**Questo può aiutarti a comprendere** meglio i dati incrementali dai modelli generati in Mix Modeler. <br/>**Sulla base di questi** insight potrai:<ul><li>Visualizzare e quantificare l’impatto delle attività di marketing della tua organizzazione.</li><li>Identificare i canali con prestazioni elevate.</li><li>Identificare i canali che potrebbero necessitare di ottimizzazione.</li></ul>"
+>title="Visualizza informazioni da modelli selezionati generati da Marketing Campaign Analytics."
+>abstract="**Questo può aiutarti** a comprendere meglio le informazioni incrementali provenienti dai modelli generati in Marketing Campaign Analytics (precedentemente Mix Modeler). <br/>**Sulla base di questi** insight potrai:<ul><li>Visualizzare e quantificare l’impatto delle attività di marketing della tua organizzazione.</li><li>Identificare i canali con prestazioni elevate.</li><li>Identificare i canali che potrebbero necessitare di ottimizzazione.</li></ul>"
 
 Sono disponibili i modelli seguenti:
 
 &#x200B;| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| [!UICONTROL **Informazioni sul modello incrementale Mix Modeler**] | Visualizza dati da specifici modelli generati da Mix Modeler.<p>**Questo può aiutarti a comprendere** meglio i dati incrementali dai modelli generati in Mix Modeler. <p>**Sulla base di questi** insight potrai:<ul><li>Visualizzare e quantificare l’impatto delle attività di marketing della tua organizzazione.</li><li>Identificare i canali con prestazioni elevate.</li><li>Identificare i canali che potrebbero necessitare di ottimizzazione.</li></ul></p> |
+| [!UICONTROL **Informazioni sul modello incrementale Marketing Campaign Analytics**] | Visualizza informazioni da modelli selezionati generati da Marketing Campaign Analytics.<p>**Questo può aiutarti** a comprendere meglio le informazioni incrementali provenienti dai modelli generati in Marketing Campaign Analytics (precedentemente Mix Modeler).<p>**Sulla base di questi** insight potrai:<ul><li>Visualizzare e quantificare l’impatto delle attività di marketing della tua organizzazione.</li><li>Identificare i canali con prestazioni elevate.</li><li>Identificare i canali che potrebbero necessitare di ottimizzazione.</li></ul></p> |
 
 
 

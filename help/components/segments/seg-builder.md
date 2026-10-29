@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 40%
+source-wordcount: '1978'
+ht-degree: 39%
 ---
 # Generare i segmenti {#build-segments}
 
@@ -63,7 +63,7 @@ La finestra di dialogo **[!UICONTROL Generatore di segmenti]** viene utilizzata 
    | **[!UICONTROL Visualizzazione dati]** | Puoi selezionare la visualizzazione dati per il segmento.  Il segmento definito è disponibile come segmento nella scheda [Impostazioni](/help/data-views/create-dataview.md#settings-filters) di una visualizzazione dati. |
    | **[!UICONTROL Segmento solo progetto]** | Una casella di informazioni per spiegare che il segmento è visibile solo nel progetto in cui viene creato e che non verrà aggiunto all’elenco dei componenti. Abilita **[!UICONTROL Rendi questo segmento disponibile per tutti i tuoi progetti e aggiungilo all&#39;elenco dei componenti]** per modificare tale impostazione. Questa casella di informazioni è visibile solo quando si crea un [segmento rapido](seg-quick.md) e si trasforma le informazioni del segmento rapido in un segmento normale utilizzando **[!UICONTROL Apri generatore]** dall&#39;interfaccia [!UICONTROL Segmento rapido]. |
    | **[!UICONTROL Titolo]** ![Obbligatorio](/help/assets/icons/Required.svg) | Denomina il segmento, ad esempio `Last month mobile customers`. |
-   | **[!UICONTROL Descrizione]** | Fornire una descrizione per il segmento, ad esempio `Segment to define the mobile customers for the last month`. |
+   | **[!UICONTROL Descrizione]** | <p>Fornire una descrizione per il segmento, ad esempio `Segment to define the mobile customers for the last month`.</p><p>Per fare in modo che Adobe generi una descrizione, seleziona **[!UICONTROL Genera descrizione]**. Questa opzione non è disponibile finché non crei la definizione del segmento.</p><p>Le descrizioni generate includono il testo **[!UICONTROL Generato da Adobe utilizzando IA]** e puoi modificarle dopo averle generate. Per ulteriori informazioni, vedere [Generare automaticamente le descrizioni](/help/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
    | **[!UICONTROL Tag]** | Organizza il segmento creando o applicando uno o più tag. Inizia a digitare per trovare i tag esistenti che puoi selezionare. Oppure premi **[!UICONTROL INVIO]** per aggiungere un nuovo tag. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un tag. |
    | **[!UICONTROL Definizione]** ![Obbligatorio](/help/assets/icons/Required.svg) | Definisci il segmento utilizzando il [Generatore di definizioni](#definition-builder). |
 

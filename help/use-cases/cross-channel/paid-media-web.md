@@ -3,11 +3,10 @@ title: Unione Di Dati Multimediali A Pagamento Con Dati Web In Customer Journey 
 description: Unisciti ai dati di riepilogo dei contenuti multimediali a pagamento con eventi del sito web in Adobe Customer Journey Analytics per confrontare la spesa pubblicitaria, i clic, gli ordini, i ricavi e il ritorno sulla spesa pubblicitaria.
 solution: Customer Journey Analytics
 feature: Use Cases
-hide: true
 role: Admin
-source-git-commit: 11bc93e0adabd8e8109bda1734e1a098ce8bef1e
+source-git-commit: 62a6bb436d59ab7a5a7be515afbe1f5f0f7817ee
 workflow-type: tm+mt
-source-wordcount: '3907'
+source-wordcount: '3912'
 ht-degree: 3%
 ---
 # Aggiungere dati multimediali a pagamento con dati web
@@ -45,7 +44,12 @@ I set di dati di riepilogo dei file multimediali a pagamento contengono metriche
 
 ## Comprendere l’unione di reporting
 
-Puoi partecipare solo a livelli i cui ID vengono visualizzati negli URL della pagina di destinazione o nei campi evento esistenti. Ad esempio, l’assegnazione tag solo campagna supporta il reporting delle campagne, ma non quello a livello di annuncio. I join a livello di esperienza e di risorsa richiedono parametri URL aggiuntivi e non rientrano nell’ambito di questa guida.
+Puoi partecipare solo a livelli i cui ID vengono visualizzati negli URL della pagina di destinazione o nei campi evento esistenti. Ad esempio, l’assegnazione tag solo campagna supporta il reporting delle campagne, ma non quello a livello di annuncio.
+
+>[!NOTE]
+>
+>I join a livello di esperienza e di risorsa di Content Analytics richiedono parametri URL aggiuntivi e non rientrano nell’ambito di questa guida.
+
 
 Vedere [Dati di riepilogo](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/summary-data) e [Impostazioni dei componenti del gruppo di dati di riepilogo](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-settings/summary-data-group) per riferimento.
 
@@ -93,7 +97,7 @@ Identifica i parametri di query che contengono la campagna, il gruppo di annunci
 |---|---|---|---|
 | ID Meta nell’URL del sito web | <code>campaign_id={{campaign.id}}</code> | <code>adset_id={{adset.id}}</code> | <code>ad_id={{ad.id}}</code> |
 | ID Meta nei parametri UTM | <code>utm_campaign={{campaign.id}}</code> | <code>utm_term={{adset.id}}</code> | <code>utm_content={{ad.id}}</code> |
-| ID di Google Ads nei parametri UTM | <code>utm_campaign={campaignid}</code> | <code>utm_term={adgroupid}</code> | <code>utm_content={creative}</code> |
+| ID di Google Ads nei parametri UTM | <code>utm_campaign={{campaign}}</code> | <code>utm_term={{adgroupid}}</code> | <code>utm_content={{creative}}</code> |
 
 Per i tag UTM di Meta, un valore di origine come `utm_source=fb` può identificare la rete. Per i tag UTM di Google Ads, utilizza un valore di origine come `utm_source=google`.
 
@@ -122,10 +126,10 @@ Apri la visualizzazione dati che intendi utilizzare ed esamina i componenti per 
 
 | | Punto di partenza | Configurazione esistente | Passaggi da seguire |
 |---|---|---|---|
-| A | Content Analytics con web o mobile e paid media | Set di dati e componenti multimediali a pagamento, oltre a set di dati evento e di ricerca di Content Analytics | Se necessario, aggiungi il set di dati dell’evento del sito web, quindi configura i campi derivati dal web e i gruppi di reporting |
-| B | Content Analytics con solo supporti a pagamento | Set di dati e componenti per contenuti multimediali a pagamento; possono essere presenti anche set di dati di ricerca di contenuti condivisi | Aggiungi il set di dati dell’evento del sito web, quindi configura i campi derivati dal web e i gruppi di reporting |
-| C | Supporti a pagamento senza provisioning Content Analytics | I set di dati multimediali a pagamento esistono in Experience Platform, ma la connessione e la visualizzazione dati non contengono la configurazione dei file multimediali a pagamento | Aggiungi il sito web e i set di dati per file multimediali a pagamento, quindi crea i file multimediali a pagamento e i componenti web |
-| D | Content Analytics senza supporti a pagamento | Solo componenti Content Analytics | Abilita il canale dei file multimediali a pagamento nella configurazione Content Analytics, quindi segui il percorso di configurazione esistente |
+| A | Content Analytics con web o mobile e paid media | [Componenti e set di dati multimediali a pagamento](/help/content-analytics/config/paid-media.md), nonché set di dati di ricerca e di eventi di Content Analytics. | Se necessario, aggiungi il set di dati dell’evento del sito web, quindi configura i campi derivati dal web e i gruppi di reporting. |
+| B | Content Analytics con solo supporti a pagamento | [Componenti e set di dati multimediali a pagamento](/help/content-analytics/config/paid-media.md); possono essere presenti anche set di dati di ricerca di contenuto condiviso. | Aggiungi il set di dati dell’evento del sito web, quindi configura i campi derivati dal web e i gruppi di reporting. |
+| C | Supporti a pagamento senza provisioning Content Analytics | I set di dati di file multimediali a pagamento esistono in Experience Platform, ma la connessione e la visualizzazione dati non contengono la configurazione di file multimediali a pagamento. | Aggiungi il sito web e i set di dati per contenuti multimediali a pagamento, quindi crea i componenti per contenuti multimediali a pagamento e web. |
+| D | Content Analytics senza supporti a pagamento | Solo componenti di Content Analytics. | Abilita il canale a pagamento nella configurazione Content Analytics, quindi segui il percorso di configurazione esistente. |
 
 Non rimuovere o modificare i set di dati o i componenti di sola lettura di cui è stato eseguito il provisioning quando si estende una connessione gestita da Content Analytics.
 
@@ -143,10 +147,10 @@ Ignora la creazione di schemi, set di dati e flussi di dati se il sito web invia
 
    | Gruppo di campi | Dati richiesti |
    |---|---|
-   | AEP Web SDK ExperienceEvent | URL della pagina, visualizzazioni di pagina, referrer e altro contesto web |
-   | Dettagli Commerce | Conteggio acquisti, valore ordine, valuta, ID acquisto e dettagli prodotto |
-   | Dettagli di marketing della campagna, facoltativo | Codici di tracciamento se l’implementazione li acquisisce separatamente |
-   | IdentityMap, se non già presente | L’identificatore della persona, ad esempio ECID |
+   | AEP Web SDK ExperienceEvent | URL della pagina, visualizzazioni di pagina, referrer e altro contesto web. |
+   | Dettagli Commerce | Numero di acquisti, valore dell’ordine, valuta, ID acquisto e dettagli del prodotto. |
+   | Dettagli di marketing della campagna, facoltativo | I codici di tracciamento se l’implementazione li acquisisce separatamente. |
+   | IdentityMap, se non già presente | L’identificatore della persona, ad esempio ECID. |
 
 1. Salva lo schema. Per questo caso d’uso di reporting non è necessaria l’abilitazione del profilo.
 1. Vai a **[!UICONTROL Gestione dati]** > **[!UICONTROL Set di dati]** > **[!UICONTROL Crea set di dati]** > **[!UICONTROL Crea set di dati dallo schema]**.
@@ -195,11 +199,11 @@ Per acquisire il set di dati dell’evento web in Customer Journey Analytics, de
 
    | Impostazione | Valore |
    |---|---|
-   | ID persona | `identityMap` con lo spazio dei nomi ECID o con il campo ID persona dell&#39;implementazione |
+   | ID persona | `identityMap` con lo spazio dei nomi ECID o con il campo ID persona dell&#39;implementazione. |
    | Marca temporale | `timestamp` |
    | Tipo di origine dati | Dati web |
    | Importa tutti i nuovi dati | Abilitata |
-   | Retrocompila tutti i dati esistenti | Abilitato per il periodo storico necessario |
+   | Retrocompila tutti i dati esistenti | Abilitato per il periodo storico necessario. |
 
 1. Aggiungi il set di dati e salva la connessione.
 
@@ -286,11 +290,11 @@ Crea un campo derivato per livello di reporting. La seguente struttura gestisce 
 
 | Regola | Funzione | Configurazione |
 |---|---|---|
-| 1 | [Analisi URL](/help/data-views/derived-fields/derived-fields.md#url-parse) | Leggi il parametro Meta specifico del livello dall’URL della pagina |
-| 2 | [Analisi URL](/help/data-views/derived-fields/derived-fields.md#url-parse) | Leggi il parametro UTM specifico del livello dall’URL della pagina |
-| 3 | [Analisi URL](/help/data-views/derived-fields/derived-fields.md#url-parse) | Leggi `s_kwcid` dall&#39;URL della pagina |
-| 4 | [Sostituzione Regex](/help/data-views/derived-fields/derived-fields.md#regex-replace) | Applica l&#39;espressione specifica del livello alla regola 3; output `$1` |
-| 5 | [Caso In Cui](/help/data-views/derived-fields/derived-fields.md#case-when) | Se è impostata la regola 3, restituire la regola 4; altrimenti, se è impostata la regola 1, restituire la regola 1; in caso contrario, restituire la regola 2 |
+| 1 | [Analisi URL](/help/data-views/derived-fields/derived-fields.md#url-parse) | Leggi il parametro Meta specifico del livello dall’URL della pagina. |
+| 2 | [Analisi URL](/help/data-views/derived-fields/derived-fields.md#url-parse) | Leggi il parametro UTM specifico del livello dall’URL della pagina. |
+| 3 | [Analisi URL](/help/data-views/derived-fields/derived-fields.md#url-parse) | Leggi `s_kwcid` dall&#39;URL della pagina. |
+| 4 | [Sostituzione Regex](/help/data-views/derived-fields/derived-fields.md#regex-replace) | Applica l&#39;espressione specifica del livello alla regola 3; output `$1`. |
+| 5 | [Caso In Cui](/help/data-views/derived-fields/derived-fields.md#case-when) | Se è impostata la regola 3, restituire la regola 4; altrimenti, se è impostata la regola 1, restituire la regola 1; in caso contrario, restituire la regola 2. |
 
 Utilizza i seguenti valori:
 

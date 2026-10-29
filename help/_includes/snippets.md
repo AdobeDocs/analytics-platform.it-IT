@@ -1,7 +1,7 @@
 ---
-source-git-commit: ccaa957e79fba24292316c7447be786f57f03493
+source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
 workflow-type: tm+mt
-source-wordcount: '5605'
+source-wordcount: '5607'
 ht-degree: 95%
 ---
 # Snippet
@@ -94,7 +94,7 @@ Questo video illustra la funzionalità utilizzata con Adobe Analytics. Tuttavia,
 
 | Altri filtri | Descrizione |
 |---|---|
-| ![Altri filtri](/help/assets/filter-other.png){width="300"} | La sezione **[!UICONTROL Altri filtri]** consente di filtrare in base ad altri filtri predefiniti.<ul><li>È possibile scegliere una o più delle opzioni seguenti:<ul><li> **[!UICONTROL Mostra tutti]**</li><li>**[!UICONTROL Condivisi con me]**</li><li>**[!UICONTROL I miei]**</li><li>**[!UICONTROL Approvato]**</li><li>**[!UICONTROL Preferiti]**</li></ul> Ciò che puoi selezionare dipende dal tuo ruolo e dalle autorizzazioni.</li><li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(1)**: numero di altri filtri selezionati (se sono selezionati uno o più altri filtri).</li><li>**5︎⃣**: numero di altri filtri disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: Il numero di elementi associati all’altro filtro specifico.</li></ul></li></ul> |
+| ![Altri filtri](/help/assets/filter-other.png){width="300"} | La sezione **[!UICONTROL Altri filtri]** consente di filtrare in base ad altri filtri predefiniti.<ul><li>È possibile scegliere una o più delle opzioni seguenti:<ul><li> **[!UICONTROL Mostra tutti]**</li><li>**[!UICONTROL Condivisi con me]**</li><li>**[!UICONTROL I miei]**</li><li>**[!UICONTROL Approvato]**</li><li>**[!UICONTROL Preferiti]**</li><li>**[!UICONTROL Descrizione mancante]**</li></ul> Ciò che puoi selezionare dipende dal tuo ruolo e dalle autorizzazioni.</li><li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(1)**: numero di altri filtri selezionati (se sono selezionati uno o più altri filtri).</li><li>**5︎⃣**: numero di altri filtri disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: Il numero di elementi associati all’altro filtro specifico.</li></ul></li></ul> |
 
 ## Sezione filtro Intervallo di date  {#daterangefiltersection}
 
