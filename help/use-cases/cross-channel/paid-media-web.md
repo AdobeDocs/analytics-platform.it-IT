@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 hide: true
 role: Admin
-source-git-commit: 11bc93e0adabd8e8109bda1734e1a098ce8bef1e
+source-git-commit: c5a7403374f26ebc641f3491a88dc14c5f8693c6
 workflow-type: tm+mt
-source-wordcount: '3907'
+source-wordcount: '3910'
 ht-degree: 3%
 ---
 # Aggiungere dati multimediali a pagamento con dati web
@@ -47,7 +47,7 @@ I set di dati di riepilogo dei file multimediali a pagamento contengono metriche
 
 Puoi partecipare solo a livelli i cui ID vengono visualizzati negli URL della pagina di destinazione o nei campi evento esistenti. Ad esempio, l’assegnazione tag solo campagna supporta il reporting delle campagne, ma non quello a livello di annuncio. I join a livello di esperienza e di risorsa richiedono parametri URL aggiuntivi e non rientrano nell’ambito di questa guida.
 
-Vedere [Dati di riepilogo](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/summary-data) e [Impostazioni dei componenti del gruppo di dati di riepilogo](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-settings/summary-data-group) per riferimento.
+Vedere [Dati di riepilogo](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/summary-data) e [Impostazioni dei componenti del gruppo di dati di riepilogo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/summary-data-group) per riferimento.
 
 ### Scegli la chiave di unione
 
@@ -81,7 +81,7 @@ Conferma di disporre di:
 * [!DNL Customer Journey Analytics] Seleziona o versione successiva, con accesso alle funzioni di campo derivato utilizzate qui: [URL Parse](/help/data-views/derived-fields/derived-fields.md#url-parse), [Case When](/help/data-views/derived-fields/derived-fields.md#case-when), [Regex Replace](/help/data-views/derived-fields/derived-fields.md#regex-replace) e, per l&#39;arricchimento dei nomi, [Lookup](/help/data-views/derived-fields/derived-fields.md#lookup).
 * Autorizzazioni [!DNL Adobe Experience Platform] per gestire schemi, set di dati e flussi di dati nella sandbox di destinazione e accedere ai set di dati e a Query Service per la verifica.
 * Autorizzazione [!DNL Customer Journey Analytics] per modificare la connessione di destinazione e la visualizzazione dati.
-* Connettori per origini multimediali a pagamento configurati nella stessa sandbox e acquisizione di set di dati di riepilogo e di ricerca. Per un connettore di esempio, vedere [Origine Meta Ads](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/advertising/meta-ads).
+* Connettori per origini multimediali a pagamento configurati nella stessa sandbox e acquisizione di set di dati di riepilogo e di ricerca. Per un connettore di esempio, vedere [Origine Meta Ads](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/advertising/meta-ads).
 * Eventi del sito web che acquisiscono l’URL completo della pagina di destinazione, inclusa la relativa stringa di query, o campi equivalenti contenenti gli ID di rete.
 
 
@@ -93,7 +93,7 @@ Identifica i parametri di query che contengono la campagna, il gruppo di annunci
 |---|---|---|---|
 | ID Meta nell’URL del sito web | <code>campaign_id={{campaign.id}}</code> | <code>adset_id={{adset.id}}</code> | <code>ad_id={{ad.id}}</code> |
 | ID Meta nei parametri UTM | <code>utm_campaign={{campaign.id}}</code> | <code>utm_term={{adset.id}}</code> | <code>utm_content={{ad.id}}</code> |
-| ID di Google Ads nei parametri UTM | <code>utm_campaign={campaignid}</code> | <code>utm_term={adgroupid}</code> | <code>utm_content={creative}</code> |
+| ID di Google Ads nei parametri UTM | <code>utm_campaign={{campaign}}</code> | <code>utm_term={{adgroupid}}</code> | <code>utm_content={{creative}}</code> |
 
 Per i tag UTM di Meta, un valore di origine come `utm_source=fb` può identificare la rete. Per i tag UTM di Google Ads, utilizza un valore di origine come `utm_source=google`.
 
@@ -158,7 +158,7 @@ Ignora la creazione di schemi, set di dati e flussi di dati se il sito web invia
 1. Denomina lo stream di dati e seleziona lo schema evento come schema di mappatura.
 1. Salva, quindi seleziona **[!UICONTROL Aggiungi servizio]** > **[!UICONTROL Adobe Experience Platform]**.
 1. Seleziona la sandbox e il set di dati evento, quindi **[!UICONTROL Salva]**.
-1. Utilizza l&#39;ID dello stream di dati per configurare [Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/js-overview).
+1. Utilizza l&#39;ID dello stream di dati per configurare [Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview).
 
 Acquisisci quanto segue:
 
@@ -363,7 +363,7 @@ Aggiungi il campo derivato delle destinazioni a pagamento come metrica, quindi c
 
 Mantieni invariate le metriche **[!UICONTROL Ordini]** e **[!UICONTROL Ricavi]** originali per mantenere i rapporti esistenti. Per questa impostazione è necessario abilitare esplicitamente l&#39;override, anche quando le impostazioni predefinite visualizzate sembrano corrispondere.
 
-Per il credito di conversione tra visite di ritorno, considera invece un contenitore **[!UICONTROL Persona]** e un intervallo di lookback appropriato. Vedi il [caso di utilizzo dei dati di riepilogo](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-usecases/data-views/summary-data).
+Per il credito di conversione tra visite di ritorno, considera invece un contenitore **[!UICONTROL Persona]** e un intervallo di lookback appropriato. Vedi il [caso di utilizzo dei dati di riepilogo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-usecases/data-views/summary-data).
 
 Utilizza l’attribuzione delle metriche invece di aggiungere persistenza alle dimensioni dell’ID web. Per evitare di gonfiare i conteggi interpretati come atterraggi, non mantenere gli ID per gli eventi successivi, in quanto ciò cambia gli eventi che compaiono nelle righe della campagna.
 
