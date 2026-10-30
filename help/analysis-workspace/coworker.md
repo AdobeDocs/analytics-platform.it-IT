@@ -4,7 +4,6 @@ description: Utilizza l’esperienza interna al prodotto per Collaboratore per r
 role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
-hold: true
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
     internal-label: Customer Journey Analytics
@@ -23,14 +22,16 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: 88e67c92fc170b340149c9ab73ad5eea2122da2b
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 0%
+source-wordcount: '1960'
+ht-degree: 1%
 ---
 # Utilizzare l’esperienza interna al prodotto per il collaboratore
 
-{{release-limited-testing}}
+>[!AVAILABILITY]
+>
+>La funzionalità descritta in questa sezione si trova nella fase di test del rilascio e potrebbe non essere ancora disponibile nell‘ambiente. Inoltre, Coworker utilizza l’intelligenza artificiale generativa, che può produrre risultati imprecisi o imprevisti. Rivedi le risposte del Collaboratore e tutte le modifiche apportate al progetto prima di agire su di esse o di condividere il progetto.
 
 L’esperienza interna al prodotto per Collaboratore è disponibile in un pannello di chat sul lato destro di Analysis Workspace. Cooker utilizza il progetto aperto come contesto, in modo da poter chiedere informazioni sull’analisi o chiedere a Cooker di creare il progetto senza dover spiegare cosa contiene.
 
@@ -42,11 +43,14 @@ L’esperienza interna al prodotto per Collaboratore è disponibile in un pannel
 
   Se non riesci ad accedere a Collaboratore in Workspace, contatta l’amministratore. Per ulteriori informazioni, consulta [Preferenze organizzazione IMS](/help/analysis-workspace/user-preferences.md#ims-organization-preferences). <!-- need to update this section with the new toggle -->
 
-<!-- FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME. -->
-
-* **Autorizzazioni**: in [!UICONTROL Adobe Admin Console], l&#39;autorizzazione [!UICONTROL Strumenti di reporting] **[!UICONTROL Collaboratore]** determina l&#39;accesso a Collaboratore. Un [amministratore del profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) deve aggiungere questa autorizzazione al tuo profilo di prodotto. Per ulteriori informazioni, vedere [Controllo degli accessi](/help/technotes/access-control.md#access-control).
-
 * **Accesso alla visualizzazione dati**: il collaboratore utilizza le autorizzazioni esistenti per Analysis Workspace e la visualizzazione dati. Non può accedere a dati o componenti a cui non hai già accesso.
+
+<!--
+FOLLOW-UP: Coworker permissions are still being finalized. The Coworker permission name below is a placeholder. Confirm the name, category, and Admin Console steps with the SME.
+
+* **Permissions**: In the [!UICONTROL Adobe Admin Console], the [!UICONTROL Reporting Tools] **[!UICONTROL Coworker]** permission determines access to Coworker. A [product profile administrator](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) must add this permission to your product profile. For more information, see [Access control](/help/technotes/access-control.md#access-control).
+
+-->
 
 ### Scegliere tra Collaboratore in Workspace e l’applicazione Collaboratore
 
