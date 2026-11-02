@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7dc0d254bfdf55d9b0b9a13587292b4dab59af30
+source-git-commit: 80d2b7da2e2b6c12a44d7e9bffd821e58dbeeecc
 workflow-type: tm+mt
-source-wordcount: '4844'
-ht-degree: 49%
+source-wordcount: '4894'
+ht-degree: 48%
 ---
 
 # Configurazione guidata di Content Analytics
@@ -298,6 +298,8 @@ Per il canale mobile, puoi configurare [acquisizione e definizione esperienza](#
 
 In questa sezione, puoi scegliere di includere le esperienze nei dati mobili che raccogli con Content Analytics.  Per il canale mobile, un’esperienza è quella che hai registrato come esperienza utilizzando Adobe Experience Platform SDK per Content Analytics.
 
+Le dimensioni dell’esperienza sono abilitate per impostazione predefinita nel set di dati e nella visualizzazione dati. La selezione di **[!UICONTROL Includi esperienze]** consente di abilitare le esperienze Content Analytics nella raccolta dati.
+
 Per impostazione predefinita, **[!UICONTROL Includi esperienze]** è disabilitato.
 
 Considera l’inclusione delle esperienze solo quando hai instrumentato la tua app mobile per registrare le esperienze e tenere traccia delle visualizzazioni delle esperienze e dei clic sulle esperienze.
@@ -470,6 +472,8 @@ Per impostazione predefinita, **[!UICONTROL Includi esperienze]** è disattivato
 
 * Le pagine del sito devono essere riproducibili utilizzando l’URL della pagina.
 * Il contenuto di testo visualizzato da un determinato utente può essere riprodotto utilizzando l’URL della pagina e non dipende da cookie o altri meccanismi di personalizzazione.
+
+Le dimensioni dell’esperienza sono abilitate per impostazione predefinita nel set di dati e nella visualizzazione dati. La selezione di **[!UICONTROL Includi esperienze]** consente di abilitare le esperienze Content Analytics nella raccolta dati.
 
 >[!IMPORTANT]
 >
