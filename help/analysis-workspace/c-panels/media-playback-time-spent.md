@@ -38,7 +38,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_button"
 >title="Tempo trascorso su contenuti multimediali"
->abstract="Crea un pannello per analizzare il consumo video nel tempo, con vari livelli di granularità e con la possibilità di suddividerli e confrontarli."
+>abstract="Crea un pannello per analizzare il consumo video nel tempo, con vari livelli di granularità e con la possibilità di raggrupparli e confrontarli."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,14 +47,14 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="Tempo trascorso su contenuti multimediali"
->abstract="Analizza il consumo video nel tempo, seleziona varie granularità e, facoltativamente, suddividi e confronta utilizzando segmenti, dimensioni, elementi dimensionali o intervalli di date."
+>abstract="Analizza il consumo video nel tempo, seleziona varie granularità e, facoltativamente, raggruppali e confrontali utilizzando segmenti, dimensioni, elementi dimensionali o intervalli di date."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo viene documentato il tempo di riproduzione dei contenuti multimediali trascorso nel pannello_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Vedere il pannello [Tempo di riproduzione dei contenuti multimediali trascorso](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_In questo articolo viene documentato il tempo di riproduzione dei contenuti multimediali trascorso nel pannello_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Vedere il pannello [Tempo di riproduzione dei contenuti multimediali trascorso](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +80,7 @@ Il Tempo di riproduzione trascorso può aiutarti a comprendere:
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo di riproduzione trascorso](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tempo di riproduzione trascorso](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"} per un video demo.
 
 {{videoaa}}
 

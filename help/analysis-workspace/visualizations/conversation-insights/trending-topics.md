@@ -7,7 +7,7 @@ hide: true
 source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 8%
+ht-degree: 16%
 ---
 # Argomenti di tendenza {#trending-topics}
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="workspace_trendingtopics_panel"
 >title="Argomenti di tendenza"
->abstract="Analizza gli argomenti di tendenza in base alla metrica di classificazione selezionata. Selezionare gli argomenti per eseguire il drill-down fino a cinque livelli di profondità. Cerca argomenti specifici e confronta gli argomenti con altri intervalli di date."
+>abstract="Analizza gli argomenti di tendenza in base alla metrica di ranking selezionata. Seleziona gli argomenti per eseguire il drill-down fino a cinque livelli di profondità. Cerca argomenti specifici e confronta gli argomenti con altri intervalli di date."
 
 {{release-limited-testing}}
 
