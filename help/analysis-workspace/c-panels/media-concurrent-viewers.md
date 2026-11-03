@@ -49,7 +49,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
 >title="Visualizzatori simultanei di file multimediali"
->abstract="Analizza i visualizzatori simultanei nel tempo, visualizza il picco di concorrenza e, facoltativamente, suddividi e confronta utilizzando segmenti, dimensioni, elementi dimensionali o intervalli di date."
+>abstract="Analizza i visualizzatori simultanei nel tempo, visualizza il picco di concomitanza e, facoltativamente, raggruppali e confrontali utilizzando segmenti, dimensioni, elementi dimensionali o intervalli di date."
 
 <!-- markdownlint-enable MD034 -->
 

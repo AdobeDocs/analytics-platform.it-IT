@@ -126,7 +126,7 @@ Questa sezione è visibile solo per gli amministratori che dispongono del provis
 >[!CONTEXTUALHELP]
 >id="cja-enable-data-insights-data-view"
 >title="Abilita per Agente Data Insights"
->abstract="Questa opzione abilita la visualizzazione dati per l’utilizzo con Agente Data Insights. Data Insights Agent è un agente generativo di conversazione basata su intelligenza artificiale che consente di analizzare rapidamente i dati tramite messaggi di testo. Crea visualizzazioni pertinenti in Analysis Workspace utilizzando i componenti della visualizzazione dati e i tuoi dati effettivi."
+>abstract="Questa opzione abilita la visualizzazione dati per l’utilizzo con Agente Data Insights. Data Insights Agent è un agente di IA generativa che ti aiuta ad analizzare rapidamente i tuoi dati tramite prompt di testo. Crea visualizzazioni pertinenti in Analysis Workspace utilizzando i componenti della visualizzazione dati e i tuoi dati effettivi."
 
 <!-- markdownlint-enable MD034 -->
 

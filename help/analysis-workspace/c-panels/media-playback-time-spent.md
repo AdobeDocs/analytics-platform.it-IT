@@ -38,7 +38,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_button"
 >title="Tempo trascorso su contenuti multimediali"
->abstract="Crea un pannello per analizzare il consumo video nel tempo, con vari livelli di granularità e con la possibilità di suddividerli e confrontarli."
+>abstract="Crea un pannello per analizzare il consumo video nel tempo, con vari livelli di granularità e con la possibilità di raggrupparli e confrontarli."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,7 +47,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="Tempo trascorso su contenuti multimediali"
->abstract="Analizza il consumo video nel tempo, seleziona varie granularità e, facoltativamente, suddividi e confronta utilizzando segmenti, dimensioni, elementi dimensionali o intervalli di date."
+>abstract="Analizza il consumo video nel tempo, seleziona varie granularità e, facoltativamente, raggruppali e confrontali utilizzando segmenti, dimensioni, elementi dimensionali o intervalli di date."
 
 <!-- markdownlint-enable MD034 -->
 
