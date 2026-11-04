@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 6cecd447699645d21f5b198cdde1796dd49e80f6
+source-git-commit: c244c7d5c08f2059046603d09b09fbe70f8bff07
 workflow-type: tm+mt
-source-wordcount: '2328'
+source-wordcount: '2330'
 ht-degree: 24%
 ---
 # Unione persona-account B2B
@@ -150,7 +150,7 @@ Prima di abilitare la persona B2B all’unione di account, prepara i seguenti se
 >[!IMPORTANT]
 >
 >* Il campo ID persona nel set di dati persona per account deve essere contrassegnato come identità nello schema.
->* Il set di dati di ricerca da persona a account utilizza lo schema B2B standard basato sulla classe di relazione della persona dell’account aziendale XDM o uno schema relazionale personalizzato in cui i campi ID persona e ID account sono stringhe semplici. Gli schemi che utilizzano l&#39;oggetto array `personComponents` per recuperare le informazioni sull&#39;ID account non sono supportati per i set di dati da persona a account.
+>* Il set di dati di ricerca da persona a account può utilizzare lo schema B2B standard basato sulla classe di relazione della persona dell’account aziendale XDM o uno schema relazionale personalizzato in cui i campi ID persona e ID account sono stringhe semplici. Gli schemi che utilizzano l&#39;oggetto array **[!UICONTROL personComponents]** per recuperare le informazioni sull&#39;ID account non sono supportati per i set di dati da persona a account.
 
 ## Abilita unione delle identità persona-account {#enable-account-stitching}
 
