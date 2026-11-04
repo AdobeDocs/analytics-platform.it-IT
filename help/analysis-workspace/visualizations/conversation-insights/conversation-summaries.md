@@ -3,11 +3,10 @@ description: Utilizza la visualizzazione Riepiloghi conversazione per riepilogar
 title: Riepiloghi delle conversazioni
 feature: Visualizations
 role: User
-hide: true
-source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
+source-git-commit: 30311dc0e753778c6e5316d82ffba25748d8315e
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 20%
+source-wordcount: '407'
+ht-degree: 17%
 ---
 # Riepiloghi conversazione {#conversation-summaries}
 
@@ -23,7 +22,7 @@ ht-degree: 20%
 
 {{release-limited-testing}}
 
-La visualizzazione ![Riepiloga](/help/assets/icons/Summarize.svg) **[!UICONTROL Riepiloghi conversazione]** consente di riepilogare un gruppo filtrato di conversazioni.
+La visualizzazione ![AI](/help/assets/icons/AI.svg) **[!UICONTROL Riepiloghi conversazioni]** consente di riepilogare un gruppo filtrato di conversazioni come parte di [Informazioni sulla conversazione](/help/conversation-insights/overview.md).
 
 La visualizzazione mostra un riepilogo della metrica selezionata (ad esempio Conversazioni) e, dopo aver configurato la visualizzazione in modo da includere gli argomenti secondari, visualizza gli argomenti secondari o i commenti verbali.
 
@@ -42,7 +41,7 @@ La visualizzazione mostra un riepilogo della metrica selezionata (ad esempio Con
 
 Per creare e configurare una visualizzazione **[!UICONTROL Riepiloghi conversazione]**:
 
-1. Aggiungi una visualizzazione ![Riepiloga](/help/assets/icons/Summarize.svg) **[!UICONTROL Riepiloghi conversazione]**. Consulta [Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Aggiungi una visualizzazione ![AI](/help/assets/icons/AI.svg) **[!UICONTROL Riepiloghi conversazione]**. Consulta [Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
 1. Nella configurazione della visualizzazione **[!UICONTROL Riepiloghi conversazione]**:
 
@@ -52,7 +51,7 @@ Per creare e configurare una visualizzazione **[!UICONTROL Riepiloghi conversazi
 
 1. Seleziona **[!UICONTROL Build]** per generare la visualizzazione. Selezionare **[!UICONTROL Reimposta]** per ripristinare i valori predefiniti della configurazione. Seleziona **[!UICONTROL Annulla]** per annullare la configurazione.
 
-Per riconfigurare la visualizzazione **[!UICONTROL Riepiloghi conversazione]**, seleziona ![Modifica](/help/assets/icons/Edit.svg) accanto a **[!UICONTROL Metrica: _Metrica_]**&#x200B;o **[!UICONTROL Metrica:_Metrica_]** | **[!UICONTROL Segmenti: _segmenti_]**.
+Per riconfigurare la visualizzazione **[!UICONTROL Riepiloghi conversazione]**, seleziona ![Modifica](/help/assets/icons/Edit.svg) accanto a **[!UICONTROL Metrica: _Metrica_]**o **[!UICONTROL Metrica:_Metrica_]** | **[!UICONTROL Segmenti: _segmenti_]**.
 
 ## Utilizzo
 
@@ -72,6 +71,13 @@ Per utilizzare la visualizzazione:
 
 * Se sono presenti [argomenti secondari inclusi](#settings), selezionare **[!UICONTROL Argomenti secondari]** per visualizzare gli argomenti secondari o **[!UICONTROL Commenti verbali]** per visualizzare i commenti verbali.
 * Dopo aver selezionato **[!UICONTROL Commenti verbali]**, seleziona ![FileSearch](/help/assets/icons/FileSearch.svg) per aprire una nuova visualizzazione [**[!UICONTROL Revisione conversazione]**](./conversation-review.md) per la conversazione specifica di cui fa parte il commento verbale.
+
+Per sfogliare rapidamente più recensioni di conversazione:
+
+1. Creare una [tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) con **[!UICONTROL ID conversazione]** e **[!UICONTROL Nome conversazione]** come dimensioni.
+1. Seleziona la tabella a forma libera come origine dati per la visualizzazione **[!UICONTROL Analisi conversazioni]**.
+
+Selezionare una conversazione nella tabella a forma libera per aggiornare automaticamente la **[!UICONTROL Revisione conversazione]** con i dettagli della conversazione selezionata.
 
 ## Impostazioni
 

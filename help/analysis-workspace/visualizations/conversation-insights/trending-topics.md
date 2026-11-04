@@ -3,8 +3,7 @@ description: Utilizza la visualizzazione degli argomenti di tendenza per esplora
 title: Argomenti di tendenza
 feature: Visualizations
 role: User
-hide: true
-source-git-commit: 113a215e26092c65d6eaf2c321f60d3f3a5015b8
+source-git-commit: e498c374e8bfe12d7adda6ff9e7870a86f91dd5c
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 16%
@@ -23,7 +22,7 @@ ht-degree: 16%
 
 {{release-limited-testing}}
 
-La visualizzazione ![Feed](/help/assets/icons/Feed.svg) **[!UICONTROL Argomenti di tendenza]** consente di esplorare e analizzare gli argomenti di tendenza come parte degli approfondimenti sulla conversazione.
+La visualizzazione ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Argomenti di tendenza]** consente di esplorare e analizzare gli argomenti di tendenza come parte di [Informazioni sulla conversazione](/help/conversation-insights/overview.md).
 
 È possibile cercare argomenti specifici e confrontare il numero e la percentuale di ciascun argomento a ogni livello con altri intervalli di dati.
 
@@ -42,7 +41,7 @@ La visualizzazione ![Feed](/help/assets/icons/Feed.svg) **[!UICONTROL Argomenti 
 
 Per creare e configurare una visualizzazione **[!UICONTROL Argomenti di tendenza]**:
 
-1. Aggiungi una visualizzazione ![Feed](/help/assets/icons/Feed.svg) **[!UICONTROL Argomenti di tendenza]**. Consulta [Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Aggiungi una visualizzazione ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Argomenti di tendenza]**. Consulta [Aggiungere una visualizzazione a un pannello](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
 1. Nella configurazione della visualizzazione **[!UICONTROL Argomenti di tendenza]**:
 
