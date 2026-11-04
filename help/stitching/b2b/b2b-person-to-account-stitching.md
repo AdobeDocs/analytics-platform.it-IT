@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: c244c7d5c08f2059046603d09b09fbe70f8bff07
 workflow-type: tm+mt
-source-wordcount: '2292'
-ht-degree: 25%
+source-wordcount: '2330'
+ht-degree: 24%
 ---
 # Unione persona-account B2B
 
@@ -46,7 +46,7 @@ Senza unione da persona a account, qualsiasi evento che non contiene un ID accou
 
 L’unione da persona a account esegue le seguenti operazioni sui set di dati:
 
-* **Elevare l&#39;identità della persona**: in modo analogo all&#39;approccio di unione [B2C](/help/stitching/overview.md), verrà configurato un campo contenente gli ID persona persistenti. Utilizzando il grafo delle identità, l’ID persona persistente in ogni evento è elevato a un ID persona dallo spazio dei nomi dell’identificatore della persona configurato.
+* **Elevare l&#39;identità della persona**: in modo analogo all&#39;approccio di unione [B2C](/help/stitching/overview.md), è possibile configurare un campo contenente gli ID persona persistenti. Utilizzando il grafo delle identità, l’ID persona persistente in ogni evento è elevato a un ID persona dallo spazio dei nomi dell’identificatore della persona configurato.
 * **Aggiungi identità account mancanti**: dopo aver ottenuto le informazioni sull&#39;ID persona per un evento, viene utilizzata la [mappatura da persona a account](#prerequisites) per derivare e aggiungere le informazioni sull&#39;identità dell&#39;account. Qualsiasi identità account disponibile nell’evento stesso viene utilizzata come metodo di fallback.
 
 ## Funzionamento dell’unione di persone e account B2B
@@ -70,7 +70,7 @@ In Customer Journey Analytics B2B edition, gli eventi senza ID account in questo
 L’unione da persona a account B2B impedisce che gli eventi vengano ignorati e non acquisiti utilizzando le operazioni seguenti:
 
 * [Elevare le identità della persona](#elevate-person-identities).
-* [Aggiungi identità account mancanti](#add-missing-account-identitiers).
+* [Aggiungi identità account mancanti](#add-missing-account-identities).
 
 
 ### Privilegiare le identità delle persone
@@ -78,7 +78,7 @@ L’unione da persona a account B2B impedisce che gli eventi vengano ignorati e 
 +++ Dettagli
 
 Per supportare l&#39;unione tra persona B2B e account, quando [configuri le impostazioni di unione B2B](#configure-b2b-stitching-settings), fornisci uno spazio dei nomi dell&#39;identificatore della persona principale (ad esempio E-mail) e un set di dati di mappatura tra persona e account.
-Lo spazio dei nomi ID persona dal set di dati persona all’account può essere lo stesso di quello principale (E-mail), oppure può differire. Nell’esempio seguente, viene impostato come ID del sistema di gestione delle relazioni con i clienti (che dovrà essere collegato a E-mail nel grafico delle identità).
+Lo spazio dei nomi ID persona dal set di dati persona all’account può essere lo stesso di quello principale (E-mail), oppure può differire. Nell’esempio seguente, viene impostato come ID del sistema di gestione delle relazioni con i clienti (che deve essere collegato a E-mail nel grafico delle identità).
 
 | ID CRM | ID account |
 |---|---|
@@ -89,8 +89,8 @@ Lo spazio dei nomi ID persona dal set di dati persona all’account può essere 
 | b978bbw9 | Ubiquità |
 | fs453ghi | Adobe |
 
-Il set di dati di mappatura da persona a account è elevato utilizzando l’unione basata su grafico. Tieni presente che questo accade nel back-end e non si riflette nei dati dell’effettivo set di dati.
-Nel nostro esempio, utilizzando i collegamenti del grafico delle identità tra l’ID del sistema di gestione delle relazioni con i clienti e gli spazi dei nomi delle e-mail, il risultato è un set di dati di mappatura da persona a account aggiornato con ID persona elevati.
+Il set di dati di mappatura da persona a account è elevato utilizzando l’unione basata su grafico. Ciò avviene in background e non si riflette nei dati del set di dati effettivo.
+Nell’esempio, utilizzando i collegamenti del grafico delle identità tra l’ID del sistema di gestione delle relazioni con i clienti e gli spazi dei nomi e-mail, il risultato è un set di dati di mappatura da persona a account aggiornato con ID persona elevati.
 
 | ID CRM | ID persona elevata | ID account |
 |---|---|---|
@@ -136,7 +136,7 @@ Il set di dati da persona a account viene utilizzato per elevare gli ID account 
 
 ### Risultato
 
-Questo esempio mostra come l’unione di persone B2B e account aggiorna i dati dell’evento esperienza con identificatori di persone mancanti e identificatori di account mancanti o errati, in base ai dati del grafico delle identità e al set di dati di mappatura da persona a account fornito come input.
+Questo esempio mostra come l’unione di persona B2B con l’account aggiorna i dati dell’evento esperienza con identificatori di persona mancanti e identificatori di account mancanti o errati, in base ai dati del grafico delle identità e al set di dati di mappatura da persona a account fornito.
 
 
 ## Prerequisiti
@@ -149,7 +149,8 @@ Prima di abilitare la persona B2B all’unione di account, prepara i seguenti se
 
 >[!IMPORTANT]
 >
->Il campo ID persona nel set di dati persona per account deve essere contrassegnato come identità nello schema.
+>* Il campo ID persona nel set di dati persona per account deve essere contrassegnato come identità nello schema.
+>* Il set di dati di ricerca da persona a account può utilizzare lo schema B2B standard basato sulla classe di relazione della persona dell’account aziendale XDM o uno schema relazionale personalizzato in cui i campi ID persona e ID account sono stringhe semplici. Gli schemi che utilizzano l&#39;oggetto array **[!UICONTROL personComponents]** per recuperare le informazioni sull&#39;ID account non sono supportati per i set di dati da persona a account.
 
 ## Abilita unione delle identità persona-account {#enable-account-stitching}
 
@@ -277,7 +278,7 @@ Dopo aver configurato la persona B2B per la configurazione di unione degli accou
 
 >[!IMPORTANT]
 >
->Una volta salvata una connessione, la configurazione dell’unione di persona B2B con l’account diventa immutabile. Per visualizzare le impostazioni dopo il salvataggio, selezionare **Apri configurazione di unione B2B**. Tutti i campi sono di sola lettura. Inoltre, se il set di dati utilizzato per [il mapping tra persona e account](#prerequisites) viene eliminato in Experience Platform, la configurazione di unione viene eliminata e la connessione passa a uno stato non valido, segnalato con un messaggio di avviso nell&#39;interfaccia utente.
+>Una volta salvata una connessione, la configurazione dell’unione di persona B2B con l’account diventa immutabile. Per visualizzare le impostazioni dopo il salvataggio, selezionare **Apri configurazione di unione B2B**. Tutti i campi sono di sola lettura. Inoltre, se il set di dati [di mappatura persona-account](#prerequisites) viene eliminato in Experience Platform, la configurazione di unione viene eliminata e la connessione non è più valida, segnalata da un avviso.
 
 ## Pianificazione aggiornamento dati
 
