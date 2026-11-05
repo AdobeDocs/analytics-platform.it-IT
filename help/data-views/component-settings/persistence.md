@@ -24,13 +24,11 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 7190b05d8c3d66a6f76ed256af3424ba3c971855
 workflow-type: tm+mt
-source-wordcount: 1117
+source-wordcount: '1119'
 ht-degree: 62%
-
 ---
-
 # Impostazioni del componente [!UICONTROL Persistenza] {#persistence-component-settings}
 
 <!-- markdownlint-disable MD034 -->
@@ -64,7 +62,7 @@ ht-degree: 62%
 | --- | --- |
 | [!UICONTROL Imposta persistenza] | Abilita la persistenza per la dimensione. Se la persistenza non è abilitata, la dimensione si riferisce solo alle metriche esistenti nello stesso evento. Questa impostazione è disattivata per impostazione predefinita. |
 | [!UICONTROL Allocazione] | Specifica il modello di allocazione utilizzato su una dimensione per la persistenza. Le opzioni sono:<ul><li>**[!UICONTROL Più recente]**: i valori nella dimensione persistono fino a quando non vengono sovrascritti dai valori successivi</li><li> **[!UICONTROL Originale]**: il primo valore per questa dimensione persiste e non viene sovrascritto dai valori successivi</li><li>**[!UICONTROL Tutti]**: tutti i valori di questa dimensione persistono contemporaneamente</li><li>**[!UICONTROL Primo elemento noto]**: viene utilizzato il primo valore per questa dimensione che verrà applicato a tutti gli eventi precedenti e successivi.</li><li>**[!UICONTROL Ultimo/i noto/i]**: viene utilizzato l&#39;ultimo valore per questa dimensione che verrà applicato a tutti gli eventi precedenti e successivi.</li></ul> |
-| [!UICONTROL Scadenza] | Specifica la finestra di persistenza per una dimensione. Le opzioni sono: <ul><li>**[!UICONTROL Sessione]** (impostazione predefinita)</li><li>**[!UICONTROL Persona]**</li><li>**[!UICONTROL Ora personalizzata]**</li><li>**[!UICONTROL Metrica]**</li></ul>. Potrebbe essere necessario poter scadere la dimensione su un acquisto (ad esempio termini di ricerca interni o altri casi d’uso di merchandising). Il tempo di scadenza massimo che puoi impostare è di 90 giorni. Se selezioni un&#39;allocazione di [!UICONTROL Tutti], è disponibile solo la [!UICONTROL Sessione] o la [!UICONTROL Persona]. |
+| [!UICONTROL Scadenza] | Specifica la finestra di persistenza per una dimensione. Le opzioni sono: <ul><li>**[!UICONTROL Sessione]** (impostazione predefinita)</li><li>**[!UICONTROL Finestra di reporting per persona]**</li><li>**[!UICONTROL Ora personalizzata]**</li><li>**[!UICONTROL Metrica]**</li></ul>. Potrebbe essere necessario poter scadere la dimensione su un acquisto (ad esempio termini di ricerca interni o altri casi d’uso di merchandising). Il tempo di scadenza massimo che puoi impostare è di 90 giorni. Se selezioni un&#39;allocazione di [!UICONTROL Tutti], è disponibile solo la [!UICONTROL Sessione] o la [!UICONTROL Persona]. |
 
 {style="table-layout:auto"}
 
@@ -126,7 +124,7 @@ Per esempi su come utilizzare le dimensioni di binding in modo efficace, vedere 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensioni di binding](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensioni di binding](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
