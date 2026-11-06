@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: '2335'
 ht-degree: 14%
 ---
 # Migrazione dai tag a XDM {#upgrade-migration-planner}
@@ -80,7 +80,7 @@ Prima di creare una migrazione, assicurati di disporre dei seguenti elementi:
 
 * Un’implementazione di Adobe Analytics supportata (l’estensione Analytics per i tag). Consulta [Implementazioni di Adobe Analytics supportate](#supported-adobe-analytics-implementations).
 
-* Accedi alla proprietà Tag di Adobe di cui desideri eseguire la migrazione, nell’organizzazione Experience Cloud a cui hai effettuato l’accesso.
+* Accedi alla proprietà Tag di Adobe di cui desideri eseguire la migrazione, nell’organizzazione Adobe a cui hai effettuato l’accesso.
 
 * Accedi alla suite di rapporti di Adobe Analytics di cui desideri mappare le variabili su XDM.
 
@@ -114,7 +114,7 @@ Una migrazione si sposta attraverso tre fasi: [!UICONTROL **Audit**], [!UICONTRO
 
 1. Seleziona la proprietà tag di cui vuoi eseguire la migrazione, quindi seleziona [!UICONTROL **Successivo**].
 
-   Vengono visualizzate solo le proprietà del tag disponibili per l’organizzazione Experience Cloud che ha effettuato l’accesso.
+   Vengono visualizzate solo le proprietà dei tag disponibili per l&#39;organizzazione con accesso.
 
 1. Selezionare lo snapshot della libreria di tag di cui si desidera eseguire la migrazione, quindi selezionare [!UICONTROL **Avanti**].
 

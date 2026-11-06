@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '3523'
-ht-degree: 60%
+source-wordcount: '3516'
+ht-degree: 58%
 ---
 # Acquisire dati tramite Web SDK
 
@@ -146,7 +146,7 @@ Per configurare lo schema:
 
    ![Oggetto di identificazione](./assets/identification-field.png)
 
-   L’oggetto di identificazione aggiunge funzionalità di individuazione dello schema. Nel tuo caso, immagina di voler identificare i profili che visitano il tuo sito utilizzando l’ID Experience Cloud e l’indirizzo e-mail. Sono disponibili molti altri attributi per monitorare l’identificazione del visitatore (ad esempio, ID cliente, ID di fidelizzazione).
+   L’oggetto di identificazione aggiunge funzionalità di individuazione dello schema. Nel tuo caso, vuoi identificare i profili che visitano il tuo sito utilizzando l’ECID e l’indirizzo e-mail. Sono disponibili molti altri attributi per monitorare l’identificazione del visitatore (ad esempio, ID cliente, ID di fidelizzazione).
 
    Seleziona **[!UICONTROL Applica]** per aggiungere questo oggetto allo schema.
 
@@ -154,7 +154,7 @@ Per configurare lo schema:
 
    ![Specificare ECID come identità](./assets/specify-identity.png)
 
-   Stai specificando l’Experience Cloud Identity come identità principale che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) il comportamento dei profili con lo stesso ECID.
+   Stai specificando l’ECID come identità principale che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) il comportamento dei profili con lo stesso ECID.
 
    Seleziona **[!UICONTROL Applica]**. Nell’attributo ecid viene visualizzata l’icona di un’impronta digitale.
 
@@ -182,7 +182,7 @@ Per configurare lo schema:
 
 1. Seleziona **[!UICONTROL Salva]** per salvare lo schema.
 
-Hai creato uno schema minimo che modella i dati che puoi acquisire dal tuo sito Web. Lo schema consente di identificare i profili utilizzando Experience Cloud Identity e l’indirizzo e-mail. Abilitando lo schema per il profilo, garantisci che i dati acquisiti dal tuo sito web vengano aggiunti a Real-Time Customer Profile.
+Hai creato uno schema minimo che modella i dati che puoi acquisire dal tuo sito Web. Lo schema consente di identificare i profili utilizzando l’ECID e l’indirizzo e-mail. Abilitando lo schema per il profilo, garantisci che i dati acquisiti dal tuo sito web vengano aggiunti a Real-Time Customer Profile.
 
 Accanto ai dati sul comportamento, puoi anche acquisire i dati degli attributi del profilo dal sito (ad esempio i dettagli dei profili che si abbonano a una newsletter).
 
@@ -194,7 +194,7 @@ Per acquisire questi dati del profilo:
 
 - Aggiungi un oggetto di identificazione basato sul gruppo di campi Profile Core v2.
 
-- Definisci l’ID Experience Cloud come identificatore principale e l’e-mail come identificatore.
+- Definisci ECID come identificatore principale e e-mail come identificatore.
 
 - Abilitare lo schema per il profilo
 
@@ -315,9 +315,9 @@ Per creare e configurare l’estensione Adobe Experience Platform Web SDK:
 
    Seleziona **[!UICONTROL Salva]**.
 
-Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=it).
+Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html).
 
-Il Web SDK include il servizio Experience Platform Identity, pertanto non è necessario aggiungere l&#39;estensione tag [!UICONTROL Servizio Experience Cloud ID] alla proprietà.
+Il Web SDK ottiene l&#39;ECID da Edge Network, quindi non è necessario aggiungere l&#39;estensione tag [!UICONTROL Experience Cloud ID Service] alla proprietà.
 
 #### **Elementi dati**
 

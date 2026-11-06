@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 34959e37a7040bcd861a506968895ad6f051b686
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '461'
 ht-degree: 43%
 ---
 
@@ -37,7 +37,7 @@ Utilizza questa pagina per confrontare gli strumenti di reporting ed esportazion
 |---|---|---|---|---|---|---|---|---|
 | **Metodo di accesso** | Browser | Microsoft Excel | Browser | Configurazione tramite browser | Strumenti API RESTful | Strumenti compatibili con MCP | Strumenti BI | Strumenti compatibili con MCP |
 | **Granularità dei dati** | Aggregata | Aggregata | Aggregata | Evento | Aggregata | Aggregata | Aggregata | Aggregata |
-| **Experience Cloud ID (ECID) disponibile** | No | No | No | Sì | No | No | No | No |
+| **ECID disponibile** | No | No | No | Sì | No | No | No | No |
 | **Timestamp disponibile** | No | No | No | Sì | No | No | No | No |
 | **Livello di elaborazione** | Elaborazione completa | Elaborazione completa, con rapporto in tempo reale separato | Elaborazione completa | Elaborazione completa | Elaborazione completa | Elaborazione completa | Elaborazione completa | Elaborazione completa |
 | **Dove viene applicato il filtro bot** | All&#39;interno di [Datastream](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/bot-detection) e/o entro [CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection) | All&#39;interno di [Datastream](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/bot-detection) e/o entro [CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection) | All&#39;interno di [Datastream](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/bot-detection) e/o entro [CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection) | All&#39;interno di [Datastream](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/bot-detection) e/o entro [CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection) |  |  | All&#39;interno di [Datastream](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/bot-detection) e/o entro [CJA](/help/data-views/derived-fields/derived-fields.md#simple-bot-detection) | |

@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '3512'
-ht-degree: 46%
+source-wordcount: '3504'
+ht-degree: 44%
 ---
 # Acquisire dati tramite Mobile SDK
 
@@ -147,7 +147,7 @@ Per configurare lo schema:
 
    ![Oggetto di identificazione](./assets/identification-field-mobile.png)
 
-   L’oggetto di identificazione aggiunge funzionalità di individuazione dello schema. Nel tuo caso, vuoi identificare i profili utilizzando la tua app mobile utilizzando l’Experience Cloud ID e l’indirizzo e-mail. Sono disponibili molti altri attributi per monitorare l’identificazione del visitatore (ad esempio, ID cliente, ID di fidelizzazione).
+   L’oggetto di identificazione aggiunge funzionalità di individuazione dello schema. Nel tuo caso, vuoi identificare i profili utilizzando la tua app mobile utilizzando l’ECID e l’indirizzo e-mail. Sono disponibili molti altri attributi per monitorare l’identificazione del visitatore (ad esempio, ID cliente, ID di fidelizzazione).
 
    Seleziona **[!UICONTROL Applica]** per aggiungere questo oggetto allo schema.
 
@@ -155,7 +155,7 @@ Per configurare lo schema:
 
    ![Specificare ECID come identità](./assets/specify-identity-mobile.png)
 
-   Stai specificando l’Experience Cloud Identity come identità principale che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) il comportamento dei profili con lo stesso ECID.
+   Stai specificando l’ECID come identità principale che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) il comportamento dei profili con lo stesso ECID.
 
    Seleziona **[!UICONTROL Applica]**. Nell’attributo ecid viene visualizzata l’icona di un’impronta digitale.
 
@@ -183,7 +183,7 @@ Per configurare lo schema:
 
 1. Seleziona **[!UICONTROL Salva]** per salvare lo schema.
 
-Hai creato uno schema minimo che modella i dati che puoi acquisire dall’app mobile. Lo schema consente di identificare i profili utilizzando Experience Cloud Identity e l’indirizzo e-mail. Attivando lo schema per il profilo, puoi garantire che i dati acquisiti dall’app mobile vengano aggiunti al Profilo cliente in tempo reale.
+Hai creato uno schema minimo che modella i dati che puoi acquisire dall’app mobile. Lo schema consente di identificare i profili utilizzando l’ECID e l’indirizzo e-mail. Attivando lo schema per il profilo, puoi garantire che i dati acquisiti dall’app mobile vengano aggiunti al Profilo cliente in tempo reale.
 
 Oltre ai dati sul comportamento, puoi anche acquisire i dati degli attributi del profilo dalla tua app mobile (ad esempio i dettagli dei profili che si abbonano a una newsletter).
 
@@ -195,7 +195,7 @@ Per acquisire i dati del profilo:
 
 - Aggiungi un oggetto di identificazione basato sul gruppo di campi Profile Core v2.
 
-- Definisci l’ID Experience Cloud come identificatore principale e l’e-mail come identificatore.
+- Definisci ECID come identificatore principale e e-mail come identificatore.
 
 - Abilitare lo schema per il profilo
 
@@ -465,7 +465,7 @@ Ora puoi distribuire il codice all’interno dell’app mobile. Una volta implem
 
 Convalida l’implementazione, correggila laddove necessario e una volta corretta, implementala nell’ambiente di staging e di produzione utilizzando la funzione di flusso di lavoro di pubblicazione dei tag.
 
-Per informazioni molto più dettagliate, consulta l&#39;esercitazione sull&#39;implementazione di Adobe Experience Cloud nelle app per dispositivi mobili[&#128279;](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=it).
+Per informazioni molto più dettagliate, consulta l&#39;esercitazione sull&#39;implementazione di Adobe Experience Cloud nelle app per dispositivi mobili](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=it).[
 
 ## Configurare una connessione
 

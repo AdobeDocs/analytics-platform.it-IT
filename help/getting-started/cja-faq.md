@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '2323'
-ht-degree: 95%
+source-wordcount: '2322'
+ht-degree: 94%
 ---
 # Domande frequenti
 
@@ -61,9 +61,9 @@ No, per utilizzare [!UICONTROL Customer Journey Analytics] non sono necessari [!
 +++
 
 
-+++**È necessario [!UICONTROL Experience Cloud ID] (ECID) per utilizzare [!UICONTROL Customer Journey Analytics]?**
++++**È necessario un ECID per [!UICONTROL Customer Journey Analytics]?**
 
-No, [!UICONTROL Customer Journey Analytics] supporta qualsiasi ID in un seti di dati, sia esso [!UICONTROL ECID] o qualsiasi altro ID scelto.
+No, [!UICONTROL Customer Journey Analytics] supporta qualsiasi ID in un set di dati, sia esso un ECID o qualsiasi altro ID scelto.
 
 +++
 
@@ -181,7 +181,7 @@ Di recente, Adobe ha modificato il modo in cui i dati vengono elaborati in Custo
 
 ## &#x200B;5. Finestra continua per la conservazione dei dati [!UICONTROL Connessione] {#data-retention}
 
-L’impostazione [**[!UICONTROL Abilita intervallo dati continuo &#x200B;]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection) consente di definire la conservazione dei dati di Customer Journey Analytics come intervallo continuo in mesi (tre mesi, sei mesi, ecc.). È impostato a livello di [!UICONTROL connessione], non a livello di [!UICONTROL set di dati]. La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di conservazione dei dati per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili.
+L’impostazione [**[!UICONTROL Abilita intervallo dati continuo ]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection) consente di definire la conservazione dei dati di Customer Journey Analytics come intervallo continuo in mesi (tre mesi, sei mesi, ecc.). È impostato a livello di [!UICONTROL connessione], non a livello di [!UICONTROL set di dati]. La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di conservazione dei dati per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili.
 
 Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.
 
@@ -272,7 +272,7 @@ Ad esempio il tuo contratto ti dà diritto a un milione di righe di dati. Suppon
 
 A volte, potresti notare che il numero totale di eventi acquisiti dalla connessione è diverso dal numero di righe nel set di dati in [!UICONTROL Adobe Experience Platform]. In questo esempio, il set di dati “Impressione B2B” ha 7650 righe, ma il set di dati contiene 3830 righe in [!UICONTROL Adobe Experience Platform]. Ci sono diversi motivi per cui possono verificarsi discrepanze e per diagnosticarle è possibile seguire i passaggi riportati di seguito:
 
-1. Suddividi questa dimensione per **[!UICONTROL ID set di dati della piattaforma]** e noterai due set di dati con le stesse dimensioni ma **[!UICONTROL ID set di dati della piattaforma]** diversi. Ciascun set di dati presenta 3825 record. Ciò significa che [!UICONTROL Customer Journey Analytics] ha ignorato 5 record a causa di ID persona mancanti o marche temporali mancanti:
+1. Se raggruppi questa dimensione per **[!UICONTROL ID set di dati della piattaforma]**, noterai due set di dati con le stesse dimensioni ma **[!UICONTROL ID set di dati della piattaforma]** diversi. Ciascun set di dati presenta 3825 record. Ciò significa che [!UICONTROL Customer Journey Analytics] ha ignorato 5 record a causa di ID persona mancanti o marche temporali mancanti:
 
    ![raggruppamento](assets/data-size2.png)
 

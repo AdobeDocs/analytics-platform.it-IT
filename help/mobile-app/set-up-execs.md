@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '719'
 ht-degree: 61%
 ---
 # Impostare gli utenti direzionali per l’utilizzo delle dashboard
@@ -83,7 +83,7 @@ Una volta scaricata e installata, gli utenti esecutivi possono accedere all’ap
 
    Viene visualizzata la schermata **[!UICONTROL Scegli un&#39;azienda]**. Questa schermata elenca le aziende di accesso a cui appartiene l’utente direzionale.
 
-1. Chiedi loro di toccare il nome della società di accesso o dell’organizzazione CX Enterprise che si applica alla scorecard condivisa.
+1. Chiedi loro di toccare il nome della società o dell’organizzazione Adobe che si applica alla scorecard condivisa.
 
    Vengono quindi elencate tutte le scorecard che sono state condivise con l’utente direzionale per l’azienda con cui è stato eseguito l’accesso.
 
