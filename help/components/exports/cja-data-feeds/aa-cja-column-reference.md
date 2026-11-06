@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '3921'
+source-wordcount: '3918'
 ht-degree: 34%
 ---
 # Mappare le colonne del feed dati di Adobe Analytics su Customer Journey Analytics
@@ -667,7 +667,7 @@ Posizione (fino a 1 m)
 
 +++**`mcvisid`**
 
-ID visitatore di Experience Cloud. Numero a 128 bit costituito da due numeri concatenati a 64 bit aggiunti a 19 cifre.
+ECID Numero a 128 bit costituito da due numeri concatenati a 64 bit aggiunti a 19 cifre.
 
 +++
 

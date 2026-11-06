@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '892'
+ht-degree: 98%
 ---
 # Confronto con Adobe Analytics
 
@@ -85,7 +85,7 @@ Per ulteriori informazioni, consulta [Suite di rapporti virtuali, visualizzazion
 
 ## Identità
 
-Customer Journey Analytics supporta le identità definite come parte degli schemi ai quali si conformano i set di dati contenenti i dati. Di conseguenza, le identità sono un concetto fondamentale di Experience Platform, che Customer Journey Analytics utilizza durante la configurazione di una [connessione](../../connections/overview.md) (definendo l’ID persona per ciascun set di dati) e durante l’applicazione dell’[unione](../../stitching/overview.md) per l’analisi cross-channel. Un’identità importante utilizzata dagli SDK e dall’API di Experience Platform è l’ID Experience Cloud (ECID).
+Customer Journey Analytics supporta le identità definite come parte degli schemi ai quali si conformano i set di dati contenenti i dati. Di conseguenza, le identità sono un concetto fondamentale di Experience Platform, che Customer Journey Analytics utilizza durante la configurazione di una [connessione](../../connections/overview.md) (definendo l’ID persona per ciascun set di dati) e durante l’applicazione dell’[unione](../../stitching/overview.md) per l’analisi cross-channel. Un’identità importante utilizzata dagli SDK e dall’API di Experience Platform è l’ECID.
 
 Adobe Analytics utilizza un set di campi di identità più definitivo, come Adobe Analytics ID (AAID). Quando si utilizza il connettore di origine di Analytics, a questi campi di identità di Adobe Analytics viene riservato un trattamento speciale. Per ulteriori informazioni consulta [AAID, ECID, AACUSTOMID e il connettore di origine di Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aaid-ecid-adc.html?lang=it).
 

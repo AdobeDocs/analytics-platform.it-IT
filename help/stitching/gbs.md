@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '1999'
-ht-degree: 64%
+source-wordcount: '1997'
+ht-degree: 63%
 ---
 # Unione delle identità basata su grafo
 
@@ -232,7 +232,7 @@ La tabella seguente rappresenta gli stessi dati di cui sopra, ma mostra l’effe
 
 I seguenti prerequisiti si applicano in modo specifico all’unione delle identità basata su grafo:
 
-- Il set di dati evento in Adobe Experience Platform, a cui si desidera applicare l&#39;unione delle identità, deve avere una colonna che identifica un profilo per ogni riga, l&#39;**ID persistente**. Ad esempio, un ID visitatore generato da una libreria AppMeasurement di Adobe Analytics o un ECID generato da Experience Platform Identity Service.
+- Il set di dati evento in Adobe Experience Platform, a cui si desidera applicare l&#39;unione delle identità, deve avere una colonna che identifica un profilo per ogni riga, l&#39;**ID persistente**. Ad esempio, un ID visitatore generato da una libreria AppMeasurement di Adobe Analytics o un ECID generato da Edge Network.
 - Il grafo delle identità da Experience Platform Identity Service deve essere impostato a livello di sandbox, prima di abilitare l’unione basata su grafo.
   - Il grafo delle identità deve avere uno spazio dei nomi (ad esempio `Email` o `Phone`) che si desidera utilizzare durante l&#39;unione per risolvere l&#39;ID persona.
   - Il grafo delle identità deve essere compilato con le informazioni sulle identità provenienti da qualsiasi set di dati rilevante (di tipo *event* o *profile* e che contengono almeno due spazi dei nomi utili con valori ID).

@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 14557a59902110b1768d61e621adfb3f76ee9930
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: '451'
 ht-degree: 43%
-
 ---
-
 # Aggiungere ricerche globali ai set di dati
 
 >[!IMPORTANT]
@@ -43,7 +41,7 @@ ht-degree: 43%
 >Le ricerche standard sono disponibili solo per le origini dati del connettore di origine di Analytics in Customer Journey Analytics. Puoi utilizzarli con le implementazioni standard di Adobe Analytics, [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) o le API di raccolta dati di Experience Platform.
 >
 
-Le ricerche standard (anche note come ricerche fornite da Adobe) migliorano la capacità del Customer Journey Analytics di generare rapporti su alcune dimensioni/attributi che non sono utili da sole ma sono utili quando sono collegate con altri dati. Alcuni esempi includono attributi di dispositivi mobili e attributi delle dimensioni del sistema operativo e del browser, come i numeri di versione del browser. Una ricerca standard è simile a un set di dati di ricerca. Le ricerche standard sono applicabili a tutte le organizzazioni aziendali CX. Vengono applicati automaticamente a tutti i set di dati evento che contengono determinati campi dello schema XDM (vedi di seguito per i campi specifici). Esiste un set di dati di ricerca standard per ogni posizione dello schema classificata da Adobe.
+Le ricerche standard (anche note come ricerche fornite da Adobe) migliorano la capacità del Customer Journey Analytics di generare rapporti su alcune dimensioni/attributi che non sono utili da sole ma sono utili quando sono collegate con altri dati. Alcuni esempi includono attributi di dispositivi mobili e attributi delle dimensioni del sistema operativo e del browser, come i numeri di versione del browser. Una ricerca standard è simile a un set di dati di ricerca. Le ricerche standard sono applicabili a tutte le organizzazioni Adobe. Vengono applicati automaticamente a tutti i set di dati evento che contengono determinati campi dello schema XDM (vedi di seguito per i campi specifici). Esiste un set di dati di ricerca standard per ogni posizione dello schema classificata da Adobe.
 
 In Adobe Analytics tradizionale, queste dimensioni vengono visualizzate autonomamente, mentre in Customer Journey Analytics, devi includere attivamente queste dimensioni quando crei visualizzazioni dati. Nel flusso di lavoro Connessioni, seleziona un set di dati contrassegnato come un insieme di chiavi per la ricerca standard. L’interfaccia utente Visualizzazioni dati sa includere automaticamente tutte le dimensioni di ricerca standard disponibili per il reporting. I file di ricerca vengono aggiornati e sono disponibili automaticamente, in tutte le aree geografiche e per tutti gli account. Sono memorizzate in organizzazioni specifiche per l’area geografica associate al cliente.
 

@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 80%
+source-wordcount: '1286'
+ht-degree: 75%
 ---
 # Creare uno schema personalizzato da utilizzare con Customer Journey Analytics {#create-custom-schema}
 
@@ -153,7 +153,7 @@ Per creare uno schema personalizzato:
 
    ![Oggetto di identificazione](assets/identification-field.png)
 
-   L’oggetto di identificazione aggiunge funzionalità di individuazione dello schema. Nel tuo caso, immagina di voler identificare i profili che visitano il tuo sito utilizzando l’ID Experience Cloud e l’indirizzo e-mail. Sono disponibili molti altri attributi per monitorare l’identificazione del visitatore (ad esempio, ID cliente, ID di fidelizzazione).
+   L’oggetto di identificazione aggiunge funzionalità di individuazione dello schema. Nel tuo caso, vuoi identificare i profili che visitano il tuo sito utilizzando l’ECID e l’indirizzo e-mail. Sono disponibili molti altri attributi per monitorare l’identificazione del visitatore (ad esempio, ID cliente, ID di fidelizzazione).
 
    Seleziona **[!UICONTROL Applica]** per aggiungere questo oggetto allo schema.
 
@@ -161,7 +161,7 @@ Per creare uno schema personalizzato:
 
    ![Specificare ECID come identità](./assets/specify-identity.png)
 
-   Stai specificando l’Experience Cloud Identity come identità principale che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) il comportamento dei profili con lo stesso ECID.
+   Stai specificando l’ECID come identità principale che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) il comportamento dei profili con lo stesso ECID.
 
    Seleziona **[!UICONTROL Applica]**. Nell’attributo ecid viene visualizzata l’icona di un’impronta digitale.
 
@@ -189,7 +189,7 @@ Per creare uno schema personalizzato:
 
 1. Seleziona **[!UICONTROL Salva]** per salvare lo schema.
 
-   Hai creato uno schema minimo che modella i dati che puoi acquisire dal tuo sito Web. Lo schema consente di identificare i profili utilizzando Experience Cloud Identity e l’indirizzo e-mail. Abilitando lo schema per il profilo, garantisci che i dati acquisiti dal tuo sito web vengano aggiunti a Real-Time Customer Profile.
+   Hai creato uno schema minimo che modella i dati che puoi acquisire dal tuo sito Web. Lo schema consente di identificare i profili utilizzando l’ECID e l’indirizzo e-mail. Abilitando lo schema per il profilo, garantisci che i dati acquisiti dal tuo sito web vengano aggiunti a Real-Time Customer Profile.
 
    Accanto ai dati sul comportamento, puoi anche acquisire i dati degli attributi del profilo dal sito (ad esempio i dettagli dei profili che si abbonano a una newsletter).
 
@@ -201,7 +201,7 @@ Per creare uno schema personalizzato:
 
    * Aggiungi un oggetto di identificazione basato sul gruppo di campi Profile Core v2.
 
-   * Definisci l’ID Experience Cloud come identificatore principale e l’e-mail come identificatore.
+   * Definisci ECID come identificatore principale e e-mail come identificatore.
 
    * Abilitare lo schema per il profilo
 

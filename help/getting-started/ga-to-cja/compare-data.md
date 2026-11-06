@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1297'
 ht-degree: 0%
 ---
 
@@ -95,7 +95,7 @@ GA4 utilizza un modello di identità a catena per identificare gli utenti:
 2. Segnali Google (se l’utente ha effettuato l’accesso a un account Google con la personalizzazione abilitata)
 3. ID dispositivo (ID client basato su cookie)
 
-Nella maggior parte delle implementazioni, l’ID persona è un ECID (Experience Cloud ID). La funzione opzionale **[!UICONTROL Unione]** può quindi risolvere le identità tra dispositivi e canali utilizzando metodi basati sui campi o basati su grafico, consentendo l&#39;associazione di una sessione dell&#39;app mobile e di una sessione del browser desktop alla stessa persona.
+Nella maggior parte delle implementazioni, l’ID persona è un ECID. La funzione opzionale **[!UICONTROL Unione]** può quindi risolvere le identità tra dispositivi e canali utilizzando metodi basati sui campi o basati su grafico, consentendo l&#39;associazione di una sessione dell&#39;app mobile e di una sessione del browser desktop alla stessa persona.
 
 Poiché la risoluzione delle identità varia tra le piattaforme, i conteggi a livello utente raramente corrispondono esattamente. Questa discrepanza è prevista e non indica un problema di qualità dei dati.
 
