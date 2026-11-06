@@ -108,7 +108,7 @@ Per informazioni su come aggiungere componenti, inclusi i componenti evento seco
 
 ## Eseguire query sui dati degli eventi secondari nell’output del feed dati
 
-Poiché i dati dell&#39;evento secondario [ vengono visualizzati in modo diverso nei feed dati di Customer Journey Analytics](#sub-event-differences-between-adobe-analytics-and-customer-journey-analytics), le query utilizzate per tale evento sono diverse da quelle utilizzate per i feed dati di Adobe Analytics.
+Poiché i dati dell&#39;evento secondario [&#x200B; vengono visualizzati in modo diverso nei feed dati di Customer Journey Analytics](#sub-event-differences-between-adobe-analytics-and-customer-journey-analytics), le query utilizzate per tale evento sono diverse da quelle utilizzate per i feed dati di Adobe Analytics.
 
 Gli esempi seguenti mostrano come trovare gli eventi che includono un prodotto specifico. Negli esempi viene utilizzata la sintassi BigQuery di Google, in cui `UNNEST` espande un array in righe. Altri data warehouse supportano lo stesso approccio con le proprie funzioni di array, ad esempio `FLATTEN` in Snowflake o `explode` in Databricks.
 
