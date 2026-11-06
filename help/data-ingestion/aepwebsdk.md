@@ -315,7 +315,7 @@ Per creare e configurare l’estensione Adobe Experience Platform Web SDK:
 
    Seleziona **[!UICONTROL Salva]**.
 
-Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html).
+Per ulteriori informazioni, consulta la sezione [Configurare l’estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=it).
 
 Il Web SDK ottiene l&#39;ECID da Edge Network, quindi non è necessario aggiungere l&#39;estensione tag [!UICONTROL Experience Cloud ID Service] alla proprietà.
 
