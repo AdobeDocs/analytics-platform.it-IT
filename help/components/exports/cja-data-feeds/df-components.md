@@ -17,10 +17,10 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 56f881fc811f0eeffb9633872b3edbe0eb2d7070
+source-git-commit: e4a2c292024e2d88c3dec02b86711d4f58d1c82c
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 37%
+source-wordcount: '1669'
+ht-degree: 35%
 ---
 # Disponibilità dei componenti nei feed di dati
 
@@ -93,6 +93,12 @@ Le metriche standard di Customer Journey Analytics seguenti non possono essere i
 | Profilo account globali Adobe | | Non disponibile |
 | Unione persone Adobe | | Non disponibile |
 | Profilo Persone Adobe | | Non disponibile |
+
+## Metriche calcolate {#calculated-metrics}
+
+Le metriche calcolate non possono essere incluse nei feed di dati. Una metrica calcolata viene calcolata al momento del rapporto aggregando molti eventi, pertanto non ha alcun valore su una singola riga di evento.
+
+Se sono necessari risultati delle metriche calcolate esterni a Customer Journey Analytics, è possibile utilizzare l&#39;estensione [Customer Journey Analytics BI](/help/data-views/bi-extension.md). L’estensione BI restituisce risultati a livello di report anziché righe di evento, pertanto utilizzala insieme ai feed di dati anziché come sostituzione.
 
 ## Dimensioni che non possono essere utilizzate insieme {#incompatible-dimensions}
 

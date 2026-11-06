@@ -14,9 +14,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a4ea9270d5bf27234fa229e8ba3df5998ecea0e1
+source-git-commit: bd396cb4909d131ed60c97e7101cf85946555e38
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1320'
 ht-degree: 0%
 ---
 # Componenti di eventi secondari nei feed dati
@@ -102,13 +102,13 @@ I campi dello stesso evento secondario vengono visualizzati nell’area di lavor
 
 Questo gruppo riflette la struttura dati sottostante.
 
-Nell’output del feed dati, tutti questi componenti vengono visualizzati come array nidificati in una singola colonna.
+Nell’output del feed dati, tutti questi componenti vengono visualizzati come array nidificati in una singola colonna. I file Parquet supportano array nidificati in modo nativo. Per ulteriori informazioni, vedere [Utilizzare i file Parquet nei feed di dati](/help/components/exports/cja-data-feeds/df-parquet.md).
 
 Per informazioni su come aggiungere componenti, inclusi i componenti evento secondario, a un feed di dati, vedere [Creare un feed di dati](/help/components/exports/cja-data-feeds/create-feed.md).
 
 ## Eseguire query sui dati degli eventi secondari nell’output del feed dati
 
-Poiché i dati dell&#39;evento secondario [&#x200B; vengono visualizzati in modo diverso nei feed dati di Customer Journey Analytics](#sub-event-differences-between-adobe-analytics-and-customer-journey-analytics), le query utilizzate per tale evento sono diverse da quelle utilizzate per i feed dati di Adobe Analytics.
+Poiché i dati dell&#39;evento secondario [ vengono visualizzati in modo diverso nei feed dati di Customer Journey Analytics](#sub-event-differences-between-adobe-analytics-and-customer-journey-analytics), le query utilizzate per tale evento sono diverse da quelle utilizzate per i feed dati di Adobe Analytics.
 
 Gli esempi seguenti mostrano come trovare gli eventi che includono un prodotto specifico. Negli esempi viene utilizzata la sintassi BigQuery di Google, in cui `UNNEST` espande un array in righe. Altri data warehouse supportano lo stesso approccio con le proprie funzioni di array, ad esempio `FLATTEN` in Snowflake o `explode` in Databricks.
 
@@ -220,7 +220,7 @@ Nell&#39;output del feed dati, `survey_question` e `survey_answer` sono gli ID c
 
 ### Mappa identità
 
-Ogni identità nel campo [`identityMap`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/identitymap) viene esportata come un oggetto. L’oggetto contiene lo spazio dei nomi dell’identità (la chiave), insieme all’identificatore, allo stato autenticato e al flag primario. Lo spazio dei nomi si ripete per ogni identità in tale spazio dei nomi.
+Ogni identità nel campo [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap) viene esportata come un oggetto. L’oggetto contiene lo spazio dei nomi dell’identità (la chiave), insieme all’identificatore, allo stato autenticato e al flag primario. Lo spazio dei nomi si ripete per ogni identità in tale spazio dei nomi.
 
 Vengono esportati solo gli attributi della mappa delle identità che esistono come dimensioni nella visualizzazione dati e che aggiungi al feed di dati.
 
