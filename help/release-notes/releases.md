@@ -49,7 +49,7 @@ Con ogni rilascio di funzioni, la timeline da RTP a GA può variare. L’obietti
 
 ## Flag di funzioni
 
-I flag di funzioni consentono di controllare la visibilità delle nuove funzioni durante la fase di rilascio. Adobe consiglia di consentire `app.launchdarkly.com` attraverso il firewall della tua organizzazione per un’esperienza ottimale durante i rilasci. Questi contrassegni vengono rimossi dopo che una funzionalità viene rilasciata a tutti. Consulta[ Domini utilizzati da Customer Journey Analytics](../technotes/domains.md) per maggiori informazioni.
+I flag di funzioni consentono di controllare la visibilità delle nuove funzioni durante la fase di rilascio. Adobe consiglia di consentire `app.launchdarkly.com` attraverso il firewall della tua organizzazione per un’esperienza ottimale durante i rilasci. Questi contrassegni vengono rimossi dopo che una funzionalità viene rilasciata a tutti. Consulta[&#x200B; Domini utilizzati da Customer Journey Analytics](../technotes/domains.md) per maggiori informazioni.
 
 Puoi visualizzare i flag di funzioni attivi in qualsiasi momento, da **Aiuto > Informazioni su Workspace > Flag di funzioni attivi**.
 

@@ -465,7 +465,7 @@ Ora puoi distribuire il codice all’interno dell’app mobile. Una volta implem
 
 Convalida l’implementazione, correggila laddove necessario e una volta corretta, implementala nell’ambiente di staging e di produzione utilizzando la funzione di flusso di lavoro di pubblicazione dei tag.
 
-Per informazioni molto più dettagliate, consulta l&#39;esercitazione sull&#39;implementazione di Adobe Experience Cloud nelle app per dispositivi mobili](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=it).[
+Per informazioni molto più dettagliate, consulta l&#39;esercitazione sull&#39;implementazione di Adobe Experience Cloud nelle app per dispositivi mobili[&#128279;](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=it).
 
 ## Configurare una connessione
 
