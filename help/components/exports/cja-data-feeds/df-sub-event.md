@@ -14,9 +14,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a4ea9270d5bf27234fa229e8ba3df5998ecea0e1
+source-git-commit: bd396cb4909d131ed60c97e7101cf85946555e38
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1320'
 ht-degree: 0%
 ---
 # Componenti di eventi secondari nei feed dati
@@ -102,7 +102,7 @@ I campi dello stesso evento secondario vengono visualizzati nell’area di lavor
 
 Questo gruppo riflette la struttura dati sottostante.
 
-Nell’output del feed dati, tutti questi componenti vengono visualizzati come array nidificati in una singola colonna.
+Nell’output del feed dati, tutti questi componenti vengono visualizzati come array nidificati in una singola colonna. I file Parquet supportano array nidificati in modo nativo. Per ulteriori informazioni, vedere [Utilizzare i file Parquet nei feed di dati](/help/components/exports/cja-data-feeds/df-parquet.md).
 
 Per informazioni su come aggiungere componenti, inclusi i componenti evento secondario, a un feed di dati, vedere [Creare un feed di dati](/help/components/exports/cja-data-feeds/create-feed.md).
 

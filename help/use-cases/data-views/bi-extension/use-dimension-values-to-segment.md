@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Visualizzazione con **[!UICONTROL Errore durante il recupero dei dati per questo
    1. Dall&#39;elenco dei campi, selezionare **[!UICONTROL ‣ Categoria prodotto]**.
 1. Assicurarsi che **[!UICONTROL is]** sia la selezione per il filtro.
 
-Le ricerche di ![AlertRed](/help/assets/icons/AlertRed.svg) non mostrano l&#39;elenco dei valori possibili per **[!UICONTROL Product Category]**.
+Il Looker ![AlertRed](/help/assets/icons/AlertRed.svg) non visualizza l&#39;elenco dei valori possibili per **[!UICONTROL Categoria prodotto]**.
 
 ![Conteggio valori univoci](../assets/uc10-looker-result.png)
 
@@ -174,7 +174,7 @@ Le ricerche di ![AlertRed](/help/assets/icons/AlertRed.svg) non mostrano l&#39;e
 
 >[!TAB StudioRS]
 
-1. Immetti il seguente blocco di codice in un nuovo blocco. Assicurati di utilizzare una categoria appropriata. Ad esempio, `Hunting`.
+1. Immetti il seguente blocco di codice in un nuovo blocco. Assicurati di utilizzare una categoria appropriata. Ad esempio: `Hunting`.
 
    ```R
    ## Dimension 1 Filtered by Dimension 2 value

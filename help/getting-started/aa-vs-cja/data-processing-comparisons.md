@@ -32,17 +32,17 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1338'
-ht-degree: 64%
+ht-degree: 63%
 ---
 # Confrontare l’elaborazione dei dati tra Adobe Analytics e Customer Journey Analytics
 
 Spesso è necessario poter elaborare i dati prima che siano utili per il reporting. Puoi elaborarli in diverse fasi del percorso, dalla raccolta dei dati alla generazione del report o della visualizzazione.
 
-In Adobe Analytics la maggior parte dell’elaborazione dei dati avviene immediatamente dopo la raccolta dei dati. Per supportare questa **elaborazione al momento della raccolta** sono disponibili funzionalità come regole VISTA, regole di elaborazione, regole di elaborazione dei canali di marketing.
-I dati vengono quindi memorizzati e al momento del rapporto puoi applicare un’elaborazione aggiuntiva. Ad esempio, suddividi le dimensioni, applica la segmentazione o seleziona un modello di attribuzione diverso. Questa **elaborazione al momento del rapporto** avviene istantaneamente.
+In Adobe Analytics la maggior parte dell’elaborazione dei dati avviene immediatamente dopo la raccolta dei dati. Funzionalità come regole VISTA, regole di elaborazione, regole di elaborazione dei canali di marketing sono disponibili per supportare questa **elaborazione al momento della raccolta**.
+I dati vengono quindi memorizzati e al momento del rapporto puoi applicare un’elaborazione aggiuntiva. Ad esempio, raggruppa per dimensioni, applica la segmentazione o seleziona un modello di attribuzione diverso. Questa **elaborazione al momento del rapporto** avviene istantaneamente.
 
 In Adobe Analytics, l’elaborazione al momento del rapporto rappresenta in genere una quantità di elaborazione inferiore rispetto a quella che avviene al momento della raccolta.
 

@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1679'
 ht-degree: 12%
 ---
 # Acquisire e utilizzare i tipi di pubblico di Experience Platform
@@ -363,7 +363,7 @@ Nell’interfaccia utente di Experience Platform:
    1. (facoltativo) Immetti una **[!UICONTROL Descrizione]**.
    1. Seleziona **[!UICONTROL Fine]**.
 1. Imposta lo schema in modo che contenga un gruppo di campi personalizzato (denominato, ad esempio, **[!UICONTROL Appartenenza pubblico]**) contenente due campi denominati **[!UICONTROL audienceMembershipId]** e **[!UICONTROL audienceMembershipName]**.
-1. Assicurati che il campo **[!UICONTROL personID]** sia un **[!UICONTROL Identity]**, **[!UICONTROL Primary Identity]** e che contenga **[!UICONTROL Email]** come I&#x200B;**[!UICONTROL dentity namespace]**.
+1. Assicurati che il campo **[!UICONTROL personID]** sia un **[!UICONTROL Identity]**, **[!UICONTROL Primary Identity]** e che abbia **[!UICONTROL Email]** come **[!UICONTROL Identity namespace]**.
 
    ![Segmento per esportazione](assets/segment-for-export.png)
 

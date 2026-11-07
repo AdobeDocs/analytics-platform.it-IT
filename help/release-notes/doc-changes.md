@@ -55,10 +55,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5b0c9d764d17daa63316f8ab294aa9c8f7f94427
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '7452'
-ht-degree: 93%
+ht-degree: 92%
 ---
 
 # Customer Journey Analytics - Aggiornamenti della documentazione
@@ -99,9 +99,9 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | **Aprile 2026** | |
 | Linee guida per i campi derivati | È stato aggiunto un articolo con [linee guida](/help/use-cases/data-views/derived-fields/guidelines.md) (best practice, guardrail e problematiche comuni) per l’utilizzo dei campi derivati. |
 | È stata aggiunta la documentazione mancante per due set di dati che possono essere inclusi durante l’integrazione di Journey Optimizer | Quando il componente aggiuntivo per la messaggistica transazionale a velocità effettiva elevata è abilitato per la propria organizzazione IMS, nella connessione vengono inclusi [due ulteriori set di dati generati dal sistema e non di profilo](/help/integrations/ajo.md#high-throughput-add-on-datasets). |
-| Casi d’uso aggiornati per l’analisi per coorte | In base al feedback, sono stati aggiunti esempi di Analyis Workspace per i casi d’uso dell’analisi per coorte. |
+| Casi d’uso aggiornati per l’analisi per coorte | In base al feedback, sono stati aggiunti alcuni esempi di Analysis Workspace ai casi di utilizzo dell’analisi per coorte. |
 | **Marzo 2026** | |
-| Raggruppamento di un pannello | È stata riorganizzata la documentazione relativa alla [zona di rilascio di un pannello](/help/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità di [raggruppamento](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
+| Raggruppamento dei dati di un pannello | È stata riorganizzata la documentazione relativa alla [zona di rilascio di un pannello](/help/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità di [raggruppamento](/help/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | Nota tecnica sugli ID non validi (BAVID) | Nuova [nota tecnica sugli ID non validi](/help/technotes/badids.md). La nota tecnica spiega la definizione di ID non valido, la posizione in cui vengono utilizzati gli ID non validi nell’interfaccia di Customer Journey Analytics e come individuare la presenza di ID non validi nei dati della connessione. |
 | Riprogettazione dell’anteprima dei set di dati nelle connessioni | È stata aggiornata la documentazione per migliorare l’esperienza di anteprima dei dati quando si [aggiungono](/help/connections/create-connection.md#add-datasets) o [modificano](/help/connections/create-connection.md#edit-a-dataset) set di dati in connessioni basate su persone, inclusa la documentazione contenente [informazioni aggiuntive sull’anteprima dell’unione](/help/stitching/use-stitching-ui.md#datasets-preview) per i set di dati abilitati per l’unione. |
 | Miniature e anteprime di Content Analytics | Documentazione su [miniature](/help/content-analytics/report/report.md#thumbnails) e [anteprime](/help/content-analytics/report/report.md#previews) per visualizzazioni aggiuntive in Content Analytics. |
@@ -131,7 +131,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Date precedenti al 1900 | È stata aggiunta una [nota](/help/connections/create-connection.md#datasets) sulla gestione delle date precedenti al 1900 da parte di Customer Journey Analytics. |
 | Reporting in tempo reale | La documentazione sul [reporting in tempo reale](/help/components/real-time/real-time.md) in Customer Journey Analytics è stata aggiunta. |
 | Interfaccia di utilizzo | È stata aggiunta la documentazione per l’[interfaccia di utilizzo](/help/connections/manage-connections.md#usage) aggiornata in Connessioni. |
-| Unione dei set di dati di Journey Optimizer | È stato documentato l’[elenco di set di dati di Journey Optimzer generati automaticamente](/help/stitching/overview.md#journey-optimizer-datasets) che possono essere utilizzati nell’unione. |
+| Unione dei set di dati di Journey Optimizer | È stato documentato l&#39;[elenco di set di dati di Journey Optimizer generati automaticamente](/help/stitching/overview.md#journey-optimizer-datasets) che possono essere utilizzati nell&#39;unione. |
 | Etichette di contesto | Sono state aggiunte ulteriori informazioni di base sull’utilizzo e lo scopo di [etichette di contesto](/help/data-views/component-settings/overview.md#context-labels) nei componenti della visualizzazione dati. |
 | **Agosto 2025** | |
 | Nuova integrazione con Adobe Advertising | Sono state aggiunte informazioni sull’[integrazione con Adobe Advertising](/help/integrations/advertising.md). |

@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2013'
 ht-degree: 9%
@@ -92,7 +92,7 @@ Nei casi d’uso, sostituisci questi oggetti di esempio con oggetti appropriati 
             ![Dati trasformazione desktop Power BI](../assets/powerbi-transform-data.png)
             * Seleziona **[!UICONTROL Chiudi e applica]**.
    1. Dopo un po&#39;, nel riquadro **[!UICONTROL Dati]** viene visualizzato **[!UICONTROL public.cc_data_view]**. Seleziona ![ChevronRight](/help/assets/icons/ChevronRight.svg) per visualizzare dimensioni e metriche.
-      ![Dati server desktop Power BI caricati](../assets/powerbi-navigator-loaded.png)
+      ![Dati di Power BI Desktop Server caricati](../assets/powerbi-navigator-loaded.png)
 
 
 ## Per APPIATTIRE o meno

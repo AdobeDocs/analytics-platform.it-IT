@@ -35,10 +35,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 82%
+source-wordcount: '2771'
+ht-degree: 81%
 ---
 # Creare una scorecard per dispositivi mobili {#create-a-mobile-scorecard}
 
@@ -57,7 +57,7 @@ Le informazioni seguenti spiegano ai curatori di dati di Customer Journey Analyt
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

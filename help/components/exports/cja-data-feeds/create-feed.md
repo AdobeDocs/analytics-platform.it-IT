@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 22ec8a3fc4334e49e06986fdf52b27f3e97bef75
+source-git-commit: 6db3ace5744a4277477c2a712c12fdd9a5f57c82
 workflow-type: tm+mt
-source-wordcount: '4056'
+source-wordcount: '4331'
 ht-degree: 10%
 ---
 # Creare un feed di dati
@@ -70,7 +70,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 >[!CONTEXTUALHELP]
 >id="cja_datafeed_frequency_granularity"
 >title="Frequenza e granularità"
->abstract="**Frequenza di consegna** (feed live): frequenza con cui viene consegnato il feed di dati. Le consegne orarie contengono i dati relativi a un’ora, mentre quelle giornaliere contengono i dati relativi a un giorno.<p>Ogni consegna inoltre ripensa a una finestra di elaborazione continua di 30 giorni per qualificare i segmenti, calcolare le sessioni e mantenere i valori delle dimensioni. La finestra di elaborazione e il ritardo di elaborazione possono influenzare entrambi gli eventi inclusi.</p><p>**Granularità** (feed di backfill): intervallo di tempo utilizzato per dividere i dati storici. Ogni blocco contiene i dati relativi a un giorno e viene consegnato il più rapidamente possibile, non una sola volta al giorno. Questo campo è sempre impostato su Giornaliero e non può essere modificato.</p>"
+>abstract="**Frequenza di consegna** (feed live): frequenza con cui viene consegnato il feed di dati. Le consegne orarie contengono i dati relativi a un’ora, mentre quelle giornaliere contengono i dati relativi a un giorno.<p>Ogni consegna inoltre ripensa a una finestra di elaborazione continua di 30 giorni per qualificare i segmenti, calcolare le sessioni e mantenere i valori delle dimensioni. Sia la finestra di elaborazione che il ritardo di elaborazione possono influenzare gli eventi inclusi.</p><p>**Granularità** (feed di backfill): intervallo di tempo utilizzato per dividere i dati storici. Ogni blocco contiene i dati relativi a un giorno e viene consegnato il più rapidamente possibile, non una sola volta al giorno. Questo campo è sempre impostato su Giornaliero e non può essere modificato.</p>"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -117,7 +117,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | --------- | ---------- |
    | [!UICONTROL **Consigliato**] | Ordina i componenti a partire da quelli consigliati. I componenti utilizzati più di frequente e più di recente da te o da altri nella tua organizzazione vengono visualizzati più in alto nell’elenco. |
    | [!UICONTROL **Alfabetico**] | Ordina alfabeticamente i componenti. |
-   | [!UICONTROL **Per categorie**] | Ordina componenti simili a [!UICONTROL **Consigliato**], con la differenza che le metriche calcolate e le metriche standard sono raggruppate separatamente invece di essere combinate tra loro. |
+   | [!UICONTROL **Per categorie**] | Ordina componenti simili a [!UICONTROL **Consigliato**], con la differenza che i componenti sono raggruppati separatamente anziché essere combinati insieme. |
 
 1. Aggiungi componenti alla configurazione del feed dati. La barra a sinistra mostra solo i componenti validi per i feed di dati.
 
@@ -139,13 +139,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
 1. (Facoltativo) Modifica l’ID di output di un componente. L’ID di output è il nome della colonna nell’output del feed dati.
 
-   Per impostazione predefinita, l’ID di output è l’ID del componente in snake_case. La modifica dell’ID di output influisce solo su questo feed di dati. Non modifica l’ID del componente nella visualizzazione dati. L’anteprima dello schema mostra sia l’ID componente che l’ID output.
-
-   1. Passa il puntatore del mouse su un componente nell&#39;area di lavoro, quindi seleziona l&#39;icona delle informazioni ![Informazioni](/help/assets/icons/InfoOutline.svg).
-
-   1. Seleziona l&#39;icona di modifica ![Modifica](/help/assets/icons/Edit.svg) accanto all&#39;ID, quindi specifica un nuovo ID di output.
-
-      <!--add screenshot-->
+   Per impostazione predefinita, l’ID di output è l’ID del componente in snake_case. La modifica dell’ID di output influisce solo su questo feed di dati. Non modifica l’ID del componente nella visualizzazione dati. Nell&#39;anteprima dello schema, il valore `id` è l&#39;ID di output.
 
    Gli ID di output devono:
 
@@ -156,6 +150,36 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
    Gli ID di output non possono iniziare con `_cja`, che è riservato per l&#39;utilizzo in Adobe.
 
+   Puoi modificare gli ID di output uno alla volta o in blocco:
+
+   +++ Per modificare l&#39;ID di output di un singolo componente
+
+   1. Passa il puntatore del mouse su un componente nell&#39;area di lavoro, quindi seleziona l&#39;icona delle informazioni ![Informazioni](/help/assets/icons/InfoOutline.svg).
+
+   1. Seleziona l&#39;icona di modifica ![Modifica](/help/assets/icons/Edit.svg) accanto all&#39;ID, quindi specifica un nuovo ID di output.
+
+      <!--add screenshot-->
+
+   +++
+
+   +++ Per modificare più ID di output contemporaneamente
+
+   1. Sotto il pannello **[!UICONTROL Anteprima schema]**, seleziona **[!UICONTROL ID output di modifica in blocco]**.
+
+   1. Seleziona **[!UICONTROL Copia]**, quindi incolla il JSON in un editor di testo o in un altro strumento.
+
+   1. Aggiorna i valori `id`, che sono gli ID di output. Impossibile modificare i nomi dei componenti (`name`) o i tipi (`type` e `dataType`).
+
+   1. Incolla di nuovo il JSON modificato nella finestra di dialogo, sostituendo il JSON esistente, quindi seleziona **[!UICONTROL Convalida]**.
+
+   1. Verifica il numero di ID modificati, gli ID invariati e gli errori. In caso di errori, selezionare **[!UICONTROL Indietro]** per correggerli.
+
+   1. Selezionare **[!UICONTROL Applica modifiche]**.
+
+   <!--SME CHECK: How are JSON entries matched to components (order or name)? What happens if entries are reordered, removed, or added? Where are error details shown?-->
+
+   +++
+
 1. (Facoltativo) Utilizza i pannelli **[!UICONTROL Riepilogo feed]** e **[!UICONTROL Anteprima schema]** sul lato destro della pagina per rivedere la struttura dei dati prima di procedere:
 
    * Il **[!UICONTROL riepilogo feed]** mostra un conteggio live dei componenti, delle colonne, delle dimensioni e delle metriche totali aggiunti.
@@ -164,7 +188,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
    <!--add screenshot-->
 
-1. Nella scheda [!UICONTROL **Consegna**], nella sezione [!UICONTROL **Pianifica**], scegli il tipo di feed da creare (live o backfill), quindi specifica l&#39;intervallo di reporting, la frequenza e altre opzioni di configurazione:
+1. Nella scheda [!UICONTROL **Consegna**], nella sezione [!UICONTROL **Pianifica**], scegli il tipo di feed da creare (live o backfill), quindi specifica la frequenza, il ritardo di elaborazione e altre opzioni di configurazione:
 
    <!--add screenshot-->
 
@@ -174,10 +198,10 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | [!UICONTROL **Data di inizio**] | La data di inizio del feed di dati. Per i feed live, deve essere nella data odierna o in una data futura. Per i feed di backfill, deve essere una data passata all’interno della finestra di conservazione dei dati della visualizzazione dati. La data di inizio è basata sul fuso orario della visualizzazione dati. |
    | [!UICONTROL **Data di scadenza**] <br/>Disponibile solo per i feed attivi | La data in cui il feed dati scade e non viene più eseguito. La data è basata sul fuso orario della visualizzazione dati. |
    | [!UICONTROL **Data di fine**]<br/> Disponibile solo per i feed di backfill | La data in cui termina il feed di dati. La data di fine non può essere nel futuro. La data è basata sul fuso orario della visualizzazione dati. |
-   | [!UICONTROL **Frequenza**]<br/> Disponibile solo per feed live | Seleziona la frequenza con cui inviare il feed di dati. Gli eventi con marche temporali che rientrano nella finestra di frequenza sono inclusi nella consegna del feed di dati. <p>Selezionare questa opzione per includere dati relativi a un&#39;ora o a un giorno.</p><ul><li>**Giornaliero**: i feed contengono dati relativi a un intero giorno, dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati.</li><li>**Oraria**: i feed contengono dati relativi a una sola ora.</li></ul> <p>Ogni consegna utilizza anche una finestra continua di elaborazione di 30 giorni, che precede e include la finestra di frequenza, per qualificare i segmenti, calcolare le sessioni e mantenere i valori delle dimensioni. La finestra di elaborazione e il campo [!UICONTROL **Ritardo elaborazione**] possono influenzare entrambi gli eventi inclusi. Per ulteriori informazioni, vedere [Informazioni sulla finestra di elaborazione](#data-feed-processing-window) e [Informazioni sul ritardo di elaborazione](#data-feed-processing-delay).</p> |
+   | [!UICONTROL **Frequenza**]<br/> Disponibile solo per feed live | Seleziona la frequenza con cui inviare il feed di dati. Gli eventi con marche temporali che rientrano nella finestra di frequenza sono inclusi nella consegna del feed di dati. <p>Selezionare questa opzione per includere dati relativi a un&#39;ora o a un giorno.</p><ul><li>**Giornaliero**: i feed contengono dati relativi a un intero giorno, dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati.</li><li>**Oraria**: i feed contengono dati relativi a una sola ora.</li></ul> <p>Ogni consegna utilizza anche una finestra continua di elaborazione di 30 giorni, che precede e include la finestra di frequenza, per qualificare i segmenti, calcolare le sessioni e mantenere i valori delle dimensioni. Sia la finestra di elaborazione che l&#39;impostazione [!UICONTROL **Ritardo elaborazione**] possono influire sugli eventi inclusi. Per ulteriori informazioni, vedere [Informazioni sulla finestra di elaborazione](#data-feed-processing-window) e [Informazioni sul ritardo di elaborazione](#data-feed-processing-delay).</p> |
    | [!UICONTROL **Granularità**]<br/> Disponibile solo per i feed di backfill | Intervallo di tempo utilizzato per suddividere i dati storici in blocchi. Ogni blocco contiene dati relativi a un’intera giornata, dalla mezzanotte alla mezzanotte nel fuso orario della visualizzazione dati. <p>La granularità determina il modo in cui i dati vengono raggruppati, non la frequenza con cui vengono consegnati. I dati di backfill vengono consegnati il più rapidamente possibile, non una volta al giorno.</p><p>Questo campo è sempre impostato su [!UICONTROL **Giornaliero**] e non può essere modificato.</p> |
    | [!UICONTROL **Ritardo elaborazione**] | Il periodo di tempo che Customer Journey Analytics attende prima di elaborare un file del feed dati. Nel feed di dati sono inclusi eventuali eventi che arrivano durante il ritardo di elaborazione sono inclusi nel feed di dati. <p>Scegli un ritardo sufficientemente lungo per consentire il completamento dell’elaborazione dei dati più lenti nella connessione. Se il ritardo è troppo breve, i dati ancora in fase di elaborazione non verranno inclusi nel file del feed di dati.</p><p>Il ritardo di elaborazione minimo è di 2 ore. Il valore predefinito è basato sui set di dati presenti nella connessione. Ad esempio, se l’unione è abilitata, il valore predefinito è 6 ore. Alcuni tipi di dati richiedono un ritardo più lungo. Il ritardo scelto dipende dai tipi di dati presenti nella connessione, ad esempio dati di streaming, batch, uniti, ricerca o profilo.</p><p>Prima di configurare questa opzione, consulta i dettagli e gli esempi descritti nella sezione seguente, [Comprendere il ritardo di elaborazione](#data-feed-processing-delay).</p> |
-   | [!UICONTROL **Formato di compressione**] | Seleziona il formato di compressione per i file di output Parquet consegnati alla destinazione cloud. Scegli uno dei seguenti formati:<ul><li>[!UICONTROL **Snappy**]: compressione e decompressione veloci con dimensioni file moderate. Ampiamente supportato da piattaforme di dati moderne come BigQuery, Snowflake e Apache Spark.</li><li>[!UICONTROL **GZip**]: ampiamente compatibile, anche con strumenti che non supportano Snappy in modalità nativa. Consigliato se la pipeline a valle richiede uno standard di compressione ampiamente riconosciuto.</li><li>[!UICONTROL **Z Standard (Zstd)**]: elevata efficienza di compressione con decompressione rapida. Adatto se la riduzione delle dimensioni del file è una priorità e i tuoi strumenti supportano Zstd.</li></ul> |
+   | [!UICONTROL **Formato di compressione**] | Seleziona il formato di compressione per i file di output Parquet consegnati alla destinazione cloud. Scegli uno dei seguenti formati:<ul><li>[!UICONTROL **Snappy**]: compressione e decompressione veloci con dimensioni file moderate. Ampiamente supportato da piattaforme di dati moderne come BigQuery, Snowflake e Apache Spark.</li><li>[!UICONTROL **GZip**]: ampiamente compatibile, anche con strumenti che non supportano Snappy in modalità nativa. Consigliato se la pipeline a valle richiede uno standard di compressione ampiamente riconosciuto.</li><li>[!UICONTROL **Z Standard (Zstd)**]: elevata efficienza di compressione con decompressione rapida. Adatto se la riduzione delle dimensioni del file è una priorità e i tuoi strumenti supportano Zstd.</li></ul><p>Tutti i formati comprimono i dati all’interno di ciascun file Parquet, una colonna alla volta, in modo che il data warehouse possa ancora leggere solo le colonne necessarie per una query.</p><p>Per informazioni sui vantaggi di Parquet e su come eseguire query o caricare i file dopo averli consegnati, vedere [Operazioni con i file di Parquet nei feed di dati](/help/components/exports/cja-data-feeds/df-parquet.md).</p> |
 
 1. Nella scheda [!UICONTROL **Consegna**], nella sezione [!UICONTROL **Destinazione**], configura la destinazione in cui desideri inviare i dati.
 
@@ -250,14 +274,23 @@ Quando si lavora con le sessioni nei feed dati, considera quanto segue:
 
 ### Persistenza Dimension
 
-Quando imposti la persistenza su una singola dimensione, imposti anche una scadenza per determinare per quanto tempo l’elemento dimensione persiste oltre l’evento su cui è impostato.
+Quando imposti la persistenza su una dimensione, imposti anche una scadenza che determina per quanto tempo l’elemento dimensione persiste oltre l’evento su cui è impostato.
 
-La finestra di elaborazione influisce sulla persistenza delle dimensioni quando la scadenza è impostata su una delle seguenti opzioni nella visualizzazione dati:
+La finestra di elaborazione limita la persistenza per ogni impostazione di scadenza. I valori impostati prima della finestra di elaborazione non vengono considerati, tranne con [!UICONTROL **Scadenza personalizzata**]:
 
-* [!UICONTROL **Finestra di reporting persona**]: la finestra di elaborazione diventa la nuova finestra di reporting per ogni dimensione nella definizione del feed dati che utilizza [!UICONTROL **Finestra di reporting persona**] come scadenza.
-* [!UICONTROL **Ora personalizzata**]: se il tempo personalizzato selezionato si estende oltre la finestra di elaborazione, il tempo personalizzato viene ignorato e la finestra di elaborazione viene utilizzata per la scadenza della dimensione per ogni dimensione nella definizione del feed dati che utilizza [!UICONTROL **Ora personalizzata**] come scadenza. I valori che si sono verificati prima della finestra di elaborazione non vengono considerati.
+* [!UICONTROL **Sessione**]: i valori persistono fino alla fine della sessione. Se una sessione è iniziata prima della finestra di elaborazione, i valori impostati prima della finestra di elaborazione non vengono considerati.
+* [!UICONTROL **Finestra di reporting per persona**]: la finestra di elaborazione di 30 giorni viene utilizzata come scadenza. Solo i valori impostati nella finestra di elaborazione persistono.
+* [!UICONTROL **Ora personalizzata**]: i valori persistono per il tempo personalizzato impostato sulla dimensione. Se il tempo personalizzato è più lungo della finestra di elaborazione di 30 giorni, il feed di dati viene rivisto prima dell’inizio della finestra di elaborazione (fino a 90 giorni) in modo che i valori della dimensione impostati prima della finestra di elaborazione possano persistere negli eventi nella consegna.
 
-  Per ulteriori informazioni sull&#39;impostazione della persistenza sulle dimensioni all&#39;interno della visualizzazione dati, vedere [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md).
+  <!--FOLLOW-UP: Remove this note when the persistence back-end change (AN-495620) ships. Also remove the matching sentence in df-comparison-workspace.md (Dimension persistence bullet).-->
+
+  >[!NOTE]
+  >
+  >Attualmente, le scadenze dell’Ora personalizzata sono limitate alla finestra di elaborazione di 30 giorni. Se il tempo personalizzato è superiore a 30 giorni, la finestra di elaborazione viene utilizzata come scadenza e i valori impostati prima della finestra di elaborazione non vengono considerati. Prossimamente sarà disponibile il supporto per orari personalizzati che vanno oltre la finestra di elaborazione.
+
+* [!UICONTROL **Metrica**]: i valori persistono finché non si verifica la metrica selezionata. I valori impostati prima della finestra di elaborazione non vengono considerati.
+
+Per ulteriori informazioni sull&#39;impostazione della persistenza sulle dimensioni all&#39;interno della visualizzazione dati, vedere [Impostazioni dei componenti di persistenza](/help/data-views/component-settings/persistence.md). Per informazioni sulle differenze di persistenza tra i feed di dati e Analysis Workspace, vedere [Comprendere le discrepanze di dati tra i feed di dati e Analysis Workspace](/help/components/exports/cja-data-feeds/df-comparison-workspace.md#processing-window).
 
 >[!BEGINSHADEBOX]
 
@@ -265,7 +298,7 @@ La finestra di elaborazione influisce sulla persistenza delle dimensioni quando 
 
 Supponiamo che nel tuo feed di dati desideri sapere quali utenti della campagna di marketing hanno visto originariamente prima di visitare il tuo sito.
 
-A questo scopo, imposta la persistenza sulla dimensione Campagne con Originale come modello di allocazione.
+A questo scopo, è necessario impostare la persistenza nella dimensione Campagne con Originale come modello di allocazione e [!UICONTROL **Finestra di reporting per persona**] come scadenza.
 
 In questo caso, la campagna originale viene visualizzata nell&#39;output del feed dati solo se gli utenti soddisfano **entrambi** delle seguenti condizioni:
 

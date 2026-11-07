@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f886069ac388da7985beac80cdaaa7bd0a506439
+source-git-commit: 24613d361b6b3058b1c4911a9df3654da91b2c88
 workflow-type: tm+mt
-source-wordcount: '1978'
-ht-degree: 39%
+source-wordcount: '1962'
+ht-degree: 38%
 ---
 # Generare i segmenti {#build-segments}
 
@@ -80,7 +80,7 @@ La finestra di dialogo **[!UICONTROL Generatore di segmenti]** viene utilizzata 
 
 ## Generatore di definizioni
 
-Utilizza il Generatore di definizioni per creare la definizione del segmento. In questa creazione vengono utilizzati componenti, contenitori, operatori e logica.
+Utilizza il Generatore di definizioni per creare la definizione del segmento. In questa costruzione vengono utilizzati componenti, contenitori, operatori e logica.
 
 Puoi configurare il tipo e l’ambito della definizione:
 
@@ -88,6 +88,10 @@ Puoi configurare il tipo e l’ambito della definizione:
 1. Seleziona l&#39;ambito della definizione dal menu a discesa **[!UICONTROL Includi]** o **[!UICONTROL Escludi]**: **[!UICONTROL Evento]**, **[!UICONTROL Sessione]**, **[!UICONTROL Persona]**, **[!UICONTROL Account globale]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, **[!UICONTROL Opportunità]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} o **[!UICONTROL Gruppo acquisti]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}.
 
 È sempre possibile modificare queste impostazioni in un secondo momento.
+
+>[!NOTE]
+>
+>L&#39;interfaccia del Generatore di segmenti non supporta tutte le definizioni di segmenti create tramite l&#39;[API](https://developer.adobe.com/cja-apis/docs/endpoints/segments/#create-a-segment). La pagina potrebbe essere caricata senza successo o generare errori per tali segmenti.
 
 ### Componenti
 
@@ -111,7 +115,7 @@ Per aggiungere un componente:
 
    Questa opzione viene visualizzata solo quando [!UICONTROL **Persona**] è selezionato come ambito (contenitore) della definizione dal menu a discesa **[!UICONTROL Includi]** o **[!UICONTROL Escludi]**.
 
-   **NOTA**: questa funzionalità si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell&#39;ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sul processo di rilascio di Customer Journey Analytics, consulta [Rilascio delle funzioni di Customer Journey Analytics](/help/release-notes/releases.md).
+
 
 1. (Facoltativo) Modifica l’operatore predefinito.
 
@@ -137,7 +141,7 @@ Puoi raggruppare più componenti in uno o più contenitori e definire la logica 
 * Per aggiungere un componente esistente al contenitore, trascinalo nel contenitore.
 * Per aggiungere un altro componente al contenitore, trascinalo dal pannello dei componenti al contenitore. Utilizza la linea di inserimento blu come guida.
 * Per aggiungere un altro componente all’esterno del contenitore, trascinalo dal pannello dei componenti all’esterno del contenitore, ma all’interno del contenitore di definizione principale. Utilizza la linea di inserimento blu come guida.
-* Per modificare la logica tra i componenti di un contenitore, tra contenitori o tra un contenitore e un componente, selezionare i **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** appropriati. Quando selezioni Then, il segmento viene trasformato in un segmento sequenziale. Per ulteriori informazioni, vedere [Creare un segmento sequenziale](seg-sequential-build.md).
+* Per modificare la logica tra componenti, contenitori o un contenitore e un componente, selezionare i **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** appropriati. Quando selezioni Then, il segmento viene trasformato in un segmento sequenziale. Per ulteriori informazioni, vedere [Creare un segmento sequenziale](seg-sequential-build.md).
 * Per cambiare il livello del contenitore, seleziona ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Account globale]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Account](/help/assets/icons/Account.svg) **[!UICONTROL Account]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Opportunità](/help/assets/icons/Opportunity.svg) **[!UICONTROL Opportunità]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Gruppo acquisti](/help/assets/icons/BuyingGroup.svg) **[!UICONTROL Gruppo acquisti]** [!BADGE B2B edition]{type=Informative url="https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"}, ![Pagina Web](/help/assets/icons/WebPage.svg) **[!UICONTROL Evento]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Sessione]**, ![Utente](/help/assets/icons/User.svg) **[!UICONTROL Persona]** o ![Livello](/help/assets/icons/Layer.svg) **[!UICONTROL Oggetto]**. Quando selezioni ![Livello](/help/assets/icons/Layer.svg) **[!UICONTROL Oggetto]**, seleziona il [contenitore personalizzato](/help/data-views/create-dataview.md#containers-1) da utilizzare. Ad esempio, Prodotti o Contenuto Assets.
 
 È possibile utilizzare ![Impostazioni](/help/assets/icons/Setting.svg) in un contenitore per le azioni seguenti:

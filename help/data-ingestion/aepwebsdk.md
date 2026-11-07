@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '3516'
 ht-degree: 58%
@@ -160,7 +160,7 @@ Per configurare lo schema:
 
 1. Seleziona il campo **[!UICONTROL email]** nell&#39;oggetto di identificazione appena aggiunto, quindi seleziona **[!UICONTROL Identity]** e **[!UICONTROL Email]** dall&#39;elenco [!UICONTROL Identity namespace] nel pannello [!UICONTROL Field Properties].
 
-   ![Specificare l’e-mail come identità](./assets/specify-email-identity.png)
+   ![Specificare l&#39;indirizzo e-mail come identità](./assets/specify-email-identity.png)
 
    Stai specificando l’indirizzo e-mail come un’altra identità che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) il comportamento dei profili.
 

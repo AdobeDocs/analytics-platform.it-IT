@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1186'
-ht-degree: 96%
+ht-degree: 93%
 ---
 # Panoramica di Customer Journey Analytics
 
@@ -131,7 +131,7 @@ Dall’acquisizione dei dati all’accesso diretto a SQL, numerosi componenti di
 
 >[!BEGINSHADEBOX]
 
-Per un video introduttivo su come utilizzare i dati in Customer Journey Analytics, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo dei dati in Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/data-prep/working-with-data-in-cja){target="_blank"}.
+Per un video introduttivo sull&#39;utilizzo dei dati in Customer Journey Analytics, vedere ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Operazioni con i dati in Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/data-prep/working-with-data-in-cja){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

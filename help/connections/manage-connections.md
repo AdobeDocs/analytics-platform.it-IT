@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 58ed911b3d2c719dd05082c463fe66403e207ef9
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '7127'
 ht-degree: 86%
@@ -304,7 +304,7 @@ Per ciascun set di dati, la tabella visualizza le colonne riportate di seguito:
 | **[!UICONTROL Batch aggiunti]** | Il numero di batch aggiunti a una connessione durante l’intervallo di date selezionato. |
 | **[!UICONTROL Ultima aggiunta]** | La marca temporale dell’ultimo batch aggiunto a una connessione. |
 | **[!UICONTROL Tipo di origine dati]** | Il tipo di origine. Quando aggiungi un set di dati a una connessione, puoi definire il tipo di origine. |
-| **[!UICONTROL Tipo di set di dati]** | Il [tipo di set di dati](create-connection.md#dataset-types). Il tipo può essere **[!UICONTROL Evento]**, **[!UICONTROL Profilo]**, **[!UICONTROL Ricerca]**, **[!UICONTROL Riepilogo]**. Un set di dati ad hoc o relazionale è identificato da **[!UICONTROL (Ad hoc)]** o **[!UICONTROL (Relazionale)]**. Ad esempio, **[!UICONTROL Evento (Ad hoc)]** o **[!UICONTROL Ricerca (Relazionale)]**. |
+| **[!UICONTROL Tipo di set di dati]** | Il [tipo di set di dati](create-connection.md#dataset-types). Il tipo può essere **[!UICONTROL Evento]**, **[!UICONTROL Profilo]**, **[!UICONTROL Ricerca]**, **[!UICONTROL Riepilogo]**. Un set di dati ad hoc o relazionale è identificato da **[!UICONTROL (Adhoc)]** o **[!UICONTROL (Relazionale)]**. Ad esempio, **[!UICONTROL Evento (Ad hoc)]** o **[!UICONTROL Ricerca (Relazionale)]**. |
 | **[!UICONTROL Uniti]** | Se un set di dati è [abilitato per l&#39;unione nell&#39;interfaccia utente della connessione](/help/stitching/use-stitching-ui.md), il valore è **[!UICONTROL true]**. In caso contrario, il valore è **[!UICONTROL false]**. I set di dati uniti che sono il risultato della [richiesta di unione](/help/stitching//use-stitching.md) non sono identificati come uniti in questa tabella e per impostazione predefinita hanno un valore di **[!UICONTROL false]**. |
 | **[!UICONTROL Schema]** | Lo schema di Adobe Experience Platform su cui si basa il set di dati. |
 | **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati non è configurato per l’importazione di nuovi dati. |
@@ -361,7 +361,7 @@ Quando una riga di set di dati viene selezionata nella tabella dei set di dati, 
 | **[!UICONTROL Importa nuovi dati]** | Stato dell’importazione di nuovi dati per il set di dati: <p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _Attivo]**&#x200B;se il set di dati è configurato per l’importazione di nuovi dati e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _x Disattivato_]** se il set di dati è configurato per non importare nuovi dati. |
 | **[!UICONTROL Retrocompilazione dei dati]** | Stato dei dati di retrocompilazione per il set di dati.<p>![Stato rosso](assets/status-red.svg)   **[!UICONTROL _x _retrocompilazioni non riuscite]**&#x200B;per il numero di retrocompilazioni non riuscite,<p>![Stato rosso](assets/status-orange.svg)   **[!UICONTROL _x _retrocompilazioni in elaborazione]**&#x200B;per il numero di retrocompilazioni in elaborazione,<p>![Stato verde](assets/status-green.svg)   **[!UICONTROL _x _retrocompilazioni completate]**&#x200B;per il numero di retrocompilazioni completate e<p>![Stato grigio](assets/status-gray.svg)   **[!UICONTROL _Disattivato_]** se non è configurata alcuna retrocompilazione.<p>Per visualizzare una finestra di dialogo con una panoramica delle precedenti retrocompilazioni relative al set di dati, selezionare <img src="./assets/pastbackfill.svg" alt="Retrocompilazioni precedenti" width="15"/> **[!UICONTROL Retrocompilazioni precedenti]**. |
 | **[!UICONTROL Tipo di origine dati]** | Il tipo di origine dati definito durante l’aggiunta del set di dati alla connessione. |
-| **[!UICONTROL Tipo di set di dati]** | Il [tipo di set di dati](create-connection.md#dataset-types). Il tipo può essere **[!UICONTROL Evento]**, **[!UICONTROL Profilo]**, **[!UICONTROL Ricerca]**, **[!UICONTROL Riepilogo]**. Un set di dati ad hoc o relazionale è identificato da **[!UICONTROL (Ad hoc)]** o **[!UICONTROL (Relazionale)]**. Ad esempio, **[!UICONTROL Evento (Ad hoc)]** o **[!UICONTROL Ricerca (Relazionale)]**. |
+| **[!UICONTROL Tipo di set di dati]** | Il [tipo di set di dati](create-connection.md#dataset-types). Il tipo può essere **[!UICONTROL Evento]**, **[!UICONTROL Profilo]**, **[!UICONTROL Ricerca]**, **[!UICONTROL Riepilogo]**. Un set di dati ad hoc o relazionale è identificato da **[!UICONTROL (Adhoc)]** o **[!UICONTROL (Relazionale)]**. Ad esempio, **[!UICONTROL Evento (Ad hoc)]** o **[!UICONTROL Ricerca (Relazionale)]**. |
 | **[!UICONTROL Schema]** | Lo schema di Adobe Experience Platform su cui si basa questo set di dati. |
 | **[!UICONTROL ID set di dati]** | L&#39;ID del set di dati, così come viene generato in Experience Platform. |
 
