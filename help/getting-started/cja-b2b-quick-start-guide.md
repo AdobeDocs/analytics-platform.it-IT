@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 77%
+ht-degree: 75%
 ---
 # Guida introduttiva rapida a B2B Edition
 
@@ -46,7 +46,7 @@ Questo documento è incentrato sul flusso di lavoro specifico per l’implementa
 Per implementare Customer Journey Analytics B2B Edition, si applicano i seguenti prerequisiti:
 
 * Disponi dei [controllo degli accessi e autorizzazioni](/help/technotes/access-control.md) necessari per eseguire attività di amministrazione in Customer Journey Analytics.
-* Hai acquistato il pacchetto del componente aggiuntivo Customer Journey Analytics B2B Edition.
+* Hai acquistato il pacchetto del componente aggiuntivo Customer Journey Analytics B2B edition.
 
 
 ## Flusso di lavoro

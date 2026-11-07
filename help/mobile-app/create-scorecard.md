@@ -35,10 +35,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 82%
+source-wordcount: '2771'
+ht-degree: 81%
 ---
 # Creare una scorecard per dispositivi mobili {#create-a-mobile-scorecard}
 
@@ -57,7 +57,7 @@ Le informazioni seguenti spiegano ai curatori di dati di Customer Journey Analyt
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"}.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creare una scorecard per dispositivi mobili](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -72,7 +72,7 @@ Una scorecard di Analytics mostra le visualizzazioni dei dati chiave per gli ute
 
 In qualità di curatore di questa scorecard, puoi usare il generatore di scorecard per configurare le sezioni che appariranno nella scorecard per l’utente direzionale. Puoi anche configurare il modo in cui le viste dettagliate, o i raggruppamenti, possono essere regolati una volta che le sezioni vengono toccate. L’interfaccia del generatore di scorecard è mostrata di seguito:
 
-![Generatore di scorecard che mostra la finestra nuova scorecard per dispositivi mobili. &#x200B;](assets/scorecard_builder.png)
+![Generatore di scorecard che mostra la finestra nuova scorecard per dispositivi mobili. ](assets/scorecard_builder.png)
 
 Per creare la scorecard, dovrai effettuare le seguenti operazioni:
 
@@ -107,7 +107,7 @@ Per implementare il modello della scorecard:
 
 1. Per aggiungere una nuova tessera alla scorecard, trascina una metrica dal pannello di sinistra e rilasciala nella zona **[!UICONTROL Trascina e rilascia metriche qui]**. È anche possibile inserire una metrica tra due sezioni utilizzando un flusso di lavoro simile.
 
-   ![Finestra Nuova scorecard per dispositiivi mobili con una freccia che punta a una metrica (Nuovo KPI) rilasciata nella scorecard. &#x200B;](assets/build_list.png)
+   ![Finestra Nuova scorecard per dispositiivi mobili con una freccia che punta a una metrica (Nuovo KPI) rilasciata nella scorecard. ](assets/build_list.png)
 
 
 1. Da ogni sezione, è possibile accedere a una vista dettagliata che visualizza informazioni aggiuntive sulla metrica, come gli elementi principali di un elenco di dimensioni correlate.
@@ -285,7 +285,7 @@ Per ulteriori informazioni sulla creazione di presentazioni di dati nei progetti
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Presentazioni di dati per un progetto di scorecard per dispositivi mobili](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} .
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Presentazioni di dati per un progetto di scorecard per dispositivi mobili](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} .
 
 {{videoaa}}
 

@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 9%
@@ -75,7 +75,7 @@ Per generare rapporti sui dati di Marketo Engage in Customer Journey Analytics, 
 
 Se desideri acquisire in Customer Journey Analytics i dati delle attività di Marketo, devi selezionare una strategia ID appropriata per garantire che i dati di Marketo possano essere collegati ai dati di Customer Journey Analytics.
 
-I dati di Marketo non contengono un ECID in modo nativo, ma il campo ECID può essere aggiunto come campo personalizzato raccolto con la libreria `munchkin.js`. Questa aggiunta crea un identificatore condiviso tra Marketo e i dati web esistenti del Percorso del cliente Analytics.
+I dati di Marketo non contengono un ECID in modo nativo, ma il campo ECID può essere aggiunto come campo personalizzato raccolto con la libreria `munchkin.js`. Questa aggiunta crea un identificatore condiviso tra Marketo e i dati web Customer Journey Analytics esistenti.
 
 Per collegare i dati di Marketo e Customer Journey Analytics, utilizza [unione basata su grafico](/help/stitching/gbs.md) nei set di dati rilevanti. Puoi utilizzare diversi ID disponibili, in base all’implementazione:
 
@@ -111,13 +111,13 @@ Per verificare questa strategia ID, devi eseguire un progetto pilota di unione b
 
 +++Mappare i campi dati di origine di Marketo alle relative destinazioni XDM
 
-Mappa gli oggetti [Persons](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Persone) e [Activities](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Attività) ai rispettivi campi di destinazione dello schema XDM.
+Mappa gli oggetti [Persons](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Persone) e [Activities](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) (Attività) ai rispettivi campi di destinazione dello schema XDM.
 
 +++
 
 +++Inserire dati Marketo in Adobe Experience Platform
 
-Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni Experience Platform.
+Utilizza il [connettore Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) per portare i dati da Marketo ad Experience Platform e tenerli aggiornati utilizzando le applicazioni Experience Platform.
 
 +++
 

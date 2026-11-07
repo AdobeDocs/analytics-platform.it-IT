@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2013'
 ht-degree: 9%
@@ -80,7 +80,7 @@ Nei casi d’uso, sostituisci questi oggetti di esempio con oggetti appropriati 
       1. Selezionare **[!UICONTROL OK]**.
    1. Nella finestra di dialogo **[!UICONTROL Database PostgreSQL]** - **[!UICONTROL Database]**:
       ![Utente e password di PowerBI Desktop](../assets/powerbi-userpassword.png)
-      1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare i valori **[!UICONTROL Nome utente]** e **[!UICONTROL Password]** dal pannello Experience Platform **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** nei campi **[!UICONTROL Nome utente]** e **[!UICONTROL Password]**. Se si utilizza una [credenziale senza scadenza](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect), utilizzare la password delle credenziali senza scadenza.
+      1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare i valori **[!UICONTROL Nome utente]** e **[!UICONTROL Password]** dal pannello Experience Platform **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** nei campi **[!UICONTROL Nome utente]** e **[!UICONTROL Password]**. Se si utilizza una [credenziale senza scadenza](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect), utilizzare la password delle credenziali senza scadenza.
       1. Verificare che il menu a discesa per **[!UICONTROL Selezionare il livello a cui applicare queste impostazioni]** sia impostato sul **[!UICONTROL server]** definito in precedenza.
       1. Seleziona **[!UICONTROL Connetti]**.
    1. Nella finestra di dialogo **[!UICONTROL Navigator]**, le visualizzazioni dati vengono recuperate. Questo recupero può richiedere del tempo. Una volta recuperato, in Power BI Desktop viene visualizzato quanto segue.
@@ -92,7 +92,7 @@ Nei casi d’uso, sostituisci questi oggetti di esempio con oggetti appropriati 
             ![Dati trasformazione desktop Power BI](../assets/powerbi-transform-data.png)
             * Seleziona **[!UICONTROL Chiudi e applica]**.
    1. Dopo un po&#39;, nel riquadro **[!UICONTROL Dati]** viene visualizzato **[!UICONTROL public.cc_data_view]**. Seleziona ![ChevronRight](/help/assets/icons/ChevronRight.svg) per visualizzare dimensioni e metriche.
-      ![Dati server desktop Power BI caricati](../assets/powerbi-navigator-loaded.png)
+      ![Dati di Power BI Desktop Server caricati](../assets/powerbi-navigator-loaded.png)
 
 
 ## Per APPIATTIRE o meno
@@ -135,7 +135,7 @@ Power BI Desktop supporta i seguenti scenari per il parametro `FLATTEN`. Per ult
       1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare il **[!UICONTROL Database]** dal pannello Experience Platform **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** nel **[!UICONTROL Database]**. Aggiungere `%3FFLATTEN` al valore incollato. Ad esempio: `prod:cja%3FFLATTEN`.
       1. Selezionare **[!UICONTROL Nome utente e password]** dal menu a discesa **[!UICONTROL Autenticazione]**.
       1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare il **[!UICONTROL Nome utente]** dal pannello **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** di Experience Platform nel **[!UICONTROL Nome utente]**.
-      1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare la **[!UICONTROL Password]** dal pannello **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** di Experience Platform nella **[!UICONTROL Password]**. Se si utilizza una [credenziale senza scadenza](https://experienceleague.adobe.com/it/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect), utilizzare la password delle credenziali senza scadenza.
+      1. Utilizza ![Copia](/help/assets/icons/Copy.svg) per copiare e incollare la **[!UICONTROL Password]** dal pannello **[!UICONTROL Query]** **[!UICONTROL Credenziali in scadenza]** di Experience Platform nella **[!UICONTROL Password]**. Se si utilizza una [credenziale senza scadenza](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect), utilizzare la password delle credenziali senza scadenza.
       1. Verificare che sia selezionato **[!UICONTROL Richiedi SSL]**.
       1. Seleziona **[!UICONTROL Accedi]**.
 

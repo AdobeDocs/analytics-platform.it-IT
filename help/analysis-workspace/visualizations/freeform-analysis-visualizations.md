@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 27b268c88c84b530d9fbbc454eae23cc43d4d041
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 69%
@@ -50,7 +50,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | ![Funnel di conversione](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | La visualizzazione Abbandono mostra dove l’utenza ha lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite. |
 | ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [Flusso](/help/analysis-workspace/visualizations/c-flow/flow.md) | Una visualizzazione del flusso mostra i percorsi seguiti dal cliente nei tuoi siti Web e nelle tue app. |
 | ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [Tabella a forma libera](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una visualizzazione tabella a forma libera è una visualizzazione interattiva. La visualizzazione tabella a forma libera è la base per l’analisi dei dati in Workspace. |
-| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) | Una visualizzazione a istogramma classifica l’utenza, le visite o gli hit in blocchi in base a un volume di metrica. |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analysis-workspace/visualizations/histogram.md) | Una visualizzazione a istogramma classifica l’utenza, le visite o gli hit in bucket in base a un volume di metrica. |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [Barre orizzontali](/help/analysis-workspace/visualizations/horizontal-bar.md) | Una visualizzazione a barre orizzontali mostra barre orizzontali che rappresentano diversi valori per una o più metriche. |
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barra orizzontale sovrapposta](/help/analysis-workspace/visualizations/horizontal-bar.md) | Una visualizzazione a barre orizzontali sovrapposte mostra barre orizzontali che rappresentano diversi valori per una o più metriche. |
 | ![Branch3](/help/assets/icons/Branch3.svg) | [Area di lavoro percorso](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | Una visualizzazione ad area di lavoro percorso consente di analizzare e ottenere informazioni approfondite sui percorsi forniti a utenti e clienti. |

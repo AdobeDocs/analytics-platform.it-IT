@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2375'
 ht-degree: 11%
@@ -159,7 +159,7 @@ Definisci uno schema che modella questi dati. Per configurare lo schema:
 
    1. Seleziona **[!UICONTROL Avanti]**.
 1. Nell&#39;interfaccia **[!UICONTROL Schemi]** > **[!UICONTROL Crea schema relazionale]**:
-   1. Immettere un nome visualizzato per lo schema **&#x200B;**. Ad esempio: `Sample Event Feed Schema`.
+   1. Immettere un nome visualizzato per lo schema ****. Ad esempio: `Sample Event Feed Schema`.
    1. Immetti una **[!UICONTROL Descrizione]**. Ad esempio: `Sample event feed schema for a relational schema`.
    1. Seleziona **[!UICONTROL Serie temporali]** come **[!UICONTROL Comportamento schema]**. Selezionare **[!UICONTROL Serie temporali]** per i dati basati su serie temporali e **[!UICONTROL Record]** per i dati basati su record. Il comportamento definisce la struttura dello schema e le proprietà incluse.
 
@@ -248,7 +248,7 @@ Nel passaggio **[!UICONTROL Autenticazione]**, seleziona:
 
   1. Seleziona **[!UICONTROL Avanti]**.
 
-  Consulta la documentazione di Experience Platform per informazioni dettagliate su come connettersi e autenticare quando utilizzi il connettore [Azure Databricks](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake).
+  Consulta la documentazione di Experience Platform per informazioni dettagliate su come connettersi e autenticare quando utilizzi il connettore [Azure Databricks](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) o [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake).
 
 
 ### Selezionare i dati

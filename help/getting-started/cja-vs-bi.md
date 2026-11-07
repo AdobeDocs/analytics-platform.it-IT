@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1680'
-ht-degree: 100%
+ht-degree: 99%
 ---
 # Confronto tra Customer Journey Analytics e soluzioni BI
 
@@ -60,7 +60,7 @@ Questa sezione della documentazione spiega le differenze fondamentali tra Custom
 
 Spesso gli approcci tradizionali all’analisi del percorso clienti hanno lo svantaggio di non essere incentrati sulle persone. Ogni team raccoglie i dati in silos, analizzando e ottimizzando le esperienze in base ai dati a cui ha accesso.
 
-![Flusso di lavoro tradizionale BI come descritto in questa sezione](./assets/biworkflow.png)
+![Flusso di lavoro tradizionale di BI descritto in questa sezione](./assets/biworkflow.png)
 
 Per comprendere in che modo una campagna digitale specifica influisce su un’azione offline memorizzata in un altro silos di dati, si invia una richiesta alla coda del team BI. Il team BI scrive la query necessaria per acquisire e trasformare i dati. Una volta recuperati i dati non elaborati, il team BI crea la visualizzazione. I dati vengono condivisi con l’utente, che si occuperà di esaminare le informazioni ed estrarre i dati per l’attivazione in altri sistemi.
 
@@ -90,7 +90,7 @@ Customer Journey Analytics utilizza un’architettura proprietaria potente che d
 
 ## Funzionalità di visualizzazione uniche di Customer Journey Analytics
 
-Il motore di reporting è fondamentale per Customer Journey Analytics per consentirti di interagire e di agire progressivamente su tutti i dati del percorso cliente all’interno del motore. Customer Journey Analytics viene fornito con un ampio set di componenti che ti consentono di eseguire questa operazione visivamente e tramite trascinamento. Gli strumenti di visualizzazione BI ti consentono di esplorare i contenuti entro i limiti dei dati preparati da SQL (come definiti da IT). Customer Journey Analytics consente di analizzare nel dettaglio il più possibile, senza dover tornare all’IT per creare un’altra vista SQL.
+Il motore di reporting è fondamentale per Customer Journey Analytics per consentirti di interagire e di agire progressivamente su tutti i dati del percorso cliente all’interno del motore. Customer Journey Analytics viene fornito con un ampio set di componenti che ti consentono di eseguire questa operazione visivamente e tramite trascinamento. Gli strumenti di visualizzazione BI ti consentono di esplorare i contenuti entro i limiti dei dati preparati da SQL (come definiti da IT). Customer Journey Analytics consente di analizzare nel dettaglio il più possibile, senza dover chiedere all’IT per creare un’altra vista SQL.
 
 “Progressivamente” è qui un concetto chiave: contrariamente alla maggior parte delle visualizzazioni negli strumenti BI, l’interfaccia utente visiva con trascinamento di Customer Journey Analytics consente di suddividere continuamente i dati in base alle proprie esigenze specifiche. Puoi creare query visive in modo interattivo utilizzando metriche, dimensioni, segmenti, calcoli, linee temporali, annotazioni e altri valori di analisi rilevanti.
 

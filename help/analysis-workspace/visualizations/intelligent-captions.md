@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '802'
-ht-degree: 82%
+ht-degree: 80%
 ---
 # Didascalie intelligenti {#intelligent-captions}
 
@@ -58,7 +58,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 Per avviare le didascalie intelligenti generate automaticamente per una visualizzazione, seleziona ![Didascalie intelligenti](/help/assets/icons/AI.svg) in alto a destra della visualizzazione. Questa selezione genera informazioni approfondite sul linguaggio naturale.
 
-![Finestra di avvio analisi che mostra le didascalie intelligenti per la tendenza delle visualizzazioni del prodotto. &#x200B;](assets/intelligent-captions.gif)
+![Finestra di avvio analisi che mostra le didascalie intelligenti per la tendenza delle visualizzazioni del prodotto. ](assets/intelligent-captions.gif)
 
 
 Tieni presente che:
@@ -105,7 +105,7 @@ Here is an example of what intelligent captions could look like:
 Puoi mostrare tutte le didascalie intelligenti contemporaneamente in una visualizzazione espansa oppure singole didascalie intelligenti una alla volta.
 
 * Per visualizzare tutte le didascalie intelligenti, seleziona ![Mostra tutte le didascalie intelligenti](/help/assets/icons/Maximize.svg).
-* Per visualizzare singole didascalie intelligenti, una alla volta, seleziona ![Mostra singole didascalie intelligenti](/help/assets/icons/Minimize.svg).
+* Per visualizzare singole didascalie intelligenti, una per una, selezionare ![Mostra singole didascalie intelligenti](/help/assets/icons/Minimize.svg).
 
 ### Modifica visualizzazione {#edit}
 

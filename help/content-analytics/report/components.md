@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: fec14c8ed1f94e16423682a165198dbda760f78d
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '1943'
-ht-degree: 58%
+ht-degree: 57%
 ---
 
 # Componenti di Content Analytics
@@ -73,7 +73,7 @@ Nelle tabelle seguenti, ![Generato dall’IA](/help/assets/icons/AI.svg) indica 
 | Titolo | Descrizione | Tipo |
 |---|---|---|
 | Attributi per esperienze | ![Generato dall’IA](/help/assets/icons/AI.svg) Elenco completo di tutti i nomi e i valori degli attributi dell’esperienza | Dimensione<br>Campo derivato |
-| Punteggio di leggibilità dell’esperienza | ![Generato dall’IA](/help/assets/icons/AI.svg) Punteggio di leggibilità per l’esperienza | Dimensione |
+| Punteggio di leggibilità dell’esperienza | ![IA generata](/help/assets/icons/AI.svg) Punteggio di leggibilità dell&#39;esperienza | Dimensione |
 | Parole chiave dell’esperienza | ![Generate dall’IA](/help/assets/icons/AI.svg) Parole chiave per l’esperienza. | Dimensione<br>Campo derivato |
 | Strategie di persuasione dell’esperienza | ![Generate dall’IA](/help/assets/icons/AI.svg) Strategie di persuasione presenti nell’esperienza specificata. I valori possibili sono: Identità sociale, Prova sociale, Autorevolezza, Concretezza, Fare il primo passo, Superare la reattanza, Reciprocità, Ancoraggio e confronto, Impatto sociale, Scarsità e Antropomorfismo. | Dimensione<br/>Campo derivato |
 | Narrazioni dell’esperienza | ![Generate dall’IA](/help/assets/icons/AI.svg) Narrazioni create dall’esperienza in base alla rilevanza dal punto di vista di un marketer. | Dimensione<br/>Campo derivato |

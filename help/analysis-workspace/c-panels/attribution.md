@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 80%
+ht-degree: 79%
 ---
 # Pannello Attribuzione {#attribution-panel}
 
@@ -57,7 +57,7 @@ ht-degree: 80%
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo viene documentato il pannello Attribuzione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_Vedere [Pannello Attribuzione](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/attribution) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** di questo articolo._
+_In questo articolo viene documentato il pannello Attribuzione in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_Vedere [Pannello Attribuzione](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/attribution) per la versione_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

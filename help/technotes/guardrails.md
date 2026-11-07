@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5b0c9d764d17daa63316f8ab294aa9c8f7f94427
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 9%
@@ -91,10 +91,10 @@ Alcune delle funzioni e il valore associato per il limite dipendono dal pacchett
 | Commenti per progetto | 1.000 | Guarddrail imposto dal sistema | Numero massimo di commenti per progetto. |
 | Risposte per commento | 100 | Guarddrail imposto dal sistema | Numero massimo di risposte per commento. |
 | Immagini per commento | 5 | Guarddrail imposto dal sistema | Numero massimo di immagini per commento. |
-| Dimensioni immagine | 2 | Guarddrail imposto dal sistema | Dimensioni massime di caricamento per immagine in MB. |
+| Dimensioni immagine | 2 | Guarddrail imposto dal sistema | Dimensione massima del caricamento per immagine in MB. |
 | Risposte per commento | 100 | Guarddrail imposto dal sistema | Numero massimo di risposte per commento. |
 | Immagini per commento | 5 | Guarddrail imposto dal sistema | Numero massimo di immagini per commento. |
-| Dimensioni immagine | 2 | Guarddrail imposto dal sistema | Dimensioni massime di caricamento per immagine in MB |
+| Dimensioni immagine | 2 | Guarddrail imposto dal sistema | Dimensioni massime caricamento per immagine in MB |
 
 {style="table-layout:auto"}
 
@@ -126,7 +126,7 @@ Alcune delle funzioni e il valore associato per il limite dipendono dal pacchett
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Guardrail di Real-time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/guardrails/overview).
+Consulta anche Experience Platform [Guardrail di Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview).
 
 
 ## Scadenza set di dati automatizzato
@@ -168,12 +168,12 @@ Consulta anche Experience Platform [Guardrail di Real-time Customer Data Platfor
 | Stringhe univoche | 10 milioni - 1 miliardo | Guarddrail imposto dal sistema | Numero massimo di chiavi univoche per set di dati di ricerca. Dipende dalla confezione di Customer Journey Analytics (vedi Descrizione del prodotto).<ul><li>Fondazione: 10 milioni.</li><li>Select: 100 milioni.</li><li>Prime: 250 milioni.</li><li>Ultimate: 1 miliardo</li><ul> |
 | Righe per persona | 1 milione | Guarddrail imposto dal sistema | Numero massimo di righe per ID persona univoco in un dato mese all’interno di una connessione. |
 | Righe al giorno | 2,5 miliardi | Guardrail delle prestazioni | Numero medio massimo di righe al giorno in una connessione. |
-| Righe per connessione all&#39;anno | Varia in base al centro dati assegnato (per ulteriori informazioni, consulta la descrizione) | Guardrail delle prestazioni | Limite di righe all’anno in una connessione. I limiti elencati di seguito sono validi a partire dal 20 gennaio 2026 e possono aumentare nel tempo per consentire più righe per connessione. <p>Il limite di righe varia a seconda del centro dati assegnato, come segue:</p><ul><li>**Stati Uniti Azure (impostazione predefinita per i clienti statunitensi)**: circa 500 miliardi (circa 42 miliardi al mese)</li><li>**Stati Uniti AWS (disponibile su richiesta per i clienti statunitensi)**: circa 30 miliardi (circa 2,5 miliardi al mese)</li><li>**Amsterdam**: circa 200 miliardi (circa 16,5 miliardi al mese)</li><li>**Tutti gli altri data center**: 25 miliardi (circa 2 miliardi al mese)</li></ul><p>Se prevedi di superare questi limiti e vuoi evitare problemi di riduzione delle prestazioni, contatta il team del tuo account Adobe per discutere di configurazioni alternative.</p><p>Le organizzazioni possono scegliere il proprio centro dati quando implementano inizialmente AEP+App. Questa decisione si basa in genere sui requisiti di residenza dei dati di ciascun cliente. Quando si sceglie un data center, è necessario considerare tutti i casi d’uso AEP+Apps (non solo i volumi delle righe in Customer Journey Analytics).</p><p>Per informazioni su come visualizzare il centro dati a cui sei assegnato, consulta [Percorsi di hosting Customer Journey Analytics](/help/technotes/data-centers.md).</p> |
+| Righe per connessione all&#39;anno | Varia in base al centro dati assegnato (per ulteriori informazioni, consulta la descrizione) | Guardrail delle prestazioni | Limite di righe all’anno in una connessione. I limiti elencati di seguito sono validi a partire dal 20 gennaio 2026 e possono aumentare nel tempo per consentire più righe per connessione. <p>Il limite di righe varia a seconda del centro dati assegnato, come segue:</p><ul><li>**Stati Uniti Azure (impostazione predefinita per i clienti statunitensi)**: circa 500 miliardi (circa 42 miliardi al mese)</li><li>**Stati Uniti AWS (disponibile su richiesta per i clienti statunitensi)**: circa 30 miliardi (circa 2,5 miliardi al mese)</li><li>**Amsterdam**: circa 200 miliardi (circa 16,5 miliardi al mese)</li><li>**Tutti gli altri data center**: 25 miliardi (circa 2 miliardi al mese)</li></ul><p>Se prevedi di superare questi limiti e vuoi evitare problemi di degrado delle prestazioni, contatta il team del tuo account Adobe per discutere di configurazioni alternative.</p><p>Le organizzazioni possono scegliere il proprio centro dati quando implementano inizialmente AEP+App. Questa decisione si basa in genere sui requisiti di residenza dei dati di ciascun cliente. Quando si sceglie un data center, è necessario considerare tutti i casi d’uso AEP+Apps (non solo i volumi delle righe in Customer Journey Analytics).</p><p>Per informazioni su come visualizzare il centro dati a cui sei assegnato, consulta [Percorsi di hosting Customer Journey Analytics](/help/technotes/data-centers.md).</p> |
 | Dimensione riga | 2 | Guarddrail delle prestazioni / Guarddrail imposto dal sistema | Dimensione media in kilobyte per riga di dati acquisiti in Customer Journey Analytics (limite soft). Un limite statico per la dimensione della riga è determinato dai guardrail per l’acquisizione dei dati in Experience Platform. |
 
 {style="table-layout:auto"}
 
-Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Esportazione dei dati delle destinazioni
@@ -185,7 +185,7 @@ Consulta anche Experience Platform [Guardrail per l&#39;acquisizione dei dati](h
 
 {style="table-layout:auto"}
 
-Vedi anche guardrail di esportazione del set di dati di Experience Platform [&#128279;](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/guardrails#dataset-exports)
+Vedi anche guardrail di esportazione del set di dati di Experience Platform [](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Zona di destinazione dati
@@ -303,7 +303,7 @@ Vedi anche guardrail di esportazione del set di dati di Experience Platform [&#1
 
 >[!NOTE]
 >
->I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=it).
+>I tempi di elaborazione riportati di seguito sono guardrail e non accordi contrattuali sul livello di servizio (SLA). La latenza varia a seconda della configurazione del cliente, dei volumi di dati e delle applicazioni consumer. I tempi di elaborazione effettivi sono spesso più rapidi. Per informazioni sui termini contrattuali e gli SLA specifici, consultare il contratto Customer Journey Analytics. Per ulteriori informazioni, vedi [Guardrail di Experience Platform per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 | Flusso di dati | Latenza prevista |
 |---|---|

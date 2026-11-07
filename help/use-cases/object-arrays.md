@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 59%
+ht-degree: 58%
 ---
 # Utilizzare gli array di oggetti
 
@@ -295,5 +295,5 @@ L’applicazione di questa metrica calcolata mostra i risultati desiderati:
 
 ## Limitazioni
 
-Le limitazioni si applicano agli array nei dati utilizzati da Customer Journey Analytics e modellati come parte di uno schema in Experience Platform. Consulta [Limiti del modello dati](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails#data-model-limits) e [Limiti dimensioni dati](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails#data-size-limits) in [Guardrail predefiniti per dati e segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails).
+Le limitazioni si applicano agli array nei dati utilizzati da Customer Journey Analytics e modellati come parte di uno schema in Experience Platform. Consulta [Limiti del modello dati](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-model-limits) e [Limiti dimensioni dati](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails#data-size-limits) in [Guardrail predefiniti per dati e segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails).
 

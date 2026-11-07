@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 28959f1ea858dee686e6d13025621c4a6164c319
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: 955
-ht-degree: 56%
-
+source-wordcount: '955'
+ht-degree: 55%
 ---
-
 # Impostazioni dei componenti della Sottostringa {#substring-component-settings}
 
 <!-- markdownlint-disable MD034 -->
@@ -55,9 +53,9 @@ Prendi parte di una stringa in base alla sua posizione rispetto all’inizio o a
 * **[!UICONTROL Fine stringa]**: fine della stringa.
 * **[!UICONTROL Posizione]**: numero statico di caratteri da sinistra o da destra, a seconda del metodo.
 * **[!UICONTROL Stringa]**: specifica un carattere o una sequenza di caratteri per indicare l&#39;inizio o la fine di una stringa. Questo menu a discesa presenta anche altre opzioni:
-   * **[!UICONTROL Corrispondenza]**: stringa da trovare. Se l’input non corrisponde a questo campo, vengono applicale le [opzioni per nessun valore](no-value-options.md).
-   * **[!UICONTROL Indice]**: il criterio **[!UICONTROL Corrispondenza]** può essere presente più volte in una stringa. Questo numero intero determina quale corrispondenza considerare per avviare o terminare l’output, a seconda del metodo. Ad esempio, l’indice `1` rappresenta la prima corrispondenza. Se l’indice è superiore al numero di corrispondenze disponibili, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md).
-   * **[!UICONTROL Includi stringa]**: casella di controllo che include la stringa **[!UICONTROL Corrispondenza]** nell&#39;output se abilitata.
+  * **[!UICONTROL Corrispondenza]**: stringa da trovare. Se l’input non corrisponde a questo campo, vengono applicale le [opzioni per nessun valore](no-value-options.md).
+  * **[!UICONTROL Indice]**: il criterio **[!UICONTROL Corrispondenza]** può essere presente più volte in una stringa. Questo numero intero determina quale corrispondenza considerare per avviare o terminare l’output, a seconda del metodo. Ad esempio, l’indice `1` rappresenta la prima corrispondenza. Se l’indice è superiore al numero di corrispondenze disponibili, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md).
+  * **[!UICONTROL Includi stringa]**: casella di controllo che include la stringa **[!UICONTROL Corrispondenza]** nell&#39;output se abilitata.
 * **[!UICONTROL Lunghezza]**: un numero intero che specifica il numero di caratteri da includere dopo la posizione iniziale dell&#39;output. Disponibile solo nel menu a discesa **[!UICONTROL A]**.
 
 ## Delimiter (Delimitatore)
@@ -65,9 +63,9 @@ Prendi parte di una stringa in base alla sua posizione rispetto all’inizio o a
 Utilizza questo metodo per i campi che utilizzano un delimitatore per separare più valori stringa. Puoi estrarre un singolo elemento da utilizzare come output oppure convertire la stringa in un elemento schema di tipo array di oggetti.
 
 * **[!UICONTROL Criterio]**: come trattare l&#39;elenco di valori delimitato.
-   * **[!UICONTROL Da sinistra]**: inizia dall&#39;inizio dell&#39;elenco delimitato e conta in avanti.
-   * **[!UICONTROL Da destra]**: inizia dalla fine dell&#39;elenco delimitato e conta all&#39;indietro.
-   * **[!UICONTROL Converti in array]**: considera questa dimensione come un elemento schema di tipo array di oggetti. La dimensione diventa disponibile come [contenitore personalizzato](/help/data-views/create-dataview.md#containers-1) che puoi selezionare nella visualizzazione dati e utilizzare per [analisi sub-evento](/help/components/segments/sub-event.md) in un progetto Workspace.
+  * **[!UICONTROL Da sinistra]**: inizia dall&#39;inizio dell&#39;elenco delimitato e conta in avanti.
+  * **[!UICONTROL Da destra]**: inizia dalla fine dell&#39;elenco delimitato e conta all&#39;indietro.
+  * **[!UICONTROL Converti in array]**: considera questa dimensione come un elemento schema di tipo array di oggetti. La dimensione diventa disponibile come [contenitore personalizzato](/help/data-views/create-dataview.md#containers-1) che puoi selezionare nella visualizzazione dati e utilizzare per [analisi sub-evento](/help/components/segments/sub-event.md) in un progetto Workspace.
 * **[!UICONTROL Delimitatore]**: delimitatore utilizzato dal campo.
 * **[!UICONTROL Indice]**: disponibile solo se il criterio è From the Left/Right (Da sinistra/Da destra). Numero dell’elemento come se si trovasse in un array. Ad esempio, se l’input della stringa è `"Fox,Turtle,Rabbit,Wolf"` con un indice pari a 3, l’output è `"Rabbit"`. Se l’indice è superiore al numero di elementi delimitati, vengono applicate le [opzioni per “Nessun valore”](no-value-options.md).
 
@@ -98,7 +96,7 @@ Applica espressioni regolari a una dimensione per recuperare il valore desiderat
 * **[!UICONTROL Formato di output]**: campo facoltativo che consente di aggiungere testo o riordinare l&#39;output del sottogruppo regex. Se questo campo è vuoto, l’output della stringa corrisponde all’espressione regex valutata.
 * **[!UICONTROL Distinzione maiuscole/minuscole]**: casella di controllo che, se abilitata, applica all&#39;espressione regolare la distinzione tra maiuscole e minuscole.
 
-Customer Journey Analytics utilizza un sottoinsieme della sintassi delle regex in Perl. Se l&#39;input non corrisponde all&#39;espressione regolare e il formato di output **1&rbrace; è vuoto, vengono applicate le [opzioni per nessun valore](no-value-options.md).** Sono supportate le seguenti espressioni:
+Customer Journey Analytics utilizza un sottoinsieme della sintassi delle regex in Perl. Se l&#39;input non corrisponde all&#39;espressione regolare e il formato di output **[!UICONTROL 1} è vuoto, vengono applicate le [opzioni per nessun valore](no-value-options.md).]** Sono supportate le seguenti espressioni:
 
 | Espressione | Descrizione |
 | --- | --- |

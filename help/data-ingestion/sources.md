@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ff8dd2ce69882beaf23249929b0a3803dbec3550
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
 source-wordcount: '2150'
 ht-degree: 54%
@@ -103,7 +103,7 @@ Per configurare lo schema:
 
    1. Immetti un **[!UICONTROL nome visualizzato dello schema]** per lo schema e (facoltativo) una **[!UICONTROL Descrizione]**.
 
-      ![Finestra Crea schema con i campi per denominare lo schema &#x200B;](./assets/create-pr-schema-wizard-step-2.png)
+      ![Finestra Crea schema con i campi per denominare lo schema ](./assets/create-pr-schema-wizard-step-2.png)
 
    1. Seleziona **[!UICONTROL Fine]**.
 
@@ -141,7 +141,7 @@ Per configurare lo schema:
 
 1. Seleziona il campo **[!UICONTROL email]** nell&#39;oggetto di identificazione appena aggiunto, quindi seleziona **[!UICONTROL Identity]** e **[!UICONTROL Email]** dallo spazio dei nomi [!UICONTROL Identity] nel pannello [!UICONTROL Field Properties].
 
-   ![Specificare l’e-mail come identità](./assets/specify-email-loyalty-id.png)
+   ![Specificare l&#39;indirizzo e-mail come identità](./assets/specify-email-loyalty-id.png)
 
    Stai specificando l’indirizzo e-mail come identità che il servizio Adobe Experience Platform Identity può utilizzare per combinare (unire) il comportamento dei profili.
 
@@ -208,11 +208,11 @@ A seconda della fonte da cui ricevi i dati di fidelizzazione, scegli il connetto
 
 Puoi acquisire dati da diverse origini. Di seguito sono riportate solo alcune delle numerose fonti disponibili:
 
-- Applicazioni Adobe (i connettori di origine includono [Adobe Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) e altri)
+- Applicazioni Adobe (i connettori di origine includono [Adobe Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/analytics), [Adobe Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager) e altri)
 
-- Archiviazione cloud (i connettori di origine includono [Amazon S3](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/blob) e altri)
+- Archiviazione cloud (i connettori di origine includono [Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [Azure Blob](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob) e altri)
 
-- Database (i connettori di origine includono [Snowflake](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/databases/sql-server) e altri)
+- Database (i connettori di origine includono [Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server) e altri)
 
 Per configurare un connettore di origine:
 
@@ -246,7 +246,7 @@ Per informazioni sull&#39;utilizzo del connettore di origine di Adobe Analytics,
 
 Per informazioni sull&#39;utilizzo del connettore di origine API HTTP, vedere [Acquisire e utilizzare dati in streaming](./streaming.md).
 
-Consulta la sezione [Panoramica dei connettori di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it#terms-and-conditions) per una panoramica dei connettori di origine, compresi i collegamenti a ulteriori informazioni per ciascun connettore.
+Consulta la sezione [Panoramica dei connettori di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions) per una panoramica dei connettori di origine, compresi i collegamenti a ulteriori informazioni per ciascun connettore.
 
 
 ## Configurare una connessione

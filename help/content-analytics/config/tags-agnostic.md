@@ -25,13 +25,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: '484'
 ht-degree: 5%
-
 ---
-
 
 # Libreria JavaScript di Content Analytics
 
@@ -73,7 +71,7 @@ Utilizza `npm` per installare la libreria.
 
 Carica la libreria direttamente dal CDN.
 
-1. Inizializza la [libreria Web SDK JavaScript](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/install/library) e carica il bundle Content Analytics:
+1. Inizializza la [libreria Web SDK JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library) e carica il bundle Content Analytics:
 
    ```html
    <!-- 1. Load and configure Alloy first -->
@@ -95,7 +93,7 @@ Carica la libreria direttamente dal CDN.
    ```
 
    dove
-   * `alloy/2.x.x` fa riferimento alla versione che si desidera utilizzare della [libreria Web SDK JavaScript](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/install/library).
+   * `alloy/2.x.x` fa riferimento alla versione che si desidera utilizzare della [libreria Web SDK JavaScript](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/install/library).
    * `content-analytics/1.x.x` fa riferimento alla versione che si desidera utilizzare della libreria SDK di Content Analytics.
 
 2. La compilazione autonoma espone `window.contentAnalytics` come funzione di inizializzazione.

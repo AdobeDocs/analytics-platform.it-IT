@@ -1,6 +1,6 @@
 ---
 title: Impostazioni dei componenti di deduplicazione delle metriche
-description: Conteggia solo la prima occorrenza di una metrica nei rapporti.
+description: Conta solo la prima occorrenza di una metrica nei rapporti.
 exl-id: ced0c637-5cbe-47a4-897a-eb79961986a3
 solution: Customer Journey Analytics
 feature: Data Views
@@ -24,13 +24,11 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 77%
-
+source-wordcount: '342'
+ht-degree: 74%
 ---
-
 # Impostazioni dei componenti di deduplicazione delle metriche {#metric-deduplication-component-settings}
 
 <!-- markdownlint-disable MD034 -->
@@ -50,7 +48,7 @@ La deduplica delle metriche consente di configurare una metrica in modo da conte
 | Impostazione | Descrizione |
 | --- | --- |
 | [!UICONTROL Deduplica delle metriche] | Una casella di controllo che consente di abilitare la deduplicazione delle metriche. Disabilitata per impostazione predefinita. |
-| [!UICONTROL Ambito di deduplicazione] | Consente di determinare quanto indietro nel tempo deve effettuarsi la verifica univoca.<br/>**[!UICONTROL Conto globale &#x200B;]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br/>**[!UICONTROL Conto]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br/>**[!UICONTROL Opportunità&#x200B;]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br/>**[!UICONTROL Gruppo di acquisto]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br/>**[!UICONTROL Persona &#x200B;]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br>**[!UICONTROL Sessione]**: viene conteggiata solo la prima occorrenza metrica della sessione.<br> |
+| [!UICONTROL Ambito di deduplicazione] | Consente di determinare quanto indietro nel tempo deve effettuarsi la verifica univoca.<br/>**[!UICONTROL Conto globale ]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br/>**[!UICONTROL Conto]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br/>**[!UICONTROL Opportunità&#x200B;]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br/>**[!UICONTROL Gruppo di acquisto]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br/>**[!UICONTROL Persona ]**: viene conteggiata solo la prima occorrenza metrica nell&#39;intervallo di reporting.<br>**[!UICONTROL Sessione]**: viene conteggiata solo la prima occorrenza metrica della sessione.<br> |
 | [!UICONTROL ID deduplicazione] | Invece di applicare la deduplicazione sulla metrica stessa, puoi applicare la deduplicazione metrica in base a una dimensione. Impostazione molto utile per dimensioni quali l&#39;ID acquisto. |
 | [!UICONTROL Valore da mantenere] | <ul><li>**Mantieni prima istanza**: utilizza questa opzione nelle situazioni in cui l’istanza iniziale della metrica è quella valida. Ad esempio, per una conferma di acquisto: se l’utente ricarica inavvertitamente la pagina e questo genera un’altra istanza di conferma dell’acquisto, l’evento valido resta comunque quello iniziale.</li><li>**Mantieni ultima istanza**: utilizza questa opzione in situazioni in cui conviene raccogliere l’ultima istanza. Esempio: l’utente aggiorna il suo profilo online. In questo caso sarà necessario contare solo uno di tali aggiornamenti per sessione. Tuttavia, l’utente può aggiornare il profilo più volte durante una sessione. Se si mantenesse la prima istanza, alcune attività potrebbero non essere associate all’evento. In casi simili, conviene mantenere l’ultima istanza.</li></ul> |
 
