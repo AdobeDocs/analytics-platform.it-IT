@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 94%
+source-wordcount: '2334'
+ht-degree: 93%
 ---
 # Domande frequenti
 
@@ -181,7 +181,7 @@ Di recente, Adobe ha modificato il modo in cui i dati vengono elaborati in Custo
 
 ## &#x200B;5. Finestra continua per la conservazione dei dati [!UICONTROL Connessione] {#data-retention}
 
-L’impostazione [**[!UICONTROL Abilita intervallo dati continuo &#x200B;]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection) consente di definire la conservazione dei dati di Customer Journey Analytics come intervallo continuo in mesi (tre mesi, sei mesi, ecc.). È impostato a livello di [!UICONTROL connessione], non a livello di [!UICONTROL set di dati]. La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di conservazione dei dati per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili.
+L’impostazione [**[!UICONTROL Abilita intervallo dati continuo ]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it#create-connection) consente di definire la conservazione dei dati di Customer Journey Analytics come intervallo continuo in mesi (tre mesi, sei mesi, ecc.). È impostato a livello di [!UICONTROL connessione], non a livello di [!UICONTROL set di dati]. La conservazione dei dati si basa sulle marche temporali dei set di dati dell’evento e si applica solo ai set di dati dell’evento. Non esiste alcuna impostazione di conservazione dei dati per i set di dati di profilo o di ricerca, in quanto non sono disponibili marche temporali applicabili.
 
 Il vantaggio principale consiste nell’archiviare o generare rapporti solo sui dati applicabili e utili, nonché nell’eliminare i dati meno recenti che non sono più utili. Ti aiuta a rispettare i limiti del tuo contratto e riduce il rischio di sovraccosti.
 
@@ -285,7 +285,7 @@ Ulteriori informazioni sulle [implicazioni dell&#39;eliminazione del set di dati
 
 Adobe CX Enterprise utilizza la raccolta dati regionali (Regional Data Collection, RDC) in modo che le interazioni tra i visitatori e le soluzioni Adobe e non Adobe si verifichino il più vicino possibile ai visitatori. Una volta raccolti i dati a livello regionale in un centro di raccolta dati (Data Collection Center, DCC, noto anche come sito Edge, parte della rete Edge di Platform), questi vengono inoltrati tramite una connessione sicura alle soluzioni pertinenti in base alla configurazione dello stream di dati e/o all’inoltro eventi.
 
-![Flusso di dati con reti Edge](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
+Per un diagramma del flusso dei dati in Edge Network, vedere [Panoramica sulla raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/collection/home).
 
 Il processo di raccolta dati regionali utilizza i seguenti passaggi:
 
@@ -315,4 +315,4 @@ Quando i dati raggiungono il data center regionale, la configurazione dello stre
 Customer Journey Analytics richiede set di dati da Adobe Experience Platform, pertanto la configurazione dello stream di dati/inoltro eventi richiede l’indirizzamento dei dati da parte del servizio Adobe Experience Platform dal centro dati regionale a quello in cui si trova l’istanza Adobe Experience Platform. Customer Journey Analytics e i relativi servizi e infrastrutture di supporto vengono distribuiti nella stessa istanza di Adobe Experience Platform.
 
 
-Per ulteriori informazioni sul processo di raccolta dei dati oltre la rete Edge di Adobe Experience Platform e i relativi centri dati nelle diverse aree geografiche, consulta la [Panoramica sulla raccolta dati](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html?lang=it).
+Per ulteriori informazioni sul processo di raccolta dei dati oltre la rete Edge di Adobe Experience Platform e i relativi centri dati nelle diverse aree geografiche, consulta la [Panoramica sulla raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/collection/home).
