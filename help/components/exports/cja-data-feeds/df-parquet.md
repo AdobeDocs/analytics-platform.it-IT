@@ -14,7 +14,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bd396cb4909d131ed60c97e7101cf85946555e38
+source-git-commit: f77f416ad958b28a8489d7a6eb13100ba699236e
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 0%
@@ -35,7 +35,9 @@ Il parquet è più adatto all’output di feed di dati rispetto a CSV, TSV o JSO
 
 * **Campi nidificati**: il parquet rappresenta in modo nativo campi nidificati, ad esempio un elenco di prodotti. CSV e TSV possono rappresentarli solo codificandoli in stringhe. Per ulteriori informazioni, vedere [Componenti evento secondario nei feed di dati](/help/components/exports/cja-data-feeds/df-sub-event.md).
 
-* **Esportazioni di grandi dimensioni**: Parquet riduce in genere i costi di archiviazione e trasferimento. Evita inoltre l’analisi del testo e l’indovinazione dei tipi durante il caricamento dei dati.
+* **Schema incorporato**: ogni file Parquet memorizza il proprio schema, inclusi i nomi delle colonne, i tipi di dati e le strutture nidificate. Poiché lo schema si trova nel file, il data warehouse può creare tabelle direttamente dai file. Non è necessario fornire un file di intestazione o una definizione di schema separati, né il data warehouse deve dedurre i tipi di dati.
+
+* **Esportazioni di grandi dimensioni**: Parquet riduce in genere i costi di archiviazione e trasferimento. Evita inoltre l’analisi del testo quando si caricano i dati.
 
 ## Confronto tra Parquet e CSV, TSV e JSON
 
@@ -49,7 +51,6 @@ La tabella seguente illustra le differenze tra Parquet, CSV, TSV e JSON:
 
 | Caratteristica | Parquet | CSV o TSV | JSON |
 | --- | --- | --- | --- |
-| **Dimensione file** | Il più piccolo. La compressione è incorporata nel file e gli strumenti decomprimono solo le colonne lette da una query. | Più grande. La compressione, ad esempio gzip, si applica all’intero file, pertanto gli strumenti devono decomprimere l’intero file per leggerlo e spesso non possono leggerlo in parallelo. | Più grande. I nomi dei campi vengono ripetuti in ogni record. |
 | **Velocità query** | Veloce. Una query legge solo le colonne necessarie. | Più lento. È necessario leggere e analizzare intere righe. | Più lento. È necessario leggere e analizzare intere righe. |
 | **Tipi di dati** | Digitato. Schema incorporato nel file. | Non digitato. Tutti i valori sono testo e i tipi vengono dedotti quando si caricano i dati. | È stato digitato liberamente. |
 | **Dati nidificati** | Gli array e gli oggetti sono supportati in modalità nativa. | Non supportato. Le matrici e gli oggetti devono essere appiattiti o codificati come stringhe. | Gli array e gli oggetti sono supportati in modalità nativa. |
