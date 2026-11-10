@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 930ce593b744f0afc0e97dda1acf48e009e9e30a
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 74%
+source-wordcount: '303'
+ht-degree: 71%
 ---
 # Impostazioni dei componenti di deduplicazione delle metriche {#metric-deduplication-component-settings}
 
@@ -54,6 +54,3 @@ La deduplica delle metriche consente di configurare una metrica in modo da conte
 
 {style="table-layout:auto"}
 
->[!CAUTION]
->
->La deduplica a livello di una _persona_ viene valutata in base a mesi completi nel fuso orario UTC. Se l’intervallo di reporting non comprende mesi completi, potrebbero essere escluse le prime o ultime istanze che si sono verificate entro il mese completo, ma oltre le date di reporting.

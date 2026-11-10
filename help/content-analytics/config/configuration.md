@@ -36,13 +36,11 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: a05097c6a462301be1f1e45e0c1aa3cfa0676ff6
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
-source-wordcount: 780
-ht-degree: 76%
-
+source-wordcount: '780'
+ht-degree: 67%
 ---
-
 
 # Configurare Content Analytics
 
@@ -73,9 +71,9 @@ Prima di configurare Content Analytics, accertati che siano soddisfatti i seguen
 * Se hai implementato il [Web SDK utilizzando JavaScript](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/install/library){target="_blank"} per la raccolta regolare di dati comportamentali, assicurati di utilizzare il nome predefinito <code>alloy</code> per la libreria JavaScript.
 * Hai il ruolo di amministratore di prodotto Customer Journey Analytics, con le autorizzazioni aggiuntive per gestire le connessioni e le visualizzazioni dati.
 * Se decidi di raccogliere esperienze Content Analytics, assicurati di impostare e aggiornare il controllo delle versioni di Content Analytics in base alle modifiche apportate alle pagine web.
-* È necessario disporre di [autorizzazioni per la raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/collection/permissions){target="_blank"}:
-  * [Autorizzazioni Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}.
-  * [Autorizzazioni di Experience Platform Data Collection](https://experienceleague.adobe.com/it/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* È necessario disporre di [autorizzazioni per la raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/admin/user-permissions){target="_blank"}:
+  * [Autorizzazioni Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/tags/admin/user-permissions#platform-permissions){target="_blank"}.
+  * [Autorizzazioni di Experience Platform Data Collection](https://experienceleague.adobe.com/it/docs/experience-platform/tags/admin/user-permissions#admin-console){target="_blank"}.
 * Hai considerato attentamente le seguenti importanti opzioni di configurazione:
 
   * Il sito è adatto per la generazione di rapporti sull’esperienza. Una corretta generazione di rapporti sull’esperienza è possibile solo quando sono soddisfatte le seguenti condizioni:
@@ -88,9 +86,9 @@ Prima di configurare Content Analytics, accertati che siano soddisfatti i seguen
 
 * Assicurati che le estensioni [Experience Platform Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) e [Experience Platform Identity per Edge Network](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) siano abilitate per l&#39;app mobile.
 * Hai il ruolo di amministratore di prodotto Customer Journey Analytics, con le autorizzazioni aggiuntive per gestire le connessioni e le visualizzazioni dati.
-* È necessario disporre di [autorizzazioni per la raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/collection/permissions){target="_blank"}:
-  * [Autorizzazioni Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}.
-  * [Autorizzazioni di Experience Platform Data Collection](https://experienceleague.adobe.com/it/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* È necessario disporre di [autorizzazioni per la raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/admin/user-permissions){target="_blank"}:
+  * [Autorizzazioni Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/tags/admin/user-permissions#platform-permissions){target="_blank"}.
+  * [Autorizzazioni di Experience Platform Data Collection](https://experienceleague.adobe.com/it/docs/experience-platform/tags/admin/user-permissions#admin-console){target="_blank"}.
 
 
 

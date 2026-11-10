@@ -55,9 +55,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 930ce593b744f0afc0e97dda1acf48e009e9e30a
 workflow-type: tm+mt
-source-wordcount: '7452'
+source-wordcount: '7485'
 ht-degree: 92%
 ---
 
@@ -69,6 +69,8 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 
 | Funzione | Descrizione |
 |---|---|
+| **Novembre 2026** | |
+| Ambito di deduplicazione delle metriche | È stata rimossa l&#39;avvertenza applicata quando l&#39;ambito di deduplicazione di una metrica [&#x200B; è stato impostato su Persona](/help/data-views/component-settings/metric-deduplication.md), in base alla quale la metrica è stata valutata per mesi di calendario completi. Per una metrica con un ambito di deduplicazione impostato su Persona, la deduplicazione ora si applica solo all’interno dell’intervallo di reporting selezionato. |
 | **Ottobre 2026** | |
 | Guardrail per le visualizzazioni dati | È stato aggiornato il [guadrail](/help/technotes/guardrails.md) per il numero massimo di visualizzazioni dati per un&#39;organizzazione (da 2.000 a 5.000). |
 | Aggiungere dati multimediali a pagamento con dati web | [Guida di utilizzo](/help/use-cases/cross-channel/paid-media-web.md) su come unire i dati multimediali a pagamento con i dati web. |
@@ -165,7 +167,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Media Collection: aggiornamenti del connettore di origine di Adobe per il nuovo XDM per Media Reporting | Il connettore di origine di Analytics mappa automaticamente i dati di contenuti multimediali in streaming in Adobe Analytics agli stessi campi utilizzati da Web SDK. Precedentemente, i dati erano mappati sia sulle vecchie che sulle nuove posizioni, ma solo la nuova posizione verrà utilizzata in futuro. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/xdm-var-mapping) |
 | **Febbraio 2025** |  |
 | Media Collection: aggiornamenti del connettore di origine di Adobe per il nuovo XDM per Media Reporting | Il connettore di origine di Analytics automaticamente [mappa i dati multimediali in streaming in Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/aep-edge/xdm-var-mapping?lang=en) agli stessi campi utilizzati da Web SDK. Precedentemente, i dati erano mappati sia sulle vecchie che sulle nuove posizioni, ma solo la nuova posizione verrà utilizzata in futuro. |
-| Estensione BI - supporto esteso | L’estensione BI di Customer Journey Analytics ora supporta [Looker, Jupyter Notebook e R Studio](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-usecases/data-views/bi-extension-usecases?lang=en). |
+| Estensione BI - supporto esteso | L’estensione BI di Customer Journey Analytics ora supporta [Looker, Jupyter Notebook e R Studio](/help/use-cases/data-views/bi-extension-usecases.md). |
 | **Gennaio 2025** |  |
 | Esperienza di utilizzo connessioni aggiornata | La scheda [Uso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-connections/manage-connections?lang=en#connections-usage) in Connessione fornisce ora visualizzazioni migliorate per questi tipi di righe segnalabili: dati di base, acquisiti e storici. Puoi anche visualizzare e suddividere i dati di utilizzo per connessione, set di dati, sandbox o tag. |
 | Metriche di utilizzo | È stata aggiornata la documentazione sull’interfaccia migliorata delle [metriche di utilizzo](/help/connections/manage-connections.md#usage). |

@@ -48,7 +48,7 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: cd12bd7f6943be6c58694af1374d32a1639d1578
+source-git-commit: 1523b216a48e0bedb57d2afcb5f95e8e2efdadda
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 2%
@@ -150,7 +150,7 @@ A partire da agosto 2025, per ciascuno dei metodi di rilevamento possono essere 
 </tr>
 <tr>
 <td><strong>Perplessità-Utente</strong></td>
-<td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Perplexity-User/1.0; +<a href="https://www.perplexity.ai/useragent" target="_blank" rel="noopener nofollow noreferrer">https://www.perplexity.ai/useragent</a>)</code></td>
+<td><code>Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Perplexity-User/1.0; +<a href="https://docs.perplexity.ai/guides/bots" target="_blank" rel="noopener nofollow noreferrer">https://www.perplexity.ai/useragent</a>)</code></td>
 <td><a href="https://docs.perplexity.ai/guides/bots" target="_blank" rel="noopener nofollow noreferrer">Carica le pagine quando gli utenti fanno clic sulle citazioni di Perplessità (ignora robots.txt)</a></td>
 </tr>
 <tr>
@@ -190,17 +190,17 @@ A partire da agosto 2025, per ciascuno dei metodi di rilevamento possono essere 
 </tr>
 <tr>
 <td><strong>Applebot-Extended</strong></td>
-<td><code>Mozilla/5.0 (compatible; Applebot-Extended/1.0; +<a href="https://www.apple.com/bot.html" target="_blank" rel="noopener nofollow noreferrer">http://www.apple.com/bot.html</a>)</code></td>
+<td><code>Mozilla/5.0 (compatible; Applebot-Extended/1.0; +<a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">http://www.apple.com/bot.html</a>)</code></td>
 <td><a href="https://support.apple.com/en-us/119829" target="_blank" rel="noopener nofollow noreferrer">crawler di Apple incentrato sull’intelligenza artificiale per i futuri modelli di intelligenza artificiale (opt-in)</a></td>
 </tr>
 <tr>
 <td><strong>Bytespider</strong></td>
-<td><code>Mozilla/5.0 (compatible; Bytespider/1.0; +<a href="https://www.bytedance.com/bot.html" target="_blank" rel="noopener nofollow noreferrer">http://www.bytedance.com/bot.html</a>)</code></td>
+<td><code>Mozilla/5.0 (compatible; Bytespider/1.0; +http://www.bytedance.com/bot.html)</code></td>
 <td>Raccolta di dati di IA di ByteDance per TikTok e altri servizi</td>
 </tr>
 <tr>
 <td><strong>Utente MistralAI</strong></td>
-<td><code>Mozilla/5.0 (compatible; MistralAI-User/1.0; +<a href="https://mistral.ai/bot" target="_blank" rel="noopener nofollow noreferrer">https://mistral.ai/bot</a>)</code></td>
+<td><code>Mozilla/5.0 (compatible; MistralAI-User/1.0; +<a href="https://docs.mistral.ai/robots" target="_blank" rel="noopener nofollow noreferrer">https://mistral.ai/bot</a>)</code></td>
 <td><a href="https://docs.mistral.ai/robots/" target="_blank" rel="noopener nofollow noreferrer">Recupero della citazione in tempo reale di Mistral per l’assistente di "Le Chat"</a></td>
 </tr>
 <tr>
