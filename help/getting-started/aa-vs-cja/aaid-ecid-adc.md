@@ -48,7 +48,7 @@ Nel connettore di origine di Analytics, AAID viene trasformato in `HEX(post_visi
 
 ## ECID
 
-ECID, talvolta indicato anche come MCID (Marketing Cloud ID), è un campo separato dell&#39;identificatore del dispositivo che viene popolato in Adobe Analytics quando Analytics viene implementato utilizzando il [Servizio ID visitatore](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/implementation-guides) (AppMeasurement) o il Web SDK. ECID è rappresentato dalla colonna `mcvisid` nei feed dati di Adobe Analytics.
+ECID, talvolta indicato anche come MCID (Marketing Cloud ID), è un campo separato dell&#39;identificatore del dispositivo che viene popolato in Adobe Analytics quando Analytics viene implementato utilizzando il [Servizio ID visitatore](https://experienceleague.adobe.com/it/docs/id-service/using/implementation/implementation-guides) (AppMeasurement) o il Web SDK. ECID è rappresentato dalla colonna `mcvisid` nei feed dati di Adobe Analytics.
 
 Se su un evento esiste un ECID, AAID può essere basato su ECID a seconda che il [periodo di tolleranza](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/grace-period.html?lang=it) di Analytics sia configurato o meno. Vedi anche: [Richieste Analytics ed ECID](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/legacy-analytics.html?lang=it).
 
