@@ -70,7 +70,7 @@ I seguenti aggiornamenti sono stati apportati alla documentazione di Customer Jo
 | Funzione | Descrizione |
 |---|---|
 | **Novembre 2026** | |
-| Ambito di deduplicazione delle metriche | È stata rimossa l&#39;avvertenza applicata quando l&#39;ambito di deduplicazione di una metrica [ è stato impostato su Persona](/help/data-views/component-settings/metric-deduplication.md), in base alla quale la metrica è stata valutata per mesi di calendario completi. Per una metrica con un ambito di deduplicazione impostato su Persona, la deduplicazione ora si applica solo all’interno dell’intervallo di reporting selezionato. |
+| Ambito di deduplicazione delle metriche | È stata rimossa l&#39;avvertenza applicata quando l&#39;ambito di deduplicazione di una metrica [&#x200B; è stato impostato su Persona](/help/data-views/component-settings/metric-deduplication.md), in base alla quale la metrica è stata valutata per mesi di calendario completi. Per una metrica con un ambito di deduplicazione impostato su Persona, la deduplicazione ora si applica solo all’interno dell’intervallo di reporting selezionato. |
 | **Ottobre 2026** | |
 | Guardrail per le visualizzazioni dati | È stato aggiornato il [guadrail](/help/technotes/guardrails.md) per il numero massimo di visualizzazioni dati per un&#39;organizzazione (da 2.000 a 5.000). |
 | Aggiungere dati multimediali a pagamento con dati web | [Guida di utilizzo](/help/use-cases/cross-channel/paid-media-web.md) su come unire i dati multimediali a pagamento con i dati web. |
