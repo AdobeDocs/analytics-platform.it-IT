@@ -70,10 +70,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c55e526968ca2f064f32c457ee112c07a0b10ff
+source-git-commit: a48eccd77887e94bce5c0ef18bd070877601ddbd
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 73%
+source-wordcount: '1773'
+ht-degree: 71%
 ---
 # Controllo degli accessi
 
@@ -195,7 +195,7 @@ La scheda **[!UICONTROL Autorizzazioni]** fa parte di ciascun profilo di prodott
 
 | Categoria | Autorizzazione | Descrizione |
 | --- | --- | ---|
-| [!UICONTROL Visualizzazioni dati] | *nome visualizzazione dati* | Se imposti l&#39;opzione **[!UICONTROL Inclusione automatica]** su **[!UICONTROL Attiva]**, gli utenti che fanno parte di questo profilo di prodotto possono visualizzare tutte le visualizzazioni di dati esistenti e appena create. Se questa impostazione è impostata su **[!UICONTROL Disattiva]**, puoi selezionare visualizzazioni dati specifiche a cui gli utenti hanno accesso. |
+| [!UICONTROL Visualizzazioni dati] | *nome visualizzazione dati* | Se si attiva l&#39;opzione **[!UICONTROL Inclusione automatica]** a **[!UICONTROL Il]**, gli utenti che fanno parte di questo profilo di prodotto potranno visualizzare tutte le visualizzazioni dati esistenti e appena create. Sono incluse le visualizzazioni dati create automaticamente da Adobe.<p>Se questa impostazione è impostata su **[!UICONTROL Disattiva]**, puoi selezionare visualizzazioni dati specifiche a cui gli utenti hanno accesso.  </p> |
 | [!UICONTROL Strumenti di reporting] | [!UICONTROL Accesso all’analisi guidata] | Consenti agli utenti di accedere all&#39;[Analisi guidata](/help/guided-analysis/overview.md). |
 | [!UICONTROL Strumenti di reporting] | [!UICONTROL Creazione metrica calcolata] | Consenti agli utenti di creare [metriche calcolate](/help/components/calc-metrics/calc-metr-overview.md). Gli utenti possono assegnare tag, condividere, eliminare e rinominare solo alle metriche calcolate create o a quelle condivise. |
 | [!UICONTROL Strumenti di reporting] | [!UICONTROL Creazione di segmenti] | Consenti agli utenti di creare [segmenti](/help/components/segments/seg-overview.md). Gli utenti possono assegnare tag, condividere, eliminare e rinominare solo ai segmenti creati o a quelli condivisi con loro. |
@@ -245,3 +245,6 @@ Supponiamo che tu voglia permettere agli utenti di accedere ai dati di un solo g
 Gli utenti che hanno accesso a una visualizzazione dati possono lavorare solo con le metriche e le dimensioni incluse dall’amministratore in questa visualizzazione dati. Gli amministratori possono utilizzare le impostazioni del componente [Includi/Escludi funzionalità](/help/data-views/component-settings/include-exclude-values.md) o [Bucket di valori](../data-views/component-settings/value-bucketing.md) in una visualizzazione dati per escludere o aggregare determinati valori di dimensione da una visualizzazione dati.
 
 Ad esempio: puoi creare una metrica denominata *Ipertensione* all&#39;interno di una visualizzazione dati, partendo da un componente che contiene i dati dei singoli pazienti del set di dati. La bucket dei valori consente di accedere solo ai valori a bucket, pertanto gli utenti dei dati non visualizzano i dati dei singoli pazienti.
+
+
+
