@@ -32,17 +32,17 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: 388edf58e0950e0d018ce08b2aa2d0a562252c5a
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 63%
+source-wordcount: '1373'
+ht-degree: 57%
 ---
 # Confrontare l’elaborazione dei dati tra Adobe Analytics e Customer Journey Analytics
 
 Spesso è necessario poter elaborare i dati prima che siano utili per il reporting. Puoi elaborarli in diverse fasi del percorso, dalla raccolta dei dati alla generazione del report o della visualizzazione.
 
-In Adobe Analytics la maggior parte dell’elaborazione dei dati avviene immediatamente dopo la raccolta dei dati. Funzionalità come regole VISTA, regole di elaborazione, regole di elaborazione dei canali di marketing sono disponibili per supportare questa **elaborazione al momento della raccolta**.
-I dati vengono quindi memorizzati e al momento del rapporto puoi applicare un’elaborazione aggiuntiva. Ad esempio, raggruppa per dimensioni, applica la segmentazione o seleziona un modello di attribuzione diverso. Questa **elaborazione al momento del rapporto** avviene istantaneamente.
+In Adobe Analytics, la maggior parte dell’elaborazione dei dati si verifica immediatamente dopo la raccolta ed è permanente dopo l’invio alla suite di rapporti. Funzionalità quali regole VISTA, regole di elaborazione e regole di elaborazione dei canali di marketing sono disponibili per supportare questa **elaborazione al momento della raccolta**.
+Al momento del reporting puoi applicare elaborazioni aggiuntive, ad esempio la suddivisione delle dimensioni, l’applicazione della segmentazione o la selezione di un modello di attribuzione diverso. Questa **elaborazione al momento del rapporto** avviene istantaneamente.
 
 In Adobe Analytics, l’elaborazione al momento del rapporto rappresenta in genere una quantità di elaborazione inferiore rispetto a quella che avviene al momento della raccolta.
 
@@ -52,11 +52,13 @@ Al contrario, Customer Journey Analytics è progettato per richiedere un’elabo
 
 ![Elaborazione al momento dell’elaborazione del rapporto di Customer Journey Analytics](../assets/cja-processing.png)
 
-Comprendere le differenze nell’elaborazione dei dati delle varie funzioni di reporting è utile per capire quali metriche sono disponibili e dove e perché possono differire.
+Comprendere le differenze nell’elaborazione dei dati delle varie funzioni di reporting aiuta a capire quali metriche sono disponibili e dove e perché possono differire.
 
 Ad esempio, *visite* è definito come una metrica in Adobe Analytics al momento dell&#39;elaborazione dei dati. E *sessioni* è calcolato come una metrica in Customer Journey Analytics al momento del reporting. Di conseguenza, le due metriche possono differire in base alle regole per la definizione della sessione in una visualizzazione dati di Customer Journey Analytics.
 
-Inoltre, visite e sessioni come metrica non sono disponibili nei set di dati creati dal connettore di origine di Analytics. E quindi ti richiederebbe di definire la sessione nella logica di query per eseguire confronti.
+Inoltre, Analytics identifica *Visitatori univoci* in base al [metodo di identificazione](https://experienceleague.adobe.com/it/docs/analytics/implementation/id/overview) disponibile al momento della raccolta dei dati. Customer Journey Analytics identifica *Persone* in base al campo configurato come ID persona nelle [impostazioni del set di dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings) della connessione.
+
+
 
 ## Terminologia {#terms}
 
