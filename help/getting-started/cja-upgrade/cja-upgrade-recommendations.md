@@ -45,14 +45,14 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 06501e010875aa3838948e7b977f85b508f66299
+source-git-commit: a46dfefa38e5c4d7f4daa51871b4de75bf5304e1
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 90%
+source-wordcount: '3941'
+ht-degree: 74%
 ---
 # Aggiornare da Adobe Analytics a Customer Journey Analytics
 
-Durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics, puoi seguire i [passaggi di aggiornamento consigliati](#recommended-upgrade-steps-for-most-organizations). Oppure puoi [generare dinamicamente i passaggi di aggiornamento](#dynamically-generate-upgrade-steps-for-your-organization) per le circostanze specifiche della tua organizzazione.
+Durante l’aggiornamento da Adobe Analytics a Customer Journey Analytics, puoi seguire i [passaggi di aggiornamento consigliati](#upgrade-process). Oppure puoi [generare dinamicamente i passaggi di aggiornamento](#dynamically-generate-upgrade-steps-for-your-organization) per le circostanze specifiche della tua organizzazione.
 
 ## Passaggi di aggiornamento consigliati per la maggior parte delle organizzazioni {#upgrade-process}
 
@@ -62,7 +62,7 @@ Quando hai raccolto un numero sufficiente di dati storici utilizzando Experience
 
 >[!NOTE]
 >
->Se i passaggi di aggiornamento descritti in questa sezione non sono funzionali per la tua organizzazione, utilizza la guida all’aggiornamento da Adobe Analytics a Customer Journey Analytics per generare in modo dinamico passaggi di aggiornamento personalizzati per la situazione specifica della tua organizzazione. Per accedere alla guida da Customer Journey Analytics, seleziona la scheda **[!UICONTROL Workspace]**, quindi seleziona **[!UICONTROL Esegui aggiornamento a Customer Journey Analytics]** nel pannello a sinistra. Segui le istruzioni visualizzate sullo schermo.)
+>Se i passaggi di aggiornamento descritti in questa sezione non sono pratici per la tua organizzazione, puoi [generare dinamicamente passaggi di aggiornamento](#dynamically-generate-upgrade-steps-for-your-organization) personalizzati per le circostanze specifiche della tua organizzazione.
 
 ### Processo di aggiornamento consigliato di alto livello {#high-level-upgade-process}
 
@@ -161,7 +161,13 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
    +++
 
-1. [Verifica che l’implementazione di Web SDK stia inviando dati a un set di dati](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md){target="_blank"}.
+1. Verifica che l’implementazione di Web SDK invii dati a un set di dati e che i dati siano corretti:
+
+   1. [Monitorare l&#39;acquisizione del set di dati nell&#39;interfaccia utente di Experience Platform](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md){target="_blank"} per verificare che i batch siano stati correttamente acquisiti nel set di dati.
+
+   1. Verifica che i valori nel set di dati siano quelli previsti. Puoi [visualizzare l&#39;anteprima del set di dati nell&#39;interfaccia utente di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"} oppure, se hai accesso ad Adobe CX Enterprise Coworker, puoi [convalidare i dati di Experience Platform con Coworker](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/data-validation-aep){target="_blank"} per verificare la presenza di valori Null e non corrispondenti al formato previsto in un campione di dati recenti.
+
+   1. (Condizionale) Se includi i dati multimediali in streaming, verifica che le sessioni multimediali stiano raggiungendo il set di dati. Puoi [controllare il set di dati per gli eventi multimediali in streaming](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/edge/reporting-schema#validate-your-implementation){target="_blank"} oppure, se hai accesso a Coworker, puoi [convalidare l&#39;implementazione di Streaming Media con Coworker](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/streaming-media-validation){target="_blank"} per controllare lo stream di dati, lo schema e la configurazione del set di dati e le sessioni multimediali recenti.
 
 1. [Crea una connessione in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-connection.md){target="_blank"}.
 
@@ -171,7 +177,9 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
 1. [Crea una visualizzazione dati in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md){target="_blank"}.
 
-1. [Verifica che i dati vengano trasmessi alla visualizzazione dati in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-validate.md){target="_blank"}.
+1. Verifica che i dati fluiscano nella visualizzazione dati in Customer Journey Analytics.
+
+   Puoi [controllare i dettagli di connessione in Customer Journey Analytics](/help/getting-started/cja-upgrade/cja-upgrade-validate.md){target="_blank"} oppure, se hai accesso a Coworker, [convalidare i dati di Customer Journey Analytics con Coworker](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/validate-dataset-quality-for-cja){target="_blank"} per vedere quali set di dati alimentano le connessioni e le visualizzazioni dati e per verificare la qualità dei dati in esse contenuti.
 
 1. Nell’ambiente Adobe Analytics, [utilizza l’inventario di Analytics](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/analytics-inventory){target="_blank"} per visualizzare una panoramica completa dell’ambiente Adobe Analytics, compreso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora.
 
@@ -187,7 +195,11 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
    Utilizza [il modello di funzione canali di marketing](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"} nei campi derivati per creare rapidamente un campo derivato per i canali di marketing.
 
-1. [Confronta i dati in Adobe Analytics dalla vecchia implementazione con i dati in Customer Journey Analytics dalla nuova implementazione](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/data-validation-aa-cja) e accertati di comprendere le eventuali differenze e il motivo per cui esistono.
+1. Confronta i dati in Adobe Analytics dalla vecchia implementazione con i dati in Customer Journey Analytics dalla nuova implementazione e assicurati di comprendere eventuali differenze e perché esistono.
+
+   Puoi creare lo stesso rapporto in Analysis Workspace in entrambi i prodotti e confrontare metriche e dimensioni chiave oppure, se hai accesso a Coworker, puoi [convalidare i dati con Coworker](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/data-validation-aa-cja){target="_blank"} per confrontare una suite di rapporti con una visualizzazione dati e individuare le cause probabili di eventuali differenze.
+
+   Per ulteriori informazioni sulle differenze tra i dati, vedere [Confrontare l&#39;elaborazione dei dati in Adobe Analytics e Customer Journey Analytics](/help/getting-started/aa-vs-cja/data-processing-comparisons.md){target="_blank"}.
 
 1. Acquisisci dati storici da Adobe Analytics utilizzando il connettore di origine Analytics:
 
@@ -225,9 +237,29 @@ Ogni passaggio fornisce una spiegazione di alto livello di un processo più dett
 
 ## Generare in modo dinamico i passaggi di aggiornamento per la tua organizzazione
 
-A seconda di diversi fattori, come la timeline e i vincoli delle risorse, i passaggi di aggiornamento consigliati descritti in [Comprendere i passaggi di aggiornamento consigliati](#recommended-upgrade-steps-for-most-organizations) potrebbero non essere pratici per la tua organizzazione. In questo caso, puoi generare dinamicamente i passaggi di aggiornamento per le circostanze specifiche della tua organizzazione. Il processo di generazione di questi passaggi varia a seconda che tu abbia già accesso a Customer Journey Analytics.
+A seconda di diversi fattori, come la timeline e i vincoli delle risorse, i passaggi di aggiornamento consigliati descritti in [Passaggi di aggiornamento consigliati per la maggior parte delle organizzazioni](#upgrade-process) potrebbero non essere pratici per la tua organizzazione. In questo caso, puoi generare dinamicamente i passaggi di aggiornamento per le circostanze specifiche della tua organizzazione.
 
-### Per la clientela che ha accesso a Customer Journey Analytics
+Ciascuno dei seguenti metodi genera gli stessi passaggi di aggiornamento personalizzati. Si differenziano in quanto aiuto si ottiene durante il completamento dei passaggi:
+
+* **Collaboratore (più semplice):** Rispondi alle domande sull&#39;implementazione e Coworker genera i passaggi di aggiornamento. Il collaboratore può quindi guidarti attraverso ogni passaggio e tenere traccia dei tuoi progressi.
+
+* **Guida all&#39;aggiornamento in Customer Journey Analytics:** Rispondi alle domande sull&#39;implementazione, quindi Customer Journey Analytics genera i passaggi per l&#39;aggiornamento. Tieni traccia di ogni passaggio da solo.
+
+* **Il team del tuo account Adobe:** Se non hai accesso a Coworker o Customer Journey Analytics, il tuo team dell&#39;account Adobe ti potrà guidare attraverso la Guida all&#39;aggiornamento e inviare i tuoi passaggi per l&#39;aggiornamento.
+
+### Usa Collaboratore per generare i passaggi di aggiornamento
+
+Se hai accesso a Collaboratore, puoi utilizzarlo per generare dinamicamente i passaggi di aggiornamento:
+
+1. In Coworker, avvia una nuova chat e chiedi a Coworker di aiutarti a pianificare l’aggiornamento da Adobe Analytics a Customer Journey Analytics. Per ulteriori informazioni, consulta [Pianificare l&#39;implementazione con Coworker](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/implementation-guide#adobe-analytics-to-customer-journey-analytics-upgrade){target="_blank"}.
+
+   Collaboratore pone domande sull’ambiente e sugli obiettivi, quindi genera un piano di aggiornamento specifico per la tua organizzazione. Il piano è disponibile come elenco di controllo interattivo che include proprietari, stime dell’impegno e dipendenze per ogni passaggio. Puoi scaricare il piano anche come file CSV, Jira, Workfront o Markdown.
+
+1. Segui i passaggi descritti nel piano per l’aggiornamento a Customer Journey Analytics.
+
+   Per tenere traccia dell’avanzamento di ogni passaggio, trasforma il piano in un progetto Collaboratore. Per ulteriori informazioni, vedere [Generare un elenco di controllo dell&#39;implementazione con Progetti coworking](https://experienceleague.adobe.com/it/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/intelligent-checklist){target="_blank"}.
+
+### Utilizza la Guida all’aggiornamento in Customer Journey Analytics per generare i passaggi di aggiornamento
 
 Per generare in modo dinamico i passaggi di aggiornamento per le circostanze specifiche dell’organizzazione:
 
@@ -239,7 +271,7 @@ Per generare in modo dinamico i passaggi di aggiornamento per le circostanze spe
 
 1. Segui le istruzioni dettagliate generate per l’aggiornamento a Customer Journey Analytics.
 
-### Per la clientela che non ha ancora accesso a Customer Journey Analytics
+### Collabora con il team del tuo account Adobe per generare i passaggi di aggiornamento
 
 Per generare in modo dinamico i passaggi di aggiornamento per le circostanze specifiche dell’organizzazione:
 
