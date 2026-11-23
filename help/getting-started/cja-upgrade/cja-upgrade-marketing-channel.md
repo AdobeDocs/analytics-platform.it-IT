@@ -76,7 +76,7 @@ Per utilizzare i canali di marketing in Customer Journey Analytics con Experienc
 
 Anche se i campi derivati offrono una logica di elaborazione basata su regole simile per i canali di marketing in Adobe Analytics, le differenze di architettura tra le due piattaforme possono causare risultati diversi tra le due piattaforme.
 
-* L&#39;impostazione [Ignora canale ultimo contatto](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-channels#override-best-practices) è supportata solo in Adobe Analytics
+* L&#39;impostazione [Ignora canale ultimo contatto](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-channels#override-best-practices) è supportata solo in Adobe Analytics
 
-* [La scadenza del canale di marketing](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/visitor-engagement) inizia dopo un periodo di inattività, mentre la scadenza della persistenza di Customer Journey Analytics si basa sulla creazione di istanze del valore.
+* [La scadenza del canale di marketing](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/visitor-engagement) inizia dopo un periodo di inattività, mentre la scadenza della persistenza di Customer Journey Analytics si basa sulla creazione di istanze del valore.
 
