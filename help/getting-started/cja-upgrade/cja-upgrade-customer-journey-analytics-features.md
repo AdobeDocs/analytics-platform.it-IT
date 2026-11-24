@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: 86424aaa6a40c7d3fb4f8ae6559f9ec2dfa4c6dd
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 94%
+ht-degree: 100%
 ---
 # Comprendere le funzioni univoche di Customer Journey Analytics {#feature-support-upgrade}
 
@@ -54,7 +54,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-stitch-datasets"
 >title="Unire gli hit da più set di dati"
->abstract="Se uno dei set di dati non condivide un identificatore principale (ad esempio ECID), puoi comunque unire tali dati utilizzando un’altra dimensione, ad esempio nome utente di accesso o indirizzo e-mail."
+>abstract="Se un set di dati non condivide un identificatore principale (ad esempio, un ECID), puoi comunque combinare i dati utilizzando un’altra dimensione, ad esempio il nome utente o l’indirizzo e-mail di accesso."
 
 <!-- markdownlint-enable MD034 -->
 
